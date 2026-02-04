@@ -1,0 +1,26 @@
+sources:
+  - name: "Hacker News"
+    type: "hacker_news"
+    category: "news"
+    enabled: true
+    status: "active"
+  
+  - name: "arXiv AI/ML"
+    type: "arxiv"
+    category: "news"
+    enabled: true
+    status: "active"
+  
+  - name: "OpenAI Blog"
+    type: "rss_atom"
+    category: "news"
+    url: "https://openai.com/blog/rss.xml"
+    enabled: true
+    status: "active"
+  
+  - name: "Google AI Blog"
+    type: "rss_atom"
+    category: "news"
+    url: "https://ai.googleblog.com/feeds/posts/default"
+    enabled: true
+    status: "active"
