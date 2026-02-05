@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/evolipia/radar/internal/config"
-	"github.com/evolipia/radar/internal/db"
-	"github.com/evolipia/radar/internal/http/handlers"
 	"github.com/gin-gonic/gin"
+	"github.com/hidatara-ds/evolipia-radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/http/handlers"
 )
 
 func main() {

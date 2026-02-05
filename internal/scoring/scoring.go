@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/evolipia/radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
 )
 
 type Weights struct {

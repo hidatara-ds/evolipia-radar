@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/evolipia/radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/config"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 

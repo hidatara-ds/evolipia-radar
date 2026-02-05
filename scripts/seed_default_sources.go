@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/evolipia/radar/internal/config"
-	"github.com/evolipia/radar/internal/db"
-	"github.com/evolipia/radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
 )
 
 func main() {

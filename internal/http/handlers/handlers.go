@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/evolipia/radar/internal/db"
-	"github.com/evolipia/radar/internal/models"
-	"github.com/evolipia/radar/internal/services"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/services"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )

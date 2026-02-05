@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/evolipia/radar/internal/db"
-	"github.com/evolipia/radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
 )
 
 type FeedService struct {

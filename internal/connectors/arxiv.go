@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/evolipia/radar/internal/config"
-	"github.com/evolipia/radar/internal/models"
-	"github.com/evolipia/radar/internal/normalizer"
+	"github.com/hidatara-ds/evolipia-radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/normalizer"
 )
 
 const arxivAPIBase = "http://export.arxiv.org/api/query"

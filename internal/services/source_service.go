@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/evolipia/radar/internal/config"
-	"github.com/evolipia/radar/internal/connectors"
-	"github.com/evolipia/radar/internal/db"
-	"github.com/evolipia/radar/internal/security"
+	"github.com/hidatara-ds/evolipia-radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/connectors"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/security"
 )
 
 type TestResult struct {

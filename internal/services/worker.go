@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/evolipia/radar/internal/config"
-	"github.com/evolipia/radar/internal/connectors"
-	"github.com/evolipia/radar/internal/db"
-	"github.com/evolipia/radar/internal/models"
-	"github.com/evolipia/radar/internal/normalizer"
-	"github.com/evolipia/radar/internal/scoring"
-	"github.com/evolipia/radar/internal/summarizer"
+	"github.com/hidatara-ds/evolipia-radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/connectors"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/normalizer"
+	"github.com/hidatara-ds/evolipia-radar/internal/scoring"
+	"github.com/hidatara-ds/evolipia-radar/internal/summarizer"
 )
 
 type Worker struct {

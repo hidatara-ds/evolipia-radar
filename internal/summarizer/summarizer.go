@@ -3,7 +3,7 @@ package summarizer
 import (
 	"strings"
 
-	"github.com/evolipia/radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
 )
 
 func GenerateExtractiveSummary(item *models.Item) *models.Summary {

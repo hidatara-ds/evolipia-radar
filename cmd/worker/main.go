@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/evolipia/radar/internal/config"
-	"github.com/evolipia/radar/internal/db"
-	"github.com/evolipia/radar/internal/services"
+	"github.com/hidatara-ds/evolipia-radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/services"
 	"github.com/robfig/cron/v3"
 )
 
