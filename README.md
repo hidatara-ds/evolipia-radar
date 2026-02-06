@@ -15,18 +15,69 @@ An AI/ML tech news aggregator backend that ranks and summarizes notable items fr
 
 ## Architecture
 
+### Components
+
 - **API Server** (`cmd/api`): Serves REST endpoints for feeds, search, and source management
 - **Worker** (`cmd/worker`): Scheduled ingestion, scoring, and summarization
 - **Database**: PostgreSQL with proper indexes for performance
 - **Scoring**: Configurable weights for popularity, relevance, credibility, and novelty
 
+### Design Principles
+
+This project follows **SOLID principles** and **Clean Architecture**:
+
+1. **Separation of Concerns**: Each layer has a single, well-defined responsibility
+   - HTTP handlers only handle HTTP concerns
+   - Services contain business logic
+   - Repositories handle data access
+   - DTOs separate data transfer from domain models
+
+2. **Single Responsibility Principle**: Each package/struct has one reason to change
+   - Handlers: HTTP request/response handling
+   - Services: Business logic orchestration
+   - Repositories: Data persistence
+   - Connectors: External data fetching
+
+3. **Dependency Inversion**: High-level modules don't depend on low-level modules
+   - Handlers depend on Services (abstraction)
+   - Services depend on Repositories (abstraction)
+   - No direct database access from handlers
+
+4. **Configuration Management**: Hardcoded values moved to config structures
+   - Scoring configs in `internal/scoring/config.go`
+   - Summarizer configs in `internal/summarizer/config.go`
+   - Application configs in `internal/config/`
+
 ## Quick Start
 
 ### Prerequisites
 
-- Go 1.21+
+- Go 1.21+ (tested with Go 1.24.1)
 - PostgreSQL 15+
 - Docker & Docker Compose (optional)
+- [migrate](https://github.com/golang-migrate/migrate) CLI tool (for database migrations)
+
+### Dependencies
+
+This project uses Go modules. Dependencies are managed in `go.mod` and `go.sum`.
+
+**Main dependencies:**
+- `github.com/gin-gonic/gin` - HTTP web framework
+- `github.com/jackc/pgx/v5` - PostgreSQL driver
+- `github.com/google/uuid` - UUID generation
+- `github.com/robfig/cron/v3` - Cron job scheduling
+
+**Install dependencies:**
+```bash
+go mod download
+# or
+go mod tidy
+```
+
+**View all dependencies:**
+```bash
+go list -m all
+```
 
 ### Local Development
 
@@ -163,19 +214,31 @@ docker run -d --name radar-worker --network host \
 │   └── worker/       # Worker entry point
 ├── internal/
 │   ├── config/       # Configuration management
-│   ├── db/           # Database connection and repositories
-│   ├── models/       # Data models
-│   ├── http/         # HTTP handlers
-│   ├── services/     # Business logic services
+│   ├── db/           # Database connection and repositories (data access layer)
+│   ├── dto/          # Data Transfer Objects (DTOs for API/connector boundaries)
+│   ├── models/       # Domain models (pure data structures)
+│   ├── http/         # HTTP handlers (presentation layer)
+│   │   └── handlers/ # HTTP request handlers
+│   ├── services/     # Business logic services (application layer)
 │   ├── connectors/   # Source connectors (HN, RSS, arXiv, JSON API)
 │   ├── scoring/      # Ranking and scoring algorithms
+│   │   └── config.go # Scoring configuration (credibility, relevance keywords)
 │   ├── summarizer/   # Extractive summarization
+│   │   └── config.go # Summarizer configuration (topic keywords)
 │   ├── normalizer/   # URL normalization and deduplication
-│   └── security/     # SSRF protection
+│   └── security/      # SSRF protection
 ├── migrations/       # Database migrations
 ├── configs/          # Configuration files
 └── docker-compose.yml
 ```
+
+### Architecture Layers
+
+- **Presentation Layer** (`http/handlers`): HTTP request/response handling, only uses services
+- **Application Layer** (`services`): Business logic orchestration, uses repositories and domain services
+- **Domain Layer** (`models`, `dto`): Domain models and data transfer objects
+- **Data Access Layer** (`db`): Repository pattern for database operations
+- **Infrastructure Layer** (`connectors`, `scoring`, `summarizer`, `normalizer`, `security`): External integrations and utilities
 
 ## Scoring Formula
 
@@ -196,6 +259,22 @@ Default weights:
 - **Timeouts**: Configurable request timeouts (8s default)
 
 ## Development
+
+### Setup Development Environment
+
+1. **Install Go dependencies:**
+   ```bash
+   go mod download
+   ```
+
+2. **Install development tools** (optional but recommended):
+   ```bash
+   # Install golangci-lint
+   go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
+   
+   # Install migrate CLI
+   go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+   ```
 
 ### Running Tests
 ```bash
@@ -218,6 +297,17 @@ make migrate-up
 # Down
 make migrate-down
 ```
+
+### Code Organization Principles
+
+This project follows **Separation of Concerns** and **Single Responsibility Principle**:
+
+- **DTOs** (`internal/dto`): Data Transfer Objects for API boundaries and external connectors
+- **Models** (`internal/models`): Pure domain models representing database entities
+- **Repositories** (`internal/db`): Data access layer, no business logic
+- **Services** (`internal/services`): Business logic layer, orchestrates repositories and domain services
+- **Handlers** (`internal/http/handlers`): HTTP layer, only uses services (no direct repository access)
+- **Configs**: Hardcoded configurations moved to dedicated config files for maintainability
 
 ## License
 
