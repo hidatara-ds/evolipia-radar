@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
-	"github.com/hidatara-ds/evolipia-radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/dto"
 	"github.com/hidatara-ds/evolipia-radar/internal/normalizer"
 )
 
@@ -60,7 +60,7 @@ func fetchWithLimits(ctx context.Context, url string, cfg *config.Config) ([]byt
 	return body, nil
 }
 
-func FetchRSSAtom(ctx context.Context, feedURL string, cfg *config.Config) ([]models.ContentItem, error) {
+func FetchRSSAtom(ctx context.Context, feedURL string, cfg *config.Config) ([]dto.ContentItem, error) {
 	body, err := fetchWithLimits(ctx, feedURL, cfg)
 	if err != nil {
 		return nil, err
@@ -71,11 +71,11 @@ func FetchRSSAtom(ctx context.Context, feedURL string, cfg *config.Config) ([]mo
 	return items, nil
 }
 
-func parseRSSAtom(body []byte) []models.ContentItem {
+func parseRSSAtom(body []byte) []dto.ContentItem {
 	// MVP: Simple XML parsing
 	// In production, use a proper RSS/Atom library
 	content := string(body)
-	var items []models.ContentItem
+	var items []dto.ContentItem
 
 	// Very basic RSS parsing (item tags)
 	itemStart := "<item>"
@@ -85,8 +85,8 @@ func parseRSSAtom(body []byte) []models.ContentItem {
 	entryStart := "<entry>"
 	entryEnd := "</entry>"
 
-	parseItem := func(itemContent string) models.ContentItem {
-		item := models.ContentItem{
+	parseItem := func(itemContent string) dto.ContentItem {
+		item := dto.ContentItem{
 			Category: "news",
 			Tags:     []string{},
 		}
@@ -205,7 +205,7 @@ func parseRSSAtom(body []byte) []models.ContentItem {
 	return items
 }
 
-func FetchJSONAPI(ctx context.Context, apiURL string, mapping map[string]interface{}, cfg *config.Config) ([]models.ContentItem, error) {
+func FetchJSONAPI(ctx context.Context, apiURL string, mapping map[string]interface{}, cfg *config.Config) ([]dto.ContentItem, error) {
 	body, err := fetchWithLimits(ctx, apiURL, cfg)
 	if err != nil {
 		return nil, err
@@ -232,14 +232,14 @@ func FetchJSONAPI(ctx context.Context, apiURL string, mapping map[string]interfa
 	publishedAtPath := getString(mapping, "published_at_path", "published_at")
 	summaryPath := getString(mapping, "summary_path", "")
 
-	var items []models.ContentItem
+	var items []dto.ContentItem
 	for _, itemRaw := range itemsSlice {
 		itemMap, ok := itemRaw.(map[string]interface{})
 		if !ok {
 			continue
 		}
 
-		item := models.ContentItem{
+		item := dto.ContentItem{
 			Category: "news",
 			Tags:     []string{},
 		}

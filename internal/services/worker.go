@@ -9,6 +9,7 @@ import (
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
 	"github.com/hidatara-ds/evolipia-radar/internal/connectors"
 	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/dto"
 	"github.com/hidatara-ds/evolipia-radar/internal/models"
 	"github.com/hidatara-ds/evolipia-radar/internal/normalizer"
 	"github.com/hidatara-ds/evolipia-radar/internal/scoring"
@@ -67,7 +68,7 @@ func (w *Worker) processSource(ctx context.Context, source models.Source) error 
 		ItemsInserted: 0,
 	}
 
-	var items []models.ContentItem
+	var items []dto.ContentItem
 	var err error
 
 	// Fetch items based on source type
@@ -128,7 +129,7 @@ func (w *Worker) processSource(ctx context.Context, source models.Source) error 
 	return nil
 }
 
-func (w *Worker) processItem(ctx context.Context, source models.Source, contentItem models.ContentItem) error {
+func (w *Worker) processItem(ctx context.Context, source models.Source, contentItem dto.ContentItem) error {
 	// Normalize URL and compute content hash
 	normalizedURL, err := normalizer.NormalizeURL(contentItem.URL)
 	if err != nil {
@@ -190,40 +191,10 @@ func (w *Worker) processItem(ctx context.Context, source models.Source, contentI
 }
 
 func (w *Worker) computeScores(ctx context.Context) error {
-	// Get all items without scores or items that need recalculation
-	// For MVP, we'll compute scores for all items
-	// In production, you'd want to batch this or only compute for new items
-
-	// This is a simplified version - in production you'd want to batch process
-	// For now, we'll compute scores when items are fetched
-
 	// Get items from the last 7 days that need scoring
-	rows, err := w.db.Pool.Query(ctx, `
-		SELECT i.id, i.source_id, i.title, i.url, i.published_at, i.content_hash,
-		       i.domain, i.category, i.raw_excerpt, i.created_at
-		FROM items i
-		LEFT JOIN scores s ON s.item_id = i.id
-		WHERE i.published_at >= now() - interval '7 days'
-		AND (s.item_id IS NULL OR s.computed_at < i.created_at)
-		LIMIT 1000
-	`)
+	items, err := w.itemRepo.GetItemsNeedingScoring(ctx, 7, 1000)
 	if err != nil {
-		return err
-	}
-	defer rows.Close()
-
-	var items []models.Item
-	for rows.Next() {
-		var item models.Item
-		err := rows.Scan(
-			&item.ID, &item.SourceID, &item.Title, &item.URL, &item.PublishedAt,
-			&item.ContentHash, &item.Domain, &item.Category, &item.RawExcerpt,
-			&item.CreatedAt,
-		)
-		if err != nil {
-			continue
-		}
-		items = append(items, item)
+		return fmt.Errorf("failed to get items needing scoring: %w", err)
 	}
 
 	log.Printf("Computing scores for %d items", len(items))

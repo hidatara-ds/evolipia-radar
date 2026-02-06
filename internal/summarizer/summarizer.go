@@ -98,22 +98,14 @@ func generateWhyItMatters(item *models.Item, text string) string {
 }
 
 func extractTags(item *models.Item, text string) []string {
+	return extractTagsWithConfig(item, text, DefaultTopicKeywordsConfig())
+}
+
+func extractTagsWithConfig(item *models.Item, text string, config TopicKeywordsConfig) []string {
 	textLower := strings.ToLower(text)
 	var tags []string
 
-	// Topic taxonomy
-	topicKeywords := map[string][]string{
-		"llm":          {"llm", "transformer", "gpt", "gemini", "llama", "mistral", "language model"},
-		"nlp":          {"nlp", "natural language", "text processing", "sentiment"},
-		"computer_vision": {"computer vision", "cv", "yolo", "segmentation", "detection", "opencv"},
-		"mlops":        {"mlops", "deployment", "monitoring", "drift", "kubernetes", "kubeflow"},
-		"data":         {"data", "dataset", "data pipeline", "etl"},
-		"cloud":        {"aws", "gcp", "azure", "cloud", "s3", "lambda"},
-		"security":     {"security", "privacy", "encryption", "adversarial"},
-		"general_ai":   {"ai", "artificial intelligence", "machine learning", "deep learning"},
-	}
-
-	for topic, keywords := range topicKeywords {
+	for topic, keywords := range config.Keywords {
 		for _, kw := range keywords {
 			if strings.Contains(textLower, kw) {
 				tags = append(tags, topic)

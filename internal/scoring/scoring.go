@@ -21,20 +21,8 @@ var DefaultWeights = Weights{
 	W4: 0.05,
 }
 
-var credibilityWhitelist = map[string]bool{
-	"openai.com":           true,
-	"ai.googleblog.com":    true,
-	"deepmind.google":      true,
-	"arxiv.org":            true,
-	"acm.org":              true,
-	"ieee.org":             true,
-	"github.com":           true,
-	"docs.github.com":      true,
-}
-
-var credibilityBlacklist = map[string]bool{
-	"medium.com":           true,
-}
+var defaultCredibilityConfig = DefaultCredibilityConfig()
+var defaultRelevanceKeywords = DefaultRelevanceKeywords()
 
 func ComputeScore(item *models.Item, signal *models.Signal, summary *models.Summary, weights Weights) *models.Score {
 	hot := computeHotScore(signal, item.PublishedAt)
@@ -87,6 +75,10 @@ func computeHotScore(signal *models.Signal, publishedAt time.Time) float64 {
 }
 
 func computeRelevanceScore(item *models.Item, summary *models.Summary) float64 {
+	return computeRelevanceScoreWithConfig(item, summary, defaultRelevanceKeywords)
+}
+
+func computeRelevanceScoreWithConfig(item *models.Item, summary *models.Summary, keywords RelevanceKeywords) float64 {
 	// Check title and excerpt for AI/ML keywords
 	text := item.Title
 	if item.RawExcerpt != nil {
@@ -98,28 +90,25 @@ func computeRelevanceScore(item *models.Item, summary *models.Summary) float64 {
 	matches := 0
 
 	// LLM keywords
-	llmKeywords := []string{"llm", "transformer", "rag", "prompt", "inference", "fine-tune", "gpt", "gemini", "llama", "mistral"}
-	for _, kw := range llmKeywords {
+	for _, kw := range keywords.LLM {
 		if contains(textLower, kw) {
-			score += 0.3
+			score += keywords.Weights["llm"]
 			matches++
 		}
 	}
 
 	// MLOps keywords
-	mlopsKeywords := []string{"mlops", "deployment", "monitoring", "drift", "kubernetes", "kubeflow", "airflow", "feature store"}
-	for _, kw := range mlopsKeywords {
+	for _, kw := range keywords.MLOps {
 		if contains(textLower, kw) {
-			score += 0.25
+			score += keywords.Weights["mlops"]
 			matches++
 		}
 	}
 
 	// CV keywords
-	cvKeywords := []string{"computer vision", "yolo", "segmentation", "detection", "opencv"}
-	for _, kw := range cvKeywords {
+	for _, kw := range keywords.CV {
 		if contains(textLower, kw) {
-			score += 0.2
+			score += keywords.Weights["cv"]
 			matches++
 		}
 	}
@@ -129,7 +118,7 @@ func computeRelevanceScore(item *models.Item, summary *models.Summary) float64 {
 		for _, tag := range summary.Tags {
 			tagLower := toLower(tag)
 			if contains(tagLower, "llm") || contains(tagLower, "ml") || contains(tagLower, "ai") {
-				score += 0.2
+				score += keywords.Weights["tag"]
 				matches++
 			}
 		}
@@ -149,10 +138,14 @@ func computeRelevanceScore(item *models.Item, summary *models.Summary) float64 {
 }
 
 func computeCredibilityScore(domain string) float64 {
-	if credibilityWhitelist[domain] {
+	return computeCredibilityScoreWithConfig(domain, defaultCredibilityConfig)
+}
+
+func computeCredibilityScoreWithConfig(domain string, config CredibilityConfig) float64 {
+	if config.Whitelist[domain] {
 		return 1.0
 	}
-	if credibilityBlacklist[domain] {
+	if config.Blacklist[domain] {
 		return 0.2
 	}
 	return 0.5 // Baseline

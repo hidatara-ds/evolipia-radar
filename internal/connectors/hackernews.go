@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
-	"github.com/hidatara-ds/evolipia-radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/dto"
 	"github.com/hidatara-ds/evolipia-radar/internal/normalizer"
 )
 
 const hnAPIBase = "https://hacker-news.firebaseio.com/v0"
 
-func FetchHackerNews(ctx context.Context, cfg *config.Config) ([]models.ContentItem, error) {
+func FetchHackerNews(ctx context.Context, cfg *config.Config) ([]dto.ContentItem, error) {
 	// Fetch top stories
 	topStoriesURL := hnAPIBase + "/topstories.json"
 	body, err := fetchWithLimits(ctx, topStoriesURL, cfg)
@@ -33,7 +33,7 @@ func FetchHackerNews(ctx context.Context, cfg *config.Config) ([]models.ContentI
 		limit = len(storyIDs)
 	}
 
-	var items []models.ContentItem
+	var items []dto.ContentItem
 	for i := 0; i < limit; i++ {
 		storyID := storyIDs[i]
 		item, err := fetchHNItem(ctx, storyID, cfg)
@@ -48,7 +48,7 @@ func FetchHackerNews(ctx context.Context, cfg *config.Config) ([]models.ContentI
 	return items, nil
 }
 
-func fetchHNItem(ctx context.Context, id int, cfg *config.Config) (*models.ContentItem, error) {
+func fetchHNItem(ctx context.Context, id int, cfg *config.Config) (*dto.ContentItem, error) {
 	itemURL := fmt.Sprintf("%s/item/%d.json", hnAPIBase, id)
 	body, err := fetchWithLimits(ctx, itemURL, cfg)
 	if err != nil {
@@ -83,7 +83,7 @@ func fetchHNItem(ctx context.Context, id int, cfg *config.Config) (*models.Conte
 		return nil, err
 	}
 
-	item := &models.ContentItem{
+	item := &dto.ContentItem{
 		Title:       hnItem.Title,
 		URL:         hnItem.URL,
 		PublishedAt: time.Unix(hnItem.Time, 0),

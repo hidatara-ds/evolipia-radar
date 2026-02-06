@@ -130,11 +130,7 @@ func (r *SourceRepository) UpdateTestStatus(ctx context.Context, id uuid.UUID, s
 	return err
 }
 
-func (r *SourceRepository) SetEnabled(ctx context.Context, id uuid.UUID, enabled bool) error {
-	status := "pending"
-	if enabled {
-		status = "active"
-	}
+func (r *SourceRepository) SetEnabled(ctx context.Context, id uuid.UUID, enabled bool, status string) error {
 	_, err := r.db.Pool.Exec(ctx, `
 		UPDATE sources
 		SET enabled = $1, status = $2, updated_at = now()
@@ -339,6 +335,38 @@ func (r *ItemRepository) Search(ctx context.Context, query string, topic *string
 		items = append(items, item)
 	}
 	return items, total, rows.Err()
+}
+
+// GetItemsNeedingScoring returns items that need score computation or recalculation
+func (r *ItemRepository) GetItemsNeedingScoring(ctx context.Context, days int, limit int) ([]models.Item, error) {
+	rows, err := r.db.Pool.Query(ctx, `
+		SELECT i.id, i.source_id, i.title, i.url, i.published_at, i.content_hash,
+		       i.domain, i.category, i.raw_excerpt, i.created_at
+		FROM items i
+		LEFT JOIN scores s ON s.item_id = i.id
+		WHERE i.published_at >= now() - interval '1 day' * $1
+		AND (s.item_id IS NULL OR s.computed_at < i.created_at)
+		LIMIT $2
+	`, days, limit)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var items []models.Item
+	for rows.Next() {
+		var item models.Item
+		err := rows.Scan(
+			&item.ID, &item.SourceID, &item.Title, &item.URL, &item.PublishedAt,
+			&item.ContentHash, &item.Domain, &item.Category, &item.RawExcerpt,
+			&item.CreatedAt,
+		)
+		if err != nil {
+			continue
+		}
+		items = append(items, item)
+	}
+	return items, rows.Err()
 }
 
 type SignalRepository struct {

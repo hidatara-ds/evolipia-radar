@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
-	"github.com/hidatara-ds/evolipia-radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/dto"
 	"github.com/hidatara-ds/evolipia-radar/internal/normalizer"
 )
 
 const arxivAPIBase = "http://export.arxiv.org/api/query"
 
-func FetchArxiv(ctx context.Context, query string, cfg *config.Config) ([]models.ContentItem, error) {
+func FetchArxiv(ctx context.Context, query string, cfg *config.Config) ([]dto.ContentItem, error) {
 	// Build query URL
 	params := url.Values{}
 	params.Set("search_query", query)
@@ -34,9 +34,9 @@ func FetchArxiv(ctx context.Context, query string, cfg *config.Config) ([]models
 		return nil, fmt.Errorf("failed to parse arXiv feed: %w", err)
 	}
 
-	var items []models.ContentItem
+	var items []dto.ContentItem
 	for _, entry := range feed.Entries {
-		item := models.ContentItem{
+		item := dto.ContentItem{
 			Title:       entry.Title,
 			URL:         entry.ID,
 			PublishedAt: entry.Published,

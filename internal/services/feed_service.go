@@ -4,6 +4,7 @@ import (
 	"context"
 	"time"
 
+	"github.com/google/uuid"
 	"github.com/hidatara-ds/evolipia-radar/internal/db"
 	"github.com/hidatara-ds/evolipia-radar/internal/models"
 )
@@ -132,4 +133,38 @@ func (s *FeedService) BuildRisingResponse(ctx context.Context, items []models.It
 		"window": window.String(),
 		"items":  responseItems,
 	}
+}
+
+// GetTopDaily retrieves top daily items
+func (s *FeedService) GetTopDaily(ctx context.Context, date time.Time, topic *string, limit int) ([]models.Item, error) {
+	return s.itemRepo.GetTopDaily(ctx, date, topic, limit)
+}
+
+// GetRising retrieves rising items
+func (s *FeedService) GetRising(ctx context.Context, window time.Duration, limit int) ([]models.Item, error) {
+	return s.itemRepo.GetRising(ctx, window, limit)
+}
+
+// GetItemByID retrieves an item by ID
+func (s *FeedService) GetItemByID(ctx context.Context, id uuid.UUID) (*models.Item, error) {
+	return s.itemRepo.GetByID(ctx, id)
+}
+
+// SearchItems searches for items
+func (s *FeedService) SearchItems(ctx context.Context, query string, topic *string, limit, offset int) ([]models.Item, int, error) {
+	return s.itemRepo.Search(ctx, query, topic, limit, offset)
+}
+
+// GetItemWithDetails retrieves an item with all related data (signals, scores, summary)
+func (s *FeedService) GetItemWithDetails(ctx context.Context, itemID uuid.UUID) (*models.Item, *models.Signal, *models.Score, *models.Summary, error) {
+	item, err := s.itemRepo.GetByID(ctx, itemID)
+	if err != nil {
+		return nil, nil, nil, nil, err
+	}
+
+	signal, _ := s.signalRepo.GetLatestByItemID(ctx, itemID)
+	score, _ := s.scoreRepo.GetByItemID(ctx, itemID)
+	summary, _ := s.summaryRepo.GetByItemID(ctx, itemID)
+
+	return item, signal, score, summary, nil
 }

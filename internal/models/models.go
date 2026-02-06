@@ -72,15 +72,3 @@ type FetchRun struct {
 	ItemsInserted int       `json:"items_inserted"`
 }
 
-type ContentItem struct {
-	Title       string
-	URL         string
-	PublishedAt time.Time
-	Excerpt     string
-	Domain      string
-	Category    string
-	Points      *int
-	Comments    *int
-	RankPos     *int
-	Tags        []string
-}

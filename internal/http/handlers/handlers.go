@@ -6,7 +6,6 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hidatara-ds/evolipia-radar/internal/db"
 	"github.com/hidatara-ds/evolipia-radar/internal/models"
 	"github.com/hidatara-ds/evolipia-radar/internal/services"
 	"github.com/gin-gonic/gin"
@@ -14,30 +13,12 @@ import (
 )
 
 type Handlers struct {
-	db            *db.DB
-	sourceRepo    *db.SourceRepository
-	itemRepo      *db.ItemRepository
-	signalRepo    *db.SignalRepository
-	scoreRepo     *db.ScoreRepository
-	summaryRepo   *db.SummaryRepository
 	sourceService *services.SourceService
 	feedService   *services.FeedService
 }
 
 func New(database *db.DB) *Handlers {
-	sourceRepo := db.NewSourceRepository(database)
-	itemRepo := db.NewItemRepository(database)
-	signalRepo := db.NewSignalRepository(database)
-	scoreRepo := db.NewScoreRepository(database)
-	summaryRepo := db.NewSummaryRepository(database)
-
 	return &Handlers{
-		db:            database,
-		sourceRepo:    sourceRepo,
-		itemRepo:      itemRepo,
-		signalRepo:    signalRepo,
-		scoreRepo:     scoreRepo,
-		summaryRepo:   summaryRepo,
 		sourceService: services.NewSourceService(database),
 		feedService:   services.NewFeedService(database),
 	}
@@ -66,7 +47,7 @@ func (h *Handlers) GetFeed(c *gin.Context) {
 		topicPtr = &topic
 	}
 
-	items, err := h.itemRepo.GetTopDaily(c.Request.Context(), date, topicPtr, 20)
+	items, err := h.feedService.GetTopDaily(c.Request.Context(), date, topicPtr, 20)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
@@ -84,7 +65,7 @@ func (h *Handlers) GetRising(c *gin.Context) {
 		return
 	}
 
-	items, err := h.itemRepo.GetRising(c.Request.Context(), window, 20)
+	items, err := h.feedService.GetRising(c.Request.Context(), window, 20)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
@@ -102,21 +83,17 @@ func (h *Handlers) GetItem(c *gin.Context) {
 		return
 	}
 
-	item, err := h.itemRepo.GetByID(c.Request.Context(), id)
+	item, signal, score, summary, err := h.feedService.GetItemWithDetails(c.Request.Context(), id)
 	if err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"error": "item not found"})
 		return
 	}
 
-	source, err := h.sourceRepo.GetByID(c.Request.Context(), item.SourceID)
+	source, err := h.sourceService.GetSourceByID(c.Request.Context(), item.SourceID)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
-
-	signal, _ := h.signalRepo.GetLatestByItemID(c.Request.Context(), item.ID)
-	score, _ := h.scoreRepo.GetByItemID(c.Request.Context(), item.ID)
-	summary, _ := h.summaryRepo.GetByItemID(c.Request.Context(), item.ID)
 
 	response := gin.H{
 		"id":           item.ID,
@@ -191,7 +168,7 @@ func (h *Handlers) Search(c *gin.Context) {
 		}
 	}
 
-	items, total, err := h.itemRepo.Search(c.Request.Context(), query, topicPtr, limit, offset)
+	items, total, err := h.feedService.SearchItems(c.Request.Context(), query, topicPtr, limit, offset)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
@@ -199,8 +176,7 @@ func (h *Handlers) Search(c *gin.Context) {
 
 	responseItems := make([]gin.H, 0, len(items))
 	for _, item := range items {
-		score, _ := h.scoreRepo.GetByItemID(c.Request.Context(), item.ID)
-		summary, _ := h.summaryRepo.GetByItemID(c.Request.Context(), item.ID)
+		_, _, score, summary, _ := h.feedService.GetItemWithDetails(c.Request.Context(), item.ID)
 
 		itemResp := gin.H{
 			"id":           item.ID,
@@ -231,7 +207,7 @@ func (h *Handlers) Search(c *gin.Context) {
 }
 
 func (h *Handlers) ListSources(c *gin.Context) {
-	sources, err := h.sourceRepo.List(c.Request.Context())
+	sources, err := h.sourceService.ListSources(c.Request.Context())
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
@@ -282,7 +258,7 @@ func (h *Handlers) CreateSource(c *gin.Context) {
 		source.MappingJSON = req.MappingJSON
 	}
 
-	if err := h.sourceRepo.Create(c.Request.Context(), source); err != nil {
+	if err := h.sourceService.CreateSource(c.Request.Context(), source); err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
@@ -341,12 +317,12 @@ func (h *Handlers) EnableSource(c *gin.Context) {
 		return
 	}
 
-	if err := h.sourceRepo.SetEnabled(c.Request.Context(), id, req.Enabled); err != nil {
+	if err := h.sourceService.SetEnabled(c.Request.Context(), id, req.Enabled); err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
 
-	source, err := h.sourceRepo.GetByID(c.Request.Context(), id)
+	source, err := h.sourceService.GetSourceByID(c.Request.Context(), id)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
