@@ -1,0 +1,721 @@
+openapi: 3.0.3
+info:
+  title: evolipia-radar API
+  version: 2.0.0
+  description: |
+    AI/ML tech news aggregator backend API.
+    
+    ## Authentication
+    Most endpoints require JWT authentication. Include the access token in the Authorization header:
+    ```
+    Authorization: Bearer <access_token>
+    ```
+    
+    ## Rate Limiting
+    - Auth endpoints: 5 requests/minute
+    - Other endpoints: 100 requests/hour per user
+    - Per-domain rate limiting: 100 requests/hour
+    
+servers:
+  - url: https://api.evolipia-radar.com/v1
+    description: Production
+  - url: http://localhost:8080/v1
+    description: Local development
+
+tags:
+  - name: Authentication
+    description: User authentication and authorization
+  - name: Users
+    description: User profiles and preferences
+  - name: Feed
+    description: News feed endpoints
+  - name: Bookmarks
+    description: Bookmark management
+  - name: History
+    description: Read history
+  - name: Feedback
+    description: User feedback on items
+  - name: Digests
+    description: Daily/weekly digest subscriptions
+  - name: Alerts
+    description: Keyword alert subscriptions
+  - name: Items
+    description: Individual item details
+  - name: Sources
+    description: Source management (admin)
+
+paths:
+  /auth/register:
+    post:
+      tags: [Authentication]
+      summary: Register new user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email:
+                  type: string
+                  format: email
+                password:
+                  type: string
+                  minLength: 8
+                timezone:
+                  type: string
+                  default: UTC
+                  example: America/New_York
+                language:
+                  type: string
+                  default: en
+      responses:
+        '201':
+          description: User created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '409':
+          description: Email already exists
+
+  /auth/login:
+    post:
+      tags: [Authentication]
+      summary: Login user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          description: Invalid credentials
+
+  /auth/refresh:
+    post:
+      tags: [Authentication]
+      summary: Refresh access token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [refresh_token]
+              properties:
+                refresh_token:
+                  type: string
+      responses:
+        '200':
+          description: Token refreshed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  access_token:
+                    type: string
+                  expires_in:
+                    type: integer
+
+  /auth/logout:
+    post:
+      tags: [Authentication]
+      summary: Logout user
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Logged out
+
+  /users/me:
+    get:
+      tags: [Users]
+      summary: Get current user profile
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: User profile
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+    patch:
+      tags: [Users]
+      summary: Update user profile
+      security:
+        - bearerAuth: []
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                timezone:
+                  type: string
+                language:
+                  type: string
+      responses:
+        '200':
+          description: Updated profile
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+
+  /users/me/preferences:
+    get:
+      tags: [Users]
+      summary: Get user preferences
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: User preferences
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserPreferences'
+    patch:
+      tags: [Users]
+      summary: Update user preferences
+      security:
+        - bearerAuth: []
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserPreferences'
+      responses:
+        '200':
+          description: Updated preferences
+
+  /feed:
+    get:
+      tags: [Feed]
+      summary: Get personalized feed
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: date
+          in: query
+          schema:
+            type: string
+          example: today
+        - name: topic
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+        - name: offset
+          in: query
+          schema:
+            type: integer
+            default: 0
+      responses:
+        '200':
+          description: Feed items
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FeedResponse'
+
+  /bookmarks:
+    get:
+      tags: [Bookmarks]
+      summary: List bookmarks
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+        - name: offset
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Bookmarks list
+    post:
+      tags: [Bookmarks]
+      summary: Create bookmark
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [item_id]
+              properties:
+                item_id:
+                  type: string
+                  format: uuid
+                notes:
+                  type: string
+      responses:
+        '201':
+          description: Bookmark created
+
+  /bookmarks/{id}:
+    delete:
+      tags: [Bookmarks]
+      summary: Delete bookmark
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: Deleted
+
+  /history:
+    get:
+      tags: [History]
+      summary: Get read history
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Read history
+    post:
+      tags: [History]
+      summary: Mark item as read
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [item_id]
+              properties:
+                item_id:
+                  type: string
+                  format: uuid
+      responses:
+        '201':
+          description: Marked as read
+
+  /feedback:
+    post:
+      tags: [Feedback]
+      summary: Submit feedback
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [item_id, type]
+              properties:
+                item_id:
+                  type: string
+                  format: uuid
+                type:
+                  type: string
+                  enum: [upvote, downvote, hide, duplicate, not_relevant]
+      responses:
+        '201':
+          description: Feedback submitted
+
+  /items/{id}:
+    get:
+      tags: [Items]
+      summary: Get item details
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Item details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItemDetail'
+
+  /items/{id}/explanation:
+    get:
+      tags: [Items]
+      summary: Get score explanation
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Score explanation
+
+  /digests/subscriptions:
+    get:
+      tags: [Digests]
+      summary: List digest subscriptions
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Subscriptions list
+    post:
+      tags: [Digests]
+      summary: Create digest subscription
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [frequency, send_at, timezone]
+              properties:
+                frequency:
+                  type: string
+                  enum: [daily, weekly]
+                send_at:
+                  type: string
+                  format: time
+                  example: "09:00:00"
+                timezone:
+                  type: string
+                  example: America/New_York
+      responses:
+        '201':
+          description: Subscription created
+
+  /digests/subscriptions/{id}:
+    patch:
+      tags: [Digests]
+      summary: Update subscription
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                enabled:
+                  type: boolean
+      responses:
+        '200':
+          description: Updated
+    delete:
+      tags: [Digests]
+      summary: Delete subscription
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: Deleted
+
+  /alerts/keywords:
+    get:
+      tags: [Alerts]
+      summary: List keyword alerts
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Alerts list
+    post:
+      tags: [Alerts]
+      summary: Create keyword alert
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [keyword]
+              properties:
+                keyword:
+                  type: string
+                  minLength: 2
+                  maxLength: 100
+      responses:
+        '201':
+          description: Alert created
+
+  /alerts/keywords/{id}:
+    delete:
+      tags: [Alerts]
+      summary: Delete keyword alert
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: Deleted
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    AuthResponse:
+      type: object
+      properties:
+        user:
+          $ref: '#/components/schemas/User'
+        access_token:
+          type: string
+        refresh_token:
+          type: string
+        expires_in:
+          type: integer
+
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        email:
+          type: string
+        timezone:
+          type: string
+        language:
+          type: string
+        email_verified:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+
+    UserPreferences:
+      type: object
+      properties:
+        preferred_topics:
+          type: array
+          items:
+            type: string
+        blocked_sources:
+          type: array
+          items:
+            type: string
+            format: uuid
+        blocked_domains:
+          type: array
+          items:
+            type: string
+        personalization_enabled:
+          type: boolean
+        personalization_weight:
+          type: number
+          minimum: 0
+          maximum: 0.3
+
+    FeedResponse:
+      type: object
+      properties:
+        date:
+          type: string
+        topic:
+          type: string
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/FeedItem'
+        pagination:
+          $ref: '#/components/schemas/Pagination'
+
+    FeedItem:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        rank:
+          type: integer
+        title:
+          type: string
+        url:
+          type: string
+        domain:
+          type: string
+        published_at:
+          type: string
+          format: date-time
+        scores:
+          $ref: '#/components/schemas/Scores'
+        score_explanation:
+          $ref: '#/components/schemas/ScoreExplanation'
+        summary:
+          $ref: '#/components/schemas/Summary'
+        user_context:
+          $ref: '#/components/schemas/UserContext'
+
+    Scores:
+      type: object
+      properties:
+        final:
+          type: number
+        hot:
+          type: number
+        relevance:
+          type: number
+        credibility:
+          type: number
+        novelty:
+          type: number
+
+    ScoreExplanation:
+      type: object
+      properties:
+        popularity:
+          $ref: '#/components/schemas/ComponentExplanation'
+        relevance:
+          $ref: '#/components/schemas/ComponentExplanation'
+        credibility:
+          $ref: '#/components/schemas/ComponentExplanation'
+        novelty:
+          $ref: '#/components/schemas/ComponentExplanation'
+        personalization:
+          $ref: '#/components/schemas/ComponentExplanation'
+
+    ComponentExplanation:
+      type: object
+      properties:
+        value:
+          type: number
+        weight:
+          type: number
+        contribution:
+          type: number
+        reason:
+          type: string
+
+    Summary:
+      type: object
+      properties:
+        tldr:
+          type: string
+        why_it_matters:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        method:
+          type: string
+
+    UserContext:
+      type: object
+      properties:
+        bookmarked:
+          type: boolean
+        read:
+          type: boolean
+        feedback:
+          type: string
+          nullable: true
+
+    ItemDetail:
+      allOf:
+        - $ref: '#/components/schemas/FeedItem'
+        - type: object
+          properties:
+            source:
+              type: object
+              properties:
+                id:
+                  type: string
+                  format: uuid
+                name:
+                  type: string
+                type:
+                  type: string
+
+    Pagination:
+      type: object
+      properties:
+        total:
+          type: integer
+        limit:
+          type: integer
+        offset:
+          type: integer
+        has_more:
+          type: boolean
+
+  responses:
+    BadRequest:
+      description: Bad request
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+
