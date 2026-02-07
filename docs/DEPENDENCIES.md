@@ -92,4 +92,3 @@ go list -json -m all | nancy sleuth
 ## License Compatibility
 
 All dependencies use permissive licenses (MIT, BSD) that are compatible with this project's MIT license.
-

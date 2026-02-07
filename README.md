@@ -309,6 +309,10 @@ This project follows **Separation of Concerns** and **Single Responsibility Prin
 - **Handlers** (`internal/http/handlers`): HTTP layer, only uses services (no direct repository access)
 - **Configs**: Hardcoded configurations moved to dedicated config files for maintainability
 
+## Documentation
+
+Semua dokumentasi tambahan (setup lokal, enhancement plan, dependencies, dll) ada di folder **[docs/](docs/)**. Indeks lengkap: [docs/README.md](docs/README.md).
+
 ## License
 
 MIT

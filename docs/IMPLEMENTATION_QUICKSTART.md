@@ -215,10 +215,9 @@ After each PR, verify:
 
 ## Next Steps
 
-1. Review `ENHANCEMENT_PLAN.md` for detailed specs
+1. Review [ENHANCEMENT_PLAN.md](ENHANCEMENT_PLAN.md) for detailed specs
 2. Follow PR implementation order (1-20)
 3. Test each PR before moving to next
 4. Update documentation as you go
 5. Deploy to staging after Phase 3
 6. Deploy to production after Phase 6
-
