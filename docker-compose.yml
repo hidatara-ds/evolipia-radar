@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:15-alpine
+    image: postgres:15
     container_name: radar-postgres
     environment:
       POSTGRES_USER: postgres
