@@ -1,0 +1,249 @@
+# Default values for evolipia-radar
+# This is a YAML-formatted file.
+
+# ============================================
+# Global Configuration
+# ============================================
+global:
+  imageRegistry: "ghcr.io"
+  imagePullSecrets: []
+  storageClass: ""
+
+# ============================================
+# API Server Configuration
+# ============================================
+api:
+  enabled: true
+  replicaCount: 2
+
+  image:
+    repository: hidatara-ds/evolipia-radar/api
+    tag: "latest"
+    pullPolicy: IfNotPresent
+
+  service:
+    type: ClusterIP
+    port: 80
+    targetPort: 8080
+
+  ingress:
+    enabled: true
+    className: nginx
+    annotations:
+      cert-manager.io/cluster-issuer: letsencrypt-prod
+      nginx.ingress.kubernetes.io/ssl-redirect: "true"
+      nginx.ingress.kubernetes.io/rate-limit: "100"
+    hosts:
+      - host: api.evolipia-radar.local
+        paths:
+          - path: /
+            pathType: Prefix
+    tls:
+      - secretName: evolipia-radar-tls
+        hosts:
+          - api.evolipia-radar.local
+
+  resources:
+    limits:
+      cpu: 500m
+      memory: 512Mi
+    requests:
+      cpu: 100m
+      memory: 128Mi
+
+  autoscaling:
+    enabled: true
+    minReplicas: 2
+    maxReplicas: 10
+    targetCPUUtilizationPercentage: 70
+    targetMemoryUtilizationPercentage: 80
+    behavior:
+      scaleUp:
+        stabilizationWindowSeconds: 60
+      scaleDown:
+        stabilizationWindowSeconds: 300
+
+  livenessProbe:
+    enabled: true
+    path: /healthz
+    initialDelaySeconds: 10
+    periodSeconds: 10
+    timeoutSeconds: 5
+    failureThreshold: 3
+
+  readinessProbe:
+    enabled: true
+    path: /readyz
+    initialDelaySeconds: 5
+    periodSeconds: 5
+    timeoutSeconds: 3
+    failureThreshold: 3
+
+  podDisruptionBudget:
+    enabled: true
+    minAvailable: 1
+
+  podSecurityContext:
+    runAsNonRoot: true
+    runAsUser: 1000
+    fsGroup: 1000
+
+  securityContext:
+    allowPrivilegeEscalation: false
+    readOnlyRootFilesystem: true
+    capabilities:
+      drop:
+        - ALL
+
+  serviceAccount:
+    create: true
+    annotations: {}
+    name: ""
+
+  nodeSelector: {}
+  tolerations: []
+  affinity:
+    podAntiAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+        - weight: 100
+          podAffinityTerm:
+            labelSelector:
+              matchExpressions:
+                - key: app.kubernetes.io/name
+                  operator: In
+                  values:
+                    - api
+            topologyKey: kubernetes.io/hostname
+
+# ============================================
+# Worker Configuration
+# ============================================
+worker:
+  enabled: true
+  replicaCount: 1
+
+  image:
+    repository: hidatara-ds/evolipia-radar/worker
+    tag: "latest"
+    pullPolicy: IfNotPresent
+
+  resources:
+    limits:
+      cpu: 500m
+      memory: 512Mi
+    requests:
+      cpu: 100m
+      memory: 128Mi
+
+  podSecurityContext:
+    runAsNonRoot: true
+    runAsUser: 1000
+    fsGroup: 1000
+
+  securityContext:
+    allowPrivilegeEscalation: false
+    readOnlyRootFilesystem: true
+    capabilities:
+      drop:
+        - ALL
+
+  serviceAccount:
+    create: true
+    annotations: {}
+    name: ""
+
+  nodeSelector: {}
+  tolerations: []
+  affinity: {}
+
+# ============================================
+# Database Configuration
+# ============================================
+database:
+  enabled: true
+  type: postgres
+
+  postgres:
+    image:
+      repository: postgres
+      tag: "15-alpine"
+      pullPolicy: IfNotPresent
+
+    auth:
+      username: postgres
+      password: ""
+      database: radar
+      existingSecret: ""
+
+    persistence:
+      enabled: true
+      storageClass: ""
+      accessMode: ReadWriteOnce
+      size: 10Gi
+
+    resources:
+      limits:
+        cpu: 500m
+        memory: 512Mi
+      requests:
+        cpu: 250m
+        memory: 256Mi
+
+# ============================================
+# Application Configuration
+# ============================================
+config:
+  port: "8080"
+  logLevel: "info"
+  logFormat: "json"
+  cacheTtlSeconds: "60"
+  workerCron: "*/10 * * * *"
+  maxFetchBytes: "2000000"
+  fetchTimeoutSeconds: "8"
+  metricsEnabled: "true"
+  tracingEnabled: "true"
+
+# ============================================
+# Secrets Configuration
+# ============================================
+secrets:
+  databaseUrl: ""
+  temporalHost: ""
+  mlflowTrackingUri: ""
+  openaiApiKey: ""
+
+# ============================================
+# Observability
+# ============================================
+observability:
+  prometheus:
+    enabled: true
+    serviceMonitor:
+      enabled: false
+      interval: 30s
+      scrapeTimeout: 10s
+
+  grafana:
+    enabled: false
+    dashboards:
+      enabled: true
+
+  jaeger:
+    enabled: false
+
+# ============================================
+# Network Policies
+# ============================================
+networkPolicy:
+  enabled: true
+
+# ============================================
+# Canary Deployment
+# ============================================
+canary:
+  enabled: false
+  weight: 10
+  analysis:
+    threshold: 5
+    interval: 1m
+    successfulRunHistoryLimit: 3

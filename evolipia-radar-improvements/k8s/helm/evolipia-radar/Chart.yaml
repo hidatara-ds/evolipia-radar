@@ -1,0 +1,21 @@
+apiVersion: v2
+name: evolipia-radar
+description: A Helm chart for EVOLIPIA-RADAR - AI/ML Tech News Aggregator
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+home: https://github.com/hidatara-ds/evolipia-radar
+sources:
+  - https://github.com/hidatara-ds/evolipia-radar
+maintainers:
+  - name: hidatara-ds
+    email: hidatara@example.com
+keywords:
+  - mlops
+  - ai
+  - machine-learning
+  - news-aggregator
+  - temporal
+  - golang
+annotations:
+  category: MLOps
