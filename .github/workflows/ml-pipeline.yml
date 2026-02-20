@@ -48,7 +48,7 @@ jobs:
         great_expectations checkpoint run content_items_checkpoint
 
     - name: Upload Data Docs
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: data-docs
         path: ml/data_quality/gx/uncommitted/data_docs/
@@ -84,7 +84,7 @@ jobs:
         python log_experiment.py
 
     - name: Upload model artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: model-artifacts
         path: ml/models/
@@ -120,7 +120,7 @@ jobs:
         python compare_models.py
 
     - name: Upload evaluation report
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: evaluation-report
         path: ml/evaluation/reports/
@@ -215,7 +215,7 @@ jobs:
         python ab_test_analysis.py
 
     - name: Upload results
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: ab-test-results
         path: ml/experiments/results/

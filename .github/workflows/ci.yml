@@ -83,7 +83,7 @@ jobs:
         echo "Coverage report generated: coverage.html"
 
     - name: Upload coverage artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: coverage-report
         path: coverage.html
@@ -211,7 +211,7 @@ jobs:
         output-file: ${{ matrix.component }}-sbom.spdx.json
 
     - name: Upload SBOM
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: ${{ matrix.component }}-sbom
         path: ${{ matrix.component }}-sbom.spdx.json
@@ -268,7 +268,7 @@ jobs:
       run: go test -bench=. -benchmem ./... | tee benchmark.txt
 
     - name: Upload benchmark results
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: benchmark-results
         path: benchmark.txt
