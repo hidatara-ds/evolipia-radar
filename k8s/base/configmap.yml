@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: evolipia-radar-config
+  namespace: evolipia-radar
+data:
+  PORT: "8080"
+  CACHE_TTL_SECONDS: "60"
+  WORKER_CRON: "*/10 * * * *"
+  MAX_FETCH_BYTES: "2000000"
+  FETCH_TIMEOUT_SECONDS: "8"
+  LOG_LEVEL: "info"
+  LOG_FORMAT: "json"
+  METRICS_ENABLED: "true"
+  TRACING_ENABLED: "true"

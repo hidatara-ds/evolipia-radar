@@ -1,0 +1,35 @@
+
+# ============================================
+# MLOps Additions
+# ============================================
+
+.PHONY: obs-up
+obs-up: ## Start observability stack (Prometheus, Grafana, Jaeger)
+	@echo "Starting observability stack..."
+	docker-compose -f docker-compose.observability.yml up -d
+	@echo "Grafana: http://localhost:3000 (admin/admin)"
+	@echo "Prometheus: http://localhost:9090"
+	@echo "Jaeger: http://localhost:16686"
+
+.PHONY: obs-down
+obs-down: ## Stop observability stack
+	docker-compose -f docker-compose.observability.yml down
+
+.PHONY: obs-logs
+obs-logs: ## View observability stack logs
+	docker-compose -f docker-compose.observability.yml logs -f
+
+.PHONY: ci
+ci: ## Run CI checks locally
+	@echo "Running CI checks..."
+	go mod tidy
+	go vet ./...
+	go test -v ./...
+	go build -o bin/api ./cmd/api
+	go build -o bin/worker ./cmd/worker
+	@echo "✅ CI checks passed!"
+
+.PHONY: docker-build
+docker-build: ## Build Docker images
+	docker build -f Dockerfile.api -t radar-api:latest .
+	docker build -f Dockerfile.worker -t radar-worker:latest .

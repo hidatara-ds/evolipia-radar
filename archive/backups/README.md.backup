@@ -1,17 +1,3 @@
-<div align="center">
-
-# 🎯 EVOLIPIA-RADAR
-
-[![CI](https://github.com/hidatara-ds/evolipia-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/hidatara-ds/evolipia-radar/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hidatara-ds/evolipia-radar)](https://goreportcard.com/report/github.com/hidatara-ds/evolipia-radar)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**An AI/ML tech news aggregator with MLOps best practices**
-
-</div>
-
----
-
 # evolipia-radar
 
 Engineering Verified Overview of Latest Insights, Priorities, Impact & Analytics
@@ -134,12 +120,12 @@ go list -m all
 
 Setelah API jalan, buka di browser:
 
-- **http://localhost:8080/** — tampilan utama (dibuat untuk ukuran HP)
+- **http://localhost:8080/** — tampilan utama (ukuran untuk HP)
 
 UI berisi: **Feed**, **Rising**, **Cari**, **Chat AI**, **Sumber**, **Pengaturan**. Ketuk item untuk detail.
 
-- **Chat AI:** Terhubung ke OpenRouter (`arcee-ai/trinity-large-preview:free`) langsung dari frontend untuk demo/chat seputar berita. Untuk produksi, ganti endpoint & API key di `web/index.html` agar menggunakan akun/model milikmu sendiri.
-- **Feed/Rising/Search:** Memanggil API yang sama dengan klien mobile nanti, sehingga web UI ini bisa kamu pakai sebagai “preview” UX dan sebagai playground API.
+- **Chat AI:** Butuh API AI (OpenAI-compatible). Atur di Pengaturan → Mode developer (login: `admin` / `admin`) → isi URL endpoint & API key → Simpan. Detektor otomatis mencoba format standar (OpenAI, dsb.).
+- **Mode developer:** Di **Pengaturan** → "Masuk ke mode developer" → login **admin** / **admin**. Setelah masuk: konfigurasi API AI, API Tester (panggil tiap endpoint), tombol **Test all features** (tes healthz, feed, rising, sources, search sekaligus), dan **Kembali ke mode biasa**.
 
 **Cek tampilan ukuran HP:** DevTools (F12) → device toolbar (Ctrl+Shift+M) → pilih perangkat atau lebar ~375px.
 
@@ -232,56 +218,30 @@ docker run -d --name radar-worker --network host \
   radar-worker
 ```
 
-## MLOps & Observability (opsional tapi siap pakai)
-
-Branch ini menambahkan beberapa tambahan MLOps/infra yang bisa kamu aktifkan sesuai kebutuhan:
-
-- **Observability stack** (Prometheus, Grafana, Jaeger):
-  - File: `docker-compose.observability.yml`
-  - Makefile targets:
-    - `make obs-up` — start stack (Grafana: `http://localhost:3000`, Prometheus: `http://localhost:9090`, Jaeger: `http://localhost:16686`)
-    - `make obs-down` — stop stack
-- **Local CI helper**:
-  - `make ci` — jalankan `go vet`, `go test ./...`, dan build API/worker secara lokal.
-- **ML stack (eksperimen)**:
-  - File: `docker-compose.ml.yml` — untuk menjalankan komponen ML tambahan (bisa kamu kembangkan bertahap).
-- **CI di GitHub Actions**:
-  - Workflow utama: `.github/workflows/ci.yml` (lint, test, build).
-  - Workflow tambahan: security, CD, dan ML-pipeline (lihat isi folder `.github/workflows/`).
-
-
 ## Project Structure
 
 ```
 .
 ├── cmd/
-│   ├── api/                  # API server entry point
-│   └── worker/               # Worker entry point
+│   ├── api/          # API server entry point
+│   └── worker/       # Worker entry point
 ├── internal/
-│   ├── config/               # Configuration management
-│   ├── db/                   # Database connection and repositories (data access layer)
-│   ├── dto/                  # Data Transfer Objects (DTOs for API/connector boundaries)
-│   ├── models/               # Domain models (pure data structures)
-│   ├── http/                 # HTTP handlers (presentation layer)
-│   │   └── handlers/         # HTTP request handlers
-│   ├── services/             # Business logic services (application layer)
-│   ├── connectors/           # Source connectors (HN, RSS, arXiv, JSON API)
-│   ├── scoring/              # Ranking and scoring algorithms
-│   │   └── config.go         # Scoring configuration (credibility, relevance keywords)
-│   ├── summarizer/           # Extractive summarization
-│   │   └── config.go         # Summarizer configuration (topic keywords)
-│   ├── normalizer/           # URL normalization and deduplication
-│   ├── security/             # SSRF protection
-│   ├── workflows/            # Temporal workflows (ML pipeline orchestration - scaffold)
-│   ├── activities/           # Temporal activities for each ML pipeline step (scaffold)
-│   └── mlpipeline/           # Shared ML pipeline types used by workflows/activities
-├── web/                      # Mobile-first web UI + Chat AI (OpenRouter)
-├── migrations/               # Database migrations
-├── configs/                  # Configuration files
-├── .github/                  # GitHub Actions (CI/CD, security, ML pipeline)
-├── k8s/                      # Base manifests + Helm chart (optional K8s deploy)
-├── terraform/                # Terraform module for EKS (optional infra-as-code)
-├── archive/                  # Backups & legacy integration scripts (not used at runtime)
+│   ├── config/       # Configuration management
+│   ├── db/           # Database connection and repositories (data access layer)
+│   ├── dto/          # Data Transfer Objects (DTOs for API/connector boundaries)
+│   ├── models/       # Domain models (pure data structures)
+│   ├── http/         # HTTP handlers (presentation layer)
+│   │   └── handlers/ # HTTP request handlers
+│   ├── services/     # Business logic services (application layer)
+│   ├── connectors/   # Source connectors (HN, RSS, arXiv, JSON API)
+│   ├── scoring/      # Ranking and scoring algorithms
+│   │   └── config.go # Scoring configuration (credibility, relevance keywords)
+│   ├── summarizer/   # Extractive summarization
+│   │   └── config.go # Summarizer configuration (topic keywords)
+│   ├── normalizer/   # URL normalization and deduplication
+│   └── security/      # SSRF protection
+├── migrations/       # Database migrations
+├── configs/          # Configuration files
 └── docker-compose.yml
 ```
 

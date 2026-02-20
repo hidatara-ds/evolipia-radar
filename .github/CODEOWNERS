@@ -1,0 +1,22 @@
+# Global owners
+* @hidatara-ds
+
+# CI/CD workflows
+/.github/workflows/ @hidatara-ds
+
+# Kubernetes manifests
+/k8s/ @hidatara-ds
+
+# Terraform infrastructure
+/terraform/ @hidatara-ds
+
+# ML components
+/ml/ @hidatara-ds
+/internal/mlpipeline/ @hidatara-ds
+/internal/workflows/ @hidatara-ds
+
+# Security-related
+/internal/security/ @hidatara-ds
+
+# Database migrations
+/migrations/ @hidatara-ds

@@ -1,0 +1,135 @@
+name: CD - Deploy to Production
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+
+env:
+  HELM_VERSION: '3.14.0'
+  KUBECTL_VERSION: '1.29.0'
+
+jobs:
+  # ============================================
+  # Job 1: Deploy to Staging
+  # ============================================
+  deploy-staging:
+    name: Deploy to Staging
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/develop' || github.event.inputs.environment == 'staging'
+    environment:
+      name: staging
+      url: https://staging.evolipia-radar.dev
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-west-2
+
+    - name: Update kubeconfig
+      run: aws eks update-kubeconfig --name evolipia-radar-staging
+
+    - name: Install Helm
+      uses: azure/setup-helm@v4
+      with:
+        version: ${{ env.HELM_VERSION }}
+
+    - name: Deploy with Helm
+      run: |
+        helm upgrade --install evolipia-radar ./k8s/helm/evolipia-radar           --namespace staging           --create-namespace           --values ./k8s/helm/evolipia-radar/values-staging.yaml           --set image.tag=${{ github.sha }}           --wait           --timeout 10m
+
+    - name: Verify deployment
+      run: |
+        kubectl rollout status deployment/api -n staging
+        kubectl rollout status deployment/worker -n staging
+
+    - name: Run smoke tests
+      run: |
+        kubectl run smoke-test --rm -i --restart=Never           --image=curlimages/curl           -- curl -sf http://api.staging.svc.cluster.local/healthz
+
+  # ============================================
+  # Job 2: Deploy to Production
+  # ============================================
+  deploy-production:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    needs: deploy-staging
+    if: startsWith(github.ref, 'refs/tags/v') || github.event.inputs.environment == 'production'
+    environment:
+      name: production
+      url: https://evolipia-radar.dev
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-west-2
+
+    - name: Update kubeconfig
+      run: aws eks update-kubeconfig --name evolipia-radar-production
+
+    - name: Install Helm
+      uses: azure/setup-helm@v4
+      with:
+        version: ${{ env.HELM_VERSION }}
+
+    - name: Deploy with Helm (Canary)
+      run: |
+        helm upgrade --install evolipia-radar ./k8s/helm/evolipia-radar           --namespace production           --create-namespace           --values ./k8s/helm/evolipia-radar/values-production.yaml           --set image.tag=${{ github.ref_name }}           --set canary.enabled=true           --set canary.weight=10           --wait           --timeout 10m
+
+    - name: Wait for canary analysis
+      run: sleep 300  # 5 minutes for canary analysis
+
+    - name: Promote canary to full rollout
+      run: |
+        helm upgrade --install evolipia-radar ./k8s/helm/evolipia-radar           --namespace production           --values ./k8s/helm/evolipia-radar/values-production.yaml           --set image.tag=${{ github.ref_name }}           --set canary.enabled=false           --wait           --timeout 10m
+
+    - name: Verify deployment
+      run: |
+        kubectl rollout status deployment/api -n production
+        kubectl rollout status deployment/worker -n production
+
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        generate_release_notes: true
+        files: |
+          ./k8s/helm/evolipia-radar/Chart.yaml
+          ./CHANGELOG.md
+
+  # ============================================
+  # Job 3: Notify on Slack
+  # ============================================
+  notify:
+    name: Notify Team
+    runs-on: ubuntu-latest
+    needs: [deploy-staging, deploy-production]
+    if: always()
+    steps:
+    - name: Notify Slack
+      uses: 8398a7/action-slack@v3
+      with:
+        status: ${{ job.status }}
+        channel: '#deployments'
+        fields: repo,message,commit,author,action,eventName,ref,workflow
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

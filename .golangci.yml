@@ -1,0 +1,199 @@
+# golangci-lint configuration
+# https://golangci-lint.run/usage/configuration/
+
+run:
+  timeout: 5m
+  issues-exit-code: 1
+  tests: true
+  build-tags:
+    - integration
+  skip-dirs:
+    - vendor
+    - third_party
+  skip-files:
+    - ".*\.pb\.go$"
+    - ".*\.gen\.go$"
+
+output:
+  format: colored-line-number
+  print-issued-lines: true
+  print-linter-name: true
+
+linters-settings:
+  errcheck:
+    check-type-assertions: true
+    check-blank: true
+
+  govet:
+    check-shadowing: true
+    enable-all: true
+
+  gocyclo:
+    min-complexity: 15
+
+  maligned:
+    suggest-new: true
+
+  dupl:
+    threshold: 100
+
+  goconst:
+    min-len: 3
+    min-occurrences: 3
+
+  misspell:
+    locale: US
+
+  lll:
+    line-length: 120
+
+  goimports:
+    local-prefixes: github.com/hidatara-ds/evolipia-radar
+
+  gocritic:
+    enabled-tags:
+      - performance
+      - style
+      - experimental
+    disabled-checks:
+      - wrapperFunc
+      - dupImport
+
+  funlen:
+    lines: 80
+    statements: 50
+
+  godox:
+    keywords:
+      - NOTE
+      - OPTIMIZE
+      - HACK
+      - TODO
+      - BUG
+      - FIXME
+
+  cyclop:
+    max-complexity: 15
+    package-average: 10
+
+  nestif:
+    min-complexity: 5
+
+linters:
+  enable:
+    - bodyclose
+    - dogsled
+    - dupl
+    - errcheck
+    - gochecknoinits
+    - goconst
+    - gocritic
+    - gocyclo
+    - gofmt
+    - goimports
+    - golint
+    - gomnd
+    - goprintffuncname
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - interfacer
+    - lll
+    - misspell
+    - nakedret
+    - rowserrcheck
+    - scopelint
+    - staticcheck
+    - structcheck
+    - stylecheck
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - varcheck
+    - whitespace
+    - cyclop
+    - durationcheck
+    - errorlint
+    - exhaustive
+    - exportloopref
+    - forbidigo
+    - forcetypeassert
+    - funlen
+    - gci
+    - gochecknoglobals
+    - gocognit
+    - godot
+    - godox
+    - goerr113
+    - gofumpt
+    - goheader
+    - gomoddirectives
+    - gomodguard
+    - nestif
+    - nilerr
+    - nlreturn
+    - noctx
+    - nolintlint
+    - paralleltest
+    - prealloc
+    - predeclared
+    - promlinter
+    - revive
+    - sqlclosecheck
+    - tagliatelle
+    - testpackage
+    - thelper
+    - tparallel
+    - wastedassign
+    - wrapcheck
+
+  disable:
+    - depguard  # Disabled as it requires configuration
+    - exhaustivestruct  # Too strict for most cases
+    - gochecknoglobals  # Too strict for configs
+    - gomnd  # Too noisy
+    - ireturn  # Too strict for interfaces
+    - lll  # Can be too strict
+    - maligned  # Deprecated
+    - nlreturn  # Too strict
+    - paralleltest  # Can cause issues with DB tests
+    - testpackage  # We want to test internal packages
+    - varnamelen  # Too strict
+    - wsl  # Too strict
+
+issues:
+  exclude-rules:
+    # Exclude some linters from running on tests files
+    - path: _test\.go
+      linters:
+        - gocyclo
+        - errcheck
+        - dupl
+        - gosec
+        - lll
+        - funlen
+        - gocognit
+        - gochecknoglobals
+        - gochecknoinits
+
+    # Exclude known linter issues
+    - text: "weak cryptographic primitive"
+      linters:
+        - gosec
+
+    # Exclude shadow checking in test files
+    - path: _test\.go
+      text: "shadow"
+      linters:
+        - govet
+
+    # Exclude shadow checking for err
+    - text: "shadow: declaration of "err""
+      linters:
+        - govet
+
+  exclude-use-default: false
+  max-issues-per-linter: 50
+  max-same-issues: 3
