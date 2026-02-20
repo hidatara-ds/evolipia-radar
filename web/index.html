@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#0f172a" />
+  <base href="/" />
+  <title>Evolipia Radar</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --border: #334155;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-dim: #0ea5e9;
+      --danger: #f87171;
+      --success: #4ade80;
+      --nav-h: 56px;
+      --safe-bottom: env(safe-area-inset-bottom, 0);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100dvh;
+      padding-bottom: calc(var(--nav-h) + var(--safe-bottom) + 60px);
+      max-width: 428px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 0 0 1px var(--border);
+    }
+    /* App header */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header h1 { margin: 0; font-size: 1.25rem; font-weight: 700; }
+    /* Nav */
+    .nav {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 428px;
+      height: calc(var(--nav-h) + var(--safe-bottom));
+      padding-bottom: var(--safe-bottom);
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      z-index: 20;
+    }
+    .nav-btn {
+      flex: 1;
+      padding: 10px 8px;
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 0.7rem;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .nav-btn.active { color: var(--accent); font-weight: 600; }
+    .nav-btn .icon { font-size: 1.15rem; }
+    /* Panels */
+    .panel { display: none; padding: 16px; }
+    .panel.active { display: block; }
+    .panel h2 { font-size: 1rem; color: var(--muted); margin: 0 0 12px 0; }
+    /* Feed / Rising list */
+    .item-list { list-style: none; padding: 0; margin: 0; }
+    .item-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .item-card:active { background: #334155; }
+    .item-card .title { font-weight: 600; font-size: 0.95rem; margin: 0 0 6px 0; line-height: 1.3; }
+    .item-card .meta { font-size: 0.75rem; color: var(--muted); }
+    .item-card .score { color: var(--accent); font-size: 0.8rem; margin-top: 6px; }
+    .empty { text-align: center; color: var(--muted); padding: 24px; }
+    .loading { text-align: center; color: var(--muted); padding: 24px; }
+    /* Search */
+    .search-form { display: flex; gap: 8px; margin-bottom: 16px; }
+    .search-form input {
+      flex: 1;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 1rem;
+    }
+    .search-form button {
+      padding: 12px 18px;
+      border-radius: 10px;
+      border: none;
+      background: var(--accent);
+      color: var(--bg);
+      font-weight: 600;
+      cursor: pointer;
+    }
+    /* Item detail (overlay) */
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      z-index: 30;
+      overflow-y: auto;
+      padding: 16px;
+      padding-bottom: 80px;
+      max-width: 428px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+    .overlay.hidden { display: none; }
+    .overlay .back { margin-bottom: 12px; color: var(--accent); cursor: pointer; font-size: 0.9rem; }
+    .overlay h2 { font-size: 1.1rem; margin: 0 0 12px 0; line-height: 1.4; }
+    .overlay .link { color: var(--accent); word-break: break-all; font-size: 0.85rem; }
+    .overlay .block { margin-bottom: 16px; }
+    .overlay .block label { font-size: 0.75rem; color: var(--muted); display: block; margin-bottom: 4px; }
+    /* Sources list */
+    .source-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 10px;
+    }
+    .source-card .name { font-weight: 600; }
+    .source-card .type { font-size: 0.8rem; color: var(--muted); }
+    .source-card .enabled { font-size: 0.8rem; margin-top: 6px; }
+    .source-card .enabled.on { color: var(--success); }
+    .source-card .enabled.off { color: var(--muted); }
+    /* Developer panel */
+    .dev-panel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: var(--bg);
+      z-index: 50;
+      overflow-y: auto;
+      padding: 16px;
+      padding-bottom: 24px;
+      max-width: 428px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .dev-panel.hidden { display: none; }
+    .dev-panel h2 { font-size: 1rem; margin: 0 0 12px 0; }
+    .dev-panel select {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      margin-bottom: 12px;
+      font-size: 0.9rem;
+    }
+    .dev-panel .field { margin-bottom: 10px; }
+    .dev-panel .field label { display: block; font-size: 0.75rem; color: var(--muted); margin-bottom: 4px; }
+    .dev-panel .field input, .dev-panel .field textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+    .dev-panel .field textarea { min-height: 80px; resize: vertical; }
+    .dev-panel button.run {
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      background: var(--accent);
+      color: var(--bg);
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 16px;
+    }
+    .dev-panel .response {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 0.8rem;
+      white-space: pre-wrap;
+      word-break: break-all;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .dev-panel .response.error { border-color: var(--danger); color: var(--danger); }
+    .dev-panel .close-dev { margin-top: 12px; padding: 10px; background: var(--surface); color: var(--muted); border: 1px solid var(--border); border-radius: 8px; width: 100%; cursor: pointer; }
+    .dev-panel .btn-block { width: 100%; padding: 12px; border-radius: 10px; border: none; font-weight: 600; cursor: pointer; margin-bottom: 10px; }
+    .dev-panel .btn-test { background: var(--success); color: var(--bg); }
+    .dev-panel .btn-back { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+    .dev-panel .test-result { font-size: 0.8rem; margin-top: 8px; }
+    /* Chat */
+    .chat-messages { padding: 0; margin: 0 0 12px 0; list-style: none; max-height: 50vh; overflow-y: auto; }
+    .chat-msg { margin-bottom: 12px; padding: 10px 14px; border-radius: 12px; max-width: 90%; }
+    .chat-msg.user { background: var(--accent); color: var(--bg); margin-left: auto; }
+    .chat-msg.assistant { background: var(--surface); border: 1px solid var(--border); }
+    .chat-msg .role { font-size: 0.7rem; color: var(--muted); margin-bottom: 4px; }
+    .chat-msg.user .role { color: rgba(0,0,0,0.6); }
+    .chat-input-row { display: flex; gap: 8px; }
+    .chat-input-row input { flex: 1; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font-size: 1rem; }
+    .chat-input-row button { padding: 12px 18px; border-radius: 10px; border: none; background: var(--accent); color: var(--bg); font-weight: 600; cursor: pointer; }
+    .chat-no-api { padding: 16px; background: var(--surface); border-radius: 12px; border: 1px dashed var(--border); color: var(--muted); font-size: 0.9rem; }
+    /* Settings & Login */
+    .settings-section { margin-bottom: 24px; }
+    .settings-section h3 { font-size: 0.9rem; color: var(--muted); margin: 0 0 10px 0; }
+    .login-form .field { margin-bottom: 12px; }
+    .login-form .field label { display: block; font-size: 0.75rem; color: var(--muted); margin-bottom: 4px; }
+    .login-form .field input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
+    .login-form button { width: 100%; padding: 12px; border-radius: 10px; border: none; background: var(--accent); color: var(--bg); font-weight: 600; cursor: pointer; margin-top: 8px; }
+    .login-error { color: var(--danger); font-size: 0.85rem; margin-top: 8px; }
+    .dev-badge { display: inline-block; padding: 4px 10px; background: var(--accent); color: var(--bg); border-radius: 6px; font-size: 0.75rem; margin-bottom: 12px; }
+    /* Login overlay (fullscreen modal) */
+    .login-overlay {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      z-index: 100;
+      overflow-y: auto;
+      padding: 16px;
+      padding-bottom: 24px;
+      max-width: 428px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+    .login-overlay.hidden { display: none; }
+    .login-overlay h2 { font-size: 1.1rem; margin: 0 0 8px 0; }
+    .login-overlay .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Evolipia Radar</h1>
+  </header>
+
+  <nav class="nav">
+    <button type="button" class="nav-btn active" data-panel="feed"><span class="icon">📰</span> Feed</button>
+    <button type="button" class="nav-btn" data-panel="rising"><span class="icon">📈</span> Rising</button>
+    <button type="button" class="nav-btn" data-panel="search"><span class="icon">🔍</span> Cari</button>
+    <button type="button" class="nav-btn" data-panel="chat"><span class="icon">💬</span> Chat</button>
+    <button type="button" class="nav-btn" data-panel="sources"><span class="icon">📋</span> Sumber</button>
+    <button type="button" class="nav-btn" data-panel="settings"><span class="icon">⚙️</span> Atur</button>
+  </nav>
+
+  <main>
+    <section id="panel-feed" class="panel active">
+      <h2>Top hari ini</h2>
+      <div id="feed-list" class="item-list"></div>
+    </section>
+    <section id="panel-rising" class="panel">
+      <h2>Sedang naik</h2>
+      <div id="rising-list" class="item-list"></div>
+    </section>
+    <section id="panel-search" class="panel">
+      <h2>Cari</h2>
+      <form class="search-form" id="searchForm" onsubmit="return false;">
+        <input type="search" id="searchQ" placeholder="Kata kunci..." autocomplete="off" />
+        <button type="button" id="searchSubmitBtn">Cari</button>
+      </form>
+      <div id="search-list" class="item-list"></div>
+    </section>
+    <section id="panel-chat" class="panel">
+      <h2>Chat AI</h2>
+      <ul id="chat-messages" class="chat-messages"></ul>
+      <form id="chatForm" class="chat-input-row" onsubmit="return false;">
+        <input type="text" id="chatInput" placeholder="Ketik pesan..." autocomplete="off" />
+        <button type="button" id="chatSubmitBtn">Kirim</button>
+      </form>
+    </section>
+    <section id="panel-sources" class="panel">
+      <h2>Sumber berita</h2>
+      <div id="sources-list"></div>
+    </section>
+    <section id="panel-settings" class="panel">
+      <h2>Pengaturan</h2>
+      <div class="settings-section">
+        <h3>Tentang</h3>
+        <p style="color: var(--muted); font-size: 0.85rem;">Evolipia Radar - Aggregator berita AI/ML</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="item-detail" class="overlay hidden">
+    <div class="back" id="backFromDetail">← Kembali</div>
+    <div id="item-detail-body"></div>
+  </div>
+
+
+  <script>
+    const API_BASE = '';
+    function apiUrl(path) { return (API_BASE + path).replace(/\/+/g, '/'); }
+
+    function showPanel(id) {
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      const panel = document.getElementById('panel-' + id);
+      if (panel) panel.classList.add('active');
+      const btn = document.querySelector('.nav-btn[data-panel="' + id + '"]');
+      if (btn) btn.classList.add('active');
+    }
+
+    function setList(containerId, html) {
+      const el = document.getElementById(containerId);
+      if (el) el.innerHTML = html;
+    }
+    function setLoading(containerId) {
+      setList(containerId, '<div class="loading">Memuat…</div>');
+    }
+
+    let feedLoading = false;
+    let feedCache = null;
+    let feedCacheTime = 0;
+    const FEED_CACHE_TTL = 30000; // 30 detik
+    
+    async function loadFeed() {
+      // Prevent multiple simultaneous loads
+      if (feedLoading) return;
+      
+      // Use cache if available and fresh
+      const now = Date.now();
+      if (feedCache && (now - feedCacheTime) < FEED_CACHE_TTL) {
+        setList('feed-list', feedCache);
+        return;
+      }
+      
+      feedLoading = true;
+      setLoading('feed-list');
+      
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
+        
+        const r = await fetch(apiUrl('/v1/feed?date=today'), {
+          signal: controller.signal,
+          cache: 'no-cache'
+        });
+        clearTimeout(timeoutId);
+        
+        if (!r.ok) {
+          const text = await r.text();
+          let errorMsg = r.statusText;
+          try {
+            const errData = JSON.parse(text);
+            errorMsg = errData.error || errorMsg;
+          } catch (_) {}
+          throw new Error(errorMsg);
+        }
+        const data = await r.json();
+        const items = data.items || [];
+        const html = items.length === 0
+          ? '<div class="empty">Belum ada item. Tunggu worker selesai memproses data atau refresh halaman.</div>'
+          : items.map(it => itemCard(it)).join('');
+        
+        setList('feed-list', html);
+        feedCache = html;
+        feedCacheTime = now;
+      } catch (e) {
+        if (e.name === 'AbortError') {
+          setList('feed-list', '<div class="empty">Timeout: Server tidak merespons. Pastikan API server berjalan.</div>');
+        } else {
+          setList('feed-list', '<div class="empty">Gagal memuat feed: ' + escapeHtml(e.message) + '<br><br>Coba refresh halaman atau pastikan API server berjalan.</div>');
+        }
+        feedCache = null;
+      } finally {
+        feedLoading = false;
+      }
+    }
+    async function loadRising() {
+      setLoading('rising-list');
+      try {
+        const r = await fetch(apiUrl('/v1/rising?window=2h'));
+        const data = await r.json();
+        if (!r.ok) throw new Error(data.error || r.statusText);
+        const items = data.items || [];
+        setList('rising-list', items.length === 0
+          ? '<div class="empty">Belum ada data rising.</div>'
+          : items.map(it => itemCard(it, true)).join(''));
+      } catch (e) {
+        setList('rising-list', '<div class="empty">Gagal: ' + e.message + '</div>');
+      }
+    }
+    async function loadSources() {
+      const el = document.getElementById('sources-list');
+      el.innerHTML = '<div class="loading">Memuat…</div>';
+      try {
+        const r = await fetch(apiUrl('/v1/sources'));
+        const data = await r.json();
+        if (!r.ok) throw new Error(data.error || r.statusText);
+        const sources = data.sources || [];
+        el.innerHTML = sources.length === 0
+          ? '<div class="empty">Belum ada sumber.</div>'
+          : sources.map(s => `
+            <div class="source-card">
+              <div class="name">${escapeHtml(s.name)}</div>
+              <div class="type">${escapeHtml(s.type)} · ${escapeHtml(s.category)}</div>
+              <div class="enabled ${s.enabled ? 'on' : 'off'}">${s.enabled ? 'Aktif' : 'Nonaktif'}</div>
+            </div>
+          `).join('');
+      } catch (e) {
+        el.innerHTML = '<div class="empty">Gagal: ' + escapeHtml(e.message) + '</div>';
+      }
+    }
+
+    function itemCard(it, rising) {
+      const score = rising ? (it.rising_score != null ? 'Rising: ' + Number(it.rising_score).toFixed(0) : '') : (it.scores && it.scores.final != null ? 'Skor: ' + Number(it.scores.final).toFixed(2) : '');
+      const summary = it.summary && it.summary.tldr ? it.summary.tldr : '';
+      return `
+        <li class="item-card" data-id="${escapeHtml(it.id)}">
+          <div class="title">${escapeHtml(it.title)}</div>
+          <div class="meta">${escapeHtml(it.domain || '')} · ${formatDate(it.published_at)}</div>
+          ${score ? '<div class="score">' + escapeHtml(score) + '</div>' : ''}
+          ${summary ? '<div class="meta" style="margin-top:6px">' + escapeHtml(summary.slice(0, 120)) + (summary.length > 120 ? '…' : '') + '</div>' : ''}
+        </li>
+      `;
+    }
+    function escapeHtml(s) {
+      if (s == null) return '';
+      const div = document.createElement('div');
+      div.textContent = s;
+      return div.innerHTML;
+    }
+    function formatDate(s) {
+      if (!s) return '';
+      try {
+        const d = new Date(s);
+        return isNaN(d.getTime()) ? s : d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
+      } catch (_) { return s; }
+    }
+
+    document.getElementById('feed-list').addEventListener('click', (e) => {
+      const card = e.target.closest('.item-card');
+      if (card && card.dataset.id) openItemDetail(card.dataset.id);
+    });
+    document.getElementById('rising-list').addEventListener('click', (e) => {
+      const card = e.target.closest('.item-card');
+      if (card && card.dataset.id) openItemDetail(card.dataset.id);
+    });
+    document.getElementById('search-list').addEventListener('click', (e) => {
+      const card = e.target.closest('.item-card');
+      if (card && card.dataset.id) openItemDetail(card.dataset.id);
+    });
+
+    async function openItemDetail(id) {
+      const overlay = document.getElementById('item-detail');
+      const body = document.getElementById('item-detail-body');
+      body.innerHTML = '<div class="loading">Memuat…</div>';
+      overlay.classList.remove('hidden');
+      try {
+        const r = await fetch(apiUrl('/v1/items/' + encodeURIComponent(id)));
+        const it = await r.json();
+        if (!r.ok) throw new Error(it.error || r.statusText);
+        body.innerHTML = `
+          <h2>${escapeHtml(it.title)}</h2>
+          <a class="link" href="${escapeHtml(it.url)}" target="_blank" rel="noopener">${escapeHtml(it.url)}</a>
+          <div class="block">
+            <label>Domain</label>
+            <div>${escapeHtml(it.domain || '-')} · ${escapeHtml(it.category || '')}</div>
+          </div>
+          ${it.summary ? `
+            <div class="block">
+              <label>Ringkasan</label>
+              <div>${escapeHtml(it.summary.tldr || '')}</div>
+              ${it.summary.why_it_matters ? '<div style="margin-top:8px">' + escapeHtml(it.summary.why_it_matters) + '</div>' : ''}
+            </div>
+          ` : ''}
+          ${it.scores ? `
+            <div class="block">
+              <label>Skor</label>
+              <div>Final: ${Number(it.scores.final).toFixed(2)} · Hot: ${Number(it.scores.hot).toFixed(2)} · Relevansi: ${Number(it.scores.relevance).toFixed(2)}</div>
+            </div>
+          ` : ''}
+        `;
+      } catch (e) {
+        body.innerHTML = '<div class="empty">Gagal: ' + escapeHtml(e.message) + '</div>';
+      }
+    }
+    document.getElementById('backFromDetail').addEventListener('click', () => {
+      document.getElementById('item-detail').classList.add('hidden');
+    });
+
+    function handleSearch() {
+      const q = document.getElementById('searchQ').value.trim();
+      if (!q) return;
+      const list = document.getElementById('search-list');
+      list.innerHTML = '<div class="loading">Memuat…</div>';
+      fetch(apiUrl('/v1/search?q=' + encodeURIComponent(q)))
+        .then(r => {
+          if (!r.ok) throw new Error(r.statusText);
+          return r.json();
+        })
+        .then(data => {
+          const items = data.items || [];
+          list.innerHTML = items.length === 0 ? '<div class="empty">Tidak ada hasil.</div>' : items.map(it => itemCard(it)).join('');
+        })
+        .catch(e => {
+          list.innerHTML = '<div class="empty">Gagal: ' + escapeHtml(e.message) + '</div>';
+        });
+    }
+
+    // Initialize semua setelah DOM ready
+    function initApp() {
+      // Setup navigation
+      document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const panelId = btn.dataset.panel;
+          if (panelId) {
+            onShowPanel(panelId);
+            showPanel(panelId);
+          }
+        });
+      });
+      
+      // Setup chat form
+      const chatForm = document.getElementById('chatForm');
+      const chatInput = document.getElementById('chatInput');
+      const chatSubmitBtn = document.getElementById('chatSubmitBtn');
+      
+      if (chatForm) {
+        chatForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          handleChatSubmit();
+          return false;
+        });
+      }
+      
+      if (chatSubmitBtn) {
+        chatSubmitBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          handleChatSubmit();
+        });
+      }
+      
+      if (chatInput) {
+        chatInput.addEventListener('keypress', (e) => {
+          if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            handleChatSubmit();
+          }
+        });
+      }
+      
+      // Setup search form
+      const searchForm = document.getElementById('searchForm');
+      const searchSubmitBtn = document.getElementById('searchSubmitBtn');
+      const searchInput = document.getElementById('searchQ');
+      
+      if (searchForm) {
+        searchForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          handleSearch();
+          return false;
+        });
+      }
+      
+      if (searchSubmitBtn) {
+        searchSubmitBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          handleSearch();
+        });
+      }
+      
+      if (searchInput) {
+        searchInput.addEventListener('keypress', (e) => {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            handleSearch();
+          }
+        });
+      }
+      
+      // Initialize panels
+      renderSettings();
+      renderChatPanel();
+      loadFeed();
+      showPanel('feed');
+      
+      // Auto-refresh feed setiap 30 detik hanya jika di tab Feed
+      setInterval(() => {
+        const feedPanel = document.getElementById('panel-feed');
+        if (feedPanel && feedPanel.classList.contains('active')) {
+          loadFeed();
+        }
+      }, 30000);
+    }
+    
+    // Initialize setelah DOM ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initApp);
+    } else {
+      initApp();
+    }
+
+    function onShowPanel(panelId) {
+      if (panelId === 'feed') {
+        loadFeed();
+      } else if (panelId === 'rising') {
+        loadRising();
+      } else if (panelId === 'sources') {
+        loadSources();
+      } else if (panelId === 'chat') {
+        renderChatPanel();
+        // Focus input setelah render
+        setTimeout(() => {
+          const chatInput = document.getElementById('chatInput');
+          if (chatInput) chatInput.focus();
+        }, 100);
+      } else if (panelId === 'settings') {
+        renderSettings();
+      }
+    }
+
+    function renderSettings() {
+      // Settings sederhana, tidak perlu logic khusus
+    }
+
+    function renderChatPanel() {
+      // Chat selalu aktif dengan OpenRouter API
+      renderChatMessages();
+    }
+    let chatHistory = JSON.parse(localStorage.getItem('chatHistory') || '[]');
+    function renderChatMessages() {
+      const el = document.getElementById('chat-messages');
+      el.innerHTML = chatHistory.map(m => `
+        <li class="chat-msg ${m.role}">
+          <div class="role">${m.role === 'user' ? 'Anda' : 'AI'}</div>
+          <div>${escapeHtml(m.content)}</div>
+        </li>
+      `).join('');
+      el.scrollTop = el.scrollHeight;
+    }
+    function appendChatMessage(role, content) {
+      chatHistory.push({ role, content });
+      while (chatHistory.length > 100) chatHistory.shift();
+      localStorage.setItem('chatHistory', JSON.stringify(chatHistory));
+      renderChatMessages();
+    }
+    function handleChatSubmit() {
+      const input = document.getElementById('chatInput');
+      if (!input) return;
+      const text = input.value.trim();
+      if (!text) return;
+      input.value = '';
+      input.disabled = true;
+      const submitBtn = document.getElementById('chatSubmitBtn');
+      if (submitBtn) submitBtn.disabled = true;
+      
+      appendChatMessage('user', text);
+      callAiApi(chatHistory)
+        .then(reply => {
+          appendChatMessage('assistant', reply);
+        })
+        .catch(err => {
+          appendChatMessage('assistant', 'Error: ' + err.message);
+        })
+        .finally(() => {
+          input.disabled = false;
+          if (submitBtn) submitBtn.disabled = false;
+          input.focus();
+        });
+    }
+    
+    // OpenRouter API - hardcoded
+    const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
+    const OPENROUTER_API_KEY = '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';
+    const OPENROUTER_MODEL = 'arcee-ai/trinity-large-preview:free';
+    
+    function callAiApi(messages) {
+      const body = {
+        model: OPENROUTER_MODEL,
+        messages: messages.map(m => ({ role: m.role, content: m.content }))
+      };
+      const headers = {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + OPENROUTER_API_KEY,
+        'HTTP-Referer': window.location.origin,
+        'X-Title': 'Evolipia Radar'
+      };
+      return fetch(OPENROUTER_API_URL, { method: 'POST', headers, body: JSON.stringify(body) })
+        .then(r => {
+          if (!r.ok) {
+            return r.text().then(text => {
+              try {
+                const err = JSON.parse(text);
+                throw new Error(err.error?.message || err.error || r.statusText);
+              } catch {
+                throw new Error(text || r.statusText);
+              }
+            });
+          }
+          return r.json();
+        })
+        .then(data => {
+          if (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content)
+            return data.choices[0].message.content;
+          if (data.error && data.error.message) throw new Error(data.error.message);
+          throw new Error('Format response tidak dikenali.');
+        });
+    }
+  </script>
+</body>
+</html>

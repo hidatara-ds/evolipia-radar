@@ -6,10 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hidatara-ds/evolipia-radar/internal/models"
-	"github.com/hidatara-ds/evolipia-radar/internal/services"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
+	"github.com/hidatara-ds/evolipia-radar/internal/services"
 )
 
 type Handlers struct {

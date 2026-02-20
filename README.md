@@ -90,7 +90,7 @@ go list -m all
    ```bash
    make migrate-up
    ```
-   Or manually:
+   **Windows (no make):** install [golang-migrate](https://github.com/golang-migrate/migrate) CLI (e.g. `scoop install migrate` or download from releases), then:
    ```bash
    migrate -path migrations -database "postgres://postgres:postgres@localhost:5432/radar?sslmode=disable" up
    ```
@@ -105,16 +105,29 @@ go list -m all
 4. **Run API server** (in one terminal):
    ```bash
    make run-api
-   # or
+   # or (Windows / no make):
    go run ./cmd/api
    ```
 
 5. **Run worker** (in another terminal):
    ```bash
    make run-worker
-   # or
+   # or (Windows / no make):
    go run ./cmd/worker
    ```
+
+### Web UI (mobile-first)
+
+Setelah API jalan, buka di browser:
+
+- **http://localhost:8080/** — tampilan utama (ukuran untuk HP)
+
+UI berisi: **Feed**, **Rising**, **Cari**, **Chat AI**, **Sumber**, **Pengaturan**. Ketuk item untuk detail.
+
+- **Chat AI:** Butuh API AI (OpenAI-compatible). Atur di Pengaturan → Mode developer (login: `admin` / `admin`) → isi URL endpoint & API key → Simpan. Detektor otomatis mencoba format standar (OpenAI, dsb.).
+- **Mode developer:** Di **Pengaturan** → "Masuk ke mode developer" → login **admin** / **admin**. Setelah masuk: konfigurasi API AI, API Tester (panggil tiap endpoint), tombol **Test all features** (tes healthz, feed, rising, sources, search sekaligus), dan **Kembali ke mode biasa**.
+
+**Cek tampilan ukuran HP:** DevTools (F12) → device toolbar (Ctrl+Shift+M) → pilih perangkat atau lebar ~375px.
 
 ### API Endpoints
 

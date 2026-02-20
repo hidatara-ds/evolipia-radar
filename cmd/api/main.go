@@ -26,6 +26,10 @@ func main() {
 
 	router := gin.Default()
 
+	// Web UI (mobile-first); serve from ./web when running from project root
+	router.StaticFile("/", "web/index.html")
+	router.StaticFile("/index.html", "web/index.html")
+
 	// Health check
 	router.GET("/healthz", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"status": "ok"})
