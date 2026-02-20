@@ -58,22 +58,3 @@ ci:
 	go build -o bin/api ./cmd/api
 	go build -o bin/worker ./cmd/worker
 	@echo "✅ CI checks passed!"
-# ============================================
-# MLOps Additions
-# ============================================
-
-.PHONY: docker-compose-obs
-docker-compose-obs: ## Start observability stack
-	docker-compose -f docker-compose.observability.yml up -d
-
-.PHONY: docker-compose-ml
-docker-compose-ml: ## Start ML stack
-	docker-compose -f docker-compose.ml.yml up -d
-
-.PHONY: lint
-lint: ## Run golangci-lint
-	golangci-lint run --config=.golangci.yml ./...
-
-.PHONY: security-scan
-security-scan: ## Run security scans
-	trivy fs --severity HIGH,CRITICAL .
