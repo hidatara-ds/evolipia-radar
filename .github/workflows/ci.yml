@@ -96,7 +96,9 @@ jobs:
     runs-on: ubuntu-latest    
     services:
       postgres:
-        image: postgres:${{ env.POSTGRES_VERSION }}
+        # NOTE: using fixed tag here because GitHub Actions
+        # does not resolve top-level env in services.image reliably.
+        image: postgres:15
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
