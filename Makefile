@@ -34,3 +34,27 @@ docker-up:
 docker-down:
 	@echo "Stopping PostgreSQL..."
 	@docker-compose down
+
+	# ============================================
+# MLOps Additions
+# ============================================
+
+.PHONY: obs-up
+obs-up:
+	@echo "Starting observability stack..."
+	docker-compose -f docker-compose.observability.yml up -d
+	@echo "Grafana: http://localhost:3000 (admin/admin)"
+
+.PHONY: obs-down
+obs-down:
+	docker-compose -f docker-compose.observability.yml down
+
+.PHONY: ci
+ci:
+	@echo "Running CI checks..."
+	go mod tidy
+	go vet ./...
+	go test -v ./...
+	go build -o bin/api ./cmd/api
+	go build -o bin/worker ./cmd/worker
+	@echo "✅ CI checks passed!"

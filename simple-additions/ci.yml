@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Go
+      uses: actions/setup-go@v5
+      with:
+        go-version: '1.24.1'
+
+    - name: Test
+      run: go test -v ./...
+
+    - name: Build API
+      run: go build -o bin/api ./cmd/api
+
+    - name: Build Worker
+      run: go build -o bin/worker ./cmd/worker
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build Docker images
+      run: |
+        docker build -f Dockerfile.api -t radar-api:latest .
+        docker build -f Dockerfile.worker -t radar-worker:latest .
