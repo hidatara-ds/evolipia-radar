@@ -46,15 +46,81 @@ func (w *Worker) RunIngestion(ctx context.Context) error {
 		return fmt.Errorf("failed to get enabled sources: %w", err)
 	}
 
+	// Auto-create default Hacker News source if no enabled sources exist
+	if len(sources) == 0 {
+		log.Println("No enabled sources found. Creating default Hacker News source...")
+		if err := w.ensureDefaultSource(ctx); err != nil {
+			log.Printf("Warning: Failed to create default source: %v", err)
+		} else {
+			// Re-fetch enabled sources after creating default
+			sources, err = w.sourceRepo.GetEnabled(ctx)
+			if err != nil {
+				return fmt.Errorf("failed to get enabled sources after creating default: %w", err)
+			}
+		}
+	}
+
 	log.Printf("Found %d enabled sources", len(sources))
 
+	if len(sources) == 0 {
+		log.Println("No enabled sources to process")
+		return nil
+	}
+
 	for _, source := range sources {
+		if ctx.Err() != nil {
+			log.Printf("Context cancelled, stopping ingestion")
+			return ctx.Err()
+		}
 		if err := w.processSource(ctx, source); err != nil {
 			log.Printf("Error processing source %s: %v", source.Name, err)
 			// Continue with other sources
 		}
 	}
 
+	return nil
+}
+
+// ensureDefaultSource creates a default Hacker News source if it doesn't exist
+func (w *Worker) ensureDefaultSource(ctx context.Context) error {
+	defaultSource := &models.Source{
+		Name:     "Hacker News",
+		Type:     "hacker_news",
+		Category: "news",
+		URL:      "https://news.ycombinator.com",
+		Enabled:  true,
+		Status:   "active",
+	}
+
+	// Check if source already exists by URL
+	allSources, err := w.sourceRepo.List(ctx)
+	if err != nil {
+		return fmt.Errorf("failed to list sources: %w", err)
+	}
+
+	for _, s := range allSources {
+		if s.URL == defaultSource.URL || s.Name == defaultSource.Name {
+			// Source exists, enable it if disabled
+			if !s.Enabled {
+				if err := w.sourceRepo.SetEnabled(ctx, s.ID, true, "active"); err != nil {
+					log.Printf("Warning: Failed to enable existing source %s: %v", s.Name, err)
+					// Continue to try creating new one if enable fails
+				} else {
+					log.Printf("Enabled existing source: %s", s.Name)
+					return nil
+				}
+			} else {
+				return nil
+			}
+		}
+	}
+
+	// Create new default source
+	if err := w.sourceRepo.Create(ctx, defaultSource); err != nil {
+		return fmt.Errorf("failed to create default source: %w", err)
+	}
+
+	log.Printf("Created default source: %s", defaultSource.Name)
 	return nil
 }
 
@@ -96,8 +162,13 @@ func (w *Worker) processSource(ctx context.Context, source models.Source) error 
 	if err != nil {
 		fetchRun.Status = "failed"
 		errorMsg := err.Error()
+		if len(errorMsg) > 500 {
+			errorMsg = errorMsg[:500] + "..."
+		}
 		fetchRun.Error = &errorMsg
-		w.fetchRunRepo.Create(ctx, fetchRun)
+		if createErr := w.fetchRunRepo.Create(ctx, fetchRun); createErr != nil {
+			log.Printf("Warning: Failed to create fetch run record: %v", createErr)
+		}
 		return err
 	}
 
