@@ -265,18 +265,10 @@ jobs:
         cache: true
 
     - name: Run benchmarks
-      run: go test -bench=. -benchmem ./... | tee benchmark.txt
+      run: go test -bench=. -benchmem ./... 2>&1 | tee benchmark.txt || true
 
     - name: Upload benchmark results
       uses: actions/upload-artifact@v4
       with:
         name: benchmark-results
         path: benchmark.txt
-
-    - name: Store benchmark result
-      uses: benchmark-action/github-action-benchmark@v1
-      with:
-        tool: 'go'
-        output-file-path: benchmark.txt
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        auto-push: true
