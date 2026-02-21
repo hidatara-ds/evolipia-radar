@@ -294,11 +294,7 @@ func (h *Handlers) TestSource(c *gin.Context) {
 		return
 	}
 
-	if result.Status == "ok" {
-		c.JSON(http.StatusOK, result)
-	} else {
-		c.JSON(http.StatusOK, result)
-	}
+	c.JSON(http.StatusOK, result)
 }
 
 func (h *Handlers) EnableSource(c *gin.Context) {
