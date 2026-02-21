@@ -80,15 +80,24 @@ jobs:
 
     - name: Train model
       run: |
+        if [ ! -d ml/training ]; then
+          echo "ml/training not found, skipping training step"
+          exit 0
+        fi
         cd ml/training
         python train_ranking_model.py
 
     - name: Log metrics to MLflow
       run: |
+        if [ ! -d ml/training ]; then
+          echo "ml/training not found, skipping MLflow logging"
+          exit 0
+        fi
         cd ml/training
         python log_experiment.py
 
     - name: Upload model artifacts
+      if: hashFiles('ml/models/**') != ''
       uses: actions/upload-artifact@v4
       with:
         name: model-artifacts

@@ -140,7 +140,6 @@ linters:
     - gochecknoglobals
     - gomnd
     - ireturn
-    - lll
     - nlreturn
     - paralleltest
     - testpackage
