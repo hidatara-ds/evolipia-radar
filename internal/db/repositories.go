@@ -3,6 +3,7 @@ package db
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"time"
 
@@ -177,7 +178,7 @@ func (r *ItemRepository) GetByContentHash(ctx context.Context, hash string) (*mo
 		&item.ContentHash, &item.Domain, &item.Category, &item.RawExcerpt,
 		&item.CreatedAt,
 	)
-	if err == pgx.ErrNoRows {
+	if errors.Is(err, pgx.ErrNoRows) {
 		return nil, nil
 	}
 	if err != nil {
@@ -399,7 +400,7 @@ func (r *SignalRepository) GetLatestByItemID(ctx context.Context, itemID uuid.UU
 	`, itemID).Scan(
 		&sig.ID, &sig.ItemID, &sig.Points, &sig.Comments, &sig.RankPos, &sig.FetchedAt,
 	)
-	if err == pgx.ErrNoRows {
+	if errors.Is(err, pgx.ErrNoRows) {
 		return nil, nil
 	}
 	if err != nil {
@@ -468,7 +469,7 @@ func (r *ScoreRepository) GetByItemID(ctx context.Context, itemID uuid.UUID) (*m
 		&score.ItemID, &score.Hot, &score.Relevance, &score.Credibility,
 		&score.Novelty, &score.Final, &score.ComputedAt,
 	)
-	if err == pgx.ErrNoRows {
+	if errors.Is(err, pgx.ErrNoRows) {
 		return nil, nil
 	}
 	if err != nil {
@@ -513,7 +514,7 @@ func (r *SummaryRepository) GetByItemID(ctx context.Context, itemID uuid.UUID) (
 		&summary.ItemID, &summary.TLDR, &summary.WhyItMatters,
 		&tagsJSON, &summary.Method, &summary.CreatedAt,
 	)
-	if err == pgx.ErrNoRows {
+	if errors.Is(err, pgx.ErrNoRows) {
 		return nil, nil
 	}
 	if err != nil {

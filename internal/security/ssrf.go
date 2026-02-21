@@ -43,9 +43,7 @@ func ValidateURL(rawURL string) error {
 	// Resolve IP addresses
 	ips, err := net.LookupIP(host)
 	if err != nil {
-		// If DNS lookup fails, we'll allow it but log it
-		// In production, you might want to be stricter
-		return nil
+		return err
 	}
 
 	for _, ip := range ips {

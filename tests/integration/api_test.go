@@ -24,10 +24,10 @@ import (
 
 type IntegrationTestSuite struct {
 	suite.Suite
-	db         *sql.DB
-	appDB      *db.DB
-	router     *gin.Engine
-	testSrcID  uuid.UUID
+	db          *sql.DB
+	appDB       *db.DB
+	router      *gin.Engine
+	testSrcID   uuid.UUID
 	testItemIDs []uuid.UUID
 }
 
@@ -123,7 +123,7 @@ func (s *IntegrationTestSuite) cleanupTestData() {
 
 func (s *IntegrationTestSuite) TestHealthCheck() {
 	w := httptest.NewRecorder()
-	req, _ := http.NewRequest("GET", "/healthz", nil)
+	req, _ := http.NewRequestWithContext(context.Background(), http.MethodGet, "/healthz", http.NoBody)
 	s.router.ServeHTTP(w, req)
 	s.Equal(200, w.Code)
 	s.Contains(w.Body.String(), "ok")
@@ -131,7 +131,7 @@ func (s *IntegrationTestSuite) TestHealthCheck() {
 
 func (s *IntegrationTestSuite) TestGetFeed() {
 	w := httptest.NewRecorder()
-	req, _ := http.NewRequest("GET", "/v1/feed?date=today", nil)
+	req, _ := http.NewRequestWithContext(context.Background(), http.MethodGet, "/v1/feed?date=today", http.NoBody)
 	s.router.ServeHTTP(w, req)
 	s.Equal(200, w.Code)
 	s.Contains(w.Body.String(), "items")
@@ -139,7 +139,7 @@ func (s *IntegrationTestSuite) TestGetFeed() {
 
 func (s *IntegrationTestSuite) TestGetItem() {
 	w := httptest.NewRecorder()
-	req, _ := http.NewRequest("GET", "/v1/items/"+s.testItemIDs[0].String(), nil)
+	req, _ := http.NewRequestWithContext(context.Background(), http.MethodGet, "/v1/items/"+s.testItemIDs[0].String(), http.NoBody)
 	s.router.ServeHTTP(w, req)
 	s.Equal(200, w.Code)
 	s.Contains(w.Body.String(), "Test Article 0")

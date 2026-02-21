@@ -3,6 +3,7 @@ package services
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"time"
 
@@ -70,9 +71,9 @@ func (s *SourceService) TestConnection(ctx context.Context, sourceType, category
 		errorCode := "TEST_ERROR"
 		message := err.Error()
 
-		if err == connectors.ErrTimeout {
+		if errors.Is(err, connectors.ErrTimeout) {
 			errorCode = "TIMEOUT"
-		} else if err == connectors.ErrSizeLimit {
+		} else if errors.Is(err, connectors.ErrSizeLimit) {
 			errorCode = "HTTP_403" // or SIZE_LIMIT
 		}
 
