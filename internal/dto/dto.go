@@ -23,4 +23,3 @@ type TestResult struct {
 	ErrorCode    string                   `json:"error_code,omitempty"`
 	Message      string                   `json:"message,omitempty"`
 }
-

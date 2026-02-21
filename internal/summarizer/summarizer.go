@@ -35,11 +35,11 @@ func GenerateExtractiveSummary(item *models.Item) *models.Summary {
 	tags := extractTags(item, text)
 
 	return &models.Summary{
-		ItemID:         item.ID,
-		TLDR:           tldr,
-		WhyItMatters:   whyItMatters,
-		Tags:           tags,
-		Method:         "extractive",
+		ItemID:       item.ID,
+		TLDR:         tldr,
+		WhyItMatters: whyItMatters,
+		Tags:         tags,
+		Method:       "extractive",
 	}
 }
 
@@ -52,7 +52,7 @@ func extractSentences(text string) []string {
 
 	var sentences []string
 	current := ""
-	
+
 	for _, char := range text {
 		current += string(char)
 		if char == '.' || char == '!' || char == '?' {
@@ -60,7 +60,7 @@ func extractSentences(text string) []string {
 			current = ""
 		}
 	}
-	
+
 	if strings.TrimSpace(current) != "" {
 		sentences = append(sentences, strings.TrimSpace(current))
 	}
@@ -78,7 +78,7 @@ func extractSentences(text string) []string {
 
 func generateWhyItMatters(item *models.Item, text string) string {
 	textLower := strings.ToLower(text)
-	
+
 	// Check for specific topics and generate relevant angle
 	if contains(textLower, "llm") || contains(textLower, "transformer") || contains(textLower, "gpt") {
 		return "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design."
@@ -92,7 +92,7 @@ func generateWhyItMatters(item *models.Item, text string) string {
 	if contains(textLower, "rag") || contains(textLower, "retrieval") {
 		return "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications."
 	}
-	
+
 	// Default
 	return "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning."
 }

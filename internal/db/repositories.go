@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hidatara-ds/evolipia-radar/internal/models"
 	"github.com/google/uuid"
+	"github.com/hidatara-ds/evolipia-radar/internal/models"
 	"github.com/jackc/pgx/v5"
 )
 

@@ -16,4 +16,3 @@ func DeploymentActivity(ctx context.Context, trainingResult mlpipeline.TrainingR
 		Stage:        "Production",
 	}, nil
 }
-

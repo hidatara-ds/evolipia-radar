@@ -21,36 +21,36 @@ func TestScoreCalculator_CalculateScore(t *testing.T) {
 		{
 			name: "high popularity item",
 			item: &dto.ContentItemDTO{
-				Title:         "Popular AI Article",
-				URL:           "https://example.com/ai",
-				SourceType:    "hackernews",
-				Popularity:    1000,
-				CommentCount:  100,
-				PublishedAt:   time.Now(),
+				Title:        "Popular AI Article",
+				URL:          "https://example.com/ai",
+				SourceType:   "hackernews",
+				Popularity:   1000,
+				CommentCount: 100,
+				PublishedAt:  time.Now(),
 			},
 			expected: 0.8, // High score due to popularity
 		},
 		{
 			name: "low popularity recent item",
 			item: &dto.ContentItemDTO{
-				Title:         "New ML Release",
-				URL:           "https://example.com/ml",
-				SourceType:    "rss",
-				Popularity:    10,
-				CommentCount:  0,
-				PublishedAt:   time.Now(),
+				Title:        "New ML Release",
+				URL:          "https://example.com/ml",
+				SourceType:   "rss",
+				Popularity:   10,
+				CommentCount: 0,
+				PublishedAt:  time.Now(),
 			},
 			expected: 0.3, // Lower score due to low popularity
 		},
 		{
 			name: "old item",
 			item: &dto.ContentItemDTO{
-				Title:         "Old Article",
-				URL:           "https://example.com/old",
-				SourceType:    "arxiv",
-				Popularity:    100,
-				CommentCount:  10,
-				PublishedAt:   time.Now().Add(-7 * 24 * time.Hour), // 7 days old
+				Title:        "Old Article",
+				URL:          "https://example.com/old",
+				SourceType:   "arxiv",
+				Popularity:   100,
+				CommentCount: 10,
+				PublishedAt:  time.Now().Add(-7 * 24 * time.Hour), // 7 days old
 			},
 			expected: 0.4, // Lower score due to age
 		},

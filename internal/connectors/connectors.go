@@ -80,7 +80,7 @@ func parseRSSAtom(body []byte) []dto.ContentItem {
 	// Very basic RSS parsing (item tags)
 	itemStart := "<item>"
 	itemEnd := "</item>"
-	
+
 	// Also handle Atom entries
 	entryStart := "<entry>"
 	entryEnd := "</entry>"
@@ -246,7 +246,7 @@ func FetchJSONAPI(ctx context.Context, apiURL string, mapping map[string]interfa
 
 		item.Title = getStringValue(itemMap, titlePath)
 		item.URL = getStringValue(itemMap, urlPath)
-		
+
 		if item.Title == "" || item.URL == "" {
 			continue
 		}
@@ -280,7 +280,7 @@ func FetchJSONAPI(ctx context.Context, apiURL string, mapping map[string]interfa
 func getNestedValue(data map[string]interface{}, path string) interface{} {
 	parts := strings.Split(path, ".")
 	current := interface{}(data)
-	
+
 	for _, part := range parts {
 		if part == "" {
 			continue

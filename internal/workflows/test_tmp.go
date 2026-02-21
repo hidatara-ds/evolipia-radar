@@ -120,4 +120,3 @@ func MLPipelineWorkflow(ctx workflow.Context, config mlpipeline.PipelineConfig) 
 
 	return nil
 }
-
