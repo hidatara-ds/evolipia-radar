@@ -3,6 +3,7 @@ package workflows
 import (
 	"time"
 
+	"go.temporal.io/sdk/temporal"
 	"go.temporal.io/sdk/workflow"
 
 	"github.com/hidatara-ds/evolipia-radar/internal/activities"
@@ -24,7 +25,7 @@ func MLPipelineWorkflow(ctx workflow.Context, config mlpipeline.PipelineConfig) 
 	}
 
 	// Common retry policy for all activities.
-	retryPolicy := &workflow.RetryPolicy{
+	retryPolicy := &temporal.RetryPolicy{
 		MaximumAttempts: 3,
 	}
 

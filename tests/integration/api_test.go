@@ -6,6 +6,8 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"net/http"
+	"net/http/httptest"
 	"os"
 	"testing"
 	"time"
@@ -14,7 +16,6 @@ import (
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
 	"github.com/hidatara-ds/evolipia-radar/internal/db"
 	"github.com/hidatara-ds/evolipia-radar/internal/http/handlers"
-	"github.com/hidatara-ds/evolipia-radar/internal/services"
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
@@ -22,7 +23,8 @@ import (
 
 type IntegrationTestSuite struct {
 	suite.Suite
-	db     *sql.DB
+	db     *sql.DB  // raw DB handle for setting up test data
+	appDB  *db.DB   // application DB pool used by handlers
 	router *gin.Engine
 }
 
@@ -50,19 +52,28 @@ func (s *IntegrationTestSuite) SetupSuite() {
 	s.router = gin.New()
 
 	cfg := config.Load()
-	repo := db.NewRepository(s.db)
-	svc := services.NewFeedService(repo, cfg)
-	handler := handlers.NewFeedHandler(svc)
+	appDB, err := db.New(cfg)
+	require.NoError(s.T(), err)
+	s.appDB = appDB
 
-	s.router.GET("/healthz", handler.HealthCheck)
-	s.router.GET("/v1/feed", handler.GetFeed)
-	s.router.GET("/v1/items/:id", handler.GetItem)
+	h := handlers.New(appDB)
+
+	// Mirror the routing in cmd/api/main.go
+	s.router.GET("/healthz", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{"status": "ok"})
+	})
+
+	s.router.GET("/v1/feed", h.GetFeed)
+	s.router.GET("/v1/items/:id", h.GetItem)
 }
 
 func (s *IntegrationTestSuite) TearDownSuite() {
 	if s.db != nil {
 		s.cleanupTestData()
 		s.db.Close()
+	}
+	if s.appDB != nil {
+		s.appDB.Close()
 	}
 }
 
