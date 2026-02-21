@@ -6,8 +6,10 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"net"
 	"net/http"
 	"net/url"
+	"os"
 	"strings"
 	"time"
 
@@ -17,25 +19,53 @@ import (
 )
 
 var (
-	ErrTimeout   = errors.New("request timeout")
-	ErrSizeLimit = errors.New("response size limit exceeded")
+	ErrTimeout        = errors.New("request timeout")
+	ErrSizeLimit      = errors.New("response size limit exceeded")
+	ErrInvalidURL     = errors.New("invalid outbound url")
+	ErrDisallowedHost = errors.New("host not allowed")
 )
 
-func fetchWithLimits(ctx context.Context, url string, cfg *config.Config) ([]byte, error) {
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, http.NoBody)
+// Optional allowlist (recommended): comma-separated hosts/domains.
+// Examples:
+//   EVOLIPIA_ALLOWED_FETCH_HOSTS="kompas.com,tempo.co,cnnindonesia.com,antaranews.com,.googleapis.com"
+// Rules:
+// - "example.com" allows example.com + subdomains (*.example.com)
+// - ".example.com" also allows subdomains (suffix match)
+func allowedFetchHostsFromEnv() []string {
+	raw := strings.TrimSpace(os.Getenv("EVOLIPIA_ALLOWED_FETCH_HOSTS"))
+	if raw == "" {
+		return nil
+	}
+	parts := strings.Split(raw, ",")
+	out := make([]string, 0, len(parts))
+	for _, p := range parts {
+		p = strings.ToLower(strings.TrimSpace(p))
+		if p != "" {
+			out = append(out, p)
+		}
+	}
+	return out
+}
+
+func fetchWithLimits(ctx context.Context, rawURL string, cfg *config.Config) ([]byte, error) {
+	u, err := validateOutboundURL(ctx, rawURL, allowedFetchHostsFromEnv())
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, u.String(), nil)
 	if err != nil {
 		return nil, err
 	}
 
 	req.Header.Set("User-Agent", "evolipia-radar/1.0")
 
-	client := &http.Client{
-		Timeout: cfg.FetchTimeout(),
-	}
+	client := newSafeHTTPClient(cfg)
 
 	resp, err := client.Do(req)
 	if err != nil {
-		if strings.Contains(err.Error(), "timeout") {
+		// keep your old timeout behavior
+		if strings.Contains(strings.ToLower(err.Error()), "timeout") {
 			return nil, ErrTimeout
 		}
 		return nil, err
@@ -58,6 +88,128 @@ func fetchWithLimits(ctx context.Context, url string, cfg *config.Config) ([]byt
 	}
 
 	return body, nil
+}
+
+// Disable redirects so attacker can't redirect from public URL -> internal URL.
+func newSafeHTTPClient(cfg *config.Config) *http.Client {
+	transport := http.DefaultTransport.(*http.Transport).Clone()
+
+	// Optional extra hardening
+	transport.ResponseHeaderTimeout = cfg.FetchTimeout()
+	transport.TLSHandshakeTimeout = 10 * time.Second
+
+	return &http.Client{
+		Timeout:   cfg.FetchTimeout(),
+		Transport: transport,
+		CheckRedirect: func(req *http.Request, via []*http.Request) error {
+			return http.ErrUseLastResponse
+		},
+	}
+}
+
+func validateOutboundURL(ctx context.Context, raw string, allowlist []string) (*url.URL, error) {
+	raw = strings.TrimSpace(raw)
+	if raw == "" {
+		return nil, ErrInvalidURL
+	}
+
+	u, err := url.Parse(raw)
+	if err != nil {
+		return nil, fmt.Errorf("%w: parse failed", ErrInvalidURL)
+	}
+
+	// Require absolute URL (scheme + host)
+	if u.Scheme == "" || u.Host == "" {
+		return nil, fmt.Errorf("%w: url must be absolute", ErrInvalidURL)
+	}
+
+	// Recommend https only
+	if u.Scheme != "https" {
+		return nil, fmt.Errorf("%w: scheme not allowed", ErrInvalidURL)
+	}
+
+	// No credentials in URL
+	if u.User != nil {
+		return nil, fmt.Errorf("%w: userinfo not allowed", ErrInvalidURL)
+	}
+
+	host := strings.ToLower(u.Hostname())
+	if host == "" {
+		return nil, fmt.Errorf("%w: missing host", ErrInvalidURL)
+	}
+
+	// Block local hostnames
+	if host == "localhost" || strings.HasSuffix(host, ".local") {
+		return nil, fmt.Errorf("%w: local hostnames blocked", ErrInvalidURL)
+	}
+
+	// Allowlist (if configured)
+	if len(allowlist) > 0 && !hostAllowed(host, allowlist) {
+		return nil, fmt.Errorf("%w: %s", ErrDisallowedHost, host)
+	}
+
+	// DNS resolve and block private/local/link-local/etc
+	ips, err := net.DefaultResolver.LookupIPAddr(ctx, host)
+	if err != nil {
+		return nil, fmt.Errorf("%w: dns lookup failed", ErrInvalidURL)
+	}
+	for _, ip := range ips {
+		if isPrivateOrLocalIP(ip.IP) {
+			return nil, fmt.Errorf("%w: private/local ip blocked (%s)", ErrInvalidURL, ip.IP.String())
+		}
+	}
+
+	return u, nil
+}
+
+func hostAllowed(host string, allowed []string) bool {
+	for _, a := range allowed {
+		a = strings.ToLower(strings.TrimSpace(a))
+		if a == "" {
+			continue
+		}
+		// "example.com" => allow example.com and subdomains
+		if host == a || strings.HasSuffix(host, "."+a) {
+			return true
+		}
+		// ".example.com" => suffix match (subdomains)
+		if strings.HasPrefix(a, ".") && strings.HasSuffix(host, a) {
+			return true
+		}
+	}
+	return false
+}
+
+func isPrivateOrLocalIP(ip net.IP) bool {
+	if ip == nil {
+		return true
+	}
+
+	// Normalize to 16 bytes
+	ip16 := ip.To16()
+	if ip16 == nil {
+		return true
+	}
+
+	// Built-in checks: loopback/link-local/multicast/unspecified/private
+	if ip16.IsLoopback() ||
+		ip16.IsLinkLocalUnicast() ||
+		ip16.IsLinkLocalMulticast() ||
+		ip16.IsMulticast() ||
+		ip16.IsUnspecified() ||
+		ip16.IsPrivate() {
+		return true
+	}
+
+	// Extra IPv4 block: CGNAT 100.64.0.0/10
+	if v4 := ip.To4(); v4 != nil {
+		_, cgnat, _ := net.ParseCIDR("100.64.0.0/10")
+		if cgnat.Contains(v4) {
+			return true
+		}
+	}
+
+	return false
 }
 
 func FetchRSSAtom(ctx context.Context, feedURL string, cfg *config.Config) ([]dto.ContentItem, error) {
