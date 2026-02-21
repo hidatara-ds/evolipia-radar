@@ -22,7 +22,7 @@ var (
 )
 
 func fetchWithLimits(ctx context.Context, url string, cfg *config.Config) ([]byte, error) {
-	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, http.NoBody)
 	if err != nil {
 		return nil, err
 	}
@@ -40,7 +40,7 @@ func fetchWithLimits(ctx context.Context, url string, cfg *config.Config) ([]byt
 		}
 		return nil, err
 	}
-	defer resp.Body.Close()
+	defer func() { _ = resp.Body.Close() }()
 
 	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
 		return nil, fmt.Errorf("HTTP %d: %s", resp.StatusCode, resp.Status)

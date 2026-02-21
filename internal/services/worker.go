@@ -69,7 +69,7 @@ func (w *Worker) RunIngestion(ctx context.Context) error {
 
 	for _, source := range sources {
 		if ctx.Err() != nil {
-			log.Printf("Context cancelled, stopping ingestion")
+			log.Printf("Context canceled, stopping ingestion")
 			return ctx.Err()
 		}
 		if err := w.processSource(ctx, source); err != nil {

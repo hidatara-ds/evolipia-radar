@@ -57,9 +57,7 @@ func NormalizeDomain(hostname string) string {
 		hostname = hostname[:idx]
 	}
 	// Remove www. prefix for consistency
-	if strings.HasPrefix(hostname, "www.") {
-		hostname = hostname[4:]
-	}
+	hostname = strings.TrimPrefix(hostname, "www.")
 	return hostname
 }
 

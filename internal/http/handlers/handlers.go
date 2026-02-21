@@ -31,8 +31,10 @@ func (h *Handlers) GetFeed(c *gin.Context) {
 
 	var date time.Time
 	if dateStr == "today" {
-		// Use Asia/Jakarta timezone
-		loc, _ := time.LoadLocation("Asia/Jakarta")
+		loc, err := time.LoadLocation("Asia/Jakarta")
+		if err != nil {
+			loc = time.UTC
+		}
 		date = time.Now().In(loc)
 	} else {
 		var err error
