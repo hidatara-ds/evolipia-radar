@@ -10,11 +10,11 @@ import (
 var (
 	privateIPRanges = []*net.IPNet{
 		{IP: net.IP{10, 0, 0, 0}, Mask: net.CIDRMask(8, 32)},     // 10.0.0.0/8
-		{IP: net.IP{172, 16, 0, 0}, Mask: net.CIDRMask(12, 32)}, // 172.16.0.0/12
+		{IP: net.IP{172, 16, 0, 0}, Mask: net.CIDRMask(12, 32)},  // 172.16.0.0/12
 		{IP: net.IP{192, 168, 0, 0}, Mask: net.CIDRMask(16, 32)}, // 192.168.0.0/16
 		{IP: net.IP{169, 254, 0, 0}, Mask: net.CIDRMask(16, 32)}, // 169.254.0.0/16
 	}
-	
+
 	blockedHosts = map[string]bool{
 		"localhost": true,
 		"127.0.0.1": true,
@@ -34,7 +34,7 @@ func ValidateURL(rawURL string) error {
 	}
 
 	host := strings.ToLower(parsed.Hostname())
-	
+
 	// Check blocked hosts
 	if blockedHosts[host] {
 		return fmt.Errorf("blocked host: %s", host)

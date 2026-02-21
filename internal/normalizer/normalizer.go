@@ -68,10 +68,10 @@ func ContentHash(title, url string) string {
 	if err != nil {
 		normalizedURL = url
 	}
-	
+
 	normalizedTitle := strings.ToLower(strings.TrimSpace(title))
 	input := normalizedTitle + "|" + normalizedURL
-	
+
 	hash := sha256.Sum256([]byte(input))
 	return fmt.Sprintf("%x", hash)
 }

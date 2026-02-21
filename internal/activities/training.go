@@ -16,4 +16,3 @@ func TrainingActivity(ctx context.Context, featureResult mlpipeline.FeatureEngRe
 		Metrics:      map[string]float64{},
 	}, nil
 }
-

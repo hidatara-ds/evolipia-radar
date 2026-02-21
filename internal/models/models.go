@@ -71,4 +71,3 @@ type FetchRun struct {
 	ItemsFetched  int       `json:"items_fetched"`
 	ItemsInserted int       `json:"items_inserted"`
 }
-

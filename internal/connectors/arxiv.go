@@ -58,15 +58,15 @@ func FetchArxiv(ctx context.Context, query string, cfg *config.Config) ([]dto.Co
 }
 
 type ArxivFeed struct {
-	XMLName xml.Name      `xml:"feed"`
+	XMLName xml.Name     `xml:"feed"`
 	Entries []ArxivEntry `xml:"entry"`
 }
 
 type ArxivEntry struct {
-	ID        string         `xml:"id"`
-	Title     string         `xml:"title"`
-	Published time.Time      `xml:"published"`
-	Summary   string         `xml:"summary"`
+	ID         string          `xml:"id"`
+	Title      string          `xml:"title"`
+	Published  time.Time       `xml:"published"`
+	Summary    string          `xml:"summary"`
 	Categories []ArxivCategory `xml:"category"`
 }
 

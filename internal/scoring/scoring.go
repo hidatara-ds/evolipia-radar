@@ -33,13 +33,13 @@ func ComputeScore(item *models.Item, signal *models.Signal, summary *models.Summ
 	final := weights.W1*hot + weights.W2*relevance + weights.W3*credibility + weights.W4*novelty
 
 	return &models.Score{
-		ItemID:     item.ID,
-		Hot:        hot,
-		Relevance:  relevance,
+		ItemID:      item.ID,
+		Hot:         hot,
+		Relevance:   relevance,
 		Credibility: credibility,
-		Novelty:    novelty,
-		Final:      final,
-		ComputedAt: time.Now(),
+		Novelty:     novelty,
+		Final:       final,
+		ComputedAt:  time.Now(),
 	}
 }
 
@@ -63,9 +63,9 @@ func computeHotScore(signal *models.Signal, publishedAt time.Time) float64 {
 
 	// Simple scoring: points * 10 + comments * 5
 	rawScore := float64(points*10 + comments*5)
-	
+
 	// Normalize to 0-1 range (assuming max 1000 points, 500 comments)
-	maxScore := 1000.0 * 10 + 500.0 * 5
+	maxScore := 1000.0*10 + 500.0*5
 	normalized := rawScore / maxScore
 	if normalized > 1.0 {
 		normalized = 1.0
@@ -154,18 +154,18 @@ func computeCredibilityScoreWithConfig(domain string, config CredibilityConfig) 
 func computeNoveltyScore(publishedAt time.Time) float64 {
 	// Newer items get higher novelty
 	ageHours := time.Since(publishedAt).Hours()
-	
+
 	// Decay: items older than 7 days get very low novelty
 	if ageHours > 168 { // 7 days
 		return 0.1
 	}
-	
+
 	// Linear decay from 1.0 to 0.1 over 7 days
 	novelty := 1.0 - (ageHours / 168.0 * 0.9)
 	if novelty < 0.1 {
 		novelty = 0.1
 	}
-	
+
 	return novelty
 }
 
@@ -183,10 +183,10 @@ func toLower(s string) string {
 }
 
 func contains(s, substr string) bool {
-	return len(s) >= len(substr) && (s == substr || 
-		(len(s) > len(substr) && (s[:len(substr)] == substr || 
-		s[len(s)-len(substr):] == substr || 
-		indexOf(s, substr) != -1)))
+	return len(s) >= len(substr) && (s == substr ||
+		(len(s) > len(substr) && (s[:len(substr)] == substr ||
+			s[len(s)-len(substr):] == substr ||
+			indexOf(s, substr) != -1)))
 }
 
 func indexOf(s, substr string) int {

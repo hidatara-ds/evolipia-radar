@@ -12,4 +12,3 @@ func FeatureEngineeringActivity(ctx context.Context, ingestionResult mlpipeline.
 	// TODO: implement feature computation and write to feature store backends.
 	return mlpipeline.FeatureEngResult{}, nil
 }
-

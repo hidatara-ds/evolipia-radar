@@ -17,4 +17,3 @@ func IngestionActivity(ctx context.Context, sources []string) (mlpipeline.Ingest
 		FeatureSetName: "",
 	}, nil
 }
-

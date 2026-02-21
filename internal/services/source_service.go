@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/google/uuid"
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
 	"github.com/hidatara-ds/evolipia-radar/internal/connectors"
 	"github.com/hidatara-ds/evolipia-radar/internal/db"
 	"github.com/hidatara-ds/evolipia-radar/internal/dto"
 	"github.com/hidatara-ds/evolipia-radar/internal/models"
 	"github.com/hidatara-ds/evolipia-radar/internal/security"
-	"github.com/google/uuid"
 )
 
 type SourceService struct {
@@ -46,7 +46,7 @@ func (s *SourceService) TestConnection(ctx context.Context, sourceType, category
 	switch sourceType {
 	case "rss_atom":
 		items, err = connectors.FetchRSSAtom(ctx, url, cfg)
-		case "json_api":
+	case "json_api":
 		var mapping map[string]interface{}
 		if mappingJSON != nil {
 			if err := json.Unmarshal(mappingJSON, &mapping); err != nil {

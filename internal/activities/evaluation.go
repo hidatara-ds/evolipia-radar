@@ -16,4 +16,3 @@ func EvaluationActivity(ctx context.Context, trainingResult mlpipeline.TrainingR
 		ShouldDeploy:  false,
 	}, nil
 }
-

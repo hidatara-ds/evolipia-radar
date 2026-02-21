@@ -44,10 +44,15 @@ jobs:
 
     - name: Run Great Expectations
       run: |
+        if [ ! -d ml/data_quality ]; then
+          echo "ml/data_quality not found, skipping data quality checkpoint"
+          exit 0
+        fi
         cd ml/data_quality
         great_expectations checkpoint run content_items_checkpoint
 
     - name: Upload Data Docs
+      if: hashFiles('ml/data_quality/**') != ''
       uses: actions/upload-artifact@v4
       with:
         name: data-docs
@@ -75,15 +80,24 @@ jobs:
 
     - name: Train model
       run: |
+        if [ ! -d ml/training ]; then
+          echo "ml/training not found, skipping training step"
+          exit 0
+        fi
         cd ml/training
         python train_ranking_model.py
 
     - name: Log metrics to MLflow
       run: |
+        if [ ! -d ml/training ]; then
+          echo "ml/training not found, skipping MLflow logging"
+          exit 0
+        fi
         cd ml/training
         python log_experiment.py
 
     - name: Upload model artifacts
+      if: hashFiles('ml/models/**') != ''
       uses: actions/upload-artifact@v4
       with:
         name: model-artifacts

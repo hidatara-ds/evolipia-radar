@@ -1,4 +1,4 @@
-# golangci-lint configuration
+# golangci-lint configuration (schema-compatible with v1.64+)
 # https://golangci-lint.run/usage/configuration/
 
 run:
@@ -7,15 +7,11 @@ run:
   tests: true
   build-tags:
     - integration
-  skip-dirs:
-    - vendor
-    - third_party
-  skip-files:
-    - ".*\.pb\.go$"
-    - ".*\.gen\.go$"
 
 output:
-  format: colored-line-number
+  formats:
+    - format: colored-line-number
+      path: stdout
   print-issued-lines: true
   print-linter-name: true
 
@@ -25,14 +21,13 @@ linters-settings:
     check-blank: true
 
   govet:
-    check-shadowing: true
     enable-all: true
+    settings:
+      shadow:
+        strict: false
 
   gocyclo:
     min-complexity: 15
-
-  maligned:
-    suggest-new: true
 
   dupl:
     threshold: 100
@@ -91,21 +86,16 @@ linters:
     - gocyclo
     - gofmt
     - goimports
-    - golint
-    - gomnd
     - goprintffuncname
     - gosec
     - gosimple
     - govet
     - ineffassign
-    - interfacer
     - lll
     - misspell
     - nakedret
     - rowserrcheck
-    - scopelint
     - staticcheck
-    - structcheck
     - stylecheck
     - typecheck
     - unconvert
@@ -122,7 +112,6 @@ linters:
     - forcetypeassert
     - funlen
     - gci
-    - gochecknoglobals
     - gocognit
     - godot
     - godox
@@ -133,39 +122,32 @@ linters:
     - gomodguard
     - nestif
     - nilerr
-    - nlreturn
     - noctx
     - nolintlint
-    - paralleltest
     - prealloc
     - predeclared
     - promlinter
     - revive
     - sqlclosecheck
     - tagliatelle
-    - testpackage
     - thelper
-    - tparallel
     - wastedassign
     - wrapcheck
 
   disable:
-    - depguard  # Disabled as it requires configuration
-    - exhaustivestruct  # Too strict for most cases
-    - gochecknoglobals  # Too strict for configs
-    - gomnd  # Too noisy
-    - ireturn  # Too strict for interfaces
-    - lll  # Can be too strict
-    - maligned  # Deprecated
-    - nlreturn  # Too strict
-    - paralleltest  # Can cause issues with DB tests
-    - testpackage  # We want to test internal packages
-    - varnamelen  # Too strict
-    - wsl  # Too strict
+    - depguard
+    - exhaustivestruct
+    - gochecknoglobals
+    - gomnd
+    - ireturn
+    - nlreturn
+    - paralleltest
+    - testpackage
+    - varnamelen
+    - wsl
 
 issues:
   exclude-rules:
-    # Exclude some linters from running on tests files
     - path: _test\.go
       linters:
         - gocyclo
@@ -178,19 +160,16 @@ issues:
         - gochecknoglobals
         - gochecknoinits
 
-    # Exclude known linter issues
     - text: "weak cryptographic primitive"
       linters:
         - gosec
 
-    # Exclude shadow checking in test files
     - path: _test\.go
       text: "shadow"
       linters:
         - govet
 
-    # Exclude shadow checking for err
-    - text: "shadow: declaration of "err""
+    - text: 'shadow: declaration of "err"'
       linters:
         - govet
 

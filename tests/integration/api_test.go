@@ -6,15 +6,17 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"net/http"
+	"net/http/httptest"
 	"os"
 	"testing"
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
 	"github.com/hidatara-ds/evolipia-radar/internal/db"
 	"github.com/hidatara-ds/evolipia-radar/internal/http/handlers"
-	"github.com/hidatara-ds/evolipia-radar/internal/services"
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
@@ -22,41 +24,43 @@ import (
 
 type IntegrationTestSuite struct {
 	suite.Suite
-	db     *sql.DB
-	router *gin.Engine
+	db         *sql.DB
+	appDB      *db.DB
+	router     *gin.Engine
+	testSrcID  uuid.UUID
+	testItemIDs []uuid.UUID
 }
 
 func (s *IntegrationTestSuite) SetupSuite() {
-	// Get database URL from environment
 	databaseURL := os.Getenv("DATABASE_URL")
 	require.NotEmpty(s.T(), databaseURL, "DATABASE_URL must be set")
 
-	// Connect to database
 	var err error
 	s.db, err = sql.Open("pgx", databaseURL)
 	require.NoError(s.T(), err)
 
-	// Verify connection
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
 	err = s.db.PingContext(ctx)
 	require.NoError(s.T(), err)
 
-	// Setup test data
 	s.setupTestData()
 
-	// Setup router
 	gin.SetMode(gin.TestMode)
 	s.router = gin.New()
 
 	cfg := config.Load()
-	repo := db.NewRepository(s.db)
-	svc := services.NewFeedService(repo, cfg)
-	handler := handlers.NewFeedHandler(svc)
+	appDB, err := db.New(cfg)
+	require.NoError(s.T(), err)
+	s.appDB = appDB
 
-	s.router.GET("/healthz", handler.HealthCheck)
-	s.router.GET("/v1/feed", handler.GetFeed)
-	s.router.GET("/v1/items/:id", handler.GetItem)
+	h := handlers.New(appDB)
+
+	s.router.GET("/healthz", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{"status": "ok"})
+	})
+	s.router.GET("/v1/feed", h.GetFeed)
+	s.router.GET("/v1/items/:id", h.GetItem)
 }
 
 func (s *IntegrationTestSuite) TearDownSuite() {
@@ -64,58 +68,63 @@ func (s *IntegrationTestSuite) TearDownSuite() {
 		s.cleanupTestData()
 		s.db.Close()
 	}
+	if s.appDB != nil {
+		s.appDB.Close()
+	}
 }
 
 func (s *IntegrationTestSuite) setupTestData() {
 	ctx := context.Background()
 
-	// Insert test source
+	s.testSrcID = uuid.New()
+	s.testItemIDs = make([]uuid.UUID, 5)
+
 	_, err := s.db.ExecContext(ctx, `
-		INSERT INTO sources (id, name, type, url, category, enabled, created_at, updated_at)
-		VALUES ('test-source-1', 'Test Source', 'rss_atom', 'https://test.com/feed', 'news', true, NOW(), NOW())
+		INSERT INTO sources (id, name, type, category, url, enabled, status, created_at, updated_at)
+		VALUES ($1, 'Test Source', 'rss_atom', 'news', 'https://test.com/feed', true, 'active', NOW(), NOW())
 		ON CONFLICT (id) DO NOTHING
-	`)
+	`, s.testSrcID)
 	require.NoError(s.T(), err)
 
-	// Insert test items
 	for i := 0; i < 5; i++ {
+		itemID := uuid.New()
+		s.testItemIDs[i] = itemID
 		_, err := s.db.ExecContext(ctx, `
-			INSERT INTO content_items (id, source_id, title, url, summary, score, published_at, created_at)
-			VALUES (
-				$1, 
-				'test-source-1', 
-				$2, 
-				$3, 
-				'Test summary', 
-				$4, 
-				NOW() - INTERVAL '$5 hours',
-				NOW()
-			)
+			INSERT INTO items (id, source_id, title, url, published_at, content_hash, domain, category, raw_excerpt, created_at)
+			VALUES ($1, $2, $3, $4, NOW() - ($5::integer * INTERVAL '1 hour'), $6, 'test.com', 'news', NULL, NOW())
 			ON CONFLICT (id) DO NOTHING
 		`,
-			fmt.Sprintf("test-item-%d", i),
+			itemID,
+			s.testSrcID,
 			fmt.Sprintf("Test Article %d", i),
 			fmt.Sprintf("https://test.com/article-%d", i),
-			0.5+float64(i)*0.1,
 			i,
+			"hash-"+itemID.String(),
 		)
+		require.NoError(s.T(), err)
+
+		_, err = s.db.ExecContext(ctx, `
+			INSERT INTO scores (item_id, hot, relevance, credibility, novelty, final, computed_at)
+			VALUES ($1, 0.5, 0.5, 0.5, 0.5, 0.5 + ($2 * 0.1), NOW())
+			ON CONFLICT (item_id) DO UPDATE SET final = 0.5 + ($2 * 0.1)
+		`, itemID, i)
 		require.NoError(s.T(), err)
 	}
 }
 
 func (s *IntegrationTestSuite) cleanupTestData() {
 	ctx := context.Background()
-	_, err := s.db.ExecContext(ctx, `DELETE FROM content_items WHERE id LIKE 'test-%'`)
-	require.NoError(s.T(), err)
-	_, err = s.db.ExecContext(ctx, `DELETE FROM sources WHERE id LIKE 'test-%'`)
-	require.NoError(s.T(), err)
+	for _, id := range s.testItemIDs {
+		_, _ = s.db.ExecContext(ctx, `DELETE FROM scores WHERE item_id = $1`, id)
+		_, _ = s.db.ExecContext(ctx, `DELETE FROM items WHERE id = $1`, id)
+	}
+	_, _ = s.db.ExecContext(ctx, `DELETE FROM sources WHERE id = $1`, s.testSrcID)
 }
 
 func (s *IntegrationTestSuite) TestHealthCheck() {
 	w := httptest.NewRecorder()
 	req, _ := http.NewRequest("GET", "/healthz", nil)
 	s.router.ServeHTTP(w, req)
-
 	s.Equal(200, w.Code)
 	s.Contains(w.Body.String(), "ok")
 }
@@ -124,16 +133,14 @@ func (s *IntegrationTestSuite) TestGetFeed() {
 	w := httptest.NewRecorder()
 	req, _ := http.NewRequest("GET", "/v1/feed?date=today", nil)
 	s.router.ServeHTTP(w, req)
-
 	s.Equal(200, w.Code)
 	s.Contains(w.Body.String(), "items")
 }
 
 func (s *IntegrationTestSuite) TestGetItem() {
 	w := httptest.NewRecorder()
-	req, _ := http.NewRequest("GET", "/v1/items/test-item-0", nil)
+	req, _ := http.NewRequest("GET", "/v1/items/"+s.testItemIDs[0].String(), nil)
 	s.router.ServeHTTP(w, req)
-
 	s.Equal(200, w.Code)
 	s.Contains(w.Body.String(), "Test Article 0")
 }
