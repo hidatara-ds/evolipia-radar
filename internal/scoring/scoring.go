@@ -21,8 +21,10 @@ var DefaultWeights = Weights{
 	W4: 0.05,
 }
 
-var defaultCredibilityConfig = DefaultCredibilityConfig()
-var defaultRelevanceKeywords = DefaultRelevanceKeywords()
+var (
+	defaultCredibilityConfig = DefaultCredibilityConfig()
+	defaultRelevanceKeywords = DefaultRelevanceKeywords()
+)
 
 func ComputeScore(item *models.Item, signal *models.Signal, summary *models.Summary, weights Weights) *models.Score {
 	hot := computeHotScore(signal, item.PublishedAt)

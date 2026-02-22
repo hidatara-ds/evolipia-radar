@@ -27,7 +27,9 @@ var (
 
 // Optional allowlist (recommended): comma-separated hosts/domains.
 // Examples:
-//   EVOLIPIA_ALLOWED_FETCH_HOSTS="kompas.com,tempo.co,cnnindonesia.com,antaranews.com,.googleapis.com"
+//
+//	EVOLIPIA_ALLOWED_FETCH_HOSTS="kompas.com,tempo.co,cnnindonesia.com,antaranews.com,.googleapis.com"
+//
 // Rules:
 // - "example.com" allows example.com + subdomains (*.example.com)
 // - ".example.com" also allows subdomains (suffix match)
@@ -319,16 +321,16 @@ func parseFeedItem(itemContent string) dto.ContentItem {
 }
 
 func extractTagText(s, tag string) string {
-	open := "<" + tag + ">"
-	close := "</" + tag + ">"
+	openTag := "<" + tag + ">"
+	closeTag := "</" + tag + ">"
 
-	start := strings.Index(s, open)
+	start := strings.Index(s, openTag)
 	if start == -1 {
 		return ""
 	}
-	start += len(open)
+	start += len(openTag)
 
-	end := strings.Index(s[start:], close)
+	end := strings.Index(s[start:], closeTag)
 	if end == -1 {
 		return ""
 	}
