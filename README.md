@@ -3,7 +3,7 @@
 # 🎯 EVOLIPIA-RADAR
 
 [![CI](https://github.com/hidatara-ds/evolipia-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/hidatara-ds/evolipia-radar/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hidatara-ds/evolipia-radar)](https://goreportcard.com/report/github.com/hidatara-ds/evolipia-radar)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hidatara-ds/evolipia-radar?v=2)](https://goreportcard.com/report/github.com/hidatara-ds/evolipia-radar)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **An AI/ML tech news aggregator with MLOps best practices**
