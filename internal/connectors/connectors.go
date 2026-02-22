@@ -319,16 +319,16 @@ func parseFeedItem(itemContent string) dto.ContentItem {
 }
 
 func extractTagText(s, tag string) string {
-	open := "<" + tag + ">"
-	close := "</" + tag + ">"
+	openTag := "<" + tag + ">"
+	closeTag := "</" + tag + ">"
 
-	start := strings.Index(s, open)
+	start := strings.Index(s, openTag)
 	if start == -1 {
 		return ""
 	}
-	start += len(open)
+	start += len(openTag)
 
-	end := strings.Index(s[start:], close)
+	end := strings.Index(s[start:], closeTag)
 	if end == -1 {
 		return ""
 	}
