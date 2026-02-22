@@ -2,14 +2,14 @@ name: CI
 
 on:
   push:
-    branches: [main, develop]
-    tags: ["v*"]
+    branches: [ main, develop ]
+    tags: [ 'v*' ]
   pull_request:
-    branches: [main, develop]
+    branches: [ main, develop ]
 
 env:
-  GO_VERSION: "1.24.1"
-  POSTGRES_VERSION: "15"
+  GO_VERSION: '1.24.1'
+  POSTGRES_VERSION: '15'
 
 jobs:
   # ============================================
@@ -131,7 +131,6 @@ jobs:
           go-version: ${{ env.GO_VERSION }}
           cache: true
 
-      # ✅ FIX: stable install (no curl/tar guessing)
       - name: Install migrate CLI
         run: |
           go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@v4.17.0
@@ -173,23 +172,29 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Login to GitHub Container Registry
+        if: github.event_name != 'pull_request'
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract metadata
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ghcr.io/${{ github.repository }}/${{ matrix.component }}
-          tags: |
-            type=ref,event=branch
-            type=ref,event=pr
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}
-            type=sha,prefix=,suffix=,format=short
+      - name: Prepare tags
+        id: tags
+        shell: bash
+        run: |
+          IMAGE="ghcr.io/${{ github.repository }}/${{ matrix.component }}"
+          echo "image=$IMAGE" >> "$GITHUB_OUTPUT"
+          echo "sha_tag=$IMAGE:${{ github.sha }}" >> "$GITHUB_OUTPUT"
+          echo "short_sha_tag=$IMAGE:${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
+          # Sanitize ref name for Docker tag (no '/', only [A-Za-z0-9_.-])
+          REF_NAME="${{ github.ref_name }}"
+          SAFE_REF="$(echo "$REF_NAME" | tr '[:upper:]' '[:lower:]' | sed -E 's#[^a-z0-9_.-]+#-#g' | sed -E 's#^-+##; s#-+$##')"
+          if [ -z "$SAFE_REF" ]; then
+            SAFE_REF="${GITHUB_SHA::7}"
+          fi
+          echo "ref_tag=$IMAGE:${SAFE_REF}" >> "$GITHUB_OUTPUT"
 
       - name: Build and push
         uses: docker/build-push-action@v6
@@ -198,19 +203,25 @@ jobs:
           file: ./Dockerfile.${{ matrix.component }}
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: |
+            ${{ steps.tags.outputs.sha_tag }}
+            ${{ steps.tags.outputs.short_sha_tag }}
+            ${{ steps.tags.outputs.ref_tag }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
       - name: Generate SBOM
+        if: github.event_name != 'pull_request'
         uses: anchore/sbom-action@v0
         with:
-          image: ghcr.io/${{ github.repository }}/${{ matrix.component }}:${{ github.sha }}
+          image: ${{ steps.tags.outputs.sha_tag }}
           format: spdx-json
           output-file: ${{ matrix.component }}-sbom.spdx.json
+          upload-artifact: false
+          dependency-snapshot: false
 
       - name: Upload SBOM
+        if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.component }}-sbom
@@ -233,19 +244,22 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          scan-type: "fs"
-          format: "sarif"
-          output: "trivy-results.sarif"
+          scan-type: 'fs'
+          format: 'sarif'
+          output: 'trivy-results.sarif'
 
       - name: Upload Trivy scan results
         uses: github/codeql-action/upload-sarif@v4
         if: always()
         with:
-          sarif_file: "trivy-results.sarif"
+          sarif_file: 'trivy-results.sarif'
 
       - name: Run Nancy for dependency scanning
+        env:
+        GOPROXY: https://proxy.golang.org,direct
+        GOSUMDB: sum.golang.org
         run: |
-          go install github.com/sonatypecommunity/nancy@latest
+          go install github.com/sonatype-nexus-community/nancy@v1.0.52
           echo "$HOME/go/bin" >> $GITHUB_PATH
           go list -json -deps ./... | nancy sleuth
 
