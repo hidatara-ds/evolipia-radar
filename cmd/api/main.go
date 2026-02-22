@@ -29,11 +29,11 @@ func main() {
 
 	// Web UI (mobile-first); serve from ./web when running from project root
 	router.StaticFile("/", "./web/index.html")
- 	router.StaticFile("/index.html", "./web/index.html")
+	router.StaticFile("/index.html", "./web/index.html")
 
 	// Serve static folders
-    router.Static("/web", "web")
- 	router.Static("/assets", "assets")
+	router.Static("/web", "web")
+	router.Static("/assets", "assets")
 
 	// Health check
 	router.GET("/healthz", func(c *gin.Context) {
