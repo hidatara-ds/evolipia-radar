@@ -36,6 +36,7 @@ func allowedFetchHostsFromEnv() []string {
 	if raw == "" {
 		return nil
 	}
+
 	parts := strings.Split(raw, ",")
 	out := make([]string, 0, len(parts))
 	for _, p := range parts {
@@ -57,7 +58,6 @@ func fetchWithLimits(ctx context.Context, rawURL string, cfg *config.Config) ([]
 	if err != nil {
 		return nil, err
 	}
-
 	req.Header.Set("User-Agent", "evolipia-radar/1.0")
 
 	client := newSafeHTTPClient(cfg)
@@ -76,13 +76,13 @@ func fetchWithLimits(ctx context.Context, rawURL string, cfg *config.Config) ([]
 		return nil, fmt.Errorf("HTTP %d: %s", resp.StatusCode, resp.Status)
 	}
 
-	// Limit response size
 	limitedReader := io.LimitReader(resp.Body, cfg.MaxFetchBytes)
 	body, err := io.ReadAll(limitedReader)
 	if err != nil {
 		return nil, err
 	}
 
+	// If body is exactly at limit, it could be truncated => treat as size limit exceeded.
 	if len(body) >= int(cfg.MaxFetchBytes) {
 		return nil, ErrSizeLimit
 	}
@@ -92,7 +92,11 @@ func fetchWithLimits(ctx context.Context, rawURL string, cfg *config.Config) ([]
 
 // Disable redirects so attacker can't redirect from public URL -> internal URL.
 func newSafeHTTPClient(cfg *config.Config) *http.Client {
-	transport := http.DefaultTransport.(*http.Transport).Clone()
+	base, ok := http.DefaultTransport.(*http.Transport)
+	if !ok || base == nil {
+		base = &http.Transport{}
+	}
+	transport := base.Clone()
 
 	// Optional extra hardening
 	transport.ResponseHeaderTimeout = cfg.FetchTimeout()
@@ -185,13 +189,11 @@ func isPrivateOrLocalIP(ip net.IP) bool {
 		return true
 	}
 
-	// Normalize to 16 bytes
 	ip16 := ip.To16()
 	if ip16 == nil {
 		return true
 	}
 
-	// Built-in checks: loopback/link-local/multicast/unspecified/private
 	if ip16.IsLoopback() ||
 		ip16.IsLinkLocalUnicast() ||
 		ip16.IsLinkLocalMulticast() ||
@@ -218,101 +220,27 @@ func FetchRSSAtom(ctx context.Context, feedURL string, cfg *config.Config) ([]dt
 		return nil, err
 	}
 
-	// Simple RSS/Atom parser (MVP - can be enhanced)
 	items := parseRSSAtom(body)
 	return items, nil
 }
 
 func parseRSSAtom(body []byte) []dto.ContentItem {
-	// MVP: Simple XML parsing
-	// In production, use a proper RSS/Atom library
 	content := string(body)
-	var items []dto.ContentItem
 
-	// Very basic RSS parsing (item tags)
-	itemStart := "<item>"
-	itemEnd := "</item>"
-
-	// Also handle Atom entries
-	entryStart := "<entry>"
-	entryEnd := "</entry>"
-
-	parseItem := func(itemContent string) dto.ContentItem {
-		item := dto.ContentItem{
-			Category: "news",
-			Tags:     []string{},
-		}
-
-		// Extract title
-		if titleStart := strings.Index(itemContent, "<title>"); titleStart != -1 {
-			titleStart += len("<title>")
-			if titleEnd := strings.Index(itemContent[titleStart:], "</title>"); titleEnd != -1 {
-				item.Title = strings.TrimSpace(itemContent[titleStart : titleStart+titleEnd])
-			}
-		}
-
-		// Extract link
-		if linkStart := strings.Index(itemContent, "<link>"); linkStart != -1 {
-			linkStart += len("<link>")
-			if linkEnd := strings.Index(itemContent[linkStart:], "</link>"); linkEnd != -1 {
-				item.URL = strings.TrimSpace(itemContent[linkStart : linkStart+linkEnd])
-			}
-		} else if linkStart := strings.Index(itemContent, `href="`); linkStart != -1 {
-			linkStart += len(`href="`)
-			if linkEnd := strings.Index(itemContent[linkStart:], `"`); linkEnd != -1 {
-				item.URL = strings.TrimSpace(itemContent[linkStart : linkStart+linkEnd])
-			}
-		}
-
-		// Extract pubDate or published
-		if pubStart := strings.Index(itemContent, "<pubDate>"); pubStart != -1 {
-			pubStart += len("<pubDate>")
-			if pubEnd := strings.Index(itemContent[pubStart:], "</pubDate>"); pubEnd != -1 {
-				dateStr := strings.TrimSpace(itemContent[pubStart : pubStart+pubEnd])
-				if t, err := time.Parse(time.RFC1123Z, dateStr); err == nil {
-					item.PublishedAt = t
-				} else if t, err := time.Parse(time.RFC1123, dateStr); err == nil {
-					item.PublishedAt = t
-				}
-			}
-		} else if pubStart := strings.Index(itemContent, "<published>"); pubStart != -1 {
-			pubStart += len("<published>")
-			if pubEnd := strings.Index(itemContent[pubStart:], "</published>"); pubEnd != -1 {
-				dateStr := strings.TrimSpace(itemContent[pubStart : pubStart+pubEnd])
-				if t, err := time.Parse(time.RFC3339, dateStr); err == nil {
-					item.PublishedAt = t
-				}
-			}
-		}
-
-		// Extract description/summary
-		if descStart := strings.Index(itemContent, "<description>"); descStart != -1 {
-			descStart += len("<description>")
-			if descEnd := strings.Index(itemContent[descStart:], "</description>"); descEnd != -1 {
-				item.Excerpt = strings.TrimSpace(itemContent[descStart : descStart+descEnd])
-			}
-		} else if sumStart := strings.Index(itemContent, "<summary>"); sumStart != -1 {
-			sumStart += len("<summary>")
-			if sumEnd := strings.Index(itemContent[sumStart:], "</summary>"); sumEnd != -1 {
-				item.Excerpt = strings.TrimSpace(itemContent[sumStart : sumStart+sumEnd])
-			}
-		}
-
-		if item.PublishedAt.IsZero() {
-			item.PublishedAt = time.Now()
-		}
-
-		if item.URL != "" {
-			parsedURL, err := url.Parse(item.URL)
-			if err == nil {
-				item.Domain = normalizer.NormalizeDomain(parsedURL.Hostname())
-			}
-		}
-
-		return item
+	items := parseRSSItems(content)
+	if len(items) > 0 {
+		return items
 	}
+	return parseAtomEntries(content)
+}
 
-	// Parse RSS items
+func parseRSSItems(content string) []dto.ContentItem {
+	const (
+		itemStart = "<item>"
+		itemEnd   = "</item>"
+	)
+
+	var items []dto.ContentItem
 	start := 0
 	for {
 		idx := strings.Index(content[start:], itemStart)
@@ -324,37 +252,134 @@ func parseRSSAtom(body []byte) []dto.ContentItem {
 		if endIdx == -1 {
 			break
 		}
+
 		itemContent := content[itemStartIdx : itemStartIdx+endIdx+len(itemEnd)]
-		item := parseItem(itemContent)
+		item := parseFeedItem(itemContent)
 		if item.Title != "" && item.URL != "" {
 			items = append(items, item)
 		}
+
 		start = itemStartIdx + endIdx + len(itemEnd)
 	}
+	return items
+}
 
-	// Parse Atom entries if no RSS items found
-	if len(items) == 0 {
-		start = 0
-		for {
-			idx := strings.Index(content[start:], entryStart)
-			if idx == -1 {
-				break
-			}
-			entryStartIdx := start + idx
-			endIdx := strings.Index(content[entryStartIdx:], entryEnd)
-			if endIdx == -1 {
-				break
-			}
-			entryContent := content[entryStartIdx : entryStartIdx+endIdx+len(entryEnd)]
-			item := parseItem(entryContent)
-			if item.Title != "" && item.URL != "" {
-				items = append(items, item)
-			}
-			start = entryStartIdx + endIdx + len(entryEnd)
+func parseAtomEntries(content string) []dto.ContentItem {
+	const (
+		entryStart = "<entry>"
+		entryEnd   = "</entry>"
+	)
+
+	var items []dto.ContentItem
+	start := 0
+	for {
+		idx := strings.Index(content[start:], entryStart)
+		if idx == -1 {
+			break
+		}
+		entryStartIdx := start + idx
+		endIdx := strings.Index(content[entryStartIdx:], entryEnd)
+		if endIdx == -1 {
+			break
+		}
+
+		entryContent := content[entryStartIdx : entryStartIdx+endIdx+len(entryEnd)]
+		item := parseFeedItem(entryContent)
+		if item.Title != "" && item.URL != "" {
+			items = append(items, item)
+		}
+
+		start = entryStartIdx + endIdx + len(entryEnd)
+	}
+	return items
+}
+
+func parseFeedItem(itemContent string) dto.ContentItem {
+	item := dto.ContentItem{
+		Category: "news",
+		Tags:     []string{},
+	}
+
+	item.Title = extractTagText(itemContent, "title")
+	item.URL = extractLink(itemContent)
+	item.PublishedAt = extractPublishedAt(itemContent)
+	item.Excerpt = extractExcerpt(itemContent)
+
+	if item.PublishedAt.IsZero() {
+		item.PublishedAt = time.Now()
+	}
+
+	if item.URL != "" {
+		if parsedURL, err := url.Parse(item.URL); err == nil {
+			item.Domain = normalizer.NormalizeDomain(parsedURL.Hostname())
 		}
 	}
 
-	return items
+	return item
+}
+
+func extractTagText(s, tag string) string {
+	open := "<" + tag + ">"
+	close := "</" + tag + ">"
+
+	start := strings.Index(s, open)
+	if start == -1 {
+		return ""
+	}
+	start += len(open)
+
+	end := strings.Index(s[start:], close)
+	if end == -1 {
+		return ""
+	}
+
+	return strings.TrimSpace(s[start : start+end])
+}
+
+func extractLink(s string) string {
+	if link := extractTagText(s, "link"); link != "" {
+		return link
+	}
+
+	// Atom style: <link href="...">
+	if i := strings.Index(s, `href="`); i != -1 {
+		i += len(`href="`)
+		if j := strings.Index(s[i:], `"`); j != -1 {
+			return strings.TrimSpace(s[i : i+j])
+		}
+	}
+	return ""
+}
+
+func extractPublishedAt(s string) time.Time {
+	if dateStr := extractTagText(s, "pubDate"); dateStr != "" {
+		dateStr = strings.TrimSpace(dateStr)
+		if t, err := time.Parse(time.RFC1123Z, dateStr); err == nil {
+			return t
+		}
+		if t, err := time.Parse(time.RFC1123, dateStr); err == nil {
+			return t
+		}
+	}
+
+	if dateStr := extractTagText(s, "published"); dateStr != "" {
+		dateStr = strings.TrimSpace(dateStr)
+		if t, err := time.Parse(time.RFC3339, dateStr); err == nil {
+			return t
+		}
+	}
+
+	return time.Time{}
+}
+
+func extractExcerpt(s string) string {
+	if desc := extractTagText(s, "description"); desc != "" {
+		return desc
+	}
+	if sum := extractTagText(s, "summary"); sum != "" {
+		return sum
+	}
+	return ""
 }
 
 func FetchJSONAPI(ctx context.Context, apiURL string, mapping map[string]interface{}, cfg *config.Config) ([]dto.ContentItem, error) {
@@ -403,7 +428,6 @@ func FetchJSONAPI(ctx context.Context, apiURL string, mapping map[string]interfa
 			continue
 		}
 
-		// Parse published_at
 		dateStr := getStringValue(itemMap, publishedAtPath)
 		if dateStr != "" {
 			if t, err := parseDate(dateStr); err == nil {
