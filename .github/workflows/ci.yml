@@ -256,8 +256,8 @@ jobs:
 
       - name: Run Nancy for dependency scanning
         env:
-        GOPROXY: https://proxy.golang.org,direct
-        GOSUMDB: sum.golang.org
+          GOPROXY: https://proxy.golang.org,direct
+          GOSUMDB: sum.golang.org
         run: |
           go install github.com/sonatype-nexus-community/nancy@v1.0.52
           echo "$HOME/go/bin" >> $GITHUB_PATH
