@@ -260,7 +260,7 @@ jobs:
           GOSUMDB: sum.golang.org
         run: |
           go install github.com/sonatype-nexus-community/nancy@v1.0.52
-          echo "$HOME/go/bin" >> $GITHUB_PATH
+          "$HOME/go/bin/nancy" --version 
           go list -json -deps ./... | nancy sleuth
 
   # ============================================
