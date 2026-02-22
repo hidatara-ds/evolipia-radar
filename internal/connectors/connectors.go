@@ -27,7 +27,9 @@ var (
 
 // Optional allowlist (recommended): comma-separated hosts/domains.
 // Examples:
-//   EVOLIPIA_ALLOWED_FETCH_HOSTS="kompas.com,tempo.co,cnnindonesia.com,antaranews.com,.googleapis.com"
+//
+//	EVOLIPIA_ALLOWED_FETCH_HOSTS="kompas.com,tempo.co,cnnindonesia.com,antaranews.com,.googleapis.com"
+//
 // Rules:
 // - "example.com" allows example.com + subdomains (*.example.com)
 // - ".example.com" also allows subdomains (suffix match)
