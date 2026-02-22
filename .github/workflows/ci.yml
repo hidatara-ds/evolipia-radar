@@ -260,8 +260,8 @@ jobs:
           GOSUMDB: sum.golang.org
         run: |
           go install github.com/sonatype-nexus-community/nancy@v1.0.52
-          "$HOME/go/bin/nancy" --version 
-          go list -json -deps ./... | nancy sleuth
+          "$HOME/go/bin/nancy" --version
+          go list -json -deps ./... | "$HOME/go/bin/nancy" sleuth
 
   # ============================================
   # Job 6: Performance Benchmarks
