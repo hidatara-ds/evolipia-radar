@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -67,7 +67,7 @@ jobs:
     needs: data-quality
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -112,7 +112,7 @@ jobs:
     needs: train-model
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -148,7 +148,7 @@ jobs:
     needs: evaluate-model
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -175,7 +175,7 @@ jobs:
     environment: staging
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v4
@@ -212,7 +212,7 @@ jobs:
     if: github.event_name == 'schedule'
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: Set up Python
       uses: actions/setup-python@v5
