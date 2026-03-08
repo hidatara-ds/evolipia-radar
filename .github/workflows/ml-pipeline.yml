@@ -54,7 +54,7 @@ jobs:
 
     - name: Upload Data Docs
       if: hashFiles('ml/data_quality/**') != ''
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: data-docs
         path: ml/data_quality/gx/uncommitted/data_docs/
@@ -99,7 +99,7 @@ jobs:
 
     - name: Upload model artifacts
       if: hashFiles('ml/models/**') != ''
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: model-artifacts
         path: ml/models/
@@ -144,7 +144,7 @@ jobs:
 
     - name: Upload evaluation report
       if: hashFiles('ml/evaluation/**') != ''
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: evaluation-report
         path: ml/evaluation/reports/
@@ -214,7 +214,7 @@ jobs:
 
     - name: Upload results
       if: hashFiles('ml/experiments/**') != ''
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: ab-test-results
         path: ml/experiments/results/

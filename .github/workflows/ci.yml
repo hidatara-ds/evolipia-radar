@@ -83,7 +83,7 @@ jobs:
           echo "Coverage report generated: coverage.html"
 
       - name: Upload coverage artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: coverage-report
           path: coverage.html
@@ -222,7 +222,7 @@ jobs:
 
       - name: Upload SBOM
         if: github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.component }}-sbom
           path: ${{ matrix.component }}-sbom.spdx.json
@@ -274,7 +274,7 @@ jobs:
         run: go test -bench=. -benchmem ./... 2>&1 | tee benchmark.txt || true
 
       - name: Upload benchmark results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: benchmark-results
           path: benchmark.txt
