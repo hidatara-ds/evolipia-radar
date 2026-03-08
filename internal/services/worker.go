@@ -155,6 +155,21 @@ func (w *Worker) processSource(ctx context.Context, source models.Source) error 
 			}
 		}
 		items, err = connectors.FetchJSONAPI(ctx, source.URL, mapping, w.cfg)
+	
+	// Phase 1: New connector types
+	case "huggingface_trending":
+		items, err = connectors.FetchHuggingFaceTrending(ctx, w.cfg)
+	case "papers_with_code":
+		items, err = connectors.FetchPapersWithCode(ctx, w.cfg)
+	case "lmsys_arena":
+		items, err = connectors.FetchLMSYSArena(ctx, w.cfg)
+	case "openai_status":
+		items, err = connectors.FetchOpenAIStatus(ctx, w.cfg)
+	case "anthropic_docs":
+		items, err = connectors.FetchAnthropicDocs(ctx, w.cfg)
+	case "github_trending":
+		items, err = connectors.FetchGitHubTrending(ctx, w.cfg)
+	
 	default:
 		return fmt.Errorf("unsupported source type: %s", source.Type)
 	}
@@ -238,8 +253,18 @@ func (w *Worker) processItem(ctx context.Context, source models.Source, contentI
 			return fmt.Errorf("failed to create item: %w", err)
 		}
 
-		// Generate summary
-		summary := summarizer.GenerateExtractiveSummary(item)
+		// Generate summary (LLM if enabled, otherwise extractive)
+		var summary *models.Summary
+		if w.cfg.LLMEnabled && w.cfg.LLMAPIKey != "" {
+			summary, err = summarizer.GenerateLLMSummary(ctx, item, w.cfg)
+			if err != nil {
+				log.Printf("LLM summarization failed, falling back to extractive: %v", err)
+				summary = summarizer.GenerateExtractiveSummary(item)
+			}
+		} else {
+			summary = summarizer.GenerateExtractiveSummary(item)
+		}
+		
 		if err := w.summaryRepo.Upsert(ctx, summary); err != nil {
 			log.Printf("Error creating summary: %v", err)
 		}
