@@ -13,14 +13,14 @@ type Crawler struct {
 
 // Config for crawler
 type Config struct {
-	Headless          bool
-	ProxyRotation     bool
-	MaxConcurrent     int
-	RespectRobotsTxt  bool
-	UserAgent         string
-	Timeout           time.Duration
-	MaxRetries        int
-	RetryBackoff      time.Duration
+	Headless         bool
+	ProxyRotation    bool
+	MaxConcurrent    int
+	RespectRobotsTxt bool
+	UserAgent        string
+	Timeout          time.Duration
+	MaxRetries       int
+	RetryBackoff     time.Duration
 }
 
 // CrawlResult contains extracted content
@@ -52,7 +52,7 @@ func (c *Crawler) Crawl(ctx context.Context, url string) (*CrawlResult, error) {
 	// - Wait for dynamic content
 	// - Extract text using go-readability
 	// - Parse metadata
-	
+
 	return nil, fmt.Errorf("not implemented - Phase 2")
 }
 
@@ -62,7 +62,7 @@ func (c *Crawler) CrawlBatch(ctx context.Context, urls []string) ([]*CrawlResult
 	// - Use worker pool pattern
 	// - Respect MaxConcurrent limit
 	// - Handle rate limiting per domain
-	
+
 	return nil, fmt.Errorf("not implemented - Phase 2")
 }
 
@@ -72,7 +72,7 @@ func (c *Crawler) CheckRobotsTxt(ctx context.Context, url string) (bool, error) 
 	// - Fetch robots.txt
 	// - Parse rules
 	// - Check if URL is allowed
-	
+
 	return true, nil
 }
 
@@ -82,6 +82,6 @@ func ExtractContent(html string) (string, error) {
 	// - Remove ads, navigation, footers
 	// - Extract main content
 	// - Preserve structure
-	
+
 	return "", fmt.Errorf("not implemented - Phase 2")
 }

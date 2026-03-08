@@ -16,14 +16,14 @@ import (
 // Note: This is a simple HTML scraper. For production, consider using their API if available
 func FetchLMSYSArena(ctx context.Context, cfg *config.Config) ([]dto.ContentItem, error) {
 	leaderboardURL := "https://chat.lmsys.org/"
-	
+
 	body, err := fetchWithLimits(ctx, leaderboardURL, cfg)
 	if err != nil {
 		return nil, err
 	}
 
 	html := string(body)
-	
+
 	// Simple pattern matching for model rankings
 	// This is a basic implementation - in production, use proper HTML parsing
 	modelPattern := regexp.MustCompile(`(?i)(gpt-4|claude|gemini|llama|mistral|palm)[-\w]*`)
@@ -47,12 +47,12 @@ func FetchLMSYSArena(ctx context.Context, cfg *config.Config) ([]dto.ContentItem
 	// Create items for top models found
 	seen := make(map[string]bool)
 	var items []dto.ContentItem
-	
+
 	for i, model := range matches {
 		if i >= 10 { // Limit to top 10
 			break
 		}
-		
+
 		modelName := strings.ToLower(model)
 		if seen[modelName] {
 			continue
@@ -61,10 +61,10 @@ func FetchLMSYSArena(ctx context.Context, cfg *config.Config) ([]dto.ContentItem
 
 		rank := i + 1
 		title := fmt.Sprintf("LMSYS Arena: %s (Rank ~%d)", model, rank)
-		
+
 		// Simulate engagement based on rank
 		points := 100 - (rank * 5)
-		
+
 		item := dto.ContentItem{
 			Title:       title,
 			URL:         leaderboardURL,
@@ -74,7 +74,7 @@ func FetchLMSYSArena(ctx context.Context, cfg *config.Config) ([]dto.ContentItem
 			Points:      &points,
 			Tags:        []string{"benchmarks", "llm", "arena"},
 		}
-		
+
 		items = append(items, item)
 	}
 
@@ -85,7 +85,7 @@ func FetchLMSYSArena(ctx context.Context, cfg *config.Config) ([]dto.ContentItem
 func FetchOpenAIStatus(ctx context.Context, cfg *config.Config) ([]dto.ContentItem, error) {
 	// OpenAI status RSS feed
 	statusURL := "https://status.openai.com/history.rss"
-	
+
 	items, err := FetchRSSAtom(ctx, statusURL, cfg)
 	if err != nil {
 		return nil, err
@@ -105,7 +105,7 @@ func FetchOpenAIStatus(ctx context.Context, cfg *config.Config) ([]dto.ContentIt
 // Note: Anthropic doesn't have a public RSS feed, so we create a placeholder
 func FetchAnthropicDocs(ctx context.Context, cfg *config.Config) ([]dto.ContentItem, error) {
 	docsURL := "https://docs.anthropic.com/en/release-notes"
-	
+
 	// Try to fetch the page
 	body, err := fetchWithLimits(ctx, docsURL, cfg)
 	if err != nil {
@@ -113,13 +113,13 @@ func FetchAnthropicDocs(ctx context.Context, cfg *config.Config) ([]dto.ContentI
 	}
 
 	html := string(body)
-	
+
 	// Look for version numbers or dates in the content
 	versionPattern := regexp.MustCompile(`(?i)(claude|version|v?\d+\.\d+)`)
 	datePattern := regexp.MustCompile(`\d{4}-\d{2}-\d{2}`)
-	
+
 	hasUpdates := versionPattern.MatchString(html) || datePattern.MatchString(html)
-	
+
 	if !hasUpdates {
 		return nil, fmt.Errorf("no updates found")
 	}
@@ -150,42 +150,42 @@ func FetchAnthropicDocs(ctx context.Context, cfg *config.Config) ([]dto.ContentI
 func FetchGitHubTrending(ctx context.Context, cfg *config.Config) ([]dto.ContentItem, error) {
 	// GitHub trending page for AI/ML topics
 	trendingURL := "https://github.com/trending?spoken_language_code=en"
-	
+
 	body, err := fetchWithLimits(ctx, trendingURL, cfg)
 	if err != nil {
 		return nil, err
 	}
 
 	html := string(body)
-	
+
 	// Simple pattern matching for repository names
 	// Format: /owner/repo
 	repoPattern := regexp.MustCompile(`href="/([\w-]+)/([\w-]+)"`)
 	starsPattern := regexp.MustCompile(`(\d+(?:,\d+)*)\s+stars`)
-	
+
 	repoMatches := repoPattern.FindAllStringSubmatch(html, -1)
 	starsMatches := starsPattern.FindAllStringSubmatch(html, -1)
-	
+
 	var items []dto.ContentItem
 	seen := make(map[string]bool)
-	
+
 	for i, match := range repoMatches {
 		if i >= 20 || len(match) < 3 { // Limit to top 20
 			break
 		}
-		
+
 		owner := match[1]
 		repo := match[2]
 		repoKey := owner + "/" + repo
-		
+
 		if seen[repoKey] {
 			continue
 		}
 		seen[repoKey] = true
-		
+
 		repoURL := fmt.Sprintf("https://github.com/%s/%s", owner, repo)
 		title := fmt.Sprintf("⭐ Trending: %s", repoKey)
-		
+
 		// Extract stars if available
 		var points *int
 		if i < len(starsMatches) && len(starsMatches[i]) > 1 {
@@ -194,7 +194,7 @@ func FetchGitHubTrending(ctx context.Context, cfg *config.Config) ([]dto.Content
 				points = &stars
 			}
 		}
-		
+
 		item := dto.ContentItem{
 			Title:       title,
 			URL:         repoURL,
@@ -204,10 +204,10 @@ func FetchGitHubTrending(ctx context.Context, cfg *config.Config) ([]dto.Content
 			Points:      points,
 			Tags:        []string{"github", "trending", "opensource"},
 		}
-		
+
 		items = append(items, item)
 	}
-	
+
 	if len(items) == 0 {
 		// Return placeholder
 		return []dto.ContentItem{

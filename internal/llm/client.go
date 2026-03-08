@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"time"
 )
@@ -90,7 +91,11 @@ func (c *Client) Complete(ctx context.Context, model string, messages []Message,
 	if err != nil {
 		return "", fmt.Errorf("request failed: %w", err)
 	}
-	defer resp.Body.Close()
+	defer func() {
+		if cerr := resp.Body.Close(); cerr != nil {
+			log.Printf("error closing response body: %v", cerr)
+		}
+	}()
 
 	respBody, err := io.ReadAll(resp.Body)
 	if err != nil {
@@ -118,7 +123,7 @@ func (c *Client) Complete(ctx context.Context, model string, messages []Message,
 }
 
 // Summarize generates an abstractive summary using LLM
-func (c *Client) Summarize(ctx context.Context, config Config, title, content string) (string, string, error) {
+func (c *Client) Summarize(ctx context.Context, config Config, title, content string) (summary string, whyItMatters string, err error) {
 	prompt := fmt.Sprintf(`Summarize this AI/ML news article:
 
 Title: %s
@@ -147,7 +152,7 @@ WHY: [why it matters]`, title, content)
 	return tldr, why, nil
 }
 
-func parseSummaryResponse(response string) (string, string) {
+func parseSummaryResponse(response string) (summary string, whyItMatters string) {
 	lines := bytes.Split([]byte(response), []byte("\n"))
 	tldr := ""
 	why := ""

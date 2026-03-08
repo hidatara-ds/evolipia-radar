@@ -17,19 +17,19 @@ const hfAPIBase = "https://huggingface.co/api"
 // FetchHuggingFaceTrending fetches trending models from HuggingFace
 func FetchHuggingFaceTrending(ctx context.Context, cfg *config.Config) ([]dto.ContentItem, error) {
 	apiURL := hfAPIBase + "/models?sort=trending&limit=50"
-	
+
 	body, err := fetchWithLimits(ctx, apiURL, cfg)
 	if err != nil {
 		return nil, err
 	}
 
 	var models []struct {
-		ID          string    `json:"id"`
-		ModelID     string    `json:"modelId"`
-		Author      string    `json:"author"`
-		Downloads   int       `json:"downloads"`
-		Likes       int       `json:"likes"`
-		Tags        []string  `json:"tags"`
+		ID           string    `json:"id"`
+		ModelID      string    `json:"modelId"`
+		Author       string    `json:"author"`
+		Downloads    int       `json:"downloads"`
+		Likes        int       `json:"likes"`
+		Tags         []string  `json:"tags"`
 		LastModified time.Time `json:"lastModified"`
 	}
 
@@ -70,7 +70,7 @@ func FetchHuggingFaceTrending(ctx context.Context, cfg *config.Config) ([]dto.Co
 // FetchPapersWithCode fetches trending papers from Papers with Code
 func FetchPapersWithCode(ctx context.Context, cfg *config.Config) ([]dto.ContentItem, error) {
 	apiURL := "https://paperswithcode.com/api/v1/papers/"
-	
+
 	body, err := fetchWithLimits(ctx, apiURL, cfg)
 	if err != nil {
 		return nil, err

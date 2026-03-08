@@ -2,6 +2,7 @@ package summarizer
 
 import (
 	"context"
+	"fmt"
 	"strings"
 
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
@@ -54,7 +55,7 @@ func GenerateLLMSummary(ctx context.Context, item *models.Item, cfg *config.Conf
 	}
 
 	client := llm.NewClient(cfg.LLMAPIKey)
-	
+
 	content := item.Title
 	if item.RawExcerpt != nil {
 		content += "\n\n" + *item.RawExcerpt
@@ -70,8 +71,7 @@ func GenerateLLMSummary(ctx context.Context, item *models.Item, cfg *config.Conf
 
 	tldr, why, err := client.Summarize(ctx, llmConfig, item.Title, content)
 	if err != nil {
-		// Fallback to extractive on error
-		return GenerateExtractiveSummary(item), nil
+		return nil, fmt.Errorf("failed to generate summary: %w", err)
 	}
 
 	// Extract tags using existing logic

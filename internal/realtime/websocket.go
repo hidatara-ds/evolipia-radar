@@ -2,8 +2,7 @@ package realtime
 
 import (
 	"context"
-	"fmt"
-	"sync"
+	"log"
 
 	"github.com/google/uuid"
 )
@@ -14,15 +13,11 @@ type Hub struct {
 	broadcast  chan []byte
 	register   chan *Client
 	unregister chan *Client
-	mu         sync.RWMutex
 }
 
 // Client represents a WebSocket client
 type Client struct {
-	ID     uuid.UUID
-	hub    *Hub
-	send   chan []byte
-	topics []string
+	topics map[string]bool
 }
 
 // Message types
@@ -50,8 +45,7 @@ func (h *Hub) Run(ctx context.Context) {
 	// - Broadcast messages
 	// - Handle disconnections
 	// - Topic-based routing
-	
-	fmt.Println("WebSocket hub not implemented - Phase 2")
+	log.Println("WebSocket hub not implemented - Phase 2")
 }
 
 // BroadcastNewItem sends new item to all subscribed clients
@@ -59,8 +53,9 @@ func (h *Hub) BroadcastNewItem(itemID uuid.UUID, title string, score float64) er
 	// TODO Phase 2: Implement
 	// - Create message
 	// - Send to all clients subscribed to "new_items" topic
-	
-	return fmt.Errorf("not implemented - Phase 2")
+
+	log.Printf("ERROR: not implemented - Phase 2")
+	return nil
 }
 
 // BroadcastRisingItem sends rising item alert
@@ -68,23 +63,27 @@ func (h *Hub) BroadcastRisingItem(itemID uuid.UUID, title string, risingScore fl
 	// TODO Phase 2: Implement
 	// - Create message
 	// - Send to all clients subscribed to "rising" topic
-	
-	return fmt.Errorf("not implemented - Phase 2")
+
+	log.Printf("ERROR: not implemented - Phase 2")
+	return nil
 }
 
 // Subscribe subscribes a client to a topic
 func (c *Client) Subscribe(topic string) {
 	// TODO Phase 2: Implement
-	c.topics = append(c.topics, topic)
+	if c.topics == nil {
+		c.topics = make(map[string]bool)
+	}
+	c.topics[topic] = true
 }
 
 // Unsubscribe unsubscribes a client from a topic
 func (c *Client) Unsubscribe(topic string) {
 	// TODO Phase 2: Implement
-	for i, t := range c.topics {
-		if t == topic {
-			c.topics = append(c.topics[:i], c.topics[i+1:]...)
-			break
-		}
-	}
+	delete(c.topics, topic)
+}
+
+// IsSubscribed checks if client is subscribed to a topic
+func (c *Client) IsSubscribed(topic string) bool {
+	return c.topics[topic]
 }

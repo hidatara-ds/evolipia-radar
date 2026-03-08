@@ -212,10 +212,10 @@ func ConvertToScale10(score float64) float64 {
 	if score >= 1.0 {
 		return 10.0
 	}
-	
+
 	// Convert 0-1 to 1-10
 	scaled := (score * 9.0) + 1.0
-	
+
 	// Round to 1 decimal place
 	return math.Round(scaled*10) / 10
 }

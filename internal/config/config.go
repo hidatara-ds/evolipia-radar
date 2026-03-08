@@ -14,7 +14,7 @@ type Config struct {
 	WorkerCron          string
 	MaxFetchBytes       int64
 	FetchTimeoutSeconds int
-	
+
 	// LLM Configuration
 	LLMProvider       string
 	LLMModel          string
@@ -36,7 +36,7 @@ func Load() *Config {
 			}
 		}
 	}
-	
+
 	return &Config{
 		DatabaseURL:         getEnv("DATABASE_URL", "postgres://postgres:postgres@localhost:5432/radar?sslmode=disable"),
 		Port:                getEnv("PORT", "8080"),
@@ -44,7 +44,7 @@ func Load() *Config {
 		WorkerCron:          getEnv("WORKER_CRON", "*/10 * * * *"),
 		MaxFetchBytes:       int64(getEnvInt("MAX_FETCH_BYTES", 2000000)),
 		FetchTimeoutSeconds: getEnvInt("FETCH_TIMEOUT_SECONDS", 8),
-		
+
 		// LLM Configuration
 		LLMProvider:       getEnv("LLM_PROVIDER", "openrouter"),
 		LLMModel:          getEnv("LLM_MODEL", "google/gemini-flash-1.5"),

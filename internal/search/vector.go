@@ -12,8 +12,8 @@ type VectorSearch struct {
 	// TODO Phase 2: Add pgvector connection
 }
 
-// SearchResult represents a search result with similarity score
-type SearchResult struct {
+// Result represents a search result with similarity score
+type Result struct {
 	ItemID     uuid.UUID
 	Title      string
 	Similarity float64
@@ -31,27 +31,27 @@ func (vs *VectorSearch) IndexItem(ctx context.Context, itemID uuid.UUID, text st
 	// - Generate embeddings via OpenRouter
 	// - Store in pgvector column
 	// - Handle batch indexing
-	
+
 	return fmt.Errorf("not implemented - Phase 2")
 }
 
 // Search performs semantic search
-func (vs *VectorSearch) Search(ctx context.Context, query string, limit int) ([]SearchResult, error) {
+func (vs *VectorSearch) Search(ctx context.Context, query string, limit int) ([]Result, error) {
 	// TODO Phase 2: Implement
 	// - Generate query embedding
 	// - Use pgvector cosine similarity
 	// - Return top K results
-	
+
 	return nil, fmt.Errorf("not implemented - Phase 2")
 }
 
 // FindSimilar finds items similar to a given item
-func (vs *VectorSearch) FindSimilar(ctx context.Context, itemID uuid.UUID, limit int) ([]SearchResult, error) {
+func (vs *VectorSearch) FindSimilar(ctx context.Context, itemID uuid.UUID, limit int) ([]Result, error) {
 	// TODO Phase 2: Implement
 	// - Get item embedding
 	// - Find nearest neighbors
 	// - Exclude the item itself
-	
+
 	return nil, fmt.Errorf("not implemented - Phase 2")
 }
 
