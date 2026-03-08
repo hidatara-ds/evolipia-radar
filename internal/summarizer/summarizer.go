@@ -1,8 +1,12 @@
 package summarizer
 
 import (
+	"context"
+	"fmt"
 	"strings"
 
+	"github.com/hidatara-ds/evolipia-radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/llm"
 	"github.com/hidatara-ds/evolipia-radar/internal/models"
 )
 
@@ -41,6 +45,45 @@ func GenerateExtractiveSummary(item *models.Item) *models.Summary {
 		Tags:         tags,
 		Method:       "extractive",
 	}
+}
+
+// GenerateLLMSummary generates an abstractive summary using LLM
+func GenerateLLMSummary(ctx context.Context, item *models.Item, cfg *config.Config) (*models.Summary, error) {
+	if !cfg.LLMEnabled || cfg.LLMAPIKey == "" {
+		// Fallback to extractive
+		return GenerateExtractiveSummary(item), nil
+	}
+
+	client := llm.NewClient(cfg.LLMAPIKey)
+
+	content := item.Title
+	if item.RawExcerpt != nil {
+		content += "\n\n" + *item.RawExcerpt
+	}
+
+	llmConfig := llm.Config{
+		Provider:    cfg.LLMProvider,
+		Model:       cfg.LLMModel,
+		APIKey:      cfg.LLMAPIKey,
+		MaxTokens:   cfg.LLMMaxTokens,
+		Temperature: cfg.LLMTemperature,
+	}
+
+	tldr, why, err := client.Summarize(ctx, llmConfig, item.Title, content)
+	if err != nil {
+		return nil, fmt.Errorf("failed to generate summary: %w", err)
+	}
+
+	// Extract tags using existing logic
+	tags := extractTags(item, content)
+
+	return &models.Summary{
+		ItemID:       item.ID,
+		TLDR:         tldr,
+		WhyItMatters: why,
+		Tags:         tags,
+		Method:       "llm",
+	}, nil
 }
 
 func extractSentences(text string) []string {

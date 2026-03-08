@@ -40,11 +40,11 @@ func (s *FeedService) BuildFeedResponse(ctx context.Context, items []models.Item
 			"domain":       item.Domain,
 			"published_at": item.PublishedAt.Format(time.RFC3339),
 			"scores": map[string]float64{
-				"final":       0.0,
-				"hot":         0.0,
-				"relevance":   0.0,
-				"credibility": 0.0,
-				"novelty":     0.0,
+				"final":       1.0,
+				"hot":         1.0,
+				"relevance":   1.0,
+				"credibility": 1.0,
+				"novelty":     1.0,
 			},
 			"summary": map[string]interface{}{
 				"tldr":           "",
@@ -55,12 +55,13 @@ func (s *FeedService) BuildFeedResponse(ctx context.Context, items []models.Item
 		}
 
 		if score != nil {
+			// Convert to 1-10 scale for better UX
 			itemResp["scores"] = map[string]float64{
-				"final":       score.Final,
-				"hot":         score.Hot,
-				"relevance":   score.Relevance,
-				"credibility": score.Credibility,
-				"novelty":     score.Novelty,
+				"final":       convertToScale10(score.Final),
+				"hot":         convertToScale10(score.Hot),
+				"relevance":   convertToScale10(score.Relevance),
+				"credibility": convertToScale10(score.Credibility),
+				"novelty":     convertToScale10(score.Novelty),
 			}
 		}
 
@@ -87,6 +88,19 @@ func (s *FeedService) BuildFeedResponse(ctx context.Context, items []models.Item
 		"topic": topicStr,
 		"items": responseItems,
 	}
+}
+
+// convertToScale10 converts 0-1 score to 1-10 scale
+func convertToScale10(score float64) float64 {
+	if score <= 0 {
+		return 1.0
+	}
+	if score >= 1.0 {
+		return 10.0
+	}
+	// Convert 0-1 to 1-10 and round to 1 decimal
+	scaled := (score * 9.0) + 1.0
+	return float64(int(scaled*10)) / 10
 }
 
 func (s *FeedService) BuildRisingResponse(ctx context.Context, items []models.Item, window time.Duration) map[string]interface{} {

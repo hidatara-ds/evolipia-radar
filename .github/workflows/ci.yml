@@ -253,6 +253,7 @@ jobs:
         if: always()
         with:
           sarif_file: 'trivy-results.sarif'
+
   # ============================================
   # Job 6: Performance Benchmarks
   # ============================================

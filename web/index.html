@@ -4,12 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="AI/ML Tech News Aggregator - Stay updated with the latest AI/ML trends" />
   <base href="/" />
   <title>Evolipia Radar</title>
 
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/web/manifest.json" />
+  
   <!-- App Icons / Favicons -->
   <link rel="icon" type="image/png" href="/assets/icon.png" />
   <link rel="apple-touch-icon" href="/assets/icon1.png" />
+
+  <!-- Tailwind CSS via CDN (Phase 1 - no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3b82f6',
+            accent: '#8b5cf6',
+          }
+        }
+      }
+    }
+  </script>
 
   <!-- External CSS -->
   <link rel="stylesheet" href="/web/style.css" />
@@ -119,6 +139,14 @@
       </div>
 
       <div class="settings-section">
+        <h3>Appearance</h3>
+        <div class="settings-item" onclick="toggleDarkMode()">
+          <span class="settings-item-label">Dark Mode</span>
+          <span class="settings-item-value" id="darkModeToggle">🌙</span>
+        </div>
+      </div>
+
+      <div class="settings-section">
         <h3>Tentang</h3>
         <div class="settings-item">
           <span class="settings-item-label">Versi</span>
@@ -162,6 +190,19 @@
     const API_BASE = '';
     const STORAGE_KEY = 'evolipia_settings';
 
+    // PWA Service Worker Registration
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/web/sw.js')
+          .then((registration) => {
+            console.log('SW registered:', registration);
+          })
+          .catch((error) => {
+            console.log('SW registration failed:', error);
+          });
+      });
+    }
+
     // Assets paths (biar gampang ganti nantinya)
     const ASSETS = {
       appIcon: '/assets/icon.png',
@@ -171,8 +212,14 @@
 
     // State
     let settings = {
-      openrouterKey: localStorage.getItem('openrouter_key') || ''
+      openrouterKey: localStorage.getItem('openrouter_key') || '',
+      darkMode: localStorage.getItem('dark_mode') === 'true'
     };
+
+    // Apply dark mode on load
+    if (settings.darkMode) {
+      document.documentElement.classList.add('dark');
+    }
 
     let chatHistory = JSON.parse(localStorage.getItem('chat_history') || '[]');
     let currentPanel = 'feed';
@@ -325,7 +372,7 @@
     function itemCard(it, isRising = false) {
       const score = isRising
         ? (it.rising_score != null ? `🔥 ${Math.round(it.rising_score)}` : '')
-        : (it.scores?.final != null ? `⭐ ${it.scores.final.toFixed(1)}` : '');
+        : (it.scores?.final != null ? `⭐ ${it.scores.final.toFixed(1)}/10` : '');
 
       const summary = it.summary?.tldr || '';
 
@@ -433,20 +480,30 @@
 
           ${it.scores ? `
             <div class="block">
-              <label>Analisis Skor</label>
+              <label>Analisis Skor (Skala 1-10)</label>
               <div class="block-content">
                 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; text-align: center;">
                   <div style="padding: 12px; background: var(--bg); border-radius: 8px;">
-                    <div style="font-size: 1.25rem; font-weight: 700; color: var(--accent);">${it.scores.final.toFixed(1)}</div>
+                    <div style="font-size: 1.5rem; font-weight: 700; color: var(--accent);">${it.scores.final.toFixed(1)}</div>
                     <div style="font-size: 0.75rem; color: var(--muted); margin-top: 4px;">Final</div>
                   </div>
                   <div style="padding: 12px; background: var(--bg); border-radius: 8px;">
-                    <div style="font-size: 1.25rem; font-weight: 700; color: var(--warning);">${it.scores.hot.toFixed(1)}</div>
+                    <div style="font-size: 1.5rem; font-weight: 700; color: var(--warning);">${it.scores.hot.toFixed(1)}</div>
                     <div style="font-size: 0.75rem; color: var(--muted); margin-top: 4px;">Hot</div>
                   </div>
                   <div style="padding: 12px; background: var(--bg); border-radius: 8px;">
-                    <div style="font-size: 1.25rem; font-weight: 700; color: var(--success);">${it.scores.relevance.toFixed(1)}</div>
+                    <div style="font-size: 1.5rem; font-weight: 700; color: var(--success);">${it.scores.relevance.toFixed(1)}</div>
                     <div style="font-size: 0.75rem; color: var(--muted); margin-top: 4px;">Relevan</div>
+                  </div>
+                </div>
+                <div style="margin-top: 12px; padding: 12px; background: var(--bg); border-radius: 8px;">
+                  <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                    <span style="font-size: 0.875rem;">Kredibilitas:</span>
+                    <span style="font-weight: 600;">${it.scores.credibility.toFixed(1)}/10</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between;">
+                    <span style="font-size: 0.875rem;">Kebaruan:</span>
+                    <span style="font-weight: 600;">${it.scores.novelty.toFixed(1)}/10</span>
                   </div>
                 </div>
               </div>
@@ -663,6 +720,26 @@ JAWAB LANGSUNG tanpa basa-basi.`;
       } else {
         statusEl.innerHTML = `<span class="source-status off">⚠️ Belum diatur</span>`;
       }
+      
+      // Update dark mode toggle
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      if (darkModeToggle) {
+        darkModeToggle.textContent = settings.darkMode ? '🌙' : '☀️';
+      }
+    }
+
+    function toggleDarkMode() {
+      settings.darkMode = !settings.darkMode;
+      localStorage.setItem('dark_mode', settings.darkMode);
+      
+      if (settings.darkMode) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+      
+      updateSettingsUI();
+      showToast(settings.darkMode ? 'Dark mode enabled' : 'Light mode enabled', 'success');
     }
 
     function showApiKeyModal() {

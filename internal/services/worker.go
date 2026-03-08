@@ -46,13 +46,11 @@ func (w *Worker) RunIngestion(ctx context.Context) error {
 		return fmt.Errorf("failed to get enabled sources: %w", err)
 	}
 
-	// Auto-create default Hacker News source if no enabled sources exist
 	if len(sources) == 0 {
 		log.Println("No enabled sources found. Creating default Hacker News source...")
 		if err := w.ensureDefaultSource(ctx); err != nil {
 			log.Printf("Warning: Failed to create default source: %v", err)
 		} else {
-			// Re-fetch enabled sources after creating default
 			sources, err = w.sourceRepo.GetEnabled(ctx)
 			if err != nil {
 				return fmt.Errorf("failed to get enabled sources after creating default: %w", err)
@@ -74,14 +72,12 @@ func (w *Worker) RunIngestion(ctx context.Context) error {
 		}
 		if err := w.processSource(ctx, source); err != nil {
 			log.Printf("Error processing source %s: %v", source.Name, err)
-			// Continue with other sources
 		}
 	}
 
 	return nil
 }
 
-// ensureDefaultSource creates a default Hacker News source if it doesn't exist
 func (w *Worker) ensureDefaultSource(ctx context.Context) error {
 	defaultSource := &models.Source{
 		Name:     "Hacker News",
@@ -92,7 +88,6 @@ func (w *Worker) ensureDefaultSource(ctx context.Context) error {
 		Status:   "active",
 	}
 
-	// Check if source already exists by URL
 	allSources, err := w.sourceRepo.List(ctx)
 	if err != nil {
 		return fmt.Errorf("failed to list sources: %w", err)
@@ -100,11 +95,9 @@ func (w *Worker) ensureDefaultSource(ctx context.Context) error {
 
 	for _, s := range allSources {
 		if s.URL == defaultSource.URL || s.Name == defaultSource.Name {
-			// Source exists, enable it if disabled
 			if !s.Enabled {
 				if err := w.sourceRepo.SetEnabled(ctx, s.ID, true, "active"); err != nil {
 					log.Printf("Warning: Failed to enable existing source %s: %v", s.Name, err)
-					// Continue to try creating new one if enable fails
 				} else {
 					log.Printf("Enabled existing source: %s", s.Name)
 					return nil
@@ -115,7 +108,6 @@ func (w *Worker) ensureDefaultSource(ctx context.Context) error {
 		}
 	}
 
-	// Create new default source
 	if err := w.sourceRepo.Create(ctx, defaultSource); err != nil {
 		return fmt.Errorf("failed to create default source: %w", err)
 	}
@@ -128,35 +120,50 @@ func (w *Worker) processSource(ctx context.Context, source models.Source) error 
 	log.Printf("Processing source: %s (%s)", source.Name, source.Type)
 
 	fetchRun := &models.FetchRun{
-		SourceID:      source.ID,
-		Status:        "success",
-		ItemsFetched:  0,
-		ItemsInserted: 0,
+		SourceID: source.ID,
+		Status:   "success",
 	}
 
+	items, err := w.fetchItems(ctx, source, fetchRun)
+	if err != nil {
+		return err
+	}
+
+	fetchRun.ItemsFetched = len(items)
+	log.Printf("Fetched %d items from %s", len(items), source.Name)
+
+	inserted := w.processItems(ctx, source, items)
+	fetchRun.ItemsInserted = inserted
+
+	if err := w.fetchRunRepo.Create(ctx, fetchRun); err != nil {
+		log.Printf("Error creating fetch run: %v", err)
+	}
+
+	log.Printf("Inserted %d new items from %s", inserted, source.Name)
+
+	if err := w.computeScores(ctx); err != nil {
+		log.Printf("Error computing scores: %v", err)
+	}
+
+	return nil
+}
+
+func (w *Worker) fetchItems(ctx context.Context, source models.Source, fetchRun *models.FetchRun) ([]dto.ContentItem, error) {
 	var items []dto.ContentItem
 	var err error
 
-	// Fetch items based on source type
 	switch source.Type {
 	case "hacker_news":
 		items, err = connectors.FetchHackerNews(ctx, w.cfg)
 	case "rss_atom":
 		items, err = connectors.FetchRSSAtom(ctx, source.URL, w.cfg)
 	case "arxiv":
-		// Default query for AI/ML papers
 		query := "cat:cs.AI OR cat:cs.LG OR cat:cs.CV OR cat:cs.CL"
 		items, err = connectors.FetchArxiv(ctx, query, w.cfg)
 	case "json_api":
-		var mapping map[string]interface{}
-		if source.MappingJSON != nil {
-			if err := json.Unmarshal(source.MappingJSON, &mapping); err != nil {
-				return fmt.Errorf("invalid mapping_json: %w", err)
-			}
-		}
-		items, err = connectors.FetchJSONAPI(ctx, source.URL, mapping, w.cfg)
+		items, err = w.fetchJSONAPI(ctx, source)
 	default:
-		return fmt.Errorf("unsupported source type: %s", source.Type)
+		return nil, fmt.Errorf("unsupported source type: %s", source.Type)
 	}
 
 	if err != nil {
@@ -169,13 +176,23 @@ func (w *Worker) processSource(ctx context.Context, source models.Source) error 
 		if createErr := w.fetchRunRepo.Create(ctx, fetchRun); createErr != nil {
 			log.Printf("Warning: Failed to create fetch run record: %v", createErr)
 		}
-		return err
+		return nil, err
 	}
 
-	fetchRun.ItemsFetched = len(items)
-	log.Printf("Fetched %d items from %s", len(items), source.Name)
+	return items, nil
+}
 
-	// Process each item: normalize, dedup, store
+func (w *Worker) fetchJSONAPI(ctx context.Context, source models.Source) ([]dto.ContentItem, error) {
+	var mapping map[string]interface{}
+	if source.MappingJSON != nil {
+		if err := json.Unmarshal(source.MappingJSON, &mapping); err != nil {
+			return nil, fmt.Errorf("invalid mapping_json: %w", err)
+		}
+	}
+	return connectors.FetchJSONAPI(ctx, source.URL, mapping, w.cfg)
+}
+
+func (w *Worker) processItems(ctx context.Context, source models.Source, items []dto.ContentItem) int {
 	inserted := 0
 	for _, contentItem := range items {
 		if err := w.processItem(ctx, source, contentItem); err != nil {
@@ -184,24 +201,10 @@ func (w *Worker) processSource(ctx context.Context, source models.Source) error 
 		}
 		inserted++
 	}
-
-	fetchRun.ItemsInserted = inserted
-	if err := w.fetchRunRepo.Create(ctx, fetchRun); err != nil {
-		log.Printf("Error creating fetch run: %v", err)
-	}
-
-	log.Printf("Inserted %d new items from %s", inserted, source.Name)
-
-	// Compute scores for new items
-	if err := w.computeScores(ctx); err != nil {
-		log.Printf("Error computing scores: %v", err)
-	}
-
-	return nil
+	return inserted
 }
 
 func (w *Worker) processItem(ctx context.Context, source models.Source, contentItem dto.ContentItem) error {
-	// Normalize URL and compute content hash
 	normalizedURL, err := normalizer.NormalizeURL(contentItem.URL)
 	if err != nil {
 		return fmt.Errorf("failed to normalize URL: %w", err)
@@ -209,7 +212,6 @@ func (w *Worker) processItem(ctx context.Context, source models.Source, contentI
 
 	contentHash := normalizer.ContentHash(contentItem.Title, normalizedURL)
 
-	// Check for duplicates
 	existing, err := w.itemRepo.GetByContentHash(ctx, contentHash)
 	if err != nil {
 		return fmt.Errorf("failed to check duplicate: %w", err)
@@ -217,10 +219,8 @@ func (w *Worker) processItem(ctx context.Context, source models.Source, contentI
 
 	var item *models.Item
 	if existing != nil {
-		// Item already exists, update signals if applicable
 		item = existing
 	} else {
-		// Create new item
 		item = &models.Item{
 			SourceID:    source.ID,
 			Title:       contentItem.Title,
@@ -238,14 +238,12 @@ func (w *Worker) processItem(ctx context.Context, source models.Source, contentI
 			return fmt.Errorf("failed to create item: %w", err)
 		}
 
-		// Generate summary
 		summary := summarizer.GenerateExtractiveSummary(item)
 		if err := w.summaryRepo.Upsert(ctx, summary); err != nil {
 			log.Printf("Error creating summary: %v", err)
 		}
 	}
 
-	// Store signals (points, comments, rank) if available
 	if contentItem.Points != nil || contentItem.Comments != nil || contentItem.RankPos != nil {
 		signal := &models.Signal{
 			ItemID:   item.ID,
@@ -262,7 +260,6 @@ func (w *Worker) processItem(ctx context.Context, source models.Source, contentI
 }
 
 func (w *Worker) computeScores(ctx context.Context) error {
-	// Get items from the last 7 days that need scoring
 	items, err := w.itemRepo.GetItemsNeedingScoring(ctx, 7, 1000)
 	if err != nil {
 		return fmt.Errorf("failed to get items needing scoring: %w", err)
@@ -271,16 +268,10 @@ func (w *Worker) computeScores(ctx context.Context) error {
 	log.Printf("Computing scores for %d items", len(items))
 
 	for _, item := range items {
-		// Get latest signal
 		signal, _ := w.signalRepo.GetLatestByItemID(ctx, item.ID)
-
-		// Get summary
 		summary, _ := w.summaryRepo.GetByItemID(ctx, item.ID)
-
-		// Compute score
 		score := scoring.ComputeScore(&item, signal, summary, scoring.DefaultWeights)
 
-		// Store score
 		if err := w.scoreRepo.Upsert(ctx, score); err != nil {
 			log.Printf("Error upserting score: %v", err)
 			continue
