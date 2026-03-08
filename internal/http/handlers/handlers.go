@@ -25,6 +25,19 @@ func New(database *db.DB) *Handlers {
 	}
 }
 
+// convertToScale10 converts 0-1 score to 1-10 scale for better UX
+func convertToScale10(score float64) float64 {
+	if score <= 0 {
+		return 1.0
+	}
+	if score >= 1.0 {
+		return 10.0
+	}
+	// Convert 0-1 to 1-10 and round to 1 decimal
+	scaled := (score * 9.0) + 1.0
+	return float64(int(scaled*10)) / 10
+}
+
 func (h *Handlers) GetFeed(c *gin.Context) {
 	dateStr := c.DefaultQuery("date", "today")
 	topic := c.Query("topic")
@@ -122,12 +135,13 @@ func (h *Handlers) GetItem(c *gin.Context) {
 	}
 
 	if score != nil {
+		// Convert to 1-10 scale for better UX
 		response["scores"] = gin.H{
-			"final":       score.Final,
-			"hot":         score.Hot,
-			"relevance":   score.Relevance,
-			"credibility": score.Credibility,
-			"novelty":     score.Novelty,
+			"final":       convertToScale10(score.Final),
+			"hot":         convertToScale10(score.Hot),
+			"relevance":   convertToScale10(score.Relevance),
+			"credibility": convertToScale10(score.Credibility),
+			"novelty":     convertToScale10(score.Novelty),
 			"computed_at": score.ComputedAt.Format(time.RFC3339),
 		}
 	}
@@ -192,7 +206,7 @@ func (h *Handlers) Search(c *gin.Context) {
 		}
 
 		if score != nil {
-			itemResp["final_score"] = score.Final
+			itemResp["final_score"] = convertToScale10(score.Final)
 		}
 		if summary != nil {
 			itemResp["tags"] = summary.Tags

@@ -199,3 +199,34 @@ func indexOf(s, substr string) int {
 	}
 	return -1
 }
+
+// ConvertToScale10 converts a 0-1 score to 1-10 scale for better UX
+// 0.0-0.1 -> 1
+// 0.1-0.2 -> 2
+// ...
+// 0.9-1.0 -> 10
+func ConvertToScale10(score float64) float64 {
+	if score <= 0 {
+		return 1.0
+	}
+	if score >= 1.0 {
+		return 10.0
+	}
+	
+	// Convert 0-1 to 1-10
+	scaled := (score * 9.0) + 1.0
+	
+	// Round to 1 decimal place
+	return math.Round(scaled*10) / 10
+}
+
+// ConvertScoreToScale10 converts all score components to 1-10 scale
+func ConvertScoreToScale10(score *models.Score) map[string]float64 {
+	return map[string]float64{
+		"final":       ConvertToScale10(score.Final),
+		"hot":         ConvertToScale10(score.Hot),
+		"relevance":   ConvertToScale10(score.Relevance),
+		"credibility": ConvertToScale10(score.Credibility),
+		"novelty":     ConvertToScale10(score.Novelty),
+	}
+}
