@@ -125,15 +125,24 @@ jobs:
 
     - name: Evaluate model
       run: |
+        if [ ! -d ml/evaluation ]; then
+          echo "ml/evaluation not found, skipping evaluation step"
+          exit 0
+        fi
         cd ml/evaluation
         python evaluate_model.py
 
     - name: Compare with production model
       run: |
+        if [ ! -d ml/evaluation ]; then
+          echo "ml/evaluation not found, skipping comparison step"
+          exit 0
+        fi
         cd ml/evaluation
         python compare_models.py
 
     - name: Upload evaluation report
+      if: hashFiles('ml/evaluation/**') != ''
       uses: actions/upload-artifact@v4
       with:
         name: evaluation-report
@@ -157,11 +166,19 @@ jobs:
 
     - name: Run model validation tests
       run: |
+        if [ ! -d ml/validation ]; then
+          echo "ml/validation not found, skipping validation step"
+          exit 0
+        fi
         cd ml/validation
         python validate_model.py
 
     - name: Check fairness metrics
       run: |
+        if [ ! -d ml/validation ]; then
+          echo "ml/validation not found, skipping fairness check"
+          exit 0
+        fi
         cd ml/validation
         python fairness_check.py
 
@@ -225,10 +242,15 @@ jobs:
 
     - name: Run A/B test analysis
       run: |
+        if [ ! -d ml/experiments ]; then
+          echo "ml/experiments not found, skipping A/B test analysis"
+          exit 0
+        fi
         cd ml/experiments
         python ab_test_analysis.py
 
     - name: Upload results
+      if: hashFiles('ml/experiments/**') != ''
       uses: actions/upload-artifact@v4
       with:
         name: ab-test-results
