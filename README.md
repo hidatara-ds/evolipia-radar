@@ -1,105 +1,200 @@
 # Evolipia Radar - Supabase Deploy Branch
 
-Branch ini dioptimalkan untuk deployment dengan database Supabase dan timer-based scraping (3x sehari).
+Branch ini dioptimalkan untuk deployment dengan database Supabase dan timer-based scraping (3x sehari via GitHub Actions).
 
-## 🚀 Quick Start
+## 🚀 Quick Start (5 Menit)
 
-**Setup dalam 5 menit:** Lihat [QUICK_SETUP.md](QUICK_SETUP.md)
+### 1. Setup Supabase Database
 
-**Manual Migration (No CLI):** Lihat [docs/MANUAL_MIGRATION.md](docs/MANUAL_MIGRATION.md)
+1. Buat project di [supabase.com](https://supabase.com)
+2. Copy connection string dari Settings → Database → URI
+3. Run migrations manual via SQL Editor (lihat [SETUP_GUIDE.md](SETUP_GUIDE.md))
 
-**Complete Guide:** Lihat [docs/SUPABASE_SETUP.md](docs/SUPABASE_SETUP.md)
+### 2. Setup GitHub Actions
 
-## Architecture
+1. Add GitHub Secret:
+   - Name: `SUPABASE_DB_URL`
+   - Value: Connection string dari Supabase
+2. Push branch: `git push origin deploy-supabase`
+3. Manual trigger: Actions → "Scheduled News Scraper" → Run workflow
 
-- **Database**: Supabase PostgreSQL (managed, always-on)
-- **Worker**: GitHub Actions scheduled (07:00, 12:00, 19:00 WIB)
-- **Frontend**: Flutter app (terpisah) langsung query Supabase via SDK
-- **No API Server**: Flutter → Supabase directly (lebih simple)
+### 3. Done! 🎉
 
-## Schedule
+Worker akan jalan otomatis 3x/hari:
+- **07:00 WIB** (00:00 UTC)
+- **12:00 WIB** (05:00 UTC)
+- **19:00 WIB** (12:00 UTC)
 
-Worker jalan otomatis 3 kali sehari:
-- **07:00 WIB** (00:00 UTC) - Pagi
-- **12:00 WIB** (05:00 UTC) - Siang  
-- **19:00 WIB** (12:00 UTC) - Malam
+## 📚 Documentation
 
-## Setup
+- **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Complete setup guide (START HERE!)
+- **[docs/MANUAL_MIGRATION.md](docs/MANUAL_MIGRATION.md)** - Database migrations
+- **[DEPLOYMENT_CHECKLIST.md](DEPLOYMENT_CHECKLIST.md)** - Verification checklist
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history
 
-### 1. Supabase Setup
+## 🏗️ Architecture
 
-- Buat project di [supabase.com](https://supabase.com)
-- Copy Database URL: Settings → Database → Connection string
-- Format: `postgresql://postgres:[password]@db.xxx.supabase.co:5432/postgres`
-- Tambahkan ke GitHub Secrets: `SUPABASE_DB_URL`
+```
+┌─────────────────────────────────────┐
+│      GitHub Actions (Scheduler)      │
+│      3x/day: 07:00, 12:00, 19:00    │
+│                                      │
+│  ┌────────────────────────────┐    │
+│  │  Worker (One-shot)          │    │
+│  │  - Fetch from sources       │    │
+│  │  - Process & score          │    │
+│  │  - Save to DB               │    │
+│  │  - Exit                     │    │
+│  └────────────────────────────┘    │
+└──────────────┬──────────────────────┘
+               │
+               ▼
+    ┌──────────────────────┐
+    │  Supabase PostgreSQL  │
+    │  (Managed Database)   │
+    │                       │
+    │  - items              │
+    │  - sources            │
+    │  - scores             │
+    │  - summaries          │
+    │  - scrape_logs        │
+    └──────────┬────────────┘
+               │
+               ▼
+    ┌──────────────────────┐
+    │   Flutter App         │
+    │   (Supabase SDK)      │
+    │                       │
+    │  - Direct query       │
+    │  - No backend API     │
+    └───────────────────────┘
+```
 
-### 2. Run Migrations
+## ⚠️ Important Notes
 
+### IPv6 Requirement
+
+Supabase database requires IPv6 connectivity. For local testing:
+- **Windows**: See [ENABLE_IPV6_WINDOWS.md](ENABLE_IPV6_WINDOWS.md)
+- **Production**: GitHub Actions supports IPv6 by default ✅
+
+### No Local Testing Required
+
+You can skip local testing and deploy directly to GitHub Actions:
+1. Setup Supabase database
+2. Add GitHub Secret
+3. Run workflow
+4. Monitor via GitHub Actions logs
+
+## 🎯 Key Features
+
+- **Serverless**: No 24/7 server maintenance
+- **Cost-effective**: Free tier Supabase + minimal GitHub Actions minutes
+- **Simple**: Direct database access, no API layer
+- **Scalable**: Supabase handles database scaling
+- **Maintainable**: Auto cleanup (45 days retention)
+
+## 📊 Database Schema
+
+### Core Tables
+- `sources` - News sources configuration
+- `items` - Scraped news items
+- `signals` - Engagement signals (points, comments)
+- `scores` - Calculated relevance scores
+- `summaries` - AI-generated summaries
+- `scrape_logs` - Worker execution logs
+
+### Helper Functions
+- `cleanup_old_data()` - Auto cleanup (45 days)
+- `get_daily_feed()` - Get recent items
+
+## 🔧 Development
+
+### Build Worker
 ```bash
-export DATABASE_URL="postgresql://..."
-migrate -path migrations -database "$DATABASE_URL" up
+go build -o worker ./cmd/worker
 ```
 
-### 3. Test Worker Local
-
+### Run Tests
 ```bash
-export DATABASE_URL="postgresql://..."
-go run ./cmd/worker
+go test ./...
 ```
 
-### 4. GitHub Actions
-
-- Workflow otomatis jalan sesuai schedule (3x/hari)
-- Manual trigger: Actions tab → Scheduled News Scraper → Run workflow
-- Optional: Centang "retention_cleanup" untuk bersihkan data lama
-
-## Data Retention
-
-- Data berita: 45 hari (auto-cleanup tersedia)
-- Scrape logs: 60 hari (untuk audit)
-- Cleanup manual via workflow_dispatch atau bisa di-schedule terpisah
-
-## File Structure (Clean)
-
-```
-.
-├── cmd/
-│   └── worker/       # One-shot scraper (no API)
-├── internal/         # Business logic (cleaned)
-│   ├── config/
-│   ├── db/
-│   ├── dto/
-│   ├── models/
-│   ├── services/
-│   ├── connectors/
-│   ├── scoring/
-│   ├── summarizer/
-│   ├── normalizer/
-│   └── security/
-├── migrations/       # DB migrations + retention functions
-├── configs/          # Config files
-└── .github/workflows/# CI/CD simple
+### Verify Code
+```bash
+go vet ./...
 ```
 
-## Monitoring
+## 📱 Flutter App Integration
 
-- Cek scrape logs di Supabase:
-  ```sql
-  SELECT * FROM scrape_logs ORDER BY started_at DESC LIMIT 10;
-  ```
-- GitHub Actions logs untuk detail execution
-- Supabase Dashboard untuk database metrics
+Flutter app uses Supabase SDK (not direct PostgreSQL):
 
-## Flutter App
+```dart
+// Initialize
+await Supabase.initialize(
+  url: 'https://xxx.supabase.co',
+  anonKey: 'your-anon-key',
+);
 
-Flutter app terpisah akan:
-- Pakai `supabase_flutter` SDK
-- Direct query ke Supabase (no backend API)
-- Row Level Security (RLS) untuk keamanan (setup di Supabase dashboard)
+// Query items
+final items = await Supabase.instance.client
+  .from('items')
+  .select()
+  .order('created_at', ascending: false)
+  .limit(20);
+```
 
-## Notes
+## 🆘 Troubleshooting
 
-- Branch ini tidak punya Web UI dan API server
-- Tidak ada Kubernetes/Terraform/Docker (Supabase managed)
-- Worker jalan 3x/hari (hemat GitHub Actions minutes)
-- Database size monitoring: ~500MB limit, auto-cleanup available
+### Worker Failed in GitHub Actions
+- Check GitHub Actions logs
+- Verify `SUPABASE_DB_URL` secret is set correctly
+- Check Supabase project is not paused
+
+### No Items Scraped
+- Verify sources are enabled in database
+- Check scrape_logs table for errors
+- Verify migrations are run correctly
+
+### Database Size Warning
+```sql
+-- Check size
+SELECT pg_size_pretty(pg_database_size(current_database()));
+
+-- Run cleanup
+SELECT cleanup_old_data();
+```
+
+## 📈 Monitoring
+
+### Check Scrape Logs
+```sql
+SELECT * FROM scrape_logs 
+ORDER BY started_at DESC 
+LIMIT 10;
+```
+
+### Check Recent Items
+```sql
+SELECT COUNT(*) FROM items 
+WHERE created_at >= CURRENT_DATE;
+```
+
+### Database Size
+```sql
+SELECT pg_size_pretty(pg_database_size(current_database()));
+```
+
+## 🔗 Links
+
+- [Supabase Dashboard](https://supabase.com/dashboard)
+- [GitHub Actions](https://github.com/hidatara-ds/evolipia-radar/actions)
+- [Supabase Docs](https://supabase.com/docs)
+
+## 📄 License
+
+See [LICENSE.md](LICENSE.md)
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)

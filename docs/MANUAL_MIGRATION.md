@@ -344,7 +344,7 @@ Jika mau test worker di local, buat file `.env`:
 
 ```bash
 # File: .env
-DATABASE_URL=postgresql://postgres:XY76VP@zbEFcW#v@db.axxbcfnrlfnjyfanaogb.supabase.co:5432/postgres
+DATABASE_URL=postgresql://postgres:[your-password]@db.axxbcfnrlfnjyfanaogb.supabase.co:5432/postgres
 MAX_FETCH_BYTES=2000000
 FETCH_TIMEOUT_SECONDS=8
 ```
