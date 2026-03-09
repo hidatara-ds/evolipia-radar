@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:postgres/postgres.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'config.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,13 +49,13 @@ class _NewsListPageState extends State<NewsListPage> {
     });
 
     try {
-      // TODO: Replace with your Neon credentials
       final connection = await Connection.open(
         Endpoint(
-          host: 'YOUR_NEON_HOST',
-          database: 'neondb',
-          username: 'YOUR_USERNAME',
-          password: 'YOUR_PASSWORD',
+          host: DatabaseConfig.host,
+          database: DatabaseConfig.database,
+          username: DatabaseConfig.username,
+          password: DatabaseConfig.password,
+          port: 5432,
         ),
         settings: const ConnectionSettings(sslMode: SslMode.require),
       );
