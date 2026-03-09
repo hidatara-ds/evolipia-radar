@@ -1,54 +1,64 @@
-# Evolipia Radar
+# Evolipia Radar - Mobile App
 
-News aggregator with AI scoring, powered by Neon PostgreSQL and GitHub Actions.
+Flutter app untuk baca news dari Evolipia Radar.
 
-## Quick Setup
+## Setup
 
-### 1. Database (Neon.tech)
+### 1. Install Flutter
 
-1. Sign up: https://neon.tech
-2. Create project: `evolipia-radar`
-3. Copy connection string
-4. Run migrations (see SETUP.md)
+Download: https://flutter.dev/docs/get-started/install
 
-### 2. GitHub Actions
+### 2. Clone & Install Dependencies
 
-1. Add secret `DATABASE_URL` with Neon connection string
-2. Push to trigger workflow
-3. Worker runs 3x/day: 07:00, 12:00, 19:00 WIB
-
-### 3. Flutter App
-
-Use Neon's HTTP API or direct PostgreSQL connection via `postgres` package.
-
-## Architecture
-
+```bash
+git clone https://github.com/hidatara-ds/evolipia-radar.git
+cd evolipia-radar
+git checkout mobile-app
+flutter pub get
 ```
-GitHub Actions (3x/day)
-    ↓
-Worker (Go) → Neon PostgreSQL
-    ↓
-Flutter App (Direct Query)
+
+### 3. Configure Database
+
+Edit `lib/config.dart`:
+
+```dart
+class DatabaseConfig {
+  static const String host = 'ep-xxx.us-east-2.aws.neon.tech';
+  static const String database = 'neondb';
+  static const String username = 'your_username';
+  static const String password = 'your_password';
+}
 ```
+
+Get credentials from Neon dashboard.
+
+### 4. Run on Phone
+
+```bash
+flutter run
+```
+
+### 5. Build APK
+
+```bash
+flutter build apk --release
+```
+
+APK location: `build/app/outputs/flutter-apk/app-release.apk`
+
+Transfer to phone and install!
+
+## Features
+
+- ✅ News list (last 7 days)
+- ✅ Sort by AI score
+- ✅ Category badges
+- ✅ Pull to refresh
+- ✅ Open in browser
+- ✅ Material Design 3
 
 ## Stack
 
-- **Database**: Neon PostgreSQL (serverless)
-- **Worker**: Go (one-shot execution)
-- **Scheduler**: GitHub Actions
-- **Frontend**: Flutter (separate repo)
-
-## Development
-
-```bash
-# Build
-go build -o worker ./cmd/worker
-
-# Run
-export DATABASE_URL="postgresql://..."
-go run ./cmd/worker
-```
-
-## License
-
-MIT
+- Flutter 3.0+
+- PostgreSQL (via Neon)
+- Material Design 3
