@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:postgres/postgres.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'config.dart';
 
 void main() {
   runApp(const MyApp());
@@ -51,10 +50,10 @@ class _NewsListPageState extends State<NewsListPage> {
     try {
       final connection = await Connection.open(
         Endpoint(
-          host: DatabaseConfig.host,
-          database: DatabaseConfig.database,
-          username: DatabaseConfig.username,
-          password: DatabaseConfig.password,
+          host: 'ep-falling-grass-a1dfoa60-pooler.ap-southeast-1.aws.neon.tech',
+          database: 'neondb',
+          username: 'neondb_owner',
+          password: 'npg_ntTN8wojqf3R8ep',
           port: 5432,
         ),
         settings: const ConnectionSettings(sslMode: SslMode.require),
