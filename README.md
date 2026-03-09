@@ -2,6 +2,14 @@
 
 Branch ini dioptimalkan untuk deployment dengan database Supabase dan timer-based scraping (3x sehari).
 
+## 🚀 Quick Start
+
+**Setup dalam 5 menit:** Lihat [QUICK_SETUP.md](QUICK_SETUP.md)
+
+**Manual Migration (No CLI):** Lihat [docs/MANUAL_MIGRATION.md](docs/MANUAL_MIGRATION.md)
+
+**Complete Guide:** Lihat [docs/SUPABASE_SETUP.md](docs/SUPABASE_SETUP.md)
+
 ## Architecture
 
 - **Database**: Supabase PostgreSQL (managed, always-on)
