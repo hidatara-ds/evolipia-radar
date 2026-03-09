@@ -11,13 +11,13 @@ dependencies:
     sdk: flutter
   postgres: ^3.0.0
   http: ^1.1.0
-  intl: ^0.18.0
+  intl: ^0.20.2
   url_launcher: ^6.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
