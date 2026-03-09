@@ -195,12 +195,25 @@ Copy-paste SQL berikut, lalu klik **Run**:
 ```sql
 -- Setup Row Level Security & Helper Functions
 
--- Enable RLS for items
+-- Enable RLS for all tables (security requirement)
+ALTER TABLE sources ENABLE ROW LEVEL SECURITY;
 ALTER TABLE items ENABLE ROW LEVEL SECURITY;
+ALTER TABLE signals ENABLE ROW LEVEL SECURITY;
+ALTER TABLE scores ENABLE ROW LEVEL SECURITY;
+ALTER TABLE summaries ENABLE ROW LEVEL SECURITY;
+ALTER TABLE fetch_runs ENABLE ROW LEVEL SECURITY;
+ALTER TABLE scrape_logs ENABLE ROW LEVEL SECURITY;
 
--- Policy: Allow read for all (for Flutter app)
-CREATE POLICY "Allow anonymous read" ON items
-    FOR SELECT USING (true);
+-- Policies: Allow anonymous READ for Flutter app
+CREATE POLICY "Allow anonymous read" ON items FOR SELECT USING (true);
+CREATE POLICY "Allow anonymous read" ON scores FOR SELECT USING (true);
+CREATE POLICY "Allow anonymous read" ON summaries FOR SELECT USING (true);
+CREATE POLICY "Allow anonymous read" ON signals FOR SELECT USING (true);
+CREATE POLICY "Allow anonymous read" ON sources FOR SELECT USING (enabled = true);
+CREATE POLICY "Allow anonymous read" ON scrape_logs FOR SELECT USING (true);
+CREATE POLICY "Allow anonymous read" ON fetch_runs FOR SELECT USING (true);
+
+-- Write access: Only service_role (worker) can write (default behavior)
 
 -- View for daily feed
 CREATE OR REPLACE VIEW daily_feed AS
