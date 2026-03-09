@@ -37,7 +37,7 @@ jobs:
       
       - name: Run Worker
         env:
-          DATABASE_URL: ${{ secrets.SUPABASE_DB_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
           MAX_FETCH_BYTES: "2000000"
           FETCH_TIMEOUT_SECONDS: "8"
         run: |
@@ -55,7 +55,7 @@ jobs:
       - name: Retention Cleanup (Optional)
         if: github.event.inputs.retention_cleanup == 'true'
         env:
-          DATABASE_URL: ${{ secrets.SUPABASE_DB_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
           echo "Running data retention cleanup..."
           psql "$DATABASE_URL" -c "SELECT cleanup_old_data();"

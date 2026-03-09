@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Run Retention Cleanup
         env:
-          DATABASE_URL: ${{ secrets.SUPABASE_DB_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
           echo "Running weekly data retention cleanup..."
           psql "$DATABASE_URL" -c "SELECT cleanup_old_data();"
