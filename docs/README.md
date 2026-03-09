@@ -13,10 +13,13 @@ Semua file dokumentasi project (kecuali README utama di root) disimpan di folder
 | [ENHANCEMENT_PLAN.md](ENHANCEMENT_PLAN.md) | Rencana pengembangan (auth, digest, observability, dll) |
 | [IMPLEMENTATION_QUICKSTART.md](IMPLEMENTATION_QUICKSTART.md) | Quick reference implementasi enhancement plan |
 | [openapi.yaml](openapi.yaml) | Spesifikasi OpenAPI 3.0 untuk API |
+| **📱 [MOBILE_DEPLOYMENT.md](MOBILE_DEPLOYMENT.md)** | **Panduan lengkap deploy aplikasi ke HP** |
+| **📱 [PWA_TESTING_CHECKLIST.md](PWA_TESTING_CHECKLIST.md)** | **Checklist testing PWA di mobile** |
 
 ## Mulai dari mana?
 
 - **Mau jalanin project lokal?** → [QUICK_START.md](QUICK_START.md) atau [LOCAL_SETUP.md](LOCAL_SETUP.md)
+- **📱 Mau deploy ke HP?** → [MOBILE_DEPLOYMENT.md](MOBILE_DEPLOYMENT.md) atau [../MOBILE_QUICKSTART.md](../MOBILE_QUICKSTART.md)
 - **Belum punya Go?** → [INSTALL_GO_WINDOWS.md](INSTALL_GO_WINDOWS.md)
 - **Mau lihat dependency?** → [DEPENDENCIES.md](DEPENDENCIES.md)
 - **Mau baca rencana fitur ke depan?** → [ENHANCEMENT_PLAN.md](ENHANCEMENT_PLAN.md)

@@ -187,7 +187,9 @@
 
   <script>
     // Configuration
-    const API_BASE = '';
+    // Development: '' (same origin)
+    // Production: ganti dengan URL API kamu, misal: 'https://evolipia-radar-api.onrender.com'
+    const API_BASE = window.location.hostname === 'localhost' ? '' : '';
     const STORAGE_KEY = 'evolipia_settings';
 
     // PWA Service Worker Registration

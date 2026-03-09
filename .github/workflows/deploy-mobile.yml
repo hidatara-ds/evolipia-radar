@@ -1,0 +1,58 @@
+name: Deploy Mobile PWA
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'web/**'
+      - 'cmd/api/**'
+      - 'internal/**'
+      - 'Dockerfile.api'
+      - '.github/workflows/deploy-mobile.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flyctl
+        uses: superfly/flyctl-actions/setup-flyctl@master
+        if: ${{ secrets.FLY_API_TOKEN }}
+
+      - name: Deploy to Fly.io
+        if: ${{ secrets.FLY_API_TOKEN }}
+        run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+      - name: Notify deployment
+        if: success()
+        run: |
+          echo "✅ Deployment successful!"
+          echo "🌐 App URL: https://$(flyctl info --json | jq -r '.Hostname')"
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+  lighthouse:
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: ${{ secrets.FLY_API_TOKEN }}
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Wait for deployment
+        run: sleep 30
+
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v10
+        with:
+          urls: |
+            https://your-app.fly.dev
+          uploadArtifacts: true
+          temporaryPublicStorage: true

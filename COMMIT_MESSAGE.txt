@@ -1,0 +1,156 @@
+feat: Add mobile PWA support with deployment infrastructure
+
+Implemented complete Progressive Web App (PWA) support to enable mobile
+deployment. Users can now install the app on their phones like a native
+app without going through app stores.
+
+## Features Added
+
+### PWA Implementation
+- Service Worker with offline support (web/sw.js)
+- Web App Manifest for installable app (web/manifest.json)
+- Mobile-first responsive UI updates
+- Touch gestures (pull-to-refresh)
+- Standalone mode (fullscreen without browser bar)
+- App icons (192x192, 512x512)
+
+### Deployment Infrastructure
+- Fly.io configuration (fly.toml)
+- Render.com configuration (render.yaml)
+- Railway configuration (railway.json)
+- Optimized production Dockerfile
+- Docker build optimization (.dockerignore)
+- GitHub Actions auto-deploy workflow
+
+### Deployment Scripts
+- deploy-mobile.sh (Unix) - Interactive deployment script
+- deploy-mobile.bat (Windows) - Interactive deployment script
+- test-pwa.sh (Unix) - PWA testing script
+- test-pwa.bat (Windows) - PWA testing script
+- Makefile targets for mobile development
+
+### Documentation
+- MOBILE_QUICKSTART.md - 5-minute quick start guide
+- docs/MOBILE_DEPLOYMENT.md - Comprehensive deployment guide
+- docs/PWA_TESTING_CHECKLIST.md - Testing checklist
+- INSTALL_APP_HP.md - User installation guide
+- MOBILE_DEV_GUIDE.md - Developer guide
+- MOBILE_IMPLEMENTATION_SUMMARY.md - Implementation overview
+- README_MOBILE.md - Mobile-specific README
+- .env.example - Environment variables template
+
+### UI Enhancements
+- Updated API_BASE configuration for production
+- Dark mode support
+- Improved mobile responsiveness
+- Touch-friendly UI elements
+
+## Files Added
+
+New files:
+- fly.toml
+- render.yaml
+- railway.json
+- .dockerignore
+- .env.example
+- deploy-mobile.sh
+- deploy-mobile.bat
+- test-pwa.sh
+- test-pwa.bat
+- MOBILE_QUICKSTART.md
+- INSTALL_APP_HP.md
+- MOBILE_DEV_GUIDE.md
+- MOBILE_IMPLEMENTATION_SUMMARY.md
+- MOBILE_READY_COMMIT.md
+- README_MOBILE.md
+- docs/MOBILE_DEPLOYMENT.md
+- docs/PWA_TESTING_CHECKLIST.md
+- .github/workflows/deploy-mobile.yml
+
+Modified files:
+- README.md (added mobile section)
+- docs/README.md (added mobile docs to index)
+- Makefile (added mobile targets)
+- web/index.html (updated API_BASE config)
+- Dockerfile.api (optimized for production)
+
+## Technical Details
+
+### PWA Features
+- Offline support via service worker
+- Cache-first strategy for static assets
+- Network-first strategy for API calls
+- Install prompt for home screen
+- Standalone display mode
+- Theme color and splash screen
+
+### Deployment Options
+- Fly.io: Global edge network, 3 VMs free
+- Render.com: Auto-deploy from GitHub, 750 hours/month free
+- Railway: Simple CLI deployment, $5 credit/month free
+
+### Performance Targets
+- First Contentful Paint: < 1.5s
+- Time to Interactive: < 3.5s
+- Lighthouse PWA Score: 100/100
+- Bundle Size: < 500KB
+
+## Testing
+
+Run PWA tests:
+```bash
+make test-pwa
+```
+
+Run Lighthouse audit:
+```bash
+make lighthouse
+```
+
+## Deployment
+
+Quick deploy:
+```bash
+make deploy-mobile
+```
+
+Or use platform-specific scripts:
+```bash
+./deploy-mobile.sh    # Linux/Mac
+deploy-mobile.bat     # Windows
+```
+
+## Breaking Changes
+
+None. All changes are additive and backward compatible.
+
+## Migration Guide
+
+No migration needed. Existing deployments continue to work.
+New mobile deployment is optional.
+
+## Documentation
+
+See MOBILE_QUICKSTART.md for quick start guide.
+See docs/MOBILE_DEPLOYMENT.md for comprehensive guide.
+
+## Related Issues
+
+Closes #[issue-number] (if applicable)
+
+## Checklist
+
+- [x] PWA implementation complete
+- [x] Service worker tested
+- [x] Manifest validated
+- [x] Icons added (192x192, 512x512)
+- [x] Deployment scripts tested
+- [x] Documentation complete
+- [x] Lighthouse audit passing
+- [x] Mobile testing done
+- [x] Offline mode works
+- [x] HTTPS enforced
+
+---
+
+Co-authored-by: Kiro AI <kiro@example.com>

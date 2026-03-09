@@ -8,6 +8,8 @@
 
 **An AI/ML tech news aggregator with MLOps best practices**
 
+📱 **[Deploy ke HP dalam 5 menit →](MOBILE_QUICKSTART.md)**
+
 </div>
 
 ---
@@ -26,6 +28,7 @@ An AI/ML tech news aggregator backend that ranks and summarizes notable items fr
 - **Deduplication**: Prevents duplicate items across sources
 - **RESTful API**: Clean endpoints for feeds, search, and source management
 - **Security**: SSRF protection, rate limiting, and input validation
+- **📱 Mobile-Ready**: PWA support - install langsung dari browser ke HP! [Quick Start →](MOBILE_QUICKSTART.md)
 
 ## Architecture
 
