@@ -56,12 +56,13 @@ class _FeedScreenState extends State<FeedScreen> {
         FROM items i
         LEFT JOIN scores s ON i.id = s.item_id
         LEFT JOIN summaries sm ON i.id = sm.item_id
-        WHERE i.published_at >= NOW() - INTERVAL '7 days'
-        ORDER BY s.final DESC NULLS LAST, i.published_at DESC
+        ORDER BY i.published_at DESC
         LIMIT 50
       ''');
 
       await connection.close();
+
+      print('DEBUG: Query returned ${results.length} rows'); // Debug log
 
       setState(() {
         items = results.map((row) {

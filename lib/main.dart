@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 import 'screens/home_screen.dart';
 import 'theme.dart';
+import 'providers/ai_provider.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
@@ -13,19 +15,31 @@ void main() {
       systemNavigationBarIconBrightness: Brightness.light,
     ),
   );
-  runApp(const MyApp());
+  
+  // Initialize AI Provider
+  final aiProvider = AIProvider();
+  await aiProvider.initialize();
+  
+  runApp(MyApp(aiProvider: aiProvider));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final AIProvider aiProvider;
+  
+  const MyApp({super.key, required this.aiProvider});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Evolipia Radar',
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme.darkTheme,
-      home: const HomeScreen(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider.value(value: aiProvider),
+      ],
+      child: MaterialApp(
+        title: 'Evolipia Radar',
+        debugShowCheckedModeBanner: false,
+        theme: AppTheme.darkTheme,
+        home: const HomeScreen(),
+      ),
     );
   }
 }

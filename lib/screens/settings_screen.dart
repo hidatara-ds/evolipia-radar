@@ -1,45 +1,200 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import '../theme.dart';
+import '../providers/ai_provider.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
 
+  void _showApiKeyModal(BuildContext context) {
+    final aiProvider = context.read<AIProvider>();
+    final controller = TextEditingController(text: aiProvider.apiKey ?? '');
+
+    showDialog(
+      context: context,
+      builder: (context) => Dialog(
+        backgroundColor: AppTheme.surface,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+          side: const BorderSide(color: AppTheme.border),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                '🔑 API Key OpenRouter',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
+                  color: AppTheme.textColor,
+                ),
+              ),
+              const SizedBox(height: 12),
+              const Text(
+                'Masukkan API key dari OpenRouter untuk mengaktifkan fitur AI. Key disimpan lokal di device Anda.',
+                style: TextStyle(
+                  fontSize: 14,
+                  color: AppTheme.muted,
+                  height: 1.5,
+                ),
+              ),
+              const SizedBox(height: 20),
+              TextField(
+                controller: controller,
+                obscureText: true,
+                style: const TextStyle(
+                  color: AppTheme.textColor,
+                  fontSize: 14,
+                  fontFamily: 'monospace',
+                ),
+                decoration: InputDecoration(
+                  hintText: 'sk-or-v1-...',
+                  hintStyle: const TextStyle(color: AppTheme.muted),
+                  filled: true,
+                  fillColor: AppTheme.bg,
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                    borderSide: const BorderSide(color: AppTheme.border),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                    borderSide: const BorderSide(color: AppTheme.border),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                    borderSide: const BorderSide(color: AppTheme.accent),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 20),
+              Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton(
+                      onPressed: () => Navigator.pop(context),
+                      style: OutlinedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        side: const BorderSide(color: AppTheme.border),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
+                      child: const Text(
+                        'Batal',
+                        style: TextStyle(
+                          color: AppTheme.muted,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: ElevatedButton(
+                      onPressed: () async {
+                        final key = controller.text.trim();
+                        await aiProvider.setApiKey(key);
+                        if (context.mounted) {
+                          Navigator.pop(context);
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              content: Text(
+                                key.isEmpty
+                                    ? 'API Key dihapus'
+                                    : 'API Key disimpan',
+                              ),
+                              backgroundColor: AppTheme.success,
+                            ),
+                          );
+                        }
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: AppTheme.accent,
+                        foregroundColor: AppTheme.bg,
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
+                      child: const Text(
+                        'Simpan',
+                        style: TextStyle(fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      padding: const EdgeInsets.all(16),
-      children: [
-        const Text(
-          'Pengaturan',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.w700,
-            color: AppTheme.textColor,
-          ),
-        ),
-        const SizedBox(height: 4),
-        const Text(
-          'Konfigurasi aplikasi',
-          style: TextStyle(
-            fontSize: 14,
-            color: AppTheme.muted,
-          ),
-        ),
-        const SizedBox(height: 24),
-        _buildSection(
-          'Tentang',
-          [
-            _buildItem('Versi', '2.0.0'),
-            _buildItem('Evolipia Radar', 'AI Trend Aggregator'),
+    return Consumer<AIProvider>(
+      builder: (context, aiProvider, child) {
+        return ListView(
+          padding: const EdgeInsets.all(16),
+          children: [
+            const Text(
+              'Pengaturan',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w700,
+                color: AppTheme.textColor,
+              ),
+            ),
+            const SizedBox(height: 4),
+            const Text(
+              'Konfigurasi aplikasi',
+              style: TextStyle(
+                fontSize: 14,
+                color: AppTheme.muted,
+              ),
+            ),
+            const SizedBox(height: 24),
+            _buildSection(
+              'AI Configuration',
+              [
+                _buildItem(
+                  context,
+                  'API Key OpenRouter',
+                  aiProvider.isConfigured
+                      ? _buildStatusChip(
+                          '✓ ${_maskApiKey(aiProvider.apiKey!)}',
+                          true,
+                        )
+                      : _buildStatusChip('⚠️ Belum diatur', false),
+                  onTap: () => _showApiKeyModal(context),
+                ),
+              ],
+            ),
+            const SizedBox(height: 24),
+            _buildSection(
+              'Tentang',
+              [
+                _buildItem(context, 'Versi', const Text('2.0.0',
+                    style: TextStyle(color: AppTheme.muted))),
+                _buildItem(
+                    context,
+                    'Evolipia Radar',
+                    const Text('AI Trend Aggregator',
+                        style: TextStyle(color: AppTheme.muted))),
+              ],
+            ),
           ],
-        ),
-      ],
+        );
+      },
     );
   }
 
   Widget _buildSection(String title, List<Widget> items) {
     return Container(
-      margin: const EdgeInsets.only(bottom: 24),
       decoration: BoxDecoration(
         color: AppTheme.surface,
         borderRadius: BorderRadius.circular(16),
@@ -66,33 +221,61 @@ class SettingsScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildItem(String label, String value) {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: const BoxDecoration(
-        border: Border(
-          top: BorderSide(color: AppTheme.border, width: 1),
+  Widget _buildItem(
+    BuildContext context,
+    String label,
+    Widget value, {
+    VoidCallback? onTap,
+  }) {
+    return InkWell(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: const BoxDecoration(
+          border: Border(
+            top: BorderSide(color: AppTheme.border, width: 1),
+          ),
         ),
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text(
-            label,
-            style: const TextStyle(
-              fontSize: 15,
-              color: AppTheme.textColor,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(
+              label,
+              style: const TextStyle(
+                fontSize: 15,
+                color: AppTheme.textColor,
+              ),
             ),
-          ),
-          Text(
             value,
-            style: const TextStyle(
-              fontSize: 14,
-              color: AppTheme.muted,
-            ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
+
+  Widget _buildStatusChip(String text, bool isActive) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+      decoration: BoxDecoration(
+        color: isActive
+            ? AppTheme.success.withOpacity(0.1)
+            : AppTheme.muted.withOpacity(0.1),
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: Text(
+        text,
+        style: TextStyle(
+          fontSize: 12,
+          fontWeight: FontWeight.w600,
+          color: isActive ? AppTheme.success : AppTheme.muted,
+        ),
+      ),
+    );
+  }
+
+  String _maskApiKey(String key) {
+    if (key.length <= 12) return key;
+    return '${key.substring(0, 8)}...${key.substring(key.length - 4)}';
+  }
 }
+
