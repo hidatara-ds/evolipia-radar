@@ -1,0 +1,28 @@
+# Fly.io configuration for Evolipia Radar Worker (Scraper)
+app = "evolipia-radar-worker"
+primary_region = "sin" # Singapore (closest to Neon.tech ap-southeast-1)
+
+[build]
+  dockerfile = "Dockerfile.worker"
+
+[env]
+  WORKER_CRON = "*/10 * * * *" # Every 10 minutes
+  MAX_FETCH_BYTES = "2000000"
+  FETCH_TIMEOUT_SECONDS = "8"
+  
+  # LLM Configuration
+  LLM_PROVIDER = "openrouter"
+  LLM_MODEL = "google/gemini-flash-1.5"
+  LLM_FALLBACK_MODELS = "anthropic/claude-3.5-sonnet,meta-llama/llama-3.1-70b-instruct"
+  LLM_MAX_TOKENS = "500"
+  LLM_TEMPERATURE = "0.7"
+  LLM_ENABLED = "true"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+  cpus = 1
+
+# Secrets to set via `fly secrets set`:
+# - DATABASE_URL (Neon.tech connection string)
+# - LLM_API_KEY (OpenRouter API key)

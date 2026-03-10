@@ -1,0 +1,44 @@
+# Fly.io configuration for Evolipia Radar
+app = "evolipia-radar"
+primary_region = "sin" # Singapore (closest to Neon.tech ap-southeast-1)
+
+[build]
+  dockerfile = "Dockerfile.api"
+
+[env]
+  PORT = "8080"
+  CACHE_TTL_SECONDS = "60"
+  MAX_FETCH_BYTES = "2000000"
+  FETCH_TIMEOUT_SECONDS = "8"
+  
+  # LLM Configuration
+  LLM_PROVIDER = "openrouter"
+  LLM_MODEL = "google/gemini-flash-1.5"
+  LLM_FALLBACK_MODELS = "anthropic/claude-3.5-sonnet,meta-llama/llama-3.1-70b-instruct"
+  LLM_MAX_TOKENS = "500"
+  LLM_TEMPERATURE = "0.7"
+  LLM_ENABLED = "true"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+  [[http_service.checks]]
+    interval = "15s"
+    timeout = "5s"
+    grace_period = "10s"
+    method = "GET"
+    path = "/healthz"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+  cpus = 1
+
+# Secrets to set via `fly secrets set`:
+# - DATABASE_URL (Neon.tech connection string)
+# - LLM_API_KEY (OpenRouter API key)
