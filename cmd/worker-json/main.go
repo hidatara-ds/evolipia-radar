@@ -108,7 +108,7 @@ func fetchLatestNews(ctx context.Context, database *db.DB) ([]NewsItem, error) {
 		LIMIT 100
 	`
 
-	rows, err := database.Query(ctx, query)
+	rows, err := database.Pool.Query(ctx, query)
 	if err != nil {
 		return nil, err
 	}
