@@ -1,0 +1,53 @@
+name: Scrape News
+
+on:
+  schedule:
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.1'
+      
+      - name: Cache Go modules
+        uses: actions/cache@v4
+        with:
+          path: ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+      
+      - name: Install dependencies
+        run: go mod download
+      
+      - name: Run scraper
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_ENABLED: "true"
+          LLM_PROVIDER: "openrouter"
+          LLM_MODEL: "google/gemini-flash-1.5"
+          LLM_MAX_TOKENS: "500"
+          LLM_TEMPERATURE: "0.7"
+          OUTPUT_JSON: "true"
+          JSON_OUTPUT_PATH: "data/news.json"
+        run: go run ./cmd/worker-json
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add data/news.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update news data [skip ci]" && git push)

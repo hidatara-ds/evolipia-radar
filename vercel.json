@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.go",
+      "use": "@vercel/go"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/news",
+      "dest": "/api/news.go",
+      "methods": ["GET", "OPTIONS"]
+    },
+    {
+      "src": "/api/news/(.*)",
+      "dest": "/api/news.go",
+      "methods": ["GET", "OPTIONS"]
+    },
+    {
+      "src": "/api/trending",
+      "dest": "/api/news.go",
+      "methods": ["GET", "OPTIONS"]
+    },
+    {
+      "src": "/api/search",
+      "dest": "/api/news.go",
+      "methods": ["GET", "OPTIONS"]
+    },
+    {
+      "src": "/healthz",
+      "dest": "/api/health.go",
+      "methods": ["GET"]
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    }
+  ]
+}
