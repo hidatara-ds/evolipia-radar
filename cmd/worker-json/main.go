@@ -72,11 +72,15 @@ func main() {
 		TotalCount:  len(items),
 	}
 
-	file, err := os.Create(outputPath)
+	file, err := os.Create(filepath.Clean(outputPath))
 	if err != nil {
 		log.Fatalf("Failed to create output file: %v", err)
 	}
-	defer file.Close()
+	defer func() {
+		if cerr := file.Close(); cerr != nil {
+			log.Printf("Error closing file: %v", cerr)
+		}
+	}()
 
 	encoder := json.NewEncoder(file)
 	encoder.SetIndent("", "  ")

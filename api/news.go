@@ -2,12 +2,15 @@ package handler
 
 import (
 	"encoding/json"
+	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
 )
+
+const httpMethodOptions = "OPTIONS"
 
 type NewsItem struct {
 	ID           string    `json:"id"`
@@ -75,7 +78,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	enableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
-	if r.Method == "OPTIONS" {
+	if r.Method == httpMethodOptions {
 		w.WriteHeader(http.StatusOK)
 		return
 	}
@@ -87,10 +90,12 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 
 	newsData, err := loadNewsData()
 	if err != nil {
-		json.NewEncoder(w).Encode(Response{
+		if encErr := json.NewEncoder(w).Encode(Response{
 			Success: false,
 			Error:   "Failed to load news data: " + err.Error(),
-		})
+		}); encErr != nil {
+			log.Printf("Error encoding error response: %v", encErr)
+		}
 		return
 	}
 
@@ -128,14 +133,16 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		filteredItems = filteredItems[:20]
 	}
 
-	json.NewEncoder(w).Encode(Response{
+	if err := json.NewEncoder(w).Encode(Response{
 		Success: true,
 		Data: map[string]interface{}{
 			"items":        filteredItems,
 			"total_count":  len(filteredItems),
 			"last_updated": newsData.LastUpdated,
 		},
-	})
+	}); err != nil {
+		log.Printf("Error encoding response: %v", err)
+	}
 }
 
 // ItemHandler for /api/news/[id] - Get single news item
@@ -143,7 +150,7 @@ func ItemHandler(w http.ResponseWriter, r *http.Request) {
 	enableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
-	if r.Method == "OPTIONS" {
+	if r.Method == httpMethodOptions {
 		w.WriteHeader(http.StatusOK)
 		return
 	}
@@ -154,29 +161,35 @@ func ItemHandler(w http.ResponseWriter, r *http.Request) {
 
 	newsData, err := loadNewsData()
 	if err != nil {
-		json.NewEncoder(w).Encode(Response{
+		if encErr := json.NewEncoder(w).Encode(Response{
 			Success: false,
 			Error:   "Failed to load news data: " + err.Error(),
-		})
+		}); encErr != nil {
+			log.Printf("Error encoding error response: %v", encErr)
+		}
 		return
 	}
 
 	// Find item by ID
 	for _, item := range newsData.Items {
 		if item.ID == id {
-			json.NewEncoder(w).Encode(Response{
+			if encErr := json.NewEncoder(w).Encode(Response{
 				Success: true,
 				Data:    item,
-			})
+			}); encErr != nil {
+				log.Printf("Error encoding response: %v", encErr)
+			}
 			return
 		}
 	}
 
 	w.WriteHeader(http.StatusNotFound)
-	json.NewEncoder(w).Encode(Response{
+	if err := json.NewEncoder(w).Encode(Response{
 		Success: false,
 		Error:   "Item not found",
-	})
+	}); err != nil {
+		log.Printf("Error encoding not found response: %v", err)
+	}
 }
 
 // TrendingHandler for /api/trending - Get trending items
@@ -184,17 +197,19 @@ func TrendingHandler(w http.ResponseWriter, r *http.Request) {
 	enableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
-	if r.Method == "OPTIONS" {
+	if r.Method == httpMethodOptions {
 		w.WriteHeader(http.StatusOK)
 		return
 	}
 
 	newsData, err := loadNewsData()
 	if err != nil {
-		json.NewEncoder(w).Encode(Response{
+		if encErr := json.NewEncoder(w).Encode(Response{
 			Success: false,
 			Error:   "Failed to load news data: " + err.Error(),
-		})
+		}); encErr != nil {
+			log.Printf("Error encoding error response: %v", encErr)
+		}
 		return
 	}
 
@@ -213,13 +228,15 @@ func TrendingHandler(w http.ResponseWriter, r *http.Request) {
 		trending = trending[:20]
 	}
 
-	json.NewEncoder(w).Encode(Response{
+	if err := json.NewEncoder(w).Encode(Response{
 		Success: true,
 		Data: map[string]interface{}{
 			"items":       trending,
 			"total_count": len(trending),
 		},
-	})
+	}); err != nil {
+		log.Printf("Error encoding response: %v", err)
+	}
 }
 
 // SearchHandler for /api/search - Search news
@@ -227,26 +244,30 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 	enableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
-	if r.Method == "OPTIONS" {
+	if r.Method == httpMethodOptions {
 		w.WriteHeader(http.StatusOK)
 		return
 	}
 
 	query := r.URL.Query().Get("q")
 	if query == "" {
-		json.NewEncoder(w).Encode(Response{
+		if err := json.NewEncoder(w).Encode(Response{
 			Success: false,
 			Error:   "Query parameter 'q' is required",
-		})
+		}); err != nil {
+			log.Printf("Error encoding error response: %v", err)
+		}
 		return
 	}
 
 	newsData, err := loadNewsData()
 	if err != nil {
-		json.NewEncoder(w).Encode(Response{
+		if encErr := json.NewEncoder(w).Encode(Response{
 			Success: false,
 			Error:   "Failed to load news data: " + err.Error(),
-		})
+		}); encErr != nil {
+			log.Printf("Error encoding error response: %v", encErr)
+		}
 		return
 	}
 
@@ -274,12 +295,14 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 		results = results[:20]
 	}
 
-	json.NewEncoder(w).Encode(Response{
+	if err := json.NewEncoder(w).Encode(Response{
 		Success: true,
 		Data: map[string]interface{}{
 			"items":       results,
 			"total_count": len(results),
 			"query":       query,
 		},
-	})
+	}); err != nil {
+		log.Printf("Error encoding response: %v", err)
+	}
 }
