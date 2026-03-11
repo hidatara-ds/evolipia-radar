@@ -55,6 +55,7 @@ func loadNewsData() (*NewsData, error) {
 	var err error
 
 	for _, path := range paths {
+		// #nosec G304 - Path is from a fixed list, not user input
 		data, err = os.ReadFile(path)
 		if err == nil {
 			break

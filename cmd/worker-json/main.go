@@ -73,6 +73,7 @@ func main() {
 		TotalCount:  len(items),
 	}
 
+	// #nosec G304 - Path is from environment variable or default, controlled by deployment
 	file, err := os.Create(filepath.Clean(outputPath))
 	if err != nil {
 		log.Fatalf("Failed to create output file: %v", err)
