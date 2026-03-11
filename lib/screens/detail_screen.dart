@@ -74,10 +74,10 @@ class DetailScreen extends StatelessWidget {
                   vertical: 8,
                 ),
                 decoration: BoxDecoration(
-                  color: AppTheme.accent.withOpacity(0.1),
+                  color: AppTheme.accent.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(8),
                   border: Border.all(
-                    color: AppTheme.accent.withOpacity(0.2),
+                    color: AppTheme.accent.withValues(alpha: 0.2),
                     width: 1,
                   ),
                 ),

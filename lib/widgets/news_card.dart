@@ -33,8 +33,8 @@ class NewsCard extends StatelessWidget {
             );
           },
           borderRadius: BorderRadius.circular(16),
-          splashColor: AppTheme.surfaceHover.withOpacity(0.5),
-          highlightColor: AppTheme.surfaceHover.withOpacity(0.3),
+          splashColor: AppTheme.surfaceHover.withValues(alpha: 0.5),
+          highlightColor: AppTheme.surfaceHover.withValues(alpha: 0.3),
           child: Padding(
             padding: const EdgeInsets.all(16),
             child: Column(
@@ -71,10 +71,10 @@ class NewsCard extends StatelessWidget {
                                 vertical: 4,
                               ),
                               decoration: BoxDecoration(
-                                color: AppTheme.accent.withOpacity(0.1),
+                                color: AppTheme.accent.withValues(alpha: 0.1),
                                 borderRadius: BorderRadius.circular(20),
                                 border: Border.all(
-                                  color: AppTheme.accent.withOpacity(0.2),
+                                  color: AppTheme.accent.withValues(alpha: 0.2),
                                   width: 1,
                                 ),
                               ),
@@ -106,10 +106,10 @@ class NewsCard extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
-                          color: Colors.white.withOpacity(0.08),
+                          color: Colors.white.withValues(alpha: 0.08),
                           width: 1,
                         ),
-                        color: Colors.white.withOpacity(0.03),
+                        color: Colors.white.withValues(alpha: 0.03),
                       ),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(8),

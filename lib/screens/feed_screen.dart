@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:postgres/postgres.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../config.dart';
 import '../theme.dart';
 import '../models/news_item.dart';
 import '../widgets/news_card.dart';
+import '../services/api_service.dart';
 
 class FeedScreen extends StatefulWidget {
   const FeedScreen({super.key});
@@ -32,51 +31,10 @@ class _FeedScreenState extends State<FeedScreen> {
     });
 
     try {
-      final connection = await Connection.open(
-        Endpoint(
-          host: DatabaseConfig.host,
-          database: DatabaseConfig.database,
-          username: DatabaseConfig.username,
-          password: DatabaseConfig.password,
-          port: 5432,
-        ),
-        settings: const ConnectionSettings(sslMode: SslMode.require),
-      );
-
-      final results = await connection.execute('''
-        SELECT 
-          i.id,
-          i.title,
-          i.url,
-          i.domain,
-          i.published_at,
-          i.category,
-          s.final as score,
-          sm.tldr as summary
-        FROM items i
-        LEFT JOIN scores s ON i.id = s.item_id
-        LEFT JOIN summaries sm ON i.id = sm.item_id
-        ORDER BY i.published_at DESC
-        LIMIT 50
-      ''');
-
-      await connection.close();
-
-      print('DEBUG: Query returned ${results.length} rows'); // Debug log
-
+      final newsItems = await ApiService.getNews();
+      
       setState(() {
-        items = results.map((row) {
-          return NewsItem(
-            id: row[0] as String,
-            title: row[1] as String,
-            url: row[2] as String,
-            domain: row[3] as String,
-            publishedAt: row[4] as DateTime,
-            category: row[5] as String,
-            score: row[6] as double?,
-            summary: row[7] as String?,
-          );
-        }).toList();
+        items = newsItems;
         isLoading = false;
       });
     } catch (e) {
@@ -198,7 +156,7 @@ class _FeedScreenState extends State<FeedScreen> {
                                 '📭',
                                 style: TextStyle(
                                   fontSize: 48,
-                                  color: AppTheme.muted.withOpacity(0.5),
+                                  color: AppTheme.muted.withValues(alpha: 0.5),
                                 ),
                               ),
                               const SizedBox(height: 16),
@@ -210,7 +168,7 @@ class _FeedScreenState extends State<FeedScreen> {
                               Text(
                                 'Coba lagi nanti',
                                 style: TextStyle(
-                                  color: AppTheme.muted.withOpacity(0.7),
+                                  color: AppTheme.muted.withValues(alpha: 0.7),
                                   fontSize: 14,
                                 ),
                               ),

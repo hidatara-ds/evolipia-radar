@@ -258,8 +258,8 @@ class SettingsScreen extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       decoration: BoxDecoration(
         color: isActive
-            ? AppTheme.success.withOpacity(0.1)
-            : AppTheme.muted.withOpacity(0.1),
+            ? AppTheme.success.withValues(alpha: 0.1)
+            : AppTheme.muted.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Text(
