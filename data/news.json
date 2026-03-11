@@ -270,6 +270,21 @@
       ]
     },
     {
+      "id": "5b0dff11-683f-45be-9602-2dbc325cde04",
+      "title": "Show HN: Autoresearch_at_home – SETI_at_home but for LLM training",
+      "url": "https://www.ensue-network.ai/autoresearch",
+      "domain": "ensue-network.ai",
+      "published_at": "2026-03-11T23:27:18Z",
+      "category": "tech",
+      "score": 0.3029700501895896,
+      "tldr": "Show HN: Autoresearch_at_home – SETI_at_home but for LLM training",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "1d5aeb45-63a7-4f49-bf17-cfb47bf7f2da",
       "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
       "url": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user",
@@ -1388,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4e9fe93b-31f7-4932-bd2a-93cbb8d9eeaf",
-      "title": "Show HN: What's my JND? – a colour guessing game",
-      "url": "https://www.keithcirkel.co.uk/whats-my-jnd?r=ARUjKP__-ve-",
-      "domain": "keithcirkel.co.uk",
-      "published_at": "2026-03-10T10:01:58Z",
-      "category": "tech",
-      "score": 0.1855419248738884,
-      "tldr": "Show HN: What's my JND? – a colour guessing game",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-11T23:16:32.141926423Z",
+  "last_updated": "2026-03-11T23:47:14.274745834Z",
   "total_count": 100
 }
