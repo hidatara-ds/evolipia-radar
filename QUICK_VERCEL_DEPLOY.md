@@ -1,77 +1,61 @@
-# Quick Vercel Deploy (Copy-Paste Commands)
+# Quick Vercel Deployment Guide
 
-## 1. Setup GitHub Secrets
+## Status: ✅ READY TO DEPLOY
 
-Go to: `https://github.com/hidatara-ds/evolipia-radar/settings/secrets/actions`
+The source type issue has been **FIXED**! The worker now supports:
+- `hackernews` (database) → `hacker_news` (connector) ✅
+- `huggingface` (database) → `huggingface` (connector) ✅  
+- `lmsys` (database) → `lmsys` (connector) ✅
 
-Click "New repository secret" and add:
+## Deploy to Vercel
 
-**DATABASE_URL:**
-```
-postgresql://evolipia-radar_owner:npg_ntTN8wojqf3R@ep-quiet-butterfly-a1qlqxqy.ap-southeast-1.aws.neon.tech/evolipia-radar?sslmode=require
-```
+1. **Connect Repository**
+   ```bash
+   # Install Vercel CLI
+   npm i -g vercel
+   
+   # Login and deploy
+   vercel login
+   vercel --prod
+   ```
 
-**LLM_API_KEY:**
-```
-your-openrouter-api-key-here
-```
+2. **Set Environment Variables**
+   In Vercel dashboard, add:
+   ```
+   DATABASE_URL=postgresql://radar_owner:npg_ntTN8wojqf3R@ep-rough-darkness-a5qvqhqr.us-east-2.aws.neon.tech/radar?sslmode=require
+   LLM_API_KEY=your_openrouter_key
+   ```
 
-## 2. Push Code
+3. **GitHub Actions**
+   - Runs every 30 minutes automatically
+   - Scrapes news from all 3 sources
+   - Updates `data/news.json`
+   - Vercel serves the JSON via API endpoints
 
-```bash
-git checkout main
-git add .
-git commit -m "Add GitHub Actions + Vercel deployment"
-git push origin main
-```
+## API Endpoints
 
-## 3. Test GitHub Actions
+- `GET /api/news` - All news items
+- `GET /api/news?topic=ai` - Filter by topic
+- `GET /api/news?date=today` - Today's news
+- `GET /api/trending` - Trending items (last 2 hours, score > 0.5)
+- `GET /api/search?q=openai` - Search news
+- `GET /healthz` - Health check
 
-Go to: `https://github.com/hidatara-ds/evolipia-radar/actions`
-
-Click "Scrape News" → "Run workflow" → "Run workflow"
-
-Wait 2-5 minutes, check if `data/news.json` updated.
-
-## 4. Deploy to Vercel
-
-### Option A: Web UI (Easiest)
-
-1. Go to: https://vercel.com/new
-2. Sign in with GitHub
-3. Import `hidatara-ds/evolipia-radar`
-4. Click "Deploy"
-5. Done! Get your URL: `https://evolipia-radar.vercel.app`
-
-### Option B: CLI
+## Test Locally
 
 ```bash
-npm install -g vercel
-vercel login
-vercel --prod
+# Test the scraper
+go run ./cmd/worker-json
+
+# Test API endpoints
+vercel dev
 ```
 
-## 5. Test API
+## 100% Free Solution ✅
 
-```bash
-curl https://evolipia-radar.vercel.app/healthz
-curl https://evolipia-radar.vercel.app/api/news
-```
+- **GitHub Actions**: Free 2000 minutes/month
+- **Vercel**: Free hosting + serverless functions
+- **Neon.tech**: Free PostgreSQL database
+- **OpenRouter**: Pay-per-use (very cheap)
 
-## 6. Update Flutter
-
-In `lib/config.dart`:
-
-```dart
-class ApiConfig {
-  static const String baseUrl = 'https://evolipia-radar.vercel.app';
-}
-```
-
-## Done!
-
-- Scraper runs every 30 minutes automatically
-- API is live at Vercel
-- 100% free (except ~$0.10/month for LLM)
-
-See `VERCEL_DEPLOYMENT.md` for full guide.
+No credit card verification required!
