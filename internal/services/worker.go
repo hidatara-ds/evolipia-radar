@@ -153,13 +153,17 @@ func (w *Worker) fetchItems(ctx context.Context, source models.Source, fetchRun 
 	var err error
 
 	switch source.Type {
-	case "hacker_news":
+	case "hacker_news", "hackernews":
 		items, err = connectors.FetchHackerNews(ctx, w.cfg)
 	case "rss_atom":
 		items, err = connectors.FetchRSSAtom(ctx, source.URL, w.cfg)
 	case "arxiv":
 		query := "cat:cs.AI OR cat:cs.LG OR cat:cs.CV OR cat:cs.CL"
 		items, err = connectors.FetchArxiv(ctx, query, w.cfg)
+	case "huggingface":
+		items, err = connectors.FetchHuggingFaceTrending(ctx, w.cfg)
+	case "lmsys":
+		items, err = connectors.FetchLMSYSArena(ctx, w.cfg)
 	case "json_api":
 		items, err = w.fetchJSONAPI(ctx, source)
 	default:
