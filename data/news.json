@@ -1,5 +1,42 @@
 {
-  "items": [],
-  "last_updated": "2026-03-11T00:00:00Z",
-  "total_count": 0
+  "items": [
+    {
+      "id": "test-1",
+      "title": "OpenAI Releases GPT-5 with Revolutionary Multimodal Capabilities",
+      "url": "https://example.com/gpt5-release",
+      "domain": "example.com",
+      "published_at": "2026-03-11T07:00:00Z",
+      "category": "ai",
+      "score": 0.95,
+      "tldr": "OpenAI has announced GPT-5, featuring advanced multimodal capabilities that can process text, images, audio, and video simultaneously. The model shows significant improvements in reasoning and factual accuracy.",
+      "why_it_matters": "This breakthrough could revolutionize how AI engineers build applications, enabling more sophisticated multimodal AI systems and potentially reducing the need for specialized models.",
+      "tags": ["llm", "multimodal", "openai", "gpt"]
+    },
+    {
+      "id": "test-2", 
+      "title": "Meta Introduces Llama 3.5 with 405B Parameters and Enhanced RAG",
+      "url": "https://example.com/llama35-release",
+      "domain": "example.com",
+      "published_at": "2026-03-11T06:30:00Z",
+      "category": "ai",
+      "score": 0.88,
+      "tldr": "Meta has released Llama 3.5, a 405 billion parameter model with built-in RAG capabilities and improved code generation. The model is available under an open-source license.",
+      "why_it_matters": "This open-source release provides AI engineers with a powerful alternative to proprietary models, potentially reducing costs and increasing flexibility in AI application development.",
+      "tags": ["llm", "rag", "meta", "open-source"]
+    },
+    {
+      "id": "test-3",
+      "title": "Google DeepMind Achieves Breakthrough in AI Reasoning with AlphaReason",
+      "url": "https://example.com/alphareason",
+      "domain": "example.com", 
+      "published_at": "2026-03-11T05:45:00Z",
+      "category": "research",
+      "score": 0.82,
+      "tldr": "Google DeepMind's new AlphaReason system demonstrates human-level performance on complex reasoning tasks, combining symbolic reasoning with neural networks in a novel architecture.",
+      "why_it_matters": "This advancement could enable AI systems to handle more complex logical reasoning tasks, opening new possibilities for AI applications in scientific research and problem-solving.",
+      "tags": ["reasoning", "deepmind", "research", "breakthrough"]
+    }
+  ],
+  "last_updated": "2026-03-11T07:58:46Z",
+  "total_count": 3
 }
