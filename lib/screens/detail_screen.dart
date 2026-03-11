@@ -22,36 +22,46 @@ class DetailScreen extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: AppTheme.bg,
-      appBar: AppBar(
-        backgroundColor: const Color(0xF20B0F19),
-        surfaceTintColor: Colors.transparent,
-        leading: Container(
-          margin: const EdgeInsets.all(8),
-          decoration: BoxDecoration(
-            color: AppTheme.surface,
-            borderRadius: BorderRadius.circular(10),
-            border: Border.all(color: AppTheme.border, width: 1),
-          ),
-          child: IconButton(
-            icon: const Icon(Icons.arrow_back, size: 20),
-            color: AppTheme.textColor,
-            onPressed: () => Navigator.pop(context),
-            padding: EdgeInsets.zero,
-          ),
-        ),
-        title: const Text(
-          'Detail',
-          style: TextStyle(
-            fontSize: 17,
-            fontWeight: FontWeight.w600,
-          ),
-        ),
-      ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(20),
+      body: SafeArea(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            // Custom Header
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              child: Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      color: AppTheme.surface,
+                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(color: AppTheme.border, width: 1),
+                    ),
+                    child: IconButton(
+                      icon: const Icon(Icons.arrow_back, size: 20),
+                      color: AppTheme.textColor,
+                      onPressed: () => Navigator.pop(context),
+                      padding: const EdgeInsets.all(8),
+                    ),
+                  ),
+                  const SizedBox(width: 16),
+                  const Text(
+                    'Detail',
+                    style: TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w600,
+                      color: AppTheme.textColor,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            // Content
+            Expanded(
+              child: SingleChildScrollView(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
             // Title
             Text(
               item.title,
@@ -202,7 +212,9 @@ class DetailScreen extends StatelessWidget {
                         children: [
                           Expanded(
                             child: _buildScoreCard(
-                              item.score!.toStringAsFixed(1),
+                              item.score! % 1 == 0 
+                                  ? item.score!.toInt().toString()
+                                  : item.score!.toStringAsFixed(1),
                               'Final',
                               AppTheme.accent,
                             ),
@@ -210,7 +222,7 @@ class DetailScreen extends StatelessWidget {
                           const SizedBox(width: 12),
                           Expanded(
                             child: _buildScoreCard(
-                              '0.0',
+                              '5',
                               'Hot',
                               AppTheme.warning,
                             ),
@@ -218,7 +230,7 @@ class DetailScreen extends StatelessWidget {
                           const SizedBox(width: 12),
                           Expanded(
                             child: _buildScoreCard(
-                              '0.2',
+                              '3',
                               'Relevan',
                               AppTheme.success,
                             ),
@@ -235,9 +247,9 @@ class DetailScreen extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            _buildScoreRow('Kredibilitas:', '0.5/10'),
+                            _buildScoreRow('Kredibilitas:', '5/10'),
                             const SizedBox(height: 12),
-                            _buildScoreRow('Kebaruan:', '1.0/10'),
+                            _buildScoreRow('Kebaruan:', '8/10'),
                           ],
                         ),
                       ),
@@ -248,6 +260,10 @@ class DetailScreen extends StatelessWidget {
             ],
 
             const SizedBox(height: 100),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),

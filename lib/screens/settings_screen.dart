@@ -2,9 +2,48 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../theme.dart';
 import '../providers/ai_provider.dart';
+import '../services/notification_service.dart';
 
-class SettingsScreen extends StatelessWidget {
+class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
+
+  @override
+  State<SettingsScreen> createState() => _SettingsScreenState();
+}
+
+class _SettingsScreenState extends State<SettingsScreen> {
+  bool _notificationsEnabled = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadNotificationSettings();
+  }
+
+  Future<void> _loadNotificationSettings() async {
+    final enabled = await NotificationService.areNotificationsEnabled();
+    setState(() {
+      _notificationsEnabled = enabled;
+    });
+  }
+
+  Future<void> _toggleNotifications(bool value) async {
+    await NotificationService.setNotificationsEnabled(value);
+    setState(() {
+      _notificationsEnabled = value;
+    });
+    
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            value ? 'Notifikasi diaktifkan' : 'Notifikasi dinonaktifkan',
+          ),
+          backgroundColor: AppTheme.success,
+        ),
+      );
+    }
+  }
 
   void _showApiKeyModal(BuildContext context) {
     final aiProvider = context.read<AIProvider>();
@@ -176,6 +215,19 @@ class SettingsScreen extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             _buildSection(
+              'Notifikasi',
+              [
+                _buildSwitchItem(
+                  context,
+                  'Push Notifications',
+                  'Dapatkan notifikasi untuk berita trending',
+                  _notificationsEnabled,
+                  _toggleNotifications,
+                ),
+              ],
+            ),
+            const SizedBox(height: 24),
+            _buildSection(
               'Tentang',
               [
                 _buildItem(context, 'Versi', const Text('2.0.0',
@@ -276,6 +328,57 @@ class SettingsScreen extends StatelessWidget {
   String _maskApiKey(String key) {
     if (key.length <= 12) return key;
     return '${key.substring(0, 8)}...${key.substring(key.length - 4)}';
+  }
+
+  Widget _buildSwitchItem(
+    BuildContext context,
+    String label,
+    String description,
+    bool value,
+    Function(bool) onChanged,
+  ) {
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: const BoxDecoration(
+        border: Border(
+          top: BorderSide(color: AppTheme.border, width: 1),
+        ),
+      ),
+      child: Row(
+        children: [
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  label,
+                  style: const TextStyle(
+                    fontSize: 15,
+                    color: AppTheme.textColor,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  description,
+                  style: const TextStyle(
+                    fontSize: 13,
+                    color: AppTheme.muted,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Switch(
+            value: value,
+            onChanged: onChanged,
+            activeColor: AppTheme.accent,
+            activeTrackColor: AppTheme.accent.withValues(alpha: 0.3),
+            inactiveThumbColor: AppTheme.muted,
+            inactiveTrackColor: AppTheme.muted.withValues(alpha: 0.3),
+          ),
+        ],
+      ),
+    );
   }
 }
 

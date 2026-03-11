@@ -87,7 +87,9 @@ class NewsCard extends StatelessWidget {
                                   ),
                                   const SizedBox(width: 4),
                                   Text(
-                                    item.score!.toStringAsFixed(1),
+                                    item.score! % 1 == 0 
+                                        ? item.score!.toInt().toString()
+                                        : item.score!.toStringAsFixed(1),
                                     style: const TextStyle(
                                       color: AppTheme.accent,
                                       fontSize: 10,

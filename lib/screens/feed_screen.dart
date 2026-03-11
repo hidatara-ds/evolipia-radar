@@ -5,6 +5,7 @@ import '../theme.dart';
 import '../models/news_item.dart';
 import '../widgets/news_card.dart';
 import '../services/api_service.dart';
+import '../services/notification_service.dart';
 
 class FeedScreen extends StatefulWidget {
   const FeedScreen({super.key});
@@ -32,6 +33,15 @@ class _FeedScreenState extends State<FeedScreen> {
 
     try {
       final newsItems = await ApiService.getNews();
+      
+      // Check for high-scoring items and send notifications
+      final trendingItems = newsItems.where((item) => item.score! >= 8.0).toList();
+      for (final item in trendingItems) {
+        final notificationsEnabled = await NotificationService.areNotificationsEnabled();
+        if (notificationsEnabled) {
+          await NotificationService.showTrendingNotification(item);
+        }
+      }
       
       setState(() {
         items = newsItems;
