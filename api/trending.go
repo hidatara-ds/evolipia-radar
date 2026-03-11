@@ -9,8 +9,6 @@ import (
 	"time"
 )
 
-const httpMethodOptions = "OPTIONS"
-
 type NewsItem struct {
 	ID           string    `json:"id"`
 	Title        string    `json:"title"`
@@ -73,20 +71,15 @@ func loadNewsData() (*NewsData, error) {
 	return &newsData, nil
 }
 
-// Handler for /api/news - Get all news
+// Handler for /api/trending - Get trending items
 func Handler(w http.ResponseWriter, r *http.Request) {
 	enableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
-	if r.Method == httpMethodOptions {
+	if r.Method == "OPTIONS" {
 		w.WriteHeader(http.StatusOK)
 		return
 	}
-
-	// Parse query parameters
-	query := r.URL.Query()
-	topic := query.Get("topic")
-	date := query.Get("date")
 
 	newsData, err := loadNewsData()
 	if err != nil {
@@ -99,46 +92,26 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Filter by topic if specified
-	filteredItems := newsData.Items
-	if topic != "" {
-		var filtered []NewsItem
-		for _, item := range filteredItems {
-			for _, tag := range item.Tags {
-				if strings.EqualFold(tag, topic) {
-					filtered = append(filtered, item)
-					break
-				}
-			}
-		}
-		filteredItems = filtered
-	}
+	// Get items from last 2 hours with high scores
+	twoHoursAgo := time.Now().Add(-2 * time.Hour)
+	var trending []NewsItem
 
-	// Filter by date if specified
-	if date == "today" {
-		now := time.Now()
-		var filtered []NewsItem
-		for _, item := range filteredItems {
-			if item.PublishedAt.Year() == now.Year() &&
-				item.PublishedAt.Month() == now.Month() &&
-				item.PublishedAt.Day() == now.Day() {
-				filtered = append(filtered, item)
-			}
+	for _, item := range newsData.Items {
+		if item.PublishedAt.After(twoHoursAgo) && item.Score > 0.5 {
+			trending = append(trending, item)
 		}
-		filteredItems = filtered
 	}
 
 	// Limit to 20 items
-	if len(filteredItems) > 20 {
-		filteredItems = filteredItems[:20]
+	if len(trending) > 20 {
+		trending = trending[:20]
 	}
 
 	if err := json.NewEncoder(w).Encode(Response{
 		Success: true,
 		Data: map[string]interface{}{
-			"items":        filteredItems,
-			"total_count":  len(filteredItems),
-			"last_updated": newsData.LastUpdated,
+			"items":       trending,
+			"total_count": len(trending),
 		},
 	}); err != nil {
 		log.Printf("Error encoding response: %v", err)

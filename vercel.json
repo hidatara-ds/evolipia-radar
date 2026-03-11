@@ -13,18 +13,13 @@
       "methods": ["GET", "OPTIONS"]
     },
     {
-      "src": "/api/news/(.*)",
-      "dest": "/api/news.go",
-      "methods": ["GET", "OPTIONS"]
-    },
-    {
       "src": "/api/trending",
-      "dest": "/api/news.go",
+      "dest": "/api/trending.go",
       "methods": ["GET", "OPTIONS"]
     },
     {
       "src": "/api/search",
-      "dest": "/api/news.go",
+      "dest": "/api/search.go",
       "methods": ["GET", "OPTIONS"]
     },
     {

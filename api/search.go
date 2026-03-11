@@ -9,8 +9,6 @@ import (
 	"time"
 )
 
-const httpMethodOptions = "OPTIONS"
-
 type NewsItem struct {
 	ID           string    `json:"id"`
 	Title        string    `json:"title"`
@@ -73,20 +71,26 @@ func loadNewsData() (*NewsData, error) {
 	return &newsData, nil
 }
 
-// Handler for /api/news - Get all news
+// Handler for /api/search - Search news
 func Handler(w http.ResponseWriter, r *http.Request) {
 	enableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
-	if r.Method == httpMethodOptions {
+	if r.Method == "OPTIONS" {
 		w.WriteHeader(http.StatusOK)
 		return
 	}
 
-	// Parse query parameters
-	query := r.URL.Query()
-	topic := query.Get("topic")
-	date := query.Get("date")
+	query := r.URL.Query().Get("q")
+	if query == "" {
+		if err := json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Error:   "Query parameter 'q' is required",
+		}); err != nil {
+			log.Printf("Error encoding error response: %v", err)
+		}
+		return
+	}
 
 	newsData, err := loadNewsData()
 	if err != nil {
@@ -99,46 +103,36 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Filter by topic if specified
-	filteredItems := newsData.Items
-	if topic != "" {
-		var filtered []NewsItem
-		for _, item := range filteredItems {
-			for _, tag := range item.Tags {
-				if strings.EqualFold(tag, topic) {
-					filtered = append(filtered, item)
-					break
-				}
-			}
-		}
-		filteredItems = filtered
-	}
+	// Simple search in title and tags
+	queryLower := strings.ToLower(query)
+	var results []NewsItem
 
-	// Filter by date if specified
-	if date == "today" {
-		now := time.Now()
-		var filtered []NewsItem
-		for _, item := range filteredItems {
-			if item.PublishedAt.Year() == now.Year() &&
-				item.PublishedAt.Month() == now.Month() &&
-				item.PublishedAt.Day() == now.Day() {
-				filtered = append(filtered, item)
+	for _, item := range newsData.Items {
+		titleMatch := strings.Contains(strings.ToLower(item.Title), queryLower)
+		tagMatch := false
+		for _, tag := range item.Tags {
+			if strings.Contains(strings.ToLower(tag), queryLower) {
+				tagMatch = true
+				break
 			}
 		}
-		filteredItems = filtered
+
+		if titleMatch || tagMatch {
+			results = append(results, item)
+		}
 	}
 
 	// Limit to 20 items
-	if len(filteredItems) > 20 {
-		filteredItems = filteredItems[:20]
+	if len(results) > 20 {
+		results = results[:20]
 	}
 
 	if err := json.NewEncoder(w).Encode(Response{
 		Success: true,
 		Data: map[string]interface{}{
-			"items":        filteredItems,
-			"total_count":  len(filteredItems),
-			"last_updated": newsData.LastUpdated,
+			"items":       results,
+			"total_count": len(results),
+			"query":       query,
 		},
 	}); err != nil {
 		log.Printf("Error encoding response: %v", err)
