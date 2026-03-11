@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "a0868ebd-87c9-49b4-9473-ae890e63d892",
+      "title": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
+      "url": "https://news.ycombinator.com/newsguidelines.html",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-03-11T19:29:29Z",
+      "category": "tech",
+      "score": 0.45670662106379184,
+      "tldr": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7ccee2ae-c8e3-4a5e-9048-5eb7db57b06a",
       "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
       "url": "https://github.com/RunanywhereAI/rcli",
@@ -558,6 +572,20 @@
       "category": "tech",
       "score": 0.25268165208316823,
       "tldr": "Isotopic Evidence for a Cold and Distant Origin of Interstellar Object 3I/Atlas",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a65b6d27-c7a2-4670-aeed-aeaa3c257011",
+      "title": "CRusTTY: A pedagogical C interpreter with time-travel debugging capabilities",
+      "url": "https://github.com/aicheye/crustty",
+      "domain": "github.com",
+      "published_at": "2026-03-11T18:57:58Z",
+      "category": "tech",
+      "score": 0.25217873702786886,
+      "tldr": "CRusTTY: A pedagogical C interpreter with time-travel debugging capabilities",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1374,36 +1402,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "284bec0c-d660-4a38-9796-27d35f4ab724",
-      "title": "BC got rid of Daylight Savings",
-      "url": "https://news.gov.bc.ca/releases/2026AG0013-000209",
-      "domain": "news.gov.bc.ca",
-      "published_at": "2026-03-10T15:31:43Z",
-      "category": "tech",
-      "score": 0.18272182622387648,
-      "tldr": "BC got rid of Daylight Savings",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9d74fd8e-3065-4955-afa9-6ffb5e01101f",
-      "title": "Google to Provide Pentagon with AI Agents",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/google-to-provide-pentagon-with-ai-agents-for-unclassified-work",
-      "domain": "bloomberg.com",
-      "published_at": "2026-03-11T09:30:22Z",
-      "category": "tech",
-      "score": 0.18206299226572925,
-      "tldr": "Google to Provide Pentagon with AI Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-11T19:36:16.427807092Z",
+  "last_updated": "2026-03-11T20:23:55.808632055Z",
   "total_count": 100
 }
