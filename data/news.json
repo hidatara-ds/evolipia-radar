@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "655aece4-80dc-4a6d-ae36-626d00ea5e3b",
+      "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+      "url": "https://news.ycombinator.com/newsguidelines.html",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-03-11T19:29:29Z",
+      "category": "tech",
+      "score": 0.6379496139262352,
+      "tldr": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ced5c6b7-307f-4d72-af54-d8383fba1e37",
       "title": "Tony Hoare has died",
       "url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
@@ -68,6 +82,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "466a0b51-007a-4ab9-a1f8-354a93ccaf49",
+      "title": "Temporal: The 9-year journey to fix time in JavaScript",
+      "url": "https://bloomberg.github.io/js-blog/post/temporal",
+      "domain": "bloomberg.github.io",
+      "published_at": "2026-03-11T15:35:50Z",
+      "category": "tech",
+      "score": 0.3948110209854615,
+      "tldr": "Temporal: The 9-year journey to fix time in JavaScript",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -733,6 +761,20 @@
       ]
     },
     {
+      "id": "a0ea5d1d-0669-4c5b-8093-56c99c2630e2",
+      "title": "DHS Contracts Explorer – Hacked data from the Office of Industry Partnership",
+      "url": "https://micahflee.github.io/ice-contracts",
+      "domain": "micahflee.github.io",
+      "published_at": "2026-03-12T02:03:01Z",
+      "category": "tech",
+      "score": 0.23235450065606472,
+      "tldr": "DHS Contracts Explorer – Hacked data from the Office of Industry Partnership",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "75a355ff-7c59-4937-bdb0-25f8bf67bf43",
       "title": "Intel Demos Chip to Compute with Encrypted Data",
       "url": "https://spectrum.ieee.org/fhe-intel",
@@ -971,6 +1013,34 @@
       ]
     },
     {
+      "id": "5282fbd8-0a73-44f1-9492-7346066e277e",
+      "title": "Apple releases iOS 15.8.7 to fix Coruna exploit for iPhone 6S from 2015",
+      "url": "https://support.apple.com/en-us/126632",
+      "domain": "support.apple.com",
+      "published_at": "2026-03-12T01:22:26Z",
+      "category": "tech",
+      "score": 0.20932867795116178,
+      "tldr": "Apple releases iOS 15. 7 to fix Coruna exploit for iPhone 6S from 2015",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c2317b26-0584-4c80-b6e3-752e27973625",
+      "title": "Urea prices",
+      "url": "https://tradingeconomics.com/commodity/urea",
+      "domain": "tradingeconomics.com",
+      "published_at": "2026-03-12T01:59:47Z",
+      "category": "tech",
+      "score": 0.20931211918381648,
+      "tldr": "Urea prices",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "76da2854-7d9f-4b3f-a089-d64b2ec0222c",
       "title": "FFmpeg at Meta: Media Processing at Scale",
       "url": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale",
@@ -993,6 +1063,34 @@
       "category": "tech",
       "score": 0.20838207616371676,
       "tldr": "Tell HN: Apple development certificate server seems down?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "384ee2fd-bb8b-4522-b01c-59b732f9a7dc",
+      "title": "Show HN: s@: decentralized social networking over static sites",
+      "url": "http://satproto.org/",
+      "domain": "satproto.org",
+      "published_at": "2026-03-12T00:22:19Z",
+      "category": "tech",
+      "score": 0.20834051539698625,
+      "tldr": "Show HN: s@: decentralized social networking over static sites",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "74cad864-9849-4dee-b206-f54694ce12cc",
+      "title": "How much of HN is AI?",
+      "url": "https://lcamtuf.substack.com/p/how-much-of-hn-is-ai",
+      "domain": "lcamtuf.substack.com",
+      "published_at": "2026-03-12T01:15:40Z",
+      "category": "tech",
+      "score": 0.2077482253309984,
+      "tldr": "How much of HN is AI?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1305,106 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "04a94f1a-a5cd-4c01-85f3-8ade29b2f00d",
-      "title": "Defeat as Method",
-      "url": "https://www.cabinetmagazine.org/issues/71/khosravi.php",
-      "domain": "cabinetmagazine.org",
-      "published_at": "2026-03-10T17:07:27Z",
-      "category": "tech",
-      "score": 0.1883363203528144,
-      "tldr": "Defeat as Method",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "08ad9f11-a209-4e49-92b2-27627e126e71",
-      "title": "U.S. at Fault in Strike on School in Iran, Preliminary Inquiry Says",
-      "url": "https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-03-11T15:00:46Z",
-      "category": "tech",
-      "score": 0.18767614797526327,
-      "tldr": "at Fault in Strike on School in Iran, Preliminary Inquiry Says",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "154e89cb-397d-4674-94c8-425031b0139a",
-      "title": "Making WebAssembly a first-class language on the Web",
-      "url": "https://hacks.mozilla.org/2026/02/making-webassembly-a-first-class-language-on-the-web",
-      "domain": "hacks.mozilla.org",
-      "published_at": "2026-03-11T04:44:46Z",
-      "category": "tech",
-      "score": 0.1872540760448163,
-      "tldr": "Making WebAssembly a first-class language on the Web",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ddf06f5c-ce67-47ca-b0d9-46db68debdfe",
-      "title": "Ask HN: Is Claude Down Again?",
-      "url": "https://news.ycombinator.com/item?id=47336163",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-03-11T14:39:21Z",
-      "category": "tech",
-      "score": 0.18637464459742076,
-      "tldr": "Ask HN: Is Claude Down Again?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1e978b77-3e29-4d11-a5f7-2a1577481d89",
-      "title": "UK MPs give ministers powers to restrict Internet for under 18s",
-      "url": "https://www.openrightsgroup.org/press-releases/mps-give-ministers-powers-to-restrict-entire-internet",
-      "domain": "openrightsgroup.org",
-      "published_at": "2026-03-11T14:08:48Z",
-      "category": "tech",
-      "score": 0.186355959951883,
-      "tldr": "UK MPs give ministers powers to restrict Internet for under 18s",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0750269d-7f3f-45de-b393-b2dd76e55968",
-      "title": "MacBook Neo Is a 'Shock' to the PC Industry: Asus Co-CEO",
-      "url": "https://www.pcmag.com/news/asus-co-ceo-macbook-neo-is-a-shock-to-the-pc-industry",
-      "domain": "pcmag.com",
-      "published_at": "2026-03-11T05:30:50Z",
-      "category": "tech",
-      "score": 0.1861008369366145,
-      "tldr": "MacBook Neo Is a 'Shock' to the PC Industry: Asus Co-CEO",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0cfc5bb5-7879-4f5c-b915-c890b7ff92e3",
-      "title": "Sending Jabber/XMPP Messages via HTTP",
-      "url": "https://gultsch.de/posts/xmpp-via-http",
-      "domain": "gultsch.de",
-      "published_at": "2026-03-10T13:29:21Z",
-      "category": "tech",
-      "score": 0.18594425613261956,
-      "tldr": "Sending Jabber/XMPP Messages via HTTP",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-12T01:00:06.145727899Z",
+  "last_updated": "2026-03-12T03:32:28.407969715Z",
   "total_count": 100
 }
