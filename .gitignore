@@ -40,6 +40,10 @@ ios/Runner/GeneratedPluginRegistrant.*
 project.xcworkspace/
 xcuserdata/
 
+# APK Files (too large for GitHub)
+*.apk
+*.aab
+
 # Config (sensitive)
 # lib/config.dart
 
