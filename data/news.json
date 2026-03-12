@@ -551,6 +551,20 @@
       ]
     },
     {
+      "id": "c13783bd-af71-4921-9fa4-9164a305604d",
+      "title": "Are LLMs not getting better?",
+      "url": "https://entropicthoughts.com/no-swe-bench-improvement",
+      "domain": "entropicthoughts.com",
+      "published_at": "2026-03-12T11:49:05Z",
+      "category": "tech",
+      "score": 0.26106372473212186,
+      "tldr": "Are LLMs not getting better?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "374d56d3-e307-4cf9-a654-c24a5f9b18d6",
       "title": "Show HN: A context-aware permission guard for Claude Code",
       "url": "https://github.com/manuelschipper/nah",
@@ -1389,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "fb6fd487-5ed6-4381-b69a-6401d689d992",
-      "title": "Open Weights isn't Open Training",
-      "url": "https://www.workshoplabs.ai/blog/open-weights-open-training",
-      "domain": "workshoplabs.ai",
-      "published_at": "2026-03-09T23:37:08Z",
-      "category": "tech",
-      "score": 0.1925581174359082,
-      "tldr": "Open Weights isn't Open Training",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-12T11:48:27.860942268Z",
+  "last_updated": "2026-03-12T12:33:53.966730516Z",
   "total_count": 100
 }
