@@ -425,6 +425,20 @@
       ]
     },
     {
+      "id": "fbd7f2cb-07f8-4547-b2a7-ae596969f17b",
+      "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
+      "url": "https://codespeak.dev/",
+      "domain": "codespeak.dev",
+      "published_at": "2026-03-12T14:22:43Z",
+      "category": "tech",
+      "score": 0.285093412271852,
+      "tldr": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5f060c12-76c7-49c2-b6d3-5155e4b725f3",
       "title": "RISC-V Is Sloooow",
       "url": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow",
@@ -887,6 +901,20 @@
       ]
     },
     {
+      "id": "ba154621-9c25-4d16-89e4-a21e4013581d",
+      "title": "Suburban school district uses license plate readers to verify student residency",
+      "url": "https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703",
+      "domain": "nbcchicago.com",
+      "published_at": "2026-03-12T14:41:12Z",
+      "category": "tech",
+      "score": 0.23491848709505406,
+      "tldr": "Suburban school district uses license plate readers to verify student residency",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d3410630-d708-43cf-94c7-d7a42c8e3302",
       "title": "I built a programming language using Claude Code",
       "url": "https://ankursethi.com/blog/programming-language-claude-code",
@@ -1007,6 +1035,20 @@
       "category": "tech",
       "score": 0.22601222799950788,
       "tldr": "Printf-Tac-Toe",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1dac9fef-6f74-47b5-b9da-120f79936aee",
+      "title": "ATMs didn't kill bank Teller jobs, but the iPhone did",
+      "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
+      "domain": "davidoks.blog",
+      "published_at": "2026-03-12T14:48:57Z",
+      "category": "tech",
+      "score": 0.2239040156134495,
+      "tldr": "ATMs didn't kill bank Teller jobs, but the iPhone did",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1361,50 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "418dbda2-47ac-4078-b635-ce38023f1278",
-      "title": "Launch HN: Didit (YC W26) – Stripe for Identity Verification",
-      "url": "https://news.ycombinator.com/item?id=47324296",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-03-10T15:08:05Z",
-      "category": "tech",
-      "score": 0.19946515344828097,
-      "tldr": "Launch HN: Didit (YC W26) – Stripe for Identity Verification",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "91cae095-42c8-4079-8ddf-f7c189b2863e",
-      "title": "An opinionated take on how to do important research that matters",
-      "url": "https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html",
-      "domain": "nicholas.carlini.com",
-      "published_at": "2026-03-09T16:24:22Z",
-      "category": "tech",
-      "score": 0.19911012414414098,
-      "tldr": "An opinionated take on how to do important research that matters",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "bcf1c179-634c-4ce2-a37e-9a9d97ead2e9",
-      "title": "Mother of All Grease Fires (1994)",
-      "url": "https://milk.com/wall-o-shame/bucket.html",
-      "domain": "milk.com",
-      "published_at": "2026-03-10T19:56:32Z",
-      "category": "tech",
-      "score": 0.19875580517877214,
-      "tldr": "Mother of All Grease Fires (1994)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-12T14:41:35.739634479Z",
+  "last_updated": "2026-03-12T15:46:55.212715269Z",
   "total_count": 100
 }
