@@ -143,6 +143,20 @@
       ]
     },
     {
+      "id": "da5a093c-5e67-4da9-8a08-76d68228d613",
+      "title": "Kotlin creator's new language: talk to LLMs in specs, not English",
+      "url": "https://codespeak.dev/",
+      "domain": "codespeak.dev",
+      "published_at": "2026-03-12T14:22:43Z",
+      "category": "tech",
+      "score": 0.38511559483513164,
+      "tldr": "Kotlin creator's new language: talk to LLMs in specs, not English",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "05cfb044-e907-45c5-a161-2938cb6408ec",
       "title": "Show HN: How I topped the HuggingFace open LLM leaderboard on two gaming GPUs",
       "url": "https://dnhkng.github.io/posts/rys",
@@ -154,6 +168,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "db0ccc96-342a-45a9-8702-3a78301c535c",
+      "title": "Asian governments roll out 4-day weeks, WFH to solve fuel crisis caused by war",
+      "url": "https://fortune.com/2026/03/11/iran-war-fuel-crisis-asia-work-from-home-closed-schools-price-caps",
+      "domain": "fortune.com",
+      "published_at": "2026-03-12T15:30:37Z",
+      "category": "tech",
+      "score": 0.3651114628323856,
+      "tldr": "Asian governments roll out 4-day weeks, WFH to solve fuel crisis caused by war",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -408,6 +436,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data"
+      ]
+    },
+    {
+      "id": "016bb7ad-b6c9-4b4b-b2bd-f6cd7051886a",
+      "title": "Are LLM merge rates not getting better?",
+      "url": "https://entropicthoughts.com/no-swe-bench-improvement",
+      "domain": "entropicthoughts.com",
+      "published_at": "2026-03-12T11:49:05Z",
+      "category": "tech",
+      "score": 0.29116654495722505,
+      "tldr": "Are LLM merge rates not getting better?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1125,6 +1167,20 @@
       ]
     },
     {
+      "id": "989f99c7-4034-4800-8277-77853d4f752f",
+      "title": "An old photo of a large BBS (2022)",
+      "url": "https://rachelbythebay.com/w/2022/01/26/swcbbs",
+      "domain": "rachelbythebay.com",
+      "published_at": "2026-03-12T19:41:35Z",
+      "category": "tech",
+      "score": 0.22840981133095034,
+      "tldr": "An old photo of a large BBS (2022)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "64ed4b9c-c534-47a9-a19f-38eb152b7514",
       "title": "US private credit defaults hit record 9.2% in 2025, Fitch says",
       "url": "https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d",
@@ -1347,64 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "3a47a071-11ad-44a3-8eda-bf5e7e20dddf",
-      "title": "Physicist Astrid Eichhorn is a leader in the field of asymptotic safety",
-      "url": "https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311",
-      "domain": "quantamagazine.org",
-      "published_at": "2026-03-11T15:48:29Z",
-      "category": "tech",
-      "score": 0.212577676671886,
-      "tldr": "Physicist Astrid Eichhorn is a leader in the field of asymptotic safety",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ad796c9c-0382-4f85-bf40-e9462fba7933",
-      "title": "HyperCard discovery: Neuromancer, Count Zero, Mona Lisa Overdrive (2022)",
-      "url": "https://macintoshgarden.org/apps/neuromancer-count-zero-mona-lisa-overdrive",
-      "domain": "macintoshgarden.org",
-      "published_at": "2026-03-10T19:17:26Z",
-      "category": "tech",
-      "score": 0.21252627757747472,
-      "tldr": "HyperCard discovery: Neuromancer, Count Zero, Mona Lisa Overdrive (2022)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6cd00d6c-490b-4328-9659-30128d38efce",
-      "title": "Writing my own text editor, and daily-driving it",
-      "url": "https://blog.jsbarretto.com/post/text-editor",
-      "domain": "blog.jsbarretto.com",
-      "published_at": "2026-03-11T02:04:22Z",
-      "category": "tech",
-      "score": 0.21176809736624436,
-      "tldr": "Writing my own text editor, and daily-driving it",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5b46815c-07b0-41dd-b081-a008b0ef8d37",
-      "title": "Temporal: A 9-year journey to fix time in JavaScript",
-      "url": "https://bloomberg.github.io/js-blog/post/temporal",
-      "domain": "bloomberg.github.io",
-      "published_at": "2026-03-11T15:35:50Z",
-      "category": "tech",
-      "score": 0.20978520759124372,
-      "tldr": "Temporal: A 9-year journey to fix time in JavaScript",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-12T20:23:32.001719471Z",
+  "last_updated": "2026-03-12T20:59:05.780170307Z",
   "total_count": 100
 }
