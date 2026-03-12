@@ -957,6 +957,20 @@
       ]
     },
     {
+      "id": "db1a4150-9730-4ec3-9467-4adcf8d934e9",
+      "title": "Document poisoning in RAG systems: How attackers corrupt AI's sources",
+      "url": "https://aminrj.com/posts/rag-document-poisoning",
+      "domain": "aminrj.com",
+      "published_at": "2026-03-12T13:40:36Z",
+      "category": "tech",
+      "score": 0.2508931020649975,
+      "tldr": "Document poisoning in RAG systems: How attackers corrupt AI's sources",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2765ef0e-213c-4141-8735-1655d6b49a73",
       "title": "Reliable Software in the LLM Era",
       "url": "https://quint-lang.org/posts/llm_era",
@@ -1389,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "9bfad7dc-1904-4038-b00a-678ccc21d42b",
-      "title": "Bubble Sorted Amen Break",
-      "url": "https://parametricavocado.itch.io/amen-sorting",
-      "domain": "parametricavocado.itch.io",
-      "published_at": "2026-03-12T17:13:56Z",
-      "category": "tech",
-      "score": 0.21328429907131485,
-      "tldr": "Bubble Sorted Amen Break",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-12T20:59:05.780170307Z",
+  "last_updated": "2026-03-12T21:30:25.672164683Z",
   "total_count": 100
 }
