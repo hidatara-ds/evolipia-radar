@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "08b16789-5c3d-498a-941d-2eee2a4ba1f9",
+      "title": "BitNet: Inference framework for 1-bit LLMs",
+      "url": "https://github.com/microsoft/BitNet",
+      "domain": "github.com",
+      "published_at": "2026-03-11T12:27:15Z",
+      "category": "tech",
+      "score": 0.5122404687812433,
+      "tldr": "BitNet: Inference framework for 1-bit LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a0868ebd-87c9-49b4-9473-ae890e63d892",
       "title": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
       "url": "https://news.ycombinator.com/newsguidelines.html",
@@ -677,6 +691,20 @@
       ]
     },
     {
+      "id": "2765ef0e-213c-4141-8735-1655d6b49a73",
+      "title": "Reliable Software in the LLM Era",
+      "url": "https://quint-lang.org/posts/llm_era",
+      "domain": "quint-lang.org",
+      "published_at": "2026-03-12T08:19:46Z",
+      "category": "tech",
+      "score": 0.25080188769717554,
+      "tldr": "Reliable Software in the LLM Era",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7aca7b74-4597-45ac-ba78-b1c6fdc5bdc7",
       "title": "I-Harmonium",
       "url": "https://github.com/gajraj-m/iharmonium",
@@ -853,6 +881,20 @@
       "category": "tech",
       "score": 0.22628386368750497,
       "tldr": "Show HN: Custom Git-receive-pack implementation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "71e0f99a-9f2d-4982-8a7c-f8f6d5a30085",
+      "title": "Printf-Tac-Toe",
+      "url": "https://github.com/carlini/printf-tac-toe",
+      "domain": "github.com",
+      "published_at": "2026-03-08T12:01:07Z",
+      "category": "tech",
+      "score": 0.22601222799950788,
+      "tldr": "Printf-Tac-Toe",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1361,50 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c5624c9a-9c62-481e-a365-5419582cad9f",
-      "title": "MacBook Neo Review: No Other Budget Laptop Can Compete",
-      "url": "https://gizmodo.com/macbook-neo-review-no-other-budget-laptop-can-compete-2000731635",
-      "domain": "gizmodo.com",
-      "published_at": "2026-03-11T03:55:23Z",
-      "category": "tech",
-      "score": 0.19225596830860275,
-      "tldr": "MacBook Neo Review: No Other Budget Laptop Can Compete",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b9098a51-ab19-4659-92c3-aacd3aa4694f",
-      "title": "America's never had such high national debt heading into an economic shock",
-      "url": "https://fortune.com/2026/03/10/national-debt-100-percent-of-gdp-crisis-break-glass-plan-crfb-report",
-      "domain": "fortune.com",
-      "published_at": "2026-03-10T21:52:54Z",
-      "category": "tech",
-      "score": 0.19214396753717333,
-      "tldr": "America's never had such high national debt heading into an economic shock",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e01ff61b-9bf6-44eb-b6c1-acf8ded15f57",
-      "title": "Iran warns U.S. tech firms could become targets as war expands",
-      "url": "https://www.wired.me/story/war-on-big-tech-iran-names-israeli-linked-us-firms-as-potential-targets",
-      "domain": "wired.me",
-      "published_at": "2026-03-11T20:24:20Z",
-      "category": "tech",
-      "score": 0.19112255222404476,
-      "tldr": "tech firms could become targets as war expands",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-12T09:06:34.558465876Z",
+  "last_updated": "2026-03-12T10:05:13.045654598Z",
   "total_count": 100
 }
