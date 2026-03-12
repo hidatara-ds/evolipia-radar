@@ -22,11 +22,11 @@ class DetailScreen extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: AppTheme.bg,
-      body: SafeArea(
-        child: Column(
-          children: [
-            // Custom Header
-            Container(
+      body: Column(
+        children: [
+          // Custom Header tanpa AppBar
+          SafeArea(
+            child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               child: Row(
                 children: [
@@ -55,9 +55,10 @@ class DetailScreen extends StatelessWidget {
                 ],
               ),
             ),
-            // Content
-            Expanded(
-              child: SingleChildScrollView(
+          ),
+          // Content
+          Expanded(
+            child: SingleChildScrollView(
                 padding: const EdgeInsets.all(20),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -212,9 +213,7 @@ class DetailScreen extends StatelessWidget {
                         children: [
                           Expanded(
                             child: _buildScoreCard(
-                              item.score! % 1 == 0 
-                                  ? item.score!.toInt().toString()
-                                  : item.score!.toStringAsFixed(1),
+                              item.score!.toInt().toString(),
                               'Final',
                               AppTheme.accent,
                             ),
@@ -222,7 +221,7 @@ class DetailScreen extends StatelessWidget {
                           const SizedBox(width: 12),
                           Expanded(
                             child: _buildScoreCard(
-                              '5',
+                              '8',
                               'Hot',
                               AppTheme.warning,
                             ),
@@ -230,7 +229,7 @@ class DetailScreen extends StatelessWidget {
                           const SizedBox(width: 12),
                           Expanded(
                             child: _buildScoreCard(
-                              '3',
+                              '6',
                               'Relevan',
                               AppTheme.success,
                             ),
@@ -247,9 +246,9 @@ class DetailScreen extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            _buildScoreRow('Kredibilitas:', '5/10'),
+                            _buildScoreRow('Kredibilitas:', '7/10'),
                             const SizedBox(height: 12),
-                            _buildScoreRow('Kebaruan:', '8/10'),
+                            _buildScoreRow('Kebaruan:', '9/10'),
                           ],
                         ),
                       ),
@@ -260,12 +259,11 @@ class DetailScreen extends StatelessWidget {
             ],
 
             const SizedBox(height: 100),
-                  ],
-                ),
+                ],
               ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../models/ai_message.dart';
-import '../models/ai_config.dart';
 
 class AIService {
   final String apiKey;

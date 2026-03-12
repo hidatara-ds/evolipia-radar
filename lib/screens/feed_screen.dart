@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../theme.dart';
 import '../models/news_item.dart';
 import '../widgets/news_card.dart';

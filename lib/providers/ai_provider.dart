@@ -1,5 +1,4 @@
 import 'package:flutter/foundation.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../services/ai_service.dart';
 import '../services/summarizer_service.dart';
 
@@ -20,19 +19,11 @@ class AIProvider extends ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      final savedKey = prefs.getString('openrouter_key');
-
-      if (savedKey != null && savedKey.isNotEmpty) {
-        await setApiKey(savedKey, saveToStorage: false);
-      }
-    } catch (e) {
-      debugPrint('Failed to load API key: $e');
-    } finally {
-      _isLoading = false;
-      notifyListeners();
-    }
+    // For demo purposes, no persistent storage
+    // In production, you'd load from secure storage
+    
+    _isLoading = false;
+    notifyListeners();
   }
 
   /// Set API key and initialize services
@@ -47,18 +38,8 @@ class AIProvider extends ChangeNotifier {
       _summarizerService = SummarizerService(aiService: _aiService);
     }
 
-    if (saveToStorage) {
-      try {
-        final prefs = await SharedPreferences.getInstance();
-        if (key.isEmpty) {
-          await prefs.remove('openrouter_key');
-        } else {
-          await prefs.setString('openrouter_key', key);
-        }
-      } catch (e) {
-        debugPrint('Failed to save API key: $e');
-      }
-    }
+    // For demo purposes, no persistent storage
+    // In production, you'd save to secure storage
 
     notifyListeners();
   }
