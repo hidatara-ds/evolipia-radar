@@ -397,6 +397,20 @@
       ]
     },
     {
+      "id": "4d215f65-c3b0-46b6-8c46-03af52effd93",
+      "title": "I don't use LLMs for programming",
+      "url": "https://neilmadden.blog/2026/03/02/why-i-dont-use-llms-for-programming",
+      "domain": "neilmadden.blog",
+      "published_at": "2026-03-12T09:51:51Z",
+      "category": "tech",
+      "score": 0.2869956744866241,
+      "tldr": "I don't use LLMs for programming",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5f060c12-76c7-49c2-b6d3-5155e4b725f3",
       "title": "RISC-V Is Sloooow",
       "url": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow",
@@ -1389,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8b0c2359-bde0-44b6-a779-0334a594a683",
-      "title": "The entities enabling scientific fraud at scale are large, resilient and growing",
-      "url": "https://doi.org/10.1073/pnas.2420092122",
-      "domain": "doi.org",
-      "published_at": "2026-03-11T13:32:12Z",
-      "category": "tech",
-      "score": 0.19248334636677272,
-      "tldr": "The entities enabling scientific fraud at scale are large, resilient and growing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-12T10:05:13.045654598Z",
+  "last_updated": "2026-03-12T11:04:53.861819344Z",
   "total_count": 100
 }
