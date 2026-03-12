@@ -227,6 +227,20 @@
       ]
     },
     {
+      "id": "5b49b38d-f931-42ed-a265-b80b7e73376d",
+      "title": "Executing programs inside transformers with exponentially faster inference",
+      "url": "https://www.percepta.ai/blog/can-llms-be-computers",
+      "domain": "percepta.ai",
+      "published_at": "2026-03-12T09:17:56Z",
+      "category": "tech",
+      "score": 0.3265045312119175,
+      "tldr": "Executing programs inside transformers with exponentially faster inference",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "e9fe6ceb-0904-4136-81ab-8fdf131210a0",
       "title": "FFmpeg-over-IP – Connect to remote FFmpeg servers",
       "url": "https://github.com/steelbrain/ffmpeg-over-ip",
@@ -579,6 +593,20 @@
       ]
     },
     {
+      "id": "0db897c5-be25-4ff1-9ea5-ea7db8760598",
+      "title": "Show HN: Axe A 12MB binary that replaces your AI framework",
+      "url": "https://github.com/jrswab/axe",
+      "domain": "github.com",
+      "published_at": "2026-03-12T13:49:12Z",
+      "category": "tech",
+      "score": 0.2581925301480733,
+      "tldr": "Show HN: Axe A 12MB binary that replaces your AI framework",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5d8c2c31-3af2-4315-b2d6-e528fb587b99",
       "title": "Show HN: Open-source browser for AI agents",
       "url": "https://github.com/theredsix/agent-browser-protocol",
@@ -587,6 +615,20 @@
       "category": "tech",
       "score": 0.25748051440519515,
       "tldr": "Show HN: Open-source browser for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "36dd29fa-1020-46f3-8e02-f5fa5db9d6a6",
+      "title": "Show HN: Calyx – Ghostty-Based macOS Terminal with Liquid Glass UI",
+      "url": "https://github.com/yuuichieguchi/Calyx",
+      "domain": "github.com",
+      "published_at": "2026-03-12T13:13:02Z",
+      "category": "tech",
+      "score": 0.2566454865000983,
+      "tldr": "Show HN: Calyx – Ghostty-Based macOS Terminal with Liquid Glass UI",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1279,6 +1321,20 @@
       ]
     },
     {
+      "id": "e46cc339-ca0e-4156-9a1b-fb6146480313",
+      "title": "US banks' exposure to private credit hits $300B (2025)",
+      "url": "https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn",
+      "domain": "alternativecreditinvestor.com",
+      "published_at": "2026-03-12T12:43:26Z",
+      "category": "tech",
+      "score": 0.20340331143004287,
+      "tldr": "US banks' exposure to private credit hits $300B (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6922f8c5-a211-493d-b1de-873760a3f7e6",
       "title": "Iran-backed hackers claim wiper attack on medtech firm Stryker",
       "url": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker",
@@ -1347,64 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "17c12d1d-37c1-494c-82e4-0a84ff575d53",
-      "title": "PgAdmin 4 9.13 with AI Assistant Panel",
-      "url": "https://www.pgadmin.org/docs/pgadmin4/9.13/query_tool.html",
-      "domain": "pgadmin.org",
-      "published_at": "2026-03-10T11:58:36Z",
-      "category": "tech",
-      "score": 0.19833700035443577,
-      "tldr": "13 with AI Assistant Panel",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d87d4ed7-7580-4f10-89a6-5f9beb4f8d69",
-      "title": "Elevated errors on login with Claude Code",
-      "url": "https://status.claude.com/incidents/jm3b4jjy2jrt",
-      "domain": "status.claude.com",
-      "published_at": "2026-03-11T15:28:18Z",
-      "category": "tech",
-      "score": 0.19729616716930243,
-      "tldr": "Elevated errors on login with Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "492043a2-9cfb-460d-8de6-ac598eeb213e",
-      "title": "Wiz joins Google",
-      "url": "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz",
-      "domain": "wiz.io",
-      "published_at": "2026-03-11T14:58:20Z",
-      "category": "tech",
-      "score": 0.19578500817871802,
-      "tldr": "Wiz joins Google",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "94df1577-f7a0-4d4a-9364-84e3b93a7f89",
-      "title": "Throwing away 18 months of code and starting over",
-      "url": "https://tompiagg.io/posts/we-threw-away-1-5-years-of-code",
-      "domain": "tompiagg.io",
-      "published_at": "2026-03-10T15:35:19Z",
-      "category": "tech",
-      "score": 0.19532280423105763,
-      "tldr": "Throwing away 18 months of code and starting over",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-12T13:56:23.610586791Z",
+  "last_updated": "2026-03-12T14:41:35.739634479Z",
   "total_count": 100
 }
