@@ -411,6 +411,21 @@
       ]
     },
     {
+      "id": "d73cd1ab-608d-4410-8452-29714b05f4af",
+      "title": "AI engineer uses ChatGPT+AlphaFold to develop cancer vaccine for his dog",
+      "url": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7",
+      "domain": "theaustralian.com.au",
+      "published_at": "2026-03-13T20:03:36Z",
+      "category": "tech",
+      "score": 0.3018808343257583,
+      "tldr": "AI engineer uses ChatGPT+AlphaFold to develop cancer vaccine for his dog",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "1d5aeb45-63a7-4f49-bf17-cfb47bf7f2da",
       "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
       "url": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user",
@@ -1389,22 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ddccca54-b7bd-4aae-81ee-43e225650071",
-      "title": "Show HN: Svglib a SVG parser and renderer for Windows",
-      "url": "https://github.com/bibhas2/svglib",
-      "domain": "github.com",
-      "published_at": "2026-03-10T15:04:35Z",
-      "category": "tech",
-      "score": 0.2301327929357371,
-      "tldr": "Show HN: Svglib a SVG parser and renderer for Windows",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-13T19:52:55.415931301Z",
+  "last_updated": "2026-03-13T20:22:52.958521811Z",
   "total_count": 100
 }
