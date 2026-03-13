@@ -241,6 +241,20 @@
       ]
     },
     {
+      "id": "8bdcef49-ada4-42c5-922b-b37d47b01a8a",
+      "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+      "url": "https://github.com/Compresr-ai/Context-Gateway",
+      "domain": "github.com",
+      "published_at": "2026-03-13T17:58:22Z",
+      "category": "tech",
+      "score": 0.3357112108879124,
+      "tldr": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a1ab5fe4-2e94-4e09-9391-3f2e695ce14e",
       "title": "Surpassing vLLM with a Generated Inference Stack",
       "url": "https://infinity.inc/case-studies/qwen3-optimization",
@@ -758,6 +772,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "733cf3f7-f565-447a-bc4e-cfb8f3532a54",
+      "title": "Hammerspoon",
+      "url": "https://github.com/Hammerspoon/hammerspoon",
+      "domain": "github.com",
+      "published_at": "2026-03-13T18:34:12Z",
+      "category": "tech",
+      "score": 0.25992944763126724,
+      "tldr": "Hammerspoon",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1349,6 +1377,20 @@
       ]
     },
     {
+      "id": "ddccca54-b7bd-4aae-81ee-43e225650071",
+      "title": "Show HN: Svglib a SVG parser and renderer for Windows",
+      "url": "https://github.com/bibhas2/svglib",
+      "domain": "github.com",
+      "published_at": "2026-03-10T15:04:35Z",
+      "category": "tech",
+      "score": 0.2301327929357371,
+      "tldr": "Show HN: Svglib a SVG parser and renderer for Windows",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "75a355ff-7c59-4937-bdb0-25f8bf67bf43",
       "title": "Intel Demos Chip to Compute with Encrypted Data",
       "url": "https://spectrum.ieee.org/fhe-intel",
@@ -1361,50 +1403,8 @@
       "tags": [
         "data"
       ]
-    },
-    {
-      "id": "872f5968-a75b-4695-90c6-aed1b8126fa0",
-      "title": "DARPA’s new X-76",
-      "url": "https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter",
-      "domain": "darpa.mil",
-      "published_at": "2026-03-09T16:54:31Z",
-      "category": "tech",
-      "score": 0.22920838729553997,
-      "tldr": "DARPA’s new X-76",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "989f99c7-4034-4800-8277-77853d4f752f",
-      "title": "An old photo of a large BBS (2022)",
-      "url": "https://rachelbythebay.com/w/2022/01/26/swcbbs",
-      "domain": "rachelbythebay.com",
-      "published_at": "2026-03-12T19:41:35Z",
-      "category": "tech",
-      "score": 0.22840981133095034,
-      "tldr": "An old photo of a large BBS (2022)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "64ed4b9c-c534-47a9-a19f-38eb152b7514",
-      "title": "US private credit defaults hit record 9.2% in 2025, Fitch says",
-      "url": "https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d",
-      "domain": "marketscreener.com",
-      "published_at": "2026-03-12T12:44:45Z",
-      "category": "tech",
-      "score": 0.22811663944632637,
-      "tldr": "US private credit defaults hit record 9. 2% in 2025, Fitch says",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-13T17:05:40.984749986Z",
+  "last_updated": "2026-03-13T19:25:31.710415081Z",
   "total_count": 100
 }
