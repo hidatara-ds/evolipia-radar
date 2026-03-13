@@ -453,6 +453,20 @@
       ]
     },
     {
+      "id": "db03ad62-e0ae-4ace-bb4d-3daee2db1824",
+      "title": "OVH forgot they donated documentation hosting to Pandas",
+      "url": "https://github.com/pandas-dev/pandas/issues/64584",
+      "domain": "github.com",
+      "published_at": "2026-03-13T16:40:27Z",
+      "category": "tech",
+      "score": 0.29175947146878256,
+      "tldr": "OVH forgot they donated documentation hosting to Pandas",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "016bb7ad-b6c9-4b4b-b2bd-f6cd7051886a",
       "title": "Are LLM merge rates not getting better?",
       "url": "https://entropicthoughts.com/no-swe-bench-improvement",
@@ -1389,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "29c285ea-da77-46ad-83cb-fd5a90ece90a",
-      "title": "Show HN: Custom Git-receive-pack implementation",
-      "url": "https://github.com/runxiyu/furgit/tree/master/cmd/receivepack9418",
-      "domain": "github.com",
-      "published_at": "2026-03-07T20:40:37Z",
-      "category": "tech",
-      "score": 0.22628386368750497,
-      "tldr": "Show HN: Custom Git-receive-pack implementation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-13T16:27:39.9880084Z",
+  "last_updated": "2026-03-13T17:05:40.984749986Z",
   "total_count": 100
 }
