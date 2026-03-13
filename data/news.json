@@ -733,6 +733,20 @@
       ]
     },
     {
+      "id": "12eaf363-38ec-4239-ad82-cc28c1a8fc0f",
+      "title": "Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)",
+      "url": "https://prompt-caching.ai/",
+      "domain": "prompt-caching.ai",
+      "published_at": "2026-03-13T11:38:15Z",
+      "category": "tech",
+      "score": 0.25946961545493075,
+      "tldr": "Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "374d56d3-e307-4cf9-a654-c24a5f9b18d6",
       "title": "Show HN: A context-aware permission guard for Claude Code",
       "url": "https://github.com/manuelschipper/nah",
@@ -1377,34 +1391,20 @@
       ]
     },
     {
-      "id": "6195c180-46f1-4be4-ba33-246a223f974b",
-      "title": "AI should not replace people at Atlassian, says CEO",
-      "url": "https://www.heise.de/en/news/Atlassian-CEO-AI-doesn-t-replace-people-here-but-we-re-firing-them-anyway-11208758.html",
-      "domain": "heise.de",
-      "published_at": "2026-03-12T15:36:53Z",
+      "id": "34116932-468e-43ad-b768-96c0d8b1879e",
+      "title": "What we learned from a 22-Day storage bug (and how we fixed it)",
+      "url": "https://www.mux.com/blog/22-day-storage-bug",
+      "domain": "mux.com",
+      "published_at": "2026-03-09T16:34:29Z",
       "category": "tech",
-      "score": 0.22436974609105262,
-      "tldr": "AI should not replace people at Atlassian, says CEO",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1dac9fef-6f74-47b5-b9da-120f79936aee",
-      "title": "ATMs didn't kill bank Teller jobs, but the iPhone did",
-      "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
-      "domain": "davidoks.blog",
-      "published_at": "2026-03-12T14:48:57Z",
-      "category": "tech",
-      "score": 0.2239040156134495,
-      "tldr": "ATMs didn't kill bank Teller jobs, but the iPhone did",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.22562290478663857,
+      "tldr": "What we learned from a 22-Day storage bug (and how we fixed it)",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-03-13T11:51:11.90655298Z",
+  "last_updated": "2026-03-13T12:33:01.023528082Z",
   "total_count": 100
 }
