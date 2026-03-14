@@ -1339,6 +1339,20 @@
       ]
     },
     {
+      "id": "37682fb3-7580-4bbd-8923-d84a86013fdb",
+      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit",
+      "domain": "simonwillison.net",
+      "published_at": "2026-03-14T20:09:28Z",
+      "category": "tech",
+      "score": 0.25039356700335125,
+      "tldr": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "83f62131-9a47-4696-a5c9-273d2dce8389",
       "title": "Show HN: An application stack Claude coded directly in LLVM IR",
       "url": "https://github.com/dot-matrix-labs/alien-stack",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "41dfd155-b24f-4377-9d07-2f002b1fee01",
-      "title": "Can LLMs Be Computers?",
-      "url": "https://www.percepta.ai/blog/can-llms-be-computers",
-      "domain": "percepta.ai",
-      "published_at": "2026-03-12T20:02:23Z",
-      "category": "tech",
-      "score": 0.2498316078067016,
-      "tldr": "Can LLMs Be Computers?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-14T22:50:21.323722564Z",
+  "last_updated": "2026-03-14T23:18:15.158373931Z",
   "total_count": 100
 }
