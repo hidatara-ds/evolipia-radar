@@ -297,6 +297,20 @@
       ]
     },
     {
+      "id": "cf427beb-8175-42b0-aacb-81277b26e73f",
+      "title": "AutoHarness: Improving LLM agents by automatically synthesizing a code harness",
+      "url": "https://arxiv.org/abs/2603.03329",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-13T21:13:48Z",
+      "category": "tech",
+      "score": 0.3244342699685286,
+      "tldr": "AutoHarness: Improving LLM agents by automatically synthesizing a code harness",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "e9fe6ceb-0904-4136-81ab-8fdf131210a0",
       "title": "FFmpeg-over-IP – Connect to remote FFmpeg servers",
       "url": "https://github.com/steelbrain/ffmpeg-over-ip",
@@ -930,6 +944,21 @@
       ]
     },
     {
+      "id": "48258afa-7ae2-4c31-ad21-2b0a8805472f",
+      "title": "District denies enrollment to child based on license plate reader data",
+      "url": "https://www.theregister.com/2026/03/12/district_denies_enrollment_to_child",
+      "domain": "theregister.com",
+      "published_at": "2026-03-14T01:18:15Z",
+      "category": "tech",
+      "score": 0.2558658294445774,
+      "tldr": "District denies enrollment to child based on license plate reader data",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
+      ]
+    },
+    {
       "id": "2e20f31b-3853-44d4-b95b-67220f4c9edf",
       "title": "Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work",
       "url": "https://github.com/obsessiondb/rudel",
@@ -1252,6 +1281,20 @@
       ]
     },
     {
+      "id": "8e6c04e4-8624-48a6-9c1a-3647cca3f023",
+      "title": "Show HN: AgentLog – a lightweight event bus for AI agents using JSONL logs",
+      "url": "https://github.com/sumant1122/agentlog",
+      "domain": "github.com",
+      "published_at": "2026-03-13T18:39:16Z",
+      "category": "tech",
+      "score": 0.24977825856322977,
+      "tldr": "Show HN: AgentLog – a lightweight event bus for AI agents using JSONL logs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7aca7b74-4597-45ac-ba78-b1c6fdc5bdc7",
       "title": "I-Harmonium",
       "url": "https://github.com/gajraj-m/iharmonium",
@@ -1362,50 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d3c6347a-672d-4d6d-94bb-21c3a9b1109e",
-      "title": "Show HN: Satellite imagery object detection using text prompts",
-      "url": "https://www.useful-ai-tools.com/tools/satellite-analysis-demo",
-      "domain": "useful-ai-tools.com",
-      "published_at": "2026-03-09T07:52:33Z",
-      "category": "tech",
-      "score": 0.23564983307974502,
-      "tldr": "Show HN: Satellite imagery object detection using text prompts",
-      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
-      "tags": [
-        "computer_vision"
-      ]
-    },
-    {
-      "id": "ba154621-9c25-4d16-89e4-a21e4013581d",
-      "title": "Suburban school district uses license plate readers to verify student residency",
-      "url": "https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703",
-      "domain": "nbcchicago.com",
-      "published_at": "2026-03-12T14:41:12Z",
-      "category": "tech",
-      "score": 0.23491848709505406,
-      "tldr": "Suburban school district uses license plate readers to verify student residency",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d3410630-d708-43cf-94c7-d7a42c8e3302",
-      "title": "I built a programming language using Claude Code",
-      "url": "https://ankursethi.com/blog/programming-language-claude-code",
-      "domain": "ankursethi.com",
-      "published_at": "2026-03-10T16:37:29Z",
-      "category": "tech",
-      "score": 0.23322142047296687,
-      "tldr": "I built a programming language using Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-14T01:05:04.030808502Z",
+  "last_updated": "2026-03-14T03:39:13.59361277Z",
   "total_count": 100
 }
