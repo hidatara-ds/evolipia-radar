@@ -439,6 +439,21 @@
       ]
     },
     {
+      "id": "b8079a9d-a5c3-485b-ac3d-36847e58f5ce",
+      "title": "Tech boss uses AI and ChatGPT to create cancer vaccine for his dying dog",
+      "url": "https://theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7?123=",
+      "domain": "theaustralian.com.au",
+      "published_at": "2026-03-14T21:47:04Z",
+      "category": "tech",
+      "score": 0.3024866104347064,
+      "tldr": "Tech boss uses AI and ChatGPT to create cancer vaccine for his dying dog",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "d73cd1ab-608d-4410-8452-29714b05f4af",
       "title": "AI engineer uses ChatGPT+AlphaFold to develop cancer vaccine for his dog",
       "url": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7",
@@ -1392,22 +1407,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e4303374-916b-451d-8cc2-b11097a34b9c",
-      "title": "Spacetime Quasicrystals",
-      "url": "https://arxiv.org/abs/2601.07769",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-12T20:02:18Z",
-      "category": "tech",
-      "score": 0.24983129136087495,
-      "tldr": "Spacetime Quasicrystals",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-14T21:46:58.603429342Z",
+  "last_updated": "2026-03-14T22:15:37.207355185Z",
   "total_count": 100
 }
