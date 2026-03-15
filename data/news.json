@@ -425,6 +425,22 @@
       ]
     },
     {
+      "id": "858a070b-1d41-4ee0-a6a5-926d0339c431",
+      "title": "Data scientist uses AI and ChatGPT to create cancer vaccine for his dying dog",
+      "url": "https://www.theaustralian.com.au/business%2Ftechnology%2Ftech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog%2Fnews-story%2F292a21bcbe93efa17810bfcfcdfadbf7",
+      "domain": "theaustralian.com.au",
+      "published_at": "2026-03-15T20:21:12Z",
+      "category": "tech",
+      "score": 0.30291314063122093,
+      "tldr": "Data scientist uses AI and ChatGPT to create cancer vaccine for his dying dog",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "data",
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "c5d14999-7af9-403f-9821-736dd0392e5d",
       "title": "Show HN: Rudel – Claude Code Session Analytics",
       "url": "https://github.com/obsessiondb/rudel",
@@ -1392,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2765ef0e-213c-4141-8735-1655d6b49a73",
-      "title": "Reliable Software in the LLM Era",
-      "url": "https://quint-lang.org/posts/llm_era",
-      "domain": "quint-lang.org",
-      "published_at": "2026-03-12T08:19:46Z",
-      "category": "tech",
-      "score": 0.25080188769717554,
-      "tldr": "Reliable Software in the LLM Era",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-15T20:17:25.068697486Z",
+  "last_updated": "2026-03-15T20:51:24.982930712Z",
   "total_count": 100
 }
