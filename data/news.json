@@ -157,6 +157,21 @@
       ]
     },
     {
+      "id": "77838bcf-1758-4386-89f3-33403f05ecc1",
+      "title": "Show HN: Free OpenAI API Access with ChatGPT Account",
+      "url": "https://github.com/EvanZhouDev/openai-oauth",
+      "domain": "github.com",
+      "published_at": "2026-03-15T21:29:52Z",
+      "category": "tech",
+      "score": 0.3785609178915594,
+      "tldr": "Show HN: Free OpenAI API Access with ChatGPT Account",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "05cfb044-e907-45c5-a161-2938cb6408ec",
       "title": "Show HN: How I topped the HuggingFace open LLM leaderboard on two gaming GPUs",
       "url": "https://dnhkng.github.io/posts/rys",
@@ -1087,6 +1102,20 @@
       ]
     },
     {
+      "id": "390f0964-a08c-48ec-8ea3-e5002548d3f8",
+      "title": "LLMs can be exhausting",
+      "url": "https://tomjohnell.com/llms-can-be-absolutely-exhausting",
+      "domain": "tomjohnell.com",
+      "published_at": "2026-03-15T20:56:21Z",
+      "category": "tech",
+      "score": 0.256469156538868,
+      "tldr": "LLMs can be exhausting",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "60f3da64-385c-4824-b4f6-1eea85281839",
       "title": "Launch HN: Captain (YC W26) – Automated RAG for Files",
       "url": "https://www.runcaptain.com/",
@@ -1312,6 +1341,20 @@
       ]
     },
     {
+      "id": "87635a4e-1bee-4fda-9ebf-73364216a2b2",
+      "title": "Show HN: Open-source playground to red-team AI agents with exploits published",
+      "url": "https://github.com/fabraix/playground",
+      "domain": "github.com",
+      "published_at": "2026-03-15T22:29:46Z",
+      "category": "tech",
+      "score": 0.25220531377642913,
+      "tldr": "Show HN: Open-source playground to red-team AI agents with exploits published",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a65b6d27-c7a2-4670-aeed-aeaa3c257011",
       "title": "CRusTTY: A pedagogical C interpreter with time-travel debugging capabilities",
       "url": "https://github.com/aicheye/crustty",
@@ -1366,50 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "fd3c0c76-35aa-455f-9204-a48509969983",
-      "title": "Mouser: An open source alternative to Logi-Plus mouse software",
-      "url": "https://github.com/TomBadash/MouseControl",
-      "domain": "github.com",
-      "published_at": "2026-03-13T18:42:54Z",
-      "category": "tech",
-      "score": 0.25140543959760037,
-      "tldr": "Mouser: An open source alternative to Logi-Plus mouse software",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "07a76bf7-016d-44c4-9aae-ac4b5da84599",
-      "title": "LessWrong Policy on LLM Use",
-      "url": "https://www.lesswrong.com/posts/nQWavk9mnwcv6ScMR/new-lesswrong-editor-also-an-update-to-our-llm-policy",
-      "domain": "lesswrong.com",
-      "published_at": "2026-03-15T21:12:00Z",
-      "category": "tech",
-      "score": 0.2513531864264654,
-      "tldr": "LessWrong Policy on LLM Use",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7987a698-02ca-47c4-a176-0bce4b3a4898",
-      "title": "Show HN: An addendum to the Agile Manifesto for the AI era",
-      "url": "https://github.com/brackishman/Agile-Manifesto-AI-Addendum",
-      "domain": "github.com",
-      "published_at": "2026-03-13T20:48:42Z",
-      "category": "tech",
-      "score": 0.25133541881005067,
-      "tldr": "Show HN: An addendum to the Agile Manifesto for the AI era",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-15T23:19:12.190973792Z",
+  "last_updated": "2026-03-15T23:50:49.310991865Z",
   "total_count": 100
 }
