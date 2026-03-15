@@ -1340,6 +1340,20 @@
       ]
     },
     {
+      "id": "07a76bf7-016d-44c4-9aae-ac4b5da84599",
+      "title": "LessWrong Policy on LLM Use",
+      "url": "https://www.lesswrong.com/posts/nQWavk9mnwcv6ScMR/new-lesswrong-editor-also-an-update-to-our-llm-policy",
+      "domain": "lesswrong.com",
+      "published_at": "2026-03-15T21:12:00Z",
+      "category": "tech",
+      "score": 0.2513531864264654,
+      "tldr": "LessWrong Policy on LLM Use",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7987a698-02ca-47c4-a176-0bce4b3a4898",
       "title": "Show HN: An addendum to the Agile Manifesto for the AI era",
       "url": "https://github.com/brackishman/Agile-Manifesto-AI-Addendum",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "db1a4150-9730-4ec3-9467-4adcf8d934e9",
-      "title": "Document poisoning in RAG systems: How attackers corrupt AI's sources",
-      "url": "https://aminrj.com/posts/rag-document-poisoning",
-      "domain": "aminrj.com",
-      "published_at": "2026-03-12T13:40:36Z",
-      "category": "tech",
-      "score": 0.2508931020649975,
-      "tldr": "Document poisoning in RAG systems: How attackers corrupt AI's sources",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-15T21:18:39.63873745Z",
+  "last_updated": "2026-03-15T21:49:26.290881467Z",
   "total_count": 100
 }
