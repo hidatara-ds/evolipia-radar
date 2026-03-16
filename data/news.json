@@ -1369,6 +1369,20 @@
       ]
     },
     {
+      "id": "a4853e52-274c-473a-8156-f68c4f1c8d85",
+      "title": "Mistral Small 4",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "domain": "mistral.ai",
+      "published_at": "2026-03-16T20:40:53Z",
+      "category": "tech",
+      "score": 0.25521276587431896,
+      "tldr": "Mistral Small 4",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a50747f2-6195-4ba4-b261-c42536698df2",
       "title": "AutoKernel: Autoresearch for GPU Kernels",
       "url": "https://github.com/RightNow-AI/autokernel",
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "373bee56-22d0-4db5-aa30-c22f23915c60",
-      "title": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
-      "url": "https://ionrouter.io",
-      "domain": "ionrouter.io",
-      "published_at": "2026-03-12T18:52:36Z",
-      "category": "tech",
-      "score": 0.25435791359871074,
-      "tldr": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-16T22:00:01.868471859Z",
+  "last_updated": "2026-03-16T22:33:01.672376751Z",
   "total_count": 100
 }
