@@ -99,6 +99,20 @@
       ]
     },
     {
+      "id": "6b229586-c3ee-4b6e-8253-d75228ab6034",
+      "title": "Canada's bill C-22 mandates mass metadata surveillance",
+      "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
+      "domain": "michaelgeist.ca",
+      "published_at": "2026-03-15T21:22:16Z",
+      "category": "tech",
+      "score": 0.397760066131299,
+      "tldr": "Canada's bill C-22 mandates mass metadata surveillance",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "466a0b51-007a-4ab9-a1f8-354a93ccaf49",
       "title": "Temporal: The 9-year journey to fix time in JavaScript",
       "url": "https://bloomberg.github.io/js-blog/post/temporal",
@@ -222,6 +236,20 @@
       "category": "tech",
       "score": 0.3553440299702873,
       "tldr": "ATMs didn’t kill bank teller jobs, but the iPhone did",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d70aff46-0b29-4c3c-a713-812b8d48ee72",
+      "title": "Chrome DevTools MCP (2025)",
+      "url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-03-15T19:12:53Z",
+      "category": "tech",
+      "score": 0.3542373902082099,
+      "tldr": "Chrome DevTools MCP (2025)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -393,6 +421,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "59e0d514-ba13-4ba4-af7e-0598a28a6f30",
+      "title": "How I write software with LLMs",
+      "url": "https://www.stavros.io/posts/how-i-write-software-with-llms",
+      "domain": "stavros.io",
+      "published_at": "2026-03-16T01:24:09Z",
+      "category": "tech",
+      "score": 0.3059207337335659,
+      "tldr": "How I write software with LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -962,6 +1004,20 @@
       ]
     },
     {
+      "id": "96343368-fe75-4edf-9a68-dd9225c1d30f",
+      "title": "Quillx is an open standard for disclosing AI involvement in software projects",
+      "url": "https://github.com/QAInsights/AIx",
+      "domain": "github.com",
+      "published_at": "2026-03-16T01:21:39Z",
+      "category": "tech",
+      "score": 0.2613085586296088,
+      "tldr": "Quillx is an open standard for disclosing AI involvement in software projects",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c13783bd-af71-4921-9fa4-9164a305604d",
       "title": "Are LLMs not getting better?",
       "url": "https://entropicthoughts.com/no-swe-bench-improvement",
@@ -1313,6 +1369,20 @@
       ]
     },
     {
+      "id": "e9f706d5-9f98-4be4-b54f-68d7c3a1c22e",
+      "title": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "url": "https://news.slashdot.org/story/26/03/16/0539240/fsf-threatens-anthropic-over-infringed-copyright-share-your-llms-freely",
+      "domain": "news.slashdot.org",
+      "published_at": "2026-03-16T05:44:28Z",
+      "category": "tech",
+      "score": 0.2523690588714587,
+      "tldr": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2dfcb5fa-967d-4f5e-a406-e50f94404ac1",
       "title": "Apple Studio Displays have 128 GB of storage",
       "url": "https://www.macrumors.com/2026/03/11/studio-display-internal-storage-128gb",
@@ -1327,90 +1397,20 @@
       ]
     },
     {
-      "id": "01b6f1d1-868f-4be0-857d-0e8e4f3128ba",
-      "title": "Scrt: A CLI secret manager for developers, sysadmins and DevOps",
-      "url": "https://github.com/loderunner/scrt",
+      "id": "91941ef3-3915-4e23-8fd8-a72a4df9f502",
+      "title": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
+      "url": "https://github.com/jtsylve/spice-crypt",
       "domain": "github.com",
-      "published_at": "2026-03-12T17:31:47Z",
+      "published_at": "2026-03-15T07:11:32Z",
       "category": "tech",
-      "score": 0.25227948306527465,
-      "tldr": "Scrt: A CLI secret manager for developers, sysadmins and DevOps",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "87635a4e-1bee-4fda-9ebf-73364216a2b2",
-      "title": "Show HN: Open-source playground to red-team AI agents with exploits published",
-      "url": "https://github.com/fabraix/playground",
-      "domain": "github.com",
-      "published_at": "2026-03-15T22:29:46Z",
-      "category": "tech",
-      "score": 0.25220531377642913,
-      "tldr": "Show HN: Open-source playground to red-team AI agents with exploits published",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a65b6d27-c7a2-4670-aeed-aeaa3c257011",
-      "title": "CRusTTY: A pedagogical C interpreter with time-travel debugging capabilities",
-      "url": "https://github.com/aicheye/crustty",
-      "domain": "github.com",
-      "published_at": "2026-03-11T18:57:58Z",
-      "category": "tech",
-      "score": 0.25217873702786886,
-      "tldr": "CRusTTY: A pedagogical C interpreter with time-travel debugging capabilities",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "cd4468a4-8e57-494f-a1ae-4b5b611b886d",
-      "title": "Show HN: PipeStep – Step-through debugger for GitHub Actions workflows",
-      "url": "https://github.com/Photobombastic/pipestep",
-      "domain": "github.com",
-      "published_at": "2026-03-12T17:08:21Z",
-      "category": "tech",
-      "score": 0.2520069961024749,
-      "tldr": "Show HN: PipeStep – Step-through debugger for GitHub Actions workflows",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "13358296-e503-4442-8b37-fa9cbd351df1",
-      "title": "Head of FCC threatens broadcaster licenses over critical coverage of Iran war",
-      "url": "https://twitter.com/BrendanCarrFCC/status/2032855414233047172",
-      "domain": "twitter.com",
-      "published_at": "2026-03-14T19:35:37Z",
-      "category": "tech",
-      "score": 0.2517037360315538,
-      "tldr": "Head of FCC threatens broadcaster licenses over critical coverage of Iran war",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "900b5d98-6fe9-4c27-87d6-123318e5fa44",
-      "title": "Claudetop – htop for Claude Code sessions (see your AI spend in real-time)",
-      "url": "https://github.com/liorwn/claudetop",
-      "domain": "github.com",
-      "published_at": "2026-03-14T19:26:24Z",
-      "category": "tech",
-      "score": 0.2514388298373108,
-      "tldr": "Claudetop – htop for Claude Code sessions (see your AI spend in real-time)",
+      "score": 0.2523274996100014,
+      "tldr": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-03-16T01:15:34.566171987Z",
+  "last_updated": "2026-03-16T07:53:32.708830116Z",
   "total_count": 100
 }
