@@ -11,7 +11,11 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/hidatara-ds/evolipia-radar/internal/ai"
+	ai_api "github.com/hidatara-ds/evolipia-radar/internal/api"
+	"github.com/hidatara-ds/evolipia-radar/internal/cluster"
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
+	"github.com/hidatara-ds/evolipia-radar/internal/crawler"
 	"github.com/hidatara-ds/evolipia-radar/internal/db"
 	"github.com/hidatara-ds/evolipia-radar/internal/http/handlers"
 )
@@ -35,10 +39,62 @@ func main() {
 	router.Static("/web", "web")
 	router.Static("/assets", "assets")
 
-	// Health check
+	// ----------------------------------------------------------------------
+	// Phase 1-3 AI & Intelligent Discovery Integration Setup
+	// ----------------------------------------------------------------------
+	// Instantiate the core AI providers. Use standard zero-budget configs.
+	aiCfg := config.LoadAIConfig()
+	orProvider := ai.NewOpenRouterProvider(ai.OpenRouterProviderConfig{
+		APIKey:       aiCfg.APIKey,
+		DefaultModel: aiCfg.DefaultModel,
+	})
+	
+	// Phase 2.9 Budget Control Middleware
+	// Give the system 10,000 daily tokens and 300,000 monthly free tier limit.
+	budgetGuardedProvider := ai.NewTrackerMiddleware(orProvider, 10000, 300000)
+	
+	centralAIService := ai.NewService(budgetGuardedProvider)
+	clusterService := ai.NewClusterService(centralAIService, database.Pool)
+
+	// Phase 5 In-Memory Service
+	embedder := cluster.NewOpenRouterEmbedder(aiCfg.APIKey)
+	inMemClusterSvc := cluster.NewClusterService(embedder)
+
+	// Phase 3 Web Crawling Orchestrator
+	metricsData := &crawler.Metrics{}
+	
+	dryRunEnv := os.Getenv("DRY_RUN") == "true"
+	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, dryRunEnv)
+	
+	// Start the intelligent crawling loop in the background (runs every 15 minutes)
+	crawlCtx, crawlCancel := context.WithCancel(context.Background())
+	defer crawlCancel()
+	go botOrchestrator.Start(crawlCtx, 15*time.Minute)
+
+	// Health & Observability
 	router.GET("/healthz", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"status": "ok"})
 	})
+
+	router.GET("/metrics", func(c *gin.Context) {
+		c.JSON(http.StatusOK, metricsData)
+	})
+
+	// Register internal AI API components (V2)
+	aiHandler := ai_api.NewAIHandler(centralAIService)
+	aiHandler.RegisterRoutes(router.Group("/"))
+	
+	// Register Admin Ops / Manual Triggers
+	v2 := router.Group("/v2")
+	v2.POST("/crawl/trigger", func(c *gin.Context) {
+		// Manual sync triggering of discovery agents (WARNING: Blocks response until cycle completes)
+		stats := botOrchestrator.RunCycle(c.Request.Context())
+		c.JSON(http.StatusOK, gin.H{
+			"status": "completed",
+			"stats": stats,
+		})
+	})
+	// ----------------------------------------------------------------------
 
 	// API routes
 	v1 := router.Group("/v1")

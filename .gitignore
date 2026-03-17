@@ -1,42 +1,96 @@
-# Binaries
+# =========================
+# GO
+# =========================
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-bin/
-dist/
-
-# Test binary
 *.test
-
-# Output of the go coverage tool
 *.out
+bin/
 
-# Dependency directories
-vendor/
+# =========================
+# NODE / NEXT.JS
+# =========================
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel/
 
-# Go workspace file
-go.work
+# =========================
+# LOGS
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# IDE
+# =========================
+# ENV
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# DATABASE
+# =========================
+*.db
+*.sqlite
+
+# =========================
+# IDE / EDITOR
+# =========================
 .idea/
 .vscode/
 *.swp
 *.swo
 *~
 
-# Environment variables
-.env
-.env.local
-
-# Database
-*.db
-*.sqlite
-
-# Logs
-*.log
-
+# =========================
 # OS
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# ANDROID / FLUTTER (kalau ada)
+# =========================
+.gradle/
+**/build/
+*.apk
+*.aab
+
+# =========================
+# CACHE / TEMP
+# =========================
+.cache/
+tmp/
+temp/
+
+# =========================
+# MISC
+# =========================
+coverage/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Node / Next
+node_modules/
+.next/
+
+# Android
+android/.gradle/
+android/build/
+
+# General build
+build/
+dist/

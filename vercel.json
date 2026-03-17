@@ -26,6 +26,16 @@
       "src": "/healthz",
       "dest": "/api/health.go",
       "methods": ["GET"]
+    },
+    {
+      "src": "/metrics",
+      "dest": "/api/metrics.go",
+      "methods": ["GET", "OPTIONS"]
+    },
+    {
+      "src": "/v2/crawl/trigger",
+      "dest": "/api/trigger.go",
+      "methods": ["POST", "OPTIONS"]
     }
   ],
   "headers": [
