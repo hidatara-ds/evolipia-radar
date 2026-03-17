@@ -185,6 +185,20 @@
       ]
     },
     {
+      "id": "5cdbf50b-a9b3-4df6-859c-58dfcb21571e",
+      "title": "The American Healthcare Conundrum",
+      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
+      "domain": "github.com",
+      "published_at": "2026-03-16T17:13:27Z",
+      "category": "tech",
+      "score": 0.3821221996344238,
+      "tldr": "The American Healthcare Conundrum",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "77838bcf-1758-4386-89f3-33403f05ecc1",
       "title": "Show HN: Free OpenAI API Access with ChatGPT Account",
       "url": "https://github.com/EvanZhouDev/openai-oauth",
@@ -822,6 +836,20 @@
       ]
     },
     {
+      "id": "56e673d0-eb03-4f14-af13-6635d65355c1",
+      "title": "Language model teams as distributed systems",
+      "url": "https://arxiv.org/abs/2603.12229",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-16T17:19:13Z",
+      "category": "tech",
+      "score": 0.27959003673101046,
+      "tldr": "Language model teams as distributed systems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1d42a8df-268f-4ab0-9c67-f60ccec1753e",
       "title": "Lazycut: A simple terminal video trimmer using FFmpeg",
       "url": "https://github.com/emin-ozata/lazycut",
@@ -1381,36 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "a4853e52-274c-473a-8156-f68c4f1c8d85",
-      "title": "Mistral Small 4",
-      "url": "https://mistral.ai/news/mistral-small-4",
-      "domain": "mistral.ai",
-      "published_at": "2026-03-16T20:40:53Z",
-      "category": "tech",
-      "score": 0.25521276587431896,
-      "tldr": "Mistral Small 4",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a50747f2-6195-4ba4-b261-c42536698df2",
-      "title": "AutoKernel: Autoresearch for GPU Kernels",
-      "url": "https://github.com/RightNow-AI/autokernel",
-      "domain": "github.com",
-      "published_at": "2026-03-11T07:42:10Z",
-      "category": "tech",
-      "score": 0.25513179827262056,
-      "tldr": "AutoKernel: Autoresearch for GPU Kernels",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-17T01:07:30.819844144Z",
+  "last_updated": "2026-03-17T03:45:57.274649694Z",
   "total_count": 100
 }
