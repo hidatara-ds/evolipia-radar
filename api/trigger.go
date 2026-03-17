@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"github.com/hidatara-ds/evolipia-radar/internal/ai"
+	"github.com/hidatara-ds/evolipia-radar/internal/api"
 	"github.com/hidatara-ds/evolipia-radar/internal/cluster"
 	"github.com/hidatara-ds/evolipia-radar/internal/config"
 	"github.com/hidatara-ds/evolipia-radar/internal/crawler"
@@ -17,9 +18,7 @@ import (
 
 // Handler handles the /v2/crawl/trigger manual webhook route on Vercel
 func Handler(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set("Access-Control-Allow-Methods", "POST, OPTIONS")
-	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+	api.EnableCORS(w)
 
 	if r.Method == "OPTIONS" {
 		w.WriteHeader(http.StatusOK)

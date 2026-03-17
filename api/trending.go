@@ -5,11 +5,13 @@ import (
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/hidatara-ds/evolipia-radar/internal/api"
 )
 
 // Handler for /api/trending - Get trending items
 func TrendingHandler(w http.ResponseWriter, r *http.Request) {
-	enableCORS(w)
+	api.EnableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
 	if r.Method == "OPTIONS" {
@@ -17,9 +19,9 @@ func TrendingHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	newsData, err := loadNewsData()
+	newsData, err := api.LoadNewsData()
 	if err != nil {
-		if encErr := json.NewEncoder(w).Encode(Response{
+		if encErr := json.NewEncoder(w).Encode(api.Response{
 			Success: false,
 			Error:   "Failed to load news data: " + err.Error(),
 		}); encErr != nil {
@@ -30,7 +32,7 @@ func TrendingHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Get items from last 2 hours with high scores
 	twoHoursAgo := time.Now().Add(-2 * time.Hour)
-	var trending []NewsItem
+	var trending []api.NewsItem
 
 	for _, item := range newsData.Items {
 		if item.PublishedAt.After(twoHoursAgo) && item.Score > 0.5 {
@@ -43,7 +45,7 @@ func TrendingHandler(w http.ResponseWriter, r *http.Request) {
 		trending = trending[:20]
 	}
 
-	if err := json.NewEncoder(w).Encode(Response{
+	if err := json.NewEncoder(w).Encode(api.Response{
 		Success: true,
 		Data: map[string]interface{}{
 			"items":       trending,

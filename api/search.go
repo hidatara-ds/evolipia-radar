@@ -5,11 +5,13 @@ import (
 	"log"
 	"net/http"
 	"strings"
+
+	"github.com/hidatara-ds/evolipia-radar/internal/api"
 )
 
 // Handler for /api/search - Search news
 func SearchHandler(w http.ResponseWriter, r *http.Request) {
-	enableCORS(w)
+	api.EnableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
 	if r.Method == "OPTIONS" {
@@ -19,7 +21,7 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 
 	query := r.URL.Query().Get("q")
 	if query == "" {
-		if err := json.NewEncoder(w).Encode(Response{
+		if err := json.NewEncoder(w).Encode(api.Response{
 			Success: false,
 			Error:   "Query parameter 'q' is required",
 		}); err != nil {
@@ -28,9 +30,9 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	newsData, err := loadNewsData()
+	newsData, err := api.LoadNewsData()
 	if err != nil {
-		if encErr := json.NewEncoder(w).Encode(Response{
+		if encErr := json.NewEncoder(w).Encode(api.Response{
 			Success: false,
 			Error:   "Failed to load news data: " + err.Error(),
 		}); encErr != nil {
@@ -41,7 +43,7 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Simple search in title and tags
 	queryLower := strings.ToLower(query)
-	var results []NewsItem
+	var results []api.NewsItem
 
 	for _, item := range newsData.Items {
 		titleMatch := strings.Contains(strings.ToLower(item.Title), queryLower)
@@ -63,7 +65,7 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 		results = results[:20]
 	}
 
-	if err := json.NewEncoder(w).Encode(Response{
+	if err := json.NewEncoder(w).Encode(api.Response{
 		Success: true,
 		Data: map[string]interface{}{
 			"items":       results,

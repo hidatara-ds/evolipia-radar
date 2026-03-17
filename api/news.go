@@ -6,13 +6,15 @@ import (
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/hidatara-ds/evolipia-radar/internal/api"
 )
 
 const httpMethodOptions = "OPTIONS"
 
 // Handler for /api/news - Get all news
 func Handler(w http.ResponseWriter, r *http.Request) {
-	enableCORS(w)
+	api.EnableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
 	if r.Method == httpMethodOptions {
@@ -25,9 +27,9 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	topic := query.Get("topic")
 	date := query.Get("date")
 
-	newsData, err := loadNewsData()
+	newsData, err := api.LoadNewsData()
 	if err != nil {
-		if encErr := json.NewEncoder(w).Encode(Response{
+		if encErr := json.NewEncoder(w).Encode(api.Response{
 			Success: false,
 			Error:   "Failed to load news data: " + err.Error(),
 		}); encErr != nil {
@@ -39,7 +41,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	// Filter by topic if specified
 	filteredItems := newsData.Items
 	if topic != "" {
-		var filtered []NewsItem
+		var filtered []api.NewsItem
 		for _, item := range filteredItems {
 			for _, tag := range item.Tags {
 				if strings.EqualFold(tag, topic) {
@@ -54,7 +56,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	// Filter by date if specified
 	if date == "today" {
 		now := time.Now()
-		var filtered []NewsItem
+		var filtered []api.NewsItem
 		for _, item := range filteredItems {
 			if item.PublishedAt.Year() == now.Year() &&
 				item.PublishedAt.Month() == now.Month() &&
@@ -70,7 +72,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		filteredItems = filteredItems[:20]
 	}
 
-	if err := json.NewEncoder(w).Encode(Response{
+	if err := json.NewEncoder(w).Encode(api.Response{
 		Success: true,
 		Data: map[string]interface{}{
 			"items":        filteredItems,

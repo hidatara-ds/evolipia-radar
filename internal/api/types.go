@@ -1,4 +1,4 @@
-package handler
+package api
 
 import (
 	"encoding/json"
@@ -32,25 +32,20 @@ type Response struct {
 	Error   string      `json:"error,omitempty"`
 }
 
-func enableCORS(w http.ResponseWriter) {
-	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set("Access-Control-Allow-Methods", "GET, OPTIONS")
-	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
-}
-
-func loadNewsData() (*NewsData, error) {
-	// Try multiple possible paths
+func LoadNewsData() (*NewsData, error) {
+	// Try multiple possible paths suitable for both local development and Vercel
 	paths := []string{
 		"data/news.json",
 		"../data/news.json",
 		"../../data/news.json",
+		"/var/task/data/news.json", // Vercel specific
 	}
 
 	var data []byte
 	var err error
 
 	for _, path := range paths {
-		// #nosec G304 - Path is from a fixed list, not user input
+		// #nosec G304 - Path is from a fixed list
 		data, err = os.ReadFile(path)
 		if err == nil {
 			break
@@ -67,4 +62,10 @@ func loadNewsData() (*NewsData, error) {
 	}
 
 	return &newsData, nil
+}
+
+func EnableCORS(w http.ResponseWriter) {
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
 }

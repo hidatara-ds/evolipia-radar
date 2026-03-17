@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/hidatara-ds/evolipia-radar/internal/api"
 	"github.com/hidatara-ds/evolipia-radar/internal/crawler"
 )
 
@@ -12,7 +13,7 @@ import (
 // In a serverless environment, this will only return cold-start zeroed stats 
 // unless backed by a persistent Redis or DB structure.
 func MetricsHandler(w http.ResponseWriter, r *http.Request) {
-	enableCORS(w)
+	api.EnableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 
 	if r.Method == "OPTIONS" {
@@ -31,11 +32,4 @@ func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	json.NewEncoder(w).Encode(metricsData)
-}
-
-// enableCORS sets standard headers (from search.go/news.go)
-func enableCORS(w http.ResponseWriter) {
-	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
-	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
 }
