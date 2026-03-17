@@ -15,20 +15,6 @@
       ]
     },
     {
-      "id": "ced5c6b7-307f-4d72-af54-d8383fba1e37",
-      "title": "Tony Hoare has died",
-      "url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
-      "domain": "blog.computationalcomplexity.org",
-      "published_at": "2026-03-10T14:50:16Z",
-      "category": "tech",
-      "score": 0.5495608336883252,
-      "tldr": "Tony Hoare has died",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "08b16789-5c3d-498a-941d-2eee2a4ba1f9",
       "title": "BitNet: Inference framework for 1-bit LLMs",
       "url": "https://github.com/microsoft/BitNet",
@@ -65,20 +51,6 @@
       "category": "tech",
       "score": 0.45670662106379184,
       "tldr": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7ccee2ae-c8e3-4a5e-9048-5eb7db57b06a",
-      "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
-      "url": "https://github.com/RunanywhereAI/rcli",
-      "domain": "github.com",
-      "published_at": "2026-03-10T17:14:52Z",
-      "category": "tech",
-      "score": 0.40732427297101864,
-      "tldr": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -186,20 +158,6 @@
       ]
     },
     {
-      "id": "1c3d5e84-4289-45b6-8190-79506382558f",
-      "title": "Meta acquires Moltbook",
-      "url": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network",
-      "domain": "axios.com",
-      "published_at": "2026-03-10T14:38:06Z",
-      "category": "tech",
-      "score": 0.36474602207750045,
-      "tldr": "Meta acquires Moltbook",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "869bb9c7-7633-4c01-8383-881ec240bbc4",
       "title": "ATMs didn’t kill bank teller jobs, but the iPhone did",
       "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
@@ -242,6 +200,20 @@
       ]
     },
     {
+      "id": "8ad9abf7-9e81-45d4-aa76-ebabff248b30",
+      "title": "GPT‑5.4 Mini and Nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "domain": "openai.com",
+      "published_at": "2026-03-17T17:07:06Z",
+      "category": "tech",
+      "score": 0.34123984612474273,
+      "tldr": "GPT‑5.4 Mini and Nano",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8bdcef49-ada4-42c5-922b-b37d47b01a8a",
       "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
       "url": "https://github.com/Compresr-ai/Context-Gateway",
@@ -267,20 +239,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "a1ab5fe4-2e94-4e09-9391-3f2e695ce14e",
-      "title": "Surpassing vLLM with a Generated Inference Stack",
-      "url": "https://infinity.inc/case-studies/qwen3-optimization",
-      "domain": "infinity.inc",
-      "published_at": "2026-03-10T15:12:52Z",
-      "category": "tech",
-      "score": 0.3325559917051778,
-      "tldr": "Surpassing vLLM with a Generated Inference Stack",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -362,20 +320,6 @@
       "category": "tech",
       "score": 0.30663051084621584,
       "tldr": "002mm specification and its implications for manufacturing (2025)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a222d73f-2005-4dde-a658-351cb40db89d",
-      "title": "Debian decides not to decide on AI-generated contributions",
-      "url": "https://lwn.net/SubscriberLink/1061544/125f911834966dd0",
-      "domain": "lwn.net",
-      "published_at": "2026-03-10T14:53:13Z",
-      "category": "tech",
-      "score": 0.30631558320429964,
-      "tldr": "Debian decides not to decide on AI-generated contributions",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -892,6 +836,20 @@
       ]
     },
     {
+      "id": "b38feb78-bbfb-4dfd-86a1-2e811bed2def",
+      "title": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
+      "url": "https://github.com/antflydb/antfly",
+      "domain": "github.com",
+      "published_at": "2026-03-17T15:45:15Z",
+      "category": "tech",
+      "score": 0.26920157332379463,
+      "tldr": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e937822a-eaef-408b-865b-213779dee11f",
       "title": "Speed at the cost of quality: Study of use of Cursor AI in open source projects",
       "url": "https://arxiv.org/abs/2511.04427",
@@ -1004,6 +962,20 @@
       ]
     },
     {
+      "id": "64122a97-651f-4362-b9bb-6cdd48cc25dd",
+      "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
+      "url": "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level",
+      "domain": "tomshardware.com",
+      "published_at": "2026-03-17T15:16:29Z",
+      "category": "tech",
+      "score": 0.2632362476984362,
+      "tldr": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "736ba9e8-1d77-4342-a165-b420f60b8519",
       "title": "Show HN: Understudy – Teach a desktop agent by demonstrating a task once",
       "url": "https://github.com/understudy-ai/understudy",
@@ -1088,6 +1060,20 @@
       ]
     },
     {
+      "id": "fe8f36ce-e385-409a-b70b-1f9a5648c546",
+      "title": "FFmpeg 8.1",
+      "url": "https://ffmpeg.org/index.html",
+      "domain": "ffmpeg.org",
+      "published_at": "2026-03-17T14:51:57Z",
+      "category": "tech",
+      "score": 0.2600963722715183,
+      "tldr": "FFmpeg 8.1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "733cf3f7-f565-447a-bc4e-cfb8f3532a54",
       "title": "Hammerspoon",
       "url": "https://github.com/Hammerspoon/hammerspoon",
@@ -1110,6 +1096,20 @@
       "category": "tech",
       "score": 0.25946961545493075,
       "tldr": "Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cd388fc0-ce33-4abe-988e-d653668a6fc8",
+      "title": "Give Django your time and money, not your tokens",
+      "url": "https://www.better-simple.com/django/2026/03/16/give-django-your-time-and-money",
+      "domain": "better-simple.com",
+      "published_at": "2026-03-16T15:12:50Z",
+      "category": "tech",
+      "score": 0.2593282514695151,
+      "tldr": "Give Django your time and money, not your tokens",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-17T14:13:11.676272612Z",
+  "last_updated": "2026-03-17T17:54:13.48216167Z",
   "total_count": 100
 }
