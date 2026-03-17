@@ -99,20 +99,6 @@
       ]
     },
     {
-      "id": "200db263-6a3d-4509-924d-09be8cafc48b",
-      "title": "Redox OS has adopted a Certificate of Origin policy and a strict no-LLM policy",
-      "url": "https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md",
-      "domain": "gitlab.redox-os.org",
-      "published_at": "2026-03-10T08:54:53Z",
-      "category": "tech",
-      "score": 0.39946899454510754,
-      "tldr": "Redox OS has adopted a Certificate of Origin policy and a strict no-LLM policy",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "6b229586-c3ee-4b6e-8253-d75228ab6034",
       "title": "Canada's bill C-22 mandates mass metadata surveillance",
       "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
@@ -292,20 +278,6 @@
       "category": "tech",
       "score": 0.3503654850257861,
       "tldr": "BitNet: 100B Param 1-Bit model for local CPUs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3f88a89f-0ecb-4d13-a26c-9c7fa8a2686e",
-      "title": "Yann LeCun raises $1B to build AI that understands the physical world",
-      "url": "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world",
-      "domain": "wired.com",
-      "published_at": "2026-03-10T08:46:53Z",
-      "category": "tech",
-      "score": 0.3376463799093654,
-      "tldr": "Yann LeCun raises $1B to build AI that understands the physical world",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,8 +1381,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a4853e52-274c-473a-8156-f68c4f1c8d85",
+      "title": "Mistral Small 4",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "domain": "mistral.ai",
+      "published_at": "2026-03-16T20:40:53Z",
+      "category": "tech",
+      "score": 0.25521276587431896,
+      "tldr": "Mistral Small 4",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a50747f2-6195-4ba4-b261-c42536698df2",
+      "title": "AutoKernel: Autoresearch for GPU Kernels",
+      "url": "https://github.com/RightNow-AI/autokernel",
+      "domain": "github.com",
+      "published_at": "2026-03-11T07:42:10Z",
+      "category": "tech",
+      "score": 0.25513179827262056,
+      "tldr": "AutoKernel: Autoresearch for GPU Kernels",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-17T08:39:34.162894074Z",
+  "last_updated": "2026-03-17T09:44:35.082799343Z",
   "total_count": 100
 }
