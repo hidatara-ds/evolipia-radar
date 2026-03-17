@@ -242,20 +242,6 @@
       ]
     },
     {
-      "id": "dd11710b-f61c-44b8-936e-6a005e7b4a99",
-      "title": "Agents that run while I sleep",
-      "url": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
-      "domain": "claudecodecamp.com",
-      "published_at": "2026-03-10T19:09:46Z",
-      "category": "tech",
-      "score": 0.33094922809324634,
-      "tldr": "Agents that run while I sleep",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5b49b38d-f931-42ed-a265-b80b7e73376d",
       "title": "Executing programs inside transformers with exponentially faster inference",
       "url": "https://www.percepta.ai/blog/can-llms-be-computers",
@@ -281,20 +267,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "e9fe6ceb-0904-4136-81ab-8fdf131210a0",
-      "title": "FFmpeg-over-IP – Connect to remote FFmpeg servers",
-      "url": "https://github.com/steelbrain/ffmpeg-over-ip",
-      "domain": "github.com",
-      "published_at": "2026-03-10T18:26:39Z",
-      "category": "tech",
-      "score": 0.313576837524527,
-      "tldr": "FFmpeg-over-IP – Connect to remote FFmpeg servers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -682,6 +654,20 @@
       ]
     },
     {
+      "id": "8aac5bc8-a372-4170-bf29-050aab9acd89",
+      "title": "If you thought the code writing speed was your problem; you have bigger problems",
+      "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
+      "domain": "andrewmurphy.io",
+      "published_at": "2026-03-17T17:48:50Z",
+      "category": "tech",
+      "score": 0.28022225948452273,
+      "tldr": "If you thought the code writing speed was your problem; you have bigger problems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3ec8e1e8-86ce-4489-99d5-e53397ed6f3d",
       "title": "Entities enabling scientific fraud at scale (2025)",
       "url": "https://doi.org/10.1073/pnas.2420092122",
@@ -752,20 +738,6 @@
       ]
     },
     {
-      "id": "cce85ef2-b16f-4802-b819-4ebd7842b36d",
-      "title": "Mesh over Bluetooth LE, TCP, or Reticulum",
-      "url": "https://github.com/torlando-tech/columba",
-      "domain": "github.com",
-      "published_at": "2026-03-10T19:02:01Z",
-      "category": "tech",
-      "score": 0.27647875865399996,
-      "tldr": "Mesh over Bluetooth LE, TCP, or Reticulum",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "592a9423-c38b-42d8-8617-fb42d988ed88",
       "title": "Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act",
       "url": "https://github.com/upper-up/meta-lobbying-and-other-findings",
@@ -819,6 +791,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "38fc8539-0b7d-4da5-90bb-7f13c40bce64",
+      "title": "Illinois Introducing Operating System Account Age Bill",
+      "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5511\u0026DocTypeID=HB",
+      "domain": "ilga.gov",
+      "published_at": "2026-03-17T18:06:07Z",
+      "category": "tech",
+      "score": 0.27180781859662556,
+      "tldr": "Illinois Introducing Operating System Account Age Bill",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1214,20 +1200,6 @@
       ]
     },
     {
-      "id": "b16dea2d-47a1-430b-bdad-493b4a397ef8",
-      "title": "Revise age verification terms for MidnightBSD",
-      "url": "https://github.com/MidnightBSD/src/commit/529b708846e30e8eb4fcec8dfc23176ec6a74bcf",
-      "domain": "github.com",
-      "published_at": "2026-03-10T18:22:00Z",
-      "category": "tech",
-      "score": 0.2566220851718701,
-      "tldr": "Revise age verification terms for MidnightBSD",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "390f0964-a08c-48ec-8ea3-e5002548d3f8",
       "title": "LLMs can be exhausting",
       "url": "https://tomjohnell.com/llms-can-be-absolutely-exhausting",
@@ -1409,8 +1381,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e484a8a3-5b75-4493-94dc-e1f4ba38ac38",
+      "title": "Language Model Teams as Distrbuted Systems",
+      "url": "https://arxiv.org/abs/2603.12229",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-16T17:19:13Z",
+      "category": "tech",
+      "score": 0.2536638418650508,
+      "tldr": "Language Model Teams as Distrbuted Systems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b68ccfbe-225f-4309-8fb0-b0d7981deaa5",
+      "title": "Event Publisher enables event integration between Keycloak and OpenFGA",
+      "url": "https://github.com/embesozzi/keycloak-openfga-event-publisher",
+      "domain": "github.com",
+      "published_at": "2026-03-16T14:21:07Z",
+      "category": "tech",
+      "score": 0.2532860901249413,
+      "tldr": "Event Publisher enables event integration between Keycloak and OpenFGA",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-17T17:54:13.48216167Z",
+  "last_updated": "2026-03-17T19:48:01.019713018Z",
   "total_count": 100
 }
