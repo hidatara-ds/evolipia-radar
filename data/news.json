@@ -85,20 +85,6 @@
       ]
     },
     {
-      "id": "b1e10ffb-113c-44b9-9da7-6bb5ca3bd1d2",
-      "title": "After outages, Amazon to make senior engineers sign off on AI-assisted changes",
-      "url": "https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes",
-      "domain": "arstechnica.com",
-      "published_at": "2026-03-10T13:31:17Z",
-      "category": "tech",
-      "score": 0.4000415349164601,
-      "tldr": "After outages, Amazon to make senior engineers sign off on AI-assisted changes",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6b229586-c3ee-4b6e-8253-d75228ab6034",
       "title": "Canada's bill C-22 mandates mass metadata surveillance",
       "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
@@ -121,20 +107,6 @@
       "category": "tech",
       "score": 0.3948110209854615,
       "tldr": "Temporal: The 9-year journey to fix time in JavaScript",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5bfc4773-83dc-4250-8a90-9942b4224d01",
-      "title": "Online age-verification tools for child safety are surveilling adults",
-      "url": "https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-03-10T12:55:42Z",
-      "category": "tech",
-      "score": 0.39207526133359966,
-      "tldr": "Online age-verification tools for child safety are surveilling adults",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -196,20 +168,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "05cfb044-e907-45c5-a161-2938cb6408ec",
-      "title": "Show HN: How I topped the HuggingFace open LLM leaderboard on two gaming GPUs",
-      "url": "https://dnhkng.github.io/posts/rys",
-      "domain": "dnhkng.github.io",
-      "published_at": "2026-03-10T13:18:55Z",
-      "category": "tech",
-      "score": 0.371974546065834,
-      "tldr": "Show HN: How I topped the HuggingFace open LLM leaderboard on two gaming GPUs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
         "llm"
       ]
     },
@@ -976,20 +934,6 @@
       ]
     },
     {
-      "id": "9ffbf632-7d0e-45eb-b54f-6392d07c856c",
-      "title": "Show HN: DD Photos – open-source photo album site generator (Go and SvelteKit)",
-      "url": "https://github.com/dougdonohoe/ddphotos",
-      "domain": "github.com",
-      "published_at": "2026-03-10T13:13:48Z",
-      "category": "tech",
-      "score": 0.2651836617614703,
-      "tldr": "Show HN: DD Photos – open-source photo album site generator (Go and SvelteKit)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b5227733-84bf-477e-8740-df55ed116afd",
       "title": "Cloudflare crawl endpoint",
       "url": "https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint",
@@ -1409,8 +1353,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "373bee56-22d0-4db5-aa30-c22f23915c60",
+      "title": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
+      "url": "https://ionrouter.io",
+      "domain": "ionrouter.io",
+      "published_at": "2026-03-12T18:52:36Z",
+      "category": "tech",
+      "score": 0.25435791359871074,
+      "tldr": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a6d94968-e25b-4f81-86ce-5518edb2f53e",
+      "title": "Show HN: Han – A Korean programming language written in Rust",
+      "url": "https://github.com/xodn348/han",
+      "domain": "github.com",
+      "published_at": "2026-03-14T21:27:33Z",
+      "category": "tech",
+      "score": 0.25428390670916784,
+      "tldr": "Show HN: Han – A Korean programming language written in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "789770d7-e457-4465-a52e-a53963b0fd76",
+      "title": "Innocent woman jailed after being misidentified using AI facial recognition",
+      "url": "https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case",
+      "domain": "grandforksherald.com",
+      "published_at": "2026-03-12T20:55:51Z",
+      "category": "tech",
+      "score": 0.2542161588474848,
+      "tldr": "Innocent woman jailed after being misidentified using AI facial recognition",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "212b1682-c809-4541-97cd-9862bd615fe9",
+      "title": "Skillfile, the declarative skill manager, now with search for 110K+ skills",
+      "url": "https://github.com/eljulians/skillfile",
+      "domain": "github.com",
+      "published_at": "2026-03-16T13:41:39Z",
+      "category": "tech",
+      "score": 0.2536735223504154,
+      "tldr": "Skillfile, the declarative skill manager, now with search for 110K+ skills",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-17T12:42:54.600642004Z",
+  "last_updated": "2026-03-17T14:13:11.676272612Z",
   "total_count": 100
 }
