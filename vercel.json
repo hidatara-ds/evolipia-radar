@@ -2,39 +2,39 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/*.go",
+      "src": "api/**/index.go",
       "use": "@vercel/go"
     }
   ],
   "routes": [
     {
       "src": "/api/news",
-      "dest": "/api/news.go",
+      "dest": "/api/news/index.go",
       "methods": ["GET", "OPTIONS"]
     },
     {
       "src": "/api/trending",
-      "dest": "/api/trending.go",
+      "dest": "/api/trending/index.go",
       "methods": ["GET", "OPTIONS"]
     },
     {
       "src": "/api/search",
-      "dest": "/api/search.go",
+      "dest": "/api/search/index.go",
       "methods": ["GET", "OPTIONS"]
     },
     {
       "src": "/healthz",
-      "dest": "/api/health.go",
+      "dest": "/api/health/index.go",
       "methods": ["GET"]
     },
     {
       "src": "/metrics",
-      "dest": "/api/metrics.go",
+      "dest": "/api/metrics/index.go",
       "methods": ["GET", "OPTIONS"]
     },
     {
       "src": "/v2/crawl/trigger",
-      "dest": "/api/trigger.go",
+      "dest": "/api/trigger/index.go",
       "methods": ["POST", "OPTIONS"]
     }
   ],

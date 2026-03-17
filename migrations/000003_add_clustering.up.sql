@@ -1,19 +1,19 @@
--- Enable pgvector extension
-CREATE EXTENSION IF NOT EXISTS vector;
+-- Enable pgvector extension (COMMENTED OUT: requires pgvector which is missing on free-tier)
+-- CREATE EXTENSION IF NOT EXISTS vector;
 
 -- Table to store AI-generated insight clusters
 CREATE TABLE IF NOT EXISTS clusters (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     title VARCHAR(255) NOT NULL,
     summary TEXT NOT NULL,
-    embedding vector(1536), -- Assuming typical OpenAI text-embedding-3/ada-002 dimension size
+    embedding TEXT, -- Fallback to JSON/TEXT since pgvector is missing
     score FLOAT8 DEFAULT 0.0, -- Used for cluster ranking
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
--- Index for fast cosine similarity search
-CREATE INDEX IF NOT EXISTS clusters_embedding_idx ON clusters USING hnsw (embedding vector_cosine_ops);
+-- Index for fast cosine similarity search (COMMENTED OUT: depends on pgvector)
+-- CREATE INDEX IF NOT EXISTS clusters_embedding_idx ON clusters USING hnsw (embedding vector_cosine_ops);
 
 -- Table mapping raw articles (sources) to their synthesized cluster
 CREATE TABLE IF NOT EXISTS cluster_sources (

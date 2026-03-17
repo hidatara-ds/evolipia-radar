@@ -1,4 +1,4 @@
-package handler
+package trending
 
 import (
 	"encoding/json"
@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hidatara-ds/evolipia-radar/internal/api"
+	"github.com/hidatara-ds/evolipia-radar/pkg/api"
 )
 
 // Handler for /api/trending - Get trending items
-func TrendingHandler(w http.ResponseWriter, r *http.Request) {
+func Handler(w http.ResponseWriter, r *http.Request) {
 	api.EnableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 

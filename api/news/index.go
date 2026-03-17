@@ -1,4 +1,4 @@
-package handler
+package news
 
 import (
 	"encoding/json"
@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hidatara-ds/evolipia-radar/internal/api"
+	"github.com/hidatara-ds/evolipia-radar/pkg/api"
 )
 
 const httpMethodOptions = "OPTIONS"

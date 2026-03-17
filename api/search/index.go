@@ -1,4 +1,4 @@
-package handler
+package search
 
 import (
 	"encoding/json"
@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hidatara-ds/evolipia-radar/internal/api"
+	"github.com/hidatara-ds/evolipia-radar/pkg/api"
 )
 
 // Handler for /api/search - Search news
-func SearchHandler(w http.ResponseWriter, r *http.Request) {
+func Handler(w http.ResponseWriter, r *http.Request) {
 	api.EnableCORS(w)
 	w.Header().Set("Content-Type", "application/json")
 

@@ -1,4 +1,4 @@
-package handler
+package trigger
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/hidatara-ds/evolipia-radar/internal/ai"
-	"github.com/hidatara-ds/evolipia-radar/internal/api"
-	"github.com/hidatara-ds/evolipia-radar/internal/cluster"
-	"github.com/hidatara-ds/evolipia-radar/internal/config"
-	"github.com/hidatara-ds/evolipia-radar/internal/crawler"
-	"github.com/hidatara-ds/evolipia-radar/internal/db"
+	"github.com/hidatara-ds/evolipia-radar/pkg/ai"
+	"github.com/hidatara-ds/evolipia-radar/pkg/api"
+	"github.com/hidatara-ds/evolipia-radar/pkg/cluster"
+	"github.com/hidatara-ds/evolipia-radar/pkg/config"
+	"github.com/hidatara-ds/evolipia-radar/pkg/crawler"
+	"github.com/hidatara-ds/evolipia-radar/pkg/db"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
