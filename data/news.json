@@ -780,20 +780,6 @@
       ]
     },
     {
-      "id": "375b0378-6740-4d85-bd85-a7657470a25d",
-      "title": "U+237C ⍼ Is Azimuth",
-      "url": "https://ionathan.ch/2026/02/16/angzarr.html",
-      "domain": "ionathan.ch",
-      "published_at": "2026-03-10T22:33:45Z",
-      "category": "tech",
-      "score": 0.2738595523656387,
-      "tldr": "U+237C ⍼ Is Azimuth",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ce6a05c7-a2ea-4c3f-9641-c3da6736bfc7",
       "title": "Mistral Releases Leanstral",
       "url": "https://mistral.ai/news/leanstral",
@@ -875,34 +861,6 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "ce2ac2e2-0dba-4794-b5fa-8d65ca891500",
-      "title": "Universal vaccine against respiratory infections and allergens",
-      "url": "https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html",
-      "domain": "med.stanford.edu",
-      "published_at": "2026-03-10T22:33:48Z",
-      "category": "tech",
-      "score": 0.26640689552663877,
-      "tldr": "Universal vaccine against respiratory infections and allergens",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b5227733-84bf-477e-8740-df55ed116afd",
-      "title": "Cloudflare crawl endpoint",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint",
-      "domain": "developers.cloudflare.com",
-      "published_at": "2026-03-10T22:27:15Z",
-      "category": "tech",
-      "score": 0.2649644443682094,
-      "tldr": "Cloudflare crawl endpoint",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
       ]
     },
     {
@@ -1409,8 +1367,50 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "b68ccfbe-225f-4309-8fb0-b0d7981deaa5",
+      "title": "Event Publisher enables event integration between Keycloak and OpenFGA",
+      "url": "https://github.com/embesozzi/keycloak-openfga-event-publisher",
+      "domain": "github.com",
+      "published_at": "2026-03-16T14:21:07Z",
+      "category": "tech",
+      "score": 0.2532860901249413,
+      "tldr": "Event Publisher enables event integration between Keycloak and OpenFGA",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "31d6a400-1ae7-4d90-8329-95aa49ae78da",
+      "title": "Zig – Type Resolution Redesign and Language Changes",
+      "url": "https://ziglang.org/devlog/2026",
+      "domain": "ziglang.org",
+      "published_at": "2026-03-11T01:24:47Z",
+      "category": "tech",
+      "score": 0.25324781879821145,
+      "tldr": "Zig – Type Resolution Redesign and Language Changes",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
+      "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+      "url": "https://github.com/peters/horizon",
+      "domain": "github.com",
+      "published_at": "2026-03-17T18:14:24Z",
+      "category": "tech",
+      "score": 0.2532025853934814,
+      "tldr": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-17T22:00:21.617165011Z",
+  "last_updated": "2026-03-17T22:33:58.410809485Z",
   "total_count": 100
 }
