@@ -49,9 +49,14 @@ jobs:
           JSON_OUTPUT_PATH: "data/news.json"
         run: go run ./cmd/worker-json
       
+      - name: Sync news.json to api folder
+        run: |
+          cp data/news.json api/news.json
+          echo "✅ Synced news.json to api folder for Vercel"
+      
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
-          git add data/news.json
+          git add data/news.json api/news.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update news data [skip ci]" && git push)
