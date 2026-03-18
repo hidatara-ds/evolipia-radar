@@ -197,7 +197,7 @@ jobs:
           echo "ref_tag=$IMAGE:${SAFE_REF}" >> "$GITHUB_OUTPUT"
 
       - name: Build and push
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./Dockerfile.${{ matrix.component }}
