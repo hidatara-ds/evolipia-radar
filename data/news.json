@@ -1,6 +1,156 @@
 {
   "items": [
     {
+      "id": "b603358d-c085-4a32-a9e6-1de9aae41bcc",
+      "title": "Boston Dynamics Atlas Robot Shows New Capabilities",
+      "url": "https://bostondynamics.com/blog/atlas-2026",
+      "domain": "bostondynamics.com",
+      "published_at": "2026-03-18T09:39:22.867682Z",
+      "category": "tech",
+      "score": 0.9,
+      "tldr": "Next-gen Atlas demonstrates advanced manipulation",
+      "why_it_matters": "Humanoid robots getting closer to practical deployment",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "7887d0a2-b19d-496b-b276-4a570617bfa2",
+      "title": "DeepMind's New RL Algorithm Achieves Human-Level Performance",
+      "url": "https://deepmind.google/research/rl-breakthrough-2026",
+      "domain": "deepmind.google",
+      "published_at": "2026-03-18T11:39:22.591022Z",
+      "category": "tech",
+      "score": 0.88,
+      "tldr": "New reinforcement learning approach matches human experts",
+      "why_it_matters": "Breakthrough in RL enables more capable autonomous systems",
+      "tags": [
+        "rl",
+        "research"
+      ]
+    },
+    {
+      "id": "b2de1ed7-b2e2-4878-9486-60c75c4bbfef",
+      "title": "Tesla Optimus Robot Update March 2026",
+      "url": "https://tesla.com/blog/optimus-march-2026",
+      "domain": "tesla.com",
+      "published_at": "2026-03-18T08:39:23.009971Z",
+      "category": "tech",
+      "score": 0.87,
+      "tldr": "Tesla's humanoid robot shows improved dexterity",
+      "why_it_matters": "Progress toward general-purpose household robots",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "73a00bd4-67f3-4b4d-9816-8e5d82c1f1b7",
+      "title": "Stable Diffusion 3.5 Released with Better Image Quality",
+      "url": "https://stability.ai/news/stable-diffusion-3-5",
+      "domain": "stability.ai",
+      "published_at": "2026-03-18T13:39:22.286653Z",
+      "category": "tech",
+      "score": 0.85,
+      "tldr": "Stability AI releases major update to image generation model",
+      "why_it_matters": "Advances in vision models enable better creative tools",
+      "tags": [
+        "vision",
+        "tools"
+      ]
+    },
+    {
+      "id": "54ccc458-2384-4613-b48b-1cd2db1c38c3",
+      "title": "GitHub Copilot Workspace Now Available",
+      "url": "https://github.blog/copilot-workspace",
+      "domain": "github.com",
+      "published_at": "2026-03-18T06:39:23.286474Z",
+      "category": "tech",
+      "score": 0.83,
+      "tldr": "GitHub launches AI-powered development environment",
+      "why_it_matters": "New IDE features make AI coding more accessible",
+      "tags": [
+        "ide",
+        "tools"
+      ]
+    },
+    {
+      "id": "333cd7ce-40d3-4184-a931-fbbcdbb2e852",
+      "title": "DALL-E 3 Integration in ChatGPT",
+      "url": "https://openai.com/blog/dall-e-3-integration",
+      "domain": "openai.com",
+      "published_at": "2026-03-18T12:39:22.45096Z",
+      "category": "tech",
+      "score": 0.82,
+      "tldr": "OpenAI integrates advanced image generation into ChatGPT",
+      "why_it_matters": "Makes vision AI accessible to millions of users",
+      "tags": [
+        "vision",
+        "llm"
+      ]
+    },
+    {
+      "id": "81fededc-2081-4698-9538-c674b292dd2b",
+      "title": "GitHub Student Pack Adds More AI Tools",
+      "url": "https://education.github.com/pack/2026",
+      "domain": "education.github.com",
+      "published_at": "2026-03-18T04:39:23.561985Z",
+      "category": "tech",
+      "score": 0.81,
+      "tldr": "GitHub expands student benefits with AI coding tools",
+      "why_it_matters": "Students get free access to premium developer tools",
+      "tags": [
+        "free-credits",
+        "ide",
+        "tools"
+      ]
+    },
+    {
+      "id": "f0d55bfe-4ff0-42af-b55a-a38f4d7c188f",
+      "title": "Anthropic Offers $15 Free Credits for Students",
+      "url": "https://anthropic.com/student-program-2026",
+      "domain": "anthropic.com",
+      "published_at": "2026-03-18T05:39:23.425003Z",
+      "category": "tech",
+      "score": 0.8,
+      "tldr": "Students can access Claude API with free credits",
+      "why_it_matters": "Makes advanced AI accessible to students and educators",
+      "tags": [
+        "free-credits",
+        "llm"
+      ]
+    },
+    {
+      "id": "b2d59a82-cf5a-475c-8c10-0464b27ec1b1",
+      "title": "Cursor IDE Adds New AI Features",
+      "url": "https://cursor.sh/blog/new-features-2026",
+      "domain": "cursor.sh",
+      "published_at": "2026-03-18T07:39:23.148368Z",
+      "category": "tech",
+      "score": 0.78,
+      "tldr": "Cursor releases major update with enhanced AI coding",
+      "why_it_matters": "AI-powered IDEs are transforming developer workflows",
+      "tags": [
+        "ide",
+        "tools"
+      ]
+    },
+    {
+      "id": "1b4c2cb8-eaf2-409c-9edb-14a271466a12",
+      "title": "PPO Algorithm Improvements for Robot Control",
+      "url": "https://arxiv.org/abs/2026.12345",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-18T10:39:22.730642Z",
+      "category": "tech",
+      "score": 0.75,
+      "tldr": "Researchers improve PPO for better robot manipulation",
+      "why_it_matters": "Better RL algorithms enable efficient robot training",
+      "tags": [
+        "rl",
+        "robotics",
+        "research"
+      ]
+    },
+    {
       "id": "655aece4-80dc-4a6d-ae36-626d00ea5e3b",
       "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
       "url": "https://news.ycombinator.com/newsguidelines.html",
@@ -68,22 +218,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "9a7724df-2ee9-4359-bba7-5217ee24e97a",
-      "title": "Whistleblower claims ex-DOGE member says he took Social Security data to new job",
-      "url": "https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2",
-      "domain": "washingtonpost.com",
-      "published_at": "2026-03-11T13:52:01Z",
-      "category": "tech",
-      "score": 0.38511930980315295,
-      "tldr": "Whistleblower claims ex-DOGE member says he took Social Security data to new job",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "data",
-        "security"
       ]
     },
     {
@@ -296,20 +430,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "6368422f-2f9a-48cc-a29c-dcc207f74b03",
-      "title": "Lego's 0.002mm specification and its implications for manufacturing (2025)",
-      "url": "https://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120",
-      "domain": "thewave.engineer",
-      "published_at": "2026-03-11T13:22:39Z",
-      "category": "tech",
-      "score": 0.30663051084621584,
-      "tldr": "002mm specification and its implications for manufacturing (2025)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -607,20 +727,6 @@
       "category": "tech",
       "score": 0.28022225948452273,
       "tldr": "If you thought the code writing speed was your problem; you have bigger problems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3ec8e1e8-86ce-4489-99d5-e53397ed6f3d",
-      "title": "Entities enabling scientific fraud at scale (2025)",
-      "url": "https://doi.org/10.1073/pnas.2420092122",
-      "domain": "doi.org",
-      "published_at": "2026-03-11T13:32:12Z",
-      "category": "tech",
-      "score": 0.28000956297080754,
-      "tldr": "Entities enabling scientific fraud at scale (2025)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1312,106 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
-      "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "url": "https://github.com/peters/horizon",
-      "domain": "github.com",
-      "published_at": "2026-03-17T18:14:24Z",
-      "category": "tech",
-      "score": 0.2532025853934814,
-      "tldr": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fdf72a29-d460-47e0-8e44-6d43f02df63e",
-      "title": "Fungal Electronics",
-      "url": "https://arxiv.org/abs/2111.11231",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-11T16:53:11Z",
-      "category": "tech",
-      "score": 0.253026796334561,
-      "tldr": "Fungal Electronics",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "83296bfd-fb6c-4e09-ace1-59d705e57aec",
-      "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
-      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
-      "domain": "github.com",
-      "published_at": "2026-03-16T17:13:27Z",
-      "category": "tech",
-      "score": 0.25290328852329247,
-      "tldr": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e9f706d5-9f98-4be4-b54f-68d7c3a1c22e",
-      "title": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
-      "url": "https://news.slashdot.org/story/26/03/16/0539240/fsf-threatens-anthropic-over-infringed-copyright-share-your-llms-freely",
-      "domain": "news.slashdot.org",
-      "published_at": "2026-03-16T05:44:28Z",
-      "category": "tech",
-      "score": 0.2523690588714587,
-      "tldr": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2dfcb5fa-967d-4f5e-a406-e50f94404ac1",
-      "title": "Apple Studio Displays have 128 GB of storage",
-      "url": "https://www.macrumors.com/2026/03/11/studio-display-internal-storage-128gb",
-      "domain": "macrumors.com",
-      "published_at": "2026-03-11T18:44:39Z",
-      "category": "tech",
-      "score": 0.2523565404162716,
-      "tldr": "Apple Studio Displays have 128 GB of storage",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "91941ef3-3915-4e23-8fd8-a72a4df9f502",
-      "title": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
-      "url": "https://github.com/jtsylve/spice-crypt",
-      "domain": "github.com",
-      "published_at": "2026-03-15T07:11:32Z",
-      "category": "tech",
-      "score": 0.2523274996100014,
-      "tldr": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e6e9e0ae-3b89-4a65-97ba-106e51b393ac",
-      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
-      "url": "https://arxiv.org/abs/2603.15381",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-17T21:42:39Z",
-      "category": "tech",
-      "score": 0.25231508530046015,
-      "tldr": "Why AI systems don't learn – On autonomous learning from cognitive science",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-18T12:43:21.980847234Z",
+  "last_updated": "2026-03-18T14:15:42.308568832Z",
   "total_count": 100
 }
