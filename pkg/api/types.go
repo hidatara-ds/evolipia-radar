@@ -2,6 +2,7 @@ package api
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -34,6 +35,8 @@ type Response struct {
 }
 
 func LoadNewsData() (*NewsData, error) {
+	log.Println("🔍 [LoadNewsData] Starting to load news data...")
+	
 	// Try multiple possible paths suitable for both local development and Vercel
 	paths := []string{
 		"data/news.json",           // Local development
@@ -47,25 +50,47 @@ func LoadNewsData() (*NewsData, error) {
 
 	var data []byte
 	var err error
+	var successPath string
 
 	for _, path := range paths {
+		log.Printf("🔍 [LoadNewsData] Trying path: %s", path)
 		// #nosec G304 - Path is from a fixed list
 		data, err = os.ReadFile(path)
 		if err == nil {
-			log.Printf("✅ Successfully loaded news from: %s", path)
+			successPath = path
+			log.Printf("✅ [LoadNewsData] Successfully loaded from: %s (size: %d bytes)", path, len(data))
 			break
+		} else {
+			log.Printf("❌ [LoadNewsData] Failed to read %s: %v", path, err)
 		}
 	}
 
 	if err != nil {
-		return nil, err
+		log.Printf("❌ [LoadNewsData] All paths failed. Last error: %v", err)
+		
+		// Log current working directory for debugging
+		if cwd, cwdErr := os.Getwd(); cwdErr == nil {
+			log.Printf("📂 [LoadNewsData] Current working directory: %s", cwd)
+		}
+		
+		// List files in current directory
+		if files, lsErr := os.ReadDir("."); lsErr == nil {
+			log.Printf("📁 [LoadNewsData] Files in current directory:")
+			for _, f := range files {
+				log.Printf("   - %s (dir: %v)", f.Name(), f.IsDir())
+			}
+		}
+		
+		return nil, fmt.Errorf("failed to load news.json from any path: %w", err)
 	}
 
 	var newsData NewsData
 	if err := json.Unmarshal(data, &newsData); err != nil {
-		return nil, err
+		log.Printf("❌ [LoadNewsData] Failed to parse JSON: %v", err)
+		return nil, fmt.Errorf("failed to parse news.json: %w", err)
 	}
 
+	log.Printf("✅ [LoadNewsData] Successfully parsed %d news items from %s", len(newsData.Items), successPath)
 	return &newsData, nil
 }
 
