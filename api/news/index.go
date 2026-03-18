@@ -1,6 +1,7 @@
 package news
 
 import (
+	"context"
 	"database/sql"
 	"encoding/json"
 	"log"
@@ -65,10 +66,24 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	}
 	defer db.Close()
 
-	// Set connection pool settings
-	db.SetMaxOpenConns(5)
-	db.SetMaxIdleConns(2)
+	// Set connection pool settings for better cold start handling
+	db.SetMaxOpenConns(3)
+	db.SetMaxIdleConns(1)
 	db.SetConnMaxLifetime(5 * time.Minute)
+	db.SetConnMaxIdleTime(30 * time.Second)
+
+	// Test connection with timeout
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+	
+	if err := db.PingContext(ctx); err != nil {
+		log.Printf("❌ Failed to ping database: %v", err)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Error:   "Database connection timeout",
+		})
+		return
+	}
 
 	// Parse query parameters
 	query := r.URL.Query()

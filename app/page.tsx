@@ -104,13 +104,20 @@ export default function Dashboard() {
     }
   };
 
-  const fetchNews = async (url: string, topic: string) => {
+  const fetchNews = async (url: string, topic: string, retryCount = 0) => {
     setNewsLoading(true);
     setError(null);
     
     try {
       const topicParam = topic !== "all" ? `?topic=${topic}` : "";
-      const res = await fetch(`${url}/api/news${topicParam}`);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout
+      
+      const res = await fetch(`${url}/api/news${topicParam}`, {
+        signal: controller.signal,
+      });
+      
+      clearTimeout(timeoutId);
       
       if (!res.ok) {
         throw new Error(`HTTP ${res.status}: ${res.statusText}`);
@@ -125,6 +132,16 @@ export default function Dashboard() {
       }
     } catch (e) {
       console.error("Failed to fetch news", e);
+      
+      // Retry logic for initial load (cold start)
+      if (retryCount < 2) {
+        console.log(`Retrying... (attempt ${retryCount + 1}/2)`);
+        setTimeout(() => {
+          fetchNews(url, topic, retryCount + 1);
+        }, 2000); // Wait 2s before retry
+        return;
+      }
+      
       setError(e instanceof Error ? e.message : "Failed to load news");
       setNews([]);
     } finally {
