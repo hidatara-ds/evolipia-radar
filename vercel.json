@@ -7,12 +7,7 @@
     },
     {
       "src": "api/**/index.go",
-      "use": "@vercel/go",
-      "config": {
-        "includeFiles": [
-          "api/news.json"
-        ]
-      }
+      "use": "@vercel/go"
     }
   ],
   "routes": [

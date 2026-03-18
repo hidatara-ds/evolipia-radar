@@ -1,6 +1,7 @@
 package api
 
 import (
+	_ "embed"
 	"encoding/json"
 	"fmt"
 	"log"
@@ -8,6 +9,9 @@ import (
 	"os"
 	"time"
 )
+
+//go:embed ../../api/news.json
+var embeddedNewsJSON []byte
 
 type NewsItem struct {
 	ID           string    `json:"id"`
@@ -37,7 +41,20 @@ type Response struct {
 func LoadNewsData() (*NewsData, error) {
 	log.Println("🔍 [LoadNewsData] Starting to load news data...")
 	
-	// Try multiple possible paths suitable for both local development and Vercel
+	// First, try to use embedded data (for Vercel deployment)
+	if len(embeddedNewsJSON) > 0 {
+		log.Printf("✅ [LoadNewsData] Using embedded news.json (size: %d bytes)", len(embeddedNewsJSON))
+		var newsData NewsData
+		if err := json.Unmarshal(embeddedNewsJSON, &newsData); err != nil {
+			log.Printf("❌ [LoadNewsData] Failed to parse embedded JSON: %v", err)
+			return nil, fmt.Errorf("failed to parse embedded news.json: %w", err)
+		}
+		log.Printf("✅ [LoadNewsData] Successfully parsed %d news items from embedded data", len(newsData.Items))
+		return &newsData, nil
+	}
+	
+	// Fallback: Try multiple possible paths for local development
+	log.Println("⚠️ [LoadNewsData] No embedded data, trying file paths...")
 	paths := []string{
 		"data/news.json",           // Local development
 		"../data/news.json",        // From api subfolder
