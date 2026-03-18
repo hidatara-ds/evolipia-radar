@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #09090b;
+  --background: #050A0F;
   --foreground: #fafafa;
 }
 
@@ -11,3 +11,32 @@ body {
   color: var(--foreground);
   background: var(--background);
 }
+
+/* Custom scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth animations */
+@layer utilities {
+  .animate-in {
+    animation: fadeIn 0.3s ease-in;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
