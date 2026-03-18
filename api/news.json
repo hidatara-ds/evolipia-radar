@@ -462,21 +462,6 @@
       ]
     },
     {
-      "id": "5b0dff11-683f-45be-9602-2dbc325cde04",
-      "title": "Show HN: Autoresearch_at_home – SETI_at_home but for LLM training",
-      "url": "https://www.ensue-network.ai/autoresearch",
-      "domain": "ensue-network.ai",
-      "published_at": "2026-03-11T23:27:18Z",
-      "category": "tech",
-      "score": 0.3029700501895896,
-      "tldr": "Show HN: Autoresearch_at_home – SETI_at_home but for LLM training",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "858a070b-1d41-4ee0-a6a5-926d0339c431",
       "title": "Data scientist uses AI and ChatGPT to create cancer vaccine for his dying dog",
       "url": "https://www.theaustralian.com.au/business%2Ftechnology%2Ftech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog%2Fnews-story%2F292a21bcbe93efa17810bfcfcdfadbf7",
@@ -1125,20 +1110,6 @@
       ]
     },
     {
-      "id": "374d56d3-e307-4cf9-a654-c24a5f9b18d6",
-      "title": "Show HN: A context-aware permission guard for Claude Code",
-      "url": "https://github.com/manuelschipper/nah",
-      "domain": "github.com",
-      "published_at": "2026-03-11T23:26:25Z",
-      "category": "tech",
-      "score": 0.2589527689842169,
-      "tldr": "Show HN: A context-aware permission guard for Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0db897c5-be25-4ff1-9ea5-ea7db8760598",
       "title": "Show HN: Axe A 12MB binary that replaces your AI framework",
       "url": "https://github.com/jrswab/axe",
@@ -1418,8 +1389,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
+      "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+      "url": "https://github.com/peters/horizon",
+      "domain": "github.com",
+      "published_at": "2026-03-17T18:14:24Z",
+      "category": "tech",
+      "score": 0.2532025853934814,
+      "tldr": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "83296bfd-fb6c-4e09-ace1-59d705e57aec",
+      "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
+      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
+      "domain": "github.com",
+      "published_at": "2026-03-16T17:13:27Z",
+      "category": "tech",
+      "score": 0.25290328852329247,
+      "tldr": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-18T23:22:52.254513337Z",
+  "last_updated": "2026-03-18T23:49:49.620761575Z",
   "total_count": 100
 }
