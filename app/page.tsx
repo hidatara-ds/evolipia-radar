@@ -74,8 +74,14 @@ export default function Dashboard() {
 
   const [baseUrl, setBaseUrl] = useState("");
 
+  const buildUrl = (base: string, path: string) => {
+    const b = (base || "").replace(/\/+$/g, "");
+    const p = path.startsWith("/") ? path : `/${path}`;
+    return b ? `${b}${p}` : p;
+  };
+
   useEffect(() => {
-    const url = process.env.NEXT_PUBLIC_API_BASE_URL || "";
+    const url = (process.env.NEXT_PUBLIC_API_BASE_URL || "").replace(/\/+$/g, "");
     console.log("🔧 API Base URL:", url || "(empty - using relative path)");
     setBaseUrl(url);
     fetchMetrics(url);
@@ -92,7 +98,7 @@ export default function Dashboard() {
 
   const fetchMetrics = async (url: string) => {
     try {
-      const res = await fetch(`${url}/metrics`);
+      const res = await fetch(buildUrl(url, "/metrics"));
       if (res.ok) {
         const data = await res.json();
         setMetrics(data);
@@ -113,7 +119,7 @@ export default function Dashboard() {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout
       
-      const res = await fetch(`${url}/api/news${topicParam}`, {
+      const res = await fetch(`${buildUrl(url, "/api/news")}${topicParam}`, {
         signal: controller.signal,
       });
       
@@ -153,7 +159,7 @@ export default function Dashboard() {
     setTriggering(true);
     setToast("Crawling...");
     try {
-      const res = await fetch(`${baseUrl}/v2/crawl/trigger`, { method: "POST" });
+      const res = await fetch(buildUrl(baseUrl, "/v2/crawl/trigger"), { method: "POST" });
       if (res.ok) {
         const data = await res.json();
         setLastTrigger(new Date());
