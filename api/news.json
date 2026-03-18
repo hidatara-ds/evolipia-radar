@@ -1,0 +1,1445 @@
+{
+  "items": [
+    {
+      "id": "e075312c-8956-47bb-b6e2-d3d70cebf526",
+      "title": "Stable Diffusion 3.0 Released with Improved Image Quality",
+      "url": "https://stability.ai/news/stable-diffusion-3",
+      "domain": "stability.ai",
+      "published_at": "2026-03-18T16:56:00.1895803+07:00",
+      "category": "tech",
+      "score": 0.85,
+      "tldr": "Stability AI releases Stable Diffusion 3.0 with better text-to-image generation",
+      "why_it_matters": "Major update to popular open-source image generation model",
+      "tags": [
+        "vision",
+        "tools"
+      ]
+    },
+    {
+      "id": "59c809b9-f60b-4463-85cf-6efcc6ef96db",
+      "title": "DALL-E 3 Now Available in ChatGPT Plus",
+      "url": "https://openai.com/blog/dall-e-3-chatgpt",
+      "domain": "openai.com",
+      "published_at": "2026-03-18T13:56:00.1895803+07:00",
+      "category": "tech",
+      "score": 0.82,
+      "tldr": "OpenAI integrates DALL-E 3 image generation into ChatGPT",
+      "why_it_matters": "Makes advanced image generation accessible to millions of users",
+      "tags": [
+        "vision",
+        "llm"
+      ]
+    },
+    {
+      "id": "4c9d1d23-b3da-4d76-9aac-99a36c6542a2",
+      "title": "DeepMind's New RL Algorithm Achieves Human-Level Performance",
+      "url": "https://deepmind.google/research/rl-breakthrough",
+      "domain": "deepmind.google",
+      "published_at": "2026-03-18T15:56:00.1895803+07:00",
+      "category": "tech",
+      "score": 0.88,
+      "tldr": "New reinforcement learning approach matches human experts in complex tasks",
+      "why_it_matters": "Breakthrough in RL could enable more capable autonomous systems",
+      "tags": [
+        "rl",
+        "research"
+      ]
+    },
+    {
+      "id": "fb542b2e-8d3e-45c9-84e2-242ee1cf2a68",
+      "title": "PPO Algorithm Improvements for Robotics Control",
+      "url": "https://arxiv.org/abs/2024.12345",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-18T12:56:00.1895803+07:00",
+      "category": "tech",
+      "score": 0.75,
+      "tldr": "Researchers improve Proximal Policy Optimization for robot manipulation",
+      "why_it_matters": "Better RL algorithms enable more efficient robot training",
+      "tags": [
+        "rl",
+        "robotics",
+        "research"
+      ]
+    },
+    {
+      "id": "cc071ce1-f85a-430b-942c-fe9859f5fe17",
+      "title": "Boston Dynamics Unveils New Humanoid Robot Atlas",
+      "url": "https://bostondynamics.com/blog/atlas-next-gen",
+      "domain": "bostondynamics.com",
+      "published_at": "2026-03-18T14:56:00.1895803+07:00",
+      "category": "tech",
+      "score": 0.9,
+      "tldr": "Next-generation Atlas robot demonstrates advanced manipulation capabilities",
+      "why_it_matters": "Humanoid robots getting closer to practical real-world deployment",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "2ac6dd90-2ec7-440a-bcd3-1c35490912a0",
+      "title": "Tesla Optimus Robot Shows Improved Dexterity",
+      "url": "https://tesla.com/blog/optimus-update",
+      "domain": "tesla.com",
+      "published_at": "2026-03-18T11:56:00.1895803+07:00",
+      "category": "tech",
+      "score": 0.87,
+      "tldr": "Tesla's humanoid robot demonstrates fine motor control improvements",
+      "why_it_matters": "Progress toward general-purpose household robots",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "b08d0593-1099-4e93-931c-05c133109ab8",
+      "title": "Anthropic Offers $10 Free Credits for Students",
+      "url": "https://anthropic.com/student-program",
+      "domain": "anthropic.com",
+      "published_at": "2026-03-18T17:56:00.1895803+07:00",
+      "category": "tech",
+      "score": 0.78,
+      "tldr": "Students can now access Claude API with $10 in free credits",
+      "why_it_matters": "Makes advanced AI accessible to students and educators",
+      "tags": [
+        "free-credits",
+        "llm"
+      ]
+    },
+    {
+      "id": "df7e85f6-23e3-428a-a04e-b170aef7c2f9",
+      "title": "GitHub Student Developer Pack Adds New AI Tools",
+      "url": "https://education.github.com/pack",
+      "domain": "education.github.com",
+      "published_at": "2026-03-18T10:56:00.1895803+07:00",
+      "category": "tech",
+      "score": 0.8,
+      "tldr": "GitHub expands student benefits with free access to AI coding tools",
+      "why_it_matters": "Students get free access to premium developer tools and AI assistants",
+      "tags": [
+        "free-credits",
+        "ide",
+        "tools"
+      ]
+    },
+    {
+      "id": "655aece4-80dc-4a6d-ae36-626d00ea5e3b",
+      "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+      "url": "https://news.ycombinator.com/newsguidelines.html",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-03-11T19:29:29Z",
+      "category": "tech",
+      "score": 0.6379496139262352,
+      "tldr": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "08b16789-5c3d-498a-941d-2eee2a4ba1f9",
+      "title": "BitNet: Inference framework for 1-bit LLMs",
+      "url": "https://github.com/microsoft/BitNet",
+      "domain": "github.com",
+      "published_at": "2026-03-11T12:27:15Z",
+      "category": "tech",
+      "score": 0.5122404687812433,
+      "tldr": "BitNet: Inference framework for 1-bit LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "tools"
+      ]
+    },
+    {
+      "id": "f4ad096e-caf5-48c5-b386-65f425324fde",
+      "title": "Bill C-22, the Lawful Access Act: Dangerous backdoor surveillance risks remain",
+      "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
+      "domain": "michaelgeist.ca",
+      "published_at": "2026-03-15T21:22:16Z",
+      "category": "tech",
+      "score": 0.4743946404445668,
+      "tldr": "Bill C-22, the Lawful Access Act: Dangerous backdoor surveillance risks remain",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "security"
+      ]
+    },
+    {
+      "id": "a0868ebd-87c9-49b4-9473-ae890e63d892",
+      "title": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
+      "url": "https://news.ycombinator.com/newsguidelines.html",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-03-11T19:29:29Z",
+      "category": "tech",
+      "score": 0.45670662106379184,
+      "tldr": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6b229586-c3ee-4b6e-8253-d75228ab6034",
+      "title": "Canada's bill C-22 mandates mass metadata surveillance",
+      "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
+      "domain": "michaelgeist.ca",
+      "published_at": "2026-03-15T21:22:16Z",
+      "category": "tech",
+      "score": 0.397760066131299,
+      "tldr": "Canada's bill C-22 mandates mass metadata surveillance",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "466a0b51-007a-4ab9-a1f8-354a93ccaf49",
+      "title": "Temporal: The 9-year journey to fix time in JavaScript",
+      "url": "https://bloomberg.github.io/js-blog/post/temporal",
+      "domain": "bloomberg.github.io",
+      "published_at": "2026-03-11T15:35:50Z",
+      "category": "tech",
+      "score": 0.3948110209854615,
+      "tldr": "Temporal: The 9-year journey to fix time in JavaScript",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9a7724df-2ee9-4359-bba7-5217ee24e97a",
+      "title": "Whistleblower claims ex-DOGE member says he took Social Security data to new job",
+      "url": "https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2",
+      "domain": "washingtonpost.com",
+      "published_at": "2026-03-11T13:52:01Z",
+      "category": "tech",
+      "score": 0.38511930980315295,
+      "tldr": "Whistleblower claims ex-DOGE member says he took Social Security data to new job",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "data",
+        "security"
+      ]
+    },
+    {
+      "id": "da5a093c-5e67-4da9-8a08-76d68228d613",
+      "title": "Kotlin creator's new language: talk to LLMs in specs, not English",
+      "url": "https://codespeak.dev/",
+      "domain": "codespeak.dev",
+      "published_at": "2026-03-12T14:22:43Z",
+      "category": "tech",
+      "score": 0.38511559483513164,
+      "tldr": "Kotlin creator's new language: talk to LLMs in specs, not English",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5cdbf50b-a9b3-4df6-859c-58dfcb21571e",
+      "title": "The American Healthcare Conundrum",
+      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
+      "domain": "github.com",
+      "published_at": "2026-03-16T17:13:27Z",
+      "category": "tech",
+      "score": 0.3821221996344238,
+      "tldr": "The American Healthcare Conundrum",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "77838bcf-1758-4386-89f3-33403f05ecc1",
+      "title": "Show HN: Free OpenAI API Access with ChatGPT Account",
+      "url": "https://github.com/EvanZhouDev/openai-oauth",
+      "domain": "github.com",
+      "published_at": "2026-03-15T21:29:52Z",
+      "category": "tech",
+      "score": 0.3785609178915594,
+      "tldr": "Show HN: Free OpenAI API Access with ChatGPT Account",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm",
+        "tools"
+      ]
+    },
+    {
+      "id": "db0ccc96-342a-45a9-8702-3a78301c535c",
+      "title": "Asian governments roll out 4-day weeks, WFH to solve fuel crisis caused by war",
+      "url": "https://fortune.com/2026/03/11/iran-war-fuel-crisis-asia-work-from-home-closed-schools-price-caps",
+      "domain": "fortune.com",
+      "published_at": "2026-03-12T15:30:37Z",
+      "category": "tech",
+      "score": 0.3651114628323856,
+      "tldr": "Asian governments roll out 4-day weeks, WFH to solve fuel crisis caused by war",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "869bb9c7-7633-4c01-8383-881ec240bbc4",
+      "title": "ATMs didn’t kill bank teller jobs, but the iPhone did",
+      "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
+      "domain": "davidoks.blog",
+      "published_at": "2026-03-12T14:48:57Z",
+      "category": "tech",
+      "score": 0.3553440299702873,
+      "tldr": "ATMs didn’t kill bank teller jobs, but the iPhone did",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d70aff46-0b29-4c3c-a713-812b8d48ee72",
+      "title": "Chrome DevTools MCP (2025)",
+      "url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-03-15T19:12:53Z",
+      "category": "tech",
+      "score": 0.3542373902082099,
+      "tldr": "Chrome DevTools MCP (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "tools"
+      ]
+    },
+    {
+      "id": "9a856862-e0f6-4c3f-b3d9-bb3ecf3c0eaa",
+      "title": "BitNet: 100B Param 1-Bit model for local CPUs",
+      "url": "https://github.com/microsoft/BitNet",
+      "domain": "github.com",
+      "published_at": "2026-03-11T12:27:15Z",
+      "category": "tech",
+      "score": 0.3503654850257861,
+      "tldr": "BitNet: 100B Param 1-Bit model for local CPUs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8ad9abf7-9e81-45d4-aa76-ebabff248b30",
+      "title": "GPT‑5.4 Mini and Nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "domain": "openai.com",
+      "published_at": "2026-03-17T17:07:06Z",
+      "category": "tech",
+      "score": 0.34123984612474273,
+      "tldr": "GPT‑5.4 Mini and Nano",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8bdcef49-ada4-42c5-922b-b37d47b01a8a",
+      "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+      "url": "https://github.com/Compresr-ai/Context-Gateway",
+      "domain": "github.com",
+      "published_at": "2026-03-13T17:58:22Z",
+      "category": "tech",
+      "score": 0.3357112108879124,
+      "tldr": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bcf9e64d-d6f7-4a57-b413-b6b3f9e571da",
+      "title": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "domain": "github.com",
+      "published_at": "2026-03-17T20:23:39Z",
+      "category": "tech",
+      "score": 0.33565984185869796,
+      "tldr": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "060925d6-8557-455a-87c7-402dfa5c880d",
+      "title": "The Wyden Siren Goes Off Again: We’ll Be “Stunned” By What the NSA Is Doing",
+      "url": "https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702",
+      "domain": "techdirt.com",
+      "published_at": "2026-03-13T16:13:30Z",
+      "category": "tech",
+      "score": 0.3326232217603665,
+      "tldr": "The Wyden Siren Goes Off Again: We’ll Be “Stunned” By What the NSA Is Doing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5b49b38d-f931-42ed-a265-b80b7e73376d",
+      "title": "Executing programs inside transformers with exponentially faster inference",
+      "url": "https://www.percepta.ai/blog/can-llms-be-computers",
+      "domain": "percepta.ai",
+      "published_at": "2026-03-12T09:17:56Z",
+      "category": "tech",
+      "score": 0.3265045312119175,
+      "tldr": "Executing programs inside transformers with exponentially faster inference",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "cf427beb-8175-42b0-aacb-81277b26e73f",
+      "title": "AutoHarness: Improving LLM agents by automatically synthesizing a code harness",
+      "url": "https://arxiv.org/abs/2603.03329",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-13T21:13:48Z",
+      "category": "tech",
+      "score": 0.3244342699685286,
+      "tldr": "AutoHarness: Improving LLM agents by automatically synthesizing a code harness",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e8d0a501-3f1c-40e2-af00-578e8583ebc1",
+      "title": "If you thought code writing speed was your problem you have bigger problems",
+      "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
+      "domain": "andrewmurphy.io",
+      "published_at": "2026-03-17T17:48:50Z",
+      "category": "tech",
+      "score": 0.3195365546076202,
+      "tldr": "If you thought code writing speed was your problem you have bigger problems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cdf36b79-c7e8-4bc4-b976-720797cdcabb",
+      "title": "MoD sources warn Palantir role at heart of government is threat to UK security",
+      "url": "https://www.thenerve.news/p/palantir-technologies-uk-mod-sources-government-data-insights-security-state-secrets",
+      "domain": "thenerve.news",
+      "published_at": "2026-03-16T11:57:33Z",
+      "category": "tech",
+      "score": 0.31148704137135647,
+      "tldr": "MoD sources warn Palantir role at heart of government is threat to UK security",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "566f8774-abd1-4a5f-9cbb-8b6b9fd3c535",
+      "title": "Mistral AI Releases Forge",
+      "url": "https://mistral.ai/news/forge",
+      "domain": "mistral.ai",
+      "published_at": "2026-03-17T21:04:26Z",
+      "category": "tech",
+      "score": 0.3102856403530214,
+      "tldr": "Mistral AI Releases Forge",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "6368422f-2f9a-48cc-a29c-dcc207f74b03",
+      "title": "Lego's 0.002mm specification and its implications for manufacturing (2025)",
+      "url": "https://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120",
+      "domain": "thewave.engineer",
+      "published_at": "2026-03-11T13:22:39Z",
+      "category": "tech",
+      "score": 0.30663051084621584,
+      "tldr": "002mm specification and its implications for manufacturing (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "59e0d514-ba13-4ba4-af7e-0598a28a6f30",
+      "title": "How I write software with LLMs",
+      "url": "https://www.stavros.io/posts/how-i-write-software-with-llms",
+      "domain": "stavros.io",
+      "published_at": "2026-03-16T01:24:09Z",
+      "category": "tech",
+      "score": 0.3059207337335659,
+      "tldr": "How I write software with LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2442f909-3b8b-4fcd-bd70-72be30e5d54f",
+      "title": "AMD Ryzen AI NPUs Are Finally Useful Under Linux for Running LLMs",
+      "url": "https://www.phoronix.com/news/AMD-Ryzen-AI-NPUs-Linux-LLMs",
+      "domain": "phoronix.com",
+      "published_at": "2026-03-11T16:30:50Z",
+      "category": "tech",
+      "score": 0.30354558128240505,
+      "tldr": "AMD Ryzen AI NPUs Are Finally Useful Under Linux for Running LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "5b0dff11-683f-45be-9602-2dbc325cde04",
+      "title": "Show HN: Autoresearch_at_home – SETI_at_home but for LLM training",
+      "url": "https://www.ensue-network.ai/autoresearch",
+      "domain": "ensue-network.ai",
+      "published_at": "2026-03-11T23:27:18Z",
+      "category": "tech",
+      "score": 0.3029700501895896,
+      "tldr": "Show HN: Autoresearch_at_home – SETI_at_home but for LLM training",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "id": "858a070b-1d41-4ee0-a6a5-926d0339c431",
+      "title": "Data scientist uses AI and ChatGPT to create cancer vaccine for his dying dog",
+      "url": "https://www.theaustralian.com.au/business%2Ftechnology%2Ftech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog%2Fnews-story%2F292a21bcbe93efa17810bfcfcdfadbf7",
+      "domain": "theaustralian.com.au",
+      "published_at": "2026-03-15T20:21:12Z",
+      "category": "tech",
+      "score": 0.30291314063122093,
+      "tldr": "Data scientist uses AI and ChatGPT to create cancer vaccine for his dying dog",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "data",
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "c5d14999-7af9-403f-9821-736dd0392e5d",
+      "title": "Show HN: Rudel – Claude Code Session Analytics",
+      "url": "https://github.com/obsessiondb/rudel",
+      "domain": "github.com",
+      "published_at": "2026-03-12T13:41:12Z",
+      "category": "tech",
+      "score": 0.3028329855097711,
+      "tldr": "Show HN: Rudel – Claude Code Session Analytics",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b8079a9d-a5c3-485b-ac3d-36847e58f5ce",
+      "title": "Tech boss uses AI and ChatGPT to create cancer vaccine for his dying dog",
+      "url": "https://theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7?123=",
+      "domain": "theaustralian.com.au",
+      "published_at": "2026-03-14T21:47:04Z",
+      "category": "tech",
+      "score": 0.3024866104347064,
+      "tldr": "Tech boss uses AI and ChatGPT to create cancer vaccine for his dying dog",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "d73cd1ab-608d-4410-8452-29714b05f4af",
+      "title": "AI engineer uses ChatGPT+AlphaFold to develop cancer vaccine for his dog",
+      "url": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7",
+      "domain": "theaustralian.com.au",
+      "published_at": "2026-03-13T20:03:36Z",
+      "category": "tech",
+      "score": 0.3018808343257583,
+      "tldr": "AI engineer uses ChatGPT+AlphaFold to develop cancer vaccine for his dog",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4a9accde-5382-483e-802c-430b03a34194",
+      "title": "$96 3D-printed rocket that recalculates its mid-air trajectory using a $5 sensor",
+      "url": "https://github.com/novatic14/MANPADS-System-Launcher-and-Rocket",
+      "domain": "github.com",
+      "published_at": "2026-03-15T10:15:47Z",
+      "category": "tech",
+      "score": 0.30046750164815633,
+      "tldr": "$96 3D-printed rocket that recalculates its mid-air trajectory using a $5 sensor",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "80bc8663-2b52-4a77-8953-11fa8715288d",
+      "title": "Ageless Linux – Software for humans of indeterminate age",
+      "url": "https://agelesslinux.org/",
+      "domain": "agelesslinux.org",
+      "published_at": "2026-03-14T22:10:26Z",
+      "category": "tech",
+      "score": 0.29958280337752197,
+      "tldr": "Ageless Linux – Software for humans of indeterminate age",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "532aea5a-6abb-432a-8efb-eaffc90cb70d",
+      "title": "How we hacked McKinsey's AI platform",
+      "url": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
+      "domain": "codewall.ai",
+      "published_at": "2026-03-11T09:59:03Z",
+      "category": "tech",
+      "score": 0.2979161397937583,
+      "tldr": "How we hacked McKinsey's AI platform",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "33778b78-f819-4f8e-bbce-15d65ed72af4",
+      "title": "US Job Market Visualizer",
+      "url": "https://karpathy.ai/jobs",
+      "domain": "karpathy.ai",
+      "published_at": "2026-03-16T15:10:30Z",
+      "category": "tech",
+      "score": 0.2971284826968703,
+      "tldr": "US Job Market Visualizer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0ada4423-7420-4f51-8bd3-d71c0b6ff08b",
+      "title": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
+      "url": "https://mistral.ai/news/leanstral",
+      "domain": "mistral.ai",
+      "published_at": "2026-03-16T20:59:40Z",
+      "category": "tech",
+      "score": 0.2962215395198119,
+      "tldr": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ab31c8d6-4c58-42f3-b753-46287f08b56a",
+      "title": "Microsoft BitNet: 100B Param 1-Bit model for local CPUs",
+      "url": "https://github.com/microsoft/BitNet",
+      "domain": "github.com",
+      "published_at": "2026-03-11T12:27:15Z",
+      "category": "tech",
+      "score": 0.2958330258504472,
+      "tldr": "Microsoft BitNet: 100B Param 1-Bit model for local CPUs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1d16d929-7b12-4a54-8598-6f3fe4da48e8",
+      "title": "Chrome DevTools MCP",
+      "url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-03-15T19:12:53Z",
+      "category": "tech",
+      "score": 0.295083580424684,
+      "tldr": "Chrome DevTools MCP",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "tools"
+      ]
+    },
+    {
+      "id": "130737a5-1e0a-41ee-8d3b-c2b249f0f28e",
+      "title": "Bucketsquatting is finally dead",
+      "url": "https://onecloudplease.com/blog/bucketsquatting-is-finally-dead",
+      "domain": "onecloudplease.com",
+      "published_at": "2026-03-13T08:31:33Z",
+      "category": "tech",
+      "score": 0.2931904711151147,
+      "tldr": "Bucketsquatting is finally dead",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "db03ad62-e0ae-4ace-bb4d-3daee2db1824",
+      "title": "OVH forgot they donated documentation hosting to Pandas",
+      "url": "https://github.com/pandas-dev/pandas/issues/64584",
+      "domain": "github.com",
+      "published_at": "2026-03-13T16:40:27Z",
+      "category": "tech",
+      "score": 0.29175947146878256,
+      "tldr": "OVH forgot they donated documentation hosting to Pandas",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "016bb7ad-b6c9-4b4b-b2bd-f6cd7051886a",
+      "title": "Are LLM merge rates not getting better?",
+      "url": "https://entropicthoughts.com/no-swe-bench-improvement",
+      "domain": "entropicthoughts.com",
+      "published_at": "2026-03-12T11:49:05Z",
+      "category": "tech",
+      "score": 0.29116654495722505,
+      "tldr": "Are LLM merge rates not getting better?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4d215f65-c3b0-46b6-8c46-03af52effd93",
+      "title": "I don't use LLMs for programming",
+      "url": "https://neilmadden.blog/2026/03/02/why-i-dont-use-llms-for-programming",
+      "domain": "neilmadden.blog",
+      "published_at": "2026-03-12T09:51:51Z",
+      "category": "tech",
+      "score": 0.2869956744866241,
+      "tldr": "I don't use LLMs for programming",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2a315ef9-73bd-4be9-a1b3-763d8e9422ad",
+      "title": "Show HN: Axe – A 12MB binary that replaces your AI framework",
+      "url": "https://github.com/jrswab/axe",
+      "domain": "github.com",
+      "published_at": "2026-03-12T13:49:12Z",
+      "category": "tech",
+      "score": 0.2861086363867332,
+      "tldr": "Show HN: Axe – A 12MB binary that replaces your AI framework",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "tools"
+      ]
+    },
+    {
+      "id": "fbd7f2cb-07f8-4547-b2a7-ae596969f17b",
+      "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
+      "url": "https://codespeak.dev/",
+      "domain": "codespeak.dev",
+      "published_at": "2026-03-12T14:22:43Z",
+      "category": "tech",
+      "score": 0.285093412271852,
+      "tldr": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6649dd57-8299-4cbc-a5ae-1637d1cfa103",
+      "title": "Enhancing gut-brain communication reversed cognitive decline in aging mice",
+      "url": "https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html",
+      "domain": "med.stanford.edu",
+      "published_at": "2026-03-12T16:38:51Z",
+      "category": "tech",
+      "score": 0.2849280076793713,
+      "tldr": "Enhancing gut-brain communication reversed cognitive decline in aging mice",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cf67f7d8-2e79-436d-b008-1392e76939cc",
+      "title": "Speed at the cost of quality: Study of use of Cursor AI in open source projects (2025)",
+      "url": "https://arxiv.org/abs/2511.04427",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-16T17:07:37Z",
+      "category": "tech",
+      "score": 0.2817740162780849,
+      "tldr": "Speed at the cost of quality: Study of use of Cursor AI in open source projects (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "research",
+        "general_ai",
+        "ide"
+      ]
+    },
+    {
+      "id": "8aac5bc8-a372-4170-bf29-050aab9acd89",
+      "title": "If you thought the code writing speed was your problem; you have bigger problems",
+      "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
+      "domain": "andrewmurphy.io",
+      "published_at": "2026-03-17T17:48:50Z",
+      "category": "tech",
+      "score": 0.28022225948452273,
+      "tldr": "If you thought the code writing speed was your problem; you have bigger problems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3ec8e1e8-86ce-4489-99d5-e53397ed6f3d",
+      "title": "Entities enabling scientific fraud at scale (2025)",
+      "url": "https://doi.org/10.1073/pnas.2420092122",
+      "domain": "doi.org",
+      "published_at": "2026-03-11T13:32:12Z",
+      "category": "tech",
+      "score": 0.28000956297080754,
+      "tldr": "Entities enabling scientific fraud at scale (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "56e673d0-eb03-4f14-af13-6635d65355c1",
+      "title": "Language model teams as distributed systems",
+      "url": "https://arxiv.org/abs/2603.12229",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-16T17:19:13Z",
+      "category": "tech",
+      "score": 0.27959003673101046,
+      "tldr": "Language model teams as distributed systems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1d42a8df-268f-4ab0-9c67-f60ccec1753e",
+      "title": "Lazycut: A simple terminal video trimmer using FFmpeg",
+      "url": "https://github.com/emin-ozata/lazycut",
+      "domain": "github.com",
+      "published_at": "2026-03-16T12:05:08Z",
+      "category": "tech",
+      "score": 0.27797638109747225,
+      "tldr": "Lazycut: A simple terminal video trimmer using FFmpeg",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1fc9b4e7-dc2c-4da4-a7b3-662328eeb20c",
+      "title": "Garry Tan's Claude Code Setup",
+      "url": "https://github.com/garrytan/gstack/tree/main",
+      "domain": "github.com",
+      "published_at": "2026-03-17T21:28:35Z",
+      "category": "tech",
+      "score": 0.27729869095894055,
+      "tldr": "Garry Tan's Claude Code Setup",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a4c2a494-8c93-4287-90d3-9934ccaeb1e4",
+      "title": "Show HN: OneCLI – Vault for AI Agents in Rust",
+      "url": "https://github.com/onecli/onecli",
+      "domain": "github.com",
+      "published_at": "2026-03-12T16:41:06Z",
+      "category": "tech",
+      "score": 0.2769284845166516,
+      "tldr": "Show HN: OneCLI – Vault for AI Agents in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "fd4fdde4-6abf-44d3-beda-28cee61324bc",
+      "title": "My Journey to a reliable and enjoyable locally hosted voice assistant (2025)",
+      "url": "https://community.home-assistant.io/t/my-journey-to-a-reliable-and-enjoyable-locally-hosted-voice-assistant/944860",
+      "domain": "community.home-assistant.io",
+      "published_at": "2026-03-16T13:09:58Z",
+      "category": "tech",
+      "score": 0.2768005693689246,
+      "tldr": "My Journey to a reliable and enjoyable locally hosted voice assistant (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "592a9423-c38b-42d8-8617-fb42d988ed88",
+      "title": "Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act",
+      "url": "https://github.com/upper-up/meta-lobbying-and-other-findings",
+      "domain": "github.com",
+      "published_at": "2026-03-13T15:14:29Z",
+      "category": "tech",
+      "score": 0.27519750066593246,
+      "tldr": "Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f21ed2ad-a8d8-4257-bb37-aee24bbcf1c4",
+      "title": "Meta’s Renewed Commitment to jemalloc",
+      "url": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc",
+      "domain": "engineering.fb.com",
+      "published_at": "2026-03-16T18:12:32Z",
+      "category": "tech",
+      "score": 0.2749497497505546,
+      "tldr": "Meta’s Renewed Commitment to jemalloc",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ce6a05c7-a2ea-4c3f-9641-c3da6736bfc7",
+      "title": "Mistral Releases Leanstral",
+      "url": "https://mistral.ai/news/leanstral",
+      "domain": "mistral.ai",
+      "published_at": "2026-03-16T20:59:40Z",
+      "category": "tech",
+      "score": 0.2723525641036554,
+      "tldr": "Mistral Releases Leanstral",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "38fc8539-0b7d-4da5-90bb-7f13c40bce64",
+      "title": "Illinois Introducing Operating System Account Age Bill",
+      "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5511\u0026DocTypeID=HB",
+      "domain": "ilga.gov",
+      "published_at": "2026-03-17T18:06:07Z",
+      "category": "tech",
+      "score": 0.27180781859662556,
+      "tldr": "Illinois Introducing Operating System Account Age Bill",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "967e516e-f3e0-4d2f-8e23-6b0a4c00e9ef",
+      "title": "Why I love FreeBSD",
+      "url": "https://it-notes.dragas.net/2026/03/16/why-i-love-freebsd",
+      "domain": "it-notes.dragas.net",
+      "published_at": "2026-03-16T11:23:14Z",
+      "category": "tech",
+      "score": 0.27109111000955577,
+      "tldr": "Why I love FreeBSD",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b38feb78-bbfb-4dfd-86a1-2e811bed2def",
+      "title": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
+      "url": "https://github.com/antflydb/antfly",
+      "domain": "github.com",
+      "published_at": "2026-03-17T15:45:15Z",
+      "category": "tech",
+      "score": 0.26920157332379463,
+      "tldr": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e937822a-eaef-408b-865b-213779dee11f",
+      "title": "Speed at the cost of quality: Study of use of Cursor AI in open source projects",
+      "url": "https://arxiv.org/abs/2511.04427",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-16T17:07:37Z",
+      "category": "tech",
+      "score": 0.26826171406842814,
+      "tldr": "Speed at the cost of quality: Study of use of Cursor AI in open source projects",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "research",
+        "ide"
+      ]
+    },
+    {
+      "id": "fc9087f5-6053-4387-b8de-a64065cc85ca",
+      "title": "FCC chairman threatens TV broadcast licenses over news coverage",
+      "url": "https://fortune.com/2026/03/14/fcc-brendan-carr-tv-broadcast-licenses-news-coverage-us-war-iran-trump",
+      "domain": "fortune.com",
+      "published_at": "2026-03-15T00:08:22Z",
+      "category": "tech",
+      "score": 0.26667330827880453,
+      "tldr": "FCC chairman threatens TV broadcast licenses over news coverage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "03fdbc10-d25d-4039-ae25-3653765896ba",
+      "title": "Grandparents are glued to their phones [video]",
+      "url": "https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried",
+      "domain": "bbc.com",
+      "published_at": "2026-03-15T17:43:19Z",
+      "category": "tech",
+      "score": 0.2647363380386542,
+      "tldr": "Grandparents are glued to their phones [video]",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ea9f05cf-9e32-482b-827b-c3f25730469b",
+      "title": "Fungal Electronics (2021)",
+      "url": "https://arxiv.org/abs/2111.11231",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-11T16:53:11Z",
+      "category": "tech",
+      "score": 0.2644482838177904,
+      "tldr": "Fungal Electronics (2021)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8472b39b-1286-47a6-8d14-f9b77ec33c5f",
+      "title": "Leanstral: Open-Source foundation for trustworthy vibe-coding",
+      "url": "https://mistral.ai/news/leanstral",
+      "domain": "mistral.ai",
+      "published_at": "2026-03-16T20:59:40Z",
+      "category": "tech",
+      "score": 0.2642089411495787,
+      "tldr": "Leanstral: Open-Source foundation for trustworthy vibe-coding",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "aa534ec9-ff3c-4728-81ce-0b488c15f330",
+      "title": "The 100 hour gap between a vibecoded prototype and a working product",
+      "url": "https://kanfa.macbudkowski.com/vibecoding-cryptosaurus",
+      "domain": "kanfa.macbudkowski.com",
+      "published_at": "2026-03-15T12:09:30Z",
+      "category": "tech",
+      "score": 0.26410820900357584,
+      "tldr": "The 100 hour gap between a vibecoded prototype and a working product",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "64122a97-651f-4362-b9bb-6cdd48cc25dd",
+      "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
+      "url": "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level",
+      "domain": "tomshardware.com",
+      "published_at": "2026-03-17T15:16:29Z",
+      "category": "tech",
+      "score": 0.2632362476984362,
+      "tldr": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "736ba9e8-1d77-4342-a165-b420f60b8519",
+      "title": "Show HN: Understudy – Teach a desktop agent by demonstrating a task once",
+      "url": "https://github.com/understudy-ai/understudy",
+      "domain": "github.com",
+      "published_at": "2026-03-12T17:04:35Z",
+      "category": "tech",
+      "score": 0.2627797663770039,
+      "tldr": "Show HN: Understudy – Teach a desktop agent by demonstrating a task once",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "research"
+      ]
+    },
+    {
+      "id": "81b028a9-6821-4d41-bbc8-eb47f55c96bc",
+      "title": "Show HN: Lux – Drop-in Redis replacement in Rust. 5.6x faster, ~1MB Docker image",
+      "url": "https://github.com/lux-db/lux",
+      "domain": "github.com",
+      "published_at": "2026-03-15T21:12:37Z",
+      "category": "tech",
+      "score": 0.26273053199357715,
+      "tldr": "Show HN: Lux – Drop-in Redis replacement in Rust. 6x faster, ~1MB Docker image",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1eddf095-c3fc-4d02-bb34-23d0072d90ad",
+      "title": "Show HN: Aurion OS – A 32-bit GUI operating system written from scratch in C",
+      "url": "https://github.com/Luka12-dev/AurionOS",
+      "domain": "github.com",
+      "published_at": "2026-03-12T18:33:30Z",
+      "category": "tech",
+      "score": 0.2619929528182054,
+      "tldr": "Show HN: Aurion OS – A 32-bit GUI operating system written from scratch in C",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "96343368-fe75-4edf-9a68-dd9225c1d30f",
+      "title": "Quillx is an open standard for disclosing AI involvement in software projects",
+      "url": "https://github.com/QAInsights/AIx",
+      "domain": "github.com",
+      "published_at": "2026-03-16T01:21:39Z",
+      "category": "tech",
+      "score": 0.2613085586296088,
+      "tldr": "Quillx is an open standard for disclosing AI involvement in software projects",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c13783bd-af71-4921-9fa4-9164a305604d",
+      "title": "Are LLMs not getting better?",
+      "url": "https://entropicthoughts.com/no-swe-bench-improvement",
+      "domain": "entropicthoughts.com",
+      "published_at": "2026-03-12T11:49:05Z",
+      "category": "tech",
+      "score": 0.26106372473212186,
+      "tldr": "Are LLMs not getting better?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "fe8f36ce-e385-409a-b70b-1f9a5648c546",
+      "title": "FFmpeg 8.1",
+      "url": "https://ffmpeg.org/index.html",
+      "domain": "ffmpeg.org",
+      "published_at": "2026-03-17T14:51:57Z",
+      "category": "tech",
+      "score": 0.2600963722715183,
+      "tldr": "FFmpeg 8.1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "733cf3f7-f565-447a-bc4e-cfb8f3532a54",
+      "title": "Hammerspoon",
+      "url": "https://github.com/Hammerspoon/hammerspoon",
+      "domain": "github.com",
+      "published_at": "2026-03-13T18:34:12Z",
+      "category": "tech",
+      "score": 0.25992944763126724,
+      "tldr": "Hammerspoon",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "12eaf363-38ec-4239-ad82-cc28c1a8fc0f",
+      "title": "Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)",
+      "url": "https://prompt-caching.ai/",
+      "domain": "prompt-caching.ai",
+      "published_at": "2026-03-13T11:38:15Z",
+      "category": "tech",
+      "score": 0.25946961545493075,
+      "tldr": "Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cd388fc0-ce33-4abe-988e-d653668a6fc8",
+      "title": "Give Django your time and money, not your tokens",
+      "url": "https://www.better-simple.com/django/2026/03/16/give-django-your-time-and-money",
+      "domain": "better-simple.com",
+      "published_at": "2026-03-16T15:12:50Z",
+      "category": "tech",
+      "score": 0.2593282514695151,
+      "tldr": "Give Django your time and money, not your tokens",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "374d56d3-e307-4cf9-a654-c24a5f9b18d6",
+      "title": "Show HN: A context-aware permission guard for Claude Code",
+      "url": "https://github.com/manuelschipper/nah",
+      "domain": "github.com",
+      "published_at": "2026-03-11T23:26:25Z",
+      "category": "tech",
+      "score": 0.2589527689842169,
+      "tldr": "Show HN: A context-aware permission guard for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "0db897c5-be25-4ff1-9ea5-ea7db8760598",
+      "title": "Show HN: Axe A 12MB binary that replaces your AI framework",
+      "url": "https://github.com/jrswab/axe",
+      "domain": "github.com",
+      "published_at": "2026-03-12T13:49:12Z",
+      "category": "tech",
+      "score": 0.2581925301480733,
+      "tldr": "Show HN: Axe A 12MB binary that replaces your AI framework",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "tools"
+      ]
+    },
+    {
+      "id": "ef519b5c-0631-4619-a84f-a7df9bd1ec4c",
+      "title": "WolfIP: Lightweight TCP/IP stack with no dynamic memory allocations",
+      "url": "https://github.com/wolfssl/wolfip",
+      "domain": "github.com",
+      "published_at": "2026-03-12T15:39:50Z",
+      "category": "tech",
+      "score": 0.258089957462327,
+      "tldr": "WolfIP: Lightweight TCP/IP stack with no dynamic memory allocations",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "147990bf-c83f-4286-b50a-c4bce1f8b968",
+      "title": "Speed at the Cost of Quality. Study of Use of Cursor AI in Open Source Projects",
+      "url": "https://arxiv.org/abs/2511.04427",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-16T17:07:37Z",
+      "category": "tech",
+      "score": 0.25780486698810273,
+      "tldr": "Speed at the Cost of Quality. Study of Use of Cursor AI in Open Source Projects",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "ide",
+        "research"
+      ]
+    },
+    {
+      "id": "5d8c2c31-3af2-4315-b2d6-e528fb587b99",
+      "title": "Show HN: Open-source browser for AI agents",
+      "url": "https://github.com/theredsix/agent-browser-protocol",
+      "domain": "github.com",
+      "published_at": "2026-03-11T14:39:30Z",
+      "category": "tech",
+      "score": 0.25748051440519515,
+      "tldr": "Show HN: Open-source browser for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "08c667dc-bc22-4814-9a9d-c7bfb90952b3",
+      "title": "Marketing for Founders",
+      "url": "https://github.com/EdoStra/Marketing-for-Founders",
+      "domain": "github.com",
+      "published_at": "2026-03-14T19:35:40Z",
+      "category": "tech",
+      "score": 0.256957044581012,
+      "tldr": "Marketing for Founders",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "36dd29fa-1020-46f3-8e02-f5fa5db9d6a6",
+      "title": "Show HN: Calyx – Ghostty-Based macOS Terminal with Liquid Glass UI",
+      "url": "https://github.com/yuuichieguchi/Calyx",
+      "domain": "github.com",
+      "published_at": "2026-03-12T13:13:02Z",
+      "category": "tech",
+      "score": 0.2566454865000983,
+      "tldr": "Show HN: Calyx – Ghostty-Based macOS Terminal with Liquid Glass UI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "390f0964-a08c-48ec-8ea3-e5002548d3f8",
+      "title": "LLMs can be exhausting",
+      "url": "https://tomjohnell.com/llms-can-be-absolutely-exhausting",
+      "domain": "tomjohnell.com",
+      "published_at": "2026-03-15T20:56:21Z",
+      "category": "tech",
+      "score": 0.256469156538868,
+      "tldr": "LLMs can be exhausting",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "60f3da64-385c-4824-b4f6-1eea85281839",
+      "title": "Launch HN: Captain (YC W26) – Automated RAG for Files",
+      "url": "https://www.runcaptain.com/",
+      "domain": "runcaptain.com",
+      "published_at": "2026-03-13T15:45:33Z",
+      "category": "tech",
+      "score": 0.2563166101653598,
+      "tldr": "Launch HN: Captain (YC W26) – Automated RAG for Files",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "43f3de5e-7eeb-4665-8b1a-bbbda55ec317",
+      "title": "SuperTux 0.7.0",
+      "url": "https://github.com/SuperTux/supertux/releases/tag/v0.7.0",
+      "domain": "github.com",
+      "published_at": "2026-03-15T17:00:35Z",
+      "category": "tech",
+      "score": 0.2562506924337876,
+      "tldr": "SuperTux 0.7.0",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "48258afa-7ae2-4c31-ad21-2b0a8805472f",
+      "title": "District denies enrollment to child based on license plate reader data",
+      "url": "https://www.theregister.com/2026/03/12/district_denies_enrollment_to_child",
+      "domain": "theregister.com",
+      "published_at": "2026-03-14T01:18:15Z",
+      "category": "tech",
+      "score": 0.2558658294445774,
+      "tldr": "District denies enrollment to child based on license plate reader data",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
+      ]
+    },
+    {
+      "id": "2e20f31b-3853-44d4-b95b-67220f4c9edf",
+      "title": "Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work",
+      "url": "https://github.com/obsessiondb/rudel",
+      "domain": "github.com",
+      "published_at": "2026-03-12T13:41:12Z",
+      "category": "tech",
+      "score": 0.2558417653090584,
+      "tldr": "Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm",
+        "ide"
+      ]
+    },
+    {
+      "id": "3b008877-8361-4716-831a-5b73bea78660",
+      "title": "Temporal: A nine-year journey to fix time in JavaScript",
+      "url": "https://bloomberg.github.io/js-blog/post/temporal",
+      "domain": "bloomberg.github.io",
+      "published_at": "2026-03-11T15:35:50Z",
+      "category": "tech",
+      "score": 0.25529878427994646,
+      "tldr": "Temporal: A nine-year journey to fix time in JavaScript",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a4853e52-274c-473a-8156-f68c4f1c8d85",
+      "title": "Mistral Small 4",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "domain": "mistral.ai",
+      "published_at": "2026-03-16T20:40:53Z",
+      "category": "tech",
+      "score": 0.25521276587431896,
+      "tldr": "Mistral Small 4",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5cdb6cc2-c597-4ac2-a5e6-1560db77ec28",
+      "title": "Show HN: GrobPaint: Somewhere Between MS Paint and Paint.net",
+      "url": "https://github.com/groverburger/grobpaint",
+      "domain": "github.com",
+      "published_at": "2026-03-14T22:41:28Z",
+      "category": "tech",
+      "score": 0.2547305228792309,
+      "tldr": "Show HN: GrobPaint: Somewhere Between MS Paint and Paint.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "373bee56-22d0-4db5-aa30-c22f23915c60",
+      "title": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
+      "url": "https://ionrouter.io",
+      "domain": "ionrouter.io",
+      "published_at": "2026-03-12T18:52:36Z",
+      "category": "tech",
+      "score": 0.25435791359871074,
+      "tldr": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a6d94968-e25b-4f81-86ce-5518edb2f53e",
+      "title": "Show HN: Han – A Korean programming language written in Rust",
+      "url": "https://github.com/xodn348/han",
+      "domain": "github.com",
+      "published_at": "2026-03-14T21:27:33Z",
+      "category": "tech",
+      "score": 0.25428390670916784,
+      "tldr": "Show HN: Han – A Korean programming language written in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    }
+  ],
+  "last_updated": "2026-03-18T18:56:00.1895803+07:00",
+  "total_count": 100
+}

@@ -10,7 +10,7 @@
       "use": "@vercel/go",
       "config": {
         "includeFiles": [
-          "data/**"
+          "api/news.json"
         ]
       }
     }

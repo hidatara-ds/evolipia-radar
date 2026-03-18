@@ -35,10 +35,13 @@ type Response struct {
 func LoadNewsData() (*NewsData, error) {
 	// Try multiple possible paths suitable for both local development and Vercel
 	paths := []string{
-		"data/news.json",
-		"../data/news.json",
-		"../../data/news.json",
-		"/var/task/data/news.json", // Vercel specific
+		"data/news.json",           // Local development
+		"../data/news.json",        // From api subfolder
+		"../../data/news.json",     // From nested api folders
+		"api/news.json",            // Copied to api folder
+		"./news.json",              // Same directory as Go function
+		"/var/task/data/news.json", // Vercel specific (old)
+		"/var/task/api/news.json",  // Vercel specific (new)
 	}
 
 	var data []byte
@@ -48,6 +51,7 @@ func LoadNewsData() (*NewsData, error) {
 		// #nosec G304 - Path is from a fixed list
 		data, err = os.ReadFile(path)
 		if err == nil {
+			log.Printf("✅ Successfully loaded news from: %s", path)
 			break
 		}
 	}
