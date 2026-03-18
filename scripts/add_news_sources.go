@@ -248,6 +248,58 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
+		
+		// Computer Vision & Image Generation (NEW!)
+		{
+			Name:     "Stability AI Blog",
+			Type:     "rss_atom",
+			Category: "research",
+			URL:      "https://stability.ai/news/rss",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "Midjourney News",
+			Type:     "rss_atom",
+			Category: "news",
+			URL:      "https://www.midjourney.com/feed",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "RunwayML Blog",
+			Type:     "rss_atom",
+			Category: "news",
+			URL:      "https://runwayml.com/blog/rss.xml",
+			Enabled:  true,
+			Status:   "active",
+		},
+		
+		// Robotics & RL (NEW!)
+		{
+			Name:     "Boston Dynamics Blog",
+			Type:     "rss_atom",
+			Category: "news",
+			URL:      "https://bostondynamics.com/blog/feed/",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "OpenAI Robotics",
+			Type:     "rss_atom",
+			Category: "research",
+			URL:      "https://openai.com/research/rss.xml",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "DeepMind Research",
+			Type:     "rss_atom",
+			Category: "research",
+			URL:      "https://deepmind.google/discover/blog/rss.xml",
+			Enabled:  true,
+			Status:   "active",
+		},
 	}
 
 	// Insert sources with upsert logic (skip if already exists)
