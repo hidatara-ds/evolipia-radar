@@ -193,6 +193,20 @@
       ]
     },
     {
+      "id": "3ca445f8-c475-4490-9c6e-b7a06fbbada4",
+      "title": "Rob Pike's Rules of Programming (1989)",
+      "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html",
+      "domain": "cs.unc.edu",
+      "published_at": "2026-03-18T09:59:54Z",
+      "category": "tech",
+      "score": 0.44217824193799876,
+      "tldr": "Rob Pike's Rules of Programming (1989)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6b229586-c3ee-4b6e-8253-d75228ab6034",
       "title": "Canada's bill C-22 mandates mass metadata surveillance",
       "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
@@ -362,6 +376,21 @@
       ]
     },
     {
+      "id": "27bb6f84-d1c7-47bf-8435-805e2bcac66b",
+      "title": "Show HN: Reprompt – Score your AI coding prompts with NLP papers",
+      "url": "https://github.com/reprompt-dev/reprompt",
+      "domain": "github.com",
+      "published_at": "2026-03-18T13:00:13Z",
+      "category": "tech",
+      "score": 0.32641082575113434,
+      "tldr": "Show HN: Reprompt – Score your AI coding prompts with NLP papers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "nlp"
+      ]
+    },
+    {
       "id": "cf427beb-8175-42b0-aacb-81277b26e73f",
       "title": "AutoHarness: Improving LLM agents by automatically synthesizing a code harness",
       "url": "https://arxiv.org/abs/2603.03329",
@@ -429,21 +458,6 @@
       "tldr": "How I write software with LLMs",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2442f909-3b8b-4fcd-bd70-72be30e5d54f",
-      "title": "AMD Ryzen AI NPUs Are Finally Useful Under Linux for Running LLMs",
-      "url": "https://www.phoronix.com/news/AMD-Ryzen-AI-NPUs-Linux-LLMs",
-      "domain": "phoronix.com",
-      "published_at": "2026-03-11T16:30:50Z",
-      "category": "tech",
-      "score": 0.30354558128240505,
-      "tldr": "AMD Ryzen AI NPUs Are Finally Useful Under Linux for Running LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
         "llm"
       ]
     },
@@ -999,6 +1013,20 @@
       ]
     },
     {
+      "id": "b1af2460-457f-4d18-abcf-8275f9b6ab05",
+      "title": "Nvidia NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "domain": "github.com",
+      "published_at": "2026-03-18T15:31:07Z",
+      "category": "tech",
+      "score": 0.2624895912533947,
+      "tldr": "Nvidia NemoClaw",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1eddf095-c3fc-4d02-bb34-23d0072d90ad",
       "title": "Show HN: Aurion OS – A 32-bit GUI operating system written from scratch in C",
       "url": "https://github.com/Luka12-dev/AurionOS",
@@ -1390,36 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
-      "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "url": "https://github.com/peters/horizon",
-      "domain": "github.com",
-      "published_at": "2026-03-17T18:14:24Z",
-      "category": "tech",
-      "score": 0.2532025853934814,
-      "tldr": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fdf72a29-d460-47e0-8e44-6d43f02df63e",
-      "title": "Fungal Electronics",
-      "url": "https://arxiv.org/abs/2111.11231",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-11T16:53:11Z",
-      "category": "tech",
-      "score": 0.253026796334561,
-      "tldr": "Fungal Electronics",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-18T15:45:17.254444323Z",
+  "last_updated": "2026-03-18T16:50:15.15786895Z",
   "total_count": 100
 }
