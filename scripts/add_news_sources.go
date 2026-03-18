@@ -180,6 +180,74 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
+		
+		// IDE & Developer Tools (NEW!)
+		{
+			Name:     "GitHub Blog - Copilot",
+			Type:     "rss_atom",
+			Category: "tools",
+			URL:      "https://github.blog/tag/github-copilot/feed/",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "Cursor Changelog",
+			Type:     "rss_atom",
+			Category: "tools",
+			URL:      "https://changelog.cursor.sh/rss",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "JetBrains Blog - AI",
+			Type:     "rss_atom",
+			Category: "tools",
+			URL:      "https://blog.jetbrains.com/feed/",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "Replit Blog",
+			Type:     "rss_atom",
+			Category: "tools",
+			URL:      "https://blog.replit.com/rss.xml",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "Codeium Blog",
+			Type:     "rss_atom",
+			Category: "tools",
+			URL:      "https://codeium.com/blog/rss.xml",
+			Enabled:  true,
+			Status:   "active",
+		},
+		
+		// Free Credits & Student Programs (NEW!)
+		{
+			Name:     "GitHub Education Blog",
+			Type:     "rss_atom",
+			Category: "news",
+			URL:      "https://github.blog/category/education/feed/",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "Dev.to - Free Resources",
+			Type:     "rss_atom",
+			Category: "news",
+			URL:      "https://dev.to/feed/tag/free",
+			Enabled:  true,
+			Status:   "active",
+		},
+		{
+			Name:     "Indie Hackers",
+			Type:     "rss_atom",
+			Category: "news",
+			URL:      "https://www.indiehackers.com/feed",
+			Enabled:  true,
+			Status:   "active",
+		},
 	}
 
 	// Insert sources with upsert logic (skip if already exists)
@@ -217,20 +285,16 @@ func main() {
 		}
 	}
 
-	log.Println("\n" + "=".repeat(60))
+	log.Println("\n" + strings.Repeat("=", 60))
 	log.Printf("📊 Summary:")
 	log.Printf("   ✅ Added: %d sources", added)
 	log.Printf("   ⏭️  Skipped (already exists): %d sources", skipped)
 	log.Printf("   ❌ Failed: %d sources", failed)
-	log.Printf("   📦 Total sources in database: %d", added+skipped)
-	log.Println("=".repeat(60))
+	log.Printf("   📦 Total sources configured: %d", len(newsSources))
+	log.Println(strings.Repeat("=", 60))
 }
 
 // Helper function to repeat string
-func repeat(s string, count int) string {
-	result := ""
-	for i := 0; i < count; i++ {
-		result += s
-	}
-	return result
+func (s string) repeat(count int) string {
+	return strings.Repeat(s, count)
 }

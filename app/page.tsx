@@ -57,6 +57,8 @@ const TOPICS = [
   { id: "security", label: "Security", color: "red" },
   { id: "rl", label: "RL", color: "yellow" },
   { id: "robotics", label: "Robotics", color: "orange" },
+  { id: "ide", label: "IDE", color: "cyan" },
+  { id: "free-credits", label: "Free Credits", color: "pink" },
 ] as const;
 
 export default function Dashboard() {
@@ -74,6 +76,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     const url = process.env.NEXT_PUBLIC_API_BASE_URL || "";
+    console.log("🔧 API Base URL:", url || "(empty - using relative path)");
     setBaseUrl(url);
     fetchMetrics(url);
     fetchNews(url, selectedTopic);
@@ -384,7 +387,11 @@ function NewsCard({ item, index }: { item: NewsItem; index: number }) {
       security: "bg-red-500/10 text-red-400 border-red-500/20",
       rl: "bg-yellow-500/10 text-yellow-400 border-yellow-500/20",
       robotics: "bg-orange-500/10 text-orange-400 border-orange-500/20",
+      ide: "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
+      "free-credits": "bg-pink-500/10 text-pink-400 border-pink-500/20",
       general_ai: "bg-gray-500/10 text-gray-400 border-gray-500/20",
+      research: "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
+      tools: "bg-teal-500/10 text-teal-400 border-teal-500/20",
     };
     return colors[tag.toLowerCase()] || "bg-gray-500/10 text-gray-400 border-gray-500/20";
   };
