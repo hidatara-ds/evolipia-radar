@@ -11,13 +11,13 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hidatara-ds/evolipia-radar/internal/ai"
-	ai_api "github.com/hidatara-ds/evolipia-radar/internal/api"
-	"github.com/hidatara-ds/evolipia-radar/internal/cluster"
-	"github.com/hidatara-ds/evolipia-radar/internal/config"
-	"github.com/hidatara-ds/evolipia-radar/internal/crawler"
-	"github.com/hidatara-ds/evolipia-radar/internal/db"
-	"github.com/hidatara-ds/evolipia-radar/internal/http/handlers"
+	"github.com/hidatara-ds/evolipia-radar/pkg/ai"
+	ai_api "github.com/hidatara-ds/evolipia-radar/pkg/api"
+	"github.com/hidatara-ds/evolipia-radar/pkg/cluster"
+	"github.com/hidatara-ds/evolipia-radar/pkg/config"
+	"github.com/hidatara-ds/evolipia-radar/pkg/crawler"
+	"github.com/hidatara-ds/evolipia-radar/pkg/db"
+	"github.com/hidatara-ds/evolipia-radar/pkg/http/handlers"
 )
 
 func main() {
@@ -61,10 +61,11 @@ func main() {
 	inMemClusterSvc := cluster.NewClusterService(embedder)
 
 	// Phase 3 Web Crawling Orchestrator
-	metricsData := &crawler.Metrics{}
+	metricsData := crawler.NewMetrics(database.Pool)
+	metricsData.LoadFromDB(context.Background())
 	
 	dryRunEnv := os.Getenv("DRY_RUN") == "true"
-	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, dryRunEnv)
+	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, database.Pool, dryRunEnv)
 	
 	// Start the intelligent crawling loop in the background (runs every 15 minutes)
 	crawlCtx, crawlCancel := context.WithCancel(context.Background())

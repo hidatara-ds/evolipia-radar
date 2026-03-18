@@ -2,13 +2,15 @@ package crawler
 
 import (
 	"context"
+	"crypto/rand"
 	"log"
-	"math/rand"
+	"math/big"
 	"time"
 
 	"github.com/google/uuid"
 	"github.com/hidatara-ds/evolipia-radar/pkg/ai"
 	"github.com/hidatara-ds/evolipia-radar/pkg/cluster"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 // Orchestrator manages the crawling lifecycle and agents.
@@ -16,15 +18,15 @@ type Orchestrator struct {
 	agents          []DiscoveryAgent
 	budget          *CrawlBudget
 	clusterService  *ai.ClusterService
-	inMemClusterSvc *cluster.ClusterService
+	inMemClusterSvc *cluster.Service
 	DryRun          bool
 	metrics         *Metrics
 }
 
 // NewOrchestrator wires together all agents and binds them to the AI clustering brain.
-func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.ClusterService, metrics *Metrics, dryRun bool) *Orchestrator {
+func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.Service, metrics *Metrics, pool *pgxpool.Pool, dryRun bool) *Orchestrator {
 	// Initialize with strict zero-cost budget: 50 requests per hour max
-	budget := NewCrawlBudget(50, metrics) 
+	budget := NewCrawlBudget(50, metrics, pool)
 
 	return &Orchestrator{
 		agents: []DiscoveryAgent{
@@ -74,7 +76,8 @@ func (o *Orchestrator) RunCycle(ctx context.Context) map[string]int {
 
 	for _, agent := range o.agents {
 		// Phase 3.5: Agent Jitter (0-10 seconds)
-		jitter := time.Duration(rand.Intn(10)) * time.Second
+		n, _ := rand.Int(rand.Reader, big.NewInt(10))
+		jitter := time.Duration(n.Int64()) * time.Second
 		log.Printf("[ORCHESTRATOR] Applying jitter %v before dispatching %s...", jitter, agent.Name())
 		time.Sleep(jitter)
 
@@ -89,7 +92,7 @@ func (o *Orchestrator) RunCycle(ctx context.Context) map[string]int {
 
 		for _, art := range articles {
 			// 1. Budget & Deduplication Check (Fast rejection)
-			if !o.budget.Consume(art.Link) {
+			if !o.budget.Consume(ctx, art.Link) {
 				stats["rejected"]++
 				continue // Skip if already seen or over hourly limit
 			}

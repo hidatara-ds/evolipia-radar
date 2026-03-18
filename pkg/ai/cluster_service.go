@@ -178,7 +178,9 @@ func (s *ClusterService) incrementClusterScore(ctx context.Context, clusterID uu
 		recomputed, rErr := s.generateGroundedInsight(ctx, blendedText)
 		if rErr == nil {
 			log.Printf("[CLUSTER] Summary recomputed for %s", clusterID)
-			s.db.Exec(ctx, `UPDATE clusters SET summary = $1 WHERE id = $2`, recomputed, clusterID)
+			if _, err := s.db.Exec(ctx, `UPDATE clusters SET summary = $1 WHERE id = $2`, recomputed, clusterID); err != nil {
+				log.Printf("[CLUSTER] Failed to update summary: %v", err)
+			}
 		} else if strings.Contains(rErr.Error(), "BUDGET EXHAUSTED") {
 			log.Printf("[BUDGET-FALLBACK] Skipping expensive recompute for cluster %s", clusterID)
 		}
@@ -242,7 +244,9 @@ func (s *ClusterService) createNewCluster(ctx context.Context, articleID uuid.UU
 	if err != nil {
 		return err
 	}
-	defer tx.Rollback(ctx)
+	defer func() {
+		_ = tx.Rollback(ctx)
+	}()
 
 	// Insert new cluster
 	var newClusterID uuid.UUID
@@ -289,7 +293,9 @@ func (s *ClusterService) createFallbackCluster(ctx context.Context, articleID uu
 	if err != nil {
 		return err
 	}
-	defer tx.Rollback(ctx)
+	defer func() {
+		_ = tx.Rollback(ctx)
+	}()
 
 	var newClusterID uuid.UUID
 	insertClusterQuery := `
@@ -365,9 +371,13 @@ func (s *ClusterService) MergeFragmentedClusters(ctx context.Context) (int, erro
 		updateSources := `UPDATE cluster_sources SET cluster_id = $1 WHERE cluster_id = $2`
 		if _, err := s.db.Exec(ctx, updateSources, winner, loser); err == nil {
 			// Add loser's score to the winner
-			s.db.Exec(ctx, `UPDATE clusters SET score = score + $1 WHERE id = $2`, scoreB*0.5, winner) // give half points
+			if _, err := s.db.Exec(ctx, `UPDATE clusters SET score = score + $1 WHERE id = $2`, scoreB*0.5, winner); err != nil {
+				log.Printf("[CLUSTER-MERGE] Failed to update winner score: %v", err)
+			}
 			// Delete the fragmented loser
-			s.db.Exec(ctx, `DELETE FROM clusters WHERE id = $1`, loser)
+			if _, err := s.db.Exec(ctx, `DELETE FROM clusters WHERE id = $1`, loser); err != nil {
+				log.Printf("[CLUSTER-MERGE] Failed to delete loser: %v", err)
+			}
 			merges++
 		}
 	}

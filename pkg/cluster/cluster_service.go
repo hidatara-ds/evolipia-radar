@@ -29,16 +29,16 @@ type Cluster struct {
 	CreatedAt time.Time
 }
 
-// ClusterService handles in-memory vector intelligence and deduplication.
-type ClusterService struct {
+// Service handles in-memory vector intelligence and deduplication.
+type Service struct {
 	mu           sync.RWMutex
 	clusters     []*Cluster
 	embedder     EmbeddingProvider
 	threshold    float64
 }
 
-func NewClusterService(embedder EmbeddingProvider) *ClusterService {
-	return &ClusterService{
+func NewClusterService(embedder EmbeddingProvider) *Service {
+	return &Service{
 		clusters:  make([]*Cluster, 0),
 		embedder:  embedder,
 		threshold: 0.80, // cosine similarity threshold for grouping
@@ -46,7 +46,7 @@ func NewClusterService(embedder EmbeddingProvider) *ClusterService {
 }
 
 // ProcessArticle analyzes, embeds, and clusters an incoming article.
-func (s *ClusterService) ProcessArticle(ctx context.Context, title, content, link string) error {
+func (s *Service) ProcessArticle(ctx context.Context, title, content, link string) error {
 	// 1. Generate semantic embedding
 	emb, err := s.embedder.Embed(title + " " + content)
 	if err != nil {
@@ -66,7 +66,7 @@ func (s *ClusterService) ProcessArticle(ctx context.Context, title, content, lin
 	defer s.mu.Unlock()
 
 	var bestMatch *Cluster
-	var maxSim float64 = -1.0
+	var maxSim = -1.0
 
 	// 2. Greedy cosine similarity scan against existing cluster centroids (first article representation)
 	for _, c := range s.clusters {
@@ -98,7 +98,7 @@ func (s *ClusterService) ProcessArticle(ctx context.Context, title, content, lin
 }
 
 // GetTopClusters returns the most active semantic groups.
-func (s *ClusterService) GetTopClusters(limit int) []*Cluster {
+func (s *Service) GetTopClusters(limit int) []*Cluster {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 
@@ -115,7 +115,7 @@ func (s *ClusterService) GetTopClusters(limit int) []*Cluster {
 	return cp
 }
 
-func (s *ClusterService) GetTotalClusters() int {
+func (s *Service) GetTotalClusters() int {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return len(s.clusters)

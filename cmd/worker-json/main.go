@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/hidatara-ds/evolipia-radar/internal/config"
-	"github.com/hidatara-ds/evolipia-radar/internal/db"
-	"github.com/hidatara-ds/evolipia-radar/internal/services"
+	"github.com/hidatara-ds/evolipia-radar/pkg/config"
+	"github.com/hidatara-ds/evolipia-radar/pkg/db"
+	"github.com/hidatara-ds/evolipia-radar/pkg/services"
 )
 
 type NewsItem struct {

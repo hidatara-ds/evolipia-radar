@@ -58,16 +58,20 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	embedder := cluster.NewOpenRouterEmbedder(aiCfg.APIKey)
 	inMemClusterSvc := cluster.NewClusterService(embedder)
 	
-	metricsData := &crawler.Metrics{}
-	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, dryRunEnv)
+	metricsData := crawler.NewMetrics(pool)
+	metricsData.LoadFromDB(r.Context()) // Load initial state
+
+	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, pool, os.Getenv("DRY_RUN") == "true")
 
 	// Executing the cycle synchronously for Vercel Serverless
 	stats := botOrchestrator.RunCycle(context.Background())
 	botOrchestrator.UpdateClusterMetrics(context.Background())
 
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(map[string]interface{}{
+	if err := json.NewEncoder(w).Encode(map[string]interface{}{
 		"status": "completed",
 		"stats":  stats,
-	})
+	}); err != nil {
+		log.Printf("[VERCEL TRIGGER] Failed to encode response: %v", err)
+	}
 }

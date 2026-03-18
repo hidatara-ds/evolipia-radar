@@ -134,7 +134,9 @@ func (p *openRouterProvider) doChatRequest(ctx context.Context, payload openRout
 	if err != nil {
 		return nil, err
 	}
-	defer resp.Body.Close()
+	defer func() {
+		_ = resp.Body.Close()
+	}()
 
 	if resp.StatusCode != http.StatusOK {
 		bodyBytes, _ := io.ReadAll(resp.Body)

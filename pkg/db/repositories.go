@@ -32,24 +32,7 @@ func (r *SourceRepository) List(ctx context.Context) ([]models.Source, error) {
 	}
 	defer rows.Close()
 
-	var sources []models.Source
-	for rows.Next() {
-		var s models.Source
-		var mappingJSON []byte
-		err := rows.Scan(
-			&s.ID, &s.Name, &s.Type, &s.Category, &s.URL, &mappingJSON,
-			&s.Enabled, &s.Status, &s.LastTestStatus, &s.LastTestMessage,
-			&s.CreatedAt, &s.UpdatedAt,
-		)
-		if err != nil {
-			return nil, err
-		}
-		if mappingJSON != nil {
-			s.MappingJSON = mappingJSON
-		}
-		sources = append(sources, s)
-	}
-	return sources, rows.Err()
+	return r.scanSources(rows)
 }
 
 func (r *SourceRepository) GetByID(ctx context.Context, id uuid.UUID) (*models.Source, error) {
@@ -87,6 +70,10 @@ func (r *SourceRepository) GetEnabled(ctx context.Context) ([]models.Source, err
 	}
 	defer rows.Close()
 
+	return r.scanSources(rows)
+}
+
+func (r *SourceRepository) scanSources(rows pgx.Rows) ([]models.Source, error) {
 	var sources []models.Source
 	for rows.Next() {
 		var s models.Source

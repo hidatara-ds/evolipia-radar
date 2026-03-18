@@ -2,11 +2,14 @@ package metrics
 
 import (
 	"encoding/json"
+	"log"
 	"net/http"
 	"os"
 
 	"github.com/hidatara-ds/evolipia-radar/pkg/api"
+	"github.com/hidatara-ds/evolipia-radar/pkg/config"
 	"github.com/hidatara-ds/evolipia-radar/pkg/crawler"
+	"github.com/hidatara-ds/evolipia-radar/pkg/db"
 )
 
 // MetricsHandler for /metrics - Verifies system ingestion stats.
@@ -21,9 +24,19 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// This is a stub for the Vercel architecture. To keep state between serverless
-	// invocations, we would query the database here.
-	metricsData := &crawler.Metrics{}
+	// Load metrics from DB for serverless persistence
+	cfg := config.Load()
+	database, err := db.New(cfg)
+	if err != nil {
+		log.Printf("[METRICS] DB Connection failed: %v", err)
+		// Fallback to empty metrics if DB is down
+		json.NewEncoder(w).Encode(&crawler.Metrics{})
+		return
+	}
+	defer database.Close()
+
+	metricsData := crawler.NewMetrics(database.Pool)
+	metricsData.LoadFromDB(r.Context())
 
 	if dryRun := os.Getenv("DRY_RUN"); dryRun == "true" {
 		// Mock data for dry-run verification
@@ -31,5 +44,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		metricsData.FilteredArticles = 24
 	}
 
-	json.NewEncoder(w).Encode(metricsData)
+	if err := json.NewEncoder(w).Encode(metricsData); err != nil {
+		log.Printf("[METRICS] Failed to encode response: %v", err)
+	}
 }
