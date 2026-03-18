@@ -2,8 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Evolipia Radar Dashboard",
-  description: "Autonomous Web Intelligence System",
+  title: "Evolipia Radar",
+  description: "AI Research Intelligence - Your source for the latest AI/ML news and research",
+  icons: {
+    icon: "/assets/icon.png",
+    shortcut: "/assets/icon.png",
+    apple: "/assets/icon.png",
+  },
 };
 
 export default function RootLayout({
