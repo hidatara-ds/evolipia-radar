@@ -473,20 +473,6 @@
       ]
     },
     {
-      "id": "532aea5a-6abb-432a-8efb-eaffc90cb70d",
-      "title": "How we hacked McKinsey's AI platform",
-      "url": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
-      "domain": "codewall.ai",
-      "published_at": "2026-03-11T09:59:03Z",
-      "category": "tech",
-      "score": 0.2979161397937583,
-      "tldr": "How we hacked McKinsey's AI platform",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "33778b78-f819-4f8e-bbce-15d65ed72af4",
       "title": "US Job Market Visualizer",
       "url": "https://karpathy.ai/jobs",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e9f706d5-9f98-4be4-b54f-68d7c3a1c22e",
+      "title": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "url": "https://news.slashdot.org/story/26/03/16/0539240/fsf-threatens-anthropic-over-infringed-copyright-share-your-llms-freely",
+      "domain": "news.slashdot.org",
+      "published_at": "2026-03-16T05:44:28Z",
+      "category": "tech",
+      "score": 0.2523690588714587,
+      "tldr": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-18T09:42:24.434107647Z",
+  "last_updated": "2026-03-18T10:41:31.99259894Z",
   "total_count": 100
 }
