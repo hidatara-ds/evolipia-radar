@@ -943,6 +943,20 @@
       ]
     },
     {
+      "id": "6beab50d-e1bb-4791-a33a-8a29713119e4",
+      "title": "Cockpit is a web-based graphical interface for servers",
+      "url": "https://github.com/cockpit-project/cockpit",
+      "domain": "github.com",
+      "published_at": "2026-03-19T20:33:02Z",
+      "category": "tech",
+      "score": 0.26358696967495177,
+      "tldr": "Cockpit is a web-based graphical interface for servers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "64122a97-651f-4362-b9bb-6cdd48cc25dd",
       "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
       "url": "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level",
@@ -993,6 +1007,20 @@
       "category": "tech",
       "score": 0.2624895912533947,
       "tldr": "Nvidia NemoClaw",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "13dae3b2-e5a6-4eef-976e-99ee8905d8b0",
+      "title": "No AI in Node.js Core",
+      "url": "https://github.com/indutny/no-ai-in-nodejs-core",
+      "domain": "github.com",
+      "published_at": "2026-03-19T19:35:37Z",
+      "category": "tech",
+      "score": 0.2619998306059027,
+      "tldr": "No AI in Node.js Core",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1238,17 +1266,17 @@
       ]
     },
     {
-      "id": "789770d7-e457-4465-a52e-a53963b0fd76",
-      "title": "Innocent woman jailed after being misidentified using AI facial recognition",
-      "url": "https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case",
-      "domain": "grandforksherald.com",
-      "published_at": "2026-03-12T20:55:51Z",
+      "id": "c70f445d-3ac6-4b87-aa09-2f464a8b2fdb",
+      "title": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
+      "url": "https://esolang-bench.vercel.app/",
+      "domain": "esolang-bench.vercel.app",
+      "published_at": "2026-03-19T21:01:03Z",
       "category": "tech",
-      "score": 0.2542161588474848,
-      "tldr": "Innocent woman jailed after being misidentified using AI facial recognition",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.2540331261177719,
+      "tldr": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "general_ai"
+        "llm"
       ]
     },
     {
@@ -1391,36 +1419,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "d071a3f4-f554-4b2a-ae3c-1639d54d2bed",
-      "title": "Store birth date in systemd for age verification",
-      "url": "https://github.com/systemd/systemd/pull/40954",
-      "domain": "github.com",
-      "published_at": "2026-03-19T07:59:40Z",
-      "category": "tech",
-      "score": 0.2523558364306977,
-      "tldr": "Store birth date in systemd for age verification",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "91941ef3-3915-4e23-8fd8-a72a4df9f502",
-      "title": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
-      "url": "https://github.com/jtsylve/spice-crypt",
-      "domain": "github.com",
-      "published_at": "2026-03-15T07:11:32Z",
-      "category": "tech",
-      "score": 0.2523274996100014,
-      "tldr": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-19T20:35:45.017544907Z",
+  "last_updated": "2026-03-19T21:26:01.869072769Z",
   "total_count": 100
 }
