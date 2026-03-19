@@ -207,6 +207,21 @@
       ]
     },
     {
+      "id": "6bcf0fd2-9c98-4248-ba6c-3a624cf5203f",
+      "title": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training",
+      "url": "https://github.com/alainnothere/llm-circuit-finder",
+      "domain": "github.com",
+      "published_at": "2026-03-18T21:31:12Z",
+      "category": "tech",
+      "score": 0.3886954166341147,
+      "tldr": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "da5a093c-5e67-4da9-8a08-76d68228d613",
       "title": "Kotlin creator's new language: talk to LLMs in specs, not English",
       "url": "https://codespeak.dev/",
@@ -1403,22 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "83296bfd-fb6c-4e09-ace1-59d705e57aec",
-      "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
-      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
-      "domain": "github.com",
-      "published_at": "2026-03-16T17:13:27Z",
-      "category": "tech",
-      "score": 0.25290328852329247,
-      "tldr": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-18T23:49:49.620761575Z",
+  "last_updated": "2026-03-19T01:11:00.108992595Z",
   "total_count": 100
 }
