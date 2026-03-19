@@ -985,20 +985,6 @@
       ]
     },
     {
-      "id": "1eddf095-c3fc-4d02-bb34-23d0072d90ad",
-      "title": "Show HN: Aurion OS – A 32-bit GUI operating system written from scratch in C",
-      "url": "https://github.com/Luka12-dev/AurionOS",
-      "domain": "github.com",
-      "published_at": "2026-03-12T18:33:30Z",
-      "category": "tech",
-      "score": 0.2619929528182054,
-      "tldr": "Show HN: Aurion OS – A 32-bit GUI operating system written from scratch in C",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "57542a8c-5a2f-432d-a681-e920bf7c1481",
       "title": "RX – a new random-access JSON alternative",
       "url": "https://github.com/creationix/rx",
@@ -1210,20 +1196,6 @@
       ]
     },
     {
-      "id": "373bee56-22d0-4db5-aa30-c22f23915c60",
-      "title": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
-      "url": "https://ionrouter.io",
-      "domain": "ionrouter.io",
-      "published_at": "2026-03-12T18:52:36Z",
-      "category": "tech",
-      "score": 0.25435791359871074,
-      "tldr": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a6d94968-e25b-4f81-86ce-5518edb2f53e",
       "title": "Show HN: Han – A Korean programming language written in Rust",
       "url": "https://github.com/xodn348/han",
@@ -1319,6 +1291,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "e569c029-7ca8-47a7-8f98-cb4fd3037146",
+      "title": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
+      "url": "https://qlabs.sh/10x",
+      "domain": "qlabs.sh",
+      "published_at": "2026-03-19T18:51:25Z",
+      "category": "tech",
+      "score": 0.25331933406339197,
+      "tldr": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
       ]
     },
     {
@@ -1418,8 +1405,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e6e9e0ae-3b89-4a65-97ba-106e51b393ac",
+      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "url": "https://arxiv.org/abs/2603.15381",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-17T21:42:39Z",
+      "category": "tech",
+      "score": 0.25231508530046015,
+      "tldr": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-19T18:09:40.090286671Z",
+  "last_updated": "2026-03-19T19:26:54.138419656Z",
   "total_count": 100
 }
