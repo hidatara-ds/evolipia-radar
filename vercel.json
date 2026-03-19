@@ -32,6 +32,10 @@
       "dest": "/api/metrics/index.go"
     },
     {
+      "src": "/v1/settings",
+      "dest": "/api/settings/index.go"
+    },
+    {
       "src": "/v2/crawl/trigger",
       "dest": "/api/trigger/index.go"
     },
@@ -50,7 +54,7 @@
         },
         {
           "key": "Access-Control-Allow-Methods",
-          "value": "GET, OPTIONS"
+          "value": "GET, POST, OPTIONS"
         },
         {
           "key": "Access-Control-Allow-Headers",
