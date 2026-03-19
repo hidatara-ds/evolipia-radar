@@ -649,20 +649,6 @@
       ]
     },
     {
-      "id": "016bb7ad-b6c9-4b4b-b2bd-f6cd7051886a",
-      "title": "Are LLM merge rates not getting better?",
-      "url": "https://entropicthoughts.com/no-swe-bench-improvement",
-      "domain": "entropicthoughts.com",
-      "published_at": "2026-03-12T11:49:05Z",
-      "category": "tech",
-      "score": 0.29116654495722505,
-      "tldr": "Are LLM merge rates not getting better?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "2a315ef9-73bd-4be9-a1b3-763d8e9422ad",
       "title": "Show HN: Axe – A 12MB binary that replaces your AI framework",
       "url": "https://github.com/jrswab/axe",
@@ -1097,20 +1083,6 @@
       ]
     },
     {
-      "id": "c13783bd-af71-4921-9fa4-9164a305604d",
-      "title": "Are LLMs not getting better?",
-      "url": "https://entropicthoughts.com/no-swe-bench-improvement",
-      "domain": "entropicthoughts.com",
-      "published_at": "2026-03-12T11:49:05Z",
-      "category": "tech",
-      "score": 0.26106372473212186,
-      "tldr": "Are LLMs not getting better?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "fe8f36ce-e385-409a-b70b-1f9a5648c546",
       "title": "FFmpeg 8.1",
       "url": "https://ffmpeg.org/index.html",
@@ -1418,8 +1390,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e484a8a3-5b75-4493-94dc-e1f4ba38ac38",
+      "title": "Language Model Teams as Distrbuted Systems",
+      "url": "https://arxiv.org/abs/2603.12229",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-16T17:19:13Z",
+      "category": "tech",
+      "score": 0.2536638418650508,
+      "tldr": "Language Model Teams as Distrbuted Systems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6012a1a8-37f1-401e-910c-d576eb16d566",
+      "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
+      "url": "https://github.com/adammiribyan/zeroboot",
+      "domain": "github.com",
+      "published_at": "2026-03-17T13:43:44Z",
+      "category": "tech",
+      "score": 0.2535140288592338,
+      "tldr": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-19T11:06:58.014372961Z",
+  "last_updated": "2026-03-19T11:56:17.051168464Z",
   "total_count": 100
 }
