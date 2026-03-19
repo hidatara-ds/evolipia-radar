@@ -65,6 +65,9 @@ const TOPICS = [
   { id: "llm", label: "LLM", icon: <BrainCircuit className="w-4 h-4" /> },
   { id: "vision", label: "Vision", icon: <Zap className="w-4 h-4" /> },
   { id: "data", label: "Data", icon: <Database className="w-4 h-4" /> },
+  { id: "robotics", label: "Robotics", icon: <Zap className="w-4 h-4" /> },
+  { id: "credits", label: "Free Credits", icon: <Sparkles className="w-4 h-4" /> },
+  { id: "ide", label: "IDE", icon: <FileText className="w-4 h-4" /> },
   { id: "security", label: "Security", icon: <Shield className="w-4 h-4" /> },
 ] as const;
 
@@ -264,12 +267,18 @@ export default function Dashboard() {
           </div>
           
           <div className="relative lg:w-1/3 flex justify-center">
-            <div className="absolute inset-0 bg-emerald-500/20 blur-[80px] rounded-full animate-pulse" />
-            <img 
-              src="/assets/maskot1.png" 
-              alt="Evoli Mascot" 
-              className="w-48 h-48 lg:w-64 lg:h-64 object-contain relative drop-shadow-[0_0_30px_rgba(16,185,129,0.3)] animate-float"
-            />
+            <div className="absolute inset-0 bg-emerald-500/10 blur-[100px] rounded-full animate-pulse" />
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-emerald-500/20 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000" />
+              <img 
+                src="/assets/maskot1.png" 
+                alt="Evoli Mascot" 
+                className="w-48 h-48 lg:w-64 lg:h-64 rounded-full object-cover relative border-4 border-emerald-500/20 bg-emerald-500/5 shadow-[0_0_50px_rgba(16,185,129,0.2)] animate-float"
+              />
+              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-4 py-1.5 bg-black/80 backdrop-blur-md rounded-full border border-emerald-500/20 text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 opacity-0 group-hover:opacity-100 transition-all">
+                Agent Evoli
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -281,26 +290,26 @@ export default function Dashboard() {
             label="Sources Crawled" 
             value={metrics?.articles_processed || 0} 
             icon={<FileText className="w-5 h-5" />}
-            color="emerald" 
+            color="standard" 
           />
           <PremiumMetricCard 
             label="Noise Suppressed" 
             value={metrics?.filtered_articles || 0} 
             icon={<Shield className="w-5 h-5" />}
-            color="rose" 
+            color="standard" 
           />
           <PremiumMetricCard 
             label="Intelligence Clusters" 
             value={metrics?.clusters || 0} 
             icon={<BrainCircuit className="w-5 h-5" />}
-            color="blue" 
+            color="active" 
             trend="+12% today"
           />
           <PremiumMetricCard 
             label="Global Impact Score" 
             value={(metrics?.avg_cluster_score || 0).toFixed(1)} 
-            icon={<Activity className="w-5 h-5" />}
-            color="amber" 
+            icon={<TrendingUp className="w-5 h-5" />}
+            color="standard" 
           />
         </div>
 
@@ -527,10 +536,8 @@ export default function Dashboard() {
 
 function PremiumMetricCard({ label, value, icon, color, trend }: any) {
   const colors: any = {
-    emerald: "from-emerald-500/10 to-emerald-500/5 hover:border-emerald-500/20 text-emerald-400",
-    rose: "from-rose-500/10 to-rose-500/5 hover:border-rose-500/20 text-rose-400",
-    blue: "from-blue-500/10 to-blue-500/5 hover:border-blue-500/20 text-blue-400",
-    amber: "from-amber-500/10 to-amber-500/5 hover:border-amber-500/20 text-amber-400",
+    standard: "from-white/5 to-white/[0.02] border-white/5 text-slate-400 group-hover:border-emerald-500/20",
+    active: "from-emerald-500/10 to-emerald-500/[0.02] border-emerald-500/20 text-emerald-400 group-hover:border-emerald-500/40",
   };
 
   return (
