@@ -377,20 +377,6 @@
       ]
     },
     {
-      "id": "5b49b38d-f931-42ed-a265-b80b7e73376d",
-      "title": "Executing programs inside transformers with exponentially faster inference",
-      "url": "https://www.percepta.ai/blog/can-llms-be-computers",
-      "domain": "percepta.ai",
-      "published_at": "2026-03-12T09:17:56Z",
-      "category": "tech",
-      "score": 0.3265045312119175,
-      "tldr": "Executing programs inside transformers with exponentially faster inference",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "27bb6f84-d1c7-47bf-8435-805e2bcac66b",
       "title": "Show HN: Reprompt – Score your AI coding prompts with NLP papers",
       "url": "https://github.com/reprompt-dev/reprompt",
@@ -671,20 +657,6 @@
       "category": "tech",
       "score": 0.29116654495722505,
       "tldr": "Are LLM merge rates not getting better?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4d215f65-c3b0-46b6-8c46-03af52effd93",
-      "title": "I don't use LLMs for programming",
-      "url": "https://neilmadden.blog/2026/03/02/why-i-dont-use-llms-for-programming",
-      "domain": "neilmadden.blog",
-      "published_at": "2026-03-12T09:51:51Z",
-      "category": "tech",
-      "score": 0.2869956744866241,
-      "tldr": "I don't use LLMs for programming",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1418,8 +1390,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "212b1682-c809-4541-97cd-9862bd615fe9",
+      "title": "Skillfile, the declarative skill manager, now with search for 110K+ skills",
+      "url": "https://github.com/eljulians/skillfile",
+      "domain": "github.com",
+      "published_at": "2026-03-16T13:41:39Z",
+      "category": "tech",
+      "score": 0.2536735223504154,
+      "tldr": "Skillfile, the declarative skill manager, now with search for 110K+ skills",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e484a8a3-5b75-4493-94dc-e1f4ba38ac38",
+      "title": "Language Model Teams as Distrbuted Systems",
+      "url": "https://arxiv.org/abs/2603.12229",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-16T17:19:13Z",
+      "category": "tech",
+      "score": 0.2536638418650508,
+      "tldr": "Language Model Teams as Distrbuted Systems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-19T09:07:22.688012461Z",
+  "last_updated": "2026-03-19T10:05:32.291128433Z",
   "total_count": 100
 }
