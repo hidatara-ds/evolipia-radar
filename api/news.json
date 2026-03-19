@@ -406,6 +406,20 @@
       ]
     },
     {
+      "id": "cbc19238-c10c-454e-b2c6-aee39d936e02",
+      "title": "Show HN: ATO – a GUI to see and fix what your LLM agents configured",
+      "url": "https://github.com/WillNigri/Agentic-Tool-Optimization",
+      "domain": "github.com",
+      "published_at": "2026-03-19T00:28:05Z",
+      "category": "tech",
+      "score": 0.3256923831273918,
+      "tldr": "Show HN: ATO – a GUI to see and fix what your LLM agents configured",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "cf427beb-8175-42b0-aacb-81277b26e73f",
       "title": "AutoHarness: Improving LLM agents by automatically synthesizing a code harness",
       "url": "https://arxiv.org/abs/2603.03329",
@@ -562,6 +576,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "5b6ab128-978c-4201-a272-e936b449b189",
+      "title": "Ask HN: How do you deal with people who trust LLMs?",
+      "url": "https://news.ycombinator.com/item?id=47433702",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-03-19T01:37:35Z",
+      "category": "tech",
+      "score": 0.29942117419914394,
+      "tldr": "Ask HN: How do you deal with people who trust LLMs?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -803,6 +831,20 @@
       ]
     },
     {
+      "id": "0748dfc3-bd80-48b4-9fc1-eccc0316c815",
+      "title": "Autoresearch for SAT Solvers",
+      "url": "https://github.com/iliazintchenko/agent-sat",
+      "domain": "github.com",
+      "published_at": "2026-03-19T00:40:32Z",
+      "category": "tech",
+      "score": 0.2760102669174553,
+      "tldr": "Autoresearch for SAT Solvers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "592a9423-c38b-42d8-8617-fb42d988ed88",
       "title": "Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act",
       "url": "https://github.com/upper-up/meta-lobbying-and-other-findings",
@@ -1021,6 +1063,20 @@
       "category": "tech",
       "score": 0.2619929528182054,
       "tldr": "Show HN: Aurion OS – A 32-bit GUI operating system written from scratch in C",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "57542a8c-5a2f-432d-a681-e920bf7c1481",
+      "title": "RX – a new random-access JSON alternative",
+      "url": "https://github.com/creationix/rx",
+      "domain": "github.com",
+      "published_at": "2026-03-18T23:58:05Z",
+      "category": "tech",
+      "score": 0.261668378292825,
+      "tldr": "RX – a new random-access JSON alternative",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1362,64 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e484a8a3-5b75-4493-94dc-e1f4ba38ac38",
-      "title": "Language Model Teams as Distrbuted Systems",
-      "url": "https://arxiv.org/abs/2603.12229",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-16T17:19:13Z",
-      "category": "tech",
-      "score": 0.2536638418650508,
-      "tldr": "Language Model Teams as Distrbuted Systems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6012a1a8-37f1-401e-910c-d576eb16d566",
-      "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
-      "url": "https://github.com/adammiribyan/zeroboot",
-      "domain": "github.com",
-      "published_at": "2026-03-17T13:43:44Z",
-      "category": "tech",
-      "score": 0.2535140288592338,
-      "tldr": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b68ccfbe-225f-4309-8fb0-b0d7981deaa5",
-      "title": "Event Publisher enables event integration between Keycloak and OpenFGA",
-      "url": "https://github.com/embesozzi/keycloak-openfga-event-publisher",
-      "domain": "github.com",
-      "published_at": "2026-03-16T14:21:07Z",
-      "category": "tech",
-      "score": 0.2532860901249413,
-      "tldr": "Event Publisher enables event integration between Keycloak and OpenFGA",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
-      "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "url": "https://github.com/peters/horizon",
-      "domain": "github.com",
-      "published_at": "2026-03-17T18:14:24Z",
-      "category": "tech",
-      "score": 0.2532025853934814,
-      "tldr": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-19T01:11:00.108992595Z",
+  "last_updated": "2026-03-19T03:59:33.617196676Z",
   "total_count": 100
 }
