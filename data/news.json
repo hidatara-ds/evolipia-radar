@@ -719,6 +719,20 @@
       ]
     },
     {
+      "id": "63594c9e-fe40-4367-b787-6aaa834b7e88",
+      "title": "2% of ICML papers desk rejected because the authors used LLM in their reviews",
+      "url": "https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies",
+      "domain": "blog.icml.cc",
+      "published_at": "2026-03-19T10:17:46Z",
+      "category": "tech",
+      "score": 0.28070784771405083,
+      "tldr": "2% of ICML papers desk rejected because the authors used LLM in their reviews",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8aac5bc8-a372-4170-bf29-050aab9acd89",
       "title": "If you thought the code writing speed was your problem; you have bigger problems",
       "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
@@ -1404,22 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e484a8a3-5b75-4493-94dc-e1f4ba38ac38",
-      "title": "Language Model Teams as Distrbuted Systems",
-      "url": "https://arxiv.org/abs/2603.12229",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-16T17:19:13Z",
-      "category": "tech",
-      "score": 0.2536638418650508,
-      "tldr": "Language Model Teams as Distrbuted Systems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-19T10:05:32.291128433Z",
+  "last_updated": "2026-03-19T11:06:58.014372961Z",
   "total_count": 100
 }
