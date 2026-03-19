@@ -8,7 +8,6 @@ import (
 	"github.com/hidatara-ds/evolipia-radar/pkg/api"
 	"github.com/hidatara-ds/evolipia-radar/pkg/config"
 	"github.com/hidatara-ds/evolipia-radar/pkg/db"
-	"github.com/hidatara-ds/evolipia-radar/pkg/models"
 )
 
 // Handler handles the /v1/settings route on Vercel
@@ -52,10 +51,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		for key, val := range settings {
 			// Basic validation/filtering of keys
 			if key == "x_api_key" || key == "threads_api_key" || key == "openrouter_api_key" {
-				err := repo.Set(r.Context(), models.Setting{
-					Key:   key,
-					Value: val,
-				})
+				err := repo.Set(r.Context(), key, val)
 				if err != nil {
 					log.Printf("[VERCEL SETTINGS] Failed to set %s: %v", key, err)
 				}
