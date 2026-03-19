@@ -2,6 +2,7 @@ package crawler
 
 import (
 	"context"
+	"encoding/json"
 	"log"
 	"sync"
 	"time"
@@ -49,10 +50,14 @@ func (m *Metrics) LoadFromDB(ctx context.Context) {
 	m.mu.Lock()
 	defer m.mu.Unlock()
 
-	query := `SELECT articles_processed, filtered_articles, api_hits FROM global_metrics WHERE id = 1`
-	err := m.db.QueryRow(ctx, query).Scan(&m.ArticlesProcessed, &m.FilteredArticles, &m.APIHits)
+	query := `SELECT articles_processed, filtered_articles, api_hits, clusters_count, avg_cluster_score, top_cluster_titles FROM global_metrics WHERE id = 1`
+	var titlesJSON []byte
+	err := m.db.QueryRow(ctx, query).Scan(&m.ArticlesProcessed, &m.FilteredArticles, &m.APIHits, &m.ClustersCount, &m.AvgClusterScore, &titlesJSON)
 	if err != nil {
 		log.Printf("[METRICS] Failed to load from DB: %v", err)
+	}
+	if titlesJSON != nil {
+		_ = json.Unmarshal(titlesJSON, &m.TopClusterTitles)
 	}
 }
 
@@ -134,3 +139,25 @@ func (b *CrawlBudget) LogStatus() {
 	defer b.mu.Unlock()
 	log.Printf("[BUDGET] Crawl Status: %d / %d allowed this hour. Cache size: %d", b.hourlyIngested, b.maxHourlyIngests, len(b.seenCache))
 }
+
+// UpdateClusterStats persists clustering stats to DB
+func (m *Metrics) UpdateClusterStats(ctx context.Context, count int, avgScore float64, titles []string) {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+	m.ClustersCount = count
+	m.AvgClusterScore = avgScore
+	m.TopClusterTitles = titles
+
+	if m.db != nil {
+		titlesJSON, _ := json.Marshal(titles)
+		_, err := m.db.Exec(ctx, `
+			UPDATE global_metrics 
+			SET clusters_count = $1, avg_cluster_score = $2, top_cluster_titles = $3, updated_at = CURRENT_TIMESTAMP 
+			WHERE id = 1
+		`, count, avgScore, titlesJSON)
+		if err != nil {
+			log.Printf("[METRICS] Failed to persist cluster stats: %v", err)
+		}
+	}
+}
+

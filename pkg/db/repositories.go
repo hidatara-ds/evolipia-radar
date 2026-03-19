@@ -531,3 +531,48 @@ func (r *FetchRunRepository) Create(ctx context.Context, run *models.FetchRun) e
 	)
 	return err
 }
+
+type SettingRepository struct {
+	db *DB
+}
+
+func NewSettingRepository(db *DB) *SettingRepository {
+	return &SettingRepository{db: db}
+}
+
+func (r *SettingRepository) Get(ctx context.Context, key string) (string, error) {
+	var value string
+	err := r.db.Pool.QueryRow(ctx, `SELECT value FROM settings WHERE key = $1`, key).Scan(&value)
+	if errors.Is(err, pgx.ErrNoRows) {
+		return "", nil
+	}
+	return value, err
+}
+
+func (r *SettingRepository) Set(ctx context.Context, key, value string) error {
+	_, err := r.db.Pool.Exec(ctx, `
+		INSERT INTO settings (key, value, updated_at)
+		VALUES ($1, $2, now())
+		ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value, updated_at = now()
+	`, key, value)
+	return err
+}
+
+func (r *SettingRepository) List(ctx context.Context) (map[string]string, error) {
+	rows, err := r.db.Pool.Query(ctx, `SELECT key, value FROM settings`)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	settings := make(map[string]string)
+	for rows.Next() {
+		var k, v string
+		if err := rows.Scan(&k, &v); err != nil {
+			return nil, err
+		}
+		settings[k] = v
+	}
+	return settings, rows.Err()
+}
+

@@ -71,3 +71,10 @@ type FetchRun struct {
 	ItemsFetched  int       `json:"items_fetched"`
 	ItemsInserted int       `json:"items_inserted"`
 }
+
+type Setting struct {
+	Key       string    `json:"key"`
+	Value     string    `json:"value"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+

@@ -40,16 +40,18 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 
 	// DB Setup
 	var pool *pgxpool.Pool
+	var database *db.DB
 	if !dryRunEnv {
 		cfg := config.Load()
-		database, err := db.New(cfg)
+		dbConn, err := db.New(cfg)
 		if err != nil {
 			log.Printf("[VERCEL TRIGGER] DB Connection failed: %v", err)
 			http.Error(w, `{"error":"database connection failed"}`, http.StatusInternalServerError)
 			return
 		}
-		defer database.Close()
-		pool = database.Pool
+		defer dbConn.Close()
+		database = dbConn
+		pool = dbConn.Pool
 	}
 
 	clusterService := ai.NewClusterService(aiService, pool)
@@ -61,7 +63,8 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	metricsData := crawler.NewMetrics(pool)
 	metricsData.LoadFromDB(r.Context()) // Load initial state
 
-	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, pool, os.Getenv("DRY_RUN") == "true")
+	summarizer := crawler.NewSummarizer(aiService, database)
+	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, database, dryRunEnv, summarizer)
 
 	// Executing the cycle synchronously for Vercel Serverless
 	stats := botOrchestrator.RunCycle(context.Background())

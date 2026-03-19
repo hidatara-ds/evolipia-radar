@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/hidatara-ds/evolipia-radar/pkg/ai"
 	"github.com/hidatara-ds/evolipia-radar/pkg/cluster"
-	"github.com/jackc/pgx/v5/pgxpool"
+	"github.com/hidatara-ds/evolipia-radar/pkg/db"
 )
 
 // Orchestrator manages the crawling lifecycle and agents.
@@ -21,23 +21,28 @@ type Orchestrator struct {
 	inMemClusterSvc *cluster.Service
 	DryRun          bool
 	metrics         *Metrics
+	summarizer      *Summarizer
 }
 
 // NewOrchestrator wires together all agents and binds them to the AI clustering brain.
-func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.Service, metrics *Metrics, pool *pgxpool.Pool, dryRun bool) *Orchestrator {
+func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.Service, metrics *Metrics, database *db.DB, dryRun bool, summarizer *Summarizer) *Orchestrator {
 	// Initialize with strict zero-cost budget: 50 requests per hour max
-	budget := NewCrawlBudget(50, metrics, pool)
+	budget := NewCrawlBudget(50, metrics, database.Pool)
 
 	return &Orchestrator{
 		agents: []DiscoveryAgent{
 			NewRSSAgent(),
 			NewTrendingAgent(),
+			NewRedditAgent(),
+			NewSocialAgent("X", database),
+			NewSocialAgent("Threads", database),
 		},
 		budget:          budget,
 		clusterService:  clusterSvc,
 		inMemClusterSvc: inMemSvc,
 		DryRun:          dryRun,
 		metrics:         metrics,
+		summarizer:      summarizer,
 	}
 }
 
@@ -122,6 +127,11 @@ func (o *Orchestrator) RunCycle(ctx context.Context) map[string]int {
 				if err != nil {
 					log.Printf("[ORCHESTRATOR] Cluster pipeline failed for article %s: %v", art.Link, err)
 				}
+				
+				// Phase 4: Dynamic AI Summarization
+				if o.summarizer != nil {
+					_ = o.summarizer.Process(ctx, artID, art.Title, art.Content)
+				}
 			}
 		}
 	}
@@ -160,11 +170,11 @@ func (o *Orchestrator) UpdateClusterMetrics(ctx context.Context) {
 		}
 	}
 
-	o.metrics.ClustersCount = clustersCount
-	if clustersCount > 0 {
-		o.metrics.AvgClusterScore = totalScore / float64(len(titles))
-	} else {
-		o.metrics.AvgClusterScore = 0
+	avgScore := 0.0
+	if clustersCount > 0 && len(titles) > 0 {
+		avgScore = totalScore / float64(len(titles))
 	}
-	o.metrics.TopClusterTitles = titles
+
+	// Persist to DB so it survives restarts
+	o.metrics.UpdateClusterStats(ctx, clustersCount, avgScore, titles)
 }
