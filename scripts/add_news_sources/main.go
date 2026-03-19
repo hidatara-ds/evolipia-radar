@@ -5,6 +5,7 @@ package main
 import (
 	"context"
 	"log"
+	"strings"
 
 	"github.com/hidatara-ds/evolipia-radar/pkg/config"
 	"github.com/hidatara-ds/evolipia-radar/pkg/db"
@@ -344,9 +345,4 @@ func main() {
 	log.Printf("   ❌ Failed: %d sources", failed)
 	log.Printf("   📦 Total sources configured: %d", len(newsSources))
 	log.Println(strings.Repeat("=", 60))
-}
-
-// Helper function to repeat string
-func (s string) repeat(count int) string {
-	return strings.Repeat(s, count)
 }
