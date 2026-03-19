@@ -179,6 +179,20 @@
       ]
     },
     {
+      "id": "c862c8ef-7dec-4cd8-b03e-a53eac72c44b",
+      "title": "Afroman found not liable in defamation case",
+      "url": "https://nypost.com/2026/03/18/us-news/afroman-found-not-liable-in-bizarre-ohio-defamation-case",
+      "domain": "nypost.com",
+      "published_at": "2026-03-19T09:51:56Z",
+      "category": "tech",
+      "score": 0.4677616192013566,
+      "tldr": "Afroman found not liable in defamation case",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3ca445f8-c475-4490-9c6e-b7a06fbbada4",
       "title": "Rob Pike's Rules of Programming (1989)",
       "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html",
@@ -222,20 +236,6 @@
       ]
     },
     {
-      "id": "da5a093c-5e67-4da9-8a08-76d68228d613",
-      "title": "Kotlin creator's new language: talk to LLMs in specs, not English",
-      "url": "https://codespeak.dev/",
-      "domain": "codespeak.dev",
-      "published_at": "2026-03-12T14:22:43Z",
-      "category": "tech",
-      "score": 0.38511559483513164,
-      "tldr": "Kotlin creator's new language: talk to LLMs in specs, not English",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "5cdbf50b-a9b3-4df6-859c-58dfcb21571e",
       "title": "The American Healthcare Conundrum",
       "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
@@ -273,20 +273,6 @@
       "category": "tech",
       "score": 0.3651114628323856,
       "tldr": "Asian governments roll out 4-day weeks, WFH to solve fuel crisis caused by war",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "869bb9c7-7633-4c01-8383-881ec240bbc4",
-      "title": "ATMs didn’t kill bank teller jobs, but the iPhone did",
-      "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
-      "domain": "davidoks.blog",
-      "published_at": "2026-03-12T14:48:57Z",
-      "category": "tech",
-      "score": 0.3553440299702873,
-      "tldr": "ATMs didn’t kill bank teller jobs, but the iPhone did",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -646,20 +632,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "fbd7f2cb-07f8-4547-b2a7-ae596969f17b",
-      "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
-      "url": "https://codespeak.dev/",
-      "domain": "codespeak.dev",
-      "published_at": "2026-03-12T14:22:43Z",
-      "category": "tech",
-      "score": 0.285093412271852,
-      "tldr": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1418,8 +1390,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e9f706d5-9f98-4be4-b54f-68d7c3a1c22e",
+      "title": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "url": "https://news.slashdot.org/story/26/03/16/0539240/fsf-threatens-anthropic-over-infringed-copyright-share-your-llms-freely",
+      "domain": "news.slashdot.org",
+      "published_at": "2026-03-16T05:44:28Z",
+      "category": "tech",
+      "score": 0.2523690588714587,
+      "tldr": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d071a3f4-f554-4b2a-ae3c-1639d54d2bed",
+      "title": "Store birth date in systemd for age verification",
+      "url": "https://github.com/systemd/systemd/pull/40954",
+      "domain": "github.com",
+      "published_at": "2026-03-19T07:59:40Z",
+      "category": "tech",
+      "score": 0.2523558364306977,
+      "tldr": "Store birth date in systemd for age verification",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-19T14:02:56.789394703Z",
+  "last_updated": "2026-03-19T15:11:18.102248463Z",
   "total_count": 100
 }
