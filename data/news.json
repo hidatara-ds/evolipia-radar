@@ -466,21 +466,6 @@
       ]
     },
     {
-      "id": "d73cd1ab-608d-4410-8452-29714b05f4af",
-      "title": "AI engineer uses ChatGPT+AlphaFold to develop cancer vaccine for his dog",
-      "url": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7",
-      "domain": "theaustralian.com.au",
-      "published_at": "2026-03-13T20:03:36Z",
-      "category": "tech",
-      "score": 0.3018808343257583,
-      "tldr": "AI engineer uses ChatGPT+AlphaFold to develop cancer vaccine for his dog",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "4a9accde-5382-483e-802c-430b03a34194",
       "title": "$96 3D-printed rocket that recalculates its mid-air trajectory using a $5 sensor",
       "url": "https://github.com/novatic14/MANPADS-System-Launcher-and-Rocket",
@@ -1419,8 +1404,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "91941ef3-3915-4e23-8fd8-a72a4df9f502",
+      "title": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
+      "url": "https://github.com/jtsylve/spice-crypt",
+      "domain": "github.com",
+      "published_at": "2026-03-15T07:11:32Z",
+      "category": "tech",
+      "score": 0.2523274996100014,
+      "tldr": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-20T19:31:45.668994777Z",
+  "last_updated": "2026-03-20T20:20:51.913374922Z",
   "total_count": 100
 }
