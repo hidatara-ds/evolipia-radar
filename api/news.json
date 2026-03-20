@@ -1055,20 +1055,6 @@
       ]
     },
     {
-      "id": "733cf3f7-f565-447a-bc4e-cfb8f3532a54",
-      "title": "Hammerspoon",
-      "url": "https://github.com/Hammerspoon/hammerspoon",
-      "domain": "github.com",
-      "published_at": "2026-03-13T18:34:12Z",
-      "category": "tech",
-      "score": 0.25992944763126724,
-      "tldr": "Hammerspoon",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "cd388fc0-ce33-4abe-988e-d653668a6fc8",
       "title": "Give Django your time and money, not your tokens",
       "url": "https://www.better-simple.com/django/2026/03/16/give-django-your-time-and-money",
@@ -1419,8 +1405,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e6e9e0ae-3b89-4a65-97ba-106e51b393ac",
+      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "url": "https://arxiv.org/abs/2603.15381",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-17T21:42:39Z",
+      "category": "tech",
+      "score": 0.25231508530046015,
+      "tldr": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-20T17:58:28.476463627Z",
+  "last_updated": "2026-03-20T18:41:04.644206954Z",
   "total_count": 100
 }
