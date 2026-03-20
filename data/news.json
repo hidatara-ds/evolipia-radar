@@ -607,20 +607,6 @@
       ]
     },
     {
-      "id": "130737a5-1e0a-41ee-8d3b-c2b249f0f28e",
-      "title": "Bucketsquatting is finally dead",
-      "url": "https://onecloudplease.com/blog/bucketsquatting-is-finally-dead",
-      "domain": "onecloudplease.com",
-      "published_at": "2026-03-13T08:31:33Z",
-      "category": "tech",
-      "score": 0.2931904711151147,
-      "tldr": "Bucketsquatting is finally dead",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "db03ad62-e0ae-4ace-bb4d-3daee2db1824",
       "title": "OVH forgot they donated documentation hosting to Pandas",
       "url": "https://github.com/pandas-dev/pandas/issues/64584",
@@ -1419,8 +1405,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ad07c7d9-4dfd-480d-82a8-99d629680aaf",
+      "title": "A survey on LLMs for spreadsheet intelligence",
+      "url": "https://orbilu.uni.lu/handle/10993/67962",
+      "domain": "orbilu.uni.lu",
+      "published_at": "2026-03-19T16:47:02Z",
+      "category": "tech",
+      "score": 0.25240500104657143,
+      "tldr": "A survey on LLMs for spreadsheet intelligence",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-20T08:01:23.119231685Z",
+  "last_updated": "2026-03-20T08:45:52.312493367Z",
   "total_count": 100
 }
