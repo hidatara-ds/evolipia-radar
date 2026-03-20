@@ -335,20 +335,6 @@
       ]
     },
     {
-      "id": "060925d6-8557-455a-87c7-402dfa5c880d",
-      "title": "The Wyden Siren Goes Off Again: We’ll Be “Stunned” By What the NSA Is Doing",
-      "url": "https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702",
-      "domain": "techdirt.com",
-      "published_at": "2026-03-13T16:13:30Z",
-      "category": "tech",
-      "score": 0.3326232217603665,
-      "tldr": "The Wyden Siren Goes Off Again: We’ll Be “Stunned” By What the NSA Is Doing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "27bb6f84-d1c7-47bf-8435-805e2bcac66b",
       "title": "Show HN: Reprompt – Score your AI coding prompts with NLP papers",
       "url": "https://github.com/reprompt-dev/reprompt",
@@ -601,20 +587,6 @@
       "category": "tech",
       "score": 0.295083580424684,
       "tldr": "Chrome DevTools MCP",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "db03ad62-e0ae-4ace-bb4d-3daee2db1824",
-      "title": "OVH forgot they donated documentation hosting to Pandas",
-      "url": "https://github.com/pandas-dev/pandas/issues/64584",
-      "domain": "github.com",
-      "published_at": "2026-03-13T16:40:27Z",
-      "category": "tech",
-      "score": 0.29175947146878256,
-      "tldr": "OVH forgot they donated documentation hosting to Pandas",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -957,6 +929,20 @@
       ]
     },
     {
+      "id": "9e538550-f03d-4b61-aa58-7afc3650a5f4",
+      "title": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
+      "url": "https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers",
+      "domain": "portlandtribune.com",
+      "published_at": "2026-03-20T15:39:19Z",
+      "category": "tech",
+      "score": 0.26324852701647916,
+      "tldr": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "64122a97-651f-4362-b9bb-6cdd48cc25dd",
       "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
       "url": "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level",
@@ -1150,20 +1136,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "60f3da64-385c-4824-b4f6-1eea85281839",
-      "title": "Launch HN: Captain (YC W26) – Automated RAG for Files",
-      "url": "https://www.runcaptain.com/",
-      "domain": "runcaptain.com",
-      "published_at": "2026-03-13T15:45:33Z",
-      "category": "tech",
-      "score": 0.2563166101653598,
-      "tldr": "Launch HN: Captain (YC W26) – Automated RAG for Files",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1419,8 +1391,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "d071a3f4-f554-4b2a-ae3c-1639d54d2bed",
+      "title": "Store birth date in systemd for age verification",
+      "url": "https://github.com/systemd/systemd/pull/40954",
+      "domain": "github.com",
+      "published_at": "2026-03-19T07:59:40Z",
+      "category": "tech",
+      "score": 0.2523558364306977,
+      "tldr": "Store birth date in systemd for age verification",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "91941ef3-3915-4e23-8fd8-a72a4df9f502",
+      "title": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
+      "url": "https://github.com/jtsylve/spice-crypt",
+      "domain": "github.com",
+      "published_at": "2026-03-15T07:11:32Z",
+      "category": "tech",
+      "score": 0.2523274996100014,
+      "tldr": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-20T15:34:18.508138329Z",
+  "last_updated": "2026-03-20T17:10:54.929826929Z",
   "total_count": 100
 }
