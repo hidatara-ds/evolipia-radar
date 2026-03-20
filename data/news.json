@@ -350,20 +350,6 @@
       ]
     },
     {
-      "id": "cf427beb-8175-42b0-aacb-81277b26e73f",
-      "title": "AutoHarness: Improving LLM agents by automatically synthesizing a code harness",
-      "url": "https://arxiv.org/abs/2603.03329",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-13T21:13:48Z",
-      "category": "tech",
-      "score": 0.3244342699685286,
-      "tldr": "AutoHarness: Improving LLM agents by automatically synthesizing a code harness",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "e8d0a501-3f1c-40e2-af00-578e8583ebc1",
       "title": "If you thought code writing speed was your problem you have bigger problems",
       "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
@@ -740,6 +726,20 @@
       "category": "tech",
       "score": 0.2749497497505546,
       "tldr": "Meta’s Renewed Commitment to jemalloc",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8982cd15-2ddc-4598-bda0-aefb89fcb35e",
+      "title": "BYD is seeing a flood of new EV buyers",
+      "url": "https://electrek.co/2026/03/20/byd-ev-demand-surges-drivers-ditch-gas-amid-rising-oil-prices",
+      "domain": "electrek.co",
+      "published_at": "2026-03-20T18:19:58Z",
+      "category": "tech",
+      "score": 0.2727183472683526,
+      "tldr": "BYD is seeing a flood of new EV buyers",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1420,6 +1420,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-20T20:55:38.524913987Z",
+  "last_updated": "2026-03-20T21:21:33.134330994Z",
   "total_count": 100
 }
