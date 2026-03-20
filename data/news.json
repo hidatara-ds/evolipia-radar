@@ -293,20 +293,6 @@
       ]
     },
     {
-      "id": "8bdcef49-ada4-42c5-922b-b37d47b01a8a",
-      "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
-      "url": "https://github.com/Compresr-ai/Context-Gateway",
-      "domain": "github.com",
-      "published_at": "2026-03-13T17:58:22Z",
-      "category": "tech",
-      "score": 0.3357112108879124,
-      "tldr": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "bcf9e64d-d6f7-4a57-b413-b6b3f9e571da",
       "title": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
       "url": "https://github.com/gsd-build/get-shit-done",
@@ -587,6 +573,20 @@
       "category": "tech",
       "score": 0.295083580424684,
       "tldr": "Chrome DevTools MCP",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b9a45da4-e87d-4462-bb64-4d1f7559ad4e",
+      "title": "HP trialed mandatory 15-minute support call wait times (2025)",
+      "url": "https://arstechnica.com/gadgets/2025/02/misguided-hp-customer-support-approach-included-forced-15-minute-call-wait-times",
+      "domain": "arstechnica.com",
+      "published_at": "2026-03-20T13:23:56Z",
+      "category": "tech",
+      "score": 0.2923740912943962,
+      "tldr": "HP trialed mandatory 15-minute support call wait times (2025)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1421,6 +1421,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-20T17:10:54.929826929Z",
+  "last_updated": "2026-03-20T17:58:28.476463627Z",
   "total_count": 100
 }
