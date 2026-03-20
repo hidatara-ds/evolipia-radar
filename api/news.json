@@ -1168,6 +1168,20 @@
       ]
     },
     {
+      "id": "4fec28ca-6ded-4a23-9847-7879e97b0b29",
+      "title": "Attention Residuals",
+      "url": "https://github.com/MoonshotAI/Attention-Residuals",
+      "domain": "github.com",
+      "published_at": "2026-03-20T18:23:41Z",
+      "category": "tech",
+      "score": 0.2550677692988276,
+      "tldr": "Attention Residuals",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5cdb6cc2-c597-4ac2-a5e6-1560db77ec28",
       "title": "Show HN: GrobPaint: Somewhere Between MS Paint and Paint.net",
       "url": "https://github.com/groverburger/grobpaint",
@@ -1337,6 +1351,20 @@
       ]
     },
     {
+      "id": "37c4f265-d439-4f5f-a764-f10a342198d1",
+      "title": "Wikipedia RFC on banning LLM contributions",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC",
+      "domain": "en.wikipedia.org",
+      "published_at": "2026-03-20T18:30:38Z",
+      "category": "tech",
+      "score": 0.2531734480088339,
+      "tldr": "Wikipedia RFC on banning LLM contributions",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "83296bfd-fb6c-4e09-ace1-59d705e57aec",
       "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
       "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
@@ -1391,36 +1419,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "91941ef3-3915-4e23-8fd8-a72a4df9f502",
-      "title": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
-      "url": "https://github.com/jtsylve/spice-crypt",
-      "domain": "github.com",
-      "published_at": "2026-03-15T07:11:32Z",
-      "category": "tech",
-      "score": 0.2523274996100014,
-      "tldr": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e6e9e0ae-3b89-4a65-97ba-106e51b393ac",
-      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
-      "url": "https://arxiv.org/abs/2603.15381",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-17T21:42:39Z",
-      "category": "tech",
-      "score": 0.25231508530046015,
-      "tldr": "Why AI systems don't learn – On autonomous learning from cognitive science",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-20T18:41:04.644206954Z",
+  "last_updated": "2026-03-20T19:31:45.668994777Z",
   "total_count": 100
 }
