@@ -775,20 +775,6 @@
       ]
     },
     {
-      "id": "592a9423-c38b-42d8-8617-fb42d988ed88",
-      "title": "Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act",
-      "url": "https://github.com/upper-up/meta-lobbying-and-other-findings",
-      "domain": "github.com",
-      "published_at": "2026-03-13T15:14:29Z",
-      "category": "tech",
-      "score": 0.27519750066593246,
-      "tldr": "Meta Platforms: Lobbying, Dark Money, and the App Store Accountability Act",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f21ed2ad-a8d8-4257-bb37-aee24bbcf1c4",
       "title": "Meta’s Renewed Commitment to jemalloc",
       "url": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc",
@@ -1419,8 +1405,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "e9f706d5-9f98-4be4-b54f-68d7c3a1c22e",
+      "title": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "url": "https://news.slashdot.org/story/26/03/16/0539240/fsf-threatens-anthropic-over-infringed-copyright-share-your-llms-freely",
+      "domain": "news.slashdot.org",
+      "published_at": "2026-03-16T05:44:28Z",
+      "category": "tech",
+      "score": 0.2523690588714587,
+      "tldr": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-20T14:37:08.766423111Z",
+  "last_updated": "2026-03-20T15:34:18.508138329Z",
   "total_count": 100
 }
