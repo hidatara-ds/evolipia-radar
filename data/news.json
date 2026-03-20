@@ -1224,6 +1224,20 @@
       ]
     },
     {
+      "id": "7cd5dfa1-6662-4c4e-a303-c28b57c984af",
+      "title": "Ghostling",
+      "url": "https://github.com/ghostty-org/ghostling",
+      "domain": "github.com",
+      "published_at": "2026-03-20T22:11:37Z",
+      "category": "tech",
+      "score": 0.25420854286922084,
+      "tldr": "Ghostling",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c70f445d-3ac6-4b87-aa09-2f464a8b2fdb",
       "title": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
       "url": "https://esolang-bench.vercel.app/",
@@ -1405,22 +1419,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "d071a3f4-f554-4b2a-ae3c-1639d54d2bed",
-      "title": "Store birth date in systemd for age verification",
-      "url": "https://github.com/systemd/systemd/pull/40954",
-      "domain": "github.com",
-      "published_at": "2026-03-19T07:59:40Z",
-      "category": "tech",
-      "score": 0.2523558364306977,
-      "tldr": "Store birth date in systemd for age verification",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-20T22:53:27.426387673Z",
+  "last_updated": "2026-03-20T23:19:41.830268575Z",
   "total_count": 100
 }
