@@ -1280,6 +1280,20 @@
       ]
     },
     {
+      "id": "e5dc2270-d80b-44fa-9e74-9385c0c362d5",
+      "title": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
+      "url": "https://github.com/RasKrebs/sonar",
+      "domain": "github.com",
+      "published_at": "2026-03-20T09:59:56Z",
+      "category": "tech",
+      "score": 0.2539025433294304,
+      "tldr": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cc3bc494-f742-4e33-bdcd-1212fdb5c357",
       "title": "DOGE canceled NC Museum grant for HVAC systems after ChatGPT flagged it as DEI",
       "url": "https://myfox8.com/news/north-carolina/high-point/doge-canceled-high-point-museum-grant-for-hvac-systems-after-chatgpt-flagged-it-as-dei-lawsuit-alleges",
@@ -1405,22 +1419,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e9f706d5-9f98-4be4-b54f-68d7c3a1c22e",
-      "title": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
-      "url": "https://news.slashdot.org/story/26/03/16/0539240/fsf-threatens-anthropic-over-infringed-copyright-share-your-llms-freely",
-      "domain": "news.slashdot.org",
-      "published_at": "2026-03-16T05:44:28Z",
-      "category": "tech",
-      "score": 0.2523690588714587,
-      "tldr": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-20T11:51:08.364824545Z",
+  "last_updated": "2026-03-20T12:33:36.935037369Z",
   "total_count": 100
 }
