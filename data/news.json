@@ -452,6 +452,21 @@
       ]
     },
     {
+      "id": "92a4165f-d957-4bd9-bbe6-8db9c6dd20b5",
+      "title": "Covenant-72B is the largest decentralized LLM pre-training run in history",
+      "url": "https://twitter.com/opentensor/status/2032567840189096404",
+      "domain": "twitter.com",
+      "published_at": "2026-03-20T21:39:57Z",
+      "category": "tech",
+      "score": 0.3015690898999613,
+      "tldr": "Covenant-72B is the largest decentralized LLM pre-training run in history",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "4a9accde-5382-483e-802c-430b03a34194",
       "title": "$96 3D-printed rocket that recalculates its mid-air trajectory using a $5 sensor",
       "url": "https://github.com/novatic14/MANPADS-System-Launcher-and-Rocket",
@@ -1404,22 +1419,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "91941ef3-3915-4e23-8fd8-a72a4df9f502",
-      "title": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
-      "url": "https://github.com/jtsylve/spice-crypt",
-      "domain": "github.com",
-      "published_at": "2026-03-15T07:11:32Z",
-      "category": "tech",
-      "score": 0.2523274996100014,
-      "tldr": "SpiceCrypt: A Python library for decrypting LTspice encrypted model files",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-20T21:51:37.377698912Z",
+  "last_updated": "2026-03-20T22:17:38.13128825Z",
   "total_count": 100
 }
