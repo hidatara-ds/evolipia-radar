@@ -1141,6 +1141,20 @@
       ]
     },
     {
+      "id": "4699b7c3-f55b-45d1-a1e5-87c7f6d8d66c",
+      "title": "Revert \"userdb: add birthDate field to JSON user records",
+      "url": "https://github.com/systemd/systemd/pull/41179",
+      "domain": "github.com",
+      "published_at": "2026-03-21T20:53:43Z",
+      "category": "tech",
+      "score": 0.2605761173296274,
+      "tldr": "Revert \"userdb: add birthDate field to JSON user records",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "fe8f36ce-e385-409a-b70b-1f9a5648c546",
       "title": "FFmpeg 8.1",
       "url": "https://ffmpeg.org/index.html",
@@ -1295,20 +1309,6 @@
       ]
     },
     {
-      "id": "a6d94968-e25b-4f81-86ce-5518edb2f53e",
-      "title": "Show HN: Han – A Korean programming language written in Rust",
-      "url": "https://github.com/xodn348/han",
-      "domain": "github.com",
-      "published_at": "2026-03-14T21:27:33Z",
-      "category": "tech",
-      "score": 0.25428390670916784,
-      "tldr": "Show HN: Han – A Korean programming language written in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "65b28756-41d5-4ae8-b9b2-dcaa45008018",
       "title": "Hyper-optimized reverse geocoding API",
       "url": "https://github.com/traccar/traccar-geocoder",
@@ -1421,6 +1421,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-21T21:16:12.58769905Z",
+  "last_updated": "2026-03-21T21:45:07.296025006Z",
   "total_count": 100
 }
