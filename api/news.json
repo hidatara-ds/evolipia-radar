@@ -479,21 +479,6 @@
       ]
     },
     {
-      "id": "b8079a9d-a5c3-485b-ac3d-36847e58f5ce",
-      "title": "Tech boss uses AI and ChatGPT to create cancer vaccine for his dying dog",
-      "url": "https://theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7?123=",
-      "domain": "theaustralian.com.au",
-      "published_at": "2026-03-14T21:47:04Z",
-      "category": "tech",
-      "score": 0.3024866104347064,
-      "tldr": "Tech boss uses AI and ChatGPT to create cancer vaccine for his dying dog",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "0d44357e-b3ce-46d7-9405-c666b34e193b",
       "title": "OpenAI Plans Desktop Superapp Merging ChatGPT, Codex, and Atlas Browser",
       "url": "https://www.cnbc.com/2026/03/19/openai-desktop-super-app-chatgpt-browser-codex.html",
@@ -547,20 +532,6 @@
       "category": "tech",
       "score": 0.30046750164815633,
       "tldr": "$96 3D-printed rocket that recalculates its mid-air trajectory using a $5 sensor",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "80bc8663-2b52-4a77-8953-11fa8715288d",
-      "title": "Ageless Linux – Software for humans of indeterminate age",
-      "url": "https://agelesslinux.org/",
-      "domain": "agelesslinux.org",
-      "published_at": "2026-03-14T22:10:26Z",
-      "category": "tech",
-      "score": 0.29958280337752197,
-      "tldr": "Ageless Linux – Software for humans of indeterminate age",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1419,8 +1390,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ae95953c-14aa-420d-b670-21177ddb380c",
+      "title": "Show HN: Atomic – self-hosted, semantically-connected personal knowledge base",
+      "url": "https://github.com/kenforthewin/atomic",
+      "domain": "github.com",
+      "published_at": "2026-03-21T19:31:39Z",
+      "category": "tech",
+      "score": 0.253435621817349,
+      "tldr": "Show HN: Atomic – self-hosted, semantically-connected personal knowledge base",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d816e970-9cd6-4017-a919-fef441464acf",
+      "title": "Show HN: Termcraft – terminal-first 2D sandbox survival in Rust",
+      "url": "https://github.com/pagel-s/termcraft",
+      "domain": "github.com",
+      "published_at": "2026-03-21T18:42:38Z",
+      "category": "tech",
+      "score": 0.2534224744749469,
+      "tldr": "Show HN: Termcraft – terminal-first 2D sandbox survival in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-21T21:45:07.296025006Z",
+  "last_updated": "2026-03-21T22:13:45.45138955Z",
   "total_count": 100
 }
