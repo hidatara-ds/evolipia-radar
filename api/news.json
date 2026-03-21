@@ -480,6 +480,21 @@
       ]
     },
     {
+      "id": "0d44357e-b3ce-46d7-9405-c666b34e193b",
+      "title": "OpenAI Plans Desktop Superapp Merging ChatGPT, Codex, and Atlas Browser",
+      "url": "https://www.cnbc.com/2026/03/19/openai-desktop-super-app-chatgpt-browser-codex.html",
+      "domain": "cnbc.com",
+      "published_at": "2026-03-21T15:26:10Z",
+      "category": "tech",
+      "score": 0.3019328080020054,
+      "tldr": "OpenAI Plans Desktop Superapp Merging ChatGPT, Codex, and Atlas Browser",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "92a4165f-d957-4bd9-bbe6-8db9c6dd20b5",
       "title": "Covenant-72B is the largest decentralized LLM pre-training run in history",
       "url": "https://twitter.com/opentensor/status/2032567840189096404",
@@ -488,6 +503,21 @@
       "category": "tech",
       "score": 0.3015690898999613,
       "tldr": "Covenant-72B is the largest decentralized LLM pre-training run in history",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "ca18e3d8-c3ad-4869-96aa-e3e039c46091",
+      "title": "A Portrait of the Artist as an LLM",
+      "url": "https://evernotquite.substack.com/p/a-portrait-of-the-artist-as-an-llm",
+      "domain": "evernotquite.substack.com",
+      "published_at": "2026-03-21T14:31:27Z",
+      "category": "tech",
+      "score": 0.30122369092202456,
+      "tldr": "A Portrait of the Artist as an LLM",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
@@ -1390,36 +1420,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
-      "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "url": "https://github.com/peters/horizon",
-      "domain": "github.com",
-      "published_at": "2026-03-17T18:14:24Z",
-      "category": "tech",
-      "score": 0.2532025853934814,
-      "tldr": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "37c4f265-d439-4f5f-a764-f10a342198d1",
-      "title": "Wikipedia RFC on banning LLM contributions",
-      "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC",
-      "domain": "en.wikipedia.org",
-      "published_at": "2026-03-20T18:30:38Z",
-      "category": "tech",
-      "score": 0.2531734480088339,
-      "tldr": "Wikipedia RFC on banning LLM contributions",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-21T15:46:42.798942844Z",
+  "last_updated": "2026-03-21T16:17:23.184264553Z",
   "total_count": 100
 }
