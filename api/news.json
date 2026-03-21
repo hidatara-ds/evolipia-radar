@@ -1139,6 +1139,20 @@
       ]
     },
     {
+      "id": "1cbc68fa-3634-4e3a-87f8-683bb78664f6",
+      "title": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
+      "url": "https://github.com/arnoldrobbins/LinuxByExample-2e",
+      "domain": "github.com",
+      "published_at": "2026-03-20T23:57:22Z",
+      "category": "tech",
+      "score": 0.2559432781951547,
+      "tldr": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "48258afa-7ae2-4c31-ad21-2b0a8805472f",
       "title": "District denies enrollment to child based on license plate reader data",
       "url": "https://www.theregister.com/2026/03/12/district_denies_enrollment_to_child",
@@ -1405,22 +1419,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e9f706d5-9f98-4be4-b54f-68d7c3a1c22e",
-      "title": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
-      "url": "https://news.slashdot.org/story/26/03/16/0539240/fsf-threatens-anthropic-over-infringed-copyright-share-your-llms-freely",
-      "domain": "news.slashdot.org",
-      "published_at": "2026-03-16T05:44:28Z",
-      "category": "tech",
-      "score": 0.2523690588714587,
-      "tldr": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-20T23:49:54.987366082Z",
+  "last_updated": "2026-03-21T01:03:05.492750581Z",
   "total_count": 100
 }
