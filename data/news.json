@@ -1266,20 +1266,6 @@
       ]
     },
     {
-      "id": "5cdb6cc2-c597-4ac2-a5e6-1560db77ec28",
-      "title": "Show HN: GrobPaint: Somewhere Between MS Paint and Paint.net",
-      "url": "https://github.com/groverburger/grobpaint",
-      "domain": "github.com",
-      "published_at": "2026-03-14T22:41:28Z",
-      "category": "tech",
-      "score": 0.2547305228792309,
-      "tldr": "Show HN: GrobPaint: Somewhere Between MS Paint and Paint.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "65b28756-41d5-4ae8-b9b2-dcaa45008018",
       "title": "Hyper-optimized reverse geocoding API",
       "url": "https://github.com/traccar/traccar-geocoder",
@@ -1418,8 +1404,23 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e569c029-7ca8-47a7-8f98-cb4fd3037146",
+      "title": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
+      "url": "https://qlabs.sh/10x",
+      "domain": "qlabs.sh",
+      "published_at": "2026-03-19T18:51:25Z",
+      "category": "tech",
+      "score": 0.25331933406339197,
+      "tldr": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
+      ]
     }
   ],
-  "last_updated": "2026-03-21T22:13:45.45138955Z",
+  "last_updated": "2026-03-21T22:48:16.225089441Z",
   "total_count": 100
 }
