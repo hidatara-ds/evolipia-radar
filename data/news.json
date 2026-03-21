@@ -1183,20 +1183,6 @@
       ]
     },
     {
-      "id": "08c667dc-bc22-4814-9a9d-c7bfb90952b3",
-      "title": "Marketing for Founders",
-      "url": "https://github.com/EdoStra/Marketing-for-Founders",
-      "domain": "github.com",
-      "published_at": "2026-03-14T19:35:40Z",
-      "category": "tech",
-      "score": 0.256957044581012,
-      "tldr": "Marketing for Founders",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "390f0964-a08c-48ec-8ea3-e5002548d3f8",
       "title": "LLMs can be exhausting",
       "url": "https://tomjohnell.com/llms-can-be-absolutely-exhausting",
@@ -1420,8 +1406,22 @@
         "llm",
         "data"
       ]
+    },
+    {
+      "id": "b68ccfbe-225f-4309-8fb0-b0d7981deaa5",
+      "title": "Event Publisher enables event integration between Keycloak and OpenFGA",
+      "url": "https://github.com/embesozzi/keycloak-openfga-event-publisher",
+      "domain": "github.com",
+      "published_at": "2026-03-16T14:21:07Z",
+      "category": "tech",
+      "score": 0.2532860901249413,
+      "tldr": "Event Publisher enables event integration between Keycloak and OpenFGA",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-21T19:21:35.728449979Z",
+  "last_updated": "2026-03-21T19:44:01.659421301Z",
   "total_count": 100
 }
