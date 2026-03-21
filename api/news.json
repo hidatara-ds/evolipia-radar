@@ -207,6 +207,20 @@
       ]
     },
     {
+      "id": "f6280989-e2d4-4b64-810f-2b581e5f7115",
+      "title": "OpenCode – Open source AI coding agent",
+      "url": "https://opencode.ai/",
+      "domain": "opencode.ai",
+      "published_at": "2026-03-20T21:03:52Z",
+      "category": "tech",
+      "score": 0.4130715819092591,
+      "tldr": "OpenCode – Open source AI coding agent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6b229586-c3ee-4b6e-8253-d75228ab6034",
       "title": "Canada's bill C-22 mandates mass metadata surveillance",
       "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
@@ -344,6 +358,20 @@
       "category": "tech",
       "score": 0.3256923831273918,
       "tldr": "Show HN: ATO – a GUI to see and fix what your LLM agents configured",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "dd1d2d05-4577-4875-b0f2-ca5def2f85ab",
+      "title": "Transformers Are Bayesian Networks",
+      "url": "https://arxiv.org/abs/2603.17063",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-20T20:50:27Z",
+      "category": "tech",
+      "score": 0.3249218937778482,
+      "tldr": "Transformers Are Bayesian Networks",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1153,21 +1181,6 @@
       ]
     },
     {
-      "id": "48258afa-7ae2-4c31-ad21-2b0a8805472f",
-      "title": "District denies enrollment to child based on license plate reader data",
-      "url": "https://www.theregister.com/2026/03/12/district_denies_enrollment_to_child",
-      "domain": "theregister.com",
-      "published_at": "2026-03-14T01:18:15Z",
-      "category": "tech",
-      "score": 0.2558658294445774,
-      "tldr": "District denies enrollment to child based on license plate reader data",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "data"
-      ]
-    },
-    {
       "id": "a4853e52-274c-473a-8156-f68c4f1c8d85",
       "title": "Mistral Small 4",
       "url": "https://mistral.ai/news/mistral-small-4",
@@ -1405,22 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ad07c7d9-4dfd-480d-82a8-99d629680aaf",
-      "title": "A survey on LLMs for spreadsheet intelligence",
-      "url": "https://orbilu.uni.lu/handle/10993/67962",
-      "domain": "orbilu.uni.lu",
-      "published_at": "2026-03-19T16:47:02Z",
-      "category": "tech",
-      "score": 0.25240500104657143,
-      "tldr": "A survey on LLMs for spreadsheet intelligence",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-21T01:03:05.492750581Z",
+  "last_updated": "2026-03-21T03:33:36.276372988Z",
   "total_count": 100
 }
