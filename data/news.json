@@ -221,6 +221,20 @@
       ]
     },
     {
+      "id": "8350c429-5d2e-4fb8-9636-773465a441b6",
+      "title": "Show HN: A deterministic middleware to compress LLM prompts by 50-80%",
+      "url": "https://github.com/ARPAHLS/skillware",
+      "domain": "github.com",
+      "published_at": "2026-03-21T15:49:30Z",
+      "category": "tech",
+      "score": 0.405314924948479,
+      "tldr": "Show HN: A deterministic middleware to compress LLM prompts by 50-80%",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6b229586-c3ee-4b6e-8253-d75228ab6034",
       "title": "Canada's bill C-22 mandates mass metadata surveillance",
       "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
@@ -1406,22 +1420,8 @@
         "llm",
         "data"
       ]
-    },
-    {
-      "id": "b68ccfbe-225f-4309-8fb0-b0d7981deaa5",
-      "title": "Event Publisher enables event integration between Keycloak and OpenFGA",
-      "url": "https://github.com/embesozzi/keycloak-openfga-event-publisher",
-      "domain": "github.com",
-      "published_at": "2026-03-16T14:21:07Z",
-      "category": "tech",
-      "score": 0.2532860901249413,
-      "tldr": "Event Publisher enables event integration between Keycloak and OpenFGA",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-21T16:17:23.184264553Z",
+  "last_updated": "2026-03-21T16:52:36.181988792Z",
   "total_count": 100
 }
