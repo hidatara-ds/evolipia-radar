@@ -335,6 +335,20 @@
       ]
     },
     {
+      "id": "b1309e43-9ed0-4e33-8b4a-370f2485fc2f",
+      "title": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
+      "url": "https://github.com/danveloper/flash-moe",
+      "domain": "github.com",
+      "published_at": "2026-03-22T11:30:03Z",
+      "category": "tech",
+      "score": 0.33685196985427585,
+      "tldr": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "bcf9e64d-d6f7-4a57-b413-b6b3f9e571da",
       "title": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
       "url": "https://github.com/gsd-build/get-shit-done",
@@ -1239,20 +1253,6 @@
       ]
     },
     {
-      "id": "43f3de5e-7eeb-4665-8b1a-bbbda55ec317",
-      "title": "SuperTux 0.7.0",
-      "url": "https://github.com/SuperTux/supertux/releases/tag/v0.7.0",
-      "domain": "github.com",
-      "published_at": "2026-03-15T17:00:35Z",
-      "category": "tech",
-      "score": 0.2562506924337876,
-      "tldr": "SuperTux 0.7.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1cbc68fa-3634-4e3a-87f8-683bb78664f6",
       "title": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
       "url": "https://github.com/arnoldrobbins/LinuxByExample-2e",
@@ -1421,6 +1421,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-22T16:17:59.348438659Z",
+  "last_updated": "2026-03-22T17:17:44.154437042Z",
   "total_count": 100
 }
