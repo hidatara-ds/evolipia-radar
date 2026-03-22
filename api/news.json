@@ -406,6 +406,20 @@
       ]
     },
     {
+      "id": "b9a587af-ee45-4790-80ec-e92cbd8d94f8",
+      "title": "Tinybox – Offline AI device 120B parameters",
+      "url": "https://tinygrad.org/",
+      "domain": "tinygrad.org",
+      "published_at": "2026-03-21T20:08:37Z",
+      "category": "tech",
+      "score": 0.3176763451655039,
+      "tldr": "Tinybox – Offline AI device 120B parameters",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cdf36b79-c7e8-4bc4-b976-720797cdcabb",
       "title": "MoD sources warn Palantir role at heart of government is threat to UK security",
       "url": "https://www.thenerve.news/p/palantir-technologies-uk-mod-sources-government-data-insights-security-state-secrets",
@@ -916,20 +930,6 @@
       ]
     },
     {
-      "id": "fc9087f5-6053-4387-b8de-a64065cc85ca",
-      "title": "FCC chairman threatens TV broadcast licenses over news coverage",
-      "url": "https://fortune.com/2026/03/14/fcc-brendan-carr-tv-broadcast-licenses-news-coverage-us-war-iran-trump",
-      "domain": "fortune.com",
-      "published_at": "2026-03-15T00:08:22Z",
-      "category": "tech",
-      "score": 0.26667330827880453,
-      "tldr": "FCC chairman threatens TV broadcast licenses over news coverage",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ee25f78a-9212-4967-974e-cc6d6e3d21ff",
       "title": "Translate Garry Tan's LinkedIn-speak to plain English",
       "url": "https://github.com/garrytan/gstack/pull/213",
@@ -1120,6 +1120,20 @@
       "category": "tech",
       "score": 0.2605761173296274,
       "tldr": "Revert \"userdb: add birthDate field to JSON user records",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4455957e-6d80-4947-bad6-9e0f18d44725",
+      "title": "Study finds no evidence cannabis helps anxiety, depression, or PTSD",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260319044656.htm",
+      "domain": "sciencedaily.com",
+      "published_at": "2026-03-21T20:05:58Z",
+      "category": "tech",
+      "score": 0.26053066617936776,
+      "tldr": "Study finds no evidence cannabis helps anxiety, depression, or PTSD",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1404,23 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e569c029-7ca8-47a7-8f98-cb4fd3037146",
-      "title": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
-      "url": "https://qlabs.sh/10x",
-      "domain": "qlabs.sh",
-      "published_at": "2026-03-19T18:51:25Z",
-      "category": "tech",
-      "score": 0.25331933406339197,
-      "tldr": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "data"
-      ]
     }
   ],
-  "last_updated": "2026-03-21T23:45:32.428913218Z",
+  "last_updated": "2026-03-22T01:10:34.106584057Z",
   "total_count": 100
 }
