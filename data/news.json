@@ -307,20 +307,6 @@
       ]
     },
     {
-      "id": "d70aff46-0b29-4c3c-a713-812b8d48ee72",
-      "title": "Chrome DevTools MCP (2025)",
-      "url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
-      "domain": "developer.chrome.com",
-      "published_at": "2026-03-15T19:12:53Z",
-      "category": "tech",
-      "score": 0.3542373902082099,
-      "tldr": "Chrome DevTools MCP (2025)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8ad9abf7-9e81-45d4-aa76-ebabff248b30",
       "title": "GPT‑5.4 Mini and Nano",
       "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
@@ -631,20 +617,6 @@
       "category": "tech",
       "score": 0.2962215395198119,
       "tldr": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1d16d929-7b12-4a54-8598-6f3fe4da48e8",
-      "title": "Chrome DevTools MCP",
-      "url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
-      "domain": "developer.chrome.com",
-      "published_at": "2026-03-15T19:12:53Z",
-      "category": "tech",
-      "score": 0.295083580424684,
-      "tldr": "Chrome DevTools MCP",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1419,8 +1391,37 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e569c029-7ca8-47a7-8f98-cb4fd3037146",
+      "title": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
+      "url": "https://qlabs.sh/10x",
+      "domain": "qlabs.sh",
+      "published_at": "2026-03-19T18:51:25Z",
+      "category": "tech",
+      "score": 0.25331933406339197,
+      "tldr": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
+      ]
+    },
+    {
+      "id": "b68ccfbe-225f-4309-8fb0-b0d7981deaa5",
+      "title": "Event Publisher enables event integration between Keycloak and OpenFGA",
+      "url": "https://github.com/embesozzi/keycloak-openfga-event-publisher",
+      "domain": "github.com",
+      "published_at": "2026-03-16T14:21:07Z",
+      "category": "tech",
+      "score": 0.2532860901249413,
+      "tldr": "Event Publisher enables event integration between Keycloak and OpenFGA",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-22T19:00:25.426954018Z",
+  "last_updated": "2026-03-22T19:26:56.448967983Z",
   "total_count": 100
 }
