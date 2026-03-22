@@ -1013,20 +1013,6 @@
       ]
     },
     {
-      "id": "81b028a9-6821-4d41-bbc8-eb47f55c96bc",
-      "title": "Show HN: Lux – Drop-in Redis replacement in Rust. 5.6x faster, ~1MB Docker image",
-      "url": "https://github.com/lux-db/lux",
-      "domain": "github.com",
-      "published_at": "2026-03-15T21:12:37Z",
-      "category": "tech",
-      "score": 0.26273053199357715,
-      "tldr": "Show HN: Lux – Drop-in Redis replacement in Rust. 6x faster, ~1MB Docker image",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b1af2460-457f-4d18-abcf-8275f9b6ab05",
       "title": "Nvidia NemoClaw",
       "url": "https://github.com/NVIDIA/NemoClaw",
@@ -1178,20 +1164,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "390f0964-a08c-48ec-8ea3-e5002548d3f8",
-      "title": "LLMs can be exhausting",
-      "url": "https://tomjohnell.com/llms-can-be-absolutely-exhausting",
-      "domain": "tomjohnell.com",
-      "published_at": "2026-03-15T20:56:21Z",
-      "category": "tech",
-      "score": 0.256469156538868,
-      "tldr": "LLMs can be exhausting",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1418,8 +1390,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "37c4f265-d439-4f5f-a764-f10a342198d1",
+      "title": "Wikipedia RFC on banning LLM contributions",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC",
+      "domain": "en.wikipedia.org",
+      "published_at": "2026-03-20T18:30:38Z",
+      "category": "tech",
+      "score": 0.2531734480088339,
+      "tldr": "Wikipedia RFC on banning LLM contributions",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "83296bfd-fb6c-4e09-ace1-59d705e57aec",
+      "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
+      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
+      "domain": "github.com",
+      "published_at": "2026-03-16T17:13:27Z",
+      "category": "tech",
+      "score": 0.25290328852329247,
+      "tldr": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-22T20:49:39.519471995Z",
+  "last_updated": "2026-03-22T21:17:32.159020131Z",
   "total_count": 100
 }
