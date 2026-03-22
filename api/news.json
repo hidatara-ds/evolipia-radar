@@ -491,22 +491,6 @@
       ]
     },
     {
-      "id": "858a070b-1d41-4ee0-a6a5-926d0339c431",
-      "title": "Data scientist uses AI and ChatGPT to create cancer vaccine for his dying dog",
-      "url": "https://www.theaustralian.com.au/business%2Ftechnology%2Ftech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog%2Fnews-story%2F292a21bcbe93efa17810bfcfcdfadbf7",
-      "domain": "theaustralian.com.au",
-      "published_at": "2026-03-15T20:21:12Z",
-      "category": "tech",
-      "score": 0.30291314063122093,
-      "tldr": "Data scientist uses AI and ChatGPT to create cancer vaccine for his dying dog",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "data",
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "0d44357e-b3ce-46d7-9405-c666b34e193b",
       "title": "OpenAI Plans Desktop Superapp Merging ChatGPT, Codex, and Atlas Browser",
       "url": "https://www.cnbc.com/2026/03/19/openai-desktop-super-app-chatgpt-browser-codex.html",
@@ -1420,8 +1404,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
+      "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+      "url": "https://github.com/peters/horizon",
+      "domain": "github.com",
+      "published_at": "2026-03-17T18:14:24Z",
+      "category": "tech",
+      "score": 0.2532025853934814,
+      "tldr": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-22T20:15:17.131096869Z",
+  "last_updated": "2026-03-22T20:49:39.519471995Z",
   "total_count": 100
 }
