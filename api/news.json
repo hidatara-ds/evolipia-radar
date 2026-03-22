@@ -165,20 +165,6 @@
       ]
     },
     {
-      "id": "f4ad096e-caf5-48c5-b386-65f425324fde",
-      "title": "Bill C-22, the Lawful Access Act: Dangerous backdoor surveillance risks remain",
-      "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
-      "domain": "michaelgeist.ca",
-      "published_at": "2026-03-15T21:22:16Z",
-      "category": "tech",
-      "score": 0.4743946404445668,
-      "tldr": "Bill C-22, the Lawful Access Act: Dangerous backdoor surveillance risks remain",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c862c8ef-7dec-4cd8-b03e-a53eac72c44b",
       "title": "Afroman found not liable in defamation case",
       "url": "https://nypost.com/2026/03/18/us-news/afroman-found-not-liable-in-bizarre-ohio-defamation-case",
@@ -235,20 +221,6 @@
       ]
     },
     {
-      "id": "6b229586-c3ee-4b6e-8253-d75228ab6034",
-      "title": "Canada's bill C-22 mandates mass metadata surveillance",
-      "url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains",
-      "domain": "michaelgeist.ca",
-      "published_at": "2026-03-15T21:22:16Z",
-      "category": "tech",
-      "score": 0.397760066131299,
-      "tldr": "Canada's bill C-22 mandates mass metadata surveillance",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "6bcf0fd2-9c98-4248-ba6c-3a624cf5203f",
       "title": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training",
       "url": "https://github.com/alainnothere/llm-circuit-finder",
@@ -275,21 +247,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "77838bcf-1758-4386-89f3-33403f05ecc1",
-      "title": "Show HN: Free OpenAI API Access with ChatGPT Account",
-      "url": "https://github.com/EvanZhouDev/openai-oauth",
-      "domain": "github.com",
-      "published_at": "2026-03-15T21:29:52Z",
-      "category": "tech",
-      "score": 0.3785609178915594,
-      "tldr": "Show HN: Free OpenAI API Access with ChatGPT Account",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -1418,8 +1375,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "78eb93f7-6536-43ce-99c2-868705e003e4",
+      "title": "Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence",
+      "url": "https://zenodo.org/records/18976656",
+      "domain": "zenodo.org",
+      "published_at": "2026-03-22T07:07:15Z",
+      "category": "tech",
+      "score": 0.2528798365759808,
+      "tldr": "Cross-Model Void Convergence: GPT-5. 6 Deterministic Silence",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0779e3d2-2f05-4f8b-bec8-e8ecad914086",
+      "title": "Hawaii's worst flooding in 20 years threatens dam, prompts evacuations",
+      "url": "https://www.nbcnews.com/weather/floods/hawaii-worst-flooding-in-20-years-rcna264573",
+      "domain": "nbcnews.com",
+      "published_at": "2026-03-21T19:55:23Z",
+      "category": "tech",
+      "score": 0.25278790800087436,
+      "tldr": "Hawaii's worst flooding in 20 years threatens dam, prompts evacuations",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ad07c7d9-4dfd-480d-82a8-99d629680aaf",
+      "title": "A survey on LLMs for spreadsheet intelligence",
+      "url": "https://orbilu.uni.lu/handle/10993/67962",
+      "domain": "orbilu.uni.lu",
+      "published_at": "2026-03-19T16:47:02Z",
+      "category": "tech",
+      "score": 0.25240500104657143,
+      "tldr": "A survey on LLMs for spreadsheet intelligence",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-22T21:17:32.159020131Z",
+  "last_updated": "2026-03-22T21:47:18.346668407Z",
   "total_count": 100
 }
