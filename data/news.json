@@ -434,20 +434,6 @@
       ]
     },
     {
-      "id": "59e0d514-ba13-4ba4-af7e-0598a28a6f30",
-      "title": "How I write software with LLMs",
-      "url": "https://www.stavros.io/posts/how-i-write-software-with-llms",
-      "domain": "stavros.io",
-      "published_at": "2026-03-16T01:24:09Z",
-      "category": "tech",
-      "score": 0.3059207337335659,
-      "tldr": "How I write software with LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "0d44357e-b3ce-46d7-9405-c666b34e193b",
       "title": "OpenAI Plans Desktop Superapp Merging ChatGPT, Codex, and Atlas Browser",
       "url": "https://www.cnbc.com/2026/03/19/openai-desktop-super-app-chatgpt-browser-codex.html",
@@ -1012,20 +998,6 @@
       ]
     },
     {
-      "id": "96343368-fe75-4edf-9a68-dd9225c1d30f",
-      "title": "Quillx is an open standard for disclosing AI involvement in software projects",
-      "url": "https://github.com/QAInsights/AIx",
-      "domain": "github.com",
-      "published_at": "2026-03-16T01:21:39Z",
-      "category": "tech",
-      "score": 0.2613085586296088,
-      "tldr": "Quillx is an open standard for disclosing AI involvement in software projects",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4699b7c3-f55b-45d1-a1e5-87c7f6d8d66c",
       "title": "Revert \"userdb: add birthDate field to JSON user records",
       "url": "https://github.com/systemd/systemd/pull/41179",
@@ -1405,6 +1377,20 @@
       ]
     },
     {
+      "id": "b1051732-6796-4d62-9ce1-a677bdc2c2b7",
+      "title": "Apply video compression on KV cache to 10,000x less error at Q4 quant",
+      "url": "https://github.com/cenconq25/delta-compress-llm",
+      "domain": "github.com",
+      "published_at": "2026-03-22T23:27:32Z",
+      "category": "tech",
+      "score": 0.2527660708770079,
+      "tldr": "Apply video compression on KV cache to 10,000x less error at Q4 quant",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ad07c7d9-4dfd-480d-82a8-99d629680aaf",
       "title": "A survey on LLMs for spreadsheet intelligence",
       "url": "https://orbilu.uni.lu/handle/10993/67962",
@@ -1417,8 +1403,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "e9f706d5-9f98-4be4-b54f-68d7c3a1c22e",
+      "title": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "url": "https://news.slashdot.org/story/26/03/16/0539240/fsf-threatens-anthropic-over-infringed-copyright-share-your-llms-freely",
+      "domain": "news.slashdot.org",
+      "published_at": "2026-03-16T05:44:28Z",
+      "category": "tech",
+      "score": 0.2523690588714587,
+      "tldr": "FSF threatens Anthropic over infringed copyright: share your LLMs freely",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-23T01:11:44.744029944Z",
+  "last_updated": "2026-03-23T04:03:37.05623351Z",
   "total_count": 100
 }
