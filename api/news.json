@@ -236,20 +236,6 @@
       ]
     },
     {
-      "id": "5cdbf50b-a9b3-4df6-859c-58dfcb21571e",
-      "title": "The American Healthcare Conundrum",
-      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
-      "domain": "github.com",
-      "published_at": "2026-03-16T17:13:27Z",
-      "category": "tech",
-      "score": 0.3821221996344238,
-      "tldr": "The American Healthcare Conundrum",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5be188e8-af4a-4bd9-b3dd-92e4940d505d",
       "title": "Tinybox – A powerful computer for deep learning",
       "url": "https://tinygrad.org/",
@@ -634,20 +620,6 @@
       ]
     },
     {
-      "id": "cf67f7d8-2e79-436d-b008-1392e76939cc",
-      "title": "Speed at the cost of quality: Study of use of Cursor AI in open source projects (2025)",
-      "url": "https://arxiv.org/abs/2511.04427",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-16T17:07:37Z",
-      "category": "tech",
-      "score": 0.2817740162780849,
-      "tldr": "Speed at the cost of quality: Study of use of Cursor AI in open source projects (2025)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "63594c9e-fe40-4367-b787-6aaa834b7e88",
       "title": "2% of ICML papers desk rejected because the authors used LLM in their reviews",
       "url": "https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies",
@@ -673,20 +645,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "56e673d0-eb03-4f14-af13-6635d65355c1",
-      "title": "Language model teams as distributed systems",
-      "url": "https://arxiv.org/abs/2603.12229",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-16T17:19:13Z",
-      "category": "tech",
-      "score": 0.27959003673101046,
-      "tldr": "Language model teams as distributed systems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -796,20 +754,6 @@
       "category": "tech",
       "score": 0.26920157332379463,
       "tldr": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e937822a-eaef-408b-865b-213779dee11f",
-      "title": "Speed at the cost of quality: Study of use of Cursor AI in open source projects",
-      "url": "https://arxiv.org/abs/2511.04427",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-16T17:07:37Z",
-      "category": "tech",
-      "score": 0.26826171406842814,
-      "tldr": "Speed at the cost of quality: Study of use of Cursor AI in open source projects",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1026,20 +970,6 @@
       ]
     },
     {
-      "id": "147990bf-c83f-4286-b50a-c4bce1f8b968",
-      "title": "Speed at the Cost of Quality. Study of Use of Cursor AI in Open Source Projects",
-      "url": "https://arxiv.org/abs/2511.04427",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-16T17:07:37Z",
-      "category": "tech",
-      "score": 0.25780486698810273,
-      "tldr": "Speed at the Cost of Quality. Study of Use of Cursor AI in Open Source Projects",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b3a3af23-e112-4e1e-8817-60466082a51e",
       "title": "Western carmakers' retreat from electric risks dooming them to irrelevance",
       "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
@@ -1194,20 +1124,6 @@
       ]
     },
     {
-      "id": "e484a8a3-5b75-4493-94dc-e1f4ba38ac38",
-      "title": "Language Model Teams as Distrbuted Systems",
-      "url": "https://arxiv.org/abs/2603.12229",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-16T17:19:13Z",
-      "category": "tech",
-      "score": 0.2536638418650508,
-      "tldr": "Language Model Teams as Distrbuted Systems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "6012a1a8-37f1-401e-910c-d576eb16d566",
       "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
       "url": "https://github.com/adammiribyan/zeroboot",
@@ -1290,20 +1206,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "83296bfd-fb6c-4e09-ace1-59d705e57aec",
-      "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
-      "url": "https://github.com/rexrodeo/american-healthcare-conundrum",
-      "domain": "github.com",
-      "published_at": "2026-03-16T17:13:27Z",
-      "category": "tech",
-      "score": 0.25290328852329247,
-      "tldr": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1417,8 +1319,106 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ca9ccedd-839c-48c3-b5dd-a6dd7c84ba83",
+      "title": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
+      "url": "https://github.com/thatsme/AlexClaw",
+      "domain": "github.com",
+      "published_at": "2026-03-18T21:52:33Z",
+      "category": "tech",
+      "score": 0.25213316205321257,
+      "tldr": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "07267693-178a-4a3a-87ed-bcf21657785a",
+      "title": "Anthropic takes legal action against OpenCode",
+      "url": "https://github.com/anomalyco/opencode/pull/18186",
+      "domain": "github.com",
+      "published_at": "2026-03-19T19:37:26Z",
+      "category": "tech",
+      "score": 0.25208795379806803,
+      "tldr": "Anthropic takes legal action against OpenCode",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c08599af-6efa-4052-a72b-ea56fe10c00b",
+      "title": "Show HN: Crust – A CLI framework for TypeScript and Bun",
+      "url": "https://github.com/chenxin-yan/crust",
+      "domain": "github.com",
+      "published_at": "2026-03-17T04:43:29Z",
+      "category": "tech",
+      "score": 0.25198873338610295,
+      "tldr": "Show HN: Crust – A CLI framework for TypeScript and Bun",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b47fd572-e80a-45d9-9fab-f37e1c46a5c7",
+      "title": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
+      "url": "https://github.com/FormerLab/fortransky",
+      "domain": "github.com",
+      "published_at": "2026-03-20T22:06:51Z",
+      "category": "tech",
+      "score": 0.251924756334543,
+      "tldr": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "985baeec-0e80-40af-b260-048157bd8d91",
+      "title": "Slap your MacBook, it yells back (Apple Silicon accelerometer)",
+      "url": "https://github.com/taigrr/spank",
+      "domain": "github.com",
+      "published_at": "2026-03-20T20:01:01Z",
+      "category": "tech",
+      "score": 0.2519241868857449,
+      "tldr": "Slap your MacBook, it yells back (Apple Silicon accelerometer)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f3662d0b-e56c-4f32-b3f6-3db8dcc41d06",
+      "title": "Show HN: M68k assembly emulator that runs in the browser",
+      "url": "https://github.com/gianlucarea/m68k-interpreter",
+      "domain": "github.com",
+      "published_at": "2026-03-17T10:10:37Z",
+      "category": "tech",
+      "score": 0.2518638214318547,
+      "tldr": "Show HN: M68k assembly emulator that runs in the browser",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ee993000-877e-4cf6-a6f2-9439615b0205",
+      "title": "OpenAI Parameter Golf",
+      "url": "https://openai.com/index/parameter-golf",
+      "domain": "openai.com",
+      "published_at": "2026-03-18T17:17:14Z",
+      "category": "tech",
+      "score": 0.25185591731785756,
+      "tldr": "OpenAI Parameter Golf",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-23T16:45:15.666423675Z",
+  "last_updated": "2026-03-23T17:43:46.282915089Z",
   "total_count": 100
 }
