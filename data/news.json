@@ -1266,6 +1266,20 @@
       ]
     },
     {
+      "id": "86dd9bbb-2695-4a10-9a89-c1d23809f9a7",
+      "title": "LLMs learn what programmers create, not how programmers work",
+      "url": "https://news.ycombinator.com/item?id=47494696",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-03-23T20:31:48Z",
+      "category": "tech",
+      "score": 0.25227781738714555,
+      "tldr": "LLMs learn what programmers create, not how programmers work",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7393b9e2-cb70-460b-af6b-cc0aa798bf22",
       "title": "LLMs turn an autistic communication style into a neurotypical conversation",
       "url": "https://hachyderm.io/@EmilyEnough/116258821633964028",
@@ -1404,22 +1418,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "7003aedb-9a4d-4f6a-bbe0-4df6e7534d09",
-      "title": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
-      "url": "https://github.com/FormerLab/shadow-fleet-tracker-light",
-      "domain": "github.com",
-      "published_at": "2026-03-20T21:04:11Z",
-      "category": "tech",
-      "score": 0.2518168072815772,
-      "tldr": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-23T22:21:36.961571898Z",
+  "last_updated": "2026-03-23T22:57:32.871543126Z",
   "total_count": 100
 }
