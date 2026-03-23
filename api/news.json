@@ -494,20 +494,6 @@
       ]
     },
     {
-      "id": "33778b78-f819-4f8e-bbce-15d65ed72af4",
-      "title": "US Job Market Visualizer",
-      "url": "https://karpathy.ai/jobs",
-      "domain": "karpathy.ai",
-      "published_at": "2026-03-16T15:10:30Z",
-      "category": "tech",
-      "score": 0.2971284826968703,
-      "tldr": "US Job Market Visualizer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "89624fe7-2f3b-4e03-a023-11572356f7b8",
       "title": "OpenAI to Acquire Astral",
       "url": "https://openai.com/index/openai-to-acquire-astral",
@@ -816,6 +802,20 @@
       ]
     },
     {
+      "id": "7e2f8190-384d-4569-a1eb-21af2bd54c52",
+      "title": "iPhone 17 Pro Demonstrated Running a 400B LLM",
+      "url": "https://twitter.com/anemll/status/2035901335984611412",
+      "domain": "twitter.com",
+      "published_at": "2026-03-23T14:30:10Z",
+      "category": "tech",
+      "score": 0.2675781544837459,
+      "tldr": "iPhone 17 Pro Demonstrated Running a 400B LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "4577c786-d23e-4152-b57e-1fe095dec17f",
       "title": "Flash-Moe: Running a 397B Parameter Model on a Mac with 48GB RAM",
       "url": "https://github.com/danveloper/flash-moe",
@@ -992,20 +992,6 @@
       "category": "tech",
       "score": 0.2600963722715183,
       "tldr": "FFmpeg 8.1",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "cd388fc0-ce33-4abe-988e-d653668a6fc8",
-      "title": "Give Django your time and money, not your tokens",
-      "url": "https://www.better-simple.com/django/2026/03/16/give-django-your-time-and-money",
-      "domain": "better-simple.com",
-      "published_at": "2026-03-16T15:12:50Z",
-      "category": "tech",
-      "score": 0.2593282514695151,
-      "tldr": "Give Django your time and money, not your tokens",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1251,20 +1237,6 @@
       ]
     },
     {
-      "id": "b68ccfbe-225f-4309-8fb0-b0d7981deaa5",
-      "title": "Event Publisher enables event integration between Keycloak and OpenFGA",
-      "url": "https://github.com/embesozzi/keycloak-openfga-event-publisher",
-      "domain": "github.com",
-      "published_at": "2026-03-16T14:21:07Z",
-      "category": "tech",
-      "score": 0.2532860901249413,
-      "tldr": "Event Publisher enables event integration between Keycloak and OpenFGA",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
       "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
       "url": "https://github.com/peters/horizon",
@@ -1417,8 +1389,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ca9ccedd-839c-48c3-b5dd-a6dd7c84ba83",
+      "title": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
+      "url": "https://github.com/thatsme/AlexClaw",
+      "domain": "github.com",
+      "published_at": "2026-03-18T21:52:33Z",
+      "category": "tech",
+      "score": 0.25213316205321257,
+      "tldr": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "07267693-178a-4a3a-87ed-bcf21657785a",
+      "title": "Anthropic takes legal action against OpenCode",
+      "url": "https://github.com/anomalyco/opencode/pull/18186",
+      "domain": "github.com",
+      "published_at": "2026-03-19T19:37:26Z",
+      "category": "tech",
+      "score": 0.25208795379806803,
+      "tldr": "Anthropic takes legal action against OpenCode",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-23T14:07:59.048098515Z",
+  "last_updated": "2026-03-23T15:33:44.400327939Z",
   "total_count": 100
 }
