@@ -391,20 +391,6 @@
       ]
     },
     {
-      "id": "cdf36b79-c7e8-4bc4-b976-720797cdcabb",
-      "title": "MoD sources warn Palantir role at heart of government is threat to UK security",
-      "url": "https://www.thenerve.news/p/palantir-technologies-uk-mod-sources-government-data-insights-security-state-secrets",
-      "domain": "thenerve.news",
-      "published_at": "2026-03-16T11:57:33Z",
-      "category": "tech",
-      "score": 0.31148704137135647,
-      "tldr": "MoD sources warn Palantir role at heart of government is threat to UK security",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security"
-      ]
-    },
-    {
       "id": "566f8774-abd1-4a5f-9cbb-8b6b9fd3c535",
       "title": "Mistral AI Releases Forge",
       "url": "https://mistral.ai/news/forge",
@@ -687,20 +673,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "1d42a8df-268f-4ab0-9c67-f60ccec1753e",
-      "title": "Lazycut: A simple terminal video trimmer using FFmpeg",
-      "url": "https://github.com/emin-ozata/lazycut",
-      "domain": "github.com",
-      "published_at": "2026-03-16T12:05:08Z",
-      "category": "tech",
-      "score": 0.27797638109747225,
-      "tldr": "Lazycut: A simple terminal video trimmer using FFmpeg",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1417,8 +1389,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e6e9e0ae-3b89-4a65-97ba-106e51b393ac",
+      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "url": "https://arxiv.org/abs/2603.15381",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-17T21:42:39Z",
+      "category": "tech",
+      "score": 0.25231508530046015,
+      "tldr": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7393b9e2-cb70-460b-af6b-cc0aa798bf22",
+      "title": "LLMs turn an autistic communication style into a neurotypical conversation",
+      "url": "https://hachyderm.io/@EmilyEnough/116258821633964028",
+      "domain": "hachyderm.io",
+      "published_at": "2026-03-23T08:02:59Z",
+      "category": "tech",
+      "score": 0.2522582654489936,
+      "tldr": "LLMs turn an autistic communication style into a neurotypical conversation",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-23T11:37:23.915253185Z",
+  "last_updated": "2026-03-23T12:40:00.458528036Z",
   "total_count": 100
 }
