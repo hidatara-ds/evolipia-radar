@@ -420,6 +420,21 @@
       ]
     },
     {
+      "id": "5899f8be-2daf-48e4-b358-641e1c23f5e7",
+      "title": "Chat GPT 5.2 cannot explain the German word \"geschniegelt\"",
+      "url": "https://old.reddit.com/r/ChatGPT/comments/1r4goxh/chat_gpt_52_cannot_explain_the_word_geschniegelt",
+      "domain": "old.reddit.com",
+      "published_at": "2026-03-23T21:47:42Z",
+      "category": "tech",
+      "score": 0.30571937303194674,
+      "tldr": "2 cannot explain the German word \"geschniegelt\"",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
       "id": "0d44357e-b3ce-46d7-9405-c666b34e193b",
       "title": "OpenAI Plans Desktop Superapp Merging ChatGPT, Codex, and Atlas Browser",
       "url": "https://www.cnbc.com/2026/03/19/openai-desktop-super-app-chatgpt-browser-codex.html",
@@ -1403,22 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "a520b138-d596-40fe-9b84-85f23abe9435",
-      "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
-      "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
-      "domain": "hbr.org",
-      "published_at": "2026-03-22T16:24:50Z",
-      "category": "tech",
-      "score": 0.2518068477002122,
-      "tldr": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-23T21:54:46.187532652Z",
+  "last_updated": "2026-03-23T22:21:36.961571898Z",
   "total_count": 100
 }
