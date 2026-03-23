@@ -508,20 +508,6 @@
       ]
     },
     {
-      "id": "0ada4423-7420-4f51-8bd3-d71c0b6ff08b",
-      "title": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
-      "url": "https://mistral.ai/news/leanstral",
-      "domain": "mistral.ai",
-      "published_at": "2026-03-16T20:59:40Z",
-      "category": "tech",
-      "score": 0.2962215395198119,
-      "tldr": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b9a45da4-e87d-4462-bb64-4d1f7559ad4e",
       "title": "HP trialed mandatory 15-minute support call wait times (2025)",
       "url": "https://arstechnica.com/gadgets/2025/02/misguided-hp-customer-support-approach-included-forced-15-minute-call-wait-times",
@@ -704,20 +690,6 @@
       ]
     },
     {
-      "id": "ce6a05c7-a2ea-4c3f-9641-c3da6736bfc7",
-      "title": "Mistral Releases Leanstral",
-      "url": "https://mistral.ai/news/leanstral",
-      "domain": "mistral.ai",
-      "published_at": "2026-03-16T20:59:40Z",
-      "category": "tech",
-      "score": 0.2723525641036554,
-      "tldr": "Mistral Releases Leanstral",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "38fc8539-0b7d-4da5-90bb-7f13c40bce64",
       "title": "Illinois Introducing Operating System Account Age Bill",
       "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5511\u0026DocTypeID=HB",
@@ -796,20 +768,6 @@
       "category": "tech",
       "score": 0.26527763907271024,
       "tldr": "Translate Garry Tan's LinkedIn-speak to plain English",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8472b39b-1286-47a6-8d14-f9b77ec33c5f",
-      "title": "Leanstral: Open-Source foundation for trustworthy vibe-coding",
-      "url": "https://mistral.ai/news/leanstral",
-      "domain": "mistral.ai",
-      "published_at": "2026-03-16T20:59:40Z",
-      "category": "tech",
-      "score": 0.2642089411495787,
-      "tldr": "Leanstral: Open-Source foundation for trustworthy vibe-coding",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1023,20 +981,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "a4853e52-274c-473a-8156-f68c4f1c8d85",
-      "title": "Mistral Small 4",
-      "url": "https://mistral.ai/news/mistral-small-4",
-      "domain": "mistral.ai",
-      "published_at": "2026-03-16T20:40:53Z",
-      "category": "tech",
-      "score": 0.25521276587431896,
-      "tldr": "Mistral Small 4",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1417,8 +1361,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ee993000-877e-4cf6-a6f2-9439615b0205",
+      "title": "OpenAI Parameter Golf",
+      "url": "https://openai.com/index/parameter-golf",
+      "domain": "openai.com",
+      "published_at": "2026-03-18T17:17:14Z",
+      "category": "tech",
+      "score": 0.25185591731785756,
+      "tldr": "OpenAI Parameter Golf",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
+      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
+      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
+      "domain": "old.reddit.com",
+      "published_at": "2026-03-21T06:13:59Z",
+      "category": "tech",
+      "score": 0.25183446725000913,
+      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7003aedb-9a4d-4f6a-bbe0-4df6e7534d09",
+      "title": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
+      "url": "https://github.com/FormerLab/shadow-fleet-tracker-light",
+      "domain": "github.com",
+      "published_at": "2026-03-20T21:04:11Z",
+      "category": "tech",
+      "score": 0.2518168072815772,
+      "tldr": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a520b138-d596-40fe-9b84-85f23abe9435",
+      "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
+      "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
+      "domain": "hbr.org",
+      "published_at": "2026-03-22T16:24:50Z",
+      "category": "tech",
+      "score": 0.2518068477002122,
+      "tldr": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-23T20:28:42.503310789Z",
+  "last_updated": "2026-03-23T21:01:49.828205805Z",
   "total_count": 100
 }
