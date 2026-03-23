@@ -1125,6 +1125,20 @@
       ]
     },
     {
+      "id": "b5733ddd-77b8-4821-818f-7a9ef009e317",
+      "title": "A retro terminal music player inspired by Winamp",
+      "url": "https://github.com/bjarneo/cliamp",
+      "domain": "github.com",
+      "published_at": "2026-03-23T20:42:22Z",
+      "category": "tech",
+      "score": 0.2534291896802772,
+      "tldr": "A retro terminal music player inspired by Winamp",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d816e970-9cd6-4017-a919-fef441464acf",
       "title": "Show HN: Termcraft – terminal-first 2D sandbox survival in Rust",
       "url": "https://github.com/pagel-s/termcraft",
@@ -1404,22 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
-      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
-      "domain": "old.reddit.com",
-      "published_at": "2026-03-21T06:13:59Z",
-      "category": "tech",
-      "score": 0.25183446725000913,
-      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-23T22:57:32.871543126Z",
+  "last_updated": "2026-03-23T23:25:34.171986738Z",
   "total_count": 100
 }
