@@ -802,20 +802,6 @@
       ]
     },
     {
-      "id": "967e516e-f3e0-4d2f-8e23-6b0a4c00e9ef",
-      "title": "Why I love FreeBSD",
-      "url": "https://it-notes.dragas.net/2026/03/16/why-i-love-freebsd",
-      "domain": "it-notes.dragas.net",
-      "published_at": "2026-03-16T11:23:14Z",
-      "category": "tech",
-      "score": 0.27109111000955577,
-      "tldr": "Why I love FreeBSD",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "cfcfa587-29c0-4987-a47a-db27d83a7de8",
       "title": "Astral to Join OpenAI",
       "url": "https://astral.sh/blog/openai",
@@ -1417,8 +1403,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "d071a3f4-f554-4b2a-ae3c-1639d54d2bed",
+      "title": "Store birth date in systemd for age verification",
+      "url": "https://github.com/systemd/systemd/pull/40954",
+      "domain": "github.com",
+      "published_at": "2026-03-19T07:59:40Z",
+      "category": "tech",
+      "score": 0.2523558364306977,
+      "tldr": "Store birth date in systemd for age verification",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-23T10:43:25.268124596Z",
+  "last_updated": "2026-03-23T11:37:23.915253185Z",
   "total_count": 100
 }
