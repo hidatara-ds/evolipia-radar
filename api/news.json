@@ -942,6 +942,20 @@
       ]
     },
     {
+      "id": "a685c638-1f4c-45de-b17f-632a68abd4ec",
+      "title": "Local Stack Archived their GitHub repo and requires an account to run",
+      "url": "https://github.com/localstack/localstack",
+      "domain": "github.com",
+      "published_at": "2026-03-23T18:57:08Z",
+      "category": "tech",
+      "score": 0.25977031082936985,
+      "tldr": "Local Stack Archived their GitHub repo and requires an account to run",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ed378687-fe8f-4ac7-8fde-c5d92091cfb8",
       "title": "A ngrok-style secure tunnel server written in Rust and Open Source",
       "url": "https://github.com/joaoh82/rustunnel",
@@ -1403,22 +1417,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
-      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
-      "domain": "old.reddit.com",
-      "published_at": "2026-03-21T06:13:59Z",
-      "category": "tech",
-      "score": 0.25183446725000913,
-      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-23T18:38:57.527292851Z",
+  "last_updated": "2026-03-23T19:41:09.399435639Z",
   "total_count": 100
 }
