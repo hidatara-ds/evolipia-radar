@@ -606,6 +606,20 @@
       ]
     },
     {
+      "id": "57f02e47-edc7-41dc-870b-7070a707bac9",
+      "title": "Fyn: An uv fork with new features, bug fixes, stripped telemetry",
+      "url": "https://github.com/duriantaco/fyn",
+      "domain": "github.com",
+      "published_at": "2026-03-23T12:37:39Z",
+      "category": "tech",
+      "score": 0.2834976870738214,
+      "tldr": "Fyn: An uv fork with new features, bug fixes, stripped telemetry",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "73eea6cd-2e23-4b61-a64b-a7d994b80bf0",
       "title": "Push events into a running session with channels",
       "url": "https://code.claude.com/docs/en/channels",
@@ -684,20 +698,6 @@
       "category": "tech",
       "score": 0.27729869095894055,
       "tldr": "Garry Tan's Claude Code Setup",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fd4fdde4-6abf-44d3-beda-28cee61324bc",
-      "title": "My Journey to a reliable and enjoyable locally hosted voice assistant (2025)",
-      "url": "https://community.home-assistant.io/t/my-journey-to-a-reliable-and-enjoyable-locally-hosted-voice-assistant/944860",
-      "domain": "community.home-assistant.io",
-      "published_at": "2026-03-16T13:09:58Z",
-      "category": "tech",
-      "score": 0.2768005693689246,
-      "tldr": "My Journey to a reliable and enjoyable locally hosted voice assistant (2025)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1180,20 +1180,6 @@
       ]
     },
     {
-      "id": "212b1682-c809-4541-97cd-9862bd615fe9",
-      "title": "Skillfile, the declarative skill manager, now with search for 110K+ skills",
-      "url": "https://github.com/eljulians/skillfile",
-      "domain": "github.com",
-      "published_at": "2026-03-16T13:41:39Z",
-      "category": "tech",
-      "score": 0.2536735223504154,
-      "tldr": "Skillfile, the declarative skill manager, now with search for 110K+ skills",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e484a8a3-5b75-4493-94dc-e1f4ba38ac38",
       "title": "Language Model Teams as Distrbuted Systems",
       "url": "https://arxiv.org/abs/2603.12229",
@@ -1417,8 +1403,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "41c68598-85b1-4b90-8861-54e4fdd380ce",
+      "title": "Codex with a vague prompt just solved a bug in Ghostty",
+      "url": "https://twitter.com/mitchellh/status/2029348087538565612",
+      "domain": "twitter.com",
+      "published_at": "2026-03-20T10:28:05Z",
+      "category": "tech",
+      "score": 0.25219429435221025,
+      "tldr": "Codex with a vague prompt just solved a bug in Ghostty",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-23T12:40:00.458528036Z",
+  "last_updated": "2026-03-23T14:07:59.048098515Z",
   "total_count": 100
 }
