@@ -349,20 +349,6 @@
       ]
     },
     {
-      "id": "bcf9e64d-d6f7-4a57-b413-b6b3f9e571da",
-      "title": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
-      "url": "https://github.com/gsd-build/get-shit-done",
-      "domain": "github.com",
-      "published_at": "2026-03-17T20:23:39Z",
-      "category": "tech",
-      "score": 0.33565984185869796,
-      "tldr": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "07aba82e-1052-4345-a175-6be6b6f27fa2",
       "title": "Despite Doubts, Federal Cyber Experts Approved Microsoft Cloud Service",
       "url": "https://www.propublica.org/article/microsoft-cloud-fedramp-cybersecurity-government",
@@ -460,6 +446,20 @@
       "tags": [
         "general_ai",
         "llm"
+      ]
+    },
+    {
+      "id": "3de5baa1-0bff-4b8f-918a-8097556bd0a5",
+      "title": "Mystery jump in oil trading ahead of Trump post draws scrutiny",
+      "url": "https://www.bbc.com/news/articles/cg547ljepvzo",
+      "domain": "bbc.com",
+      "published_at": "2026-03-24T15:25:52Z",
+      "category": "tech",
+      "score": 0.30949344201122975,
+      "tldr": "Mystery jump in oil trading ahead of Trump post draws scrutiny",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud"
       ]
     },
     {
@@ -1422,6 +1422,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-24T19:47:10.28573553Z",
+  "last_updated": "2026-03-24T20:31:28.632567856Z",
   "total_count": 100
 }
