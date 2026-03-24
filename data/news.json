@@ -621,6 +621,20 @@
       ]
     },
     {
+      "id": "014ddd8a-42ce-4901-97de-24de2f2b826b",
+      "title": "Epoch confirms GPT5.4 Pro solved a frontier math open problem",
+      "url": "https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs",
+      "domain": "epoch.ai",
+      "published_at": "2026-03-24T01:53:09Z",
+      "category": "tech",
+      "score": 0.28292676004810224,
+      "tldr": "4 Pro solved a frontier math open problem",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "73eea6cd-2e23-4b61-a64b-a7d994b80bf0",
       "title": "Push events into a running session with channels",
       "url": "https://code.claude.com/docs/en/channels",
@@ -1097,6 +1111,20 @@
       ]
     },
     {
+      "id": "69d8c1eb-fb1a-471e-ba32-35f5b12f846d",
+      "title": "Sunsetting the Techempower Framework Benchmarks",
+      "url": "https://github.com/TechEmpower/FrameworkBenchmarks/issues/10932",
+      "domain": "github.com",
+      "published_at": "2026-03-24T01:54:03Z",
+      "category": "tech",
+      "score": 0.2535230651333654,
+      "tldr": "Sunsetting the Techempower Framework Benchmarks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6012a1a8-37f1-401e-910c-d576eb16d566",
       "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
       "url": "https://github.com/adammiribyan/zeroboot",
@@ -1390,36 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f3662d0b-e56c-4f32-b3f6-3db8dcc41d06",
-      "title": "Show HN: M68k assembly emulator that runs in the browser",
-      "url": "https://github.com/gianlucarea/m68k-interpreter",
-      "domain": "github.com",
-      "published_at": "2026-03-17T10:10:37Z",
-      "category": "tech",
-      "score": 0.2518638214318547,
-      "tldr": "Show HN: M68k assembly emulator that runs in the browser",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ee993000-877e-4cf6-a6f2-9439615b0205",
-      "title": "OpenAI Parameter Golf",
-      "url": "https://openai.com/index/parameter-golf",
-      "domain": "openai.com",
-      "published_at": "2026-03-18T17:17:14Z",
-      "category": "tech",
-      "score": 0.25185591731785756,
-      "tldr": "OpenAI Parameter Golf",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-24T01:04:52.56589271Z",
+  "last_updated": "2026-03-24T03:45:42.749603235Z",
   "total_count": 100
 }
