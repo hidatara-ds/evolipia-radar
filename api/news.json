@@ -679,6 +679,20 @@
       ]
     },
     {
+      "id": "0ec4ee15-d3d3-4d4c-82fe-c9fd4d8b9b6e",
+      "title": "We’re saying goodbye to Sora",
+      "url": "https://twitter.com/soraofficialapp/status/2036532795984715896",
+      "domain": "twitter.com",
+      "published_at": "2026-03-24T20:01:05Z",
+      "category": "tech",
+      "score": 0.2847871780972106,
+      "tldr": "We’re saying goodbye to Sora",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "40e5fad7-22fb-4ae0-98a5-74a4e966dab5",
       "title": "US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects",
       "url": "https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html",
@@ -1406,22 +1420,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "7393b9e2-cb70-460b-af6b-cc0aa798bf22",
-      "title": "LLMs turn an autistic communication style into a neurotypical conversation",
-      "url": "https://hachyderm.io/@EmilyEnough/116258821633964028",
-      "domain": "hachyderm.io",
-      "published_at": "2026-03-23T08:02:59Z",
-      "category": "tech",
-      "score": 0.2522582654489936,
-      "tldr": "LLMs turn an autistic communication style into a neurotypical conversation",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-24T23:22:13.925390313Z",
+  "last_updated": "2026-03-24T23:53:10.115662875Z",
   "total_count": 100
 }
