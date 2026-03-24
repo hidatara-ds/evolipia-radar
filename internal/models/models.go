@@ -71,3 +71,9 @@ type FetchRun struct {
 	ItemsFetched  int       `json:"items_fetched"`
 	ItemsInserted int       `json:"items_inserted"`
 }
+
+// ScoredItem wraps an Item with a cosine similarity score from vector search.
+type ScoredItem struct {
+	Item
+	Similarity float64 `json:"similarity"`
+}

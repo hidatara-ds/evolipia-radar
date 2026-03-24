@@ -64,7 +64,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	metricsData.LoadFromDB(r.Context()) // Load initial state
 
 	summarizer := crawler.NewSummarizer(aiService, database)
-	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, database, dryRunEnv, summarizer)
+	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, aiService, metricsData, database, dryRunEnv, summarizer)
 
 	// Executing the cycle synchronously for Vercel Serverless
 	stats := botOrchestrator.RunCycle(context.Background())

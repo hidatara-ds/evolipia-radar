@@ -65,9 +65,9 @@ func main() {
 	metricsData.LoadFromDB(context.Background())
 	
 	summarizer := crawler.NewSummarizer(centralAIService, database)
-	
+
 	dryRunEnv := os.Getenv("DRY_RUN") == "true"
-	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, database, dryRunEnv, summarizer)
+	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, centralAIService, metricsData, database, dryRunEnv, summarizer)
 	
 	// Start the intelligent crawling loop in the background (runs every 15 minutes)
 	crawlCtx, crawlCancel := context.WithCancel(context.Background())
@@ -102,7 +102,7 @@ func main() {
 	// API routes
 	v1 := router.Group("/v1")
 	{
-		h := handlers.New(database)
+		h := handlers.New(database, centralAIService)
 		v1.GET("/feed", h.GetFeed)
 		v1.GET("/rising", h.GetRising)
 		v1.GET("/items/:id", h.GetItem)

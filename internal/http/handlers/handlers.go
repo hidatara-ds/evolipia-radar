@@ -8,20 +8,27 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
+	"github.com/hidatara-ds/evolipia-radar/internal/ai"
 	"github.com/hidatara-ds/evolipia-radar/internal/db"
 	"github.com/hidatara-ds/evolipia-radar/internal/models"
 	"github.com/hidatara-ds/evolipia-radar/internal/services"
 )
 
 type Handlers struct {
-	sourceService *services.SourceService
-	feedService   *services.FeedService
+	sourceService  *services.SourceService
+	feedService    *services.FeedService
+	hybridSearcher *ai.HybridSearcher
 }
 
-func New(database *db.DB) *Handlers {
+func New(database *db.DB, aiService *ai.Service) *Handlers {
+	var hs *ai.HybridSearcher
+	if aiService != nil {
+		hs = ai.NewHybridSearcher(aiService, database)
+	}
 	return &Handlers{
-		sourceService: services.NewSourceService(database),
-		feedService:   services.NewFeedService(database),
+		sourceService:  services.NewSourceService(database),
+		feedService:    services.NewFeedService(database),
+		hybridSearcher: hs,
 	}
 }
 
@@ -171,6 +178,8 @@ func (h *Handlers) Search(c *gin.Context) {
 		topicPtr = &topic
 	}
 
+	mode := c.DefaultQuery("mode", "hybrid") // text | semantic | hybrid
+
 	limit := 20
 	if limitStr := c.Query("limit"); limitStr != "" {
 		if l, err := strconv.Atoi(limitStr); err == nil && l > 0 {
@@ -185,6 +194,52 @@ func (h *Handlers) Search(c *gin.Context) {
 		}
 	}
 
+	// Route based on requested mode
+	if (mode == "semantic" || mode == "hybrid") && h.hybridSearcher != nil {
+		// Vector Search Path
+		results, err := h.hybridSearcher.Search(c.Request.Context(), query, mode, limit)
+		if err != nil {
+			// If vector search fails (e.g. LLM API down), fallback softly to text search instead of 500 error
+			mode = "text"
+		} else {
+			responseItems := make([]gin.H, 0, len(results))
+			for _, res := range results {
+				_, _, score, summary, _ := h.feedService.GetItemWithDetails(c.Request.Context(), res.Item.ID)
+
+				itemResp := gin.H{
+					"id":             res.Item.ID,
+					"title":          res.Item.Title,
+					"url":            res.Item.URL,
+					"published_at":   res.Item.PublishedAt.Format(time.RFC3339),
+					"domain":         res.Item.Domain,
+					"final_score":    convertToScale10(res.FinalScore),
+					"semantic_score": res.SemanticScore, // Keep raw score for debugging/UI info
+					"text_score":     res.TextScore,
+					"tags":           []string{},
+				}
+
+				if summary != nil {
+					itemResp["tags"] = summary.Tags
+				}
+				if score != nil {
+					// Blend original ranking score if needed, but FinalScore from HybridSearcher takes precedence
+					itemResp["rank_score"] = convertToScale10(score.Final)
+				}
+
+				responseItems = append(responseItems, itemResp)
+			}
+			c.JSON(http.StatusOK, gin.H{
+				"q":              query,
+				"topic":          topic,
+				"mode":           mode,
+				"total_estimate": len(results), // Vector search doesn't easily yield total matches
+				"items":          responseItems,
+			})
+			return
+		}
+	}
+
+	// Classic Text Search Path (Fallback or explicit mode=text)
 	items, total, err := h.feedService.SearchItems(c.Request.Context(), query, topicPtr, limit, offset)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
@@ -218,6 +273,7 @@ func (h *Handlers) Search(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
 		"q":              query,
 		"topic":          topic,
+		"mode":           "text",
 		"total_estimate": total,
 		"items":          responseItems,
 	})

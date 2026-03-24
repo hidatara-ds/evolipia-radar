@@ -78,3 +78,9 @@ type Setting struct {
 	UpdatedAt time.Time `json:"updated_at"`
 }
 
+// ScoredItem wraps an Item with a cosine similarity score from vector search.
+type ScoredItem struct {
+	Item
+	Similarity float64 `json:"similarity"`
+}
+

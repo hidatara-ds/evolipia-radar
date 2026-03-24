@@ -19,13 +19,15 @@ type Orchestrator struct {
 	budget          *CrawlBudget
 	clusterService  *ai.ClusterService
 	inMemClusterSvc *cluster.Service
+	aiService       *ai.Service    // Added for embeddings
+	database        *db.DB         // Kept strictly for passing to agents & ItemRepository
 	DryRun          bool
 	metrics         *Metrics
 	summarizer      *Summarizer
 }
 
 // NewOrchestrator wires together all agents and binds them to the AI clustering brain.
-func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.Service, metrics *Metrics, database *db.DB, dryRun bool, summarizer *Summarizer) *Orchestrator {
+func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.Service, aiSvc *ai.Service, metrics *Metrics, database *db.DB, dryRun bool, summarizer *Summarizer) *Orchestrator {
 	// Initialize with strict zero-cost budget: 50 requests per hour max
 	budget := NewCrawlBudget(50, metrics, database.Pool)
 
@@ -40,6 +42,8 @@ func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.Service, m
 		budget:          budget,
 		clusterService:  clusterSvc,
 		inMemClusterSvc: inMemSvc,
+		aiService:       aiSvc,
+		database:        database,
 		DryRun:          dryRun,
 		metrics:         metrics,
 		summarizer:      summarizer,
@@ -131,6 +135,35 @@ func (o *Orchestrator) RunCycle(ctx context.Context) map[string]int {
 				// Phase 4: Dynamic AI Summarization
 				if o.summarizer != nil {
 					_ = o.summarizer.Process(ctx, artID, art.Title, art.Content)
+				}
+			}
+
+			// 3. Generate and store semantic embedding (If not dry run)
+			if o.aiService != nil && o.database != nil && !o.DryRun {
+				itemRepo := db.NewItemRepository(o.database)
+				
+				// Idempotency check: see if we already have an embedding for this article
+				hasEmbed, checkErr := itemRepo.HasEmbedding(ctx, artID)
+				if checkErr != nil {
+					log.Printf("[ORCHESTRATOR] Embedding idempotency check failed for %s: %v", art.Link, checkErr)
+				} else if !hasEmbed {
+					// Build text to embed: Title + 512 chars of Content
+					embedText := art.Title + ". "
+					contentSnip := art.Content
+					if len(contentSnip) > 512 {
+						contentSnip = contentSnip[:512]
+					}
+					embedText += contentSnip
+
+					embedResp, embedErr := o.aiService.Embed(ctx, ai.EmbeddingRequest{Input: embedText})
+					if embedErr != nil {
+						log.Printf("[ORCHESTRATOR] Embedding generation skipped/failed for %s: %v", art.Link, embedErr)
+					} else {
+						upsertErr := itemRepo.UpsertEmbedding(ctx, artID, embedResp.Embedding, embedResp.Model)
+						if upsertErr != nil {
+							log.Printf("[ORCHESTRATOR] Embedding save failed for %s: %v", art.Link, upsertErr)
+						}
+					}
 				}
 			}
 		}
