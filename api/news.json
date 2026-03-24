@@ -320,6 +320,20 @@
       ]
     },
     {
+      "id": "0002be23-d072-4bc9-95b7-ee0fd55dc021",
+      "title": "Pool spare GPU capacity to run LLMs at larger scale",
+      "url": "https://github.com/michaelneale/mesh-llm",
+      "domain": "github.com",
+      "published_at": "2026-03-24T05:57:00Z",
+      "category": "tech",
+      "score": 0.3282269934529543,
+      "tldr": "Pool spare GPU capacity to run LLMs at larger scale",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "27bb6f84-d1c7-47bf-8435-805e2bcac66b",
       "title": "Show HN: Reprompt – Score your AI coding prompts with NLP papers",
       "url": "https://github.com/reprompt-dev/reprompt",
@@ -1404,22 +1418,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "985baeec-0e80-40af-b260-048157bd8d91",
-      "title": "Slap your MacBook, it yells back (Apple Silicon accelerometer)",
-      "url": "https://github.com/taigrr/spank",
-      "domain": "github.com",
-      "published_at": "2026-03-20T20:01:01Z",
-      "category": "tech",
-      "score": 0.2519241868857449,
-      "tldr": "Slap your MacBook, it yells back (Apple Silicon accelerometer)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-24T07:47:20.360686609Z",
+  "last_updated": "2026-03-24T08:39:14.660403862Z",
   "total_count": 100
 }
