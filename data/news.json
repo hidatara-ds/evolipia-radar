@@ -279,20 +279,6 @@
       ]
     },
     {
-      "id": "8ad9abf7-9e81-45d4-aa76-ebabff248b30",
-      "title": "GPT‑5.4 Mini and Nano",
-      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
-      "domain": "openai.com",
-      "published_at": "2026-03-17T17:07:06Z",
-      "category": "tech",
-      "score": 0.34123984612474273,
-      "tldr": "GPT‑5.4 Mini and Nano",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "26de649e-6b71-4748-bafc-006a916432a0",
       "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
       "url": "https://github.com/ssrajadh/sentrysearch",
@@ -1057,6 +1043,20 @@
       ]
     },
     {
+      "id": "f7fe5e6e-b513-46b6-9711-1a41687a366f",
+      "title": "LiteLLM PyPI has been compromised an hour ago, do not update",
+      "url": "https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack",
+      "domain": "futuresearch.ai",
+      "published_at": "2026-03-24T12:07:02Z",
+      "category": "tech",
+      "score": 0.2555179435182276,
+      "tldr": "LiteLLM PyPI has been compromised an hour ago, do not update",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "dbda1240-08a8-4211-9b50-ff4fbbd83d73",
       "title": "Show HN: Threadprocs – executables sharing one address space (0-copy pointers)",
       "url": "https://github.com/jer-irl/threadprocs",
@@ -1422,6 +1422,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-24T16:51:28.401344651Z",
+  "last_updated": "2026-03-24T17:47:25.147580704Z",
   "total_count": 100
 }
