@@ -1183,6 +1183,20 @@
       ]
     },
     {
+      "id": "5df47d14-e440-4e97-88d1-8b95b5ab9f37",
+      "title": "Thoughts on LLMs – Psychological Complications",
+      "url": "https://parsingphase.dev/tech/LLMs/psychologicalFactors.html",
+      "domain": "parsingphase.dev",
+      "published_at": "2026-03-24T22:50:05Z",
+      "category": "tech",
+      "score": 0.2542078011853402,
+      "tldr": "Thoughts on LLMs – Psychological Complications",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c70f445d-3ac6-4b87-aa09-2f464a8b2fdb",
       "title": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
       "url": "https://esolang-bench.vercel.app/",
@@ -1406,22 +1420,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "41c68598-85b1-4b90-8861-54e4fdd380ce",
-      "title": "Codex with a vague prompt just solved a bug in Ghostty",
-      "url": "https://twitter.com/mitchellh/status/2029348087538565612",
-      "domain": "twitter.com",
-      "published_at": "2026-03-20T10:28:05Z",
-      "category": "tech",
-      "score": 0.25219429435221025,
-      "tldr": "Codex with a vague prompt just solved a bug in Ghostty",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-24T22:31:54.747199629Z",
+  "last_updated": "2026-03-24T23:22:13.925390313Z",
   "total_count": 100
 }
