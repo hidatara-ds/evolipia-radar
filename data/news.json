@@ -434,21 +434,6 @@
       ]
     },
     {
-      "id": "566f8774-abd1-4a5f-9cbb-8b6b9fd3c535",
-      "title": "Mistral AI Releases Forge",
-      "url": "https://mistral.ai/news/forge",
-      "domain": "mistral.ai",
-      "published_at": "2026-03-17T21:04:26Z",
-      "category": "tech",
-      "score": 0.3102856403530214,
-      "tldr": "Mistral AI Releases Forge",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "3de5baa1-0bff-4b8f-918a-8097556bd0a5",
       "title": "Mystery jump in oil trading ahead of Trump post draws scrutiny",
       "url": "https://www.bbc.com/news/articles/cg547ljepvzo",
@@ -489,6 +474,35 @@
       "tags": [
         "llm",
         "general_ai"
+      ]
+    },
+    {
+      "id": "d99e1e6d-0af4-46a8-9b3d-2e28da9c9818",
+      "title": "Is anybody else bored of talking about AI?",
+      "url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai",
+      "domain": "blog.jakesaunders.dev",
+      "published_at": "2026-03-24T20:31:08Z",
+      "category": "tech",
+      "score": 0.30521010876142285,
+      "tldr": "Is anybody else bored of talking about AI?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "888728bc-08a6-4b13-827b-ff73ff2a7430",
+      "title": "Supply Chain Attack in litellm 1.82.8 on PyPI",
+      "url": "https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack",
+      "domain": "futuresearch.ai",
+      "published_at": "2026-03-24T20:20:21Z",
+      "category": "tech",
+      "score": 0.30248835097502164,
+      "tldr": "Supply Chain Attack in litellm 1.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -749,20 +763,6 @@
       ]
     },
     {
-      "id": "1fc9b4e7-dc2c-4da4-a7b3-662328eeb20c",
-      "title": "Garry Tan's Claude Code Setup",
-      "url": "https://github.com/garrytan/gstack/tree/main",
-      "domain": "github.com",
-      "published_at": "2026-03-17T21:28:35Z",
-      "category": "tech",
-      "score": 0.27729869095894055,
-      "tldr": "Garry Tan's Claude Code Setup",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0748dfc3-bd80-48b4-9fc1-eccc0316c815",
       "title": "Autoresearch for SAT Solvers",
       "url": "https://github.com/iliazintchenko/agent-sat",
@@ -897,6 +897,20 @@
       "category": "tech",
       "score": 0.2627416709490257,
       "tldr": "Prompt Injecting Contributing.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9cc3b656-1a56-435b-91fb-7fe397a851aa",
+      "title": "GitHub is once again down",
+      "url": "https://www.githubstatus.com/incidents/kp06czybl7dw",
+      "domain": "githubstatus.com",
+      "published_at": "2026-03-24T20:23:34Z",
+      "category": "tech",
+      "score": 0.2626786099663869,
+      "tldr": "GitHub is once again down",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,22 +1420,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "41c68598-85b1-4b90-8861-54e4fdd380ce",
-      "title": "Codex with a vague prompt just solved a bug in Ghostty",
-      "url": "https://twitter.com/mitchellh/status/2029348087538565612",
-      "domain": "twitter.com",
-      "published_at": "2026-03-20T10:28:05Z",
-      "category": "tech",
-      "score": 0.25219429435221025,
-      "tldr": "Codex with a vague prompt just solved a bug in Ghostty",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-24T20:31:28.632567856Z",
+  "last_updated": "2026-03-24T21:28:45.126183808Z",
   "total_count": 100
 }
