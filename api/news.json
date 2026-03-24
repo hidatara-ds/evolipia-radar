@@ -293,6 +293,20 @@
       ]
     },
     {
+      "id": "26de649e-6b71-4748-bafc-006a916432a0",
+      "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+      "url": "https://github.com/ssrajadh/sentrysearch",
+      "domain": "github.com",
+      "published_at": "2026-03-24T14:58:27Z",
+      "category": "tech",
+      "score": 0.338668722806324,
+      "tldr": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b1309e43-9ed0-4e33-8b4a-370f2485fc2f",
       "title": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
       "url": "https://github.com/danveloper/flash-moe",
@@ -805,20 +819,6 @@
       ]
     },
     {
-      "id": "b38feb78-bbfb-4dfd-86a1-2e811bed2def",
-      "title": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
-      "url": "https://github.com/antflydb/antfly",
-      "domain": "github.com",
-      "published_at": "2026-03-17T15:45:15Z",
-      "category": "tech",
-      "score": 0.26920157332379463,
-      "tldr": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7e2f8190-384d-4569-a1eb-21af2bd54c52",
       "title": "iPhone 17 Pro Demonstrated Running a 400B LLM",
       "url": "https://twitter.com/anemll/status/2035901335984611412",
@@ -973,6 +973,20 @@
       ]
     },
     {
+      "id": "9489fc5f-9e62-4405-a2fe-c38228689446",
+      "title": "Run a 1T parameter model on a 32gb Mac by streaming tensors from NVMe",
+      "url": "https://github.com/t8/hypura",
+      "domain": "github.com",
+      "published_at": "2026-03-24T16:02:22Z",
+      "category": "tech",
+      "score": 0.25994650072324466,
+      "tldr": "Run a 1T parameter model on a 32gb Mac by streaming tensors from NVMe",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a685c638-1f4c-45de-b17f-632a68abd4ec",
       "title": "Local Stack Archived their GitHub repo and requires an account to run",
       "url": "https://github.com/localstack/localstack",
@@ -1065,6 +1079,20 @@
       "category": "tech",
       "score": 0.2550677692988276,
       "tldr": "Attention Residuals",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7e2f9cbe-c23e-48a8-ae8c-21a98b7b9868",
+      "title": "WolfGuard: WireGuard with FIPS 140-3 cryptography",
+      "url": "https://github.com/wolfssl/wolfguard",
+      "domain": "github.com",
+      "published_at": "2026-03-24T15:51:55Z",
+      "category": "tech",
+      "score": 0.25469086326238977,
+      "tldr": "WolfGuard: WireGuard with FIPS 140-3 cryptography",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1392,36 +1420,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ca9ccedd-839c-48c3-b5dd-a6dd7c84ba83",
-      "title": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
-      "url": "https://github.com/thatsme/AlexClaw",
-      "domain": "github.com",
-      "published_at": "2026-03-18T21:52:33Z",
-      "category": "tech",
-      "score": 0.25213316205321257,
-      "tldr": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "07267693-178a-4a3a-87ed-bcf21657785a",
-      "title": "Anthropic takes legal action against OpenCode",
-      "url": "https://github.com/anomalyco/opencode/pull/18186",
-      "domain": "github.com",
-      "published_at": "2026-03-19T19:37:26Z",
-      "category": "tech",
-      "score": 0.25208795379806803,
-      "tldr": "Anthropic takes legal action against OpenCode",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-24T15:39:37.920706913Z",
+  "last_updated": "2026-03-24T16:51:28.401344651Z",
   "total_count": 100
 }
