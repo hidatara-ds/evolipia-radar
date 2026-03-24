@@ -1380,20 +1380,6 @@
       ]
     },
     {
-      "id": "e6e9e0ae-3b89-4a65-97ba-106e51b393ac",
-      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
-      "url": "https://arxiv.org/abs/2603.15381",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-17T21:42:39Z",
-      "category": "tech",
-      "score": 0.25231508530046015,
-      "tldr": "Why AI systems don't learn – On autonomous learning from cognitive science",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "86dd9bbb-2695-4a10-9a89-c1d23809f9a7",
       "title": "LLMs learn what programmers create, not how programmers work",
       "url": "https://news.ycombinator.com/item?id=47494696",
@@ -1420,8 +1406,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "41c68598-85b1-4b90-8861-54e4fdd380ce",
+      "title": "Codex with a vague prompt just solved a bug in Ghostty",
+      "url": "https://twitter.com/mitchellh/status/2029348087538565612",
+      "domain": "twitter.com",
+      "published_at": "2026-03-20T10:28:05Z",
+      "category": "tech",
+      "score": 0.25219429435221025,
+      "tldr": "Codex with a vague prompt just solved a bug in Ghostty",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-24T21:28:45.126183808Z",
+  "last_updated": "2026-03-24T22:00:15.224618045Z",
   "total_count": 100
 }
