@@ -179,6 +179,21 @@
       ]
     },
     {
+      "id": "28350483-1fcc-4c51-b807-ca93d72134f0",
+      "title": "LiteLLM Python package compromised by supply-chain attack",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "domain": "github.com",
+      "published_at": "2026-03-24T12:36:20Z",
+      "category": "tech",
+      "score": 0.4675278601369564,
+      "tldr": "LiteLLM Python package compromised by supply-chain attack",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "3ca445f8-c475-4490-9c6e-b7a06fbbada4",
       "title": "Rob Pike's Rules of Programming (1989)",
       "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html",
@@ -533,6 +548,21 @@
       "tldr": "OpenAI to Acquire Astral",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8045a010-3b4a-47ff-bd14-2abfc9b8adbe",
+      "title": "Secure Domain Name System (DNS) Deployment 2026 Guide [pdf]",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-81r3.pdf",
+      "domain": "nvlpubs.nist.gov",
+      "published_at": "2026-03-24T12:14:56Z",
+      "category": "tech",
+      "score": 0.29372941193895863,
+      "tldr": "Secure Domain Name System (DNS) Deployment 2026 Guide [pdf]",
+      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
+      "tags": [
+        "mlops",
         "general_ai"
       ]
     },
@@ -1069,6 +1099,20 @@
       ]
     },
     {
+      "id": "414c99ea-7c6c-4b6a-9794-8100d8aee689",
+      "title": "LLM Neuroanatomy II: Modern LLM Hacking and Hints of a Universal Language?",
+      "url": "https://dnhkng.github.io/posts/rys-ii",
+      "domain": "dnhkng.github.io",
+      "published_at": "2026-03-24T10:33:54Z",
+      "category": "tech",
+      "score": 0.2543215509466663,
+      "tldr": "LLM Neuroanatomy II: Modern LLM Hacking and Hints of a Universal Language?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "65b28756-41d5-4ae8-b9b2-dcaa45008018",
       "title": "Hyper-optimized reverse geocoding API",
       "url": "https://github.com/traccar/traccar-geocoder",
@@ -1147,20 +1191,6 @@
       "category": "tech",
       "score": 0.2535230651333654,
       "tldr": "Sunsetting the Techempower Framework Benchmarks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6012a1a8-37f1-401e-910c-d576eb16d566",
-      "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
-      "url": "https://github.com/adammiribyan/zeroboot",
-      "domain": "github.com",
-      "published_at": "2026-03-17T13:43:44Z",
-      "category": "tech",
-      "score": 0.2535140288592338,
-      "tldr": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1390,36 +1420,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "07267693-178a-4a3a-87ed-bcf21657785a",
-      "title": "Anthropic takes legal action against OpenCode",
-      "url": "https://github.com/anomalyco/opencode/pull/18186",
-      "domain": "github.com",
-      "published_at": "2026-03-19T19:37:26Z",
-      "category": "tech",
-      "score": 0.25208795379806803,
-      "tldr": "Anthropic takes legal action against OpenCode",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b47fd572-e80a-45d9-9fab-f37e1c46a5c7",
-      "title": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
-      "url": "https://github.com/FormerLab/fortransky",
-      "domain": "github.com",
-      "published_at": "2026-03-20T22:06:51Z",
-      "category": "tech",
-      "score": 0.251924756334543,
-      "tldr": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-24T12:43:50.768939428Z",
+  "last_updated": "2026-03-24T14:13:13.902538987Z",
   "total_count": 100
 }
