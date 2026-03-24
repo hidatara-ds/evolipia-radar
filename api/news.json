@@ -151,6 +151,20 @@
       ]
     },
     {
+      "id": "b639ca1c-73a2-43c9-9666-140541f7d6cf",
+      "title": "Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon",
+      "url": "https://github.com/t8/hypura",
+      "domain": "github.com",
+      "published_at": "2026-03-24T16:02:22Z",
+      "category": "tech",
+      "score": 0.514503062363343,
+      "tldr": "Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b6266aa4-8caa-4a7f-a572-8875eea4b229",
       "title": "Rob Pike’s Rules of Programming (1989)",
       "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html",
@@ -205,6 +219,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "0bc9061f-8ced-4d26-a154-d0da8d3a0b01",
+      "title": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "domain": "github.com",
+      "published_at": "2026-03-24T12:06:29Z",
+      "category": "tech",
+      "score": 0.4143290957233112,
+      "tldr": "8 on PyPI are compromised",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -389,20 +417,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "e8d0a501-3f1c-40e2-af00-578e8583ebc1",
-      "title": "If you thought code writing speed was your problem you have bigger problems",
-      "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
-      "domain": "andrewmurphy.io",
-      "published_at": "2026-03-17T17:48:50Z",
-      "category": "tech",
-      "score": 0.3195365546076202,
-      "tldr": "If you thought code writing speed was your problem you have bigger problems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -693,6 +707,20 @@
       ]
     },
     {
+      "id": "e014c463-a3dc-4a87-bebd-60bb97150180",
+      "title": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "url": "https://github.com/AmElmo/proofshot",
+      "domain": "github.com",
+      "published_at": "2026-03-24T07:46:46Z",
+      "category": "tech",
+      "score": 0.2818603802682159,
+      "tldr": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "63594c9e-fe40-4367-b787-6aaa834b7e88",
       "title": "2% of ICML papers desk rejected because the authors used LLM in their reviews",
       "url": "https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies",
@@ -704,20 +732,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "8aac5bc8-a372-4170-bf29-050aab9acd89",
-      "title": "If you thought the code writing speed was your problem; you have bigger problems",
-      "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
-      "domain": "andrewmurphy.io",
-      "published_at": "2026-03-17T17:48:50Z",
-      "category": "tech",
-      "score": 0.28022225948452273,
-      "tldr": "If you thought the code writing speed was your problem; you have bigger problems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -771,20 +785,6 @@
       "category": "tech",
       "score": 0.2722325904932196,
       "tldr": "So where are all the AI apps?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "38fc8539-0b7d-4da5-90bb-7f13c40bce64",
-      "title": "Illinois Introducing Operating System Account Age Bill",
-      "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5511\u0026DocTypeID=HB",
-      "domain": "ilga.gov",
-      "published_at": "2026-03-17T18:06:07Z",
-      "category": "tech",
-      "score": 0.27180781859662556,
-      "tldr": "Illinois Introducing Operating System Account Age Bill",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1268,20 +1268,6 @@
       ]
     },
     {
-      "id": "c12031aa-b8c1-4e02-9b87-e5f57966cc78",
-      "title": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "url": "https://github.com/peters/horizon",
-      "domain": "github.com",
-      "published_at": "2026-03-17T18:14:24Z",
-      "category": "tech",
-      "score": 0.2532025853934814,
-      "tldr": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "37c4f265-d439-4f5f-a764-f10a342198d1",
       "title": "Wikipedia RFC on banning LLM contributions",
       "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC",
@@ -1420,8 +1406,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ca9ccedd-839c-48c3-b5dd-a6dd7c84ba83",
+      "title": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
+      "url": "https://github.com/thatsme/AlexClaw",
+      "domain": "github.com",
+      "published_at": "2026-03-18T21:52:33Z",
+      "category": "tech",
+      "score": 0.25213316205321257,
+      "tldr": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-24T17:47:25.147580704Z",
+  "last_updated": "2026-03-24T18:47:16.64129949Z",
   "total_count": 100
 }
