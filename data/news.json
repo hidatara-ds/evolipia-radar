@@ -46,22 +46,6 @@
       ]
     },
     {
-      "id": "1b4c2cb8-eaf2-409c-9edb-14a271466a12",
-      "title": "PPO Algorithm Improvements for Robot Control",
-      "url": "https://arxiv.org/abs/2026.12345",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-18T10:39:22.730642Z",
-      "category": "tech",
-      "score": 0.75,
-      "tldr": "Researchers improve PPO for better robot manipulation",
-      "why_it_matters": "Better RL algorithms enable efficient robot training",
-      "tags": [
-        "rl",
-        "robotics",
-        "research"
-      ]
-    },
-    {
       "id": "7a098df4-2c70-4b77-b9fc-1e71cef5a5f5",
       "title": "Microsoft's \"fix\" for Windows 11",
       "url": "https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting",
@@ -1415,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "985baeec-0e80-40af-b260-048157bd8d91",
+      "title": "Slap your MacBook, it yells back (Apple Silicon accelerometer)",
+      "url": "https://github.com/taigrr/spank",
+      "domain": "github.com",
+      "published_at": "2026-03-20T20:01:01Z",
+      "category": "tech",
+      "score": 0.2519241868857449,
+      "tldr": "Slap your MacBook, it yells back (Apple Silicon accelerometer)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-25T10:38:52.855078642Z",
+  "last_updated": "2026-03-25T11:34:37.063078559Z",
   "total_count": 100
 }
