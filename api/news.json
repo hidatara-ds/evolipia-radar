@@ -1,21 +1,6 @@
 {
   "items": [
     {
-      "id": "73a00bd4-67f3-4b4d-9816-8e5d82c1f1b7",
-      "title": "Stable Diffusion 3.5 Released with Better Image Quality",
-      "url": "https://stability.ai/news/stable-diffusion-3-5",
-      "domain": "stability.ai",
-      "published_at": "2026-03-18T13:39:22.286653Z",
-      "category": "tech",
-      "score": 0.85,
-      "tldr": "Stability AI releases major update to image generation model",
-      "why_it_matters": "Advances in vision models enable better creative tools",
-      "tags": [
-        "vision",
-        "tools"
-      ]
-    },
-    {
       "id": "7a098df4-2c70-4b77-b9fc-1e71cef5a5f5",
       "title": "Microsoft's \"fix\" for Windows 11",
       "url": "https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting",
@@ -225,21 +210,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "27bb6f84-d1c7-47bf-8435-805e2bcac66b",
-      "title": "Show HN: Reprompt – Score your AI coding prompts with NLP papers",
-      "url": "https://github.com/reprompt-dev/reprompt",
-      "domain": "github.com",
-      "published_at": "2026-03-18T13:00:13Z",
-      "category": "tech",
-      "score": 0.32641082575113434,
-      "tldr": "Show HN: Reprompt – Score your AI coding prompts with NLP papers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "nlp"
       ]
     },
     {
@@ -586,6 +556,20 @@
       ]
     },
     {
+      "id": "fac7189a-dbdf-490b-9764-d437ef31a657",
+      "title": "Local LLM by Ente",
+      "url": "https://ente.com/blog/ensu",
+      "domain": "ente.com",
+      "published_at": "2026-03-25T12:49:14Z",
+      "category": "tech",
+      "score": 0.28277197957536243,
+      "tldr": "Local LLM by Ente",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "73eea6cd-2e23-4b61-a64b-a7d994b80bf0",
       "title": "Push events into a running session with channels",
       "url": "https://code.claude.com/docs/en/channels",
@@ -880,20 +864,6 @@
       ]
     },
     {
-      "id": "ed378687-fe8f-4ac7-8fde-c5d92091cfb8",
-      "title": "A ngrok-style secure tunnel server written in Rust and Open Source",
-      "url": "https://github.com/joaoh82/rustunnel",
-      "domain": "github.com",
-      "published_at": "2026-03-18T14:00:43Z",
-      "category": "tech",
-      "score": 0.2592929117521112,
-      "tldr": "A ngrok-style secure tunnel server written in Rust and Open Source",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2823c0cb-ba50-45dc-a94c-aac44c599838",
       "title": "Cuba's Fragile Power Grid Finds a Powerful New Partner",
       "url": "https://oilprice.com/Energy/Energy-General/Cubas-Fragile-Power-Grid-Finds-a-Powerful-New-Partner.html",
@@ -986,6 +956,20 @@
       "category": "tech",
       "score": 0.2550677692988276,
       "tldr": "Attention Residuals",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c7dfd3cf-60cd-454c-9104-df65ee50cc87",
+      "title": "Building a coding agent in Swift from scratch",
+      "url": "https://github.com/ivan-magda/swift-claude-code",
+      "domain": "github.com",
+      "published_at": "2026-03-25T10:45:40Z",
+      "category": "tech",
+      "score": 0.25502106213285286,
+      "tldr": "Building a coding agent in Swift from scratch",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,8 +1395,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "7003aedb-9a4d-4f6a-bbe0-4df6e7534d09",
+      "title": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
+      "url": "https://github.com/FormerLab/shadow-fleet-tracker-light",
+      "domain": "github.com",
+      "published_at": "2026-03-20T21:04:11Z",
+      "category": "tech",
+      "score": 0.2518168072815772,
+      "tldr": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-25T12:41:14.124417592Z",
+  "last_updated": "2026-03-25T14:11:33.452642529Z",
   "total_count": 100
 }
