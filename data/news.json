@@ -115,6 +115,20 @@
       ]
     },
     {
+      "id": "59192d4c-3709-48c0-bf00-09bc675dff52",
+      "title": "Ensu – Ente’s Local LLM app",
+      "url": "https://ente.com/blog/ensu",
+      "domain": "ente.com",
+      "published_at": "2026-03-25T12:49:14Z",
+      "category": "tech",
+      "score": 0.38418560608322977,
+      "tldr": "Ensu – Ente’s Local LLM app",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5be188e8-af4a-4bd9-b3dd-92e4940d505d",
       "title": "Tinybox – A powerful computer for deep learning",
       "url": "https://tinygrad.org/",
@@ -1396,22 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
-      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
-      "domain": "old.reddit.com",
-      "published_at": "2026-03-21T06:13:59Z",
-      "category": "tech",
-      "score": 0.25183446725000913,
-      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-25T18:42:34.175253228Z",
+  "last_updated": "2026-03-25T19:39:51.743734134Z",
   "total_count": 100
 }
