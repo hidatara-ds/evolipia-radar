@@ -836,6 +836,20 @@
       ]
     },
     {
+      "id": "d3cbdedc-5d52-4747-8428-ee1f32fe9a78",
+      "title": "Data centers are transitioning from AC to DC",
+      "url": "https://spectrum.ieee.org/data-center-dc",
+      "domain": "spectrum.ieee.org",
+      "published_at": "2026-03-25T00:44:55Z",
+      "category": "tech",
+      "score": 0.2603894627378813,
+      "tldr": "Data centers are transitioning from AC to DC",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "9489fc5f-9e62-4405-a2fe-c38228689446",
       "title": "Run a 1T parameter model on a 32gb Mac by streaming tensors from NVMe",
       "url": "https://github.com/t8/hypura",
@@ -1395,22 +1409,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "7003aedb-9a4d-4f6a-bbe0-4df6e7534d09",
-      "title": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
-      "url": "https://github.com/FormerLab/shadow-fleet-tracker-light",
-      "domain": "github.com",
-      "published_at": "2026-03-20T21:04:11Z",
-      "category": "tech",
-      "score": 0.2518168072815772,
-      "tldr": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-25T15:41:54.221503228Z",
+  "last_updated": "2026-03-25T16:53:57.939840695Z",
   "total_count": 100
 }
