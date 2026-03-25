@@ -321,6 +321,20 @@
       ]
     },
     {
+      "id": "17bbd9a8-2b74-43de-b2fc-4ee0af640b0c",
+      "title": "Goodbye to Sora",
+      "url": "https://twitter.com/soraofficialapp/status/2036532795984715896",
+      "domain": "twitter.com",
+      "published_at": "2026-03-24T20:01:05Z",
+      "category": "tech",
+      "score": 0.3449728754801078,
+      "tldr": "Goodbye to Sora",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "26de649e-6b71-4748-bafc-006a916432a0",
       "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
       "url": "https://github.com/ssrajadh/sentrysearch",
@@ -1057,6 +1071,20 @@
       ]
     },
     {
+      "id": "b4bb6a9f-55ca-4922-a506-53ff3bbf1d01",
+      "title": "A Compiler Writing Journey",
+      "url": "https://github.com/DoctorWkt/acwj",
+      "domain": "github.com",
+      "published_at": "2026-03-24T23:44:47Z",
+      "category": "tech",
+      "score": 0.25688326677844553,
+      "tldr": "A Compiler Writing Journey",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b3a3af23-e112-4e1e-8817-60466082a51e",
       "title": "Western carmakers' retreat from electric risks dooming them to irrelevance",
       "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
@@ -1392,36 +1420,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "d071a3f4-f554-4b2a-ae3c-1639d54d2bed",
-      "title": "Store birth date in systemd for age verification",
-      "url": "https://github.com/systemd/systemd/pull/40954",
-      "domain": "github.com",
-      "published_at": "2026-03-19T07:59:40Z",
-      "category": "tech",
-      "score": 0.2523558364306977,
-      "tldr": "Store birth date in systemd for age verification",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "86dd9bbb-2695-4a10-9a89-c1d23809f9a7",
-      "title": "LLMs learn what programmers create, not how programmers work",
-      "url": "https://news.ycombinator.com/item?id=47494696",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-03-23T20:31:48Z",
-      "category": "tech",
-      "score": 0.25227781738714555,
-      "tldr": "LLMs learn what programmers create, not how programmers work",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-24T23:53:10.115662875Z",
+  "last_updated": "2026-03-25T01:09:49.882964148Z",
   "total_count": 100
 }
