@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "b603358d-c085-4a32-a9e6-1de9aae41bcc",
-      "title": "Boston Dynamics Atlas Robot Shows New Capabilities",
-      "url": "https://bostondynamics.com/blog/atlas-2026",
-      "domain": "bostondynamics.com",
-      "published_at": "2026-03-18T09:39:22.867682Z",
-      "category": "tech",
-      "score": 0.9,
-      "tldr": "Next-gen Atlas demonstrates advanced manipulation",
-      "why_it_matters": "Humanoid robots getting closer to practical deployment",
-      "tags": [
-        "robotics"
-      ]
-    },
-    {
       "id": "7887d0a2-b19d-496b-b276-4a570617bfa2",
       "title": "DeepMind's New RL Algorithm Achieves Human-Level Performance",
       "url": "https://deepmind.google/research/rl-breakthrough-2026",
@@ -27,20 +13,6 @@
       "tags": [
         "rl",
         "research"
-      ]
-    },
-    {
-      "id": "b2de1ed7-b2e2-4878-9486-60c75c4bbfef",
-      "title": "Tesla Optimus Robot Update March 2026",
-      "url": "https://tesla.com/blog/optimus-march-2026",
-      "domain": "tesla.com",
-      "published_at": "2026-03-18T08:39:23.009971Z",
-      "category": "tech",
-      "score": 0.87,
-      "tldr": "Tesla's humanoid robot shows improved dexterity",
-      "why_it_matters": "Progress toward general-purpose household robots",
-      "tags": [
-        "robotics"
       ]
     },
     {
@@ -1415,8 +1387,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "41c68598-85b1-4b90-8861-54e4fdd380ce",
+      "title": "Codex with a vague prompt just solved a bug in Ghostty",
+      "url": "https://twitter.com/mitchellh/status/2029348087538565612",
+      "domain": "twitter.com",
+      "published_at": "2026-03-20T10:28:05Z",
+      "category": "tech",
+      "score": 0.25219429435221025,
+      "tldr": "Codex with a vague prompt just solved a bug in Ghostty",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ca9ccedd-839c-48c3-b5dd-a6dd7c84ba83",
+      "title": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
+      "url": "https://github.com/thatsme/AlexClaw",
+      "domain": "github.com",
+      "published_at": "2026-03-18T21:52:33Z",
+      "category": "tech",
+      "score": 0.25213316205321257,
+      "tldr": "A BEAM-native personal autonomous AI agent built on Elixir/OTP",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-25T08:37:58.816054241Z",
+  "last_updated": "2026-03-25T09:42:47.952130435Z",
   "total_count": 100
 }
