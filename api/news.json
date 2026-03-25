@@ -1131,20 +1131,6 @@
       ]
     },
     {
-      "id": "cc3bc494-f742-4e33-bdcd-1212fdb5c357",
-      "title": "DOGE canceled NC Museum grant for HVAC systems after ChatGPT flagged it as DEI",
-      "url": "https://myfox8.com/news/north-carolina/high-point/doge-canceled-high-point-museum-grant-for-hvac-systems-after-chatgpt-flagged-it-as-dei-lawsuit-alleges",
-      "domain": "myfox8.com",
-      "published_at": "2026-03-18T18:26:30Z",
-      "category": "tech",
-      "score": 0.2538600547215373,
-      "tldr": "DOGE canceled NC Museum grant for HVAC systems after ChatGPT flagged it as DEI",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "69d8c1eb-fb1a-471e-ba32-35f5b12f846d",
       "title": "Sunsetting the Techempower Framework Benchmarks",
       "url": "https://github.com/TechEmpower/FrameworkBenchmarks/issues/10932",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
+      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
+      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
+      "domain": "old.reddit.com",
+      "published_at": "2026-03-21T06:13:59Z",
+      "category": "tech",
+      "score": 0.25183446725000913,
+      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-25T17:50:21.815854452Z",
+  "last_updated": "2026-03-25T18:42:34.175253228Z",
   "total_count": 100
 }
