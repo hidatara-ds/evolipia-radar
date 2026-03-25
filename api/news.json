@@ -59,21 +59,6 @@
       ]
     },
     {
-      "id": "54ccc458-2384-4613-b48b-1cd2db1c38c3",
-      "title": "GitHub Copilot Workspace Now Available",
-      "url": "https://github.blog/copilot-workspace",
-      "domain": "github.com",
-      "published_at": "2026-03-18T06:39:23.286474Z",
-      "category": "tech",
-      "score": 0.83,
-      "tldr": "GitHub launches AI-powered development environment",
-      "why_it_matters": "New IDE features make AI coding more accessible",
-      "tags": [
-        "ide",
-        "tools"
-      ]
-    },
-    {
       "id": "333cd7ce-40d3-4184-a931-fbbcdbb2e852",
       "title": "DALL-E 3 Integration in ChatGPT",
       "url": "https://openai.com/blog/dall-e-3-integration",
@@ -86,21 +71,6 @@
       "tags": [
         "vision",
         "llm"
-      ]
-    },
-    {
-      "id": "b2d59a82-cf5a-475c-8c10-0464b27ec1b1",
-      "title": "Cursor IDE Adds New AI Features",
-      "url": "https://cursor.sh/blog/new-features-2026",
-      "domain": "cursor.sh",
-      "published_at": "2026-03-18T07:39:23.148368Z",
-      "category": "tech",
-      "score": 0.78,
-      "tldr": "Cursor releases major update with enhanced AI coding",
-      "why_it_matters": "AI-powered IDEs are transforming developer workflows",
-      "tags": [
-        "ide",
-        "tools"
       ]
     },
     {
@@ -1417,8 +1387,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "86dd9bbb-2695-4a10-9a89-c1d23809f9a7",
+      "title": "LLMs learn what programmers create, not how programmers work",
+      "url": "https://news.ycombinator.com/item?id=47494696",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-03-23T20:31:48Z",
+      "category": "tech",
+      "score": 0.25227781738714555,
+      "tldr": "LLMs learn what programmers create, not how programmers work",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7393b9e2-cb70-460b-af6b-cc0aa798bf22",
+      "title": "LLMs turn an autistic communication style into a neurotypical conversation",
+      "url": "https://hachyderm.io/@EmilyEnough/116258821633964028",
+      "domain": "hachyderm.io",
+      "published_at": "2026-03-23T08:02:59Z",
+      "category": "tech",
+      "score": 0.2522582654489936,
+      "tldr": "LLMs turn an autistic communication style into a neurotypical conversation",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-25T06:37:31.449083284Z",
+  "last_updated": "2026-03-25T07:46:06.049580565Z",
   "total_count": 100
 }
