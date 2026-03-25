@@ -89,21 +89,6 @@
       ]
     },
     {
-      "id": "f0d55bfe-4ff0-42af-b55a-a38f4d7c188f",
-      "title": "Anthropic Offers $15 Free Credits for Students",
-      "url": "https://anthropic.com/student-program-2026",
-      "domain": "anthropic.com",
-      "published_at": "2026-03-18T05:39:23.425003Z",
-      "category": "tech",
-      "score": 0.8,
-      "tldr": "Students can access Claude API with free credits",
-      "why_it_matters": "Makes advanced AI accessible to students and educators",
-      "tags": [
-        "free-credits",
-        "llm"
-      ]
-    },
-    {
       "id": "b2d59a82-cf5a-475c-8c10-0464b27ec1b1",
       "title": "Cursor IDE Adds New AI Features",
       "url": "https://cursor.sh/blog/new-features-2026",
@@ -1418,8 +1403,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "d071a3f4-f554-4b2a-ae3c-1639d54d2bed",
+      "title": "Store birth date in systemd for age verification",
+      "url": "https://github.com/systemd/systemd/pull/40954",
+      "domain": "github.com",
+      "published_at": "2026-03-19T07:59:40Z",
+      "category": "tech",
+      "score": 0.2523558364306977,
+      "tldr": "Store birth date in systemd for age verification",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-25T05:20:51.033257185Z",
+  "last_updated": "2026-03-25T06:37:31.449083284Z",
   "total_count": 100
 }
