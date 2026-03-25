@@ -1,21 +1,6 @@
 {
   "items": [
     {
-      "id": "7887d0a2-b19d-496b-b276-4a570617bfa2",
-      "title": "DeepMind's New RL Algorithm Achieves Human-Level Performance",
-      "url": "https://deepmind.google/research/rl-breakthrough-2026",
-      "domain": "deepmind.google",
-      "published_at": "2026-03-18T11:39:22.591022Z",
-      "category": "tech",
-      "score": 0.88,
-      "tldr": "New reinforcement learning approach matches human experts",
-      "why_it_matters": "Breakthrough in RL enables more capable autonomous systems",
-      "tags": [
-        "rl",
-        "research"
-      ]
-    },
-    {
       "id": "73a00bd4-67f3-4b4d-9816-8e5d82c1f1b7",
       "title": "Stable Diffusion 3.5 Released with Better Image Quality",
       "url": "https://stability.ai/news/stable-diffusion-3-5",
@@ -28,21 +13,6 @@
       "tags": [
         "vision",
         "tools"
-      ]
-    },
-    {
-      "id": "333cd7ce-40d3-4184-a931-fbbcdbb2e852",
-      "title": "DALL-E 3 Integration in ChatGPT",
-      "url": "https://openai.com/blog/dall-e-3-integration",
-      "domain": "openai.com",
-      "published_at": "2026-03-18T12:39:22.45096Z",
-      "category": "tech",
-      "score": 0.82,
-      "tldr": "OpenAI integrates advanced image generation into ChatGPT",
-      "why_it_matters": "Makes vision AI accessible to millions of users",
-      "tags": [
-        "vision",
-        "llm"
       ]
     },
     {
@@ -1413,8 +1383,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ee993000-877e-4cf6-a6f2-9439615b0205",
+      "title": "OpenAI Parameter Golf",
+      "url": "https://openai.com/index/parameter-golf",
+      "domain": "openai.com",
+      "published_at": "2026-03-18T17:17:14Z",
+      "category": "tech",
+      "score": 0.25185591731785756,
+      "tldr": "OpenAI Parameter Golf",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
+      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
+      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
+      "domain": "old.reddit.com",
+      "published_at": "2026-03-21T06:13:59Z",
+      "category": "tech",
+      "score": 0.25183446725000913,
+      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-25T11:34:37.063078559Z",
+  "last_updated": "2026-03-25T12:41:14.124417592Z",
   "total_count": 100
 }
