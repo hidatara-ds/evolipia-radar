@@ -89,22 +89,6 @@
       ]
     },
     {
-      "id": "81fededc-2081-4698-9538-c674b292dd2b",
-      "title": "GitHub Student Pack Adds More AI Tools",
-      "url": "https://education.github.com/pack/2026",
-      "domain": "education.github.com",
-      "published_at": "2026-03-18T04:39:23.561985Z",
-      "category": "tech",
-      "score": 0.81,
-      "tldr": "GitHub expands student benefits with AI coding tools",
-      "why_it_matters": "Students get free access to premium developer tools",
-      "tags": [
-        "free-credits",
-        "ide",
-        "tools"
-      ]
-    },
-    {
       "id": "f0d55bfe-4ff0-42af-b55a-a38f4d7c188f",
       "title": "Anthropic Offers $15 Free Credits for Students",
       "url": "https://anthropic.com/student-program-2026",
@@ -1366,6 +1350,20 @@
       ]
     },
     {
+      "id": "1076e46d-5103-4a2a-b9e4-9c3c02dd80ef",
+      "title": "Regular army and reserve components enlistment program: Summary of change",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN42922-AR_601-210-000-WEB-1.pdf",
+      "domain": "armypubs.army.mil",
+      "published_at": "2026-03-25T03:44:52Z",
+      "category": "tech",
+      "score": 0.2530920240896512,
+      "tldr": "Regular army and reserve components enlistment program: Summary of change",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "78eb93f7-6536-43ce-99c2-868705e003e4",
       "title": "Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence",
       "url": "https://zenodo.org/records/18976656",
@@ -1422,6 +1420,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-25T03:56:55.22953827Z",
+  "last_updated": "2026-03-25T05:20:51.033257185Z",
   "total_count": 100
 }
