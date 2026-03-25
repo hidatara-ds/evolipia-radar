@@ -255,6 +255,20 @@
       ]
     },
     {
+      "id": "b449e6ea-e860-473a-bd5e-6db9296c42a1",
+      "title": "Slovenian officials blame Israeli firm Black Cube for trying to manipulate vote",
+      "url": "https://www.wsj.com/world/europe/spies-lies-and-fake-investors-in-disguise-how-plotters-tried-to-flip-a-european-election-1f42b39a",
+      "domain": "wsj.com",
+      "published_at": "2026-03-25T16:24:15Z",
+      "category": "tech",
+      "score": 0.3187450075380728,
+      "tldr": "Slovenian officials blame Israeli firm Black Cube for trying to manipulate vote",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b9a587af-ee45-4790-80ec-e92cbd8d94f8",
       "title": "Tinybox – Offline AI device 120B parameters",
       "url": "https://tinygrad.org/",
@@ -353,6 +367,21 @@
       "tags": [
         "general_ai",
         "llm"
+      ]
+    },
+    {
+      "id": "ccb1913c-591f-4e1e-baec-5731c6cdc521",
+      "title": "Apple Can Create Smaller On-Device AI Models from Google's Gemini",
+      "url": "https://www.macrumors.com/2026/03/25/apple-google-gemini-distill-models",
+      "domain": "macrumors.com",
+      "published_at": "2026-03-25T17:25:02Z",
+      "category": "tech",
+      "score": 0.3018497085354553,
+      "tldr": "Apple Can Create Smaller On-Device AI Models from Google's Gemini",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm",
+        "general_ai"
       ]
     },
     {
@@ -1381,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ee993000-877e-4cf6-a6f2-9439615b0205",
-      "title": "OpenAI Parameter Golf",
-      "url": "https://openai.com/index/parameter-golf",
-      "domain": "openai.com",
-      "published_at": "2026-03-18T17:17:14Z",
-      "category": "tech",
-      "score": 0.25185591731785756,
-      "tldr": "OpenAI Parameter Golf",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
-      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
-      "domain": "old.reddit.com",
-      "published_at": "2026-03-21T06:13:59Z",
-      "category": "tech",
-      "score": 0.25183446725000913,
-      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-25T16:53:57.939840695Z",
+  "last_updated": "2026-03-25T17:50:21.815854452Z",
   "total_count": 100
 }
