@@ -143,6 +143,20 @@
       ]
     },
     {
+      "id": "b3d17e62-88f1-4612-956e-954a64d6f451",
+      "title": "Apple Just Lost Me",
+      "url": "https://andregarzia.com/2026/03/apple-just-lost-me.html",
+      "domain": "andregarzia.com",
+      "published_at": "2026-03-25T14:20:24Z",
+      "category": "tech",
+      "score": 0.35085979409867457,
+      "tldr": "Apple Just Lost Me",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "17bbd9a8-2b74-43de-b2fc-4ee0af640b0c",
       "title": "Goodbye to Sora",
       "url": "https://twitter.com/soraofficialapp/status/2036532795984715896",
@@ -185,20 +199,6 @@
       ]
     },
     {
-      "id": "07aba82e-1052-4345-a175-6be6b6f27fa2",
-      "title": "Despite Doubts, Federal Cyber Experts Approved Microsoft Cloud Service",
-      "url": "https://www.propublica.org/article/microsoft-cloud-fedramp-cybersecurity-government",
-      "domain": "propublica.org",
-      "published_at": "2026-03-18T14:14:02Z",
-      "category": "tech",
-      "score": 0.33322138407675916,
-      "tldr": "Despite Doubts, Federal Cyber Experts Approved Microsoft Cloud Service",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
-      ]
-    },
-    {
       "id": "0002be23-d072-4bc9-95b7-ee0fd55dc021",
       "title": "Pool spare GPU capacity to run LLMs at larger scale",
       "url": "https://github.com/michaelneale/mesh-llm",
@@ -207,6 +207,20 @@
       "category": "tech",
       "score": 0.3282269934529543,
       "tldr": "Pool spare GPU capacity to run LLMs at larger scale",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a5485f67-2288-4bfa-98c5-fdc122446508",
+      "title": "Local LLM App by Ente",
+      "url": "https://ente.com/blog/ensu",
+      "domain": "ente.com",
+      "published_at": "2026-03-25T12:49:14Z",
+      "category": "tech",
+      "score": 0.327965992477951,
+      "tldr": "Local LLM App by Ente",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -760,20 +774,6 @@
       "category": "tech",
       "score": 0.2626786099663869,
       "tldr": "GitHub is once again down",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b1af2460-457f-4d18-abcf-8275f9b6ab05",
-      "title": "Nvidia NemoClaw",
-      "url": "https://github.com/NVIDIA/NemoClaw",
-      "domain": "github.com",
-      "published_at": "2026-03-18T15:31:07Z",
-      "category": "tech",
-      "score": 0.2624895912533947,
-      "tldr": "Nvidia NemoClaw",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-25T14:11:33.452642529Z",
+  "last_updated": "2026-03-25T15:41:54.221503228Z",
   "total_count": 100
 }
