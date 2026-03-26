@@ -282,20 +282,6 @@
       ]
     },
     {
-      "id": "234748f2-b925-454d-a084-5d351636e610",
-      "title": "“Your frustration is the product”",
-      "url": "https://daringfireball.net/2026/03/your_frustration_is_the_product",
-      "domain": "daringfireball.net",
-      "published_at": "2026-03-19T11:34:24Z",
-      "category": "tech",
-      "score": 0.308034681898941,
-      "tldr": "“Your frustration is the product”",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5899f8be-2daf-48e4-b358-641e1c23f5e7",
       "title": "Chat GPT 5.2 cannot explain the German word \"geschniegelt\"",
       "url": "https://old.reddit.com/r/ChatGPT/comments/1r4goxh/chat_gpt_52_cannot_explain_the_word_geschniegelt",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "feb1f491-ec2a-4250-82aa-b334f7223180",
+      "title": "The Last Contract: William T. Vollmann's Battle to Publish an Epic (2025)",
+      "url": "https://www.metropolitanreview.org/p/the-last-contract",
+      "domain": "metropolitanreview.org",
+      "published_at": "2026-03-26T03:54:13Z",
+      "category": "tech",
+      "score": 0.2516090994598422,
+      "tldr": "The Last Contract: William T. Vollmann's Battle to Publish an Epic (2025)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-26T10:43:26.156446676Z",
+  "last_updated": "2026-03-26T11:42:04.323811954Z",
   "total_count": 100
 }
