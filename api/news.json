@@ -724,20 +724,6 @@
       ]
     },
     {
-      "id": "13dae3b2-e5a6-4eef-976e-99ee8905d8b0",
-      "title": "No AI in Node.js Core",
-      "url": "https://github.com/indutny/no-ai-in-nodejs-core",
-      "domain": "github.com",
-      "published_at": "2026-03-19T19:35:37Z",
-      "category": "tech",
-      "score": 0.2619998306059027,
-      "tldr": "No AI in Node.js Core",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "76e87ad6-56ab-4025-8ba4-a37d6b088584",
       "title": "Health NZ staff told to stop using ChatGPT to write clinical notes",
       "url": "https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes",
@@ -1172,6 +1158,20 @@
       ]
     },
     {
+      "id": "7e618075-5f1e-47d9-8754-9c255ccbb7f9",
+      "title": "Taming LLMs: Using Executable Oracles to Prevent Bad Code",
+      "url": "https://john.regehr.org/writing/zero_dof_programming.html",
+      "domain": "john.regehr.org",
+      "published_at": "2026-03-26T17:51:42Z",
+      "category": "tech",
+      "score": 0.2528490248805758,
+      "tldr": "Taming LLMs: Using Executable Oracles to Prevent Bad Code",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "0779e3d2-2f05-4f8b-bec8-e8ecad914086",
       "title": "Hawaii's worst flooding in 20 years threatens dam, prompts evacuations",
       "url": "https://www.nbcnews.com/weather/floods/hawaii-worst-flooding-in-20-years-rcna264573",
@@ -1250,20 +1250,6 @@
       "category": "tech",
       "score": 0.2520943955257177,
       "tldr": "Show HN: Relay – The open-source Claude Cowork for OpenClaw",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "07267693-178a-4a3a-87ed-bcf21657785a",
-      "title": "Anthropic takes legal action against OpenCode",
-      "url": "https://github.com/anomalyco/opencode/pull/18186",
-      "domain": "github.com",
-      "published_at": "2026-03-19T19:37:26Z",
-      "category": "tech",
-      "score": 0.25208795379806803,
-      "tldr": "Anthropic takes legal action against OpenCode",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "bd67f0ea-3744-486b-afa7-5f0c472dcc40",
+      "title": "Nebraska wildfires leave ranchers scrambling for forage",
+      "url": "https://www.farmprogress.com/forage/nebraska-wildfires-leave-ranchers-scrambling-for-forage",
+      "domain": "farmprogress.com",
+      "published_at": "2026-03-22T18:38:21Z",
+      "category": "tech",
+      "score": 0.2515137774209071,
+      "tldr": "Nebraska wildfires leave ranchers scrambling for forage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-26T18:51:25.749445246Z",
+  "last_updated": "2026-03-26T19:50:15.336409288Z",
   "total_count": 100
 }
