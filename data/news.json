@@ -1130,21 +1130,6 @@
       ]
     },
     {
-      "id": "e569c029-7ca8-47a7-8f98-cb4fd3037146",
-      "title": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
-      "url": "https://qlabs.sh/10x",
-      "domain": "qlabs.sh",
-      "published_at": "2026-03-19T18:51:25Z",
-      "category": "tech",
-      "score": 0.25331933406339197,
-      "tldr": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "data"
-      ]
-    },
-    {
       "id": "37c4f265-d439-4f5f-a764-f10a342198d1",
       "title": "Wikipedia RFC on banning LLM contributions",
       "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC",
@@ -1409,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "572e7769-7efd-4c8b-9b9d-3f00c7f1c065",
+      "title": "A 6502 disassembler with a TUI: A modern take on Regenerator",
+      "url": "https://github.com/ricardoquesada/regenerator2000",
+      "domain": "github.com",
+      "published_at": "2026-03-20T16:34:24Z",
+      "category": "tech",
+      "score": 0.25157569600705715,
+      "tldr": "A 6502 disassembler with a TUI: A modern take on Regenerator",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-26T17:52:37.170038716Z",
+  "last_updated": "2026-03-26T18:51:25.749445246Z",
   "total_count": 100
 }
