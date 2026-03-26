@@ -29,20 +29,6 @@
       ]
     },
     {
-      "id": "c862c8ef-7dec-4cd8-b03e-a53eac72c44b",
-      "title": "Afroman found not liable in defamation case",
-      "url": "https://nypost.com/2026/03/18/us-news/afroman-found-not-liable-in-bizarre-ohio-defamation-case",
-      "domain": "nypost.com",
-      "published_at": "2026-03-19T09:51:56Z",
-      "category": "tech",
-      "score": 0.4677616192013566,
-      "tldr": "Afroman found not liable in defamation case",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "28350483-1fcc-4c51-b807-ca93d72134f0",
       "title": "LiteLLM Python package compromised by supply-chain attack",
       "url": "https://github.com/BerriAI/litellm/issues/24512",
@@ -623,20 +609,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "63594c9e-fe40-4367-b787-6aaa834b7e88",
-      "title": "2% of ICML papers desk rejected because the authors used LLM in their reviews",
-      "url": "https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies",
-      "domain": "blog.icml.cc",
-      "published_at": "2026-03-19T10:17:46Z",
-      "category": "tech",
-      "score": 0.28070784771405083,
-      "tldr": "2% of ICML papers desk rejected because the authors used LLM in their reviews",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1313,6 +1285,20 @@
       ]
     },
     {
+      "id": "dd59ee72-b44d-43e0-b1e6-f04b188c6b87",
+      "title": "Show HN: Relay – The open-source Claude Cowork for OpenClaw",
+      "url": "https://github.com/SeventeenLabs/relay",
+      "domain": "github.com",
+      "published_at": "2026-03-26T10:23:12Z",
+      "category": "tech",
+      "score": 0.2520943955257177,
+      "tldr": "Show HN: Relay – The open-source Claude Cowork for OpenClaw",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "07267693-178a-4a3a-87ed-bcf21657785a",
       "title": "Anthropic takes legal action against OpenCode",
       "url": "https://github.com/anomalyco/opencode/pull/18186",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "24f9933e-a75e-4df9-9dcc-54c8ed66e931",
+      "title": "We've had front end reactivity since 2018 – via Async Iterables",
+      "url": "https://github.com/SacDeNoeuds/yawn",
+      "domain": "github.com",
+      "published_at": "2026-03-22T07:21:22Z",
+      "category": "tech",
+      "score": 0.25170267773930743,
+      "tldr": "We've had front end reactivity since 2018 – via Async Iterables",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-26T08:44:17.372327125Z",
+  "last_updated": "2026-03-26T10:43:26.156446676Z",
   "total_count": 100
 }
