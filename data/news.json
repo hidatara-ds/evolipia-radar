@@ -710,20 +710,6 @@
       ]
     },
     {
-      "id": "ee25f78a-9212-4967-974e-cc6d6e3d21ff",
-      "title": "Translate Garry Tan's LinkedIn-speak to plain English",
-      "url": "https://github.com/garrytan/gstack/pull/213",
-      "domain": "github.com",
-      "published_at": "2026-03-19T08:32:37Z",
-      "category": "tech",
-      "score": 0.26527763907271024,
-      "tldr": "Translate Garry Tan's LinkedIn-speak to plain English",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6beab50d-e1bb-4791-a33a-8a29713119e4",
       "title": "Cockpit is a web-based graphical interface for servers",
       "url": "https://github.com/cockpit-project/cockpit",
@@ -1285,20 +1271,6 @@
       ]
     },
     {
-      "id": "d071a3f4-f554-4b2a-ae3c-1639d54d2bed",
-      "title": "Store birth date in systemd for age verification",
-      "url": "https://github.com/systemd/systemd/pull/40954",
-      "domain": "github.com",
-      "published_at": "2026-03-19T07:59:40Z",
-      "category": "tech",
-      "score": 0.2523558364306977,
-      "tldr": "Store birth date in systemd for age verification",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "86dd9bbb-2695-4a10-9a89-c1d23809f9a7",
       "title": "LLMs learn what programmers create, not how programmers work",
       "url": "https://news.ycombinator.com/item?id=47494696",
@@ -1409,8 +1381,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a520b138-d596-40fe-9b84-85f23abe9435",
+      "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
+      "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
+      "domain": "hbr.org",
+      "published_at": "2026-03-22T16:24:50Z",
+      "category": "tech",
+      "score": 0.2518068477002122,
+      "tldr": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7dd2a2c4-7eed-422b-84bd-3196ba457812",
+      "title": "Show HN: AI SDLC Scaffold, repo template for AI-assisted software development",
+      "url": "https://github.com/pangon/ai-sdlc-scaffold",
+      "domain": "github.com",
+      "published_at": "2026-03-21T12:43:09Z",
+      "category": "tech",
+      "score": 0.25177397305808014,
+      "tldr": "Show HN: AI SDLC Scaffold, repo template for AI-assisted software development",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-26T07:56:57.840325433Z",
+  "last_updated": "2026-03-26T08:44:17.372327125Z",
   "total_count": 100
 }
