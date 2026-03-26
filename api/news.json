@@ -1368,6 +1368,20 @@
       ]
     },
     {
+      "id": "fde306a2-8f81-4ffd-b2a3-5e04c5219186",
+      "title": "Anthropic discourages Claud demand during peak productivity hours",
+      "url": "https://www.theregister.com/2026/03/26/anthropic_tweaks_usage_limits",
+      "domain": "theregister.com",
+      "published_at": "2026-03-26T22:47:43Z",
+      "category": "tech",
+      "score": 0.25158866844883976,
+      "tldr": "Anthropic discourages Claud demand during peak productivity hours",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "572e7769-7efd-4c8b-9b9d-3f00c7f1c065",
       "title": "A 6502 disassembler with a TUI: A modern take on Regenerator",
       "url": "https://github.com/ricardoquesada/regenerator2000",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "3c21db52-6eca-4d0c-b86f-cdcfeb3cf473",
-      "title": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
-      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
-      "domain": "blog.dominikrudnik.pl",
-      "published_at": "2026-03-22T12:23:04Z",
-      "category": "tech",
-      "score": 0.2514440605645486,
-      "tldr": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-26T22:54:35.472294747Z",
+  "last_updated": "2026-03-26T23:21:33.292909167Z",
   "total_count": 100
 }
