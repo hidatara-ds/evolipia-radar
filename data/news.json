@@ -1004,20 +1004,6 @@
       ]
     },
     {
-      "id": "c70f445d-3ac6-4b87-aa09-2f464a8b2fdb",
-      "title": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
-      "url": "https://esolang-bench.vercel.app/",
-      "domain": "esolang-bench.vercel.app",
-      "published_at": "2026-03-19T21:01:03Z",
-      "category": "tech",
-      "score": 0.2540331261177719,
-      "tldr": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "e5dc2270-d80b-44fa-9e74-9385c0c362d5",
       "title": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
       "url": "https://github.com/RasKrebs/sonar",
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "3c21db52-6eca-4d0c-b86f-cdcfeb3cf473",
+      "title": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
+      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
+      "domain": "blog.dominikrudnik.pl",
+      "published_at": "2026-03-22T12:23:04Z",
+      "category": "tech",
+      "score": 0.2514440605645486,
+      "tldr": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-26T20:56:44.86065124Z",
+  "last_updated": "2026-03-26T21:23:53.153322068Z",
   "total_count": 100
 }
