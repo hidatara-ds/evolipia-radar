@@ -226,20 +226,6 @@
       ]
     },
     {
-      "id": "cbc19238-c10c-454e-b2c6-aee39d936e02",
-      "title": "Show HN: ATO – a GUI to see and fix what your LLM agents configured",
-      "url": "https://github.com/WillNigri/Agentic-Tool-Optimization",
-      "domain": "github.com",
-      "published_at": "2026-03-19T00:28:05Z",
-      "category": "tech",
-      "score": 0.3256923831273918,
-      "tldr": "Show HN: ATO – a GUI to see and fix what your LLM agents configured",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "dd1d2d05-4577-4875-b0f2-ca5def2f85ab",
       "title": "Transformers Are Bayesian Networks",
       "url": "https://arxiv.org/abs/2603.17063",
@@ -654,20 +640,6 @@
       ]
     },
     {
-      "id": "0748dfc3-bd80-48b4-9fc1-eccc0316c815",
-      "title": "Autoresearch for SAT Solvers",
-      "url": "https://github.com/iliazintchenko/agent-sat",
-      "domain": "github.com",
-      "published_at": "2026-03-19T00:40:32Z",
-      "category": "tech",
-      "score": 0.2760102669174553,
-      "tldr": "Autoresearch for SAT Solvers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8982cd15-2ddc-4598-bda0-aefb89fcb35e",
       "title": "BYD is seeing a flood of new EV buyers",
       "url": "https://electrek.co/2026/03/20/byd-ev-demand-surges-drivers-ditch-gas-amid-rising-oil-prices",
@@ -816,20 +788,6 @@
       "category": "tech",
       "score": 0.2619998306059027,
       "tldr": "No AI in Node.js Core",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "57542a8c-5a2f-432d-a681-e920bf7c1481",
-      "title": "RX – a new random-access JSON alternative",
-      "url": "https://github.com/creationix/rx",
-      "domain": "github.com",
-      "published_at": "2026-03-18T23:58:05Z",
-      "category": "tech",
-      "score": 0.261668378292825,
-      "tldr": "RX – a new random-access JSON alternative",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,8 +1367,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
+      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
+      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
+      "domain": "old.reddit.com",
+      "published_at": "2026-03-21T06:13:59Z",
+      "category": "tech",
+      "score": 0.25183446725000913,
+      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7003aedb-9a4d-4f6a-bbe0-4df6e7534d09",
+      "title": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
+      "url": "https://github.com/FormerLab/shadow-fleet-tracker-light",
+      "domain": "github.com",
+      "published_at": "2026-03-20T21:04:11Z",
+      "category": "tech",
+      "score": 0.2518168072815772,
+      "tldr": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a520b138-d596-40fe-9b84-85f23abe9435",
+      "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
+      "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
+      "domain": "hbr.org",
+      "published_at": "2026-03-22T16:24:50Z",
+      "category": "tech",
+      "score": 0.2518068477002122,
+      "tldr": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-25T23:56:05.809572458Z",
+  "last_updated": "2026-03-26T01:15:27.158027476Z",
   "total_count": 100
 }
