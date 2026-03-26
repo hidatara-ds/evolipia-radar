@@ -401,20 +401,6 @@
       ]
     },
     {
-      "id": "89624fe7-2f3b-4e03-a023-11572356f7b8",
-      "title": "OpenAI to Acquire Astral",
-      "url": "https://openai.com/index/openai-to-acquire-astral",
-      "domain": "openai.com",
-      "published_at": "2026-03-19T13:05:17Z",
-      "category": "tech",
-      "score": 0.29653792533387585,
-      "tldr": "OpenAI to Acquire Astral",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8045a010-3b4a-47ff-bd14-2abfc9b8adbe",
       "title": "Secure Domain Name System (DNS) Deployment 2026 Guide [pdf]",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-81r3.pdf",
@@ -626,20 +612,6 @@
       ]
     },
     {
-      "id": "cfcfa587-29c0-4987-a47a-db27d83a7de8",
-      "title": "Astral to Join OpenAI",
-      "url": "https://astral.sh/blog/openai",
-      "domain": "astral.sh",
-      "published_at": "2026-03-19T13:05:50Z",
-      "category": "tech",
-      "score": 0.2700772431399256,
-      "tldr": "Astral to Join OpenAI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7e2f8190-384d-4569-a1eb-21af2bd54c52",
       "title": "iPhone 17 Pro Demonstrated Running a 400B LLM",
       "url": "https://twitter.com/anemll/status/2035901335984611412",
@@ -662,6 +634,20 @@
       "category": "tech",
       "score": 0.26592477335396714,
       "tldr": "Flash-Moe: Running a 397B Parameter Model on a Mac with 48GB RAM",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d994475c-7cd3-4a21-92a2-65129a726799",
+      "title": "Moving from GitHub to Codeberg, for lazy people",
+      "url": "https://unterwaditzer.net/2025/codeberg.html",
+      "domain": "unterwaditzer.net",
+      "published_at": "2026-03-26T13:38:25Z",
+      "category": "tech",
+      "score": 0.2637836560254875,
+      "tldr": "Moving from GitHub to Codeberg, for lazy people",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1001,20 +987,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "65b28756-41d5-4ae8-b9b2-dcaa45008018",
-      "title": "Hyper-optimized reverse geocoding API",
-      "url": "https://github.com/traccar/traccar-geocoder",
-      "domain": "github.com",
-      "published_at": "2026-03-19T14:38:51Z",
-      "category": "tech",
-      "score": 0.25425924753758733,
-      "tldr": "Hyper-optimized reverse geocoding API",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1409,8 +1381,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "04845a22-2e64-4ed3-8bf9-1045be7d88f7",
+      "title": "Windows 3.1 tiled background .bmp archive",
+      "url": "https://github.com/andreasjansson/win-3.1-backgrounds",
+      "domain": "github.com",
+      "published_at": "2026-03-23T22:52:35Z",
+      "category": "tech",
+      "score": 0.25159321304057874,
+      "tldr": "Windows 3.1 tiled background .bmp archive",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "572e7769-7efd-4c8b-9b9d-3f00c7f1c065",
+      "title": "A 6502 disassembler with a TUI: A modern take on Regenerator",
+      "url": "https://github.com/ricardoquesada/regenerator2000",
+      "domain": "github.com",
+      "published_at": "2026-03-20T16:34:24Z",
+      "category": "tech",
+      "score": 0.25157569600705715,
+      "tldr": "A 6502 disassembler with a TUI: A modern take on Regenerator",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-26T12:47:46.831084482Z",
+  "last_updated": "2026-03-26T15:48:46.183120075Z",
   "total_count": 100
 }
