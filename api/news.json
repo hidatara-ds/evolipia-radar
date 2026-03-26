@@ -198,6 +198,20 @@
       ]
     },
     {
+      "id": "8258049d-6164-4dd7-b9b7-37b85b33bc1e",
+      "title": "Show HN: Robust LLM Extractor for Websites in TypeScript",
+      "url": "https://github.com/lightfeed/extractor",
+      "domain": "github.com",
+      "published_at": "2026-03-26T03:55:52Z",
+      "category": "tech",
+      "score": 0.33121852019008136,
+      "tldr": "Show HN: Robust LLM Extractor for Websites in TypeScript",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "0002be23-d072-4bc9-95b7-ee0fd55dc021",
       "title": "Pool spare GPU capacity to run LLMs at larger scale",
       "url": "https://github.com/michaelneale/mesh-llm",
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "a520b138-d596-40fe-9b84-85f23abe9435",
-      "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
-      "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
-      "domain": "hbr.org",
-      "published_at": "2026-03-22T16:24:50Z",
-      "category": "tech",
-      "score": 0.2518068477002122,
-      "tldr": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-03-26T04:09:27.791906111Z",
+  "last_updated": "2026-03-26T05:55:42.90430182Z",
   "total_count": 100
 }
