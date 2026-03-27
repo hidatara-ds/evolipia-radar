@@ -58,20 +58,6 @@
       ]
     },
     {
-      "id": "f6280989-e2d4-4b64-810f-2b581e5f7115",
-      "title": "OpenCode – Open source AI coding agent",
-      "url": "https://opencode.ai/",
-      "domain": "opencode.ai",
-      "published_at": "2026-03-20T21:03:52Z",
-      "category": "tech",
-      "score": 0.4130715819092591,
-      "tldr": "OpenCode – Open source AI coding agent",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8350c429-5d2e-4fb8-9636-773465a441b6",
       "title": "Show HN: A deterministic middleware to compress LLM prompts by 50-80%",
       "url": "https://github.com/ARPAHLS/skillware",
@@ -296,6 +282,20 @@
       ]
     },
     {
+      "id": "232cf1ed-335f-4fab-9b24-e9f203df4fad",
+      "title": "If you don't opt out by Apr 24 GitHub will train on your private repos",
+      "url": "https://news.ycombinator.com/item?id=47548243",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-03-27T21:04:51Z",
+      "category": "tech",
+      "score": 0.3100564108032494,
+      "tldr": "If you don't opt out by Apr 24 GitHub will train on your private repos",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3de5baa1-0bff-4b8f-918a-8097556bd0a5",
       "title": "Mystery jump in oil trading ahead of Trump post draws scrutiny",
       "url": "https://www.bbc.com/news/articles/cg547ljepvzo",
@@ -381,21 +381,6 @@
       "tags": [
         "llm",
         "general_ai"
-      ]
-    },
-    {
-      "id": "92a4165f-d957-4bd9-bbe6-8db9c6dd20b5",
-      "title": "Covenant-72B is the largest decentralized LLM pre-training run in history",
-      "url": "https://twitter.com/opentensor/status/2032567840189096404",
-      "domain": "twitter.com",
-      "published_at": "2026-03-20T21:39:57Z",
-      "category": "tech",
-      "score": 0.3015690898999613,
-      "tldr": "Covenant-72B is the largest decentralized LLM pre-training run in history",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -621,6 +606,20 @@
       "category": "tech",
       "score": 0.26592477335396714,
       "tldr": "Flash-Moe: Running a 397B Parameter Model on a Mac with 48GB RAM",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "11345c4e-817f-470a-b5cf-e35abc5b9fbc",
+      "title": "Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser",
+      "url": "https://github.com/davidmonterocrespo24/velxio",
+      "domain": "github.com",
+      "published_at": "2026-03-27T20:44:33Z",
+      "category": "tech",
+      "score": 0.2640576220115167,
+      "tldr": "0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1201,20 +1200,6 @@
       ]
     },
     {
-      "id": "7003aedb-9a4d-4f6a-bbe0-4df6e7534d09",
-      "title": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
-      "url": "https://github.com/FormerLab/shadow-fleet-tracker-light",
-      "domain": "github.com",
-      "published_at": "2026-03-20T21:04:11Z",
-      "category": "tech",
-      "score": 0.2518168072815772,
-      "tldr": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a520b138-d596-40fe-9b84-85f23abe9435",
       "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
       "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
@@ -1409,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a7a8ee4e-504e-4d1b-88c6-67d1e4875c7f",
+      "title": "AI Team OS – Turn Claude Code into a Self-Managing AI Team",
+      "url": "https://github.com/CronusL-1141/AI-company",
+      "domain": "github.com",
+      "published_at": "2026-03-21T09:38:23Z",
+      "category": "tech",
+      "score": 0.2510660634144841,
+      "tldr": "AI Team OS – Turn Claude Code into a Self-Managing AI Team",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-27T21:02:47.441783925Z",
+  "last_updated": "2026-03-27T21:56:15.742514046Z",
   "total_count": 100
 }
