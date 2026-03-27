@@ -254,20 +254,6 @@
       ]
     },
     {
-      "id": "dd1d2d05-4577-4875-b0f2-ca5def2f85ab",
-      "title": "Transformers Are Bayesian Networks",
-      "url": "https://arxiv.org/abs/2603.17063",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-20T20:50:27Z",
-      "category": "tech",
-      "score": 0.3249218937778482,
-      "tldr": "Transformers Are Bayesian Networks",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "b449e6ea-e860-473a-bd5e-6db9296c42a1",
       "title": "Slovenian officials blame Israeli firm Black Cube for trying to manipulate vote",
       "url": "https://www.wsj.com/world/europe/spies-lies-and-fake-investors-in-disguise-how-plotters-tried-to-flip-a-european-election-1f42b39a",
@@ -469,20 +455,6 @@
       "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
       "tags": [
         "mlops",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "490c4cdb-1e2b-4aef-8fdb-fecda59ecfc6",
-      "title": "A Japanese glossary of chopsticks faux pas (2022)",
-      "url": "https://www.nippon.com/en/japan-data/h01362",
-      "domain": "nippon.com",
-      "published_at": "2026-03-20T20:54:57Z",
-      "category": "tech",
-      "score": 0.29093969645958156,
-      "tldr": "A Japanese glossary of chopsticks faux pas (2022)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
         "general_ai"
       ]
     },
@@ -1409,8 +1381,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
+      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+      "domain": "github.com",
+      "published_at": "2026-03-25T03:28:04Z",
+      "category": "tech",
+      "score": 0.2511784071695276,
+      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d296b397-89c1-40d1-aadf-adb4b7e2b964",
+      "title": "Liberated Systemd",
+      "url": "https://github.com/jeffrey-sardina/systemd",
+      "domain": "github.com",
+      "published_at": "2026-03-21T07:59:29Z",
+      "category": "tech",
+      "score": 0.25106625862133736,
+      "tldr": "Liberated Systemd",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-27T20:25:56.926365823Z",
+  "last_updated": "2026-03-27T21:02:47.441783925Z",
   "total_count": 100
 }
