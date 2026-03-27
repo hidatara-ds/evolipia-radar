@@ -413,6 +413,21 @@
       ]
     },
     {
+      "id": "cb85a015-6086-4085-9c4c-4eefc42d6cc2",
+      "title": "Google's TurboQuant AI-compression algorithm can reduce LLM memory usage by 6x",
+      "url": "https://arstechnica.com/ai/2026/03/google-says-new-turboquant-compression-can-lower-ai-memory-usage-without-sacrificing-quality",
+      "domain": "arstechnica.com",
+      "published_at": "2026-03-27T15:14:58Z",
+      "category": "tech",
+      "score": 0.3014728703794692,
+      "tldr": "Google's TurboQuant AI-compression algorithm can reduce LLM memory usage by 6x",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "ca18e3d8-c3ad-4869-96aa-e3e039c46091",
       "title": "A Portrait of the Artist as an LLM",
       "url": "https://evernotquite.substack.com/p/a-portrait-of-the-artist-as-an-llm",
@@ -662,20 +677,6 @@
       "category": "tech",
       "score": 0.2637836560254875,
       "tldr": "Moving from GitHub to Codeberg, for lazy people",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9e538550-f03d-4b61-aa58-7afc3650a5f4",
-      "title": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
-      "url": "https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers",
-      "domain": "portlandtribune.com",
-      "published_at": "2026-03-20T15:39:19Z",
-      "category": "tech",
-      "score": 0.26324852701647916,
-      "tldr": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1410,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-27T15:14:26.181024556Z",
+  "last_updated": "2026-03-27T16:11:38.401958134Z",
   "total_count": 100
 }
