@@ -612,6 +612,20 @@
       ]
     },
     {
+      "id": "00e5c9dc-439d-4e7c-a6ce-1d2422ab4a8e",
+      "title": "Apple discontinues the Mac Pro",
+      "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro",
+      "domain": "9to5mac.com",
+      "published_at": "2026-03-26T21:04:50Z",
+      "category": "tech",
+      "score": 0.2702983446800086,
+      "tldr": "Apple discontinues the Mac Pro",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7e2f8190-384d-4569-a1eb-21af2bd54c52",
       "title": "iPhone 17 Pro Demonstrated Running a 400B LLM",
       "url": "https://twitter.com/anemll/status/2035901335984611412",
@@ -1074,6 +1088,20 @@
       ]
     },
     {
+      "id": "2b44780a-a76c-4f9a-aeef-e4ff18b6d284",
+      "title": "HandyMKV for MakeMKV and HandBrake Automation",
+      "url": "https://github.com/dmars8047/handymkv",
+      "domain": "github.com",
+      "published_at": "2026-03-27T02:19:12Z",
+      "category": "tech",
+      "score": 0.25310618974008364,
+      "tldr": "HandyMKV for MakeMKV and HandBrake Automation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1076e46d-5103-4a2a-b9e4-9c3c02dd80ef",
       "title": "Regular army and reserve components enlistment program: Summary of change",
       "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN42922-AR_601-210-000-WEB-1.pdf",
@@ -1380,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "3c21db52-6eca-4d0c-b86f-cdcfeb3cf473",
-      "title": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
-      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
-      "domain": "blog.dominikrudnik.pl",
-      "published_at": "2026-03-22T12:23:04Z",
-      "category": "tech",
-      "score": 0.2514440605645486,
-      "tldr": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "de3cd570-da00-4344-9e4d-4308842f5a84",
-      "title": "Atomic Display Switching: Solving",
-      "url": "https://github.com/piot5/displayflow_cli",
-      "domain": "github.com",
-      "published_at": "2026-03-24T18:37:39Z",
-      "category": "tech",
-      "score": 0.25127282998527584,
-      "tldr": "Atomic Display Switching: Solving",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-27T01:14:49.223328832Z",
+  "last_updated": "2026-03-27T04:09:41.735348634Z",
   "total_count": 100
 }
