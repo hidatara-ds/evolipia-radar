@@ -1004,20 +1004,6 @@
       ]
     },
     {
-      "id": "e5dc2270-d80b-44fa-9e74-9385c0c362d5",
-      "title": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
-      "url": "https://github.com/RasKrebs/sonar",
-      "domain": "github.com",
-      "published_at": "2026-03-20T09:59:56Z",
-      "category": "tech",
-      "score": 0.2539025433294304,
-      "tldr": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "84daba80-0e8d-46c7-9fd0-3bed867cde9c",
       "title": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
       "url": "https://github.com/salespeak-ai/buyer-eval-skill",
@@ -1214,20 +1200,6 @@
       ]
     },
     {
-      "id": "41c68598-85b1-4b90-8861-54e4fdd380ce",
-      "title": "Codex with a vague prompt just solved a bug in Ghostty",
-      "url": "https://twitter.com/mitchellh/status/2029348087538565612",
-      "domain": "twitter.com",
-      "published_at": "2026-03-20T10:28:05Z",
-      "category": "tech",
-      "score": 0.25219429435221025,
-      "tldr": "Codex with a vague prompt just solved a bug in Ghostty",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "21258070-52e4-49b2-9276-b35ec6910908",
       "title": "Show HN: Layerleak – Like Trufflehog, but for Docker Hub",
       "url": "https://github.com/Brumbelow/layerleak",
@@ -1408,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "bd67f0ea-3744-486b-afa7-5f0c472dcc40",
+      "title": "Nebraska wildfires leave ranchers scrambling for forage",
+      "url": "https://www.farmprogress.com/forage/nebraska-wildfires-leave-ranchers-scrambling-for-forage",
+      "domain": "farmprogress.com",
+      "published_at": "2026-03-22T18:38:21Z",
+      "category": "tech",
+      "score": 0.2515137774209071,
+      "tldr": "Nebraska wildfires leave ranchers scrambling for forage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3c21db52-6eca-4d0c-b86f-cdcfeb3cf473",
+      "title": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
+      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
+      "domain": "blog.dominikrudnik.pl",
+      "published_at": "2026-03-22T12:23:04Z",
+      "category": "tech",
+      "score": 0.2514440605645486,
+      "tldr": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-03-27T09:44:08.785743833Z",
+  "last_updated": "2026-03-27T10:38:14.960565485Z",
   "total_count": 100
 }
