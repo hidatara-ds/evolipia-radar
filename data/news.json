@@ -1228,6 +1228,20 @@
       ]
     },
     {
+      "id": "3a9bca84-f468-410e-ad65-591e9246c18e",
+      "title": "Every novel that has ever been published is sitting inside ChatGPT",
+      "url": "https://twitter.com/heynavtoor/status/2037638554374099409",
+      "domain": "twitter.com",
+      "published_at": "2026-03-28T14:36:41Z",
+      "category": "tech",
+      "score": 0.2517444476126295,
+      "tldr": "Every novel that has ever been published is sitting inside ChatGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "24f9933e-a75e-4df9-9dcc-54c8ed66e931",
       "title": "We've had front end reactivity since 2018 – via Async Iterables",
       "url": "https://github.com/SacDeNoeuds/yawn",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "747bd53e-77e0-4c3d-8b91-87088bdb61dd",
-      "title": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
-      "url": "https://github.com/varmabudharaju/pgsemantic",
-      "domain": "github.com",
-      "published_at": "2026-03-25T18:41:05Z",
-      "category": "tech",
-      "score": 0.2509604465688874,
-      "tldr": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-28T14:56:55.20574695Z",
+  "last_updated": "2026-03-28T15:22:29.98387041Z",
   "total_count": 100
 }
