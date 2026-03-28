@@ -128,6 +128,21 @@
       ]
     },
     {
+      "id": "3b5ad925-6f4e-4a1f-a01b-2b34ee306115",
+      "title": "Paper Tape Is All You Need – Training a Transformer on a 1976 Minicomputer",
+      "url": "https://github.com/dbrll/ATTN-11",
+      "domain": "github.com",
+      "published_at": "2026-03-25T15:20:08Z",
+      "category": "tech",
+      "score": 0.3572822439697687,
+      "tldr": "Paper Tape Is All You Need – Training a Transformer on a 1976 Minicomputer",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "b3d17e62-88f1-4612-956e-954a64d6f451",
       "title": "Apple Just Lost Me",
       "url": "https://andregarzia.com/2026/03/apple-just-lost-me.html",
@@ -1394,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
-      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
-      "domain": "github.com",
-      "published_at": "2026-03-25T03:28:04Z",
-      "category": "tech",
-      "score": 0.2511784071695276,
-      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-28T11:27:42.177409878Z",
+  "last_updated": "2026-03-28T11:50:50.089600696Z",
   "total_count": 100
 }
