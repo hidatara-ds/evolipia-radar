@@ -458,6 +458,20 @@
       ]
     },
     {
+      "id": "5998352e-5b9b-41b1-a2e2-46e78cf9efed",
+      "title": "Iran-linked hackers breach FBI director's personal email",
+      "url": "https://www.reuters.com/world/us/iran-linked-hackers-claim-breach-of-fbi-directors-personal-email-doj-official-2026-03-27",
+      "domain": "reuters.com",
+      "published_at": "2026-03-27T14:38:28Z",
+      "category": "tech",
+      "score": 0.28681975719933805,
+      "tldr": "Iran-linked hackers breach FBI director's personal email",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "06a76abe-7b7f-4999-9f6d-1f11ceac8d0d",
       "title": "Mayor of Paris removed parking spaces, reduced the number of cars",
       "url": "https://www.cnn.com/2026/03/21/travel/paris-transformation-anne-hidalgo-mayor",
@@ -550,6 +564,20 @@
       "category": "tech",
       "score": 0.2818603802682159,
       "tldr": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9d7b1abb-be91-42ba-9fa5-11710fc7153f",
+      "title": "Go hard on agents, not on your filesystem",
+      "url": "https://jai.scs.stanford.edu/",
+      "domain": "jai.scs.stanford.edu",
+      "published_at": "2026-03-28T00:39:54Z",
+      "category": "tech",
+      "score": 0.2757165578567885,
+      "tldr": "Go hard on agents, not on your filesystem",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1186,20 +1214,6 @@
       ]
     },
     {
-      "id": "39cd3230-b38c-4020-a90a-f74b1828945a",
-      "title": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "url": "https://old.reddit.com/r/ChatGPT/comments/1rz2ooh/i_am_betting_my_house_that_if_you_ask_gpt_to_pick",
-      "domain": "old.reddit.com",
-      "published_at": "2026-03-21T06:13:59Z",
-      "category": "tech",
-      "score": 0.25183446725000913,
-      "tldr": "Ask ChatGPT to pick a number from 1-10000, it generally selects from 7200-7500",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "a520b138-d596-40fe-9b84-85f23abe9435",
       "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
       "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "a7a8ee4e-504e-4d1b-88c6-67d1e4875c7f",
-      "title": "AI Team OS – Turn Claude Code into a Self-Managing AI Team",
-      "url": "https://github.com/CronusL-1141/AI-company",
-      "domain": "github.com",
-      "published_at": "2026-03-21T09:38:23Z",
-      "category": "tech",
-      "score": 0.2510660634144841,
-      "tldr": "AI Team OS – Turn Claude Code into a Self-Managing AI Team",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-28T05:18:29.095966276Z",
+  "last_updated": "2026-03-28T06:15:23.612568794Z",
   "total_count": 100
 }
