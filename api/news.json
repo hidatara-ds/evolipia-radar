@@ -442,21 +442,6 @@
       ]
     },
     {
-      "id": "ca18e3d8-c3ad-4869-96aa-e3e039c46091",
-      "title": "A Portrait of the Artist as an LLM",
-      "url": "https://evernotquite.substack.com/p/a-portrait-of-the-artist-as-an-llm",
-      "domain": "evernotquite.substack.com",
-      "published_at": "2026-03-21T14:31:27Z",
-      "category": "tech",
-      "score": 0.30122369092202456,
-      "tldr": "A Portrait of the Artist as an LLM",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "dc573688-389d-4168-a904-fcb35ac6bd62",
       "title": "OpenAI to introduce ads to all ChatGPT free and Go users in US",
       "url": "https://www.reuters.com/business/media-telecom/openai-expand-ads-chatgpt-all-free-low-cost-users-information-reports-2026-03-21",
@@ -859,20 +844,6 @@
       "category": "tech",
       "score": 0.25688326677844553,
       "tldr": "A Compiler Writing Journey",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b3a3af23-e112-4e1e-8817-60466082a51e",
-      "title": "Western carmakers' retreat from electric risks dooming them to irrelevance",
-      "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
-      "domain": "theguardian.com",
-      "published_at": "2026-03-21T13:52:22Z",
-      "category": "tech",
-      "score": 0.2567008119817632,
-      "tldr": "Western carmakers' retreat from electric risks dooming them to irrelevance",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "870f08b2-03b6-4dd9-ac94-076cd9b901c3",
+      "title": "RustTraining: Beginner, advanced, expert level Rust training material",
+      "url": "https://github.com/microsoft/RustTraining",
+      "domain": "github.com",
+      "published_at": "2026-03-24T22:49:25Z",
+      "category": "tech",
+      "score": 0.2510005441123314,
+      "tldr": "RustTraining: Beginner, advanced, expert level Rust training material",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "747bd53e-77e0-4c3d-8b91-87088bdb61dd",
+      "title": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "url": "https://github.com/varmabudharaju/pgsemantic",
+      "domain": "github.com",
+      "published_at": "2026-03-25T18:41:05Z",
+      "category": "tech",
+      "score": 0.2509604465688874,
+      "tldr": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-28T13:33:48.352449306Z",
+  "last_updated": "2026-03-28T14:56:55.20574695Z",
   "total_count": 100
 }
