@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "dd45d6e8-5cd0-4c33-81be-43f7c6dc035d",
+      "title": "Spanish legislation as a Git repo",
+      "url": "https://github.com/EnriqueLop/legalize-es",
+      "domain": "github.com",
+      "published_at": "2026-03-28T12:01:27Z",
+      "category": "tech",
+      "score": 0.49463013028643843,
+      "tldr": "Spanish legislation as a Git repo",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "28350483-1fcc-4c51-b807-ca93d72134f0",
       "title": "LiteLLM Python package compromised by supply-chain attack",
       "url": "https://github.com/BerriAI/litellm/issues/24512",
@@ -252,6 +266,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "36fc3b99-0aee-4ca8-94e6-da4892f92149",
+      "title": "AI overly affirms users asking for personal advice",
+      "url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
+      "domain": "news.stanford.edu",
+      "published_at": "2026-03-28T14:08:33Z",
+      "category": "tech",
+      "score": 0.3203016877368765,
+      "tldr": "AI overly affirms users asking for personal advice",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1379,36 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "747bd53e-77e0-4c3d-8b91-87088bdb61dd",
-      "title": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
-      "url": "https://github.com/varmabudharaju/pgsemantic",
-      "domain": "github.com",
-      "published_at": "2026-03-25T18:41:05Z",
-      "category": "tech",
-      "score": 0.2509604465688874,
-      "tldr": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "939ffbd7-b38e-45d0-9a18-daeaf14c853e",
-      "title": "Show HN: Lockpaw One hotkey to cover your Mac screen without putting it to sleep",
-      "url": "https://github.com/sorkila/lockpaw",
-      "domain": "github.com",
-      "published_at": "2026-03-23T13:04:07Z",
-      "category": "tech",
-      "score": 0.2509477626921285,
-      "tldr": "Show HN: Lockpaw One hotkey to cover your Mac screen without putting it to sleep",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-28T16:21:30.754011912Z",
+  "last_updated": "2026-03-28T16:57:33.534964425Z",
   "total_count": 100
 }
