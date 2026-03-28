@@ -297,6 +297,20 @@
       ]
     },
     {
+      "id": "d862369b-6ff7-4fd2-8ce9-e37f07a3816a",
+      "title": "I put all 8,642 Spanish laws in Git – every reform is a commit",
+      "url": "https://github.com/EnriqueLop/legalize-es",
+      "domain": "github.com",
+      "published_at": "2026-03-28T12:01:27Z",
+      "category": "tech",
+      "score": 0.3147131199111361,
+      "tldr": "I put all 8,642 Spanish laws in Git – every reform is a commit",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud"
+      ]
+    },
+    {
       "id": "50dd3dba-0fc4-45a0-9ff0-8648ceb6b37c",
       "title": "HyperAgents: Self-referential self-improving agents",
       "url": "https://github.com/facebookresearch/hyperagents",
@@ -481,20 +495,6 @@
       "category": "tech",
       "score": 0.28681975719933805,
       "tldr": "Iran-linked hackers breach FBI director's personal email",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "06a76abe-7b7f-4999-9f6d-1f11ceac8d0d",
-      "title": "Mayor of Paris removed parking spaces, reduced the number of cars",
-      "url": "https://www.cnn.com/2026/03/21/travel/paris-transformation-anne-hidalgo-mayor",
-      "domain": "cnn.com",
-      "published_at": "2026-03-21T13:12:10Z",
-      "category": "tech",
-      "score": 0.28575592640916553,
-      "tldr": "Mayor of Paris removed parking spaces, reduced the number of cars",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1257,20 +1257,6 @@
       ]
     },
     {
-      "id": "7dd2a2c4-7eed-422b-84bd-3196ba457812",
-      "title": "Show HN: AI SDLC Scaffold, repo template for AI-assisted software development",
-      "url": "https://github.com/pangon/ai-sdlc-scaffold",
-      "domain": "github.com",
-      "published_at": "2026-03-21T12:43:09Z",
-      "category": "tech",
-      "score": 0.25177397305808014,
-      "tldr": "Show HN: AI SDLC Scaffold, repo template for AI-assisted software development",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "24f9933e-a75e-4df9-9dcc-54c8ed66e931",
       "title": "We've had front end reactivity since 2018 – via Async Iterables",
       "url": "https://github.com/SacDeNoeuds/yawn",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
+      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+      "domain": "github.com",
+      "published_at": "2026-03-25T03:28:04Z",
+      "category": "tech",
+      "score": 0.2511784071695276,
+      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-28T11:50:50.089600696Z",
+  "last_updated": "2026-03-28T13:33:48.352449306Z",
   "total_count": 100
 }
