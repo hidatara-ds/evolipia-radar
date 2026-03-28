@@ -86,20 +86,6 @@
       ]
     },
     {
-      "id": "5be188e8-af4a-4bd9-b3dd-92e4940d505d",
-      "title": "Tinybox – A powerful computer for deep learning",
-      "url": "https://tinygrad.org/",
-      "domain": "tinygrad.org",
-      "published_at": "2026-03-21T20:08:37Z",
-      "category": "tech",
-      "score": 0.3753610088885509,
-      "tldr": "Tinybox – A powerful computer for deep learning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ad36e858-0925-4098-84c8-62de1b76ec1c",
       "title": "Student beauty and grades under in-person and remote teaching",
       "url": "https://www.sciencedirect.com/science/article/pii/S016517652200283X",
@@ -305,20 +291,6 @@
       "category": "tech",
       "score": 0.3187450075380728,
       "tldr": "Slovenian officials blame Israeli firm Black Cube for trying to manipulate vote",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b9a587af-ee45-4790-80ec-e92cbd8d94f8",
-      "title": "Tinybox – Offline AI device 120B parameters",
-      "url": "https://tinygrad.org/",
-      "domain": "tinygrad.org",
-      "published_at": "2026-03-21T20:08:37Z",
-      "category": "tech",
-      "score": 0.3176763451655039,
-      "tldr": "Tinybox – Offline AI device 120B parameters",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -794,20 +766,6 @@
       ]
     },
     {
-      "id": "4455957e-6d80-4947-bad6-9e0f18d44725",
-      "title": "Study finds no evidence cannabis helps anxiety, depression, or PTSD",
-      "url": "https://www.sciencedaily.com/releases/2026/03/260319044656.htm",
-      "domain": "sciencedaily.com",
-      "published_at": "2026-03-21T20:05:58Z",
-      "category": "tech",
-      "score": 0.26053066617936776,
-      "tldr": "Study finds no evidence cannabis helps anxiety, depression, or PTSD",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d3cbdedc-5d52-4747-8428-ee1f32fe9a78",
       "title": "Data centers are transitioning from AC to DC",
       "url": "https://spectrum.ieee.org/data-center-dc",
@@ -1116,20 +1074,6 @@
       ]
     },
     {
-      "id": "0779e3d2-2f05-4f8b-bec8-e8ecad914086",
-      "title": "Hawaii's worst flooding in 20 years threatens dam, prompts evacuations",
-      "url": "https://www.nbcnews.com/weather/floods/hawaii-worst-flooding-in-20-years-rcna264573",
-      "domain": "nbcnews.com",
-      "published_at": "2026-03-21T19:55:23Z",
-      "category": "tech",
-      "score": 0.25278790800087436,
-      "tldr": "Hawaii's worst flooding in 20 years threatens dam, prompts evacuations",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b1051732-6796-4d62-9ce1-a677bdc2c2b7",
       "title": "Apply video compression on KV cache to 10,000x less error at Q4 quant",
       "url": "https://github.com/cenconq25/delta-compress-llm",
@@ -1408,8 +1352,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "870f08b2-03b6-4dd9-ac94-076cd9b901c3",
+      "title": "RustTraining: Beginner, advanced, expert level Rust training material",
+      "url": "https://github.com/microsoft/RustTraining",
+      "domain": "github.com",
+      "published_at": "2026-03-24T22:49:25Z",
+      "category": "tech",
+      "score": 0.2510005441123314,
+      "tldr": "RustTraining: Beginner, advanced, expert level Rust training material",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "747bd53e-77e0-4c3d-8b91-87088bdb61dd",
+      "title": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "url": "https://github.com/varmabudharaju/pgsemantic",
+      "domain": "github.com",
+      "published_at": "2026-03-25T18:41:05Z",
+      "category": "tech",
+      "score": 0.2509604465688874,
+      "tldr": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "939ffbd7-b38e-45d0-9a18-daeaf14c853e",
+      "title": "Show HN: Lockpaw One hotkey to cover your Mac screen without putting it to sleep",
+      "url": "https://github.com/sorkila/lockpaw",
+      "domain": "github.com",
+      "published_at": "2026-03-23T13:04:07Z",
+      "category": "tech",
+      "score": 0.2509477626921285,
+      "tldr": "Show HN: Lockpaw One hotkey to cover your Mac screen without putting it to sleep",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ddbb5dc5-9efa-402d-a18c-86b833d8629c",
+      "title": "Non-trivial error in physics paper found via Lean",
+      "url": "https://arxiv.org/abs/2603.08139",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-22T11:03:14Z",
+      "category": "tech",
+      "score": 0.25076463015737677,
+      "tldr": "Non-trivial error in physics paper found via Lean",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-28T19:50:33.281037378Z",
+  "last_updated": "2026-03-28T20:18:28.735712528Z",
   "total_count": 100
 }
