@@ -269,6 +269,20 @@
       ]
     },
     {
+      "id": "e50b24b7-92b9-4e2d-8f36-66dd65563b6d",
+      "title": "Show HN: A prompt that builds the most capable AI agent system",
+      "url": "https://github.com/fainir/most-capable-agent-system-prompt",
+      "domain": "github.com",
+      "published_at": "2026-03-28T16:58:49Z",
+      "category": "tech",
+      "score": 0.32632254854463605,
+      "tldr": "Show HN: A prompt that builds the most capable AI agent system",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "36fc3b99-0aee-4ca8-94e6-da4892f92149",
       "title": "AI overly affirms users asking for personal advice",
       "url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
@@ -565,6 +579,21 @@
       "tldr": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2a6e50ad-3b48-4994-955b-243ed069452c",
+      "title": "CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering",
+      "url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
+      "domain": "theopenreader.org",
+      "published_at": "2026-03-28T08:06:19Z",
+      "category": "tech",
+      "score": 0.2788917109469381,
+      "tldr": "CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data",
         "general_ai"
       ]
     },
@@ -1379,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
-      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
-      "domain": "github.com",
-      "published_at": "2026-03-25T03:28:04Z",
-      "category": "tech",
-      "score": 0.2511784071695276,
-      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d7c68017-1179-468c-9c28-7cca5dfdaca2",
-      "title": "Circuit-level PDP-11/34 emulator",
-      "url": "https://github.com/dbrll/ll-34",
-      "domain": "github.com",
-      "published_at": "2026-03-28T16:23:31Z",
-      "category": "tech",
-      "score": 0.2510272585180851,
-      "tldr": "Circuit-level PDP-11/34 emulator",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-28T17:53:32.376132177Z",
+  "last_updated": "2026-03-28T18:25:11.531799358Z",
   "total_count": 100
 }
