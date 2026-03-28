@@ -752,20 +752,6 @@
       ]
     },
     {
-      "id": "4699b7c3-f55b-45d1-a1e5-87c7f6d8d66c",
-      "title": "Revert \"userdb: add birthDate field to JSON user records",
-      "url": "https://github.com/systemd/systemd/pull/41179",
-      "domain": "github.com",
-      "published_at": "2026-03-21T20:53:43Z",
-      "category": "tech",
-      "score": 0.2605761173296274,
-      "tldr": "Revert \"userdb: add birthDate field to JSON user records",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d3cbdedc-5d52-4747-8428-ee1f32fe9a78",
       "title": "Data centers are transitioning from AC to DC",
       "url": "https://spectrum.ieee.org/data-center-dc",
@@ -1158,6 +1144,20 @@
       ]
     },
     {
+      "id": "16979c1a-73b9-48a7-b364-32cb4ce18880",
+      "title": "OpenCiv1 – open-source rewrite of Civ1",
+      "url": "https://github.com/rajko-horvat/OpenCiv1",
+      "domain": "github.com",
+      "published_at": "2026-03-28T18:22:45Z",
+      "category": "tech",
+      "score": 0.2518297328430525,
+      "tldr": "OpenCiv1 – open-source rewrite of Civ1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a520b138-d596-40fe-9b84-85f23abe9435",
       "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
       "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
@@ -1410,6 +1410,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-28T20:18:28.735712528Z",
+  "last_updated": "2026-03-28T20:54:01.74166766Z",
   "total_count": 100
 }
