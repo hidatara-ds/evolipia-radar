@@ -58,20 +58,6 @@
       ]
     },
     {
-      "id": "8350c429-5d2e-4fb8-9636-773465a441b6",
-      "title": "Show HN: A deterministic middleware to compress LLM prompts by 50-80%",
-      "url": "https://github.com/ARPAHLS/skillware",
-      "domain": "github.com",
-      "published_at": "2026-03-21T15:49:30Z",
-      "category": "tech",
-      "score": 0.405314924948479,
-      "tldr": "Show HN: A deterministic middleware to compress LLM prompts by 50-80%",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "59192d4c-3709-48c0-bf00-09bc675dff52",
       "title": "Ensu – Ente’s Local LLM app",
       "url": "https://ente.com/blog/ensu",
@@ -390,21 +376,6 @@
       "category": "tech",
       "score": 0.30248835097502164,
       "tldr": "Supply Chain Attack in litellm 1.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "0d44357e-b3ce-46d7-9405-c666b34e193b",
-      "title": "OpenAI Plans Desktop Superapp Merging ChatGPT, Codex, and Atlas Browser",
-      "url": "https://www.cnbc.com/2026/03/19/openai-desktop-super-app-chatgpt-browser-codex.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-03-21T15:26:10Z",
-      "category": "tech",
-      "score": 0.3019328080020054,
-      "tldr": "OpenAI Plans Desktop Superapp Merging ChatGPT, Codex, and Atlas Browser",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
@@ -1408,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "747bd53e-77e0-4c3d-8b91-87088bdb61dd",
+      "title": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "url": "https://github.com/varmabudharaju/pgsemantic",
+      "domain": "github.com",
+      "published_at": "2026-03-25T18:41:05Z",
+      "category": "tech",
+      "score": 0.2509604465688874,
+      "tldr": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "939ffbd7-b38e-45d0-9a18-daeaf14c853e",
+      "title": "Show HN: Lockpaw One hotkey to cover your Mac screen without putting it to sleep",
+      "url": "https://github.com/sorkila/lockpaw",
+      "domain": "github.com",
+      "published_at": "2026-03-23T13:04:07Z",
+      "category": "tech",
+      "score": 0.2509477626921285,
+      "tldr": "Show HN: Lockpaw One hotkey to cover your Mac screen without putting it to sleep",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-28T15:22:29.98387041Z",
+  "last_updated": "2026-03-28T15:52:52.744295524Z",
   "total_count": 100
 }
