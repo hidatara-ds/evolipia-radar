@@ -879,6 +879,20 @@
       ]
     },
     {
+      "id": "94687cd2-a27d-45b6-ad47-50938e5dacf5",
+      "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
+      "url": "https://github.com/anthropics/claude-code/issues/40710",
+      "domain": "github.com",
+      "published_at": "2026-03-29T22:15:06Z",
+      "category": "tech",
+      "score": 0.2552819957556725,
+      "tldr": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c7dfd3cf-60cd-454c-9104-df65ee50cc87",
       "title": "Building a coding agent in Swift from scratch",
       "url": "https://github.com/ivan-magda/swift-claude-code",
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
-      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
-      "domain": "github.com",
-      "published_at": "2026-03-25T03:28:04Z",
-      "category": "tech",
-      "score": 0.2511784071695276,
-      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-29T22:56:28.40771924Z",
+  "last_updated": "2026-03-29T23:23:16.338365793Z",
   "total_count": 100
 }
