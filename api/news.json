@@ -129,6 +129,20 @@
       ]
     },
     {
+      "id": "a164c67f-eda3-4032-bb31-640bd26e1a7d",
+      "title": "Nitrile and latex gloves may cause overestimation of microplastics",
+      "url": "https://news.umich.edu/nitrile-and-latex-gloves-may-cause-overestimation-of-microplastics-u-m-study-reveals",
+      "domain": "news.umich.edu",
+      "published_at": "2026-03-29T09:46:58Z",
+      "category": "tech",
+      "score": 0.3512530705361775,
+      "tldr": "Nitrile and latex gloves may cause overestimation of microplastics",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b3d17e62-88f1-4612-956e-954a64d6f451",
       "title": "Apple Just Lost Me",
       "url": "https://andregarzia.com/2026/03/apple-just-lost-me.html",
@@ -406,6 +420,21 @@
       "category": "tech",
       "score": 0.3014728703794692,
       "tldr": "Google's TurboQuant AI-compression algorithm can reduce LLM memory usage by 6x",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "09ac4c40-a782-4e43-af93-490a303ead40",
+      "title": "Catching the LiteLLM and Telnyx supply chain zero-days via semantic analysis",
+      "url": "https://point-wild.github.io/who-touched-my-packages",
+      "domain": "point-wild.github.io",
+      "published_at": "2026-03-29T15:49:30Z",
+      "category": "tech",
+      "score": 0.30124975851508545,
+      "tldr": "Catching the LiteLLM and Telnyx supply chain zero-days via semantic analysis",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
@@ -1379,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d99865ca-e68d-44de-be61-7f4676a46a33",
-      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
-      "url": "https://github.com/itigges22/ATLAS",
-      "domain": "github.com",
-      "published_at": "2026-03-26T17:31:24Z",
-      "category": "tech",
-      "score": 0.25072236738379616,
-      "tldr": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e6eb8262-646f-4ab8-9ae4-f6937ad8639c",
-      "title": "Outworked – An Open Source Office UI for Claude Code Agents",
-      "url": "https://github.com/outworked/outworked",
-      "domain": "github.com",
-      "published_at": "2026-03-23T17:44:22Z",
-      "category": "tech",
-      "score": 0.25069745087697304,
-      "tldr": "Outworked – An Open Source Office UI for Claude Code Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-29T17:00:09.301047217Z",
+  "last_updated": "2026-03-29T17:30:17.298983066Z",
   "total_count": 100
 }
