@@ -1143,20 +1143,6 @@
       ]
     },
     {
-      "id": "a520b138-d596-40fe-9b84-85f23abe9435",
-      "title": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
-      "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return",
-      "domain": "hbr.org",
-      "published_at": "2026-03-22T16:24:50Z",
-      "category": "tech",
-      "score": 0.2518068477002122,
-      "tldr": "Researchers Asked LLMs for Strategic Advice. They Got \"Trendslop\" in Return",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "3a9bca84-f468-410e-ad65-591e9246c18e",
       "title": "Every novel that has ever been published is sitting inside ChatGPT",
       "url": "https://twitter.com/heynavtoor/status/2037638554374099409",
@@ -1168,6 +1154,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "293c0c62-6d3d-4d07-a0b2-fbe11c037e0b",
+      "title": "AyaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust",
+      "url": "https://github.com/DavidHavoc/ayaFlow",
+      "domain": "github.com",
+      "published_at": "2026-03-29T15:28:27Z",
+      "category": "tech",
+      "score": 0.2517221531011,
+      "tldr": "AyaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1409,6 +1409,6 @@
       ]
     }
   ],
-  "last_updated": "2026-03-29T16:23:11.626009481Z",
+  "last_updated": "2026-03-29T17:00:09.301047217Z",
   "total_count": 100
 }
