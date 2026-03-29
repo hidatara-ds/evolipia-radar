@@ -1103,20 +1103,6 @@
       ]
     },
     {
-      "id": "b1051732-6796-4d62-9ce1-a677bdc2c2b7",
-      "title": "Apply video compression on KV cache to 10,000x less error at Q4 quant",
-      "url": "https://github.com/cenconq25/delta-compress-llm",
-      "domain": "github.com",
-      "published_at": "2026-03-22T23:27:32Z",
-      "category": "tech",
-      "score": 0.2527660708770079,
-      "tldr": "Apply video compression on KV cache to 10,000x less error at Q4 quant",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8101ee97-e5f5-44e3-9e40-669805ef3ae8",
       "title": "Show HN: Foundry: a Markdown-first CMS written in Go",
       "url": "https://github.com/sphireinc/Foundry",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
+      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+      "domain": "github.com",
+      "published_at": "2026-03-25T03:28:04Z",
+      "category": "tech",
+      "score": 0.2511784071695276,
+      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-29T23:23:16.338365793Z",
+  "last_updated": "2026-03-29T23:55:02.756738278Z",
   "total_count": 100
 }
