@@ -199,20 +199,6 @@
       ]
     },
     {
-      "id": "b1309e43-9ed0-4e33-8b4a-370f2485fc2f",
-      "title": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
-      "url": "https://github.com/danveloper/flash-moe",
-      "domain": "github.com",
-      "published_at": "2026-03-22T11:30:03Z",
-      "category": "tech",
-      "score": 0.33685196985427585,
-      "tldr": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8258049d-6164-4dd7-b9b7-37b85b33bc1e",
       "title": "Show HN: Robust LLM Extractor for Websites in TypeScript",
       "url": "https://github.com/lightfeed/extractor",
@@ -668,20 +654,6 @@
       ]
     },
     {
-      "id": "4577c786-d23e-4152-b57e-1fe095dec17f",
-      "title": "Flash-Moe: Running a 397B Parameter Model on a Mac with 48GB RAM",
-      "url": "https://github.com/danveloper/flash-moe",
-      "domain": "github.com",
-      "published_at": "2026-03-22T11:30:03Z",
-      "category": "tech",
-      "score": 0.26592477335396714,
-      "tldr": "Flash-Moe: Running a 397B Parameter Model on a Mac with 48GB RAM",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "11345c4e-817f-470a-b5cf-e35abc5b9fbc",
       "title": "Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser",
       "url": "https://github.com/davidmonterocrespo24/velxio",
@@ -984,6 +956,20 @@
       "category": "tech",
       "score": 0.2536567282484967,
       "tldr": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2060f59c-f278-4ef3-aee3-d489c6a7188b",
+      "title": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
+      "url": "https://github.com/austin-weeks/miasma",
+      "domain": "github.com",
+      "published_at": "2026-03-29T10:10:12Z",
+      "category": "tech",
+      "score": 0.2535905876492365,
+      "tldr": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d99865ca-e68d-44de-be61-7f4676a46a33",
+      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "url": "https://github.com/itigges22/ATLAS",
+      "domain": "github.com",
+      "published_at": "2026-03-26T17:31:24Z",
+      "category": "tech",
+      "score": 0.25072236738379616,
+      "tldr": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-29T11:02:37.534273309Z",
+  "last_updated": "2026-03-29T11:50:18.759666579Z",
   "total_count": 100
 }
