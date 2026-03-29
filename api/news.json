@@ -1046,20 +1046,6 @@
       ]
     },
     {
-      "id": "78eb93f7-6536-43ce-99c2-868705e003e4",
-      "title": "Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence",
-      "url": "https://zenodo.org/records/18976656",
-      "domain": "zenodo.org",
-      "published_at": "2026-03-22T07:07:15Z",
-      "category": "tech",
-      "score": 0.2528798365759808,
-      "tldr": "Cross-Model Void Convergence: GPT-5. 6 Deterministic Silence",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7e618075-5f1e-47d9-8754-9c255ccbb7f9",
       "title": "Taming LLMs: Using Executable Oracles to Prevent Bad Code",
       "url": "https://john.regehr.org/writing/zero_dof_programming.html",
@@ -1197,20 +1183,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "24f9933e-a75e-4df9-9dcc-54c8ed66e931",
-      "title": "We've had front end reactivity since 2018 – via Async Iterables",
-      "url": "https://github.com/SacDeNoeuds/yawn",
-      "domain": "github.com",
-      "published_at": "2026-03-22T07:21:22Z",
-      "category": "tech",
-      "score": 0.25170267773930743,
-      "tldr": "We've had front end reactivity since 2018 – via Async Iterables",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1408,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ddbb5dc5-9efa-402d-a18c-86b833d8629c",
+      "title": "Non-trivial error in physics paper found via Lean",
+      "url": "https://arxiv.org/abs/2603.08139",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-22T11:03:14Z",
+      "category": "tech",
+      "score": 0.25076463015737677,
+      "tldr": "Non-trivial error in physics paper found via Lean",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d99865ca-e68d-44de-be61-7f4676a46a33",
+      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "url": "https://github.com/itigges22/ATLAS",
+      "domain": "github.com",
+      "published_at": "2026-03-26T17:31:24Z",
+      "category": "tech",
+      "score": 0.25072236738379616,
+      "tldr": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-29T06:53:37.057793343Z",
+  "last_updated": "2026-03-29T07:45:22.581809991Z",
   "total_count": 100
 }
