@@ -1242,6 +1242,20 @@
       ]
     },
     {
+      "id": "a1a59d0e-8b1c-4964-b5e6-8a7206f45047",
+      "title": "Are LLMs a Dead End? [video]",
+      "url": "https://www.youtube.com/watch?v=9IMV80GvBpU",
+      "domain": "youtube.com",
+      "published_at": "2026-03-29T09:31:26Z",
+      "category": "tech",
+      "score": 0.25145822308530735,
+      "tldr": "Are LLMs a Dead End? [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "3c21db52-6eca-4d0c-b86f-cdcfeb3cf473",
       "title": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
       "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
@@ -1264,6 +1278,20 @@
       "category": "tech",
       "score": 0.2514187773370151,
       "tldr": "Show HN: jid – JSON Incremental Digger v1. 0 with JMESPath support",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1a423f30-9f08-49b1-8101-cd5454a01ca2",
+      "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
+      "url": "https://github.com/1st1/lat.md",
+      "domain": "github.com",
+      "published_at": "2026-03-29T08:59:52Z",
+      "category": "tech",
+      "score": 0.2512984327487595,
+      "tldr": "md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1380,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ddbb5dc5-9efa-402d-a18c-86b833d8629c",
-      "title": "Non-trivial error in physics paper found via Lean",
-      "url": "https://arxiv.org/abs/2603.08139",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-22T11:03:14Z",
-      "category": "tech",
-      "score": 0.25076463015737677,
-      "tldr": "Non-trivial error in physics paper found via Lean",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d99865ca-e68d-44de-be61-7f4676a46a33",
-      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
-      "url": "https://github.com/itigges22/ATLAS",
-      "domain": "github.com",
-      "published_at": "2026-03-26T17:31:24Z",
-      "category": "tech",
-      "score": 0.25072236738379616,
-      "tldr": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-29T09:59:24.003664724Z",
+  "last_updated": "2026-03-29T10:31:00.502738989Z",
   "total_count": 100
 }
