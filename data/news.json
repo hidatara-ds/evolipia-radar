@@ -654,6 +654,21 @@
       ]
     },
     {
+      "id": "ae373960-73d3-41f5-ad1b-61ef09a49e9a",
+      "title": "ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it",
+      "domain": "buchodi.com",
+      "published_at": "2026-03-29T20:21:05Z",
+      "category": "tech",
+      "score": 0.26702079271297624,
+      "tldr": "ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "cloud",
+        "llm"
+      ]
+    },
+    {
       "id": "f22c6b65-7697-4565-a1f6-205fd0580ec5",
       "title": "Cocoa-Way – Native macOS Wayland compositor for running Linux apps seamlessly",
       "url": "https://github.com/J-x-Z/cocoa-way",
@@ -1394,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "870f08b2-03b6-4dd9-ac94-076cd9b901c3",
-      "title": "RustTraining: Beginner, advanced, expert level Rust training material",
-      "url": "https://github.com/microsoft/RustTraining",
-      "domain": "github.com",
-      "published_at": "2026-03-24T22:49:25Z",
-      "category": "tech",
-      "score": 0.2510005441123314,
-      "tldr": "RustTraining: Beginner, advanced, expert level Rust training material",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-29T20:20:42.247348501Z",
+  "last_updated": "2026-03-29T20:55:28.929385055Z",
   "total_count": 100
 }
