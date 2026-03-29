@@ -1242,20 +1242,6 @@
       ]
     },
     {
-      "id": "3c21db52-6eca-4d0c-b86f-cdcfeb3cf473",
-      "title": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
-      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
-      "domain": "blog.dominikrudnik.pl",
-      "published_at": "2026-03-22T12:23:04Z",
-      "category": "tech",
-      "score": 0.2514440605645486,
-      "tldr": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "b8e20730-5e64-4d1f-b136-9c1c61e0f6df",
       "title": "Show HN: jid – JSON Incremental Digger v1.1.0 with JMESPath support",
       "url": "https://github.com/simeji/jid/releases/tag/v1.1.0",
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e6eb8262-646f-4ab8-9ae4-f6937ad8639c",
+      "title": "Outworked – An Open Source Office UI for Claude Code Agents",
+      "url": "https://github.com/outworked/outworked",
+      "domain": "github.com",
+      "published_at": "2026-03-23T17:44:22Z",
+      "category": "tech",
+      "score": 0.25069745087697304,
+      "tldr": "Outworked – An Open Source Office UI for Claude Code Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-29T11:50:18.759666579Z",
+  "last_updated": "2026-03-29T12:30:20.199464823Z",
   "total_count": 100
 }
