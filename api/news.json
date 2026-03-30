@@ -500,6 +500,20 @@
       ]
     },
     {
+      "id": "d59df9a4-e3f7-4003-8e7c-7318a3b9d456",
+      "title": "There is no spoon – A software engineers primer for demystified ML",
+      "url": "https://github.com/dreddnafious/thereisnospoon",
+      "domain": "github.com",
+      "published_at": "2026-03-29T22:28:11Z",
+      "category": "tech",
+      "score": 0.2839383348200231,
+      "tldr": "There is no spoon – A software engineers primer for demystified ML",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "40e5fad7-22fb-4ae0-98a5-74a4e966dab5",
       "title": "US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects",
       "url": "https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html",
@@ -624,6 +638,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "0d434f4f-d167-41bf-aed6-ea3a3e6d9eeb",
+      "title": "C++26 is done: ISO C++ standards meeting Trip Report",
+      "url": "https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk",
+      "domain": "herbsutter.com",
+      "published_at": "2026-03-29T17:46:12Z",
+      "category": "tech",
+      "score": 0.272953452270488,
+      "tldr": "C++26 is done: ISO C++ standards meeting Trip Report",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -964,6 +992,20 @@
       ]
     },
     {
+      "id": "a5e8ebde-8cca-4e2c-bc36-4114ba55be00",
+      "title": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
+      "url": "https://dani2442.github.io/posts/continuous-rl",
+      "domain": "dani2442.github.io",
+      "published_at": "2026-03-30T07:34:04Z",
+      "category": "tech",
+      "score": 0.25485256059124894,
+      "tldr": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "96ccb488-092b-4854-8a47-62e32c9064c8",
       "title": "The EU still wants to scan  your private messages and photos",
       "url": "https://fightchatcontrol.eu/?foo=bar",
@@ -1000,20 +1042,6 @@
       "category": "tech",
       "score": 0.25464549174724027,
       "tldr": "Show HN: Open Source 'Conductor + Ghostty'",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "81183974-83a0-4f6f-8f98-4c8c22e2f76f",
-      "title": "Show HN: Agent Kernel – Three Markdown files that make any AI agent stateful",
-      "url": "https://github.com/oguzbilgic/agent-kernel",
-      "domain": "github.com",
-      "published_at": "2026-03-23T07:06:42Z",
-      "category": "tech",
-      "score": 0.2544448390324908,
-      "tldr": "Show HN: Agent Kernel – Three Markdown files that make any AI agent stateful",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1182,20 +1210,6 @@
       "category": "tech",
       "score": 0.25227781738714555,
       "tldr": "LLMs learn what programmers create, not how programmers work",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7393b9e2-cb70-460b-af6b-cc0aa798bf22",
-      "title": "LLMs turn an autistic communication style into a neurotypical conversation",
-      "url": "https://hachyderm.io/@EmilyEnough/116258821633964028",
-      "domain": "hachyderm.io",
-      "published_at": "2026-03-23T08:02:59Z",
-      "category": "tech",
-      "score": 0.2522582654489936,
-      "tldr": "LLMs turn an autistic communication style into a neurotypical conversation",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1396,22 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "1a423f30-9f08-49b1-8101-cd5454a01ca2",
-      "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-      "url": "https://github.com/1st1/lat.md",
-      "domain": "github.com",
-      "published_at": "2026-03-29T08:59:52Z",
-      "category": "tech",
-      "score": 0.2512984327487595,
-      "tldr": "md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-30T06:14:11.87466029Z",
+  "last_updated": "2026-03-30T08:07:29.402057917Z",
   "total_count": 100
 }
