@@ -52,7 +52,7 @@ func main() {
 	// Phase 2.9 Budget Control Middleware
 	// Give the system 10,000 daily tokens and 300,000 monthly free tier limit.
 	budgetGuardedProvider := ai.NewTrackerMiddleware(orProvider, 10000, 300000)
-	
+
 	centralAIService := ai.NewService(budgetGuardedProvider)
 	clusterService := ai.NewClusterService(centralAIService, database.Pool)
 
@@ -63,12 +63,12 @@ func main() {
 	// Phase 3 Web Crawling Orchestrator
 	metricsData := crawler.NewMetrics(database.Pool)
 	metricsData.LoadFromDB(context.Background())
-	
+
 	summarizer := crawler.NewSummarizer(centralAIService, database)
 
 	dryRunEnv := os.Getenv("DRY_RUN") == "true"
 	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, centralAIService, metricsData, database, dryRunEnv, summarizer)
-	
+
 	// Start the intelligent crawling loop in the background (runs every 15 minutes)
 	crawlCtx, crawlCancel := context.WithCancel(context.Background())
 	defer crawlCancel()
@@ -86,7 +86,7 @@ func main() {
 	// Register internal AI API components (V2)
 	aiHandler := ai_api.NewAIHandler(centralAIService)
 	aiHandler.RegisterRoutes(router.Group("/"))
-	
+
 	// Register Admin Ops / Manual Triggers
 	v2 := router.Group("/v2")
 	v2.POST("/crawl/trigger", func(c *gin.Context) {
@@ -94,7 +94,7 @@ func main() {
 		stats := botOrchestrator.RunCycle(c.Request.Context())
 		c.JSON(http.StatusOK, gin.H{
 			"status": "completed",
-			"stats": stats,
+			"stats":  stats,
 		})
 	})
 	// ----------------------------------------------------------------------
