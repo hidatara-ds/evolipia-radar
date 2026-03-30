@@ -8,6 +8,7 @@ import (
 	"math"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 
 	_ "github.com/lib/pq"
@@ -145,7 +146,6 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	if topicFilter != "" {
 		sqlQuery += ` AND sm.tags @> $` + itoa(argIdx) + `::jsonb`
 		args = append(args, `["`+topicFilter+`"]`)
-		argIdx++
 	}
 
 	// Sort mode
@@ -222,7 +222,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		log.Printf("❌ Error iterating rows: %v", err)
 	}
 
-	log.Printf("✅ Returning %d news items (sort=%s, topic=%s)", len(items), sortMode, topicFilter)
+	log.Printf("✅ Returning %d news items (sort=%s, topic=%s)", len(items), sanitizeForLog(sortMode), sanitizeForLog(topicFilter))
 
 	// Return response
 	json.NewEncoder(w).Encode(Response{
@@ -238,4 +238,11 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 // itoa converts int to string (avoiding strconv import for this simple case)
 func itoa(i int) string {
 	return string(rune('0' + i))
+}
+
+// sanitizeForLog removes newline characters to prevent log forging attacks.
+func sanitizeForLog(s string) string {
+	s = strings.ReplaceAll(s, "\n", "")
+	s = strings.ReplaceAll(s, "\r", "")
+	return s
 }
