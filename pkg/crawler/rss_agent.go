@@ -18,7 +18,7 @@ func NewRSSAgent() *RSSAgent {
 	return &RSSAgent{
 		client: &http.Client{Timeout: 10 * time.Second},
 		feeds: []string{
-			"https://news.ycombinator.com/rss",          // HackerNews
+			"https://news.ycombinator.com/rss",                              // HackerNews
 			"https://techcrunch.com/category/artificial-intelligence/feed/", // TechCrunch AI
 			// Add more high-signal feeds here
 		},
@@ -74,7 +74,7 @@ func (a *RSSAgent) Crawl(ctx context.Context, maxItems int) ([]Article, error) {
 			if len(discovered) >= maxItems {
 				break
 			}
-			
+
 			// Try parsing pubDate or fall back to now
 			pubDate, err := time.Parse(time.RFC1123Z, item.PubDate)
 			if err != nil {

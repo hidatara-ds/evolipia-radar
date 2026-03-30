@@ -148,7 +148,7 @@ func main() {
 		ON CONFLICT (url) DO UPDATE SET updated_at = now()
 		RETURNING id
 	`, "Sample Data", "manual", "tech", "https://example.com/sample", true, "active").Scan(&sourceID)
-	
+
 	if err != nil {
 		log.Fatalf("Failed to create source: %v", err)
 	}
@@ -160,15 +160,15 @@ func main() {
 		// Create item
 		var itemID uuid.UUID
 		publishedAt := time.Now().Add(-time.Duration(i) * time.Hour)
-		
+
 		err = db.QueryRowContext(ctx, `
 			INSERT INTO items (source_id, title, url, published_at, content_hash, domain, category, raw_excerpt)
 			VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
 			ON CONFLICT (content_hash) DO NOTHING
 			RETURNING id
-		`, sourceID, sample.title, sample.url, publishedAt, 
+		`, sourceID, sample.title, sample.url, publishedAt,
 			fmt.Sprintf("sample-%d", i), sample.domain, sample.category, sample.tldr).Scan(&itemID)
-		
+
 		if err != nil {
 			log.Printf("Failed to insert item %s: %v", sample.title, err)
 			continue
@@ -186,7 +186,7 @@ func main() {
 				final = EXCLUDED.final,
 				computed_at = now()
 		`, itemID, sample.score, sample.score, sample.score, sample.score, sample.score)
-		
+
 		if err != nil {
 			log.Printf("Failed to insert score for %s: %v", sample.title, err)
 		}
@@ -202,7 +202,7 @@ func main() {
 				tags = EXCLUDED.tags,
 				method = EXCLUDED.method
 		`, itemID, sample.tldr, sample.whyItMatters, tagsJSON, "manual")
-		
+
 		if err != nil {
 			log.Printf("Failed to insert summary for %s: %v", sample.title, err)
 		}

@@ -19,8 +19,8 @@ type Orchestrator struct {
 	budget          *CrawlBudget
 	clusterService  *ai.ClusterService
 	inMemClusterSvc *cluster.Service
-	aiService       *ai.Service    // Added for embeddings
-	database        *db.DB         // Kept strictly for passing to agents & ItemRepository
+	aiService       *ai.Service // Added for embeddings
+	database        *db.DB      // Kept strictly for passing to agents & ItemRepository
 	DryRun          bool
 	metrics         *Metrics
 	summarizer      *Summarizer
@@ -131,7 +131,7 @@ func (o *Orchestrator) RunCycle(ctx context.Context) map[string]int {
 				if err != nil {
 					log.Printf("[ORCHESTRATOR] Cluster pipeline failed for article %s: %v", art.Link, err)
 				}
-				
+
 				// Phase 4: Dynamic AI Summarization
 				if o.summarizer != nil {
 					_ = o.summarizer.Process(ctx, artID, art.Title, art.Content)
@@ -141,7 +141,7 @@ func (o *Orchestrator) RunCycle(ctx context.Context) map[string]int {
 			// 3. Generate and store semantic embedding (If not dry run)
 			if o.aiService != nil && o.database != nil && !o.DryRun {
 				itemRepo := db.NewItemRepository(o.database)
-				
+
 				// Idempotency check: see if we already have an embedding for this article
 				hasEmbed, checkErr := itemRepo.HasEmbedding(ctx, artID)
 				if checkErr != nil {

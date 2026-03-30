@@ -21,9 +21,9 @@ type NewsItem struct {
 	Domain       string    `json:"domain"`
 	PublishedAt  time.Time `json:"published_at"`
 	Category     string    `json:"category"`
-	Score        float64   `json:"score"`        // Always 1-10 scale for frontend
-	RawScore     float64   `json:"raw_score"`    // Internal 0.0-1.0 for debugging
-	HeatLevel    string    `json:"heat_level"`   // "hot", "rising", "signal", "low"
+	Score        float64   `json:"score"`      // Always 1-10 scale for frontend
+	RawScore     float64   `json:"raw_score"`  // Internal 0.0-1.0 for debugging
+	HeatLevel    string    `json:"heat_level"` // "hot", "rising", "signal", "low"
 	TLDR         string    `json:"tldr,omitempty"`
 	WhyItMatters string    `json:"why_it_matters,omitempty"`
 	Tags         []string  `json:"tags,omitempty"`

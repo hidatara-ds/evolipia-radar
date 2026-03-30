@@ -25,7 +25,7 @@ func NewSummarizer(aiSvc *ai.Service, pool *db.DB) *Summarizer {
 func (s *Summarizer) Process(ctx context.Context, itemID uuid.UUID, title, content string) error {
 	// 1. Prepare AI prompt
 	prompt := fmt.Sprintf("Summarize this news article in a very short TL;DR (max 2 sentences) and explain 'Why it matters' for AI researchers.\nTitle: %s\nContent: %s", title, content)
-	
+
 	// 2. Call AI Service
 	resp, err := s.aiSvc.Summarize(ctx, ai.SummarizeRequest{
 		Text:        content,
@@ -43,7 +43,7 @@ func (s *Summarizer) Process(ctx context.Context, itemID uuid.UUID, title, conte
 		tags = []string{"AI", "Research"}
 		method = "fallback"
 	} else {
-		// Simple parsing: split by 'Why it matters:' or similar if possible, 
+		// Simple parsing: split by 'Why it matters:' or similar if possible,
 		// but since we want it structured, we'll just put it in TLDR for now
 		summaryContent = resp.Summary
 		whyMatters = "Refer to summary for details."

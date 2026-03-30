@@ -648,4 +648,3 @@ func (r *SettingRepository) List(ctx context.Context) (map[string]string, error)
 	}
 	return settings, rows.Err()
 }
-

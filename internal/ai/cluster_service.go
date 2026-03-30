@@ -273,7 +273,7 @@ func (s *ClusterService) createNewCluster(ctx context.Context, articleID uuid.UU
 // It creates a standalone cluster using entirely raw text and a zero-vector so the system stays online.
 func (s *ClusterService) createFallbackCluster(ctx context.Context, articleID uuid.UUID, title, content string) error {
 	zeroVector := make([]float32, 1536) // Zero array so pgvector doesn't crash
-	
+
 	// Truncate fallback content to prevent massive UI rendering issues
 	fallbackSummary := content
 	if len(content) > 300 {
@@ -307,6 +307,9 @@ func (s *ClusterService) createFallbackCluster(ctx context.Context, articleID uu
 		VALUES ($1, $2);
 	`
 	_, err = tx.Exec(ctx, insertSourceQuery, newClusterID, articleID)
+	if err != nil {
+		return fmt.Errorf("failed to insert fallback cluster source: %w", err)
+	}
 	return tx.Commit(ctx)
 }
 

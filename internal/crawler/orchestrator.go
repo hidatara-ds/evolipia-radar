@@ -27,7 +27,7 @@ type Orchestrator struct {
 // NewOrchestrator wires together all agents and binds them to the AI clustering brain.
 func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.ClusterService, aiSvc *ai.Service, database *db.DB, metrics *Metrics, dryRun bool) *Orchestrator {
 	// Initialize with strict zero-cost budget: 50 requests per hour max
-	budget := NewCrawlBudget(50, metrics) 
+	budget := NewCrawlBudget(50, metrics)
 
 	return &Orchestrator{
 		agents: []DiscoveryAgent{
@@ -129,7 +129,7 @@ func (o *Orchestrator) RunCycle(ctx context.Context) map[string]int {
 			// 3. Generate and store semantic embedding (If not dry run)
 			if o.aiService != nil && o.database != nil && !o.DryRun {
 				itemRepo := db.NewItemRepository(o.database)
-				
+
 				// Idempotency check: see if we already have an embedding for this article
 				hasEmbed, checkErr := itemRepo.HasEmbedding(ctx, artID)
 				if checkErr != nil {

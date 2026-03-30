@@ -83,4 +83,3 @@ type ScoredItem struct {
 	Item
 	Similarity float64 `json:"similarity"`
 }
-

@@ -58,7 +58,7 @@ func main() {
 
 	for i := range newsData.Items {
 		item := &newsData.Items[i]
-		
+
 		// Combine title and summary for better tagging
 		content := item.TLDR
 		if content == "" {
@@ -67,17 +67,17 @@ func main() {
 
 		// Generate new tags
 		autoTags := tagger.AssignTags(item.Title, content)
-		
+
 		// Merge with existing tags
 		item.Tags = tagging.MergeTags(item.Tags, autoTags)
-		
+
 		// Count tags
 		for _, tag := range item.Tags {
 			tagStats[tag]++
 		}
-		
+
 		retaggedCount++
-		
+
 		if retaggedCount%10 == 0 {
 			log.Printf("   Processed %d/%d items...", retaggedCount, len(newsData.Items))
 		}
@@ -101,11 +101,11 @@ func main() {
 
 	log.Println("\n✅ Re-tagging complete!")
 	log.Printf("📊 Tag distribution:")
-	
+
 	// Sort and display tag stats
 	for tag, count := range tagStats {
 		log.Printf("   %s: %d articles", tag, count)
 	}
-	
+
 	log.Printf("\n💾 Updated file: %s", outputPath)
 }

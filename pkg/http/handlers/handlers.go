@@ -272,7 +272,7 @@ func (h *Handlers) Search(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
 		"q":              query,
 		"topic":          topic,
-		"mode":           "text",
+		"mode":           mode,
 		"total_estimate": total,
 		"items":          responseItems,
 	})

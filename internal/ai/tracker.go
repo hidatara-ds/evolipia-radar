@@ -9,7 +9,7 @@ import (
 )
 
 // TokenTracker monitors daily and monthly token usage in memory.
-// For a multi-instance deployment, this should use Redis/PostgreSQL, 
+// For a multi-instance deployment, this should use Redis/PostgreSQL,
 // but for our constraint of "no complex infrastructure", in-memory with a mutex suffices.
 type TokenTracker struct {
 	mu sync.Mutex

@@ -31,10 +31,10 @@ type Cluster struct {
 
 // Service handles in-memory vector intelligence and deduplication.
 type Service struct {
-	mu           sync.RWMutex
-	clusters     []*Cluster
-	embedder     EmbeddingProvider
-	threshold    float64
+	mu        sync.RWMutex
+	clusters  []*Cluster
+	embedder  EmbeddingProvider
+	threshold float64
 }
 
 func NewClusterService(embedder EmbeddingProvider) *Service {

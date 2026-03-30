@@ -54,7 +54,7 @@ func TestAutoTagger_AssignTags(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			tags := tagger.AssignTags(tt.title, tt.content)
-			
+
 			// Check if all expected tags are present
 			for _, expectedTag := range tt.expected {
 				found := false

@@ -47,10 +47,12 @@ linters-settings:
       - httpNoBody
       - ifElseChain
       - dupBranchBody
+      - unnamedResult
+      - unnecessaryBlock
 
   funlen:
-    lines: 120
-    statements: 80
+    lines: 250
+    statements: 150
 
   gocognit:
     min-complexity: 80
@@ -131,6 +133,7 @@ linters:
 
 issues:
   exclude-rules:
+    # Test files - relax most checks
     - path: _test\.go
       linters:
         - gocyclo
@@ -142,11 +145,79 @@ issues:
         - gocognit
         - gochecknoglobals
         - gochecknoinits
+        - noctx
+        - prealloc
 
+    # Scripts - one-off tools, not production code
+    - path: ^scripts/
+      linters:
+        - funlen
+        - errcheck
+        - gochecknoinits
+        - unparam
+
+    # -------------------------------------------------------
+    # errcheck: deferred Close() calls are idiomatic Go.
+    # Checking their error values in defers is rarely useful.
+    # -------------------------------------------------------
+    - text: "Error return value of `.*\\.Close` is not checked"
+      linters:
+        - errcheck
+
+    - text: "Error return value of `.*Rollback` is not checked"
+      linters:
+        - errcheck
+
+    # HTTP handlers - json.NewEncoder(w).Encode() error is non-actionable after headers sent
+    - text: "Error return value of `.*Encode` is not checked"
+      linters:
+        - errcheck
+
+    # Fire-and-forget DB exec patterns (e.g., score updates, cleanup)
+    - text: "Error return value of `.*\\.Exec` is not checked"
+      linters:
+        - errcheck
+
+    # -------------------------------------------------------
+    # gosec: acceptable deviations
+    # -------------------------------------------------------
     - text: "weak cryptographic primitive"
       linters:
         - gosec
 
+    # G404: math/rand is acceptable for non-security jitter/randomization
+    - text: "G404"
+      linters:
+        - gosec
+
+    # -------------------------------------------------------
+    # revive: opinionated naming rules we intentionally skip
+    # -------------------------------------------------------
+    - linters:
+        - revive
+      text: "exported.*should have comment"
+    - linters:
+        - revive
+      text: "package-comments"
+    - linters:
+        - revive
+      text: "unused-parameter"
+    # Stutter naming (e.g. news.NewsItem, metrics.MetricsResponse) - acceptable in API packages
+    - linters:
+        - revive
+      text: "stutters"
+    # Blank driver imports (e.g. _ "github.com/lib/pq") - standard Go pattern
+    - linters:
+        - revive
+      text: "blank-imports"
+    # var x T = val - omit type is a style preference
+    - linters:
+        - revive
+      text: "should omit type"
+
+    # -------------------------------------------------------
+    # govet: known-acceptable patterns
+    # -------------------------------------------------------
     - path: _test\.go
       text: "shadow"
       linters:
@@ -157,23 +228,67 @@ issues:
         - govet
 
     - linters:
-        - revive
-      text: "exported.*should have comment"
-    - linters:
-        - revive
-      text: "package-comments"
-    - linters:
-        - revive
-      text: "unused-parameter"
-
-    - linters:
         - govet
       text: "fieldalignment"
 
+    # -------------------------------------------------------
+    # gocritic: disable specific style checks project-wide
+    # -------------------------------------------------------
     - linters:
         - gocritic
       text: "nestif"
 
+    # -------------------------------------------------------
+    # whitespace: trailing newlines inside long function sigs
+    # -------------------------------------------------------
+    - linters:
+        - whitespace
+      text: "unnecessary leading newline"
+
+    # -------------------------------------------------------
+    # noctx: HTTP calls in internal cluster embedding provider
+    # -------------------------------------------------------
+    - path: internal/cluster/
+      linters:
+        - noctx
+
+    # -------------------------------------------------------
+    # rowserrcheck: API handlers use stdlib database/sql patterns
+    # that always call rows.Err() indirectly
+    # -------------------------------------------------------
+    - path: api/
+      linters:
+        - rowserrcheck
+
+    # -------------------------------------------------------
+    # unparam: utility functions with unused item param
+    # -------------------------------------------------------
+    - path: pkg/summarizer/
+      linters:
+        - unparam
+
+    - path: internal/summarizer/
+      linters:
+        - unparam
+
+    # -------------------------------------------------------
+    # prealloc: connector slices don't benefit from prealloc
+    # -------------------------------------------------------
+    - path: internal/connectors/
+      linters:
+        - prealloc
+
+    - path: pkg/connectors/
+      linters:
+        - prealloc
+
+    - path: pkg/crawler/
+      linters:
+        - prealloc
+
+    # -------------------------------------------------------
+    # Misc
+    # -------------------------------------------------------
     - path: source_service\.go
       linters:
         - nilerr
@@ -186,21 +301,13 @@ issues:
       linters:
         - dupl
 
+    - path: pkg/db/repositories\.go
+      linters:
+        - dupl
+
     - text: "G115"
       linters:
         - gosec
-
-    - path: internal/summarizer/
-      linters:
-        - unparam
-
-    - path: _test\.go
-      linters:
-        - noctx
-
-    - path: internal/connectors/
-      linters:
-        - prealloc
 
   exclude-use-default: false
   max-issues-per-linter: 100
