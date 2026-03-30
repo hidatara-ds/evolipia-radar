@@ -45,7 +45,7 @@ jobs:
       run: aws eks update-kubeconfig --name evolipia-radar-staging
 
     - name: Install Helm
-      uses: azure/setup-helm@v4
+      uses: azure/setup-helm@v5
       with:
         version: ${{ env.HELM_VERSION }}
 
@@ -88,7 +88,7 @@ jobs:
       run: aws eks update-kubeconfig --name evolipia-radar-production
 
     - name: Install Helm
-      uses: azure/setup-helm@v4
+      uses: azure/setup-helm@v5
       with:
         version: ${{ env.HELM_VERSION }}
 
