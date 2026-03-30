@@ -711,20 +711,6 @@
       ]
     },
     {
-      "id": "7e2f8190-384d-4569-a1eb-21af2bd54c52",
-      "title": "iPhone 17 Pro Demonstrated Running a 400B LLM",
-      "url": "https://twitter.com/anemll/status/2035901335984611412",
-      "domain": "twitter.com",
-      "published_at": "2026-03-23T14:30:10Z",
-      "category": "tech",
-      "score": 0.2675781544837459,
-      "tldr": "iPhone 17 Pro Demonstrated Running a 400B LLM",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "ae373960-73d3-41f5-ad1b-61ef09a49e9a",
       "title": "ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
       "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "79998d7e-57c7-4f66-b451-bbcff1b0164d",
+      "title": "There is No Spoon. A software engineers primer for demystified ML",
+      "url": "https://github.com/dreddnafious/thereisnospoon",
+      "domain": "github.com",
+      "published_at": "2026-03-29T22:28:11Z",
+      "category": "tech",
+      "score": 0.2513990805660596,
+      "tldr": "A software engineers primer for demystified ML",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-30T14:21:19.641192212Z",
+  "last_updated": "2026-03-30T15:48:58.06891095Z",
   "total_count": 100
 }
