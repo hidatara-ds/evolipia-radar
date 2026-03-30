@@ -325,6 +325,21 @@
       ]
     },
     {
+      "id": "ca96128e-6be2-400e-91fc-f9c00bb42a5c",
+      "title": "The Sudden Fall of OpenAI's Most Hyped Product Since ChatGPT",
+      "url": "https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9",
+      "domain": "wsj.com",
+      "published_at": "2026-03-30T02:43:17Z",
+      "category": "tech",
+      "score": 0.3127390829340838,
+      "tldr": "The Sudden Fall of OpenAI's Most Hyped Product Since ChatGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "232cf1ed-335f-4fab-9b24-e9f203df4fad",
       "title": "If you don't opt out by Apr 24 GitHub will train on your private repos",
       "url": "https://news.ycombinator.com/item?id=47548243",
@@ -566,6 +581,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c8b029ed-cbc7-44ec-bcab-f9bc7a939a8d",
+      "title": "DoesItAgeVerify: The age verification status of Open Source Operating Systems",
+      "url": "https://github.com/BryanLunduke/DoesItAgeVerify",
+      "domain": "github.com",
+      "published_at": "2026-03-30T00:52:06Z",
+      "category": "tech",
+      "score": 0.2766749653577447,
+      "tldr": "DoesItAgeVerify: The age verification status of Open Source Operating Systems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
         "general_ai"
       ]
     },
@@ -1381,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f0315b34-2a8a-4831-b6e0-897afc77936c",
-      "title": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-      "url": "https://github.com/ViciousSquid/Fio",
-      "domain": "github.com",
-      "published_at": "2026-03-26T20:58:04Z",
-      "category": "tech",
-      "score": 0.2511934081861663,
-      "tldr": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
-      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
-      "domain": "github.com",
-      "published_at": "2026-03-25T03:28:04Z",
-      "category": "tech",
-      "score": 0.2511784071695276,
-      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-30T01:18:38.525331933Z",
+  "last_updated": "2026-03-30T04:22:07.774675468Z",
   "total_count": 100
 }
