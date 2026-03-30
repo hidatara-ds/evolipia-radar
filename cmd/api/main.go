@@ -48,7 +48,7 @@ func main() {
 		APIKey:       aiCfg.APIKey,
 		DefaultModel: aiCfg.DefaultModel,
 	})
-	
+
 	// Phase 2.9 Budget Control Middleware
 	// Give the system 10,000 daily tokens and 300,000 monthly free tier limit.
 	budgetGuardedProvider := ai.NewTrackerMiddleware(orProvider, 10000, 300000)
