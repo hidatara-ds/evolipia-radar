@@ -37,7 +37,7 @@ type hnResponse struct {
 func (a *TrendingAgent) Crawl(ctx context.Context, maxItems int) ([]Article, error) {
 	// Free API: fetch front page HN hits specifically tagged "story"
 	url := "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=" + fmt.Sprint(maxItems)
-	
+
 	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
 	if err != nil {
 		return nil, err

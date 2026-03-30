@@ -36,7 +36,7 @@ type Response struct {
 
 func LoadNewsData() (*NewsData, error) {
 	log.Println("⚠️ [LoadNewsData] This function is deprecated. Use database queries instead.")
-	
+
 	// Try to load from file for backward compatibility
 	paths := []string{
 		"data/news.json",

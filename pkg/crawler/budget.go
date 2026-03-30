@@ -15,7 +15,7 @@ type CrawlBudget struct {
 	mu sync.Mutex
 
 	seenCache map[string]time.Time // Basic deduplication by URL. (Use Redis for scale).
-	
+
 	hourlyIngested   int
 	maxHourlyIngests int
 	lastReset        time.Time
@@ -160,4 +160,3 @@ func (m *Metrics) UpdateClusterStats(ctx context.Context, count int, avgScore fl
 		}
 	}
 }
-

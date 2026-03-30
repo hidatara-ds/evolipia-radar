@@ -5,6 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"strconv"
+	"strings"
 	"time"
 
 	"github.com/google/uuid"
@@ -368,6 +370,77 @@ func (r *ItemRepository) GetItemsNeedingScoring(ctx context.Context, days int, l
 		items = append(items, item)
 	}
 	return items, rows.Err()
+}
+
+// float32sToVectorString converts a []float32 slice to pgvector text format: "[0.1,0.2,...]"
+func float32sToVectorString(v []float32) string {
+	parts := make([]string, len(v))
+	for i, f := range v {
+		parts[i] = strconv.FormatFloat(float64(f), 'f', -1, 32)
+	}
+	return "[" + strings.Join(parts, ",") + "]"
+}
+
+// UpsertEmbedding stores a vector embedding for an item.
+// The embedding is sent as pgvector text format to avoid the pgvector-go dependency.
+func (r *ItemRepository) UpsertEmbedding(ctx context.Context, itemID uuid.UUID, embedding []float32, model string) error {
+	vecStr := float32sToVectorString(embedding)
+	_, err := r.db.Pool.Exec(ctx, `
+		UPDATE items
+		SET embedding = $2::vector, embedding_model = $3
+		WHERE id = $1
+	`, itemID, vecStr, model)
+	return err
+}
+
+// SearchByEmbedding performs a cosine similarity search against item embeddings.
+// Returns items ordered by similarity (highest first), only items with embeddings.
+func (r *ItemRepository) SearchByEmbedding(ctx context.Context, queryEmbedding []float32, limit int) ([]models.ScoredItem, error) {
+	vecStr := float32sToVectorString(queryEmbedding)
+
+	rows, err := r.db.Pool.Query(ctx, `
+		SELECT i.id, i.source_id, i.title, i.url, i.published_at, i.content_hash,
+		       i.domain, i.category, i.raw_excerpt, i.created_at,
+		       1 - (i.embedding <=> $1::vector) AS similarity
+		FROM items i
+		WHERE i.embedding IS NOT NULL
+		ORDER BY i.embedding <=> $1::vector
+		LIMIT $2
+	`, vecStr, limit)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var results []models.ScoredItem
+	for rows.Next() {
+		var si models.ScoredItem
+		err := rows.Scan(
+			&si.ID, &si.SourceID, &si.Title, &si.URL, &si.PublishedAt,
+			&si.ContentHash, &si.Domain, &si.Category, &si.RawExcerpt,
+			&si.CreatedAt, &si.Similarity,
+		)
+		if err != nil {
+			return nil, err
+		}
+		results = append(results, si)
+	}
+	return results, rows.Err()
+}
+
+// HasEmbedding checks if an item already has a stored embedding (for idempotency).
+func (r *ItemRepository) HasEmbedding(ctx context.Context, itemID uuid.UUID) (bool, error) {
+	var hasEmbed bool
+	err := r.db.Pool.QueryRow(ctx, `
+		SELECT embedding IS NOT NULL FROM items WHERE id = $1
+	`, itemID).Scan(&hasEmbed)
+	if errors.Is(err, pgx.ErrNoRows) {
+		return false, nil
+	}
+	if err != nil {
+		return false, err
+	}
+	return hasEmbed, nil
 }
 
 type SignalRepository struct {

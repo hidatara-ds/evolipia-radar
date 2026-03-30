@@ -34,7 +34,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		APIKey:       aiCfg.APIKey,
 		DefaultModel: aiCfg.DefaultModel,
 	})
-	
+
 	budgetProvider := ai.NewTrackerMiddleware(orProvider, 10000, 300000)
 	aiService := ai.NewService(budgetProvider)
 
@@ -55,16 +55,16 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	clusterService := ai.NewClusterService(aiService, pool)
-	
+
 	// Phase 5: In-Memory Clustering Routing
 	embedder := cluster.NewOpenRouterEmbedder(aiCfg.APIKey)
 	inMemClusterSvc := cluster.NewClusterService(embedder)
-	
+
 	metricsData := crawler.NewMetrics(pool)
 	metricsData.LoadFromDB(r.Context()) // Load initial state
 
 	summarizer := crawler.NewSummarizer(aiService, database)
-	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, metricsData, database, dryRunEnv, summarizer)
+	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, aiService, metricsData, database, dryRunEnv, summarizer)
 
 	// Executing the cycle synchronously for Vercel Serverless
 	stats := botOrchestrator.RunCycle(context.Background())

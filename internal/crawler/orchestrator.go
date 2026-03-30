@@ -9,6 +9,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/hidatara-ds/evolipia-radar/internal/ai"
 	"github.com/hidatara-ds/evolipia-radar/internal/cluster"
+	"github.com/hidatara-ds/evolipia-radar/internal/db"
 )
 
 // Orchestrator manages the crawling lifecycle and agents.
@@ -17,14 +18,16 @@ type Orchestrator struct {
 	budget          *CrawlBudget
 	clusterService  *ai.ClusterService
 	inMemClusterSvc *cluster.ClusterService
+	aiService       *ai.Service
+	database        *db.DB
 	DryRun          bool
 	metrics         *Metrics
 }
 
 // NewOrchestrator wires together all agents and binds them to the AI clustering brain.
-func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.ClusterService, metrics *Metrics, dryRun bool) *Orchestrator {
+func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.ClusterService, aiSvc *ai.Service, database *db.DB, metrics *Metrics, dryRun bool) *Orchestrator {
 	// Initialize with strict zero-cost budget: 50 requests per hour max
-	budget := NewCrawlBudget(50, metrics) 
+	budget := NewCrawlBudget(50, metrics)
 
 	return &Orchestrator{
 		agents: []DiscoveryAgent{
@@ -34,6 +37,8 @@ func NewOrchestrator(clusterSvc *ai.ClusterService, inMemSvc *cluster.ClusterSer
 		budget:          budget,
 		clusterService:  clusterSvc,
 		inMemClusterSvc: inMemSvc,
+		aiService:       aiSvc,
+		database:        database,
 		DryRun:          dryRun,
 		metrics:         metrics,
 	}
@@ -118,6 +123,35 @@ func (o *Orchestrator) RunCycle(ctx context.Context) map[string]int {
 				err := o.clusterService.ProcessArticle(ctx, artID, art.Title, art.Content, art.Link)
 				if err != nil {
 					log.Printf("[ORCHESTRATOR] Cluster pipeline failed for article %s: %v", art.Link, err)
+				}
+			}
+
+			// 3. Generate and store semantic embedding (If not dry run)
+			if o.aiService != nil && o.database != nil && !o.DryRun {
+				itemRepo := db.NewItemRepository(o.database)
+
+				// Idempotency check: see if we already have an embedding for this article
+				hasEmbed, checkErr := itemRepo.HasEmbedding(ctx, artID)
+				if checkErr != nil {
+					log.Printf("[ORCHESTRATOR] Embedding idempotency check failed for %s: %v", art.Link, checkErr)
+				} else if !hasEmbed {
+					// Build text to embed: Title + 512 chars of Content
+					embedText := art.Title + ". "
+					contentSnip := art.Content
+					if len(contentSnip) > 512 {
+						contentSnip = contentSnip[:512]
+					}
+					embedText += contentSnip
+
+					embedResp, embedErr := o.aiService.Embed(ctx, ai.EmbeddingRequest{Input: embedText})
+					if embedErr != nil {
+						log.Printf("[ORCHESTRATOR] Embedding generation skipped/failed for %s: %v", art.Link, embedErr)
+					} else {
+						upsertErr := itemRepo.UpsertEmbedding(ctx, artID, embedResp.Embedding, embedResp.Model)
+						if upsertErr != nil {
+							log.Printf("[ORCHESTRATOR] Embedding save failed for %s: %v", art.Link, upsertErr)
+						}
+					}
 				}
 			}
 		}

@@ -9,6 +9,7 @@
 *.test
 *.out
 bin/
+vendor/
 
 # =========================
 # NODE / NEXT.JS

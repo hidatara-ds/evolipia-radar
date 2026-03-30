@@ -54,7 +54,7 @@ func (s *IntegrationTestSuite) SetupSuite() {
 	require.NoError(s.T(), err)
 	s.appDB = appDB
 
-	h := handlers.New(appDB)
+	h := handlers.New(appDB, nil)
 
 	s.router.GET("/healthz", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"status": "ok"})

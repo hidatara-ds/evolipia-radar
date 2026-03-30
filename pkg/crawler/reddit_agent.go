@@ -27,7 +27,7 @@ func (a *RedditAgent) Crawl(ctx context.Context, maxItems int) ([]Article, error
 
 	for _, sub := range a.Subreddits {
 		url := fmt.Sprintf("https://www.reddit.com/r/%s/new.json?limit=25", sub)
-		
+
 		req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
 		if err != nil {
 			continue
@@ -73,7 +73,7 @@ func (a *RedditAgent) Crawl(ctx context.Context, maxItems int) ([]Article, error
 				break
 			}
 		}
-		
+
 		if len(results) >= maxItems {
 			break
 		}

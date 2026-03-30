@@ -35,7 +35,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// arXiv Research Papers
 		{
 			Name:     "arXiv AI Papers",
@@ -69,7 +69,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// Company Blogs
 		{
 			Name:     "HuggingFace Blog",
@@ -111,7 +111,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// Tech News Sites
 		{
 			Name:     "MIT Technology Review AI",
@@ -145,7 +145,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// Research & Analysis
 		{
 			Name:     "The Gradient",
@@ -171,7 +171,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// Community & Aggregators
 		{
 			Name:     "Papers with Code",
@@ -181,7 +181,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// IDE & Developer Tools (NEW!)
 		{
 			Name:     "GitHub Blog - Copilot",
@@ -223,7 +223,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// Free Credits & Student Programs (NEW!)
 		{
 			Name:     "GitHub Education Blog",
@@ -249,7 +249,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// Computer Vision & Image Generation (NEW!)
 		{
 			Name:     "Stability AI Blog",
@@ -275,7 +275,7 @@ func main() {
 			Enabled:  true,
 			Status:   "active",
 		},
-		
+
 		// Robotics & RL (NEW!)
 		{
 			Name:     "Boston Dynamics Blog",

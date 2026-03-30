@@ -129,9 +129,9 @@ func NewAutoTagger() *AutoTagger {
 func (at *AutoTagger) AssignTags(title, content string) []string {
 	// Combine title and content for analysis (title weighted more)
 	text := strings.ToLower(title + " " + title + " " + content)
-	
+
 	tagSet := make(map[string]bool)
-	
+
 	for _, rule := range at.rules {
 		// Check keywords
 		for _, keyword := range rule.Keywords {
@@ -140,7 +140,7 @@ func (at *AutoTagger) AssignTags(title, content string) []string {
 				break
 			}
 		}
-		
+
 		// Check regex patterns
 		for _, pattern := range rule.Patterns {
 			matched, err := regexp.MatchString(pattern, text)
@@ -150,44 +150,44 @@ func (at *AutoTagger) AssignTags(title, content string) []string {
 			}
 		}
 	}
-	
+
 	// Convert set to slice
 	tags := make([]string, 0, len(tagSet))
 	for tag := range tagSet {
 		tags = append(tags, tag)
 	}
-	
+
 	// If no tags matched, assign "general_ai"
 	if len(tags) == 0 {
 		tags = append(tags, "general_ai")
 	}
-	
+
 	return tags
 }
 
 // MergeTags combines existing tags with auto-generated tags (deduplicates)
 func MergeTags(existingTags, newTags []string) []string {
 	tagSet := make(map[string]bool)
-	
+
 	// Add existing tags
 	for _, tag := range existingTags {
 		if tag != "" {
 			tagSet[tag] = true
 		}
 	}
-	
+
 	// Add new tags
 	for _, tag := range newTags {
 		if tag != "" {
 			tagSet[tag] = true
 		}
 	}
-	
+
 	// Convert to slice
 	result := make([]string, 0, len(tagSet))
 	for tag := range tagSet {
 		result = append(result, tag)
 	}
-	
+
 	return result
 }

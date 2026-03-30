@@ -17,7 +17,13 @@ import {
   X,
   Shield,
   Key,
-  MessageSquare
+  MessageSquare,
+  Flame,
+  ArrowUpDown,
+  Bot,
+  Globe,
+  Server,
+  Lightbulb
 } from "lucide-react";
 
 // API Response Types
@@ -28,7 +34,9 @@ interface NewsItem {
   domain: string;
   published_at: string;
   category: string;
-  score: number;
+  score: number;       // 1-10 scale (already converted by backend)
+  raw_score: number;   // 0.0-1.0 internal
+  heat_level: string;  // "hot" | "rising" | "signal" | "low"
   tldr?: string;
   why_it_matters?: string;
   tags: string[];
@@ -59,16 +67,22 @@ interface SettingsState {
   openrouter_api_key: string;
 }
 
-// Topic filter configuration
+// Topic filter configuration — aligned with real AI verticals
 const TOPICS = [
-  { id: "all", label: "All Insights", icon: <TrendingUp className="w-4 h-4" /> },
+  { id: "all", label: "All", icon: <TrendingUp className="w-4 h-4" /> },
   { id: "llm", label: "LLM", icon: <BrainCircuit className="w-4 h-4" /> },
+  { id: "agents", label: "Agents", icon: <Bot className="w-4 h-4" /> },
   { id: "vision", label: "Vision", icon: <Zap className="w-4 h-4" /> },
-  { id: "data", label: "Data", icon: <Database className="w-4 h-4" /> },
-  { id: "robotics", label: "Robotics", icon: <Zap className="w-4 h-4" /> },
-  { id: "credits", label: "Free Credits", icon: <Sparkles className="w-4 h-4" /> },
-  { id: "ide", label: "IDE", icon: <FileText className="w-4 h-4" /> },
+  { id: "open-source", label: "Open Source", icon: <Globe className="w-4 h-4" /> },
+  { id: "infra", label: "Infra", icon: <Server className="w-4 h-4" /> },
+  { id: "robotics", label: "Robotics", icon: <Activity className="w-4 h-4" /> },
   { id: "security", label: "Security", icon: <Shield className="w-4 h-4" /> },
+] as const;
+
+const SORT_OPTIONS = [
+  { id: "", label: "Trending" },
+  { id: "newest", label: "Newest" },
+  { id: "oldest", label: "Oldest" },
 ] as const;
 
 export default function Dashboard() {
@@ -78,6 +92,7 @@ export default function Dashboard() {
   const [newsLoading, setNewsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string>("all");
+  const [sortMode, setSortMode] = useState<string>("");
   const [triggering, setTriggering] = useState(false);
   const [toast, setToast] = useState<{message: string, type: 'info' | 'success' | 'error'} | null>(null);
   const [showSettings, setShowSettings] = useState(false);
@@ -99,7 +114,7 @@ export default function Dashboard() {
     const url = (process.env.NEXT_PUBLIC_API_BASE_URL || "").replace(/\/+$/g, "");
     setBaseUrl(url);
     fetchMetrics(url);
-    fetchNews(url, selectedTopic);
+    fetchNews(url, selectedTopic, sortMode);
     fetchSettings(url);
     
     const interval = setInterval(() => {
@@ -107,7 +122,7 @@ export default function Dashboard() {
     }, 15000);
     
     return () => clearInterval(interval);
-  }, [selectedTopic]);
+  }, [selectedTopic, sortMode]);
 
   const fetchMetrics = async (url: string) => {
     try {
@@ -123,12 +138,16 @@ export default function Dashboard() {
     }
   };
 
-  const fetchNews = async (url: string, topic: string) => {
+  const fetchNews = async (url: string, topic: string, sort: string) => {
     setNewsLoading(true);
     setError(null);
     try {
-      const topicParam = topic !== "all" ? `?topic=${topic}` : "";
-      const res = await fetch(`${buildUrl(url, "/api/news")}${topicParam}`);
+      const params = new URLSearchParams();
+      if (topic !== "all") params.set("topic", topic);
+      if (sort) params.set("sort", sort);
+      const qs = params.toString() ? `?${params.toString()}` : "";
+      
+      const res = await fetch(`${buildUrl(url, "/api/news")}${qs}`);
       if (!res.ok) throw new Error("Failed to fetch news");
       const data: NewsResponse = await res.json();
       if (data.success && data.data) {
@@ -182,7 +201,7 @@ export default function Dashboard() {
       if (res.ok) {
         setToast({ message: "Crawl complete! Insights are being clustered.", type: 'success' });
         fetchMetrics(baseUrl);
-        fetchNews(baseUrl, selectedTopic);
+        fetchNews(baseUrl, selectedTopic, sortMode);
       } else {
         setToast({ message: "Failed to trigger crawl.", type: 'error' });
       }
@@ -204,42 +223,43 @@ export default function Dashboard() {
 
       {/* Header */}
       <header className="sticky top-0 z-[60] border-b border-white/5 bg-black/40 backdrop-blur-2xl">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3 sm:gap-4">
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200" />
               <img 
                 src="/assets/icon.png" 
                 alt="Logo" 
-                className="relative w-11 h-11 rounded-xl shadow-2xl transition-transform hover:scale-105"
+                className="relative w-9 h-9 sm:w-11 sm:h-11 rounded-xl shadow-2xl transition-transform hover:scale-105"
               />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+              <h1 className="text-lg sm:text-xl font-bold tracking-tight text-white flex items-center gap-2">
                 Evolipia Radar
                 <span className="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px] font-mono border border-emerald-500/20 uppercase tracking-widest">
                   Active
                 </span>
               </h1>
-              <p className="text-xs text-slate-500 font-medium">Autonomous Research Engine</p>
+              <p className="text-xs text-slate-500 font-medium hidden sm:block">Autonomous Research Engine</p>
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <button
               onClick={() => setShowSettings(true)}
-              className="p-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all text-slate-400 hover:text-white"
+              className="p-2 sm:p-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all text-slate-400 hover:text-white"
               title="System Settings"
             >
-              <Settings className="w-5 h-5" />
+              <Settings className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
             <button
               onClick={handleTrigger}
               disabled={triggering}
-              className="relative group overflow-hidden flex items-center gap-2.5 px-6 py-2.5 bg-white text-black font-bold rounded-xl transition-all active:scale-95 disabled:opacity-50"
+              className="relative group overflow-hidden flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-white text-black font-bold rounded-xl transition-all active:scale-95 disabled:opacity-50 text-sm sm:text-base"
             >
               <RefreshCw className={`w-4 h-4 ${triggering ? 'animate-spin' : ''}`} />
-              <span>{triggering ? 'Processing...' : 'Run Cycle'}</span>
+              <span className="hidden sm:inline">{triggering ? 'Processing...' : 'Run Cycle'}</span>
+              <span className="sm:hidden">{triggering ? '...' : 'Run'}</span>
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/20 to-teal-400/20 opacity-0 group-hover:opacity-100 transition-opacity" />
             </button>
           </div>
@@ -247,22 +267,22 @@ export default function Dashboard() {
       </header>
 
       {/* Hero Section with Mascot */}
-      <div className="relative max-w-7xl mx-auto px-6 py-12">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
-          <div className="flex-1 space-y-6 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold mb-2">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+          <div className="flex-1 space-y-5 text-center lg:text-left">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Agent Evoli is currently monitoring 12 sources</span>
+              <span>Agent Evoli monitoring 12 sources</span>
             </div>
-            <h2 className="text-4xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-[1.1] tracking-tight">
               Predict the future of <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-blue-500">
                 AI Innovation.
               </span>
             </h2>
-            <p className="text-lg text-slate-400 max-w-2xl leading-relaxed">
+            <p className="text-base sm:text-lg text-slate-400 max-w-2xl leading-relaxed">
               Real-time semantic clustering of global research signals. 
-              Evolipia filters the noise to bring you the signal that actually moves markets.
+              Evolipia filters the noise to bring you what actually moves markets.
             </p>
           </div>
           
@@ -273,9 +293,9 @@ export default function Dashboard() {
               <img 
                 src="/assets/maskot1.png" 
                 alt="Evoli Mascot" 
-                className="w-48 h-48 lg:w-64 lg:h-64 rounded-full object-cover relative border-4 border-emerald-500/20 bg-emerald-500/5 shadow-[0_0_50px_rgba(16,185,129,0.2)] animate-float"
+                className="w-40 h-40 lg:w-56 lg:h-56 rounded-full object-cover relative border-4 border-emerald-500/20 bg-emerald-500/5 shadow-[0_0_50px_rgba(16,185,129,0.2)] animate-float"
               />
-              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-4 py-1.5 bg-black/80 backdrop-blur-md rounded-full border border-emerald-500/20 text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 opacity-0 group-hover:opacity-100 transition-all">
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 px-4 py-1.5 bg-black/80 backdrop-blur-md rounded-full border border-emerald-500/20 text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 opacity-0 group-hover:opacity-100 transition-all">
                 Agent Evoli
               </div>
             </div>
@@ -283,124 +303,142 @@ export default function Dashboard() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 pb-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pb-20">
         {/* Metrics Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-20">
-          <PremiumMetricCard 
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-10 sm:mb-12">
+          <MetricCard 
             label="Sources Crawled" 
             value={metrics?.articles_processed || 0} 
             icon={<FileText className="w-5 h-5" />}
-            color="standard" 
           />
-          <PremiumMetricCard 
-            label="Noise Suppressed" 
+          <MetricCard 
+            label="AI Analyzed" 
             value={metrics?.filtered_articles || 0} 
             icon={<Shield className="w-5 h-5" />}
-            color="standard" 
           />
-          <PremiumMetricCard 
-            label="Intelligence Clusters" 
+          <MetricCard 
+            label="Summaries" 
             value={metrics?.clusters || 0} 
             icon={<BrainCircuit className="w-5 h-5" />}
-            color="active" 
-            trend="+12% today"
+            highlight
           />
-          <PremiumMetricCard 
-            label="Global Impact Score" 
-            value={(metrics?.avg_cluster_score || 0).toFixed(1)} 
+          <MetricCard 
+            label="Avg Score" 
+            value={metrics?.avg_cluster_score?.toFixed(1) || "0.0"} 
             icon={<TrendingUp className="w-5 h-5" />}
-            color="standard" 
+            suffix="/10"
           />
         </div>
 
         {/* Intelligence Feed */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Feed */}
-          <div className="lg:col-span-2 space-y-8">
-            <div className="flex items-center justify-between border-b border-white/5 pb-4">
-              <h3 className="text-2xl font-bold text-white flex items-center gap-3">
-                <Sparkles className="w-6 h-6 text-emerald-400" />
-                Latest Insights
-              </h3>
+          <div className="lg:col-span-2 space-y-6">
+            {/* Filter Bar + Sort */}
+            <div className="space-y-3 border-b border-white/5 pb-4">
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
+                  <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-400" />
+                  Latest Insights
+                </h3>
+                
+                {/* Sort Toggle */}
+                <div className="flex items-center gap-1 bg-white/5 rounded-xl p-1 border border-white/5">
+                  {SORT_OPTIONS.map(opt => (
+                    <button
+                      key={opt.id}
+                      onClick={() => setSortMode(opt.id)}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                        sortMode === opt.id
+                        ? 'bg-emerald-500 text-black' 
+                        : 'text-slate-400 hover:text-white'
+                      }`}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
               
-              <div className="flex items-center gap-2">
+              {/* Topic Filters — Scrollable */}
+              <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide pb-1">
                 {TOPICS.map(topic => (
                   <button
                     key={topic.id}
                     onClick={() => setSelectedTopic(topic.id)}
-                    className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all flex items-center gap-2 ${
+                    className={`flex-shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition-all flex items-center gap-2 ${
                       selectedTopic === topic.id 
                       ? 'bg-emerald-500 text-black shadow-lg shadow-emerald-500/20' 
                       : 'bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white border border-white/5'
                     }`}
                   >
                     {topic.icon}
-                    <span className="hidden sm:inline">{topic.label}</span>
+                    <span>{topic.label}</span>
                   </button>
                 ))}
               </div>
             </div>
 
             {newsLoading ? (
-              <div className="space-y-6">
-                {[1, 2, 3].map(i => <PremiumSkeleton key={i} />)}
+              <div className="space-y-4">
+                {[1, 2, 3].map(i => <SkeletonCard key={i} />)}
               </div>
             ) : error ? (
-              <div className="p-12 text-center bg-rose-500/5 border border-rose-500/20 rounded-3xl">
-                <AlertCircle className="w-12 h-12 text-rose-500 mx-auto mb-4" />
-                <h4 className="text-xl font-bold text-white mb-2">Sync Interrupted</h4>
-                <p className="text-slate-400 mb-6">{error}</p>
+              <div className="p-8 sm:p-12 text-center bg-rose-500/5 border border-rose-500/20 rounded-2xl">
+                <AlertCircle className="w-10 h-10 text-rose-500 mx-auto mb-3" />
+                <h4 className="text-lg font-bold text-white mb-2">Sync Interrupted</h4>
+                <p className="text-slate-400 mb-4 text-sm">{error}</p>
                 <button 
-                  onClick={() => fetchNews(baseUrl, selectedTopic)}
-                  className="px-6 py-2 bg-rose-500 text-white font-bold rounded-xl hover:bg-rose-600 transition-colors"
+                  onClick={() => fetchNews(baseUrl, selectedTopic, sortMode)}
+                  className="px-6 py-2 bg-rose-500 text-white font-bold rounded-xl hover:bg-rose-600 transition-colors text-sm"
                 >
                   Reconnect
                 </button>
               </div>
             ) : news.length === 0 ? (
-              <div className="py-20 text-center border-2 border-dashed border-white/5 rounded-3xl">
-                <div className="w-20 h-20 bg-white/5 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Database className="w-10 h-10 text-slate-700" />
+              <div className="py-16 text-center border-2 border-dashed border-white/5 rounded-2xl">
+                <div className="w-16 h-16 bg-white/5 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Database className="w-8 h-8 text-slate-700" />
                 </div>
-                <h4 className="text-xl font-bold text-white mb-2">Feed Vacant</h4>
-                <p className="text-slate-500 max-w-sm mx-auto">
-                  Run a system cycle to ingest new research signals from the edge.
+                <h4 className="text-lg font-bold text-white mb-2">Feed Empty</h4>
+                <p className="text-slate-500 max-w-sm mx-auto text-sm">
+                  Run a crawl cycle to ingest fresh AI research signals.
                 </p>
               </div>
             ) : (
-              <div className="grid grid-cols-1 gap-6">
+              <div className="grid grid-cols-1 gap-4">
                 {news.map((item, idx) => (
-                  <PremiumNewsCard key={item.id} item={item} index={idx} />
+                  <NewsCard key={item.id} item={item} index={idx} />
                 ))}
               </div>
             )}
           </div>
 
           {/* Sidebar - Emerging Trends */}
-          <aside className="space-y-8">
-            <div className="p-6 bg-black/40 border border-white/5 rounded-3xl backdrop-blur-xl">
-              <h3 className="text-lg font-bold text-white mb-6 flex items-center gap-2">
+          <aside className="space-y-6">
+            <div className="p-5 sm:p-6 bg-black/40 border border-white/5 rounded-2xl backdrop-blur-xl">
+              <h3 className="text-base sm:text-lg font-bold text-white mb-5 flex items-center gap-2">
                 <TrendingUp className="w-5 h-5 text-emerald-400" />
-                Trending Clusters
+                Top Trending
               </h3>
               
-              {!metrics?.top_cluster_titles ? (
-                <div className="py-12 text-center space-y-4">
-                  <BrainCircuit className="w-10 h-10 text-slate-800 mx-auto" />
-                  <p className="text-sm text-slate-600">No active clusters detected.</p>
+              {!metrics?.top_cluster_titles || metrics.top_cluster_titles.length === 0 ? (
+                <div className="py-10 text-center space-y-3">
+                  <BrainCircuit className="w-8 h-8 text-slate-800 mx-auto" />
+                  <p className="text-sm text-slate-600">No active trends yet.</p>
                 </div>
               ) : (
-                <div className="space-y-4">
+                <div className="space-y-3">
                   {metrics.top_cluster_titles.map((title, i) => (
-                    <div key={i} className="flex gap-4 group cursor-pointer">
-                      <span className="text-emerald-500/40 font-mono text-sm group-hover:text-emerald-400 transition-colors pt-1">0{i+1}</span>
+                    <div key={i} className="flex gap-3 group cursor-pointer">
+                      <span className="text-emerald-500/40 font-mono text-sm group-hover:text-emerald-400 transition-colors pt-0.5">{String(i+1).padStart(2, '0')}</span>
                       <div>
                         <h4 className="text-sm font-semibold text-slate-300 group-hover:text-white transition-colors leading-snug line-clamp-2">
                           {title}
                         </h4>
-                        <div className="flex items-center gap-2 mt-1.5">
-                          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                          <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Emerging Signal</span>
+                        <div className="flex items-center gap-2 mt-1">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                          <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Emerging</span>
                         </div>
                       </div>
                     </div>
@@ -409,14 +447,14 @@ export default function Dashboard() {
               )}
             </div>
 
-            <div className="p-8 bg-gradient-to-br from-emerald-600 to-teal-700 rounded-3xl text-white shadow-2xl shadow-emerald-500/10 relative overflow-hidden group">
+            <div className="p-6 sm:p-8 bg-gradient-to-br from-emerald-600 to-teal-700 rounded-2xl text-white shadow-2xl shadow-emerald-500/10 relative overflow-hidden group">
               <div className="absolute top-[-20%] right-[-20%] w-[60%] h-[60%] bg-white/10 blur-3xl rounded-full transition-transform group-hover:scale-125 duration-700" />
-              <div className="relative z-10 space-y-4">
-                <h4 className="text-xl font-black">Join over 5,000 Researchers</h4>
+              <div className="relative z-10 space-y-3">
+                <h4 className="text-lg sm:text-xl font-black">Join 5,000+ Researchers</h4>
                 <p className="text-sm text-white/80 font-medium leading-relaxed">
-                  Get daily intelligence alerts for emerging LLM and CV breakthroughs.
+                  Daily intelligence alerts for emerging LLM and CV breakthroughs.
                 </p>
-                <button className="w-full py-3 bg-white text-emerald-700 font-extrabold rounded-xl shadow-xl hover:shadow-2xl transition-all active:scale-95">
+                <button className="w-full py-3 bg-white text-emerald-700 font-extrabold rounded-xl shadow-xl hover:shadow-2xl transition-all active:scale-95 text-sm">
                   Subscribe for Free
                 </button>
               </div>
@@ -427,31 +465,31 @@ export default function Dashboard() {
 
       {/* Settings Modal */}
       {showSettings && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 sm:p-12">
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-12">
           <div className="absolute inset-0 bg-black/80 backdrop-blur-md" onClick={() => setShowSettings(false)} />
-          <div className="relative w-full max-w-xl bg-[#0A1118] border border-white/10 rounded-[2.5rem] shadow-2xl p-8 sm:p-12 overflow-hidden overflow-y-auto max-h-[90vh]">
-            <div className="absolute top-0 right-0 p-6">
+          <div className="relative w-full max-w-xl bg-[#0A1118] border border-white/10 rounded-2xl shadow-2xl p-6 sm:p-10 overflow-y-auto max-h-[90vh]">
+            <div className="absolute top-0 right-0 p-4">
               <button 
                 onClick={() => setShowSettings(false)}
                 className="p-2 rounded-xl bg-white/5 text-slate-400 hover:text-white transition-colors"
                 title="Close"
               >
-                <X className="w-6 h-6" />
+                <X className="w-5 h-5" />
               </button>
             </div>
 
-            <div className="flex items-center gap-4 mb-10">
-              <div className="p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl">
-                <Settings className="w-8 h-8 text-emerald-400" />
+            <div className="flex items-center gap-3 mb-8">
+              <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-xl">
+                <Settings className="w-6 h-6 text-emerald-400" />
               </div>
               <div>
-                <h3 className="text-3xl font-black text-white">System Core</h3>
-                <p className="text-slate-500 font-medium">Manage your secret intelligence keys</p>
+                <h3 className="text-2xl font-black text-white">System Core</h3>
+                <p className="text-slate-500 font-medium text-sm">Manage your intelligence keys</p>
               </div>
             </div>
 
-            <div className="space-y-8">
-              <div className="space-y-3">
+            <div className="space-y-6">
+              <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-400 ml-1 flex items-center gap-2">
                   <Key className="w-4 h-4" /> OpenRouter API Key
                 </label>
@@ -460,12 +498,12 @@ export default function Dashboard() {
                   value={settings.openrouter_api_key}
                   onChange={(e) => setSettings({...settings, openrouter_api_key: e.target.value})}
                   placeholder="sk-or-v1-..."
-                  className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
+                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
                 />
-                <p className="text-[10px] text-slate-500 ml-1">Necessary for AI clustering and summarization.</p>
+                <p className="text-[10px] text-slate-500 ml-1">Required for AI clustering and summarization.</p>
               </div>
 
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-400 ml-1 flex items-center gap-2">
                   <MessageSquare className="w-4 h-4" /> X (Twitter) API Key
                 </label>
@@ -474,11 +512,11 @@ export default function Dashboard() {
                   value={settings.x_api_key}
                   onChange={(e) => setSettings({...settings, x_api_key: e.target.value})}
                   placeholder="Enter X API Key..."
-                  className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
+                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
                 />
               </div>
 
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-400 ml-1 flex items-center gap-2">
                   <Activity className="w-4 h-4" /> Threads API Key
                 </label>
@@ -487,14 +525,14 @@ export default function Dashboard() {
                   value={settings.threads_api_key}
                   onChange={(e) => setSettings({...settings, threads_api_key: e.target.value})}
                   placeholder="Enter Threads API Key..."
-                  className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
+                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
                 />
               </div>
 
-              <div className="pt-6">
+              <div className="pt-4">
                 <button 
                   onClick={saveSettings}
-                  className="w-full py-5 bg-white text-black font-black text-lg rounded-3xl hover:bg-emerald-400 transition-all shadow-xl active:scale-95"
+                  className="w-full py-4 bg-white text-black font-black text-base rounded-xl hover:bg-emerald-400 transition-all shadow-xl active:scale-95"
                 >
                   Authorize System Keys
                 </button>
@@ -506,16 +544,16 @@ export default function Dashboard() {
 
       {/* Toast Notification */}
       {toast && (
-        <div className="fixed bottom-10 right-10 z-[200] animate-in fade-in slide-in-from-bottom-5">
+        <div className="fixed bottom-6 right-6 z-[200] animate-in">
           <div className={`
-            px-6 py-4 rounded-2xl shadow-2xl border backdrop-blur-xl flex items-center gap-4
+            px-5 py-3 rounded-xl shadow-2xl border backdrop-blur-xl flex items-center gap-3 text-sm
             ${toast.type === 'success' ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400' : 
               toast.type === 'error' ? 'bg-rose-500/10 border-rose-500/20 text-rose-400' :
               'bg-blue-500/10 border-blue-500/20 text-blue-400'}
           `}>
-             {toast.type === 'success' ? <Sparkles className="w-5 h-5" /> : 
-              toast.type === 'error' ? <AlertCircle className="w-5 h-5" /> : 
-              <RefreshCw className="w-5 h-5 animate-spin" />}
+             {toast.type === 'success' ? <Sparkles className="w-4 h-4" /> : 
+              toast.type === 'error' ? <AlertCircle className="w-4 h-4" /> : 
+              <RefreshCw className="w-4 h-4 animate-spin" />}
              <span className="font-bold">{toast.message}</span>
           </div>
         </div>
@@ -534,62 +572,92 @@ export default function Dashboard() {
   );
 }
 
-function PremiumMetricCard({ label, value, icon, color, trend }: any) {
-  const colors: any = {
-    standard: "from-white/5 to-white/[0.02] border-white/5 text-slate-400 group-hover:border-emerald-500/20",
-    active: "from-emerald-500/10 to-emerald-500/[0.02] border-emerald-500/20 text-emerald-400 group-hover:border-emerald-500/40",
-  };
+// ============================================================================
+// Components
+// ============================================================================
 
+function MetricCard({ label, value, icon, highlight, suffix }: {
+  label: string; value: number | string; icon: React.ReactNode; highlight?: boolean; suffix?: string;
+}) {
   return (
-    <div className={`p-6 rounded-[2rem] bg-gradient-to-br border border-white/5 transition-all hover:scale-[1.02] active:scale-95 cursor-default group ${colors[color]}`}>
-      <div className="flex items-start justify-between mb-8">
-        <div className={`p-3 bg-black/40 border border-white/5 rounded-2xl group-hover:border-white/20 transition-all`}>
+    <div className={`p-4 sm:p-6 rounded-2xl bg-gradient-to-br border transition-all hover:scale-[1.02] cursor-default group ${
+      highlight 
+      ? 'from-emerald-500/10 to-emerald-500/[0.02] border-emerald-500/20 text-emerald-400' 
+      : 'from-white/5 to-white/[0.02] border-white/5 text-slate-400 group-hover:border-emerald-500/20'
+    }`}>
+      <div className="flex items-start justify-between mb-4 sm:mb-6">
+        <div className="p-2 sm:p-3 bg-black/40 border border-white/5 rounded-xl group-hover:border-white/20 transition-all">
           {icon}
         </div>
-        {trend && <span className="text-[10px] font-black uppercase tracking-widest">{trend}</span>}
       </div>
-      <div className="space-y-1">
-        <p className="text-4xl font-black text-white tracking-tighter">{value}</p>
-        <p className="text-xs font-bold text-slate-500 uppercase tracking-widest">{label}</p>
+      <div className="space-y-0.5">
+        <p className="text-2xl sm:text-3xl font-black text-white tracking-tighter">
+          {value}{suffix && <span className="text-sm sm:text-base font-bold text-slate-500">{suffix}</span>}
+        </p>
+        <p className="text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-widest">{label}</p>
       </div>
     </div>
   );
 }
 
-function PremiumNewsCard({ item, index }: { item: NewsItem, index: number }) {
+function HeatBadge({ level, score }: { level: string; score: number }) {
+  const config: Record<string, { icon: React.ReactNode; bg: string; text: string; label: string }> = {
+    hot:    { icon: <Flame className="w-3 h-3" />, bg: "bg-orange-500/10 border-orange-500/20", text: "text-orange-400", label: "Hot" },
+    rising: { icon: <TrendingUp className="w-3 h-3" />, bg: "bg-amber-500/10 border-amber-500/20", text: "text-amber-400", label: "Rising" },
+    signal: { icon: <Lightbulb className="w-3 h-3" />, bg: "bg-blue-500/10 border-blue-500/20", text: "text-blue-400", label: "Signal" },
+    low:    { icon: <Activity className="w-3 h-3" />, bg: "bg-slate-500/10 border-slate-500/20", text: "text-slate-400", label: "New" },
+  };
+  const c = config[level] || config.low;
+
+  return (
+    <div className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border text-[11px] font-bold uppercase tracking-wider ${c.bg} ${c.text}`}>
+      {c.icon}
+      <span>{c.label}</span>
+      <span className="opacity-60">{score.toFixed(1)}</span>
+    </div>
+  );
+}
+
+function NewsCard({ item, index }: { item: NewsItem, index: number }) {
   const [isExpanded, setIsExpanded] = useState(false);
+  
+  // Ensure score is on 1-10 scale (backend now sends it correctly)
+  const displayScore = item.score >= 0 && item.score <= 1.1 
+    ? (item.score * 9) + 1  // Fallback conversion if backend sent raw
+    : item.score;           // Already 1-10 scale
+  
+  const heatLevel = item.heat_level || (displayScore >= 7 ? "hot" : displayScore >= 5 ? "rising" : displayScore >= 3 ? "signal" : "low");
 
   return (
     <div className="group relative">
-      <div className="absolute -inset-[1px] bg-gradient-to-r from-emerald-500/50 to-blue-500/50 rounded-[2.5rem] blur-sm opacity-0 group-hover:opacity-10 transition-opacity" />
-      <div className="relative p-8 bg-black/40 border border-white/5 rounded-[2.5rem] hover:border-white/10 transition-all backdrop-blur-xl">
-        <div className="flex items-start gap-6">
-          <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center font-black text-xl text-slate-600 group-hover:text-emerald-500/40 group-hover:border-emerald-500/20 transition-all">
+      <div className="absolute -inset-[1px] bg-gradient-to-r from-emerald-500/50 to-blue-500/50 rounded-2xl blur-sm opacity-0 group-hover:opacity-10 transition-opacity" />
+      <div className="relative p-4 sm:p-6 bg-black/40 border border-white/5 rounded-2xl hover:border-white/10 transition-all backdrop-blur-xl">
+        <div className="flex items-start gap-4">
+          <div className="hidden sm:flex flex-shrink-0 w-10 h-10 rounded-xl bg-white/5 border border-white/10 items-center justify-center font-black text-base text-slate-600 group-hover:text-emerald-500/40 group-hover:border-emerald-500/20 transition-all">
             {index + 1}
           </div>
           
-          <div className="flex-1 space-y-4">
-            <div className="flex items-center gap-3">
-              <span className="text-[11px] font-black uppercase tracking-[0.2em] text-emerald-500/80 bg-emerald-500/5 px-2 py-0.5 rounded border border-emerald-500/10">
-                Validated Node
-              </span>
-              <span className="text-[11px] font-bold text-slate-500 flex items-center gap-1.5 uppercase tracking-widest">
+          <div className="flex-1 space-y-3">
+            <div className="flex flex-wrap items-center gap-2">
+              <HeatBadge level={heatLevel} score={displayScore} />
+              <span className="text-[11px] font-bold text-slate-500 flex items-center gap-1 uppercase tracking-widest">
                 <Clock className="w-3 h-3" /> {new Date(item.published_at).toLocaleDateString()}
               </span>
+              <span className="text-[11px] text-slate-600">{item.domain}</span>
             </div>
 
-            <h4 className="text-2xl font-black text-white leading-tight group-hover:text-emerald-400 transition-colors">
+            <h4 className="text-lg sm:text-xl font-black text-white leading-tight group-hover:text-emerald-400 transition-colors">
               {item.title}
             </h4>
 
             {item.tldr && (
-              <div className="space-y-3">
-                <div className={`text-slate-400 text-base leading-relaxed ${!isExpanded && 'line-clamp-2'}`}>
+              <div className="space-y-2">
+                <div className={`text-slate-400 text-sm leading-relaxed ${!isExpanded && 'line-clamp-2'}`}>
                   {item.tldr}
                 </div>
                 {item.why_it_matters && isExpanded && (
-                  <div className="pt-4 border-t border-white/5">
-                    <h5 className="text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-2 mt-2">Critical Impact</h5>
+                  <div className="pt-3 border-t border-white/5">
+                    <h5 className="text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-1.5">Why It Matters</h5>
                     <p className="text-slate-400 text-sm leading-relaxed">{item.why_it_matters}</p>
                   </div>
                 )}
@@ -597,15 +665,15 @@ function PremiumNewsCard({ item, index }: { item: NewsItem, index: number }) {
                   onClick={() => setIsExpanded(!isExpanded)}
                   className="text-xs font-black text-emerald-500 uppercase tracking-widest hover:text-emerald-400 transition-colors"
                 >
-                  {isExpanded ? 'Collapse Insight' : 'Expand AI Insight'}
+                  {isExpanded ? 'Collapse' : 'Expand Insight'}
                 </button>
               </div>
             )}
 
-            <div className="flex items-center justify-between pt-4">
-              <div className="flex flex-wrap gap-2">
+            <div className="flex items-center justify-between pt-3">
+              <div className="flex flex-wrap gap-1.5">
                 {item.tags?.slice(0, 3).map(tag => (
-                  <span key={tag} className="px-3 py-1 bg-white/5 border border-white/10 rounded-xl text-[10px] font-black uppercase tracking-widest text-slate-400 group-hover:border-emerald-500/20 group-hover:text-emerald-500/80 transition-all">
+                  <span key={tag} className="px-2.5 py-0.5 bg-white/5 border border-white/10 rounded-lg text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:border-emerald-500/20 group-hover:text-emerald-500/80 transition-all">
                     {tag}
                   </span>
                 ))}
@@ -614,10 +682,10 @@ function PremiumNewsCard({ item, index }: { item: NewsItem, index: number }) {
               <a 
                 href={item.url} 
                 target="_blank" 
-                className="flex items-center gap-2 px-6 py-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-bold text-sm rounded-xl hover:bg-emerald-500 hover:text-black transition-all"
+                className="flex-shrink-0 flex items-center gap-1.5 px-4 py-1.5 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-bold text-xs rounded-lg hover:bg-emerald-500 hover:text-black transition-all"
               >
-                Access Source
-                <ExternalLink className="w-4 h-4" />
+                Source
+                <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
           </div>
@@ -627,15 +695,15 @@ function PremiumNewsCard({ item, index }: { item: NewsItem, index: number }) {
   );
 }
 
-function PremiumSkeleton() {
+function SkeletonCard() {
   return (
-    <div className="p-8 bg-white/5 border border-white/10 rounded-[2.5rem] animate-pulse">
-      <div className="flex gap-6">
-        <div className="w-14 h-14 bg-white/5 rounded-2xl" />
-        <div className="flex-1 space-y-4">
-          <div className="w-32 h-4 bg-white/5 rounded" />
-          <div className="w-full h-8 bg-white/5 rounded" />
-          <div className="w-full h-20 bg-white/5 rounded" />
+    <div className="p-4 sm:p-6 bg-white/5 border border-white/10 rounded-2xl animate-pulse">
+      <div className="flex gap-4">
+        <div className="hidden sm:block w-10 h-10 bg-white/5 rounded-xl" />
+        <div className="flex-1 space-y-3">
+          <div className="w-24 h-4 bg-white/5 rounded" />
+          <div className="w-full h-6 bg-white/5 rounded" />
+          <div className="w-full h-14 bg-white/5 rounded" />
         </div>
       </div>
     </div>

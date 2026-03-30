@@ -5,8 +5,10 @@ import (
 	"database/sql"
 	"encoding/json"
 	"log"
+	"math"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 
 	_ "github.com/lib/pq"
@@ -19,7 +21,9 @@ type NewsItem struct {
 	Domain       string    `json:"domain"`
 	PublishedAt  time.Time `json:"published_at"`
 	Category     string    `json:"category"`
-	Score        float64   `json:"score"`
+	Score        float64   `json:"score"`      // Always 1-10 scale for frontend
+	RawScore     float64   `json:"raw_score"`  // Internal 0.0-1.0 for debugging
+	HeatLevel    string    `json:"heat_level"` // "hot", "rising", "signal", "low"
 	TLDR         string    `json:"tldr,omitempty"`
 	WhyItMatters string    `json:"why_it_matters,omitempty"`
 	Tags         []string  `json:"tags,omitempty"`
@@ -29,6 +33,33 @@ type Response struct {
 	Success bool        `json:"success"`
 	Data    interface{} `json:"data,omitempty"`
 	Error   string      `json:"error,omitempty"`
+}
+
+// convertToScale10 converts 0.0-1.0 to 1-10 scale consistently.
+// This MUST match the same function in pkg/http/handlers and pkg/services.
+func convertToScale10(score float64) float64 {
+	if score <= 0 {
+		return 1.0
+	}
+	if score >= 1.0 {
+		return 10.0
+	}
+	scaled := (score * 9.0) + 1.0
+	return math.Round(scaled*10) / 10 // Round to 1 decimal
+}
+
+// getHeatLevel returns a human-readable heat label based on 1-10 scale score.
+func getHeatLevel(score10 float64) string {
+	switch {
+	case score10 >= 7.0:
+		return "hot"
+	case score10 >= 5.0:
+		return "rising"
+	case score10 >= 3.0:
+		return "signal"
+	default:
+		return "low"
+	}
 }
 
 func Handler(w http.ResponseWriter, r *http.Request) {
@@ -66,16 +97,14 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	}
 	defer db.Close()
 
-	// Set connection pool settings for better cold start handling
 	db.SetMaxOpenConns(3)
 	db.SetMaxIdleConns(1)
 	db.SetConnMaxLifetime(5 * time.Minute)
 	db.SetConnMaxIdleTime(30 * time.Second)
 
-	// Test connection with timeout
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
-	
+
 	if err := db.PingContext(ctx); err != nil {
 		log.Printf("❌ Failed to ping database: %v", err)
 		json.NewEncoder(w).Encode(Response{
@@ -88,8 +117,11 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	// Parse query parameters
 	query := r.URL.Query()
 	topicFilter := query.Get("topic")
+	sortMode := query.Get("sort") // "newest", "oldest", "" (default: trending/score)
 
-	// Build SQL query
+	// Build SQL query with quality gate:
+	// - Only show articles with score >= 0.2 (internal), which is ~2.8/10
+	// - Smart ranking: score * 0.7 + recency_bonus * 0.3
 	sqlQuery := `
 		SELECT 
 			i.id,
@@ -98,7 +130,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			i.domain,
 			i.published_at,
 			i.category,
-			COALESCE(s.final, 0.5) as score,
+			COALESCE(s.final, 0) as raw_score,
 			COALESCE(sm.tldr, '') as tldr,
 			COALESCE(sm.why_it_matters, '') as why_it_matters,
 			COALESCE(sm.tags, '[]'::jsonb) as tags
@@ -109,12 +141,30 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	`
 
 	args := []interface{}{}
+	argIdx := 1
+
 	if topicFilter != "" {
-		sqlQuery += ` AND sm.tags @> $1::jsonb`
+		sqlQuery += ` AND sm.tags @> $` + itoa(argIdx) + `::jsonb`
 		args = append(args, `["`+topicFilter+`"]`)
 	}
 
-	sqlQuery += ` ORDER BY COALESCE(s.final, 0) DESC, i.published_at DESC LIMIT 20`
+	// Sort mode
+	switch sortMode {
+	case "newest":
+		sqlQuery += ` ORDER BY i.published_at DESC`
+	case "oldest":
+		sqlQuery += ` ORDER BY i.published_at ASC`
+	default:
+		// Trending: weighted score + recency
+		sqlQuery += ` ORDER BY (
+			COALESCE(s.final, 0) * 0.7 + 
+			CASE WHEN i.published_at > NOW() - INTERVAL '24 hours' THEN 0.3 
+			     WHEN i.published_at > NOW() - INTERVAL '48 hours' THEN 0.2 
+			     ELSE 0.1 END
+		) DESC, i.published_at DESC`
+	}
+
+	sqlQuery += ` LIMIT 30`
 
 	// Execute query
 	rows, err := db.Query(sqlQuery, args...)
@@ -132,6 +182,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	var items []NewsItem
 	for rows.Next() {
 		var item NewsItem
+		var rawScore float64
 		var tagsJSON []byte
 
 		err := rows.Scan(
@@ -141,7 +192,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			&item.Domain,
 			&item.PublishedAt,
 			&item.Category,
-			&item.Score,
+			&rawScore,
 			&item.TLDR,
 			&item.WhyItMatters,
 			&tagsJSON,
@@ -150,6 +201,11 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			log.Printf("❌ Error scanning row: %v", err)
 			continue
 		}
+
+		// CRITICAL: Convert 0.0-1.0 → 1-10 scale for frontend
+		item.RawScore = rawScore
+		item.Score = convertToScale10(rawScore)
+		item.HeatLevel = getHeatLevel(item.Score)
 
 		// Parse tags JSON
 		if len(tagsJSON) > 0 && string(tagsJSON) != "[]" {
@@ -166,7 +222,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		log.Printf("❌ Error iterating rows: %v", err)
 	}
 
-	log.Printf("✅ Returning %d news items", len(items))
+	log.Printf("✅ Returning %d news items (sort=%s, topic=%s)", len(items), sanitizeForLog(sortMode), sanitizeForLog(topicFilter))
 
 	// Return response
 	json.NewEncoder(w).Encode(Response{
@@ -177,4 +233,16 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			"last_updated": time.Now(),
 		},
 	})
+}
+
+// itoa converts int to string (avoiding strconv import for this simple case)
+func itoa(i int) string {
+	return string(rune('0' + i))
+}
+
+// sanitizeForLog removes newline characters to prevent log forging attacks.
+func sanitizeForLog(s string) string {
+	s = strings.ReplaceAll(s, "\n", "")
+	s = strings.ReplaceAll(s, "\r", "")
+	return s
 }
