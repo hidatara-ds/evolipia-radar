@@ -29,31 +29,17 @@
       ]
     },
     {
-      "id": "28350483-1fcc-4c51-b807-ca93d72134f0",
-      "title": "LiteLLM Python package compromised by supply-chain attack",
-      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "id": "70366070-fa55-4090-b52c-57230716ad74",
+      "title": "Show HN: Free AI API gateway that auto-fails over Gemini, Groq, Mistral, etc.",
+      "url": "https://github.com/msmarkgu/RelayFreeLLM",
       "domain": "github.com",
-      "published_at": "2026-03-24T12:36:20Z",
+      "published_at": "2026-03-31T03:48:57Z",
       "category": "tech",
-      "score": 0.4675278601369564,
-      "tldr": "LiteLLM Python package compromised by supply-chain attack",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "score": 0.4488609147331271,
+      "tldr": "Show HN: Free AI API gateway that auto-fails over Gemini, Groq, Mistral, etc.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "0bc9061f-8ced-4d26-a154-d0da8d3a0b01",
-      "title": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
-      "url": "https://github.com/BerriAI/litellm/issues/24512",
-      "domain": "github.com",
-      "published_at": "2026-03-24T12:06:29Z",
-      "category": "tech",
-      "score": 0.4143290957233112,
-      "tldr": "8 on PyPI are compromised",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
         "llm"
       ]
     },
@@ -485,21 +471,6 @@
       ]
     },
     {
-      "id": "8045a010-3b4a-47ff-bd14-2abfc9b8adbe",
-      "title": "Secure Domain Name System (DNS) Deployment 2026 Guide [pdf]",
-      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-81r3.pdf",
-      "domain": "nvlpubs.nist.gov",
-      "published_at": "2026-03-24T12:14:56Z",
-      "category": "tech",
-      "score": 0.29372941193895863,
-      "tldr": "Secure Domain Name System (DNS) Deployment 2026 Guide [pdf]",
-      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
-      "tags": [
-        "mlops",
-        "general_ai"
-      ]
-    },
-    {
       "id": "760ce09b-13a4-4899-9190-271698c68b2c",
       "title": "Mathematical methods and human thought in the age of AI",
       "url": "https://arxiv.org/abs/2603.26524",
@@ -908,20 +879,6 @@
       ]
     },
     {
-      "id": "f7fe5e6e-b513-46b6-9711-1a41687a366f",
-      "title": "LiteLLM PyPI has been compromised an hour ago, do not update",
-      "url": "https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack",
-      "domain": "futuresearch.ai",
-      "published_at": "2026-03-24T12:07:02Z",
-      "category": "tech",
-      "score": 0.2555179435182276,
-      "tldr": "LiteLLM PyPI has been compromised an hour ago, do not update",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "fbbdefbf-40e7-4623-8557-727a9b9bdd96",
       "title": "Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent",
       "url": "https://github.com/virpo/pegboard",
@@ -1216,6 +1173,20 @@
       ]
     },
     {
+      "id": "534507ff-031f-4978-a15e-93168fdf0295",
+      "title": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
+      "url": "https://github.com/JasonHonKL/PardusBrowser/tree/main",
+      "domain": "github.com",
+      "published_at": "2026-03-31T10:21:33Z",
+      "category": "tech",
+      "score": 0.25205383278266263,
+      "tldr": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ed05dc7e-a77d-4bb0-92b4-d13efee4c112",
       "title": "I built a better, human like memory, for Agents",
       "url": "https://github.com/emson/elfmem",
@@ -1410,8 +1381,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "de3cd570-da00-4344-9e4d-4308842f5a84",
+      "title": "Atomic Display Switching: Solving",
+      "url": "https://github.com/piot5/displayflow_cli",
+      "domain": "github.com",
+      "published_at": "2026-03-24T18:37:39Z",
+      "category": "tech",
+      "score": 0.25127282998527584,
+      "tldr": "Atomic Display Switching: Solving",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c0a130c0-b4f7-4260-887d-af8e7d698cc9",
+      "title": "Claude Code full source code leaked on NPM",
+      "url": "https://github.com/chatgptprojects/claude-code",
+      "domain": "github.com",
+      "published_at": "2026-03-31T09:40:12Z",
+      "category": "tech",
+      "score": 0.2512484349777637,
+      "tldr": "Claude Code full source code leaked on NPM",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-31T11:40:45.040538897Z",
+  "last_updated": "2026-03-31T12:50:00.998275694Z",
   "total_count": 100
 }
