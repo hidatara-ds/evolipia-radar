@@ -143,20 +143,6 @@
       ]
     },
     {
-      "id": "17bbd9a8-2b74-43de-b2fc-4ee0af640b0c",
-      "title": "Goodbye to Sora",
-      "url": "https://twitter.com/soraofficialapp/status/2036532795984715896",
-      "domain": "twitter.com",
-      "published_at": "2026-03-24T20:01:05Z",
-      "category": "tech",
-      "score": 0.3449728754801078,
-      "tldr": "Goodbye to Sora",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b9631b25-cf50-4eb3-ac05-53dcef5955f9",
       "title": "Make macOS consistently bad unironically",
       "url": "https://lr0.org/blog/p/macos",
@@ -326,20 +312,6 @@
       ]
     },
     {
-      "id": "d99e1e6d-0af4-46a8-9b3d-2e28da9c9818",
-      "title": "Is anybody else bored of talking about AI?",
-      "url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai",
-      "domain": "blog.jakesaunders.dev",
-      "published_at": "2026-03-24T20:31:08Z",
-      "category": "tech",
-      "score": 0.30521010876142285,
-      "tldr": "Is anybody else bored of talking about AI?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bfab3ffa-e59b-47cc-82fa-adc0fd8c917c",
       "title": "Mistral raises $830M to build Nvidia-powered AI centres in Europe",
       "url": "https://www.ft.com/content/229f4f59-d518-4e00-abd6-5a5b727cd2aa",
@@ -349,21 +321,6 @@
       "score": 0.3025061950310228,
       "tldr": "Mistral raises $830M to build Nvidia-powered AI centres in Europe",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "888728bc-08a6-4b13-827b-ff73ff2a7430",
-      "title": "Supply Chain Attack in litellm 1.82.8 on PyPI",
-      "url": "https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack",
-      "domain": "futuresearch.ai",
-      "published_at": "2026-03-24T20:20:21Z",
-      "category": "tech",
-      "score": 0.30248835097502164,
-      "tldr": "Supply Chain Attack in litellm 1.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
         "llm"
@@ -465,20 +422,6 @@
       "category": "tech",
       "score": 0.2865744265836788,
       "tldr": "Bird brains (2023)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0ec4ee15-d3d3-4d4c-82fe-c9fd4d8b9b6e",
-      "title": "We’re saying goodbye to Sora",
-      "url": "https://twitter.com/soraofficialapp/status/2036532795984715896",
-      "domain": "twitter.com",
-      "published_at": "2026-03-24T20:01:05Z",
-      "category": "tech",
-      "score": 0.2847871780972106,
-      "tldr": "We’re saying goodbye to Sora",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -697,20 +640,6 @@
       ]
     },
     {
-      "id": "9cc3b656-1a56-435b-91fb-7fe397a851aa",
-      "title": "GitHub is once again down",
-      "url": "https://www.githubstatus.com/incidents/kp06czybl7dw",
-      "domain": "githubstatus.com",
-      "published_at": "2026-03-24T20:23:34Z",
-      "category": "tech",
-      "score": 0.2626786099663869,
-      "tldr": "GitHub is once again down",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "76e87ad6-56ab-4025-8ba4-a37d6b088584",
       "title": "Health NZ staff told to stop using ChatGPT to write clinical notes",
       "url": "https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes",
@@ -781,6 +710,20 @@
       ]
     },
     {
+      "id": "b82ffda7-769d-4b50-a03b-f4300d2a6371",
+      "title": "Accelerating the Next Phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "domain": "openai.com",
+      "published_at": "2026-03-31T20:07:30Z",
+      "category": "tech",
+      "score": 0.2603500513129459,
+      "tldr": "Accelerating the Next Phase of AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b4bb6a9f-55ca-4922-a506-53ff3bbf1d01",
       "title": "A Compiler Writing Journey",
       "url": "https://github.com/DoctorWkt/acwj",
@@ -806,6 +749,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "e8e16ffd-8eef-4663-b4b0-bffbe767d50f",
+      "title": "Show HN: Cerno – CAPTCHA that targets LLM reasoning, not human biology",
+      "url": "https://cerno.sh",
+      "domain": "cerno.sh",
+      "published_at": "2026-03-31T19:22:58Z",
+      "category": "tech",
+      "score": 0.2559116796751243,
+      "tldr": "Show HN: Cerno – CAPTCHA that targets LLM reasoning, not human biology",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1409,8 +1366,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d7c68017-1179-468c-9c28-7cca5dfdaca2",
+      "title": "Circuit-level PDP-11/34 emulator",
+      "url": "https://github.com/dbrll/ll-34",
+      "domain": "github.com",
+      "published_at": "2026-03-28T16:23:31Z",
+      "category": "tech",
+      "score": 0.2510272585180851,
+      "tldr": "Circuit-level PDP-11/34 emulator",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "870f08b2-03b6-4dd9-ac94-076cd9b901c3",
+      "title": "RustTraining: Beginner, advanced, expert level Rust training material",
+      "url": "https://github.com/microsoft/RustTraining",
+      "domain": "github.com",
+      "published_at": "2026-03-24T22:49:25Z",
+      "category": "tech",
+      "score": 0.2510005441123314,
+      "tldr": "RustTraining: Beginner, advanced, expert level Rust training material",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "747bd53e-77e0-4c3d-8b91-87088bdb61dd",
+      "title": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "url": "https://github.com/varmabudharaju/pgsemantic",
+      "domain": "github.com",
+      "published_at": "2026-03-25T18:41:05Z",
+      "category": "tech",
+      "score": 0.2509604465688874,
+      "tldr": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-31T19:47:27.849768522Z",
+  "last_updated": "2026-03-31T20:33:25.365123523Z",
   "total_count": 100
 }
