@@ -297,20 +297,6 @@
       ]
     },
     {
-      "id": "50dd3dba-0fc4-45a0-9ff0-8648ceb6b37c",
-      "title": "HyperAgents: Self-referential self-improving agents",
-      "url": "https://github.com/facebookresearch/hyperagents",
-      "domain": "github.com",
-      "published_at": "2026-03-24T16:54:10Z",
-      "category": "tech",
-      "score": 0.3129928166826659,
-      "tldr": "HyperAgents: Self-referential self-improving agents",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ca96128e-6be2-400e-91fc-f9c00bb42a5c",
       "title": "The Sudden Fall of OpenAI's Most Hyped Product Since ChatGPT",
       "url": "https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9",
@@ -921,6 +907,20 @@
       ]
     },
     {
+      "id": "7f0763f7-6c9d-4b15-8a75-5fc54d78a590",
+      "title": "Claude Code users hitting usage limits 'way faster than expected'",
+      "url": "https://www.theregister.com/2026/03/31/anthropic_claude_code_limits",
+      "domain": "theregister.com",
+      "published_at": "2026-03-31T12:11:29Z",
+      "category": "tech",
+      "score": 0.25456519045719544,
+      "tldr": "Claude Code users hitting usage limits 'way faster than expected'",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "702e90c0-6c96-439f-9794-e9ec494f9413",
       "title": "Agentic AI and the next intelligence explosion",
       "url": "https://arxiv.org/abs/2603.20639",
@@ -1139,6 +1139,20 @@
       "category": "tech",
       "score": 0.25204341403656366,
       "tldr": "I built a better, human like memory, for Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "61c3f436-6801-4644-857c-0c2b371325a4",
+      "title": "Someone just converted Claude Leark from TypeScript to 100% Python",
+      "url": "https://github.com/instructkr/claw-code",
+      "domain": "github.com",
+      "published_at": "2026-03-31T15:07:51Z",
+      "category": "tech",
+      "score": 0.25199514660622013,
+      "tldr": "Someone just converted Claude Leark from TypeScript to 100% Python",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d7c68017-1179-468c-9c28-7cca5dfdaca2",
-      "title": "Circuit-level PDP-11/34 emulator",
-      "url": "https://github.com/dbrll/ll-34",
-      "domain": "github.com",
-      "published_at": "2026-03-28T16:23:31Z",
-      "category": "tech",
-      "score": 0.2510272585180851,
-      "tldr": "Circuit-level PDP-11/34 emulator",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-31T16:47:20.448218322Z",
+  "last_updated": "2026-03-31T17:47:09.642421577Z",
   "total_count": 100
 }
