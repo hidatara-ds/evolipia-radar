@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "b639ca1c-73a2-43c9-9666-140541f7d6cf",
-      "title": "Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon",
-      "url": "https://github.com/t8/hypura",
-      "domain": "github.com",
-      "published_at": "2026-03-24T16:02:22Z",
-      "category": "tech",
-      "score": 0.514503062363343,
-      "tldr": "Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "dd45d6e8-5cd0-4c33-81be-43f7c6dc035d",
       "title": "Spanish legislation as a Git repo",
       "url": "https://github.com/EnriqueLop/legalize-es",
@@ -23,6 +9,20 @@
       "category": "tech",
       "score": 0.49463013028643843,
       "tldr": "Spanish legislation as a Git repo",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b24a3f2e-166e-464b-803e-9c340294a240",
+      "title": "Oracle slashes 30k jobs",
+      "url": "https://rollingout.com/2026/03/31/oracle-slashes-30000-jobs-with-a-cold-6",
+      "domain": "rollingout.com",
+      "published_at": "2026-03-31T14:30:48Z",
+      "category": "tech",
+      "score": 0.4536649811579597,
+      "tldr": "Oracle slashes 30k jobs",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -168,20 +168,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "26de649e-6b71-4748-bafc-006a916432a0",
-      "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
-      "url": "https://github.com/ssrajadh/sentrysearch",
-      "domain": "github.com",
-      "published_at": "2026-03-24T14:58:27Z",
-      "category": "tech",
-      "score": 0.338668722806324,
-      "tldr": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -351,20 +337,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "3de5baa1-0bff-4b8f-918a-8097556bd0a5",
-      "title": "Mystery jump in oil trading ahead of Trump post draws scrutiny",
-      "url": "https://www.bbc.com/news/articles/cg547ljepvzo",
-      "domain": "bbc.com",
-      "published_at": "2026-03-24T15:25:52Z",
-      "category": "tech",
-      "score": 0.30949344201122975,
-      "tldr": "Mystery jump in oil trading ahead of Trump post draws scrutiny",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
       ]
     },
     {
@@ -823,20 +795,6 @@
       ]
     },
     {
-      "id": "9489fc5f-9e62-4405-a2fe-c38228689446",
-      "title": "Run a 1T parameter model on a 32gb Mac by streaming tensors from NVMe",
-      "url": "https://github.com/t8/hypura",
-      "domain": "github.com",
-      "published_at": "2026-03-24T16:02:22Z",
-      "category": "tech",
-      "score": 0.25994650072324466,
-      "tldr": "Run a 1T parameter model on a 32gb Mac by streaming tensors from NVMe",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b4bb6a9f-55ca-4922-a506-53ff3bbf1d01",
       "title": "A Compiler Writing Journey",
       "url": "https://github.com/DoctorWkt/acwj",
@@ -943,20 +901,6 @@
       "category": "tech",
       "score": 0.2548317508599456,
       "tldr": "The EU still wants to scan  your private messages and photos",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7e2f9cbe-c23e-48a8-ae8c-21a98b7b9868",
-      "title": "WolfGuard: WireGuard with FIPS 140-3 cryptography",
-      "url": "https://github.com/wolfssl/wolfguard",
-      "domain": "github.com",
-      "published_at": "2026-03-24T15:51:55Z",
-      "category": "tech",
-      "score": 0.25469086326238977,
-      "tldr": "WolfGuard: WireGuard with FIPS 140-3 cryptography",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1111,6 +1055,20 @@
       "category": "tech",
       "score": 0.2523601338342468,
       "tldr": "Tickets Are Prompts",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8ec26760-22f9-4a7e-8b4d-6fcd69e575b6",
+      "title": "Prerelease of Ky 2.0",
+      "url": "https://github.com/sindresorhus/ky/releases/tag/v2.0.0-0",
+      "domain": "github.com",
+      "published_at": "2026-03-31T16:04:16Z",
+      "category": "tech",
+      "score": 0.25219192046137207,
+      "tldr": "Prerelease of Ky 2.0",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,8 +1367,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f0315b34-2a8a-4831-b6e0-897afc77936c",
+      "title": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
+      "url": "https://github.com/ViciousSquid/Fio",
+      "domain": "github.com",
+      "published_at": "2026-03-26T20:58:04Z",
+      "category": "tech",
+      "score": 0.2511934081861663,
+      "tldr": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
+      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+      "domain": "github.com",
+      "published_at": "2026-03-25T03:28:04Z",
+      "category": "tech",
+      "score": 0.2511784071695276,
+      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d7c68017-1179-468c-9c28-7cca5dfdaca2",
+      "title": "Circuit-level PDP-11/34 emulator",
+      "url": "https://github.com/dbrll/ll-34",
+      "domain": "github.com",
+      "published_at": "2026-03-28T16:23:31Z",
+      "category": "tech",
+      "score": 0.2510272585180851,
+      "tldr": "Circuit-level PDP-11/34 emulator",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-31T14:23:01.786723068Z",
+  "last_updated": "2026-03-31T16:47:20.448218322Z",
   "total_count": 100
 }
