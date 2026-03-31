@@ -185,6 +185,20 @@
       ]
     },
     {
+      "id": "b37af901-2647-4273-b8e9-886690168743",
+      "title": "Show HN: Lazy-tool: reducing prompt bloat in MCP-based agent workflows",
+      "url": "https://github.com/rpgeeganage/lazy-tool",
+      "domain": "github.com",
+      "published_at": "2026-03-31T16:32:46Z",
+      "category": "tech",
+      "score": 0.3316183286260432,
+      "tldr": "Show HN: Lazy-tool: reducing prompt bloat in MCP-based agent workflows",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8258049d-6164-4dd7-b9b7-37b85b33bc1e",
       "title": "Show HN: Robust LLM Extractor for Websites in TypeScript",
       "url": "https://github.com/lightfeed/extractor",
@@ -493,6 +507,20 @@
       "category": "tech",
       "score": 0.2757165578567885,
       "tldr": "Go hard on agents, not on your filesystem",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "535fb3a0-954b-4de4-abc0-13e88ee3ae4f",
+      "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
+      "url": "https://github.com/timescale/pg_textsearch",
+      "domain": "github.com",
+      "published_at": "2026-03-31T16:29:52Z",
+      "category": "tech",
+      "score": 0.27484081018622136,
+      "tldr": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1380,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "870f08b2-03b6-4dd9-ac94-076cd9b901c3",
-      "title": "RustTraining: Beginner, advanced, expert level Rust training material",
-      "url": "https://github.com/microsoft/RustTraining",
-      "domain": "github.com",
-      "published_at": "2026-03-24T22:49:25Z",
-      "category": "tech",
-      "score": 0.2510005441123314,
-      "tldr": "RustTraining: Beginner, advanced, expert level Rust training material",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "747bd53e-77e0-4c3d-8b91-87088bdb61dd",
-      "title": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
-      "url": "https://github.com/varmabudharaju/pgsemantic",
-      "domain": "github.com",
-      "published_at": "2026-03-25T18:41:05Z",
-      "category": "tech",
-      "score": 0.2509604465688874,
-      "tldr": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-31T20:33:25.365123523Z",
+  "last_updated": "2026-03-31T21:28:56.423264844Z",
   "total_count": 100
 }
