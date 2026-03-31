@@ -100,6 +100,20 @@
       ]
     },
     {
+      "id": "3a8dfe07-7aac-4e73-991b-d56cc5da6222",
+      "title": "Universal Claude.md – cut Claude output tokens",
+      "url": "https://github.com/drona23/claude-token-efficient",
+      "domain": "github.com",
+      "published_at": "2026-03-31T01:23:34Z",
+      "category": "tech",
+      "score": 0.35870853324763546,
+      "tldr": "md – cut Claude output tokens",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3b5ad925-6f4e-4a1f-a01b-2b34ee306115",
       "title": "Paper Tape Is All You Need – Training a Transformer on a 1976 Minicomputer",
       "url": "https://github.com/dbrll/ATTN-11",
@@ -235,20 +249,6 @@
       "category": "tech",
       "score": 0.33121852019008136,
       "tldr": "Show HN: Robust LLM Extractor for Websites in TypeScript",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0002be23-d072-4bc9-95b7-ee0fd55dc021",
-      "title": "Pool spare GPU capacity to run LLMs at larger scale",
-      "url": "https://github.com/michaelneale/mesh-llm",
-      "domain": "github.com",
-      "published_at": "2026-03-24T05:57:00Z",
-      "category": "tech",
-      "score": 0.3282269934529543,
-      "tldr": "Pool spare GPU capacity to run LLMs at larger scale",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -481,6 +481,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "d2022777-3742-474d-8015-0427d9ba1977",
+      "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+      "url": "https://ollama.com/blog/mlx",
+      "domain": "ollama.com",
+      "published_at": "2026-03-31T03:40:45Z",
+      "category": "tech",
+      "score": 0.29528978364219144,
+      "tldr": "Ollama is now powered by MLX on Apple Silicon in preview",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
         "llm"
       ]
     },
@@ -849,6 +863,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "computer_vision"
+      ]
+    },
+    {
+      "id": "b5eed126-e269-440c-b870-e9b688908984",
+      "title": "Google's 200M-parameter time-series foundation model with 16k context",
+      "url": "https://github.com/google-research/timesfm",
+      "domain": "github.com",
+      "published_at": "2026-03-31T05:21:59Z",
+      "category": "tech",
+      "score": 0.26068879343642737,
+      "tldr": "Google's 200M-parameter time-series foundation model with 16k context",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1382,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "984aab9d-c257-48e6-94bc-1169c327bfd6",
-      "title": "Show HN: Coasts – Containerized Hosts for Agents",
-      "url": "https://github.com/coast-guard/coasts",
-      "domain": "github.com",
-      "published_at": "2026-03-30T15:17:51Z",
-      "category": "tech",
-      "score": 0.2513847455358409,
-      "tldr": "Show HN: Coasts – Containerized Hosts for Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1a423f30-9f08-49b1-8101-cd5454a01ca2",
-      "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-      "url": "https://github.com/1st1/lat.md",
-      "domain": "github.com",
-      "published_at": "2026-03-29T08:59:52Z",
-      "category": "tech",
-      "score": 0.2512984327487595,
-      "tldr": "md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-31T04:15:55.132275289Z",
+  "last_updated": "2026-03-31T05:59:50.916958539Z",
   "total_count": 100
 }
