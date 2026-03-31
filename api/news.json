@@ -326,6 +326,21 @@
       ]
     },
     {
+      "id": "564e3d24-1a92-4e03-85a6-36d6bfc2b57a",
+      "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+      "url": "https://prismml.com/",
+      "domain": "prismml.com",
+      "published_at": "2026-03-31T21:01:18Z",
+      "category": "tech",
+      "score": 0.30751920926652754,
+      "tldr": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "bfab3ffa-e59b-47cc-82fa-adc0fd8c917c",
       "title": "Mistral raises $830M to build Nvidia-powered AI centres in Europe",
       "url": "https://www.ft.com/content/229f4f59-d518-4e00-abd6-5a5b727cd2aa",
@@ -948,20 +963,6 @@
       ]
     },
     {
-      "id": "5df47d14-e440-4e97-88d1-8b95b5ab9f37",
-      "title": "Thoughts on LLMs – Psychological Complications",
-      "url": "https://parsingphase.dev/tech/LLMs/psychologicalFactors.html",
-      "domain": "parsingphase.dev",
-      "published_at": "2026-03-24T22:50:05Z",
-      "category": "tech",
-      "score": 0.2542078011853402,
-      "tldr": "Thoughts on LLMs – Psychological Complications",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "bdf3acf3-ed36-4e21-8fa6-c2de1a3bc144",
       "title": "Show HN: Open-Source Animal Crossing–Style UI for Claude Code Agents",
       "url": "https://github.com/outworked/outworked/releases/tag/v0.3.0",
@@ -1298,6 +1299,20 @@
       ]
     },
     {
+      "id": "7d5c7da7-6d6d-42f7-aa0b-d03e9fdec079",
+      "title": "Safe ways to do things in bash (2023)",
+      "url": "https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md",
+      "domain": "github.com",
+      "published_at": "2026-03-31T20:27:50Z",
+      "category": "tech",
+      "score": 0.25142659528966893,
+      "tldr": "Safe ways to do things in bash (2023)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b8e20730-5e64-4d1f-b136-9c1c61e0f6df",
       "title": "Show HN: jid – JSON Incremental Digger v1.1.0 with JMESPath support",
       "url": "https://github.com/simeji/jid/releases/tag/v1.1.0",
@@ -1394,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f0315b34-2a8a-4831-b6e0-897afc77936c",
-      "title": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-      "url": "https://github.com/ViciousSquid/Fio",
-      "domain": "github.com",
-      "published_at": "2026-03-26T20:58:04Z",
-      "category": "tech",
-      "score": 0.2511934081861663,
-      "tldr": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-31T22:02:44.969124537Z",
+  "last_updated": "2026-03-31T22:56:20.923235577Z",
   "total_count": 100
 }
