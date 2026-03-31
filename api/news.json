@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "7a098df4-2c70-4b77-b9fc-1e71cef5a5f5",
-      "title": "Microsoft's \"fix\" for Windows 11",
-      "url": "https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting",
-      "domain": "sambent.com",
-      "published_at": "2026-03-24T09:36:29Z",
-      "category": "tech",
-      "score": 0.5801716305730679,
-      "tldr": "Microsoft's \"fix\" for Windows 11",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b639ca1c-73a2-43c9-9666-140541f7d6cf",
       "title": "Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon",
       "url": "https://github.com/t8/hypura",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "19a79d38-b1fb-4862-afd6-cd38f56d3f04",
+      "title": "The Inference Shift – How Cheap Chips Could Put Frontier AI in Everyone's Hands",
+      "url": "https://substack.com/home/post/p-192665961",
+      "domain": "substack.com",
+      "published_at": "2026-03-31T08:02:04Z",
+      "category": "tech",
+      "score": 0.25136569429179817,
+      "tldr": "The Inference Shift – How Cheap Chips Could Put Frontier AI in Everyone's Hands",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-31T08:36:58.815473546Z",
+  "last_updated": "2026-03-31T09:54:49.07065756Z",
   "total_count": 100
 }
