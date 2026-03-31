@@ -470,6 +470,20 @@
       ]
     },
     {
+      "id": "cde1fd20-6f22-4ff4-8364-77a0f3893747",
+      "title": "OpenAI closes funding round at an $852B valuation",
+      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+      "domain": "cnbc.com",
+      "published_at": "2026-03-31T20:07:30Z",
+      "category": "tech",
+      "score": 0.27890380278533605,
+      "tldr": "OpenAI closes funding round at an $852B valuation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2a6e50ad-3b48-4994-955b-243ed069452c",
       "title": "CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering",
       "url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
@@ -746,6 +760,20 @@
       "category": "tech",
       "score": 0.2603500513129459,
       "tldr": "Accelerating the Next Phase of AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e7657ae2-b1da-4772-b711-4377a1c34df3",
+      "title": "OpenAI raises $122B to accelerate the next phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "domain": "openai.com",
+      "published_at": "2026-03-31T21:02:07Z",
+      "category": "tech",
+      "score": 0.2572693893543652,
+      "tldr": "OpenAI raises $122B to accelerate the next phase of AI",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1380,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
-      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
-      "domain": "github.com",
-      "published_at": "2026-03-25T03:28:04Z",
-      "category": "tech",
-      "score": 0.2511784071695276,
-      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d7c68017-1179-468c-9c28-7cca5dfdaca2",
-      "title": "Circuit-level PDP-11/34 emulator",
-      "url": "https://github.com/dbrll/ll-34",
-      "domain": "github.com",
-      "published_at": "2026-03-28T16:23:31Z",
-      "category": "tech",
-      "score": 0.2510272585180851,
-      "tldr": "Circuit-level PDP-11/34 emulator",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-03-31T21:28:56.423264844Z",
+  "last_updated": "2026-03-31T22:02:44.969124537Z",
   "total_count": 100
 }
