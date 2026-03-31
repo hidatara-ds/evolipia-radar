@@ -213,6 +213,20 @@
       ]
     },
     {
+      "id": "85b68e50-861f-45e1-aee4-46a9a8c1d83b",
+      "title": "Universal Claude.md – cut Claude output tokens by 63%",
+      "url": "https://github.com/drona23/claude-token-efficient",
+      "domain": "github.com",
+      "published_at": "2026-03-31T01:23:34Z",
+      "category": "tech",
+      "score": 0.33419229236384757,
+      "tldr": "md – cut Claude output tokens by 63%",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8258049d-6164-4dd7-b9b7-37b85b33bc1e",
       "title": "Show HN: Robust LLM Extractor for Websites in TypeScript",
       "url": "https://github.com/lightfeed/extractor",
@@ -556,20 +570,6 @@
       ]
     },
     {
-      "id": "014ddd8a-42ce-4901-97de-24de2f2b826b",
-      "title": "Epoch confirms GPT5.4 Pro solved a frontier math open problem",
-      "url": "https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs",
-      "domain": "epoch.ai",
-      "published_at": "2026-03-24T01:53:09Z",
-      "category": "tech",
-      "score": 0.28292676004810224,
-      "tldr": "4 Pro solved a frontier math open problem",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "fac7189a-dbdf-490b-9764-d437ef31a657",
       "title": "Local LLM by Ente",
       "url": "https://ente.com/blog/ensu",
@@ -880,20 +880,6 @@
       ]
     },
     {
-      "id": "2823c0cb-ba50-45dc-a94c-aac44c599838",
-      "title": "Cuba's Fragile Power Grid Finds a Powerful New Partner",
-      "url": "https://oilprice.com/Energy/Energy-General/Cubas-Fragile-Power-Grid-Finds-a-Powerful-New-Partner.html",
-      "domain": "oilprice.com",
-      "published_at": "2026-03-24T03:32:14Z",
-      "category": "tech",
-      "score": 0.25799641682679886,
-      "tldr": "Cuba's Fragile Power Grid Finds a Powerful New Partner",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b4bb6a9f-55ca-4922-a506-53ff3bbf1d01",
       "title": "A Compiler Writing Journey",
       "url": "https://github.com/DoctorWkt/acwj",
@@ -933,6 +919,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "fbbdefbf-40e7-4623-8557-727a9b9bdd96",
+      "title": "Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent",
+      "url": "https://github.com/virpo/pegboard",
+      "domain": "github.com",
+      "published_at": "2026-03-30T23:20:02Z",
+      "category": "tech",
+      "score": 0.25542942524775697,
+      "tldr": "Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1112,20 +1112,6 @@
       "category": "tech",
       "score": 0.2535905876492365,
       "tldr": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "69d8c1eb-fb1a-471e-ba32-35f5b12f846d",
-      "title": "Sunsetting the Techempower Framework Benchmarks",
-      "url": "https://github.com/TechEmpower/FrameworkBenchmarks/issues/10932",
-      "domain": "github.com",
-      "published_at": "2026-03-24T01:54:03Z",
-      "category": "tech",
-      "score": 0.2535230651333654,
-      "tldr": "Sunsetting the Techempower Framework Benchmarks",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "1a423f30-9f08-49b1-8101-cd5454a01ca2",
+      "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
+      "url": "https://github.com/1st1/lat.md",
+      "domain": "github.com",
+      "published_at": "2026-03-29T08:59:52Z",
+      "category": "tech",
+      "score": 0.2512984327487595,
+      "tldr": "md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-31T01:28:41.99997541Z",
+  "last_updated": "2026-03-31T04:15:55.132275289Z",
   "total_count": 100
 }
