@@ -285,21 +285,6 @@
       ]
     },
     {
-      "id": "ccb1913c-591f-4e1e-baec-5731c6cdc521",
-      "title": "Apple Can Create Smaller On-Device AI Models from Google's Gemini",
-      "url": "https://www.macrumors.com/2026/03/25/apple-google-gemini-distill-models",
-      "domain": "macrumors.com",
-      "published_at": "2026-03-25T17:25:02Z",
-      "category": "tech",
-      "score": 0.3018497085354553,
-      "tldr": "Apple Can Create Smaller On-Device AI Models from Google's Gemini",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm",
-        "general_ai"
-      ]
-    },
-    {
       "id": "cb85a015-6086-4085-9c4c-4eefc42d6cc2",
       "title": "Google's TurboQuant AI-compression algorithm can reduce LLM memory usage by 6x",
       "url": "https://arstechnica.com/ai/2026/03/google-says-new-turboquant-compression-can-lower-ai-memory-usage-without-sacrificing-quality",
@@ -1409,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "9cab35b3-1453-4211-bddd-8135ec5d90c0",
+      "title": "Shor's algorithm is possible with as few as 10k reconfigurable atomic qubits",
+      "url": "https://arxiv.org/abs/2603.28627",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-31T06:44:42Z",
+      "category": "tech",
+      "score": 0.250663586709095,
+      "tldr": "Shor's algorithm is possible with as few as 10k reconfigurable atomic qubits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-01T16:43:58.922491621Z",
+  "last_updated": "2026-04-01T17:42:16.132926643Z",
   "total_count": 100
 }
