@@ -753,20 +753,6 @@
       ]
     },
     {
-      "id": "d3cbdedc-5d52-4747-8428-ee1f32fe9a78",
-      "title": "Data centers are transitioning from AC to DC",
-      "url": "https://spectrum.ieee.org/data-center-dc",
-      "domain": "spectrum.ieee.org",
-      "published_at": "2026-03-25T00:44:55Z",
-      "category": "tech",
-      "score": 0.2603894627378813,
-      "tldr": "Data centers are transitioning from AC to DC",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "b82ffda7-769d-4b50-a03b-f4300d2a6371",
       "title": "Accelerating the Next Phase of AI",
       "url": "https://openai.com/index/accelerating-the-next-phase-ai",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
+      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+      "domain": "github.com",
+      "published_at": "2026-03-25T03:28:04Z",
+      "category": "tech",
+      "score": 0.2511784071695276,
+      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-03-31T23:55:17.712929347Z",
+  "last_updated": "2026-04-01T01:23:12.226841893Z",
   "total_count": 100
 }
