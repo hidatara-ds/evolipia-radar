@@ -401,6 +401,21 @@
       ]
     },
     {
+      "id": "f23253a7-8a97-4617-8b9d-71fdc1b29ca1",
+      "title": "1-Bit Bonsai: The First Commercially Viable 1-Bit LLMs",
+      "url": "https://prismml.com/news/bonsai-8b",
+      "domain": "prismml.com",
+      "published_at": "2026-03-31T21:21:31Z",
+      "category": "tech",
+      "score": 0.29981183789361665,
+      "tldr": "1-Bit Bonsai: The First Commercially Viable 1-Bit LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
       "id": "d2022777-3742-474d-8015-0427d9ba1977",
       "title": "Ollama is now powered by MLX on Apple Silicon in preview",
       "url": "https://ollama.com/blog/mlx",
@@ -809,6 +824,20 @@
       ]
     },
     {
+      "id": "49897761-ed7b-49ab-b3bd-26333754897e",
+      "title": "We intercepted the White House app's network traffic",
+      "url": "https://www.atomic.computer/blog/white-house-app-network-traffic-analysis",
+      "domain": "atomic.computer",
+      "published_at": "2026-04-01T01:58:45Z",
+      "category": "tech",
+      "score": 0.25544054415849615,
+      "tldr": "We intercepted the White House app's network traffic",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "fbbdefbf-40e7-4623-8557-727a9b9bdd96",
       "title": "Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent",
       "url": "https://github.com/virpo/pegboard",
@@ -1005,14 +1034,14 @@
       ]
     },
     {
-      "id": "1076e46d-5103-4a2a-b9e4-9c3c02dd80ef",
-      "title": "Regular army and reserve components enlistment program: Summary of change",
-      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN42922-AR_601-210-000-WEB-1.pdf",
-      "domain": "armypubs.army.mil",
-      "published_at": "2026-03-25T03:44:52Z",
+      "id": "6be3b445-effb-49c1-a46c-bf50651576df",
+      "title": "Prompt Engineering for Humans",
+      "url": "https://michaelheap.com/prompt-engineering-for-humans",
+      "domain": "michaelheap.com",
+      "published_at": "2026-03-31T23:26:16Z",
       "category": "tech",
-      "score": 0.2530920240896512,
-      "tldr": "Regular army and reserve components enlistment program: Summary of change",
+      "score": 0.2530215720967441,
+      "tldr": "Prompt Engineering for Humans",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1381,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f0315b34-2a8a-4831-b6e0-897afc77936c",
-      "title": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-      "url": "https://github.com/ViciousSquid/Fio",
-      "domain": "github.com",
-      "published_at": "2026-03-26T20:58:04Z",
-      "category": "tech",
-      "score": 0.2511934081861663,
-      "tldr": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c2165bdd-f639-4e3e-9644-b227f6ec1f4c",
-      "title": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
-      "domain": "github.com",
-      "published_at": "2026-03-25T03:28:04Z",
-      "category": "tech",
-      "score": 0.2511784071695276,
-      "tldr": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-01T01:23:12.226841893Z",
+  "last_updated": "2026-04-01T04:26:26.626165369Z",
   "total_count": 100
 }
