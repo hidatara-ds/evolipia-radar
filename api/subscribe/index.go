@@ -6,7 +6,7 @@ package handler
 
 import (
 	"encoding/json"
-	"fmt"
+	"log"
 	"net/http"
 	"regexp"
 	"sync"
@@ -26,8 +26,8 @@ var (
 )
 
 const (
-	rateLimit  = 3             // max requests
-	rateWindow = time.Hour     // per window
+	rateLimit  = 3         // max requests
+	rateWindow = time.Hour // per window
 )
 
 func isRateLimited(ip string) bool {
@@ -125,7 +125,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	//   if err != nil || resp.StatusCode >= 400 { ... handle error ... }
 	//
 	// Until you wire up a provider, log the subscription:
-	fmt.Printf("[subscribe] new subscriber: %s\n", body.Email)
+	log.Printf("[subscribe] new subscriber: %s", body.Email)
 	// ────────────────────────────────────────────────────────────────────────
 
 	jsonOK(w, "Subscribed successfully!")
