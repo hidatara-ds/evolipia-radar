@@ -1116,6 +1116,20 @@
       ]
     },
     {
+      "id": "18212f11-fc40-4d1c-a3ec-d68cef529b4d",
+      "title": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
+      "url": "https://www.bloomberg.com/features/2025-bottlenecks-transformers",
+      "domain": "bloomberg.com",
+      "published_at": "2026-04-01T18:47:48Z",
+      "category": "tech",
+      "score": 0.25186359839716016,
+      "tldr": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "16979c1a-73b9-48a7-b364-32cb4ce18880",
       "title": "OpenCiv1 – open-source rewrite of Civ1",
       "url": "https://github.com/rajko-horvat/OpenCiv1",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "9cab35b3-1453-4211-bddd-8135ec5d90c0",
-      "title": "Shor's algorithm is possible with as few as 10k reconfigurable atomic qubits",
-      "url": "https://arxiv.org/abs/2603.28627",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-31T06:44:42Z",
-      "category": "tech",
-      "score": 0.250663586709095,
-      "tldr": "Shor's algorithm is possible with as few as 10k reconfigurable atomic qubits",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-01T18:44:55.837120937Z",
+  "last_updated": "2026-04-01T19:52:19.783047279Z",
   "total_count": 100
 }
