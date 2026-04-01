@@ -170,6 +170,20 @@
       ]
     },
     {
+      "id": "b3225529-ea98-4de4-af96-3ec5efb73b09",
+      "title": "Claude wrote a full FreeBSD remote kernel RCE with root shell",
+      "url": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
+      "domain": "github.com",
+      "published_at": "2026-04-01T05:21:48Z",
+      "category": "tech",
+      "score": 0.33105994458830384,
+      "tldr": "Claude wrote a full FreeBSD remote kernel RCE with root shell",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e50b24b7-92b9-4e2d-8f36-66dd65563b6d",
       "title": "Show HN: A prompt that builds the most capable AI agent system",
       "url": "https://github.com/fainir/most-capable-agent-system-prompt",
@@ -624,20 +638,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "76e87ad6-56ab-4025-8ba4-a37d6b088584",
-      "title": "Health NZ staff told to stop using ChatGPT to write clinical notes",
-      "url": "https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes",
-      "domain": "rnz.co.nz",
-      "published_at": "2026-03-25T20:58:43Z",
-      "category": "tech",
-      "score": 0.26136226285597935,
-      "tldr": "Health NZ staff told to stop using ChatGPT to write clinical notes",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-01T20:34:39.6130258Z",
+  "last_updated": "2026-04-01T21:33:57.304270664Z",
   "total_count": 100
 }
