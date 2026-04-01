@@ -44,20 +44,6 @@
       ]
     },
     {
-      "id": "59192d4c-3709-48c0-bf00-09bc675dff52",
-      "title": "Ensu – Ente’s Local LLM app",
-      "url": "https://ente.com/blog/ensu",
-      "domain": "ente.com",
-      "published_at": "2026-03-25T12:49:14Z",
-      "category": "tech",
-      "score": 0.38418560608322977,
-      "tldr": "Ensu – Ente’s Local LLM app",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "aab09d6c-4a69-4ba2-8796-1abadc1ab5a5",
       "title": "Olympic Committee bars transgender athletes from women’s events",
       "url": "https://www.nytimes.com/2026/03/26/world/olympics/ioc-transgender-athletes-ban.html?unlocked_article_code=1.WFA.U8U0.iEs61HsUkQj5",
@@ -207,20 +193,6 @@
       "category": "tech",
       "score": 0.33121852019008136,
       "tldr": "Show HN: Robust LLM Extractor for Websites in TypeScript",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a5485f67-2288-4bfa-98c5-fdc122446508",
-      "title": "Local LLM App by Ente",
-      "url": "https://ente.com/blog/ensu",
-      "domain": "ente.com",
-      "published_at": "2026-03-25T12:49:14Z",
-      "category": "tech",
-      "score": 0.327965992477951,
-      "tldr": "Local LLM App by Ente",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -483,20 +455,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "fac7189a-dbdf-490b-9764-d437ef31a657",
-      "title": "Local LLM by Ente",
-      "url": "https://ente.com/blog/ensu",
-      "domain": "ente.com",
-      "published_at": "2026-03-25T12:49:14Z",
-      "category": "tech",
-      "score": 0.28277197957536243,
-      "tldr": "Local LLM by Ente",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1410,8 +1368,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d7c68017-1179-468c-9c28-7cca5dfdaca2",
+      "title": "Circuit-level PDP-11/34 emulator",
+      "url": "https://github.com/dbrll/ll-34",
+      "domain": "github.com",
+      "published_at": "2026-03-28T16:23:31Z",
+      "category": "tech",
+      "score": 0.2510272585180851,
+      "tldr": "Circuit-level PDP-11/34 emulator",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "747bd53e-77e0-4c3d-8b91-87088bdb61dd",
+      "title": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "url": "https://github.com/varmabudharaju/pgsemantic",
+      "domain": "github.com",
+      "published_at": "2026-03-25T18:41:05Z",
+      "category": "tech",
+      "score": 0.2509604465688874,
+      "tldr": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "04adef83-b538-4c47-9ff3-b435c7a05740",
+      "title": "Forth VM and compiler written in C++ and Scryer Prolog",
+      "url": "https://github.com/no382001/forth-vm",
+      "domain": "github.com",
+      "published_at": "2026-03-31T16:21:20Z",
+      "category": "tech",
+      "score": 0.25089867865223814,
+      "tldr": "Forth VM and compiler written in C++ and Scryer Prolog",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-01T11:43:35.186406192Z",
+  "last_updated": "2026-04-01T12:52:46.143751194Z",
   "total_count": 100
 }
