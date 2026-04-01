@@ -101,20 +101,6 @@
       ]
     },
     {
-      "id": "b3d17e62-88f1-4612-956e-954a64d6f451",
-      "title": "Apple Just Lost Me",
-      "url": "https://andregarzia.com/2026/03/apple-just-lost-me.html",
-      "domain": "andregarzia.com",
-      "published_at": "2026-03-25T14:20:24Z",
-      "category": "tech",
-      "score": 0.35085979409867457,
-      "tldr": "Apple Just Lost Me",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ffd31fa8-958e-46ef-8381-e0833a439168",
       "title": "End of \"Chat Control\": EU parliament stops mass surveillance",
       "url": "https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d99865ca-e68d-44de-be61-7f4676a46a33",
+      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "url": "https://github.com/itigges22/ATLAS",
+      "domain": "github.com",
+      "published_at": "2026-03-26T17:31:24Z",
+      "category": "tech",
+      "score": 0.25072236738379616,
+      "tldr": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-01T12:52:46.143751194Z",
+  "last_updated": "2026-04-01T14:25:18.370199557Z",
   "total_count": 100
 }
