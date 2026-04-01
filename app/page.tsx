@@ -228,8 +228,9 @@ export default function Dashboard() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200" />
               <img 
-                src="/assets/icon.png" 
+                src="/assets/icon.webp" 
                 alt="Logo" 
+                loading="lazy"
                 className="relative w-9 h-9 sm:w-11 sm:h-11 rounded-xl shadow-2xl transition-transform hover:scale-105"
               />
             </div>
@@ -286,20 +287,25 @@ export default function Dashboard() {
             </p>
           </div>
           
-          <div className="relative lg:w-1/3 flex justify-center">
-            <div className="absolute inset-0 bg-emerald-500/10 blur-[100px] rounded-full animate-pulse" />
+          {/* Mascot — transparent bg, blends via mask-image at bottom */}
+          <div className="relative lg:w-1/3 flex justify-center lg:justify-end items-end self-auto lg:self-end">
             <div className="relative group">
-              <div className="absolute -inset-1 bg-emerald-500/20 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000" />
-              <img 
-                src="/assets/maskot1.png" 
-                alt="Evoli Mascot" 
-                className="w-40 h-40 lg:w-56 lg:h-56 rounded-full object-cover relative border-4 border-emerald-500/20 bg-emerald-500/5 shadow-[0_0_50px_rgba(16,185,129,0.2)] animate-float"
+              <img
+                src="/assets/maskot1.webp"
+                alt="Evoli — AI Research Agent"
+                fetchPriority="high"
+                loading="eager"
+                className="w-56 sm:w-64 lg:w-80 xl:w-96 h-auto object-contain"
+                style={{ maskImage: "linear-gradient(to bottom, black 55%, transparent 100%)", WebkitMaskImage: "linear-gradient(to bottom, black 55%, transparent 100%)" }}
               />
-              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 px-4 py-1.5 bg-black/80 backdrop-blur-md rounded-full border border-emerald-500/20 text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 opacity-0 group-hover:opacity-100 transition-all">
+              {/* Hover label */}
+              <div className="absolute bottom-8 left-1/2 -translate-x-1/2 px-4 py-1.5 bg-black/80 backdrop-blur-md rounded-full border border-emerald-500/20 text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 opacity-0 group-hover:opacity-100 transition-all whitespace-nowrap z-30">
                 Agent Evoli
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
 
@@ -308,25 +314,29 @@ export default function Dashboard() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-10 sm:mb-12">
           <MetricCard 
             label="Sources Crawled" 
-            value={metrics?.articles_processed || 0} 
+            value={metrics?.articles_processed ?? 0} 
             icon={<FileText className="w-5 h-5" />}
+            loading={loading}
           />
           <MetricCard 
             label="AI Analyzed" 
-            value={metrics?.filtered_articles || 0} 
+            value={metrics?.filtered_articles ?? 0} 
             icon={<Shield className="w-5 h-5" />}
+            loading={loading}
           />
           <MetricCard 
             label="Summaries" 
-            value={metrics?.clusters || 0} 
+            value={metrics?.clusters ?? 0} 
             icon={<BrainCircuit className="w-5 h-5" />}
             highlight
+            loading={loading}
           />
           <MetricCard 
             label="Avg Score" 
-            value={metrics?.avg_cluster_score?.toFixed(1) || "0.0"} 
+            value={metrics?.avg_cluster_score?.toFixed(1) ?? "—"} 
             icon={<TrendingUp className="w-5 h-5" />}
             suffix="/10"
+            loading={loading}
           />
         </div>
 
@@ -422,7 +432,19 @@ export default function Dashboard() {
                 Top Trending
               </h3>
               
-              {!metrics?.top_cluster_titles || metrics.top_cluster_titles.length === 0 ? (
+              {loading ? (
+                <div className="space-y-3">
+                  {[1,2,3].map(i => (
+                    <div key={i} className="flex gap-3 animate-pulse">
+                      <div className="w-6 h-4 bg-white/5 rounded mt-0.5 flex-shrink-0" />
+                      <div className="flex-1 space-y-2">
+                        <div className="h-4 bg-white/5 rounded w-full" />
+                        <div className="h-3 bg-white/5 rounded w-2/3" />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : !metrics?.top_cluster_titles || metrics.top_cluster_titles.length === 0 ? (
                 <div className="py-10 text-center space-y-3">
                   <BrainCircuit className="w-8 h-8 text-slate-800 mx-auto" />
                   <p className="text-sm text-slate-600">No active trends yet.</p>
@@ -454,9 +476,7 @@ export default function Dashboard() {
                 <p className="text-sm text-white/80 font-medium leading-relaxed">
                   Daily intelligence alerts for emerging LLM and CV breakthroughs.
                 </p>
-                <button className="w-full py-3 bg-white text-emerald-700 font-extrabold rounded-xl shadow-xl hover:shadow-2xl transition-all active:scale-95 text-sm">
-                  Subscribe for Free
-                </button>
+                <SubscribeForm />
               </div>
             </div>
           </aside>
@@ -576,9 +596,29 @@ export default function Dashboard() {
 // Components
 // ============================================================================
 
-function MetricCard({ label, value, icon, highlight, suffix }: {
-  label: string; value: number | string; icon: React.ReactNode; highlight?: boolean; suffix?: string;
+function MetricCard({ label, value, icon, highlight, suffix, loading }: {
+  label: string; value: number | string; icon: React.ReactNode; highlight?: boolean; suffix?: string; loading?: boolean;
 }) {
+  if (loading) {
+    return (
+      <div className={`p-4 sm:p-6 rounded-2xl bg-gradient-to-br border animate-pulse ${
+        highlight
+        ? 'from-emerald-500/10 to-emerald-500/[0.02] border-emerald-500/20'
+        : 'from-white/5 to-white/[0.02] border-white/5'
+      }`}>
+        <div className="flex items-start justify-between mb-4 sm:mb-6">
+          <div className="p-2 sm:p-3 bg-white/5 border border-white/5 rounded-xl">
+            <div className="w-5 h-5 bg-white/10 rounded" />
+          </div>
+        </div>
+        <div className="space-y-2">
+          <div className="w-16 h-8 bg-white/10 rounded" />
+          <div className="w-24 h-3 bg-white/5 rounded" />
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={`p-4 sm:p-6 rounded-2xl bg-gradient-to-br border transition-all hover:scale-[1.02] cursor-default group ${
       highlight 
@@ -692,6 +732,75 @@ function NewsCard({ item, index }: { item: NewsItem, index: number }) {
         </div>
       </div>
     </div>
+  );
+}
+
+function SubscribeForm() {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const isValidEmail = (val: string) =>
+    /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val.trim());
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!isValidEmail(email)) {
+      setErrorMsg("Please enter a valid email address.");
+      return;
+    }
+    setErrorMsg("");
+    setStatus("loading");
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email.trim() }),
+      });
+      if (res.ok) {
+        setStatus("success");
+      } else {
+        const data = await res.json().catch(() => ({}));
+        setErrorMsg(data.error || "Subscription failed. Try again.");
+        setStatus("error");
+      }
+    } catch {
+      setErrorMsg("Network error. Please try again.");
+      setStatus("error");
+    }
+  };
+
+  if (status === "success") {
+    return (
+      <div className="w-full py-3 bg-white/20 rounded-xl text-center font-extrabold text-sm text-white border border-white/30">
+        ✓ You&apos;re on the list!
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={handleSubmit} className="space-y-2" noValidate>
+      <div className="flex gap-2">
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => { setEmail(e.target.value); setErrorMsg(""); setStatus("idle"); }}
+          placeholder="your@email.com"
+          disabled={status === "loading"}
+          className="flex-1 min-w-0 px-3 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white placeholder:text-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-white/50 disabled:opacity-60"
+        />
+        <button
+          type="submit"
+          disabled={status === "loading" || !email}
+          className="flex-shrink-0 px-4 py-2.5 bg-white text-emerald-700 font-extrabold rounded-xl shadow-xl hover:shadow-2xl transition-all active:scale-95 text-sm disabled:opacity-60"
+        >
+          {status === "loading" ? "..." : "Join"}
+        </button>
+      </div>
+      {errorMsg && (
+        <p className="text-white/80 text-xs font-semibold pl-1">{errorMsg}</p>
+      )}
+    </form>
   );
 }
 
