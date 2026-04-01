@@ -72,21 +72,6 @@
       ]
     },
     {
-      "id": "3b5ad925-6f4e-4a1f-a01b-2b34ee306115",
-      "title": "Paper Tape Is All You Need – Training a Transformer on a 1976 Minicomputer",
-      "url": "https://github.com/dbrll/ATTN-11",
-      "domain": "github.com",
-      "published_at": "2026-03-25T15:20:08Z",
-      "category": "tech",
-      "score": 0.3572822439697687,
-      "tldr": "Paper Tape Is All You Need – Training a Transformer on a 1976 Minicomputer",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "a164c67f-eda3-4032-bb31-640bd26e1a7d",
       "title": "Nitrile and latex gloves may cause overestimation of microplastics",
       "url": "https://news.umich.edu/nitrile-and-latex-gloves-may-cause-overestimation-of-microplastics-u-m-study-reveals",
@@ -1410,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "9cab35b3-1453-4211-bddd-8135ec5d90c0",
+      "title": "Shor's algorithm is possible with as few as 10k reconfigurable atomic qubits",
+      "url": "https://arxiv.org/abs/2603.28627",
+      "domain": "arxiv.org",
+      "published_at": "2026-03-31T06:44:42Z",
+      "category": "tech",
+      "score": 0.250663586709095,
+      "tldr": "Shor's algorithm is possible with as few as 10k reconfigurable atomic qubits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-01T14:25:18.370199557Z",
+  "last_updated": "2026-04-01T15:50:15.316806231Z",
   "total_count": 100
 }
