@@ -115,6 +115,20 @@
       ]
     },
     {
+      "id": "83574759-6a76-47c3-b3bb-65fb8b11428f",
+      "title": "The case for zero-error horizons in trustworthy LLMs",
+      "url": "https://arxiv.org/abs/2601.15714",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-02T15:35:31Z",
+      "category": "tech",
+      "score": 0.36128271985716476,
+      "tldr": "The case for zero-error horizons in trustworthy LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "3a8dfe07-7aac-4e73-991b-d56cc5da6222",
       "title": "Universal Claude.md – cut Claude output tokens",
       "url": "https://github.com/drona23/claude-token-efficient",
@@ -939,6 +953,20 @@
       ]
     },
     {
+      "id": "c2bb2486-471d-4f9e-9585-63761c464551",
+      "title": "Show HN: A P2P messenger with dual network modes (Fast and Tor)",
+      "url": "https://github.com/Realman78/Kiyeovo",
+      "domain": "github.com",
+      "published_at": "2026-04-02T15:32:45Z",
+      "category": "tech",
+      "score": 0.25521279627341076,
+      "tldr": "Show HN: A P2P messenger with dual network modes (Fast and Tor)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a5e8ebde-8cca-4e2c-bc36-4114ba55be00",
       "title": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
       "url": "https://dani2442.github.io/posts/continuous-rl",
@@ -1385,36 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "79998d7e-57c7-4f66-b451-bbcff1b0164d",
-      "title": "There is No Spoon. A software engineers primer for demystified ML",
-      "url": "https://github.com/dreddnafious/thereisnospoon",
-      "domain": "github.com",
-      "published_at": "2026-03-29T22:28:11Z",
-      "category": "tech",
-      "score": 0.2513990805660596,
-      "tldr": "A software engineers primer for demystified ML",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "984aab9d-c257-48e6-94bc-1169c327bfd6",
-      "title": "Show HN: Coasts – Containerized Hosts for Agents",
-      "url": "https://github.com/coast-guard/coasts",
-      "domain": "github.com",
-      "published_at": "2026-03-30T15:17:51Z",
-      "category": "tech",
-      "score": 0.2513847455358409,
-      "tldr": "Show HN: Coasts – Containerized Hosts for Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-02T20:24:51.742485639Z",
+  "last_updated": "2026-04-02T21:00:28.461348078Z",
   "total_count": 100
 }
