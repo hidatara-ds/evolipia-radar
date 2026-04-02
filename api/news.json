@@ -213,6 +213,20 @@
       ]
     },
     {
+      "id": "c29d21c8-1a52-4393-bb2c-244a3d03ebe2",
+      "title": "Salomi, a research repo on extreme low-bit transformer quantization",
+      "url": "https://github.com/OrionsLock/SALOMI",
+      "domain": "github.com",
+      "published_at": "2026-04-02T04:08:12Z",
+      "category": "tech",
+      "score": 0.3279611070113563,
+      "tldr": "Salomi, a research repo on extreme low-bit transformer quantization",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "e50b24b7-92b9-4e2d-8f36-66dd65563b6d",
       "title": "Show HN: A prompt that builds the most capable AI agent system",
       "url": "https://github.com/fainir/most-capable-agent-system-prompt",
@@ -354,6 +368,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "a3ab36b5-7b19-4837-8b29-db229bc6450d",
+      "title": "r/programming bans all discussion of LLM programming",
+      "url": "https://old.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban",
+      "domain": "old.reddit.com",
+      "published_at": "2026-04-02T05:33:20Z",
+      "category": "tech",
+      "score": 0.30019784189959897,
+      "tldr": "r/programming bans all discussion of LLM programming",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
         "llm"
       ]
     },
@@ -1382,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f0315b34-2a8a-4831-b6e0-897afc77936c",
-      "title": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-      "url": "https://github.com/ViciousSquid/Fio",
-      "domain": "github.com",
-      "published_at": "2026-03-26T20:58:04Z",
-      "category": "tech",
-      "score": 0.2511934081861663,
-      "tldr": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d7c68017-1179-468c-9c28-7cca5dfdaca2",
-      "title": "Circuit-level PDP-11/34 emulator",
-      "url": "https://github.com/dbrll/ll-34",
-      "domain": "github.com",
-      "published_at": "2026-03-28T16:23:31Z",
-      "category": "tech",
-      "score": 0.2510272585180851,
-      "tldr": "Circuit-level PDP-11/34 emulator",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-02T04:04:41.313609835Z",
+  "last_updated": "2026-04-02T07:00:29.003005732Z",
   "total_count": 100
 }
