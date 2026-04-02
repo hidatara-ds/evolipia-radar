@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "aae34c0e-01e0-445b-a57d-b6292d397e10",
+      "title": "Live: Artemis II Launch Day Updates",
+      "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates",
+      "domain": "nasa.gov",
+      "published_at": "2026-04-01T17:11:31Z",
+      "category": "tech",
+      "score": 0.5450916829267792,
+      "tldr": "Live: Artemis II Launch Day Updates",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "dd45d6e8-5cd0-4c33-81be-43f7c6dc035d",
       "title": "Spanish legislation as a Git repo",
       "url": "https://github.com/EnriqueLop/legalize-es",
@@ -52,6 +66,21 @@
       "score": 0.4488609147331271,
       "tldr": "Show HN: Free AI API gateway that auto-fails over Gemini, Groq, Mistral, etc.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "be659744-cc42-4178-b1fe-e0bed5369c6a",
+      "title": "AbodeLLM – An offline AI assistant for Android devices, based on open models",
+      "url": "https://github.com/brendmung/AbodeLLM",
+      "domain": "github.com",
+      "published_at": "2026-04-01T22:08:28Z",
+      "category": "tech",
+      "score": 0.3745767348690261,
+      "tldr": "AbodeLLM – An offline AI assistant for Android devices, based on open models",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
         "llm"
@@ -167,20 +196,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "8258049d-6164-4dd7-b9b7-37b85b33bc1e",
-      "title": "Show HN: Robust LLM Extractor for Websites in TypeScript",
-      "url": "https://github.com/lightfeed/extractor",
-      "domain": "github.com",
-      "published_at": "2026-03-26T03:55:52Z",
-      "category": "tech",
-      "score": 0.33121852019008136,
-      "tldr": "Show HN: Robust LLM Extractor for Websites in TypeScript",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1201,20 +1216,6 @@
       ]
     },
     {
-      "id": "feb1f491-ec2a-4250-82aa-b334f7223180",
-      "title": "The Last Contract: William T. Vollmann's Battle to Publish an Epic (2025)",
-      "url": "https://www.metropolitanreview.org/p/the-last-contract",
-      "domain": "metropolitanreview.org",
-      "published_at": "2026-03-26T03:54:13Z",
-      "category": "tech",
-      "score": 0.2516090994598422,
-      "tldr": "The Last Contract: William T. Vollmann's Battle to Publish an Epic (2025)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "e6d1d811-2373-4809-a994-ef8e4670edd6",
       "title": "Personal AI Development Environment",
       "url": "https://github.com/rbren/personal-ai-devbox",
@@ -1411,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-02T01:13:48.072538381Z",
+  "last_updated": "2026-04-02T04:04:41.313609835Z",
   "total_count": 100
 }
