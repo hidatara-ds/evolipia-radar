@@ -1345,20 +1345,6 @@
       ]
     },
     {
-      "id": "fde306a2-8f81-4ffd-b2a3-5e04c5219186",
-      "title": "Anthropic discourages Claud demand during peak productivity hours",
-      "url": "https://www.theregister.com/2026/03/26/anthropic_tweaks_usage_limits",
-      "domain": "theregister.com",
-      "published_at": "2026-03-26T22:47:43Z",
-      "category": "tech",
-      "score": 0.25158866844883976,
-      "tldr": "Anthropic discourages Claud demand during peak productivity hours",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "18e4e781-72f2-4203-bb0e-dbdb10201e81",
       "title": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
       "url": "https://github.com/PThorpe92/fossier",
@@ -1413,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "79998d7e-57c7-4f66-b451-bbcff1b0164d",
+      "title": "There is No Spoon. A software engineers primer for demystified ML",
+      "url": "https://github.com/dreddnafious/thereisnospoon",
+      "domain": "github.com",
+      "published_at": "2026-03-29T22:28:11Z",
+      "category": "tech",
+      "score": 0.2513990805660596,
+      "tldr": "A software engineers primer for demystified ML",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-02T22:23:21.992228968Z",
+  "last_updated": "2026-04-02T22:57:16.779289047Z",
   "total_count": 100
 }
