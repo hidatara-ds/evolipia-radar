@@ -86,6 +86,20 @@
       ]
     },
     {
+      "id": "cb5a1643-0912-421a-9e9d-f48776eb99c3",
+      "title": "Even GPT-5.2 Can't Count to Five: Zero-Error Horizons in Trustworthy LLMs",
+      "url": "https://arxiv.org/abs/2601.15714",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-02T15:35:31Z",
+      "category": "tech",
+      "score": 0.40680823375000064,
+      "tldr": "2 Can't Count to Five: Zero-Error Horizons in Trustworthy LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "be659744-cc42-4178-b1fe-e0bed5369c6a",
       "title": "AbodeLLM – An offline AI assistant for Android devices, based on open models",
       "url": "https://github.com/brendmung/AbodeLLM",
@@ -1105,6 +1119,20 @@
       ]
     },
     {
+      "id": "2bacf5a6-3e4c-4d70-a641-2b5cb19d8c79",
+      "title": "Show HN: I ran 28 OpenClaw instances as a team for 2 months",
+      "url": "https://github.com/CorellisOrg/corellis",
+      "domain": "github.com",
+      "published_at": "2026-04-02T12:27:52Z",
+      "category": "tech",
+      "score": 0.25234880924289016,
+      "tldr": "Show HN: I ran 28 OpenClaw instances as a team for 2 months",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "29d54686-fda1-4954-936a-2260c213b85c",
       "title": "Is BGP safe yet?",
       "url": "https://isbgpsafeyet.com/",
@@ -1383,36 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "19a79d38-b1fb-4862-afd6-cd38f56d3f04",
-      "title": "The Inference Shift – How Cheap Chips Could Put Frontier AI in Everyone's Hands",
-      "url": "https://substack.com/home/post/p-192665961",
-      "domain": "substack.com",
-      "published_at": "2026-03-31T08:02:04Z",
-      "category": "tech",
-      "score": 0.25136569429179817,
-      "tldr": "The Inference Shift – How Cheap Chips Could Put Frontier AI in Everyone's Hands",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1a423f30-9f08-49b1-8101-cd5454a01ca2",
-      "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-      "url": "https://github.com/1st1/lat.md",
-      "domain": "github.com",
-      "published_at": "2026-03-29T08:59:52Z",
-      "category": "tech",
-      "score": 0.2512984327487595,
-      "tldr": "md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-02T16:45:04.669116518Z",
+  "last_updated": "2026-04-02T17:41:34.940766656Z",
   "total_count": 100
 }
