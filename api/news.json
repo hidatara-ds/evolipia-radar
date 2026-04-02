@@ -143,20 +143,6 @@
       ]
     },
     {
-      "id": "ffd31fa8-958e-46ef-8381-e0833a439168",
-      "title": "End of \"Chat Control\": EU parliament stops mass surveillance",
-      "url": "https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection",
-      "domain": "patrick-breyer.de",
-      "published_at": "2026-03-26T12:24:36Z",
-      "category": "tech",
-      "score": 0.3461012059229943,
-      "tldr": "End of \"Chat Control\": EU parliament stops mass surveillance",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b9631b25-cf50-4eb3-ac05-53dcef5955f9",
       "title": "Make macOS consistently bad unironically",
       "url": "https://lr0.org/blog/p/macos",
@@ -353,6 +339,20 @@
       "tags": [
         "general_ai",
         "llm"
+      ]
+    },
+    {
+      "id": "26f25798-5c46-4f73-a31b-e9aca7a65888",
+      "title": "I Am Not A Number. In memory of the more than 72,000 Palestinians killed",
+      "url": "https://bkhmsi.github.io/i-am-not-a-number",
+      "domain": "bkhmsi.github.io",
+      "published_at": "2026-04-02T09:32:13Z",
+      "category": "tech",
+      "score": 0.3020747368823782,
+      "tldr": "In memory of the more than 72,000 Palestinians killed",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -599,6 +599,20 @@
       ]
     },
     {
+      "id": "2dab347c-dfac-4af6-a084-0cca2c8f1bcd",
+      "title": "The Weather Channel – RetroCast",
+      "url": "https://weather.com/retro",
+      "domain": "weather.com",
+      "published_at": "2026-04-02T01:48:18Z",
+      "category": "tech",
+      "score": 0.27256590665682884,
+      "tldr": "The Weather Channel – RetroCast",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "54bd9a77-a0bb-49af-b359-ed0d0f4e99b1",
       "title": "Neovim 0.12.0",
       "url": "https://github.com/neovim/neovim/releases/tag/v0.12.0",
@@ -681,6 +695,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "2764b6b0-6fdf-4906-9c91-a86d8c467a24",
+      "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+      "url": "https://lemonade-server.ai",
+      "domain": "lemonade-server.ai",
+      "published_at": "2026-04-02T11:04:51Z",
+      "category": "tech",
+      "score": 0.26484271474438087,
+      "tldr": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -902,6 +930,20 @@
       "category": "tech",
       "score": 0.25456519045719544,
       "tldr": "Claude Code users hitting usage limits 'way faster than expected'",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8d5cc19e-4909-4068-a5c9-7cf9ac1d046b",
+      "title": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
+      "url": "https://github.com/razvandimescu/numa",
+      "domain": "github.com",
+      "published_at": "2026-04-02T10:07:57Z",
+      "category": "tech",
+      "score": 0.2545017625622974,
+      "tldr": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1368,50 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "1a423f30-9f08-49b1-8101-cd5454a01ca2",
-      "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-      "url": "https://github.com/1st1/lat.md",
-      "domain": "github.com",
-      "published_at": "2026-03-29T08:59:52Z",
-      "category": "tech",
-      "score": 0.2512984327487595,
-      "tldr": "md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c0a130c0-b4f7-4260-887d-af8e7d698cc9",
-      "title": "Claude Code full source code leaked on NPM",
-      "url": "https://github.com/chatgptprojects/claude-code",
-      "domain": "github.com",
-      "published_at": "2026-03-31T09:40:12Z",
-      "category": "tech",
-      "score": 0.2512484349777637,
-      "tldr": "Claude Code full source code leaked on NPM",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ec97b442-bf5c-4dc8-833f-17e519ae0d5d",
-      "title": "Show HN: Raincast – Describe an app, get a native desktop app (open source)",
-      "url": "https://github.com/tihiera/raincast",
-      "domain": "github.com",
-      "published_at": "2026-03-31T05:39:41Z",
-      "category": "tech",
-      "score": 0.25122182553463984,
-      "tldr": "Show HN: Raincast – Describe an app, get a native desktop app (open source)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-02T11:38:41.255758437Z",
+  "last_updated": "2026-04-02T12:45:55.899184409Z",
   "total_count": 100
 }
