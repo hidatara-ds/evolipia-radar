@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "967bc364-828f-4cca-9b85-0a3a8be7fd07",
+      "title": "Artemis II Launch Day Updates",
+      "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates",
+      "domain": "nasa.gov",
+      "published_at": "2026-04-01T17:11:31Z",
+      "category": "tech",
+      "score": 0.5521299731831427,
+      "tldr": "Artemis II Launch Day Updates",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "aae34c0e-01e0-445b-a57d-b6292d397e10",
       "title": "Live: Artemis II Launch Day Updates",
       "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates",
@@ -1118,20 +1132,6 @@
       ]
     },
     {
-      "id": "dd59ee72-b44d-43e0-b1e6-f04b188c6b87",
-      "title": "Show HN: Relay – The open-source Claude Cowork for OpenClaw",
-      "url": "https://github.com/SeventeenLabs/relay",
-      "domain": "github.com",
-      "published_at": "2026-03-26T10:23:12Z",
-      "category": "tech",
-      "score": 0.2520943955257177,
-      "tldr": "Show HN: Relay – The open-source Claude Cowork for OpenClaw",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "574dad5d-b966-4296-ac15-c0d5ecad6cd5",
       "title": "Show HN: I made a \"programming language\" looking for feedback",
       "url": "https://github.com/alonsovm44/glupe",
@@ -1412,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-02T09:34:09.02490203Z",
+  "last_updated": "2026-04-02T10:42:39.233025019Z",
   "total_count": 100
 }
