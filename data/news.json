@@ -572,6 +572,20 @@
       ]
     },
     {
+      "id": "3b5cb7b8-616e-4780-8d06-c18f04d760a7",
+      "title": "OpenAI Acquires TBPN",
+      "url": "https://openai.com/index/openai-acquires-tbpn",
+      "domain": "openai.com",
+      "published_at": "2026-04-02T17:26:49Z",
+      "category": "tech",
+      "score": 0.27775169607580924,
+      "tldr": "OpenAI Acquires TBPN",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c8b029ed-cbc7-44ec-bcab-f9bc7a939a8d",
       "title": "DoesItAgeVerify: The age verification status of Open Source Operating Systems",
       "url": "https://github.com/BryanLunduke/DoesItAgeVerify",
@@ -1063,20 +1077,6 @@
       ]
     },
     {
-      "id": "7e618075-5f1e-47d9-8754-9c255ccbb7f9",
-      "title": "Taming LLMs: Using Executable Oracles to Prevent Bad Code",
-      "url": "https://john.regehr.org/writing/zero_dof_programming.html",
-      "domain": "john.regehr.org",
-      "published_at": "2026-03-26T17:51:42Z",
-      "category": "tech",
-      "score": 0.2528490248805758,
-      "tldr": "Taming LLMs: Using Executable Oracles to Prevent Bad Code",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "8101ee97-e5f5-44e3-9e40-669805ef3ae8",
       "title": "Show HN: Foundry: a Markdown-first CMS written in Go",
       "url": "https://github.com/sphireinc/Foundry",
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-02T17:41:34.940766656Z",
+  "last_updated": "2026-04-02T18:41:28.317691716Z",
   "total_count": 100
 }
