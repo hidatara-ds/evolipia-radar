@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "ea5e4625-f321-4e22-932a-c34b07ca5801",
+      "title": "LinkedIn is searching your browser extensions",
+      "url": "https://browsergate.eu/",
+      "domain": "browsergate.eu",
+      "published_at": "2026-04-02T13:09:09Z",
+      "category": "tech",
+      "score": 0.6334447229559256,
+      "tldr": "LinkedIn is searching your browser extensions",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "967bc364-828f-4cca-9b85-0a3a8be7fd07",
       "title": "Artemis II Launch Day Updates",
       "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates",
@@ -694,20 +708,6 @@
       "category": "tech",
       "score": 0.2711372162790787,
       "tldr": "Neovim 0.12.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "00e5c9dc-439d-4e7c-a6ce-1d2422ab4a8e",
-      "title": "Apple discontinues the Mac Pro",
-      "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro",
-      "domain": "9to5mac.com",
-      "published_at": "2026-03-26T21:04:50Z",
-      "category": "tech",
-      "score": 0.2702983446800086,
-      "tldr": "Apple discontinues the Mac Pro",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1415,6 +1415,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-02T21:00:28.461348078Z",
+  "last_updated": "2026-04-02T21:39:19.055310231Z",
   "total_count": 100
 }
