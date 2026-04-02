@@ -269,6 +269,20 @@
       ]
     },
     {
+      "id": "981992be-f70d-43c0-ae31-9c3971d0da3d",
+      "title": "Google releases Gemma 4 open models",
+      "url": "https://deepmind.google/models/gemma/gemma-4",
+      "domain": "deepmind.google",
+      "published_at": "2026-04-02T16:10:54Z",
+      "category": "tech",
+      "score": 0.3168093250888737,
+      "tldr": "Google releases Gemma 4 open models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d862369b-6ff7-4fd2-8ce9-e37f07a3816a",
       "title": "I put all 8,642 Spanish laws in Git – every reform is a commit",
       "url": "https://github.com/EnriqueLop/legalize-es",
@@ -352,6 +366,21 @@
       "tldr": "In memory of the more than 72,000 Palestinians killed",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "91755cf1-c121-4f94-850b-7546688c3e3e",
+      "title": "Live and Let AI: Former CIA officer says human spies matter more in the LLM age",
+      "url": "https://www.theregister.com/2026/04/01/live_and_let_ai_excia",
+      "domain": "theregister.com",
+      "published_at": "2026-04-02T16:02:37Z",
+      "category": "tech",
+      "score": 0.30154497345386005,
+      "tldr": "Live and Let AI: Former CIA officer says human spies matter more in the LLM age",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
         "general_ai"
       ]
     },
@@ -568,20 +597,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "ccf5fa9f-600e-4981-a6f0-511a95f08a18",
-      "title": "My minute-by-minute response to the LiteLLM malware attack",
-      "url": "https://futuresearch.ai/blog/litellm-attack-transcript",
-      "domain": "futuresearch.ai",
-      "published_at": "2026-03-26T15:48:40Z",
-      "category": "tech",
-      "score": 0.2740257166677068,
-      "tldr": "My minute-by-minute response to the LiteLLM malware attack",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -986,20 +1001,6 @@
       "category": "tech",
       "score": 0.2538426713817427,
       "tldr": "Show HN: How This Graybeard Built the Fastest and Freest Postgres BM25 Search",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "84daba80-0e8d-46c7-9fd0-3bed867cde9c",
-      "title": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
-      "url": "https://github.com/salespeak-ai/buyer-eval-skill",
-      "domain": "github.com",
-      "published_at": "2026-03-26T16:00:47Z",
-      "category": "tech",
-      "score": 0.2536567282484967,
-      "tldr": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1412,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-02T15:33:05.146431458Z",
+  "last_updated": "2026-04-02T16:45:04.669116518Z",
   "total_count": 100
 }
