@@ -1038,6 +1038,20 @@
       ]
     },
     {
+      "id": "4dce8343-e770-43bf-95a8-2146871de830",
+      "title": "Show HN: TinyOS – A minimalist RTOS for Cortex-M written in C",
+      "url": "https://github.com/cmc-labo/tinyos-rtos",
+      "domain": "github.com",
+      "published_at": "2026-04-03T21:46:26Z",
+      "category": "tech",
+      "score": 0.25418408056994596,
+      "tldr": "Show HN: TinyOS – A minimalist RTOS for Cortex-M written in C",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0168d505-37db-4c60-873d-a63e506373c8",
       "title": "TurboQuant KV Compression and SSD Expert Streaming for M5 Pro and IOS",
       "url": "https://github.com/SharpAI/SwiftLM",
@@ -1400,22 +1414,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "a1a59d0e-8b1c-4964-b5e6-8a7206f45047",
-      "title": "Are LLMs a Dead End? [video]",
-      "url": "https://www.youtube.com/watch?v=9IMV80GvBpU",
-      "domain": "youtube.com",
-      "published_at": "2026-03-29T09:31:26Z",
-      "category": "tech",
-      "score": 0.25145822308530735,
-      "tldr": "Are LLMs a Dead End? [video]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-03T21:36:06.248156777Z",
+  "last_updated": "2026-04-03T22:22:33.560792114Z",
   "total_count": 100
 }
