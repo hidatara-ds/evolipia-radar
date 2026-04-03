@@ -588,6 +588,20 @@
       ]
     },
     {
+      "id": "dfddac57-07ba-42e3-983d-b0180215ae32",
+      "title": "OpenClaw privilege-escalation bug",
+      "url": "https://old.reddit.com/r/sysadmin/comments/1sbdw29/if_youre_running_openclaw_you_probably_got_hacked",
+      "domain": "old.reddit.com",
+      "published_at": "2026-04-03T16:21:32Z",
+      "category": "tech",
+      "score": 0.2829091980426973,
+      "tldr": "OpenClaw privilege-escalation bug",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cde1fd20-6f22-4ff4-8364-77a0f3893747",
       "title": "OpenAI closes funding round at an $852B valuation",
       "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
@@ -1400,22 +1414,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "7d5c7da7-6d6d-42f7-aa0b-d03e9fdec079",
-      "title": "Safe ways to do things in bash (2023)",
-      "url": "https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md",
-      "domain": "github.com",
-      "published_at": "2026-03-31T20:27:50Z",
-      "category": "tech",
-      "score": 0.25142659528966893,
-      "tldr": "Safe ways to do things in bash (2023)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-03T19:32:41.193434156Z",
+  "last_updated": "2026-04-03T20:24:23.094113823Z",
   "total_count": 100
 }
