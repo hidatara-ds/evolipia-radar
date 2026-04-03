@@ -283,6 +283,20 @@
       ]
     },
     {
+      "id": "03f73eb6-b1c8-4255-8ecc-7368f48c597d",
+      "title": "OpenUMA – bring Apple-style unified memory to x86 AI inference (Rust, Linux)",
+      "url": "https://github.com/hamtun24/openuma",
+      "domain": "github.com",
+      "published_at": "2026-04-03T09:59:57Z",
+      "category": "tech",
+      "score": 0.3249642763711955,
+      "tldr": "OpenUMA – bring Apple-style unified memory to x86 AI inference (Rust, Linux)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "36fc3b99-0aee-4ca8-94e6-da4892f92149",
       "title": "AI overly affirms users asking for personal advice",
       "url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
@@ -883,6 +897,20 @@
       ]
     },
     {
+      "id": "a4ef5d47-dee5-464e-98e6-02c166145386",
+      "title": "Bun: cgroup-aware AvailableParallelism / HardwareConcurrency on Linux",
+      "url": "https://github.com/oven-sh/bun/pull/28801",
+      "domain": "github.com",
+      "published_at": "2026-04-03T11:09:58Z",
+      "category": "tech",
+      "score": 0.2560393245620572,
+      "tldr": "Bun: cgroup-aware AvailableParallelism / HardwareConcurrency on Linux",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e8e16ffd-8eef-4663-b4b0-bffbe767d50f",
       "title": "Show HN: Cerno – CAPTCHA that targets LLM reasoning, not human biology",
       "url": "https://cerno.sh",
@@ -1087,6 +1115,20 @@
       "category": "tech",
       "score": 0.2535905876492365,
       "tldr": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1efd45fc-86c5-44b2-8745-7b0df6a1d150",
+      "title": "Show HN: I built a frontpage for personal blogs",
+      "url": "https://text.blogosphere.app/",
+      "domain": "text.blogosphere.app",
+      "published_at": "2026-04-03T12:33:45Z",
+      "category": "tech",
+      "score": 0.2535067773517521,
+      "tldr": "Show HN: I built a frontpage for personal blogs",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1371,50 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "a1a59d0e-8b1c-4964-b5e6-8a7206f45047",
-      "title": "Are LLMs a Dead End? [video]",
-      "url": "https://www.youtube.com/watch?v=9IMV80GvBpU",
-      "domain": "youtube.com",
-      "published_at": "2026-03-29T09:31:26Z",
-      "category": "tech",
-      "score": 0.25145822308530735,
-      "tldr": "Are LLMs a Dead End? [video]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7d5c7da7-6d6d-42f7-aa0b-d03e9fdec079",
-      "title": "Safe ways to do things in bash (2023)",
-      "url": "https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md",
-      "domain": "github.com",
-      "published_at": "2026-03-31T20:27:50Z",
-      "category": "tech",
-      "score": 0.25142659528966893,
-      "tldr": "Safe ways to do things in bash (2023)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b8e20730-5e64-4d1f-b136-9c1c61e0f6df",
-      "title": "Show HN: jid – JSON Incremental Digger v1.1.0 with JMESPath support",
-      "url": "https://github.com/simeji/jid/releases/tag/v1.1.0",
-      "domain": "github.com",
-      "published_at": "2026-03-27T18:07:52Z",
-      "category": "tech",
-      "score": 0.2514187773370151,
-      "tldr": "Show HN: jid – JSON Incremental Digger v1. 0 with JMESPath support",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-03T12:01:33.164341092Z",
+  "last_updated": "2026-04-03T14:36:43.661789644Z",
   "total_count": 100
 }
