@@ -982,20 +982,6 @@
       ]
     },
     {
-      "id": "e8fc9714-f304-4c2d-ab0c-6224213e2bfb",
-      "title": "Show HN: Open Source 'Conductor + Ghostty'",
-      "url": "https://github.com/stablyai/orca",
-      "domain": "github.com",
-      "published_at": "2026-03-27T22:26:40Z",
-      "category": "tech",
-      "score": 0.25464549174724027,
-      "tldr": "Show HN: Open Source 'Conductor + Ghostty'",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7f0763f7-6c9d-4b15-8a75-5fc54d78a590",
       "title": "Claude Code users hitting usage limits 'way faster than expected'",
       "url": "https://www.theregister.com/2026/03/31/anthropic_claude_code_limits",
@@ -1414,8 +1400,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a1a59d0e-8b1c-4964-b5e6-8a7206f45047",
+      "title": "Are LLMs a Dead End? [video]",
+      "url": "https://www.youtube.com/watch?v=9IMV80GvBpU",
+      "domain": "youtube.com",
+      "published_at": "2026-03-29T09:31:26Z",
+      "category": "tech",
+      "score": 0.25145822308530735,
+      "tldr": "Are LLMs a Dead End? [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-03T22:22:33.560792114Z",
+  "last_updated": "2026-04-03T22:59:31.09932153Z",
   "total_count": 100
 }
