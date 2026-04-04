@@ -311,20 +311,6 @@
       ]
     },
     {
-      "id": "36fc3b99-0aee-4ca8-94e6-da4892f92149",
-      "title": "AI overly affirms users asking for personal advice",
-      "url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
-      "domain": "news.stanford.edu",
-      "published_at": "2026-03-28T14:08:33Z",
-      "category": "tech",
-      "score": 0.3203016877368765,
-      "tldr": "AI overly affirms users asking for personal advice",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a35597e2-78ac-477f-82b8-618de02262cf",
       "title": "How the AI Bubble Bursts",
       "url": "https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts",
@@ -1413,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "18e4e781-72f2-4203-bb0e-dbdb10201e81",
+      "title": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
+      "url": "https://github.com/PThorpe92/fossier",
+      "domain": "github.com",
+      "published_at": "2026-03-30T21:29:18Z",
+      "category": "tech",
+      "score": 0.2514804928000275,
+      "tldr": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-04T13:35:08.403117669Z",
+  "last_updated": "2026-04-04T14:25:17.16034761Z",
   "total_count": 100
 }
