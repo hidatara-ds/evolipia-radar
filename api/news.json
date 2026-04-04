@@ -241,6 +241,20 @@
       ]
     },
     {
+      "id": "4b9602be-a207-45eb-87d4-673d04f8f990",
+      "title": "Simple self-distillation improves code generation",
+      "url": "https://arxiv.org/abs/2604.01193",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-04T10:26:21Z",
+      "category": "tech",
+      "score": 0.3305446044409737,
+      "tldr": "Simple self-distillation improves code generation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c5d11088-4649-4767-8e10-314d66cb7afb",
       "title": "TurboQuant model weight compression support added to Llamacpp",
       "url": "https://github.com/TheTom/llama-cpp-turboquant/pull/45",
@@ -1399,22 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "18e4e781-72f2-4203-bb0e-dbdb10201e81",
-      "title": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
-      "url": "https://github.com/PThorpe92/fossier",
-      "domain": "github.com",
-      "published_at": "2026-03-30T21:29:18Z",
-      "category": "tech",
-      "score": 0.2514804928000275,
-      "tldr": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-04T12:30:37.53673632Z",
+  "last_updated": "2026-04-04T13:35:08.403117669Z",
   "total_count": 100
 }
