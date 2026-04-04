@@ -199,6 +199,20 @@
       ]
     },
     {
+      "id": "ad7de678-a5ed-41ad-bc29-2a81a3a80734",
+      "title": "German men 18-45 need military permit for extended stays abroad",
+      "url": "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677",
+      "domain": "dw.com",
+      "published_at": "2026-04-04T15:39:10Z",
+      "category": "tech",
+      "score": 0.3377857247600292,
+      "tldr": "German men 18-45 need military permit for extended stays abroad",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "85b68e50-861f-45e1-aee4-46a9a8c1d83b",
       "title": "Universal Claude.md – cut Claude output tokens by 63%",
       "url": "https://github.com/drona23/claude-token-efficient",
@@ -291,6 +305,20 @@
       "category": "tech",
       "score": 0.3249642763711955,
       "tldr": "OpenUMA – bring Apple-style unified memory to x86 AI inference (Rust, Linux)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e6619aa5-b42a-425d-88c2-a8909039051c",
+      "title": "12k AI-generated blog posts added in a single commit",
+      "url": "https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849",
+      "domain": "github.com",
+      "published_at": "2026-04-04T16:45:31Z",
+      "category": "tech",
+      "score": 0.3216129305203296,
+      "tldr": "12k AI-generated blog posts added in a single commit",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1385,36 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "31fb2b6b-31de-4a6d-940d-f9310f8e51a6",
-      "title": "Mercurial Dyson – a plan for the disassembly of planet Mercury",
-      "url": "https://github.com/RokoMijic/MercurialDyson/blob/main/written_report.md",
-      "domain": "github.com",
-      "published_at": "2026-04-03T16:47:46Z",
-      "category": "tech",
-      "score": 0.2516828503084534,
-      "tldr": "Mercurial Dyson – a plan for the disassembly of planet Mercury",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e6d1d811-2373-4809-a994-ef8e4670edd6",
-      "title": "Personal AI Development Environment",
-      "url": "https://github.com/rbren/personal-ai-devbox",
-      "domain": "github.com",
-      "published_at": "2026-03-29T19:21:06Z",
-      "category": "tech",
-      "score": 0.251601516308425,
-      "tldr": "Personal AI Development Environment",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-04T18:26:42.047293923Z",
+  "last_updated": "2026-04-04T19:07:35.766140511Z",
   "total_count": 100
 }
