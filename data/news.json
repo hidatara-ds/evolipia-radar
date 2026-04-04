@@ -1345,20 +1345,6 @@
       ]
     },
     {
-      "id": "3a9bca84-f468-410e-ad65-591e9246c18e",
-      "title": "Every novel that has ever been published is sitting inside ChatGPT",
-      "url": "https://twitter.com/heynavtoor/status/2037638554374099409",
-      "domain": "twitter.com",
-      "published_at": "2026-03-28T14:36:41Z",
-      "category": "tech",
-      "score": 0.2517444476126295,
-      "tldr": "Every novel that has ever been published is sitting inside ChatGPT",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "293c0c62-6d3d-4d07-a0b2-fbe11c037e0b",
       "title": "AyaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust",
       "url": "https://github.com/DavidHavoc/ayaFlow",
@@ -1413,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a1a59d0e-8b1c-4964-b5e6-8a7206f45047",
+      "title": "Are LLMs a Dead End? [video]",
+      "url": "https://www.youtube.com/watch?v=9IMV80GvBpU",
+      "domain": "youtube.com",
+      "published_at": "2026-03-29T09:31:26Z",
+      "category": "tech",
+      "score": 0.25145822308530735,
+      "tldr": "Are LLMs a Dead End? [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-04T14:25:17.16034761Z",
+  "last_updated": "2026-04-04T14:57:27.069033091Z",
   "total_count": 100
 }
