@@ -283,20 +283,6 @@
       ]
     },
     {
-      "id": "e50b24b7-92b9-4e2d-8f36-66dd65563b6d",
-      "title": "Show HN: A prompt that builds the most capable AI agent system",
-      "url": "https://github.com/fainir/most-capable-agent-system-prompt",
-      "domain": "github.com",
-      "published_at": "2026-03-28T16:58:49Z",
-      "category": "tech",
-      "score": 0.32632254854463605,
-      "tldr": "Show HN: A prompt that builds the most capable AI agent system",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "03f73eb6-b1c8-4255-8ecc-7368f48c597d",
       "title": "OpenUMA – bring Apple-style unified memory to x86 AI inference (Rust, Linux)",
       "url": "https://github.com/hamtun24/openuma",
@@ -771,6 +757,20 @@
       ]
     },
     {
+      "id": "b3fcf3f2-e6ed-421c-a8d0-cebadce9ee42",
+      "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
+      "url": "https://sllm.cloud",
+      "domain": "sllm.cloud",
+      "published_at": "2026-04-04T15:18:58Z",
+      "category": "tech",
+      "score": 0.26558200231386486,
+      "tldr": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2764b6b0-6fdf-4906-9c91-a86d8c467a24",
       "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
       "url": "https://lemonade-server.ai",
@@ -793,6 +793,20 @@
       "category": "tech",
       "score": 0.26068879343642737,
       "tldr": "Google's 200M-parameter time-series foundation model with 16k context",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3a51522e-6ae6-44b8-b41b-bfab61a4532b",
+      "title": "12,000 AI-generated blog posts added in a single commit",
+      "url": "https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849",
+      "domain": "github.com",
+      "published_at": "2026-04-04T16:45:31Z",
+      "category": "tech",
+      "score": 0.2606174392714008,
+      "tldr": "12,000 AI-generated blog posts added in a single commit",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1399,22 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "18e4e781-72f2-4203-bb0e-dbdb10201e81",
-      "title": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
-      "url": "https://github.com/PThorpe92/fossier",
-      "domain": "github.com",
-      "published_at": "2026-03-30T21:29:18Z",
-      "category": "tech",
-      "score": 0.2514804928000275,
-      "tldr": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-04T16:22:47.278893224Z",
+  "last_updated": "2026-04-04T17:31:58.285530394Z",
   "total_count": 100
 }
