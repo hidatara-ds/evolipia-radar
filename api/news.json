@@ -255,6 +255,20 @@
       ]
     },
     {
+      "id": "c5d11088-4649-4767-8e10-314d66cb7afb",
+      "title": "TurboQuant model weight compression support added to Llamacpp",
+      "url": "https://github.com/TheTom/llama-cpp-turboquant/pull/45",
+      "domain": "github.com",
+      "published_at": "2026-04-04T08:52:29Z",
+      "category": "tech",
+      "score": 0.3294279589641164,
+      "tldr": "TurboQuant model weight compression support added to Llamacpp",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c29d21c8-1a52-4393-bb2c-244a3d03ebe2",
       "title": "Salomi, a research repo on extreme low-bit transformer quantization",
       "url": "https://github.com/OrionsLock/SALOMI",
@@ -754,20 +768,6 @@
       "tags": [
         "cloud",
         "llm"
-      ]
-    },
-    {
-      "id": "f22c6b65-7697-4565-a1f6-205fd0580ec5",
-      "title": "Cocoa-Way – Native macOS Wayland compositor for running Linux apps seamlessly",
-      "url": "https://github.com/J-x-Z/cocoa-way",
-      "domain": "github.com",
-      "published_at": "2026-03-28T10:06:13Z",
-      "category": "tech",
-      "score": 0.2665316468781213,
-      "tldr": "Cocoa-Way – Native macOS Wayland compositor for running Linux apps seamlessly",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1415,6 +1415,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-04T09:06:01.569503713Z",
+  "last_updated": "2026-04-04T10:34:36.269303339Z",
   "total_count": 100
 }
