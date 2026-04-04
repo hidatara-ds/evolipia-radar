@@ -43,20 +43,6 @@
       ]
     },
     {
-      "id": "dd45d6e8-5cd0-4c33-81be-43f7c6dc035d",
-      "title": "Spanish legislation as a Git repo",
-      "url": "https://github.com/EnriqueLop/legalize-es",
-      "domain": "github.com",
-      "published_at": "2026-03-28T12:01:27Z",
-      "category": "tech",
-      "score": 0.49463013028643843,
-      "tldr": "Spanish legislation as a Git repo",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ff294b21-e7b0-4c68-8446-772677248ac5",
       "title": "NASA’s Artemis II Crew Launches to the Moon",
       "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates",
@@ -353,20 +339,6 @@
       ]
     },
     {
-      "id": "d862369b-6ff7-4fd2-8ce9-e37f07a3816a",
-      "title": "I put all 8,642 Spanish laws in Git – every reform is a commit",
-      "url": "https://github.com/EnriqueLop/legalize-es",
-      "domain": "github.com",
-      "published_at": "2026-03-28T12:01:27Z",
-      "category": "tech",
-      "score": 0.3147131199111361,
-      "tldr": "I put all 8,642 Spanish laws in Git – every reform is a commit",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
-      ]
-    },
-    {
       "id": "ca96128e-6be2-400e-91fc-f9c00bb42a5c",
       "title": "The Sudden Fall of OpenAI's Most Hyped Product Since ChatGPT",
       "url": "https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9",
@@ -497,6 +469,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0311d053-307b-4797-9291-e29869999e28",
+      "title": "Apple: Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "url": "https://arxiv.org/abs/2604.01193",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-04T10:26:21Z",
+      "category": "tech",
+      "score": 0.29917327220875417,
+      "tldr": "Apple: Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
         "general_ai"
       ]
     },
@@ -1413,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "18e4e781-72f2-4203-bb0e-dbdb10201e81",
+      "title": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
+      "url": "https://github.com/PThorpe92/fossier",
+      "domain": "github.com",
+      "published_at": "2026-03-30T21:29:18Z",
+      "category": "tech",
+      "score": 0.2514804928000275,
+      "tldr": "Fossier: A slop evaluator for GitHub PRs to prevent spams",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-04T11:20:44.519338324Z",
+  "last_updated": "2026-04-04T12:30:37.53673632Z",
   "total_count": 100
 }
