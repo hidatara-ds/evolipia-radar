@@ -86,6 +86,20 @@
       ]
     },
     {
+      "id": "5cd12ac1-cc0a-477d-9d09-e135459858e9",
+      "title": "Embarrassingly simple self-distillation improves code generation",
+      "url": "https://arxiv.org/abs/2604.01193",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-04T10:26:21Z",
+      "category": "tech",
+      "score": 0.42445409090907843,
+      "tldr": "Embarrassingly simple self-distillation improves code generation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cb5a1643-0912-421a-9e9d-f48776eb99c3",
       "title": "Even GPT-5.2 Can't Count to Five: Zero-Error Horizons in Trustworthy LLMs",
       "url": "https://arxiv.org/abs/2601.15714",
@@ -1399,22 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "293c0c62-6d3d-4d07-a0b2-fbe11c037e0b",
-      "title": "AyaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust",
-      "url": "https://github.com/DavidHavoc/ayaFlow",
-      "domain": "github.com",
-      "published_at": "2026-03-29T15:28:27Z",
-      "category": "tech",
-      "score": 0.2517221531011,
-      "tldr": "AyaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-04T19:51:12.812231659Z",
+  "last_updated": "2026-04-04T20:19:13.281672439Z",
   "total_count": 100
 }
