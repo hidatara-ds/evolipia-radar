@@ -630,21 +630,6 @@
       ]
     },
     {
-      "id": "2a6e50ad-3b48-4994-955b-243ed069452c",
-      "title": "CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering",
-      "url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
-      "domain": "theopenreader.org",
-      "published_at": "2026-03-28T08:06:19Z",
-      "category": "tech",
-      "score": 0.2788917109469381,
-      "tldr": "CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data",
-        "general_ai"
-      ]
-    },
-    {
       "id": "3b5cb7b8-616e-4780-8d06-c18f04d760a7",
       "title": "OpenAI Acquires TBPN",
       "url": "https://openai.com/index/openai-acquires-tbpn",
@@ -1414,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e6d1d811-2373-4809-a994-ef8e4670edd6",
+      "title": "Personal AI Development Environment",
+      "url": "https://github.com/rbren/personal-ai-devbox",
+      "domain": "github.com",
+      "published_at": "2026-03-29T19:21:06Z",
+      "category": "tech",
+      "score": 0.251601516308425,
+      "tldr": "Personal AI Development Environment",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-04T07:42:07.78611609Z",
+  "last_updated": "2026-04-04T09:06:01.569503713Z",
   "total_count": 100
 }
