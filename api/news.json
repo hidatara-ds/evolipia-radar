@@ -1345,20 +1345,6 @@
       ]
     },
     {
-      "id": "ed05dc7e-a77d-4bb0-92b4-d13efee4c112",
-      "title": "I built a better, human like memory, for Agents",
-      "url": "https://github.com/emson/elfmem",
-      "domain": "github.com",
-      "published_at": "2026-03-29T11:43:41Z",
-      "category": "tech",
-      "score": 0.25204341403656366,
-      "tldr": "I built a better, human like memory, for Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "61c3f436-6801-4644-857c-0c2b371325a4",
       "title": "Someone just converted Claude Leark from TypeScript to 100% Python",
       "url": "https://github.com/instructkr/claw-code",
@@ -1413,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c9f6b43e-dfd0-47dc-9423-c7a3fc5f7fac",
+      "title": "Post Mortem: axios NPM supply chain compromise",
+      "url": "https://github.com/axios/axios/issues/10636",
+      "domain": "github.com",
+      "published_at": "2026-04-03T00:00:19Z",
+      "category": "tech",
+      "score": 0.25175443620752325,
+      "tldr": "Post Mortem: axios NPM supply chain compromise",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-05T11:30:55.756556724Z",
+  "last_updated": "2026-04-05T11:54:02.15878185Z",
   "total_count": 100
 }
