@@ -811,21 +811,6 @@
       ]
     },
     {
-      "id": "ae373960-73d3-41f5-ad1b-61ef09a49e9a",
-      "title": "ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
-      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it",
-      "domain": "buchodi.com",
-      "published_at": "2026-03-29T20:21:05Z",
-      "category": "tech",
-      "score": 0.26702079271297624,
-      "tldr": "ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "cloud",
-        "llm"
-      ]
-    },
-    {
       "id": "b3fcf3f2-e6ed-421c-a8d0-cebadce9ee42",
       "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
       "url": "https://sllm.cloud",
@@ -1412,8 +1397,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "534507ff-031f-4978-a15e-93168fdf0295",
+      "title": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
+      "url": "https://github.com/JasonHonKL/PardusBrowser/tree/main",
+      "domain": "github.com",
+      "published_at": "2026-03-31T10:21:33Z",
+      "category": "tech",
+      "score": 0.25205383278266263,
+      "tldr": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-05T19:54:07.716272422Z",
+  "last_updated": "2026-04-05T20:21:14.571509247Z",
   "total_count": 100
 }
