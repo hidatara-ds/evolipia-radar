@@ -339,6 +339,20 @@
       ]
     },
     {
+      "id": "58d316e4-8954-41e1-879e-2b6c51fc98e8",
+      "title": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+      "url": "https://twitter.com/__tinygrad__/status/2039213719155310736",
+      "domain": "twitter.com",
+      "published_at": "2026-04-04T16:16:10Z",
+      "category": "tech",
+      "score": 0.3200849471875985,
+      "tldr": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a35597e2-78ac-477f-82b8-618de02262cf",
       "title": "How the AI Bubble Bursts",
       "url": "https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts",
@@ -364,6 +378,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "8d608521-2fd9-43fd-9e0e-97b87088d67f",
+      "title": "Perfmon – Consolidate your favorite CLI monitoring tools into a single TUI",
+      "url": "https://github.com/sumant1122/Perfmon",
+      "domain": "github.com",
+      "published_at": "2026-04-05T14:16:28Z",
+      "category": "tech",
+      "score": 0.31508558129869474,
+      "tldr": "Perfmon – Consolidate your favorite CLI monitoring tools into a single TUI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
       ]
     },
     {
@@ -454,21 +482,6 @@
       "tags": [
         "llm",
         "general_ai"
-      ]
-    },
-    {
-      "id": "09ac4c40-a782-4e43-af93-490a303ead40",
-      "title": "Catching the LiteLLM and Telnyx supply chain zero-days via semantic analysis",
-      "url": "https://point-wild.github.io/who-touched-my-packages",
-      "domain": "point-wild.github.io",
-      "published_at": "2026-03-29T15:49:30Z",
-      "category": "tech",
-      "score": 0.30124975851508545,
-      "tldr": "Catching the LiteLLM and Telnyx supply chain zero-days via semantic analysis",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -1359,6 +1372,20 @@
       ]
     },
     {
+      "id": "2a4d0a52-e822-46a2-81b7-9431244c68af",
+      "title": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
+      "url": "https://github.com/salmanmohammadi/nanocode/discussions/1",
+      "domain": "github.com",
+      "published_at": "2026-04-05T14:21:17Z",
+      "category": "tech",
+      "score": 0.2521904748995506,
+      "tldr": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "fa20dd3d-ab96-41f9-a9b5-9f4d6a4feaac",
       "title": "SolveSpace (open source 2D/3D CAD) working on Windows 2000 (2025)",
       "url": "https://github.com/solvespace/solvespace/issues/1036",
@@ -1385,36 +1412,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "534507ff-031f-4978-a15e-93168fdf0295",
-      "title": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
-      "url": "https://github.com/JasonHonKL/PardusBrowser/tree/main",
-      "domain": "github.com",
-      "published_at": "2026-03-31T10:21:33Z",
-      "category": "tech",
-      "score": 0.25205383278266263,
-      "tldr": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "61c3f436-6801-4644-857c-0c2b371325a4",
-      "title": "Someone just converted Claude Leark from TypeScript to 100% Python",
-      "url": "https://github.com/instructkr/claw-code",
-      "domain": "github.com",
-      "published_at": "2026-03-31T15:07:51Z",
-      "category": "tech",
-      "score": 0.25199514660622013,
-      "tldr": "Someone just converted Claude Leark from TypeScript to 100% Python",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-05T15:34:51.009246845Z",
+  "last_updated": "2026-04-05T16:24:28.748065144Z",
   "total_count": 100
 }
