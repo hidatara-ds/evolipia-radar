@@ -616,6 +616,20 @@
       ]
     },
     {
+      "id": "f7ac6a4e-1594-4309-86d5-a7076c9cdf5f",
+      "title": "Talk like caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "domain": "github.com",
+      "published_at": "2026-04-05T08:56:18Z",
+      "category": "tech",
+      "score": 0.28358430284538283,
+      "tldr": "Talk like caveman",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "dfddac57-07ba-42e3-983d-b0180215ae32",
       "title": "OpenClaw privilege-escalation bug",
       "url": "https://old.reddit.com/r/sysadmin/comments/1sbdw29/if_youre_running_openclaw_you_probably_got_hacked",
@@ -1107,20 +1121,6 @@
       ]
     },
     {
-      "id": "2060f59c-f278-4ef3-aee3-d489c6a7188b",
-      "title": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
-      "url": "https://github.com/austin-weeks/miasma",
-      "domain": "github.com",
-      "published_at": "2026-03-29T10:10:12Z",
-      "category": "tech",
-      "score": 0.2535905876492365,
-      "tldr": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1efd45fc-86c5-44b2-8745-7b0df6a1d150",
       "title": "Show HN: I built a frontpage for personal blogs",
       "url": "https://text.blogosphere.app/",
@@ -1415,6 +1415,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-05T10:03:26.143191367Z",
+  "last_updated": "2026-04-05T11:00:20.114615192Z",
   "total_count": 100
 }
