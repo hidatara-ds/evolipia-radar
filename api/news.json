@@ -797,6 +797,20 @@
       ]
     },
     {
+      "id": "a47a80ce-ca5a-48e4-9119-04cd5dcd5176",
+      "title": "Codex pricing to align with API token usage, instead of per-message",
+      "url": "https://help.openai.com/en/articles/20001106-codex-rate-card",
+      "domain": "help.openai.com",
+      "published_at": "2026-04-05T15:58:08Z",
+      "category": "tech",
+      "score": 0.2681964793790399,
+      "tldr": "Codex pricing to align with API token usage, instead of per-message",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ae373960-73d3-41f5-ad1b-61ef09a49e9a",
       "title": "ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
       "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it",
@@ -1398,22 +1412,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "574dad5d-b966-4296-ac15-c0d5ecad6cd5",
-      "title": "Show HN: I made a \"programming language\" looking for feedback",
-      "url": "https://github.com/alonsovm44/glupe",
-      "domain": "github.com",
-      "published_at": "2026-03-29T18:35:58Z",
-      "category": "tech",
-      "score": 0.2520783394408328,
-      "tldr": "Show HN: I made a \"programming language\" looking for feedback",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-05T18:28:24.797637029Z",
+  "last_updated": "2026-04-05T19:10:16.052090242Z",
   "total_count": 100
 }
