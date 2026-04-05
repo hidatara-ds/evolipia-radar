@@ -114,6 +114,20 @@
       ]
     },
     {
+      "id": "4700dc02-3cc0-4d46-9a9c-8a3f06727edb",
+      "title": "A Claude Code skill that makes Claude talk like a caveman, cutting token use",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "domain": "github.com",
+      "published_at": "2026-04-05T08:56:18Z",
+      "category": "tech",
+      "score": 0.39688395948317134,
+      "tldr": "A Claude Code skill that makes Claude talk like a caveman, cutting token use",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0da2ee71-6395-485e-9655-7bd74d885dfe",
       "title": "Artemis II crew take “spectacular” image of Earth",
       "url": "https://www.bbc.com/news/articles/ce8jzr423p9o",
@@ -1149,6 +1163,20 @@
       ]
     },
     {
+      "id": "7b611466-8795-43c3-8ba7-d67a46b2acf0",
+      "title": "My Google Workspace account suspension",
+      "url": "https://zencapital.substack.com/p/sad-story-of-my-google-workspace",
+      "domain": "zencapital.substack.com",
+      "published_at": "2026-04-05T11:48:13Z",
+      "category": "tech",
+      "score": 0.25329948877848213,
+      "tldr": "My Google Workspace account suspension",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "37be9a24-974c-434a-ae26-7f1b178bb534",
       "title": "Automatic Textbook Formalization",
       "url": "https://github.com/facebookresearch/repoprover",
@@ -1385,36 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4969f2fe-a94e-48ef-8f35-83df7defc12a",
-      "title": "PIGuard: Prompt Injection Guardrail via Mitigating Overdefense for Free",
-      "url": "https://injecguard.github.io/",
-      "domain": "injecguard.github.io",
-      "published_at": "2026-04-03T19:26:20Z",
-      "category": "tech",
-      "score": 0.25192109804811025,
-      "tldr": "PIGuard: Prompt Injection Guardrail via Mitigating Overdefense for Free",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "18212f11-fc40-4d1c-a3ec-d68cef529b4d",
-      "title": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
-      "url": "https://www.bloomberg.com/features/2025-bottlenecks-transformers",
-      "domain": "bloomberg.com",
-      "published_at": "2026-04-01T18:47:48Z",
-      "category": "tech",
-      "score": 0.25186359839716016,
-      "tldr": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-05T15:01:06.534621161Z",
+  "last_updated": "2026-04-05T15:34:51.009246845Z",
   "total_count": 100
 }
