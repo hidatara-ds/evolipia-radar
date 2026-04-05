@@ -1035,20 +1035,6 @@
       ]
     },
     {
-      "id": "94687cd2-a27d-45b6-ad47-50938e5dacf5",
-      "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
-      "url": "https://github.com/anthropics/claude-code/issues/40710",
-      "domain": "github.com",
-      "published_at": "2026-03-29T22:15:06Z",
-      "category": "tech",
-      "score": 0.2552819957556725,
-      "tldr": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c2bb2486-471d-4f9e-9585-63761c464551",
       "title": "Show HN: A P2P messenger with dual network modes (Fast and Tor)",
       "url": "https://github.com/Realman78/Kiyeovo",
@@ -1411,8 +1397,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "61c3f436-6801-4644-857c-0c2b371325a4",
+      "title": "Someone just converted Claude Leark from TypeScript to 100% Python",
+      "url": "https://github.com/instructkr/claw-code",
+      "domain": "github.com",
+      "published_at": "2026-03-31T15:07:51Z",
+      "category": "tech",
+      "score": 0.25199514660622013,
+      "tldr": "Someone just converted Claude Leark from TypeScript to 100% Python",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-05T21:53:50.568342589Z",
+  "last_updated": "2026-04-05T22:20:01.256751338Z",
   "total_count": 100
 }
