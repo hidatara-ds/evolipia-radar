@@ -785,20 +785,6 @@
       ]
     },
     {
-      "id": "f3248453-1870-4710-aca7-090e1417150b",
-      "title": "OpenYak – An open-source Cowork that runs any model and owns your filesystem",
-      "url": "https://github.com/openyak/desktop",
-      "domain": "github.com",
-      "published_at": "2026-03-29T04:26:13Z",
-      "category": "tech",
-      "score": 0.2664388564390292,
-      "tldr": "OpenYak – An open-source Cowork that runs any model and owns your filesystem",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b3fcf3f2-e6ed-421c-a8d0-cebadce9ee42",
       "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
       "url": "https://sllm.cloud",
@@ -1413,8 +1399,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "c9f6b43e-dfd0-47dc-9423-c7a3fc5f7fac",
+      "title": "Post Mortem: axios NPM supply chain compromise",
+      "url": "https://github.com/axios/axios/issues/10636",
+      "domain": "github.com",
+      "published_at": "2026-04-03T00:00:19Z",
+      "category": "tech",
+      "score": 0.25175443620752325,
+      "tldr": "Post Mortem: axios NPM supply chain compromise",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-05T04:14:36.963333626Z",
+  "last_updated": "2026-04-05T05:58:25.322367042Z",
   "total_count": 100
 }
