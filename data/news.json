@@ -156,6 +156,20 @@
       ]
     },
     {
+      "id": "9495b9cf-44bf-430e-a53c-32d6de5a861d",
+      "title": "Show HN: I built a tiny LLM to demystify how language models work",
+      "url": "https://github.com/arman-bd/guppylm",
+      "domain": "github.com",
+      "published_at": "2026-04-06T00:20:12Z",
+      "category": "tech",
+      "score": 0.39432366989139955,
+      "tldr": "Show HN: I built a tiny LLM to demystify how language models work",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "be659744-cc42-4178-b1fe-e0bed5369c6a",
       "title": "AbodeLLM – An offline AI assistant for Android devices, based on open models",
       "url": "https://github.com/brendmung/AbodeLLM",
@@ -325,6 +339,20 @@
       ]
     },
     {
+      "id": "6135b2f6-eaac-4b70-8c25-f22f6040339c",
+      "title": "Why Switzerland has 25 Gbit internet and America doesn't",
+      "url": "https://sschueller.github.io/posts/the-free-market-lie",
+      "domain": "sschueller.github.io",
+      "published_at": "2026-04-05T18:29:47Z",
+      "category": "tech",
+      "score": 0.32532564151355325,
+      "tldr": "Why Switzerland has 25 Gbit internet and America doesn't",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "03f73eb6-b1c8-4255-8ecc-7368f48c597d",
       "title": "OpenUMA – bring Apple-style unified memory to x86 AI inference (Rust, Linux)",
       "url": "https://github.com/hamtun24/openuma",
@@ -420,21 +448,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "ca96128e-6be2-400e-91fc-f9c00bb42a5c",
-      "title": "The Sudden Fall of OpenAI's Most Hyped Product Since ChatGPT",
-      "url": "https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9",
-      "domain": "wsj.com",
-      "published_at": "2026-03-30T02:43:17Z",
-      "category": "tech",
-      "score": 0.3127390829340838,
-      "tldr": "The Sudden Fall of OpenAI's Most Hyped Product Since ChatGPT",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -713,20 +726,6 @@
       ]
     },
     {
-      "id": "c8b029ed-cbc7-44ec-bcab-f9bc7a939a8d",
-      "title": "DoesItAgeVerify: The age verification status of Open Source Operating Systems",
-      "url": "https://github.com/BryanLunduke/DoesItAgeVerify",
-      "domain": "github.com",
-      "published_at": "2026-03-30T00:52:06Z",
-      "category": "tech",
-      "score": 0.2766749653577447,
-      "tldr": "DoesItAgeVerify: The age verification status of Open Source Operating Systems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "535fb3a0-954b-4de4-abc0-13e88ee3ae4f",
       "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
       "url": "https://github.com/timescale/pg_textsearch",
@@ -769,20 +768,6 @@
       ]
     },
     {
-      "id": "727a4806-bf3e-410e-a1de-6d504f7e3fd1",
-      "title": "Copilot edited an ad into my PR",
-      "url": "https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr",
-      "domain": "notes.zachmanson.com",
-      "published_at": "2026-03-30T04:04:31Z",
-      "category": "tech",
-      "score": 0.2690639497136825,
-      "tldr": "Copilot edited an ad into my PR",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a47a80ce-ca5a-48e4-9119-04cd5dcd5176",
       "title": "Codex pricing to align with API token usage, instead of per-message",
       "url": "https://help.openai.com/en/articles/20001106-codex-rate-card",
@@ -791,6 +776,20 @@
       "category": "tech",
       "score": 0.2681964793790399,
       "tldr": "Codex pricing to align with API token usage, instead of per-message",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "915d4e70-eb9f-49af-9319-2884aac84f51",
+      "title": "Media scraper Gallery-dl is moving to Codeberg after receiving a DMCA notice",
+      "url": "https://github.com/mikf/gallery-dl/discussions/9304",
+      "domain": "github.com",
+      "published_at": "2026-04-06T03:28:04Z",
+      "category": "tech",
+      "score": 0.26789871652270003,
+      "tldr": "Media scraper Gallery-dl is moving to Codeberg after receiving a DMCA notice",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -839,6 +838,21 @@
       ]
     },
     {
+      "id": "8009dbe3-996a-49a9-9c4b-2c00f27e87d0",
+      "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
+      "url": "https://github.com/kessler/gemma-gem",
+      "domain": "github.com",
+      "published_at": "2026-04-06T00:14:37Z",
+      "category": "tech",
+      "score": 0.2608098265542338,
+      "tldr": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud",
+        "general_ai"
+      ]
+    },
+    {
       "id": "b5eed126-e269-440c-b870-e9b688908984",
       "title": "Google's 200M-parameter time-series foundation model with 16k context",
       "url": "https://github.com/google-research/timesfm",
@@ -881,6 +895,20 @@
       ]
     },
     {
+      "id": "d3fe5480-2247-4dee-9343-18833b4a09eb",
+      "title": "Show HN: Modo – I built an open-source alternative to Kiro, Cursor, and Windsurf",
+      "url": "https://github.com/mohshomis/modo",
+      "domain": "github.com",
+      "published_at": "2026-04-05T23:59:10Z",
+      "category": "tech",
+      "score": 0.25887010574590086,
+      "tldr": "Show HN: Modo – I built an open-source alternative to Kiro, Cursor, and Windsurf",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e7657ae2-b1da-4772-b711-4377a1c34df3",
       "title": "OpenAI raises $122B to accelerate the next phase of AI",
       "url": "https://openai.com/index/accelerating-the-next-phase-ai",
@@ -903,6 +931,20 @@
       "category": "tech",
       "score": 0.2567723615457346,
       "tldr": "Nvim-treesitter (13K+ Stars) is Archived",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1320c507-865e-47e1-91ff-486cf09a496c",
+      "title": "Recall – local multimodal semantic search for your files",
+      "url": "https://github.com/aayu22809/Recall",
+      "domain": "github.com",
+      "published_at": "2026-04-06T00:09:14Z",
+      "category": "tech",
+      "score": 0.25653135702805163,
+      "tldr": "Recall – local multimodal semantic search for your files",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1063,6 +1105,20 @@
       ]
     },
     {
+      "id": "90e49c54-4a6a-4927-ac15-ba70a0b4f647",
+      "title": "Show HN: Mdarena – Benchmark your Claude.md against your own PRs",
+      "url": "https://github.com/HudsonGri/mdarena",
+      "domain": "github.com",
+      "published_at": "2026-04-05T23:35:59Z",
+      "category": "tech",
+      "score": 0.25450205978538776,
+      "tldr": "Show HN: Mdarena – Benchmark your Claude. md against your own PRs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8d5cc19e-4909-4068-a5c9-7cf9ac1d046b",
       "title": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
       "url": "https://github.com/razvandimescu/numa",
@@ -1133,6 +1189,20 @@
       ]
     },
     {
+      "id": "74756f76-ec92-4c98-a58c-995f10930ea7",
+      "title": "LLMs can't justify their answers–this CLI forces them to",
+      "url": "https://wheat.grainulation.com/",
+      "domain": "wheat.grainulation.com",
+      "published_at": "2026-04-06T01:07:51Z",
+      "category": "tech",
+      "score": 0.2536600402087123,
+      "tldr": "LLMs can't justify their answers–this CLI forces them to",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1efd45fc-86c5-44b2-8745-7b0df6a1d150",
       "title": "Show HN: I built a frontpage for personal blogs",
       "url": "https://text.blogosphere.app/",
@@ -1141,6 +1211,20 @@
       "category": "tech",
       "score": 0.2535067773517521,
       "tldr": "Show HN: I built a frontpage for personal blogs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "82b091bf-8d4f-413d-8995-c1d5cfca8556",
+      "title": "My university uses prompt injection to catch cheaters",
+      "url": "https://varun.ch/til/prompt-injection-catch-cheaters",
+      "domain": "varun.ch",
+      "published_at": "2026-04-05T21:57:52Z",
+      "category": "tech",
+      "score": 0.25348520671124314,
+      "tldr": "My university uses prompt injection to catch cheaters",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1259,6 +1343,20 @@
       ]
     },
     {
+      "id": "2bb05f42-0acd-4654-9c8a-a945a821ec32",
+      "title": "Case study: recovery of a corrupted 12 TB multi-device pool",
+      "url": "https://github.com/kdave/btrfs-progs/issues/1107",
+      "domain": "github.com",
+      "published_at": "2026-04-06T02:28:40Z",
+      "category": "tech",
+      "score": 0.25245644060136474,
+      "tldr": "Case study: recovery of a corrupted 12 TB multi-device pool",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d31445fb-40fd-48d2-836a-adf9222d3c19",
       "title": "The Mechanics of Steins Gate (2023) [pdf]",
       "url": "https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf",
@@ -1313,106 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "29d54686-fda1-4954-936a-2260c213b85c",
-      "title": "Is BGP safe yet?",
-      "url": "https://isbgpsafeyet.com/",
-      "domain": "isbgpsafeyet.com",
-      "published_at": "2026-04-01T13:10:29Z",
-      "category": "tech",
-      "score": 0.25229261136444847,
-      "tldr": "Is BGP safe yet?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8b000354-7b16-4a6c-bb07-54e0c81d96c2",
-      "title": "Show HN: Running local OpenClaw together with remote agents in an open network",
-      "url": "https://github.com/hybroai/hybro-hub",
-      "domain": "github.com",
-      "published_at": "2026-04-04T17:54:52Z",
-      "category": "tech",
-      "score": 0.2522515841742287,
-      "tldr": "Show HN: Running local OpenClaw together with remote agents in an open network",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8ec26760-22f9-4a7e-8b4d-6fcd69e575b6",
-      "title": "Prerelease of Ky 2.0",
-      "url": "https://github.com/sindresorhus/ky/releases/tag/v2.0.0-0",
-      "domain": "github.com",
-      "published_at": "2026-03-31T16:04:16Z",
-      "category": "tech",
-      "score": 0.25219192046137207,
-      "tldr": "Prerelease of Ky 2.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2a4d0a52-e822-46a2-81b7-9431244c68af",
-      "title": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
-      "url": "https://github.com/salmanmohammadi/nanocode/discussions/1",
-      "domain": "github.com",
-      "published_at": "2026-04-05T14:21:17Z",
-      "category": "tech",
-      "score": 0.2521904748995506,
-      "tldr": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fa20dd3d-ab96-41f9-a9b5-9f4d6a4feaac",
-      "title": "SolveSpace (open source 2D/3D CAD) working on Windows 2000 (2025)",
-      "url": "https://github.com/solvespace/solvespace/issues/1036",
-      "domain": "github.com",
-      "published_at": "2026-04-01T22:32:04Z",
-      "category": "tech",
-      "score": 0.25219046308791127,
-      "tldr": "SolveSpace (open source 2D/3D CAD) working on Windows 2000 (2025)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "534507ff-031f-4978-a15e-93168fdf0295",
-      "title": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
-      "url": "https://github.com/JasonHonKL/PardusBrowser/tree/main",
-      "domain": "github.com",
-      "published_at": "2026-03-31T10:21:33Z",
-      "category": "tech",
-      "score": 0.25205383278266263,
-      "tldr": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "61c3f436-6801-4644-857c-0c2b371325a4",
-      "title": "Someone just converted Claude Leark from TypeScript to 100% Python",
-      "url": "https://github.com/instructkr/claw-code",
-      "domain": "github.com",
-      "published_at": "2026-03-31T15:07:51Z",
-      "category": "tech",
-      "score": 0.25199514660622013,
-      "tldr": "Someone just converted Claude Leark from TypeScript to 100% Python",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-05T23:25:37.601655153Z",
+  "last_updated": "2026-04-06T04:21:51.873895077Z",
   "total_count": 100
 }
