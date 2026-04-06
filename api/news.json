@@ -698,6 +698,20 @@
       ]
     },
     {
+      "id": "f6bb684c-2f30-42cc-95f1-517550163026",
+      "title": "Show HN: I made a YouTube search form with advanced filters",
+      "url": "https://playlists.at/youtube/search",
+      "domain": "playlists.at",
+      "published_at": "2026-04-06T00:18:26Z",
+      "category": "tech",
+      "score": 0.280624255320635,
+      "tldr": "Show HN: I made a YouTube search form with advanced filters",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cde1fd20-6f22-4ff4-8364-77a0f3893747",
       "title": "OpenAI closes funding round at an $852B valuation",
       "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
@@ -720,6 +734,20 @@
       "category": "tech",
       "score": 0.27775169607580924,
       "tldr": "OpenAI Acquires TBPN",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "208e27a2-55fd-41d5-bd74-8fa5c56de7e8",
+      "title": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
+      "url": "https://github.com/fikrikarim/parlor",
+      "domain": "github.com",
+      "published_at": "2026-04-05T17:53:19Z",
+      "category": "tech",
+      "score": 0.27565311609864096,
+      "tldr": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -818,6 +846,20 @@
       "category": "tech",
       "score": 0.26484271474438087,
       "tldr": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "68d8caac-f9fd-4251-9dfa-37103ad2f4f9",
+      "title": "Does coding with LLMs mean more microservices?",
+      "url": "https://ben.page/microservices",
+      "domain": "ben.page",
+      "published_at": "2026-04-06T02:33:21Z",
+      "category": "tech",
+      "score": 0.2618862617228984,
+      "tldr": "Does coding with LLMs mean more microservices?",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -965,20 +1007,6 @@
       ]
     },
     {
-      "id": "2692ef67-7a77-4583-ae05-0cb2d9bd4caf",
-      "title": "HD Audio Driver for Windows 98SE / Me",
-      "url": "https://github.com/andrew-hoffman/wdmhda",
-      "domain": "github.com",
-      "published_at": "2026-03-30T05:01:07Z",
-      "category": "tech",
-      "score": 0.2563236770670344,
-      "tldr": "HD Audio Driver for Windows 98SE / Me",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2136e839-ad3b-475b-95ed-ab2a491a3d9f",
       "title": "Run Linux containers on Android, no root required",
       "url": "https://github.com/ExTV/Podroid",
@@ -1074,20 +1102,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "a5e8ebde-8cca-4e2c-bc36-4114ba55be00",
-      "title": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
-      "url": "https://dani2442.github.io/posts/continuous-rl",
-      "domain": "dani2442.github.io",
-      "published_at": "2026-03-30T07:34:04Z",
-      "category": "tech",
-      "score": 0.25485256059124894,
-      "tldr": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1397,22 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "857ab59f-7ee0-49c9-a24b-34401902b951",
-      "title": "SPF/PC v4 for MS-DOS, FreeDOS, x86",
-      "url": "https://github.com/moshix/SPFPC",
-      "domain": "github.com",
-      "published_at": "2026-04-05T14:37:20Z",
-      "category": "tech",
-      "score": 0.25229447727176557,
-      "tldr": "SPF/PC v4 for MS-DOS, FreeDOS, x86",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-06T04:21:51.873895077Z",
+  "last_updated": "2026-04-06T10:46:47.279072525Z",
   "total_count": 100
 }
