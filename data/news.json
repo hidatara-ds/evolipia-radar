@@ -395,20 +395,6 @@
       ]
     },
     {
-      "id": "a35597e2-78ac-477f-82b8-618de02262cf",
-      "title": "How the AI Bubble Bursts",
-      "url": "https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts",
-      "domain": "martinvol.pe",
-      "published_at": "2026-03-30T12:28:36Z",
-      "category": "tech",
-      "score": 0.31878219707909766,
-      "tldr": "How the AI Bubble Bursts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "981992be-f70d-43c0-ae31-9c3971d0da3d",
       "title": "Google releases Gemma 4 open models",
       "url": "https://deepmind.google/models/gemma/gemma-4",
@@ -628,20 +614,6 @@
       ]
     },
     {
-      "id": "760ce09b-13a4-4899-9190-271698c68b2c",
-      "title": "Mathematical methods and human thought in the age of AI",
-      "url": "https://arxiv.org/abs/2603.26524",
-      "domain": "arxiv.org",
-      "published_at": "2026-03-30T11:05:37Z",
-      "category": "tech",
-      "score": 0.28715289294254104,
-      "tldr": "Mathematical methods and human thought in the age of AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ac132100-2265-4ea4-ac2b-7b98f4f038d2",
       "title": "OpenClaw privilege escalation vulnerability",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
@@ -678,6 +650,20 @@
       "category": "tech",
       "score": 0.28358430284538283,
       "tldr": "Talk like caveman",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b3a4e6d7-7d51-4845-bb11-e55bab0be327",
+      "title": "Age Verification as Mass Surveillance Infrastructure",
+      "url": "https://tboteproject.com/surveillancefindings",
+      "domain": "tboteproject.com",
+      "published_at": "2026-04-06T10:33:02Z",
+      "category": "tech",
+      "score": 0.28326432758865405,
+      "tldr": "Age Verification as Mass Surveillance Infrastructure",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1189,6 +1175,20 @@
       ]
     },
     {
+      "id": "efa90dc5-9a12-41a7-ae30-3ce2396bcd81",
+      "title": "Ask HN: How do systems (or people) detect when a text is written by an LLM",
+      "url": "https://news.ycombinator.com/item?id=47659807",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-04-06T12:03:00Z",
+      "category": "tech",
+      "score": 0.2539316854314327,
+      "tldr": "Ask HN: How do systems (or people) detect when a text is written by an LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "93813176-8f45-4c56-8e4b-a5bb6c073982",
       "title": "Show HN: How This Graybeard Built the Fastest and Freest Postgres BM25 Search",
       "url": "https://github.com/timescale/pg_textsearch",
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-06T10:46:47.279072525Z",
+  "last_updated": "2026-04-06T12:45:05.981293651Z",
   "total_count": 100
 }
