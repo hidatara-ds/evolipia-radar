@@ -254,20 +254,6 @@
       ]
     },
     {
-      "id": "b37af901-2647-4273-b8e9-886690168743",
-      "title": "Show HN: Lazy-tool: reducing prompt bloat in MCP-based agent workflows",
-      "url": "https://github.com/rpgeeganage/lazy-tool",
-      "domain": "github.com",
-      "published_at": "2026-03-31T16:32:46Z",
-      "category": "tech",
-      "score": 0.3316183286260432,
-      "tldr": "Show HN: Lazy-tool: reducing prompt bloat in MCP-based agent workflows",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b3225529-ea98-4de4-af96-3ec5efb73b09",
       "title": "Claude wrote a full FreeBSD remote kernel RCE with root shell",
       "url": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
@@ -738,20 +724,6 @@
       ]
     },
     {
-      "id": "535fb3a0-954b-4de4-abc0-13e88ee3ae4f",
-      "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
-      "url": "https://github.com/timescale/pg_textsearch",
-      "domain": "github.com",
-      "published_at": "2026-03-31T16:29:52Z",
-      "category": "tech",
-      "score": 0.27484081018622136,
-      "tldr": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b0d6422d-3a10-4e25-8e49-6a5fcec6f311",
       "title": "Solod – A Subset of Go That Translates to C",
       "url": "https://github.com/solod-dev/solod",
@@ -1215,20 +1187,6 @@
       ]
     },
     {
-      "id": "93813176-8f45-4c56-8e4b-a5bb6c073982",
-      "title": "Show HN: How This Graybeard Built the Fastest and Freest Postgres BM25 Search",
-      "url": "https://github.com/timescale/pg_textsearch",
-      "domain": "github.com",
-      "published_at": "2026-03-31T16:29:52Z",
-      "category": "tech",
-      "score": 0.2538426713817427,
-      "tldr": "Show HN: How This Graybeard Built the Fastest and Freest Postgres BM25 Search",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "74756f76-ec92-4c98-a58c-995f10930ea7",
       "title": "LLMs can't justify their answers–this CLI forces them to",
       "url": "https://wheat.grainulation.com/",
@@ -1307,6 +1265,20 @@
       "category": "tech",
       "score": 0.25325443667419767,
       "tldr": "Automatic Textbook Formalization",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "84865747-0c0f-490b-b147-6d922f058d6f",
+      "title": "Show HN: Finalrun – Spec-driven testing using English and vision for mobile apps",
+      "url": "https://github.com/final-run/finalrun-agent",
+      "domain": "github.com",
+      "published_at": "2026-04-07T14:33:48Z",
+      "category": "tech",
+      "score": 0.2531948964934698,
+      "tldr": "Show HN: Finalrun – Spec-driven testing using English and vision for mobile apps",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,8 +1381,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d6aa8edf-4bed-47c0-8ca9-3239bb9b3143",
+      "title": "Show HN: Real-time dashboard for Claude Code agent teams",
+      "url": "https://github.com/simple10/agents-observe",
+      "domain": "github.com",
+      "published_at": "2026-04-01T16:24:28Z",
+      "category": "tech",
+      "score": 0.252535300618253,
+      "tldr": "Show HN: Real-time dashboard for Claude Code agent teams",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2bb05f42-0acd-4654-9c8a-a945a821ec32",
+      "title": "Case study: recovery of a corrupted 12 TB multi-device pool",
+      "url": "https://github.com/kdave/btrfs-progs/issues/1107",
+      "domain": "github.com",
+      "published_at": "2026-04-06T02:28:40Z",
+      "category": "tech",
+      "score": 0.25245644060136474,
+      "tldr": "Case study: recovery of a corrupted 12 TB multi-device pool",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-07T15:52:34.532963481Z",
+  "last_updated": "2026-04-07T16:45:35.794253668Z",
   "total_count": 100
 }
