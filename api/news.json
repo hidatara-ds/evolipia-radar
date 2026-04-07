@@ -310,6 +310,20 @@
       ]
     },
     {
+      "id": "08b398e1-7a41-4ea6-b0d8-ada6e8318097",
+      "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
+      "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
+      "domain": "github.com",
+      "published_at": "2026-04-07T19:37:05Z",
+      "category": "tech",
+      "score": 0.3266926237177836,
+      "tldr": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6135b2f6-eaac-4b70-8c25-f22f6040339c",
       "title": "Why Switzerland has 25 Gbit internet and America doesn't",
       "url": "https://sschueller.github.io/posts/the-free-market-lie",
@@ -1075,20 +1089,6 @@
       ]
     },
     {
-      "id": "e8e16ffd-8eef-4663-b4b0-bffbe767d50f",
-      "title": "Show HN: Cerno – CAPTCHA that targets LLM reasoning, not human biology",
-      "url": "https://cerno.sh",
-      "domain": "cerno.sh",
-      "published_at": "2026-03-31T19:22:58Z",
-      "category": "tech",
-      "score": 0.2559116796751243,
-      "tldr": "Show HN: Cerno – CAPTCHA that targets LLM reasoning, not human biology",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "49897761-ed7b-49ab-b3bd-26333754897e",
       "title": "We intercepted the White House app's network traffic",
       "url": "https://www.atomic.computer/blog/white-house-app-network-traffic-analysis",
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-07T18:46:17.11931469Z",
+  "last_updated": "2026-04-07T19:50:30.06223402Z",
   "total_count": 100
 }
