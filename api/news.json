@@ -935,20 +935,6 @@
       ]
     },
     {
-      "id": "b5eed126-e269-440c-b870-e9b688908984",
-      "title": "Google's 200M-parameter time-series foundation model with 16k context",
-      "url": "https://github.com/google-research/timesfm",
-      "domain": "github.com",
-      "published_at": "2026-03-31T05:21:59Z",
-      "category": "tech",
-      "score": 0.26068879343642737,
-      "tldr": "Google's 200M-parameter time-series foundation model with 16k context",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3a51522e-6ae6-44b8-b41b-bfab61a4532b",
       "title": "12,000 AI-generated blog posts added in a single commit",
       "url": "https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8d8fbdc7-7cd4-4881-b19b-72aff4ecf392",
+      "title": "Modern Generic SVGA driver for Windows 3.1",
+      "url": "https://github.com/PluMGMK/vbesvga.drv",
+      "domain": "github.com",
+      "published_at": "2026-04-05T05:28:41Z",
+      "category": "tech",
+      "score": 0.2525793415109957,
+      "tldr": "Modern Generic SVGA driver for Windows 3.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-07T04:09:43.309371599Z",
+  "last_updated": "2026-04-07T07:22:02.338694078Z",
   "total_count": 100
 }
