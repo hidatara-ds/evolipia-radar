@@ -85,20 +85,6 @@
       ]
     },
     {
-      "id": "b24a3f2e-166e-464b-803e-9c340294a240",
-      "title": "Oracle slashes 30k jobs",
-      "url": "https://rollingout.com/2026/03/31/oracle-slashes-30000-jobs-with-a-cold-6",
-      "domain": "rollingout.com",
-      "published_at": "2026-03-31T14:30:48Z",
-      "category": "tech",
-      "score": 0.4536649811579597,
-      "tldr": "Oracle slashes 30k jobs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5cd12ac1-cc0a-477d-9d09-e135459858e9",
       "title": "Embarrassingly simple self-distillation improves code generation",
       "url": "https://arxiv.org/abs/2604.01193",
@@ -444,6 +430,20 @@
       "category": "tech",
       "score": 0.31284351617298417,
       "tldr": "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "80cd26f7-f2ab-415c-a864-fb489fe7e138",
+      "title": "Claude Code is locking people out for hours",
+      "url": "https://github.com/anthropics/claude-code/issues/44257",
+      "domain": "github.com",
+      "published_at": "2026-04-07T15:04:23Z",
+      "category": "tech",
+      "score": 0.3075521961159496,
+      "tldr": "Claude Code is locking people out for hours",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-07T14:26:41.140902366Z",
+  "last_updated": "2026-04-07T15:52:34.532963481Z",
   "total_count": 100
 }
