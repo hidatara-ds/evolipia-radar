@@ -113,6 +113,21 @@
       ]
     },
     {
+      "id": "43bcc13b-2737-431e-a36b-67ef8e658599",
+      "title": "Taste in the age of AI and LLMs",
+      "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms",
+      "domain": "rajnandan.com",
+      "published_at": "2026-04-07T15:54:16Z",
+      "category": "tech",
+      "score": 0.3994916932459028,
+      "tldr": "Taste in the age of AI and LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "4c33a4ea-117f-4e03-8e38-0ff17921b5ce",
       "title": "France pulls last gold held in US",
       "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain",
@@ -682,20 +697,6 @@
       ]
     },
     {
-      "id": "cde1fd20-6f22-4ff4-8364-77a0f3893747",
-      "title": "OpenAI closes funding round at an $852B valuation",
-      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-03-31T20:07:30Z",
-      "category": "tech",
-      "score": 0.27890380278533605,
-      "tldr": "OpenAI closes funding round at an $852B valuation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3b5cb7b8-616e-4780-8d06-c18f04d760a7",
       "title": "OpenAI Acquires TBPN",
       "url": "https://openai.com/index/openai-acquires-tbpn",
@@ -943,20 +944,6 @@
       "category": "tech",
       "score": 0.2606174392714008,
       "tldr": "12,000 AI-generated blog posts added in a single commit",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b82ffda7-769d-4b50-a03b-f4300d2a6371",
-      "title": "Accelerating the Next Phase of AI",
-      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
-      "domain": "openai.com",
-      "published_at": "2026-03-31T20:07:30Z",
-      "category": "tech",
-      "score": 0.2603500513129459,
-      "tldr": "Accelerating the Next Phase of AI",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1271,6 +1258,20 @@
       ]
     },
     {
+      "id": "00482146-7490-49cf-989f-d77e8796a7a8",
+      "title": "Tailslayer: Library for reducing tail latency in RAM reads",
+      "url": "https://github.com/LaurieWired/tailslayer",
+      "domain": "github.com",
+      "published_at": "2026-04-07T19:16:10Z",
+      "category": "tech",
+      "score": 0.25328144832410676,
+      "tldr": "Tailslayer: Library for reducing tail latency in RAM reads",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "37be9a24-974c-434a-ae26-7f1b178bb534",
       "title": "Automatic Textbook Formalization",
       "url": "https://github.com/facebookresearch/repoprover",
@@ -1411,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-07T19:50:30.06223402Z",
+  "last_updated": "2026-04-07T20:36:01.048752931Z",
   "total_count": 100
 }
