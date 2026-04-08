@@ -200,21 +200,6 @@
       ]
     },
     {
-      "id": "be659744-cc42-4178-b1fe-e0bed5369c6a",
-      "title": "AbodeLLM – An offline AI assistant for Android devices, based on open models",
-      "url": "https://github.com/brendmung/AbodeLLM",
-      "domain": "github.com",
-      "published_at": "2026-04-01T22:08:28Z",
-      "category": "tech",
-      "score": 0.3745767348690261,
-      "tldr": "AbodeLLM – An offline AI assistant for Android devices, based on open models",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "83574759-6a76-47c3-b3bb-65fb8b11428f",
       "title": "The case for zero-error horizons in trustworthy LLMs",
       "url": "https://arxiv.org/abs/2601.15714",
@@ -1409,8 +1394,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "a67be409-3468-4628-9154-ae51d32e81fc",
+      "title": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
+      "url": "https://github.com/4RH1T3CT0R7/ttf-doom",
+      "domain": "github.com",
+      "published_at": "2026-04-06T19:25:39Z",
+      "category": "tech",
+      "score": 0.25290879278862344,
+      "tldr": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-08T22:04:54.152372139Z",
+  "last_updated": "2026-04-08T23:05:34.2041335Z",
   "total_count": 100
 }
