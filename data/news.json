@@ -57,6 +57,20 @@
       ]
     },
     {
+      "id": "7916282a-12a5-4fbb-b770-3de18b237e4a",
+      "title": "Git commands I run before reading any code",
+      "url": "https://piechowski.io/post/git-commands-before-reading-code",
+      "domain": "piechowski.io",
+      "published_at": "2026-04-08T08:53:42Z",
+      "category": "tech",
+      "score": 0.4880531377327267,
+      "tldr": "Git commands I run before reading any code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ff294b21-e7b0-4c68-8446-772677248ac5",
       "title": "NASA’s Artemis II Crew Launches to the Moon",
       "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates",
@@ -111,6 +125,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "f2483ca8-4403-4927-834c-1be2f0eed831",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-08T12:19:00Z",
+      "category": "tech",
+      "score": 0.4141729972956427,
+      "tldr": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -1103,6 +1132,20 @@
       ]
     },
     {
+      "id": "4291ecda-c644-4412-a3c6-803b733d2e6b",
+      "title": "Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",
+      "url": "https://github.com/pcruz1905/hls-restream-proxy",
+      "domain": "github.com",
+      "published_at": "2026-04-08T12:17:57Z",
+      "category": "tech",
+      "score": 0.2559349213135499,
+      "tldr": "Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c2bb2486-471d-4f9e-9585-63761c464551",
       "title": "Show HN: A P2P messenger with dual network modes (Fast and Tor)",
       "url": "https://github.com/Realman78/Kiyeovo",
@@ -1367,50 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b11eddbd-c237-4135-a206-68c1c9464dca",
-      "title": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
-      "url": "https://github.com/teamchong/turboquant-wasm",
-      "domain": "github.com",
-      "published_at": "2026-04-04T14:53:16Z",
-      "category": "tech",
-      "score": 0.2527506731202574,
-      "tldr": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8d8fbdc7-7cd4-4881-b19b-72aff4ecf392",
-      "title": "Modern Generic SVGA driver for Windows 3.1",
-      "url": "https://github.com/PluMGMK/vbesvga.drv",
-      "domain": "github.com",
-      "published_at": "2026-04-05T05:28:41Z",
-      "category": "tech",
-      "score": 0.2525793415109957,
-      "tldr": "Modern Generic SVGA driver for Windows 3.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d6aa8edf-4bed-47c0-8ca9-3239bb9b3143",
-      "title": "Show HN: Real-time dashboard for Claude Code agent teams",
-      "url": "https://github.com/simple10/agents-observe",
-      "domain": "github.com",
-      "published_at": "2026-04-01T16:24:28Z",
-      "category": "tech",
-      "score": 0.252535300618253,
-      "tldr": "Show HN: Real-time dashboard for Claude Code agent teams",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-08T11:46:10.64085211Z",
+  "last_updated": "2026-04-08T14:28:36.698734838Z",
   "total_count": 100
 }
