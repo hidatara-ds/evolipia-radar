@@ -1088,20 +1088,6 @@
       ]
     },
     {
-      "id": "3d1df5f9-38a6-4d9f-864f-d9688019e2b1",
-      "title": "A new C++ back end for ocamlc",
-      "url": "https://github.com/ocaml/ocaml/pull/14701",
-      "domain": "github.com",
-      "published_at": "2026-04-01T23:35:02Z",
-      "category": "tech",
-      "score": 0.25646392086037195,
-      "tldr": "A new C++ back end for ocamlc",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2136e839-ad3b-475b-95ed-ab2a491a3d9f",
       "title": "Run Linux containers on Android, no root required",
       "url": "https://github.com/ExTV/Podroid",
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "462ebd6e-4e3c-4da7-96f1-48d7a06582a8",
+      "title": "Show HN: Mtproto.zig – High-performance Telegram proxy with DPI evasion",
+      "url": "https://github.com/sleep3r/mtproto.zig",
+      "domain": "github.com",
+      "published_at": "2026-04-03T21:42:09Z",
+      "category": "tech",
+      "score": 0.25275813369639716,
+      "tldr": "zig – High-performance Telegram proxy with DPI evasion",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-08T23:05:34.2041335Z",
+  "last_updated": "2026-04-08T23:57:22.094056225Z",
   "total_count": 100
 }
