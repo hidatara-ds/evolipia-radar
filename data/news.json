@@ -298,20 +298,6 @@
       ]
     },
     {
-      "id": "b3225529-ea98-4de4-af96-3ec5efb73b09",
-      "title": "Claude wrote a full FreeBSD remote kernel RCE with root shell",
-      "url": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
-      "domain": "github.com",
-      "published_at": "2026-04-01T05:21:48Z",
-      "category": "tech",
-      "score": 0.33105994458830384,
-      "tldr": "Claude wrote a full FreeBSD remote kernel RCE with root shell",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4b9602be-a207-45eb-87d4-673d04f8f990",
       "title": "Simple self-distillation improves code generation",
       "url": "https://arxiv.org/abs/2604.01193",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2bb05f42-0acd-4654-9c8a-a945a821ec32",
+      "title": "Case study: recovery of a corrupted 12 TB multi-device pool",
+      "url": "https://github.com/kdave/btrfs-progs/issues/1107",
+      "domain": "github.com",
+      "published_at": "2026-04-06T02:28:40Z",
+      "category": "tech",
+      "score": 0.25245644060136474,
+      "tldr": "Case study: recovery of a corrupted 12 TB multi-device pool",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-08T04:59:37.190594522Z",
+  "last_updated": "2026-04-08T06:21:06.351949146Z",
   "total_count": 100
 }
