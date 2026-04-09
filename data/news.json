@@ -510,20 +510,6 @@
       ]
     },
     {
-      "id": "26f25798-5c46-4f73-a31b-e9aca7a65888",
-      "title": "I Am Not A Number. In memory of the more than 72,000 Palestinians killed",
-      "url": "https://bkhmsi.github.io/i-am-not-a-number",
-      "domain": "bkhmsi.github.io",
-      "published_at": "2026-04-02T09:32:13Z",
-      "category": "tech",
-      "score": 0.3020747368823782,
-      "tldr": "In memory of the more than 72,000 Palestinians killed",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "91755cf1-c121-4f94-850b-7546688c3e3e",
       "title": "Live and Let AI: Former CIA officer says human spies matter more in the LLM age",
       "url": "https://www.theregister.com/2026/04/01/live_and_let_ai_excia",
@@ -1172,20 +1158,6 @@
       ]
     },
     {
-      "id": "8d5cc19e-4909-4068-a5c9-7cf9ac1d046b",
-      "title": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
-      "url": "https://github.com/razvandimescu/numa",
-      "domain": "github.com",
-      "published_at": "2026-04-02T10:07:57Z",
-      "category": "tech",
-      "score": 0.2545017625622974,
-      "tldr": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "597c2a27-99b0-48c2-a82a-78aa45b4c53f",
       "title": "Claude Code is unusable for complex engineering tasks with the Feb updates",
       "url": "https://github.com/anthropics/claude-code/issues/42796",
@@ -1225,6 +1197,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "202ce777-649c-425e-ae7e-c955ab29e5db",
+      "title": "Nigel Farage wants to build a British ICE. Starmer may have handed him the tools",
+      "url": "https://www.thenerve.news/p/reform-deportation-operation-restoring-justice-data-surveillance-palantir-uk-labour",
+      "domain": "thenerve.news",
+      "published_at": "2026-04-09T09:04:19Z",
+      "category": "tech",
+      "score": 0.2538353667184444,
+      "tldr": "Nigel Farage wants to build a British ICE. Starmer may have handed him the tools",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8d8fbdc7-7cd4-4881-b19b-72aff4ecf392",
+      "title": "Modern Generic SVGA driver for Windows 3.1",
+      "url": "https://github.com/PluMGMK/vbesvga.drv",
+      "domain": "github.com",
+      "published_at": "2026-04-05T05:28:41Z",
+      "category": "tech",
+      "score": 0.2525793415109957,
+      "tldr": "Modern Generic SVGA driver for Windows 3.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-09T09:05:58.134569896Z",
+  "last_updated": "2026-04-09T10:39:04.545959666Z",
   "total_count": 100
 }
