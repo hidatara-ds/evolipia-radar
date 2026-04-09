@@ -172,6 +172,20 @@
       ]
     },
     {
+      "id": "bf2a01b1-e4e7-4fcd-980f-acb78e50aeae",
+      "title": "The Vercel plugin on Claude Code wants to read your prompts",
+      "url": "https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry",
+      "domain": "akshaychugh.xyz",
+      "published_at": "2026-04-09T15:17:27Z",
+      "category": "tech",
+      "score": 0.3542195351597426,
+      "tldr": "The Vercel plugin on Claude Code wants to read your prompts",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ed4513d4-6a1c-4cf6-a37d-01d4ecce0a10",
       "title": "I Won't Download Your App. The Web Version Is A-OK",
       "url": "https://www.0xsid.com/blog/wont-download-your-app",
@@ -466,18 +480,16 @@
       ]
     },
     {
-      "id": "52898746-61e8-4e60-9fb9-01111a254eb1",
-      "title": "Mistral secures $830M in debt financing to fund AI data center",
-      "url": "https://www.cnbc.com/2026/03/30/mistral-ai-paris-data-center-cluster-debt-financing.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-04-02T18:31:00Z",
+      "id": "1ca44d13-95ef-4fc4-ae24-c6d47e4fbe98",
+      "title": "ChatGPT Pro now starts at $100/month",
+      "url": "https://chatgpt.com/pricing",
+      "domain": "chatgpt.com",
+      "published_at": "2026-04-09T18:09:19Z",
       "category": "tech",
-      "score": 0.3035442747707897,
-      "tldr": "Mistral secures $830M in debt financing to fund AI data center",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.29934681849791067,
+      "tldr": "ChatGPT Pro now starts at $100/month",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "data",
-        "general_ai",
         "llm"
       ]
     },
@@ -604,6 +616,20 @@
       "category": "tech",
       "score": 0.2829091980426973,
       "tldr": "OpenClaw privilege-escalation bug",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "147703a7-1f2f-4e71-8860-348853d8ddd6",
+      "title": "Show HN: I built a Cargo-like build tool for C/C++",
+      "url": "https://github.com/randerson112/craft",
+      "domain": "github.com",
+      "published_at": "2026-04-09T16:04:54Z",
+      "category": "tech",
+      "score": 0.2823465483036632,
+      "tldr": "Show HN: I built a Cargo-like build tool for C/C++",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1073,6 +1099,20 @@
       ]
     },
     {
+      "id": "9ee0f27e-a57d-49c8-8aba-6a4df355af09",
+      "title": "Top laptops to use with FreeBSD",
+      "url": "https://freebsdfoundation.github.io/freebsd-laptop-testing",
+      "domain": "freebsdfoundation.github.io",
+      "published_at": "2026-04-09T09:17:25Z",
+      "category": "tech",
+      "score": 0.2553271622699513,
+      "tldr": "Top laptops to use with FreeBSD",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cfb016ec-bf5d-40e7-a3bc-e1a71edbc1cc",
       "title": "Show HN: TUI-use: Let AI agents control interactive terminal programs",
       "url": "https://github.com/onesuper/tui-use",
@@ -1365,50 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2bb05f42-0acd-4654-9c8a-a945a821ec32",
-      "title": "Case study: recovery of a corrupted 12 TB multi-device pool",
-      "url": "https://github.com/kdave/btrfs-progs/issues/1107",
-      "domain": "github.com",
-      "published_at": "2026-04-06T02:28:40Z",
-      "category": "tech",
-      "score": 0.25245644060136474,
-      "tldr": "Case study: recovery of a corrupted 12 TB multi-device pool",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d31445fb-40fd-48d2-836a-adf9222d3c19",
-      "title": "The Mechanics of Steins Gate (2023) [pdf]",
-      "url": "https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf",
-      "domain": "github.com",
-      "published_at": "2026-04-05T21:42:01Z",
-      "category": "tech",
-      "score": 0.25245223751155454,
-      "tldr": "The Mechanics of Steins Gate (2023) [pdf]",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c3b231ce-220b-4824-bcdf-963ca8173fbc",
-      "title": "Show HN: Hippo, biologically inspired memory for AI agents",
-      "url": "https://github.com/kitfunso/hippo-memory",
-      "domain": "github.com",
-      "published_at": "2026-04-06T21:49:34Z",
-      "category": "tech",
-      "score": 0.25243852589980376,
-      "tldr": "Show HN: Hippo, biologically inspired memory for AI agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-09T17:36:17.115310414Z",
+  "last_updated": "2026-04-09T18:46:46.110967472Z",
   "total_count": 100
 }
