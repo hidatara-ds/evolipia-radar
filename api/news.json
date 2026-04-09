@@ -312,6 +312,34 @@
       ]
     },
     {
+      "id": "7eb37187-2761-4ace-8645-c82a57023a42",
+      "title": "Show HN: BrokenClaw Part 5: GPT-5.4 Edition (Prompt Injection)",
+      "url": "https://veganmosfet.codeberg.page/posts/2026-04-08-openclaw_gpt5_4",
+      "domain": "veganmosfet.codeberg.page",
+      "published_at": "2026-04-09T16:32:25Z",
+      "category": "tech",
+      "score": 0.32613242120950836,
+      "tldr": "Show HN: BrokenClaw Part 5: GPT-5. 4 Edition (Prompt Injection)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "cb7c1466-a96c-4839-b71e-8628f2a8d1fe",
+      "title": "A complete GPT language model in ~600 lines of C#, zero dependencies",
+      "url": "https://github.com/milanm/AutoGrad-Engine",
+      "domain": "github.com",
+      "published_at": "2026-04-09T15:03:49Z",
+      "category": "tech",
+      "score": 0.32587310317750234,
+      "tldr": "A complete GPT language model in ~600 lines of C#, zero dependencies",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6e136ac5-5e2d-4347-8a5e-adebb94157d7",
       "title": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
       "url": "https://arxiv.org/abs/2603.20957",
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b11eddbd-c237-4135-a206-68c1c9464dca",
-      "title": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
-      "url": "https://github.com/teamchong/turboquant-wasm",
-      "domain": "github.com",
-      "published_at": "2026-04-04T14:53:16Z",
-      "category": "tech",
-      "score": 0.2527506731202574,
-      "tldr": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8d8fbdc7-7cd4-4881-b19b-72aff4ecf392",
-      "title": "Modern Generic SVGA driver for Windows 3.1",
-      "url": "https://github.com/PluMGMK/vbesvga.drv",
-      "domain": "github.com",
-      "published_at": "2026-04-05T05:28:41Z",
-      "category": "tech",
-      "score": 0.2525793415109957,
-      "tldr": "Modern Generic SVGA driver for Windows 3.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-09T18:46:46.110967472Z",
+  "last_updated": "2026-04-09T19:57:45.181829289Z",
   "total_count": 100
 }
