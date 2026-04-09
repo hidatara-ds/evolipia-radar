@@ -312,20 +312,6 @@
       ]
     },
     {
-      "id": "c29d21c8-1a52-4393-bb2c-244a3d03ebe2",
-      "title": "Salomi, a research repo on extreme low-bit transformer quantization",
-      "url": "https://github.com/OrionsLock/SALOMI",
-      "domain": "github.com",
-      "published_at": "2026-04-02T04:08:12Z",
-      "category": "tech",
-      "score": 0.3279611070113563,
-      "tldr": "Salomi, a research repo on extreme low-bit transformer quantization",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "08b398e1-7a41-4ea6-b0d8-ada6e8318097",
       "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
       "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
@@ -550,20 +536,6 @@
       "tags": [
         "llm",
         "general_ai"
-      ]
-    },
-    {
-      "id": "a3ab36b5-7b19-4837-8b29-db229bc6450d",
-      "title": "r/programming bans all discussion of LLM programming",
-      "url": "https://old.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban",
-      "domain": "old.reddit.com",
-      "published_at": "2026-04-02T05:33:20Z",
-      "category": "tech",
-      "score": 0.30019784189959897,
-      "tldr": "r/programming bans all discussion of LLM programming",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1408,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "462ebd6e-4e3c-4da7-96f1-48d7a06582a8",
+      "title": "Show HN: Mtproto.zig – High-performance Telegram proxy with DPI evasion",
+      "url": "https://github.com/sleep3r/mtproto.zig",
+      "domain": "github.com",
+      "published_at": "2026-04-03T21:42:09Z",
+      "category": "tech",
+      "score": 0.25275813369639716,
+      "tldr": "zig – High-performance Telegram proxy with DPI evasion",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b11eddbd-c237-4135-a206-68c1c9464dca",
+      "title": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
+      "url": "https://github.com/teamchong/turboquant-wasm",
+      "domain": "github.com",
+      "published_at": "2026-04-04T14:53:16Z",
+      "category": "tech",
+      "score": 0.2527506731202574,
+      "tldr": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-09T04:07:39.609761582Z",
+  "last_updated": "2026-04-09T07:59:34.899802559Z",
   "total_count": 100
 }
