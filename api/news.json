@@ -87,20 +87,6 @@
       ]
     },
     {
-      "id": "cb5a1643-0912-421a-9e9d-f48776eb99c3",
-      "title": "Even GPT-5.2 Can't Count to Five: Zero-Error Horizons in Trustworthy LLMs",
-      "url": "https://arxiv.org/abs/2601.15714",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-02T15:35:31Z",
-      "category": "tech",
-      "score": 0.40680823375000064,
-      "tldr": "2 Can't Count to Five: Zero-Error Horizons in Trustworthy LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "43bcc13b-2737-431e-a36b-67ef8e658599",
       "title": "Taste in the age of AI and LLMs",
       "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms",
@@ -186,20 +172,6 @@
       ]
     },
     {
-      "id": "83574759-6a76-47c3-b3bb-65fb8b11428f",
-      "title": "The case for zero-error horizons in trustworthy LLMs",
-      "url": "https://arxiv.org/abs/2601.15714",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-02T15:35:31Z",
-      "category": "tech",
-      "score": 0.36128271985716476,
-      "tldr": "The case for zero-error horizons in trustworthy LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "ed4513d4-6a1c-4cf6-a37d-01d4ecce0a10",
       "title": "I Won't Download Your App. The Web Version Is A-OK",
       "url": "https://www.0xsid.com/blog/wont-download-your-app",
@@ -208,6 +180,20 @@
       "category": "tech",
       "score": 0.3531961302618191,
       "tldr": "I Won't Download Your App. The Web Version Is A-OK",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b5026116-5f50-428e-9cdb-7d1844f7e3ff",
+      "title": "Claude mixes up who said what",
+      "url": "https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html",
+      "domain": "dwyer.co.za",
+      "published_at": "2026-04-09T09:25:28Z",
+      "category": "tech",
+      "score": 0.35073536381645426,
+      "tldr": "Claude mixes up who said what",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -236,6 +222,20 @@
       "category": "tech",
       "score": 0.3377857247600292,
       "tldr": "German men 18-45 need military permit for extended stays abroad",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "415ae5b4-8bce-463d-b73c-063a5751cf13",
+      "title": "Vercel Claude Code plugin wants to read your prompt",
+      "url": "https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry",
+      "domain": "akshaychugh.xyz",
+      "published_at": "2026-04-09T15:17:27Z",
+      "category": "tech",
+      "score": 0.335339063936656,
+      "tldr": "Vercel Claude Code plugin wants to read your prompt",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -368,6 +368,20 @@
       ]
     },
     {
+      "id": "ab6f3382-8e85-4b52-861d-94937e68fd07",
+      "title": "The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy",
+      "url": "https://www.thelettersfromleo.com/p/the-pentagon-threatened-pope-leo",
+      "domain": "thelettersfromleo.com",
+      "published_at": "2026-04-09T16:46:11Z",
+      "category": "tech",
+      "score": 0.3213653069882818,
+      "tldr": "The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "58d316e4-8954-41e1-879e-2b6c51fc98e8",
       "title": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
       "url": "https://twitter.com/__tinygrad__/status/2039213719155310736",
@@ -376,20 +390,6 @@
       "category": "tech",
       "score": 0.3200849471875985,
       "tldr": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "981992be-f70d-43c0-ae31-9c3971d0da3d",
-      "title": "Google releases Gemma 4 open models",
-      "url": "https://deepmind.google/models/gemma/gemma-4",
-      "domain": "deepmind.google",
-      "published_at": "2026-04-02T16:10:54Z",
-      "category": "tech",
-      "score": 0.3168093250888737,
-      "tldr": "Google releases Gemma 4 open models",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -479,21 +479,6 @@
         "data",
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "91755cf1-c121-4f94-850b-7546688c3e3e",
-      "title": "Live and Let AI: Former CIA officer says human spies matter more in the LLM age",
-      "url": "https://www.theregister.com/2026/04/01/live_and_let_ai_excia",
-      "domain": "theregister.com",
-      "published_at": "2026-04-02T16:02:37Z",
-      "category": "tech",
-      "score": 0.30154497345386005,
-      "tldr": "Live and Let AI: Former CIA officer says human spies matter more in the LLM age",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "general_ai"
       ]
     },
     {
@@ -639,20 +624,6 @@
       ]
     },
     {
-      "id": "3b5cb7b8-616e-4780-8d06-c18f04d760a7",
-      "title": "OpenAI Acquires TBPN",
-      "url": "https://openai.com/index/openai-acquires-tbpn",
-      "domain": "openai.com",
-      "published_at": "2026-04-02T17:26:49Z",
-      "category": "tech",
-      "score": 0.27775169607580924,
-      "tldr": "OpenAI Acquires TBPN",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "172896a5-5c46-4e29-a1f6-b2e004d08abd",
       "title": "German police name alleged leaders of GandCrab and REvil ransomware groups",
       "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab",
@@ -717,6 +688,20 @@
       "category": "tech",
       "score": 0.2733171698887482,
       "tldr": "1: Towards Long-Horizon Tasks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e4aa0310-03c9-4e2e-a733-78d1465f9bea",
+      "title": "I built a Cargo-like build tool for C/C++",
+      "url": "https://github.com/randerson112/craft",
+      "domain": "github.com",
+      "published_at": "2026-04-09T16:04:54Z",
+      "category": "tech",
+      "score": 0.27112108089628145,
+      "tldr": "I built a Cargo-like build tool for C/C++",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1088,20 +1073,6 @@
       ]
     },
     {
-      "id": "c2bb2486-471d-4f9e-9585-63761c464551",
-      "title": "Show HN: A P2P messenger with dual network modes (Fast and Tor)",
-      "url": "https://github.com/Realman78/Kiyeovo",
-      "domain": "github.com",
-      "published_at": "2026-04-02T15:32:45Z",
-      "category": "tech",
-      "score": 0.25521279627341076,
-      "tldr": "Show HN: A P2P messenger with dual network modes (Fast and Tor)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "cfb016ec-bf5d-40e7-a3bc-e1a71edbc1cc",
       "title": "Show HN: TUI-use: Let AI agents control interactive terminal programs",
       "url": "https://github.com/onesuper/tui-use",
@@ -1408,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d31445fb-40fd-48d2-836a-adf9222d3c19",
+      "title": "The Mechanics of Steins Gate (2023) [pdf]",
+      "url": "https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf",
+      "domain": "github.com",
+      "published_at": "2026-04-05T21:42:01Z",
+      "category": "tech",
+      "score": 0.25245223751155454,
+      "tldr": "The Mechanics of Steins Gate (2023) [pdf]",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c3b231ce-220b-4824-bcdf-963ca8173fbc",
+      "title": "Show HN: Hippo, biologically inspired memory for AI agents",
+      "url": "https://github.com/kitfunso/hippo-memory",
+      "domain": "github.com",
+      "published_at": "2026-04-06T21:49:34Z",
+      "category": "tech",
+      "score": 0.25243852589980376,
+      "tldr": "Show HN: Hippo, biologically inspired memory for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-09T14:51:28.075539411Z",
+  "last_updated": "2026-04-09T17:36:17.115310414Z",
   "total_count": 100
 }
