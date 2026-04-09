@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "ea5e4625-f321-4e22-932a-c34b07ca5801",
-      "title": "LinkedIn is searching your browser extensions",
-      "url": "https://browsergate.eu/",
-      "domain": "browsergate.eu",
-      "published_at": "2026-04-02T13:09:09Z",
-      "category": "tech",
-      "score": 0.6334447229559256,
-      "tldr": "LinkedIn is searching your browser extensions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9713fe49-7cbf-42e6-8c1b-686efa85448b",
       "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
       "url": "https://github.com/anthropics/claude-code/issues/42796",
@@ -222,20 +208,6 @@
       "category": "tech",
       "score": 0.3531961302618191,
       "tldr": "I Won't Download Your App. The Web Version Is A-OK",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5d56a6f4-1491-4758-8dfb-5885ed634c1b",
-      "title": "LinkedIn Is Illegally Searching Your Computer",
-      "url": "https://browsergate.eu/",
-      "domain": "browsergate.eu",
-      "published_at": "2026-04-02T13:09:09Z",
-      "category": "tech",
-      "score": 0.3453283595781995,
-      "tldr": "LinkedIn Is Illegally Searching Your Computer",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -723,6 +695,20 @@
       ]
     },
     {
+      "id": "3584c65f-a757-4e3e-b068-b27ac1da9318",
+      "title": "Am I German or Autistic?",
+      "url": "https://german.millermanschool.com/",
+      "domain": "german.millermanschool.com",
+      "published_at": "2026-04-09T12:52:12Z",
+      "category": "tech",
+      "score": 0.2734646475437913,
+      "tldr": "Am I German or Autistic?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "66cfff0f-3b2f-4c46-b8fb-522dcd791e5c",
       "title": "GLM-5.1: Towards Long-Horizon Tasks",
       "url": "https://z.ai/blog/glm-5.1",
@@ -874,6 +860,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "9ad490b5-6a4d-40ff-8cd9-06d62d30a50e",
+      "title": "A WebGPU Implementation of Augmented Vertex Block Descent",
+      "url": "https://github.com/jure/webphysics",
+      "domain": "github.com",
+      "published_at": "2026-04-09T12:01:31Z",
+      "category": "tech",
+      "score": 0.26189258051191744,
+      "tldr": "A WebGPU Implementation of Augmented Vertex Block Descent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1410,6 +1410,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-09T12:57:28.234012284Z",
+  "last_updated": "2026-04-09T14:51:28.075539411Z",
   "total_count": 100
 }
