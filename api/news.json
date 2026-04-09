@@ -340,6 +340,20 @@
       ]
     },
     {
+      "id": "6e136ac5-5e2d-4347-8a5e-adebb94157d7",
+      "title": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
+      "url": "https://arxiv.org/abs/2603.20957",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-08T21:32:47Z",
+      "category": "tech",
+      "score": 0.3257308380772054,
+      "tldr": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6135b2f6-eaac-4b70-8c25-f22f6040339c",
       "title": "Why Switzerland has 25 Gbit internet and America doesn't",
       "url": "https://sschueller.github.io/posts/the-free-market-lie",
@@ -460,6 +474,20 @@
       "category": "tech",
       "score": 0.31284351617298417,
       "tldr": "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "02abe32b-c46f-41b4-a0ac-e24da7fd9895",
+      "title": "LittleSnitch for Linux",
+      "url": "https://obdev.at/products/littlesnitch-linux/index.html",
+      "domain": "obdev.at",
+      "published_at": "2026-04-09T00:26:08Z",
+      "category": "tech",
+      "score": 0.3100949028160034,
+      "tldr": "LittleSnitch for Linux",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -745,20 +773,6 @@
       "category": "tech",
       "score": 0.2733171698887482,
       "tldr": "1: Towards Long-Horizon Tasks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2dab347c-dfac-4af6-a084-0cca2c8f1bcd",
-      "title": "The Weather Channel – RetroCast",
-      "url": "https://weather.com/retro",
-      "domain": "weather.com",
-      "published_at": "2026-04-02T01:48:18Z",
-      "category": "tech",
-      "score": 0.27256590665682884,
-      "tldr": "The Weather Channel – RetroCast",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "462ebd6e-4e3c-4da7-96f1-48d7a06582a8",
-      "title": "Show HN: Mtproto.zig – High-performance Telegram proxy with DPI evasion",
-      "url": "https://github.com/sleep3r/mtproto.zig",
-      "domain": "github.com",
-      "published_at": "2026-04-03T21:42:09Z",
-      "category": "tech",
-      "score": 0.25275813369639716,
-      "tldr": "zig – High-performance Telegram proxy with DPI evasion",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-08T23:57:22.094056225Z",
+  "last_updated": "2026-04-09T04:07:39.609761582Z",
   "total_count": 100
 }
