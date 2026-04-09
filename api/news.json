@@ -821,20 +821,6 @@
       ]
     },
     {
-      "id": "2764b6b0-6fdf-4906-9c91-a86d8c467a24",
-      "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
-      "url": "https://lemonade-server.ai",
-      "domain": "lemonade-server.ai",
-      "published_at": "2026-04-02T11:04:51Z",
-      "category": "tech",
-      "score": 0.26484271474438087,
-      "tldr": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "f77550df-8b4d-4c67-99f2-795666f0a3aa",
       "title": "The Cult of Vibe Coding Is Insane",
       "url": "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane",
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2bb05f42-0acd-4654-9c8a-a945a821ec32",
+      "title": "Case study: recovery of a corrupted 12 TB multi-device pool",
+      "url": "https://github.com/kdave/btrfs-progs/issues/1107",
+      "domain": "github.com",
+      "published_at": "2026-04-06T02:28:40Z",
+      "category": "tech",
+      "score": 0.25245644060136474,
+      "tldr": "Case study: recovery of a corrupted 12 TB multi-device pool",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-09T10:39:04.545959666Z",
+  "last_updated": "2026-04-09T11:44:54.892573269Z",
   "total_count": 100
 }
