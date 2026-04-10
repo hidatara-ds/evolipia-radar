@@ -1142,20 +1142,6 @@
       ]
     },
     {
-      "id": "a4ef5d47-dee5-464e-98e6-02c166145386",
-      "title": "Bun: cgroup-aware AvailableParallelism / HardwareConcurrency on Linux",
-      "url": "https://github.com/oven-sh/bun/pull/28801",
-      "domain": "github.com",
-      "published_at": "2026-04-03T11:09:58Z",
-      "category": "tech",
-      "score": 0.2560393245620572,
-      "tldr": "Bun: cgroup-aware AvailableParallelism / HardwareConcurrency on Linux",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4291ecda-c644-4412-a3c6-803b733d2e6b",
       "title": "Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",
       "url": "https://github.com/pcruz1905/hls-restream-proxy",
@@ -1406,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a67be409-3468-4628-9154-ae51d32e81fc",
+      "title": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
+      "url": "https://github.com/4RH1T3CT0R7/ttf-doom",
+      "domain": "github.com",
+      "published_at": "2026-04-06T19:25:39Z",
+      "category": "tech",
+      "score": 0.25290879278862344,
+      "tldr": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-10T10:55:34.597068377Z",
+  "last_updated": "2026-04-10T11:40:26.943651268Z",
   "total_count": 100
 }
