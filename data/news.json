@@ -623,6 +623,20 @@
       ]
     },
     {
+      "id": "e82511bc-8276-4e8e-983b-fa8f0c8267ef",
+      "title": "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths",
+      "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits",
+      "domain": "wired.com",
+      "published_at": "2026-04-10T13:08:43Z",
+      "category": "tech",
+      "score": 0.28497210706397264,
+      "tldr": "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f7ac6a4e-1594-4309-86d5-a7076c9cdf5f",
       "title": "Talk like caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
@@ -1282,17 +1296,17 @@
       ]
     },
     {
-      "id": "1efd45fc-86c5-44b2-8745-7b0df6a1d150",
-      "title": "Show HN: I built a frontpage for personal blogs",
-      "url": "https://text.blogosphere.app/",
-      "domain": "text.blogosphere.app",
-      "published_at": "2026-04-03T12:33:45Z",
+      "id": "dd73f431-01ca-4d44-bc67-7438cde32d07",
+      "title": "Ads in ChatGPT",
+      "url": "https://help.openai.com/en/articles/20001047-ads-in-chatgpt",
+      "domain": "help.openai.com",
+      "published_at": "2026-04-10T10:40:27Z",
       "category": "tech",
-      "score": 0.2535067773517521,
-      "tldr": "Show HN: I built a frontpage for personal blogs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.25356144316623375,
+      "tldr": "Ads in ChatGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "general_ai"
+        "llm"
       ]
     },
     {
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "a67be409-3468-4628-9154-ae51d32e81fc",
-      "title": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
-      "url": "https://github.com/4RH1T3CT0R7/ttf-doom",
-      "domain": "github.com",
-      "published_at": "2026-04-06T19:25:39Z",
-      "category": "tech",
-      "score": 0.25290879278862344,
-      "tldr": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-10T11:40:26.943651268Z",
+  "last_updated": "2026-04-10T14:10:36.281374464Z",
   "total_count": 100
 }
