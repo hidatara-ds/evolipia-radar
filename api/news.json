@@ -623,20 +623,6 @@
       ]
     },
     {
-      "id": "ac132100-2265-4ea4-ac2b-7b98f4f038d2",
-      "title": "OpenClaw privilege escalation vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
-      "domain": "nvd.nist.gov",
-      "published_at": "2026-04-03T16:21:32Z",
-      "category": "tech",
-      "score": 0.28692165070798326,
-      "tldr": "OpenClaw privilege escalation vulnerability",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e82511bc-8276-4e8e-983b-fa8f0c8267ef",
       "title": "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths",
       "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits",
@@ -673,20 +659,6 @@
       "category": "tech",
       "score": 0.28326432758865405,
       "tldr": "Age Verification as Mass Surveillance Infrastructure",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dfddac57-07ba-42e3-983d-b0180215ae32",
-      "title": "OpenClaw privilege-escalation bug",
-      "url": "https://old.reddit.com/r/sysadmin/comments/1sbdw29/if_youre_running_openclaw_you_probably_got_hacked",
-      "domain": "old.reddit.com",
-      "published_at": "2026-04-03T16:21:32Z",
-      "category": "tech",
-      "score": 0.2829091980426973,
-      "tldr": "OpenClaw privilege-escalation bug",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -743,6 +715,20 @@
       "category": "tech",
       "score": 0.27565311609864096,
       "tldr": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b896316b-8b7d-408b-a527-0402e01a50e4",
+      "title": "Industrial design files for Keychron keyboards and mice",
+      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+      "domain": "github.com",
+      "published_at": "2026-04-10T16:22:26Z",
+      "category": "tech",
+      "score": 0.27398944809045067,
+      "tldr": "Industrial design files for Keychron keyboards and mice",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "5539748a-b5c6-430b-8420-8068aded1e0e",
+      "title": "Show HN: Pion/handoff – Move WebRTC out of browser and into Go",
+      "url": "https://github.com/pion/handoff",
+      "domain": "github.com",
+      "published_at": "2026-04-07T12:01:51Z",
+      "category": "tech",
+      "score": 0.2530033203698441,
+      "tldr": "Show HN: Pion/handoff – Move WebRTC out of browser and into Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-10T16:12:55.177422187Z",
+  "last_updated": "2026-04-10T17:12:42.699410582Z",
   "total_count": 100
 }
