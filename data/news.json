@@ -145,20 +145,6 @@
       ]
     },
     {
-      "id": "0da2ee71-6395-485e-9655-7bd74d885dfe",
-      "title": "Artemis II crew take “spectacular” image of Earth",
-      "url": "https://www.bbc.com/news/articles/ce8jzr423p9o",
-      "domain": "bbc.com",
-      "published_at": "2026-04-03T19:35:02Z",
-      "category": "tech",
-      "score": 0.3948285119561882,
-      "tldr": "Artemis II crew take “spectacular” image of Earth",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9495b9cf-44bf-430e-a53c-32d6de5a861d",
       "title": "Show HN: I built a tiny LLM to demystify how language models work",
       "url": "https://github.com/arman-bd/guppylm",
@@ -663,6 +649,20 @@
       ]
     },
     {
+      "id": "539dff89-2148-4362-af66-b8b1a2a2c3d1",
+      "title": "AI assistance when contributing to the Linux kernel",
+      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+      "domain": "github.com",
+      "published_at": "2026-04-10T18:35:21Z",
+      "category": "tech",
+      "score": 0.27790979453796055,
+      "tldr": "AI assistance when contributing to the Linux kernel",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "172896a5-5c46-4e29-a1f6-b2e004d08abd",
       "title": "German police name alleged leaders of GandCrab and REvil ransomware groups",
       "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab",
@@ -685,6 +685,20 @@
       "category": "tech",
       "score": 0.27565311609864096,
       "tldr": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f4d12e30-694c-4199-ade2-ea79af13ec04",
+      "title": "JSON Formatter Chrome Plugin Now Closed and Injecting Adware",
+      "url": "https://github.com/callumlocke/json-formatter",
+      "domain": "github.com",
+      "published_at": "2026-04-10T18:34:55Z",
+      "category": "tech",
+      "score": 0.2755847236748418,
+      "tldr": "JSON Formatter Chrome Plugin Now Closed and Injecting Adware",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1336,20 +1350,6 @@
       ]
     },
     {
-      "id": "37be9a24-974c-434a-ae26-7f1b178bb534",
-      "title": "Automatic Textbook Formalization",
-      "url": "https://github.com/facebookresearch/repoprover",
-      "domain": "github.com",
-      "published_at": "2026-04-03T20:13:50Z",
-      "category": "tech",
-      "score": 0.25325443667419767,
-      "tldr": "Automatic Textbook Formalization",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "84865747-0c0f-490b-b147-6d922f058d6f",
       "title": "Show HN: Finalrun – Spec-driven testing using English and vision for mobile apps",
       "url": "https://github.com/final-run/finalrun-agent",
@@ -1406,6 +1406,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-10T18:06:03.536609256Z",
+  "last_updated": "2026-04-10T20:38:27.357573156Z",
   "total_count": 100
 }
