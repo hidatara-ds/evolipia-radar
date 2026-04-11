@@ -341,20 +341,6 @@
       ]
     },
     {
-      "id": "c5d11088-4649-4767-8e10-314d66cb7afb",
-      "title": "TurboQuant model weight compression support added to Llamacpp",
-      "url": "https://github.com/TheTom/llama-cpp-turboquant/pull/45",
-      "domain": "github.com",
-      "published_at": "2026-04-04T08:52:29Z",
-      "category": "tech",
-      "score": 0.3294279589641164,
-      "tldr": "TurboQuant model weight compression support added to Llamacpp",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "08b398e1-7a41-4ea6-b0d8-ada6e8318097",
       "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
       "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
@@ -1404,8 +1390,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "5539748a-b5c6-430b-8420-8068aded1e0e",
+      "title": "Show HN: Pion/handoff – Move WebRTC out of browser and into Go",
+      "url": "https://github.com/pion/handoff",
+      "domain": "github.com",
+      "published_at": "2026-04-07T12:01:51Z",
+      "category": "tech",
+      "score": 0.2530033203698441,
+      "tldr": "Show HN: Pion/handoff – Move WebRTC out of browser and into Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-11T06:36:30.30159837Z",
+  "last_updated": "2026-04-11T09:09:20.457484096Z",
   "total_count": 100
 }
