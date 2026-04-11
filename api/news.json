@@ -43,6 +43,20 @@
       ]
     },
     {
+      "id": "12af66db-5db6-4653-a1cb-93f3c823d6dd",
+      "title": "Artemis II safely splashes down",
+      "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return",
+      "domain": "cbsnews.com",
+      "published_at": "2026-04-11T00:10:51Z",
+      "category": "tech",
+      "score": 0.43541073686505083,
+      "tldr": "Artemis II safely splashes down",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d02e74ae-dba2-45e3-bc06-aa96d6d89252",
       "title": "OpenAI says its new model GPT-2 is too dangerous to release (2019)",
       "url": "https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html",
@@ -66,6 +80,20 @@
       "category": "tech",
       "score": 0.42445409090907843,
       "tldr": "Embarrassingly simple self-distillation improves code generation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "63a8db9f-9135-462e-9749-ea7755e70dd0",
+      "title": "Filing the corners off my MacBooks",
+      "url": "https://kentwalters.com/posts/corners",
+      "domain": "kentwalters.com",
+      "published_at": "2026-04-10T22:16:40Z",
+      "category": "tech",
+      "score": 0.41556050674686834,
+      "tldr": "Filing the corners off my MacBooks",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -209,6 +237,20 @@
       "category": "tech",
       "score": 0.3531961302618191,
       "tldr": "I Won't Download Your App. The Web Version Is A-OK",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8b2aaf9d-fb90-4876-a7db-454506490c22",
+      "title": "Sam Altman's response to Molotov cocktail incident",
+      "url": "https://blog.samaltman.com/2279512",
+      "domain": "blog.samaltman.com",
+      "published_at": "2026-04-10T23:05:48Z",
+      "category": "tech",
+      "score": 0.35137447722521753,
+      "tldr": "Sam Altman's response to Molotov cocktail incident",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -789,20 +831,6 @@
       ]
     },
     {
-      "id": "aaca2b4c-57b0-4b8d-b7d3-3a097a6c5de6",
-      "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
-      "url": "https://github.com/borski/travel-hacking-toolkit",
-      "domain": "github.com",
-      "published_at": "2026-04-04T02:26:42Z",
-      "category": "tech",
-      "score": 0.2701675794449129,
-      "tldr": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a47a80ce-ca5a-48e4-9119-04cd5dcd5176",
       "title": "Codex pricing to align with API token usage, instead of per-message",
       "url": "https://help.openai.com/en/articles/20001106-codex-rate-card",
@@ -1168,6 +1196,20 @@
       ]
     },
     {
+      "id": "7b994a8f-e59e-4d73-8de9-5d8cf941b709",
+      "title": "Installing Every* Firefox Extension",
+      "url": "https://jack.cab/blog/every-firefox-extension",
+      "domain": "jack.cab",
+      "published_at": "2026-04-10T21:56:33Z",
+      "category": "tech",
+      "score": 0.25584264509754007,
+      "tldr": "Installing Every* Firefox Extension",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "9ee0f27e-a57d-49c8-8aba-6a4df355af09",
       "title": "Top laptops to use with FreeBSD",
       "url": "https://freebsdfoundation.github.io/freebsd-laptop-testing",
@@ -1362,50 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "5539748a-b5c6-430b-8420-8068aded1e0e",
-      "title": "Show HN: Pion/handoff – Move WebRTC out of browser and into Go",
-      "url": "https://github.com/pion/handoff",
-      "domain": "github.com",
-      "published_at": "2026-04-07T12:01:51Z",
-      "category": "tech",
-      "score": 0.2530033203698441,
-      "tldr": "Show HN: Pion/handoff – Move WebRTC out of browser and into Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a67be409-3468-4628-9154-ae51d32e81fc",
-      "title": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
-      "url": "https://github.com/4RH1T3CT0R7/ttf-doom",
-      "domain": "github.com",
-      "published_at": "2026-04-06T19:25:39Z",
-      "category": "tech",
-      "score": 0.25290879278862344,
-      "tldr": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b11eddbd-c237-4135-a206-68c1c9464dca",
-      "title": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
-      "url": "https://github.com/teamchong/turboquant-wasm",
-      "domain": "github.com",
-      "published_at": "2026-04-04T14:53:16Z",
-      "category": "tech",
-      "score": 0.2527506731202574,
-      "tldr": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-10T22:40:43.090223216Z",
+  "last_updated": "2026-04-11T03:58:31.72373635Z",
   "total_count": 100
 }
