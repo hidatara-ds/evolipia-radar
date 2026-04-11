@@ -72,20 +72,6 @@
       ]
     },
     {
-      "id": "5cd12ac1-cc0a-477d-9d09-e135459858e9",
-      "title": "Embarrassingly simple self-distillation improves code generation",
-      "url": "https://arxiv.org/abs/2604.01193",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-04T10:26:21Z",
-      "category": "tech",
-      "score": 0.42445409090907843,
-      "tldr": "Embarrassingly simple self-distillation improves code generation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "63a8db9f-9135-462e-9749-ea7755e70dd0",
       "title": "Filing the corners off my MacBooks",
       "url": "https://kentwalters.com/posts/corners",
@@ -327,20 +313,6 @@
       ]
     },
     {
-      "id": "4b9602be-a207-45eb-87d4-673d04f8f990",
-      "title": "Simple self-distillation improves code generation",
-      "url": "https://arxiv.org/abs/2604.01193",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-04T10:26:21Z",
-      "category": "tech",
-      "score": 0.3305446044409737,
-      "tldr": "Simple self-distillation improves code generation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "08b398e1-7a41-4ea6-b0d8-ada6e8318097",
       "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
       "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
@@ -562,20 +534,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "0311d053-307b-4797-9291-e29869999e28",
-      "title": "Apple: Embarrassingly Simple Self-Distillation Improves Code Generation",
-      "url": "https://arxiv.org/abs/2604.01193",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-04T10:26:21Z",
-      "category": "tech",
-      "score": 0.29917327220875417,
-      "tldr": "Apple: Embarrassingly Simple Self-Distillation Improves Code Generation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1404,8 +1362,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a67be409-3468-4628-9154-ae51d32e81fc",
+      "title": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
+      "url": "https://github.com/4RH1T3CT0R7/ttf-doom",
+      "domain": "github.com",
+      "published_at": "2026-04-06T19:25:39Z",
+      "category": "tech",
+      "score": 0.25290879278862344,
+      "tldr": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b11eddbd-c237-4135-a206-68c1c9464dca",
+      "title": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
+      "url": "https://github.com/teamchong/turboquant-wasm",
+      "domain": "github.com",
+      "published_at": "2026-04-04T14:53:16Z",
+      "category": "tech",
+      "score": 0.2527506731202574,
+      "tldr": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9e78b9fd-3e99-4487-91b9-b751d008d3cb",
+      "title": "Show HN: Zoneless – Open-source Stripe Connect clone with $0.002 fees using USDC",
+      "url": "https://github.com/zonelessdev/zoneless",
+      "domain": "github.com",
+      "published_at": "2026-04-09T14:31:19Z",
+      "category": "tech",
+      "score": 0.25264679742662016,
+      "tldr": "Show HN: Zoneless – Open-source Stripe Connect clone with $0.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-11T10:02:14.970184621Z",
+  "last_updated": "2026-04-11T11:33:17.198048819Z",
   "total_count": 100
 }
