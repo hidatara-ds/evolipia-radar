@@ -29,20 +29,6 @@
       ]
     },
     {
-      "id": "085d49eb-6757-472c-b726-13341c313fb6",
-      "title": "Caveman: Why use many token when few token do trick",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "domain": "github.com",
-      "published_at": "2026-04-05T08:56:18Z",
-      "category": "tech",
-      "score": 0.4647873592627766,
-      "tldr": "Caveman: Why use many token when few token do trick",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "12af66db-5db6-4653-a1cb-93f3c823d6dd",
       "title": "Artemis II safely splashes down",
       "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return",
@@ -142,20 +128,6 @@
       "tags": [
         "llm",
         "computer_vision"
-      ]
-    },
-    {
-      "id": "4700dc02-3cc0-4d46-9a9c-8a3f06727edb",
-      "title": "A Claude Code skill that makes Claude talk like a caveman, cutting token use",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "domain": "github.com",
-      "published_at": "2026-04-05T08:56:18Z",
-      "category": "tech",
-      "score": 0.39688395948317134,
-      "tldr": "A Claude Code skill that makes Claude talk like a caveman, cutting token use",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -546,20 +518,6 @@
       "category": "tech",
       "score": 0.28497210706397264,
       "tldr": "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f7ac6a4e-1594-4309-86d5-a7076c9cdf5f",
-      "title": "Talk like caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "domain": "github.com",
-      "published_at": "2026-04-05T08:56:18Z",
-      "category": "tech",
-      "score": 0.28358430284538283,
-      "tldr": "Talk like caveman",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,8 +1363,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "857ab59f-7ee0-49c9-a24b-34401902b951",
+      "title": "SPF/PC v4 for MS-DOS, FreeDOS, x86",
+      "url": "https://github.com/moshix/SPFPC",
+      "domain": "github.com",
+      "published_at": "2026-04-05T14:37:20Z",
+      "category": "tech",
+      "score": 0.25229447727176557,
+      "tldr": "SPF/PC v4 for MS-DOS, FreeDOS, x86",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2a4d0a52-e822-46a2-81b7-9431244c68af",
+      "title": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
+      "url": "https://github.com/salmanmohammadi/nanocode/discussions/1",
+      "domain": "github.com",
+      "published_at": "2026-04-05T14:21:17Z",
+      "category": "tech",
+      "score": 0.2521904748995506,
+      "tldr": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cb7ad68f-64ae-45fe-a121-9a77695d5387",
+      "title": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
+      "url": "https://pvp-ai.russell-harper.com",
+      "domain": "pvp-ai.russell-harper.com",
+      "published_at": "2026-04-08T12:56:58Z",
+      "category": "tech",
+      "score": 0.2521485405271618,
+      "tldr": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-12T08:39:27.565033952Z",
+  "last_updated": "2026-04-12T09:36:58.604490095Z",
   "total_count": 100
 }
