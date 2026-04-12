@@ -1255,20 +1255,6 @@
       ]
     },
     {
-      "id": "82b091bf-8d4f-413d-8995-c1d5cfca8556",
-      "title": "My university uses prompt injection to catch cheaters",
-      "url": "https://varun.ch/til/prompt-injection-catch-cheaters",
-      "domain": "varun.ch",
-      "published_at": "2026-04-05T21:57:52Z",
-      "category": "tech",
-      "score": 0.25348520671124314,
-      "tldr": "My university uses prompt injection to catch cheaters",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "22bbe165-7680-460f-a1c9-356026331015",
       "title": "Twitter devolved into a pipeline of ragebait slop",
       "url": "https://mattruby.substack.com/p/we-give-elon-crap-but-not-enough",
@@ -1367,20 +1353,6 @@
       ]
     },
     {
-      "id": "d31445fb-40fd-48d2-836a-adf9222d3c19",
-      "title": "The Mechanics of Steins Gate (2023) [pdf]",
-      "url": "https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf",
-      "domain": "github.com",
-      "published_at": "2026-04-05T21:42:01Z",
-      "category": "tech",
-      "score": 0.25245223751155454,
-      "tldr": "The Mechanics of Steins Gate (2023) [pdf]",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c3b231ce-220b-4824-bcdf-963ca8173fbc",
       "title": "Show HN: Hippo, biologically inspired memory for AI agents",
       "url": "https://github.com/kitfunso/hippo-memory",
@@ -1407,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e5732efc-1080-48cb-98f1-99574f553bf9",
+      "title": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+      "url": "https://arxiv.org/abs/2505.09509",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-12T16:17:59Z",
+      "category": "tech",
+      "score": 0.2523076791134467,
+      "tldr": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cb7ad68f-64ae-45fe-a121-9a77695d5387",
+      "title": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
+      "url": "https://pvp-ai.russell-harper.com",
+      "domain": "pvp-ai.russell-harper.com",
+      "published_at": "2026-04-08T12:56:58Z",
+      "category": "tech",
+      "score": 0.2521485405271618,
+      "tldr": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-12T21:36:21.122287717Z",
+  "last_updated": "2026-04-12T22:22:45.54292449Z",
   "total_count": 100
 }
