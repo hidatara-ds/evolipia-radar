@@ -1225,20 +1225,6 @@
       ]
     },
     {
-      "id": "7b611466-8795-43c3-8ba7-d67a46b2acf0",
-      "title": "My Google Workspace account suspension",
-      "url": "https://zencapital.substack.com/p/sad-story-of-my-google-workspace",
-      "domain": "zencapital.substack.com",
-      "published_at": "2026-04-05T11:48:13Z",
-      "category": "tech",
-      "score": 0.25329948877848213,
-      "tldr": "My Google Workspace account suspension",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "00482146-7490-49cf-989f-d77e8796a7a8",
       "title": "Tailslayer: Library for reducing tail latency in RAM reads",
       "url": "https://github.com/LaurieWired/tailslayer",
@@ -1405,8 +1391,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "f554e5ab-b3ea-45dd-9063-a9f009738607",
+      "title": "Discovering, detecting, and surgically removing Google's AI watermark",
+      "url": "https://github.com/aloshdenny/reverse-SynthID",
+      "domain": "github.com",
+      "published_at": "2026-04-09T20:10:25Z",
+      "category": "tech",
+      "score": 0.25202996187771903,
+      "tldr": "Discovering, detecting, and surgically removing Google's AI watermark",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-12T11:06:52.551975075Z",
+  "last_updated": "2026-04-12T11:54:07.217819581Z",
   "total_count": 100
 }
