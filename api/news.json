@@ -721,20 +721,6 @@
       ]
     },
     {
-      "id": "a47a80ce-ca5a-48e4-9119-04cd5dcd5176",
-      "title": "Codex pricing to align with API token usage, instead of per-message",
-      "url": "https://help.openai.com/en/articles/20001106-codex-rate-card",
-      "domain": "help.openai.com",
-      "published_at": "2026-04-05T15:58:08Z",
-      "category": "tech",
-      "score": 0.2681964793790399,
-      "tldr": "Codex pricing to align with API token usage, instead of per-message",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "915d4e70-eb9f-49af-9319-2884aac84f51",
       "title": "Media scraper Gallery-dl is moving to Codeberg after receiving a DMCA notice",
       "url": "https://github.com/mikf/gallery-dl/discussions/9304",
@@ -1380,20 +1366,6 @@
       ]
     },
     {
-      "id": "857ab59f-7ee0-49c9-a24b-34401902b951",
-      "title": "SPF/PC v4 for MS-DOS, FreeDOS, x86",
-      "url": "https://github.com/moshix/SPFPC",
-      "domain": "github.com",
-      "published_at": "2026-04-05T14:37:20Z",
-      "category": "tech",
-      "score": 0.25229447727176557,
-      "tldr": "SPF/PC v4 for MS-DOS, FreeDOS, x86",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "cb7ad68f-64ae-45fe-a121-9a77695d5387",
       "title": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
       "url": "https://pvp-ai.russell-harper.com",
@@ -1406,8 +1378,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "f554e5ab-b3ea-45dd-9063-a9f009738607",
+      "title": "Discovering, detecting, and surgically removing Google's AI watermark",
+      "url": "https://github.com/aloshdenny/reverse-SynthID",
+      "domain": "github.com",
+      "published_at": "2026-04-09T20:10:25Z",
+      "category": "tech",
+      "score": 0.25202996187771903,
+      "tldr": "Discovering, detecting, and surgically removing Google's AI watermark",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b4155543-09a1-46c0-b23a-45567f058271",
+      "title": "Show HN: Skrun – Deploy any agent skill as an API",
+      "url": "https://github.com/skrun-dev/skrun",
+      "domain": "github.com",
+      "published_at": "2026-04-08T12:34:38Z",
+      "category": "tech",
+      "score": 0.25192597580815806,
+      "tldr": "Show HN: Skrun – Deploy any agent skill as an API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-12T14:33:51.613227444Z",
+  "last_updated": "2026-04-12T15:58:30.531107945Z",
   "total_count": 100
 }
