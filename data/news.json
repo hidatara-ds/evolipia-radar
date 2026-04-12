@@ -467,6 +467,21 @@
       ]
     },
     {
+      "id": "2ca4d5cb-d500-4a78-ba25-d3875117ea1c",
+      "title": "The biggest advance in AI since the LLM",
+      "url": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
+      "domain": "garymarcus.substack.com",
+      "published_at": "2026-04-12T03:56:36Z",
+      "category": "tech",
+      "score": 0.30376694397646586,
+      "tldr": "The biggest advance in AI since the LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "91e7517f-878c-4e8b-9ed4-af305fb9ecff",
       "title": "Microsoft is employing dark patterns to goad users into paying for storage?",
       "url": "https://lzon.ca/posts/other/microsoft-user-abuse",
@@ -1322,20 +1337,6 @@
       ]
     },
     {
-      "id": "8d8fbdc7-7cd4-4881-b19b-72aff4ecf392",
-      "title": "Modern Generic SVGA driver for Windows 3.1",
-      "url": "https://github.com/PluMGMK/vbesvga.drv",
-      "domain": "github.com",
-      "published_at": "2026-04-05T05:28:41Z",
-      "category": "tech",
-      "score": 0.2525793415109957,
-      "tldr": "Modern Generic SVGA driver for Windows 3.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2bb05f42-0acd-4654-9c8a-a945a821ec32",
       "title": "Case study: recovery of a corrupted 12 TB multi-device pool",
       "url": "https://github.com/kdave/btrfs-progs/issues/1107",
@@ -1406,6 +1407,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-12T02:09:47.559137794Z",
+  "last_updated": "2026-04-12T06:52:41.637492291Z",
   "total_count": 100
 }
