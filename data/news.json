@@ -1113,6 +1113,20 @@
       ]
     },
     {
+      "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
+      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "domain": "github.com",
+      "published_at": "2026-04-12T05:45:52Z",
+      "category": "tech",
+      "score": 0.25461080434890576,
+      "tldr": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "90e49c54-4a6a-4927-ac15-ba70a0b4f647",
       "title": "Show HN: Mdarena – Benchmark your Claude.md against your own PRs",
       "url": "https://github.com/HudsonGri/mdarena",
@@ -1391,22 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "857ab59f-7ee0-49c9-a24b-34401902b951",
-      "title": "SPF/PC v4 for MS-DOS, FreeDOS, x86",
-      "url": "https://github.com/moshix/SPFPC",
-      "domain": "github.com",
-      "published_at": "2026-04-05T14:37:20Z",
-      "category": "tech",
-      "score": 0.25229447727176557,
-      "tldr": "SPF/PC v4 for MS-DOS, FreeDOS, x86",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-12T07:57:18.934705638Z",
+  "last_updated": "2026-04-12T08:39:27.565033952Z",
   "total_count": 100
 }
