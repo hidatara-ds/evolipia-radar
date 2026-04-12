@@ -383,6 +383,21 @@
       ]
     },
     {
+      "id": "637b6dd0-ba64-4f67-95df-3134a4a3da74",
+      "title": "European AI. A playbook to own it. By Mistral",
+      "url": "https://europe.mistral.ai/",
+      "domain": "europe.mistral.ai",
+      "published_at": "2026-04-12T19:51:06Z",
+      "category": "tech",
+      "score": 0.3218207647898205,
+      "tldr": "A playbook to own it.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "ab6f3382-8e85-4b52-861d-94937e68fd07",
       "title": "The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy",
       "url": "https://www.thelettersfromleo.com/p/the-pentagon-threatened-pope-leo",
@@ -1392,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "cb7ad68f-64ae-45fe-a121-9a77695d5387",
-      "title": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
-      "url": "https://pvp-ai.russell-harper.com",
-      "domain": "pvp-ai.russell-harper.com",
-      "published_at": "2026-04-08T12:56:58Z",
-      "category": "tech",
-      "score": 0.2521485405271618,
-      "tldr": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-12T19:32:38.624637733Z",
+  "last_updated": "2026-04-12T20:24:04.023485141Z",
   "total_count": 100
 }
