@@ -159,6 +159,20 @@
       ]
     },
     {
+      "id": "88169825-ada0-44f7-bc5e-0693e5edd478",
+      "title": "Pro Max 5x Quota Exhausted in 1.5 Hours Despite Moderate Usage",
+      "url": "https://github.com/anthropics/claude-code/issues/45756",
+      "domain": "github.com",
+      "published_at": "2026-04-12T13:15:31Z",
+      "category": "tech",
+      "score": 0.3716861311605849,
+      "tldr": "Pro Max 5x Quota Exhausted in 1. 5 Hours Despite Moderate Usage",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a45e449f-967a-4076-acf8-a92f95f4ff01",
       "title": "OpenAI backs Illinois bill that would limit when AI labs can be held liable",
       "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits",
@@ -181,6 +195,20 @@
       "category": "tech",
       "score": 0.3542195351597426,
       "tldr": "The Vercel plugin on Claude Code wants to read your prompts",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "67030d68-f048-4cb9-a343-4729557da928",
+      "title": "Anthropic downgraded cache TTL on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "domain": "github.com",
+      "published_at": "2026-04-12T05:45:52Z",
+      "category": "tech",
+      "score": 0.3533234571369509,
+      "tldr": "Anthropic downgraded cache TTL on March 6th",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -369,31 +397,18 @@
       ]
     },
     {
-      "id": "8d608521-2fd9-43fd-9e0e-97b87088d67f",
-      "title": "Perfmon – Consolidate your favorite CLI monitoring tools into a single TUI",
-      "url": "https://github.com/sumant1122/Perfmon",
-      "domain": "github.com",
-      "published_at": "2026-04-05T14:16:28Z",
+      "id": "a8b2f25c-771a-4d7f-bf3b-22256cb4cc74",
+      "title": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
+      "url": "https://news.ycombinator.com/item?id=47739305",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-04-12T13:20:58Z",
       "category": "tech",
-      "score": 0.31508558129869474,
-      "tldr": "Perfmon – Consolidate your favorite CLI monitoring tools into a single TUI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.3206963874772435,
+      "tldr": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "mlops"
-      ]
-    },
-    {
-      "id": "8e028468-5c9e-448d-96a6-1d62f0abd5a9",
-      "title": "Someone at BrowserStack is leaking users' email addresses",
-      "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address",
-      "domain": "shkspr.mobi",
-      "published_at": "2026-04-05T13:14:38Z",
-      "category": "tech",
-      "score": 0.31440631252628465,
-      "tldr": "Someone at BrowserStack is leaking users' email addresses",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -860,20 +875,6 @@
       ]
     },
     {
-      "id": "b83b6e33-8f58-4bbf-a6a0-fad18d10cedb",
-      "title": "Someone at BrowserStack Is Leaking Users' Email Address",
-      "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address",
-      "domain": "shkspr.mobi",
-      "published_at": "2026-04-05T13:14:38Z",
-      "category": "tech",
-      "score": 0.2612417410201545,
-      "tldr": "Someone at BrowserStack Is Leaking Users' Email Address",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8009dbe3-996a-49a9-9c4b-2c00f27e87d0",
       "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
       "url": "https://github.com/kessler/gemma-gem",
@@ -959,6 +960,20 @@
       ]
     },
     {
+      "id": "677f42b8-954a-48ae-8f7c-10970fb678ef",
+      "title": "Doom, Played over Curl",
+      "url": "https://github.com/xsawyerx/curl-doom",
+      "domain": "github.com",
+      "published_at": "2026-04-12T10:01:54Z",
+      "category": "tech",
+      "score": 0.25759451922126997,
+      "tldr": "Doom, Played over Curl",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a6830e4f-e17b-4c28-98de-cf09e32aff4a",
       "title": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
       "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
@@ -995,6 +1010,20 @@
       "category": "tech",
       "score": 0.25653135702805163,
       "tldr": "Recall – local multimodal semantic search for your files",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cecdc9ab-9732-4491-9891-7af85a47b8b5",
+      "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "domain": "github.com",
+      "published_at": "2026-04-12T13:06:44Z",
+      "category": "tech",
+      "score": 0.256228039466149,
+      "tldr": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1365,20 +1394,6 @@
       ]
     },
     {
-      "id": "2a4d0a52-e822-46a2-81b7-9431244c68af",
-      "title": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
-      "url": "https://github.com/salmanmohammadi/nanocode/discussions/1",
-      "domain": "github.com",
-      "published_at": "2026-04-05T14:21:17Z",
-      "category": "tech",
-      "score": 0.2521904748995506,
-      "tldr": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "cb7ad68f-64ae-45fe-a121-9a77695d5387",
       "title": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
       "url": "https://pvp-ai.russell-harper.com",
@@ -1391,22 +1406,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "f554e5ab-b3ea-45dd-9063-a9f009738607",
-      "title": "Discovering, detecting, and surgically removing Google's AI watermark",
-      "url": "https://github.com/aloshdenny/reverse-SynthID",
-      "domain": "github.com",
-      "published_at": "2026-04-09T20:10:25Z",
-      "category": "tech",
-      "score": 0.25202996187771903,
-      "tldr": "Discovering, detecting, and surgically removing Google's AI watermark",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-12T12:36:10.199286652Z",
+  "last_updated": "2026-04-12T14:33:51.613227444Z",
   "total_count": 100
 }
