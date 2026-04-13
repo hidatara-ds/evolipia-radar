@@ -974,6 +974,20 @@
       ]
     },
     {
+      "id": "dbbe27ff-3b89-4183-bbef-cb67760c0c70",
+      "title": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
+      "url": "https://ndaybench.winfunc.com",
+      "domain": "ndaybench.winfunc.com",
+      "published_at": "2026-04-13T21:54:03Z",
+      "category": "tech",
+      "score": 0.2569599350178133,
+      "tldr": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6fbab81a-94fe-4f98-af4b-c7bc8d9a5c86",
       "title": "Optimization of 32-bit Unsigned Division by Constants on 64-bit Targets",
       "url": "https://arxiv.org/abs/2604.07902",
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "7680662c-7eb7-492a-bec6-6f4bdd3a4113",
-      "title": "Show HN: Keeper – embedded secret store for Go (help me break it)",
-      "url": "https://github.com/agberohq/keeper",
-      "domain": "github.com",
-      "published_at": "2026-04-10T08:53:33Z",
-      "category": "tech",
-      "score": 0.25142193825903214,
-      "tldr": "Show HN: Keeper – embedded secret store for Go (help me break it)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-13T22:07:02.678418693Z",
+  "last_updated": "2026-04-13T23:08:13.082457233Z",
   "total_count": 100
 }
