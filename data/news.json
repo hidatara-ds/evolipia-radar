@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "9713fe49-7cbf-42e6-8c1b-686efa85448b",
-      "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
-      "url": "https://github.com/anthropics/claude-code/issues/42796",
-      "domain": "github.com",
-      "published_at": "2026-04-06T13:50:35Z",
-      "category": "tech",
-      "score": 0.5580963088069292,
-      "tldr": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7916282a-12a5-4fbb-b770-3de18b237e4a",
       "title": "Git commands I run before reading any code",
       "url": "https://piechowski.io/post/git-commands-before-reading-code",
@@ -209,20 +195,6 @@
       "category": "tech",
       "score": 0.3533234571369509,
       "tldr": "Anthropic downgraded cache TTL on March 6th",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ed4513d4-6a1c-4cf6-a37d-01d4ecce0a10",
-      "title": "I Won't Download Your App. The Web Version Is A-OK",
-      "url": "https://www.0xsid.com/blog/wont-download-your-app",
-      "domain": "0xsid.com",
-      "published_at": "2026-04-06T14:31:29Z",
-      "category": "tech",
-      "score": 0.3531961302618191,
-      "tldr": "I Won't Download Your App. The Web Version Is A-OK",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -427,6 +399,20 @@
       ]
     },
     {
+      "id": "90bdaf4c-a5dc-487a-9153-d67d31c38b58",
+      "title": "Android now stops you sharing your location in photos",
+      "url": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos",
+      "domain": "shkspr.mobi",
+      "published_at": "2026-04-13T11:48:15Z",
+      "category": "tech",
+      "score": 0.314115784701457,
+      "tldr": "Android now stops you sharing your location in photos",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ee387837-4acd-4b6b-970b-dfcbbecc6188",
       "title": "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS",
       "url": "https://github.com/matthartman/ghost-pepper",
@@ -512,6 +498,20 @@
       ]
     },
     {
+      "id": "a71304cf-2dd3-4ed7-af09-a4f0cac56bbf",
+      "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+      "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+      "domain": "github.com",
+      "published_at": "2026-04-13T15:31:06Z",
+      "category": "tech",
+      "score": 0.30114793948633395,
+      "tldr": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1ca44d13-95ef-4fc4-ae24-c6d47e4fbe98",
       "title": "ChatGPT Pro now starts at $100/month",
       "url": "https://chatgpt.com/pricing",
@@ -540,14 +540,14 @@
       ]
     },
     {
-      "id": "ad00273b-c8bd-400f-930c-fa6d91b87d16",
-      "title": "Sc-im: Spreadsheets in your terminal",
-      "url": "https://github.com/andmarti1424/sc-im",
-      "domain": "github.com",
-      "published_at": "2026-04-06T16:00:29Z",
+      "id": "d3428929-7a21-4b55-bf59-4892c272596f",
+      "title": "Servo is now available on crates.io",
+      "url": "https://servo.org/blog/2026/04/13/servo-0.1.0-release",
+      "domain": "servo.org",
+      "published_at": "2026-04-13T12:12:22Z",
       "category": "tech",
-      "score": 0.28886469403374515,
-      "tldr": "Sc-im: Spreadsheets in your terminal",
+      "score": 0.29185146521712024,
+      "tldr": "Servo is now available on crates.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -582,6 +582,20 @@
       ]
     },
     {
+      "id": "b5e46dd2-878f-4f2f-8da0-56b834ed6e70",
+      "title": "AI could be the end of the digital wave, not the next big thing",
+      "url": "https://thenextwavefutures.wordpress.com/2026/04/07/ai-end-digital-wave-technology-innovation-perez",
+      "domain": "thenextwavefutures.wordpress.com",
+      "published_at": "2026-04-13T12:29:39Z",
+      "category": "tech",
+      "score": 0.28241421800526834,
+      "tldr": "AI could be the end of the digital wave, not the next big thing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "147703a7-1f2f-4e71-8860-348853d8ddd6",
       "title": "Show HN: I built a Cargo-like build tool for C/C++",
       "url": "https://github.com/randerson112/craft",
@@ -590,6 +604,20 @@
       "category": "tech",
       "score": 0.2823465483036632,
       "tldr": "Show HN: I built a Cargo-like build tool for C/C++",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "754d5338-71bf-421d-a5a2-c9f9b23f34f8",
+      "title": "I went to America's worst national parks so you don't have to",
+      "url": "https://substack.com/home/post/p-193626949",
+      "domain": "substack.com",
+      "published_at": "2026-04-13T12:29:35Z",
+      "category": "tech",
+      "score": 0.2816010509928047,
+      "tldr": "I went to America's worst national parks so you don't have to",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -646,20 +674,6 @@
       "category": "tech",
       "score": 0.27790979453796055,
       "tldr": "AI assistance when contributing to the Linux kernel",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "172896a5-5c46-4e29-a1f6-b2e004d08abd",
-      "title": "German police name alleged leaders of GandCrab and REvil ransomware groups",
-      "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab",
-      "domain": "krebsonsecurity.com",
-      "published_at": "2026-04-06T13:52:37Z",
-      "category": "tech",
-      "score": 0.27714493634282567,
-      "tldr": "German police name alleged leaders of GandCrab and REvil ransomware groups",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -764,20 +778,6 @@
       ]
     },
     {
-      "id": "f52c9aef-20c2-4405-9d4e-3322b7d43674",
-      "title": "sc-im Spreadsheets in Your Terminal",
-      "url": "https://github.com/andmarti1424/sc-im",
-      "domain": "github.com",
-      "published_at": "2026-04-06T16:00:29Z",
-      "category": "tech",
-      "score": 0.26555990697830706,
-      "tldr": "sc-im Spreadsheets in Your Terminal",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f77550df-8b4d-4c67-99f2-795666f0a3aa",
       "title": "The Cult of Vibe Coding Is Insane",
       "url": "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane",
@@ -856,6 +856,20 @@
       "category": "tech",
       "score": 0.26189258051191744,
       "tldr": "A WebGPU Implementation of Augmented Vertex Block Descent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "886990e7-1371-4ad1-a099-48a9483e0e38",
+      "title": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+      "url": "https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional",
+      "domain": "nypost.com",
+      "published_at": "2026-04-13T13:37:33Z",
+      "category": "tech",
+      "score": 0.26167025681667,
+      "tldr": "US appeals court declares 158-year-old home distilling ban unconstitutional",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1108,20 +1122,6 @@
       "category": "tech",
       "score": 0.25436254423936844,
       "tldr": "Quien – A better WHOIS lookup tool",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "597c2a27-99b0-48c2-a82a-78aa45b4c53f",
-      "title": "Claude Code is unusable for complex engineering tasks with the Feb updates",
-      "url": "https://github.com/anthropics/claude-code/issues/42796",
-      "domain": "github.com",
-      "published_at": "2026-04-06T13:50:35Z",
-      "category": "tech",
-      "score": 0.2542225917152915,
-      "tldr": "Claude Code is unusable for complex engineering tasks with the Feb updates",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-13T12:03:01.717242251Z",
+  "last_updated": "2026-04-13T16:54:02.294187013Z",
   "total_count": 100
 }
