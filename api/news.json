@@ -399,20 +399,6 @@
       ]
     },
     {
-      "id": "ee387837-4acd-4b6b-970b-dfcbbecc6188",
-      "title": "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS",
-      "url": "https://github.com/matthartman/ghost-pepper",
-      "domain": "github.com",
-      "published_at": "2026-04-06T19:50:16Z",
-      "category": "tech",
-      "score": 0.31284351617298417,
-      "tldr": "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5ab546fb-e2db-4038-a4dd-4cd573155744",
       "title": "Exploiting the most prominent AI agent benchmarks",
       "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont",
@@ -792,20 +778,6 @@
       ]
     },
     {
-      "id": "046f7a7b-c162-4008-bffe-973a57f43241",
-      "title": "Show HN: Ghost Pepper – 100% local hold-to-talk speech-to-text for macOS",
-      "url": "https://github.com/matthartman/ghost-pepper",
-      "domain": "github.com",
-      "published_at": "2026-04-06T19:50:16Z",
-      "category": "tech",
-      "score": 0.2635035208029187,
-      "tldr": "Show HN: Ghost Pepper – 100% local hold-to-talk speech-to-text for macOS",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "34cefc1f-42a5-41c1-a26f-3c5780f39f7c",
       "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
       "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist",
@@ -901,6 +873,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "9868c5db-e65b-4613-9e83-b4895e2db017",
+      "title": "The Looming College-Enrollment Death Spiral",
+      "url": "https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750",
+      "domain": "theatlantic.com",
+      "published_at": "2026-04-13T19:18:34Z",
+      "category": "tech",
+      "score": 0.25844893438081157,
+      "tldr": "The Looming College-Enrollment Death Spiral",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1156,20 +1142,6 @@
       ]
     },
     {
-      "id": "22bbe165-7680-460f-a1c9-356026331015",
-      "title": "Twitter devolved into a pipeline of ragebait slop",
-      "url": "https://mattruby.substack.com/p/we-give-elon-crap-but-not-enough",
-      "domain": "mattruby.substack.com",
-      "published_at": "2026-04-06T19:58:25Z",
-      "category": "tech",
-      "score": 0.25336665892476923,
-      "tldr": "Twitter devolved into a pipeline of ragebait slop",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "00482146-7490-49cf-989f-d77e8796a7a8",
       "title": "Tailslayer: Library for reducing tail latency in RAM reads",
       "url": "https://github.com/LaurieWired/tailslayer",
@@ -1206,20 +1178,6 @@
       "category": "tech",
       "score": 0.2530033203698441,
       "tldr": "Show HN: Pion/handoff – Move WebRTC out of browser and into Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a67be409-3468-4628-9154-ae51d32e81fc",
-      "title": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
-      "url": "https://github.com/4RH1T3CT0R7/ttf-doom",
-      "domain": "github.com",
-      "published_at": "2026-04-06T19:25:39Z",
-      "category": "tech",
-      "score": 0.25290879278862344,
-      "tldr": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1364,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "3939352b-99a8-442d-b417-e6cedb1fdf9d",
+      "title": "5 Open-Source Projects Running Transformers on CPUs to GPUs in Pure-Modern Java",
+      "url": "https://old.reddit.com/r/java/comments/1shho8f/the_purejava_llm_revolution_the_jvm_now_has_all",
+      "domain": "old.reddit.com",
+      "published_at": "2026-04-10T09:56:21Z",
+      "category": "tech",
+      "score": 0.25145999462789387,
+      "tldr": "5 Open-Source Projects Running Transformers on CPUs to GPUs in Pure-Modern Java",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e181a759-fc67-4ec4-8b68-d3ab2808ad65",
+      "title": "The AI Layoff Trap",
+      "url": "https://arxiv.org/abs/2603.20617",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-12T06:53:38Z",
+      "category": "tech",
+      "score": 0.25143359513596286,
+      "tldr": "The AI Layoff Trap",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7680662c-7eb7-492a-bec6-6f4bdd3a4113",
+      "title": "Show HN: Keeper – embedded secret store for Go (help me break it)",
+      "url": "https://github.com/agberohq/keeper",
+      "domain": "github.com",
+      "published_at": "2026-04-10T08:53:33Z",
+      "category": "tech",
+      "score": 0.25142193825903214,
+      "tldr": "Show HN: Keeper – embedded secret store for Go (help me break it)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-13T19:00:00.055376228Z",
+  "last_updated": "2026-04-13T20:05:26.470855139Z",
   "total_count": 100
 }
