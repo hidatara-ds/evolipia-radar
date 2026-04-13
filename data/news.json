@@ -1128,20 +1128,6 @@
       ]
     },
     {
-      "id": "efa90dc5-9a12-41a7-ae30-3ce2396bcd81",
-      "title": "Ask HN: How do systems (or people) detect when a text is written by an LLM",
-      "url": "https://news.ycombinator.com/item?id=47659807",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-04-06T12:03:00Z",
-      "category": "tech",
-      "score": 0.2539316854314327,
-      "tldr": "Ask HN: How do systems (or people) detect when a text is written by an LLM",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "202ce777-649c-425e-ae7e-c955ab29e5db",
       "title": "Nigel Farage wants to build a British ICE. Starmer may have handed him the tools",
       "url": "https://www.thenerve.news/p/reform-deportation-operation-restoring-justice-data-surveillance-palantir-uk-labour",
@@ -1406,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "dd66f51e-ece2-48b4-971b-4609f5ea979d",
+      "title": "Pgfmt – a PostgreSQL specific SQL formatter",
+      "url": "https://github.com/gmr/pgfmt",
+      "domain": "github.com",
+      "published_at": "2026-04-08T16:37:54Z",
+      "category": "tech",
+      "score": 0.2515185863164021,
+      "tldr": "Pgfmt – a PostgreSQL specific SQL formatter",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-13T11:00:03.629784392Z",
+  "last_updated": "2026-04-13T12:03:01.717242251Z",
   "total_count": 100
 }
