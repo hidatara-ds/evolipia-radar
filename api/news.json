@@ -890,6 +890,20 @@
       ]
     },
     {
+      "id": "7fccb7f1-0226-48a2-a449-15a30b1e1fcf",
+      "title": "Distributed DuckDB Instance",
+      "url": "https://github.com/citguru/openduck",
+      "domain": "github.com",
+      "published_at": "2026-04-14T06:31:44Z",
+      "category": "tech",
+      "score": 0.25932620460032324,
+      "tldr": "Distributed DuckDB Instance",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "9868c5db-e65b-4613-9e83-b4895e2db017",
       "title": "The Looming College-Enrollment Death Spiral",
       "url": "https://www.theatlantic.com/ideas/2026/04/college-enrollment-demographic-cliff/686750",
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "3939352b-99a8-442d-b417-e6cedb1fdf9d",
-      "title": "5 Open-Source Projects Running Transformers on CPUs to GPUs in Pure-Modern Java",
-      "url": "https://old.reddit.com/r/java/comments/1shho8f/the_purejava_llm_revolution_the_jvm_now_has_all",
-      "domain": "old.reddit.com",
-      "published_at": "2026-04-10T09:56:21Z",
-      "category": "tech",
-      "score": 0.25145999462789387,
-      "tldr": "5 Open-Source Projects Running Transformers on CPUs to GPUs in Pure-Modern Java",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-14T05:55:32.496923286Z",
+  "last_updated": "2026-04-14T07:17:09.841427478Z",
   "total_count": 100
 }
