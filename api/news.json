@@ -327,6 +327,20 @@
       ]
     },
     {
+      "id": "88daa07c-bc90-480a-b0c9-55fa4bae5983",
+      "title": "Show HN: Mcptube – Karpathy's LLM Wiki idea applied to YouTube videos",
+      "url": "https://github.com/0xchamin/mcptube",
+      "domain": "github.com",
+      "published_at": "2026-04-13T16:34:09Z",
+      "category": "tech",
+      "score": 0.3248701412129466,
+      "tldr": "Show HN: Mcptube – Karpathy's LLM Wiki idea applied to YouTube videos",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "d551603b-7416-41fc-8b47-f20a211366e2",
       "title": "ML promises to be profoundly weird",
       "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
@@ -1392,22 +1406,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e181a759-fc67-4ec4-8b68-d3ab2808ad65",
-      "title": "The AI Layoff Trap",
-      "url": "https://arxiv.org/abs/2603.20617",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-12T06:53:38Z",
-      "category": "tech",
-      "score": 0.25143359513596286,
-      "tldr": "The AI Layoff Trap",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-13T23:08:13.082457233Z",
+  "last_updated": "2026-04-14T00:04:43.056594902Z",
   "total_count": 100
 }
