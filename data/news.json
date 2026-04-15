@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "5d996c26-3674-47fb-8766-8221d47ef2d6",
+      "title": "Google broke its promise to me – now ICE has my data",
+      "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
+      "domain": "eff.org",
+      "published_at": "2026-04-15T17:44:26Z",
+      "category": "tech",
+      "score": 0.521802098718696,
+      "tldr": "Google broke its promise to me – now ICE has my data",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "12af66db-5db6-4653-a1cb-93f3c823d6dd",
       "title": "Artemis II safely splashes down",
       "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return",
@@ -240,6 +254,20 @@
       ]
     },
     {
+      "id": "a1cc0a5d-acb4-4c54-bf44-105fd17d7c8e",
+      "title": "Does Gas Town 'steal' usage from users' LLM credits to improve itself?",
+      "url": "https://github.com/gastownhall/gastown/issues/3649",
+      "domain": "github.com",
+      "published_at": "2026-04-15T20:49:48Z",
+      "category": "tech",
+      "score": 0.33559484285072316,
+      "tldr": "Does Gas Town 'steal' usage from users' LLM credits to improve itself?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "415ae5b4-8bce-463d-b73c-063a5751cf13",
       "title": "Vercel Claude Code plugin wants to read your prompt",
       "url": "https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry",
@@ -394,6 +422,20 @@
       ]
     },
     {
+      "id": "438cea71-7117-4c49-b718-13293f5840dd",
+      "title": "Open Source Isn't Dead",
+      "url": "https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats",
+      "domain": "strix.ai",
+      "published_at": "2026-04-15T15:43:37Z",
+      "category": "tech",
+      "score": 0.3242651453368852,
+      "tldr": "Open Source Isn't Dead",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "637b6dd0-ba64-4f67-95df-3134a4a3da74",
       "title": "European AI. A playbook to own it. By Mistral",
       "url": "https://europe.mistral.ai/",
@@ -495,6 +537,20 @@
       ]
     },
     {
+      "id": "b8045502-9ef7-4bbc-b647-b912bd27c1e0",
+      "title": "Good sleep, good learning, good life (2012)",
+      "url": "https://super-memory.com/articles/sleep.htm",
+      "domain": "super-memory.com",
+      "published_at": "2026-04-15T09:11:18Z",
+      "category": "tech",
+      "score": 0.3089781341375906,
+      "tldr": "Good sleep, good learning, good life (2012)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2ca4d5cb-d500-4a78-ba25-d3875117ea1c",
       "title": "The biggest advance in AI since the LLM",
       "url": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
@@ -536,6 +592,21 @@
       "tags": [
         "general_ai",
         "llm"
+      ]
+    },
+    {
+      "id": "a0407e41-a6e6-42c3-8236-fc860de0f5f9",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts",
+      "domain": "blog.google",
+      "published_at": "2026-04-15T16:32:00Z",
+      "category": "tech",
+      "score": 0.3015430322206655,
+      "tldr": "1 Flash TTS: the next generation of expressive AI speech",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm",
+        "general_ai"
       ]
     },
     {
@@ -659,6 +730,20 @@
       "category": "tech",
       "score": 0.29185146521712024,
       "tldr": "Servo is now available on crates.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "43d1e4bb-afb6-4925-ba15-2b55b0dd5be3",
+      "title": "AI-assisted cognition endangers human development?",
+      "url": "https://heidenstedt.org/posts/2026/ai-assisted-cognition-endangers-human-development",
+      "domain": "heidenstedt.org",
+      "published_at": "2026-04-15T18:16:50Z",
+      "category": "tech",
+      "score": 0.2895132726813106,
+      "tldr": "AI-assisted cognition endangers human development?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1321,92 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "0635d9bd-a924-4df1-8a3b-627a1f0a9f53",
-      "title": "Midnight Captain – A midnight commander inspired file manager",
-      "url": "https://github.com/duguyue100/midnight-captain",
-      "domain": "github.com",
-      "published_at": "2026-04-11T23:37:43Z",
-      "category": "tech",
-      "score": 0.2537037041988415,
-      "tldr": "Midnight Captain – A midnight commander inspired file manager",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "67f84e3a-2c7c-4da0-bb80-9c803b55ec80",
-      "title": "MOS tech 6502 8-bit microprocessor in pure SQL powered by Postgres",
-      "url": "https://github.com/lasect/pg_6502",
-      "domain": "github.com",
-      "published_at": "2026-04-14T05:46:49Z",
-      "category": "tech",
-      "score": 0.2536680416943993,
-      "tldr": "MOS tech 6502 8-bit microprocessor in pure SQL powered by Postgres",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dd73f431-01ca-4d44-bc67-7438cde32d07",
-      "title": "Ads in ChatGPT",
-      "url": "https://help.openai.com/en/articles/20001047-ads-in-chatgpt",
-      "domain": "help.openai.com",
-      "published_at": "2026-04-10T10:40:27Z",
-      "category": "tech",
-      "score": 0.25356144316623375,
-      "tldr": "Ads in ChatGPT",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "41437905-3a7f-411c-a537-bd5fd52fc2fd",
-      "title": "A Canonical Generalization of OBDD",
-      "url": "https://arxiv.org/abs/2604.05537",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-13T04:26:15Z",
-      "category": "tech",
-      "score": 0.2528040211327461,
-      "tldr": "A Canonical Generalization of OBDD",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9e78b9fd-3e99-4487-91b9-b751d008d3cb",
-      "title": "Show HN: Zoneless – Open-source Stripe Connect clone with $0.002 fees using USDC",
-      "url": "https://github.com/zonelessdev/zoneless",
-      "domain": "github.com",
-      "published_at": "2026-04-09T14:31:19Z",
-      "category": "tech",
-      "score": 0.25264679742662016,
-      "tldr": "Show HN: Zoneless – Open-source Stripe Connect clone with $0.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0a97ee29-0a5a-4127-8c7e-1ec45f01d3cd",
-      "title": "ClawRun – Deploy and manage AI agents in seconds",
-      "url": "https://github.com/clawrun-sh/clawrun",
-      "domain": "github.com",
-      "published_at": "2026-04-14T19:12:09Z",
-      "category": "tech",
-      "score": 0.2523666427959541,
-      "tldr": "ClawRun – Deploy and manage AI agents in seconds",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-15T20:13:31.447754438Z",
+  "last_updated": "2026-04-15T21:12:25.647470298Z",
   "total_count": 100
 }
