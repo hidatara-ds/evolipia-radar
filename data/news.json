@@ -226,20 +226,6 @@
       ]
     },
     {
-      "id": "865c6f1b-858f-435b-8fa7-beb8e34c6a99",
-      "title": "Microsoft terminates VeraCrypt account, halting Windows updates",
-      "url": "https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates",
-      "domain": "404media.co",
-      "published_at": "2026-04-08T14:46:15Z",
-      "category": "tech",
-      "score": 0.34175949223931806,
-      "tldr": "Microsoft terminates VeraCrypt account, halting Windows updates",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "841bd445-4461-4a37-9e2a-b7153df2b626",
       "title": "Rare concert recordings are landing on the Internet Archive",
       "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now",
@@ -293,6 +279,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "c5a77370-b346-49e8-b7b6-33fa57beda3e",
+      "title": "Wacli – WhatsApp CLI",
+      "url": "https://github.com/steipete/wacli",
+      "domain": "github.com",
+      "published_at": "2026-04-15T07:04:45Z",
+      "category": "tech",
+      "score": 0.3311907309532176,
+      "tldr": "Wacli – WhatsApp CLI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -805,6 +805,20 @@
       ]
     },
     {
+      "id": "a48e2035-a450-440b-8ec6-f50f172172a1",
+      "title": "Elevated errors on Claude.ai, API, Claude Code",
+      "url": "https://claudestatus.com/",
+      "domain": "claudestatus.com",
+      "published_at": "2026-04-15T14:44:00Z",
+      "category": "tech",
+      "score": 0.27440390935365017,
+      "tldr": "Elevated errors on Claude.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b896316b-8b7d-408b-a527-0402e01a50e4",
       "title": "Industrial design files for Keychron keyboards and mice",
       "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
@@ -886,20 +900,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "1c3abb95-b5f7-45c0-a470-93a1ab77576a",
-      "title": "I Ported Mac OS X to the Nintendo Wii",
-      "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
-      "domain": "bryankeller.github.io",
-      "published_at": "2026-04-08T15:40:00Z",
-      "category": "tech",
-      "score": 0.26718675901810485,
-      "tldr": "I Ported Mac OS X to the Nintendo Wii",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1085,20 +1085,6 @@
       ]
     },
     {
-      "id": "9f7a0267-181c-4d25-bf87-24065172b5e3",
-      "title": "Show HN: BAREmail ʕ·ᴥ·ʔ – minimalist Gmail client for bad WiFi",
-      "url": "https://github.com/matt-virgo/baremail",
-      "domain": "github.com",
-      "published_at": "2026-04-08T14:44:23Z",
-      "category": "tech",
-      "score": 0.2572226309347613,
-      "tldr": "Show HN: BAREmail ʕ·ᴥ·ʔ – minimalist Gmail client for bad WiFi",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b52009b2-6f84-4d44-b866-b740c870f9b0",
       "title": "Show HN: Claudraband – Claude Code for the Power User",
       "url": "https://github.com/halfwhey/claudraband",
@@ -1253,20 +1239,6 @@
       ]
     },
     {
-      "id": "20275745-a148-4b89-982d-d90d953f344b",
-      "title": "Show HN: Go-Bt: Minimalist Behavior Trees for Go",
-      "url": "https://github.com/rvitorper/go-bt",
-      "domain": "github.com",
-      "published_at": "2026-04-08T14:33:30Z",
-      "category": "tech",
-      "score": 0.25476426314619977,
-      "tldr": "Show HN: Go-Bt: Minimalist Behavior Trees for Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
       "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
       "url": "https://github.com/anthropics/claude-code/issues/46829",
@@ -1405,8 +1377,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ec1ad7d0-fe4d-402e-986b-30a278fb0426",
+      "title": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
+      "url": "https://www.nytimes.com/2026/03/31/style/new-jersey-teen-storage-units.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-04-08T16:32:46Z",
+      "category": "tech",
+      "score": 0.25232197074708496,
+      "tldr": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e5732efc-1080-48cb-98f1-99574f553bf9",
+      "title": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+      "url": "https://arxiv.org/abs/2505.09509",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-12T16:17:59Z",
+      "category": "tech",
+      "score": 0.2523076791134467,
+      "tldr": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-15T14:28:11.441652672Z",
+  "last_updated": "2026-04-15T15:46:21.966862305Z",
   "total_count": 100
 }
