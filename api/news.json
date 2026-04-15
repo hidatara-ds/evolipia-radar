@@ -324,6 +324,20 @@
       ]
     },
     {
+      "id": "007f8b67-7b16-4011-a0d6-5b849931d56e",
+      "title": "Show HN: Tier – Adaptive tool routing that makes small LLMs 10pt more accurate",
+      "url": "https://github.com/yantrikos/tier",
+      "domain": "github.com",
+      "published_at": "2026-04-15T17:27:00Z",
+      "category": "tech",
+      "score": 0.3263337676516388,
+      "tldr": "Show HN: Tier – Adaptive tool routing that makes small LLMs 10pt more accurate",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7eb37187-2761-4ace-8645-c82a57023a42",
       "title": "Show HN: BrokenClaw Part 5: GPT-5.4 Edition (Prompt Injection)",
       "url": "https://veganmosfet.codeberg.page/posts/2026-04-08-openclaw_gpt5_4",
@@ -1391,22 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "aaba146e-ecd0-4d6e-9019-71f63877a95a",
-      "title": "I audited Garry's website after he bragged about 37K LOC/day",
-      "url": "https://twitter.com/Gregorein/status/2038953944475472316",
-      "domain": "twitter.com",
-      "published_at": "2026-04-12T20:43:01Z",
-      "category": "tech",
-      "score": 0.25232205620957493,
-      "tldr": "I audited Garry's website after he bragged about 37K LOC/day",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-15T19:10:45.985693741Z",
+  "last_updated": "2026-04-15T20:13:31.447754438Z",
   "total_count": 100
 }
