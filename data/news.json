@@ -296,6 +296,20 @@
       ]
     },
     {
+      "id": "03b7d06e-0223-4fae-b82d-d015ccdd7aa5",
+      "title": "Backpacks got worse on purpose",
+      "url": "https://www.worseonpurpose.com/p/your-backpack-got-worse-on-purpose",
+      "domain": "worseonpurpose.com",
+      "published_at": "2026-04-15T10:42:28Z",
+      "category": "tech",
+      "score": 0.3275278967757804,
+      "tldr": "Backpacks got worse on purpose",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "334dbdc7-2c28-4613-9439-9e5aceda3575",
       "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
       "url": "https://github.com/imbue-ai/bouncer",
@@ -1225,20 +1239,6 @@
       ]
     },
     {
-      "id": "cfb016ec-bf5d-40e7-a3bc-e1a71edbc1cc",
-      "title": "Show HN: TUI-use: Let AI agents control interactive terminal programs",
-      "url": "https://github.com/onesuper/tui-use",
-      "domain": "github.com",
-      "published_at": "2026-04-08T16:41:16Z",
-      "category": "tech",
-      "score": 0.25501093792232965,
-      "tldr": "Show HN: TUI-use: Let AI agents control interactive terminal programs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
       "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
       "url": "https://github.com/anthropics/claude-code/issues/46829",
@@ -1379,20 +1379,6 @@
       ]
     },
     {
-      "id": "ec1ad7d0-fe4d-402e-986b-30a278fb0426",
-      "title": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
-      "url": "https://www.nytimes.com/2026/03/31/style/new-jersey-teen-storage-units.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-04-08T16:32:46Z",
-      "category": "tech",
-      "score": 0.25232197074708496,
-      "tldr": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e5732efc-1080-48cb-98f1-99574f553bf9",
       "title": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
       "url": "https://arxiv.org/abs/2505.09509",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f554e5ab-b3ea-45dd-9063-a9f009738607",
+      "title": "Discovering, detecting, and surgically removing Google's AI watermark",
+      "url": "https://github.com/aloshdenny/reverse-SynthID",
+      "domain": "github.com",
+      "published_at": "2026-04-09T20:10:25Z",
+      "category": "tech",
+      "score": 0.25202996187771903,
+      "tldr": "Discovering, detecting, and surgically removing Google's AI watermark",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-15T15:46:21.966862305Z",
+  "last_updated": "2026-04-15T16:52:51.865888506Z",
   "total_count": 100
 }
