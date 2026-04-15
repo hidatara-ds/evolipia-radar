@@ -324,6 +324,20 @@
       ]
     },
     {
+      "id": "5147cec2-5184-463a-9041-2bfa52a0211e",
+      "title": "Gemini 3.1 Flash TTS – with directed prompts",
+      "url": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts",
+      "domain": "simonwillison.net",
+      "published_at": "2026-04-15T17:47:08Z",
+      "category": "tech",
+      "score": 0.32805463427931264,
+      "tldr": "1 Flash TTS – with directed prompts",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "03b7d06e-0223-4fae-b82d-d015ccdd7aa5",
       "title": "Backpacks got worse on purpose",
       "url": "https://www.worseonpurpose.com/p/your-backpack-got-worse-on-purpose",
@@ -388,20 +402,6 @@
       "category": "tech",
       "score": 0.32587310317750234,
       "tldr": "A complete GPT language model in ~600 lines of C#, zero dependencies",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6e136ac5-5e2d-4347-8a5e-adebb94157d7",
-      "title": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
-      "url": "https://arxiv.org/abs/2603.20957",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-08T21:32:47Z",
-      "category": "tech",
-      "score": 0.3257308380772054,
-      "tldr": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1408,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-15T21:12:25.647470298Z",
+  "last_updated": "2026-04-15T22:08:08.895307296Z",
   "total_count": 100
 }
