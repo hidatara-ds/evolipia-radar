@@ -511,6 +511,21 @@
       ]
     },
     {
+      "id": "9b15ccad-b76e-47e2-9f79-9880ff19af0c",
+      "title": "Krafton CEO used ChatGPT in failed bid to avoid paying US$250M bonus",
+      "url": "https://www.theguardian.com/technology/2026/mar/18/subnautica-2-publisher-krafton-ceo-reinstated-ai-chatgpt-failed-bid-avoid-paying-bonus",
+      "domain": "theguardian.com",
+      "published_at": "2026-04-15T03:59:50Z",
+      "category": "tech",
+      "score": 0.3022317395046168,
+      "tldr": "Krafton CEO used ChatGPT in failed bid to avoid paying US$250M bonus",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "91e7517f-878c-4e8b-9ed4-af305fb9ecff",
       "title": "Microsoft is employing dark patterns to goad users into paying for storage?",
       "url": "https://lzon.ca/posts/other/microsoft-user-abuse",
@@ -1197,6 +1212,20 @@
       ]
     },
     {
+      "id": "05c9b353-0f56-4a72-a518-79de39e465e5",
+      "title": "GPT-5.4 Pro solves Erdős Problem #1196",
+      "url": "https://twitter.com/i/status/2044051379916882067",
+      "domain": "twitter.com",
+      "published_at": "2026-04-15T03:48:56Z",
+      "category": "tech",
+      "score": 0.2551205434335143,
+      "tldr": "4 Pro solves Erdős Problem #1196",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "608454d7-675b-4fbe-b80f-6f1401f375d1",
       "title": "Trusted access for the next era of cyber defense",
       "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
@@ -1377,36 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "aaba146e-ecd0-4d6e-9019-71f63877a95a",
-      "title": "I audited Garry's website after he bragged about 37K LOC/day",
-      "url": "https://twitter.com/Gregorein/status/2038953944475472316",
-      "domain": "twitter.com",
-      "published_at": "2026-04-12T20:43:01Z",
-      "category": "tech",
-      "score": 0.25232205620957493,
-      "tldr": "I audited Garry's website after he bragged about 37K LOC/day",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ec1ad7d0-fe4d-402e-986b-30a278fb0426",
-      "title": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
-      "url": "https://www.nytimes.com/2026/03/31/style/new-jersey-teen-storage-units.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-04-08T16:32:46Z",
-      "category": "tech",
-      "score": 0.25232197074708496,
-      "tldr": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-15T03:46:24.682943823Z",
+  "last_updated": "2026-04-15T05:55:26.953720203Z",
   "total_count": 100
 }
