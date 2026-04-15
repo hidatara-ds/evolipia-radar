@@ -945,20 +945,6 @@
       ]
     },
     {
-      "id": "34cefc1f-42a5-41c1-a26f-3c5780f39f7c",
-      "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
-      "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist",
-      "domain": "nickvecchioni.github.io",
-      "published_at": "2026-04-08T17:44:25Z",
-      "category": "tech",
-      "score": 0.26288199718181704,
-      "tldr": "I've been waiting over a month for Anthropic to respond to my billing issue",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9ad490b5-6a4d-40ff-8cd9-06d62d30a50e",
       "title": "A WebGPU Implementation of Augmented Vertex Block Descent",
       "url": "https://github.com/jure/webphysics",
@@ -1009,6 +995,20 @@
       "category": "tech",
       "score": 0.26053820808290173,
       "tldr": "The tool that won't let AI say anything it can't cite",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "80de3086-ca70-4905-8a33-258c350ccdbf",
+      "title": "Show HN: Libretto – Making AI browser automations deterministic",
+      "url": "https://github.com/saffron-health/libretto",
+      "domain": "github.com",
+      "published_at": "2026-04-15T15:57:54Z",
+      "category": "tech",
+      "score": 0.26000778245054823,
+      "tldr": "Show HN: Libretto – Making AI browser automations deterministic",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1239,6 +1239,20 @@
       ]
     },
     {
+      "id": "400e5475-40b3-4ddb-a18a-ee0f541ac010",
+      "title": "The next evolution of the Agents SDK",
+      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "domain": "openai.com",
+      "published_at": "2026-04-15T17:08:59Z",
+      "category": "tech",
+      "score": 0.2547504283412078,
+      "tldr": "The next evolution of the Agents SDK",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
       "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
       "url": "https://github.com/anthropics/claude-code/issues/46829",
@@ -1391,22 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f554e5ab-b3ea-45dd-9063-a9f009738607",
-      "title": "Discovering, detecting, and surgically removing Google's AI watermark",
-      "url": "https://github.com/aloshdenny/reverse-SynthID",
-      "domain": "github.com",
-      "published_at": "2026-04-09T20:10:25Z",
-      "category": "tech",
-      "score": 0.25202996187771903,
-      "tldr": "Discovering, detecting, and surgically removing Google's AI watermark",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-15T16:52:51.865888506Z",
+  "last_updated": "2026-04-15T17:58:53.256156753Z",
   "total_count": 100
 }
