@@ -43,21 +43,6 @@
       ]
     },
     {
-      "id": "f2483ca8-4403-4927-834c-1be2f0eed831",
-      "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
-      "url": "https://arxiv.org/abs/2604.05091",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-08T12:19:00Z",
-      "category": "tech",
-      "score": 0.4141729972956427,
-      "tldr": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "352a4799-5686-41fc-8d5e-094eddfd0e3f",
       "title": "Reverse engineering Gemini's SynthID detection",
       "url": "https://github.com/aloshdenny/reverse-SynthID",
@@ -1170,20 +1155,6 @@
       ]
     },
     {
-      "id": "4291ecda-c644-4412-a3c6-803b733d2e6b",
-      "title": "Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",
-      "url": "https://github.com/pcruz1905/hls-restream-proxy",
-      "domain": "github.com",
-      "published_at": "2026-04-08T12:17:57Z",
-      "category": "tech",
-      "score": 0.2559349213135499,
-      "tldr": "Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7b994a8f-e59e-4d73-8de9-5d8cf941b709",
       "title": "Installing Every* Firefox Extension",
       "url": "https://jack.cab/blog/every-firefox-extension",
@@ -1406,8 +1377,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "aaba146e-ecd0-4d6e-9019-71f63877a95a",
+      "title": "I audited Garry's website after he bragged about 37K LOC/day",
+      "url": "https://twitter.com/Gregorein/status/2038953944475472316",
+      "domain": "twitter.com",
+      "published_at": "2026-04-12T20:43:01Z",
+      "category": "tech",
+      "score": 0.25232205620957493,
+      "tldr": "I audited Garry's website after he bragged about 37K LOC/day",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ec1ad7d0-fe4d-402e-986b-30a278fb0426",
+      "title": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
+      "url": "https://www.nytimes.com/2026/03/31/style/new-jersey-teen-storage-units.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-04-08T16:32:46Z",
+      "category": "tech",
+      "score": 0.25232197074708496,
+      "tldr": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-15T11:32:34.002139247Z",
+  "last_updated": "2026-04-15T12:57:37.541510103Z",
   "total_count": 100
 }
