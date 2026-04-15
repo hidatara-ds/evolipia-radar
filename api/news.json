@@ -1002,6 +1002,20 @@
       ]
     },
     {
+      "id": "3f85a10b-9fa2-46a4-ba17-53fb92f296af",
+      "title": "ChatGPT for Excel",
+      "url": "https://chatgpt.com/apps/spreadsheets",
+      "domain": "chatgpt.com",
+      "published_at": "2026-04-15T21:21:05Z",
+      "category": "tech",
+      "score": 0.27136484777415626,
+      "tldr": "ChatGPT for Excel",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "e4aa0310-03c9-4e2e-a733-78d1465f9bea",
       "title": "I built a Cargo-like build tool for C/C++",
       "url": "https://github.com/randerson112/craft",
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "202ce777-649c-425e-ae7e-c955ab29e5db",
-      "title": "Nigel Farage wants to build a British ICE. Starmer may have handed him the tools",
-      "url": "https://www.thenerve.news/p/reform-deportation-operation-restoring-justice-data-surveillance-palantir-uk-labour",
-      "domain": "thenerve.news",
-      "published_at": "2026-04-09T09:04:19Z",
-      "category": "tech",
-      "score": 0.2538353667184444,
-      "tldr": "Nigel Farage wants to build a British ICE. Starmer may have handed him the tools",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-15T22:08:08.895307296Z",
+  "last_updated": "2026-04-15T23:07:24.161744724Z",
   "total_count": 100
 }
