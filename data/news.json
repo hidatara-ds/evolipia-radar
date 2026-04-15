@@ -1072,20 +1072,6 @@
       ]
     },
     {
-      "id": "851f9384-5854-4f5e-a929-416b3456271d",
-      "title": "Xilem – An experimental Rust native UI framework",
-      "url": "https://github.com/linebender/xilem",
-      "domain": "github.com",
-      "published_at": "2026-04-07T23:36:15Z",
-      "category": "tech",
-      "score": 0.25766472750866015,
-      "tldr": "Xilem – An experimental Rust native UI framework",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "677f42b8-954a-48ae-8f7c-10970fb678ef",
       "title": "Doom, Played over Curl",
       "url": "https://github.com/xsawyerx/curl-doom",
@@ -1406,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "aaba146e-ecd0-4d6e-9019-71f63877a95a",
+      "title": "I audited Garry's website after he bragged about 37K LOC/day",
+      "url": "https://twitter.com/Gregorein/status/2038953944475472316",
+      "domain": "twitter.com",
+      "published_at": "2026-04-12T20:43:01Z",
+      "category": "tech",
+      "score": 0.25232205620957493,
+      "tldr": "I audited Garry's website after he bragged about 37K LOC/day",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-14T23:08:40.285996593Z",
+  "last_updated": "2026-04-15T00:04:18.573317323Z",
   "total_count": 100
 }
