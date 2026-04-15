@@ -43,21 +43,6 @@
       ]
     },
     {
-      "id": "d02e74ae-dba2-45e3-bc06-aa96d6d89252",
-      "title": "OpenAI says its new model GPT-2 is too dangerous to release (2019)",
-      "url": "https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html",
-      "domain": "slate.com",
-      "published_at": "2026-04-08T02:41:12Z",
-      "category": "tech",
-      "score": 0.4258205215510096,
-      "tldr": "OpenAI says its new model GPT-2 is too dangerous to release (2019)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "63a8db9f-9135-462e-9749-ea7755e70dd0",
       "title": "Filing the corners off my MacBooks",
       "url": "https://kentwalters.com/posts/corners",
@@ -152,6 +137,20 @@
       "category": "tech",
       "score": 0.3716861311605849,
       "tldr": "Pro Max 5x Quota Exhausted in 1. 5 Hours Despite Moderate Usage",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f2046411-9851-4b9a-8129-7d6043d5cc49",
+      "title": "Stop Flock",
+      "url": "https://stopflock.com",
+      "domain": "stopflock.com",
+      "published_at": "2026-04-14T21:56:05Z",
+      "category": "tech",
+      "score": 0.3649331572435175,
+      "tldr": "Stop Flock",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -946,20 +945,6 @@
       ]
     },
     {
-      "id": "90ed16c3-f245-48c4-b515-59ed84c8b137",
-      "title": "LLM scraper bots are overloading acme.com's HTTPS server",
-      "url": "http://acme.com/updates/archive/229.html",
-      "domain": "acme.com",
-      "published_at": "2026-04-08T03:02:56Z",
-      "category": "tech",
-      "score": 0.2623674417851136,
-      "tldr": "LLM scraper bots are overloading acme.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "9ad490b5-6a4d-40ff-8cd9-06d62d30a50e",
       "title": "A WebGPU Implementation of Augmented Vertex Block Descent",
       "url": "https://github.com/jure/webphysics",
@@ -1406,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ec1ad7d0-fe4d-402e-986b-30a278fb0426",
+      "title": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
+      "url": "https://www.nytimes.com/2026/03/31/style/new-jersey-teen-storage-units.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-04-08T16:32:46Z",
+      "category": "tech",
+      "score": 0.25232197074708496,
+      "tldr": "A New Jersey Teen Finds Treasure, and More, in Abandoned Storage Units",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-15T00:04:18.573317323Z",
+  "last_updated": "2026-04-15T03:46:24.682943823Z",
   "total_count": 100
 }
