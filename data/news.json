@@ -198,20 +198,6 @@
       ]
     },
     {
-      "id": "bf2a01b1-e4e7-4fcd-980f-acb78e50aeae",
-      "title": "The Vercel plugin on Claude Code wants to read your prompts",
-      "url": "https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry",
-      "domain": "akshaychugh.xyz",
-      "published_at": "2026-04-09T15:17:27Z",
-      "category": "tech",
-      "score": 0.3542195351597426,
-      "tldr": "The Vercel plugin on Claude Code wants to read your prompts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "67030d68-f048-4cb9-a343-4729557da928",
       "title": "Anthropic downgraded cache TTL on March 6th",
       "url": "https://github.com/anthropics/claude-code/issues/46829",
@@ -265,20 +251,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "415ae5b4-8bce-463d-b73c-063a5751cf13",
-      "title": "Vercel Claude Code plugin wants to read your prompt",
-      "url": "https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry",
-      "domain": "akshaychugh.xyz",
-      "published_at": "2026-04-09T15:17:27Z",
-      "category": "tech",
-      "score": 0.335339063936656,
-      "tldr": "Vercel Claude Code plugin wants to read your prompt",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -366,6 +338,20 @@
       ]
     },
     {
+      "id": "5d31a69f-6bfb-4ea6-8bd7-1b774fc358f0",
+      "title": "Codex for Almost Everything",
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "domain": "openai.com",
+      "published_at": "2026-04-16T17:12:19Z",
+      "category": "tech",
+      "score": 0.3273764338723063,
+      "tldr": "Codex for Almost Everything",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "334dbdc7-2c28-4613-9439-9e5aceda3575",
       "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
       "url": "https://github.com/imbue-ai/bouncer",
@@ -402,20 +388,6 @@
       "category": "tech",
       "score": 0.3263337676516388,
       "tldr": "Show HN: Tier – Adaptive tool routing that makes small LLMs 10pt more accurate",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7eb37187-2761-4ace-8645-c82a57023a42",
-      "title": "Show HN: BrokenClaw Part 5: GPT-5.4 Edition (Prompt Injection)",
-      "url": "https://veganmosfet.codeberg.page/posts/2026-04-08-openclaw_gpt5_4",
-      "domain": "veganmosfet.codeberg.page",
-      "published_at": "2026-04-09T16:32:25Z",
-      "category": "tech",
-      "score": 0.32613242120950836,
-      "tldr": "Show HN: BrokenClaw Part 5: GPT-5. 4 Edition (Prompt Injection)",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -462,20 +434,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "ab6f3382-8e85-4b52-861d-94937e68fd07",
-      "title": "The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy",
-      "url": "https://www.thelettersfromleo.com/p/the-pentagon-threatened-pope-leo",
-      "domain": "thelettersfromleo.com",
-      "published_at": "2026-04-09T16:46:11Z",
-      "category": "tech",
-      "score": 0.3213653069882818,
-      "tldr": "The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -877,20 +835,6 @@
       ]
     },
     {
-      "id": "147703a7-1f2f-4e71-8860-348853d8ddd6",
-      "title": "Show HN: I built a Cargo-like build tool for C/C++",
-      "url": "https://github.com/randerson112/craft",
-      "domain": "github.com",
-      "published_at": "2026-04-09T16:04:54Z",
-      "category": "tech",
-      "score": 0.2823465483036632,
-      "tldr": "Show HN: I built a Cargo-like build tool for C/C++",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "754d5338-71bf-421d-a5a2-c9f9b23f34f8",
       "title": "I went to America's worst national parks so you don't have to",
       "url": "https://substack.com/home/post/p-193626949",
@@ -1088,15 +1032,15 @@
       ]
     },
     {
-      "id": "e4aa0310-03c9-4e2e-a733-78d1465f9bea",
-      "title": "I built a Cargo-like build tool for C/C++",
-      "url": "https://github.com/randerson112/craft",
-      "domain": "github.com",
-      "published_at": "2026-04-09T16:04:54Z",
+      "id": "687f2078-d4f9-44a0-856e-7aaf5754b219",
+      "title": "Artifacts: Versioned storage that speaks Git",
+      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta",
+      "domain": "blog.cloudflare.com",
+      "published_at": "2026-04-16T13:02:03Z",
       "category": "tech",
-      "score": 0.27112108089628145,
-      "tldr": "I built a Cargo-like build tool for C/C++",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.2708528630701741,
+      "tldr": "Artifacts: Versioned storage that speaks Git",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1408,8 +1352,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "7b994a8f-e59e-4d73-8de9-5d8cf941b709",
+      "title": "Installing Every* Firefox Extension",
+      "url": "https://jack.cab/blog/every-firefox-extension",
+      "domain": "jack.cab",
+      "published_at": "2026-04-10T21:56:33Z",
+      "category": "tech",
+      "score": 0.25584264509754007,
+      "tldr": "Installing Every* Firefox Extension",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "05c9b353-0f56-4a72-a518-79de39e465e5",
+      "title": "GPT-5.4 Pro solves Erdős Problem #1196",
+      "url": "https://twitter.com/i/status/2044051379916882067",
+      "domain": "twitter.com",
+      "published_at": "2026-04-15T03:48:56Z",
+      "category": "tech",
+      "score": 0.2551205434335143,
+      "tldr": "4 Pro solves Erdős Problem #1196",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "608454d7-675b-4fbe-b80f-6f1401f375d1",
+      "title": "Trusted access for the next era of cyber defense",
+      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+      "domain": "openai.com",
+      "published_at": "2026-04-14T20:07:20Z",
+      "category": "tech",
+      "score": 0.2550872806488408,
+      "tldr": "Trusted access for the next era of cyber defense",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c0160d80-6509-43af-ba32-7a7d0afe1da9",
+      "title": "For the first time in the U.S., renewables generate more power than natural gas",
+      "url": "https://e360.yale.edu/digest/us-renewables-natural-gas-coal",
+      "domain": "e360.yale.edu",
+      "published_at": "2026-04-14T15:44:15Z",
+      "category": "tech",
+      "score": 0.2550847555149705,
+      "tldr": "For the first time in the U. , renewables generate more power than natural gas",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-16T15:11:09.225538089Z",
+  "last_updated": "2026-04-16T18:03:01.853957267Z",
   "total_count": 100
 }
