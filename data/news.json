@@ -71,21 +71,6 @@
       ]
     },
     {
-      "id": "352a4799-5686-41fc-8d5e-094eddfd0e3f",
-      "title": "Reverse engineering Gemini's SynthID detection",
-      "url": "https://github.com/aloshdenny/reverse-SynthID",
-      "domain": "github.com",
-      "published_at": "2026-04-09T20:10:25Z",
-      "category": "tech",
-      "score": 0.3976540582844238,
-      "tldr": "Reverse engineering Gemini's SynthID detection",
-      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
-      "tags": [
-        "llm",
-        "computer_vision"
-      ]
-    },
-    {
       "id": "53c77e97-dffe-42df-b634-868fc1e44cb6",
       "title": "DaVinci Resolve – Photo",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
@@ -307,6 +292,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "e0cf7eda-bbd8-4be2-b36e-d5c2eadb9f32",
+      "title": "GPT‑Rosalind for life sciences research",
+      "url": "https://openai.com/index/introducing-gpt-rosalind",
+      "domain": "openai.com",
+      "published_at": "2026-04-16T19:24:50Z",
+      "category": "tech",
+      "score": 0.33115035655277525,
+      "tldr": "GPT‑Rosalind for life sciences research",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -593,20 +592,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "91e7517f-878c-4e8b-9ed4-af305fb9ecff",
-      "title": "Microsoft is employing dark patterns to goad users into paying for storage?",
-      "url": "https://lzon.ca/posts/other/microsoft-user-abuse",
-      "domain": "lzon.ca",
-      "published_at": "2026-04-09T21:09:12Z",
-      "category": "tech",
-      "score": 0.3011633393327291,
-      "tldr": "Microsoft is employing dark patterns to goad users into paying for storage?",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
         "general_ai"
       ]
     },
@@ -1408,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
+      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "domain": "github.com",
+      "published_at": "2026-04-12T05:45:52Z",
+      "category": "tech",
+      "score": 0.25461080434890576,
+      "tldr": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-16T19:42:24.593404777Z",
+  "last_updated": "2026-04-16T21:34:41.909006864Z",
   "total_count": 100
 }
