@@ -1101,6 +1101,20 @@
       ]
     },
     {
+      "id": "f5ef4b86-d1de-4b03-85af-09d9c62b7ed1",
+      "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
+      "url": "https://github.com/gainsec/autoprober",
+      "domain": "github.com",
+      "published_at": "2026-04-16T21:56:37Z",
+      "category": "tech",
+      "score": 0.26072181458876914,
+      "tldr": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c84cced7-402d-47c8-8299-13a8e7fc7209",
       "title": "Agent - Native Mac OS X coding ide/harness",
       "url": "https://github.com/macOS26/Agent",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
-      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
-      "url": "https://github.com/anthropics/claude-code/issues/46829",
-      "domain": "github.com",
-      "published_at": "2026-04-12T05:45:52Z",
-      "category": "tech",
-      "score": 0.25461080434890576,
-      "tldr": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-16T21:34:41.909006864Z",
+  "last_updated": "2026-04-16T22:30:21.85079872Z",
   "total_count": 100
 }
