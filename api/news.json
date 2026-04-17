@@ -225,6 +225,20 @@
       ]
     },
     {
+      "id": "bf3e6c33-baad-4b2e-9897-f9fa9ba0ab72",
+      "title": "Isaac Asimov: The Last Question (1956)",
+      "url": "https://hex.ooo/library/last_question.html",
+      "domain": "hex.ooo",
+      "published_at": "2026-04-17T12:01:19Z",
+      "category": "tech",
+      "score": 0.3350229227369038,
+      "tldr": "Isaac Asimov: The Last Question (1956)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2da081f8-5b5a-46e0-acfa-d3813481e5e5",
       "title": "A new spam policy for “back button hijacking”",
       "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
@@ -975,6 +989,20 @@
       ]
     },
     {
+      "id": "7539835a-0503-4ebf-b7ec-ebe15329ab8c",
+      "title": "Healthchecks.io Now Uses Self-Hosted Object Storage",
+      "url": "https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage",
+      "domain": "blog.healthchecks.io",
+      "published_at": "2026-04-17T14:29:11Z",
+      "category": "tech",
+      "score": 0.27099608521728147,
+      "tldr": "io Now Uses Self-Hosted Object Storage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "687f2078-d4f9-44a0-856e-7aaf5754b219",
       "title": "Artifacts: Versioned storage that speaks Git",
       "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta",
@@ -1379,36 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
-      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
-      "url": "https://github.com/anthropics/claude-code/issues/46829",
-      "domain": "github.com",
-      "published_at": "2026-04-12T05:45:52Z",
-      "category": "tech",
-      "score": 0.25461080434890576,
-      "tldr": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8473d139-2a04-41fe-a835-79d64caca1aa",
-      "title": "Stop Using Ollama",
-      "url": "https://sleepingrobots.com/dreams/stop-using-ollama",
-      "domain": "sleepingrobots.com",
-      "published_at": "2026-04-16T03:35:11Z",
-      "category": "tech",
-      "score": 0.254395589413588,
-      "tldr": "Stop Using Ollama",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-17T14:02:22.994541126Z",
+  "last_updated": "2026-04-17T15:34:54.573874341Z",
   "total_count": 100
 }
