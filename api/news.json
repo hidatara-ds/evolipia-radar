@@ -57,14 +57,14 @@
       ]
     },
     {
-      "id": "63a8db9f-9135-462e-9749-ea7755e70dd0",
-      "title": "Filing the corners off my MacBooks",
-      "url": "https://kentwalters.com/posts/corners",
-      "domain": "kentwalters.com",
-      "published_at": "2026-04-10T22:16:40Z",
+      "id": "e0ccb504-b471-4250-9a72-778ade130c2b",
+      "title": "Measuring Claude 4.7's tokenizer costs",
+      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+      "domain": "claudecodecamp.com",
+      "published_at": "2026-04-17T15:29:36Z",
       "category": "tech",
-      "score": 0.41556050674686834,
-      "tldr": "Filing the corners off my MacBooks",
+      "score": 0.42659348977378464,
+      "tldr": "Measuring Claude 4.7's tokenizer costs",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -177,20 +177,6 @@
       "category": "tech",
       "score": 0.3533234571369509,
       "tldr": "Anthropic downgraded cache TTL on March 6th",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8b2aaf9d-fb90-4876-a7db-454506490c22",
-      "title": "Sam Altman's response to Molotov cocktail incident",
-      "url": "https://blog.samaltman.com/2279512",
-      "domain": "blog.samaltman.com",
-      "published_at": "2026-04-10T23:05:48Z",
-      "category": "tech",
-      "score": 0.35137447722521753,
-      "tldr": "Sam Altman's response to Molotov cocktail incident",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1297,20 +1283,6 @@
       ]
     },
     {
-      "id": "7b994a8f-e59e-4d73-8de9-5d8cf941b709",
-      "title": "Installing Every* Firefox Extension",
-      "url": "https://jack.cab/blog/every-firefox-extension",
-      "domain": "jack.cab",
-      "published_at": "2026-04-10T21:56:33Z",
-      "category": "tech",
-      "score": 0.25584264509754007,
-      "tldr": "Installing Every* Firefox Extension",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "05c9b353-0f56-4a72-a518-79de39e465e5",
       "title": "GPT-5.4 Pro solves Erdős Problem #1196",
       "url": "https://twitter.com/i/status/2044051379916882067",
@@ -1407,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "691c12f8-7e45-4e1d-bbd5-35ccf81aaa0d",
+      "title": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
+      "url": "https://github.com/GRVYDEV/marky",
+      "domain": "github.com",
+      "published_at": "2026-04-16T16:08:05Z",
+      "category": "tech",
+      "score": 0.2540731681410777,
+      "tldr": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0635d9bd-a924-4df1-8a3b-627a1f0a9f53",
+      "title": "Midnight Captain – A midnight commander inspired file manager",
+      "url": "https://github.com/duguyue100/midnight-captain",
+      "domain": "github.com",
+      "published_at": "2026-04-11T23:37:43Z",
+      "category": "tech",
+      "score": 0.2537037041988415,
+      "tldr": "Midnight Captain – A midnight commander inspired file manager",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-17T21:33:20.088564256Z",
+  "last_updated": "2026-04-17T23:08:25.148169679Z",
   "total_count": 100
 }
