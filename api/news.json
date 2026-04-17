@@ -820,20 +820,6 @@
       ]
     },
     {
-      "id": "5bbd86b5-0cec-45f6-86fc-5bd44aec56ed",
-      "title": "Molotov cocktail is hurled at home of Sam Altman",
-      "url": "https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-04-10T18:48:24Z",
-      "category": "tech",
-      "score": 0.28152830521611366,
-      "tldr": "Molotov cocktail is hurled at home of Sam Altman",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "71dcee37-b6e7-49bf-bd4a-a7899781639f",
       "title": "SDL bans AI-written commits",
       "url": "https://github.com/libsdl-org/SDL/issues/15350",
@@ -1227,20 +1213,6 @@
       ]
     },
     {
-      "id": "a6830e4f-e17b-4c28-98de-cf09e32aff4a",
-      "title": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
-      "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
-      "domain": "bbc.com",
-      "published_at": "2026-04-10T19:10:22Z",
-      "category": "tech",
-      "score": 0.25729786758670664,
-      "tldr": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b52009b2-6f84-4d44-b866-b740c870f9b0",
       "title": "Show HN: Claudraband – Claude Code for the Power User",
       "url": "https://github.com/halfwhey/claudraband",
@@ -1407,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8473d139-2a04-41fe-a835-79d64caca1aa",
+      "title": "Stop Using Ollama",
+      "url": "https://sleepingrobots.com/dreams/stop-using-ollama",
+      "domain": "sleepingrobots.com",
+      "published_at": "2026-04-16T03:35:11Z",
+      "category": "tech",
+      "score": 0.254395589413588,
+      "tldr": "Stop Using Ollama",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2f104e7f-73e9-4283-9993-56a35e5a6d5f",
+      "title": "Quien – A better WHOIS lookup tool",
+      "url": "https://github.com/retlehs/quien",
+      "domain": "github.com",
+      "published_at": "2026-04-11T03:31:30Z",
+      "category": "tech",
+      "score": 0.25436254423936844,
+      "tldr": "Quien – A better WHOIS lookup tool",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-17T18:42:27.821331649Z",
+  "last_updated": "2026-04-17T19:51:30.461992125Z",
   "total_count": 100
 }
