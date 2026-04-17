@@ -169,20 +169,6 @@
       ]
     },
     {
-      "id": "a45e449f-967a-4076-acf8-a92f95f4ff01",
-      "title": "OpenAI backs Illinois bill that would limit when AI labs can be held liable",
-      "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits",
-      "domain": "wired.com",
-      "published_at": "2026-04-10T13:08:43Z",
-      "category": "tech",
-      "score": 0.3569560845110515,
-      "tldr": "OpenAI backs Illinois bill that would limit when AI labs can be held liable",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "67030d68-f048-4cb9-a343-4729557da928",
       "title": "Anthropic downgraded cache TTL on March 6th",
       "url": "https://github.com/anthropics/claude-code/issues/46829",
@@ -772,20 +758,6 @@
       "category": "tech",
       "score": 0.287400199402828,
       "tldr": "Make Tmux Pretty and Usable (2024)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e82511bc-8276-4e8e-983b-fa8f0c8267ef",
-      "title": "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths",
-      "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits",
-      "domain": "wired.com",
-      "published_at": "2026-04-10T13:08:43Z",
-      "category": "tech",
-      "score": 0.28497210706397264,
-      "tldr": "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
+      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "domain": "github.com",
+      "published_at": "2026-04-12T05:45:52Z",
+      "category": "tech",
+      "score": 0.25461080434890576,
+      "tldr": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8473d139-2a04-41fe-a835-79d64caca1aa",
+      "title": "Stop Using Ollama",
+      "url": "https://sleepingrobots.com/dreams/stop-using-ollama",
+      "domain": "sleepingrobots.com",
+      "published_at": "2026-04-16T03:35:11Z",
+      "category": "tech",
+      "score": 0.254395589413588,
+      "tldr": "Stop Using Ollama",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-17T12:10:01.113221766Z",
+  "last_updated": "2026-04-17T14:02:22.994541126Z",
   "total_count": 100
 }
