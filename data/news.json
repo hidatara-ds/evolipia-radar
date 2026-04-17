@@ -933,20 +933,6 @@
       ]
     },
     {
-      "id": "b896316b-8b7d-408b-a527-0402e01a50e4",
-      "title": "Industrial design files for Keychron keyboards and mice",
-      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
-      "domain": "github.com",
-      "published_at": "2026-04-10T16:22:26Z",
-      "category": "tech",
-      "score": 0.27398944809045067,
-      "tldr": "Industrial design files for Keychron keyboards and mice",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ff35ff39-bce4-425a-a349-81d07c6371eb",
       "title": "Claude Code Routines",
       "url": "https://code.claude.com/docs/en/routines",
@@ -1407,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
+      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "domain": "github.com",
+      "published_at": "2026-04-12T05:45:52Z",
+      "category": "tech",
+      "score": 0.25461080434890576,
+      "tldr": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-17T15:34:54.573874341Z",
+  "last_updated": "2026-04-17T16:42:45.147090568Z",
   "total_count": 100
 }
