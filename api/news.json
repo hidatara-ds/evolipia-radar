@@ -1185,6 +1185,20 @@
       ]
     },
     {
+      "id": "bb27aa23-c130-45a6-a637-d67293c03426",
+      "title": "Everything we like is a psyop",
+      "url": "https://techcrunch.com/2026/04/16/everything-we-like-is-a-psyop",
+      "domain": "techcrunch.com",
+      "published_at": "2026-04-16T23:15:33Z",
+      "category": "tech",
+      "score": 0.2591745631972627,
+      "tldr": "Everything we like is a psyop",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f5c4859d-2dcd-4d7f-a47d-50e65c2f43da",
       "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
       "url": "https://github.com/dropseed/plain",
@@ -1210,20 +1224,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "1c7d05ed-555d-4dcc-b38f-a4cdb4df26bb",
-      "title": "New iPhone age and identity checks restrict internet freedom in the UK",
-      "url": "https://bigbrotherwatch.org.uk/blog/apples-new-iphone-update-is-restricting-internet-freedom-in-the-uk",
-      "domain": "bigbrotherwatch.org.uk",
-      "published_at": "2026-04-10T00:50:43Z",
-      "category": "tech",
-      "score": 0.2581104913118761,
-      "tldr": "New iPhone age and identity checks restrict internet freedom in the UK",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1409,6 +1409,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-17T00:02:56.194333392Z",
+  "last_updated": "2026-04-17T03:50:09.583567022Z",
   "total_count": 100
 }
