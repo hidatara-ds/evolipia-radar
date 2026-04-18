@@ -1,11 +1,11 @@
 module github.com/hidatara-ds/evolipia-radar
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/gin-gonic/gin v1.11.0
 	github.com/google/uuid v1.6.0
-	github.com/jackc/pgx/v5 v5.8.0
+	github.com/jackc/pgx/v5 v5.9.0
 	github.com/lib/pq v1.11.2
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/stretchr/testify v1.11.1
