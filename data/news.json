@@ -43,20 +43,6 @@
       ]
     },
     {
-      "id": "12af66db-5db6-4653-a1cb-93f3c823d6dd",
-      "title": "Artemis II safely splashes down",
-      "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return",
-      "domain": "cbsnews.com",
-      "published_at": "2026-04-11T00:10:51Z",
-      "category": "tech",
-      "score": 0.43541073686505083,
-      "tldr": "Artemis II safely splashes down",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e0ccb504-b471-4250-9a72-778ade130c2b",
       "title": "Measuring Claude 4.7's tokenizer costs",
       "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
@@ -387,6 +373,20 @@
       "category": "tech",
       "score": 0.3263337676516388,
       "tldr": "Show HN: Tier – Adaptive tool routing that makes small LLMs 10pt more accurate",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b5d9c59d-2816-493a-ac87-c50375e670eb",
+      "title": "Generating Hierarchical JSON Representations of Scientific Sentences Using LLMs",
+      "url": "https://arxiv.org/abs/2603.23532",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-18T00:17:23Z",
+      "category": "tech",
+      "score": 0.32564579617772443,
+      "tldr": "Generating Hierarchical JSON Representations of Scientific Sentences Using LLMs",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1409,6 +1409,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-17T23:08:25.148169679Z",
+  "last_updated": "2026-04-18T02:34:44.212808685Z",
   "total_count": 100
 }
