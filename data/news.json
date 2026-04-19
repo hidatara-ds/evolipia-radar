@@ -1297,6 +1297,20 @@
       ]
     },
     {
+      "id": "c07c0424-5776-4da4-b6ff-eabe36187e00",
+      "title": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+      "url": "https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon",
+      "domain": "abacusnoir.com",
+      "published_at": "2026-04-18T22:46:13Z",
+      "category": "tech",
+      "score": 0.25657538969977395,
+      "tldr": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6fbab81a-94fe-4f98-af4b-c7bc8d9a5c86",
       "title": "Optimization of 32-bit Unsigned Division by Constants on 64-bit Targets",
       "url": "https://arxiv.org/abs/2604.07902",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8473d139-2a04-41fe-a835-79d64caca1aa",
-      "title": "Stop Using Ollama",
-      "url": "https://sleepingrobots.com/dreams/stop-using-ollama",
-      "domain": "sleepingrobots.com",
-      "published_at": "2026-04-16T03:35:11Z",
-      "category": "tech",
-      "score": 0.254395589413588,
-      "tldr": "Stop Using Ollama",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-18T23:57:33.889176251Z",
+  "last_updated": "2026-04-19T01:54:57.902193597Z",
   "total_count": 100
 }
