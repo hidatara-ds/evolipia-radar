@@ -309,20 +309,6 @@
       ]
     },
     {
-      "id": "334dbdc7-2c28-4613-9439-9e5aceda3575",
-      "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
-      "url": "https://github.com/imbue-ai/bouncer",
-      "domain": "github.com",
-      "published_at": "2026-04-12T16:24:46Z",
-      "category": "tech",
-      "score": 0.32671471177369593,
-      "tldr": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6b31a652-8f9f-4827-a638-1cb37f5585e0",
       "title": "Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All",
       "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
@@ -776,20 +762,6 @@
       ]
     },
     {
-      "id": "c2ab5b04-e2fc-4973-b0f3-5ff3dbfee658",
-      "title": "How long-distance couples use digital games to facilitate intimacy (2025)",
-      "url": "https://arxiv.org/abs/2505.09509",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-12T16:17:59Z",
-      "category": "tech",
-      "score": 0.2781407561082747,
-      "tldr": "How long-distance couples use digital games to facilitate intimacy (2025)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "556dd7a0-3c66-437a-9aaa-a947a26feeee",
       "title": "Cloudflare's AI Platform: an inference layer designed for agents",
       "url": "https://blog.cloudflare.com/ai-platform",
@@ -1127,20 +1099,6 @@
       ]
     },
     {
-      "id": "b52009b2-6f84-4d44-b866-b740c870f9b0",
-      "title": "Show HN: Claudraband – Claude Code for the Power User",
-      "url": "https://github.com/halfwhey/claudraband",
-      "domain": "github.com",
-      "published_at": "2026-04-12T16:55:20Z",
-      "category": "tech",
-      "score": 0.2572135246193804,
-      "tldr": "Show HN: Claudraband – Claude Code for the Power User",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0e97ce1c-ff46-4cc7-b471-ded4a9c3937c",
       "title": "The Future of Everything Is Lies, I Guess: Where Do We Go from Here?",
       "url": "https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here",
@@ -1324,6 +1282,20 @@
       ]
     },
     {
+      "id": "3bf6a1d5-cf51-4c9d-a72d-18aebc288e75",
+      "title": "The Trouble with Transformers",
+      "url": "https://roblh.substack.com/p/the-trouble-with-transformers",
+      "domain": "roblh.substack.com",
+      "published_at": "2026-04-19T16:12:37Z",
+      "category": "tech",
+      "score": 0.2533060312992547,
+      "tldr": "The Trouble with Transformers",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "41437905-3a7f-411c-a537-bd5fd52fc2fd",
       "title": "A Canonical Generalization of OBDD",
       "url": "https://arxiv.org/abs/2604.05537",
@@ -1394,20 +1366,48 @@
       ]
     },
     {
-      "id": "e5732efc-1080-48cb-98f1-99574f553bf9",
-      "title": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
-      "url": "https://arxiv.org/abs/2505.09509",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-12T16:17:59Z",
+      "id": "6b909aac-6011-4bff-95f2-79140e3557cc",
+      "title": "Show HN: Jeeves – TUI for browsing and resuming AI agent sessions",
+      "url": "https://github.com/robinovitch61/jeeves",
+      "domain": "github.com",
+      "published_at": "2026-04-15T19:31:33Z",
       "category": "tech",
-      "score": 0.2523076791134467,
-      "tldr": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+      "score": 0.25198113554971824,
+      "tldr": "Show HN: Jeeves – TUI for browsing and resuming AI agent sessions",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "61ec3af0-37bf-4ffe-a1eb-fc546c013836",
+      "title": "Show HN: PanicLock – Close your MacBook lid disable TouchID –\u003e password unlock",
+      "url": "https://github.com/paniclock/paniclock",
+      "domain": "github.com",
+      "published_at": "2026-04-17T16:38:44Z",
+      "category": "tech",
+      "score": 0.2518761909022169,
+      "tldr": "Show HN: PanicLock – Close your MacBook lid disable TouchID –\u003e password unlock",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d7df2c96-36d3-4de9-aa3e-b33c85812eab",
+      "title": "SFML 3.1 Is Released",
+      "url": "https://github.com/SFML/SFML/releases/tag/3.1.0",
+      "domain": "github.com",
+      "published_at": "2026-04-16T20:20:29Z",
+      "category": "tech",
+      "score": 0.2518134273757467,
+      "tldr": "SFML 3.1 Is Released",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-04-19T15:29:16.211194959Z",
+  "last_updated": "2026-04-19T17:28:13.343416835Z",
   "total_count": 100
 }
