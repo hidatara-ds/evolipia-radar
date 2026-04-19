@@ -1198,20 +1198,6 @@
       ]
     },
     {
-      "id": "677f42b8-954a-48ae-8f7c-10970fb678ef",
-      "title": "Doom, Played over Curl",
-      "url": "https://github.com/xsawyerx/curl-doom",
-      "domain": "github.com",
-      "published_at": "2026-04-12T10:01:54Z",
-      "category": "tech",
-      "score": 0.25759451922126997,
-      "tldr": "Doom, Played over Curl",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b52009b2-6f84-4d44-b866-b740c870f9b0",
       "title": "Show HN: Claudraband – Claude Code for the Power User",
       "url": "https://github.com/halfwhey/claudraband",
@@ -1406,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d1f36bc8-7087-43fb-84cc-7af91b922a08",
+      "title": "Average new UK electric car price is now lower than petrol vehicles",
+      "url": "https://www.theguardian.com/environment/2026/apr/17/new-uk-electric-car-price-petrol-ev-autotrader",
+      "domain": "theguardian.com",
+      "published_at": "2026-04-17T15:26:53Z",
+      "category": "tech",
+      "score": 0.2523778974608286,
+      "tldr": "Average new UK electric car price is now lower than petrol vehicles",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-19T09:38:28.225752557Z",
+  "last_updated": "2026-04-19T10:30:43.819190029Z",
   "total_count": 100
 }
