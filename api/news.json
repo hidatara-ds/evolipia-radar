@@ -183,20 +183,6 @@
       ]
     },
     {
-      "id": "67030d68-f048-4cb9-a343-4729557da928",
-      "title": "Anthropic downgraded cache TTL on March 6th",
-      "url": "https://github.com/anthropics/claude-code/issues/46829",
-      "domain": "github.com",
-      "published_at": "2026-04-12T05:45:52Z",
-      "category": "tech",
-      "score": 0.3533234571369509,
-      "tldr": "Anthropic downgraded cache TTL on March 6th",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "253d93bc-558a-44a4-a95d-4ee9e5630011",
       "title": "Ban the sale of precise geolocation",
       "url": "https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation",
@@ -533,21 +519,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "2ca4d5cb-d500-4a78-ba25-d3875117ea1c",
-      "title": "The biggest advance in AI since the LLM",
-      "url": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
-      "domain": "garymarcus.substack.com",
-      "published_at": "2026-04-12T03:56:36Z",
-      "category": "tech",
-      "score": 0.30376694397646586,
-      "tldr": "The biggest advance in AI since the LLM",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -1395,20 +1366,48 @@
       ]
     },
     {
-      "id": "e3ddec28-e4ca-4afb-b60a-177aec7d1263",
-      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
-      "url": "https://github.com/anthropics/claude-code/issues/46829",
-      "domain": "github.com",
-      "published_at": "2026-04-12T05:45:52Z",
+      "id": "8473d139-2a04-41fe-a835-79d64caca1aa",
+      "title": "Stop Using Ollama",
+      "url": "https://sleepingrobots.com/dreams/stop-using-ollama",
+      "domain": "sleepingrobots.com",
+      "published_at": "2026-04-16T03:35:11Z",
       "category": "tech",
-      "score": 0.25461080434890576,
-      "tldr": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
+      "score": 0.254395589413588,
+      "tldr": "Stop Using Ollama",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "691c12f8-7e45-4e1d-bbd5-35ccf81aaa0d",
+      "title": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
+      "url": "https://github.com/GRVYDEV/marky",
+      "domain": "github.com",
+      "published_at": "2026-04-16T16:08:05Z",
+      "category": "tech",
+      "score": 0.2540731681410777,
+      "tldr": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "67f84e3a-2c7c-4da0-bb80-9c803b55ec80",
+      "title": "MOS tech 6502 8-bit microprocessor in pure SQL powered by Postgres",
+      "url": "https://github.com/lasect/pg_6502",
+      "domain": "github.com",
+      "published_at": "2026-04-14T05:46:49Z",
+      "category": "tech",
+      "score": 0.2536680416943993,
+      "tldr": "MOS tech 6502 8-bit microprocessor in pure SQL powered by Postgres",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-04-19T01:54:57.902193597Z",
+  "last_updated": "2026-04-19T07:52:29.986381531Z",
   "total_count": 100
 }
