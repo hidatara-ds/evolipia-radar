@@ -113,34 +113,6 @@
       ]
     },
     {
-      "id": "e5e291b5-53dc-469e-96d2-7bf1c3872844",
-      "title": "Seven countries now generate nearly all their electricity from renewables (2024)",
-      "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
-      "domain": "the-independent.com",
-      "published_at": "2026-04-12T13:21:39Z",
-      "category": "tech",
-      "score": 0.3853781957459715,
-      "tldr": "Seven countries now generate nearly all their electricity from renewables (2024)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "88169825-ada0-44f7-bc5e-0693e5edd478",
-      "title": "Pro Max 5x Quota Exhausted in 1.5 Hours Despite Moderate Usage",
-      "url": "https://github.com/anthropics/claude-code/issues/45756",
-      "domain": "github.com",
-      "published_at": "2026-04-12T13:15:31Z",
-      "category": "tech",
-      "score": 0.3716861311605849,
-      "tldr": "Pro Max 5x Quota Exhausted in 1. 5 Hours Despite Moderate Usage",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f2046411-9851-4b9a-8129-7d6043d5cc49",
       "title": "Stop Flock",
       "url": "https://stopflock.com",
@@ -430,21 +402,6 @@
       "score": 0.3218207647898205,
       "tldr": "A playbook to own it.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "a8b2f25c-771a-4d7f-bf3b-22256cb4cc74",
-      "title": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
-      "url": "https://news.ycombinator.com/item?id=47739305",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-04-12T13:20:58Z",
-      "category": "tech",
-      "score": 0.3206963874772435,
-      "tldr": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
         "llm"
@@ -1016,20 +973,6 @@
       ]
     },
     {
-      "id": "2654e474-1209-4deb-9034-27f93c3beede",
-      "title": "We have a 99% email reputation, but Gmail disagrees",
-      "url": "https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees",
-      "domain": "blogfontawesome.wpcomstaging.com",
-      "published_at": "2026-04-12T12:42:25Z",
-      "category": "tech",
-      "score": 0.2639427014810407,
-      "tldr": "We have a 99% email reputation, but Gmail disagrees",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "886990e7-1371-4ad1-a099-48a9483e0e38",
       "title": "US appeals court declares 158-year-old home distilling ban unconstitutional",
       "url": "https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional",
@@ -1254,16 +1197,17 @@
       ]
     },
     {
-      "id": "cecdc9ab-9732-4491-9891-7af85a47b8b5",
-      "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
-      "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "id": "d39efb49-4327-4b5a-9f52-6742df83d420",
+      "title": "The EU digital ID wallet can't deliver the privacy properties it claims",
+      "url": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/issues/26",
       "domain": "github.com",
-      "published_at": "2026-04-12T13:06:44Z",
+      "published_at": "2026-04-19T13:08:06Z",
       "category": "tech",
-      "score": 0.256228039466149,
-      "tldr": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "score": 0.25651030664158964,
+      "tldr": "The EU digital ID wallet can't deliver the privacy properties it claims",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
+        "security",
         "general_ai"
       ]
     },
@@ -1318,6 +1262,20 @@
       "category": "tech",
       "score": 0.2547504283412078,
       "tldr": "The next evolution of the Agents SDK",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e5914533-2b8e-4455-99a7-01b12ea0daa6",
+      "title": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+      "domain": "teamchong.github.io",
+      "published_at": "2026-04-19T11:17:27Z",
+      "category": "tech",
+      "score": 0.25451304118260776,
+      "tldr": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1364,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "49876823-6e0a-4512-8acc-7b6ccf6cbf05",
+      "title": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
+      "url": "https://github.com/impactjo/home-memory",
+      "domain": "github.com",
+      "published_at": "2026-04-16T13:58:10Z",
+      "category": "tech",
+      "score": 0.2523428186871607,
+      "tldr": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "aaba146e-ecd0-4d6e-9019-71f63877a95a",
+      "title": "I audited Garry's website after he bragged about 37K LOC/day",
+      "url": "https://twitter.com/Gregorein/status/2038953944475472316",
+      "domain": "twitter.com",
+      "published_at": "2026-04-12T20:43:01Z",
+      "category": "tech",
+      "score": 0.25232205620957493,
+      "tldr": "I audited Garry's website after he bragged about 37K LOC/day",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e5732efc-1080-48cb-98f1-99574f553bf9",
+      "title": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+      "url": "https://arxiv.org/abs/2505.09509",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-12T16:17:59Z",
+      "category": "tech",
+      "score": 0.2523076791134467,
+      "tldr": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-19T12:35:52.942234968Z",
+  "last_updated": "2026-04-19T13:53:37.962846748Z",
   "total_count": 100
 }
