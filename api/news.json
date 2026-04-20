@@ -43,6 +43,20 @@
       ]
     },
     {
+      "id": "feee9c7d-0067-4c29-a83c-a014a3bf395e",
+      "title": "Tim Cook to become Apple Executive Chairman. John Ternus to become CEO",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
+      "domain": "apple.com",
+      "published_at": "2026-04-20T20:39:32Z",
+      "category": "tech",
+      "score": 0.43171370447951796,
+      "tldr": "Tim Cook to become Apple Executive Chairman. John Ternus to become CEO",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e0ccb504-b471-4250-9a72-778ade130c2b",
       "title": "Measuring Claude 4.7's tokenizer costs",
       "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
@@ -123,6 +137,21 @@
       "tldr": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9e642a02-1dbd-4c9b-9abb-993921623c1d",
+      "title": "OpenAI ad partner now selling ChatGPT ad placements based on \"prompt relevance\"",
+      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads",
+      "domain": "adweek.com",
+      "published_at": "2026-04-20T21:20:52Z",
+      "category": "tech",
+      "score": 0.37973539854227367,
+      "tldr": "OpenAI ad partner now selling ChatGPT ad placements based on \"prompt relevance\"",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
         "llm"
       ]
     },
@@ -306,6 +335,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "66fc033b-bc23-4ad1-9e8a-6f09a90055ac",
+      "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
+      "url": "https://github.com/gizmo64k/soulplayer-c64",
+      "domain": "github.com",
+      "published_at": "2026-04-20T19:51:07Z",
+      "category": "tech",
+      "score": 0.3274912912552606,
+      "tldr": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1364,50 +1407,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "84835234-b1eb-4039-871b-72cf60a75fcc",
-      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
-      "url": "https://github.com/esutcu/planb-lpm",
-      "domain": "github.com",
-      "published_at": "2026-04-20T03:24:21Z",
-      "category": "tech",
-      "score": 0.2530376926472572,
-      "tldr": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7b616460-cbd6-4367-8287-32660d201ea4",
-      "title": "Show HN: Clone, a small Rust VMM, forks VMs in under 20ms via CoW",
-      "url": "https://github.com/unixshells/clone",
-      "domain": "github.com",
-      "published_at": "2026-04-19T23:22:39Z",
-      "category": "tech",
-      "score": 0.2528734522302206,
-      "tldr": "Show HN: Clone, a small Rust VMM, forks VMs in under 20ms via CoW",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d1f36bc8-7087-43fb-84cc-7af91b922a08",
-      "title": "Average new UK electric car price is now lower than petrol vehicles",
-      "url": "https://www.theguardian.com/environment/2026/apr/17/new-uk-electric-car-price-petrol-ev-autotrader",
-      "domain": "theguardian.com",
-      "published_at": "2026-04-17T15:26:53Z",
-      "category": "tech",
-      "score": 0.2523778974608286,
-      "tldr": "Average new UK electric car price is now lower than petrol vehicles",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-20T20:35:59.181595718Z",
+  "last_updated": "2026-04-20T21:38:00.9739842Z",
   "total_count": 100
 }
