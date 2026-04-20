@@ -113,6 +113,20 @@
       ]
     },
     {
+      "id": "480be609-04b7-4bba-b784-c71bd2f5353f",
+      "title": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
+      "url": "https://surfacedby.com/blog/nginx-logs-ai-traffic-vs-referral-traffic",
+      "domain": "surfacedby.com",
+      "published_at": "2026-04-20T15:22:01Z",
+      "category": "tech",
+      "score": 0.38596711675331014,
+      "tldr": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "f2046411-9851-4b9a-8129-7d6043d5cc49",
       "title": "Stop Flock",
       "url": "https://stopflock.com",
@@ -524,20 +538,6 @@
       ]
     },
     {
-      "id": "a71304cf-2dd3-4ed7-af09-a4f0cac56bbf",
-      "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
-      "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
-      "domain": "github.com",
-      "published_at": "2026-04-13T15:31:06Z",
-      "category": "tech",
-      "score": 0.30114793948633395,
-      "tldr": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "83c07525-3558-40ce-a17d-b7d5f9ad7b0a",
       "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
       "url": "https://github.com/shivampkumar/trellis-mac",
@@ -664,34 +664,6 @@
       ]
     },
     {
-      "id": "19239c3e-b807-4d4d-86fc-a68ab0f1627d",
-      "title": "This year’s insane timeline of hacks",
-      "url": "https://ringmast4r.substack.com/p/we-may-be-living-through-the-most",
-      "domain": "ringmast4r.substack.com",
-      "published_at": "2026-04-13T14:53:05Z",
-      "category": "tech",
-      "score": 0.2878318095213879,
-      "tldr": "This year’s insane timeline of hacks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "071d22c0-7b0b-4de0-aa2d-9f396b1365cf",
-      "title": "Make Tmux Pretty and Usable (2024)",
-      "url": "https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf",
-      "domain": "hamvocke.com",
-      "published_at": "2026-04-13T14:48:55Z",
-      "category": "tech",
-      "score": 0.287400199402828,
-      "tldr": "Make Tmux Pretty and Usable (2024)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0a106b2f-daf2-4c84-b749-3690ed881b76",
       "title": "Sudo for Windows (2024)",
       "url": "https://github.com/microsoft/sudo",
@@ -700,6 +672,20 @@
       "category": "tech",
       "score": 0.2841712746114548,
       "tldr": "Sudo for Windows (2024)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "04a974dd-3df8-42ac-97d3-04d98637fe40",
+      "title": "Sauna effect on heart rate",
+      "url": "https://tryterra.co/research/sauna-effect-on-heart-rate",
+      "domain": "tryterra.co",
+      "published_at": "2026-04-20T13:40:28Z",
+      "category": "tech",
+      "score": 0.2828549601477765,
+      "tldr": "Sauna effect on heart rate",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1029,6 +1015,20 @@
       ]
     },
     {
+      "id": "151b43fe-2eaa-4936-898a-20751459f9b2",
+      "title": "ChatGPT and Codex Down",
+      "url": "https://status.openai.com/history",
+      "domain": "status.openai.com",
+      "published_at": "2026-04-20T14:37:48Z",
+      "category": "tech",
+      "score": 0.25974417417325435,
+      "tldr": "ChatGPT and Codex Down",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7fccb7f1-0226-48a2-a449-15a30b1e1fcf",
       "title": "Distributed DuckDB Instance",
       "url": "https://github.com/citguru/openduck",
@@ -1121,6 +1121,20 @@
       "category": "tech",
       "score": 0.2569599350178133,
       "tldr": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7c6f6d9b-1bf9-498c-a812-b97e60fcaeaa",
+      "title": "ChatGPT and Codex Down",
+      "url": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
+      "domain": "status.openai.com",
+      "published_at": "2026-04-20T15:04:52Z",
+      "category": "tech",
+      "score": 0.256929965485943,
+      "tldr": "ChatGPT and Codex Down",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "6b909aac-6011-4bff-95f2-79140e3557cc",
-      "title": "Show HN: Jeeves – TUI for browsing and resuming AI agent sessions",
-      "url": "https://github.com/robinovitch61/jeeves",
-      "domain": "github.com",
-      "published_at": "2026-04-15T19:31:33Z",
-      "category": "tech",
-      "score": 0.25198113554971824,
-      "tldr": "Show HN: Jeeves – TUI for browsing and resuming AI agent sessions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-20T14:28:18.402922941Z",
+  "last_updated": "2026-04-20T15:52:23.728606386Z",
   "total_count": 100
 }
