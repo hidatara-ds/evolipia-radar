@@ -173,20 +173,6 @@
       ]
     },
     {
-      "id": "f2046411-9851-4b9a-8129-7d6043d5cc49",
-      "title": "Stop Flock",
-      "url": "https://stopflock.com",
-      "domain": "stopflock.com",
-      "published_at": "2026-04-14T21:56:05Z",
-      "category": "tech",
-      "score": 0.3649331572435175,
-      "tldr": "Stop Flock",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b9e22043-6da8-49d9-9040-d0894043f89a",
       "title": "ChatGPT Images 2.0",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
@@ -1075,6 +1061,20 @@
       ]
     },
     {
+      "id": "f19165a8-3eec-40eb-9060-af87f3f728be",
+      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+      "url": "https://www.brex.com/crabtrap",
+      "domain": "brex.com",
+      "published_at": "2026-04-21T15:29:16Z",
+      "category": "tech",
+      "score": 0.258450638414932,
+      "tldr": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b10a6d6a-74f7-4726-9eb3-c5998d205876",
       "title": "Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins",
       "url": "https://github.com/Yus314/kasane",
@@ -1412,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-21T21:37:02.757937072Z",
+  "last_updated": "2026-04-21T23:08:56.87281475Z",
   "total_count": 100
 }
