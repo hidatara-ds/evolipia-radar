@@ -86,6 +86,21 @@
       ]
     },
     {
+      "id": "3ceb9a28-3748-416e-91c1-fd6acbe2d1b3",
+      "title": "OpenAI Livestream: ChatGPT Images 2.0",
+      "url": "https://openai.com/live",
+      "domain": "openai.com",
+      "published_at": "2026-04-21T18:50:00Z",
+      "category": "tech",
+      "score": 0.41919289306772,
+      "tldr": "OpenAI Livestream: ChatGPT Images 2.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "0642568d-db45-4ea4-8875-054369057660",
       "title": "Anonymous request-token comparisons from Opus 4.6 and Opus 4.7",
       "url": "https://tokens.billchambers.me/leaderboard",
@@ -1201,20 +1216,6 @@
       ]
     },
     {
-      "id": "608454d7-675b-4fbe-b80f-6f1401f375d1",
-      "title": "Trusted access for the next era of cyber defense",
-      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-      "domain": "openai.com",
-      "published_at": "2026-04-14T20:07:20Z",
-      "category": "tech",
-      "score": 0.2550872806488408,
-      "tldr": "Trusted access for the next era of cyber defense",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "400e5475-40b3-4ddb-a18a-ee0f541ac010",
       "title": "The next evolution of the Agents SDK",
       "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
@@ -1411,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-21T19:59:34.609091987Z",
+  "last_updated": "2026-04-21T20:50:25.72104866Z",
   "total_count": 100
 }
