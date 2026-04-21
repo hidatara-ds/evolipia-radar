@@ -114,20 +114,6 @@
       ]
     },
     {
-      "id": "53c77e97-dffe-42df-b634-868fc1e44cb6",
-      "title": "DaVinci Resolve – Photo",
-      "url": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
-      "domain": "blackmagicdesign.com",
-      "published_at": "2026-04-14T02:25:15Z",
-      "category": "tech",
-      "score": 0.3963824483483552,
-      "tldr": "DaVinci Resolve – Photo",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d03cb87a-5e22-403d-9293-ce1753dafdcc",
       "title": "Migrating from DigitalOcean to Hetzner",
       "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration",
@@ -277,20 +263,6 @@
       "category": "tech",
       "score": 0.3350229227369038,
       "tldr": "Isaac Asimov: The Last Question (1956)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2da081f8-5b5a-46e0-acfa-d3813481e5e5",
-      "title": "A new spam policy for “back button hijacking”",
-      "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
-      "domain": "developers.google.com",
-      "published_at": "2026-04-14T03:06:27Z",
-      "category": "tech",
-      "score": 0.3326351141909446,
-      "tldr": "A new spam policy for “back button hijacking”",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -534,6 +506,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "security"
+      ]
+    },
+    {
+      "id": "962af761-f9b9-44e1-b416-bee1f280664e",
+      "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "url": "https://mediator.ai/",
+      "domain": "mediator.ai",
+      "published_at": "2026-04-20T15:07:04Z",
+      "category": "tech",
+      "score": 0.30522836739182585,
+      "tldr": "ai – Using Nash bargaining and LLMs to systematize fairness",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -1408,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "df189819-a39b-4d65-aa54-22d8963e18fc",
+      "title": "Sudo for Windows",
+      "url": "https://github.com/microsoft/sudo",
+      "domain": "github.com",
+      "published_at": "2026-04-19T23:59:51Z",
+      "category": "tech",
+      "score": 0.25350451128468937,
+      "tldr": "Sudo for Windows",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-21T01:22:44.649313525Z",
+  "last_updated": "2026-04-21T06:18:44.211345829Z",
   "total_count": 100
 }
