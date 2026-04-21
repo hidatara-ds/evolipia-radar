@@ -114,20 +114,6 @@
       ]
     },
     {
-      "id": "d64aa397-de4c-4fec-b04b-ad63a4a6900a",
-      "title": "jj – the CLI for Jujutsu",
-      "url": "https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html",
-      "domain": "steveklabnik.github.io",
-      "published_at": "2026-04-14T10:33:39Z",
-      "category": "tech",
-      "score": 0.3928994793049685,
-      "tldr": "jj – the CLI for Jujutsu",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "480be609-04b7-4bba-b784-c71bd2f5353f",
       "title": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
       "url": "https://surfacedby.com/blog/nginx-logs-ai-traffic-vs-referral-traffic",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "7b616460-cbd6-4367-8287-32660d201ea4",
+      "title": "Show HN: Clone, a small Rust VMM, forks VMs in under 20ms via CoW",
+      "url": "https://github.com/unixshells/clone",
+      "domain": "github.com",
+      "published_at": "2026-04-19T23:22:39Z",
+      "category": "tech",
+      "score": 0.2528734522302206,
+      "tldr": "Show HN: Clone, a small Rust VMM, forks VMs in under 20ms via CoW",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-21T09:57:23.253572428Z",
+  "last_updated": "2026-04-21T11:00:29.354019385Z",
   "total_count": 100
 }
