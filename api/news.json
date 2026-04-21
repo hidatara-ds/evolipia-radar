@@ -583,34 +583,6 @@
       ]
     },
     {
-      "id": "1be92152-b9c0-4a55-a2b8-f8b2fe44d9ba",
-      "title": "OpenSSL 4.0.0",
-      "url": "https://github.com/openssl/openssl/releases/tag/openssl-4.0.0",
-      "domain": "github.com",
-      "published_at": "2026-04-14T17:45:34Z",
-      "category": "tech",
-      "score": 0.29322311219246255,
-      "tldr": "OpenSSL 4.0.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2dd2f047-8564-49df-99e7-0a80eec94b10",
-      "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
-      "url": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
-      "domain": "honeypot.net",
-      "published_at": "2026-04-14T17:47:00Z",
-      "category": "tech",
-      "score": 0.29292652429582433,
-      "tldr": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security"
-      ]
-    },
-    {
       "id": "3d24b53c-2268-420f-ac2e-accdb3336bed",
       "title": "Wacli – WhatsApp CLI: sync, search, send",
       "url": "https://github.com/steipete/wacli",
@@ -1060,20 +1032,6 @@
       ]
     },
     {
-      "id": "f5c4859d-2dcd-4d7f-a47d-50e65c2f43da",
-      "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
-      "url": "https://github.com/dropseed/plain",
-      "domain": "github.com",
-      "published_at": "2026-04-14T17:43:17Z",
-      "category": "tech",
-      "score": 0.25859873521050264,
-      "tldr": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b10a6d6a-74f7-4726-9eb3-c5998d205876",
       "title": "Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins",
       "url": "https://github.com/Yus314/kasane",
@@ -1173,6 +1131,20 @@
       ]
     },
     {
+      "id": "f469d1e4-c6b8-42c0-befc-bd68039d2847",
+      "title": "Cal.diy: open-source community edition of cal.com",
+      "url": "https://github.com/calcom/cal.diy",
+      "domain": "github.com",
+      "published_at": "2026-04-21T17:58:21Z",
+      "category": "tech",
+      "score": 0.25620839205008583,
+      "tldr": "diy: open-source community edition of cal.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5e635991-5d89-4423-8e71-4357104f8d63",
       "title": "I'm never buying another Kindle",
       "url": "https://www.androidauthority.com/amazon-kindle-2026-3657863",
@@ -1243,6 +1215,20 @@
       ]
     },
     {
+      "id": "3abd329b-6196-40b8-a8a4-a5263fffd31c",
+      "title": "ChatGPT Recommends the Same 3 Companies to Every B2B Buyer. Until They Specify",
+      "url": "https://growtika.com/blog/chatgpt-b2b-persona-recommendations",
+      "domain": "growtika.com",
+      "published_at": "2026-04-21T17:45:56Z",
+      "category": "tech",
+      "score": 0.2544076737295011,
+      "tldr": "ChatGPT Recommends the Same 3 Companies to Every B2B Buyer.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8473d139-2a04-41fe-a835-79d64caca1aa",
       "title": "Stop Using Ollama",
       "url": "https://sleepingrobots.com/dreams/stop-using-ollama",
@@ -1307,6 +1293,20 @@
       "category": "tech",
       "score": 0.2530376926472572,
       "tldr": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "eaf448b1-6dee-4fd2-a3cb-3e1389461ce8",
+      "title": "Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)",
+      "url": "https://github.com/Arc1011/KernelUNO",
+      "domain": "github.com",
+      "published_at": "2026-04-21T17:14:26Z",
+      "category": "tech",
+      "score": 0.2529412670130625,
+      "tldr": "Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-21T17:33:19.01342443Z",
+  "last_updated": "2026-04-21T18:56:37.040305917Z",
   "total_count": 100
 }
