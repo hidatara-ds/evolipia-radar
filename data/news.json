@@ -1144,20 +1144,6 @@
       ]
     },
     {
-      "id": "7fccb7f1-0226-48a2-a449-15a30b1e1fcf",
-      "title": "Distributed DuckDB Instance",
-      "url": "https://github.com/citguru/openduck",
-      "domain": "github.com",
-      "published_at": "2026-04-14T06:31:44Z",
-      "category": "tech",
-      "score": 0.25932620460032324,
-      "tldr": "Distributed DuckDB Instance",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4ff783cf-4bb9-499c-833c-dbcdb3dbcd98",
       "title": "Show HN: Holos – QEMU/KVM with a compose-style YAML, GPUs and health checks",
       "url": "https://github.com/zeroecco/holos",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "3bf6a1d5-cf51-4c9d-a72d-18aebc288e75",
+      "title": "The Trouble with Transformers",
+      "url": "https://roblh.substack.com/p/the-trouble-with-transformers",
+      "domain": "roblh.substack.com",
+      "published_at": "2026-04-19T16:12:37Z",
+      "category": "tech",
+      "score": 0.2533060312992547,
+      "tldr": "The Trouble with Transformers",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-21T06:18:44.211345829Z",
+  "last_updated": "2026-04-21T08:15:49.542287608Z",
   "total_count": 100
 }
