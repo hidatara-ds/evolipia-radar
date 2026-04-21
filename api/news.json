@@ -172,6 +172,20 @@
       ]
     },
     {
+      "id": "b9e22043-6da8-49d9-9040-d0894043f89a",
+      "title": "ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
+      "domain": "openai.com",
+      "published_at": "2026-04-21T19:01:14Z",
+      "category": "tech",
+      "score": 0.36440928659717137,
+      "tldr": "ChatGPT Images 2.0",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "253d93bc-558a-44a4-a95d-4ee9e5630011",
       "title": "Ban the sale of precise geolocation",
       "url": "https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation",
@@ -689,6 +703,20 @@
       "category": "tech",
       "score": 0.28109266091697155,
       "tldr": "SDL bans AI-written commits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "284985cf-9076-4746-94ce-3a764695aabe",
+      "title": "OpenAI Livestream",
+      "url": "https://openai.com/live",
+      "domain": "openai.com",
+      "published_at": "2026-04-21T18:50:00Z",
+      "category": "tech",
+      "score": 0.2784671183869864,
+      "tldr": "OpenAI Livestream",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1243,6 +1271,20 @@
       ]
     },
     {
+      "id": "d5efc70b-b57a-40f6-bfd8-0abfd9a99c28",
+      "title": "ChatGPT Images 2.0",
+      "url": "https://chatgpt.com/images",
+      "domain": "chatgpt.com",
+      "published_at": "2026-04-21T19:42:03Z",
+      "category": "tech",
+      "score": 0.2540768283790891,
+      "tldr": "ChatGPT Images 2.0",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "691c12f8-7e45-4e1d-bbd5-35ccf81aaa0d",
       "title": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
       "url": "https://github.com/GRVYDEV/marky",
@@ -1341,20 +1383,6 @@
       ]
     },
     {
-      "id": "0a97ee29-0a5a-4127-8c7e-1ec45f01d3cd",
-      "title": "ClawRun – Deploy and manage AI agents in seconds",
-      "url": "https://github.com/clawrun-sh/clawrun",
-      "domain": "github.com",
-      "published_at": "2026-04-14T19:12:09Z",
-      "category": "tech",
-      "score": 0.2523666427959541,
-      "tldr": "ClawRun – Deploy and manage AI agents in seconds",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "49876823-6e0a-4512-8acc-7b6ccf6cbf05",
       "title": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
       "url": "https://github.com/impactjo/home-memory",
@@ -1381,36 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "6b909aac-6011-4bff-95f2-79140e3557cc",
-      "title": "Show HN: Jeeves – TUI for browsing and resuming AI agent sessions",
-      "url": "https://github.com/robinovitch61/jeeves",
-      "domain": "github.com",
-      "published_at": "2026-04-15T19:31:33Z",
-      "category": "tech",
-      "score": 0.25198113554971824,
-      "tldr": "Show HN: Jeeves – TUI for browsing and resuming AI agent sessions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "61ec3af0-37bf-4ffe-a1eb-fc546c013836",
-      "title": "Show HN: PanicLock – Close your MacBook lid disable TouchID –\u003e password unlock",
-      "url": "https://github.com/paniclock/paniclock",
-      "domain": "github.com",
-      "published_at": "2026-04-17T16:38:44Z",
-      "category": "tech",
-      "score": 0.2518761909022169,
-      "tldr": "Show HN: PanicLock – Close your MacBook lid disable TouchID –\u003e password unlock",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-21T18:56:37.040305917Z",
+  "last_updated": "2026-04-21T19:59:34.609091987Z",
   "total_count": 100
 }
