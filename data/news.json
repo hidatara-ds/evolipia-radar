@@ -143,6 +143,21 @@
       ]
     },
     {
+      "id": "004d6f0a-7bdc-4231-9e51-b9183810d29f",
+      "title": "Show HN: GoModel – an open-source AI gateway in Go; 44x lighter than LiteLLM",
+      "url": "https://github.com/ENTERPILOT/GOModel",
+      "domain": "github.com",
+      "published_at": "2026-04-21T14:11:53Z",
+      "category": "tech",
+      "score": 0.37739918955183366,
+      "tldr": "Show HN: GoModel – an open-source AI gateway in Go; 44x lighter than LiteLLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "f2046411-9851-4b9a-8129-7d6043d5cc49",
       "title": "Stop Flock",
       "url": "https://stopflock.com",
@@ -193,20 +208,6 @@
       "category": "tech",
       "score": 0.3439471245840501,
       "tldr": "AI Resistance: some recent anti-AI stuff that’s worth discussing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "841bd445-4461-4a37-9e2a-b7153df2b626",
-      "title": "Rare concert recordings are landing on the Internet Archive",
-      "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now",
-      "domain": "techcrunch.com",
-      "published_at": "2026-04-14T13:46:31Z",
-      "category": "tech",
-      "score": 0.3389614732377778,
-      "tldr": "Rare concert recordings are landing on the Internet Archive",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -432,21 +433,6 @@
       "score": 0.3139342213584254,
       "tldr": "Show HN: Google Gemini Is Scanning Your Photos – and the EU Said No",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "d6a70f4d-caca-4938-9efe-b8c055db82bc",
-      "title": "To teach in the era of ChatGPT is to know pain",
-      "url": "https://arstechnica.com/science/2026/04/to-teach-in-the-time-of-chatgpt-is-to-know-pain",
-      "domain": "arstechnica.com",
-      "published_at": "2026-04-14T14:45:20Z",
-      "category": "tech",
-      "score": 0.31257294925794243,
-      "tldr": "To teach in the era of ChatGPT is to know pain",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
         "llm"
@@ -751,20 +737,6 @@
       ]
     },
     {
-      "id": "ae89d24b-acc0-44c9-bcff-8c339e7a1673",
-      "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
-      "url": "https://github.com/ginlix-ai/langalpha",
-      "domain": "github.com",
-      "published_at": "2026-04-14T14:48:46Z",
-      "category": "tech",
-      "score": 0.27818799469160194,
-      "tldr": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "556dd7a0-3c66-437a-9aaa-a947a26feeee",
       "title": "Cloudflare's AI Platform: an inference layer designed for agents",
       "url": "https://blog.cloudflare.com/ai-platform",
@@ -816,20 +788,6 @@
       "category": "tech",
       "score": 0.2732732990947997,
       "tldr": "Claude Code Routines",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e2cc1145-32a1-48b8-be4d-544c9f93b632",
-      "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-      "url": "https://github.com/kontext-dev/kontext-cli",
-      "domain": "github.com",
-      "published_at": "2026-04-14T13:26:53Z",
-      "category": "tech",
-      "score": 0.27296635918280987,
-      "tldr": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,8 +1367,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d1f36bc8-7087-43fb-84cc-7af91b922a08",
+      "title": "Average new UK electric car price is now lower than petrol vehicles",
+      "url": "https://www.theguardian.com/environment/2026/apr/17/new-uk-electric-car-price-petrol-ev-autotrader",
+      "domain": "theguardian.com",
+      "published_at": "2026-04-17T15:26:53Z",
+      "category": "tech",
+      "score": 0.2523778974608286,
+      "tldr": "Average new UK electric car price is now lower than petrol vehicles",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0a97ee29-0a5a-4127-8c7e-1ec45f01d3cd",
+      "title": "ClawRun – Deploy and manage AI agents in seconds",
+      "url": "https://github.com/clawrun-sh/clawrun",
+      "domain": "github.com",
+      "published_at": "2026-04-14T19:12:09Z",
+      "category": "tech",
+      "score": 0.2523666427959541,
+      "tldr": "ClawRun – Deploy and manage AI agents in seconds",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "49876823-6e0a-4512-8acc-7b6ccf6cbf05",
+      "title": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
+      "url": "https://github.com/impactjo/home-memory",
+      "domain": "github.com",
+      "published_at": "2026-04-16T13:58:10Z",
+      "category": "tech",
+      "score": 0.2523428186871607,
+      "tldr": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-21T13:25:26.896259314Z",
+  "last_updated": "2026-04-21T14:56:43.012598304Z",
   "total_count": 100
 }
