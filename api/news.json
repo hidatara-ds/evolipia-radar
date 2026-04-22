@@ -285,20 +285,6 @@
       ]
     },
     {
-      "id": "16c3c403-782b-4865-8493-ac937a6aae41",
-      "title": "Gemini Robotics-ER 1.6",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6",
-      "domain": "deepmind.google",
-      "published_at": "2026-04-15T14:02:31Z",
-      "category": "tech",
-      "score": 0.33142810822348534,
-      "tldr": "Gemini Robotics-ER 1.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "e0cf7eda-bbd8-4be2-b36e-d5c2eadb9f32",
       "title": "GPT‑Rosalind for life sciences research",
       "url": "https://openai.com/index/introducing-gpt-rosalind",
@@ -808,6 +794,21 @@
       ]
     },
     {
+      "id": "ffd04e19-6d1a-4f5f-8990-70c2693e853e",
+      "title": "Kernel code removals driven by LLM-created security reports",
+      "url": "https://lwn.net/Articles/1068928",
+      "domain": "lwn.net",
+      "published_at": "2026-04-22T11:48:07Z",
+      "category": "tech",
+      "score": 0.2696235900695077,
+      "tldr": "Kernel code removals driven by LLM-created security reports",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "security",
+        "llm"
+      ]
+    },
+    {
       "id": "48fc2723-6af0-4f33-b6aa-ecfb31adf3a0",
       "title": "We got 207 tok/s with Qwen3.5-27B on an RTX 3090",
       "url": "https://github.com/Luce-Org/lucebox-hub",
@@ -886,20 +887,6 @@
       "category": "tech",
       "score": 0.2648596913541015,
       "tldr": "Brands got worse on purpose",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3545f0f7-c6e1-436c-aab4-f87ed02b4e46",
-      "title": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
-      "url": "https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15",
-      "domain": "reuters.com",
-      "published_at": "2026-04-15T12:51:13Z",
-      "category": "tech",
-      "score": 0.2614810357997317,
-      "tldr": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1043,6 +1030,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "b016fe30-b80c-4809-bd63-4d7769767518",
+      "title": "Columnar Storage Is Normalization",
+      "url": "https://buttondown.com/jaffray/archive/columnar-storage-is-normalization",
+      "domain": "buttondown.com",
+      "published_at": "2026-04-22T12:30:14Z",
+      "category": "tech",
+      "score": 0.257594615679886,
+      "tldr": "Columnar Storage Is Normalization",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1411,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-22T12:13:21.190757069Z",
+  "last_updated": "2026-04-22T14:14:59.65335294Z",
   "total_count": 100
 }
