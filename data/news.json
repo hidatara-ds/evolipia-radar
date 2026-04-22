@@ -539,21 +539,6 @@
       ]
     },
     {
-      "id": "9b15ccad-b76e-47e2-9f79-9880ff19af0c",
-      "title": "Krafton CEO used ChatGPT in failed bid to avoid paying US$250M bonus",
-      "url": "https://www.theguardian.com/technology/2026/mar/18/subnautica-2-publisher-krafton-ceo-reinstated-ai-chatgpt-failed-bid-avoid-paying-bonus",
-      "domain": "theguardian.com",
-      "published_at": "2026-04-15T03:59:50Z",
-      "category": "tech",
-      "score": 0.3022317395046168,
-      "tldr": "Krafton CEO used ChatGPT in failed bid to avoid paying US$250M bonus",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "c74ca987-0d31-4a92-bed6-d8574ab511a6",
       "title": "Bonsai 1.7B in the browser: a 290MB 1-bit LLM on WebGPU",
       "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
@@ -893,6 +878,20 @@
       ]
     },
     {
+      "id": "00ef2b5c-13cd-4bad-bd91-fd62c1c7eac8",
+      "title": "San Diego rents declined following surge in supply",
+      "url": "https://www.kpbs.org/news/economy/2026/03/27/san-diego-rents-declined-more-than-19-of-nations-top-20-markets-following-surge-in-supply",
+      "domain": "kpbs.org",
+      "published_at": "2026-04-22T01:21:09Z",
+      "category": "tech",
+      "score": 0.26868404072842017,
+      "tldr": "San Diego rents declined following surge in supply",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "678df839-a213-40c3-bb21-803e5ee48d25",
       "title": "Everything we like is a psyop?",
       "url": "https://techcrunch.com/2026/04/16/everything-we-like-is-a-psyop",
@@ -1159,20 +1158,6 @@
       ]
     },
     {
-      "id": "5ca66539-52a5-49df-80c3-628ae5cc8ccc",
-      "title": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
-      "url": "https://www.gizmoweek.com/gemma-4-runs-iphone",
-      "domain": "gizmoweek.com",
-      "published_at": "2026-04-15T05:19:06Z",
-      "category": "tech",
-      "score": 0.25661215936427184,
-      "tldr": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c07c0424-5776-4da4-b6ff-eabe36187e00",
       "title": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
       "url": "https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon",
@@ -1227,20 +1212,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "05c9b353-0f56-4a72-a518-79de39e465e5",
-      "title": "GPT-5.4 Pro solves Erdős Problem #1196",
-      "url": "https://twitter.com/i/status/2044051379916882067",
-      "domain": "twitter.com",
-      "published_at": "2026-04-15T03:48:56Z",
-      "category": "tech",
-      "score": 0.2551205434335143,
-      "tldr": "4 Pro solves Erdős Problem #1196",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1356,6 +1327,20 @@
       ]
     },
     {
+      "id": "bab18b32-f24d-479d-9fb8-0761e374b89d",
+      "title": "Kuri – Zig based agent-browser alternative",
+      "url": "https://github.com/justrach/kuri",
+      "domain": "github.com",
+      "published_at": "2026-04-22T02:15:38Z",
+      "category": "tech",
+      "score": 0.2530945348680338,
+      "tldr": "Kuri – Zig based agent-browser alternative",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "84835234-b1eb-4039-871b-72cf60a75fcc",
       "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
       "url": "https://github.com/esutcu/planb-lpm",
@@ -1410,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "49876823-6e0a-4512-8acc-7b6ccf6cbf05",
+      "title": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
+      "url": "https://github.com/impactjo/home-memory",
+      "domain": "github.com",
+      "published_at": "2026-04-16T13:58:10Z",
+      "category": "tech",
+      "score": 0.2523428186871607,
+      "tldr": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-22T01:51:07.986905804Z",
+  "last_updated": "2026-04-22T06:29:57.407988941Z",
   "total_count": 100
 }
