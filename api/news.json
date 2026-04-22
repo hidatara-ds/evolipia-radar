@@ -667,20 +667,6 @@
       ]
     },
     {
-      "id": "3f85a10b-9fa2-46a4-ba17-53fb92f296af",
-      "title": "ChatGPT for Excel",
-      "url": "https://chatgpt.com/apps/spreadsheets",
-      "domain": "chatgpt.com",
-      "published_at": "2026-04-15T21:21:05Z",
-      "category": "tech",
-      "score": 0.27136484777415626,
-      "tldr": "ChatGPT for Excel",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7539835a-0503-4ebf-b7ec-ebe15329ab8c",
       "title": "Healthchecks.io Now Uses Self-Hosted Object Storage",
       "url": "https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c946ba81-e2e3-4f44-b9d6-67a7211b0c49",
+      "title": "Show HN: Agent-cache – Multi-tier LLM/tool/session caching for Valkey and Redis",
+      "url": "https://news.ycombinator.com/item?id=47792122",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-04-16T12:37:56Z",
+      "category": "tech",
+      "score": 0.2514033826271237,
+      "tldr": "Show HN: Agent-cache – Multi-tier LLM/tool/session caching for Valkey and Redis",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-22T21:14:10.36818848Z",
+  "last_updated": "2026-04-22T22:09:03.561571723Z",
   "total_count": 100
 }
