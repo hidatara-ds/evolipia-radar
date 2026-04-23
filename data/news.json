@@ -442,20 +442,6 @@
       ]
     },
     {
-      "id": "6905bc73-339b-4afc-93da-9946d4a3c6d5",
-      "title": "Darkbloom – Private inference on idle Macs",
-      "url": "https://darkbloom.dev",
-      "domain": "darkbloom.dev",
-      "published_at": "2026-04-16T04:06:39Z",
-      "category": "tech",
-      "score": 0.29418992889823276,
-      "tldr": "Darkbloom – Private inference on idle Macs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8d8b4e5c-c48e-4a60-bba9-8ed6c5ad6450",
       "title": "Not buying another Kindle",
       "url": "https://www.androidauthority.com/amazon-kindle-2026-3657863",
@@ -808,20 +794,6 @@
       ]
     },
     {
-      "id": "7faf760e-57c7-44b4-9574-9118583787d5",
-      "title": "RedSun: System user access on Win 11/10 and Server with the April 2026 Update",
-      "url": "https://github.com/Nightmare-Eclipse/RedSun",
-      "domain": "github.com",
-      "published_at": "2026-04-16T03:54:21Z",
-      "category": "tech",
-      "score": 0.2614737984438461,
-      "tldr": "RedSun: System user access on Win 11/10 and Server with the April 2026 Update",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f5ef4b86-d1de-4b03-85af-09d9c62b7ed1",
       "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
       "url": "https://github.com/gainsec/autoprober",
@@ -1001,6 +973,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "0bfa3885-e453-4ddc-9993-efda8d7444f5",
+      "title": "I am building a cloud",
+      "url": "https://crawshaw.io/blog/building-a-cloud",
+      "domain": "crawshaw.io",
+      "published_at": "2026-04-23T04:44:19Z",
+      "category": "tech",
+      "score": 0.25665282904133574,
+      "tldr": "I am building a cloud",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud"
       ]
     },
     {
@@ -1356,6 +1342,20 @@
       ]
     },
     {
+      "id": "194d97ad-522a-4fba-a082-cfa8f0cd9a75",
+      "title": "DragonRuby's Seventh Year – Where We Started and Where We're Going",
+      "url": "https://dragonruby.itch.io/dragonruby-gtk/devlog/1497015/dragonrubys-seventh-year-where-we-started-and-where-were-going",
+      "domain": "dragonruby.itch.io",
+      "published_at": "2026-04-23T04:36:02Z",
+      "category": "tech",
+      "score": 0.25160444056309667,
+      "tldr": "DragonRuby's Seventh Year – Where We Started and Where We're Going",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4fa85e21-0a18-4342-8d88-515707641f07",
       "title": "Google unveils chips for AI training and inference in latest shot at Nvidia",
       "url": "https://www.cnbc.com/2026/04/22/google-launches-training-and-inference-tpus-in-latest-shot-at-nvidia.html",
@@ -1412,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-23T03:51:56.25991467Z",
+  "last_updated": "2026-04-23T07:49:36.861489638Z",
   "total_count": 100
 }
