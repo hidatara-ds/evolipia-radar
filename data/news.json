@@ -271,20 +271,6 @@
       ]
     },
     {
-      "id": "5d31a69f-6bfb-4ea6-8bd7-1b774fc358f0",
-      "title": "Codex for Almost Everything",
-      "url": "https://openai.com/index/codex-for-almost-everything",
-      "domain": "openai.com",
-      "published_at": "2026-04-16T17:12:19Z",
-      "category": "tech",
-      "score": 0.3273764338723063,
-      "tldr": "Codex for Almost Everything",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b5d9c59d-2816-493a-ac87-c50375e670eb",
       "title": "Generating Hierarchical JSON Representations of Scientific Sentences Using LLMs",
       "url": "https://arxiv.org/abs/2603.23532",
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "db0d0bfc-a334-4f13-99c6-25143b2cd1bd",
+      "title": "Comparing GPT-5.4, Opus 4.6, GLM-5.1, Kimi K2.5, MiMo V2 Pro and MiniMax M2.7",
+      "url": "https://www.codejam.info/2026/04/comparing-gpt-5-4-opus-4-6-glm-5-1-kimi-k2-5-mimo-v2-pro-and-minimax-m2-7.html",
+      "domain": "codejam.info",
+      "published_at": "2026-04-18T17:18:13Z",
+      "category": "tech",
+      "score": 0.25095285797547867,
+      "tldr": "5, MiMo V2 Pro and MiniMax M2.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-23T16:57:35.355873298Z",
+  "last_updated": "2026-04-23T18:03:46.120515033Z",
   "total_count": 100
 }
