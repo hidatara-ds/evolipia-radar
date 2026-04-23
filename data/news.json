@@ -15,20 +15,6 @@
       ]
     },
     {
-      "id": "b1593fce-770a-493e-8d1d-692e127419e6",
-      "title": "The local LLM ecosystem doesn’t need Ollama",
-      "url": "https://sleepingrobots.com/dreams/stop-using-ollama",
-      "domain": "sleepingrobots.com",
-      "published_at": "2026-04-16T03:35:11Z",
-      "category": "tech",
-      "score": 0.5459530235713228,
-      "tldr": "The local LLM ecosystem doesn’t need Ollama",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "feee9c7d-0067-4c29-a83c-a014a3bf395e",
       "title": "Tim Cook to become Apple Executive Chairman. John Ternus to become CEO",
       "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
@@ -780,6 +766,20 @@
       ]
     },
     {
+      "id": "18fa4e1c-196e-4f5c-80ce-9b81d13dc388",
+      "title": "OpenAI's response to the Axios developer tool compromise",
+      "url": "https://openai.com/index/axios-developer-tool-compromise",
+      "domain": "openai.com",
+      "published_at": "2026-04-23T00:45:01Z",
+      "category": "tech",
+      "score": 0.2652478323759083,
+      "tldr": "OpenAI's response to the Axios developer tool compromise",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "bd1a8e17-21be-4dce-a8c2-a1f938a66e83",
       "title": "Show HN: Smol machines – subsecond coldstart, portable virtual machines",
       "url": "https://github.com/smol-machines/smolvm",
@@ -830,20 +830,6 @@
       "category": "tech",
       "score": 0.26072181458876914,
       "tldr": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c84cced7-402d-47c8-8299-13a8e7fc7209",
-      "title": "Agent - Native Mac OS X coding ide/harness",
-      "url": "https://github.com/macOS26/Agent",
-      "domain": "github.com",
-      "published_at": "2026-04-16T00:19:40Z",
-      "category": "tech",
-      "score": 0.2606309810844699,
-      "tldr": "Agent - Native Mac OS X coding ide/harness",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1103,17 +1089,17 @@
       ]
     },
     {
-      "id": "8473d139-2a04-41fe-a835-79d64caca1aa",
-      "title": "Stop Using Ollama",
-      "url": "https://sleepingrobots.com/dreams/stop-using-ollama",
-      "domain": "sleepingrobots.com",
-      "published_at": "2026-04-16T03:35:11Z",
+      "id": "1be2b0d0-e98c-4c23-aae0-de1c0c8f6e67",
+      "title": "OpenAI model for masking personally identifiable information (PII) in text",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter",
+      "domain": "openai.com",
+      "published_at": "2026-04-23T00:14:55Z",
       "category": "tech",
-      "score": 0.254395589413588,
-      "tldr": "Stop Using Ollama",
+      "score": 0.2543371207276517,
+      "tldr": "OpenAI model for masking personally identifiable information (PII) in text",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
-        "llm"
+        "general_ai"
       ]
     },
     {
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a32bd134-86bd-4a83-8b11-da0ed76d4ffa",
+      "title": "Caztor 1.0 – a browser for small-net protocols like Gemini and Gopher",
+      "url": "https://kevinboone.me/caztor.html",
+      "domain": "kevinboone.me",
+      "published_at": "2026-04-20T14:37:48Z",
+      "category": "tech",
+      "score": 0.25134529163723585,
+      "tldr": "0 – a browser for small-net protocols like Gemini and Gopher",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-23T00:07:09.095058137Z",
+  "last_updated": "2026-04-23T03:51:56.25991467Z",
   "total_count": 100
 }
