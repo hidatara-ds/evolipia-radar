@@ -327,20 +327,6 @@
       ]
     },
     {
-      "id": "761d6017-b3cf-40f9-b924-e638cd92f789",
-      "title": "€54k spike in 13h from unrestricted Firebase browser key accessing Gemini APIs",
-      "url": "https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262",
-      "domain": "discuss.ai.google.dev",
-      "published_at": "2026-04-16T12:13:30Z",
-      "category": "tech",
-      "score": 0.3140131712812767,
-      "tldr": "€54k spike in 13h from unrestricted Firebase browser key accessing Gemini APIs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "15a7247e-816c-4b78-83a8-2c927f2e98b3",
       "title": "Show HN: Google Gemini Is Scanning Your Photos – and the EU Said No",
       "url": "https://news.ycombinator.com/item?id=47825520",
@@ -759,6 +745,20 @@
       "category": "tech",
       "score": 0.2648596913541015,
       "tldr": "Brands got worse on purpose",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e6353b9f-a0cc-4218-bc43-43803c6ced7a",
+      "title": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "url": "https://github.com/russellromney/honker",
+      "domain": "github.com",
+      "published_at": "2026-04-23T11:53:11Z",
+      "category": "tech",
+      "score": 0.2636900530319945,
+      "tldr": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1341,20 +1341,6 @@
       ]
     },
     {
-      "id": "c946ba81-e2e3-4f44-b9d6-67a7211b0c49",
-      "title": "Show HN: Agent-cache – Multi-tier LLM/tool/session caching for Valkey and Redis",
-      "url": "https://news.ycombinator.com/item?id=47792122",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-04-16T12:37:56Z",
-      "category": "tech",
-      "score": 0.2514033826271237,
-      "tldr": "Show HN: Agent-cache – Multi-tier LLM/tool/session caching for Valkey and Redis",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "01400759-3fd1-41e5-8cf1-ab39235c28e7",
       "title": "Scores decline again for 13-year-old students in reading and mathematics",
       "url": "https://www.nationsreportcard.gov/highlights/ltt/2023",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b8f240e8-a11f-441d-bbf8-8740295419f4",
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt",
+      "domain": "simonwillison.net",
+      "published_at": "2026-04-19T10:36:29Z",
+      "category": "tech",
+      "score": 0.2511617124319686,
+      "tldr": "Changes in the system prompt between Claude Opus 4.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-23T11:53:42.506181508Z",
+  "last_updated": "2026-04-23T12:58:19.491320741Z",
   "total_count": 100
 }
