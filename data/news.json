@@ -778,20 +778,6 @@
       ]
     },
     {
-      "id": "f5ef4b86-d1de-4b03-85af-09d9c62b7ed1",
-      "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
-      "url": "https://github.com/gainsec/autoprober",
-      "domain": "github.com",
-      "published_at": "2026-04-16T21:56:37Z",
-      "category": "tech",
-      "score": 0.26072181458876914,
-      "tldr": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "915b4794-f7c7-462e-b560-0786f166f81c",
       "title": "OpenAI: Workspace Agents for Business",
       "url": "https://openai.com/business/workspace-agents",
@@ -1084,6 +1070,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "73ff656f-bb47-4d41-b6a0-5adbe2cf5617",
+      "title": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "domain": "github.com",
+      "published_at": "2026-04-23T22:01:59Z",
+      "category": "tech",
+      "score": 0.25399120633825695,
+      "tldr": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1410,6 +1410,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-23T21:37:35.479058846Z",
+  "last_updated": "2026-04-23T22:33:59.634581226Z",
   "total_count": 100
 }
