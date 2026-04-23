@@ -399,21 +399,6 @@
       ]
     },
     {
-      "id": "c74ca987-0d31-4a92-bed6-d8574ab511a6",
-      "title": "Bonsai 1.7B in the browser: a 290MB 1-bit LLM on WebGPU",
-      "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
-      "domain": "huggingface.co",
-      "published_at": "2026-04-16T09:46:11Z",
-      "category": "tech",
-      "score": 0.3015879392019934,
-      "tldr": "7B in the browser: a 290MB 1-bit LLM on WebGPU",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "83c07525-3558-40ce-a17d-b7d5f9ad7b0a",
       "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
       "url": "https://github.com/shivampkumar/trellis-mac",
@@ -534,20 +519,6 @@
       "category": "tech",
       "score": 0.2827319832124326,
       "tldr": "Show HN submissions tripled and now mostly share the same vibe-coded look",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "71dcee37-b6e7-49bf-bd4a-a7899781639f",
-      "title": "SDL bans AI-written commits",
-      "url": "https://github.com/libsdl-org/SDL/issues/15350",
-      "domain": "github.com",
-      "published_at": "2026-04-16T09:40:43Z",
-      "category": "tech",
-      "score": 0.28109266091697155,
-      "tldr": "SDL bans AI-written commits",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1410,8 +1381,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "6e10833f-ebe9-4374-aba3-a1133dd82a3a",
+      "title": "Claude Brain",
+      "url": "https://github.com/memvid/claude-brain",
+      "domain": "github.com",
+      "published_at": "2026-04-19T15:48:13Z",
+      "category": "tech",
+      "score": 0.25122860378809714,
+      "tldr": "Claude Brain",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a3dfb1b8-570a-4fa4-8192-ef3f82279f10",
+      "title": "Show HN: Sostactic – polynomial inequalities using sums-of-squares in Lean",
+      "url": "https://github.com/mmaaz-git/sostactic",
+      "domain": "github.com",
+      "published_at": "2026-04-18T22:36:33Z",
+      "category": "tech",
+      "score": 0.2511683400219122,
+      "tldr": "Show HN: Sostactic – polynomial inequalities using sums-of-squares in Lean",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-23T09:18:11.445990727Z",
+  "last_updated": "2026-04-23T11:53:42.506181508Z",
   "total_count": 100
 }
