@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "b8170ae7-0230-4aa4-962a-79f4281be5ca",
+      "title": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "domain": "openai.com",
+      "published_at": "2026-04-23T18:01:39Z",
+      "category": "tech",
+      "score": 0.6088736565006844,
+      "tldr": "GPT-5.5",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "feee9c7d-0067-4c29-a83c-a014a3bf395e",
       "title": "Tim Cook to become Apple Executive Chairman. John Ternus to become CEO",
       "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
@@ -243,20 +257,6 @@
       ]
     },
     {
-      "id": "e0cf7eda-bbd8-4be2-b36e-d5c2eadb9f32",
-      "title": "GPT‑Rosalind for life sciences research",
-      "url": "https://openai.com/index/introducing-gpt-rosalind",
-      "domain": "openai.com",
-      "published_at": "2026-04-16T19:24:50Z",
-      "category": "tech",
-      "score": 0.33115035655277525,
-      "tldr": "GPT‑Rosalind for life sciences research",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "66fc033b-bc23-4ad1-9e8a-6f09a90055ac",
       "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
       "url": "https://github.com/gizmo64k/soulplayer-c64",
@@ -410,6 +410,34 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "7e7f5e5b-9800-4ee4-ad81-f31b7e937000",
+      "title": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
+      "url": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet",
+      "domain": "telegraph.co.uk",
+      "published_at": "2026-04-23T17:01:01Z",
+      "category": "tech",
+      "score": 0.29737868110163324,
+      "tldr": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f985101e-63a4-408d-a018-cc781cfb3805",
+      "title": "French government agency confirms breach as hacker offers to sell data",
+      "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data",
+      "domain": "bleepingcomputer.com",
+      "published_at": "2026-04-23T15:59:55Z",
+      "category": "tech",
+      "score": 0.2961424757197981,
+      "tldr": "French government agency confirms breach as hacker offers to sell data",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
       ]
     },
     {
@@ -1312,6 +1340,20 @@
       ]
     },
     {
+      "id": "778bfa83-1152-4110-a7b0-fcde3e16c929",
+      "title": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "url": "https://locallllm.fly.dev",
+      "domain": "locallllm.fly.dev",
+      "published_at": "2026-04-23T15:01:24Z",
+      "category": "tech",
+      "score": 0.25131126735000675,
+      "tldr": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6e10833f-ebe9-4374-aba3-a1133dd82a3a",
       "title": "Claude Brain",
       "url": "https://github.com/memvid/claude-brain",
@@ -1366,50 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "81a086e5-d399-4d99-a80c-b8c2da622a4b",
-      "title": "3 Hours with Claude Opus 4.7: functional study webapp and remote MCP- Oneshotted",
-      "url": "https://github.com/AmmarSaleh50/study-dashboard-demo",
-      "domain": "github.com",
-      "published_at": "2026-04-17T22:14:02Z",
-      "category": "tech",
-      "score": 0.25104770459761466,
-      "tldr": "3 Hours with Claude Opus 4. 7: functional study webapp and remote MCP- Oneshotted",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9a8e7670-7c68-447f-93b3-18f56d11fb86",
-      "title": "Open-source Firecracker microVM orchestrator",
-      "url": "https://github.com/sahil-shubham/bhatti",
-      "domain": "github.com",
-      "published_at": "2026-04-18T20:47:58Z",
-      "category": "tech",
-      "score": 0.25100317972377395,
-      "tldr": "Open-source Firecracker microVM orchestrator",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "db0d0bfc-a334-4f13-99c6-25143b2cd1bd",
-      "title": "Comparing GPT-5.4, Opus 4.6, GLM-5.1, Kimi K2.5, MiMo V2 Pro and MiniMax M2.7",
-      "url": "https://www.codejam.info/2026/04/comparing-gpt-5-4-opus-4-6-glm-5-1-kimi-k2-5-mimo-v2-pro-and-minimax-m2-7.html",
-      "domain": "codejam.info",
-      "published_at": "2026-04-18T17:18:13Z",
-      "category": "tech",
-      "score": 0.25095285797547867,
-      "tldr": "5, MiMo V2 Pro and MiniMax M2.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-23T18:03:46.120515033Z",
+  "last_updated": "2026-04-23T19:47:53.970194152Z",
   "total_count": 100
 }
