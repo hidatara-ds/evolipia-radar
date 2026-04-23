@@ -243,20 +243,6 @@
       ]
     },
     {
-      "id": "0f8f4a6c-abf6-4539-9357-bc2c0ff070ba",
-      "title": "Show HN: MacMind – A transformer neural network in HyperCard on a 1989 Macintosh",
-      "url": "https://github.com/SeanFDZ/macmind",
-      "domain": "github.com",
-      "published_at": "2026-04-16T13:16:29Z",
-      "category": "tech",
-      "score": 0.3325223862454649,
-      "tldr": "Show HN: MacMind – A transformer neural network in HyperCard on a 1989 Macintosh",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "e0cf7eda-bbd8-4be2-b36e-d5c2eadb9f32",
       "title": "GPT‑Rosalind for life sciences research",
       "url": "https://openai.com/index/introducing-gpt-rosalind",
@@ -299,20 +285,6 @@
       ]
     },
     {
-      "id": "6b31a652-8f9f-4827-a638-1cb37f5585e0",
-      "title": "Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All",
-      "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
-      "domain": "qwen.ai",
-      "published_at": "2026-04-16T13:36:27Z",
-      "category": "tech",
-      "score": 0.32636921853883344,
-      "tldr": "6-35B-A3B: Agentic Coding Power, Now Open to All",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b5d9c59d-2816-493a-ac87-c50375e670eb",
       "title": "Generating Hierarchical JSON Representations of Scientific Sentences Using LLMs",
       "url": "https://arxiv.org/abs/2603.23532",
@@ -324,6 +296,34 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "380aefbb-777f-4c16-830f-926f4c621183",
+      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+      "domain": "socket.dev",
+      "published_at": "2026-04-23T14:17:08Z",
+      "category": "tech",
+      "score": 0.31724011388543993,
+      "tldr": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "19622592-41b6-4b45-864e-52f310fe42de",
+      "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
+      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say",
+      "domain": "techcrunch.com",
+      "published_at": "2026-04-23T12:12:03Z",
+      "category": "tech",
+      "score": 0.31479162319334125,
+      "tldr": "Investigation uncovers two sophisticated telecom surveillance campaigns",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -368,6 +368,20 @@
       "tags": [
         "general_ai",
         "llm"
+      ]
+    },
+    {
+      "id": "9cd1c8ff-8b9c-41f1-89b3-9a8477ecc49f",
+      "title": "Raylib v6.0",
+      "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
+      "domain": "github.com",
+      "published_at": "2026-04-23T12:16:16Z",
+      "category": "tech",
+      "score": 0.304413358318777,
+      "tldr": "Raylib v6.0",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -539,21 +553,6 @@
       ]
     },
     {
-      "id": "556dd7a0-3c66-437a-9aaa-a947a26feeee",
-      "title": "Cloudflare's AI Platform: an inference layer designed for agents",
-      "url": "https://blog.cloudflare.com/ai-platform",
-      "domain": "blog.cloudflare.com",
-      "published_at": "2026-04-16T13:17:37Z",
-      "category": "tech",
-      "score": 0.2772010534886214,
-      "tldr": "Cloudflare's AI Platform: an inference layer designed for agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud",
-        "general_ai"
-      ]
-    },
-    {
       "id": "1a525a83-62b8-4a58-ae60-d4278aeac5e3",
       "title": "I’m spending months coding the old way",
       "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
@@ -605,20 +604,6 @@
       "score": 0.2709243133619609,
       "tldr": "2 image-to-3D running on Mac Silicon – no Nvidia GPU needed",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "687f2078-d4f9-44a0-856e-7aaf5754b219",
-      "title": "Artifacts: Versioned storage that speaks Git",
-      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta",
-      "domain": "blog.cloudflare.com",
-      "published_at": "2026-04-16T13:02:03Z",
-      "category": "tech",
-      "score": 0.2708528630701741,
-      "tldr": "Artifacts: Versioned storage that speaks Git",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -793,20 +778,6 @@
       ]
     },
     {
-      "id": "b705b0c8-6599-4343-8f74-d055c1ff3e12",
-      "title": "Claude Opus 4.7",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7",
-      "domain": "anthropic.com",
-      "published_at": "2026-04-16T14:23:50Z",
-      "category": "tech",
-      "score": 0.2602809849590602,
-      "tldr": "Claude Opus 4.7",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "151b43fe-2eaa-4936-898a-20751459f9b2",
       "title": "ChatGPT and Codex Down",
       "url": "https://status.openai.com/history",
@@ -877,6 +848,34 @@
       ]
     },
     {
+      "id": "869c1442-1ad3-4059-97be-ea008419e22b",
+      "title": "LLM pricing has never made sense",
+      "url": "https://anderegg.ca/2026/04/22/llm-pricing-has-never-made-sense",
+      "domain": "anderegg.ca",
+      "published_at": "2026-04-23T13:43:51Z",
+      "category": "tech",
+      "score": 0.2581866111732985,
+      "tldr": "LLM pricing has never made sense",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1b272e5d-6799-4667-9990-ef5c26ddf5ed",
+      "title": "US Department of Justice has officially reclassified cannabis as less dangerous",
+      "url": "https://www.bbc.com/news/articles/cdxd0xxp0jko",
+      "domain": "bbc.com",
+      "published_at": "2026-04-23T13:37:48Z",
+      "category": "tech",
+      "score": 0.2578587505487383,
+      "tldr": "US Department of Justice has officially reclassified cannabis as less dangerous",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b016fe30-b80c-4809-bd63-4d7769767518",
       "title": "Columnar Storage Is Normalization",
       "url": "https://buttondown.com/jaffray/archive/columnar-storage-is-normalization",
@@ -899,20 +898,6 @@
       "category": "tech",
       "score": 0.2574164423347177,
       "tldr": "Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0e97ce1c-ff46-4cc7-b471-ded4a9c3937c",
-      "title": "The Future of Everything Is Lies, I Guess: Where Do We Go from Here?",
-      "url": "https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here",
-      "domain": "aphyr.com",
-      "published_at": "2026-04-16T13:32:13Z",
-      "category": "tech",
-      "score": 0.2570435165473293,
-      "tldr": "The Future of Everything Is Lies, I Guess: Where Do We Go from Here?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1074,20 +1059,6 @@
       ]
     },
     {
-      "id": "691c12f8-7e45-4e1d-bbd5-35ccf81aaa0d",
-      "title": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
-      "url": "https://github.com/GRVYDEV/marky",
-      "domain": "github.com",
-      "published_at": "2026-04-16T16:08:05Z",
-      "category": "tech",
-      "score": 0.2540731681410777,
-      "tldr": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "df189819-a39b-4d65-aa54-22d8963e18fc",
       "title": "Sudo for Windows",
       "url": "https://github.com/microsoft/sudo",
@@ -1195,20 +1166,6 @@
       "score": 0.2523778974608286,
       "tldr": "Average new UK electric car price is now lower than petrol vehicles",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "49876823-6e0a-4512-8acc-7b6ccf6cbf05",
-      "title": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
-      "url": "https://github.com/impactjo/home-memory",
-      "domain": "github.com",
-      "published_at": "2026-04-16T13:58:10Z",
-      "category": "tech",
-      "score": 0.2523428186871607,
-      "tldr": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1409,8 +1366,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "497f8229-8723-4421-b6ed-5fb003946221",
+      "title": "Show HN: Git Push No-Mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "domain": "github.com",
+      "published_at": "2026-04-20T18:40:21Z",
+      "category": "tech",
+      "score": 0.2510714122400133,
+      "tldr": "Show HN: Git Push No-Mistakes",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "81a086e5-d399-4d99-a80c-b8c2da622a4b",
+      "title": "3 Hours with Claude Opus 4.7: functional study webapp and remote MCP- Oneshotted",
+      "url": "https://github.com/AmmarSaleh50/study-dashboard-demo",
+      "domain": "github.com",
+      "published_at": "2026-04-17T22:14:02Z",
+      "category": "tech",
+      "score": 0.25104770459761466,
+      "tldr": "3 Hours with Claude Opus 4. 7: functional study webapp and remote MCP- Oneshotted",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9a8e7670-7c68-447f-93b3-18f56d11fb86",
+      "title": "Open-source Firecracker microVM orchestrator",
+      "url": "https://github.com/sahil-shubham/bhatti",
+      "domain": "github.com",
+      "published_at": "2026-04-18T20:47:58Z",
+      "category": "tech",
+      "score": 0.25100317972377395,
+      "tldr": "Open-source Firecracker microVM orchestrator",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-23T12:58:19.491320741Z",
+  "last_updated": "2026-04-23T16:57:35.355873298Z",
   "total_count": 100
 }
