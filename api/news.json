@@ -271,20 +271,6 @@
       ]
     },
     {
-      "id": "bf3e6c33-baad-4b2e-9897-f9fa9ba0ab72",
-      "title": "Isaac Asimov: The Last Question (1956)",
-      "url": "https://hex.ooo/library/last_question.html",
-      "domain": "hex.ooo",
-      "published_at": "2026-04-17T12:01:19Z",
-      "category": "tech",
-      "score": 0.3350229227369038,
-      "tldr": "Isaac Asimov: The Last Question (1956)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "66fc033b-bc23-4ad1-9e8a-6f09a90055ac",
       "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
       "url": "https://github.com/gizmo64k/soulplayer-c64",
@@ -1408,8 +1394,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "778bfa83-1152-4110-a7b0-fcde3e16c929",
+      "title": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "url": "https://locallllm.fly.dev",
+      "domain": "locallllm.fly.dev",
+      "published_at": "2026-04-23T15:01:24Z",
+      "category": "tech",
+      "score": 0.25131126735000675,
+      "tldr": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-24T10:03:12.303604845Z",
+  "last_updated": "2026-04-24T12:56:53.30952812Z",
   "total_count": 100
 }
