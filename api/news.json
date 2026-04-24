@@ -215,20 +215,6 @@
       ]
     },
     {
-      "id": "253d93bc-558a-44a4-a95d-4ee9e5630011",
-      "title": "Ban the sale of precise geolocation",
-      "url": "https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation",
-      "domain": "lawfaremedia.org",
-      "published_at": "2026-04-17T14:25:46Z",
-      "category": "tech",
-      "score": 0.34793300252212556,
-      "tldr": "Ban the sale of precise geolocation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5f0c0830-28e0-4de6-9098-a4addbd517b4",
       "title": "AI Resistance: some recent anti-AI stuff that’s worth discussing",
       "url": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing",
@@ -547,6 +533,20 @@
       "category": "tech",
       "score": 0.2827319832124326,
       "tldr": "Show HN submissions tripled and now mostly share the same vibe-coded look",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ff60ad65-82f8-47a4-b3d3-b67dc674096a",
+      "title": "Hear your agent suffer through your code",
+      "url": "https://github.com/AndrewVos/endless-toil",
+      "domain": "github.com",
+      "published_at": "2026-04-24T10:58:45Z",
+      "category": "tech",
+      "score": 0.27871732033055346,
+      "tldr": "Hear your agent suffer through your code",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1241,6 +1241,20 @@
       ]
     },
     {
+      "id": "4999d4a0-4a59-44dd-85ed-fc6f30ec7033",
+      "title": "Design.md: A format spec for describing a visual identity to coding agents",
+      "url": "https://github.com/google-labs-code/design.md",
+      "domain": "github.com",
+      "published_at": "2026-04-24T08:00:32Z",
+      "category": "tech",
+      "score": 0.25230357262819486,
+      "tldr": "md: A format spec for describing a visual identity to coding agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c89e37b4-35f4-448c-870c-7bbc55aa1621",
       "title": "Yoshihisa Kishimoto (1961 – 2026), creator of Double Dragon and Kunio-kun",
       "url": "https://old.reddit.com/r/NintendoClassics/comments/1sp8dao/in_tribute_to_yoshihisa_kishimoto_1961_2026",
@@ -1394,22 +1408,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "778bfa83-1152-4110-a7b0-fcde3e16c929",
-      "title": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
-      "url": "https://locallllm.fly.dev",
-      "domain": "locallllm.fly.dev",
-      "published_at": "2026-04-23T15:01:24Z",
-      "category": "tech",
-      "score": 0.25131126735000675,
-      "tldr": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-24T12:56:53.30952812Z",
+  "last_updated": "2026-04-24T14:28:54.18855068Z",
   "total_count": 100
 }
