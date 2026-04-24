@@ -43,6 +43,20 @@
       ]
     },
     {
+      "id": "7be87bca-328a-4722-b641-e75d550f141a",
+      "title": "Meta tells staff it will cut 10% of jobs",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
+      "domain": "bloomberg.com",
+      "published_at": "2026-04-23T18:55:32Z",
+      "category": "tech",
+      "score": 0.4269141403823875,
+      "tldr": "Meta tells staff it will cut 10% of jobs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e0ccb504-b471-4250-9a72-778ade130c2b",
       "title": "Measuring Claude 4.7's tokenizer costs",
       "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
@@ -575,6 +589,20 @@
       "category": "tech",
       "score": 0.2784671183869864,
       "tldr": "OpenAI Livestream",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f2fa4fca-c9e9-4c2f-bf93-00ff4d88bfd7",
+      "title": "DeepSeek v4",
+      "url": "https://api-docs.deepseek.com/",
+      "domain": "api-docs.deepseek.com",
+      "published_at": "2026-04-24T03:01:21Z",
+      "category": "tech",
+      "score": 0.2743691804706459,
+      "tldr": "DeepSeek v4",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1380,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b8f240e8-a11f-441d-bbf8-8740295419f4",
-      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt",
-      "domain": "simonwillison.net",
-      "published_at": "2026-04-19T10:36:29Z",
-      "category": "tech",
-      "score": 0.2511617124319686,
-      "tldr": "Changes in the system prompt between Claude Opus 4.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "497f8229-8723-4421-b6ed-5fb003946221",
-      "title": "Show HN: Git Push No-Mistakes",
-      "url": "https://github.com/kunchenguid/no-mistakes",
-      "domain": "github.com",
-      "published_at": "2026-04-20T18:40:21Z",
-      "category": "tech",
-      "score": 0.2510714122400133,
-      "tldr": "Show HN: Git Push No-Mistakes",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-24T01:25:30.156819737Z",
+  "last_updated": "2026-04-24T04:32:00.770409467Z",
   "total_count": 100
 }
