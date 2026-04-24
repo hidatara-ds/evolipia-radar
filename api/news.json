@@ -581,20 +581,6 @@
       ]
     },
     {
-      "id": "1a525a83-62b8-4a58-ae60-d4278aeac5e3",
-      "title": "I’m spending months coding the old way",
-      "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
-      "domain": "miguelconner.substack.com",
-      "published_at": "2026-04-17T16:19:53Z",
-      "category": "tech",
-      "score": 0.2738162486556597,
-      "tldr": "I’m spending months coding the old way",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c3e740ee-05d5-4967-a5fc-92a1bdaa1f31",
       "title": "Kimi vendor verifier – verify accuracy of inference providers",
       "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
@@ -912,6 +898,20 @@
       "category": "tech",
       "score": 0.2574164423347177,
       "tldr": "Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "abd5125c-e9e1-47c0-b9df-fee78ceefa87",
+      "title": "Machine Learning Reveals Unknown Transient Phenomena in Historic Images",
+      "url": "https://arxiv.org/abs/2604.18799",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-24T14:01:43Z",
+      "category": "tech",
+      "score": 0.2571744674413936,
+      "tldr": "Machine Learning Reveals Unknown Transient Phenomena in Historic Images",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1269,20 +1269,6 @@
       ]
     },
     {
-      "id": "61ec3af0-37bf-4ffe-a1eb-fc546c013836",
-      "title": "Show HN: PanicLock – Close your MacBook lid disable TouchID –\u003e password unlock",
-      "url": "https://github.com/paniclock/paniclock",
-      "domain": "github.com",
-      "published_at": "2026-04-17T16:38:44Z",
-      "category": "tech",
-      "score": 0.2518761909022169,
-      "tldr": "Show HN: PanicLock – Close your MacBook lid disable TouchID –\u003e password unlock",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f0026156-3306-444d-9926-5a013b82c3a8",
       "title": "Show HN: Docker Compose for VM's",
       "url": "https://github.com/zeroecco/holos",
@@ -1408,8 +1394,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "778bfa83-1152-4110-a7b0-fcde3e16c929",
+      "title": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "url": "https://locallllm.fly.dev",
+      "domain": "locallllm.fly.dev",
+      "published_at": "2026-04-23T15:01:24Z",
+      "category": "tech",
+      "score": 0.25131126735000675,
+      "tldr": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-24T15:46:14.700303674Z",
+  "last_updated": "2026-04-24T16:44:28.516192296Z",
   "total_count": 100
 }
