@@ -372,6 +372,21 @@
       ]
     },
     {
+      "id": "f681a311-6a18-4d48-a13a-0c3c42633511",
+      "title": "GPT-5.5 is generally available for GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "domain": "github.blog",
+      "published_at": "2026-04-24T20:07:54Z",
+      "category": "tech",
+      "score": 0.3044505192678877,
+      "tldr": "5 is generally available for GitHub Copilot",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "9cd1c8ff-8b9c-41f1-89b3-9a8477ecc49f",
       "title": "Raylib v6.0",
       "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
@@ -874,6 +889,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "2215a1bb-86dd-4493-ab4b-a49550e40e64",
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-24T18:06:05Z",
+      "category": "tech",
+      "score": 0.2587298394783441,
+      "tldr": "There Will Be a Scientific Theory of Deep Learning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1380,37 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e7ed79db-e66c-4d8b-b683-3e80698fdeec",
-      "title": "OpenAI Privacy Filter",
-      "url": "https://openai.com/index/introducing-openai-privacy-filter",
-      "domain": "openai.com",
-      "published_at": "2026-04-22T14:59:40Z",
-      "category": "tech",
-      "score": 0.25162883322087864,
-      "tldr": "OpenAI Privacy Filter",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "194d97ad-522a-4fba-a082-cfa8f0cd9a75",
-      "title": "DragonRuby's Seventh Year – Where We Started and Where We're Going",
-      "url": "https://dragonruby.itch.io/dragonruby-gtk/devlog/1497015/dragonrubys-seventh-year-where-we-started-and-where-were-going",
-      "domain": "dragonruby.itch.io",
-      "published_at": "2026-04-23T04:36:02Z",
-      "category": "tech",
-      "score": 0.25160444056309667,
-      "tldr": "DragonRuby's Seventh Year – Where We Started and Where We're Going",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-24T19:43:48.846642358Z",
+  "last_updated": "2026-04-24T20:35:56.54937398Z",
   "total_count": 100
 }
