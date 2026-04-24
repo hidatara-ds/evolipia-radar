@@ -1227,6 +1227,20 @@
       ]
     },
     {
+      "id": "745c9054-7b79-4d26-b0ea-2aefd4986b6e",
+      "title": "GPT-5.5 – No ARC-AGI-3 scores",
+      "url": "https://news.ycombinator.com/item?id=47882153",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-04-23T21:16:06Z",
+      "category": "tech",
+      "score": 0.25171133670939544,
+      "tldr": "5 – No ARC-AGI-3 scores",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "618b0e79-1b06-4a05-974b-e9b44eb646c4",
       "title": "Startups Brag They Spend More Money on AI Than Human Employees",
       "url": "https://www.404media.co/startups-brag-they-spend-more-money-on-ai-than-human-employees",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "81a086e5-d399-4d99-a80c-b8c2da622a4b",
-      "title": "3 Hours with Claude Opus 4.7: functional study webapp and remote MCP- Oneshotted",
-      "url": "https://github.com/AmmarSaleh50/study-dashboard-demo",
-      "domain": "github.com",
-      "published_at": "2026-04-17T22:14:02Z",
-      "category": "tech",
-      "score": 0.25104770459761466,
-      "tldr": "3 Hours with Claude Opus 4. 7: functional study webapp and remote MCP- Oneshotted",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-23T23:36:13.617896734Z",
+  "last_updated": "2026-04-24T01:25:30.156819737Z",
   "total_count": 100
 }
