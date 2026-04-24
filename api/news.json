@@ -722,6 +722,20 @@
       ]
     },
     {
+      "id": "4a987f73-ea73-41ac-9ce8-529d998482f2",
+      "title": "Spinel: Ruby AOT Native Compiler",
+      "url": "https://github.com/matz/spinel",
+      "domain": "github.com",
+      "published_at": "2026-04-24T08:28:47Z",
+      "category": "tech",
+      "score": 0.26810201527549293,
+      "tldr": "Spinel: Ruby AOT Native Compiler",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "aec3cc8c-d991-48b6-aebb-6531e497a4a0",
       "title": "Why is IPv6 so complicated?",
       "url": "https://github.com/becarpenter/misc/blob/main/why6why.md",
@@ -1394,22 +1408,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "778bfa83-1152-4110-a7b0-fcde3e16c929",
-      "title": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
-      "url": "https://locallllm.fly.dev",
-      "domain": "locallllm.fly.dev",
-      "published_at": "2026-04-23T15:01:24Z",
-      "category": "tech",
-      "score": 0.25131126735000675,
-      "tldr": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-24T08:29:01.452287723Z",
+  "last_updated": "2026-04-24T10:03:12.303604845Z",
   "total_count": 100
 }
