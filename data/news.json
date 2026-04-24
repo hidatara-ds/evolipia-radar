@@ -1059,6 +1059,20 @@
       ]
     },
     {
+      "id": "f658b39a-2f8f-4032-8f20-554f2e82c9a3",
+      "title": "Show HN: Gova – The declarative GUI framework for Go",
+      "url": "https://github.com/NV404/gova",
+      "domain": "github.com",
+      "published_at": "2026-04-24T06:16:47Z",
+      "category": "tech",
+      "score": 0.254242839953499,
+      "tldr": "Show HN: Gova – The declarative GUI framework for Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d5efc70b-b57a-40f6-bfd8-0abfd9a99c28",
       "title": "ChatGPT Images 2.0",
       "url": "https://chatgpt.com/images",
@@ -1067,6 +1081,20 @@
       "category": "tech",
       "score": 0.2540768283790891,
       "tldr": "ChatGPT Images 2.0",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5caf662c-1e97-498f-94ca-fd7d6cb0827c",
+      "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+      "url": "https://ynarwal.github.io/how-llms-work",
+      "domain": "ynarwal.github.io",
+      "published_at": "2026-04-24T06:48:53Z",
+      "category": "tech",
+      "score": 0.25401527497147186,
+      "tldr": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1380,36 +1408,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "6e10833f-ebe9-4374-aba3-a1133dd82a3a",
-      "title": "Claude Brain",
-      "url": "https://github.com/memvid/claude-brain",
-      "domain": "github.com",
-      "published_at": "2026-04-19T15:48:13Z",
-      "category": "tech",
-      "score": 0.25122860378809714,
-      "tldr": "Claude Brain",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a3dfb1b8-570a-4fa4-8192-ef3f82279f10",
-      "title": "Show HN: Sostactic – polynomial inequalities using sums-of-squares in Lean",
-      "url": "https://github.com/mmaaz-git/sostactic",
-      "domain": "github.com",
-      "published_at": "2026-04-18T22:36:33Z",
-      "category": "tech",
-      "score": 0.2511683400219122,
-      "tldr": "Show HN: Sostactic – polynomial inequalities using sums-of-squares in Lean",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-24T06:27:04.069379705Z",
+  "last_updated": "2026-04-24T08:29:01.452287723Z",
   "total_count": 100
 }
