@@ -1383,6 +1383,20 @@
       ]
     },
     {
+      "id": "6b47d847-5854-4659-9311-ce97948e9e7d",
+      "title": "FusionCore: ROS 2 sensor fusion (IMU and GPS and encoders)",
+      "url": "https://github.com/manankharwar/fusioncore",
+      "domain": "github.com",
+      "published_at": "2026-04-24T22:36:38Z",
+      "category": "tech",
+      "score": 0.2519089730871479,
+      "tldr": "FusionCore: ROS 2 sensor fusion (IMU and GPS and encoders)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f0026156-3306-444d-9926-5a013b82c3a8",
       "title": "Show HN: Docker Compose for VM's",
       "url": "https://github.com/zeroecco/holos",
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "745c9054-7b79-4d26-b0ea-2aefd4986b6e",
-      "title": "GPT-5.5 – No ARC-AGI-3 scores",
-      "url": "https://news.ycombinator.com/item?id=47882153",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-04-23T21:16:06Z",
-      "category": "tech",
-      "score": 0.25171133670939544,
-      "tldr": "5 – No ARC-AGI-3 scores",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-24T22:32:06.719457898Z",
+  "last_updated": "2026-04-24T23:32:25.347959004Z",
   "total_count": 100
 }
