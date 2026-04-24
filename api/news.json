@@ -257,6 +257,21 @@
       ]
     },
     {
+      "id": "b9483ec4-364d-44b7-9fb1-dd8d7c5be857",
+      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "domain": "developers.openai.com",
+      "published_at": "2026-04-24T18:23:32Z",
+      "category": "tech",
+      "score": 0.3349452788704724,
+      "tldr": "OpenAI releases GPT-5.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "66fc033b-bc23-4ad1-9e8a-6f09a90055ac",
       "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
       "url": "https://github.com/gizmo64k/soulplayer-c64",
@@ -848,6 +863,20 @@
       ]
     },
     {
+      "id": "233bcac1-e514-4a05-8185-16063e8b936c",
+      "title": "LLM research on Hacker News is drying up",
+      "url": "https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html",
+      "domain": "dylancastillo.co",
+      "published_at": "2026-04-24T18:12:15Z",
+      "category": "tech",
+      "score": 0.2587557454250645,
+      "tldr": "LLM research on Hacker News is drying up",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "f19165a8-3eec-40eb-9060-af87f3f728be",
       "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
       "url": "https://www.brex.com/crabtrap",
@@ -1011,6 +1040,20 @@
       "category": "tech",
       "score": 0.25620839205008583,
       "tldr": "diy: open-source community edition of cal.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7e9337fe-646b-42a0-bb25-44f0bf66a359",
+      "title": "CC-Canary: Detect early signs of regressions in Claude Code",
+      "url": "https://github.com/delta-hq/cc-canary",
+      "domain": "github.com",
+      "published_at": "2026-04-24T17:53:37Z",
+      "category": "tech",
+      "score": 0.25586108747630093,
+      "tldr": "CC-Canary: Detect early signs of regressions in Claude Code",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1366,50 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4fa85e21-0a18-4342-8d88-515707641f07",
-      "title": "Google unveils chips for AI training and inference in latest shot at Nvidia",
-      "url": "https://www.cnbc.com/2026/04/22/google-launches-training-and-inference-tpus-in-latest-shot-at-nvidia.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-04-22T12:16:41Z",
-      "category": "tech",
-      "score": 0.25158385356991325,
-      "tldr": "Google unveils chips for AI training and inference in latest shot at Nvidia",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "01400759-3fd1-41e5-8cf1-ab39235c28e7",
-      "title": "Scores decline again for 13-year-old students in reading and mathematics",
-      "url": "https://www.nationsreportcard.gov/highlights/ltt/2023",
-      "domain": "nationsreportcard.gov",
-      "published_at": "2026-04-22T18:57:20Z",
-      "category": "tech",
-      "score": 0.2513878832015962,
-      "tldr": "Scores decline again for 13-year-old students in reading and mathematics",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a32bd134-86bd-4a83-8b11-da0ed76d4ffa",
-      "title": "Caztor 1.0 – a browser for small-net protocols like Gemini and Gopher",
-      "url": "https://kevinboone.me/caztor.html",
-      "domain": "kevinboone.me",
-      "published_at": "2026-04-20T14:37:48Z",
-      "category": "tech",
-      "score": 0.25134529163723585,
-      "tldr": "0 – a browser for small-net protocols like Gemini and Gopher",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-24T18:36:21.265055068Z",
+  "last_updated": "2026-04-24T19:43:48.846642358Z",
   "total_count": 100
 }
