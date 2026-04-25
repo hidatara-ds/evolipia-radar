@@ -143,6 +143,21 @@
       ]
     },
     {
+      "id": "c5c0a8a2-1b8c-47d5-9aa0-0b686da287ff",
+      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "url": "https://github.com/nex-crm/wuphf",
+      "domain": "github.com",
+      "published_at": "2026-04-25T08:53:53Z",
+      "category": "tech",
+      "score": 0.3910106017089185,
+      "tldr": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
       "id": "480be609-04b7-4bba-b784-c71bd2f5353f",
       "title": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
       "url": "https://surfacedby.com/blog/nginx-logs-ai-traffic-vs-referral-traffic",
@@ -1396,22 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c6801a74-c580-4499-b2c7-898449fc34c0",
-      "title": "Show HN: leaf – a terminal Markdown previewer with a GUI-like experience",
-      "url": "https://github.com/RivoLink/leaf",
-      "domain": "github.com",
-      "published_at": "2026-04-24T10:54:26Z",
-      "category": "tech",
-      "score": 0.2520773177307705,
-      "tldr": "Show HN: leaf – a terminal Markdown previewer with a GUI-like experience",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-25T08:40:53.41127298Z",
+  "last_updated": "2026-04-25T09:42:10.708363829Z",
   "total_count": 100
 }
