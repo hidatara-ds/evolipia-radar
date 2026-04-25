@@ -286,20 +286,6 @@
       ]
     },
     {
-      "id": "b5d9c59d-2816-493a-ac87-c50375e670eb",
-      "title": "Generating Hierarchical JSON Representations of Scientific Sentences Using LLMs",
-      "url": "https://arxiv.org/abs/2603.23532",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-18T00:17:23Z",
-      "category": "tech",
-      "score": 0.32564579617772443,
-      "tldr": "Generating Hierarchical JSON Representations of Scientific Sentences Using LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "380aefbb-777f-4c16-830f-926f4c621183",
       "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
       "url": "https://socket.dev/blog/bitwarden-cli-compromised",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "745c9054-7b79-4d26-b0ea-2aefd4986b6e",
+      "title": "GPT-5.5 – No ARC-AGI-3 scores",
+      "url": "https://news.ycombinator.com/item?id=47882153",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-04-23T21:16:06Z",
+      "category": "tech",
+      "score": 0.25171133670939544,
+      "tldr": "5 – No ARC-AGI-3 scores",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-24T23:32:25.347959004Z",
+  "last_updated": "2026-04-25T01:19:06.305199681Z",
   "total_count": 100
 }
