@@ -1118,20 +1118,6 @@
       ]
     },
     {
-      "id": "c07c0424-5776-4da4-b6ff-eabe36187e00",
-      "title": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
-      "url": "https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon",
-      "domain": "abacusnoir.com",
-      "published_at": "2026-04-18T22:46:13Z",
-      "category": "tech",
-      "score": 0.25657538969977395,
-      "tldr": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d39efb49-4327-4b5a-9f52-6742df83d420",
       "title": "The EU digital ID wallet can't deliver the privacy properties it claims",
       "url": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/issues/26",
@@ -1411,8 +1397,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "bf3c3471-7b8e-483e-9136-5ae4a5df050e",
+      "title": "Nicholas Carlini – Black-hat LLMs [video]",
+      "url": "https://www.youtube.com/watch?v=1sd26pWhfmg",
+      "domain": "youtube.com",
+      "published_at": "2026-04-25T20:04:37Z",
+      "category": "tech",
+      "score": 0.2528970081365731,
+      "tldr": "Nicholas Carlini – Black-hat LLMs [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-25T22:35:56.059662232Z",
+  "last_updated": "2026-04-25T23:28:34.460147529Z",
   "total_count": 100
 }
