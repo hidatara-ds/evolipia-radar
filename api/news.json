@@ -101,20 +101,6 @@
       ]
     },
     {
-      "id": "0642568d-db45-4ea4-8875-054369057660",
-      "title": "Anonymous request-token comparisons from Opus 4.6 and Opus 4.7",
-      "url": "https://tokens.billchambers.me/leaderboard",
-      "domain": "tokens.billchambers.me",
-      "published_at": "2026-04-18T16:05:43Z",
-      "category": "tech",
-      "score": 0.3971876080673369,
-      "tldr": "Anonymous request-token comparisons from Opus 4.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e77cf60a-ad61-4614-8e4b-216fde6b970a",
       "title": "Claude Code to be removed from Anthropic's Pro plan?",
       "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
@@ -213,6 +199,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "8671c3fa-5689-47e0-bae9-0d2a96796cca",
+      "title": "GPT 5.5 biosafety bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "domain": "openai.com",
+      "published_at": "2026-04-25T14:17:31Z",
+      "category": "tech",
+      "score": 0.34457607195939444,
+      "tldr": "GPT 5.5 biosafety bounty",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-25T14:37:27.470646575Z",
+  "last_updated": "2026-04-25T16:30:19.584023558Z",
   "total_count": 100
 }
