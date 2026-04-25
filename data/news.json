@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "d45e2280-6f98-44fc-9e9e-11fa57decfa7",
+      "title": "DeepSeek v4",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "domain": "api-docs.deepseek.com",
+      "published_at": "2026-04-24T03:01:21Z",
+      "category": "tech",
+      "score": 0.4936920017948714,
+      "tldr": "DeepSeek v4",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "feee9c7d-0067-4c29-a83c-a014a3bf395e",
       "title": "Tim Cook to become Apple Executive Chairman. John Ternus to become CEO",
       "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
@@ -647,6 +661,20 @@
       "category": "tech",
       "score": 0.2729377185129746,
       "tldr": "Kimi vendor verifier – verify accuracy of inference providers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3e262860-90ed-43bc-8842-b628a33c977c",
+      "title": "Replace IBM Quantum back end with /dev/urandom",
+      "url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
+      "domain": "github.com",
+      "published_at": "2026-04-25T00:58:38Z",
+      "category": "tech",
+      "score": 0.27258104819789286,
+      "tldr": "Replace IBM Quantum back end with /dev/urandom",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1381,36 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f0026156-3306-444d-9926-5a013b82c3a8",
-      "title": "Show HN: Docker Compose for VM's",
-      "url": "https://github.com/zeroecco/holos",
-      "domain": "github.com",
-      "published_at": "2026-04-20T21:13:49Z",
-      "category": "tech",
-      "score": 0.2518555657960074,
-      "tldr": "Show HN: Docker Compose for VM's",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "745c9054-7b79-4d26-b0ea-2aefd4986b6e",
-      "title": "GPT-5.5 – No ARC-AGI-3 scores",
-      "url": "https://news.ycombinator.com/item?id=47882153",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-04-23T21:16:06Z",
-      "category": "tech",
-      "score": 0.25171133670939544,
-      "tldr": "5 – No ARC-AGI-3 scores",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-25T01:19:06.305199681Z",
+  "last_updated": "2026-04-25T04:12:39.419949218Z",
   "total_count": 100
 }
