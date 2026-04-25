@@ -174,6 +174,20 @@
       ]
     },
     {
+      "id": "b85131d6-aa01-4318-87bb-0cde5183b453",
+      "title": "GPT‑5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "domain": "openai.com",
+      "published_at": "2026-04-25T14:17:31Z",
+      "category": "tech",
+      "score": 0.37689942652433656,
+      "tldr": "GPT‑5.5 Bio Bug Bounty",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b9e22043-6da8-49d9-9040-d0894043f89a",
       "title": "ChatGPT Images 2.0",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
@@ -1147,6 +1161,20 @@
       ]
     },
     {
+      "id": "3c2eb58c-6d99-471a-8b23-60abaa3bc633",
+      "title": "AI agents that argue with each other to improve decisions",
+      "url": "https://github.com/rockcat/HATS",
+      "domain": "github.com",
+      "published_at": "2026-04-25T18:30:12Z",
+      "category": "tech",
+      "score": 0.2561660206976923,
+      "tldr": "AI agents that argue with each other to improve decisions",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7e9337fe-646b-42a0-bb25-44f0bf66a359",
       "title": "CC-Canary: Detect early signs of regressions in Claude Code",
       "url": "https://github.com/delta-hq/cc-canary",
@@ -1383,36 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "7b616460-cbd6-4367-8287-32660d201ea4",
-      "title": "Show HN: Clone, a small Rust VMM, forks VMs in under 20ms via CoW",
-      "url": "https://github.com/unixshells/clone",
-      "domain": "github.com",
-      "published_at": "2026-04-19T23:22:39Z",
-      "category": "tech",
-      "score": 0.2528734522302206,
-      "tldr": "Show HN: Clone, a small Rust VMM, forks VMs in under 20ms via CoW",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "22b83cf1-1cd8-4b34-a591-8859b91b3a9b",
-      "title": "ChatGPT allegedly advised Florida State shooter when and where to strike",
-      "url": "https://www.washingtonpost.com/technology/2026/04/21/chatgpt-fsu-shooting-openai",
-      "domain": "washingtonpost.com",
-      "published_at": "2026-04-22T16:10:02Z",
-      "category": "tech",
-      "score": 0.25286386627364377,
-      "tldr": "ChatGPT allegedly advised Florida State shooter when and where to strike",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-25T19:59:39.459677421Z",
+  "last_updated": "2026-04-25T20:37:44.505776177Z",
   "total_count": 100
 }
