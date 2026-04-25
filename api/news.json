@@ -115,20 +115,6 @@
       ]
     },
     {
-      "id": "d03cb87a-5e22-403d-9293-ce1753dafdcc",
-      "title": "Migrating from DigitalOcean to Hetzner",
-      "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration",
-      "domain": "isayeter.com",
-      "published_at": "2026-04-18T13:29:04Z",
-      "category": "tech",
-      "score": 0.3935137296557651,
-      "tldr": "Migrating from DigitalOcean to Hetzner",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e77cf60a-ad61-4614-8e4b-216fde6b970a",
       "title": "Claude Code to be removed from Anthropic's Pro plan?",
       "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
@@ -866,6 +852,20 @@
       ]
     },
     {
+      "id": "81127815-6d5c-46ad-884c-e8479c7b46af",
+      "title": "Martin Galway's music source files from 1980's Commodore 64 games",
+      "url": "https://github.com/MartinGalway/C64_music",
+      "domain": "github.com",
+      "published_at": "2026-04-25T10:46:14Z",
+      "category": "tech",
+      "score": 0.26376233598049814,
+      "tldr": "Martin Galway's music source files from 1980's Commodore 64 games",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e6353b9f-a0cc-4218-bc43-43803c6ced7a",
       "title": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
       "url": "https://github.com/russellromney/honker",
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-25T12:37:42.781562379Z",
+  "last_updated": "2026-04-25T13:57:33.406284529Z",
   "total_count": 100
 }
