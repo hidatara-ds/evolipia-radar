@@ -415,6 +415,21 @@
       ]
     },
     {
+      "id": "3245ca91-f436-4e31-8f59-f99e3664fadd",
+      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
+      "url": "https://alash3al.github.io/stash?_v01=",
+      "domain": "alash3al.github.io",
+      "published_at": "2026-04-25T01:24:40Z",
+      "category": "tech",
+      "score": 0.30295279341253395,
+      "tldr": "Open source memory layer so any AI agent can do what Claude.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "83c07525-3558-40ce-a17d-b7d5f9ad7b0a",
       "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
       "url": "https://github.com/shivampkumar/trellis-mac",
@@ -788,6 +803,20 @@
       "category": "tech",
       "score": 0.2675499582409516,
       "tldr": "Why is IPv6 so complicated?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "16f5a6eb-bed1-4df2-b5e4-a38bb6df4b05",
+      "title": "Turbo Vision 2.0 – a modern port",
+      "url": "https://github.com/magiblot/tvision",
+      "domain": "github.com",
+      "published_at": "2026-04-25T04:18:01Z",
+      "category": "tech",
+      "score": 0.26607781184547036,
+      "tldr": "Turbo Vision 2.0 – a modern port",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1381,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c6801a74-c580-4499-b2c7-898449fc34c0",
-      "title": "Show HN: leaf – a terminal Markdown previewer with a GUI-like experience",
-      "url": "https://github.com/RivoLink/leaf",
-      "domain": "github.com",
-      "published_at": "2026-04-24T10:54:26Z",
-      "category": "tech",
-      "score": 0.2520773177307705,
-      "tldr": "Show HN: leaf – a terminal Markdown previewer with a GUI-like experience",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6b47d847-5854-4659-9311-ce97948e9e7d",
-      "title": "FusionCore: ROS 2 sensor fusion (IMU and GPS and encoders)",
-      "url": "https://github.com/manankharwar/fusioncore",
-      "domain": "github.com",
-      "published_at": "2026-04-24T22:36:38Z",
-      "category": "tech",
-      "score": 0.2519089730871479,
-      "tldr": "FusionCore: ROS 2 sensor fusion (IMU and GPS and encoders)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-25T04:12:39.419949218Z",
+  "last_updated": "2026-04-25T06:02:58.390777605Z",
   "total_count": 100
 }
