@@ -244,6 +244,20 @@
       ]
     },
     {
+      "id": "df01e351-4dcc-4da8-9c94-074021354628",
+      "title": "GoDaddy gave a domain to a stranger without any documentation",
+      "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation",
+      "domain": "anchor.host",
+      "published_at": "2026-04-26T16:57:56Z",
+      "category": "tech",
+      "score": 0.3520980835776638,
+      "tldr": "GoDaddy gave a domain to a stranger without any documentation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8671c3fa-5689-47e0-bae9-0d2a96796cca",
       "title": "GPT 5.5 biosafety bounty",
       "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
@@ -280,6 +294,20 @@
       "category": "tech",
       "score": 0.3421113101214944,
       "tldr": "SpaceX says it has agreement to acquire Cursor for $60B",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "05878f57-2a08-4d21-bf6d-d28f9ad8678c",
+      "title": "SWE-bench Verified no longer measures frontier coding capabilities",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+      "domain": "openai.com",
+      "published_at": "2026-04-26T13:58:13Z",
+      "category": "tech",
+      "score": 0.3401778384723959,
+      "tldr": "SWE-bench Verified no longer measures frontier coding capabilities",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -935,6 +963,20 @@
       ]
     },
     {
+      "id": "81d8f96d-18f2-4929-afdd-abfdc6021351",
+      "title": "Waymo says expecting driverless taxis to stay out of bike lanes is unrealistic",
+      "url": "https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo",
+      "domain": "road.cc",
+      "published_at": "2026-04-26T18:34:31Z",
+      "category": "tech",
+      "score": 0.26304590332751066,
+      "tldr": "Waymo says expecting driverless taxis to stay out of bike lanes is unrealistic",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "915b4794-f7c7-462e-b560-0786f166f81c",
       "title": "OpenAI: Workspace Agents for Business",
       "url": "https://openai.com/business/workspace-agents",
@@ -1125,20 +1167,6 @@
       "category": "tech",
       "score": 0.2571633827472407,
       "tldr": "GitHub unwanted UX change: issue links now open in a popup",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7b7338eb-15ec-450a-872c-750a177230c3",
-      "title": "I wrote a CHIP-8 emulator in my own programming language",
-      "url": "https://github.com/navid-m/chip8emu",
-      "domain": "github.com",
-      "published_at": "2026-04-19T19:21:22Z",
-      "category": "tech",
-      "score": 0.2570251633464757,
-      "tldr": "I wrote a CHIP-8 emulator in my own programming language",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1381,36 +1409,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "bab18b32-f24d-479d-9fb8-0761e374b89d",
-      "title": "Kuri – Zig based agent-browser alternative",
-      "url": "https://github.com/justrach/kuri",
-      "domain": "github.com",
-      "published_at": "2026-04-22T02:15:38Z",
-      "category": "tech",
-      "score": 0.2530945348680338,
-      "tldr": "Kuri – Zig based agent-browser alternative",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "84835234-b1eb-4039-871b-72cf60a75fcc",
-      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
-      "url": "https://github.com/esutcu/planb-lpm",
-      "domain": "github.com",
-      "published_at": "2026-04-20T03:24:21Z",
-      "category": "tech",
-      "score": 0.2530376926472572,
-      "tldr": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-26T18:02:44.483809662Z",
+  "last_updated": "2026-04-26T20:41:57.052573304Z",
   "total_count": 100
 }
