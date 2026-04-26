@@ -1384,20 +1384,6 @@
       ]
     },
     {
-      "id": "3bf6a1d5-cf51-4c9d-a72d-18aebc288e75",
-      "title": "The Trouble with Transformers",
-      "url": "https://roblh.substack.com/p/the-trouble-with-transformers",
-      "domain": "roblh.substack.com",
-      "published_at": "2026-04-19T16:12:37Z",
-      "category": "tech",
-      "score": 0.2533060312992547,
-      "tldr": "The Trouble with Transformers",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "63844502-d055-4137-bc42-54a449b54831",
       "title": "GPT-5.5: Mythos-Like Hacking, Open to All",
       "url": "https://xbow.com/blog/mythos-like-hacking-open-to-all",
@@ -1410,8 +1396,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "bab18b32-f24d-479d-9fb8-0761e374b89d",
+      "title": "Kuri – Zig based agent-browser alternative",
+      "url": "https://github.com/justrach/kuri",
+      "domain": "github.com",
+      "published_at": "2026-04-22T02:15:38Z",
+      "category": "tech",
+      "score": 0.2530945348680338,
+      "tldr": "Kuri – Zig based agent-browser alternative",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-26T15:34:13.291536528Z",
+  "last_updated": "2026-04-26T16:30:58.841340678Z",
   "total_count": 100
 }
