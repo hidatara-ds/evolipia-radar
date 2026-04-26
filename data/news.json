@@ -471,6 +471,20 @@
       ]
     },
     {
+      "id": "f54a8005-268e-45cd-84d2-28e6218c0a6f",
+      "title": "Waymo says can't avoid bike lanes because riders want to be dropped off in them",
+      "url": "https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo",
+      "domain": "road.cc",
+      "published_at": "2026-04-26T18:34:31Z",
+      "category": "tech",
+      "score": 0.3042014050288528,
+      "tldr": "Waymo says can't avoid bike lanes because riders want to be dropped off in them",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "be1659a8-1de0-4cdd-9ec8-1a305108a76c",
       "title": "NSA is using Anthropic's Mythos despite blacklist",
       "url": "https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
@@ -493,6 +507,21 @@
       "category": "tech",
       "score": 0.30295279341253395,
       "tldr": "Open source memory layer so any AI agent can do what Claude.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "6dda4bcf-fcf5-4981-b3ed-31c1e95e00e4",
+      "title": "The New Linux Kernel AI Bot Uncovering Bugs Is a Local LLM on Framework Desktop",
+      "url": "https://www.phoronix.com/news/Clanker-T1000-AMD-Ryzen-AI-Max",
+      "domain": "phoronix.com",
+      "published_at": "2026-04-26T21:00:38Z",
+      "category": "tech",
+      "score": 0.30218659052499564,
+      "tldr": "The New Linux Kernel AI Bot Uncovering Bugs Is a Local LLM on Framework Desktop",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
@@ -578,6 +607,20 @@
       "category": "tech",
       "score": 0.28807901088970905,
       "tldr": "Show HN: GoModel – an open-source AI gateway in Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2cf134c5-dca6-46e1-8695-f89ce31a15c0",
+      "title": "AI should elevate your thinking, not replace it",
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it",
+      "domain": "koshyjohn.com",
+      "published_at": "2026-04-26T20:03:12Z",
+      "category": "tech",
+      "score": 0.28655893194112636,
+      "tldr": "AI should elevate your thinking, not replace it",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -893,6 +936,20 @@
       ]
     },
     {
+      "id": "3372ac80-8504-4e21-be7f-855784356f35",
+      "title": "Show HN: AI memory with biological decay (52% recall)",
+      "url": "https://github.com/sachitrafa/YourMemory",
+      "domain": "github.com",
+      "published_at": "2026-04-26T20:58:31Z",
+      "category": "tech",
+      "score": 0.26544165180540336,
+      "tldr": "Show HN: AI memory with biological decay (52% recall)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "18fa4e1c-196e-4f5c-80ce-9b81d13dc388",
       "title": "OpenAI's response to the Axios developer tool compromise",
       "url": "https://openai.com/index/axios-developer-tool-compromise",
@@ -1145,6 +1202,20 @@
       ]
     },
     {
+      "id": "09376e00-e72a-465b-b451-a86fa8bef06d",
+      "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
+      "url": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo",
+      "domain": "bbc.com",
+      "published_at": "2026-04-26T20:56:30Z",
+      "category": "tech",
+      "score": 0.2573347447525069,
+      "tldr": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "abd5125c-e9e1-47c0-b9df-fee78ceefa87",
       "title": "Machine Learning Reveals Unknown Transient Phenomena in Historic Images",
       "url": "https://arxiv.org/abs/2604.18799",
@@ -1339,78 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "52d6ecd9-8259-4427-aa7a-43f5b757f433",
-      "title": "Show HN: Browse GitHub repos in Emacs without cloning",
-      "url": "https://github.com/agzam/remoto.el",
-      "domain": "github.com",
-      "published_at": "2026-04-26T04:36:42Z",
-      "category": "tech",
-      "score": 0.25402281487233197,
-      "tldr": "Show HN: Browse GitHub repos in Emacs without cloning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5caf662c-1e97-498f-94ca-fd7d6cb0827c",
-      "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
-      "url": "https://ynarwal.github.io/how-llms-work",
-      "domain": "ynarwal.github.io",
-      "published_at": "2026-04-24T06:48:53Z",
-      "category": "tech",
-      "score": 0.25401527497147186,
-      "tldr": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "73ff656f-bb47-4d41-b6a0-5adbe2cf5617",
-      "title": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
-      "url": "https://github.com/refactoringhq/tolaria",
-      "domain": "github.com",
-      "published_at": "2026-04-23T22:01:59Z",
-      "category": "tech",
-      "score": 0.25399120633825695,
-      "tldr": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "df189819-a39b-4d65-aa54-22d8963e18fc",
-      "title": "Sudo for Windows",
-      "url": "https://github.com/microsoft/sudo",
-      "domain": "github.com",
-      "published_at": "2026-04-19T23:59:51Z",
-      "category": "tech",
-      "score": 0.25350451128468937,
-      "tldr": "Sudo for Windows",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "63844502-d055-4137-bc42-54a449b54831",
-      "title": "GPT-5.5: Mythos-Like Hacking, Open to All",
-      "url": "https://xbow.com/blog/mythos-like-hacking-open-to-all",
-      "domain": "xbow.com",
-      "published_at": "2026-04-23T18:16:55Z",
-      "category": "tech",
-      "score": 0.2532084762329962,
-      "tldr": "5: Mythos-Like Hacking, Open to All",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-26T20:41:57.052573304Z",
+  "last_updated": "2026-04-26T23:04:45.350471638Z",
   "total_count": 100
 }
