@@ -400,20 +400,6 @@
       ]
     },
     {
-      "id": "7dea6bb4-b1ae-43c4-a407-271c075fbd3a",
-      "title": "Vercel April 2026 security incident",
-      "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data",
-      "domain": "bleepingcomputer.com",
-      "published_at": "2026-04-19T14:14:38Z",
-      "category": "tech",
-      "score": 0.3078790304670145,
-      "tldr": "Vercel April 2026 security incident",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security"
-      ]
-    },
-    {
       "id": "c49614f2-bb27-4dfa-91d0-d96741cea768",
       "title": "Amateur armed with ChatGPT solves an Erdős problem",
       "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "84835234-b1eb-4039-871b-72cf60a75fcc",
+      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+      "url": "https://github.com/esutcu/planb-lpm",
+      "domain": "github.com",
+      "published_at": "2026-04-20T03:24:21Z",
+      "category": "tech",
+      "score": 0.2530376926472572,
+      "tldr": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-26T13:59:16.669028753Z",
+  "last_updated": "2026-04-26T14:40:57.929242418Z",
   "total_count": 100
 }
