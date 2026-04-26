@@ -188,6 +188,20 @@
       ]
     },
     {
+      "id": "105a5930-e3c7-4d5f-9178-558290106a5b",
+      "title": "Trump fires NSF's oversight board",
+      "url": "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board",
+      "domain": "science.org",
+      "published_at": "2026-04-25T22:39:33Z",
+      "category": "tech",
+      "score": 0.374108512901145,
+      "tldr": "Trump fires NSF's oversight board",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b9e22043-6da8-49d9-9040-d0894043f89a",
       "title": "ChatGPT Images 2.0",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
@@ -383,6 +397,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "security"
+      ]
+    },
+    {
+      "id": "c49614f2-bb27-4dfa-91d0-d96741cea768",
+      "title": "Amateur armed with ChatGPT solves an Erdős problem",
+      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem",
+      "domain": "scientificamerican.com",
+      "published_at": "2026-04-25T17:40:38Z",
+      "category": "tech",
+      "score": 0.30684219008058305,
+      "tldr": "Amateur armed with ChatGPT solves an Erdős problem",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -964,6 +992,20 @@
       ]
     },
     {
+      "id": "89fb6057-346f-4b5d-a5a8-375fd0b51f36",
+      "title": "USB Cheat Sheet (2022)",
+      "url": "https://fabiensanglard.net/usbcheat/index.html",
+      "domain": "fabiensanglard.net",
+      "published_at": "2026-04-25T21:51:18Z",
+      "category": "tech",
+      "score": 0.25908995243024013,
+      "tldr": "USB Cheat Sheet (2022)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "233bcac1-e514-4a05-8185-16063e8b936c",
       "title": "LLM research on Hacker News is drying up",
       "url": "https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html",
@@ -1369,50 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "84835234-b1eb-4039-871b-72cf60a75fcc",
-      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
-      "url": "https://github.com/esutcu/planb-lpm",
-      "domain": "github.com",
-      "published_at": "2026-04-20T03:24:21Z",
-      "category": "tech",
-      "score": 0.2530376926472572,
-      "tldr": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "eaf448b1-6dee-4fd2-a3cb-3e1389461ce8",
-      "title": "Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)",
-      "url": "https://github.com/Arc1011/KernelUNO",
-      "domain": "github.com",
-      "published_at": "2026-04-21T17:14:26Z",
-      "category": "tech",
-      "score": 0.2529412670130625,
-      "tldr": "Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "bf3c3471-7b8e-483e-9136-5ae4a5df050e",
-      "title": "Nicholas Carlini – Black-hat LLMs [video]",
-      "url": "https://www.youtube.com/watch?v=1sd26pWhfmg",
-      "domain": "youtube.com",
-      "published_at": "2026-04-25T20:04:37Z",
-      "category": "tech",
-      "score": 0.2528970081365731,
-      "tldr": "Nicholas Carlini – Black-hat LLMs [video]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-04-26T00:02:41.791883178Z",
+  "last_updated": "2026-04-26T04:00:32.925595901Z",
   "total_count": 100
 }
