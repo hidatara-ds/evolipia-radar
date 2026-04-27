@@ -429,20 +429,6 @@
       ]
     },
     {
-      "id": "66fc033b-bc23-4ad1-9e8a-6f09a90055ac",
-      "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
-      "url": "https://github.com/gizmo64k/soulplayer-c64",
-      "domain": "github.com",
-      "published_at": "2026-04-20T19:51:07Z",
-      "category": "tech",
-      "score": 0.3274912912552606,
-      "tldr": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "380aefbb-777f-4c16-830f-926f4c621183",
       "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
       "url": "https://socket.dev/blog/bitwarden-cli-compromised",
@@ -768,6 +754,20 @@
       ]
     },
     {
+      "id": "9e6063f5-6644-416d-b29c-b9fcb5f5428c",
+      "title": "GitHub is having issues now",
+      "url": "https://www.githubstatus.com",
+      "domain": "githubstatus.com",
+      "published_at": "2026-04-27T17:42:19Z",
+      "category": "tech",
+      "score": 0.27846476062958614,
+      "tldr": "GitHub is having issues now",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "76ec8e24-247c-49ce-a3f1-fb270c9d5ae3",
       "title": "ML supports existence of unrecognized transient astronomical phenomena",
       "url": "https://arxiv.org/abs/2604.18799",
@@ -790,20 +790,6 @@
       "category": "tech",
       "score": 0.2743691804706459,
       "tldr": "DeepSeek v4",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c3e740ee-05d5-4967-a5fc-92a1bdaa1f31",
-      "title": "Kimi vendor verifier – verify accuracy of inference providers",
-      "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
-      "domain": "kimi.com",
-      "published_at": "2026-04-20T18:39:53Z",
-      "category": "tech",
-      "score": 0.2729377185129746,
-      "tldr": "Kimi vendor verifier – verify accuracy of inference providers",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -864,20 +850,6 @@
       "tags": [
         "security",
         "llm"
-      ]
-    },
-    {
-      "id": "48fc2723-6af0-4f33-b6aa-ecfb31adf3a0",
-      "title": "We got 207 tok/s with Qwen3.5-27B on an RTX 3090",
-      "url": "https://github.com/Luce-Org/lucebox-hub",
-      "domain": "github.com",
-      "published_at": "2026-04-20T18:46:22Z",
-      "category": "tech",
-      "score": 0.2694187346864977,
-      "tldr": "We got 207 tok/s with Qwen3.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1411,8 +1383,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "1bd3ef8e-55d0-4dee-a7b8-2ad807e1e614",
+      "title": "Niri 26.04 was just released (scrollable-tiling Wayland compositor)",
+      "url": "https://github.com/niri-wm/niri/releases/tag/v26.04",
+      "domain": "github.com",
+      "published_at": "2026-04-25T15:59:15Z",
+      "category": "tech",
+      "score": 0.2541933825893884,
+      "tldr": "04 was just released (scrollable-tiling Wayland compositor)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d5efc70b-b57a-40f6-bfd8-0abfd9a99c28",
+      "title": "ChatGPT Images 2.0",
+      "url": "https://chatgpt.com/images",
+      "domain": "chatgpt.com",
+      "published_at": "2026-04-21T19:42:03Z",
+      "category": "tech",
+      "score": 0.2540768283790891,
+      "tldr": "ChatGPT Images 2.0",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-27T18:06:11.199148521Z",
+  "last_updated": "2026-04-27T19:53:35.022578712Z",
   "total_count": 100
 }
