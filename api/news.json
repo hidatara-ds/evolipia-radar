@@ -286,6 +286,20 @@
       ]
     },
     {
+      "id": "e4fe7e8c-02c4-4e31-bd7d-9564c0d03ba4",
+      "title": "Issue links now open in a popup",
+      "url": "https://github.com/orgs/community/discussions/192666",
+      "domain": "github.com",
+      "published_at": "2026-04-26T14:18:38Z",
+      "category": "tech",
+      "score": 0.34372978251772457,
+      "tldr": "Issue links now open in a popup",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5d992c64-df42-4c8b-8312-1b58df367c10",
       "title": "SpaceX says it has agreement to acquire Cursor for $60B",
       "url": "https://twitter.com/spacex/status/2046713419978453374",
@@ -529,20 +543,6 @@
       ]
     },
     {
-      "id": "83c07525-3558-40ce-a17d-b7d5f9ad7b0a",
-      "title": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
-      "url": "https://github.com/shivampkumar/trellis-mac",
-      "domain": "github.com",
-      "published_at": "2026-04-20T00:07:16Z",
-      "category": "tech",
-      "score": 0.3011471005044717,
-      "tldr": "Show HN: Run TRELLIS. 2 Image-to-3D generation natively on Apple Silicon",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "af71afe6-d39c-44c2-a069-48abcfbcb7ee",
       "title": "Scoring Show HN submissions for AI design patterns",
       "url": "https://www.adriankrebs.ch/blog/design-slop",
@@ -649,20 +649,6 @@
       "category": "tech",
       "score": 0.2844117050819286,
       "tldr": "Over-editing refers to a model modifying code beyond what is necessary",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0a106b2f-daf2-4c84-b749-3690ed881b76",
-      "title": "Sudo for Windows (2024)",
-      "url": "https://github.com/microsoft/sudo",
-      "domain": "github.com",
-      "published_at": "2026-04-19T23:59:51Z",
-      "category": "tech",
-      "score": 0.2841712746114548,
-      "tldr": "Sudo for Windows (2024)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -831,20 +817,6 @@
       "category": "tech",
       "score": 0.2711233111058613,
       "tldr": "South Korea police arrest man for posting AI photo of runaway wolf",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "33aa6cd7-5841-4cc8-a5f0-52ac8e9c679b",
-      "title": "Show HN: TRELLIS.2 image-to-3D running on Mac Silicon – no Nvidia GPU needed",
-      "url": "https://github.com/shivampkumar/trellis-mac",
-      "domain": "github.com",
-      "published_at": "2026-04-20T00:07:16Z",
-      "category": "tech",
-      "score": 0.2709243133619609,
-      "tldr": "2 image-to-3D running on Mac Silicon – no Nvidia GPU needed",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1020,6 +992,20 @@
       ]
     },
     {
+      "id": "bcde50d8-3f07-424c-acf9-9220560572fb",
+      "title": "FreeBSD Device Drivers Book",
+      "url": "https://github.com/ebrandi/FDD-book",
+      "domain": "github.com",
+      "published_at": "2026-04-26T22:53:06Z",
+      "category": "tech",
+      "score": 0.2636096382392539,
+      "tldr": "FreeBSD Device Drivers Book",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "81d8f96d-18f2-4929-afdd-abfdc6021351",
       "title": "Waymo says expecting driverless taxis to stay out of bike lanes is unrealistic",
       "url": "https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo",
@@ -1104,6 +1090,34 @@
       ]
     },
     {
+      "id": "f8494caa-2e0a-4e2b-9929-8007b074d794",
+      "title": "The Prompt API",
+      "url": "https://developer.chrome.com/docs/ai/prompt-api",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-04-27T02:18:58Z",
+      "category": "tech",
+      "score": 0.259065621038383,
+      "tldr": "The Prompt API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "20cadc5c-648c-4a69-851d-ac543e7e232a",
+      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "url": "https://github.com/evanklem/evanflow",
+      "domain": "github.com",
+      "published_at": "2026-04-27T01:56:39Z",
+      "category": "tech",
+      "score": 0.2588947637019438,
+      "tldr": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "233bcac1-e514-4a05-8185-16063e8b936c",
       "title": "LLM research on Hacker News is drying up",
       "url": "https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html",
@@ -1157,6 +1171,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "e9ed359a-ba17-4906-b6e2-0514a6684cb3",
+      "title": "Show HN: The Unix Magic poster, annotated (updated)",
+      "url": "https://github.com/drio/unixmagic",
+      "domain": "github.com",
+      "published_at": "2026-04-27T01:32:44Z",
+      "category": "tech",
+      "score": 0.2578747776624638,
+      "tldr": "Show HN: The Unix Magic poster, annotated (updated)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1382,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d5efc70b-b57a-40f6-bfd8-0abfd9a99c28",
-      "title": "ChatGPT Images 2.0",
-      "url": "https://chatgpt.com/images",
-      "domain": "chatgpt.com",
-      "published_at": "2026-04-21T19:42:03Z",
-      "category": "tech",
-      "score": 0.2540768283790891,
-      "tldr": "ChatGPT Images 2.0",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1643a9ac-32ac-4c3b-9e19-0fc6a40fe795",
-      "title": "A web-based RDP client built with Go WebAssembly and grdp",
-      "url": "https://github.com/nakagami/grdpwasm",
-      "domain": "github.com",
-      "published_at": "2026-04-25T10:59:29Z",
-      "category": "tech",
-      "score": 0.25402682085032174,
-      "tldr": "A web-based RDP client built with Go WebAssembly and grdp",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-26T23:04:45.350471638Z",
+  "last_updated": "2026-04-27T04:05:26.755096647Z",
   "total_count": 100
 }
