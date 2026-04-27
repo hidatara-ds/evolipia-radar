@@ -115,6 +115,35 @@
       ]
     },
     {
+      "id": "8bdf5b70-56a8-4f30-96cc-366d02610507",
+      "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
+      "domain": "bloomberg.com",
+      "published_at": "2026-04-27T13:22:42Z",
+      "category": "tech",
+      "score": 0.405417423379396,
+      "tldr": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f300aa2d-8d69-4044-b947-65e77c9569ae",
+      "title": "Mistral built a $14B AI empire by not being American",
+      "url": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
+      "domain": "forbes.com",
+      "published_at": "2026-04-27T10:14:15Z",
+      "category": "tech",
+      "score": 0.39407781934227465,
+      "tldr": "Mistral built a $14B AI empire by not being American",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "e77cf60a-ad61-4614-8e4b-216fde6b970a",
       "title": "Claude Code to be removed from Anthropic's Pro plan?",
       "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
@@ -141,20 +170,6 @@
       "tags": [
         "llm",
         "general_ai"
-      ]
-    },
-    {
-      "id": "480be609-04b7-4bba-b784-c71bd2f5353f",
-      "title": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
-      "url": "https://surfacedby.com/blog/nginx-logs-ai-traffic-vs-referral-traffic",
-      "domain": "surfacedby.com",
-      "published_at": "2026-04-20T15:22:01Z",
-      "category": "tech",
-      "score": 0.38596711675331014,
-      "tldr": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -484,21 +499,6 @@
       ]
     },
     {
-      "id": "962af761-f9b9-44e1-b416-bee1f280664e",
-      "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
-      "url": "https://mediator.ai/",
-      "domain": "mediator.ai",
-      "published_at": "2026-04-20T15:07:04Z",
-      "category": "tech",
-      "score": 0.30522836739182585,
-      "tldr": "ai – Using Nash bargaining and LLMs to systematize fairness",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "f681a311-6a18-4d48-a13a-0c3c42633511",
       "title": "GPT-5.5 is generally available for GitHub Copilot",
       "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
@@ -614,6 +614,20 @@
       ]
     },
     {
+      "id": "66923b28-3a8a-4025-a6da-30594b289bf9",
+      "title": "GitHub Copilot is moving to usage-based billing",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing",
+      "domain": "github.blog",
+      "published_at": "2026-04-27T16:03:08Z",
+      "category": "tech",
+      "score": 0.2963025010551019,
+      "tldr": "GitHub Copilot is moving to usage-based billing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f985101e-63a4-408d-a018-cc781cfb3805",
       "title": "French government agency confirms breach as hacker offers to sell data",
       "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data",
@@ -625,20 +639,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data"
-      ]
-    },
-    {
-      "id": "8d8b4e5c-c48e-4a60-bba9-8ed6c5ad6450",
-      "title": "Not buying another Kindle",
-      "url": "https://www.androidauthority.com/amazon-kindle-2026-3657863",
-      "domain": "androidauthority.com",
-      "published_at": "2026-04-20T15:30:17Z",
-      "category": "tech",
-      "score": 0.2895733131226941,
-      "tldr": "Not buying another Kindle",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1315,6 +1315,20 @@
       ]
     },
     {
+      "id": "c6c0b4ea-9997-4dfd-9a91-0d4aff3522b7",
+      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
+      "url": "https://deepmind.google/blog/decoupled-diloco",
+      "domain": "deepmind.google",
+      "published_at": "2026-04-27T16:57:34Z",
+      "category": "tech",
+      "score": 0.25613855804459745,
+      "tldr": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7e9337fe-646b-42a0-bb25-44f0bf66a359",
       "title": "CC-Canary: Detect early signs of regressions in Claude Code",
       "url": "https://github.com/delta-hq/cc-canary",
@@ -1329,20 +1343,6 @@
       ]
     },
     {
-      "id": "5e635991-5d89-4423-8e71-4357104f8d63",
-      "title": "I'm never buying another Kindle",
-      "url": "https://www.androidauthority.com/amazon-kindle-2026-3657863",
-      "domain": "androidauthority.com",
-      "published_at": "2026-04-20T15:30:17Z",
-      "category": "tech",
-      "score": 0.2557770248497604,
-      "tldr": "I'm never buying another Kindle",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "54f5e876-82b5-4f5b-97db-b0114fcb5093",
       "title": "Tendril – a self-extending agent that builds and registers its own tools",
       "url": "https://github.com/serverless-dna/tendril",
@@ -1351,6 +1351,20 @@
       "category": "tech",
       "score": 0.2555633152730742,
       "tldr": "Tendril – a self-extending agent that builds and registers its own tools",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "58c3b583-d92f-4fa5-a185-07440aa342bc",
+      "title": "“Why not just use Lean?”",
+      "url": "https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html",
+      "domain": "lawrencecpaulson.github.io",
+      "published_at": "2026-04-27T14:24:53Z",
+      "category": "tech",
+      "score": 0.254491204499113,
+      "tldr": "“Why not just use Lean?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1397,22 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "1bd3ef8e-55d0-4dee-a7b8-2ad807e1e614",
-      "title": "Niri 26.04 was just released (scrollable-tiling Wayland compositor)",
-      "url": "https://github.com/niri-wm/niri/releases/tag/v26.04",
-      "domain": "github.com",
-      "published_at": "2026-04-25T15:59:15Z",
-      "category": "tech",
-      "score": 0.2541933825893884,
-      "tldr": "04 was just released (scrollable-tiling Wayland compositor)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-27T15:05:46.511266571Z",
+  "last_updated": "2026-04-27T18:06:11.199148521Z",
   "total_count": 100
 }
