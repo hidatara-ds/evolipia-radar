@@ -600,6 +600,20 @@
       ]
     },
     {
+      "id": "8d7f65c6-2c3f-46fb-bb4f-284ea60112ea",
+      "title": "The next phase of the Microsoft OpenAI partnership – OpenAI",
+      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "domain": "openai.com",
+      "published_at": "2026-04-27T13:24:15Z",
+      "category": "tech",
+      "score": 0.29648489935655115,
+      "tldr": "The next phase of the Microsoft OpenAI partnership – OpenAI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f985101e-63a4-408d-a018-cc781cfb3805",
       "title": "French government agency confirms breach as hacker offers to sell data",
       "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data",
@@ -678,20 +692,6 @@
       "category": "tech",
       "score": 0.2844117050819286,
       "tldr": "Over-editing refers to a model modifying code beyond what is necessary",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "04a974dd-3df8-42ac-97d3-04d98637fe40",
-      "title": "Sauna effect on heart rate",
-      "url": "https://tryterra.co/research/sauna-effect-on-heart-rate",
-      "domain": "tryterra.co",
-      "published_at": "2026-04-20T13:40:28Z",
-      "category": "tech",
-      "score": 0.2828549601477765,
-      "tldr": "Sauna effect on heart rate",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1049,28 +1049,14 @@
       ]
     },
     {
-      "id": "151b43fe-2eaa-4936-898a-20751459f9b2",
-      "title": "ChatGPT and Codex Down",
-      "url": "https://status.openai.com/history",
-      "domain": "status.openai.com",
-      "published_at": "2026-04-20T14:37:48Z",
+      "id": "db8b759a-bef1-49f1-b899-12f06e58a67e",
+      "title": "Running Local LLMs Offline on a Ten-Hour Flight",
+      "url": "https://deploy.live/blog/running-local-llms-offline-on-a-ten-hour-flight",
+      "domain": "deploy.live",
+      "published_at": "2026-04-27T13:05:59Z",
       "category": "tech",
-      "score": 0.25974417417325435,
-      "tldr": "ChatGPT and Codex Down",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7c75e077-bb42-4ce7-84bf-41d895921386",
-      "title": "Users unable to load ChatGPT, Codex and API Platform",
-      "url": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
-      "domain": "status.openai.com",
-      "published_at": "2026-04-20T15:04:52Z",
-      "category": "tech",
-      "score": 0.2596814979477389,
-      "tldr": "Users unable to load ChatGPT, Codex and API Platform",
+      "score": 0.2602297608733153,
+      "tldr": "Running Local LLMs Offline on a Ten-Hour Flight",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1287,20 +1273,6 @@
       ]
     },
     {
-      "id": "7c6f6d9b-1bf9-498c-a812-b97e60fcaeaa",
-      "title": "ChatGPT and Codex Down",
-      "url": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
-      "domain": "status.openai.com",
-      "published_at": "2026-04-20T15:04:52Z",
-      "category": "tech",
-      "score": 0.256929965485943,
-      "tldr": "ChatGPT and Codex Down",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "0bfa3885-e453-4ddc-9993-efda8d7444f5",
       "title": "I am building a cloud",
       "url": "https://crawshaw.io/blog/building-a-cloud",
@@ -1371,6 +1343,20 @@
       ]
     },
     {
+      "id": "54f5e876-82b5-4f5b-97db-b0114fcb5093",
+      "title": "Tendril – a self-extending agent that builds and registers its own tools",
+      "url": "https://github.com/serverless-dna/tendril",
+      "domain": "github.com",
+      "published_at": "2026-04-27T13:34:48Z",
+      "category": "tech",
+      "score": 0.2555633152730742,
+      "tldr": "Tendril – a self-extending agent that builds and registers its own tools",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3abd329b-6196-40b8-a8a4-a5263fffd31c",
       "title": "ChatGPT Recommends the Same 3 Companies to Every B2B Buyer. Until They Specify",
       "url": "https://growtika.com/blog/chatgpt-b2b-persona-recommendations",
@@ -1411,8 +1397,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "1bd3ef8e-55d0-4dee-a7b8-2ad807e1e614",
+      "title": "Niri 26.04 was just released (scrollable-tiling Wayland compositor)",
+      "url": "https://github.com/niri-wm/niri/releases/tag/v26.04",
+      "domain": "github.com",
+      "published_at": "2026-04-25T15:59:15Z",
+      "category": "tech",
+      "score": 0.2541933825893884,
+      "tldr": "04 was just released (scrollable-tiling Wayland compositor)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-27T12:59:08.45355401Z",
+  "last_updated": "2026-04-27T15:05:46.511266571Z",
   "total_count": 100
 }
