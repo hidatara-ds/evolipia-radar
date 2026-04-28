@@ -256,20 +256,6 @@
       ]
     },
     {
-      "id": "5d992c64-df42-4c8b-8312-1b58df367c10",
-      "title": "SpaceX says it has agreement to acquire Cursor for $60B",
-      "url": "https://twitter.com/spacex/status/2046713419978453374",
-      "domain": "twitter.com",
-      "published_at": "2026-04-21T22:13:18Z",
-      "category": "tech",
-      "score": 0.3421113101214944,
-      "tldr": "SpaceX says it has agreement to acquire Cursor for $60B",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "05878f57-2a08-4d21-bf6d-d28f9ad8678c",
       "title": "SWE-bench Verified no longer measures frontier coding capabilities",
       "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "dd113f82-9dca-49e5-a6c9-b75df28d6b81",
+      "title": "Show HN: Drive any macOS app in the background without stealing the cursor",
+      "url": "https://github.com/trycua/cua",
+      "domain": "github.com",
+      "published_at": "2026-04-28T16:03:34Z",
+      "category": "tech",
+      "score": 0.2543898160881754,
+      "tldr": "Show HN: Drive any macOS app in the background without stealing the cursor",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-04-28T21:06:44.462629513Z",
+  "last_updated": "2026-04-28T22:30:18.922863246Z",
   "total_count": 100
 }
