@@ -710,6 +710,20 @@
       ]
     },
     {
+      "id": "ac762767-2a39-412c-8fb3-4ef061b61171",
+      "title": "Period tracking app, Flo, found to be selling user data to Meta",
+      "url": "https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been",
+      "domain": "femtechdesigndesk.substack.com",
+      "published_at": "2026-04-28T11:31:40Z",
+      "category": "tech",
+      "score": 0.2825603765002205,
+      "tldr": "Period tracking app, Flo, found to be selling user data to Meta",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "ca434d4f-18e9-4182-9e83-2212e60de6e0",
       "title": "SDL Now Supports DOS",
       "url": "https://github.com/libsdl-org/SDL/pull/15377",
@@ -901,6 +915,20 @@
       "category": "tech",
       "score": 0.26810201527549293,
       "tldr": "Spinel: Ruby AOT Native Compiler",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "90a856d4-a594-4202-bc64-8e8b2ca9e15e",
+      "title": "BookStack Moves from GitHub to Codeberg",
+      "url": "https://github.com/BookStackApp/BookStack/issues/4551",
+      "domain": "github.com",
+      "published_at": "2026-04-28T17:29:11Z",
+      "category": "tech",
+      "score": 0.2677891553249458,
+      "tldr": "BookStack Moves from GitHub to Codeberg",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1271,20 +1299,6 @@
       ]
     },
     {
-      "id": "f469d1e4-c6b8-42c0-befc-bd68039d2847",
-      "title": "Cal.diy: open-source community edition of cal.com",
-      "url": "https://github.com/calcom/cal.diy",
-      "domain": "github.com",
-      "published_at": "2026-04-21T17:58:21Z",
-      "category": "tech",
-      "score": 0.25620839205008583,
-      "tldr": "diy: open-source community edition of cal.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3c2eb58c-6d99-471a-8b23-60abaa3bc633",
       "title": "AI agents that argue with each other to improve decisions",
       "url": "https://github.com/rockcat/HATS",
@@ -1383,20 +1397,6 @@
       ]
     },
     {
-      "id": "3abd329b-6196-40b8-a8a4-a5263fffd31c",
-      "title": "ChatGPT Recommends the Same 3 Companies to Every B2B Buyer. Until They Specify",
-      "url": "https://growtika.com/blog/chatgpt-b2b-persona-recommendations",
-      "domain": "growtika.com",
-      "published_at": "2026-04-21T17:45:56Z",
-      "category": "tech",
-      "score": 0.2544076737295011,
-      "tldr": "ChatGPT Recommends the Same 3 Companies to Every B2B Buyer.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "1be2b0d0-e98c-4c23-aae0-de1c0c8f6e67",
       "title": "OpenAI model for masking personally identifiable information (PII) in text",
       "url": "https://openai.com/index/introducing-openai-privacy-filter",
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-28T16:53:38.442565028Z",
+  "last_updated": "2026-04-28T18:13:01.323284716Z",
   "total_count": 100
 }
