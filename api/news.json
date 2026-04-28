@@ -114,20 +114,6 @@
       ]
     },
     {
-      "id": "e77cf60a-ad61-4614-8e4b-216fde6b970a",
-      "title": "Claude Code to be removed from Anthropic's Pro plan?",
-      "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
-      "domain": "bsky.app",
-      "published_at": "2026-04-21T21:03:04Z",
-      "category": "tech",
-      "score": 0.39308411521296405,
-      "tldr": "Claude Code to be removed from Anthropic's Pro plan?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c5c0a8a2-1b8c-47d5-9aa0-0b686da287ff",
       "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
       "url": "https://github.com/nex-crm/wuphf",
@@ -139,6 +125,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "71fa405b-1114-4d76-9519-bf890d5353d3",
+      "title": "VibeVoice: Open-source frontier voice AI",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "domain": "github.com",
+      "published_at": "2026-04-28T11:56:04Z",
+      "category": "tech",
+      "score": 0.3823764851920719,
+      "tldr": "VibeVoice: Open-source frontier voice AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
         "general_ai"
       ]
     },
@@ -1410,6 +1410,6 @@
       ]
     }
   ],
-  "last_updated": "2026-04-28T20:00:16.226569864Z",
+  "last_updated": "2026-04-28T21:06:44.462629513Z",
   "total_count": 100
 }
