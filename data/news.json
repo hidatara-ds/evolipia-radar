@@ -71,21 +71,6 @@
       ]
     },
     {
-      "id": "3ceb9a28-3748-416e-91c1-fd6acbe2d1b3",
-      "title": "OpenAI Livestream: ChatGPT Images 2.0",
-      "url": "https://openai.com/live",
-      "domain": "openai.com",
-      "published_at": "2026-04-21T18:50:00Z",
-      "category": "tech",
-      "score": 0.41919289306772,
-      "tldr": "OpenAI Livestream: ChatGPT Images 2.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "00dde21c-26e3-4114-8f47-a763ec674031",
       "title": "The West forgot how to make things, now it’s forgetting how to code",
       "url": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things",
@@ -198,20 +183,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "b9e22043-6da8-49d9-9040-d0894043f89a",
-      "title": "ChatGPT Images 2.0",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
-      "domain": "openai.com",
-      "published_at": "2026-04-21T19:01:14Z",
-      "category": "tech",
-      "score": 0.36440928659717137,
-      "tldr": "ChatGPT Images 2.0",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -766,20 +737,6 @@
       ]
     },
     {
-      "id": "284985cf-9076-4746-94ce-3a764695aabe",
-      "title": "OpenAI Livestream",
-      "url": "https://openai.com/live",
-      "domain": "openai.com",
-      "published_at": "2026-04-21T18:50:00Z",
-      "category": "tech",
-      "score": 0.2784671183869864,
-      "tldr": "OpenAI Livestream",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9e6063f5-6644-416d-b29c-b9fcb5f5428c",
       "title": "GitHub is having issues now",
       "url": "https://www.githubstatus.com",
@@ -794,6 +751,20 @@
       ]
     },
     {
+      "id": "3c750bc9-b461-413e-b40b-b6ead82f04b3",
+      "title": "Claude.ai unavailable and elevated errors on the API",
+      "url": "https://status.claude.com/incidents/9l93x2ht4s5w",
+      "domain": "status.claude.com",
+      "published_at": "2026-04-28T18:01:21Z",
+      "category": "tech",
+      "score": 0.27748820758625353,
+      "tldr": "ai unavailable and elevated errors on the API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "76ec8e24-247c-49ce-a3f1-fb270c9d5ae3",
       "title": "ML supports existence of unrecognized transient astronomical phenomena",
       "url": "https://arxiv.org/abs/2604.18799",
@@ -802,6 +773,20 @@
       "category": "tech",
       "score": 0.27720616469141135,
       "tldr": "ML supports existence of unrecognized transient astronomical phenomena",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4f6bc007-15e6-4860-ba21-319119214c5d",
+      "title": "Warp is now Open-Source",
+      "url": "https://github.com/warpdotdev/warp",
+      "domain": "github.com",
+      "published_at": "2026-04-28T17:09:41Z",
+      "category": "tech",
+      "score": 0.27598657160475126,
+      "tldr": "Warp is now Open-Source",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -991,6 +976,20 @@
       ]
     },
     {
+      "id": "b838471e-1b32-4f6d-a09e-bf134a4be5cc",
+      "title": "Ghostty is leaving GitHub",
+      "url": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "domain": "mitchellh.com",
+      "published_at": "2026-04-28T19:44:52Z",
+      "category": "tech",
+      "score": 0.2642177842484531,
+      "tldr": "Ghostty is leaving GitHub",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "bb98e586-406c-4674-8c3f-6c6e06d7418b",
       "title": "Different Language Models Learn Similar Number Representations",
       "url": "https://arxiv.org/abs/2604.20817",
@@ -1041,6 +1040,20 @@
       "category": "tech",
       "score": 0.2636096382392539,
       "tldr": "FreeBSD Device Drivers Book",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e8f32560-04dc-4853-abfd-937d1eb507f6",
+      "title": "Waymo in Portland",
+      "url": "https://waymo.com/blog/shorts/waymo-in-portland",
+      "domain": "waymo.com",
+      "published_at": "2026-04-28T18:08:13Z",
+      "category": "tech",
+      "score": 0.26316776628990307,
+      "tldr": "Waymo in Portland",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1395,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "1be2b0d0-e98c-4c23-aae0-de1c0c8f6e67",
-      "title": "OpenAI model for masking personally identifiable information (PII) in text",
-      "url": "https://openai.com/index/introducing-openai-privacy-filter",
-      "domain": "openai.com",
-      "published_at": "2026-04-23T00:14:55Z",
-      "category": "tech",
-      "score": 0.2543371207276517,
-      "tldr": "OpenAI model for masking personally identifiable information (PII) in text",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-28T18:13:01.323284716Z",
+  "last_updated": "2026-04-28T20:00:16.226569864Z",
   "total_count": 100
 }
