@@ -130,6 +130,21 @@
       ]
     },
     {
+      "id": "f8f6826e-e5f2-44bd-a318-0ed7086797c2",
+      "title": "Show HN: Waiting for LLMs Suck – Give your user a game",
+      "url": "https://github.com/ftaip/waiting-game",
+      "domain": "github.com",
+      "published_at": "2026-04-28T02:45:33Z",
+      "category": "tech",
+      "score": 0.37972205039777385,
+      "tldr": "Show HN: Waiting for LLMs Suck – Give your user a game",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "004d6f0a-7bdc-4231-9e51-b9183810d29f",
       "title": "Show HN: GoModel – an open-source AI gateway in Go; 44x lighter than LiteLLM",
       "url": "https://github.com/ENTERPILOT/GOModel",
@@ -1257,6 +1272,20 @@
       ]
     },
     {
+      "id": "1cb00f9b-f183-4193-bee3-3da2ccb3ef12",
+      "title": "LingBot-Map: Streaming 3D reconstruction with geometric context transformer",
+      "url": "https://technology.robbyant.com/lingbot-map",
+      "domain": "technology.robbyant.com",
+      "published_at": "2026-04-28T03:27:40Z",
+      "category": "tech",
+      "score": 0.25520094303092244,
+      "tldr": "LingBot-Map: Streaming 3D reconstruction with geometric context transformer",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "bf0b326a-27d7-438a-a70b-5bd0ebf33af3",
       "title": "Show HN: 49Agents – Infinite canvas IDE for AI agents",
       "url": "https://github.com/49Agents/49Agents",
@@ -1381,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "5caf662c-1e97-498f-94ca-fd7d6cb0827c",
-      "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
-      "url": "https://ynarwal.github.io/how-llms-work",
-      "domain": "ynarwal.github.io",
-      "published_at": "2026-04-24T06:48:53Z",
-      "category": "tech",
-      "score": 0.25401527497147186,
-      "tldr": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "73ff656f-bb47-4d41-b6a0-5adbe2cf5617",
-      "title": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
-      "url": "https://github.com/refactoringhq/tolaria",
-      "domain": "github.com",
-      "published_at": "2026-04-23T22:01:59Z",
-      "category": "tech",
-      "score": 0.25399120633825695,
-      "tldr": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-28T01:49:05.728171889Z",
+  "last_updated": "2026-04-28T05:21:38.155203354Z",
   "total_count": 100
 }
