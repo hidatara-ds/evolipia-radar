@@ -43,6 +43,20 @@
       ]
     },
     {
+      "id": "3bba037f-d468-4225-9345-bb81a9dd34b0",
+      "title": "Is my blue your blue? (2024)",
+      "url": "https://ismy.blue/",
+      "domain": "ismy.blue",
+      "published_at": "2026-04-27T20:24:33Z",
+      "category": "tech",
+      "score": 0.4211617991844704,
+      "tldr": "Is my blue your blue?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3ceb9a28-3748-416e-91c1-fd6acbe2d1b3",
       "title": "OpenAI Livestream: ChatGPT Images 2.0",
       "url": "https://openai.com/live",
@@ -964,6 +978,20 @@
       ]
     },
     {
+      "id": "19570693-8893-4e43-a297-61ed7effb1b8",
+      "title": "$1,605: average annual ad value of a U.S. Google user",
+      "url": "https://proton.me/blog/what-is-your-data-worth-to-google",
+      "domain": "proton.me",
+      "published_at": "2026-04-28T09:07:02Z",
+      "category": "tech",
+      "score": 0.2621944179630173,
+      "tldr": "$1,605: average annual ad value of a U.",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "915b4794-f7c7-462e-b560-0786f166f81c",
       "title": "OpenAI: Workspace Agents for Business",
       "url": "https://openai.com/business/workspace-agents",
@@ -1382,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d5efc70b-b57a-40f6-bfd8-0abfd9a99c28",
-      "title": "ChatGPT Images 2.0",
-      "url": "https://chatgpt.com/images",
-      "domain": "chatgpt.com",
-      "published_at": "2026-04-21T19:42:03Z",
-      "category": "tech",
-      "score": 0.2540768283790891,
-      "tldr": "ChatGPT Images 2.0",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1643a9ac-32ac-4c3b-9e19-0fc6a40fe795",
-      "title": "A web-based RDP client built with Go WebAssembly and grdp",
-      "url": "https://github.com/nakagami/grdpwasm",
-      "domain": "github.com",
-      "published_at": "2026-04-25T10:59:29Z",
-      "category": "tech",
-      "score": 0.25402682085032174,
-      "tldr": "A web-based RDP client built with Go WebAssembly and grdp",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-28T07:43:50.326561673Z",
+  "last_updated": "2026-04-28T12:09:35.477746368Z",
   "total_count": 100
 }
