@@ -172,6 +172,20 @@
       ]
     },
     {
+      "id": "1ee5a7c5-1523-494b-945b-f5b10c3af34e",
+      "title": "How ChatGPT serves ads",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop",
+      "domain": "buchodi.com",
+      "published_at": "2026-04-28T23:54:14Z",
+      "category": "tech",
+      "score": 0.3753021271354723,
+      "tldr": "How ChatGPT serves ads",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "105a5930-e3c7-4d5f-9178-558290106a5b",
       "title": "Trump fires NSF's oversight board",
       "url": "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board",
@@ -264,6 +278,20 @@
       "category": "tech",
       "score": 0.3401778384723959,
       "tldr": "SWE-bench Verified no longer measures frontier coding capabilities",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "afb432ae-0e00-4f18-8028-264b852b98fa",
+      "title": "Regression: malware reminder on every read still causes subagent refusals",
+      "url": "https://github.com/anthropics/claude-code/issues/49363",
+      "domain": "github.com",
+      "published_at": "2026-04-28T23:59:57Z",
+      "category": "tech",
+      "score": 0.3382814601299418,
+      "tldr": "Regression: malware reminder on every read still causes subagent refusals",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -653,6 +681,20 @@
       ]
     },
     {
+      "id": "310c821e-ac85-4d0b-b712-8a0d9ab303c1",
+      "title": "We decreased our LLM costs with Opus",
+      "url": "https://www.mendral.com/blog/frontier-model-lower-costs",
+      "domain": "mendral.com",
+      "published_at": "2026-04-29T00:57:12Z",
+      "category": "tech",
+      "score": 0.2841581678448564,
+      "tldr": "We decreased our LLM costs with Opus",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5baee053-a966-411c-898e-4c7d9c3651d1",
       "title": "Show HN submissions tripled and now mostly share the same vibe-coded look",
       "url": "https://www.adriankrebs.ch/blog/design-slop",
@@ -731,6 +773,20 @@
       "category": "tech",
       "score": 0.27846476062958614,
       "tldr": "GitHub is having issues now",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d86a29da-d4bd-4ec8-9f92-00d677d490b8",
+      "title": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
+      "url": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
+      "domain": "github.com",
+      "published_at": "2026-04-28T17:12:30Z",
+      "category": "tech",
+      "score": 0.2780914307607034,
+      "tldr": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -847,20 +903,6 @@
       "tags": [
         "security",
         "llm"
-      ]
-    },
-    {
-      "id": "00ef2b5c-13cd-4bad-bd91-fd62c1c7eac8",
-      "title": "San Diego rents declined following surge in supply",
-      "url": "https://www.kpbs.org/news/economy/2026/03/27/san-diego-rents-declined-more-than-19-of-nations-top-20-markets-following-surge-in-supply",
-      "domain": "kpbs.org",
-      "published_at": "2026-04-22T01:21:09Z",
-      "category": "tech",
-      "score": 0.26868404072842017,
-      "tldr": "San Diego rents declined following surge in supply",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1366,50 +1408,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "bf0b326a-27d7-438a-a70b-5bd0ebf33af3",
-      "title": "Show HN: 49Agents – Infinite canvas IDE for AI agents",
-      "url": "https://github.com/49Agents/49Agents",
-      "domain": "github.com",
-      "published_at": "2026-04-28T00:36:24Z",
-      "category": "tech",
-      "score": 0.254610189137195,
-      "tldr": "Show HN: 49Agents – Infinite canvas IDE for AI agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "58c3b583-d92f-4fa5-a185-07440aa342bc",
-      "title": "“Why not just use Lean?”",
-      "url": "https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html",
-      "domain": "lawrencecpaulson.github.io",
-      "published_at": "2026-04-27T14:24:53Z",
-      "category": "tech",
-      "score": 0.254491204499113,
-      "tldr": "“Why not just use Lean?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dd113f82-9dca-49e5-a6c9-b75df28d6b81",
-      "title": "Show HN: Drive any macOS app in the background without stealing the cursor",
-      "url": "https://github.com/trycua/cua",
-      "domain": "github.com",
-      "published_at": "2026-04-28T16:03:34Z",
-      "category": "tech",
-      "score": 0.2543898160881754,
-      "tldr": "Show HN: Drive any macOS app in the background without stealing the cursor",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-28T23:29:21.047792115Z",
+  "last_updated": "2026-04-29T06:43:14.334047918Z",
   "total_count": 100
 }
