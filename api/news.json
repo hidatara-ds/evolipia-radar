@@ -57,6 +57,20 @@
       ]
     },
     {
+      "id": "da0f2c4e-e807-4790-9365-78544fd1ae85",
+      "title": "HERMES.md: Anthropic bug causes $200 extra charge, refuses refund",
+      "url": "https://github.com/anthropics/claude-code/issues/53262",
+      "domain": "github.com",
+      "published_at": "2026-04-29T18:54:31Z",
+      "category": "tech",
+      "score": 0.4547582003597309,
+      "tldr": "md: Anthropic bug causes $200 extra charge, refuses refund",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7be87bca-328a-4722-b641-e75d550f141a",
       "title": "Meta tells staff it will cut 10% of jobs",
       "url": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
@@ -1393,22 +1407,8 @@
       "tags": [
         "cloud"
       ]
-    },
-    {
-      "id": "3c2eb58c-6d99-471a-8b23-60abaa3bc633",
-      "title": "AI agents that argue with each other to improve decisions",
-      "url": "https://github.com/rockcat/HATS",
-      "domain": "github.com",
-      "published_at": "2026-04-25T18:30:12Z",
-      "category": "tech",
-      "score": 0.2561660206976923,
-      "tldr": "AI agents that argue with each other to improve decisions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-29T18:54:28.822315413Z",
+  "last_updated": "2026-04-29T20:07:12.571665002Z",
   "total_count": 100
 }
