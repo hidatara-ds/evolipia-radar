@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "54695ac6-d9cb-477f-85a6-ff68562494e7",
+      "title": "Zed 1.0",
+      "url": "https://zed.dev/blog/zed-1-0",
+      "domain": "zed.dev",
+      "published_at": "2026-04-29T14:34:19Z",
+      "category": "tech",
+      "score": 0.6369603628089008,
+      "tldr": "Zed 1.0",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b8170ae7-0230-4aa4-962a-79f4281be5ca",
       "title": "GPT-5.5",
       "url": "https://openai.com/index/introducing-gpt-5-5",
@@ -129,6 +143,20 @@
       ]
     },
     {
+      "id": "c1a9d6fc-4ca5-4efc-bdec-898b1ef0435d",
+      "title": "Online age verification is the hill to die on",
+      "url": "https://x.com/GlennMeder/status/2049088498163216560",
+      "domain": "x.com",
+      "published_at": "2026-04-29T15:49:57Z",
+      "category": "tech",
+      "score": 0.38795739467095186,
+      "tldr": "Online age verification is the hill to die on",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "71fa405b-1114-4d76-9519-bf890d5353d3",
       "title": "VibeVoice: Open-source frontier voice AI",
       "url": "https://github.com/microsoft/VibeVoice",
@@ -137,6 +165,20 @@
       "category": "tech",
       "score": 0.3823764851920719,
       "tldr": "VibeVoice: Open-source frontier voice AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "459117d9-8628-4c69-b54d-227c226d846c",
+      "title": "We need a federation of forges",
+      "url": "https://blog.tangled.org/federation",
+      "domain": "blog.tangled.org",
+      "published_at": "2026-04-29T14:00:59Z",
+      "category": "tech",
+      "score": 0.38113850007153927,
+      "tldr": "We need a federation of forges",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -295,20 +337,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "a179d303-2af7-4d94-8968-ec39964000c3",
-      "title": "Workspace Agents in ChatGPT",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "domain": "openai.com",
-      "published_at": "2026-04-22T17:47:07Z",
-      "category": "tech",
-      "score": 0.3367084745136565,
-      "tldr": "Workspace Agents in ChatGPT",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -667,6 +695,20 @@
       ]
     },
     {
+      "id": "7d3d7ef2-b4ff-4c43-992a-98c966ea5b5c",
+      "title": "An open-source stethoscope that costs between $2.5 and $5 to produce",
+      "url": "https://github.com/GliaX/Stethoscope",
+      "domain": "github.com",
+      "published_at": "2026-04-29T14:47:31Z",
+      "category": "tech",
+      "score": 0.28746530033400847,
+      "tldr": "An open-source stethoscope that costs between $2.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2cf134c5-dca6-46e1-8695-f89ce31a15c0",
       "title": "AI should elevate your thinking, not replace it",
       "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it",
@@ -675,20 +717,6 @@
       "category": "tech",
       "score": 0.28655893194112636,
       "tldr": "AI should elevate your thinking, not replace it",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "245995a3-24bf-4b25-b02f-cbee5e481d91",
-      "title": "Over-editing refers to a model modifying code beyond what is necessary",
-      "url": "https://nrehiew.github.io/blog/minimal_editing",
-      "domain": "nrehiew.github.io",
-      "published_at": "2026-04-22T17:51:17Z",
-      "category": "tech",
-      "score": 0.2844117050819286,
-      "tldr": "Over-editing refers to a model modifying code beyond what is necessary",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1129,17 +1157,17 @@
       ]
     },
     {
-      "id": "915b4794-f7c7-462e-b560-0786f166f81c",
-      "title": "OpenAI: Workspace Agents for Business",
-      "url": "https://openai.com/business/workspace-agents",
-      "domain": "openai.com",
-      "published_at": "2026-04-22T18:04:07Z",
+      "id": "2b0ec1db-3e52-4c33-8a03-4bf401729997",
+      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+      "domain": "interfaze.ai",
+      "published_at": "2026-04-29T16:01:51Z",
       "category": "tech",
-      "score": 0.26034437890834244,
-      "tldr": "OpenAI: Workspace Agents for Business",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.2614558747391948,
+      "tldr": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "general_ai"
+        "llm"
       ]
     },
     {
@@ -1379,36 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c6c0b4ea-9997-4dfd-9a91-0d4aff3522b7",
-      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
-      "url": "https://deepmind.google/blog/decoupled-diloco",
-      "domain": "deepmind.google",
-      "published_at": "2026-04-27T16:57:34Z",
-      "category": "tech",
-      "score": 0.25613855804459745,
-      "tldr": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7e9337fe-646b-42a0-bb25-44f0bf66a359",
-      "title": "CC-Canary: Detect early signs of regressions in Claude Code",
-      "url": "https://github.com/delta-hq/cc-canary",
-      "domain": "github.com",
-      "published_at": "2026-04-24T17:53:37Z",
-      "category": "tech",
-      "score": 0.25586108747630093,
-      "tldr": "CC-Canary: Detect early signs of regressions in Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-29T15:32:09.441960317Z",
+  "last_updated": "2026-04-29T18:54:28.822315413Z",
   "total_count": 100
 }
