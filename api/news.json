@@ -653,6 +653,20 @@
       ]
     },
     {
+      "id": "2c56cbd0-899f-41dd-bd5f-df6841e8f4aa",
+      "title": "Soft launch of open-source code platform for government",
+      "url": "https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform",
+      "domain": "nldigitalgovernment.nl",
+      "published_at": "2026-04-29T09:14:37Z",
+      "category": "tech",
+      "score": 0.2876184433191897,
+      "tldr": "Soft launch of open-source code platform for government",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2cf134c5-dca6-46e1-8695-f89ce31a15c0",
       "title": "AI should elevate your thinking, not replace it",
       "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it",
@@ -888,21 +902,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "ffd04e19-6d1a-4f5f-8990-70c2693e853e",
-      "title": "Kernel code removals driven by LLM-created security reports",
-      "url": "https://lwn.net/Articles/1068928",
-      "domain": "lwn.net",
-      "published_at": "2026-04-22T11:48:07Z",
-      "category": "tech",
-      "score": 0.2696235900695077,
-      "tldr": "Kernel code removals driven by LLM-created security reports",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "security",
-        "llm"
       ]
     },
     {
@@ -1270,20 +1269,6 @@
       ]
     },
     {
-      "id": "b016fe30-b80c-4809-bd63-4d7769767518",
-      "title": "Columnar Storage Is Normalization",
-      "url": "https://buttondown.com/jaffray/archive/columnar-storage-is-normalization",
-      "domain": "buttondown.com",
-      "published_at": "2026-04-22T12:30:14Z",
-      "category": "tech",
-      "score": 0.257594615679886,
-      "tldr": "Columnar Storage Is Normalization",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "09376e00-e72a-465b-b451-a86fa8bef06d",
       "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
       "url": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo",
@@ -1408,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "1cb00f9b-f183-4193-bee3-3da2ccb3ef12",
+      "title": "LingBot-Map: Streaming 3D reconstruction with geometric context transformer",
+      "url": "https://technology.robbyant.com/lingbot-map",
+      "domain": "technology.robbyant.com",
+      "published_at": "2026-04-28T03:27:40Z",
+      "category": "tech",
+      "score": 0.25520094303092244,
+      "tldr": "LingBot-Map: Streaming 3D reconstruction with geometric context transformer",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-04-29T09:05:54.676597639Z",
+  "last_updated": "2026-04-29T13:02:23.165629203Z",
   "total_count": 100
 }
