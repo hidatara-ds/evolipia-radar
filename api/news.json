@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "d8c57816-644d-4983-8375-dd86b3224aff",
+      "title": "HERMES.md in commit messages causes requests to route to extra usage billing",
+      "url": "https://github.com/anthropics/claude-code/issues/53262",
+      "domain": "github.com",
+      "published_at": "2026-04-29T18:54:31Z",
+      "category": "tech",
+      "score": 0.6778505686209111,
+      "tldr": "md in commit messages causes requests to route to extra usage billing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "54695ac6-d9cb-477f-85a6-ff68562494e7",
       "title": "Zed 1.0",
       "url": "https://zed.dev/blog/zed-1-0",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "0bfa3885-e453-4ddc-9993-efda8d7444f5",
-      "title": "I am building a cloud",
-      "url": "https://crawshaw.io/blog/building-a-cloud",
-      "domain": "crawshaw.io",
-      "published_at": "2026-04-23T04:44:19Z",
-      "category": "tech",
-      "score": 0.25665282904133574,
-      "tldr": "I am building a cloud",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
-      ]
     }
   ],
-  "last_updated": "2026-04-29T21:37:37.096806205Z",
+  "last_updated": "2026-04-29T22:45:14.436224899Z",
   "total_count": 100
 }
