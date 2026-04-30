@@ -368,6 +368,20 @@
       ]
     },
     {
+      "id": "1a619677-8457-41d5-b393-a9412ed10545",
+      "title": "Mozilla's Opposition to Chrome's Prompt API",
+      "url": "https://github.com/mozilla/standards-positions/issues/1213",
+      "domain": "github.com",
+      "published_at": "2026-04-30T07:43:55Z",
+      "category": "tech",
+      "score": 0.34981196736469466,
+      "tldr": "Mozilla's Opposition to Chrome's Prompt API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8671c3fa-5689-47e0-bae9-0d2a96796cca",
       "title": "GPT 5.5 biosafety bounty",
       "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
@@ -493,6 +507,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "577fad17-d0a8-4e67-82c6-7c60e6bd3aa2",
+      "title": "Chrome looks set to ship an LLM Prompt API to the web. We oppose this API",
+      "url": "https://mastodon.social/@firefoxwebdevs/116492853483021978",
+      "domain": "mastodon.social",
+      "published_at": "2026-04-30T09:16:07Z",
+      "category": "tech",
+      "score": 0.3261146954176262,
+      "tldr": "Chrome looks set to ship an LLM Prompt API to the web.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -661,6 +689,20 @@
       "category": "tech",
       "score": 0.2988760071924703,
       "tldr": "Easyduino: Open Source PCB Devboards for KiCad",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "24ccb301-7c37-4f00-801c-e6479eb5610c",
+      "title": "The Zig project's rationale for their anti-AI contribution policy",
+      "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai",
+      "domain": "simonwillison.net",
+      "published_at": "2026-04-30T02:15:47Z",
+      "category": "tech",
+      "score": 0.29886180599324774,
+      "tldr": "The Zig project's rationale for their anti-AI contribution policy",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1365,50 +1407,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "9f6f7300-9d93-4702-b690-b87f8a8eec54",
-      "title": "Vera: a programming language designed for machines to write",
-      "url": "https://github.com/aallan/vera",
-      "domain": "github.com",
-      "published_at": "2026-04-29T21:41:32Z",
-      "category": "tech",
-      "score": 0.25788778379945965,
-      "tldr": "Vera: a programming language designed for machines to write",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e9ed359a-ba17-4906-b6e2-0514a6684cb3",
-      "title": "Show HN: The Unix Magic poster, annotated (updated)",
-      "url": "https://github.com/drio/unixmagic",
-      "domain": "github.com",
-      "published_at": "2026-04-27T01:32:44Z",
-      "category": "tech",
-      "score": 0.2578747776624638,
-      "tldr": "Show HN: The Unix Magic poster, annotated (updated)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1b272e5d-6799-4667-9990-ef5c26ddf5ed",
-      "title": "US Department of Justice has officially reclassified cannabis as less dangerous",
-      "url": "https://www.bbc.com/news/articles/cdxd0xxp0jko",
-      "domain": "bbc.com",
-      "published_at": "2026-04-23T13:37:48Z",
-      "category": "tech",
-      "score": 0.2578587505487383,
-      "tldr": "US Department of Justice has officially reclassified cannabis as less dangerous",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-30T07:41:29.853917198Z",
+  "last_updated": "2026-04-30T09:57:55.899474799Z",
   "total_count": 100
 }
