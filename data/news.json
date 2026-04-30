@@ -29,20 +29,6 @@
       ]
     },
     {
-      "id": "b8170ae7-0230-4aa4-962a-79f4281be5ca",
-      "title": "GPT-5.5",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "domain": "openai.com",
-      "published_at": "2026-04-23T18:01:39Z",
-      "category": "tech",
-      "score": 0.6088736565006844,
-      "tldr": "GPT-5.5",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "d45e2280-6f98-44fc-9e9e-11fa57decfa7",
       "title": "DeepSeek v4",
       "url": "https://api-docs.deepseek.com/news/news260424",
@@ -538,6 +524,20 @@
       ]
     },
     {
+      "id": "8142f2f9-fab4-4db6-b727-f69ef2a0bd36",
+      "title": "Show HN: TRiP – a complete transformer engine in C built from scratch just by me",
+      "url": "https://github.com/carlovalenti/TRiP",
+      "domain": "github.com",
+      "published_at": "2026-04-30T16:48:17Z",
+      "category": "tech",
+      "score": 0.3287375671897293,
+      "tldr": "Show HN: TRiP – a complete transformer engine in C built from scratch just by me",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "577fad17-d0a8-4e67-82c6-7c60e6bd3aa2",
       "title": "Chrome looks set to ship an LLM Prompt API to the web. We oppose this API",
       "url": "https://mastodon.social/@firefoxwebdevs/116492853483021978",
@@ -563,6 +563,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "4c59fce2-740c-45ec-8207-a503e45fd52d",
+      "title": "Kubereboot/Kured: Kubernetes Reboot Daemon",
+      "url": "https://github.com/kubereboot/kured",
+      "domain": "github.com",
+      "published_at": "2026-04-30T16:53:44Z",
+      "category": "tech",
+      "score": 0.31390728174321686,
+      "tldr": "Kubereboot/Kured: Kubernetes Reboot Daemon",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
       ]
     },
     {
@@ -695,20 +709,6 @@
       ]
     },
     {
-      "id": "7e7f5e5b-9800-4ee4-ad81-f31b7e937000",
-      "title": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
-      "url": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet",
-      "domain": "telegraph.co.uk",
-      "published_at": "2026-04-23T17:01:01Z",
-      "category": "tech",
-      "score": 0.29737868110163324,
-      "tldr": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a398d9c6-aaff-4138-a86e-9d8d99daa1f6",
       "title": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership",
       "url": "https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity",
@@ -748,20 +748,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "f985101e-63a4-408d-a018-cc781cfb3805",
-      "title": "French government agency confirms breach as hacker offers to sell data",
-      "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data",
-      "domain": "bleepingcomputer.com",
-      "published_at": "2026-04-23T15:59:55Z",
-      "category": "tech",
-      "score": 0.2961424757197981,
-      "tldr": "French government agency confirms breach as hacker offers to sell data",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
       ]
     },
     {
@@ -846,6 +832,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "e0769856-9925-451f-ae7e-47b6ec613368",
+      "title": "Spain's parliament will act against massive IP blockages by LaLiga",
+      "url": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga",
+      "domain": "democrata.es",
+      "published_at": "2026-04-30T15:31:40Z",
+      "category": "tech",
+      "score": 0.2841031660329446,
+      "tldr": "Spain's parliament will act against massive IP blockages by LaLiga",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1011,6 +1011,20 @@
       "category": "tech",
       "score": 0.2721274911135957,
       "tldr": "Why SWE-bench Verified no longer measures frontier coding capabilities",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cba2fbff-3fa6-4d5c-8507-cdbd520caff3",
+      "title": "SatoshiGuesser – Roll for Bitcoin",
+      "url": "https://github.com/Pathos0925/SatoshiGuesser",
+      "domain": "github.com",
+      "published_at": "2026-04-30T16:29:58Z",
+      "category": "tech",
+      "score": 0.27130574716337685,
+      "tldr": "SatoshiGuesser – Roll for Bitcoin",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e9ed359a-ba17-4906-b6e2-0514a6684cb3",
-      "title": "Show HN: The Unix Magic poster, annotated (updated)",
-      "url": "https://github.com/drio/unixmagic",
-      "domain": "github.com",
-      "published_at": "2026-04-27T01:32:44Z",
-      "category": "tech",
-      "score": 0.2578747776624638,
-      "tldr": "Show HN: The Unix Magic poster, annotated (updated)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-30T15:26:51.10638201Z",
+  "last_updated": "2026-04-30T18:03:29.45551201Z",
   "total_count": 100
 }
