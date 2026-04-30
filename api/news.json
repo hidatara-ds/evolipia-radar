@@ -57,6 +57,20 @@
       ]
     },
     {
+      "id": "e05d3bb2-f4bb-463a-b786-5ad06aa760b9",
+      "title": "Copy Fail",
+      "url": "https://copy.fail/",
+      "domain": "copy.fail",
+      "published_at": "2026-04-29T18:13:53Z",
+      "category": "tech",
+      "score": 0.48947328967734266,
+      "tldr": "Copy Fail",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e9e42108-8bdf-4ef3-a03e-ee5d00b48758",
       "title": "Localsend: An open-source cross-platform alternative to AirDrop",
       "url": "https://github.com/localsend/localsend",
@@ -242,6 +256,20 @@
       ]
     },
     {
+      "id": "b3293d98-6125-4c08-bd42-6f248499b6af",
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from",
+      "domain": "openai.com",
+      "published_at": "2026-04-30T03:21:04Z",
+      "category": "tech",
+      "score": 0.3762265049408081,
+      "tldr": "Where the goblins came from",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1ee5a7c5-1523-494b-945b-f5b10c3af34e",
       "title": "How ChatGPT serves ads",
       "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop",
@@ -281,6 +309,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "f20b8977-060e-47df-8cbc-db8a6dcf581e",
+      "title": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
+      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+      "domain": "github.com",
+      "published_at": "2026-04-30T03:11:51Z",
+      "category": "tech",
+      "score": 0.35700557442583536,
+      "tldr": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1365,50 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "abd5125c-e9e1-47c0-b9df-fee78ceefa87",
-      "title": "Machine Learning Reveals Unknown Transient Phenomena in Historic Images",
-      "url": "https://arxiv.org/abs/2604.18799",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-24T14:01:43Z",
-      "category": "tech",
-      "score": 0.2571744674413936,
-      "tldr": "Machine Learning Reveals Unknown Transient Phenomena in Historic Images",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ec2afb6a-8ecb-4acc-93e6-fc1c45b27f96",
-      "title": "GitHub unwanted UX change: issue links now open in a popup",
-      "url": "https://github.com/orgs/community/discussions/192666",
-      "domain": "github.com",
-      "published_at": "2026-04-26T14:18:38Z",
-      "category": "tech",
-      "score": 0.2571633827472407,
-      "tldr": "GitHub unwanted UX change: issue links now open in a popup",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0077693d-d759-4094-88e5-2482ce3f5bfb",
-      "title": "For the average price of a car in the US, you could buy 4 new Chinese EVs",
-      "url": "https://english.kyodonews.net/articles/-/75029",
-      "domain": "english.kyodonews.net",
-      "published_at": "2026-04-28T05:23:27Z",
-      "category": "tech",
-      "score": 0.2571266861130594,
-      "tldr": "For the average price of a car in the US, you could buy 4 new Chinese EVs",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-30T01:51:04.244213967Z",
+  "last_updated": "2026-04-30T05:22:28.460048711Z",
   "total_count": 100
 }
