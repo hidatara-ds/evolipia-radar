@@ -199,6 +199,20 @@
       ]
     },
     {
+      "id": "72a297cb-3e6e-423a-a8bc-d43f9a5729b4",
+      "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+      "domain": "github.com",
+      "published_at": "2026-04-30T03:11:51Z",
+      "category": "tech",
+      "score": 0.38269788620608425,
+      "tldr": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "71fa405b-1114-4d76-9519-bf890d5353d3",
       "title": "VibeVoice: Open-source frontier voice AI",
       "url": "https://github.com/microsoft/VibeVoice",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "09376e00-e72a-465b-b451-a86fa8bef06d",
-      "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
-      "url": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo",
-      "domain": "bbc.com",
-      "published_at": "2026-04-26T20:56:30Z",
-      "category": "tech",
-      "score": 0.2573347447525069,
-      "tldr": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-04-30T05:22:28.460048711Z",
+  "last_updated": "2026-04-30T07:41:29.853917198Z",
   "total_count": 100
 }
