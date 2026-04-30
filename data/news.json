@@ -270,6 +270,20 @@
       ]
     },
     {
+      "id": "dcd7de67-6ef4-4560-a9cb-e076bb40575f",
+      "title": "Belgium stops decommissioning nuclear power plants",
+      "url": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717",
+      "domain": "dpa-international.com",
+      "published_at": "2026-04-30T12:17:14Z",
+      "category": "tech",
+      "score": 0.3766497493339684,
+      "tldr": "Belgium stops decommissioning nuclear power plants",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b3293d98-6125-4c08-bd42-6f248499b6af",
       "title": "Where the goblins came from",
       "url": "https://openai.com/index/where-the-goblins-came-from",
@@ -496,6 +510,20 @@
       ]
     },
     {
+      "id": "c01bbb7e-3bdd-495e-b192-a1581268182a",
+      "title": "Meta in row after workers who saw smart glasses users having sex lose jobs",
+      "url": "https://www.bbc.com/news/articles/c5y7yvgy0w6o",
+      "domain": "bbc.com",
+      "published_at": "2026-04-30T13:07:42Z",
+      "category": "tech",
+      "score": 0.32950359891733544,
+      "tldr": "Meta in row after workers who saw smart glasses users having sex lose jobs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "26e8884b-31aa-42cf-9201-32236bd227a5",
       "title": "Pgbackrest is no longer being maintained",
       "url": "https://github.com/pgbackrest/pgbackrest",
@@ -521,34 +549,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "380aefbb-777f-4c16-830f-926f4c621183",
-      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
-      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
-      "domain": "socket.dev",
-      "published_at": "2026-04-23T14:17:08Z",
-      "category": "tech",
-      "score": 0.31724011388543993,
-      "tldr": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "19622592-41b6-4b45-864e-52f310fe42de",
-      "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
-      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say",
-      "domain": "techcrunch.com",
-      "published_at": "2026-04-23T12:12:03Z",
-      "category": "tech",
-      "score": 0.31479162319334125,
-      "tldr": "Investigation uncovers two sophisticated telecom surveillance campaigns",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -606,20 +606,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "9cd1c8ff-8b9c-41f1-89b3-9a8477ecc49f",
-      "title": "Raylib v6.0",
-      "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
-      "domain": "github.com",
-      "published_at": "2026-04-23T12:16:16Z",
-      "category": "tech",
-      "score": 0.304413358318777,
-      "tldr": "Raylib v6.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1101,6 +1087,20 @@
       ]
     },
     {
+      "id": "3884cbea-765f-4ac4-adbb-77526ead3ae3",
+      "title": "1.4 GW: battery storage at former Grohnde nuclear power plant",
+      "url": "https://www.heise.de/en/news/1-4-GW-Huge-battery-storage-at-former-Grohnde-nuclear-power-plant-11277367.html",
+      "domain": "heise.de",
+      "published_at": "2026-04-30T11:08:34Z",
+      "category": "tech",
+      "score": 0.2677542961852312,
+      "tldr": "4 GW: battery storage at former Grohnde nuclear power plant",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "960f3e17-2b41-40cd-89ac-b5c5b2fa3fbb",
       "title": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
       "url": "https://github.com/electricant/adblock-rust-manager",
@@ -1193,20 +1193,6 @@
       "category": "tech",
       "score": 0.26376233598049814,
       "tldr": "Martin Galway's music source files from 1980's Commodore 64 games",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e6353b9f-a0cc-4218-bc43-43803c6ced7a",
-      "title": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
-      "url": "https://github.com/russellromney/honker",
-      "domain": "github.com",
-      "published_at": "2026-04-23T11:53:11Z",
-      "category": "tech",
-      "score": 0.2636900530319945,
-      "tldr": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1395,20 +1381,34 @@
       ]
     },
     {
-      "id": "869c1442-1ad3-4059-97be-ea008419e22b",
-      "title": "LLM pricing has never made sense",
-      "url": "https://anderegg.ca/2026/04/22/llm-pricing-has-never-made-sense",
-      "domain": "anderegg.ca",
-      "published_at": "2026-04-23T13:43:51Z",
+      "id": "9f6f7300-9d93-4702-b690-b87f8a8eec54",
+      "title": "Vera: a programming language designed for machines to write",
+      "url": "https://github.com/aallan/vera",
+      "domain": "github.com",
+      "published_at": "2026-04-29T21:41:32Z",
       "category": "tech",
-      "score": 0.2581866111732985,
-      "tldr": "LLM pricing has never made sense",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "score": 0.25788778379945965,
+      "tldr": "Vera: a programming language designed for machines to write",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
-        "llm"
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e9ed359a-ba17-4906-b6e2-0514a6684cb3",
+      "title": "Show HN: The Unix Magic poster, annotated (updated)",
+      "url": "https://github.com/drio/unixmagic",
+      "domain": "github.com",
+      "published_at": "2026-04-27T01:32:44Z",
+      "category": "tech",
+      "score": 0.2578747776624638,
+      "tldr": "Show HN: The Unix Magic poster, annotated (updated)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-04-30T11:25:08.142611468Z",
+  "last_updated": "2026-04-30T15:26:51.10638201Z",
   "total_count": 100
 }
