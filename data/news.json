@@ -29,20 +29,6 @@
       ]
     },
     {
-      "id": "d45e2280-6f98-44fc-9e9e-11fa57decfa7",
-      "title": "DeepSeek v4",
-      "url": "https://api-docs.deepseek.com/news/news260424",
-      "domain": "api-docs.deepseek.com",
-      "published_at": "2026-04-24T03:01:21Z",
-      "category": "tech",
-      "score": 0.4936920017948714,
-      "tldr": "DeepSeek v4",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e05d3bb2-f4bb-463a-b786-5ad06aa760b9",
       "title": "Copy Fail",
       "url": "https://copy.fail/",
@@ -124,6 +110,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "f5b58f83-acc9-4e53-92cc-de1ddff93c76",
+      "title": "Can I disable all data collection from my vehicle?",
+      "url": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
+      "domain": "rivian.com",
+      "published_at": "2026-04-30T20:27:22Z",
+      "category": "tech",
+      "score": 0.3946176440304902,
+      "tldr": "Can I disable all data collection from my vehicle?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
       ]
     },
     {
@@ -292,6 +292,20 @@
       "category": "tech",
       "score": 0.374108512901145,
       "tldr": "Trump fires NSF's oversight board",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "fde5bf35-caa1-4f1f-86d1-47f80c97c2e5",
+      "title": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
+      "url": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
+      "domain": "openwall.com",
+      "published_at": "2026-04-30T16:43:47Z",
+      "category": "tech",
+      "score": 0.3732283077561212,
+      "tldr": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -989,14 +1003,14 @@
       ]
     },
     {
-      "id": "f2fa4fca-c9e9-4c2f-bf93-00ff4d88bfd7",
-      "title": "DeepSeek v4",
-      "url": "https://api-docs.deepseek.com/",
-      "domain": "api-docs.deepseek.com",
-      "published_at": "2026-04-24T03:01:21Z",
+      "id": "242c7cb9-d723-4091-b7a7-7ed7bc05c3d0",
+      "title": "Show HN: Winpodx – run Windows apps on Linux as native windows",
+      "url": "https://github.com/kernalix7/winpodx",
+      "domain": "github.com",
+      "published_at": "2026-05-01T02:23:43Z",
       "category": "tech",
-      "score": 0.2743691804706459,
-      "tldr": "DeepSeek v4",
+      "score": 0.27550308563297576,
+      "tldr": "Show HN: Winpodx – run Windows apps on Linux as native windows",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1393,22 +1407,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "2215a1bb-86dd-4493-ab4b-a49550e40e64",
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "url": "https://arxiv.org/abs/2604.21691",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-24T18:06:05Z",
-      "category": "tech",
-      "score": 0.2587298394783441,
-      "tldr": "There Will Be a Scientific Theory of Deep Learning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-01T01:53:35.516713995Z",
+  "last_updated": "2026-05-01T05:34:40.896308125Z",
   "total_count": 100
 }
