@@ -635,21 +635,6 @@
       ]
     },
     {
-      "id": "f681a311-6a18-4d48-a13a-0c3c42633511",
-      "title": "GPT-5.5 is generally available for GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
-      "domain": "github.blog",
-      "published_at": "2026-04-24T20:07:54Z",
-      "category": "tech",
-      "score": 0.3044505192678877,
-      "tldr": "5 is generally available for GitHub Copilot",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "f54a8005-268e-45cd-84d2-28e6218c0a6f",
       "title": "Waymo says can't avoid bike lanes because riders want to be dropped off in them",
       "url": "https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo",
@@ -1044,6 +1029,20 @@
       ]
     },
     {
+      "id": "7b9edbdd-2599-4906-abc6-a93a7cbeb51e",
+      "title": "Ti-84 Evo",
+      "url": "https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo",
+      "domain": "education.ti.com",
+      "published_at": "2026-05-01T20:06:59Z",
+      "category": "tech",
+      "score": 0.27151593344752345,
+      "tldr": "Ti-84 Evo",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cba2fbff-3fa6-4d5c-8507-cdbd520caff3",
       "title": "SatoshiGuesser – Roll for Bitcoin",
       "url": "https://github.com/Pathos0925/SatoshiGuesser",
@@ -1052,6 +1051,20 @@
       "category": "tech",
       "score": 0.27130574716337685,
       "tldr": "SatoshiGuesser – Roll for Bitcoin",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4bf03a72-0793-47ee-8b9d-342989c7108f",
+      "title": "Show HN: Destiny – Claude Code's fortune Teller skill",
+      "url": "https://github.com/xodn348/destiny",
+      "domain": "github.com",
+      "published_at": "2026-05-01T19:56:18Z",
+      "category": "tech",
+      "score": 0.27046507600954894,
+      "tldr": "Show HN: Destiny – Claude Code's fortune Teller skill",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1193,6 +1206,20 @@
       "category": "tech",
       "score": 0.2642177842484531,
       "tldr": "Ghostty is leaving GitHub",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "51ae7788-7943-4903-993e-b69bfc11d315",
+      "title": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
+      "url": "https://github.com/microsoft/lib0xc",
+      "domain": "github.com",
+      "published_at": "2026-05-01T19:10:56Z",
+      "category": "tech",
+      "score": 0.2639985718231428,
+      "tldr": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1379,36 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "20cadc5c-648c-4a69-851d-ac543e7e232a",
-      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
-      "url": "https://github.com/evanklem/evanflow",
-      "domain": "github.com",
-      "published_at": "2026-04-27T01:56:39Z",
-      "category": "tech",
-      "score": 0.2588947637019438,
-      "tldr": "EvanFlow – A TDD driven feedback loop for Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9f6f7300-9d93-4702-b690-b87f8a8eec54",
-      "title": "Vera: a programming language designed for machines to write",
-      "url": "https://github.com/aallan/vera",
-      "domain": "github.com",
-      "published_at": "2026-04-29T21:41:32Z",
-      "category": "tech",
-      "score": 0.25788778379945965,
-      "tldr": "Vera: a programming language designed for machines to write",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-01T20:00:37.092934908Z",
+  "last_updated": "2026-05-01T22:40:33.067533464Z",
   "total_count": 100
 }
