@@ -438,21 +438,6 @@
       ]
     },
     {
-      "id": "b9483ec4-364d-44b7-9fb1-dd8d7c5be857",
-      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
-      "url": "https://developers.openai.com/api/docs/changelog",
-      "domain": "developers.openai.com",
-      "published_at": "2026-04-24T18:23:32Z",
-      "category": "tech",
-      "score": 0.3349452788704724,
-      "tldr": "OpenAI releases GPT-5.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "4b8f8027-dd69-4048-afe4-b7a047ee9746",
       "title": "France's Mistral Built a $14B AI Empire by Not Being American",
       "url": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american",
@@ -933,6 +918,20 @@
       ]
     },
     {
+      "id": "466282c3-aaae-4f97-b517-be6c5b0bddf9",
+      "title": "The Gay Jailbreak Technique",
+      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
+      "domain": "github.com",
+      "published_at": "2026-05-01T16:59:35Z",
+      "category": "tech",
+      "score": 0.28138533371917046,
+      "tldr": "The Gay Jailbreak Technique",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "9e6063f5-6644-416d-b29c-b9fcb5f5428c",
       "title": "GitHub is having issues now",
       "url": "https://www.githubstatus.com",
@@ -1056,6 +1055,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "5294c860-ae34-446c-a6c2-cf3160d66153",
+      "title": "AWS stops billing Middle East cloud customers as repairs to war damage drag on",
+      "url": "https://arstechnica.com/gadgets/2026/05/amazon-stuck-with-months-of-repairs-after-drone-strikes-on-data-centers",
+      "domain": "arstechnica.com",
+      "published_at": "2026-05-01T17:28:45Z",
+      "category": "tech",
+      "score": 0.26839191459192946,
+      "tldr": "AWS stops billing Middle East cloud customers as repairs to war damage drag on",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai",
+        "cloud"
       ]
     },
     {
@@ -1297,6 +1311,34 @@
       ]
     },
     {
+      "id": "d2dcb688-fc71-4093-9d90-6cac769cb5a5",
+      "title": "Understand Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "domain": "github.com",
+      "published_at": "2026-05-01T17:27:03Z",
+      "category": "tech",
+      "score": 0.25962810408856885,
+      "tldr": "Understand Anything",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e23c74d8-12f9-4245-a611-49b35699d09c",
+      "title": "Show HN: My Private GitHub on Postgres",
+      "url": "https://github.com/calebwin/gitgres",
+      "domain": "github.com",
+      "published_at": "2026-05-01T17:40:15Z",
+      "category": "tech",
+      "score": 0.25951993088480535,
+      "tldr": "Show HN: My Private GitHub on Postgres",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a65122d3-27d1-455c-9925-2247cada3830",
       "title": "Mistral Medium 3.5",
       "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
@@ -1353,34 +1395,6 @@
       ]
     },
     {
-      "id": "233bcac1-e514-4a05-8185-16063e8b936c",
-      "title": "LLM research on Hacker News is drying up",
-      "url": "https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html",
-      "domain": "dylancastillo.co",
-      "published_at": "2026-04-24T18:12:15Z",
-      "category": "tech",
-      "score": 0.2587557454250645,
-      "tldr": "LLM research on Hacker News is drying up",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2215a1bb-86dd-4493-ab4b-a49550e40e64",
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "url": "https://arxiv.org/abs/2604.21691",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-24T18:06:05Z",
-      "category": "tech",
-      "score": 0.2587298394783441,
-      "tldr": "There Will Be a Scientific Theory of Deep Learning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9f6f7300-9d93-4702-b690-b87f8a8eec54",
       "title": "Vera: a programming language designed for machines to write",
       "url": "https://github.com/aallan/vera",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e9ed359a-ba17-4906-b6e2-0514a6684cb3",
-      "title": "Show HN: The Unix Magic poster, annotated (updated)",
-      "url": "https://github.com/drio/unixmagic",
-      "domain": "github.com",
-      "published_at": "2026-04-27T01:32:44Z",
-      "category": "tech",
-      "score": 0.2578747776624638,
-      "tldr": "Show HN: The Unix Magic poster, annotated (updated)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-01T17:48:40.766016473Z",
+  "last_updated": "2026-05-01T18:56:06.58419716Z",
   "total_count": 100
 }
