@@ -580,6 +580,20 @@
       ]
     },
     {
+      "id": "78fe879a-3648-41ba-a169-b733854360a0",
+      "title": "C8s: A Confidential Kubernetes Architecture",
+      "url": "https://arxiv.org/abs/2604.26974",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-01T04:28:24Z",
+      "category": "tech",
+      "score": 0.3127818275301984,
+      "tldr": "C8s: A Confidential Kubernetes Architecture",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
+      ]
+    },
+    {
       "id": "c49614f2-bb27-4dfa-91d0-d96741cea768",
       "title": "Amateur armed with ChatGPT solves an Erdős problem",
       "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "233bcac1-e514-4a05-8185-16063e8b936c",
-      "title": "LLM research on Hacker News is drying up",
-      "url": "https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html",
-      "domain": "dylancastillo.co",
-      "published_at": "2026-04-24T18:12:15Z",
-      "category": "tech",
-      "score": 0.2587557454250645,
-      "tldr": "LLM research on Hacker News is drying up",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-01T05:34:40.896308125Z",
+  "last_updated": "2026-05-01T08:00:02.043351598Z",
   "total_count": 100
 }
