@@ -510,6 +510,20 @@
       ]
     },
     {
+      "id": "dc737183-8df8-44e8-a70c-7793d0074638",
+      "title": "Advanced Quantization Algorithm for LLMs",
+      "url": "https://github.com/intel/auto-round",
+      "domain": "github.com",
+      "published_at": "2026-05-01T09:10:02Z",
+      "category": "tech",
+      "score": 0.3293059553164351,
+      "tldr": "Advanced Quantization Algorithm for LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "26e8884b-31aa-42cf-9201-32236bd227a5",
       "title": "Pgbackrest is no longer being maintained",
       "url": "https://github.com/pgbackrest/pgbackrest",
@@ -549,6 +563,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "cb0cb0d8-3528-4670-aeb0-c4a3e238db05",
+      "title": "Xmemory: Benchmarking Structured AI Memory Against RAG and Hybrid RAG",
+      "url": "https://arxiv.org/abs/2604.27906",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-01T09:15:35Z",
+      "category": "tech",
+      "score": 0.3255069315970316,
+      "tldr": "Xmemory: Benchmarking Structured AI Memory Against RAG and Hybrid RAG",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -913,20 +941,6 @@
       "category": "tech",
       "score": 0.27930129015397087,
       "tldr": "SDL Now Supports DOS",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ff60ad65-82f8-47a4-b3d3-b67dc674096a",
-      "title": "Hear your agent suffer through your code",
-      "url": "https://github.com/AndrewVos/endless-toil",
-      "domain": "github.com",
-      "published_at": "2026-04-24T10:58:45Z",
-      "category": "tech",
-      "score": 0.27871732033055346,
-      "tldr": "Hear your agent suffer through your code",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1393,22 +1407,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "2215a1bb-86dd-4493-ab4b-a49550e40e64",
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "url": "https://arxiv.org/abs/2604.21691",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-24T18:06:05Z",
-      "category": "tech",
-      "score": 0.2587298394783441,
-      "tldr": "There Will Be a Scientific Theory of Deep Learning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-01T09:45:24.372597467Z",
+  "last_updated": "2026-05-01T13:23:53.939023481Z",
   "total_count": 100
 }
