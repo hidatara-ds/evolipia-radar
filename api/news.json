@@ -1073,20 +1073,6 @@
       ]
     },
     {
-      "id": "5dd5b249-7d7a-4fce-bb5e-36bf976b55f7",
-      "title": "South Korea police arrest man for posting AI photo of runaway wolf",
-      "url": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
-      "domain": "bbc.com",
-      "published_at": "2026-04-24T09:17:57Z",
-      "category": "tech",
-      "score": 0.2711233111058613,
-      "tldr": "South Korea police arrest man for posting AI photo of runaway wolf",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d8d5ccbd-8d33-4c61-8664-acbfec705229",
       "title": "Your phone is about to stop being yours",
       "url": "https://keepandroidopen.org/en",
@@ -1095,20 +1081,6 @@
       "category": "tech",
       "score": 0.2683374072159784,
       "tldr": "Your phone is about to stop being yours",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4a987f73-ea73-41ac-9ce8-529d998482f2",
-      "title": "Spinel: Ruby AOT Native Compiler",
-      "url": "https://github.com/matz/spinel",
-      "domain": "github.com",
-      "published_at": "2026-04-24T08:28:47Z",
-      "category": "tech",
-      "score": 0.26810201527549293,
-      "tldr": "Spinel: Ruby AOT Native Compiler",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "233bcac1-e514-4a05-8185-16063e8b936c",
+      "title": "LLM research on Hacker News is drying up",
+      "url": "https://dylancastillo.co/til/llm-research-on-hacker-news-is-dying.html",
+      "domain": "dylancastillo.co",
+      "published_at": "2026-04-24T18:12:15Z",
+      "category": "tech",
+      "score": 0.2587557454250645,
+      "tldr": "LLM research on Hacker News is drying up",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2215a1bb-86dd-4493-ab4b-a49550e40e64",
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-24T18:06:05Z",
+      "category": "tech",
+      "score": 0.2587298394783441,
+      "tldr": "There Will Be a Scientific Theory of Deep Learning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-01T08:00:02.043351598Z",
+  "last_updated": "2026-05-01T09:45:24.372597467Z",
   "total_count": 100
 }
