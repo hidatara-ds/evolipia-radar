@@ -438,20 +438,6 @@
       ]
     },
     {
-      "id": "abdfe4cb-4e92-48cd-99e5-31b6c6dccbe4",
-      "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
-      "url": "https://github.com/browser-use/browser-harness",
-      "domain": "github.com",
-      "published_at": "2026-04-24T14:31:38Z",
-      "category": "tech",
-      "score": 0.33503189798606997,
-      "tldr": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "b9483ec4-364d-44b7-9fb1-dd8d7c5be857",
       "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
       "url": "https://developers.openai.com/api/docs/changelog",
@@ -1003,20 +989,6 @@
       ]
     },
     {
-      "id": "76ec8e24-247c-49ce-a3f1-fb270c9d5ae3",
-      "title": "ML supports existence of unrecognized transient astronomical phenomena",
-      "url": "https://arxiv.org/abs/2604.18799",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-24T14:01:43Z",
-      "category": "tech",
-      "score": 0.27720616469141135,
-      "tldr": "ML supports existence of unrecognized transient astronomical phenomena",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4f6bc007-15e6-4860-ba21-319119214c5d",
       "title": "Warp is now Open-Source",
       "url": "https://github.com/warpdotdev/warp",
@@ -1213,20 +1185,6 @@
       ]
     },
     {
-      "id": "bb98e586-406c-4674-8c3f-6c6e06d7418b",
-      "title": "Different Language Models Learn Similar Number Representations",
-      "url": "https://arxiv.org/abs/2604.20817",
-      "domain": "arxiv.org",
-      "published_at": "2026-04-24T14:34:23Z",
-      "category": "tech",
-      "score": 0.26384178975674205,
-      "tldr": "Different Language Models Learn Similar Number Representations",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "81127815-6d5c-46ad-884c-e8479c7b46af",
       "title": "Martin Galway's music source files from 1980's Commodore 64 games",
       "url": "https://github.com/MartinGalway/C64_music",
@@ -1407,8 +1365,50 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "2215a1bb-86dd-4493-ab4b-a49550e40e64",
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "domain": "arxiv.org",
+      "published_at": "2026-04-24T18:06:05Z",
+      "category": "tech",
+      "score": 0.2587298394783441,
+      "tldr": "There Will Be a Scientific Theory of Deep Learning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9f6f7300-9d93-4702-b690-b87f8a8eec54",
+      "title": "Vera: a programming language designed for machines to write",
+      "url": "https://github.com/aallan/vera",
+      "domain": "github.com",
+      "published_at": "2026-04-29T21:41:32Z",
+      "category": "tech",
+      "score": 0.25788778379945965,
+      "tldr": "Vera: a programming language designed for machines to write",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e9ed359a-ba17-4906-b6e2-0514a6684cb3",
+      "title": "Show HN: The Unix Magic poster, annotated (updated)",
+      "url": "https://github.com/drio/unixmagic",
+      "domain": "github.com",
+      "published_at": "2026-04-27T01:32:44Z",
+      "category": "tech",
+      "score": 0.2578747776624638,
+      "tldr": "Show HN: The Unix Magic poster, annotated (updated)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-01T13:23:53.939023481Z",
+  "last_updated": "2026-05-01T14:35:45.393238289Z",
   "total_count": 100
 }
