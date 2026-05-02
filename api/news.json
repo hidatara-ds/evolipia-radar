@@ -283,20 +283,6 @@
       ]
     },
     {
-      "id": "105a5930-e3c7-4d5f-9178-558290106a5b",
-      "title": "Trump fires NSF's oversight board",
-      "url": "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board",
-      "domain": "science.org",
-      "published_at": "2026-04-25T22:39:33Z",
-      "category": "tech",
-      "score": 0.374108512901145,
-      "tldr": "Trump fires NSF's oversight board",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "fde5bf35-caa1-4f1f-86d1-47f80c97c2e5",
       "title": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
       "url": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
@@ -1404,8 +1390,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "f8494caa-2e0a-4e2b-9929-8007b074d794",
+      "title": "The Prompt API",
+      "url": "https://developer.chrome.com/docs/ai/prompt-api",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-04-27T02:18:58Z",
+      "category": "tech",
+      "score": 0.259065621038383,
+      "tldr": "The Prompt API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-02T22:04:58.391575154Z",
+  "last_updated": "2026-05-02T23:07:32.799058682Z",
   "total_count": 100
 }
