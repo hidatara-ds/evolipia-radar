@@ -227,20 +227,6 @@
       ]
     },
     {
-      "id": "b85131d6-aa01-4318-87bb-0cde5183b453",
-      "title": "GPT‑5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
-      "domain": "openai.com",
-      "published_at": "2026-04-25T14:17:31Z",
-      "category": "tech",
-      "score": 0.37689942652433656,
-      "tldr": "GPT‑5.5 Bio Bug Bounty",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "dcd7de67-6ef4-4560-a9cb-e076bb40575f",
       "title": "Belgium stops decommissioning nuclear power plants",
       "url": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717",
@@ -378,20 +364,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "8671c3fa-5689-47e0-bae9-0d2a96796cca",
-      "title": "GPT 5.5 biosafety bounty",
-      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
-      "domain": "openai.com",
-      "published_at": "2026-04-25T14:17:31Z",
-      "category": "tech",
-      "score": 0.34457607195939444,
-      "tldr": "GPT 5.5 biosafety bounty",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -797,6 +769,20 @@
       "category": "tech",
       "score": 0.29143841487341615,
       "tldr": "UAE Leaves OPEC and OPEC+",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "77ecc497-ec90-4a84-bc85-7f9cea01911e",
+      "title": "Open Design: Use Your Coding Agent as a Design Engine",
+      "url": "https://github.com/nexu-io/open-design",
+      "domain": "github.com",
+      "published_at": "2026-05-02T12:16:16Z",
+      "category": "tech",
+      "score": 0.2877433403141134,
+      "tldr": "Open Design: Use Your Coding Agent as a Design Engine",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1404,8 +1390,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "20cadc5c-648c-4a69-851d-ac543e7e232a",
+      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "url": "https://github.com/evanklem/evanflow",
+      "domain": "github.com",
+      "published_at": "2026-04-27T01:56:39Z",
+      "category": "tech",
+      "score": 0.2588947637019438,
+      "tldr": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-02T12:43:34.447842864Z",
+  "last_updated": "2026-05-02T15:10:24.519400617Z",
   "total_count": 100
 }
