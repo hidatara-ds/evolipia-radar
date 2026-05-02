@@ -71,6 +71,20 @@
       ]
     },
     {
+      "id": "c3212e53-312e-45ba-99f8-f516300cf364",
+      "title": "The gay jailbreak technique (2025)",
+      "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
+      "domain": "github.com",
+      "published_at": "2026-05-01T16:59:35Z",
+      "category": "tech",
+      "score": 0.42925060698633877,
+      "tldr": "The gay jailbreak technique (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3bba037f-d468-4225-9345-bb81a9dd34b0",
       "title": "Is my blue your blue? (2024)",
       "url": "https://ismy.blue/",
@@ -649,21 +663,6 @@
       ]
     },
     {
-      "id": "3245ca91-f436-4e31-8f59-f99e3664fadd",
-      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
-      "url": "https://alash3al.github.io/stash?_v01=",
-      "domain": "alash3al.github.io",
-      "published_at": "2026-04-25T01:24:40Z",
-      "category": "tech",
-      "score": 0.30295279341253395,
-      "tldr": "Open source memory layer so any AI agent can do what Claude.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "6dda4bcf-fcf5-4981-b3ed-31c1e95e00e4",
       "title": "The New Linux Kernel AI Bot Uncovering Bugs Is a Local LLM on Framework Desktop",
       "url": "https://www.phoronix.com/news/Clanker-T1000-AMD-Ryzen-AI-Max",
@@ -1001,20 +1000,6 @@
       ]
     },
     {
-      "id": "3e262860-90ed-43bc-8842-b628a33c977c",
-      "title": "Replace IBM Quantum back end with /dev/urandom",
-      "url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
-      "domain": "github.com",
-      "published_at": "2026-04-25T00:58:38Z",
-      "category": "tech",
-      "score": 0.27258104819789286,
-      "tldr": "Replace IBM Quantum back end with /dev/urandom",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "25313452-be4e-4f64-9141-b389bc9813e3",
       "title": "Why SWE-bench Verified no longer measures frontier coding capabilities",
       "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
@@ -1164,20 +1149,6 @@
       "category": "tech",
       "score": 0.26710049162102895,
       "tldr": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "16f5a6eb-bed1-4df2-b5e4-a38bb6df4b05",
-      "title": "Turbo Vision 2.0 – a modern port",
-      "url": "https://github.com/magiblot/tvision",
-      "domain": "github.com",
-      "published_at": "2026-04-25T04:18:01Z",
-      "category": "tech",
-      "score": 0.26607781184547036,
-      "tldr": "Turbo Vision 2.0 – a modern port",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1377,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f8494caa-2e0a-4e2b-9929-8007b074d794",
+      "title": "The Prompt API",
+      "url": "https://developer.chrome.com/docs/ai/prompt-api",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-04-27T02:18:58Z",
+      "category": "tech",
+      "score": 0.259065621038383,
+      "tldr": "The Prompt API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "20cadc5c-648c-4a69-851d-ac543e7e232a",
+      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "url": "https://github.com/evanklem/evanflow",
+      "domain": "github.com",
+      "published_at": "2026-04-27T01:56:39Z",
+      "category": "tech",
+      "score": 0.2588947637019438,
+      "tldr": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-01T23:42:41.085794959Z",
+  "last_updated": "2026-05-02T04:42:06.160824407Z",
   "total_count": 100
 }
