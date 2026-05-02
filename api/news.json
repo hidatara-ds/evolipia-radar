@@ -859,6 +859,20 @@
       ]
     },
     {
+      "id": "416dd4f0-4108-471a-bcf2-4ffabb961054",
+      "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+      "url": "https://github.com/microsoft/vscode/pull/310226",
+      "domain": "github.com",
+      "published_at": "2026-05-02T19:57:26Z",
+      "category": "tech",
+      "score": 0.2842248492830462,
+      "tldr": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "310c821e-ac85-4d0b-b712-8a0d9ab303c1",
       "title": "We decreased our LLM costs with Opus",
       "url": "https://www.mendral.com/blog/frontier-model-lower-costs",
@@ -1390,22 +1404,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "89fb6057-346f-4b5d-a5a8-375fd0b51f36",
-      "title": "USB Cheat Sheet (2022)",
-      "url": "https://fabiensanglard.net/usbcheat/index.html",
-      "domain": "fabiensanglard.net",
-      "published_at": "2026-04-25T21:51:18Z",
-      "category": "tech",
-      "score": 0.25908995243024013,
-      "tldr": "USB Cheat Sheet (2022)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-02T20:31:44.649167889Z",
+  "last_updated": "2026-05-02T21:09:26.746329528Z",
   "total_count": 100
 }
