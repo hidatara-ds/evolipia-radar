@@ -127,6 +127,20 @@
       ]
     },
     {
+      "id": "c4e7aefe-5875-47c6-8cd0-1898d7189859",
+      "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-02T15:28:13Z",
+      "category": "tech",
+      "score": 0.40023081365513924,
+      "tldr": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f5b58f83-acc9-4e53-92cc-de1ddff93c76",
       "title": "Can I disable all data collection from my vehicle?",
       "url": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
@@ -589,20 +603,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "mlops"
-      ]
-    },
-    {
-      "id": "c49614f2-bb27-4dfa-91d0-d96741cea768",
-      "title": "Amateur armed with ChatGPT solves an Erdős problem",
-      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem",
-      "domain": "scientificamerican.com",
-      "published_at": "2026-04-25T17:40:38Z",
-      "category": "tech",
-      "score": 0.30684219008058305,
-      "tldr": "Amateur armed with ChatGPT solves an Erdős problem",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1406,6 +1406,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-02T17:11:44.187815764Z",
+  "last_updated": "2026-05-02T18:07:07.794085032Z",
   "total_count": 100
 }
