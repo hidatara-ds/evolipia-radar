@@ -565,6 +565,20 @@
       ]
     },
     {
+      "id": "edabe084-4ca9-4d62-aa9a-6293983e5030",
+      "title": "K3k: Kubernetes in Kubernetes",
+      "url": "https://github.com/rancher/k3k",
+      "domain": "github.com",
+      "published_at": "2026-05-02T04:00:42Z",
+      "category": "tech",
+      "score": 0.3237183800901804,
+      "tldr": "K3k: Kubernetes in Kubernetes",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
+      ]
+    },
+    {
       "id": "b3003ade-096c-407e-af14-7d2c9f82282a",
       "title": "Apple accidentally left Claude.md files Apple Support app",
       "url": "https://x.com/aaronp613/status/2049986504617820551",
@@ -924,6 +938,20 @@
       "category": "tech",
       "score": 0.27846476062958614,
       "tldr": "GitHub is having issues now",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "dec8f8d0-cbad-40bc-b64c-f9c0c78fbdbc",
+      "title": "Ask.com has closed",
+      "url": "https://www.ask.com/",
+      "domain": "ask.com",
+      "published_at": "2026-05-02T04:12:35Z",
+      "category": "tech",
+      "score": 0.27838681166183565,
+      "tldr": "Ask.com has closed",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f8494caa-2e0a-4e2b-9929-8007b074d794",
-      "title": "The Prompt API",
-      "url": "https://developer.chrome.com/docs/ai/prompt-api",
-      "domain": "developer.chrome.com",
-      "published_at": "2026-04-27T02:18:58Z",
-      "category": "tech",
-      "score": 0.259065621038383,
-      "tldr": "The Prompt API",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "20cadc5c-648c-4a69-851d-ac543e7e232a",
-      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
-      "url": "https://github.com/evanklem/evanflow",
-      "domain": "github.com",
-      "published_at": "2026-04-27T01:56:39Z",
-      "category": "tech",
-      "score": 0.2588947637019438,
-      "tldr": "EvanFlow – A TDD driven feedback loop for Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-02T04:42:06.160824407Z",
+  "last_updated": "2026-05-02T06:56:39.971090659Z",
   "total_count": 100
 }
