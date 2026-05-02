@@ -311,6 +311,20 @@
       ]
     },
     {
+      "id": "f82a75f0-8c50-4785-b4c7-3fc7e407d607",
+      "title": "LLMs consistently pick resumes they generate over ones by humans or other models",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-02T15:28:13Z",
+      "category": "tech",
+      "score": 0.3580474485727635,
+      "tldr": "LLMs consistently pick resumes they generate over ones by humans or other models",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "f20b8977-060e-47df-8cbc-db8a6dcf581e",
       "title": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
       "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
@@ -544,20 +558,6 @@
       "category": "tech",
       "score": 0.321824103286439,
       "tldr": "Apple accidentally left Claude. md files Apple Support app",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7da7370a-03a9-4d76-bf2b-0a88889387f8",
-      "title": "Niri 26.04: Scrollable-tiling Wayland compositor",
-      "url": "https://github.com/niri-wm/niri/releases/tag/v26.04",
-      "domain": "github.com",
-      "published_at": "2026-04-25T15:59:15Z",
-      "category": "tech",
-      "score": 0.3142817587899351,
-      "tldr": "04: Scrollable-tiling Wayland compositor",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,6 +1406,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-02T15:10:24.519400617Z",
+  "last_updated": "2026-05-02T16:06:21.173541034Z",
   "total_count": 100
 }
