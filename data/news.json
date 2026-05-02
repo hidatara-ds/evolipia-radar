@@ -156,21 +156,6 @@
       ]
     },
     {
-      "id": "c5c0a8a2-1b8c-47d5-9aa0-0b686da287ff",
-      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-      "url": "https://github.com/nex-crm/wuphf",
-      "domain": "github.com",
-      "published_at": "2026-04-25T08:53:53Z",
-      "category": "tech",
-      "score": 0.3910106017089185,
-      "tldr": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "general_ai"
-      ]
-    },
-    {
       "id": "c1a9d6fc-4ca5-4efc-bdec-898b1ef0435d",
       "title": "Online age verification is the hill to die on",
       "url": "https://x.com/GlennMeder/status/2049088498163216560",
@@ -1405,8 +1390,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f8494caa-2e0a-4e2b-9929-8007b074d794",
+      "title": "The Prompt API",
+      "url": "https://developer.chrome.com/docs/ai/prompt-api",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-04-27T02:18:58Z",
+      "category": "tech",
+      "score": 0.259065621038383,
+      "tldr": "The Prompt API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-02T08:18:06.049161108Z",
+  "last_updated": "2026-05-02T09:38:15.701126916Z",
   "total_count": 100
 }
