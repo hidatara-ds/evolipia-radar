@@ -381,20 +381,6 @@
       ]
     },
     {
-      "id": "e4fe7e8c-02c4-4e31-bd7d-9564c0d03ba4",
-      "title": "Issue links now open in a popup",
-      "url": "https://github.com/orgs/community/discussions/192666",
-      "domain": "github.com",
-      "published_at": "2026-04-26T14:18:38Z",
-      "category": "tech",
-      "score": 0.34372978251772457,
-      "tldr": "Issue links now open in a popup",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "afb432ae-0e00-4f18-8028-264b852b98fa",
       "title": "Regression: malware reminder on every read still causes subagent refusals",
       "url": "https://github.com/anthropics/claude-code/issues/49363",
@@ -1404,8 +1390,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "f8494caa-2e0a-4e2b-9929-8007b074d794",
+      "title": "The Prompt API",
+      "url": "https://developer.chrome.com/docs/ai/prompt-api",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-04-27T02:18:58Z",
+      "category": "tech",
+      "score": 0.259065621038383,
+      "tldr": "The Prompt API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-03T14:05:56.390702584Z",
+  "last_updated": "2026-05-03T16:06:56.497004052Z",
   "total_count": 100
 }
