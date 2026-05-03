@@ -339,20 +339,6 @@
       ]
     },
     {
-      "id": "df01e351-4dcc-4da8-9c94-074021354628",
-      "title": "GoDaddy gave a domain to a stranger without any documentation",
-      "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation",
-      "domain": "anchor.host",
-      "published_at": "2026-04-26T16:57:56Z",
-      "category": "tech",
-      "score": 0.3520980835776638,
-      "tldr": "GoDaddy gave a domain to a stranger without any documentation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "55e72ff8-47f9-4f30-abcf-4d9ae906918e",
       "title": "Microsoft VibeVoice: Open-Source Frontier Voice AI",
       "url": "https://github.com/microsoft/VibeVoice",
@@ -1404,8 +1390,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "20cadc5c-648c-4a69-851d-ac543e7e232a",
+      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "url": "https://github.com/evanklem/evanflow",
+      "domain": "github.com",
+      "published_at": "2026-04-27T01:56:39Z",
+      "category": "tech",
+      "score": 0.2588947637019438,
+      "tldr": "EvanFlow – A TDD driven feedback loop for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-03T16:06:56.497004052Z",
+  "last_updated": "2026-05-03T17:13:21.730506341Z",
   "total_count": 100
 }
