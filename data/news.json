@@ -395,20 +395,6 @@
       ]
     },
     {
-      "id": "05878f57-2a08-4d21-bf6d-d28f9ad8678c",
-      "title": "SWE-bench Verified no longer measures frontier coding capabilities",
-      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
-      "domain": "openai.com",
-      "published_at": "2026-04-26T13:58:13Z",
-      "category": "tech",
-      "score": 0.3401778384723959,
-      "tldr": "SWE-bench Verified no longer measures frontier coding capabilities",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "afb432ae-0e00-4f18-8028-264b852b98fa",
       "title": "Regression: malware reminder on every read still causes subagent refusals",
       "url": "https://github.com/anthropics/claude-code/issues/49363",
@@ -1069,20 +1055,6 @@
       ]
     },
     {
-      "id": "25313452-be4e-4f64-9141-b389bc9813e3",
-      "title": "Why SWE-bench Verified no longer measures frontier coding capabilities",
-      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
-      "domain": "openai.com",
-      "published_at": "2026-04-26T13:58:13Z",
-      "category": "tech",
-      "score": 0.2721274911135957,
-      "tldr": "Why SWE-bench Verified no longer measures frontier coding capabilities",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d32bd55a-7ad6-4b97-973a-221c029f3eee",
       "title": "Credit cards are vulnerable to brute force kind attacks",
       "url": "https://metin.nextc.org/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks.html",
@@ -1404,8 +1376,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e23c74d8-12f9-4245-a611-49b35699d09c",
+      "title": "Show HN: My Private GitHub on Postgres",
+      "url": "https://github.com/calebwin/gitgres",
+      "domain": "github.com",
+      "published_at": "2026-05-01T17:40:15Z",
+      "category": "tech",
+      "score": 0.25951993088480535,
+      "tldr": "Show HN: My Private GitHub on Postgres",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a65122d3-27d1-455c-9925-2247cada3830",
+      "title": "Mistral Medium 3.5",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "domain": "mistral.ai",
+      "published_at": "2026-04-29T15:17:46Z",
+      "category": "tech",
+      "score": 0.2593498723583797,
+      "tldr": "Mistral Medium 3.5",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-05-03T11:35:14.387260733Z",
+  "last_updated": "2026-05-03T14:05:56.390702584Z",
   "total_count": 100
 }
