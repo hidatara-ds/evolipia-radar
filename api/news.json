@@ -592,21 +592,6 @@
       ]
     },
     {
-      "id": "6dda4bcf-fcf5-4981-b3ed-31c1e95e00e4",
-      "title": "The New Linux Kernel AI Bot Uncovering Bugs Is a Local LLM on Framework Desktop",
-      "url": "https://www.phoronix.com/news/Clanker-T1000-AMD-Ryzen-AI-Max",
-      "domain": "phoronix.com",
-      "published_at": "2026-04-26T21:00:38Z",
-      "category": "tech",
-      "score": 0.30218659052499564,
-      "tldr": "The New Linux Kernel AI Bot Uncovering Bugs Is a Local LLM on Framework Desktop",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "a6c04a83-fa4c-48a9-9900-2ecdce6540cc",
       "title": "To my students",
       "url": "http://ozark.hendrix.edu/~yorgey/forest/00FD/index.xml",
@@ -803,20 +788,6 @@
       ]
     },
     {
-      "id": "2cf134c5-dca6-46e1-8695-f89ce31a15c0",
-      "title": "AI should elevate your thinking, not replace it",
-      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it",
-      "domain": "koshyjohn.com",
-      "published_at": "2026-04-26T20:03:12Z",
-      "category": "tech",
-      "score": 0.28655893194112636,
-      "tldr": "AI should elevate your thinking, not replace it",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "cf43d70e-b5ec-4ec9-be54-278ea80b0de6",
       "title": "CopyFail was not disclosed to Gentoo developer",
       "url": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
@@ -884,6 +855,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data"
+      ]
+    },
+    {
+      "id": "1c5bc90e-074f-4106-acaa-fc0ddedac6c1",
+      "title": "Statue of a man blinded by a flag put up by Banksy in central London",
+      "url": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662",
+      "domain": "smithsonianmag.com",
+      "published_at": "2026-05-03T18:54:28Z",
+      "category": "tech",
+      "score": 0.2824287013446621,
+      "tldr": "Statue of a man blinded by a flag put up by Banksy in central London",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1168,20 +1153,6 @@
       ]
     },
     {
-      "id": "3372ac80-8504-4e21-be7f-855784356f35",
-      "title": "Show HN: AI memory with biological decay (52% recall)",
-      "url": "https://github.com/sachitrafa/YourMemory",
-      "domain": "github.com",
-      "published_at": "2026-04-26T20:58:31Z",
-      "category": "tech",
-      "score": 0.26544165180540336,
-      "tldr": "Show HN: AI memory with biological decay (52% recall)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "755ee566-86a7-457f-b4af-d8853c8a632e",
       "title": "Period tracking app has been selling data to Meta",
       "url": "https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been",
@@ -1404,8 +1375,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e9ed359a-ba17-4906-b6e2-0514a6684cb3",
+      "title": "Show HN: The Unix Magic poster, annotated (updated)",
+      "url": "https://github.com/drio/unixmagic",
+      "domain": "github.com",
+      "published_at": "2026-04-27T01:32:44Z",
+      "category": "tech",
+      "score": 0.2578747776624638,
+      "tldr": "Show HN: The Unix Magic poster, annotated (updated)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0077693d-d759-4094-88e5-2482ce3f5bfb",
+      "title": "For the average price of a car in the US, you could buy 4 new Chinese EVs",
+      "url": "https://english.kyodonews.net/articles/-/75029",
+      "domain": "english.kyodonews.net",
+      "published_at": "2026-04-28T05:23:27Z",
+      "category": "tech",
+      "score": 0.2571266861130594,
+      "tldr": "For the average price of a car in the US, you could buy 4 new Chinese EVs",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-03T19:32:16.352558596Z",
+  "last_updated": "2026-05-03T22:30:13.068563234Z",
   "total_count": 100
 }
