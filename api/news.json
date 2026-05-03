@@ -522,6 +522,20 @@
       ]
     },
     {
+      "id": "865dc4c1-dc96-41dd-a15e-2ae532616836",
+      "title": "Learning Pseudorandom Numbers with Transformers",
+      "url": "https://arxiv.org/abs/2510.26792",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-03T07:21:50Z",
+      "category": "tech",
+      "score": 0.32573843730236635,
+      "tldr": "Learning Pseudorandom Numbers with Transformers",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "cb0cb0d8-3528-4670-aeb0-c4a3e238db05",
       "title": "Xmemory: Benchmarking Structured AI Memory Against RAG and Hybrid RAG",
       "url": "https://arxiv.org/abs/2604.27906",
@@ -747,6 +761,20 @@
       ]
     },
     {
+      "id": "ee474f73-1764-46c8-937a-4ba5ef8b9b2a",
+      "title": "This Month in Ladybird – April 2026",
+      "url": "https://ladybird.org/newsletter/2026-04-30",
+      "domain": "ladybird.org",
+      "published_at": "2026-05-02T20:46:30Z",
+      "category": "tech",
+      "score": 0.2956164578857037,
+      "tldr": "This Month in Ladybird – April 2026",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e00f4fda-2921-4b58-8ec1-929538365379",
       "title": "UAE to leave OPEC",
       "url": "https://www.ft.com/content/8c354f2d-3e66-47f1-aad4-9b4aa30e386d",
@@ -755,6 +783,20 @@
       "category": "tech",
       "score": 0.2947530376460596,
       "tldr": "UAE to leave OPEC",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f6ba5b4b-53f6-4249-803f-282a37a80371",
+      "title": "DeepSeek V4 – almost on the frontier",
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4",
+      "domain": "simonwillison.net",
+      "published_at": "2026-05-01T16:52:43Z",
+      "category": "tech",
+      "score": 0.2941402963832771,
+      "tldr": "DeepSeek V4 – almost on the frontier",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1362,50 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e23c74d8-12f9-4245-a611-49b35699d09c",
-      "title": "Show HN: My Private GitHub on Postgres",
-      "url": "https://github.com/calebwin/gitgres",
-      "domain": "github.com",
-      "published_at": "2026-05-01T17:40:15Z",
-      "category": "tech",
-      "score": 0.25951993088480535,
-      "tldr": "Show HN: My Private GitHub on Postgres",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a65122d3-27d1-455c-9925-2247cada3830",
-      "title": "Mistral Medium 3.5",
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
-      "domain": "mistral.ai",
-      "published_at": "2026-04-29T15:17:46Z",
-      "category": "tech",
-      "score": 0.2593498723583797,
-      "tldr": "Mistral Medium 3.5",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f8494caa-2e0a-4e2b-9929-8007b074d794",
-      "title": "The Prompt API",
-      "url": "https://developer.chrome.com/docs/ai/prompt-api",
-      "domain": "developer.chrome.com",
-      "published_at": "2026-04-27T02:18:58Z",
-      "category": "tech",
-      "score": 0.259065621038383,
-      "tldr": "The Prompt API",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-03T08:30:04.816006085Z",
+  "last_updated": "2026-05-03T10:43:57.940814567Z",
   "total_count": 100
 }
