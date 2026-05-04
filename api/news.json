@@ -127,20 +127,6 @@
       ]
     },
     {
-      "id": "8bdf5b70-56a8-4f30-96cc-366d02610507",
-      "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
-      "domain": "bloomberg.com",
-      "published_at": "2026-04-27T13:22:42Z",
-      "category": "tech",
-      "score": 0.405417423379396,
-      "tldr": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c4e7aefe-5875-47c6-8cd0-1898d7189859",
       "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
       "url": "https://arxiv.org/abs/2509.00462",
@@ -279,6 +265,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "857c8459-7eee-460e-b4a2-6b4a71aea9b9",
+      "title": "Removable batteries in smartphones will be mandatory in the EU starting in 2027",
+      "url": "https://www.ecopv-eu.com/en/blog-en/replaceable-smartphone-batteries-2027-eu-regulation",
+      "domain": "ecopv-eu.com",
+      "published_at": "2026-05-04T15:10:41Z",
+      "category": "tech",
+      "score": 0.3735972707456537,
+      "tldr": "Removable batteries in smartphones will be mandatory in the EU starting in 2027",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -464,6 +464,20 @@
       ]
     },
     {
+      "id": "25babf72-d898-4516-9342-ecfa02e0d189",
+      "title": "PyInfra 3.8.0 Is Out",
+      "url": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
+      "domain": "github.com",
+      "published_at": "2026-05-04T12:53:46Z",
+      "category": "tech",
+      "score": 0.3246800579502749,
+      "tldr": "PyInfra 3.8.0 Is Out",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "edabe084-4ca9-4d62-aa9a-6293983e5030",
       "title": "K3k: Kubernetes in Kubernetes",
       "url": "https://github.com/rancher/k3k",
@@ -640,34 +654,6 @@
       "category": "tech",
       "score": 0.29671942327908607,
       "tldr": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8d7f65c6-2c3f-46fb-bb4f-284ea60112ea",
-      "title": "The next phase of the Microsoft OpenAI partnership – OpenAI",
-      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
-      "domain": "openai.com",
-      "published_at": "2026-04-27T13:24:15Z",
-      "category": "tech",
-      "score": 0.29648489935655115,
-      "tldr": "The next phase of the Microsoft OpenAI partnership – OpenAI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "66923b28-3a8a-4025-a6da-30594b289bf9",
-      "title": "GitHub Copilot is moving to usage-based billing",
-      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing",
-      "domain": "github.blog",
-      "published_at": "2026-04-27T16:03:08Z",
-      "category": "tech",
-      "score": 0.2963025010551019,
-      "tldr": "GitHub Copilot is moving to usage-based billing",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1235,6 +1221,20 @@
       ]
     },
     {
+      "id": "8905a558-0fb7-419d-8bc3-55178a76abb2",
+      "title": "DAG Workflow Engine",
+      "url": "https://github.com/vivekg13186/Daisy-DAG",
+      "domain": "github.com",
+      "published_at": "2026-05-04T12:32:00Z",
+      "category": "tech",
+      "score": 0.26372343341023713,
+      "tldr": "DAG Workflow Engine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e8f32560-04dc-4853-abfd-937d1eb507f6",
       "title": "Waymo in Portland",
       "url": "https://waymo.com/blog/shorts/waymo-in-portland",
@@ -1375,20 +1375,6 @@
       ]
     },
     {
-      "id": "c6c0b4ea-9997-4dfd-9a91-0d4aff3522b7",
-      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
-      "url": "https://deepmind.google/blog/decoupled-diloco",
-      "domain": "deepmind.google",
-      "published_at": "2026-04-27T16:57:34Z",
-      "category": "tech",
-      "score": 0.25613855804459745,
-      "tldr": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d30cec75-353c-4bad-8fc8-7a62e9fd3fb9",
       "title": "whohas – Command-line utility for cross-distro, cross-repository package search",
       "url": "https://github.com/whohas/whohas",
@@ -1401,8 +1387,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "0aee0808-8e2c-4708-8303-34f1e05015da",
+      "title": "Systemd-manager-TUI: A TUI application for managing systemd services",
+      "url": "https://github.com/Matheus-git/systemd-manager-tui",
+      "domain": "github.com",
+      "published_at": "2026-05-03T10:55:30Z",
+      "category": "tech",
+      "score": 0.25568136529670205,
+      "tldr": "Systemd-manager-TUI: A TUI application for managing systemd services",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-04T13:20:13.117460046Z",
+  "last_updated": "2026-05-04T17:11:52.386428489Z",
   "total_count": 100
 }
