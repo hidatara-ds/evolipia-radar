@@ -802,6 +802,20 @@
       ]
     },
     {
+      "id": "de7427fe-795c-4087-a679-2d8a42378b6b",
+      "title": "OpenAI’s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
+      "domain": "theguardian.com",
+      "published_at": "2026-05-03T00:30:50Z",
+      "category": "tech",
+      "score": 0.2900764146829357,
+      "tldr": "OpenAI’s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "77ecc497-ec90-4a84-bc85-7f9cea01911e",
       "title": "Open Design: Use Your Coding Agent as a Design Engine",
       "url": "https://github.com/nexu-io/open-design",
@@ -1389,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "0077693d-d759-4094-88e5-2482ce3f5bfb",
-      "title": "For the average price of a car in the US, you could buy 4 new Chinese EVs",
-      "url": "https://english.kyodonews.net/articles/-/75029",
-      "domain": "english.kyodonews.net",
-      "published_at": "2026-04-28T05:23:27Z",
-      "category": "tech",
-      "score": 0.2571266861130594,
-      "tldr": "For the average price of a car in the US, you could buy 4 new Chinese EVs",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-04T07:30:47.927469885Z",
+  "last_updated": "2026-05-04T09:37:30.001478477Z",
   "total_count": 100
 }
