@@ -578,6 +578,20 @@
       ]
     },
     {
+      "id": "47d9d2f2-0ae2-41c9-a4a5-c7cc09d3a357",
+      "title": "Let's Buy Spirit Air",
+      "url": "https://letsbuyspiritair.com/",
+      "domain": "letsbuyspiritair.com",
+      "published_at": "2026-05-03T23:36:11Z",
+      "category": "tech",
+      "score": 0.3107138555501931,
+      "tldr": "Let's Buy Spirit Air",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c1eff399-71f4-415e-980c-1b919250b392",
       "title": "DeepSeek V4—almost on the frontier",
       "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4",
@@ -1349,34 +1363,6 @@
       ]
     },
     {
-      "id": "f8494caa-2e0a-4e2b-9929-8007b074d794",
-      "title": "The Prompt API",
-      "url": "https://developer.chrome.com/docs/ai/prompt-api",
-      "domain": "developer.chrome.com",
-      "published_at": "2026-04-27T02:18:58Z",
-      "category": "tech",
-      "score": 0.259065621038383,
-      "tldr": "The Prompt API",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "20cadc5c-648c-4a69-851d-ac543e7e232a",
-      "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
-      "url": "https://github.com/evanklem/evanflow",
-      "domain": "github.com",
-      "published_at": "2026-04-27T01:56:39Z",
-      "category": "tech",
-      "score": 0.2588947637019438,
-      "tldr": "EvanFlow – A TDD driven feedback loop for Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9f6f7300-9d93-4702-b690-b87f8a8eec54",
       "title": "Vera: a programming language designed for machines to write",
       "url": "https://github.com/aallan/vera",
@@ -1391,20 +1377,34 @@
       ]
     },
     {
-      "id": "e9ed359a-ba17-4906-b6e2-0514a6684cb3",
-      "title": "Show HN: The Unix Magic poster, annotated (updated)",
-      "url": "https://github.com/drio/unixmagic",
-      "domain": "github.com",
-      "published_at": "2026-04-27T01:32:44Z",
+      "id": "0077693d-d759-4094-88e5-2482ce3f5bfb",
+      "title": "For the average price of a car in the US, you could buy 4 new Chinese EVs",
+      "url": "https://english.kyodonews.net/articles/-/75029",
+      "domain": "english.kyodonews.net",
+      "published_at": "2026-04-28T05:23:27Z",
       "category": "tech",
-      "score": 0.2578747776624638,
-      "tldr": "Show HN: The Unix Magic poster, annotated (updated)",
+      "score": 0.2571266861130594,
+      "tldr": "For the average price of a car in the US, you could buy 4 new Chinese EVs",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9662c29b-7b89-42f0-b0fb-8867312a0412",
+      "title": "Dav2d",
+      "url": "https://code.videolan.org/videolan/dav2d",
+      "domain": "code.videolan.org",
+      "published_at": "2026-05-02T17:32:29Z",
+      "category": "tech",
+      "score": 0.2562713520601153,
+      "tldr": "Dav2d",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-05-04T00:09:00.021157851Z",
+  "last_updated": "2026-05-04T04:15:42.753633377Z",
   "total_count": 100
 }
