@@ -380,20 +380,6 @@
       ]
     },
     {
-      "id": "f1d37818-2590-4abf-b24c-e9588175e54b",
-      "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
-      "url": "https://github.com/dirac-run/dirac",
-      "domain": "github.com",
-      "published_at": "2026-04-27T12:35:55Z",
-      "category": "tech",
-      "score": 0.33100700407594524,
-      "tldr": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "c01bbb7e-3bdd-495e-b192-a1581268182a",
       "title": "Meta in row after workers who saw smart glasses users having sex lose jobs",
       "url": "https://www.bbc.com/news/articles/c5y7yvgy0w6o",
@@ -1291,20 +1277,6 @@
       ]
     },
     {
-      "id": "db8b759a-bef1-49f1-b899-12f06e58a67e",
-      "title": "Running Local LLMs Offline on a Ten-Hour Flight",
-      "url": "https://deploy.live/blog/running-local-llms-offline-on-a-ten-hour-flight",
-      "domain": "deploy.live",
-      "published_at": "2026-04-27T13:05:59Z",
-      "category": "tech",
-      "score": 0.2602297608733153,
-      "tldr": "Running Local LLMs Offline on a Ten-Hour Flight",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "0e162d22-3c66-485b-b38c-e115a55390cf",
       "title": "Show HN: Rocky – Rust SQL engine with branches, replay, column lineage",
       "url": "https://github.com/rocky-data/rocky",
@@ -1401,8 +1373,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c6c0b4ea-9997-4dfd-9a91-0d4aff3522b7",
+      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
+      "url": "https://deepmind.google/blog/decoupled-diloco",
+      "domain": "deepmind.google",
+      "published_at": "2026-04-27T16:57:34Z",
+      "category": "tech",
+      "score": 0.25613855804459745,
+      "tldr": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d30cec75-353c-4bad-8fc8-7a62e9fd3fb9",
+      "title": "whohas – Command-line utility for cross-distro, cross-repository package search",
+      "url": "https://github.com/whohas/whohas",
+      "domain": "github.com",
+      "published_at": "2026-05-01T15:01:08Z",
+      "category": "tech",
+      "score": 0.25586655467831443,
+      "tldr": "whohas – Command-line utility for cross-distro, cross-repository package search",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-04T11:31:45.208081923Z",
+  "last_updated": "2026-05-04T13:20:13.117460046Z",
   "total_count": 100
 }
