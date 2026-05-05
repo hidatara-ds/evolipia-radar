@@ -43,6 +43,20 @@
       ]
     },
     {
+      "id": "351a53d6-e526-41fd-ae6e-77f9bf4d2588",
+      "title": "Zig → Rust porting guide",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "domain": "github.com",
+      "published_at": "2026-05-05T01:08:17Z",
+      "category": "tech",
+      "score": 0.5412208262359661,
+      "tldr": "Zig → Rust porting guide",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e05d3bb2-f4bb-463a-b786-5ad06aa760b9",
       "title": "Copy Fail",
       "url": "https://copy.fail/",
@@ -366,6 +380,21 @@
       ]
     },
     {
+      "id": "d456d69c-15e6-45ff-ae2b-e124fc2bcf4c",
+      "title": "AI didn't delete your database, you did",
+      "url": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did",
+      "domain": "idiallo.com",
+      "published_at": "2026-05-05T14:07:50Z",
+      "category": "tech",
+      "score": 0.34613030022905833,
+      "tldr": "AI didn't delete your database, you did",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "data"
+      ]
+    },
+    {
       "id": "7ea651fe-c209-446e-80f1-af5cf7bace86",
       "title": "Days without GitHub incidents",
       "url": "https://www.dayswithoutgithubincident.com/",
@@ -543,6 +572,20 @@
       "score": 0.3255069315970316,
       "tldr": "Xmemory: Benchmarking Structured AI Memory Against RAG and Hybrid RAG",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4cbb1c4e-dbc1-4dce-8fde-92f9f61f70af",
+      "title": "The fun has been optimized out of the Internet",
+      "url": "https://muddy.jprs.me/posts/2026-05-03-the-best-is-over",
+      "domain": "muddy.jprs.me",
+      "published_at": "2026-05-05T14:29:24Z",
+      "category": "tech",
+      "score": 0.324779822549218,
+      "tldr": "The fun has been optimized out of the Internet",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -744,20 +787,6 @@
       ]
     },
     {
-      "id": "a398d9c6-aaff-4138-a86e-9d8d99daa1f6",
-      "title": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership",
-      "url": "https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity",
-      "domain": "vice.com",
-      "published_at": "2026-04-28T13:26:26Z",
-      "category": "tech",
-      "score": 0.29671942327908607,
-      "tldr": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f1eb6101-7090-4d46-9163-54bf04fff80e",
       "title": "How Mark Klein told the EFF about Room 641A [book excerpt]",
       "url": "https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine",
@@ -811,20 +840,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "ccf0af62-8c45-401f-89ec-371027de3b05",
-      "title": "UAE Leaves OPEC and OPEC+",
-      "url": "https://www.reuters.com/markets/commodities/uae-says-it-quits-opec-opec-statement-2026-04-28",
-      "domain": "reuters.com",
-      "published_at": "2026-04-28T13:13:54Z",
-      "category": "tech",
-      "score": 0.29143841487341615,
-      "tldr": "UAE Leaves OPEC and OPEC+",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1123,6 +1138,20 @@
       ]
     },
     {
+      "id": "1fc249b4-07ec-4c85-93b7-91f00ac37202",
+      "title": "Kids can bypass some age checks with a drawn-on mustache",
+      "url": "https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert",
+      "domain": "theregister.com",
+      "published_at": "2026-05-05T04:36:24Z",
+      "category": "tech",
+      "score": 0.272558416012423,
+      "tldr": "Kids can bypass some age checks with a drawn-on mustache",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d32bd55a-7ad6-4b97-973a-221c029f3eee",
       "title": "Credit cards are vulnerable to brute force kind attacks",
       "url": "https://metin.nextc.org/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks.html",
@@ -1222,20 +1251,6 @@
       ]
     },
     {
-      "id": "d8d5ccbd-8d33-4c61-8664-acbfec705229",
-      "title": "Your phone is about to stop being yours",
-      "url": "https://keepandroidopen.org/en",
-      "domain": "keepandroidopen.org",
-      "published_at": "2026-04-28T15:21:00Z",
-      "category": "tech",
-      "score": 0.2683374072159784,
-      "tldr": "Your phone is about to stop being yours",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "91283181-c640-4464-9302-8efbdd661ada",
       "title": "Stop big tech from making users behave in ways they don't want to",
       "url": "https://economist.com/by-invitation/2026/04/29/stop-big-tech-from-making-users-behave-in-ways-they-dont-want-to",
@@ -1300,6 +1315,20 @@
       "category": "tech",
       "score": 0.26710049162102895,
       "tldr": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "93578450-8144-47f1-9a7e-42f5334109f8",
+      "title": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4",
+      "domain": "blog.google",
+      "published_at": "2026-05-05T16:14:17Z",
+      "category": "tech",
+      "score": 0.26472274951927666,
+      "tldr": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1374,36 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2b0ec1db-3e52-4c33-8a03-4bf401729997",
-      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
-      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
-      "domain": "interfaze.ai",
-      "published_at": "2026-04-29T16:01:51Z",
-      "category": "tech",
-      "score": 0.2614558747391948,
-      "tldr": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "507650ad-7b3a-4ee6-a3d0-236f4ee13f17",
-      "title": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
-      "url": "https://walzr.com/empty-screenings",
-      "domain": "walzr.com",
-      "published_at": "2026-05-05T04:33:22Z",
-      "category": "tech",
-      "score": 0.26027353523438107,
-      "tldr": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-05T13:11:24.968457666Z",
+  "last_updated": "2026-05-05T17:01:43.182357071Z",
   "total_count": 100
 }
