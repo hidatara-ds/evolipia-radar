@@ -408,6 +408,20 @@
       ]
     },
     {
+      "id": "0e54c00f-6070-4985-a7cf-4564fa85dcff",
+      "title": "Transformers Are Inherently Succinct (2025)",
+      "url": "https://arxiv.org/abs/2510.19315",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-04T20:03:08Z",
+      "category": "tech",
+      "score": 0.3363479668068431,
+      "tldr": "Transformers Are Inherently Succinct (2025)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "df84977d-f23b-4033-ab1a-79f58f6b98d6",
       "title": "I am worried about Bun",
       "url": "https://wwj.dev/posts/i-am-worried-about-bun",
@@ -696,20 +710,6 @@
       "category": "tech",
       "score": 0.3052019016884909,
       "tldr": "Zed is 1.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a6c04a83-fa4c-48a9-9900-2ecdce6540cc",
-      "title": "To my students",
-      "url": "http://ozark.hendrix.edu/~yorgey/forest/00FD/index.xml",
-      "domain": "ozark.hendrix.edu",
-      "published_at": "2026-04-27T23:57:39Z",
-      "category": "tech",
-      "score": 0.30213422222018443,
-      "tldr": "To my students",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1018,6 +1018,20 @@
       "category": "tech",
       "score": 0.2799319479071103,
       "tldr": "How Monero’s proof of work works",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "78ec4612-9e9c-4eda-ac1b-5295e65ff5cc",
+      "title": "Bun is being ported from Zig to Rust",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "domain": "github.com",
+      "published_at": "2026-05-05T01:08:17Z",
+      "category": "tech",
+      "score": 0.27912673784151915,
+      "tldr": "Bun is being ported from Zig to Rust",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1387,22 +1401,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2b0ec1db-3e52-4c33-8a03-4bf401729997",
-      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
-      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
-      "domain": "interfaze.ai",
-      "published_at": "2026-04-29T16:01:51Z",
-      "category": "tech",
-      "score": 0.2614558747391948,
-      "tldr": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-04T23:43:05.486627902Z",
+  "last_updated": "2026-05-05T01:47:22.976164593Z",
   "total_count": 100
 }
