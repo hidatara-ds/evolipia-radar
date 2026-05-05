@@ -57,20 +57,6 @@
       ]
     },
     {
-      "id": "e9e42108-8bdf-4ef3-a03e-ee5d00b48758",
-      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
-      "url": "https://github.com/localsend/localsend",
-      "domain": "github.com",
-      "published_at": "2026-04-28T11:54:20Z",
-      "category": "tech",
-      "score": 0.4628421623267645,
-      "tldr": "Localsend: An open-source cross-platform alternative to AirDrop",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "da0f2c4e-e807-4790-9365-78544fd1ae85",
       "title": "HERMES.md: Anthropic bug causes $200 extra charge, refuses refund",
       "url": "https://github.com/anthropics/claude-code/issues/53262",
@@ -124,6 +110,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "a56dc040-6ec9-450d-a532-0c64b4073669",
+      "title": "A complete Llama2 inference engine that fits in 1356 bytes of x86 assembly",
+      "url": "https://github.com/rdmsr/sectorllm",
+      "domain": "github.com",
+      "published_at": "2026-05-05T06:53:34Z",
+      "category": "tech",
+      "score": 0.4006258642797084,
+      "tldr": "A complete Llama2 inference engine that fits in 1356 bytes of x86 assembly",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -194,20 +194,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "71fa405b-1114-4d76-9519-bf890d5353d3",
-      "title": "VibeVoice: Open-source frontier voice AI",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "domain": "github.com",
-      "published_at": "2026-04-28T11:56:04Z",
-      "category": "tech",
-      "score": 0.3823764851920719,
-      "tldr": "VibeVoice: Open-source frontier voice AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -349,20 +335,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "55e72ff8-47f9-4f30-abcf-4d9ae906918e",
-      "title": "Microsoft VibeVoice: Open-Source Frontier Voice AI",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "domain": "github.com",
-      "published_at": "2026-04-28T11:56:04Z",
-      "category": "tech",
-      "score": 0.35204101744787586,
-      "tldr": "Microsoft VibeVoice: Open-Source Frontier Voice AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -996,20 +968,6 @@
       ]
     },
     {
-      "id": "ac762767-2a39-412c-8fb3-4ef061b61171",
-      "title": "Period tracking app, Flo, found to be selling user data to Meta",
-      "url": "https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been",
-      "domain": "femtechdesigndesk.substack.com",
-      "published_at": "2026-04-28T11:31:40Z",
-      "category": "tech",
-      "score": 0.2825603765002205,
-      "tldr": "Period tracking app, Flo, found to be selling user data to Meta",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "1c5bc90e-074f-4106-acaa-fc0ddedac6c1",
       "title": "Statue of a man blinded by a flag put up by Banksy in central London",
       "url": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662",
@@ -1362,20 +1320,6 @@
       ]
     },
     {
-      "id": "755ee566-86a7-457f-b4af-d8853c8a632e",
-      "title": "Period tracking app has been selling data to Meta",
-      "url": "https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been",
-      "domain": "femtechdesigndesk.substack.com",
-      "published_at": "2026-04-28T11:31:40Z",
-      "category": "tech",
-      "score": 0.26524021696201017,
-      "tldr": "Period tracking app has been selling data to Meta",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "95da3a08-f1e6-4713-818e-5a44570ca98c",
       "title": "Neanderthals ran 'fat factories' 125k years ago (2025)",
       "url": "https://www.universiteitleiden.nl/en/news/2025/07/neanderthals-ran-fat-factories-125000-years-ago",
@@ -1402,8 +1346,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "51ae7788-7943-4903-993e-b69bfc11d315",
+      "title": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
+      "url": "https://github.com/microsoft/lib0xc",
+      "domain": "github.com",
+      "published_at": "2026-05-01T19:10:56Z",
+      "category": "tech",
+      "score": 0.2639985718231428,
+      "tldr": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8905a558-0fb7-419d-8bc3-55178a76abb2",
+      "title": "DAG Workflow Engine",
+      "url": "https://github.com/vivekg13186/Daisy-DAG",
+      "domain": "github.com",
+      "published_at": "2026-05-04T12:32:00Z",
+      "category": "tech",
+      "score": 0.26372343341023713,
+      "tldr": "DAG Workflow Engine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e8f32560-04dc-4853-abfd-937d1eb507f6",
+      "title": "Waymo in Portland",
+      "url": "https://waymo.com/blog/shorts/waymo-in-portland",
+      "domain": "waymo.com",
+      "published_at": "2026-04-28T18:08:13Z",
+      "category": "tech",
+      "score": 0.26316776628990307,
+      "tldr": "Waymo in Portland",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2b0ec1db-3e52-4c33-8a03-4bf401729997",
+      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+      "domain": "interfaze.ai",
+      "published_at": "2026-04-29T16:01:51Z",
+      "category": "tech",
+      "score": 0.2614558747391948,
+      "tldr": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-05-05T10:58:38.785324707Z",
+  "last_updated": "2026-05-05T11:56:56.46159185Z",
   "total_count": 100
 }
