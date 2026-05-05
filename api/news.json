@@ -409,6 +409,20 @@
       ]
     },
     {
+      "id": "45847788-295b-4473-9284-ac2350c137d6",
+      "title": "GPT‑5.5 Instant",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "domain": "openai.com",
+      "published_at": "2026-05-05T17:02:23Z",
+      "category": "tech",
+      "score": 0.33842358154687296,
+      "tldr": "GPT‑5.5 Instant",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "afb432ae-0e00-4f18-8028-264b852b98fa",
       "title": "Regression: malware reminder on every read still causes subagent refusals",
       "url": "https://github.com/anthropics/claude-code/issues/49363",
@@ -1082,48 +1096,6 @@
       ]
     },
     {
-      "id": "d86a29da-d4bd-4ec8-9f92-00d677d490b8",
-      "title": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
-      "url": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
-      "domain": "github.com",
-      "published_at": "2026-04-28T17:12:30Z",
-      "category": "tech",
-      "score": 0.2780914307607034,
-      "tldr": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3c750bc9-b461-413e-b40b-b6ead82f04b3",
-      "title": "Claude.ai unavailable and elevated errors on the API",
-      "url": "https://status.claude.com/incidents/9l93x2ht4s5w",
-      "domain": "status.claude.com",
-      "published_at": "2026-04-28T18:01:21Z",
-      "category": "tech",
-      "score": 0.27748820758625353,
-      "tldr": "ai unavailable and elevated errors on the API",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4f6bc007-15e6-4860-ba21-319119214c5d",
-      "title": "Warp is now Open-Source",
-      "url": "https://github.com/warpdotdev/warp",
-      "domain": "github.com",
-      "published_at": "2026-04-28T17:09:41Z",
-      "category": "tech",
-      "score": 0.27598657160475126,
-      "tldr": "Warp is now Open-Source",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "242c7cb9-d723-4091-b7a7-7ed7bc05c3d0",
       "title": "Show HN: Winpodx – run Windows apps on Linux as native windows",
       "url": "https://github.com/kernalix7/winpodx",
@@ -1279,20 +1251,6 @@
       ]
     },
     {
-      "id": "90a856d4-a594-4202-bc64-8e8b2ca9e15e",
-      "title": "BookStack Moves from GitHub to Codeberg",
-      "url": "https://github.com/BookStackApp/BookStack/issues/4551",
-      "domain": "github.com",
-      "published_at": "2026-04-28T17:29:11Z",
-      "category": "tech",
-      "score": 0.2677891553249458,
-      "tldr": "BookStack Moves from GitHub to Codeberg",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3884cbea-765f-4ac4-adbb-77526ead3ae3",
       "title": "1.4 GW: battery storage at former Grohnde nuclear power plant",
       "url": "https://www.heise.de/en/news/1-4-GW-Huge-battery-storage-at-former-Grohnde-nuclear-power-plant-11277367.html",
@@ -1391,20 +1349,62 @@
       ]
     },
     {
-      "id": "e8f32560-04dc-4853-abfd-937d1eb507f6",
-      "title": "Waymo in Portland",
-      "url": "https://waymo.com/blog/shorts/waymo-in-portland",
-      "domain": "waymo.com",
-      "published_at": "2026-04-28T18:08:13Z",
+      "id": "2b0ec1db-3e52-4c33-8a03-4bf401729997",
+      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+      "domain": "interfaze.ai",
+      "published_at": "2026-04-29T16:01:51Z",
       "category": "tech",
-      "score": 0.26316776628990307,
-      "tldr": "Waymo in Portland",
+      "score": 0.2614558747391948,
+      "tldr": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "507650ad-7b3a-4ee6-a3d0-236f4ee13f17",
+      "title": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
+      "url": "https://walzr.com/empty-screenings",
+      "domain": "walzr.com",
+      "published_at": "2026-05-05T04:33:22Z",
+      "category": "tech",
+      "score": 0.26027353523438107,
+      "tldr": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e60b0376-1467-466a-bb67-9ed7eb9c06cf",
+      "title": "Async Rust never left the MVP state",
+      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+      "domain": "tweedegolf.nl",
+      "published_at": "2026-05-05T07:26:03Z",
+      "category": "tech",
+      "score": 0.25988497125791876,
+      "tldr": "Async Rust never left the MVP state",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d2dcb688-fc71-4093-9d90-6cac769cb5a5",
+      "title": "Understand Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "domain": "github.com",
+      "published_at": "2026-05-01T17:27:03Z",
+      "category": "tech",
+      "score": 0.25962810408856885,
+      "tldr": "Understand Anything",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-05-05T17:01:43.182357071Z",
+  "last_updated": "2026-05-05T18:13:02.683675602Z",
   "total_count": 100
 }
