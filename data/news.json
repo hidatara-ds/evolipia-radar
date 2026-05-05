@@ -127,6 +127,20 @@
       ]
     },
     {
+      "id": "bbaf40df-0260-4117-ac45-60cb693e2866",
+      "title": ".de TLD offline due to DNSSEC?",
+      "url": "https://dnssec-analyzer.verisignlabs.com/nic.de",
+      "domain": "dnssec-analyzer.verisignlabs.com",
+      "published_at": "2026-05-05T20:16:35Z",
+      "category": "tech",
+      "score": 0.4117256369600919,
+      "tldr": "de TLD offline due to DNSSEC?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a56dc040-6ec9-450d-a532-0c64b4073669",
       "title": "A complete Llama2 inference engine that fits in 1356 bytes of x86 assembly",
       "url": "https://github.com/rdmsr/sectorllm",
@@ -1279,6 +1293,20 @@
       ]
     },
     {
+      "id": "abf2ce04-44e7-4da7-8351-3f2443963b74",
+      "title": "SubQ: a sub-quadratic LLM with 12M-token context",
+      "url": "https://subq.ai/introducing-subq",
+      "domain": "subq.ai",
+      "published_at": "2026-05-05T14:37:12Z",
+      "category": "tech",
+      "score": 0.2650743353125369,
+      "tldr": "SubQ: a sub-quadratic LLM with 12M-token context",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "93578450-8144-47f1-9a7e-42f5334109f8",
       "title": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4",
@@ -1375,36 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e60b0376-1467-466a-bb67-9ed7eb9c06cf",
-      "title": "Async Rust never left the MVP state",
-      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
-      "domain": "tweedegolf.nl",
-      "published_at": "2026-05-05T07:26:03Z",
-      "category": "tech",
-      "score": 0.25988497125791876,
-      "tldr": "Async Rust never left the MVP state",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d2dcb688-fc71-4093-9d90-6cac769cb5a5",
-      "title": "Understand Anything",
-      "url": "https://github.com/Lum1104/Understand-Anything",
-      "domain": "github.com",
-      "published_at": "2026-05-01T17:27:03Z",
-      "category": "tech",
-      "score": 0.25962810408856885,
-      "tldr": "Understand Anything",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-05T19:57:16.940440717Z",
+  "last_updated": "2026-05-05T23:39:40.572207597Z",
   "total_count": 100
 }
