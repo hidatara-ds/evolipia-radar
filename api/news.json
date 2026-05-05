@@ -1307,20 +1307,6 @@
       ]
     },
     {
-      "id": "b838471e-1b32-4f6d-a09e-bf134a4be5cc",
-      "title": "Ghostty is leaving GitHub",
-      "url": "https://mitchellh.com/writing/ghostty-leaving-github",
-      "domain": "mitchellh.com",
-      "published_at": "2026-04-28T19:44:52Z",
-      "category": "tech",
-      "score": 0.2642177842484531,
-      "tldr": "Ghostty is leaving GitHub",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "51ae7788-7943-4903-993e-b69bfc11d315",
       "title": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
       "url": "https://github.com/microsoft/lib0xc",
@@ -1344,6 +1330,20 @@
       "score": 0.26372343341023713,
       "tldr": "DAG Workflow Engine",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "bb02ca40-48b0-46ee-9a22-f49fa06049e0",
+      "title": "Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement",
+      "url": "https://variety.com/2026/digital/news/meta-ai-mark-zuckerberg-copyright-infringement-lawsuit-publishers-scott-turow-1236738383",
+      "domain": "variety.com",
+      "published_at": "2026-05-05T18:04:25Z",
+      "category": "tech",
+      "score": 0.2626125376536544,
+      "tldr": "Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1405,6 +1405,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-05T18:13:02.683675602Z",
+  "last_updated": "2026-05-05T19:57:16.940440717Z",
   "total_count": 100
 }
