@@ -380,6 +380,20 @@
       ]
     },
     {
+      "id": "de055f11-883e-4615-9107-3e1c2c88d2d9",
+      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install",
+      "domain": "thatprivacyguy.com",
+      "published_at": "2026-05-05T07:34:55Z",
+      "category": "tech",
+      "score": 0.34792500545531224,
+      "tldr": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7ea651fe-c209-446e-80f1-af5cf7bace86",
       "title": "Days without GitHub incidents",
       "url": "https://www.dayswithoutgithubincident.com/",
@@ -1024,6 +1038,21 @@
       ]
     },
     {
+      "id": "616f3645-ed8b-4109-addd-027aace5b62c",
+      "title": "Setting up server monitoring for a Rails app on Hatchbox",
+      "url": "https://blog.appsignal.com/2026/04/30/setting-up-server-monitoring-for-a-rails-app-on-hatchbox.html",
+      "domain": "blog.appsignal.com",
+      "published_at": "2026-05-04T09:31:31Z",
+      "category": "tech",
+      "score": 0.2818483492767016,
+      "tldr": "Setting up server monitoring for a Rails app on Hatchbox",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "mlops"
+      ]
+    },
+    {
       "id": "466282c3-aaae-4f97-b517-be6c5b0bddf9",
       "title": "The Gay Jailbreak Technique",
       "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
@@ -1373,36 +1402,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "51ae7788-7943-4903-993e-b69bfc11d315",
-      "title": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
-      "url": "https://github.com/microsoft/lib0xc",
-      "domain": "github.com",
-      "published_at": "2026-05-01T19:10:56Z",
-      "category": "tech",
-      "score": 0.2639985718231428,
-      "tldr": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8905a558-0fb7-419d-8bc3-55178a76abb2",
-      "title": "DAG Workflow Engine",
-      "url": "https://github.com/vivekg13186/Daisy-DAG",
-      "domain": "github.com",
-      "published_at": "2026-05-04T12:32:00Z",
-      "category": "tech",
-      "score": 0.26372343341023713,
-      "tldr": "DAG Workflow Engine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-05T07:11:34.461862191Z",
+  "last_updated": "2026-05-05T10:58:38.785324707Z",
   "total_count": 100
 }
