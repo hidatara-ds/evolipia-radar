@@ -85,6 +85,20 @@
       ]
     },
     {
+      "id": "b0496cf1-c2c9-4d6f-8c5d-ccaa2936fc7c",
+      "title": "DNSSEC disruption affecting .de domains – Resolved",
+      "url": "https://status.denic.de/pages/incident/592577eab611ce1e0d00046f/69fa60ef9d12f5057a974f38",
+      "domain": "status.denic.de",
+      "published_at": "2026-05-05T20:16:35Z",
+      "category": "tech",
+      "score": 0.4478527817315201,
+      "tldr": "DNSSEC disruption affecting . de domains – Resolved",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c3212e53-312e-45ba-99f8-f516300cf364",
       "title": "The gay jailbreak technique (2025)",
       "url": "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md",
@@ -914,20 +928,6 @@
       ]
     },
     {
-      "id": "2c56cbd0-899f-41dd-bd5f-df6841e8f4aa",
-      "title": "Soft launch of open-source code platform for government",
-      "url": "https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform",
-      "domain": "nldigitalgovernment.nl",
-      "published_at": "2026-04-29T09:14:37Z",
-      "category": "tech",
-      "score": 0.2876184433191897,
-      "tldr": "Soft launch of open-source code platform for government",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7d3d7ef2-b4ff-4c43-992a-98c966ea5b5c",
       "title": "An open-source stethoscope that costs between $2.5 and $5 to produce",
       "url": "https://github.com/GliaX/Stethoscope",
@@ -1406,6 +1406,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-06T07:46:38.564713584Z",
+  "last_updated": "2026-05-06T10:08:20.890550655Z",
   "total_count": 100
 }
