@@ -15,20 +15,6 @@
       ]
     },
     {
-      "id": "54695ac6-d9cb-477f-85a6-ff68562494e7",
-      "title": "Zed 1.0",
-      "url": "https://zed.dev/blog/zed-1-0",
-      "domain": "zed.dev",
-      "published_at": "2026-04-29T14:34:19Z",
-      "category": "tech",
-      "score": 0.6369603628089008,
-      "tldr": "Zed 1.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b37c8980-1620-41eb-abc3-59b51e38ec55",
       "title": "Talking to strangers at the gym",
       "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym",
@@ -107,6 +93,20 @@
       "category": "tech",
       "score": 0.42925060698633877,
       "tldr": "The gay jailbreak technique (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "22eb02cc-6e50-4155-ad6f-bf4784cf6fe0",
+      "title": "Show HN: Red Squares – GitHub outages as contributions",
+      "url": "https://red-squares.cian.lol/",
+      "domain": "red-squares.cian.lol",
+      "published_at": "2026-05-06T10:28:40Z",
+      "category": "tech",
+      "score": 0.42834800939580986,
+      "tldr": "Show HN: Red Squares – GitHub outages as contributions",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -236,20 +236,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "459117d9-8628-4c69-b54d-227c226d846c",
-      "title": "We need a federation of forges",
-      "url": "https://blog.tangled.org/federation",
-      "domain": "blog.tangled.org",
-      "published_at": "2026-04-29T14:00:59Z",
-      "category": "tech",
-      "score": 0.38113850007153927,
-      "tldr": "We need a federation of forges",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -759,20 +745,6 @@
       ]
     },
     {
-      "id": "afe6a8d7-585f-4de9-9fe6-b558db30246d",
-      "title": "Zed is 1.0",
-      "url": "https://zed.dev/blog/zed-1-0",
-      "domain": "zed.dev",
-      "published_at": "2026-04-29T14:34:19Z",
-      "category": "tech",
-      "score": 0.3052019016884909,
-      "tldr": "Zed is 1.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f4f7375e-3e5b-4e49-80b0-59f4aeefcedd",
       "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
       "url": "https://github.com/aattaran/deepclaude",
@@ -922,20 +894,6 @@
       "category": "tech",
       "score": 0.2877433403141134,
       "tldr": "Open Design: Use Your Coding Agent as a Design Engine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7d3d7ef2-b4ff-4c43-992a-98c966ea5b5c",
-      "title": "An open-source stethoscope that costs between $2.5 and $5 to produce",
-      "url": "https://github.com/GliaX/Stethoscope",
-      "domain": "github.com",
-      "published_at": "2026-04-29T14:47:31Z",
-      "category": "tech",
-      "score": 0.28746530033400847,
-      "tldr": "An open-source stethoscope that costs between $2.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1097,20 +1055,6 @@
       ]
     },
     {
-      "id": "5aa4c9d4-ef0b-4d48-b8ba-45bfc0c4fa03",
-      "title": "Tangled – We need a federation of forges",
-      "url": "https://blog.tangled.org/federation",
-      "domain": "blog.tangled.org",
-      "published_at": "2026-04-29T14:00:59Z",
-      "category": "tech",
-      "score": 0.27818265050960356,
-      "tldr": "Tangled – We need a federation of forges",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "242c7cb9-d723-4091-b7a7-7ed7bc05c3d0",
       "title": "Show HN: Winpodx – run Windows apps on Linux as native windows",
       "url": "https://github.com/kernalix7/winpodx",
@@ -1252,20 +1196,6 @@
       ]
     },
     {
-      "id": "2fee3a84-2106-4780-846d-27d051b22195",
-      "title": "GitHub – DOS 1.0: Transcription of Tim Paterson's DOS Printouts",
-      "url": "https://github.com/DOS-History/Paterson-Listings",
-      "domain": "github.com",
-      "published_at": "2026-04-29T11:25:12Z",
-      "category": "tech",
-      "score": 0.26808057265116964,
-      "tldr": "0: Transcription of Tim Paterson's DOS Printouts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3884cbea-765f-4ac4-adbb-77526ead3ae3",
       "title": "1.4 GW: battery storage at former Grohnde nuclear power plant",
       "url": "https://www.heise.de/en/news/1-4-GW-Huge-battery-storage-at-former-Grohnde-nuclear-power-plant-11277367.html",
@@ -1275,20 +1205,6 @@
       "score": 0.2677542961852312,
       "tldr": "4 GW: battery storage at former Grohnde nuclear power plant",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "960f3e17-2b41-40cd-89ac-b5c5b2fa3fbb",
-      "title": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
-      "url": "https://github.com/electricant/adblock-rust-manager",
-      "domain": "github.com",
-      "published_at": "2026-04-29T12:24:53Z",
-      "category": "tech",
-      "score": 0.26710049162102895,
-      "tldr": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1404,8 +1320,92 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "507650ad-7b3a-4ee6-a3d0-236f4ee13f17",
+      "title": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
+      "url": "https://walzr.com/empty-screenings",
+      "domain": "walzr.com",
+      "published_at": "2026-05-05T04:33:22Z",
+      "category": "tech",
+      "score": 0.26027353523438107,
+      "tldr": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e60b0376-1467-466a-bb67-9ed7eb9c06cf",
+      "title": "Async Rust never left the MVP state",
+      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+      "domain": "tweedegolf.nl",
+      "published_at": "2026-05-05T07:26:03Z",
+      "category": "tech",
+      "score": 0.25988497125791876,
+      "tldr": "Async Rust never left the MVP state",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d2dcb688-fc71-4093-9d90-6cac769cb5a5",
+      "title": "Understand Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "domain": "github.com",
+      "published_at": "2026-05-01T17:27:03Z",
+      "category": "tech",
+      "score": 0.25962810408856885,
+      "tldr": "Understand Anything",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e23c74d8-12f9-4245-a611-49b35699d09c",
+      "title": "Show HN: My Private GitHub on Postgres",
+      "url": "https://github.com/calebwin/gitgres",
+      "domain": "github.com",
+      "published_at": "2026-05-01T17:40:15Z",
+      "category": "tech",
+      "score": 0.25951993088480535,
+      "tldr": "Show HN: My Private GitHub on Postgres",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a65122d3-27d1-455c-9925-2247cada3830",
+      "title": "Mistral Medium 3.5",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "domain": "mistral.ai",
+      "published_at": "2026-04-29T15:17:46Z",
+      "category": "tech",
+      "score": 0.2593498723583797,
+      "tldr": "Mistral Medium 3.5",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9f6f7300-9d93-4702-b690-b87f8a8eec54",
+      "title": "Vera: a programming language designed for machines to write",
+      "url": "https://github.com/aallan/vera",
+      "domain": "github.com",
+      "published_at": "2026-04-29T21:41:32Z",
+      "category": "tech",
+      "score": 0.25788778379945965,
+      "tldr": "Vera: a programming language designed for machines to write",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-06T10:08:20.890550655Z",
+  "last_updated": "2026-05-06T15:07:53.485116808Z",
   "total_count": 100
 }
