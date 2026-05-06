@@ -282,20 +282,6 @@
       ]
     },
     {
-      "id": "1ee5a7c5-1523-494b-945b-f5b10c3af34e",
-      "title": "How ChatGPT serves ads",
-      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop",
-      "domain": "buchodi.com",
-      "published_at": "2026-04-28T23:54:14Z",
-      "category": "tech",
-      "score": 0.3753021271354723,
-      "tldr": "How ChatGPT serves ads",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "857c8459-7eee-460e-b4a2-6b4a71aea9b9",
       "title": "Removable batteries in smartphones will be mandatory in the EU starting in 2027",
       "url": "https://www.ecopv-eu.com/en/blog-en/replaceable-smartphone-batteries-2027-eu-regulation",
@@ -434,20 +420,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "afb432ae-0e00-4f18-8028-264b852b98fa",
-      "title": "Regression: malware reminder on every read still causes subagent refusals",
-      "url": "https://github.com/anthropics/claude-code/issues/49363",
-      "domain": "github.com",
-      "published_at": "2026-04-28T23:59:57Z",
-      "category": "tech",
-      "score": 0.3382814601299418,
-      "tldr": "Regression: malware reminder on every read still causes subagent refusals",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -815,6 +787,21 @@
       ]
     },
     {
+      "id": "d0041ef8-4a9f-4115-b92c-b68913900a97",
+      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+      "url": "https://blog.cloudflare.com/agents-stripe-projects",
+      "domain": "blog.cloudflare.com",
+      "published_at": "2026-05-06T03:10:33Z",
+      "category": "tech",
+      "score": 0.29730917451902344,
+      "tldr": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud",
+        "general_ai"
+      ]
+    },
+    {
       "id": "f1eb6101-7090-4d46-9163-54bf04fff80e",
       "title": "How Mark Klein told the EFF about Room 641A [book excerpt]",
       "url": "https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine",
@@ -837,6 +824,20 @@
       "category": "tech",
       "score": 0.2956164578857037,
       "tldr": "This Month in Ladybird – April 2026",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "46691537-0a12-4ace-8b47-ba01f088dda0",
+      "title": "StarFighter 16-Inch",
+      "url": "https://us.starlabs.systems/pages/starfighter",
+      "domain": "us.starlabs.systems",
+      "published_at": "2026-05-06T02:03:44Z",
+      "category": "tech",
+      "score": 0.2941697780515964,
+      "tldr": "StarFighter 16-Inch",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -868,6 +869,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "71f1d408-2913-47b7-935b-f574772aa8f7",
+      "title": "Update on \"Co-authored-by: Copilot\" in commit messages",
+      "url": "https://github.com/microsoft/vscode/issues/314311",
+      "domain": "github.com",
+      "published_at": "2026-05-06T03:15:05Z",
+      "category": "tech",
+      "score": 0.29243530316663047,
+      "tldr": "Update on \"Co-authored-by: Copilot\" in commit messages",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -966,20 +981,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "310c821e-ac85-4d0b-b712-8a0d9ab303c1",
-      "title": "We decreased our LLM costs with Opus",
-      "url": "https://www.mendral.com/blog/frontier-model-lower-costs",
-      "domain": "mendral.com",
-      "published_at": "2026-04-29T00:57:12Z",
-      "category": "tech",
-      "score": 0.2841581678448564,
-      "tldr": "We decreased our LLM costs with Opus",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1363,6 +1364,20 @@
       ]
     },
     {
+      "id": "fb4f3593-ce68-454e-9f63-077df787ac1f",
+      "title": "FFmpeg developer calls out OxideAV for AI license laundering of his code",
+      "url": "https://github.com/OxideAV/oxideav-magicyuv/issues/3",
+      "domain": "github.com",
+      "published_at": "2026-05-06T01:50:42Z",
+      "category": "tech",
+      "score": 0.262799391882349,
+      "tldr": "FFmpeg developer calls out OxideAV for AI license laundering of his code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "bb02ca40-48b0-46ee-9a22-f49fa06049e0",
       "title": "Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement",
       "url": "https://variety.com/2026/digital/news/meta-ai-mark-zuckerberg-copyright-infringement-lawsuit-publishers-scott-turow-1236738383",
@@ -1389,22 +1404,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "507650ad-7b3a-4ee6-a3d0-236f4ee13f17",
-      "title": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
-      "url": "https://walzr.com/empty-screenings",
-      "domain": "walzr.com",
-      "published_at": "2026-05-05T04:33:22Z",
-      "category": "tech",
-      "score": 0.26027353523438107,
-      "tldr": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-05T23:39:40.572207597Z",
+  "last_updated": "2026-05-06T07:46:38.564713584Z",
   "total_count": 100
 }
