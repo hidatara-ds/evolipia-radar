@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "d8c57816-644d-4983-8375-dd86b3224aff",
-      "title": "HERMES.md in commit messages causes requests to route to extra usage billing",
-      "url": "https://github.com/anthropics/claude-code/issues/53262",
-      "domain": "github.com",
-      "published_at": "2026-04-29T18:54:31Z",
-      "category": "tech",
-      "score": 0.6778505686209111,
-      "tldr": "md in commit messages causes requests to route to extra usage billing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b37c8980-1620-41eb-abc3-59b51e38ec55",
       "title": "Talking to strangers at the gym",
       "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym",
@@ -43,20 +29,6 @@
       ]
     },
     {
-      "id": "e05d3bb2-f4bb-463a-b786-5ad06aa760b9",
-      "title": "Copy Fail",
-      "url": "https://copy.fail/",
-      "domain": "copy.fail",
-      "published_at": "2026-04-29T18:13:53Z",
-      "category": "tech",
-      "score": 0.48947328967734266,
-      "tldr": "Copy Fail",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "813052f0-6314-40b0-a366-8cb8640f4aa0",
       "title": "Red Squares – GitHub outages as contributions",
       "url": "https://red-squares.cian.lol/",
@@ -65,20 +37,6 @@
       "category": "tech",
       "score": 0.47136305607209944,
       "tldr": "Red Squares – GitHub outages as contributions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "da0f2c4e-e807-4790-9365-78544fd1ae85",
-      "title": "HERMES.md: Anthropic bug causes $200 extra charge, refuses refund",
-      "url": "https://github.com/anthropics/claude-code/issues/53262",
-      "domain": "github.com",
-      "published_at": "2026-04-29T18:54:31Z",
-      "category": "tech",
-      "score": 0.4547582003597309,
-      "tldr": "md: Anthropic bug causes $200 extra charge, refuses refund",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1126,6 +1084,20 @@
       ]
     },
     {
+      "id": "50bc7752-6854-45c4-adc4-0abc669ecb63",
+      "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
+      "url": "https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets",
+      "domain": "electrek.co",
+      "published_at": "2026-05-06T18:25:06Z",
+      "category": "tech",
+      "score": 0.2715873881248303,
+      "tldr": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d32bd55a-7ad6-4b97-973a-221c029f3eee",
       "title": "Credit cards are vulnerable to brute force kind attacks",
       "url": "https://metin.nextc.org/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks.html",
@@ -1405,8 +1377,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d2dcb688-fc71-4093-9d90-6cac769cb5a5",
+      "title": "Understand Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "domain": "github.com",
+      "published_at": "2026-05-01T17:27:03Z",
+      "category": "tech",
+      "score": 0.25962810408856885,
+      "tldr": "Understand Anything",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e23c74d8-12f9-4245-a611-49b35699d09c",
+      "title": "Show HN: My Private GitHub on Postgres",
+      "url": "https://github.com/calebwin/gitgres",
+      "domain": "github.com",
+      "published_at": "2026-05-01T17:40:15Z",
+      "category": "tech",
+      "score": 0.25951993088480535,
+      "tldr": "Show HN: My Private GitHub on Postgres",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-06T18:13:32.126372193Z",
+  "last_updated": "2026-05-06T20:07:09.668102048Z",
   "total_count": 100
 }
