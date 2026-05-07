@@ -183,20 +183,6 @@
       ]
     },
     {
-      "id": "72a297cb-3e6e-423a-a8bc-d43f9a5729b4",
-      "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
-      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
-      "domain": "github.com",
-      "published_at": "2026-04-30T03:11:51Z",
-      "category": "tech",
-      "score": 0.38269788620608425,
-      "tldr": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "ddd7851d-5d39-4c90-b615-583ed65fc731",
       "title": "Train Your Own LLM from Scratch",
       "url": "https://github.com/angelos-p/llm-from-scratch",
@@ -220,20 +206,6 @@
       "category": "tech",
       "score": 0.3766497493339684,
       "tldr": "Belgium stops decommissioning nuclear power plants",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b3293d98-6125-4c08-bd42-6f248499b6af",
-      "title": "Where the goblins came from",
-      "url": "https://openai.com/index/where-the-goblins-came-from",
-      "domain": "openai.com",
-      "published_at": "2026-04-30T03:21:04Z",
-      "category": "tech",
-      "score": 0.3762265049408081,
-      "tldr": "Where the goblins came from",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -304,20 +276,6 @@
       "category": "tech",
       "score": 0.3580474485727635,
       "tldr": "LLMs consistently pick resumes they generate over ones by humans or other models",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f20b8977-060e-47df-8cbc-db8a6dcf581e",
-      "title": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
-      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
-      "domain": "github.com",
-      "published_at": "2026-04-30T03:11:51Z",
-      "category": "tech",
-      "score": 0.35700557442583536,
-      "tldr": "Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -746,20 +704,6 @@
       ]
     },
     {
-      "id": "24ccb301-7c37-4f00-801c-e6479eb5610c",
-      "title": "The Zig project's rationale for their anti-AI contribution policy",
-      "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai",
-      "domain": "simonwillison.net",
-      "published_at": "2026-04-30T02:15:47Z",
-      "category": "tech",
-      "score": 0.29886180599324774,
-      "tldr": "The Zig project's rationale for their anti-AI contribution policy",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d0041ef8-4a9f-4115-b92c-b68913900a97",
       "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
       "url": "https://blog.cloudflare.com/agents-stripe-projects",
@@ -854,6 +798,20 @@
       "score": 0.29243530316663047,
       "tldr": "Update on \"Co-authored-by: Copilot\" in commit messages",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "09372335-2c1d-4e18-bdd3-f774b55cc396",
+      "title": "SQLite Is a Library of Congress Recommended Storage Format",
+      "url": "https://sqlite.org/locrsf.html",
+      "domain": "sqlite.org",
+      "published_at": "2026-05-06T21:58:43Z",
+      "category": "tech",
+      "score": 0.2904429392248998,
+      "tldr": "SQLite Is a Library of Congress Recommended Storage Format",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1405,8 +1363,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2cd02d41-b3cb-4982-be77-47c1d7e945a1",
+      "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "url": "https://arxiv.org/abs/2604.26752",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-05T17:52:31Z",
+      "category": "tech",
+      "score": 0.2568989959124846,
+      "tldr": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9662c29b-7b89-42f0-b0fb-8867312a0412",
+      "title": "Dav2d",
+      "url": "https://code.videolan.org/videolan/dav2d",
+      "domain": "code.videolan.org",
+      "published_at": "2026-05-02T17:32:29Z",
+      "category": "tech",
+      "score": 0.2562713520601153,
+      "tldr": "Dav2d",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d30cec75-353c-4bad-8fc8-7a62e9fd3fb9",
+      "title": "whohas – Command-line utility for cross-distro, cross-repository package search",
+      "url": "https://github.com/whohas/whohas",
+      "domain": "github.com",
+      "published_at": "2026-05-01T15:01:08Z",
+      "category": "tech",
+      "score": 0.25586655467831443,
+      "tldr": "whohas – Command-line utility for cross-distro, cross-repository package search",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-06T23:40:38.083307275Z",
+  "last_updated": "2026-05-07T05:22:55.591768191Z",
   "total_count": 100
 }
