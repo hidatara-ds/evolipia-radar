@@ -169,17 +169,17 @@
       ]
     },
     {
-      "id": "f5b58f83-acc9-4e53-92cc-de1ddff93c76",
-      "title": "Can I disable all data collection from my vehicle?",
-      "url": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
-      "domain": "rivian.com",
-      "published_at": "2026-04-30T20:27:22Z",
+      "id": "e1e4a2e1-f7f2-466b-ab58-c2ff37a64008",
+      "title": "The Burning Man MOOP Map",
+      "url": "https://www.not-ship.com/burning-man-moop",
+      "domain": "not-ship.com",
+      "published_at": "2026-05-07T14:06:10Z",
       "category": "tech",
-      "score": 0.3946176440304902,
-      "tldr": "Can I disable all data collection from my vehicle?",
+      "score": 0.3901713396521426,
+      "tldr": "The Burning Man MOOP Map",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
-        "data"
+        "general_ai"
       ]
     },
     {
@@ -700,6 +700,20 @@
       "score": 0.3010517123636948,
       "tldr": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "56ec75ae-a26f-4f0f-b584-2e2e44481508",
+      "title": "Dirtyfrag: Universal Linux LPE",
+      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "domain": "openwall.com",
+      "published_at": "2026-05-07T19:21:32Z",
+      "category": "tech",
+      "score": 0.2979078151878687,
+      "tldr": "Dirtyfrag: Universal Linux LPE",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b25ea763-26b0-48f9-a701-7779b54068e1",
-      "title": "DS4, a specialized inference engine for DeepSeek v4 Flash",
-      "url": "https://twitter.com/antirez/status/2052405820235678175",
-      "domain": "twitter.com",
-      "published_at": "2026-05-07T15:48:26Z",
-      "category": "tech",
-      "score": 0.25667943243006885,
-      "tldr": "DS4, a specialized inference engine for DeepSeek v4 Flash",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-07T19:11:40.32048011Z",
+  "last_updated": "2026-05-07T20:45:58.964620643Z",
   "total_count": 100
 }
