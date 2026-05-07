@@ -282,20 +282,6 @@
       ]
     },
     {
-      "id": "1a619677-8457-41d5-b393-a9412ed10545",
-      "title": "Mozilla's Opposition to Chrome's Prompt API",
-      "url": "https://github.com/mozilla/standards-positions/issues/1213",
-      "domain": "github.com",
-      "published_at": "2026-04-30T07:43:55Z",
-      "category": "tech",
-      "score": 0.34981196736469466,
-      "tldr": "Mozilla's Opposition to Chrome's Prompt API",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "de055f11-883e-4615-9107-3e1c2c88d2d9",
       "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
       "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install",
@@ -465,20 +451,6 @@
       ]
     },
     {
-      "id": "577fad17-d0a8-4e67-82c6-7c60e6bd3aa2",
-      "title": "Chrome looks set to ship an LLM Prompt API to the web. We oppose this API",
-      "url": "https://mastodon.social/@firefoxwebdevs/116492853483021978",
-      "domain": "mastodon.social",
-      "published_at": "2026-04-30T09:16:07Z",
-      "category": "tech",
-      "score": 0.3261146954176262,
-      "tldr": "Chrome looks set to ship an LLM Prompt API to the web.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "865dc4c1-dc96-41dd-a15e-2ae532616836",
       "title": "Learning Pseudorandom Numbers with Transformers",
       "url": "https://arxiv.org/abs/2510.26792",
@@ -560,6 +532,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "4d698400-9a16-46ee-93da-cf23659730ea",
+      "title": "Making LLM Training Faster with Unsloth and NVIDIA",
+      "url": "https://unsloth.ai/blog/nvidia-collab",
+      "domain": "unsloth.ai",
+      "published_at": "2026-05-07T07:15:11Z",
+      "category": "tech",
+      "score": 0.3197866877313702,
+      "tldr": "Making LLM Training Faster with Unsloth and NVIDIA",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -1323,6 +1310,20 @@
       ]
     },
     {
+      "id": "8c525405-bba3-4042-a8d9-cf04a1fd7ac1",
+      "title": "Show HN: Trust – Coding Rust like it's 1989",
+      "url": "https://github.com/wojtczyk/trust",
+      "domain": "github.com",
+      "published_at": "2026-05-07T05:58:52Z",
+      "category": "tech",
+      "score": 0.26012426447803005,
+      "tldr": "Show HN: Trust – Coding Rust like it's 1989",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e60b0376-1467-466a-bb67-9ed7eb9c06cf",
       "title": "Async Rust never left the MVP state",
       "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
@@ -1365,6 +1366,20 @@
       ]
     },
     {
+      "id": "e186864f-63fe-4f6a-91ab-c460992992cc",
+      "title": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
+      "url": "https://github.com/darkrishabh/agent-skills-eval",
+      "domain": "github.com",
+      "published_at": "2026-05-07T06:12:25Z",
+      "category": "tech",
+      "score": 0.25903506677758753,
+      "tldr": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2cd02d41-b3cb-4982-be77-47c1d7e945a1",
       "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
       "url": "https://arxiv.org/abs/2604.26752",
@@ -1391,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d30cec75-353c-4bad-8fc8-7a62e9fd3fb9",
-      "title": "whohas – Command-line utility for cross-distro, cross-repository package search",
-      "url": "https://github.com/whohas/whohas",
-      "domain": "github.com",
-      "published_at": "2026-05-01T15:01:08Z",
-      "category": "tech",
-      "score": 0.25586655467831443,
-      "tldr": "whohas – Command-line utility for cross-distro, cross-repository package search",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-07T05:22:55.591768191Z",
+  "last_updated": "2026-05-07T10:39:30.290908757Z",
   "total_count": 100
 }
