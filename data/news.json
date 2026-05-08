@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "aec7182b-345f-4b8b-ab31-e7fff1fd13b2",
+      "title": "Cloudflare to cut about 20% workforce",
+      "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07",
+      "domain": "reuters.com",
+      "published_at": "2026-05-07T20:23:37Z",
+      "category": "tech",
+      "score": 0.4719729390414636,
+      "tldr": "Cloudflare to cut about 20% workforce",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud"
+      ]
+    },
+    {
       "id": "813052f0-6314-40b0-a366-8cb8640f4aa0",
       "title": "Red Squares – GitHub outages as contributions",
       "url": "https://red-squares.cian.lol/",
@@ -54,6 +68,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "b3588fd9-2130-4537-ad88-e316b2fb706a",
+      "title": "Canvas is down as ShinyHunters threatens to leak schools’ data",
+      "url": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
+      "domain": "theverge.com",
+      "published_at": "2026-05-07T22:22:21Z",
+      "category": "tech",
+      "score": 0.43614351330779516,
+      "tldr": "Canvas is down as ShinyHunters threatens to leak schools’ data",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
       ]
     },
     {
@@ -395,20 +423,6 @@
       ]
     },
     {
-      "id": "dc737183-8df8-44e8-a70c-7793d0074638",
-      "title": "Advanced Quantization Algorithm for LLMs",
-      "url": "https://github.com/intel/auto-round",
-      "domain": "github.com",
-      "published_at": "2026-05-01T09:10:02Z",
-      "category": "tech",
-      "score": 0.3293059553164351,
-      "tldr": "Advanced Quantization Algorithm for LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "5db981ad-738c-4a94-9fc7-322b6c668988",
       "title": "Dirty Frag: Universal Linux LPE",
       "url": "https://github.com/V4bel/dirtyfrag",
@@ -476,20 +490,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "cb0cb0d8-3528-4670-aeb0-c4a3e238db05",
-      "title": "Xmemory: Benchmarking Structured AI Memory Against RAG and Hybrid RAG",
-      "url": "https://arxiv.org/abs/2604.27906",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-01T09:15:35Z",
-      "category": "tech",
-      "score": 0.3255069315970316,
-      "tldr": "Xmemory: Benchmarking Structured AI Memory Against RAG and Hybrid RAG",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -575,20 +575,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "78fe879a-3648-41ba-a169-b733854360a0",
-      "title": "C8s: A Confidential Kubernetes Architecture",
-      "url": "https://arxiv.org/abs/2604.26974",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-01T04:28:24Z",
-      "category": "tech",
-      "score": 0.3127818275301984,
-      "tldr": "C8s: A Confidential Kubernetes Architecture",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "mlops"
       ]
     },
     {
@@ -1016,20 +1002,6 @@
       ]
     },
     {
-      "id": "242c7cb9-d723-4091-b7a7-7ed7bc05c3d0",
-      "title": "Show HN: Winpodx – run Windows apps on Linux as native windows",
-      "url": "https://github.com/kernalix7/winpodx",
-      "domain": "github.com",
-      "published_at": "2026-05-01T02:23:43Z",
-      "category": "tech",
-      "score": 0.27550308563297576,
-      "tldr": "Show HN: Winpodx – run Windows apps on Linux as native windows",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9782c200-1f8a-4950-9652-2d4ae134e699",
       "title": "Higher usage limits for Claude and a compute deal with SpaceX",
       "url": "https://www.anthropic.com/news/higher-limits-spacex",
@@ -1108,6 +1080,20 @@
       "category": "tech",
       "score": 0.27046507600954894,
       "tldr": "Show HN: Destiny – Claude Code's fortune Teller skill",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "718b1870-4ae1-44ca-85cb-584932b8eb1e",
+      "title": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
+      "url": "https://github.com/graemeg/blaise",
+      "domain": "github.com",
+      "published_at": "2026-05-08T04:44:02Z",
+      "category": "tech",
+      "score": 0.2702596096402484,
+      "tldr": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1297,6 +1283,20 @@
       ]
     },
     {
+      "id": "e51a7048-bcf8-4448-9001-2dae087369a8",
+      "title": "GPT-5.5 Price Increase: What It Costs",
+      "url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+      "domain": "openrouter.ai",
+      "published_at": "2026-05-08T01:02:28Z",
+      "category": "tech",
+      "score": 0.26310274056665894,
+      "tldr": "5 Price Increase: What It Costs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "fb4f3593-ce68-454e-9f63-077df787ac1f",
       "title": "FFmpeg developer calls out OxideAV for AI license laundering of his code",
       "url": "https://github.com/OxideAV/oxideav-magicyuv/issues/3",
@@ -1320,6 +1320,20 @@
       "score": 0.2626125376536544,
       "tldr": "Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f66479a3-fa67-4f50-b38f-b8c36b263d23",
+      "title": "Copy Fail 2: Electric Boogaloo",
+      "url": "https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
+      "domain": "github.com",
+      "published_at": "2026-05-08T04:00:53Z",
+      "category": "tech",
+      "score": 0.2612025092732954,
+      "tldr": "Copy Fail 2: Electric Boogaloo",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e186864f-63fe-4f6a-91ab-c460992992cc",
-      "title": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
-      "url": "https://github.com/darkrishabh/agent-skills-eval",
-      "domain": "github.com",
-      "published_at": "2026-05-07T06:12:25Z",
-      "category": "tech",
-      "score": 0.25903506677758753,
-      "tldr": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-08T01:54:12.098880954Z",
+  "last_updated": "2026-05-08T10:01:29.483934882Z",
   "total_count": 100
 }
