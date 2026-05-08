@@ -72,6 +72,20 @@
       ]
     },
     {
+      "id": "3789ee4e-27ee-4e68-a982-4d27328f79c2",
+      "title": "Dirty Frag: Universal Linux LPE",
+      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "domain": "openwall.com",
+      "published_at": "2026-05-07T19:21:32Z",
+      "category": "tech",
+      "score": 0.4733528331684986,
+      "tldr": "Dirty Frag: Universal Linux LPE",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "aec7182b-345f-4b8b-ab31-e7fff1fd13b2",
       "title": "Cloudflare to cut about 20% workforce",
       "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b25ea763-26b0-48f9-a701-7779b54068e1",
-      "title": "DS4, a specialized inference engine for DeepSeek v4 Flash",
-      "url": "https://twitter.com/antirez/status/2052405820235678175",
-      "domain": "twitter.com",
-      "published_at": "2026-05-07T15:48:26Z",
-      "category": "tech",
-      "score": 0.25667943243006885,
-      "tldr": "DS4, a specialized inference engine for DeepSeek v4 Flash",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-08T22:44:47.271786517Z",
+  "last_updated": "2026-05-08T23:45:32.814433737Z",
   "total_count": 100
 }
