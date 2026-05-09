@@ -382,6 +382,20 @@
       ]
     },
     {
+      "id": "25f2f19e-16ab-4a94-8e24-9a632cbd7fd0",
+      "title": "Internet Archive Switzerland",
+      "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge",
+      "domain": "blog.archive.org",
+      "published_at": "2026-05-09T12:00:30Z",
+      "category": "tech",
+      "score": 0.3448096919768891,
+      "tldr": "Internet Archive Switzerland",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7ea651fe-c209-446e-80f1-af5cf7bace86",
       "title": "Days without GitHub incidents",
       "url": "https://www.dayswithoutgithubincident.com/",
@@ -841,20 +855,6 @@
       "category": "tech",
       "score": 0.2861553316742899,
       "tldr": "Y Combinator's Stake in OpenAI (0.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "416dd4f0-4108-471a-bcf2-4ffabb961054",
-      "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
-      "url": "https://github.com/microsoft/vscode/pull/310226",
-      "domain": "github.com",
-      "published_at": "2026-05-02T19:57:26Z",
-      "category": "tech",
-      "score": 0.2842248492830462,
-      "tldr": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,6 +1409,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-09T19:39:34.519448983Z",
+  "last_updated": "2026-05-09T20:34:07.373105433Z",
   "total_count": 100
 }
