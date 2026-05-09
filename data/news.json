@@ -1003,20 +1003,6 @@
       ]
     },
     {
-      "id": "1538bbf1-c7a8-4731-bdb0-4e9bf62a5f51",
-      "title": "Meta's Pyrefly sabotages competing Python extensions without telling you",
-      "url": "https://github.com/facebook/pyrefly/issues/3292",
-      "domain": "github.com",
-      "published_at": "2026-05-02T16:34:09Z",
-      "category": "tech",
-      "score": 0.2700128737953684,
-      "tldr": "Meta's Pyrefly sabotages competing Python extensions without telling you",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b7c6164f-a6fc-4ede-80ad-e762f9277f5c",
       "title": "Trademark violation: Fake Notepad++ for Mac",
       "url": "https://notepad-plus-plus.org/news/npp-trademark-infringement",
@@ -1407,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "0aee0808-8e2c-4708-8303-34f1e05015da",
+      "title": "Systemd-manager-TUI: A TUI application for managing systemd services",
+      "url": "https://github.com/Matheus-git/systemd-manager-tui",
+      "domain": "github.com",
+      "published_at": "2026-05-03T10:55:30Z",
+      "category": "tech",
+      "score": 0.25568136529670205,
+      "tldr": "Systemd-manager-TUI: A TUI application for managing systemd services",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-09T16:14:24.49625453Z",
+  "last_updated": "2026-05-09T17:27:39.311390221Z",
   "total_count": 100
 }
