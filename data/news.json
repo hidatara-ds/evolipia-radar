@@ -1297,6 +1297,20 @@
       ]
     },
     {
+      "id": "a1b0e863-923c-4a2e-a781-df94b3260a4a",
+      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "url": "https://github.com/nooga/let-go",
+      "domain": "github.com",
+      "published_at": "2026-05-09T17:52:13Z",
+      "category": "tech",
+      "score": 0.25892756846229154,
+      "tldr": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b40667a5-f847-4c16-969f-1d9d921a504e",
       "title": "Advancing voice intelligence with new models in the API",
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "be691b28-5825-46fe-981a-b8346f8b814f",
-      "title": "SubQ – a major breakthrough in LLM intelligence",
-      "url": "https://twitter.com/alex_whedon/status/2051663268704636937",
-      "domain": "twitter.com",
-      "published_at": "2026-05-05T15:44:54Z",
-      "category": "tech",
-      "score": 0.2552280822278134,
-      "tldr": "SubQ – a major breakthrough in LLM intelligence",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-09T21:34:03.523728538Z",
+  "last_updated": "2026-05-09T22:32:40.441790729Z",
   "total_count": 100
 }
