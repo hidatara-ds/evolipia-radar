@@ -578,20 +578,6 @@
       ]
     },
     {
-      "id": "edabe084-4ca9-4d62-aa9a-6293983e5030",
-      "title": "K3k: Kubernetes in Kubernetes",
-      "url": "https://github.com/rancher/k3k",
-      "domain": "github.com",
-      "published_at": "2026-05-02T04:00:42Z",
-      "category": "tech",
-      "score": 0.3237183800901804,
-      "tldr": "K3k: Kubernetes in Kubernetes",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "mlops"
-      ]
-    },
-    {
       "id": "4d698400-9a16-46ee-93da-cf23659730ea",
       "title": "Making LLM Training Faster with Unsloth and NVIDIA",
       "url": "https://unsloth.ai/blog/nvidia-collab",
@@ -917,20 +903,6 @@
       ]
     },
     {
-      "id": "b55808e7-44d9-4016-8cfd-b0c44343128b",
-      "title": "Show HN: Agent-desktop – Native desktop automation CLI for AI agents",
-      "url": "https://github.com/lahfir/agent-desktop",
-      "domain": "github.com",
-      "published_at": "2026-05-02T02:18:24Z",
-      "category": "tech",
-      "score": 0.2823022898965055,
-      "tldr": "Show HN: Agent-desktop – Native desktop automation CLI for AI agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bdfc5d62-679c-4395-aaa9-b8a6e5758f0d",
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
       "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending",
@@ -983,20 +955,6 @@
       "category": "tech",
       "score": 0.27912673784151915,
       "tldr": "Bun is being ported from Zig to Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dec8f8d0-cbad-40bc-b64c-f9c0c78fbdbc",
-      "title": "Ask.com has closed",
-      "url": "https://www.ask.com/",
-      "domain": "ask.com",
-      "published_at": "2026-05-02T04:12:35Z",
-      "category": "tech",
-      "score": 0.27838681166183565,
-      "tldr": "Ask.com has closed",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1126,6 +1084,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "9db64ccd-cd14-4484-9f4f-e67a84b9e13d",
+      "title": "Can LLMs model real-world systems in TLA+?",
+      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla",
+      "domain": "sigops.org",
+      "published_at": "2026-05-08T16:21:56Z",
+      "category": "tech",
+      "score": 0.2662230349085927,
+      "tldr": "Can LLMs model real-world systems in TLA+?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1407,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b25ea763-26b0-48f9-a701-7779b54068e1",
+      "title": "DS4, a specialized inference engine for DeepSeek v4 Flash",
+      "url": "https://twitter.com/antirez/status/2052405820235678175",
+      "domain": "twitter.com",
+      "published_at": "2026-05-07T15:48:26Z",
+      "category": "tech",
+      "score": 0.25667943243006885,
+      "tldr": "DS4, a specialized inference engine for DeepSeek v4 Flash",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9662c29b-7b89-42f0-b0fb-8867312a0412",
+      "title": "Dav2d",
+      "url": "https://code.videolan.org/videolan/dav2d",
+      "domain": "code.videolan.org",
+      "published_at": "2026-05-02T17:32:29Z",
+      "category": "tech",
+      "score": 0.2562713520601153,
+      "tldr": "Dav2d",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-08T23:45:32.814433737Z",
+  "last_updated": "2026-05-09T05:00:46.418651531Z",
   "total_count": 100
 }
