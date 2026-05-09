@@ -480,6 +480,20 @@
       ]
     },
     {
+      "id": "854d90c3-7e22-44ba-a9be-0019d286a66d",
+      "title": "LLMs Corrupt Your Documents When You Delegate",
+      "url": "https://arxiv.org/abs/2604.15597",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-09T08:44:34Z",
+      "category": "tech",
+      "score": 0.3305619292862322,
+      "tldr": "LLMs Corrupt Your Documents When You Delegate",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5db981ad-738c-4a94-9fc7-322b6c668988",
       "title": "Dirty Frag: Universal Linux LPE",
       "url": "https://github.com/V4bel/dirtyfrag",
@@ -841,20 +855,6 @@
       "category": "tech",
       "score": 0.2900764146829357,
       "tldr": "OpenAI’s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "77ecc497-ec90-4a84-bc85-7f9cea01911e",
-      "title": "Open Design: Use Your Coding Agent as a Design Engine",
-      "url": "https://github.com/nexu-io/open-design",
-      "domain": "github.com",
-      "published_at": "2026-05-02T12:16:16Z",
-      "category": "tech",
-      "score": 0.2877433403141134,
-      "tldr": "Open Design: Use Your Coding Agent as a Design Engine",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,6 +1409,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-09T11:50:44.1354562Z",
+  "last_updated": "2026-05-09T12:51:27.944460734Z",
   "total_count": 100
 }
