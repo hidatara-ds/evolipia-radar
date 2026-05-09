@@ -1,254 +1,121 @@
-# Evolipia Radar
+# Evolipia Radar: AI-Powered News Intelligence
 
-> AI Research Intelligence Platform - Real-time tracking and analysis of AI/ML developments
+> AI Research Intelligence Platform -- Go + Next.js + PostgreSQL
 
-[![Production](https://img.shields.io/badge/status-production-success)](https://evolipia-radar.vercel.app)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
-[![Go Version](https://img.shields.io/badge/go-1.24.1-00ADD8.svg)](https://golang.org/)
-[![Next.js](https://img.shields.io/badge/next.js-14.2.0-000000.svg)](https://nextjs.org/)
+[![Go](https://img.shields.io/badge/Go-1.24.1-00ADD8?logo=go&logoColor=white)](https://go.dev/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Scrape%20Pipeline-2088FF?logo=github-actions&logoColor=white)](https://github.com/hidatara-ds/evolipia-radar/actions)
+[![Code Security](https://img.shields.io/badge/Code%20Security-CodeQL-2EA44F?logo=github&logoColor=white)](https://github.com/hidatara-ds/evolipia-radar/security)
 
-## 🎯 Overview
+Evolipia Radar is an automated intelligence pipeline that discovers AI/ML news, enriches and scores it with concurrent Go workers, then applies LLM-based processing for summarization and structured insights. The system is designed to run continuously through GitHub Actions and produce reliable JSON outputs for downstream API/UI consumption even when production database access is unavailable in CI runners.
 
-Evolipia Radar is an intelligent news aggregation and analysis platform designed for AI researchers and engineers. It automatically discovers, scores, and categorizes the latest developments in artificial intelligence and machine learning.
+## Executive Summary
 
-**Live Demo:** [https://evolipia-radar.vercel.app](https://evolipia-radar.vercel.app)
+This repository delivers a production-oriented news intelligence workflow:
 
-### Key Features
+- Collects curated AI/ML updates from multiple sources using high-throughput Go crawlers.
+- Processes article text with LLM providers (OpenRouter or Gemini Flash) to generate concise summaries and tags.
+- Stores outputs in PostgreSQL and JSON artifacts to support both API serving and static delivery workflows.
+- Runs on scheduled GitHub Actions to keep content fresh with minimal operational overhead.
 
-- 🔍 **Intelligent Crawling** - Automated discovery from 40+ curated AI/ML sources
-- 🏷️ **Smart Tagging** - Auto-categorization into LLM, Vision, RL, Robotics, IDE, and more
-- 📊 **Relevance Scoring** - Multi-factor scoring algorithm for content quality
-- 🎨 **Modern Dashboard** - Real-time updates with topic filtering
-- 🚀 **Production Ready** - Deployed on Vercel with PostgreSQL backend
+## Data Pipeline Architecture
 
-## 🏗️ Architecture
-
-```
-┌─────────────────┐
-│  GitHub Actions │ ──► Scrapes news every 30min
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  Neon.tech DB   │ ──► PostgreSQL database
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  Vercel API     │ ──► Serverless Go functions
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  Next.js UI     │ ──► React dashboard
-└─────────────────┘
+```mermaid
+flowchart LR
+    A[Target URL Sources] --> B[Go Scraper Worker]
+    B --> C[LLM Processing<br/>Gemini / OpenRouter]
+    C --> D[JSON Storage<br/>data/news.json]
+    C --> E[PostgreSQL Storage]
 ```
 
-**Tech Stack:**
-- **Backend:** Go 1.24.1, PostgreSQL (Neon.tech)
-- **Frontend:** Next.js 14, React, TypeScript, Tailwind CSS
-- **Deployment:** Vercel (Frontend + API), GitHub Actions (Scraper)
-- **Database:** Neon.tech PostgreSQL with connection pooling
+## Key Features
 
-## 🚀 Quick Start
+- Go concurrency for fast parallel scraping, normalization, and scoring.
+- Dynamic LLM integration with provider/model configuration via environment variables.
+- Automated and resilient CI workflow that keeps producing JSON output during restricted network conditions.
+- Multi-target output strategy (`data/news.json` and API mirror) for frontend and serverless compatibility.
 
-### Prerequisites
+## Repository Layout
 
-- Go 1.24.1+
-- Node.js 18+
-- PostgreSQL database (or Neon.tech account)
+- `cmd/worker-json`: scraping + export worker used by scheduled automation.
+- `pkg/`: shared business logic (crawler, AI, DB, scoring, services).
+- `api/`: serverless endpoints consumed by deployed frontend.
+- `app/`: Next.js interface.
+- `data/`: generated JSON artifacts (`news.json`, `hybrid_result.json`, `sem_result.json`, `text_result.json`).
 
-### Installation
+## Local Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/hidatara-ds/evolipia-radar.git
-   cd evolipia-radar
-   ```
-
-2. **Set up environment variables**
-   ```bash
-   cp .env.example .env.local
-   ```
-   
-   Edit `.env.local`:
-   ```env
-   DATABASE_URL=postgresql://user:pass@host/dbname
-   LLM_API_KEY=your_openrouter_key
-   LLM_PROVIDER=openrouter
-   LLM_MODEL=google/gemini-flash-1.5
-   ```
-
-3. **Install dependencies**
-   ```bash
-   # Backend
-   go mod download
-   
-   # Frontend
-   npm install
-   ```
-
-4. **Run database migrations**
-   ```bash
-   # Apply schema
-   psql $DATABASE_URL < migrations/001_initial_schema.sql
-   ```
-
-5. **Start development servers**
-   ```bash
-   # Terminal 1: Frontend
-   npm run dev
-   
-   # Terminal 2: API (optional for local testing)
-   go run cmd/api/main.go
-   
-   # Terminal 3: Worker (optional for local scraping)
-   go run cmd/worker/main.go
-   ```
-
-6. **Access the application**
-   - Frontend: http://localhost:3000
-   - API: http://localhost:8080
-
-## 📚 Documentation
-
-Comprehensive documentation is available in the [`docs/`](docs/) directory:
-
-- **[Architecture Guide](docs/ARCHITECTURE.md)** - System design and components
-- **[API Documentation](docs/API.md)** - REST API endpoints and schemas
-- **[Deployment Guide](docs/DEPLOYMENT.md)** - Production deployment instructions
-- **[Development Guide](docs/DEVELOPMENT.md)** - Local development setup
-- **[Database Schema](docs/DATABASE.md)** - PostgreSQL schema and migrations
-- **[Contributing Guide](docs/CONTRIBUTING.md)** - How to contribute
-
-## 🔧 Configuration
-
-### Environment Variables
-
-| Variable | Description | Required | Default |
-|----------|-------------|----------|---------|
-| `DATABASE_URL` | PostgreSQL connection string | Yes | - |
-| `LLM_API_KEY` | OpenRouter API key for AI features | No | - |
-| `LLM_PROVIDER` | LLM provider (openrouter) | No | openrouter |
-| `LLM_MODEL` | Model to use | No | google/gemini-flash-1.5 |
-| `LLM_ENABLED` | Enable AI summarization | No | false |
-
-### Topic Filters
-
-The platform supports the following topic categories:
-
-- **LLM** - Large Language Models
-- **Vision** - Computer Vision & Image Generation
-- **Data** - Data Science & Analytics
-- **Security** - AI Security & Privacy
-- **RL** - Reinforcement Learning
-- **Robotics** - Robotics & Automation
-- **IDE** - Developer Tools & IDEs
-- **Free Credits** - Student Programs & Free Resources
-
-## 🛠️ Development
-
-### Project Structure
-
-```
-evolipia-radar/
-├── api/              # Vercel serverless functions (Go)
-├── app/              # Next.js app directory
-├── cmd/              # Go command-line tools
-│   ├── api/          # API server
-│   ├── worker/       # Background scraper
-│   └── worker-json/  # JSON export worker
-├── pkg/              # Go packages
-│   ├── db/           # Database layer
-│   ├── models/       # Data models
-│   ├── services/     # Business logic
-│   └── tagging/      # Auto-tagging system
-├── scripts/          # Utility scripts
-├── migrations/       # Database migrations
-├── docs/             # Documentation
-└── public/           # Static assets
-```
-
-### Running Tests
+1. Clone and enter repository:
 
 ```bash
-# Go tests
-go test ./...
-
-# Frontend tests
-npm test
-
-# Integration tests
-npm run test:e2e
+git clone https://github.com/hidatara-ds/evolipia-radar.git
+cd evolipia-radar
 ```
 
-### Code Quality
+2. Install dependencies:
 
 ```bash
-# Linting
-golangci-lint run
-npm run lint
-
-# Formatting
-go fmt ./...
-npm run format
+go mod download
+npm install
 ```
 
-## 🚢 Deployment
+3. Configure environment:
 
-### Vercel (Recommended)
+```bash
+cp .env.example .env.local
+```
 
-1. **Connect to Vercel**
-   ```bash
-   vercel
-   ```
+Set required variables in `.env.local`:
 
-2. **Set environment variables**
-   ```bash
-   vercel env add DATABASE_URL
-   vercel env add LLM_API_KEY
-   ```
+```env
+DATABASE_URL=postgresql://user:password@host:5432/dbname?sslmode=require
+LLM_API_KEY=your_key
+LLM_PROVIDER=openrouter
+LLM_MODEL=google/gemini-flash-1.5
+LLM_ENABLED=true
+JSON_OUTPUT_PATH=data/news.json
+```
 
-3. **Deploy**
-   ```bash
-   vercel --prod
-   ```
+Optional CI-safe variables:
 
-See [Deployment Guide](docs/DEPLOYMENT.md) for detailed instructions.
+```env
+CI=true
+SKIP_DB=true
+```
 
-## 📊 Monitoring
+When `CI=true` or `SKIP_DB=true`, database ping is bypassed and the worker can still emit JSON output without crashing.
 
-- **Application Logs:** Vercel Dashboard → Logs
-- **Database Metrics:** Neon.tech Dashboard
-- **GitHub Actions:** Repository → Actions tab
+4. Run worker export locally:
 
-## 🤝 Contributing
+```bash
+go run ./cmd/worker-json
+```
 
-We welcome contributions! Please see our [Contributing Guide](docs/CONTRIBUTING.md) for details.
+5. Run frontend locally:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+```bash
+npm run dev
+```
 
-## 📝 License
+## CI/CD Workflow Notes
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+The scheduled workflow lives in `.github/workflows/scrape.yml` and runs every 30 minutes.
 
-## 🙏 Acknowledgments
+Pipeline behavior:
 
-- Built with [Next.js](https://nextjs.org/)
-- Powered by [Neon.tech](https://neon.tech/)
-- Deployed on [Vercel](https://vercel.com/)
-- AI features by [OpenRouter](https://openrouter.ai/)
+- Runs `go run ./cmd/worker-json` with JSON output enabled.
+- Uses `CI=true` and `SKIP_DB=true` to avoid failing on database network restrictions in GitHub-hosted runners.
+- Syncs `data/news.json` to `api/news.json` for deployment compatibility.
+- Commits updated data artifacts when changes are detected.
 
-## 📧 Contact
+This approach keeps automation healthy while preserving production database usage for non-CI runtime environments.
 
-- **Website:** [evolipia-radar.vercel.app](https://evolipia-radar.vercel.app)
-- **GitHub:** [@hidatara-ds](https://github.com/hidatara-ds)
-- **Issues:** [GitHub Issues](https://github.com/hidatara-ds/evolipia-radar/issues)
+## Commands
 
----
+- Scraper worker JSON export: `go run ./cmd/worker-json`
+- API server: `go run ./cmd/api/main.go`
+- Go tests: `go test ./...`
+- Frontend dev server: `npm run dev`
 
-Made with ❤️ by the Evolipia team
+## License
+
+MIT License. See `LICENSE.md`.

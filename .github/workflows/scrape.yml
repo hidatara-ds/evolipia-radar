@@ -38,6 +38,8 @@ jobs:
       
       - name: Run scraper
         env:
+          CI: "true"
+          SKIP_DB: "true"
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_ENABLED: "true"

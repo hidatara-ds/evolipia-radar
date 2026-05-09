@@ -34,10 +34,21 @@ type NewsData struct {
 
 func main() {
 	cfg := config.Load()
+	outputPath := getOutputPath()
+	newsData := NewsData{
+		Items:       []NewsItem{},
+		LastUpdated: time.Now(),
+		TotalCount:  0,
+	}
 
 	// Connect to database
 	database, err := db.New(cfg)
 	if err != nil {
+		if shouldSkipDatabaseWork() {
+			log.Printf("Skipping database work in CI mode. reason=%v", err)
+			writeJSONOutput(outputPath, newsData)
+			return
+		}
 		log.Fatalf("Failed to connect to database: %v", err)
 	}
 	defer database.Close()
@@ -58,19 +69,40 @@ func main() {
 	log.Println("Fetching latest news...")
 	items, err := fetchLatestNews(ctx, database)
 	if err != nil {
+		if shouldSkipDatabaseWork() {
+			log.Printf("Skipping database read in CI mode. reason=%v", err)
+			writeJSONOutput(outputPath, newsData)
+			return
+		}
 		log.Fatalf("Failed to fetch news: %v", err)
 	}
 
-	// Write to JSON file
-	outputPath := os.Getenv("JSON_OUTPUT_PATH")
-	if outputPath == "" {
-		outputPath = "data/news.json"
-	}
-
-	newsData := NewsData{
+	newsData = NewsData{
 		Items:       items,
 		LastUpdated: time.Now(),
 		TotalCount:  len(items),
+	}
+
+	writeJSONOutput(outputPath, newsData)
+}
+
+func getOutputPath() string {
+	outputPath := os.Getenv("JSON_OUTPUT_PATH")
+	if outputPath == "" {
+		return "data/news.json"
+	}
+
+	return outputPath
+}
+
+func shouldSkipDatabaseWork() bool {
+	return os.Getenv("SKIP_DB") == "true" || os.Getenv("CI") == "true"
+}
+
+func writeJSONOutput(outputPath string, newsData NewsData) {
+	outputDir := filepath.Dir(outputPath)
+	if err := os.MkdirAll(outputDir, 0o755); err != nil {
+		log.Fatalf("Failed to create output directory: %v", err)
 	}
 
 	// #nosec G304 - Path is from environment variable or default, controlled by deployment
@@ -90,7 +122,7 @@ func main() {
 		log.Fatalf("Failed to write JSON: %v", err)
 	}
 
-	log.Printf("Successfully wrote %d items to %s", len(items), outputPath)
+	log.Printf("Successfully wrote %d items to %s", newsData.TotalCount, outputPath)
 }
 
 func fetchLatestNews(ctx context.Context, database *db.DB) ([]NewsItem, error) {

@@ -3,6 +3,7 @@ package db
 import (
 	"context"
 	"fmt"
+	"os"
 	"time"
 
 	"github.com/hidatara-ds/evolipia-radar/pkg/config"
@@ -28,14 +29,20 @@ func New(cfg *config.Config) (*DB, error) {
 		return nil, fmt.Errorf("failed to create connection pool: %w", err)
 	}
 
-	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
-	defer cancel()
+	if !shouldSkipDBPing() {
+		ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+		defer cancel()
 
-	if err := pool.Ping(ctx); err != nil {
-		return nil, fmt.Errorf("failed to ping database: %w", err)
+		if err := pool.Ping(ctx); err != nil {
+			return nil, fmt.Errorf("failed to ping database: %w", err)
+		}
 	}
 
 	return &DB{Pool: pool}, nil
+}
+
+func shouldSkipDBPing() bool {
+	return os.Getenv("SKIP_DB") == "true" || os.Getenv("CI") == "true"
 }
 
 func (d *DB) Close() {
