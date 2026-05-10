@@ -156,20 +156,6 @@
       ]
     },
     {
-      "id": "f81f6cb8-c4f3-4340-9ac6-c0e09be38491",
-      "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
-      "url": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge",
-      "domain": "thinkpol.ca",
-      "published_at": "2026-05-03T04:05:28Z",
-      "category": "tech",
-      "score": 0.4154306732227283,
-      "tldr": "6 just beat Claude, GPT-5. 5, and Gemini in a coding challenge",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "95d3825d-db3c-4ef3-8024-1a19911216dd",
       "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
       "url": "https://github.com/aattaran/deepclaude",
@@ -347,6 +333,20 @@
       "category": "tech",
       "score": 0.3620028644467144,
       "tldr": "The map that keeps Burning Man honest",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "75cf916f-657c-4e04-9afb-e57b8c2d6ae2",
+      "title": "Meta's embrace of AI is making its employees miserable",
+      "url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-05-09T18:33:36Z",
+      "category": "tech",
+      "score": 0.35855118817839665,
+      "tldr": "Meta's embrace of AI is making its employees miserable",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -705,6 +705,20 @@
       ]
     },
     {
+      "id": "7e877654-8464-4b46-9b41-fe54d8440541",
+      "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+      "url": "https://github.com/imtomt/ymawky",
+      "domain": "github.com",
+      "published_at": "2026-05-10T03:01:44Z",
+      "category": "tech",
+      "score": 0.3066304050703635,
+      "tldr": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6c6a73bc-1f4e-4416-bb89-956ae76a90df",
       "title": "Google Chrome silently installs 4 GB Gemini Nano AI model without consent",
       "url": "https://alternativeto.net/news/2026/5/google-chrome-silently-installs-4-gb-gemini-nano-ai-model-to-user-device-without-consent",
@@ -742,6 +756,20 @@
       "category": "tech",
       "score": 0.3010517123636948,
       "tldr": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "bd7280f5-c3fb-46eb-b8dc-6c28c6fe92e2",
+      "title": "Show HN: Rust but Lisp",
+      "url": "https://github.com/ThatXliner/rust-but-lisp",
+      "domain": "github.com",
+      "published_at": "2026-05-09T21:46:27Z",
+      "category": "tech",
+      "score": 0.29928422078753236,
+      "tldr": "Show HN: Rust but Lisp",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1073,6 +1101,20 @@
       ]
     },
     {
+      "id": "3d3aaccc-eb27-4a70-ade5-b4dc9a319a73",
+      "title": "Gemini API File Search is now multimodal",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag",
+      "domain": "blog.google",
+      "published_at": "2026-05-10T03:22:02Z",
+      "category": "tech",
+      "score": 0.2658595614826874,
+      "tldr": "Gemini API File Search is now multimodal",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "abf2ce04-44e7-4da7-8351-3f2443963b74",
       "title": "SubQ: a sub-quadratic LLM with 12M-token context",
       "url": "https://subq.ai/introducing-subq",
@@ -1365,50 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b25ea763-26b0-48f9-a701-7779b54068e1",
-      "title": "DS4, a specialized inference engine for DeepSeek v4 Flash",
-      "url": "https://twitter.com/antirez/status/2052405820235678175",
-      "domain": "twitter.com",
-      "published_at": "2026-05-07T15:48:26Z",
-      "category": "tech",
-      "score": 0.25667943243006885,
-      "tldr": "DS4, a specialized inference engine for DeepSeek v4 Flash",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a940befd-faa8-4b9a-aeeb-a6f962deba16",
-      "title": "Show HN: Stage CLI – an easier way of reading your AI generated changes locally",
-      "url": "https://github.com/ReviewStage/stage-cli",
-      "domain": "github.com",
-      "published_at": "2026-05-07T15:38:36Z",
-      "category": "tech",
-      "score": 0.25579363741174393,
-      "tldr": "Show HN: Stage CLI – an easier way of reading your AI generated changes locally",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0aee0808-8e2c-4708-8303-34f1e05015da",
-      "title": "Systemd-manager-TUI: A TUI application for managing systemd services",
-      "url": "https://github.com/Matheus-git/systemd-manager-tui",
-      "domain": "github.com",
-      "published_at": "2026-05-03T10:55:30Z",
-      "category": "tech",
-      "score": 0.25568136529670205,
-      "tldr": "Systemd-manager-TUI: A TUI application for managing systemd services",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-10T01:49:41.729293161Z",
+  "last_updated": "2026-05-10T05:28:31.654820147Z",
   "total_count": 100
 }
