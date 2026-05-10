@@ -536,20 +536,6 @@
       ]
     },
     {
-      "id": "865dc4c1-dc96-41dd-a15e-2ae532616836",
-      "title": "Learning Pseudorandom Numbers with Transformers",
-      "url": "https://arxiv.org/abs/2510.26792",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-03T07:21:50Z",
-      "category": "tech",
-      "score": 0.32573843730236635,
-      "tldr": "Learning Pseudorandom Numbers with Transformers",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "4cbb1c4e-dbc1-4dce-8fde-92f9f61f70af",
       "title": "The fun has been optimized out of the Internet",
       "url": "https://muddy.jprs.me/posts/2026-05-03-the-best-is-over",
@@ -1407,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b25ea763-26b0-48f9-a701-7779b54068e1",
+      "title": "DS4, a specialized inference engine for DeepSeek v4 Flash",
+      "url": "https://twitter.com/antirez/status/2052405820235678175",
+      "domain": "twitter.com",
+      "published_at": "2026-05-07T15:48:26Z",
+      "category": "tech",
+      "score": 0.25667943243006885,
+      "tldr": "DS4, a specialized inference engine for DeepSeek v4 Flash",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-10T05:28:31.654820147Z",
+  "last_updated": "2026-05-10T07:39:08.056257341Z",
   "total_count": 100
 }
