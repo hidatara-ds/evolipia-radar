@@ -466,6 +466,20 @@
       ]
     },
     {
+      "id": "51a071f6-5790-42cc-99d4-b3b6f77714ef",
+      "title": "LLMorphism: When humans come to see themselves as language models",
+      "url": "https://arxiv.org/abs/2605.05419",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-10T08:22:12Z",
+      "category": "tech",
+      "score": 0.3317024861550033,
+      "tldr": "LLMorphism: When humans come to see themselves as language models",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "854d90c3-7e22-44ba-a9be-0019d286a66d",
       "title": "LLMs Corrupt Your Documents When You Delegate",
       "url": "https://arxiv.org/abs/2604.15597",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b25ea763-26b0-48f9-a701-7779b54068e1",
-      "title": "DS4, a specialized inference engine for DeepSeek v4 Flash",
-      "url": "https://twitter.com/antirez/status/2052405820235678175",
-      "domain": "twitter.com",
-      "published_at": "2026-05-07T15:48:26Z",
-      "category": "tech",
-      "score": 0.25667943243006885,
-      "tldr": "DS4, a specialized inference engine for DeepSeek v4 Flash",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-10T09:20:59.431064096Z",
+  "last_updated": "2026-05-10T10:43:16.619983081Z",
   "total_count": 100
 }
