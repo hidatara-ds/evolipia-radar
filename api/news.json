@@ -578,6 +578,20 @@
       ]
     },
     {
+      "id": "88081743-9e04-4578-a5b7-9be832bb1b30",
+      "title": "EU Parliamentary Research Service calls VPNs \"a loophole that needs closing\"",
+      "url": "https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push",
+      "domain": "cyberinsider.com",
+      "published_at": "2026-05-09T05:52:12Z",
+      "category": "tech",
+      "score": 0.3245424693559365,
+      "tldr": "EU Parliamentary Research Service calls VPNs \"a loophole that needs closing\"",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4d698400-9a16-46ee-93da-cf23659730ea",
       "title": "Making LLM Training Faster with Unsloth and NVIDIA",
       "url": "https://unsloth.ai/blog/nvidia-collab",
@@ -814,20 +828,6 @@
       "score": 0.2904429392248998,
       "tldr": "SQLite Is a Library of Congress Recommended Storage Format",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "de7427fe-795c-4087-a679-2d8a42378b6b",
-      "title": "OpenAI’s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
-      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
-      "domain": "theguardian.com",
-      "published_at": "2026-05-03T00:30:50Z",
-      "category": "tech",
-      "score": 0.2900764146829357,
-      "tldr": "OpenAI’s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1409,6 +1409,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-09T23:36:49.533503938Z",
+  "last_updated": "2026-05-10T01:49:41.729293161Z",
   "total_count": 100
 }
