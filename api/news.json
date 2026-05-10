@@ -649,20 +649,6 @@
       ]
     },
     {
-      "id": "47d9d2f2-0ae2-41c9-a4a5-c7cc09d3a357",
-      "title": "Let's Buy Spirit Air",
-      "url": "https://letsbuyspiritair.com/",
-      "domain": "letsbuyspiritair.com",
-      "published_at": "2026-05-03T23:36:11Z",
-      "category": "tech",
-      "score": 0.3107138555501931,
-      "tldr": "Let's Buy Spirit Air",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5e50c1af-f716-4149-b65a-50efb832f043",
       "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
       "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
@@ -1407,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2cd02d41-b3cb-4982-be77-47c1d7e945a1",
+      "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "url": "https://arxiv.org/abs/2604.26752",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-05T17:52:31Z",
+      "category": "tech",
+      "score": 0.2568989959124846,
+      "tldr": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-10T22:36:08.404807731Z",
+  "last_updated": "2026-05-10T23:40:42.122691025Z",
   "total_count": 100
 }
