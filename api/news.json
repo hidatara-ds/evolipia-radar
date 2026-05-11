@@ -1228,6 +1228,20 @@
       ]
     },
     {
+      "id": "08981bea-7652-4014-a03f-e5be5797643a",
+      "title": "Griffin PowerMate driver for modern macOS",
+      "url": "https://github.com/jameslockman/Griffin-PowerMate-Driver",
+      "domain": "github.com",
+      "published_at": "2026-05-11T21:35:38Z",
+      "category": "tech",
+      "score": 0.2560523023940024,
+      "tldr": "Griffin PowerMate driver for modern macOS",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a940befd-faa8-4b9a-aeeb-a6f962deba16",
       "title": "Show HN: Stage CLI – an easier way of reading your AI generated changes locally",
       "url": "https://github.com/ReviewStage/stage-cli",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "dd50d632-c10f-47c3-ab95-82f2c06dcac5",
-      "title": "SubQ: Sub-quadratic LLM built for 12M-token context",
-      "url": "https://subq.ai/",
-      "domain": "subq.ai",
-      "published_at": "2026-05-05T18:06:57Z",
-      "category": "tech",
-      "score": 0.2534153465306494,
-      "tldr": "SubQ: Sub-quadratic LLM built for 12M-token context",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-11T22:03:22.716064961Z",
+  "last_updated": "2026-05-11T23:28:52.035467866Z",
   "total_count": 100
 }
