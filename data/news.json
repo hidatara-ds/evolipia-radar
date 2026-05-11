@@ -355,20 +355,6 @@
       ]
     },
     {
-      "id": "7ea651fe-c209-446e-80f1-af5cf7bace86",
-      "title": "Days without GitHub incidents",
-      "url": "https://www.dayswithoutgithubincident.com/",
-      "domain": "dayswithoutgithubincident.com",
-      "published_at": "2026-05-04T17:36:32Z",
-      "category": "tech",
-      "score": 0.33966533203388555,
-      "tldr": "Days without GitHub incidents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "45847788-295b-4473-9284-ac2350c137d6",
       "title": "GPT‑5.5 Instant",
       "url": "https://openai.com/index/gpt-5-5-instant",
@@ -552,20 +538,6 @@
       ]
     },
     {
-      "id": "6a8921ba-5a4d-4aa9-a7a6-08c243547904",
-      "title": "US healthcare marketplaces shared citizenship and race data with ad tech giants",
-      "url": "https://techcrunch.com/2026/05/04/us-healthcare-marketplaces-shared-citizenship-and-race-data-with-ad-tech-giants",
-      "domain": "techcrunch.com",
-      "published_at": "2026-05-04T17:16:36Z",
-      "category": "tech",
-      "score": 0.3118386708586037,
-      "tldr": "US healthcare marketplaces shared citizenship and race data with ad tech giants",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "86d4912a-3a27-419b-ac04-f821ac086df1",
       "title": "Show HN: Kstack – Skill pack for monitoring/troubleshooting K8s in Claude Code",
       "url": "https://github.com/kubetail-org/kstack",
@@ -577,20 +549,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "mlops"
-      ]
-    },
-    {
-      "id": "5e50c1af-f716-4149-b65a-50efb832f043",
-      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
-      "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
-      "domain": "twitter.com",
-      "published_at": "2026-05-04T18:22:42Z",
-      "category": "tech",
-      "score": 0.30942395660922994,
-      "tldr": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -734,20 +692,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "fa7c5269-4307-4aab-a4a2-37756342aa2f",
-      "title": "Let's talk about LLMs",
-      "url": "https://www.b-list.org/weblog/2026/apr/09/llms",
-      "domain": "b-list.org",
-      "published_at": "2026-05-04T17:29:39Z",
-      "category": "tech",
-      "score": 0.29258906674126106,
-      "tldr": "Let's talk about LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -900,20 +844,6 @@
       "category": "tech",
       "score": 0.27003793290421196,
       "tldr": "Vibe coding and agentic engineering are getting closer than I'd like",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "91283181-c640-4464-9302-8efbdd661ada",
-      "title": "Stop big tech from making users behave in ways they don't want to",
-      "url": "https://economist.com/by-invitation/2026/04/29/stop-big-tech-from-making-users-behave-in-ways-they-dont-want-to",
-      "domain": "economist.com",
-      "published_at": "2026-05-04T17:10:57Z",
-      "category": "tech",
-      "score": 0.2680840189418708,
-      "tldr": "Stop big tech from making users behave in ways they don't want to",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,8 +1338,78 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "49ce5d7e-1c0f-4ddd-bada-f127747afd51",
+      "title": "Show HN: Orch8 – Durable workflow engine in Rust, one binary, Postgres or SQLite",
+      "url": "https://github.com/orch8-io/engine",
+      "domain": "github.com",
+      "published_at": "2026-05-05T12:15:14Z",
+      "category": "tech",
+      "score": 0.2540993945659896,
+      "tldr": "Show HN: Orch8 – Durable workflow engine in Rust, one binary, Postgres or SQLite",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0b1f1378-a81e-4c66-a465-3b2cb3f727d6",
+      "title": "'Dirty Frag' exploit leaks out, gives root on most Linux machines",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/dirty-frag-exploit-gets-root-on-most-linux-machines-since-2017-no-patches-available-no-warning-given-copy-fail-like-vulnerability-had-its-embargo-broken",
+      "domain": "tomshardware.com",
+      "published_at": "2026-05-08T09:59:35Z",
+      "category": "tech",
+      "score": 0.2535929026833843,
+      "tldr": "'Dirty Frag' exploit leaks out, gives root on most Linux machines",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2b661c26-55d1-4fdd-a54f-720d6adcdb97",
+      "title": "A recent experience with ChatGPT 5.5 Pro",
+      "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro",
+      "domain": "gowers.wordpress.com",
+      "published_at": "2026-05-09T02:41:42Z",
+      "category": "tech",
+      "score": 0.2535722068835818,
+      "tldr": "A recent experience with ChatGPT 5.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f5c56eb1-1742-4ba1-865c-67572ef9f23f",
+      "title": "RISC-V Server Platform Spec Ratified",
+      "url": "https://github.com/riscv-non-isa/riscv-server-platform/releases/tag/v1.0",
+      "domain": "github.com",
+      "published_at": "2026-05-08T23:16:54Z",
+      "category": "tech",
+      "score": 0.25354221986042835,
+      "tldr": "RISC-V Server Platform Spec Ratified",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "dd50d632-c10f-47c3-ab95-82f2c06dcac5",
+      "title": "SubQ: Sub-quadratic LLM built for 12M-token context",
+      "url": "https://subq.ai/",
+      "domain": "subq.ai",
+      "published_at": "2026-05-05T18:06:57Z",
+      "category": "tech",
+      "score": 0.2534153465306494,
+      "tldr": "SubQ: Sub-quadratic LLM built for 12M-token context",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-05-11T17:08:47.709032138Z",
+  "last_updated": "2026-05-11T19:16:04.745500822Z",
   "total_count": 100
 }
