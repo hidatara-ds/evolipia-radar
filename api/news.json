@@ -424,20 +424,6 @@
       ]
     },
     {
-      "id": "fcf8e484-67f2-4b4b-855b-2fae1ad24e35",
-      "title": "PyInfra 3.8.0",
-      "url": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
-      "domain": "github.com",
-      "published_at": "2026-05-04T12:53:46Z",
-      "category": "tech",
-      "score": 0.33369527735575943,
-      "tldr": "PyInfra 3.8.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "51a071f6-5790-42cc-99d4-b3b6f77714ef",
       "title": "LLMorphism: When humans come to see themselves as language models",
       "url": "https://arxiv.org/abs/2605.05419",
@@ -558,20 +544,6 @@
       "category": "tech",
       "score": 0.324779822549218,
       "tldr": "The fun has been optimized out of the Internet",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "25babf72-d898-4516-9342-ecfa02e0d189",
-      "title": "PyInfra 3.8.0 Is Out",
-      "url": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
-      "domain": "github.com",
-      "published_at": "2026-05-04T12:53:46Z",
-      "category": "tech",
-      "score": 0.3246800579502749,
-      "tldr": "PyInfra 3.8.0 Is Out",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -763,6 +735,21 @@
       ]
     },
     {
+      "id": "c8e1b8cc-1205-4ff5-96e6-09400889395b",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "domain": "cocoawithlove.com",
+      "published_at": "2026-05-10T17:05:05Z",
+      "category": "tech",
+      "score": 0.29652568111891686,
+      "tldr": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "46691537-0a12-4ace-8b47-ba01f088dda0",
       "title": "StarFighter 16-Inch",
       "url": "https://us.starlabs.systems/pages/starfighter",
@@ -858,20 +845,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "aa5dca08-57c0-4240-8ef9-1cadd9d09735",
-      "title": "How Monero’s proof of work works",
-      "url": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
-      "domain": "blog.alcazarsec.com",
-      "published_at": "2026-05-04T14:10:50Z",
-      "category": "tech",
-      "score": 0.2799319479071103,
-      "tldr": "How Monero’s proof of work works",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
         "general_ai"
       ]
     },
@@ -1080,20 +1053,6 @@
       "category": "tech",
       "score": 0.26472274951927666,
       "tldr": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8905a558-0fb7-419d-8bc3-55178a76abb2",
-      "title": "DAG Workflow Engine",
-      "url": "https://github.com/vivekg13186/Daisy-DAG",
-      "domain": "github.com",
-      "published_at": "2026-05-04T12:32:00Z",
-      "category": "tech",
-      "score": 0.26372343341023713,
-      "tldr": "DAG Workflow Engine",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1365,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "be691b28-5825-46fe-981a-b8346f8b814f",
+      "title": "SubQ – a major breakthrough in LLM intelligence",
+      "url": "https://twitter.com/alex_whedon/status/2051663268704636937",
+      "domain": "twitter.com",
+      "published_at": "2026-05-05T15:44:54Z",
+      "category": "tech",
+      "score": 0.2552280822278134,
+      "tldr": "SubQ – a major breakthrough in LLM intelligence",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "debfa8da-ea3c-42a3-8e25-bf8e770cd7c6",
+      "title": "Ombudsman column: The Pentagon is trying to silence me",
+      "url": "https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html",
+      "domain": "stripes.com",
+      "published_at": "2026-05-06T03:24:49Z",
+      "category": "tech",
+      "score": 0.25478740361599045,
+      "tldr": "Ombudsman column: The Pentagon is trying to silence me",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9f7729b5-68f4-4adf-b301-385ce3af13ff",
+      "title": "Show HN: PHP-fts – Full-text search engine in pure PHP, no extensions",
+      "url": "https://github.com/olivier-ls/php-fts",
+      "domain": "github.com",
+      "published_at": "2026-05-06T20:28:17Z",
+      "category": "tech",
+      "score": 0.2542528102052129,
+      "tldr": "Show HN: PHP-fts – Full-text search engine in pure PHP, no extensions",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-11T11:57:25.981037752Z",
+  "last_updated": "2026-05-11T14:28:21.213077795Z",
   "total_count": 100
 }
