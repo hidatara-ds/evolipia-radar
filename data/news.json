@@ -369,20 +369,6 @@
       ]
     },
     {
-      "id": "0e54c00f-6070-4985-a7cf-4564fa85dcff",
-      "title": "Transformers Are Inherently Succinct (2025)",
-      "url": "https://arxiv.org/abs/2510.19315",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-04T20:03:08Z",
-      "category": "tech",
-      "score": 0.3363479668068431,
-      "tldr": "Transformers Are Inherently Succinct (2025)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "51a071f6-5790-42cc-99d4-b3b6f77714ef",
       "title": "LLMorphism: When humans come to see themselves as language models",
       "url": "https://arxiv.org/abs/2605.05419",
@@ -422,20 +408,6 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "fba6f051-8c1b-43af-942f-287e17440127",
-      "title": "Transformers Are Inherently Succinct",
-      "url": "https://arxiv.org/abs/2510.19315",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-04T20:03:08Z",
-      "category": "tech",
-      "score": 0.32726099364872896,
-      "tldr": "Transformers Are Inherently Succinct",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -549,20 +521,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "mlops"
-      ]
-    },
-    {
-      "id": "5c09ef37-e5b0-42ed-b56f-c89c03b2ff50",
-      "title": "How OpenAI delivers low-latency voice AI at scale",
-      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-      "domain": "openai.com",
-      "published_at": "2026-05-04T19:42:47Z",
-      "category": "tech",
-      "score": 0.3076552169226103,
-      "tldr": "How OpenAI delivers low-latency voice AI at scale",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -844,6 +802,20 @@
       "category": "tech",
       "score": 0.27003793290421196,
       "tldr": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ee6c6828-9f8d-4527-b201-00f554889cc8",
+      "title": "Library for fast mapping of Java records to native memory",
+      "url": "https://github.com/mamba-studio/TypedMemory",
+      "domain": "github.com",
+      "published_at": "2026-05-11T19:33:31Z",
+      "category": "tech",
+      "score": 0.2692687179317396,
+      "tldr": "Library for fast mapping of Java records to native memory",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,8 +1380,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "b216a438-a78b-4854-a8df-009bd07076b8",
+      "title": "Nuke All Routers",
+      "url": "https://github.com/maxbrito500/esp32-c5-deauth",
+      "domain": "github.com",
+      "published_at": "2026-05-10T20:50:54Z",
+      "category": "tech",
+      "score": 0.2532323002076744,
+      "tldr": "Nuke All Routers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "91be6280-a134-4bea-9737-1c9ff4e28daa",
+      "title": "Show HN: Adam – An embeddable cross-platform AI agent library",
+      "url": "https://github.com/sqliteai/adam",
+      "domain": "github.com",
+      "published_at": "2026-05-06T12:56:29Z",
+      "category": "tech",
+      "score": 0.25319684599812564,
+      "tldr": "Show HN: Adam – An embeddable cross-platform AI agent library",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-11T19:16:04.745500822Z",
+  "last_updated": "2026-05-11T20:58:53.783011008Z",
   "total_count": 100
 }
