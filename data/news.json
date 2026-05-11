@@ -226,20 +226,6 @@
       ]
     },
     {
-      "id": "cc9cefae-091c-465e-832f-aadc1a469746",
-      "title": "Incident with Issues and Webhooks – Resolved",
-      "url": "https://www.githubstatus.com/incidents/72q3n8yxthcy",
-      "domain": "githubstatus.com",
-      "published_at": "2026-05-04T15:53:21Z",
-      "category": "tech",
-      "score": 0.38366765011418946,
-      "tldr": "Incident with Issues and Webhooks – Resolved",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ddd7851d-5d39-4c90-b615-583ed65fc731",
       "title": "Train Your Own LLM from Scratch",
       "url": "https://github.com/angelos-p/llm-from-scratch",
@@ -255,16 +241,17 @@
       ]
     },
     {
-      "id": "857c8459-7eee-460e-b4a2-6b4a71aea9b9",
-      "title": "Removable batteries in smartphones will be mandatory in the EU starting in 2027",
-      "url": "https://www.ecopv-eu.com/en/blog-en/replaceable-smartphone-batteries-2027-eu-regulation",
-      "domain": "ecopv-eu.com",
-      "published_at": "2026-05-04T15:10:41Z",
+      "id": "68827eff-b405-4ee7-a746-938268b9f969",
+      "title": "The OpenAI Deployment Company",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "domain": "openai.com",
+      "published_at": "2026-05-11T13:10:55Z",
       "category": "tech",
-      "score": 0.3735972707456537,
-      "tldr": "Removable batteries in smartphones will be mandatory in the EU starting in 2027",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.3774418593012828,
+      "tldr": "The OpenAI Deployment Company",
+      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
       "tags": [
+        "mlops",
         "general_ai"
       ]
     },
@@ -407,20 +394,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "df84977d-f23b-4033-ab1a-79f58f6b98d6",
-      "title": "I am worried about Bun",
-      "url": "https://wwj.dev/posts/i-am-worried-about-bun",
-      "domain": "wwj.dev",
-      "published_at": "2026-05-04T16:45:00Z",
-      "category": "tech",
-      "score": 0.3347406968409298,
-      "tldr": "I am worried about Bun",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1407,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8a6659d1-2829-4095-ad1f-b7a568e7f6b6",
+      "title": "Four stable kernels with partial fixes for Dirty Frag",
+      "url": "https://lwn.net/Articles/1071775",
+      "domain": "lwn.net",
+      "published_at": "2026-05-08T14:18:18Z",
+      "category": "tech",
+      "score": 0.2542190413001957,
+      "tldr": "Four stable kernels with partial fixes for Dirty Frag",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b230e5e0-354b-48ab-be6e-35a710f3d2f2",
+      "title": "Show HN: A Mutating Webhook to automatically strip PII from K8s logs",
+      "url": "https://github.com/aragossa/pii-shield",
+      "domain": "github.com",
+      "published_at": "2026-05-05T15:09:28Z",
+      "category": "tech",
+      "score": 0.25415487708385404,
+      "tldr": "Show HN: A Mutating Webhook to automatically strip PII from K8s logs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-11T14:28:21.213077795Z",
+  "last_updated": "2026-05-11T17:08:47.709032138Z",
   "total_count": 100
 }
