@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "b37c8980-1620-41eb-abc3-59b51e38ec55",
-      "title": "Talking to strangers at the gym",
-      "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym",
-      "domain": "thienantran.com",
-      "published_at": "2026-05-04T11:41:02Z",
-      "category": "tech",
-      "score": 0.594192432732931,
-      "tldr": "Talking to strangers at the gym",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ea602852-a5e0-45e7-bb85-9545ca4c95d7",
       "title": "Poland is now among the 20 largest economies",
       "url": "https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa",
@@ -876,21 +862,6 @@
       ]
     },
     {
-      "id": "616f3645-ed8b-4109-addd-027aace5b62c",
-      "title": "Setting up server monitoring for a Rails app on Hatchbox",
-      "url": "https://blog.appsignal.com/2026/04/30/setting-up-server-monitoring-for-a-rails-app-on-hatchbox.html",
-      "domain": "blog.appsignal.com",
-      "published_at": "2026-05-04T09:31:31Z",
-      "category": "tech",
-      "score": 0.2818483492767016,
-      "tldr": "Setting up server monitoring for a Rails app on Hatchbox",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "mlops"
-      ]
-    },
-    {
       "id": "aa5dca08-57c0-4240-8ef9-1cadd9d09735",
       "title": "How Monero’s proof of work works",
       "url": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
@@ -983,20 +954,6 @@
       "category": "tech",
       "score": 0.27003793290421196,
       "tldr": "Vibe coding and agentic engineering are getting closer than I'd like",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b7c6164f-a6fc-4ede-80ad-e762f9277f5c",
-      "title": "Trademark violation: Fake Notepad++ for Mac",
-      "url": "https://notepad-plus-plus.org/news/npp-trademark-infringement",
-      "domain": "notepad-plus-plus.org",
-      "published_at": "2026-05-04T09:40:06Z",
-      "category": "tech",
-      "score": 0.26931709100842194,
-      "tldr": "Trademark violation: Fake Notepad++ for Mac",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,8 +1364,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b25ea763-26b0-48f9-a701-7779b54068e1",
+      "title": "DS4, a specialized inference engine for DeepSeek v4 Flash",
+      "url": "https://twitter.com/antirez/status/2052405820235678175",
+      "domain": "twitter.com",
+      "published_at": "2026-05-07T15:48:26Z",
+      "category": "tech",
+      "score": 0.25667943243006885,
+      "tldr": "DS4, a specialized inference engine for DeepSeek v4 Flash",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a940befd-faa8-4b9a-aeeb-a6f962deba16",
+      "title": "Show HN: Stage CLI – an easier way of reading your AI generated changes locally",
+      "url": "https://github.com/ReviewStage/stage-cli",
+      "domain": "github.com",
+      "published_at": "2026-05-07T15:38:36Z",
+      "category": "tech",
+      "score": 0.25579363741174393,
+      "tldr": "Show HN: Stage CLI – an easier way of reading your AI generated changes locally",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "318235f8-65d9-4eb5-b47f-7c9cf1d31cff",
+      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
+      "url": "https://github.com/adamjgmiller/adamsreview",
+      "domain": "github.com",
+      "published_at": "2026-05-11T02:06:29Z",
+      "category": "tech",
+      "score": 0.25529529232113846,
+      "tldr": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-11T08:56:34.758625608Z",
+  "last_updated": "2026-05-11T11:57:25.981037752Z",
   "total_count": 100
 }
