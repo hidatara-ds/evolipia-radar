@@ -283,21 +283,6 @@
       ]
     },
     {
-      "id": "d456d69c-15e6-45ff-ae2b-e124fc2bcf4c",
-      "title": "AI didn't delete your database, you did",
-      "url": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did",
-      "domain": "idiallo.com",
-      "published_at": "2026-05-05T14:07:50Z",
-      "category": "tech",
-      "score": 0.34613030022905833,
-      "tldr": "AI didn't delete your database, you did",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "data"
-      ]
-    },
-    {
       "id": "25f2f19e-16ab-4a94-8e24-9a632cbd7fd0",
       "title": "Internet Archive Switzerland",
       "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge",
@@ -407,20 +392,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "4cbb1c4e-dbc1-4dce-8fde-92f9f61f70af",
-      "title": "The fun has been optimized out of the Internet",
-      "url": "https://muddy.jprs.me/posts/2026-05-03-the-best-is-over",
-      "domain": "muddy.jprs.me",
-      "published_at": "2026-05-05T14:29:24Z",
-      "category": "tech",
-      "score": 0.324779822549218,
-      "tldr": "The fun has been optimized out of the Internet",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -594,6 +565,20 @@
       "tags": [
         "general_ai",
         "llm"
+      ]
+    },
+    {
+      "id": "7563d0c2-1dd3-46f8-a979-bdbf840fce55",
+      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+      "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
+      "domain": "bbc.com",
+      "published_at": "2026-05-12T13:51:36Z",
+      "category": "tech",
+      "score": 0.2950478529279328,
+      "tldr": "US inflation jumps to 3. 8% as energy costs surge from Iran war",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -831,20 +816,6 @@
       "score": 0.2658595614826874,
       "tldr": "Gemini API File Search is now multimodal",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "abf2ce04-44e7-4da7-8351-3f2443963b74",
-      "title": "SubQ: a sub-quadratic LLM with 12M-token context",
-      "url": "https://subq.ai/introducing-subq",
-      "domain": "subq.ai",
-      "published_at": "2026-05-05T14:37:12Z",
-      "category": "tech",
-      "score": 0.2650743353125369,
-      "tldr": "SubQ: a sub-quadratic LLM with 12M-token context",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
       ]
@@ -1242,20 +1213,6 @@
       ]
     },
     {
-      "id": "b230e5e0-354b-48ab-be6e-35a710f3d2f2",
-      "title": "Show HN: A Mutating Webhook to automatically strip PII from K8s logs",
-      "url": "https://github.com/aragossa/pii-shield",
-      "domain": "github.com",
-      "published_at": "2026-05-05T15:09:28Z",
-      "category": "tech",
-      "score": 0.25415487708385404,
-      "tldr": "Show HN: A Mutating Webhook to automatically strip PII from K8s logs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0b1f1378-a81e-4c66-a465-3b2cb3f727d6",
       "title": "'Dirty Frag' exploit leaks out, gives root on most Linux machines",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/dirty-frag-exploit-gets-root-on-most-linux-machines-since-2017-no-patches-available-no-warning-given-copy-fail-like-vulnerability-had-its-embargo-broken",
@@ -1408,8 +1365,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
+      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "url": "https://arxiv.org/abs/2605.06647",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-10T02:16:30Z",
+      "category": "tech",
+      "score": 0.25170721513104516,
+      "tldr": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6ab4b0c5-31f0-4d47-86a1-c29d11c4ddef",
+      "title": "Show HN: E2a – Open-source email gateway for AI agents",
+      "url": "https://github.com/Mnexa-AI/e2a",
+      "domain": "github.com",
+      "published_at": "2026-05-11T20:26:17Z",
+      "category": "tech",
+      "score": 0.2516939773898743,
+      "tldr": "Show HN: E2a – Open-source email gateway for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "75b7722d-b95c-4464-9340-692ab27c42f8",
+      "title": "The Inference Shift",
+      "url": "https://stratechery.com/2026/the-inference-shift",
+      "domain": "stratechery.com",
+      "published_at": "2026-05-11T10:10:52Z",
+      "category": "tech",
+      "score": 0.25166783439607493,
+      "tldr": "The Inference Shift",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-12T12:23:38.318501172Z",
+  "last_updated": "2026-05-12T15:17:36.229445175Z",
   "total_count": 100
 }
