@@ -15,20 +15,6 @@
       ]
     },
     {
-      "id": "351a53d6-e526-41fd-ae6e-77f9bf4d2588",
-      "title": "Zig → Rust porting guide",
-      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
-      "domain": "github.com",
-      "published_at": "2026-05-05T01:08:17Z",
-      "category": "tech",
-      "score": 0.5412208262359661,
-      "tldr": "Zig → Rust porting guide",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "27433023-cb50-4117-81ea-0af349f44f5f",
       "title": "Canvas online again as ShinyHunters threatens to leak schools’ data",
       "url": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
@@ -150,6 +136,20 @@
       "category": "tech",
       "score": 0.4117256369600919,
       "tldr": "de TLD offline due to DNSSEC?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "eaaf58fe-cc7b-4f83-9760-78ed40f5b537",
+      "title": "Postmortem: TanStack npm supply-chain compromise",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "domain": "tanstack.com",
+      "published_at": "2026-05-11T21:08:25Z",
+      "category": "tech",
+      "score": 0.4100639843457286,
+      "tldr": "Postmortem: TanStack npm supply-chain compromise",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -709,20 +709,6 @@
       ]
     },
     {
-      "id": "b4951670-59ac-446e-9da8-c901ceacf9e0",
-      "title": "Y Combinator's Stake in OpenAI (0.6%?)",
-      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
-      "domain": "daringfireball.net",
-      "published_at": "2026-05-05T00:09:01Z",
-      "category": "tech",
-      "score": 0.2861553316742899,
-      "tldr": "Y Combinator's Stake in OpenAI (0.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bdfc5d62-679c-4395-aaa9-b8a6e5758f0d",
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
       "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending",
@@ -734,20 +720,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "78ec4612-9e9c-4eda-ac1b-5295e65ff5cc",
-      "title": "Bun is being ported from Zig to Rust",
-      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
-      "domain": "github.com",
-      "published_at": "2026-05-05T01:08:17Z",
-      "category": "tech",
-      "score": 0.27912673784151915,
-      "tldr": "Bun is being ported from Zig to Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
         "general_ai"
       ]
     },
@@ -1408,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "dd50d632-c10f-47c3-ab95-82f2c06dcac5",
+      "title": "SubQ: Sub-quadratic LLM built for 12M-token context",
+      "url": "https://subq.ai/",
+      "domain": "subq.ai",
+      "published_at": "2026-05-05T18:06:57Z",
+      "category": "tech",
+      "score": 0.2534153465306494,
+      "tldr": "SubQ: Sub-quadratic LLM built for 12M-token context",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b216a438-a78b-4854-a8df-009bd07076b8",
+      "title": "Nuke All Routers",
+      "url": "https://github.com/maxbrito500/esp32-c5-deauth",
+      "domain": "github.com",
+      "published_at": "2026-05-10T20:50:54Z",
+      "category": "tech",
+      "score": 0.2532323002076744,
+      "tldr": "Nuke All Routers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-11T23:28:52.035467866Z",
+  "last_updated": "2026-05-12T01:16:23.352950501Z",
   "total_count": 100
 }
