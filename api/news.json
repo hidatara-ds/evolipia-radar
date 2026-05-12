@@ -170,20 +170,6 @@
       ]
     },
     {
-      "id": "a56dc040-6ec9-450d-a532-0c64b4073669",
-      "title": "A complete Llama2 inference engine that fits in 1356 bytes of x86 assembly",
-      "url": "https://github.com/rdmsr/sectorllm",
-      "domain": "github.com",
-      "published_at": "2026-05-05T06:53:34Z",
-      "category": "tech",
-      "score": 0.4006258642797084,
-      "tldr": "A complete Llama2 inference engine that fits in 1356 bytes of x86 assembly",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "e1e4a2e1-f7f2-466b-ab58-c2ff37a64008",
       "title": "The Burning Man MOOP Map",
       "url": "https://www.not-ship.com/burning-man-moop",
@@ -291,20 +277,6 @@
       "category": "tech",
       "score": 0.35855118817839665,
       "tldr": "Meta's embrace of AI is making its employees miserable",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "de055f11-883e-4615-9107-3e1c2c88d2d9",
-      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
-      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install",
-      "domain": "thatprivacyguy.com",
-      "published_at": "2026-05-05T07:34:55Z",
-      "category": "tech",
-      "score": 0.34792500545531224,
-      "tldr": "Google Chrome silently installs a 4 GB AI model on your device without consent",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1031,20 +1003,6 @@
       ]
     },
     {
-      "id": "e60b0376-1467-466a-bb67-9ed7eb9c06cf",
-      "title": "Async Rust never left the MVP state",
-      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
-      "domain": "tweedegolf.nl",
-      "published_at": "2026-05-05T07:26:03Z",
-      "category": "tech",
-      "score": 0.25988497125791876,
-      "tldr": "Async Rust never left the MVP state",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9ebf231d-1ed1-4249-833e-a02436887551",
       "title": "Show HN: Git for AI Agents",
       "url": "https://github.com/regent-vcs/re_gent",
@@ -1395,6 +1353,20 @@
       ]
     },
     {
+      "id": "68eb92c1-fb47-4c74-ae56-f0403f34e8ba",
+      "title": "Supercomputer networking to accelerate large scale AI training",
+      "url": "https://openai.com/index/mrc-supercomputer-networking",
+      "domain": "openai.com",
+      "published_at": "2026-05-12T04:46:14Z",
+      "category": "tech",
+      "score": 0.25255256506411905,
+      "tldr": "Supercomputer networking to accelerate large scale AI training",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2a860226-b7f3-4e44-a995-8188f944d221",
       "title": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
       "url": "https://arxiv.org/abs/2605.01428",
@@ -1407,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "6c360109-a38f-4635-acfc-00320d3b9ed6",
+      "title": "Show HN: Modafinil - Let agents continue running while MacBook lid is closed",
+      "url": "https://github.com/narcotic-sh/modafinil",
+      "domain": "github.com",
+      "published_at": "2026-05-10T03:17:03Z",
+      "category": "tech",
+      "score": 0.2524471888345953,
+      "tldr": "Show HN: Modafinil - Let agents continue running while MacBook lid is closed",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
+      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "url": "https://arxiv.org/abs/2605.06647",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-10T02:16:30Z",
+      "category": "tech",
+      "score": 0.25170721513104516,
+      "tldr": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-12T04:54:44.107197011Z",
+  "last_updated": "2026-05-12T07:37:36.125562089Z",
   "total_count": 100
 }
