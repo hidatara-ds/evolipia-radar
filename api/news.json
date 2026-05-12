@@ -524,6 +524,21 @@
       ]
     },
     {
+      "id": "56ceb705-c2c8-4bb9-b593-e32de9501a0a",
+      "title": "Mass NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
+      "url": "https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral",
+      "domain": "safedep.io",
+      "published_at": "2026-05-12T08:23:40Z",
+      "category": "tech",
+      "score": 0.301999393546878,
+      "tldr": "Mass NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "bd7280f5-c3fb-46eb-b8dc-6c28c6fe92e2",
       "title": "Show HN: Rust but Lisp",
       "url": "https://github.com/ThatXliner/rust-but-lisp",
@@ -1381,34 +1396,20 @@
       ]
     },
     {
-      "id": "6c360109-a38f-4635-acfc-00320d3b9ed6",
-      "title": "Show HN: Modafinil - Let agents continue running while MacBook lid is closed",
-      "url": "https://github.com/narcotic-sh/modafinil",
-      "domain": "github.com",
-      "published_at": "2026-05-10T03:17:03Z",
+      "id": "64623aed-63d3-4a2c-b3e9-dcfb88200377",
+      "title": "Unitree GD01: China's $537k rideable transformer robot is now in production",
+      "url": "https://gagadget.com/en/709729-unitree-gd01-chinas-537k-rideable-transformer-robot-is-now-in-production",
+      "domain": "gagadget.com",
+      "published_at": "2026-05-12T09:49:26Z",
       "category": "tech",
-      "score": 0.2524471888345953,
-      "tldr": "Show HN: Modafinil - Let agents continue running while MacBook lid is closed",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.25245878067524186,
+      "tldr": "Unitree GD01: China's $537k rideable transformer robot is now in production",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
-      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
-      "url": "https://arxiv.org/abs/2605.06647",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-10T02:16:30Z",
-      "category": "tech",
-      "score": 0.25170721513104516,
-      "tldr": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
+        "llm"
       ]
     }
   ],
-  "last_updated": "2026-05-12T07:37:36.125562089Z",
+  "last_updated": "2026-05-12T10:23:15.617932013Z",
   "total_count": 100
 }
