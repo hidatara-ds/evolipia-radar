@@ -86,17 +86,18 @@
       ]
     },
     {
-      "id": "b0496cf1-c2c9-4d6f-8c5d-ccaa2936fc7c",
-      "title": "DNSSEC disruption affecting .de domains – Resolved",
-      "url": "https://status.denic.de/pages/incident/592577eab611ce1e0d00046f/69fa60ef9d12f5057a974f38",
-      "domain": "status.denic.de",
-      "published_at": "2026-05-05T20:16:35Z",
+      "id": "7ad3d1a4-6614-4bfd-a920-207b8e894206",
+      "title": "FairyFuse: Multiplication-Free LLM Inference on CPUs via Fused Ternary Kernels",
+      "url": "https://arxiv.org/abs/2604.20913",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-12T17:35:51Z",
       "category": "tech",
-      "score": 0.4478527817315201,
-      "tldr": "DNSSEC disruption affecting . de domains – Resolved",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.4511536009481814,
+      "tldr": "FairyFuse: Multiplication-Free LLM Inference on CPUs via Fused Ternary Kernels",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "general_ai"
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -122,20 +123,6 @@
       "category": "tech",
       "score": 0.42834800939580986,
       "tldr": "Show HN: Red Squares – GitHub outages as contributions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "bbaf40df-0260-4117-ac45-60cb693e2866",
-      "title": ".de TLD offline due to DNSSEC?",
-      "url": "https://dnssec-analyzer.verisignlabs.com/nic.de",
-      "domain": "dnssec-analyzer.verisignlabs.com",
-      "published_at": "2026-05-05T20:16:35Z",
-      "category": "tech",
-      "score": 0.4117256369600919,
-      "tldr": "de TLD offline due to DNSSEC?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -509,6 +496,21 @@
       ]
     },
     {
+      "id": "56512f54-5d80-4f95-aaa1-12329402bc0b",
+      "title": "OpenAI Hit with Overdose Suit Targeting ChatGPT Drug Advice (1)",
+      "url": "https://news.bloomberglaw.com/litigation/openai-hit-with-overdose-suit-centered-on-chatgpt-medical-advice",
+      "domain": "news.bloomberglaw.com",
+      "published_at": "2026-05-12T20:00:51Z",
+      "category": "tech",
+      "score": 0.3023382679277285,
+      "tldr": "OpenAI Hit with Overdose Suit Targeting ChatGPT Drug Advice (1)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "56ceb705-c2c8-4bb9-b593-e32de9501a0a",
       "title": "Mass NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
       "url": "https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral",
@@ -518,6 +520,21 @@
       "score": 0.301999393546878,
       "tldr": "Mass NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "5386e7d6-8d67-4b5b-b574-73ef413bf363",
+      "title": "The Problem with \"Mathematically Proven\" Claims About LLMs",
+      "url": "https://webdirections.org/blog/the-problem-with-mathematically-proven-claims-about-llms",
+      "domain": "webdirections.org",
+      "published_at": "2026-05-12T18:20:04Z",
+      "category": "tech",
+      "score": 0.3011743595132618,
+      "tldr": "The Problem with \"Mathematically Proven\" Claims About LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
         "llm"
@@ -1171,6 +1188,21 @@
       ]
     },
     {
+      "id": "2ffb5108-3a9c-4abe-83ce-3ab29f182c2c",
+      "title": "\"Will I be OK?\" Teen died after ChatGPT pushed deadly mix of drugs, lawsuit says",
+      "url": "https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says",
+      "domain": "arstechnica.com",
+      "published_at": "2026-05-12T19:27:02Z",
+      "category": "tech",
+      "score": 0.2542898915529485,
+      "tldr": "\" Teen died after ChatGPT pushed deadly mix of drugs, lawsuit says",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "cloud",
+        "llm"
+      ]
+    },
+    {
       "id": "9f7729b5-68f4-4adf-b301-385ce3af13ff",
       "title": "Show HN: PHP-fts – Full-text search engine in pure PHP, no extensions",
       "url": "https://github.com/olivier-ls/php-fts",
@@ -1297,6 +1329,20 @@
       ]
     },
     {
+      "id": "0f751c2f-12fd-411e-9811-d63626ba9acc",
+      "title": "Beyond Semantic Similarity",
+      "url": "https://arxiv.org/abs/2605.05242",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-12T19:51:41Z",
+      "category": "tech",
+      "score": 0.2527197387475246,
+      "tldr": "Beyond Semantic Similarity",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "68eb92c1-fb47-4c74-ae56-f0403f34e8ba",
       "title": "Supercomputer networking to accelerate large scale AI training",
       "url": "https://openai.com/index/mrc-supercomputer-networking",
@@ -1365,50 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "6ab4b0c5-31f0-4d47-86a1-c29d11c4ddef",
-      "title": "Show HN: E2a – Open-source email gateway for AI agents",
-      "url": "https://github.com/Mnexa-AI/e2a",
-      "domain": "github.com",
-      "published_at": "2026-05-11T20:26:17Z",
-      "category": "tech",
-      "score": 0.2516939773898743,
-      "tldr": "Show HN: E2a – Open-source email gateway for AI agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "75b7722d-b95c-4464-9340-692ab27c42f8",
-      "title": "The Inference Shift",
-      "url": "https://stratechery.com/2026/the-inference-shift",
-      "domain": "stratechery.com",
-      "published_at": "2026-05-11T10:10:52Z",
-      "category": "tech",
-      "score": 0.25166783439607493,
-      "tldr": "The Inference Shift",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "553ff0e4-5b26-40ab-8f4a-8e5cc9c26d84",
-      "title": "Firm solar and storage costs fall to $54/MWh, says IRENA",
-      "url": "https://www.pv-magazine.com/2026/05/06/firm-solar-and-storage-costs-fall-to-54-mwh-says-irena",
-      "domain": "pv-magazine.com",
-      "published_at": "2026-05-06T21:56:40Z",
-      "category": "tech",
-      "score": 0.25154612433758355,
-      "tldr": "Firm solar and storage costs fall to $54/MWh, says IRENA",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-12T19:18:09.716444738Z",
+  "last_updated": "2026-05-12T20:57:02.825810691Z",
   "total_count": 100
 }
