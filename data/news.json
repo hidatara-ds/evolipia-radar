@@ -226,21 +226,6 @@
       ]
     },
     {
-      "id": "ddd7851d-5d39-4c90-b615-583ed65fc731",
-      "title": "Train Your Own LLM from Scratch",
-      "url": "https://github.com/angelos-p/llm-from-scratch",
-      "domain": "github.com",
-      "published_at": "2026-05-05T04:09:17Z",
-      "category": "tech",
-      "score": 0.37827012918172137,
-      "tldr": "Train Your Own LLM from Scratch",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "68827eff-b405-4ee7-a746-938268b9f969",
       "title": "The OpenAI Deployment Company",
       "url": "https://openai.com/index/openai-launches-the-deployment-company",
@@ -419,20 +404,6 @@
       "category": "tech",
       "score": 0.32703197944573403,
       "tldr": "Cursed Browser: Rendering Engine Using Visual-LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "22719280-fb0b-4f10-8d3c-83187ba241d1",
-      "title": "Show HN: A tiny C program where an LLM rewires its DAG while running",
-      "url": "https://github.com/kouhxp/liteflow",
-      "domain": "github.com",
-      "published_at": "2026-05-05T01:43:05Z",
-      "category": "tech",
-      "score": 0.3262818784267618,
-      "tldr": "Show HN: A tiny C program where an LLM rewires its DAG while running",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -724,6 +695,20 @@
       ]
     },
     {
+      "id": "eb1e2445-8ce9-4659-acd8-23d7c15c0e41",
+      "title": "They Live (1988) inspired Adblocker",
+      "url": "https://github.com/davmlaw/they_live_adblocker",
+      "domain": "github.com",
+      "published_at": "2026-05-12T00:37:54Z",
+      "category": "tech",
+      "score": 0.2790388032248155,
+      "tldr": "They Live (1988) inspired Adblocker",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "9782c200-1f8a-4950-9652-2d4ae134e699",
       "title": "Higher usage limits for Claude and a compute deal with SpaceX",
       "url": "https://www.anthropic.com/news/higher-limits-spacex",
@@ -732,20 +717,6 @@
       "category": "tech",
       "score": 0.2752919494862361,
       "tldr": "Higher usage limits for Claude and a compute deal with SpaceX",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1fc249b4-07ec-4c85-93b7-91f00ac37202",
-      "title": "Kids can bypass some age checks with a drawn-on mustache",
-      "url": "https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert",
-      "domain": "theregister.com",
-      "published_at": "2026-05-05T04:36:24Z",
-      "category": "tech",
-      "score": 0.272558416012423,
-      "tldr": "Kids can bypass some age checks with a drawn-on mustache",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1043,20 +1014,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "507650ad-7b3a-4ee6-a3d0-236f4ee13f17",
-      "title": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
-      "url": "https://walzr.com/empty-screenings",
-      "domain": "walzr.com",
-      "published_at": "2026-05-05T04:33:22Z",
-      "category": "tech",
-      "score": 0.26027353523438107,
-      "tldr": "Empty Screenings – Finds AMC movie screenings with few or no tickets sold",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1408,8 +1365,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "91be6280-a134-4bea-9737-1c9ff4e28daa",
+      "title": "Show HN: Adam – An embeddable cross-platform AI agent library",
+      "url": "https://github.com/sqliteai/adam",
+      "domain": "github.com",
+      "published_at": "2026-05-06T12:56:29Z",
+      "category": "tech",
+      "score": 0.25319684599812564,
+      "tldr": "Show HN: Adam – An embeddable cross-platform AI agent library",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "39fdc74d-6e9f-4a9e-b93f-b88f9493c6cb",
+      "title": "ASML to invest $1.5B in Mistral at over $11B valuation",
+      "url": "https://www.calcalistech.com/ctechnews/article/bycca4sclg",
+      "domain": "calcalistech.com",
+      "published_at": "2026-05-08T21:45:36Z",
+      "category": "tech",
+      "score": 0.2529692866271964,
+      "tldr": "5B in Mistral at over $11B valuation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2a860226-b7f3-4e44-a995-8188f944d221",
+      "title": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
+      "url": "https://arxiv.org/abs/2605.01428",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-08T15:16:11Z",
+      "category": "tech",
+      "score": 0.2525126007861094,
+      "tldr": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-12T01:16:23.352950501Z",
+  "last_updated": "2026-05-12T04:54:44.107197011Z",
   "total_count": 100
 }
