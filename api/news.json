@@ -297,20 +297,6 @@
       ]
     },
     {
-      "id": "45847788-295b-4473-9284-ac2350c137d6",
-      "title": "GPT‑5.5 Instant",
-      "url": "https://openai.com/index/gpt-5-5-instant",
-      "domain": "openai.com",
-      "published_at": "2026-05-05T17:02:23Z",
-      "category": "tech",
-      "score": 0.33842358154687296,
-      "tldr": "GPT‑5.5 Instant",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "51a071f6-5790-42cc-99d4-b3b6f77714ef",
       "title": "LLMorphism: When humans come to see themselves as language models",
       "url": "https://arxiv.org/abs/2605.05419",
@@ -835,20 +821,6 @@
       ]
     },
     {
-      "id": "93578450-8144-47f1-9a7e-42f5334109f8",
-      "title": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4",
-      "domain": "blog.google",
-      "published_at": "2026-05-05T16:14:17Z",
-      "category": "tech",
-      "score": 0.26472274951927666,
-      "tldr": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b639d336-c287-4ee7-a1f9-d99da67ac6f8",
       "title": "LinkedIn profile visitor lists belong to the people, says Noyb",
       "url": "https://www.theregister.com/offbeat/2026/05/05/noyb-cries-foul-on-linkedin-withholding-profile-visitor-data/5225338",
@@ -1157,20 +1129,6 @@
       ]
     },
     {
-      "id": "be691b28-5825-46fe-981a-b8346f8b814f",
-      "title": "SubQ – a major breakthrough in LLM intelligence",
-      "url": "https://twitter.com/alex_whedon/status/2051663268704636937",
-      "domain": "twitter.com",
-      "published_at": "2026-05-05T15:44:54Z",
-      "category": "tech",
-      "score": 0.2552280822278134,
-      "tldr": "SubQ – a major breakthrough in LLM intelligence",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "debfa8da-ea3c-42a3-8e25-bf8e770cd7c6",
       "title": "Ombudsman column: The Pentagon is trying to silence me",
       "url": "https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html",
@@ -1311,6 +1269,20 @@
       ]
     },
     {
+      "id": "7189b147-b9bf-4aac-aac3-abe61d0e58f4",
+      "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "domain": "theverge.com",
+      "published_at": "2026-05-12T16:39:40Z",
+      "category": "tech",
+      "score": 0.25279403585547844,
+      "tldr": "Parents say ChatGPT got their son killed with bad advice on party drugs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "68eb92c1-fb47-4c74-ae56-f0403f34e8ba",
       "title": "Supercomputer networking to accelerate large scale AI training",
       "url": "https://openai.com/index/mrc-supercomputer-networking",
@@ -1407,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "553ff0e4-5b26-40ab-8f4a-8e5cc9c26d84",
+      "title": "Firm solar and storage costs fall to $54/MWh, says IRENA",
+      "url": "https://www.pv-magazine.com/2026/05/06/firm-solar-and-storage-costs-fall-to-54-mwh-says-irena",
+      "domain": "pv-magazine.com",
+      "published_at": "2026-05-06T21:56:40Z",
+      "category": "tech",
+      "score": 0.25154612433758355,
+      "tldr": "Firm solar and storage costs fall to $54/MWh, says IRENA",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a949665b-550b-43aa-a688-0dbfe950e761",
+      "title": "Copyfail2",
+      "url": "https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
+      "domain": "github.com",
+      "published_at": "2026-05-07T16:46:41Z",
+      "category": "tech",
+      "score": 0.2514748415923908,
+      "tldr": "Copyfail2",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-12T15:17:36.229445175Z",
+  "last_updated": "2026-05-12T17:31:27.946938579Z",
   "total_count": 100
 }
