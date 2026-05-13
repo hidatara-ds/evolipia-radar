@@ -936,20 +936,6 @@
       ]
     },
     {
-      "id": "fb4f3593-ce68-454e-9f63-077df787ac1f",
-      "title": "FFmpeg developer calls out OxideAV for AI license laundering of his code",
-      "url": "https://github.com/OxideAV/oxideav-magicyuv/issues/3",
-      "domain": "github.com",
-      "published_at": "2026-05-06T01:50:42Z",
-      "category": "tech",
-      "score": 0.262799391882349,
-      "tldr": "FFmpeg developer calls out OxideAV for AI license laundering of his code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c210e60e-e7eb-475b-ad39-7752526d7229",
       "title": "Just Use Go",
       "url": "https://blainsmith.com/articles/just-fucking-use-go",
@@ -1070,6 +1056,20 @@
       "category": "tech",
       "score": 0.25856877761692487,
       "tldr": "Advancing voice intelligence with new models in the API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "78abcaa8-08f5-4f35-988e-1d38ef4b13b1",
+      "title": "Scrcpy v4.0",
+      "url": "https://github.com/Genymobile/scrcpy/releases/tag/v4.0",
+      "domain": "github.com",
+      "published_at": "2026-05-12T20:50:02Z",
+      "category": "tech",
+      "score": 0.2585080699549486,
+      "tldr": "Scrcpy v4.0",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-12T23:34:27.300174931Z",
+  "last_updated": "2026-05-13T01:58:19.669312429Z",
   "total_count": 100
 }
