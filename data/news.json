@@ -256,6 +256,20 @@
       ]
     },
     {
+      "id": "4c425017-b529-4aff-b4e4-80535cd6dae0",
+      "title": "I Moved My Digital Stack to Europe",
+      "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe",
+      "domain": "monokai.com",
+      "published_at": "2026-05-13T11:42:20Z",
+      "category": "tech",
+      "score": 0.33635869281452463,
+      "tldr": "I Moved My Digital Stack to Europe",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "51a071f6-5790-42cc-99d4-b3b6f77714ef",
       "title": "LLMorphism: When humans come to see themselves as language models",
       "url": "https://arxiv.org/abs/2605.05419",
@@ -1244,20 +1258,6 @@
       ]
     },
     {
-      "id": "91be6280-a134-4bea-9737-1c9ff4e28daa",
-      "title": "Show HN: Adam – An embeddable cross-platform AI agent library",
-      "url": "https://github.com/sqliteai/adam",
-      "domain": "github.com",
-      "published_at": "2026-05-06T12:56:29Z",
-      "category": "tech",
-      "score": 0.25319684599812564,
-      "tldr": "Show HN: Adam – An embeddable cross-platform AI agent library",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "39fdc74d-6e9f-4a9e-b93f-b88f9493c6cb",
       "title": "ASML to invest $1.5B in Mistral at over $11B valuation",
       "url": "https://www.calcalistech.com/ctechnews/article/bycca4sclg",
@@ -1412,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-13T11:25:47.532728414Z",
+  "last_updated": "2026-05-13T13:34:46.204937737Z",
   "total_count": 100
 }
