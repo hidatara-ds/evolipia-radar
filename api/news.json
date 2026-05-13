@@ -242,6 +242,20 @@
       ]
     },
     {
+      "id": "3da85a8f-59ca-4fad-9c0a-0610b57d0dd5",
+      "title": "Setting up a free *.city.state.us locality domain (2025)",
+      "url": "https://fredchan.org/blog/locality-domains-guide",
+      "domain": "fredchan.org",
+      "published_at": "2026-05-13T14:45:18Z",
+      "category": "tech",
+      "score": 0.34590242151054645,
+      "tldr": "us locality domain (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "25f2f19e-16ab-4a94-8e24-9a632cbd7fd0",
       "title": "Internet Archive Switzerland",
       "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge",
@@ -710,20 +724,6 @@
       ]
     },
     {
-      "id": "50bc7752-6854-45c4-adc4-0abc669ecb63",
-      "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
-      "url": "https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets",
-      "domain": "electrek.co",
-      "published_at": "2026-05-06T18:25:06Z",
-      "category": "tech",
-      "score": 0.2715873881248303,
-      "tldr": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "718b1870-4ae1-44ca-85cb-584932b8eb1e",
       "title": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
       "url": "https://github.com/graemeg/blaise",
@@ -819,6 +819,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "87e20833-b748-45af-9266-9a75f7e3aff5",
+      "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
+      "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+      "domain": "propublica.org",
+      "published_at": "2026-05-13T19:01:54Z",
+      "category": "tech",
+      "score": 0.26403067408183034,
+      "tldr": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -928,6 +942,20 @@
       "category": "tech",
       "score": 0.26012426447803005,
       "tldr": "Show HN: Trust – Coding Rust like it's 1989",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f1fc8c90-ad49-4440-8e20-025446c6de16",
+      "title": "GitHub Actions issued GitHub_TOKEN disclosure in GitHub Actions logs",
+      "url": "https://github.com/composer/composer/security/advisories/GHSA-f9f8-rm49-7jv2",
+      "domain": "github.com",
+      "published_at": "2026-05-13T11:26:33Z",
+      "category": "tech",
+      "score": 0.2597139983896623,
+      "tldr": "GitHub Actions issued GitHub_TOKEN disclosure in GitHub Actions logs",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1381,36 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "75b7722d-b95c-4464-9340-692ab27c42f8",
-      "title": "The Inference Shift",
-      "url": "https://stratechery.com/2026/the-inference-shift",
-      "domain": "stratechery.com",
-      "published_at": "2026-05-11T10:10:52Z",
-      "category": "tech",
-      "score": 0.25166783439607493,
-      "tldr": "The Inference Shift",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "553ff0e4-5b26-40ab-8f4a-8e5cc9c26d84",
-      "title": "Firm solar and storage costs fall to $54/MWh, says IRENA",
-      "url": "https://www.pv-magazine.com/2026/05/06/firm-solar-and-storage-costs-fall-to-54-mwh-says-irena",
-      "domain": "pv-magazine.com",
-      "published_at": "2026-05-06T21:56:40Z",
-      "category": "tech",
-      "score": 0.25154612433758355,
-      "tldr": "Firm solar and storage costs fall to $54/MWh, says IRENA",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-13T18:22:20.286353963Z",
+  "last_updated": "2026-05-13T20:16:33.273622456Z",
   "total_count": 100
 }
