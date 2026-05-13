@@ -611,20 +611,6 @@
       ]
     },
     {
-      "id": "09372335-2c1d-4e18-bdd3-f774b55cc396",
-      "title": "SQLite Is a Library of Congress Recommended Storage Format",
-      "url": "https://sqlite.org/locrsf.html",
-      "domain": "sqlite.org",
-      "published_at": "2026-05-06T21:58:43Z",
-      "category": "tech",
-      "score": 0.2904429392248998,
-      "tldr": "SQLite Is a Library of Congress Recommended Storage Format",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "63384a1e-feb2-42b7-a1e8-06e6f904a1d3",
       "title": "I returned to AWS and was reminded why I left",
       "url": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
+      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "url": "https://arxiv.org/abs/2605.06647",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-10T02:16:30Z",
+      "category": "tech",
+      "score": 0.25170721513104516,
+      "tldr": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-13T21:51:18.742305755Z",
+  "last_updated": "2026-05-13T22:56:08.755916703Z",
   "total_count": 100
 }
