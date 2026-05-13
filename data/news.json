@@ -171,6 +171,20 @@
       ]
     },
     {
+      "id": "09014df3-d1eb-4f04-b0ba-7118fc32dccd",
+      "title": "Leaving GitHub for Forgejo",
+      "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo",
+      "domain": "jorijn.com",
+      "published_at": "2026-05-13T12:54:00Z",
+      "category": "tech",
+      "score": 0.37828132313709983,
+      "tldr": "Leaving GitHub for Forgejo",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "68827eff-b405-4ee7-a746-938268b9f969",
       "title": "The OpenAI Deployment Company",
       "url": "https://openai.com/index/openai-launches-the-deployment-company",
@@ -264,6 +278,20 @@
       "category": "tech",
       "score": 0.3317024861550033,
       "tldr": "LLMorphism: When humans come to see themselves as language models",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ba50b0be-2fec-43da-8ef9-915d28a8ca80",
+      "title": "Show HN: Torrix, self hosted, LLM Observability,(no Postgres, no Redis)",
+      "url": "https://github.com/torrix-ai/install",
+      "domain": "github.com",
+      "published_at": "2026-05-13T12:14:26Z",
+      "category": "tech",
+      "score": 0.330715624443228,
+      "tldr": "Show HN: Torrix, self hosted, LLM Observability,(no Postgres, no Redis)",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -648,20 +676,6 @@
       "category": "tech",
       "score": 0.2767659555553496,
       "tldr": "Restore full BambuNetwork support for Bambu Lab printers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9782c200-1f8a-4950-9652-2d4ae134e699",
-      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "domain": "anthropic.com",
-      "published_at": "2026-05-06T16:17:33Z",
-      "category": "tech",
-      "score": 0.2752919494862361,
-      "tldr": "Higher usage limits for Claude and a compute deal with SpaceX",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1313,6 +1327,20 @@
       ]
     },
     {
+      "id": "db4edd0a-707d-4f7b-893a-4ce4eec8a9b4",
+      "title": "Show HN: FixMyNPM, CLI to fix your insecure npm config",
+      "url": "https://github.com/madhugb/FixMyNPM",
+      "domain": "github.com",
+      "published_at": "2026-05-13T12:46:15Z",
+      "category": "tech",
+      "score": 0.25222049753915776,
+      "tldr": "Show HN: FixMyNPM, CLI to fix your insecure npm config",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
       "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
       "url": "https://arxiv.org/abs/2605.06647",
@@ -1381,36 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "a949665b-550b-43aa-a688-0dbfe950e761",
-      "title": "Copyfail2",
-      "url": "https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
-      "domain": "github.com",
-      "published_at": "2026-05-07T16:46:41Z",
-      "category": "tech",
-      "score": 0.2514748415923908,
-      "tldr": "Copyfail2",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fd80ef04-5810-49d3-ba59-26ed7cd35e5c",
-      "title": "WinMerge 2.16.56 – A Windows tool for visual difference display and merging",
-      "url": "https://github.com/WinMerge/winmerge/releases/tag/v2.16.56",
-      "domain": "github.com",
-      "published_at": "2026-05-13T11:12:04Z",
-      "category": "tech",
-      "score": 0.25145683283584847,
-      "tldr": "56 – A Windows tool for visual difference display and merging",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-13T16:14:04.966270957Z",
+  "last_updated": "2026-05-13T18:22:20.286353963Z",
   "total_count": 100
 }
