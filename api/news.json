@@ -569,21 +569,6 @@
       ]
     },
     {
-      "id": "d0041ef8-4a9f-4115-b92c-b68913900a97",
-      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
-      "url": "https://blog.cloudflare.com/agents-stripe-projects",
-      "domain": "blog.cloudflare.com",
-      "published_at": "2026-05-06T03:10:33Z",
-      "category": "tech",
-      "score": 0.29730917451902344,
-      "tldr": "Agents can now create Cloudflare accounts, buy domains, and deploy",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud",
-        "general_ai"
-      ]
-    },
-    {
       "id": "c8e1b8cc-1205-4ff5-96e6-09400889395b",
       "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
       "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
@@ -607,34 +592,6 @@
       "category": "tech",
       "score": 0.2950478529279328,
       "tldr": "US inflation jumps to 3. 8% as energy costs surge from Iran war",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "46691537-0a12-4ace-8b47-ba01f088dda0",
-      "title": "StarFighter 16-Inch",
-      "url": "https://us.starlabs.systems/pages/starfighter",
-      "domain": "us.starlabs.systems",
-      "published_at": "2026-05-06T02:03:44Z",
-      "category": "tech",
-      "score": 0.2941697780515964,
-      "tldr": "StarFighter 16-Inch",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "71f1d408-2913-47b7-935b-f574772aa8f7",
-      "title": "Update on \"Co-authored-by: Copilot\" in commit messages",
-      "url": "https://github.com/microsoft/vscode/issues/314311",
-      "domain": "github.com",
-      "published_at": "2026-05-06T03:15:05Z",
-      "category": "tech",
-      "score": 0.29243530316663047,
-      "tldr": "Update on \"Co-authored-by: Copilot\" in commit messages",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -698,6 +655,20 @@
       ]
     },
     {
+      "id": "4bcafdc8-c304-482f-835e-1c335c848717",
+      "title": "Starship V3",
+      "url": "https://www.spacex.com/updates",
+      "domain": "spacex.com",
+      "published_at": "2026-05-13T01:29:31Z",
+      "category": "tech",
+      "score": 0.28139780218562294,
+      "tldr": "Starship V3",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "eb1e2445-8ce9-4659-acd8-23d7c15c0e41",
       "title": "They Live (1988) inspired Adblocker",
       "url": "https://github.com/davmlaw/they_live_adblocker",
@@ -748,6 +719,20 @@
       "category": "tech",
       "score": 0.27423109320291794,
       "tldr": "Reimagining the mouse pointer for the AI era",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3167dc7c-6f95-4db9-898e-77dda2b04346",
+      "title": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
+      "url": "https://arxiv.org/abs/2605.08419",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-13T04:25:03Z",
+      "category": "tech",
+      "score": 0.2736183077344634,
+      "tldr": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1188,20 +1173,6 @@
       ]
     },
     {
-      "id": "debfa8da-ea3c-42a3-8e25-bf8e770cd7c6",
-      "title": "Ombudsman column: The Pentagon is trying to silence me",
-      "url": "https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html",
-      "domain": "stripes.com",
-      "published_at": "2026-05-06T03:24:49Z",
-      "category": "tech",
-      "score": 0.25478740361599045,
-      "tldr": "Ombudsman column: The Pentagon is trying to silence me",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2ffb5108-3a9c-4abe-83ce-3ab29f182c2c",
       "title": "\"Will I be OK?\" Teen died after ChatGPT pushed deadly mix of drugs, lawsuit says",
       "url": "https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says",
@@ -1411,8 +1382,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "1fbdd7d1-5c3f-4cdd-a6eb-7a891df5a873",
+      "title": "YellowKey Bitlocker Bypass Vulnerability",
+      "url": "https://github.com/Nightmare-Eclipse/YellowKey",
+      "domain": "github.com",
+      "published_at": "2026-05-12T21:42:27Z",
+      "category": "tech",
+      "score": 0.2523153820530573,
+      "tldr": "YellowKey Bitlocker Bypass Vulnerability",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
+      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "url": "https://arxiv.org/abs/2605.06647",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-10T02:16:30Z",
+      "category": "tech",
+      "score": 0.25170721513104516,
+      "tldr": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-13T01:58:19.669312429Z",
+  "last_updated": "2026-05-13T05:44:21.840442605Z",
   "total_count": 100
 }
