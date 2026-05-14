@@ -115,34 +115,6 @@
       ]
     },
     {
-      "id": "9d1e0060-0d91-4c06-a2f8-d080b8857b0c",
-      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-      "url": "https://deepmind.google/blog/alphaevolve-impact",
-      "domain": "deepmind.google",
-      "published_at": "2026-05-07T15:02:20Z",
-      "category": "tech",
-      "score": 0.40842675352504987,
-      "tldr": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e1e4a2e1-f7f2-466b-ab58-c2ff37a64008",
-      "title": "The Burning Man MOOP Map",
-      "url": "https://www.not-ship.com/burning-man-moop",
-      "domain": "not-ship.com",
-      "published_at": "2026-05-07T14:06:10Z",
-      "category": "tech",
-      "score": 0.3901713396521426,
-      "tldr": "The Burning Man MOOP Map",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8b098df3-aaea-4e5d-b6c6-5fd57fe44636",
       "title": "DeepSeek 4 Flash local inference engine for Metal",
       "url": "https://github.com/antirez/ds4",
@@ -194,20 +166,6 @@
       "category": "tech",
       "score": 0.36706022660751336,
       "tldr": "Poland is now among the 20 largest economies.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5af57e0f-3af0-4742-81ce-08d832679fd5",
-      "title": "The map that keeps Burning Man honest",
-      "url": "https://www.not-ship.com/burning-man-moop",
-      "domain": "not-ship.com",
-      "published_at": "2026-05-07T14:06:10Z",
-      "category": "tech",
-      "score": 0.3620028644467144,
-      "tldr": "The map that keeps Burning Man honest",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -404,20 +362,6 @@
       "category": "tech",
       "score": 0.31034427556481614,
       "tldr": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "183ef0f7-0d47-41e8-932a-ed60d19b6555",
-      "title": "Child marriages plunged when girls stayed in school in Nigeria",
-      "url": "https://www.nature.com/articles/d41586-026-00720-8",
-      "domain": "nature.com",
-      "published_at": "2026-05-07T13:30:04Z",
-      "category": "tech",
-      "score": 0.30673709862069326,
-      "tldr": "Child marriages plunged when girls stayed in school in Nigeria",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -871,6 +815,20 @@
       "category": "tech",
       "score": 0.2630581351813269,
       "tldr": "Rust but Lisp",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "07d8354d-63b8-4faf-b8df-9102a6c6571a",
+      "title": "Remove .zig Files from Bun",
+      "url": "https://github.com/oven-sh/bun/pull/30680",
+      "domain": "github.com",
+      "published_at": "2026-05-14T10:12:26Z",
+      "category": "tech",
+      "score": 0.26282067772658485,
+      "tldr": "Remove .zig Files from Bun",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,8 +1366,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "75b7722d-b95c-4464-9340-692ab27c42f8",
+      "title": "The Inference Shift",
+      "url": "https://stratechery.com/2026/the-inference-shift",
+      "domain": "stratechery.com",
+      "published_at": "2026-05-11T10:10:52Z",
+      "category": "tech",
+      "score": 0.25166783439607493,
+      "tldr": "The Inference Shift",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a949665b-550b-43aa-a688-0dbfe950e761",
+      "title": "Copyfail2",
+      "url": "https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
+      "domain": "github.com",
+      "published_at": "2026-05-07T16:46:41Z",
+      "category": "tech",
+      "score": 0.2514748415923908,
+      "tldr": "Copyfail2",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "fd80ef04-5810-49d3-ba59-26ed7cd35e5c",
+      "title": "WinMerge 2.16.56 – A Windows tool for visual difference display and merging",
+      "url": "https://github.com/WinMerge/winmerge/releases/tag/v2.16.56",
+      "domain": "github.com",
+      "published_at": "2026-05-13T11:12:04Z",
+      "category": "tech",
+      "score": 0.25145683283584847,
+      "tldr": "56 – A Windows tool for visual difference display and merging",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-14T12:22:28.087235161Z",
+  "last_updated": "2026-05-14T15:03:30.618064412Z",
   "total_count": 100
 }
