@@ -412,6 +412,21 @@
       ]
     },
     {
+      "id": "f467ac73-d3f3-4173-a34a-ba0880889226",
+      "title": "OpenAI's Codex is now in the ChatGPT mobile app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
+      "domain": "theverge.com",
+      "published_at": "2026-05-14T20:25:01Z",
+      "category": "tech",
+      "score": 0.30212968311810995,
+      "tldr": "OpenAI's Codex is now in the ChatGPT mobile app",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "56ceb705-c2c8-4bb9-b593-e32de9501a0a",
       "title": "Mass NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
       "url": "https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral",
@@ -633,6 +648,20 @@
       "category": "tech",
       "score": 0.2710633669471359,
       "tldr": "In-person examinations at Princeton will be proctored starting July 1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ef00e4ac-8f2f-4d24-94e7-b4355395f6ba",
+      "title": "Work with Codex from Anywhere",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "domain": "openai.com",
+      "published_at": "2026-05-14T20:06:14Z",
+      "category": "tech",
+      "score": 0.27084944439129377,
+      "tldr": "Work with Codex from Anywhere",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -983,6 +1012,20 @@
       "category": "tech",
       "score": 0.25820471366112363,
       "tldr": "Academic Research Skills for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2f1b3034-42f9-4134-9dab-a9bec647684d",
+      "title": "Claude for Legal",
+      "url": "https://github.com/anthropics/claude-for-legal",
+      "domain": "github.com",
+      "published_at": "2026-05-14T21:05:05Z",
+      "category": "tech",
+      "score": 0.2568763765049387,
+      "tldr": "Claude for Legal",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1366,50 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "3a19a0ac-b049-402e-914c-0a902cb9a2c9",
-      "title": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
-      "url": "https://www.theregister.com/oses/2026/05/11/linux-kernel-maintainers-pitch-emergency-killswitch-after-copyfail-and-dirty-frag-chaos/5237801",
-      "domain": "theregister.com",
-      "published_at": "2026-05-11T14:06:11Z",
-      "category": "tech",
-      "score": 0.2510440591138209,
-      "tldr": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "30192b09-818b-46c3-af5b-68ff499a12ae",
-      "title": "Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama",
-      "url": "https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama",
-      "domain": "cyera.com",
-      "published_at": "2026-05-08T17:38:11Z",
-      "category": "tech",
-      "score": 0.2509784314432598,
-      "tldr": "Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "cc391e48-d427-47c5-a952-afe1a7c2be64",
-      "title": "MCP for sandboxed, reproducible envs for agentic-first coding workflows",
-      "url": "https://github.com/aniongithub/devcontainer-mcp",
-      "domain": "github.com",
-      "published_at": "2026-05-10T03:15:25Z",
-      "category": "tech",
-      "score": 0.250830546109398,
-      "tldr": "MCP for sandboxed, reproducible envs for agentic-first coding workflows",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-14T20:51:33.946994677Z",
+  "last_updated": "2026-05-14T22:00:18.053703941Z",
   "total_count": 100
 }
