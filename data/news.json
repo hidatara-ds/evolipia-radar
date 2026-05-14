@@ -30,45 +30,17 @@
       ]
     },
     {
-      "id": "570e8495-90bb-45f9-8fb7-8316613f0431",
-      "title": "Cloudflare to cut about 20% of its workforce",
-      "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07",
-      "domain": "reuters.com",
-      "published_at": "2026-05-07T20:23:37Z",
+      "id": "2e05097a-864b-48d6-adc4-688069a8b383",
+      "title": "A message from President Kornbluth about funding and the talent pipeline",
+      "url": "https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline",
+      "domain": "president.mit.edu",
+      "published_at": "2026-05-14T14:51:14Z",
       "category": "tech",
-      "score": 0.4884906500570525,
-      "tldr": "Cloudflare to cut about 20% of its workforce",
+      "score": 0.48632762945180663,
+      "tldr": "A message from President Kornbluth about funding and the talent pipeline",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
-      ]
-    },
-    {
-      "id": "3789ee4e-27ee-4e68-a982-4d27328f79c2",
-      "title": "Dirty Frag: Universal Linux LPE",
-      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
-      "domain": "openwall.com",
-      "published_at": "2026-05-07T19:21:32Z",
-      "category": "tech",
-      "score": 0.4733528331684986,
-      "tldr": "Dirty Frag: Universal Linux LPE",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "aec7182b-345f-4b8b-ab31-e7fff1fd13b2",
-      "title": "Cloudflare to cut about 20% workforce",
-      "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07",
-      "domain": "reuters.com",
-      "published_at": "2026-05-07T20:23:37Z",
-      "category": "tech",
-      "score": 0.4719729390414636,
-      "tldr": "Cloudflare to cut about 20% workforce",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
       ]
     },
     {
@@ -326,6 +298,34 @@
       ]
     },
     {
+      "id": "2adc0804-cfe2-4313-8303-ce18f7370ef1",
+      "title": "AI is making me dumb",
+      "url": "https://jpain.io/god-damn-ai-is-making-me-dumb",
+      "domain": "jpain.io",
+      "published_at": "2026-05-14T18:19:28Z",
+      "category": "tech",
+      "score": 0.3229044316328969,
+      "tldr": "AI is making me dumb",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a4413057-fe19-4b6a-801a-97723ae9a952",
+      "title": "Bitcoin trader recovers wallet with help of Claude",
+      "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup",
+      "domain": "tomshardware.com",
+      "published_at": "2026-05-14T14:49:48Z",
+      "category": "tech",
+      "score": 0.3206651722160596,
+      "tldr": "Bitcoin trader recovers wallet with help of Claude",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "95e87aa8-7520-4338-b857-6e592bf41b13",
       "title": "Googlebook",
       "url": "https://googlebook.google/",
@@ -379,6 +379,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "e20b5ae3-9154-416d-8750-db3047fc7cb7",
+      "title": "Codex is now available on mobile via ChatGPT app",
+      "url": "https://twitter.com/openai/status/2055016850849993072",
+      "domain": "twitter.com",
+      "published_at": "2026-05-14T20:17:43Z",
+      "category": "tech",
+      "score": 0.30528572326311315,
+      "tldr": "Codex is now available on mobile via ChatGPT app",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -450,20 +465,6 @@
       "score": 0.29928422078753236,
       "tldr": "Show HN: Rust but Lisp",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "56ec75ae-a26f-4f0f-b584-2e2e44481508",
-      "title": "Dirtyfrag: Universal Linux LPE",
-      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
-      "domain": "openwall.com",
-      "published_at": "2026-05-07T19:21:32Z",
-      "category": "tech",
-      "score": 0.2979078151878687,
-      "tldr": "Dirtyfrag: Universal Linux LPE",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -674,6 +675,20 @@
       "category": "tech",
       "score": 0.2692687179317396,
       "tldr": "Library for fast mapping of Java records to native memory",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "db077206-83ab-45e4-9a57-3c7397f47f1e",
+      "title": "WinUI 3 Performance: A Leap Forward",
+      "url": "https://github.com/microsoft/microsoft-ui-xaml/discussions/11096",
+      "domain": "github.com",
+      "published_at": "2026-05-14T19:01:58Z",
+      "category": "tech",
+      "score": 0.26836057303600996,
+      "tldr": "WinUI 3 Performance: A Leap Forward",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1393,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f4ab891d-76ce-470e-9cd6-26f55edeb9c5",
-      "title": "Blaise v0.7.0 (alpha) – Independent of Free Pascal compiler",
-      "url": "https://github.com/graemeg/blaise/discussions/24",
-      "domain": "github.com",
-      "published_at": "2026-05-13T08:37:04Z",
-      "category": "tech",
-      "score": 0.25065512143897034,
-      "tldr": "0 (alpha) – Independent of Free Pascal compiler",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-14T19:16:02.88365108Z",
+  "last_updated": "2026-05-14T20:51:33.946994677Z",
   "total_count": 100
 }
