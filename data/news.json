@@ -270,17 +270,17 @@
       ]
     },
     {
-      "id": "5db981ad-738c-4a94-9fc7-322b6c668988",
-      "title": "Dirty Frag: Universal Linux LPE",
-      "url": "https://github.com/V4bel/dirtyfrag",
-      "domain": "github.com",
-      "published_at": "2026-05-07T19:03:13Z",
+      "id": "74cc2561-3b91-4c6f-9a41-e488463a4213",
+      "title": "LLM Targeted Underperformance Disproportionately Impacts Vulnerable Users",
+      "url": "https://arxiv.org/abs/2406.17737",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-14T14:44:19Z",
       "category": "tech",
-      "score": 0.3291397163844901,
-      "tldr": "Dirty Frag: Universal Linux LPE",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "score": 0.32639030336470204,
+      "tldr": "LLM Targeted Underperformance Disproportionately Impacts Vulnerable Users",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "general_ai"
+        "llm"
       ]
     },
     {
@@ -334,6 +334,20 @@
       "category": "tech",
       "score": 0.3188100170430174,
       "tldr": "Googlebook",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "079e55ce-8af1-4187-aa1f-2ed1d3f65eeb",
+      "title": "New Nginx Exploit",
+      "url": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
+      "domain": "github.com",
+      "published_at": "2026-05-14T17:17:48Z",
+      "category": "tech",
+      "score": 0.31218442074308306,
+      "tldr": "New Nginx Exploit",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -548,6 +562,20 @@
       "category": "tech",
       "score": 0.2790388032248155,
       "tldr": "They Live (1988) inspired Adblocker",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f7f48995-c0a0-4bab-8637-eaf6dea15d2a",
+      "title": "Removing the modem and GPS from my 2024 RAV4 hybrid",
+      "url": "https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4",
+      "domain": "arkadiyt.com",
+      "published_at": "2026-05-14T17:08:00Z",
+      "category": "tech",
+      "score": 0.2781845861489617,
+      "tldr": "Removing the modem and GPS from my 2024 RAV4 hybrid",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -946,20 +974,6 @@
       ]
     },
     {
-      "id": "04b6c045-cced-47a4-902d-0832f3a6d95c",
-      "title": "Show HN: Full Python GUI apps in the browser – no JavaScript, no server",
-      "url": "https://github.com/pthom/imgui_bundle",
-      "domain": "github.com",
-      "published_at": "2026-05-07T17:36:26Z",
-      "category": "tech",
-      "score": 0.2571579131318067,
-      "tldr": "Show HN: Full Python GUI apps in the browser – no JavaScript, no server",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bdc61cc4-e39c-424f-9e70-a9ec0255c6c9",
       "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
       "url": "https://github.com/statewright/statewright",
@@ -1171,6 +1185,20 @@
       ]
     },
     {
+      "id": "e72bff8c-6902-4f2f-83f5-142d9ebe7b4f",
+      "title": "ChatGPT Gave Me Chilling Advice–As I Simulated Planning a Mass Shooting",
+      "url": "https://www.motherjones.com/media/2026/05/openai-chatgpt-mass-shooting-guardrails-fail",
+      "domain": "motherjones.com",
+      "published_at": "2026-05-14T18:04:25Z",
+      "category": "tech",
+      "score": 0.2524711811272852,
+      "tldr": "ChatGPT Gave Me Chilling Advice–As I Simulated Planning a Mass Shooting",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "64623aed-63d3-4a2c-b3e9-dcfb88200377",
       "title": "Unitree GD01: China's $537k rideable transformer robot is now in production",
       "url": "https://gagadget.com/en/709729-unitree-gd01-chinas-537k-rideable-transformer-robot-is-now-in-production",
@@ -1379,36 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "5cc1388c-5d45-411f-808a-5b136af4d77f",
-      "title": "Two Thousand Line educational operating system released by Cornell University",
-      "url": "https://github.com/yhzhang0128/egos-2000",
-      "domain": "github.com",
-      "published_at": "2026-05-12T22:13:05Z",
-      "category": "tech",
-      "score": 0.25061875510576276,
-      "tldr": "Two Thousand Line educational operating system released by Cornell University",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6e2b298a-efc3-4b73-82c1-4eb31c10dcbe",
-      "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
-      "url": "https://arxiv.org/abs/2605.09998",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-13T19:11:10Z",
-      "category": "tech",
-      "score": 0.25053422342164766,
-      "tldr": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-14T17:18:14.57634582Z",
+  "last_updated": "2026-05-14T19:16:02.88365108Z",
   "total_count": 100
 }
