@@ -15,21 +15,6 @@
       ]
     },
     {
-      "id": "27433023-cb50-4117-81ea-0af349f44f5f",
-      "title": "Canvas online again as ShinyHunters threatens to leak schools’ data",
-      "url": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
-      "domain": "theverge.com",
-      "published_at": "2026-05-07T22:22:21Z",
-      "category": "tech",
-      "score": 0.5042281025975122,
-      "tldr": "Canvas online again as ShinyHunters threatens to leak schools’ data",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data",
-        "general_ai"
-      ]
-    },
-    {
       "id": "2e05097a-864b-48d6-adc4-688069a8b383",
       "title": "A message from President Kornbluth about funding and the talent pipeline",
       "url": "https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline",
@@ -56,20 +41,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "b3588fd9-2130-4537-ad88-e316b2fb706a",
-      "title": "Canvas is down as ShinyHunters threatens to leak schools’ data",
-      "url": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
-      "domain": "theverge.com",
-      "published_at": "2026-05-07T22:22:21Z",
-      "category": "tech",
-      "score": 0.43614351330779516,
-      "tldr": "Canvas is down as ShinyHunters threatens to leak schools’ data",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
       ]
     },
     {
@@ -1409,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "3a19a0ac-b049-402e-914c-0a902cb9a2c9",
+      "title": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
+      "url": "https://www.theregister.com/oses/2026/05/11/linux-kernel-maintainers-pitch-emergency-killswitch-after-copyfail-and-dirty-frag-chaos/5237801",
+      "domain": "theregister.com",
+      "published_at": "2026-05-11T14:06:11Z",
+      "category": "tech",
+      "score": 0.2510440591138209,
+      "tldr": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "30192b09-818b-46c3-af5b-68ff499a12ae",
+      "title": "Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama",
+      "url": "https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama",
+      "domain": "cyera.com",
+      "published_at": "2026-05-08T17:38:11Z",
+      "category": "tech",
+      "score": 0.2509784314432598,
+      "tldr": "Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-05-14T22:00:18.053703941Z",
+  "last_updated": "2026-05-14T22:56:13.029891386Z",
   "total_count": 100
 }
