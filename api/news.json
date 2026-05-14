@@ -58,6 +58,20 @@
       ]
     },
     {
+      "id": "a3672876-cf95-4392-9519-dba2145ac11c",
+      "title": "Codex is now in the ChatGPT mobile app",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "domain": "openai.com",
+      "published_at": "2026-05-14T20:06:14Z",
+      "category": "tech",
+      "score": 0.3800837651312878,
+      "tldr": "Codex is now in the ChatGPT mobile app",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "09014df3-d1eb-4f04-b0ba-7118fc32dccd",
       "title": "Leaving GitHub for Forgejo",
       "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo",
@@ -1368,6 +1382,20 @@
       ]
     },
     {
+      "id": "684d87f4-95df-4223-9443-a01fd0b4ce6e",
+      "title": "PyTorch simulator refutes an 18-year-old quantum theorem",
+      "url": "https://github.com/lizbeth307/quantum-superactivation-refutation",
+      "domain": "github.com",
+      "published_at": "2026-05-14T21:54:11Z",
+      "category": "tech",
+      "score": 0.2511955345537013,
+      "tldr": "PyTorch simulator refutes an 18-year-old quantum theorem",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5b4a4797-39b8-4ada-ac87-3ae118470b19",
       "title": "Jetro – JSON query engine for Rust (jq-like DSL with compilation and VM)",
       "url": "https://github.com/mitghi/jetro",
@@ -1380,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "3a19a0ac-b049-402e-914c-0a902cb9a2c9",
-      "title": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
-      "url": "https://www.theregister.com/oses/2026/05/11/linux-kernel-maintainers-pitch-emergency-killswitch-after-copyfail-and-dirty-frag-chaos/5237801",
-      "domain": "theregister.com",
-      "published_at": "2026-05-11T14:06:11Z",
-      "category": "tech",
-      "score": 0.2510440591138209,
-      "tldr": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "30192b09-818b-46c3-af5b-68ff499a12ae",
-      "title": "Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama",
-      "url": "https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama",
-      "domain": "cyera.com",
-      "published_at": "2026-05-08T17:38:11Z",
-      "category": "tech",
-      "score": 0.2509784314432598,
-      "tldr": "Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-14T22:56:13.029891386Z",
+  "last_updated": "2026-05-14T23:45:41.118243106Z",
   "total_count": 100
 }
