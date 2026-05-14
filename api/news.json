@@ -354,20 +354,6 @@
       ]
     },
     {
-      "id": "5279c7f3-caae-4e37-87cb-4ad442fcffb6",
-      "title": "Cursed Browser: Rendering Engine Using Visual-LLMs",
-      "url": "https://github.com/scosman/cursed_browser",
-      "domain": "github.com",
-      "published_at": "2026-05-07T07:28:30Z",
-      "category": "tech",
-      "score": 0.32703197944573403,
-      "tldr": "Cursed Browser: Rendering Engine Using Visual-LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "ad3ad8fc-e92e-4afa-9408-64fd1d36b70e",
       "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
       "url": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
@@ -407,21 +393,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "4d698400-9a16-46ee-93da-cf23659730ea",
-      "title": "Making LLM Training Faster with Unsloth and NVIDIA",
-      "url": "https://unsloth.ai/blog/nvidia-collab",
-      "domain": "unsloth.ai",
-      "published_at": "2026-05-07T07:15:11Z",
-      "category": "tech",
-      "score": 0.3197866877313702,
-      "tldr": "Making LLM Training Faster with Unsloth and NVIDIA",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -920,6 +891,20 @@
       ]
     },
     {
+      "id": "cbd74773-4227-43a4-8502-ae36f91ebf55",
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "url": "https://github.com/DrCatHicks/learning-opportunities",
+      "domain": "github.com",
+      "published_at": "2026-05-14T03:13:31Z",
+      "category": "tech",
+      "score": 0.26280946491219975,
+      "tldr": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c210e60e-e7eb-475b-ad39-7752526d7229",
       "title": "Just Use Go",
       "url": "https://blainsmith.com/articles/just-fucking-use-go",
@@ -976,20 +961,6 @@
       ]
     },
     {
-      "id": "8c525405-bba3-4042-a8d9-cf04a1fd7ac1",
-      "title": "Show HN: Trust – Coding Rust like it's 1989",
-      "url": "https://github.com/wojtczyk/trust",
-      "domain": "github.com",
-      "published_at": "2026-05-07T05:58:52Z",
-      "category": "tech",
-      "score": 0.26012426447803005,
-      "tldr": "Show HN: Trust – Coding Rust like it's 1989",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d8c5bb5a-edf4-4276-9397-fdd4f9d0fa5b",
       "title": "Show HN: Nibble",
       "url": "https://github.com/glouw/nibble",
@@ -1040,20 +1011,6 @@
       "category": "tech",
       "score": 0.25929475025994664,
       "tldr": "Show HN: Git for AI Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e186864f-63fe-4f6a-91ab-c460992992cc",
-      "title": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
-      "url": "https://github.com/darkrishabh/agent-skills-eval",
-      "domain": "github.com",
-      "published_at": "2026-05-07T06:12:25Z",
-      "category": "tech",
-      "score": 0.25903506677758753,
-      "tldr": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,8 +1366,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "db4edd0a-707d-4f7b-893a-4ce4eec8a9b4",
+      "title": "Show HN: FixMyNPM, CLI to fix your insecure npm config",
+      "url": "https://github.com/madhugb/FixMyNPM",
+      "domain": "github.com",
+      "published_at": "2026-05-13T12:46:15Z",
+      "category": "tech",
+      "score": 0.25222049753915776,
+      "tldr": "Show HN: FixMyNPM, CLI to fix your insecure npm config",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
+      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "url": "https://arxiv.org/abs/2605.06647",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-10T02:16:30Z",
+      "category": "tech",
+      "score": 0.25170721513104516,
+      "tldr": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4d71068c-ecd4-4a80-91d6-4c96e297d869",
+      "title": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
+      "url": "https://www.phoronix.com/news/Linux-Fragnesia",
+      "domain": "phoronix.com",
+      "published_at": "2026-05-13T16:01:13Z",
+      "category": "tech",
+      "score": 0.2516953181816539,
+      "tldr": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-14T05:49:16.080660128Z",
+  "last_updated": "2026-05-14T08:26:49.630573726Z",
   "total_count": 100
 }
