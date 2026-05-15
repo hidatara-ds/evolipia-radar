@@ -186,6 +186,20 @@
       ]
     },
     {
+      "id": "dbd3df8a-9f02-492e-895b-1c2a695bbeab",
+      "title": "We are retiring our bug bounty program",
+      "url": "https://turso.tech/blog/the-wonders-of-ai",
+      "domain": "turso.tech",
+      "published_at": "2026-05-15T13:33:15Z",
+      "category": "tech",
+      "score": 0.34392416543830306,
+      "tldr": "We are retiring our bug bounty program",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4c425017-b529-4aff-b4e4-80535cd6dae0",
       "title": "I Moved My Digital Stack to Europe",
       "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe",
@@ -281,6 +295,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "0be73b61-2047-4711-95f7-bc22fa581600",
+      "title": "OpenAI is connecting ChatGPT to bank accounts via Plaid",
+      "url": "https://firethering.com/chatgpt-bank-account-plaid-openai",
+      "domain": "firethering.com",
+      "published_at": "2026-05-15T16:38:50Z",
+      "category": "tech",
+      "score": 0.32561326217022735,
+      "tldr": "OpenAI is connecting ChatGPT to bank accounts via Plaid",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -682,6 +711,20 @@
       ]
     },
     {
+      "id": "f113b248-7a6e-452f-adf8-e5ff2b361bce",
+      "title": "Amazon workers under pressure to up their AI usage are making up tasks",
+      "url": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
+      "domain": "fastcompany.com",
+      "published_at": "2026-05-15T13:28:55Z",
+      "category": "tech",
+      "score": 0.2732187599822825,
+      "tldr": "Amazon workers under pressure to up their AI usage are making up tasks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "417ed3c7-dc4f-4988-ac80-170653629c52",
       "title": "In-person examinations at Princeton will be proctored starting July 1",
       "url": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
@@ -766,20 +809,6 @@
       ]
     },
     {
-      "id": "9db64ccd-cd14-4484-9f4f-e67a84b9e13d",
-      "title": "Can LLMs model real-world systems in TLA+?",
-      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla",
-      "domain": "sigops.org",
-      "published_at": "2026-05-08T16:21:56Z",
-      "category": "tech",
-      "score": 0.2662230349085927,
-      "tldr": "Can LLMs model real-world systems in TLA+?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "441cd06c-b0f6-4081-8da0-187aeb2c4a47",
       "title": "The hypocrisy of cyberlibertarianism",
       "url": "https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism",
@@ -850,6 +879,20 @@
       ]
     },
     {
+      "id": "73883db4-4726-4b0d-98c0-7da455fdbf92",
+      "title": "“Too dangerous to release” or just too expensive?",
+      "url": "https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai",
+      "domain": "kingy.ai",
+      "published_at": "2026-05-15T12:49:27Z",
+      "category": "tech",
+      "score": 0.2628819625431044,
+      "tldr": "“Too dangerous to release” or just too expensive?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "07d8354d-63b8-4faf-b8df-9102a6c6571a",
       "title": "Remove .zig Files from Bun",
       "url": "https://github.com/oven-sh/bun/pull/30680",
@@ -889,20 +932,6 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "eebc880d-69a5-4fbf-bed8-2aa46ca4509b",
-      "title": "Court to DOGE: Asking ChatGPT 'Is This DEI?' Is Not Proper Legal Process",
-      "url": "https://www.techdirt.com/2026/05/08/court-to-doge-bros-asking-chatgpt-yo-is-this-dei-is-not-proper-legal-process-also-a-first-amendment-violation",
-      "domain": "techdirt.com",
-      "published_at": "2026-05-08T17:14:52Z",
-      "category": "tech",
-      "score": 0.2606362286822841,
-      "tldr": "Court to DOGE: Asking ChatGPT 'Is This DEI? ' Is Not Proper Legal Process",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1040,6 +1069,20 @@
       "category": "tech",
       "score": 0.2560523023940024,
       "tldr": "Griffin PowerMate driver for modern macOS",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ec4d487f-3776-468a-9a08-b0d52dd5c38f",
+      "title": "Image-blaster: Creates 3D environments, SFX, and meshes from a single image",
+      "url": "https://github.com/neilsonnn/image-blaster",
+      "domain": "github.com",
+      "published_at": "2026-05-15T15:42:37Z",
+      "category": "tech",
+      "score": 0.25594021852494536,
+      "tldr": "Image-blaster: Creates 3D environments, SFX, and meshes from a single image",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1341,6 +1384,20 @@
       ]
     },
     {
+      "id": "65ca2379-22cd-4790-863e-c18e507b4e84",
+      "title": "Nordstjernen Web Browser",
+      "url": "https://github.com/nordstjernen-web/nordstjernen",
+      "domain": "github.com",
+      "published_at": "2026-05-15T17:10:20Z",
+      "category": "tech",
+      "score": 0.25126847412085085,
+      "tldr": "Nordstjernen Web Browser",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7af2b573-e612-40fa-ab28-66183e1059f2",
       "title": "New Linux LPE, 5.10 and above (ptrace_may_access mm-NULL + pidfd_getfd)",
       "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn",
@@ -1353,64 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e57f1519-9c98-419d-8987-adb3e106605f",
-      "title": "Natural-language messages between LLM agents are an architectural anti-pattern",
-      "url": "https://novaberg.de/papers/clipboard-pattern.html",
-      "domain": "novaberg.de",
-      "published_at": "2026-05-11T18:56:54Z",
-      "category": "tech",
-      "score": 0.2512297640652186,
-      "tldr": "Natural-language messages between LLM agents are an architectural anti-pattern",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "684d87f4-95df-4223-9443-a01fd0b4ce6e",
-      "title": "PyTorch simulator refutes an 18-year-old quantum theorem",
-      "url": "https://github.com/lizbeth307/quantum-superactivation-refutation",
-      "domain": "github.com",
-      "published_at": "2026-05-14T21:54:11Z",
-      "category": "tech",
-      "score": 0.2511955345537013,
-      "tldr": "PyTorch simulator refutes an 18-year-old quantum theorem",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5b4a4797-39b8-4ada-ac87-3ae118470b19",
-      "title": "Jetro – JSON query engine for Rust (jq-like DSL with compilation and VM)",
-      "url": "https://github.com/mitghi/jetro",
-      "domain": "github.com",
-      "published_at": "2026-05-08T23:12:30Z",
-      "category": "tech",
-      "score": 0.251175056170189,
-      "tldr": "Jetro – JSON query engine for Rust (jq-like DSL with compilation and VM)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3a19a0ac-b049-402e-914c-0a902cb9a2c9",
-      "title": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
-      "url": "https://www.theregister.com/oses/2026/05/11/linux-kernel-maintainers-pitch-emergency-killswitch-after-copyfail-and-dirty-frag-chaos/5237801",
-      "domain": "theregister.com",
-      "published_at": "2026-05-11T14:06:11Z",
-      "category": "tech",
-      "score": 0.2510440591138209,
-      "tldr": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-15T15:34:41.288106654Z",
+  "last_updated": "2026-05-15T17:21:00.457401831Z",
   "total_count": 100
 }
