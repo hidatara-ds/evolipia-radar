@@ -793,20 +793,6 @@
       ]
     },
     {
-      "id": "e51a7048-bcf8-4448-9001-2dae087369a8",
-      "title": "GPT-5.5 Price Increase: What It Costs",
-      "url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
-      "domain": "openrouter.ai",
-      "published_at": "2026-05-08T01:02:28Z",
-      "category": "tech",
-      "score": 0.26310274056665894,
-      "tldr": "5 Price Increase: What It Costs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "2f6e4311-d902-4b4d-9c0c-7214afbe90d1",
       "title": "Rust but Lisp",
       "url": "https://github.com/ThatXliner/rust-but-lisp",
@@ -1368,6 +1354,20 @@
       ]
     },
     {
+      "id": "7af2b573-e612-40fa-ab28-66183e1059f2",
+      "title": "New Linux LPE, 5.10 and above (ptrace_may_access mm-NULL + pidfd_getfd)",
+      "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn",
+      "domain": "github.com",
+      "published_at": "2026-05-15T01:02:09Z",
+      "category": "tech",
+      "score": 0.25125301124276705,
+      "tldr": "10 and above (ptrace_may_access mm-NULL + pidfd_getfd)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e57f1519-9c98-419d-8987-adb3e106605f",
       "title": "Natural-language messages between LLM agents are an architectural anti-pattern",
       "url": "https://novaberg.de/papers/clipboard-pattern.html",
@@ -1410,6 +1410,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-14T23:45:41.118243106Z",
+  "last_updated": "2026-05-15T01:59:52.3168817Z",
   "total_count": 100
 }
