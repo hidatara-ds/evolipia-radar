@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "ea602852-a5e0-45e7-bb85-9545ca4c95d7",
-      "title": "Poland is now among the 20 largest economies",
-      "url": "https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa",
-      "domain": "apnews.com",
-      "published_at": "2026-05-08T12:30:05Z",
-      "category": "tech",
-      "score": 0.5798331753233515,
-      "tldr": "Poland is now among the 20 largest economies",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2e05097a-864b-48d6-adc4-688069a8b383",
       "title": "A message from President Kornbluth about funding and the talent pipeline",
       "url": "https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline",
@@ -113,20 +99,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "2a283202-299a-4cbc-8f87-fb1a1700b836",
-      "title": "Poland is now among the 20 largest economies. How it happened",
-      "url": "https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa",
-      "domain": "apnews.com",
-      "published_at": "2026-05-08T12:30:05Z",
-      "category": "tech",
-      "score": 0.36706022660751336,
-      "tldr": "Poland is now among the 20 largest economies.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1173,6 +1145,20 @@
       ]
     },
     {
+      "id": "eb73e0bf-293d-4d56-b4b6-891379a485d9",
+      "title": "NanoTDB – Golang Append-Only Time Series DB",
+      "url": "https://github.com/aymanhs/nanotdb",
+      "domain": "github.com",
+      "published_at": "2026-05-15T10:31:51Z",
+      "category": "tech",
+      "score": 0.2534436413355869,
+      "tldr": "NanoTDB – Golang Append-Only Time Series DB",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b216a438-a78b-4854-a8df-009bd07076b8",
       "title": "Nuke All Routers",
       "url": "https://github.com/maxbrito500/esp32-c5-deauth",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e57f1519-9c98-419d-8987-adb3e106605f",
+      "title": "Natural-language messages between LLM agents are an architectural anti-pattern",
+      "url": "https://novaberg.de/papers/clipboard-pattern.html",
+      "domain": "novaberg.de",
+      "published_at": "2026-05-11T18:56:54Z",
+      "category": "tech",
+      "score": 0.2512297640652186,
+      "tldr": "Natural-language messages between LLM agents are an architectural anti-pattern",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-05-15T11:13:00.221803673Z",
+  "last_updated": "2026-05-15T13:12:36.713801267Z",
   "total_count": 100
 }
