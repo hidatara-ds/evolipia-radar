@@ -341,6 +341,20 @@
       ]
     },
     {
+      "id": "7ab98b13-2ad0-49e3-8425-a368452f7295",
+      "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
+      "url": "https://github.com/oven-sh/bun/issues/30719",
+      "domain": "github.com",
+      "published_at": "2026-05-15T16:51:25Z",
+      "category": "tech",
+      "score": 0.3240603292227556,
+      "tldr": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2adc0804-cfe2-4313-8303-ce18f7370ef1",
       "title": "AI is making me dumb",
       "url": "https://jpain.io/god-damn-ai-is-making-me-dumb",
@@ -837,6 +851,20 @@
       ]
     },
     {
+      "id": "8ff1f34a-8353-4e23-ac18-f4a1b9443d58",
+      "title": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
+      "url": "https://github.com/gdevic/FPGA-Calculator",
+      "domain": "github.com",
+      "published_at": "2026-05-15T17:15:58Z",
+      "category": "tech",
+      "score": 0.2647947764474325,
+      "tldr": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "87e20833-b748-45af-9266-9a75f7e3aff5",
       "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
       "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
@@ -1103,6 +1131,20 @@
       ]
     },
     {
+      "id": "c2dd9b99-c11f-47d1-b91c-955a954b6d3b",
+      "title": "Show HN: Sx – an open-source package manager for AI skills, MCPs, and commands",
+      "url": "https://github.com/sleuth-io/sx",
+      "domain": "github.com",
+      "published_at": "2026-05-15T17:03:22Z",
+      "category": "tech",
+      "score": 0.2553831009655132,
+      "tldr": "Show HN: Sx – an open-source package manager for AI skills, MCPs, and commands",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "318235f8-65d9-4eb5-b47f-7c9cf1d31cff",
       "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
       "url": "https://github.com/adamjgmiller/adamsreview",
@@ -1129,6 +1171,20 @@
       "tags": [
         "cloud",
         "llm"
+      ]
+    },
+    {
+      "id": "5cd8a4e2-9e9a-4510-b309-4c3850e63bcc",
+      "title": "Feedr v0.8.0 – a TUI RSS reader, now read the full article from your terminal",
+      "url": "https://github.com/bahdotsh/feedr",
+      "domain": "github.com",
+      "published_at": "2026-05-15T17:22:53Z",
+      "category": "tech",
+      "score": 0.2542349246317893,
+      "tldr": "0 – a TUI RSS reader, now read the full article from your terminal",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1354,64 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "75b7722d-b95c-4464-9340-692ab27c42f8",
-      "title": "The Inference Shift",
-      "url": "https://stratechery.com/2026/the-inference-shift",
-      "domain": "stratechery.com",
-      "published_at": "2026-05-11T10:10:52Z",
-      "category": "tech",
-      "score": 0.25166783439607493,
-      "tldr": "The Inference Shift",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fd80ef04-5810-49d3-ba59-26ed7cd35e5c",
-      "title": "WinMerge 2.16.56 – A Windows tool for visual difference display and merging",
-      "url": "https://github.com/WinMerge/winmerge/releases/tag/v2.16.56",
-      "domain": "github.com",
-      "published_at": "2026-05-13T11:12:04Z",
-      "category": "tech",
-      "score": 0.25145683283584847,
-      "tldr": "56 – A Windows tool for visual difference display and merging",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "65ca2379-22cd-4790-863e-c18e507b4e84",
-      "title": "Nordstjernen Web Browser",
-      "url": "https://github.com/nordstjernen-web/nordstjernen",
-      "domain": "github.com",
-      "published_at": "2026-05-15T17:10:20Z",
-      "category": "tech",
-      "score": 0.25126847412085085,
-      "tldr": "Nordstjernen Web Browser",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7af2b573-e612-40fa-ab28-66183e1059f2",
-      "title": "New Linux LPE, 5.10 and above (ptrace_may_access mm-NULL + pidfd_getfd)",
-      "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn",
-      "domain": "github.com",
-      "published_at": "2026-05-15T01:02:09Z",
-      "category": "tech",
-      "score": 0.25125301124276705,
-      "tldr": "10 and above (ptrace_may_access mm-NULL + pidfd_getfd)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-15T17:21:00.457401831Z",
+  "last_updated": "2026-05-15T19:01:58.200648849Z",
   "total_count": 100
 }
