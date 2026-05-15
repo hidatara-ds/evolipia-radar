@@ -143,6 +143,20 @@
       ]
     },
     {
+      "id": "ea180d17-68ec-41a0-ae8f-2da0cf8d1e22",
+      "title": "LLM Policy for Rust Compiler",
+      "url": "https://github.com/rust-lang/rust-forge/pull/1040",
+      "domain": "github.com",
+      "published_at": "2026-05-14T23:37:21Z",
+      "category": "tech",
+      "score": 0.3457079423055308,
+      "tldr": "LLM Policy for Rust Compiler",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "25f2f19e-16ab-4a94-8e24-9a632cbd7fd0",
       "title": "Internet Archive Switzerland",
       "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge",
@@ -541,6 +555,20 @@
       ]
     },
     {
+      "id": "dd40f0db-d7e0-4821-9497-78e378a99f9f",
+      "title": "Mullvad exit IPs are surprisingly identifying",
+      "url": "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector",
+      "domain": "tmctmt.com",
+      "published_at": "2026-05-15T02:35:35Z",
+      "category": "tech",
+      "score": 0.28150092578536995,
+      "tldr": "Mullvad exit IPs are surprisingly identifying",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4bcafdc8-c304-482f-835e-1c335c848717",
       "title": "Starship V3",
       "url": "https://www.spacex.com/updates",
@@ -647,20 +675,6 @@
       "category": "tech",
       "score": 0.27084944439129377,
       "tldr": "Work with Codex from Anywhere",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "718b1870-4ae1-44ca-85cb-584932b8eb1e",
-      "title": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
-      "url": "https://github.com/graemeg/blaise",
-      "domain": "github.com",
-      "published_at": "2026-05-08T04:44:02Z",
-      "category": "tech",
-      "score": 0.2702596096402484,
-      "tldr": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -858,20 +872,6 @@
       "score": 0.2613070271428742,
       "tldr": "Chrome's AI features may be hogging 4GB of your computer storage",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f66479a3-fa67-4f50-b38f-b8c36b263d23",
-      "title": "Copy Fail 2: Electric Boogaloo",
-      "url": "https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
-      "domain": "github.com",
-      "published_at": "2026-05-08T04:00:53Z",
-      "category": "tech",
-      "score": 0.2612025092732954,
-      "tldr": "Copy Fail 2: Electric Boogaloo",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1410,6 +1410,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-15T01:59:52.3168817Z",
+  "last_updated": "2026-05-15T05:54:22.020928838Z",
   "total_count": 100
 }
