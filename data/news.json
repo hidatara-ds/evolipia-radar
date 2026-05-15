@@ -556,6 +556,20 @@
       ]
     },
     {
+      "id": "0cb9e104-0fdf-4a9f-ab97-69949556d141",
+      "title": "The Wonders of AI: We Are Retiring Our Bug Bounty Program",
+      "url": "https://turso.tech/blog/the-wonders-of-ai",
+      "domain": "turso.tech",
+      "published_at": "2026-05-15T13:33:15Z",
+      "category": "tech",
+      "score": 0.2860374758736863,
+      "tldr": "The Wonders of AI: We Are Retiring Our Bug Bounty Program",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e1495f88-86a0-4e7d-a137-04dd9f5c5673",
       "title": "Rars: a Rust RAR implementation, mostly written by LLMs",
       "url": "https://bitplane.net/log/2026/05/rars",
@@ -864,20 +878,6 @@
       ]
     },
     {
-      "id": "c210e60e-e7eb-475b-ad39-7752526d7229",
-      "title": "Just Use Go",
-      "url": "https://blainsmith.com/articles/just-fucking-use-go",
-      "domain": "blainsmith.com",
-      "published_at": "2026-05-08T13:40:22Z",
-      "category": "tech",
-      "score": 0.2615063311311423,
-      "tldr": "Just Use Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d8e96150-fa68-4434-a3c4-5d8265801c30",
       "title": "Chrome's AI features may be hogging 4GB of your computer storage",
       "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
@@ -943,20 +943,6 @@
       "score": 0.25939214315283954,
       "tldr": "Claude subscription changes coverage of `claude -p`",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9ebf231d-1ed1-4249-833e-a02436887551",
-      "title": "Show HN: Git for AI Agents",
-      "url": "https://github.com/regent-vcs/re_gent",
-      "domain": "github.com",
-      "published_at": "2026-05-08T14:15:36Z",
-      "category": "tech",
-      "score": 0.25929475025994664,
-      "tldr": "Show HN: Git for AI Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1103,20 +1089,6 @@
       ]
     },
     {
-      "id": "8a6659d1-2829-4095-ad1f-b7a568e7f6b6",
-      "title": "Four stable kernels with partial fixes for Dirty Frag",
-      "url": "https://lwn.net/Articles/1071775",
-      "domain": "lwn.net",
-      "published_at": "2026-05-08T14:18:18Z",
-      "category": "tech",
-      "score": 0.2542190413001957,
-      "tldr": "Four stable kernels with partial fixes for Dirty Frag",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2b661c26-55d1-4fdd-a54f-720d6adcdb97",
       "title": "A recent experience with ChatGPT 5.5 Pro",
       "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro",
@@ -1223,20 +1195,6 @@
       "category": "tech",
       "score": 0.25255256506411905,
       "tldr": "Supercomputer networking to accelerate large scale AI training",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2a860226-b7f3-4e44-a995-8188f944d221",
-      "title": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
-      "url": "https://arxiv.org/abs/2605.01428",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-08T15:16:11Z",
-      "category": "tech",
-      "score": 0.2525126007861094,
-      "tldr": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1409,8 +1367,50 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "684d87f4-95df-4223-9443-a01fd0b4ce6e",
+      "title": "PyTorch simulator refutes an 18-year-old quantum theorem",
+      "url": "https://github.com/lizbeth307/quantum-superactivation-refutation",
+      "domain": "github.com",
+      "published_at": "2026-05-14T21:54:11Z",
+      "category": "tech",
+      "score": 0.2511955345537013,
+      "tldr": "PyTorch simulator refutes an 18-year-old quantum theorem",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5b4a4797-39b8-4ada-ac87-3ae118470b19",
+      "title": "Jetro – JSON query engine for Rust (jq-like DSL with compilation and VM)",
+      "url": "https://github.com/mitghi/jetro",
+      "domain": "github.com",
+      "published_at": "2026-05-08T23:12:30Z",
+      "category": "tech",
+      "score": 0.251175056170189,
+      "tldr": "Jetro – JSON query engine for Rust (jq-like DSL with compilation and VM)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3a19a0ac-b049-402e-914c-0a902cb9a2c9",
+      "title": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
+      "url": "https://www.theregister.com/oses/2026/05/11/linux-kernel-maintainers-pitch-emergency-killswitch-after-copyfail-and-dirty-frag-chaos/5237801",
+      "domain": "theregister.com",
+      "published_at": "2026-05-11T14:06:11Z",
+      "category": "tech",
+      "score": 0.2510440591138209,
+      "tldr": "Linux kernel maintainers pitch emergency killswitch after CopyFail, Dirty Frag",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-15T13:12:36.713801267Z",
+  "last_updated": "2026-05-15T15:34:41.288106654Z",
   "total_count": 100
 }
