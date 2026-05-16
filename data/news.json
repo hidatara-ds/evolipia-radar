@@ -58,6 +58,21 @@
       ]
     },
     {
+      "id": "77a63434-6308-49f0-b1ad-c1395656e68a",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "domain": "openai.com",
+      "published_at": "2026-05-16T20:14:06Z",
+      "category": "tech",
+      "score": 0.3836225420784789,
+      "tldr": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "a3672876-cf95-4392-9519-dba2145ac11c",
       "title": "Codex is now in the ChatGPT mobile app",
       "url": "https://openai.com/index/work-with-codex-from-anywhere",
@@ -1397,22 +1412,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
-      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
-      "url": "https://arxiv.org/abs/2605.06647",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-10T02:16:30Z",
-      "category": "tech",
-      "score": 0.25170721513104516,
-      "tldr": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-16T19:56:20.306281651Z",
+  "last_updated": "2026-05-16T20:37:46.15090753Z",
   "total_count": 100
 }
