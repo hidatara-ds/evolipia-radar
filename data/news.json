@@ -200,20 +200,6 @@
       ]
     },
     {
-      "id": "25f2f19e-16ab-4a94-8e24-9a632cbd7fd0",
-      "title": "Internet Archive Switzerland",
-      "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge",
-      "domain": "blog.archive.org",
-      "published_at": "2026-05-09T12:00:30Z",
-      "category": "tech",
-      "score": 0.3448096919768891,
-      "tldr": "Internet Archive Switzerland",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "dbd3df8a-9f02-492e-895b-1c2a695bbeab",
       "title": "We are retiring our bug bounty program",
       "url": "https://turso.tech/blog/the-wonders-of-ai",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "4d71068c-ecd4-4a80-91d6-4c96e297d869",
+      "title": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
+      "url": "https://www.phoronix.com/news/Linux-Fragnesia",
+      "domain": "phoronix.com",
+      "published_at": "2026-05-13T16:01:13Z",
+      "category": "tech",
+      "score": 0.2516953181816539,
+      "tldr": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-16T11:42:53.32991895Z",
+  "last_updated": "2026-05-16T12:55:46.035745463Z",
   "total_count": 100
 }
