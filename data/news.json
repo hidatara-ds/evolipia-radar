@@ -341,20 +341,6 @@
       ]
     },
     {
-      "id": "88081743-9e04-4578-a5b7-9be832bb1b30",
-      "title": "EU Parliamentary Research Service calls VPNs \"a loophole that needs closing\"",
-      "url": "https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push",
-      "domain": "cyberinsider.com",
-      "published_at": "2026-05-09T05:52:12Z",
-      "category": "tech",
-      "score": 0.3245424693559365,
-      "tldr": "EU Parliamentary Research Service calls VPNs \"a loophole that needs closing\"",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7ab98b13-2ad0-49e3-8425-a368452f7295",
       "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
       "url": "https://github.com/oven-sh/bun/issues/30719",
@@ -845,20 +831,6 @@
       "category": "tech",
       "score": 0.26836057303600996,
       "tldr": "WinUI 3 Performance: A Leap Forward",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fe4a226f-7366-405e-bb44-d9f7989529ae",
-      "title": "EU calls VPNs \"a loophole that needs closing\" in age verification push",
-      "url": "https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push",
-      "domain": "cyberinsider.com",
-      "published_at": "2026-05-09T05:52:12Z",
-      "category": "tech",
-      "score": 0.2670264761061789,
-      "tldr": "EU calls VPNs \"a loophole that needs closing\" in age verification push",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1410,8 +1382,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "316c073e-af3f-48b1-9a27-8aa46a87ad26",
+      "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+      "url": "https://github.com/chiennv2000/orthrus",
+      "domain": "github.com",
+      "published_at": "2026-05-15T22:38:58Z",
+      "category": "tech",
+      "score": 0.25180704094269724,
+      "tldr": "Orthrus-Qwen3: up to 7. 8×tokens/forward on Qwen3, identical output distribution",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b1892b28-b279-471b-8e9d-b05ce8668fc9",
+      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "url": "https://arxiv.org/abs/2605.06647",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-10T02:16:30Z",
+      "category": "tech",
+      "score": 0.25170721513104516,
+      "tldr": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-16T05:19:52.481315608Z",
+  "last_updated": "2026-05-16T07:30:27.798666383Z",
   "total_count": 100
 }
