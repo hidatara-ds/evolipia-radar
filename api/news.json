@@ -530,20 +530,6 @@
       ]
     },
     {
-      "id": "bd7280f5-c3fb-46eb-b8dc-6c28c6fe92e2",
-      "title": "Show HN: Rust but Lisp",
-      "url": "https://github.com/ThatXliner/rust-but-lisp",
-      "domain": "github.com",
-      "published_at": "2026-05-09T21:46:27Z",
-      "category": "tech",
-      "score": 0.29928422078753236,
-      "tldr": "Show HN: Rust but Lisp",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c8e1b8cc-1205-4ff5-96e6-09400889395b",
       "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
       "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
@@ -931,20 +917,6 @@
       "category": "tech",
       "score": 0.26358090742527374,
       "tldr": "Scorched Earth 2000 – Web",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2f6e4311-d902-4b4d-9c0c-7214afbe90d1",
-      "title": "Rust but Lisp",
-      "url": "https://github.com/ThatXliner/rust-but-lisp",
-      "domain": "github.com",
-      "published_at": "2026-05-09T21:46:27Z",
-      "category": "tech",
-      "score": 0.2630581351813269,
-      "tldr": "Rust but Lisp",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1412,8 +1384,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "126a677d-d87c-4938-8805-39905ecaca8b",
+      "title": "Accelerate",
+      "url": "https://github.com/AccelerateHS/accelerate",
+      "domain": "github.com",
+      "published_at": "2026-05-16T13:42:34Z",
+      "category": "tech",
+      "score": 0.25201123426810285,
+      "tldr": "Accelerate",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "316c073e-af3f-48b1-9a27-8aa46a87ad26",
+      "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+      "url": "https://github.com/chiennv2000/orthrus",
+      "domain": "github.com",
+      "published_at": "2026-05-15T22:38:58Z",
+      "category": "tech",
+      "score": 0.25180704094269724,
+      "tldr": "Orthrus-Qwen3: up to 7. 8×tokens/forward on Qwen3, identical output distribution",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-16T21:39:07.750493663Z",
+  "last_updated": "2026-05-16T22:35:19.639534651Z",
   "total_count": 100
 }
