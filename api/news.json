@@ -1244,20 +1244,6 @@
       ]
     },
     {
-      "id": "2b661c26-55d1-4fdd-a54f-720d6adcdb97",
-      "title": "A recent experience with ChatGPT 5.5 Pro",
-      "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro",
-      "domain": "gowers.wordpress.com",
-      "published_at": "2026-05-09T02:41:42Z",
-      "category": "tech",
-      "score": 0.2535722068835818,
-      "tldr": "A recent experience with ChatGPT 5.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "eb73e0bf-293d-4d56-b4b6-891379a485d9",
       "title": "NanoTDB – Golang Append-Only Time Series DB",
       "url": "https://github.com/aymanhs/nanotdb",
@@ -1384,6 +1370,20 @@
       ]
     },
     {
+      "id": "4174a13e-de03-445d-bb6f-4b6b419124a9",
+      "title": "Steve Jobs in Exile – New book on his years at NeXT Computer",
+      "url": "https://spectrum.ieee.org/steve-jobs-next-computer",
+      "domain": "spectrum.ieee.org",
+      "published_at": "2026-05-15T10:34:58Z",
+      "category": "tech",
+      "score": 0.2523039846144956,
+      "tldr": "Steve Jobs in Exile – New book on his years at NeXT Computer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "db4edd0a-707d-4f7b-893a-4ce4eec8a9b4",
       "title": "Show HN: FixMyNPM, CLI to fix your insecure npm config",
       "url": "https://github.com/madhugb/FixMyNPM",
@@ -1412,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-16T01:53:11.751399938Z",
+  "last_updated": "2026-05-16T05:19:52.481315608Z",
   "total_count": 100
 }
