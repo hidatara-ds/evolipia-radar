@@ -809,20 +809,6 @@
       ]
     },
     {
-      "id": "441cd06c-b0f6-4081-8da0-187aeb2c4a47",
-      "title": "The hypocrisy of cyberlibertarianism",
-      "url": "https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism",
-      "domain": "matduggan.com",
-      "published_at": "2026-05-09T13:48:32Z",
-      "category": "tech",
-      "score": 0.26594400111595523,
-      "tldr": "The hypocrisy of cyberlibertarianism",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3d3aaccc-eb27-4a70-ade5-b4dc9a319a73",
       "title": "Gemini API File Search is now multimodal",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag",
@@ -1370,6 +1356,20 @@
       ]
     },
     {
+      "id": "126a677d-d87c-4938-8805-39905ecaca8b",
+      "title": "Accelerate",
+      "url": "https://github.com/AccelerateHS/accelerate",
+      "domain": "github.com",
+      "published_at": "2026-05-16T13:42:34Z",
+      "category": "tech",
+      "score": 0.25201123426810285,
+      "tldr": "Accelerate",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "316c073e-af3f-48b1-9a27-8aa46a87ad26",
       "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
       "url": "https://github.com/chiennv2000/orthrus",
@@ -1412,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-16T12:55:46.035745463Z",
+  "last_updated": "2026-05-16T14:18:46.038427356Z",
   "total_count": 100
 }
