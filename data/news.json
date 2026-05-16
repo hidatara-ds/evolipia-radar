@@ -963,6 +963,20 @@
       ]
     },
     {
+      "id": "544c5dd9-e67c-4eec-a1c3-d3f88d9361a1",
+      "title": "Δ-Mem: Efficient Online Memory for Large Language Models",
+      "url": "https://arxiv.org/abs/2605.12357",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-16T09:30:06Z",
+      "category": "tech",
+      "score": 0.26190112350013983,
+      "tldr": "Δ-Mem: Efficient Online Memory for Large Language Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "d8e96150-fa68-4434-a3c4-5d8265801c30",
       "title": "Chrome's AI features may be hogging 4GB of your computer storage",
       "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
@@ -1396,22 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4d71068c-ecd4-4a80-91d6-4c96e297d869",
-      "title": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
-      "url": "https://www.phoronix.com/news/Linux-Fragnesia",
-      "domain": "phoronix.com",
-      "published_at": "2026-05-13T16:01:13Z",
-      "category": "tech",
-      "score": 0.2516953181816539,
-      "tldr": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-16T09:11:33.4703265Z",
+  "last_updated": "2026-05-16T10:43:03.184496574Z",
   "total_count": 100
 }
