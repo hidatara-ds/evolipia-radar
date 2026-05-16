@@ -72,6 +72,20 @@
       ]
     },
     {
+      "id": "55fb6511-c388-45de-bfe8-eb4de729e6a0",
+      "title": "Bill to block publishers from killing online games advances in California",
+      "url": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california",
+      "domain": "arstechnica.com",
+      "published_at": "2026-05-15T19:48:48Z",
+      "category": "tech",
+      "score": 0.37985668685895385,
+      "tldr": "Bill to block publishers from killing online games advances in California",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "09014df3-d1eb-4f04-b0ba-7118fc32dccd",
       "title": "Leaving GitHub for Forgejo",
       "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo",
@@ -265,20 +279,6 @@
       "score": 0.330667332509889,
       "tldr": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "854d90c3-7e22-44ba-a9be-0019d286a66d",
-      "title": "LLMs Corrupt Your Documents When You Delegate",
-      "url": "https://arxiv.org/abs/2604.15597",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-09T08:44:34Z",
-      "category": "tech",
-      "score": 0.3305619292862322,
-      "tldr": "LLMs Corrupt Your Documents When You Delegate",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
       ]
@@ -596,20 +596,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "63384a1e-feb2-42b7-a1e8-06e6f904a1d3",
-      "title": "I returned to AWS and was reminded why I left",
-      "url": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
-      "domain": "fourlightyears.blogspot.com",
-      "published_at": "2026-05-09T08:37:41Z",
-      "category": "tech",
-      "score": 0.28877323091267587,
-      "tldr": "I returned to AWS and was reminded why I left",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
       ]
     },
     {
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "4d71068c-ecd4-4a80-91d6-4c96e297d869",
+      "title": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
+      "url": "https://www.phoronix.com/news/Linux-Fragnesia",
+      "domain": "phoronix.com",
+      "published_at": "2026-05-13T16:01:13Z",
+      "category": "tech",
+      "score": 0.2516953181816539,
+      "tldr": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-16T07:30:27.798666383Z",
+  "last_updated": "2026-05-16T09:11:33.4703265Z",
   "total_count": 100
 }
