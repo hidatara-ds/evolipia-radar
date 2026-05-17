@@ -357,6 +357,21 @@
       ]
     },
     {
+      "id": "959419a5-9212-4c93-a9b7-399c9d740f3b",
+      "title": "Mistral's CEO: Europe has 2 years to stop becoming America's AI 'vassal state'",
+      "url": "https://www.businessinsider.com/mistral-ceo-warns-europe-2-years-avoid-us-ai-dependence-2026-5",
+      "domain": "businessinsider.com",
+      "published_at": "2026-05-17T16:04:28Z",
+      "category": "tech",
+      "score": 0.3129107687553353,
+      "tldr": "Mistral's CEO: Europe has 2 years to stop becoming America's AI 'vassal state'",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
       "id": "079e55ce-8af1-4187-aa1f-2ed1d3f65eeb",
       "title": "New Nginx Exploit",
       "url": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
@@ -486,21 +501,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "c8e1b8cc-1205-4ff5-96e6-09400889395b",
-      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
-      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
-      "domain": "cocoawithlove.com",
-      "published_at": "2026-05-10T17:05:05Z",
-      "category": "tech",
-      "score": 0.29652568111891686,
-      "tldr": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -1415,6 +1415,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-17T16:44:20.289704985Z",
+  "last_updated": "2026-05-17T17:47:48.823395705Z",
   "total_count": 100
 }
