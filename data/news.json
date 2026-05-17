@@ -315,20 +315,6 @@
       ]
     },
     {
-      "id": "02a26437-48df-4464-b833-e45a39db465c",
-      "title": "Ranking 1k ShowHN posts by estimated merit using an LLM judge and TrueSkill",
-      "url": "https://github.com/kouhxp/showhn-rank",
-      "domain": "github.com",
-      "published_at": "2026-05-10T14:14:57Z",
-      "category": "tech",
-      "score": 0.32512529634642584,
-      "tldr": "Ranking 1k ShowHN posts by estimated merit using an LLM judge and TrueSkill",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7ab98b13-2ad0-49e3-8425-a368452f7295",
       "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
       "url": "https://github.com/oven-sh/bun/issues/30719",
@@ -1064,20 +1050,6 @@
       ]
     },
     {
-      "id": "104aad9c-7a25-409c-9b92-731b3f1e1953",
-      "title": "Academic Research Skills for Claude Code",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "domain": "github.com",
-      "published_at": "2026-05-10T13:42:00Z",
-      "category": "tech",
-      "score": 0.25820471366112363,
-      "tldr": "Academic Research Skills for Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2f1b3034-42f9-4134-9dab-a9bec647684d",
       "title": "Claude for Legal",
       "url": "https://github.com/anthropics/claude-for-legal",
@@ -1413,8 +1385,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "6ab4b0c5-31f0-4d47-86a1-c29d11c4ddef",
+      "title": "Show HN: E2a – Open-source email gateway for AI agents",
+      "url": "https://github.com/Mnexa-AI/e2a",
+      "domain": "github.com",
+      "published_at": "2026-05-11T20:26:17Z",
+      "category": "tech",
+      "score": 0.2516939773898743,
+      "tldr": "Show HN: E2a – Open-source email gateway for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "75b7722d-b95c-4464-9340-692ab27c42f8",
+      "title": "The Inference Shift",
+      "url": "https://stratechery.com/2026/the-inference-shift",
+      "domain": "stratechery.com",
+      "published_at": "2026-05-11T10:10:52Z",
+      "category": "tech",
+      "score": 0.25166783439607493,
+      "tldr": "The Inference Shift",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-17T12:53:08.475665885Z",
+  "last_updated": "2026-05-17T14:21:15.201041247Z",
   "total_count": 100
 }
