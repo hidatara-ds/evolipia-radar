@@ -286,20 +286,6 @@
       ]
     },
     {
-      "id": "ad3ad8fc-e92e-4afa-9408-64fd1d36b70e",
-      "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
-      "url": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
-      "domain": "tomshardware.com",
-      "published_at": "2026-05-10T14:47:05Z",
-      "category": "tech",
-      "score": 0.3257666064572525,
-      "tldr": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0be73b61-2047-4711-95f7-bc22fa581600",
       "title": "OpenAI is connecting ChatGPT to bank accounts via Plaid",
       "url": "https://firethering.com/chatgpt-bank-account-plaid-openai",
@@ -840,6 +826,20 @@
       ]
     },
     {
+      "id": "d6197682-5d97-467d-b120-3c50333db2fe",
+      "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
+      "url": "https://github.com/tech4bot/rk3562deb",
+      "domain": "github.com",
+      "published_at": "2026-05-17T13:16:27Z",
+      "category": "tech",
+      "score": 0.26531903287589864,
+      "tldr": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8ff1f34a-8353-4e23-ac18-f4a1b9443d58",
       "title": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
       "url": "https://github.com/gdevic/FPGA-Calculator",
@@ -966,20 +966,6 @@
       ]
     },
     {
-      "id": "d8e96150-fa68-4434-a3c4-5d8265801c30",
-      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
-      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
-      "domain": "theverge.com",
-      "published_at": "2026-05-10T15:22:46Z",
-      "category": "tech",
-      "score": 0.2613070271428742,
-      "tldr": "Chrome's AI features may be hogging 4GB of your computer storage",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "913227f2-cf2f-4773-b091-bf0afcc25166",
       "title": "I tried to make Claude make me money on open-source bounties",
       "url": "https://github.com/ztc00/algora-scout/blob/main/POST.md",
@@ -1044,6 +1030,20 @@
       "category": "tech",
       "score": 0.2585080699549486,
       "tldr": "Scrcpy v4.0",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "95f71781-8f52-4912-8ba8-bfa30137c13f",
+      "title": "CUDA Books",
+      "url": "https://github.com/alternbits/awesome-cuda-books",
+      "domain": "github.com",
+      "published_at": "2026-05-17T12:52:06Z",
+      "category": "tech",
+      "score": 0.25759101290986564,
+      "tldr": "CUDA Books",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1156,6 +1156,20 @@
       "category": "tech",
       "score": 0.25529529232113846,
       "tldr": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "76985e2e-db05-409b-bd36-1aa321fe1637",
+      "title": "Agentic Trading with Safe Guardrails",
+      "url": "https://github.com/ShurikenTrade/shuriken-skills",
+      "domain": "github.com",
+      "published_at": "2026-05-17T12:44:24Z",
+      "category": "tech",
+      "score": 0.2544240210254491,
+      "tldr": "Agentic Trading with Safe Guardrails",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1399,22 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "75b7722d-b95c-4464-9340-692ab27c42f8",
-      "title": "The Inference Shift",
-      "url": "https://stratechery.com/2026/the-inference-shift",
-      "domain": "stratechery.com",
-      "published_at": "2026-05-11T10:10:52Z",
-      "category": "tech",
-      "score": 0.25166783439607493,
-      "tldr": "The Inference Shift",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-17T14:21:15.201041247Z",
+  "last_updated": "2026-05-17T15:34:45.647833856Z",
   "total_count": 100
 }
