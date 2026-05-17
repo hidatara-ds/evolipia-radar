@@ -427,20 +427,6 @@
       ]
     },
     {
-      "id": "7e877654-8464-4b46-9b41-fe54d8440541",
-      "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
-      "url": "https://github.com/imtomt/ymawky",
-      "domain": "github.com",
-      "published_at": "2026-05-10T03:01:44Z",
-      "category": "tech",
-      "score": 0.3066304050703635,
-      "tldr": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e20b5ae3-9154-416d-8750-db3047fc7cb7",
       "title": "Codex is now available on mobile via ChatGPT app",
       "url": "https://twitter.com/openai/status/2055016850849993072",
@@ -882,20 +868,6 @@
       ]
     },
     {
-      "id": "3d3aaccc-eb27-4a70-ade5-b4dc9a319a73",
-      "title": "Gemini API File Search is now multimodal",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag",
-      "domain": "blog.google",
-      "published_at": "2026-05-10T03:22:02Z",
-      "category": "tech",
-      "score": 0.2658595614826874,
-      "tldr": "Gemini API File Search is now multimodal",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "8ff1f34a-8353-4e23-ac18-f4a1b9443d58",
       "title": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
       "url": "https://github.com/gdevic/FPGA-Calculator",
@@ -1005,6 +977,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "d593769c-4eb0-4dcb-8d8a-e8c15942ff01",
+      "title": "Self-Distillation Enables Continual Learning [pdf]",
+      "url": "https://arxiv.org/abs/2601.19897",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-17T01:19:14Z",
+      "category": "tech",
+      "score": 0.26169108591147305,
+      "tldr": "Self-Distillation Enables Continual Learning [pdf]",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1345,20 +1331,6 @@
       ]
     },
     {
-      "id": "6c360109-a38f-4635-acfc-00320d3b9ed6",
-      "title": "Show HN: Modafinil - Let agents continue running while MacBook lid is closed",
-      "url": "https://github.com/narcotic-sh/modafinil",
-      "domain": "github.com",
-      "published_at": "2026-05-10T03:17:03Z",
-      "category": "tech",
-      "score": 0.2524471888345953,
-      "tldr": "Show HN: Modafinil - Let agents continue running while MacBook lid is closed",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1fbdd7d1-5c3f-4cdd-a6eb-7a891df5a873",
       "title": "YellowKey Bitlocker Bypass Vulnerability",
       "url": "https://github.com/Nightmare-Eclipse/YellowKey",
@@ -1413,8 +1385,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "126a677d-d87c-4938-8805-39905ecaca8b",
+      "title": "Accelerate",
+      "url": "https://github.com/AccelerateHS/accelerate",
+      "domain": "github.com",
+      "published_at": "2026-05-16T13:42:34Z",
+      "category": "tech",
+      "score": 0.25201123426810285,
+      "tldr": "Accelerate",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "316c073e-af3f-48b1-9a27-8aa46a87ad26",
+      "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+      "url": "https://github.com/chiennv2000/orthrus",
+      "domain": "github.com",
+      "published_at": "2026-05-15T22:38:58Z",
+      "category": "tech",
+      "score": 0.25180704094269724,
+      "tldr": "Orthrus-Qwen3: up to 7. 8×tokens/forward on Qwen3, identical output distribution",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-17T01:55:20.586129614Z",
+  "last_updated": "2026-05-17T05:40:45.299852934Z",
   "total_count": 100
 }
