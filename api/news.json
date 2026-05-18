@@ -1204,20 +1204,6 @@
       ]
     },
     {
-      "id": "318235f8-65d9-4eb5-b47f-7c9cf1d31cff",
-      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
-      "url": "https://github.com/adamjgmiller/adamsreview",
-      "domain": "github.com",
-      "published_at": "2026-05-11T02:06:29Z",
-      "category": "tech",
-      "score": 0.25529529232113846,
-      "tldr": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "76985e2e-db05-409b-bd36-1aa321fe1637",
       "title": "Agentic Trading with Safe Guardrails",
       "url": "https://github.com/ShurikenTrade/shuriken-skills",
@@ -1413,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "316c073e-af3f-48b1-9a27-8aa46a87ad26",
+      "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+      "url": "https://github.com/chiennv2000/orthrus",
+      "domain": "github.com",
+      "published_at": "2026-05-15T22:38:58Z",
+      "category": "tech",
+      "score": 0.25180704094269724,
+      "tldr": "Orthrus-Qwen3: up to 7. 8×tokens/forward on Qwen3, identical output distribution",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-18T02:05:59.542525276Z",
+  "last_updated": "2026-05-18T06:36:25.012627965Z",
   "total_count": 100
 }
