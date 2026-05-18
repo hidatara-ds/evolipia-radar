@@ -144,21 +144,6 @@
       ]
     },
     {
-      "id": "68827eff-b405-4ee7-a746-938268b9f969",
-      "title": "The OpenAI Deployment Company",
-      "url": "https://openai.com/index/openai-launches-the-deployment-company",
-      "domain": "openai.com",
-      "published_at": "2026-05-11T13:10:55Z",
-      "category": "tech",
-      "score": 0.3774418593012828,
-      "tldr": "The OpenAI Deployment Company",
-      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
-      "tags": [
-        "mlops",
-        "general_ai"
-      ]
-    },
-    {
       "id": "9d3189e5-f25d-4274-9164-f44b4fe68da1",
       "title": "Show HN: GlycemicGPT – open-source AI-powered diabetes management",
       "url": "https://github.com/GlycemicGPT/GlycemicGPT",
@@ -202,6 +187,20 @@
       ]
     },
     {
+      "id": "d2195cc4-627d-43e2-b678-24e0ed0ed891",
+      "title": "I automated opt-outs for 500 data broker sites (open source)",
+      "url": "https://github.com/stephenlthorn/auto-identity-remove",
+      "domain": "github.com",
+      "published_at": "2026-05-18T11:32:42Z",
+      "category": "tech",
+      "score": 0.35124140758922884,
+      "tldr": "I automated opt-outs for 500 data broker sites (open source)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "1570bb00-eef4-4d6d-ad71-ce651e9410ba",
       "title": "Show HN: Find the best local LLM for your hardware, ranked by benchmarks",
       "url": "https://github.com/Andyyyy64/whichllm",
@@ -241,6 +240,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "8ac55cf9-8e54-435d-bcf4-e455e4e6a7e6",
+      "title": "Eric Schmidt speech about AI booed during graduation",
+      "url": "https://www.nbcnews.com/tech/tech-news/former-google-ceo-booed-graduation-speech-ai-rcna345585",
+      "domain": "nbcnews.com",
+      "published_at": "2026-05-18T10:50:25Z",
+      "category": "tech",
+      "score": 0.34412795767647464,
+      "tldr": "Eric Schmidt speech about AI booed during graduation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -826,6 +839,20 @@
       ]
     },
     {
+      "id": "d570529a-0ea9-47fa-95b8-00ca57476baf",
+      "title": "Show HN: Files.md – open-source alternative to Obsidian",
+      "url": "https://github.com/zakirullin/files.md",
+      "domain": "github.com",
+      "published_at": "2026-05-18T13:33:33Z",
+      "category": "tech",
+      "score": 0.27029673101487683,
+      "tldr": "md – open-source alternative to Obsidian",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7c4616e5-4b80-49e6-9436-a7075418b77d",
       "title": "Composer leaks contents of tokens configured as GitHub OAuth tokens",
       "url": "https://github.com/composer/composer/security/advisories/GHSA-f9f8-rm49-7jv2",
@@ -1275,6 +1302,20 @@
       ]
     },
     {
+      "id": "b64e29b0-3cb6-467f-b290-43d406145490",
+      "title": "Porting my 3D points renderer on a ZX Spectrum 48K",
+      "url": "https://github.com/ttsiodras/3D-on-a-ZX-Spectrum-48K",
+      "domain": "github.com",
+      "published_at": "2026-05-17T08:55:28Z",
+      "category": "tech",
+      "score": 0.2532850323480822,
+      "tldr": "Porting my 3D points renderer on a ZX Spectrum 48K",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7189b147-b9bf-4aac-aac3-abe61d0e58f4",
       "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
@@ -1371,50 +1412,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "db4edd0a-707d-4f7b-893a-4ce4eec8a9b4",
-      "title": "Show HN: FixMyNPM, CLI to fix your insecure npm config",
-      "url": "https://github.com/madhugb/FixMyNPM",
-      "domain": "github.com",
-      "published_at": "2026-05-13T12:46:15Z",
-      "category": "tech",
-      "score": 0.25222049753915776,
-      "tldr": "Show HN: FixMyNPM, CLI to fix your insecure npm config",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "20a4e2f3-40e7-4113-8de8-cbfa52ad8632",
-      "title": "Steve Jobs in Exile – New book on Steve Jobs’s years at NeXT Computer",
-      "url": "https://spectrum.ieee.org/steve-jobs-next-computer",
-      "domain": "spectrum.ieee.org",
-      "published_at": "2026-05-15T10:34:58Z",
-      "category": "tech",
-      "score": 0.2520801998400926,
-      "tldr": "Steve Jobs in Exile – New book on Steve Jobs’s years at NeXT Computer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "126a677d-d87c-4938-8805-39905ecaca8b",
-      "title": "Accelerate",
-      "url": "https://github.com/AccelerateHS/accelerate",
-      "domain": "github.com",
-      "published_at": "2026-05-16T13:42:34Z",
-      "category": "tech",
-      "score": 0.25201123426810285,
-      "tldr": "Accelerate",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-18T10:56:09.115814617Z",
+  "last_updated": "2026-05-18T14:25:23.516107738Z",
   "total_count": 100
 }
