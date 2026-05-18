@@ -59,20 +59,6 @@
       ]
     },
     {
-      "id": "eaaf58fe-cc7b-4f83-9760-78ed40f5b537",
-      "title": "Postmortem: TanStack npm supply-chain compromise",
-      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
-      "domain": "tanstack.com",
-      "published_at": "2026-05-11T21:08:25Z",
-      "category": "tech",
-      "score": 0.4100639843457286,
-      "tldr": "Postmortem: TanStack npm supply-chain compromise",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "77214ca3-5591-4753-8bd8-103e728146bc",
       "title": "At least 25 Flock cameras have been destroyed in five states since April 2025",
       "url": "https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026",
@@ -610,20 +596,6 @@
       "category": "tech",
       "score": 0.29315109519771226,
       "tldr": "Mitchellh – I strongly believe there are entire companies now under AI psychosis",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "630cf736-34aa-4b89-b40f-56e4b61239a4",
-      "title": "TanStack NPM Packages Compromised",
-      "url": "https://github.com/TanStack/router/issues/7383",
-      "domain": "github.com",
-      "published_at": "2026-05-11T21:08:25Z",
-      "category": "tech",
-      "score": 0.29141320176162466,
-      "tldr": "TanStack NPM Packages Compromised",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1260,20 +1232,6 @@
       ]
     },
     {
-      "id": "08981bea-7652-4014-a03f-e5be5797643a",
-      "title": "Griffin PowerMate driver for modern macOS",
-      "url": "https://github.com/jameslockman/Griffin-PowerMate-Driver",
-      "domain": "github.com",
-      "published_at": "2026-05-11T21:35:38Z",
-      "category": "tech",
-      "score": 0.2560523023940024,
-      "tldr": "Griffin PowerMate driver for modern macOS",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ec4d487f-3776-468a-9a08-b0d52dd5c38f",
       "title": "Image-blaster: Creates 3D environments, SFX, and meshes from a single image",
       "url": "https://github.com/neilsonnn/image-blaster",
@@ -1413,8 +1371,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b64e29b0-3cb6-467f-b290-43d406145490",
+      "title": "Porting my 3D points renderer on a ZX Spectrum 48K",
+      "url": "https://github.com/ttsiodras/3D-on-a-ZX-Spectrum-48K",
+      "domain": "github.com",
+      "published_at": "2026-05-17T08:55:28Z",
+      "category": "tech",
+      "score": 0.2532850323480822,
+      "tldr": "Porting my 3D points renderer on a ZX Spectrum 48K",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7189b147-b9bf-4aac-aac3-abe61d0e58f4",
+      "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "domain": "theverge.com",
+      "published_at": "2026-05-12T16:39:40Z",
+      "category": "tech",
+      "score": 0.25279403585547844,
+      "tldr": "Parents say ChatGPT got their son killed with bad advice on party drugs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0f751c2f-12fd-411e-9811-d63626ba9acc",
+      "title": "Beyond Semantic Similarity",
+      "url": "https://arxiv.org/abs/2605.05242",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-12T19:51:41Z",
+      "category": "tech",
+      "score": 0.2527197387475246,
+      "tldr": "Beyond Semantic Similarity",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-18T20:52:08.817219336Z",
+  "last_updated": "2026-05-18T21:58:13.57077173Z",
   "total_count": 100
 }
