@@ -686,20 +686,6 @@
       ]
     },
     {
-      "id": "eb1e2445-8ce9-4659-acd8-23d7c15c0e41",
-      "title": "They Live (1988) inspired Adblocker",
-      "url": "https://github.com/davmlaw/they_live_adblocker",
-      "domain": "github.com",
-      "published_at": "2026-05-12T00:37:54Z",
-      "category": "tech",
-      "score": 0.2790388032248155,
-      "tldr": "They Live (1988) inspired Adblocker",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f7f48995-c0a0-4bab-8637-eaf6dea15d2a",
       "title": "Removing the modem and GPS from my 2024 RAV4 hybrid",
       "url": "https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4",
@@ -725,6 +711,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "1268835a-8423-44ce-bfbd-12290eeb182f",
+      "title": "What political censorship looks like inside an LLM's weights (Qwen 3.5)",
+      "url": "https://vas-blog.pages.dev/qwen-censorship",
+      "domain": "vas-blog.pages.dev",
+      "published_at": "2026-05-19T00:16:31Z",
+      "category": "tech",
+      "score": 0.2766233195605214,
+      "tldr": "What political censorship looks like inside an LLM's weights (Qwen 3.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -918,6 +918,20 @@
       "category": "tech",
       "score": 0.26531903287589864,
       "tldr": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4686f227-5ea0-4ebb-a4fb-bcbeb7e61f50",
+      "title": "Click (2016)",
+      "url": "https://clickclickclick.click/",
+      "domain": "clickclickclick.click",
+      "published_at": "2026-05-18T23:03:02Z",
+      "category": "tech",
+      "score": 0.26482506287213126,
+      "tldr": "Click (2016)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1399,22 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "7189b147-b9bf-4aac-aac3-abe61d0e58f4",
-      "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
-      "domain": "theverge.com",
-      "published_at": "2026-05-12T16:39:40Z",
-      "category": "tech",
-      "score": 0.25279403585547844,
-      "tldr": "Parents say ChatGPT got their son killed with bad advice on party drugs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-18T23:55:25.370134001Z",
+  "last_updated": "2026-05-19T02:05:53.742005958Z",
   "total_count": 100
 }
