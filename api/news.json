@@ -173,6 +173,20 @@
       ]
     },
     {
+      "id": "c8517d22-955e-479e-8bdb-b2f384c0f1e7",
+      "title": "The last six months in LLMs in five minutes",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms",
+      "domain": "simonwillison.net",
+      "published_at": "2026-05-19T01:30:42Z",
+      "category": "tech",
+      "score": 0.3635596999756153,
+      "tldr": "The last six months in LLMs in five minutes",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2ab72882-a411-4179-98b7-6f852c39c510",
       "title": "AI subscriptions are a ticking time bomb for enterprise",
       "url": "https://www.thestateofbrand.com/news/ai-subscription-time-bomb",
@@ -952,6 +966,20 @@
       ]
     },
     {
+      "id": "f6653d14-fcac-4d3f-959b-8bcd182c739e",
+      "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "domain": "vaticannews.va",
+      "published_at": "2026-05-18T23:18:10Z",
+      "category": "tech",
+      "score": 0.2642551172101749,
+      "tldr": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "87e20833-b748-45af-9266-9a75f7e3aff5",
       "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
       "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
@@ -961,6 +989,20 @@
       "score": 0.26403067408183034,
       "tldr": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1fb0da53-0ee9-47b1-9491-c6beecf908d8",
+      "title": "BambuStudio has been violating PrusaSlicer AGPL license since their fork",
+      "url": "https://github.com/jarczakpawel/OrcaSlicer-bambulab/blob/main/bambu_agpl.md",
+      "domain": "github.com",
+      "published_at": "2026-05-18T05:18:21Z",
+      "category": "tech",
+      "score": 0.2636557115541651,
+      "tldr": "BambuStudio has been violating PrusaSlicer AGPL license since their fork",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1345,6 +1387,20 @@
       ]
     },
     {
+      "id": "4ef3029f-8efa-4b1b-8a3f-cea828110958",
+      "title": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
+      "url": "https://github.com/harmont-dev/hsrs",
+      "domain": "github.com",
+      "published_at": "2026-05-19T04:06:09Z",
+      "category": "tech",
+      "score": 0.25394571174753044,
+      "tldr": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f16b3c55-3341-4471-91a1-84f22799cbef",
       "title": "Show HN: InsForge – Open-source Heroku for coding agents",
       "url": "https://github.com/InsForge/InsForge",
@@ -1357,64 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "eae071ba-e0c3-454a-ad2b-2cd2175e3164",
-      "title": "Ksharp – k version 3 Language Interpreter in C#",
-      "url": "https://github.com/ERufian/ksharp",
-      "domain": "github.com",
-      "published_at": "2026-05-17T07:44:16Z",
-      "category": "tech",
-      "score": 0.2536002400477077,
-      "tldr": "Ksharp – k version 3 Language Interpreter in C#",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "eb73e0bf-293d-4d56-b4b6-891379a485d9",
-      "title": "NanoTDB – Golang Append-Only Time Series DB",
-      "url": "https://github.com/aymanhs/nanotdb",
-      "domain": "github.com",
-      "published_at": "2026-05-15T10:31:51Z",
-      "category": "tech",
-      "score": 0.2534436413355869,
-      "tldr": "NanoTDB – Golang Append-Only Time Series DB",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b64e29b0-3cb6-467f-b290-43d406145490",
-      "title": "Porting my 3D points renderer on a ZX Spectrum 48K",
-      "url": "https://github.com/ttsiodras/3D-on-a-ZX-Spectrum-48K",
-      "domain": "github.com",
-      "published_at": "2026-05-17T08:55:28Z",
-      "category": "tech",
-      "score": 0.2532850323480822,
-      "tldr": "Porting my 3D points renderer on a ZX Spectrum 48K",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a78d1251-0190-4781-b471-29be1dbc923f",
-      "title": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
-      "url": "https://arxiv.org/abs/2601.10160",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-18T21:29:13Z",
-      "category": "tech",
-      "score": 0.25303440718334297,
-      "tldr": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-19T02:05:53.742005958Z",
+  "last_updated": "2026-05-19T06:32:42.447246388Z",
   "total_count": 100
 }
