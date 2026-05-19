@@ -530,21 +530,6 @@
       ]
     },
     {
-      "id": "56ceb705-c2c8-4bb9-b593-e32de9501a0a",
-      "title": "Mass NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
-      "url": "https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral",
-      "domain": "safedep.io",
-      "published_at": "2026-05-12T08:23:40Z",
-      "category": "tech",
-      "score": 0.301999393546878,
-      "tldr": "Mass NPM Supply Chain Attack Hits TanStack, Mistral AI, and 170 Packages",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "5386e7d6-8d67-4b5b-b574-73ef413bf363",
       "title": "The Problem with \"Mathematically Proven\" Claims About LLMs",
       "url": "https://webdirections.org/blog/the-problem-with-mathematically-proven-claims-about-llms",
@@ -1413,8 +1398,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "eae071ba-e0c3-454a-ad2b-2cd2175e3164",
+      "title": "Ksharp – k version 3 Language Interpreter in C#",
+      "url": "https://github.com/ERufian/ksharp",
+      "domain": "github.com",
+      "published_at": "2026-05-17T07:44:16Z",
+      "category": "tech",
+      "score": 0.2536002400477077,
+      "tldr": "Ksharp – k version 3 Language Interpreter in C#",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-19T06:32:42.447246388Z",
+  "last_updated": "2026-05-19T10:30:52.298579809Z",
   "total_count": 100
 }
