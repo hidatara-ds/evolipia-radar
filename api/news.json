@@ -29,21 +29,6 @@
       ]
     },
     {
-      "id": "7ad3d1a4-6614-4bfd-a920-207b8e894206",
-      "title": "FairyFuse: Multiplication-Free LLM Inference on CPUs via Fused Ternary Kernels",
-      "url": "https://arxiv.org/abs/2604.20913",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-12T17:35:51Z",
-      "category": "tech",
-      "score": 0.4511536009481814,
-      "tldr": "FairyFuse: Multiplication-Free LLM Inference on CPUs via Fused Ternary Kernels",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "ee70de18-ce70-4126-9d87-219971f0d779",
       "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
@@ -328,6 +313,20 @@
       ]
     },
     {
+      "id": "a621d4c5-2e8b-4259-b90b-03d6dadf3f30",
+      "title": "Gemini Omni",
+      "url": "https://deepmind.google/models/gemini-omni",
+      "domain": "deepmind.google",
+      "published_at": "2026-05-19T17:46:19Z",
+      "category": "tech",
+      "score": 0.34211985069977346,
+      "tldr": "Gemini Omni",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "4c425017-b529-4aff-b4e4-80535cd6dae0",
       "title": "I Moved My Digital Stack to Europe",
       "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe",
@@ -351,20 +350,6 @@
       "score": 0.330715624443228,
       "tldr": "Show HN: Torrix, self hosted, LLM Observability,(no Postgres, no Redis)",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bccdbfbb-33bb-4e25-b891-0972635b3457",
-      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "url": "https://github.com/cactus-compute/needle",
-      "domain": "github.com",
-      "published_at": "2026-05-12T18:03:11Z",
-      "category": "tech",
-      "score": 0.330667332509889,
-      "tldr": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
       ]
@@ -441,17 +426,17 @@
       ]
     },
     {
-      "id": "95e87aa8-7520-4338-b857-6e592bf41b13",
-      "title": "Googlebook",
-      "url": "https://googlebook.google/",
-      "domain": "googlebook.google",
-      "published_at": "2026-05-12T17:37:36Z",
+      "id": "3771d8ea-fba5-4343-bb94-cb6d62fcf8aa",
+      "title": "Gemini 3.5 Flash: frontier intelligence with action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5",
+      "domain": "blog.google",
+      "published_at": "2026-05-19T17:49:50Z",
       "category": "tech",
-      "score": 0.3188100170430174,
-      "tldr": "Googlebook",
+      "score": 0.3198953956216498,
+      "tldr": "5 Flash: frontier intelligence with action",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
-        "general_ai"
+        "llm"
       ]
     },
     {
@@ -466,6 +451,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "dbbf3471-22cd-4a25-8d18-9cdf5e22994e",
+      "title": "I’ve built a virtual museum with nearly every operating system you can think of",
+      "url": "https://virtualosmuseum.org/",
+      "domain": "virtualosmuseum.org",
+      "published_at": "2026-05-19T15:53:38Z",
+      "category": "tech",
+      "score": 0.31375481604457656,
+      "tldr": "I’ve built a virtual museum with nearly every operating system you can think of",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -579,21 +578,6 @@
       "category": "tech",
       "score": 0.30212968311810995,
       "tldr": "OpenAI's Codex is now in the ChatGPT mobile app",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "5386e7d6-8d67-4b5b-b574-73ef413bf363",
-      "title": "The Problem with \"Mathematically Proven\" Claims About LLMs",
-      "url": "https://webdirections.org/blog/the-problem-with-mathematically-proven-claims-about-llms",
-      "domain": "webdirections.org",
-      "published_at": "2026-05-12T18:20:04Z",
-      "category": "tech",
-      "score": 0.3011743595132618,
-      "tldr": "The Problem with \"Mathematically Proven\" Claims About LLMs",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
@@ -797,14 +781,14 @@
       ]
     },
     {
-      "id": "d9b66c97-1977-40e9-9699-8f20e7d07b21",
-      "title": "Reimagining the mouse pointer for the AI era",
-      "url": "https://deepmind.google/blog/ai-pointer",
-      "domain": "deepmind.google",
-      "published_at": "2026-05-12T17:40:13Z",
+      "id": "7ee72a7e-54a1-4486-88c0-41cfc0d70ae0",
+      "title": "Google I/O",
+      "url": "https://io.google/2026",
+      "domain": "io.google",
+      "published_at": "2026-05-19T17:01:25Z",
       "category": "tech",
-      "score": 0.27423109320291794,
-      "tldr": "Reimagining the mouse pointer for the AI era",
+      "score": 0.27441330215160076,
+      "tldr": "Google I/O",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "76985e2e-db05-409b-bd36-1aa321fe1637",
+      "title": "Agentic Trading with Safe Guardrails",
+      "url": "https://github.com/ShurikenTrade/shuriken-skills",
+      "domain": "github.com",
+      "published_at": "2026-05-17T12:44:24Z",
+      "category": "tech",
+      "score": 0.2544240210254491,
+      "tldr": "Agentic Trading with Safe Guardrails",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-19T16:44:28.51099306Z",
+  "last_updated": "2026-05-19T18:52:37.92085516Z",
   "total_count": 100
 }
