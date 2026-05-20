@@ -1373,6 +1373,20 @@
       ]
     },
     {
+      "id": "9a468654-439b-4634-9c76-51132a30e0bc",
+      "title": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
+      "url": "https://vmax.ai/team/populora-co-evolving-llm-populations-for-reasoning-self-play",
+      "domain": "vmax.ai",
+      "published_at": "2026-05-20T21:11:55Z",
+      "category": "tech",
+      "score": 0.25828564204251203,
+      "tldr": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "aa4e436f-6f0b-453c-b50d-16939a561177",
       "title": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
       "url": "https://modal.com/blog/truly-serverless-gpus",
@@ -1399,22 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "95f71781-8f52-4912-8ba8-bfa30137c13f",
-      "title": "CUDA Books",
-      "url": "https://github.com/alternbits/awesome-cuda-books",
-      "domain": "github.com",
-      "published_at": "2026-05-17T12:52:06Z",
-      "category": "tech",
-      "score": 0.25759101290986564,
-      "tldr": "CUDA Books",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-20T20:57:31.123750216Z",
+  "last_updated": "2026-05-20T22:20:54.551362565Z",
   "total_count": 100
 }
