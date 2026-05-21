@@ -330,6 +330,20 @@
       ]
     },
     {
+      "id": "d59b2373-cf63-452f-bee3-1bfe389a303b",
+      "title": "Flipper One – we need your help",
+      "url": "https://blog.flipper.net/flipper-one-we-need-your-help",
+      "domain": "blog.flipper.net",
+      "published_at": "2026-05-21T11:03:38Z",
+      "category": "tech",
+      "score": 0.3554851886052301,
+      "tldr": "Flipper One – we need your help",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5f148130-1cc4-498e-a90c-63890b8f06d0",
       "title": "Show HN: Gaussian Splat of a Strawberry",
       "url": "https://superspl.at/scene/84df8849",
@@ -341,6 +355,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "f5d090f9-1930-4d6d-8974-4849960ade40",
+      "title": "Gemini randomly dumped its system prompt",
+      "url": "https://gist.github.com/mkaramuk/44a44d83178e632ec0dd1f02186d822c",
+      "domain": "gist.github.com",
+      "published_at": "2026-05-21T13:04:21Z",
+      "category": "tech",
+      "score": 0.3523736470958382,
+      "tldr": "Gemini randomly dumped its system prompt",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -465,6 +493,20 @@
       "category": "tech",
       "score": 0.3367026520601471,
       "tldr": "Show HN: I reverse engineered Apple's video wallpapers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "dfb3885c-cfbd-4c6d-9957-b2d53b11c5c5",
+      "title": "Google officially announces that ads will be included in AI Mode search results",
+      "url": "https://blog.google/products/ads-commerce/google-marketing-live-search-ads",
+      "domain": "blog.google",
+      "published_at": "2026-05-21T09:49:46Z",
+      "category": "tech",
+      "score": 0.3363789764775582,
+      "tldr": "Google officially announces that ads will be included in AI Mode search results",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1372,50 +1414,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "9a468654-439b-4634-9c76-51132a30e0bc",
-      "title": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
-      "url": "https://vmax.ai/team/populora-co-evolving-llm-populations-for-reasoning-self-play",
-      "domain": "vmax.ai",
-      "published_at": "2026-05-20T21:11:55Z",
-      "category": "tech",
-      "score": 0.25828564204251203,
-      "tldr": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "aa4e436f-6f0b-453c-b50d-16939a561177",
-      "title": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
-      "url": "https://modal.com/blog/truly-serverless-gpus",
-      "domain": "modal.com",
-      "published_at": "2026-05-18T17:56:26Z",
-      "category": "tech",
-      "score": 0.25823857249299575,
-      "tldr": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "919d3601-8d9e-4537-9ed0-4781a161146e",
-      "title": "Remove AI Watermarks",
-      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
-      "domain": "github.com",
-      "published_at": "2026-05-19T22:30:31Z",
-      "category": "tech",
-      "score": 0.25794990711130905,
-      "tldr": "Remove AI Watermarks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-21T10:29:42.323279903Z",
+  "last_updated": "2026-05-21T13:44:41.124067231Z",
   "total_count": 100
 }
