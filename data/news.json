@@ -513,6 +513,20 @@
       ]
     },
     {
+      "id": "e1e5e97e-ecef-4dd9-9252-643e5583acf0",
+      "title": "Stop throwing AI-generated walls of text into conversations",
+      "url": "https://noslopgrenade.com/",
+      "domain": "noslopgrenade.com",
+      "published_at": "2026-05-21T09:31:15Z",
+      "category": "tech",
+      "score": 0.33942355954539855,
+      "tldr": "Stop throwing AI-generated walls of text into conversations",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a7cdeccd-d52d-4f6b-af31-49f97327d931",
       "title": "Show HN: I reverse engineered Apple's video wallpapers",
       "url": "https://github.com/kageroumado/phosphene",
@@ -564,20 +578,6 @@
       "category": "tech",
       "score": 0.3240603292227556,
       "tldr": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2adc0804-cfe2-4313-8303-ce18f7370ef1",
-      "title": "AI is making me dumb",
-      "url": "https://jpain.io/god-damn-ai-is-making-me-dumb",
-      "domain": "jpain.io",
-      "published_at": "2026-05-14T18:19:28Z",
-      "category": "tech",
-      "score": 0.3229044316328969,
-      "tldr": "AI is making me dumb",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -666,20 +666,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "079e55ce-8af1-4187-aa1f-2ed1d3f65eeb",
-      "title": "New Nginx Exploit",
-      "url": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
-      "domain": "github.com",
-      "published_at": "2026-05-14T17:17:48Z",
-      "category": "tech",
-      "score": 0.31218442074308306,
-      "tldr": "New Nginx Exploit",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
         "general_ai"
       ]
     },
@@ -908,20 +894,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f7f48995-c0a0-4bab-8637-eaf6dea15d2a",
-      "title": "Removing the modem and GPS from my 2024 RAV4 hybrid",
-      "url": "https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4",
-      "domain": "arkadiyt.com",
-      "published_at": "2026-05-14T17:08:00Z",
-      "category": "tech",
-      "score": 0.2781845861489617,
-      "tldr": "Removing the modem and GPS from my 2024 RAV4 hybrid",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
         "general_ai"
       ]
     },
@@ -1414,8 +1386,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "7026c962-ee02-42d4-9fd3-20e3da854c9a",
+      "title": "The famous O3 \"GeoGuessr\" prompt did not work",
+      "url": "https://www.seangoedecke.com/the-o3-geoguessr-prompt-did-not-work",
+      "domain": "seangoedecke.com",
+      "published_at": "2026-05-21T08:52:45Z",
+      "category": "tech",
+      "score": 0.2595660399136353,
+      "tldr": "The famous O3 \"GeoGuessr\" prompt did not work",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "34c30915-7b2a-4d3b-ba31-912419ff2fff",
+      "title": "It is time to give up the dualism introduced by the debate on consciousness",
+      "url": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness",
+      "domain": "noemamag.com",
+      "published_at": "2026-05-18T02:59:34Z",
+      "category": "tech",
+      "score": 0.2588286326732927,
+      "tldr": "It is time to give up the dualism introduced by the debate on consciousness",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-21T16:34:28.417138045Z",
+  "last_updated": "2026-05-21T18:52:35.223339366Z",
   "total_count": 100
 }
