@@ -143,6 +143,20 @@
       ]
     },
     {
+      "id": "70698f7b-476a-418a-8ce2-4a64449689b4",
+      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "url": "https://arxiv.org/abs/2605.12460",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-21T19:37:26Z",
+      "category": "tech",
+      "score": 0.40213941788491964,
+      "tldr": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "d4971aca-93e3-4236-8493-d600fc448307",
       "title": "Incident Report: Railway Blocked by Google Cloud (Resolved)",
       "url": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
@@ -212,20 +226,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "a3672876-cf95-4392-9519-dba2145ac11c",
-      "title": "Codex is now in the ChatGPT mobile app",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "domain": "openai.com",
-      "published_at": "2026-05-14T20:06:14Z",
-      "category": "tech",
-      "score": 0.3800837651312878,
-      "tldr": "Codex is now in the ChatGPT mobile app",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
         "llm"
       ]
     },
@@ -513,6 +513,20 @@
       ]
     },
     {
+      "id": "81642ffc-34c6-419f-8dc4-cb5864183e9b",
+      "title": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
+      "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance",
+      "domain": "prismreports.org",
+      "published_at": "2026-05-21T17:55:58Z",
+      "category": "tech",
+      "score": 0.34112838643858384,
+      "tldr": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e1e5e97e-ecef-4dd9-9252-643e5583acf0",
       "title": "Stop throwing AI-generated walls of text into conversations",
       "url": "https://noslopgrenade.com/",
@@ -698,21 +712,6 @@
       ]
     },
     {
-      "id": "e20b5ae3-9154-416d-8750-db3047fc7cb7",
-      "title": "Codex is now available on mobile via ChatGPT app",
-      "url": "https://twitter.com/openai/status/2055016850849993072",
-      "domain": "twitter.com",
-      "published_at": "2026-05-14T20:17:43Z",
-      "category": "tech",
-      "score": 0.30528572326311315,
-      "tldr": "Codex is now available on mobile via ChatGPT app",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "8c68684c-7fc4-48d4-8db3-5195752e5e38",
       "title": "OpenBSD 7.9",
       "url": "https://www.openbsd.org/79.html",
@@ -739,21 +738,6 @@
       "tags": [
         "llm",
         "general_ai"
-      ]
-    },
-    {
-      "id": "f467ac73-d3f3-4173-a34a-ba0880889226",
-      "title": "OpenAI's Codex is now in the ChatGPT mobile app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
-      "domain": "theverge.com",
-      "published_at": "2026-05-14T20:25:01Z",
-      "category": "tech",
-      "score": 0.30212968311810995,
-      "tldr": "OpenAI's Codex is now in the ChatGPT mobile app",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -1066,20 +1050,6 @@
       ]
     },
     {
-      "id": "ef00e4ac-8f2f-4d24-94e7-b4355395f6ba",
-      "title": "Work with Codex from Anywhere",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "domain": "openai.com",
-      "published_at": "2026-05-14T20:06:14Z",
-      "category": "tech",
-      "score": 0.27084944439129377,
-      "tldr": "Work with Codex from Anywhere",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d570529a-0ea9-47fa-95b8-00ca57476baf",
       "title": "Show HN: Files.md – open-source alternative to Obsidian",
       "url": "https://github.com/zakirullin/files.md",
@@ -1102,20 +1072,6 @@
       "category": "tech",
       "score": 0.26985701466345036,
       "tldr": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "db077206-83ab-45e4-9a57-3c7397f47f1e",
-      "title": "WinUI 3 Performance: A Leap Forward",
-      "url": "https://github.com/microsoft/microsoft-ui-xaml/discussions/11096",
-      "domain": "github.com",
-      "published_at": "2026-05-14T19:01:58Z",
-      "category": "tech",
-      "score": 0.26836057303600996,
-      "tldr": "WinUI 3 Performance: A Leap Forward",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1414,8 +1370,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "9a468654-439b-4634-9c76-51132a30e0bc",
+      "title": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
+      "url": "https://vmax.ai/team/populora-co-evolving-llm-populations-for-reasoning-self-play",
+      "domain": "vmax.ai",
+      "published_at": "2026-05-20T21:11:55Z",
+      "category": "tech",
+      "score": 0.25828564204251203,
+      "tldr": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "aa4e436f-6f0b-453c-b50d-16939a561177",
+      "title": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
+      "url": "https://modal.com/blog/truly-serverless-gpus",
+      "domain": "modal.com",
+      "published_at": "2026-05-18T17:56:26Z",
+      "category": "tech",
+      "score": 0.25823857249299575,
+      "tldr": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "919d3601-8d9e-4537-9ed0-4781a161146e",
+      "title": "Remove AI Watermarks",
+      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "domain": "github.com",
+      "published_at": "2026-05-19T22:30:31Z",
+      "category": "tech",
+      "score": 0.25794990711130905,
+      "tldr": "Remove AI Watermarks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-21T18:52:35.223339366Z",
+  "last_updated": "2026-05-21T20:30:29.96542507Z",
   "total_count": 100
 }
