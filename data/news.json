@@ -471,20 +471,6 @@
       ]
     },
     {
-      "id": "ea180d17-68ec-41a0-ae8f-2da0cf8d1e22",
-      "title": "LLM Policy for Rust Compiler",
-      "url": "https://github.com/rust-lang/rust-forge/pull/1040",
-      "domain": "github.com",
-      "published_at": "2026-05-14T23:37:21Z",
-      "category": "tech",
-      "score": 0.3457079423055308,
-      "tldr": "LLM Policy for Rust Compiler",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "8ac55cf9-8e54-435d-bcf4-e455e4e6a7e6",
       "title": "Eric Schmidt speech about AI booed during graduation",
       "url": "https://www.nbcnews.com/tech/tech-news/former-google-ceo-booed-graduation-speech-ai-rcna345585",
@@ -1412,8 +1398,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "919d3601-8d9e-4537-9ed0-4781a161146e",
+      "title": "Remove AI Watermarks",
+      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "domain": "github.com",
+      "published_at": "2026-05-19T22:30:31Z",
+      "category": "tech",
+      "score": 0.25794990711130905,
+      "tldr": "Remove AI Watermarks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-21T22:59:06.904982328Z",
+  "last_updated": "2026-05-21T23:59:45.187347167Z",
   "total_count": 100
 }
