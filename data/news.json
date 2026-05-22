@@ -853,20 +853,6 @@
       ]
     },
     {
-      "id": "dd40f0db-d7e0-4821-9497-78e378a99f9f",
-      "title": "Mullvad exit IPs are surprisingly identifying",
-      "url": "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector",
-      "domain": "tmctmt.com",
-      "published_at": "2026-05-15T02:35:35Z",
-      "category": "tech",
-      "score": 0.28150092578536995,
-      "tldr": "Mullvad exit IPs are surprisingly identifying",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d8748247-4001-4094-b472-50694be15326",
       "title": "Google’s AI is being manipulated. The search giant is quietly fighting back",
       "url": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
@@ -878,6 +864,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8e2e64f3-3c25-407f-8695-80a72caacf45",
+      "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+      "domain": "qz.com",
+      "published_at": "2026-05-22T01:30:45Z",
+      "category": "tech",
+      "score": 0.27858837188380847,
+      "tldr": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
         "general_ai"
       ]
     },
@@ -1414,6 +1414,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-21T23:59:45.187347167Z",
+  "last_updated": "2026-05-22T03:30:42.06414373Z",
   "total_count": 100
 }
