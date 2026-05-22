@@ -72,20 +72,6 @@
       ]
     },
     {
-      "id": "398c8c93-7d05-40e4-8005-2edbec37a448",
-      "title": "I believe there are entire companies right now under AI psychosis",
-      "url": "https://twitter.com/mitchellh/status/2055380239711457578",
-      "domain": "twitter.com",
-      "published_at": "2026-05-15T20:26:47Z",
-      "category": "tech",
-      "score": 0.4587821231916509,
-      "tldr": "I believe there are entire companies right now under AI psychosis",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "73af1790-c89b-439e-9d0a-650904e6a22f",
       "title": "Meta blocks human rights accounts from reaching audiences in Arabia and the UAE",
       "url": "https://www.alqst.org/ar/posts/1190",
@@ -97,6 +83,22 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "cb87c8bc-e226-410d-970e-c73445b6d0c0",
+      "title": "Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2605.22001",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-22T18:46:07Z",
+      "category": "tech",
+      "score": 0.42779848236035317,
+      "tldr": "Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm",
+        "computer_vision"
       ]
     },
     {
@@ -241,20 +243,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "55fb6511-c388-45de-bfe8-eb4de729e6a0",
-      "title": "Bill to block publishers from killing online games advances in California",
-      "url": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california",
-      "domain": "arstechnica.com",
-      "published_at": "2026-05-15T19:48:48Z",
-      "category": "tech",
-      "score": 0.37985668685895385,
-      "tldr": "Bill to block publishers from killing online games advances in California",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -668,6 +656,21 @@
       ]
     },
     {
+      "id": "64073f1f-0a5a-4293-83ff-bfd8738b5ac9",
+      "title": "Linux Sound Subsystem Also Seeing Many Fixes Driven by AI/LLMs",
+      "url": "https://www.phoronix.com/news/Linux-7.1-Sound-Many-Fixes",
+      "domain": "phoronix.com",
+      "published_at": "2026-05-22T19:34:37Z",
+      "category": "tech",
+      "score": 0.3060687543466377,
+      "tldr": "Linux Sound Subsystem Also Seeing Many Fixes Driven by AI/LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "8c68684c-7fc4-48d4-8db3-5195752e5e38",
       "title": "OpenBSD 7.9",
       "url": "https://www.openbsd.org/79.html",
@@ -733,20 +736,6 @@
       "category": "tech",
       "score": 0.29512167853692095,
       "tldr": "Victory: Tennessee man jailed 37 days for Trump meme wins $835,000 settlement",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "37996b82-f1ac-4ecf-b037-0031ea80acde",
-      "title": "Mitchellh – I strongly believe there are entire companies now under AI psychosis",
-      "url": "https://twitter.com/mitchellh/status/2055380239711457578",
-      "domain": "twitter.com",
-      "published_at": "2026-05-15T20:26:47Z",
-      "category": "tech",
-      "score": 0.29315109519771226,
-      "tldr": "Mitchellh – I strongly believe there are entire companies now under AI psychosis",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -986,20 +975,6 @@
       "category": "tech",
       "score": 0.27327716974956934,
       "tldr": "HTML Lists",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "350cb6de-fda2-4a6f-873e-97be73dd2d8f",
-      "title": "WinCE64 – Windows CE 2.11 for N64",
-      "url": "https://github.com/ThroatyMumbo/WinCE64",
-      "domain": "github.com",
-      "published_at": "2026-05-15T19:23:29Z",
-      "category": "tech",
-      "score": 0.27280611281404005,
-      "tldr": "WinCE64 – Windows CE 2.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1410,8 +1385,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "093593a9-737a-47f6-b29f-86a6eca27b2e",
+      "title": "Actually, democracy dies in H.R.",
+      "url": "https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-05-18T14:04:26Z",
+      "category": "tech",
+      "score": 0.2556605021072311,
+      "tldr": "Actually, democracy dies in H.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1f3900ca-0d4c-401a-9ab1-d737a54d49a6",
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "domain": "github.com",
+      "published_at": "2026-05-17T15:37:07Z",
+      "category": "tech",
+      "score": 0.25550458578768753,
+      "tldr": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-22T19:22:04.244710764Z",
+  "last_updated": "2026-05-22T20:53:41.529317398Z",
   "total_count": 100
 }
