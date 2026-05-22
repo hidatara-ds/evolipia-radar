@@ -258,21 +258,6 @@
       ]
     },
     {
-      "id": "9d3189e5-f25d-4274-9164-f44b4fe68da1",
-      "title": "Show HN: GlycemicGPT – open-source AI-powered diabetes management",
-      "url": "https://github.com/GlycemicGPT/GlycemicGPT",
-      "domain": "github.com",
-      "published_at": "2026-05-15T04:48:23Z",
-      "category": "tech",
-      "score": 0.3755991454079285,
-      "tldr": "Show HN: GlycemicGPT – open-source AI-powered diabetes management",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "91860d59-3169-4e9d-8cad-b7c981bc5259",
       "title": "Remove-AI-Watermarks – CLI and library for removing AI watermarks from images",
       "url": "https://github.com/wiltodelta/remove-ai-watermarks",
@@ -524,6 +509,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "2b98a2c1-6aeb-4859-a3ad-d529d970bc8a",
+      "title": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
+      "url": "https://arxiv.org/abs/2605.19269",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-22T04:54:33Z",
+      "category": "tech",
+      "score": 0.3400104791736975,
+      "tldr": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1414,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-22T03:30:42.06414373Z",
+  "last_updated": "2026-05-22T07:01:42.162003685Z",
   "total_count": 100
 }
