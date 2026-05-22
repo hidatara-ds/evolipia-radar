@@ -540,35 +540,6 @@
       ]
     },
     {
-      "id": "0be73b61-2047-4711-95f7-bc22fa581600",
-      "title": "OpenAI is connecting ChatGPT to bank accounts via Plaid",
-      "url": "https://firethering.com/chatgpt-bank-account-plaid-openai",
-      "domain": "firethering.com",
-      "published_at": "2026-05-15T16:38:50Z",
-      "category": "tech",
-      "score": 0.32561326217022735,
-      "tldr": "OpenAI is connecting ChatGPT to bank accounts via Plaid",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "7ab98b13-2ad0-49e3-8425-a368452f7295",
-      "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
-      "url": "https://github.com/oven-sh/bun/issues/30719",
-      "domain": "github.com",
-      "published_at": "2026-05-15T16:51:25Z",
-      "category": "tech",
-      "score": 0.3240603292227556,
-      "tldr": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3771d8ea-fba5-4343-bb94-cb6d62fcf8aa",
       "title": "Gemini 3.5 Flash: frontier intelligence with action",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5",
@@ -1091,20 +1062,6 @@
       ]
     },
     {
-      "id": "8ff1f34a-8353-4e23-ac18-f4a1b9443d58",
-      "title": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
-      "url": "https://github.com/gdevic/FPGA-Calculator",
-      "domain": "github.com",
-      "published_at": "2026-05-15T17:15:58Z",
-      "category": "tech",
-      "score": 0.2647947764474325,
-      "tldr": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "656d214b-2271-4128-b018-184763de6f3c",
       "title": "Gentoo News: Copy Fail, Dirty Frag, and Fragnesia Kernel Vulnerabilities",
       "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
@@ -1155,20 +1112,6 @@
       "category": "tech",
       "score": 0.2634516609163415,
       "tldr": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "faee65cf-c9ae-4c85-9d9b-668629a569d0",
-      "title": "Show HN: Burn, baby, burn (those tokens)",
-      "url": "https://github.com/dtnewman/burn-baby-burn",
-      "domain": "github.com",
-      "published_at": "2026-05-15T17:20:26Z",
-      "category": "tech",
-      "score": 0.26264359619597033,
-      "tldr": "Show HN: Burn, baby, burn (those tokens)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,8 +1354,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e9c22c9f-6fbf-42cb-a6e3-da2ac31b13bb",
+      "title": "Photo GIMP – A Patch for GIMP 3 for Photoshop Users",
+      "url": "https://github.com/Diolinux/PhotoGIMP",
+      "domain": "github.com",
+      "published_at": "2026-05-17T11:18:44Z",
+      "category": "tech",
+      "score": 0.25722185070316833,
+      "tldr": "Photo GIMP – A Patch for GIMP 3 for Photoshop Users",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0f578f5d-cf19-4007-9164-c9606470f1ec",
+      "title": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
+      "url": "https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods",
+      "domain": "techcrunch.com",
+      "published_at": "2026-05-21T16:30:47Z",
+      "category": "tech",
+      "score": 0.2566765923915766,
+      "tldr": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1f92c80c-ea8e-455c-9c76-cfa39cc14037",
+      "title": "You can access Gemini chat history without unlocking your phone with Android 16",
+      "url": "https://old.reddit.com/r/androiddev/comments/1tihs3s/google_is_not_going_to_fix_this_if_you_see_a",
+      "domain": "old.reddit.com",
+      "published_at": "2026-05-20T12:21:58Z",
+      "category": "tech",
+      "score": 0.25580522222075747,
+      "tldr": "You can access Gemini chat history without unlocking your phone with Android 16",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "093593a9-737a-47f6-b29f-86a6eca27b2e",
+      "title": "Actually, democracy dies in H.R.",
+      "url": "https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-05-18T14:04:26Z",
+      "category": "tech",
+      "score": 0.2556605021072311,
+      "tldr": "Actually, democracy dies in H.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-22T15:45:37.897092532Z",
+  "last_updated": "2026-05-22T17:44:38.567174056Z",
   "total_count": 100
 }
