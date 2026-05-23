@@ -685,21 +685,6 @@
       ]
     },
     {
-      "id": "cefa4ca8-6c49-4e7b-aa80-b09266dc30e8",
-      "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
-      "url": "https://www.seangoedecke.com/steering-vectors",
-      "domain": "seangoedecke.com",
-      "published_at": "2026-05-16T14:58:16Z",
-      "category": "tech",
-      "score": 0.3028898920570537,
-      "tldr": "DeepSeek-V4-Flash means LLM steering is interesting again",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "general_ai"
-      ]
-    },
-    {
       "id": "6aa88aaf-cce9-48fc-8b92-b5b9db3cc554",
       "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
       "url": "https://modelrift.com/blog/openscad-llm-benchmark",
@@ -849,20 +834,6 @@
       "category": "tech",
       "score": 0.27614992723201015,
       "tldr": "US employers spend more than $1. 5B a year to fight labor unions, report finds",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4e5d3db2-c750-4d2a-903b-f6abfbbcdaf4",
-      "title": "Accelerate – Embedded language for high-performance array computations",
-      "url": "https://github.com/AccelerateHS/accelerate",
-      "domain": "github.com",
-      "published_at": "2026-05-16T13:42:34Z",
-      "category": "tech",
-      "score": 0.27546788351270585,
-      "tldr": "Accelerate – Embedded language for high-performance array computations",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1413,8 +1384,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c4062e65-e643-4a48-9392-bdc58b753eee",
+      "title": "Show HN: CPU-only transcription for YouTube, TikTok, X, Instagram videos",
+      "url": "https://github.com/kouhxp/yapsnap",
+      "domain": "github.com",
+      "published_at": "2026-05-20T21:28:28Z",
+      "category": "tech",
+      "score": 0.25462978145518095,
+      "tldr": "Show HN: CPU-only transcription for YouTube, TikTok, X, Instagram videos",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "76985e2e-db05-409b-bd36-1aa321fe1637",
+      "title": "Agentic Trading with Safe Guardrails",
+      "url": "https://github.com/ShurikenTrade/shuriken-skills",
+      "domain": "github.com",
+      "published_at": "2026-05-17T12:44:24Z",
+      "category": "tech",
+      "score": 0.2544240210254491,
+      "tldr": "Agentic Trading with Safe Guardrails",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-23T12:56:55.416457691Z",
+  "last_updated": "2026-05-23T15:38:17.980265108Z",
   "total_count": 100
 }
