@@ -796,20 +796,6 @@
       ]
     },
     {
-      "id": "5e9ff2d1-8193-415d-aebd-85c30ef66ecb",
-      "title": "Design posters showcasing your country's electrical grid",
-      "url": "https://github.com/open-energy-transition/grid2poster",
-      "domain": "github.com",
-      "published_at": "2026-05-17T22:47:05Z",
-      "category": "tech",
-      "score": 0.27477769700302895,
-      "tldr": "Design posters showcasing your country's electrical grid",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "26c686e9-c2e8-488c-b2dc-4b61ef574aad",
       "title": "Google changes its search box",
       "url": "https://blog.google/products-and-platforms/products/search/search-io-2026",
@@ -1410,8 +1396,23 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "82076209-24cc-4c1c-913f-7999f159b6d7",
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "url": "https://github.com/anomalyco/models.dev",
+      "domain": "github.com",
+      "published_at": "2026-05-22T20:26:07Z",
+      "category": "tech",
+      "score": 0.25336406460709116,
+      "tldr": "dev: open-source database of AI model specs, pricing, and capabilities",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data",
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-24T22:28:33.347324015Z",
+  "last_updated": "2026-05-24T23:32:40.933476415Z",
   "total_count": 100
 }
