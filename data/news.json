@@ -72,6 +72,21 @@
       ]
     },
     {
+      "id": "7f883a0b-35ce-4355-8ff4-b12c2b90c142",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-24T12:55:53Z",
+      "category": "tech",
+      "score": 0.45373688715597105,
+      "tldr": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "73af1790-c89b-439e-9d0a-650904e6a22f",
       "title": "Meta blocks human rights accounts from reaching audiences in Arabia and the UAE",
       "url": "https://www.alqst.org/ar/posts/1190",
@@ -964,20 +979,6 @@
       ]
     },
     {
-      "id": "d6197682-5d97-467d-b120-3c50333db2fe",
-      "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
-      "url": "https://github.com/tech4bot/rk3562deb",
-      "domain": "github.com",
-      "published_at": "2026-05-17T13:16:27Z",
-      "category": "tech",
-      "score": 0.26531903287589864,
-      "tldr": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "80ef6656-480c-45fe-9202-4b0d3f7031bc",
       "title": "Iowa to mandate students take Intellectual Freedom classes amid low enrollment",
       "url": "https://www.kcrg.com/2026/05/20/iowa-lawmakers-move-mandate-students-take-center-intellectual-freedom-classes-amid-low-enrollment",
@@ -1412,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-24T13:09:49.914532931Z",
+  "last_updated": "2026-05-24T14:47:09.293021653Z",
   "total_count": 100
 }
