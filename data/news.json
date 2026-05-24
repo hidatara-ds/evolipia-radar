@@ -1258,20 +1258,6 @@
       ]
     },
     {
-      "id": "95f71781-8f52-4912-8ba8-bfa30137c13f",
-      "title": "CUDA Books",
-      "url": "https://github.com/alternbits/awesome-cuda-books",
-      "domain": "github.com",
-      "published_at": "2026-05-17T12:52:06Z",
-      "category": "tech",
-      "score": 0.25759101290986564,
-      "tldr": "CUDA Books",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0f578f5d-cf19-4007-9164-c9606470f1ec",
       "title": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
       "url": "https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods",
@@ -1370,20 +1356,6 @@
       ]
     },
     {
-      "id": "76985e2e-db05-409b-bd36-1aa321fe1637",
-      "title": "Agentic Trading with Safe Guardrails",
-      "url": "https://github.com/ShurikenTrade/shuriken-skills",
-      "domain": "github.com",
-      "published_at": "2026-05-17T12:44:24Z",
-      "category": "tech",
-      "score": 0.2544240210254491,
-      "tldr": "Agentic Trading with Safe Guardrails",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d4ea90ca-6fd5-464c-a694-b1c138a22393",
       "title": "Show HN: Pg_deltax, Apache-licensed alternative to TimescaleDB",
       "url": "https://github.com/xataio/deltax",
@@ -1410,8 +1382,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "28aa49de-eed1-4c88-8a08-30959d01c1c9",
+      "title": "Local LLMs perform better when you teach them to ask before they answer",
+      "url": "https://www.xda-developers.com/local-llm-clarifying-questions-system-prompt",
+      "domain": "xda-developers.com",
+      "published_at": "2026-05-24T06:40:34Z",
+      "category": "tech",
+      "score": 0.2539615281756904,
+      "tldr": "Local LLMs perform better when you teach them to ask before they answer",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4ef3029f-8efa-4b1b-8a3f-cea828110958",
+      "title": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
+      "url": "https://github.com/harmont-dev/hsrs",
+      "domain": "github.com",
+      "published_at": "2026-05-19T04:06:09Z",
+      "category": "tech",
+      "score": 0.25394571174753044,
+      "tldr": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-24T11:58:04.846636149Z",
+  "last_updated": "2026-05-24T13:09:49.914532931Z",
   "total_count": 100
 }
