@@ -101,6 +101,20 @@
       ]
     },
     {
+      "id": "45babdbb-2596-4088-98b3-202286866d97",
+      "title": "Magnifica Humanitas",
+      "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+      "domain": "vatican.va",
+      "published_at": "2026-05-25T10:11:29Z",
+      "category": "tech",
+      "score": 0.4457447374827903,
+      "tldr": "Magnifica Humanitas",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cb87c8bc-e226-410d-970e-c73445b6d0c0",
       "title": "Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems",
       "url": "https://arxiv.org/abs/2605.22001",
@@ -894,20 +908,6 @@
       ]
     },
     {
-      "id": "3124e9ed-ea2e-4851-8d99-7e1258f18b2b",
-      "title": "Garry Tan, the CEO of YC, accused me of unethical reporting",
-      "url": "https://radleybalko.substack.com/p/truth-power-and-honest-journalism",
-      "domain": "radleybalko.substack.com",
-      "published_at": "2026-05-18T15:18:19Z",
-      "category": "tech",
-      "score": 0.2656605291975643,
-      "tldr": "Garry Tan, the CEO of YC, accused me of unethical reporting",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "80ef6656-480c-45fe-9202-4b0d3f7031bc",
       "title": "Iowa to mandate students take Intellectual Freedom classes amid low enrollment",
       "url": "https://www.kcrg.com/2026/05/20/iowa-lawmakers-move-mandate-students-take-center-intellectual-freedom-classes-amid-low-enrollment",
@@ -1020,20 +1020,6 @@
       ]
     },
     {
-      "id": "cf15874e-a020-4529-ace9-5c571c3aa350",
-      "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
-      "url": "https://archestra.ai/blog/only-responsible-ai",
-      "domain": "archestra.ai",
-      "published_at": "2026-05-18T15:24:19Z",
-      "category": "tech",
-      "score": 0.261055832175449,
-      "tldr": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f3a6f64c-b593-4c12-ae56-b700ff9bed71",
       "title": "Show HN: Lance – image/video generation and understanding in one model",
       "url": "https://github.com/bytedance/Lance",
@@ -1071,20 +1057,6 @@
       "score": 0.26079005472141265,
       "tldr": "Launch HN: Superset (YC P26) – IDE for the agents era",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fc9699b8-59b8-463c-869e-788afd699566",
-      "title": "The Rage of the Billionaires Is Coming",
-      "url": "https://www.thebignewsletter.com/p/monopoly-round-up-the-rage-of-the",
-      "domain": "thebignewsletter.com",
-      "published_at": "2026-05-18T14:31:01Z",
-      "category": "tech",
-      "score": 0.2600654015658683,
-      "tldr": "The Rage of the Billionaires Is Coming",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1286,20 +1258,6 @@
       ]
     },
     {
-      "id": "f16b3c55-3341-4471-91a1-84f22799cbef",
-      "title": "Show HN: InsForge – Open-source Heroku for coding agents",
-      "url": "https://github.com/InsForge/InsForge",
-      "domain": "github.com",
-      "published_at": "2026-05-18T15:40:42Z",
-      "category": "tech",
-      "score": 0.2536191254155208,
-      "tldr": "Show HN: InsForge – Open-source Heroku for coding agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f3f802af-369d-401d-a145-13abea950545",
       "title": "Stable Audio 3",
       "url": "https://arxiv.org/abs/2605.17991",
@@ -1411,8 +1369,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a81ab464-05d2-4240-bcdc-3ec5befb0bcc",
+      "title": "Show HN: I built a RAG and knowledge graph agent that runs locally",
+      "url": "https://news.ycombinator.com/item?id=48248801",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-05-23T16:06:25Z",
+      "category": "tech",
+      "score": 0.2529152299835561,
+      "tldr": "Show HN: I built a RAG and knowledge graph agent that runs locally",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "82f5b03e-79d0-4a72-aa2f-7abfe97099c2",
+      "title": "Gemini CLI will stop working from June 18, 2026",
+      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli",
+      "domain": "developers.googleblog.com",
+      "published_at": "2026-05-19T18:03:10Z",
+      "category": "tech",
+      "score": 0.25283561694832907,
+      "tldr": "Gemini CLI will stop working from June 18, 2026",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "09a25d1b-cdda-4ea4-bad3-fa286cf01e08",
+      "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+      "url": "https://github.com/mupt-ai/dari-docs",
+      "domain": "github.com",
+      "published_at": "2026-05-20T16:53:07Z",
+      "category": "tech",
+      "score": 0.2526603999761216,
+      "tldr": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-25T14:20:12.623232966Z",
+  "last_updated": "2026-05-25T16:37:22.144736885Z",
   "total_count": 100
 }
