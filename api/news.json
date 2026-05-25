@@ -950,20 +950,6 @@
       ]
     },
     {
-      "id": "4686f227-5ea0-4ebb-a4fb-bcbeb7e61f50",
-      "title": "Click (2016)",
-      "url": "https://clickclickclick.click/",
-      "domain": "clickclickclick.click",
-      "published_at": "2026-05-18T23:03:02Z",
-      "category": "tech",
-      "score": 0.26482506287213126,
-      "tldr": "Click (2016)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "656d214b-2271-4128-b018-184763de6f3c",
       "title": "Gentoo News: Copy Fail, Dirty Frag, and Fragnesia Kernel Vulnerabilities",
       "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
@@ -973,20 +959,6 @@
       "score": 0.264439936792408,
       "tldr": "Gentoo News: Copy Fail, Dirty Frag, and Fragnesia Kernel Vulnerabilities",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f6653d14-fcac-4d3f-959b-8bcd182c739e",
-      "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
-      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
-      "domain": "vaticannews.va",
-      "published_at": "2026-05-18T23:18:10Z",
-      "category": "tech",
-      "score": 0.2642551172101749,
-      "tldr": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1230,6 +1202,20 @@
       ]
     },
     {
+      "id": "c596a8fe-833c-495c-a82a-a51467d798ce",
+      "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+      "url": "https://github.com/tantara/openbrief",
+      "domain": "github.com",
+      "published_at": "2026-05-25T21:50:03Z",
+      "category": "tech",
+      "score": 0.25428352123317377,
+      "tldr": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d4ea90ca-6fd5-464c-a694-b1c138a22393",
       "title": "Show HN: Pg_deltax, Apache-licensed alternative to TimescaleDB",
       "url": "https://github.com/xataio/deltax",
@@ -1411,8 +1397,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "82f5b03e-79d0-4a72-aa2f-7abfe97099c2",
+      "title": "Gemini CLI will stop working from June 18, 2026",
+      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli",
+      "domain": "developers.googleblog.com",
+      "published_at": "2026-05-19T18:03:10Z",
+      "category": "tech",
+      "score": 0.25283561694832907,
+      "tldr": "Gemini CLI will stop working from June 18, 2026",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-05-25T22:51:16.524771653Z",
+  "last_updated": "2026-05-25T23:55:46.733984091Z",
   "total_count": 100
 }
