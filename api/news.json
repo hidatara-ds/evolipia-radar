@@ -372,21 +372,6 @@
       ]
     },
     {
-      "id": "2d0483da-3527-4a95-8877-728fa1b09181",
-      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai",
-      "domain": "techcrunch.com",
-      "published_at": "2026-05-18T17:38:22Z",
-      "category": "tech",
-      "score": 0.34774699762128986,
-      "tldr": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud",
-        "general_ai"
-      ]
-    },
-    {
       "id": "a621d4c5-2e8b-4259-b90b-03d6dadf3f30",
       "title": "Gemini Omni",
       "url": "https://deepmind.google/models/gemini-omni",
@@ -663,6 +648,20 @@
       "category": "tech",
       "score": 0.29926800163773426,
       "tldr": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "60cf6a63-75bb-4e40-82cd-770c0aa79295",
+      "title": "CPPL: A Circuit Prompt Programming Language",
+      "url": "https://arxiv.org/abs/2605.17892",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-21T11:50:56Z",
+      "category": "tech",
+      "score": 0.29769884958474596,
+      "tldr": "CPPL: A Circuit Prompt Programming Language",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1104,20 +1103,6 @@
       ]
     },
     {
-      "id": "aa4e436f-6f0b-453c-b50d-16939a561177",
-      "title": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
-      "url": "https://modal.com/blog/truly-serverless-gpus",
-      "domain": "modal.com",
-      "published_at": "2026-05-18T17:56:26Z",
-      "category": "tech",
-      "score": 0.25823857249299575,
-      "tldr": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "919d3601-8d9e-4537-9ed0-4781a161146e",
       "title": "Remove AI Watermarks",
       "url": "https://github.com/wiltodelta/remove-ai-watermarks",
@@ -1126,6 +1111,20 @@
       "category": "tech",
       "score": 0.25794990711130905,
       "tldr": "Remove AI Watermarks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8b52e6ba-2a17-46d9-86b1-b94bd433e3c9",
+      "title": "Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing",
+      "url": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
+      "domain": "businessinsider.com",
+      "published_at": "2026-05-25T16:44:49Z",
+      "category": "tech",
+      "score": 0.25711662206634467,
+      "tldr": "Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1413,6 +1412,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-25T16:37:22.144736885Z",
+  "last_updated": "2026-05-25T18:21:24.095577563Z",
   "total_count": 100
 }
