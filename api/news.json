@@ -387,20 +387,6 @@
       ]
     },
     {
-      "id": "8ac55cf9-8e54-435d-bcf4-e455e4e6a7e6",
-      "title": "Eric Schmidt speech about AI booed during graduation",
-      "url": "https://www.nbcnews.com/tech/tech-news/former-google-ceo-booed-graduation-speech-ai-rcna345585",
-      "domain": "nbcnews.com",
-      "published_at": "2026-05-18T10:50:25Z",
-      "category": "tech",
-      "score": 0.34412795767647464,
-      "tldr": "Eric Schmidt speech about AI booed during graduation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a621d4c5-2e8b-4259-b90b-03d6dadf3f30",
       "title": "Gemini Omni",
       "url": "https://deepmind.google/models/gemini-omni",
@@ -1410,8 +1396,23 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "82076209-24cc-4c1c-913f-7999f159b6d7",
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "url": "https://github.com/anomalyco/models.dev",
+      "domain": "github.com",
+      "published_at": "2026-05-22T20:26:07Z",
+      "category": "tech",
+      "score": 0.25336406460709116,
+      "tldr": "dev: open-source database of AI model specs, pricing, and capabilities",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data",
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-25T06:51:36.898033358Z",
+  "last_updated": "2026-05-25T11:03:56.633867048Z",
   "total_count": 100
 }
