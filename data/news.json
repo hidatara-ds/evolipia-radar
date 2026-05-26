@@ -216,6 +216,20 @@
       ]
     },
     {
+      "id": "46bfc0cc-9a22-45b7-b9f3-46290d553580",
+      "title": "Show HN: NeuroFlow 55.8x video inference speedup for Vision Transformers PyTorch",
+      "url": "https://github.com/ynnk-research/-NeuroFlow",
+      "domain": "github.com",
+      "published_at": "2026-05-26T16:04:23Z",
+      "category": "tech",
+      "score": 0.3997350284449824,
+      "tldr": "Show HN: NeuroFlow 55. 8x video inference speedup for Vision Transformers PyTorch",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "d4971aca-93e3-4236-8493-d600fc448307",
       "title": "Incident Report: Railway Blocked by Google Cloud (Resolved)",
       "url": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
@@ -254,20 +268,6 @@
       "category": "tech",
       "score": 0.3783228216855975,
       "tldr": "Shunning AI is the human choice",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "91860d59-3169-4e9d-8cad-b7c981bc5259",
-      "title": "Remove-AI-Watermarks – CLI and library for removing AI watermarks from images",
-      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
-      "domain": "github.com",
-      "published_at": "2026-05-19T22:30:31Z",
-      "category": "tech",
-      "score": 0.3740259839443546,
-      "tldr": "Remove-AI-Watermarks – CLI and library for removing AI watermarks from images",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -478,20 +478,6 @@
       "category": "tech",
       "score": 0.31157550916512633,
       "tldr": "Search engines alternatives now that Google isn't Google anymore",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e651fc7a-193d-4e4c-9ba5-e211896a2fdb",
-      "title": "Remove–AI–Watermarks – CLI and library for removing AI watermarks from images",
-      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
-      "domain": "github.com",
-      "published_at": "2026-05-19T22:30:31Z",
-      "category": "tech",
-      "score": 0.311137261509794,
-      "tldr": "Remove–AI–Watermarks – CLI and library for removing AI watermarks from images",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -931,20 +917,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "919d3601-8d9e-4537-9ed0-4781a161146e",
-      "title": "Remove AI Watermarks",
-      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
-      "domain": "github.com",
-      "published_at": "2026-05-19T22:30:31Z",
-      "category": "tech",
-      "score": 0.25794990711130905,
-      "tldr": "Remove AI Watermarks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1410,8 +1382,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "295544e5-c546-4895-9b3c-402aa2606fae",
+      "title": "NeuralNote",
+      "url": "https://github.com/DamRsn/NeuralNote",
+      "domain": "github.com",
+      "published_at": "2026-05-23T18:51:01Z",
+      "category": "tech",
+      "score": 0.2511019006689653,
+      "tldr": "NeuralNote",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "86c67f36-0b78-42e0-ab1a-6867a42efa15",
+      "title": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
+      "url": "https://github.com/Alcray/SlopeAutoAcceptor",
+      "domain": "github.com",
+      "published_at": "2026-05-26T20:45:37Z",
+      "category": "tech",
+      "score": 0.25072559579547465,
+      "tldr": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-26T21:27:40.370880379Z",
+  "last_updated": "2026-05-26T22:46:41.081855481Z",
   "total_count": 100
 }
