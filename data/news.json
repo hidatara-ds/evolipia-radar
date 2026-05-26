@@ -173,6 +173,20 @@
       ]
     },
     {
+      "id": "81c41fae-aaab-4b24-881e-e0cd0f3ff611",
+      "title": "A sleep-like consolidation mechanism for LLMs",
+      "url": "https://arxiv.org/abs/2605.26099",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-26T15:36:24Z",
+      "category": "tech",
+      "score": 0.408537802354325,
+      "tldr": "A sleep-like consolidation mechanism for LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8d9d81f4-d964-4a0c-ba79-d846d5ba73f6",
       "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
       "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
@@ -822,20 +836,6 @@
       ]
     },
     {
-      "id": "3ac58555-51ae-47ad-9946-cd44274b881c",
-      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
-      "url": "https://openai.com/index/advancing-content-provenance",
-      "domain": "openai.com",
-      "published_at": "2026-05-19T19:34:30Z",
-      "category": "tech",
-      "score": 0.2612376667267444,
-      "tldr": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f3a6f64c-b593-4c12-ae56-b700ff9bed71",
       "title": "Show HN: Lance – image/video generation and understanding in one model",
       "url": "https://github.com/bytedance/Lance",
@@ -1299,6 +1299,20 @@
       ]
     },
     {
+      "id": "8df9c2ed-b000-4011-877a-b7c65725b0db",
+      "title": "AltTab.app makes free features paid, drops old releases",
+      "url": "https://github.com/lwouis/alt-tab-macos/discussions/5533",
+      "domain": "github.com",
+      "published_at": "2026-05-26T18:01:35Z",
+      "category": "tech",
+      "score": 0.25235726584906587,
+      "tldr": "app makes free features paid, drops old releases",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b5ad10af-14d0-44d7-8a84-ec8ca0e8d541",
       "title": "Amazon, Facebook, FBI have access to a private intelligence-sharing network",
       "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance",
@@ -1324,20 +1338,6 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "security",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8220699d-f888-48ef-9a7f-75689a1d118c",
-      "title": "Raven Software's Jedi Academy sources, from 2013, had all the crunch rage intact",
-      "url": "https://old.reddit.com/r/programming/comments/1thewau/raven_software_released_the_jedi_academy_source",
-      "domain": "old.reddit.com",
-      "published_at": "2026-05-19T21:15:03Z",
-      "category": "tech",
-      "score": 0.25188293966756625,
-      "tldr": "Raven Software's Jedi Academy sources, from 2013, had all the crunch rage intact",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
         "general_ai"
       ]
     },
@@ -1370,20 +1370,6 @@
       ]
     },
     {
-      "id": "9374d046-63ac-4280-9d2e-2290addf452c",
-      "title": "Crossview 4.4.0 is now available",
-      "url": "https://github.com/crossplane-contrib/crossview",
-      "domain": "github.com",
-      "published_at": "2026-05-19T19:35:11Z",
-      "category": "tech",
-      "score": 0.2517258286064388,
-      "tldr": "Crossview 4.4.0 is now available",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c8930300-87a0-401e-8788-afac66c24437",
       "title": "Show HN: Fungible – A local personal finance app in the terminal",
       "url": "https://github.com/tomfunk/fungible",
@@ -1410,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ab5a6e31-f37a-42b8-98aa-32b8da6bd958",
+      "title": "You Can Start Building LLM Skills Before You Know the Whole Shape",
+      "url": "https://sosuke.com/you-can-start-building-llm-skills-before-you-know-the-whole-shape",
+      "domain": "sosuke.com",
+      "published_at": "2026-05-26T17:14:19Z",
+      "category": "tech",
+      "score": 0.2512715180132726,
+      "tldr": "You Can Start Building LLM Skills Before You Know the Whole Shape",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-05-26T19:32:23.773395287Z",
+  "last_updated": "2026-05-26T21:27:40.370880379Z",
   "total_count": 100
 }
