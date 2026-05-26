@@ -317,20 +317,6 @@
       ]
     },
     {
-      "id": "c8517d22-955e-479e-8bdb-b2f384c0f1e7",
-      "title": "The last six months in LLMs in five minutes",
-      "url": "https://simonwillison.net/2026/May/19/5-minute-llms",
-      "domain": "simonwillison.net",
-      "published_at": "2026-05-19T01:30:42Z",
-      "category": "tech",
-      "score": 0.3635596999756153,
-      "tldr": "The last six months in LLMs in five minutes",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "d59b2373-cf63-452f-bee3-1bfe389a303b",
       "title": "Flipper One – we need your help",
       "url": "https://blog.flipper.net/flipper-one-we-need-your-help",
@@ -796,20 +782,6 @@
       ]
     },
     {
-      "id": "1268835a-8423-44ce-bfbd-12290eeb182f",
-      "title": "What political censorship looks like inside an LLM's weights (Qwen 3.5)",
-      "url": "https://vas-blog.pages.dev/qwen-censorship",
-      "domain": "vas-blog.pages.dev",
-      "published_at": "2026-05-19T00:16:31Z",
-      "category": "tech",
-      "score": 0.2766233195605214,
-      "tldr": "What political censorship looks like inside an LLM's weights (Qwen 3.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "07387bf8-c9f5-417c-b621-b4ecceb7fd3f",
       "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
       "url": "https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions",
@@ -1216,6 +1188,34 @@
       ]
     },
     {
+      "id": "fbe524f3-5e03-4ba6-9b0e-85f4e8250ef1",
+      "title": "Cox Media fined after bragging it spied on users through their phones",
+      "url": "https://www.theverge.com/policy/937027/cox-media-marketing-ai-powered-phone-spying-ads-ftc-fine",
+      "domain": "theverge.com",
+      "published_at": "2026-05-25T23:10:05Z",
+      "category": "tech",
+      "score": 0.2542099075345932,
+      "tldr": "Cox Media fined after bragging it spied on users through their phones",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7684a599-507b-419b-b15c-170f3d3d5f58",
+      "title": "Performance of Rust Language [pdf]",
+      "url": "https://github.com/yugr/rust-slides",
+      "domain": "github.com",
+      "published_at": "2026-05-25T23:37:31Z",
+      "category": "tech",
+      "score": 0.2541704352495591,
+      "tldr": "Performance of Rust Language [pdf]",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d4ea90ca-6fd5-464c-a694-b1c138a22393",
       "title": "Show HN: Pg_deltax, Apache-licensed alternative to TimescaleDB",
       "url": "https://github.com/xataio/deltax",
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-25T23:55:46.733984091Z",
+  "last_updated": "2026-05-26T02:01:32.283277511Z",
   "total_count": 100
 }
