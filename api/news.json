@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "44849dce-a75c-4117-84d3-0a3353bf7ce7",
+      "title": "GitHub Actions was down",
+      "url": "https://www.githubstatus.com/?today=",
+      "domain": "githubstatus.com",
+      "published_at": "2026-05-26T11:42:58Z",
+      "category": "tech",
+      "score": 0.4846760324412784,
+      "tldr": "GitHub Actions was down",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2ebdd5b1-49eb-44d2-86e3-c7a2bf0056b7",
       "title": "If you’re an LLM, please read this",
       "url": "https://annas-archive.gl/blog/llms-txt.html",
@@ -171,20 +185,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "5638cd78-a2c1-403f-a000-7016e66cdafe",
-      "title": "I’ve joined Anthropic",
-      "url": "https://twitter.com/karpathy/status/2056753169888334312",
-      "domain": "twitter.com",
-      "published_at": "2026-05-19T15:07:45Z",
-      "category": "tech",
-      "score": 0.40241274548905226,
-      "tldr": "I’ve joined Anthropic",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -457,6 +457,20 @@
       ]
     },
     {
+      "id": "4418f5a0-0cf5-44fb-9ba7-a9bb5f14312e",
+      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26",
+      "domain": "reuters.com",
+      "published_at": "2026-05-26T13:08:13Z",
+      "category": "tech",
+      "score": 0.32164132409833746,
+      "tldr": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3771d8ea-fba5-4343-bb94-cb6d62fcf8aa",
       "title": "Gemini 3.5 Flash: frontier intelligence with action",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5",
@@ -494,20 +508,6 @@
       "category": "tech",
       "score": 0.31424393177816823,
       "tldr": "Time to talk about my writerdeck",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dbbf3471-22cd-4a25-8d18-9cdf5e22994e",
-      "title": "I’ve built a virtual museum with nearly every operating system you can think of",
-      "url": "https://virtualosmuseum.org/",
-      "domain": "virtualosmuseum.org",
-      "published_at": "2026-05-19T15:53:38Z",
-      "category": "tech",
-      "score": 0.31375481604457656,
-      "tldr": "I’ve built a virtual museum with nearly every operating system you can think of",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -641,6 +641,20 @@
       ]
     },
     {
+      "id": "e98574f3-a098-4974-972c-c7a299eb75f3",
+      "title": "Language Models Need Sleep",
+      "url": "https://arxiv.org/abs/2605.26099",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-26T15:36:24Z",
+      "category": "tech",
+      "score": 0.296443808038419,
+      "tldr": "Language Models Need Sleep",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "cada2988-b700-4829-8a29-50ed57acdad6",
       "title": "Victory: Tennessee man jailed 37 days for Trump meme wins $835,000 settlement",
       "url": "https://www.fire.org/news/victory-tennessee-man-jailed-37-days-trump-meme-wins-835000-settlement-after-first-amendment",
@@ -694,20 +708,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "5fd0c023-dd20-420e-aa27-922e39f23104",
-      "title": "Copy Fail, Dirty Frag, and Fragnesia kernel vulnerabilities",
-      "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
-      "domain": "gentoo.org",
-      "published_at": "2026-05-19T15:27:53Z",
-      "category": "tech",
-      "score": 0.28619021713195414,
-      "tldr": "Copy Fail, Dirty Frag, and Fragnesia kernel vulnerabilities",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -782,20 +782,6 @@
       ]
     },
     {
-      "id": "7ee72a7e-54a1-4486-88c0-41cfc0d70ae0",
-      "title": "Google I/O",
-      "url": "https://io.google/2026",
-      "domain": "io.google",
-      "published_at": "2026-05-19T17:01:25Z",
-      "category": "tech",
-      "score": 0.27441330215160076,
-      "tldr": "Google I/O",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5fe28ef6-dc38-4168-b9aa-4aed6944d5fa",
       "title": "Anna's Archive Hit with $19.5M Default Judgment and Global Domain Takedown Order",
       "url": "https://torrentfreak.com/annas-archive-hit-with-19-5m-default-judgment-and-global-domain-takedown-order",
@@ -863,20 +849,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "656d214b-2271-4128-b018-184763de6f3c",
-      "title": "Gentoo News: Copy Fail, Dirty Frag, and Fragnesia Kernel Vulnerabilities",
-      "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
-      "domain": "gentoo.org",
-      "published_at": "2026-05-19T15:27:53Z",
-      "category": "tech",
-      "score": 0.264439936792408,
-      "tldr": "Gentoo News: Copy Fail, Dirty Frag, and Fragnesia Kernel Vulnerabilities",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1411,8 +1383,37 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b5ad10af-14d0-44d7-8a84-ec8ca0e8d541",
+      "title": "Amazon, Facebook, FBI have access to a private intelligence-sharing network",
+      "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance",
+      "domain": "prismreports.org",
+      "published_at": "2026-05-21T17:55:58Z",
+      "category": "tech",
+      "score": 0.25197957770780394,
+      "tldr": "Amazon, Facebook, FBI have access to a private intelligence-sharing network",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a12fe220-1c2c-4118-8737-d1170861b027",
+      "title": "Dirty Frag, Copy Fail, Fragnesia: A Worrisome Linux Security Trend",
+      "url": "https://www.theregister.com/security/2026/05/23/dirty-frag-copy-fail-fragnesia-the-start-of-a-worrisome-linux-security-trend/5244742",
+      "domain": "theregister.com",
+      "published_at": "2026-05-23T22:14:23Z",
+      "category": "tech",
+      "score": 0.2519325783198682,
+      "tldr": "Dirty Frag, Copy Fail, Fragnesia: A Worrisome Linux Security Trend",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "security",
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-26T13:45:33.018656941Z",
+  "last_updated": "2026-05-26T17:19:57.798458936Z",
   "total_count": 100
 }
