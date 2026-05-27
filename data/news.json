@@ -454,6 +454,20 @@
       ]
     },
     {
+      "id": "40b09abe-0129-4ed9-ae43-4db908ed3671",
+      "title": "YouTube to automatically label AI-generated videos",
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators",
+      "domain": "blog.youtube",
+      "published_at": "2026-05-27T20:00:51Z",
+      "category": "tech",
+      "score": 0.30573911241844454,
+      "tldr": "YouTube to automatically label AI-generated videos",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1cbf772f-dd3f-46e3-a7fc-4fb9fa5dfe2f",
       "title": "Last.fm is now independent",
       "url": "https://support.last.fm/t/last-fm-is-now-independent/118591",
@@ -476,6 +490,20 @@
       "category": "tech",
       "score": 0.3001907343602541,
       "tldr": "Microsoft open-sources “the earliest DOS source code discovered to date”",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "82894f37-8e0a-423c-a119-9accc4ef0102",
+      "title": "Valve raises Steam Deck prices",
+      "url": "https://www.theverge.com/games/938340/valve-steam-deck-price-increase",
+      "domain": "theverge.com",
+      "published_at": "2026-05-27T17:58:47Z",
+      "category": "tech",
+      "score": 0.29995050771026605,
+      "tldr": "Valve raises Steam Deck prices",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -930,20 +958,6 @@
       ]
     },
     {
-      "id": "9a468654-439b-4634-9c76-51132a30e0bc",
-      "title": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
-      "url": "https://vmax.ai/team/populora-co-evolving-llm-populations-for-reasoning-self-play",
-      "domain": "vmax.ai",
-      "published_at": "2026-05-20T21:11:55Z",
-      "category": "tech",
-      "score": 0.25828564204251203,
-      "tldr": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7741cafc-6860-41da-91d3-b844c895e01b",
       "title": "AltTab is introducing a Pro version and staying open source",
       "url": "https://github.com/lwouis/alt-tab-macos/discussions/5533",
@@ -1000,20 +1014,6 @@
       ]
     },
     {
-      "id": "10c9c6af-7ca3-469a-b57d-72582f8016e9",
-      "title": "Declining America",
-      "url": "https://www.tbray.org/ongoing/When/202x/2026/05/19/Declining-America",
-      "domain": "tbray.org",
-      "published_at": "2026-05-20T20:58:09Z",
-      "category": "tech",
-      "score": 0.25549745999928125,
-      "tldr": "Declining America",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "01b2061e-a3e1-44d3-97c9-4167da328130",
       "title": "Corporations can vote in some Delaware elections, judge says",
       "url": "https://news.bloomberglaw.com/esg/corporations-have-the-right-to-vote-in-delaware-town-judge-says",
@@ -1022,20 +1022,6 @@
       "category": "tech",
       "score": 0.25536433878762116,
       "tldr": "Corporations can vote in some Delaware elections, judge says",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c4062e65-e643-4a48-9392-bdc58b753eee",
-      "title": "Show HN: CPU-only transcription for YouTube, TikTok, X, Instagram videos",
-      "url": "https://github.com/kouhxp/yapsnap",
-      "domain": "github.com",
-      "published_at": "2026-05-20T21:28:28Z",
-      "category": "tech",
-      "score": 0.25462978145518095,
-      "tldr": "Show HN: CPU-only transcription for YouTube, TikTok, X, Instagram videos",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1208,20 +1194,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "d1a52fd0-ddf2-4209-a3d2-e833d4b5cf8e",
-      "title": "GPU Memory Math for LLMs: Formula That Tells You What Fits on Your GPU",
-      "url": "https://theahmadosman.substack.com/p/gpu-memory-math-for-llms-2026-edition",
-      "domain": "theahmadosman.substack.com",
-      "published_at": "2026-05-20T21:02:11Z",
-      "category": "tech",
-      "score": 0.25328897449975285,
-      "tldr": "GPU Memory Math for LLMs: Formula That Tells You What Fits on Your GPU",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1406,8 +1378,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ab5a6e31-f37a-42b8-98aa-32b8da6bd958",
+      "title": "You Can Start Building LLM Skills Before You Know the Whole Shape",
+      "url": "https://sosuke.com/you-can-start-building-llm-skills-before-you-know-the-whole-shape",
+      "domain": "sosuke.com",
+      "published_at": "2026-05-26T17:14:19Z",
+      "category": "tech",
+      "score": 0.2512715180132726,
+      "tldr": "You Can Start Building LLM Skills Before You Know the Whole Shape",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "295544e5-c546-4895-9b3c-402aa2606fae",
+      "title": "NeuralNote",
+      "url": "https://github.com/DamRsn/NeuralNote",
+      "domain": "github.com",
+      "published_at": "2026-05-23T18:51:01Z",
+      "category": "tech",
+      "score": 0.2511019006689653,
+      "tldr": "NeuralNote",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-27T19:58:20.223580296Z",
+  "last_updated": "2026-05-27T21:47:54.264025803Z",
   "total_count": 100
 }
