@@ -230,36 +230,6 @@
       ]
     },
     {
-      "id": "d4971aca-93e3-4236-8493-d600fc448307",
-      "title": "Incident Report: Railway Blocked by Google Cloud (Resolved)",
-      "url": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
-      "domain": "blog.railway.com",
-      "published_at": "2026-05-20T00:23:54Z",
-      "category": "tech",
-      "score": 0.398086050889683,
-      "tldr": "Incident Report: Railway Blocked by Google Cloud (Resolved)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "cloud"
-      ]
-    },
-    {
-      "id": "bfd71908-584d-495d-80cf-223763a0c734",
-      "title": "Incident Report: Railway Blocked by Google Cloud [resolved]",
-      "url": "https://status.railway.com/incident/I23M92U0",
-      "domain": "status.railway.com",
-      "published_at": "2026-05-20T00:23:54Z",
-      "category": "tech",
-      "score": 0.383732156049326,
-      "tldr": "Incident Report: Railway Blocked by Google Cloud [resolved]",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "cloud"
-      ]
-    },
-    {
       "id": "0341b9ba-2f68-4945-bb9f-eab97a446f2f",
       "title": "Shunning AI is the human choice",
       "url": "https://www.thehandbasket.co/p/hating-ai-is-good-actually",
@@ -1410,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c598e6a7-94c1-4005-9043-a3c08273eb27",
+      "title": "WebAssembly 128-bit packed SIMD Extension",
+      "url": "https://github.com/WebAssembly/spec/blob/main/proposals/simd/SIMD.md",
+      "domain": "github.com",
+      "published_at": "2026-05-25T19:07:52Z",
+      "category": "tech",
+      "score": 0.2506317069261327,
+      "tldr": "WebAssembly 128-bit packed SIMD Extension",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2398b7df-54a6-47b5-a86a-3ba3e685ee74",
+      "title": "Project Hail Mary – Stellar Navigation Chart",
+      "url": "https://valhovey.github.io/gaia-mary",
+      "domain": "valhovey.github.io",
+      "published_at": "2026-05-21T16:23:11Z",
+      "category": "tech",
+      "score": 0.2505773006759016,
+      "tldr": "Project Hail Mary – Stellar Navigation Chart",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-26T23:56:41.017989761Z",
+  "last_updated": "2026-05-27T02:14:48.407993017Z",
   "total_count": 100
 }
