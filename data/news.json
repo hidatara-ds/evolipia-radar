@@ -159,6 +159,20 @@
       ]
     },
     {
+      "id": "5636d8f5-603e-4e43-b955-e66f883d610c",
+      "title": "Investigating how prompt politeness affects LLM accuracy (2025)",
+      "url": "https://arxiv.org/abs/2510.04950",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-26T07:43:22Z",
+      "category": "tech",
+      "score": 0.4008673090481451,
+      "tldr": "Investigating how prompt politeness affects LLM accuracy (2025)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "46bfc0cc-9a22-45b7-b9f3-46290d553580",
       "title": "Show HN: NeuroFlow 55.8x video inference speedup for Vision Transformers PyTorch",
       "url": "https://github.com/ynnk-research/-NeuroFlow",
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "86c67f36-0b78-42e0-ab1a-6867a42efa15",
-      "title": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
-      "url": "https://github.com/Alcray/SlopeAutoAcceptor",
-      "domain": "github.com",
-      "published_at": "2026-05-26T20:45:37Z",
-      "category": "tech",
-      "score": 0.25072559579547465,
-      "tldr": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-28T01:21:52.778320351Z",
+  "last_updated": "2026-05-28T05:40:31.473161302Z",
   "total_count": 100
 }
