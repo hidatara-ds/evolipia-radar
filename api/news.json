@@ -102,20 +102,6 @@
       ]
     },
     {
-      "id": "df73181d-173e-4c1d-8913-1003ca6b888a",
-      "title": "We're testing new ad formats in Search and expanding our Direct Offers pilot",
-      "url": "https://blog.google/products/ads-commerce/google-marketing-live-search-ads",
-      "domain": "blog.google",
-      "published_at": "2026-05-21T09:49:46Z",
-      "category": "tech",
-      "score": 0.4148212377264932,
-      "tldr": "We're testing new ad formats in Search and expanding our Direct Offers pilot",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "81c41fae-aaab-4b24-881e-e0cd0f3ff611",
       "title": "A sleep-like consolidation mechanism for LLMs",
       "url": "https://arxiv.org/abs/2605.26099",
@@ -215,20 +201,6 @@
       ]
     },
     {
-      "id": "d59b2373-cf63-452f-bee3-1bfe389a303b",
-      "title": "Flipper One – we need your help",
-      "url": "https://blog.flipper.net/flipper-one-we-need-your-help",
-      "domain": "blog.flipper.net",
-      "published_at": "2026-05-21T11:03:38Z",
-      "category": "tech",
-      "score": 0.3554851886052301,
-      "tldr": "Flipper One – we need your help",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f5d090f9-1930-4d6d-8974-4849960ade40",
       "title": "Gemini randomly dumped its system prompt",
       "url": "https://gist.github.com/mkaramuk/44a44d83178e632ec0dd1f02186d822c",
@@ -271,6 +243,21 @@
       ]
     },
     {
+      "id": "4b849d40-0de7-4d62-bf8c-e54e74e3a4c3",
+      "title": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
+      "url": "https://lenz.io/research/llm-disagreement",
+      "domain": "lenz.io",
+      "published_at": "2026-05-28T12:20:19Z",
+      "category": "tech",
+      "score": 0.3375560314321162,
+      "tldr": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "21e24a9f-ec57-40d9-bbc6-481a64f3ca9e",
       "title": "GitHub Actions down again today",
       "url": "https://www.githubstatus.com/?today=",
@@ -279,20 +266,6 @@
       "category": "tech",
       "score": 0.3370073283872678,
       "tldr": "GitHub Actions down again today",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dfb3885c-cfbd-4c6d-9957-b2d53b11c5c5",
-      "title": "Google officially announces that ads will be included in AI Mode search results",
-      "url": "https://blog.google/products/ads-commerce/google-marketing-live-search-ads",
-      "domain": "blog.google",
-      "published_at": "2026-05-21T09:49:46Z",
-      "category": "tech",
-      "score": 0.3363789764775582,
-      "tldr": "Google officially announces that ads will be included in AI Mode search results",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -504,20 +477,6 @@
       "category": "tech",
       "score": 0.29926800163773426,
       "tldr": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "60cf6a63-75bb-4e40-82cd-770c0aa79295",
-      "title": "CPPL: A Circuit Prompt Programming Language",
-      "url": "https://arxiv.org/abs/2605.17892",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-21T11:50:56Z",
-      "category": "tech",
-      "score": 0.29769884958474596,
-      "tldr": "CPPL: A Circuit Prompt Programming Language",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1365,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "3a8f319e-15ac-42eb-83a9-08f98fd2e411",
+      "title": "Show HN: Volt – front end tooling for Phoenix that runs inside the BEAM",
+      "url": "https://github.com/elixir-volt/volt",
+      "domain": "github.com",
+      "published_at": "2026-05-25T13:38:50Z",
+      "category": "tech",
+      "score": 0.25057560197889356,
+      "tldr": "Show HN: Volt – front end tooling for Phoenix that runs inside the BEAM",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a5b259de-572f-4fb2-8e4a-681e24646892",
+      "title": "MLX Vulkan Back End",
+      "url": "https://github.com/goniz/mlx-vulkan",
+      "domain": "github.com",
+      "published_at": "2026-05-21T13:43:07Z",
+      "category": "tech",
+      "score": 0.2504798762715221,
+      "tldr": "MLX Vulkan Back End",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7a62fec6-9e7f-44a2-b717-91753156b283",
+      "title": "DashAttention: Differentiable and Adaptable Sparse Hierarchical Attention",
+      "url": "https://arxiv.org/abs/2605.18753",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-21T17:24:52Z",
+      "category": "tech",
+      "score": 0.2504673750201777,
+      "tldr": "DashAttention: Differentiable and Adaptable Sparse Hierarchical Attention",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-28T09:42:40.128546722Z",
+  "last_updated": "2026-05-28T13:01:25.737009178Z",
   "total_count": 100
 }
