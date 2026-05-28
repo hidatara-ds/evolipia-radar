@@ -201,20 +201,6 @@
       ]
     },
     {
-      "id": "f8206119-3b3f-4ced-9e2a-9734548a1c0c",
-      "title": "Throwing AI-generated walls of text into conversations",
-      "url": "https://noslopgrenade.com/",
-      "domain": "noslopgrenade.com",
-      "published_at": "2026-05-21T09:31:15Z",
-      "category": "tech",
-      "score": 0.3660619101071982,
-      "tldr": "Throwing AI-generated walls of text into conversations",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9b6f98ad-1c6d-4f5f-9256-1438f6c43ea3",
       "title": "GPT Guesses Between 1 and 100",
       "url": "https://github.com/exmergo/research-chatgpt-guesses-between-1-and-100",
@@ -282,20 +268,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "e1e5e97e-ecef-4dd9-9252-643e5583acf0",
-      "title": "Stop throwing AI-generated walls of text into conversations",
-      "url": "https://noslopgrenade.com/",
-      "domain": "noslopgrenade.com",
-      "published_at": "2026-05-21T09:31:15Z",
-      "category": "tech",
-      "score": 0.33942355954539855,
-      "tldr": "Stop throwing AI-generated walls of text into conversations",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -804,20 +776,6 @@
       ]
     },
     {
-      "id": "45e811df-aca3-41dc-8cd1-d3ee9783acb8",
-      "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
-      "url": "https://github.com/helvesec/rmux",
-      "domain": "github.com",
-      "published_at": "2026-05-21T09:22:00Z",
-      "category": "tech",
-      "score": 0.2634516609163415,
-      "tldr": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "798d77b9-c2a5-41d1-be6f-ba56b1022dcc",
       "title": "Training our own AI models",
       "url": "https://posthog.com/blog/training-ai-models",
@@ -916,20 +874,6 @@
       ]
     },
     {
-      "id": "7026c962-ee02-42d4-9fd3-20e3da854c9a",
-      "title": "The famous O3 \"GeoGuessr\" prompt did not work",
-      "url": "https://www.seangoedecke.com/the-o3-geoguessr-prompt-did-not-work",
-      "domain": "seangoedecke.com",
-      "published_at": "2026-05-21T08:52:45Z",
-      "category": "tech",
-      "score": 0.2595660399136353,
-      "tldr": "The famous O3 \"GeoGuessr\" prompt did not work",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "96064a09-de12-4765-ab58-ad708fb8e9bf",
       "title": "Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team",
       "url": "https://vllm.ai/blog/2026-05-26-eagle-3-1",
@@ -952,6 +896,20 @@
       "category": "tech",
       "score": 0.2580718991461821,
       "tldr": "AltTab is introducing a Pro version and staying open source",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "82b4c1ba-e7e6-4012-914b-99506bb5472c",
+      "title": "Biff is a command line datetime Swiss army knife",
+      "url": "https://github.com/BurntSushi/biff",
+      "domain": "github.com",
+      "published_at": "2026-05-28T02:58:44Z",
+      "category": "tech",
+      "score": 0.2577582566737759,
+      "tldr": "Biff is a command line datetime Swiss army knife",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1364,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "86c67f36-0b78-42e0-ab1a-6867a42efa15",
+      "title": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
+      "url": "https://github.com/Alcray/SlopeAutoAcceptor",
+      "domain": "github.com",
+      "published_at": "2026-05-26T20:45:37Z",
+      "category": "tech",
+      "score": 0.25072559579547465,
+      "tldr": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c598e6a7-94c1-4005-9043-a3c08273eb27",
+      "title": "WebAssembly 128-bit packed SIMD Extension",
+      "url": "https://github.com/WebAssembly/spec/blob/main/proposals/simd/SIMD.md",
+      "domain": "github.com",
+      "published_at": "2026-05-25T19:07:52Z",
+      "category": "tech",
+      "score": 0.2506317069261327,
+      "tldr": "WebAssembly 128-bit packed SIMD Extension",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2398b7df-54a6-47b5-a86a-3ba3e685ee74",
+      "title": "Project Hail Mary – Stellar Navigation Chart",
+      "url": "https://valhovey.github.io/gaia-mary",
+      "domain": "valhovey.github.io",
+      "published_at": "2026-05-21T16:23:11Z",
+      "category": "tech",
+      "score": 0.2505773006759016,
+      "tldr": "Project Hail Mary – Stellar Navigation Chart",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-28T05:40:31.473161302Z",
+  "last_updated": "2026-05-28T09:42:40.128546722Z",
   "total_count": 100
 }
