@@ -131,20 +131,6 @@
       ]
     },
     {
-      "id": "70698f7b-476a-418a-8ce2-4a64449689b4",
-      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
-      "url": "https://arxiv.org/abs/2605.12460",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-21T19:37:26Z",
-      "category": "tech",
-      "score": 0.40213941788491964,
-      "tldr": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "5636d8f5-603e-4e43-b955-e66f883d610c",
       "title": "Investigating how prompt politeness affects LLM accuracy (2025)",
       "url": "https://arxiv.org/abs/2510.04950",
@@ -252,6 +238,20 @@
       "category": "tech",
       "score": 0.3370073283872678,
       "tldr": "GitHub Actions down again today",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b5be9eab-67ea-4a28-be8c-aea08b045734",
+      "title": "Bricks and Minifigs Stole a Man's $200k Lego Collection",
+      "url": "https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection",
+      "domain": "mybricklog.com",
+      "published_at": "2026-05-28T19:24:09Z",
+      "category": "tech",
+      "score": 0.3351580484097695,
+      "tldr": "Bricks and Minifigs Stole a Man's $200k Lego Collection",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -536,6 +536,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "d66f6b5f-eb4e-4f50-8f6c-0af0b01d3664",
+      "title": "Various LLM Smells",
+      "url": "https://shvbsle.in/various-llm-smells",
+      "domain": "shvbsle.in",
+      "published_at": "2026-05-28T19:02:18Z",
+      "category": "tech",
+      "score": 0.2903441050332351,
+      "tldr": "Various LLM Smells",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1085,20 +1099,6 @@
       ]
     },
     {
-      "id": "23e6935a-9f1f-4f45-8b5e-ded2ddecabdd",
-      "title": "Show HN: Open-source .docx editor library for building document apps",
-      "url": "https://github.com/eigenpal/docx-editor",
-      "domain": "github.com",
-      "published_at": "2026-05-21T20:23:37Z",
-      "category": "tech",
-      "score": 0.2534748903583109,
-      "tldr": "Show HN: Open-source . docx editor library for building document apps",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bee53478-9be6-40ad-9c49-88602ff15614",
       "title": "Thinking in an array language (2022)",
       "url": "https://github.com/razetime/ngn-k-tutorial/blob/main/12-thinking-in-k.md",
@@ -1353,6 +1353,20 @@
       ]
     },
     {
+      "id": "50065a74-cf61-4ea1-b118-34da80d0cbb4",
+      "title": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
+      "url": "https://github.com/enumura1/py-sql-cleaner",
+      "domain": "github.com",
+      "published_at": "2026-05-28T17:30:29Z",
+      "category": "tech",
+      "score": 0.25085057675799904,
+      "tldr": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "86c67f36-0b78-42e0-ab1a-6867a42efa15",
       "title": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
       "url": "https://github.com/Alcray/SlopeAutoAcceptor",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8aadd08d-cadd-4894-b220-82963be6c592",
-      "title": "Awesome Neuroscience",
-      "url": "https://github.com/analyticalmonk/awesome-neuroscience",
-      "domain": "github.com",
-      "published_at": "2026-05-23T12:41:09Z",
-      "category": "tech",
-      "score": 0.2501864051286625,
-      "tldr": "Awesome Neuroscience",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-28T19:33:39.869006733Z",
+  "last_updated": "2026-05-28T21:50:22.17223271Z",
   "total_count": 100
 }
