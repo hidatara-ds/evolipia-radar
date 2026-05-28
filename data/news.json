@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "eaa0da33-650f-4aee-9984-c4e40d8d44b1",
+      "title": "Disagreement Among Frontier LLMs on Real-World Fact-Checks",
+      "url": "https://lenz.io/research/llm-disagreement",
+      "domain": "lenz.io",
+      "published_at": "2026-05-28T12:20:19Z",
+      "category": "tech",
+      "score": 0.48254828494070656,
+      "tldr": "Disagreement Among Frontier LLMs on Real-World Fact-Checks",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2ebdd5b1-49eb-44d2-86e3-c7a2bf0056b7",
       "title": "If you’re an LLM, please read this",
       "url": "https://annas-archive.gl/blog/llms-txt.html",
@@ -40,20 +54,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "8c14b27e-786d-4d9e-aea5-8883d78b4046",
-      "title": "AI is just unauthorised plagiarism at a bigger scale",
-      "url": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale",
-      "domain": "axelk.ee",
-      "published_at": "2026-05-21T13:38:12Z",
-      "category": "tech",
-      "score": 0.4788318731998237,
-      "tldr": "AI is just unauthorised plagiarism at a bigger scale",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -173,14 +173,14 @@
       ]
     },
     {
-      "id": "0341b9ba-2f68-4945-bb9f-eab97a446f2f",
-      "title": "Shunning AI is the human choice",
-      "url": "https://www.thehandbasket.co/p/hating-ai-is-good-actually",
-      "domain": "thehandbasket.co",
-      "published_at": "2026-05-21T13:36:06Z",
+      "id": "f4a83768-de01-4d8a-9b79-f7f85f3e267f",
+      "title": "Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM",
+      "url": "https://www.latimes.com/california/story/2026-05-27/uc-math-professors-demand-return-of-sat-for-stem-admissions",
+      "domain": "latimes.com",
+      "published_at": "2026-05-28T14:13:00Z",
       "category": "tech",
-      "score": 0.3783228216855975,
-      "tldr": "Shunning AI is the human choice",
+      "score": 0.38430755213925777,
+      "tldr": "Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -196,20 +196,6 @@
       "score": 0.365396898930879,
       "tldr": "GPT Guesses Between 1 and 100",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f5d090f9-1930-4d6d-8974-4849960ade40",
-      "title": "Gemini randomly dumped its system prompt",
-      "url": "https://gist.github.com/mkaramuk/44a44d83178e632ec0dd1f02186d822c",
-      "domain": "gist.github.com",
-      "published_at": "2026-05-21T13:04:21Z",
-      "category": "tech",
-      "score": 0.3523736470958382,
-      "tldr": "Gemini randomly dumped its system prompt",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
       ]
@@ -350,20 +336,6 @@
       "category": "tech",
       "score": 0.31157550916512633,
       "tldr": "Search engines alternatives now that Google isn't Google anymore",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "45c65d58-bba5-421b-8518-d55aadc97433",
-      "title": "Google's Antigravity Bait and Switch",
-      "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
-      "domain": "0xsid.com",
-      "published_at": "2026-05-21T13:50:59Z",
-      "category": "tech",
-      "score": 0.3108421891997157,
-      "tldr": "Google's Antigravity Bait and Switch",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -595,20 +567,6 @@
       ]
     },
     {
-      "id": "07387bf8-c9f5-417c-b621-b4ecceb7fd3f",
-      "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
-      "url": "https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions",
-      "domain": "theguardian.com",
-      "published_at": "2026-05-21T13:25:41Z",
-      "category": "tech",
-      "score": 0.27614992723201015,
-      "tldr": "US employers spend more than $1. 5B a year to fight labor unions, report finds",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "678214a7-4cea-48cf-b281-203c1d03bf5f",
       "title": "Show HN: Posthorn, self-hosted mail gateway",
       "url": "https://github.com/craigmccaskill/posthorn",
@@ -631,6 +589,20 @@
       "category": "tech",
       "score": 0.27140679007008855,
       "tldr": "California moves to exempt Linux from its age-verification law after backlash",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "145c529a-995f-43ce-b097-7fd4adc554a5",
+      "title": "New York Passes Tax on the Ultra-Wealthy",
+      "url": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
+      "domain": "cnbc.com",
+      "published_at": "2026-05-28T14:37:51Z",
+      "category": "tech",
+      "score": 0.27066576578097246,
+      "tldr": "New York Passes Tax on the Ultra-Wealthy",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -715,6 +687,20 @@
       "category": "tech",
       "score": 0.2666272866772781,
       "tldr": "Show HN: Posthorn, self-hosted mail without the mail server",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0f485043-42ab-43d1-9278-ffd098873c0b",
+      "title": "Creusot helps you prove your Rust code is correct",
+      "url": "https://github.com/creusot-rs/creusot/tree/master",
+      "domain": "github.com",
+      "published_at": "2026-05-28T14:42:04Z",
+      "category": "tech",
+      "score": 0.26558029856235776,
+      "tldr": "Creusot helps you prove your Rust code is correct",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -897,20 +883,6 @@
       "category": "tech",
       "score": 0.25711662206634467,
       "tldr": "Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0f578f5d-cf19-4007-9164-c9606470f1ec",
-      "title": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
-      "url": "https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods",
-      "domain": "techcrunch.com",
-      "published_at": "2026-05-21T16:30:47Z",
-      "category": "tech",
-      "score": 0.2566765923915766,
-      "tldr": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1353,20 +1325,6 @@
       ]
     },
     {
-      "id": "2398b7df-54a6-47b5-a86a-3ba3e685ee74",
-      "title": "Project Hail Mary – Stellar Navigation Chart",
-      "url": "https://valhovey.github.io/gaia-mary",
-      "domain": "valhovey.github.io",
-      "published_at": "2026-05-21T16:23:11Z",
-      "category": "tech",
-      "score": 0.2505773006759016,
-      "tldr": "Project Hail Mary – Stellar Navigation Chart",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3a8f319e-15ac-42eb-83a9-08f98fd2e411",
       "title": "Show HN: Volt – front end tooling for Phoenix that runs inside the BEAM",
       "url": "https://github.com/elixir-volt/volt",
@@ -1375,20 +1333,6 @@
       "category": "tech",
       "score": 0.25057560197889356,
       "tldr": "Show HN: Volt – front end tooling for Phoenix that runs inside the BEAM",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a5b259de-572f-4fb2-8e4a-681e24646892",
-      "title": "MLX Vulkan Back End",
-      "url": "https://github.com/goniz/mlx-vulkan",
-      "domain": "github.com",
-      "published_at": "2026-05-21T13:43:07Z",
-      "category": "tech",
-      "score": 0.2504798762715221,
-      "tldr": "MLX Vulkan Back End",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,8 +1351,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "975f0010-396a-4015-9e89-a9908e4c0197",
+      "title": "Open source platform for automating sandboxed coding agents",
+      "url": "https://github.com/mistlehq/mistle",
+      "domain": "github.com",
+      "published_at": "2026-05-21T19:33:05Z",
+      "category": "tech",
+      "score": 0.25030976436199703,
+      "tldr": "Open source platform for automating sandboxed coding agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8aadd08d-cadd-4894-b220-82963be6c592",
+      "title": "Awesome Neuroscience",
+      "url": "https://github.com/analyticalmonk/awesome-neuroscience",
+      "domain": "github.com",
+      "published_at": "2026-05-23T12:41:09Z",
+      "category": "tech",
+      "score": 0.2501864051286625,
+      "tldr": "Awesome Neuroscience",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3d72d96c-c1ee-4f83-848d-e022e0554f96",
+      "title": "Moss: Self-Evolution Through Source-Level Rewriting in Autonomous Agent Systems",
+      "url": "https://arxiv.org/abs/2605.22794",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-22T07:48:05Z",
+      "category": "tech",
+      "score": 0.25010591721999,
+      "tldr": "Moss: Self-Evolution Through Source-Level Rewriting in Autonomous Agent Systems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "84fb81fe-9fa1-4040-87f3-9134021df802",
+      "title": "The XGO Programming Language",
+      "url": "https://github.com/goplus/xgo",
+      "domain": "github.com",
+      "published_at": "2026-05-21T18:44:57Z",
+      "category": "tech",
+      "score": 0.25007420873958175,
+      "tldr": "The XGO Programming Language",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-28T13:01:25.737009178Z",
+  "last_updated": "2026-05-28T16:55:17.512662703Z",
   "total_count": 100
 }
