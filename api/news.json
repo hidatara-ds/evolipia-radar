@@ -201,20 +201,6 @@
       ]
     },
     {
-      "id": "2b98a2c1-6aeb-4859-a3ad-d529d970bc8a",
-      "title": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
-      "url": "https://arxiv.org/abs/2605.19269",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-22T04:54:33Z",
-      "category": "tech",
-      "score": 0.3400104791736975,
-      "tldr": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "4b849d40-0de7-4d62-bf8c-e54e74e3a4c3",
       "title": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
       "url": "https://lenz.io/research/llm-disagreement",
@@ -637,6 +623,20 @@
       ]
     },
     {
+      "id": "5363febd-55bf-4305-89b2-555e442c41f6",
+      "title": "Cars are trying to spy on you, and it's only just the beginning",
+      "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
+      "domain": "bbc.com",
+      "published_at": "2026-05-29T03:01:00Z",
+      "category": "tech",
+      "score": 0.2746490484850769,
+      "tldr": "Cars are trying to spy on you, and it's only just the beginning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "055497ab-38c6-4451-96c8-e860f7a80722",
       "title": "About LLMs at Zig Days",
       "url": "https://kristoff.it/blog/llms-at-zig-days",
@@ -967,6 +967,20 @@
       "category": "tech",
       "score": 0.25536433878762116,
       "tldr": "Corporations can vote in some Delaware elections, judge says",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2b23ea71-5bc4-4041-bf25-6c5ce9deb8c0",
+      "title": "Python utility package for building Claude Code hooks",
+      "url": "https://github.com/RasmusGodske/claude-hook-utils",
+      "domain": "github.com",
+      "published_at": "2026-05-29T04:18:34Z",
+      "category": "tech",
+      "score": 0.25470503319872634,
+      "tldr": "Python utility package for building Claude Code hooks",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c598e6a7-94c1-4005-9043-a3c08273eb27",
-      "title": "WebAssembly 128-bit packed SIMD Extension",
-      "url": "https://github.com/WebAssembly/spec/blob/main/proposals/simd/SIMD.md",
-      "domain": "github.com",
-      "published_at": "2026-05-25T19:07:52Z",
-      "category": "tech",
-      "score": 0.2506317069261327,
-      "tldr": "WebAssembly 128-bit packed SIMD Extension",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-29T01:30:54.883179126Z",
+  "last_updated": "2026-05-29T05:50:21.12809546Z",
   "total_count": 100
 }
