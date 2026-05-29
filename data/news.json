@@ -86,6 +86,20 @@
       ]
     },
     {
+      "id": "62dde222-6c65-419c-9a92-1ead7bdb38b1",
+      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "url": "https://github.com/jmaczan/tiny-vllm",
+      "domain": "github.com",
+      "published_at": "2026-05-29T19:38:27Z",
+      "category": "tech",
+      "score": 0.4110112657390013,
+      "tldr": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "81c41fae-aaab-4b24-881e-e0cd0f3ff611",
       "title": "A sleep-like consolidation mechanism for LLMs",
       "url": "https://arxiv.org/abs/2605.26099",
@@ -411,21 +425,6 @@
       ]
     },
     {
-      "id": "64073f1f-0a5a-4293-83ff-bfd8738b5ac9",
-      "title": "Linux Sound Subsystem Also Seeing Many Fixes Driven by AI/LLMs",
-      "url": "https://www.phoronix.com/news/Linux-7.1-Sound-Many-Fixes",
-      "domain": "phoronix.com",
-      "published_at": "2026-05-22T19:34:37Z",
-      "category": "tech",
-      "score": 0.3060687543466377,
-      "tldr": "Linux Sound Subsystem Also Seeing Many Fixes Driven by AI/LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "40b09abe-0129-4ed9-ae43-4db908ed3671",
       "title": "YouTube to automatically label AI-generated videos",
       "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators",
@@ -574,6 +573,20 @@
       "category": "tech",
       "score": 0.2922791023841658,
       "tldr": "On The \u003cdl\u003e (2021)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "094d2fcc-c818-44a5-9a6d-5a688188b194",
+      "title": "Is AI causing a repeat of frontend’s lost decade?",
+      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade",
+      "domain": "mastrojs.github.io",
+      "published_at": "2026-05-29T11:09:32Z",
+      "category": "tech",
+      "score": 0.29168260076738123,
+      "tldr": "Is AI causing a repeat of frontend’s lost decade?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1169,21 +1182,6 @@
       ]
     },
     {
-      "id": "82076209-24cc-4c1c-913f-7999f159b6d7",
-      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
-      "url": "https://github.com/anomalyco/models.dev",
-      "domain": "github.com",
-      "published_at": "2026-05-22T20:26:07Z",
-      "category": "tech",
-      "score": 0.25336406460709116,
-      "tldr": "dev: open-source database of AI model specs, pricing, and capabilities",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data",
-        "general_ai"
-      ]
-    },
-    {
       "id": "638d74ac-6ee0-4c10-a4bd-c418dce186a7",
       "title": "I was bored so I turned my dev tools into an alien planet ruled by my dog",
       "url": "https://github.com/bkawa-bot/planet-maiko",
@@ -1195,6 +1193,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "a7ef0cae-4513-4cb7-9aac-41503c802552",
+      "title": "Hackers are now using ChatGPT share links to deliver malware",
+      "url": "https://www.neowin.net/news/hackers-are-now-using-chatgpt-share-links-to-deliver-malware",
+      "domain": "neowin.net",
+      "published_at": "2026-05-29T20:39:23Z",
+      "category": "tech",
+      "score": 0.253286786475637,
+      "tldr": "Hackers are now using ChatGPT share links to deliver malware",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1393,22 +1405,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "295544e5-c546-4895-9b3c-402aa2606fae",
-      "title": "NeuralNote",
-      "url": "https://github.com/DamRsn/NeuralNote",
-      "domain": "github.com",
-      "published_at": "2026-05-23T18:51:01Z",
-      "category": "tech",
-      "score": 0.2511019006689653,
-      "tldr": "NeuralNote",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-29T19:26:57.165451794Z",
+  "last_updated": "2026-05-29T21:20:29.410429781Z",
   "total_count": 100
 }
