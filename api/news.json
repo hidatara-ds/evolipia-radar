@@ -86,22 +86,6 @@
       ]
     },
     {
-      "id": "cb87c8bc-e226-410d-970e-c73445b6d0c0",
-      "title": "Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems",
-      "url": "https://arxiv.org/abs/2605.22001",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-22T18:46:07Z",
-      "category": "tech",
-      "score": 0.42779848236035317,
-      "tldr": "Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm",
-        "computer_vision"
-      ]
-    },
-    {
       "id": "81c41fae-aaab-4b24-881e-e0cd0f3ff611",
       "title": "A sleep-like consolidation mechanism for LLMs",
       "url": "https://arxiv.org/abs/2605.26099",
@@ -155,6 +139,21 @@
       "tldr": "Show HN: NeuroFlow 55. 8x video inference speedup for Vision Transformers PyTorch",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5e250797-6c16-4672-9619-07c3faa66ac7",
+      "title": "Notes from the Mistral AI Now Summit in Paris",
+      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "domain": "koenvangilst.nl",
+      "published_at": "2026-05-29T16:22:01Z",
+      "category": "tech",
+      "score": 0.3897557889820812,
+      "tldr": "Notes from the Mistral AI Now Summit in Paris",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
         "llm"
       ]
     },
@@ -286,20 +285,6 @@
       ]
     },
     {
-      "id": "9a8b8a46-f2b3-4262-90e7-487d9be5462b",
-      "title": "Bun support is now limited and deprecated",
-      "url": "https://github.com/yt-dlp/yt-dlp/issues/16766",
-      "domain": "github.com",
-      "published_at": "2026-05-22T17:24:12Z",
-      "category": "tech",
-      "score": 0.32803676102005314,
-      "tldr": "Bun support is now limited and deprecated",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0598a75a-768f-4672-81b1-d8ff23df64c4",
       "title": "New York passes pied-a-terre tax",
       "url": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
@@ -308,6 +293,20 @@
       "category": "tech",
       "score": 0.3277483636869264,
       "tldr": "New York passes pied-a-terre tax",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "fe4dcd6d-24f8-4e23-8ab5-456a2c43530b",
+      "title": "Show HN: Promptloop – create, run, and improve prompt evals from the terminal",
+      "url": "https://github.com/Bella3202019/promptloop",
+      "domain": "github.com",
+      "published_at": "2026-05-29T16:06:46Z",
+      "category": "tech",
+      "score": 0.3257491749030499,
+      "tldr": "Show HN: Promptloop – create, run, and improve prompt evals from the terminal",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1156,20 +1155,6 @@
       ]
     },
     {
-      "id": "bee53478-9be6-40ad-9c49-88602ff15614",
-      "title": "Thinking in an array language (2022)",
-      "url": "https://github.com/razetime/ngn-k-tutorial/blob/main/12-thinking-in-k.md",
-      "domain": "github.com",
-      "published_at": "2026-05-22T17:42:53Z",
-      "category": "tech",
-      "score": 0.25347236089901903,
-      "tldr": "Thinking in an array language (2022)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "82510c28-46eb-46da-8a4e-6acfdbe23edb",
       "title": "Does anybody like React?",
       "url": "https://jsx.lol",
@@ -1311,6 +1296,20 @@
       ]
     },
     {
+      "id": "e4615cb3-d505-405b-ab52-a0cab1e83893",
+      "title": "Ask HN: If I cancel Codex today whats the next best local inference agent?",
+      "url": "https://news.ycombinator.com/item?id=48326267",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-05-29T17:20:05Z",
+      "category": "tech",
+      "score": 0.25238146936437666,
+      "tldr": "Ask HN: If I cancel Codex today whats the next best local inference agent?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8df9c2ed-b000-4011-877a-b7c65725b0db",
       "title": "AltTab.app makes free features paid, drops old releases",
       "url": "https://github.com/lwouis/alt-tab-macos/discussions/5533",
@@ -1350,20 +1349,6 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "security",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8e4fe352-3f83-428f-933d-6490a965c296",
-      "title": "TorQ: Kdb+ Production Framework",
-      "url": "https://github.com/DataIntellectTech/TorQ",
-      "domain": "github.com",
-      "published_at": "2026-05-22T17:31:17Z",
-      "category": "tech",
-      "score": 0.25183442266273154,
-      "tldr": "TorQ: Kdb+ Production Framework",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
         "general_ai"
       ]
     },
@@ -1408,8 +1393,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "295544e5-c546-4895-9b3c-402aa2606fae",
+      "title": "NeuralNote",
+      "url": "https://github.com/DamRsn/NeuralNote",
+      "domain": "github.com",
+      "published_at": "2026-05-23T18:51:01Z",
+      "category": "tech",
+      "score": 0.2511019006689653,
+      "tldr": "NeuralNote",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-29T16:34:38.184840286Z",
+  "last_updated": "2026-05-29T19:26:57.165451794Z",
   "total_count": 100
 }
