@@ -525,6 +525,20 @@
       ]
     },
     {
+      "id": "6f9e89f5-580a-46b8-906e-498dd348eab5",
+      "title": "Building durable workflows on Postgres",
+      "url": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
+      "domain": "dbos.dev",
+      "published_at": "2026-05-28T18:41:46Z",
+      "category": "tech",
+      "score": 0.29418748217982826,
+      "tldr": "Building durable workflows on Postgres",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "30212b26-b8f8-4746-b2ac-66ac121e152a",
       "title": "On The \u003cdl\u003e (2021)",
       "url": "https://benmyers.dev/blog/on-the-dl",
@@ -604,20 +618,6 @@
       "score": 0.28152744831140886,
       "tldr": "Go: Support for Generic Methods",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8e2e64f3-3c25-407f-8695-80a72caacf45",
-      "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
-      "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
-      "domain": "qz.com",
-      "published_at": "2026-05-22T01:30:45Z",
-      "category": "tech",
-      "score": 0.27858837188380847,
-      "tldr": "Samsung chip workers will get an average $340k bonus as AI profits soar",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1240,6 +1240,20 @@
       ]
     },
     {
+      "id": "ca0de374-7d6c-4aa1-b278-090504a3d345",
+      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "url": "https://minimaxir.com/2026/05/openrouter-hy3",
+      "domain": "minimaxir.com",
+      "published_at": "2026-05-29T00:09:35Z",
+      "category": "tech",
+      "score": 0.2526317602478657,
+      "tldr": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8df9c2ed-b000-4011-877a-b7c65725b0db",
       "title": "AltTab.app makes free features paid, drops old releases",
       "url": "https://github.com/lwouis/alt-tab-macos/discussions/5533",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "3a8f319e-15ac-42eb-83a9-08f98fd2e411",
-      "title": "Show HN: Volt – front end tooling for Phoenix that runs inside the BEAM",
-      "url": "https://github.com/elixir-volt/volt",
-      "domain": "github.com",
-      "published_at": "2026-05-25T13:38:50Z",
-      "category": "tech",
-      "score": 0.25057560197889356,
-      "tldr": "Show HN: Volt – front end tooling for Phoenix that runs inside the BEAM",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-28T23:06:55.204910825Z",
+  "last_updated": "2026-05-29T01:30:54.883179126Z",
   "total_count": 100
 }
