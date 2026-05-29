@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "f0f1a709-78c2-445d-95b7-d2526f1b8bff",
+      "title": "Please Use AI",
+      "url": "https://shawnsmucker.substack.com/p/please-use-ai",
+      "domain": "shawnsmucker.substack.com",
+      "published_at": "2026-05-29T13:50:25Z",
+      "category": "tech",
+      "score": 0.4938755789685511,
+      "tldr": "Please Use AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "44849dce-a75c-4117-84d3-0a3353bf7ce7",
       "title": "GitHub Actions was down",
       "url": "https://www.githubstatus.com/?today=",
@@ -153,6 +167,20 @@
       "category": "tech",
       "score": 0.38430755213925777,
       "tldr": "Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "87d84f9a-3366-4488-888c-e5d785dd8fb2",
+      "title": "I Am Retiring from Tech to Live Offline",
+      "url": "https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline",
+      "domain": "openpath.quest",
+      "published_at": "2026-05-29T14:40:47Z",
+      "category": "tech",
+      "score": 0.37752880198965993,
+      "tldr": "I Am Retiring from Tech to Live Offline",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -581,6 +609,35 @@
       ]
     },
     {
+      "id": "238faa3c-248d-4481-870e-870385cd07d2",
+      "title": "Even (very) noisy LLM evaluators are useful for improving AI agents",
+      "url": "https://www.tensorzero.com/blog/even-very-noisy-llm-evaluators-are-useful-for-improving-ai-agents",
+      "domain": "tensorzero.com",
+      "published_at": "2026-05-27T07:49:56Z",
+      "category": "tech",
+      "score": 0.2872972211397546,
+      "tldr": "Even (very) noisy LLM evaluators are useful for improving AI agents",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "45b38f0c-e221-4f1e-908d-ecb378722a75",
+      "title": "Show HN: AISlop, a CLI for catching AI generated code smells",
+      "url": "https://github.com/scanaislop/aislop",
+      "domain": "github.com",
+      "published_at": "2026-05-29T13:37:38Z",
+      "category": "tech",
+      "score": 0.2870753013547219,
+      "tldr": "Show HN: AISlop, a CLI for catching AI generated code smells",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f6471469-9280-4f97-8e94-cef980d80162",
       "title": "Private Equity Bought America's Essential Services",
       "url": "https://rubbishtalk.com/economy/how-private-equity-bought-americas-essential-services",
@@ -841,20 +898,6 @@
       "category": "tech",
       "score": 0.26098770713725367,
       "tldr": "Tech CEOs are apparently suffering from AI psychosis",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "27f9c744-3822-4a14-84d1-3202d81b6469",
-      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
-      "url": "https://github.com/superset-sh/superset",
-      "domain": "github.com",
-      "published_at": "2026-05-22T14:53:55Z",
-      "category": "tech",
-      "score": 0.26079005472141265,
-      "tldr": "Launch HN: Superset (YC P26) – IDE for the agents era",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1282,6 +1325,20 @@
       ]
     },
     {
+      "id": "492b68b6-f9d8-495d-bab9-35f7f1a698c6",
+      "title": "Don't shoot for the moon: aiming for above average is key to success",
+      "url": "https://www.theguardian.com/science/2026/may/29/dont-shoot-for-the-moon-aiming-for-above-average-is-key-to-success-maths-suggests",
+      "domain": "theguardian.com",
+      "published_at": "2026-05-29T13:31:00Z",
+      "category": "tech",
+      "score": 0.2520703909797841,
+      "tldr": "Don't shoot for the moon: aiming for above average is key to success",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a12fe220-1c2c-4118-8737-d1170861b027",
       "title": "Dirty Frag, Copy Fail, Fragnesia: A Worrisome Linux Security Trend",
       "url": "https://www.theregister.com/security/2026/05/23/dirty-frag-copy-fail-fragnesia-the-start-of-a-worrisome-linux-security-trend/5244742",
@@ -1351,64 +1408,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "295544e5-c546-4895-9b3c-402aa2606fae",
-      "title": "NeuralNote",
-      "url": "https://github.com/DamRsn/NeuralNote",
-      "domain": "github.com",
-      "published_at": "2026-05-23T18:51:01Z",
-      "category": "tech",
-      "score": 0.2511019006689653,
-      "tldr": "NeuralNote",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0ce5f620-c13d-4ded-950e-d8e4db28f933",
-      "title": "Cate v1.0 is out: The Infinite canvas workspace for developers",
-      "url": "https://github.com/0-AI-UG/cate",
-      "domain": "github.com",
-      "published_at": "2026-05-25T10:57:57Z",
-      "category": "tech",
-      "score": 0.2509320846155404,
-      "tldr": "0 is out: The Infinite canvas workspace for developers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "50065a74-cf61-4ea1-b118-34da80d0cbb4",
-      "title": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
-      "url": "https://github.com/enumura1/py-sql-cleaner",
-      "domain": "github.com",
-      "published_at": "2026-05-28T17:30:29Z",
-      "category": "tech",
-      "score": 0.25085057675799904,
-      "tldr": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "86c67f36-0b78-42e0-ab1a-6867a42efa15",
-      "title": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
-      "url": "https://github.com/Alcray/SlopeAutoAcceptor",
-      "domain": "github.com",
-      "published_at": "2026-05-26T20:45:37Z",
-      "category": "tech",
-      "score": 0.25072559579547465,
-      "tldr": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-29T12:39:55.607962765Z",
+  "last_updated": "2026-05-29T16:34:38.184840286Z",
   "total_count": 100
 }
