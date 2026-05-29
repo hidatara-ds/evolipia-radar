@@ -86,6 +86,21 @@
       ]
     },
     {
+      "id": "b1497955-d0b9-4bd1-915c-2a94fa2d49f9",
+      "title": "Notes from the Mistral AI Now Summit",
+      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "domain": "koenvangilst.nl",
+      "published_at": "2026-05-29T16:22:01Z",
+      "category": "tech",
+      "score": 0.42584013590688297,
+      "tldr": "Notes from the Mistral AI Now Summit",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "62dde222-6c65-419c-9a92-1ead7bdb38b1",
       "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
       "url": "https://github.com/jmaczan/tiny-vllm",
@@ -1391,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ab5a6e31-f37a-42b8-98aa-32b8da6bd958",
-      "title": "You Can Start Building LLM Skills Before You Know the Whole Shape",
-      "url": "https://sosuke.com/you-can-start-building-llm-skills-before-you-know-the-whole-shape",
-      "domain": "sosuke.com",
-      "published_at": "2026-05-26T17:14:19Z",
-      "category": "tech",
-      "score": 0.2512715180132726,
-      "tldr": "You Can Start Building LLM Skills Before You Know the Whole Shape",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-29T21:20:29.410429781Z",
+  "last_updated": "2026-05-29T22:48:11.932073428Z",
   "total_count": 100
 }
