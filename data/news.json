@@ -43,20 +43,6 @@
       ]
     },
     {
-      "id": "2ebdd5b1-49eb-44d2-86e3-c7a2bf0056b7",
-      "title": "If you’re an LLM, please read this",
-      "url": "https://annas-archive.gl/blog/llms-txt.html",
-      "domain": "annas-archive.gl",
-      "published_at": "2026-05-22T11:28:08Z",
-      "category": "tech",
-      "score": 0.48185263627548475,
-      "tldr": "If you’re an LLM, please read this",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7f883a0b-35ce-4355-8ff4-b12c2b90c142",
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
       "url": "https://arxiv.org/abs/2605.06445",
@@ -195,6 +181,20 @@
       "category": "tech",
       "score": 0.365396898930879,
       "tldr": "GPT Guesses Between 1 and 100",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "41d2e64b-509a-4f53-8548-85a2672e74cb",
+      "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
+      "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request",
+      "domain": "blog.kog.ai",
+      "published_at": "2026-05-29T09:47:23Z",
+      "category": "tech",
+      "score": 0.35323994504473727,
+      "tldr": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -455,20 +455,6 @@
       ]
     },
     {
-      "id": "6aa88aaf-cce9-48fc-8b92-b5b9db3cc554",
-      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
-      "url": "https://modelrift.com/blog/openscad-llm-benchmark",
-      "domain": "modelrift.com",
-      "published_at": "2026-05-22T10:38:26Z",
-      "category": "tech",
-      "score": 0.2994341607435678,
-      "tldr": "0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "c95bcbc6-478c-4799-ae67-3d36c5b0fd21",
       "title": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
       "url": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says",
@@ -575,20 +561,6 @@
       "category": "tech",
       "score": 0.2903441050332351,
       "tldr": "Various LLM Smells",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "112f81e6-5fd9-4b5a-8b7a-2fb2ac5d6b6f",
-      "title": "If you're an LLM, please read this – Anna's Blog",
-      "url": "https://annas-archive.gl/blog/llms-txt.html",
-      "domain": "annas-archive.gl",
-      "published_at": "2026-05-22T11:28:08Z",
-      "category": "tech",
-      "score": 0.2897981445276534,
-      "tldr": "If you're an LLM, please read this – Anna's Blog",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -883,20 +855,6 @@
       "category": "tech",
       "score": 0.26079005472141265,
       "tldr": "Launch HN: Superset (YC P26) – IDE for the agents era",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "587cd501-4164-4568-8e2d-95adb9b6a33f",
-      "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
-      "url": "https://github.com/unprovable/ShadowCat",
-      "domain": "github.com",
-      "published_at": "2026-05-22T11:11:43Z",
-      "category": "tech",
-      "score": 0.2600575909410143,
-      "tldr": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,8 +1365,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "0ce5f620-c13d-4ded-950e-d8e4db28f933",
+      "title": "Cate v1.0 is out: The Infinite canvas workspace for developers",
+      "url": "https://github.com/0-AI-UG/cate",
+      "domain": "github.com",
+      "published_at": "2026-05-25T10:57:57Z",
+      "category": "tech",
+      "score": 0.2509320846155404,
+      "tldr": "0 is out: The Infinite canvas workspace for developers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "50065a74-cf61-4ea1-b118-34da80d0cbb4",
+      "title": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
+      "url": "https://github.com/enumura1/py-sql-cleaner",
+      "domain": "github.com",
+      "published_at": "2026-05-28T17:30:29Z",
+      "category": "tech",
+      "score": 0.25085057675799904,
+      "tldr": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "86c67f36-0b78-42e0-ab1a-6867a42efa15",
+      "title": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
+      "url": "https://github.com/Alcray/SlopeAutoAcceptor",
+      "domain": "github.com",
+      "published_at": "2026-05-26T20:45:37Z",
+      "category": "tech",
+      "score": 0.25072559579547465,
+      "tldr": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-29T09:32:22.691936395Z",
+  "last_updated": "2026-05-29T12:39:55.607962765Z",
   "total_count": 100
 }
