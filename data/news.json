@@ -580,20 +580,6 @@
       ]
     },
     {
-      "id": "30212b26-b8f8-4746-b2ac-66ac121e152a",
-      "title": "On The \u003cdl\u003e (2021)",
-      "url": "https://benmyers.dev/blog/on-the-dl",
-      "domain": "benmyers.dev",
-      "published_at": "2026-05-23T13:03:43Z",
-      "category": "tech",
-      "score": 0.2922791023841658,
-      "tldr": "On The \u003cdl\u003e (2021)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "094d2fcc-c818-44a5-9a6d-5a688188b194",
       "title": "Is AI causing a repeat of frontend’s lost decade?",
       "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade",
@@ -673,6 +659,20 @@
       "category": "tech",
       "score": 0.28598786703362394,
       "tldr": "Private Equity Bought America's Essential Services",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f65304fb-3957-4ad4-a891-9a7d17f1332a",
+      "title": "Openrsync: An implementation of rsync, by the OpenBSD team",
+      "url": "https://github.com/kristapsdz/openrsync",
+      "domain": "github.com",
+      "published_at": "2026-05-30T10:51:48Z",
+      "category": "tech",
+      "score": 0.28298303126011193,
+      "tldr": "Openrsync: An implementation of rsync, by the OpenBSD team",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-30T12:45:09.410742664Z",
+  "last_updated": "2026-05-30T14:23:48.84168292Z",
   "total_count": 100
 }
