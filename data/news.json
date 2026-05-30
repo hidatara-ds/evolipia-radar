@@ -777,20 +777,6 @@
       ]
     },
     {
-      "id": "988eec1c-27ca-4d90-b2ab-4cf48a01b18c",
-      "title": "SpaceX launches Starship v3 rocket",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-v3-megarocket-first-test-flight",
-      "domain": "space.com",
-      "published_at": "2026-05-22T23:41:55Z",
-      "category": "tech",
-      "score": 0.26955331159059515,
-      "tldr": "SpaceX launches Starship v3 rocket",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "61bb5719-c97d-440a-a298-109ca0661109",
       "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
       "url": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https",
@@ -1197,20 +1183,6 @@
       ]
     },
     {
-      "id": "638d74ac-6ee0-4c10-a4bd-c418dce186a7",
-      "title": "I was bored so I turned my dev tools into an alien planet ruled by my dog",
-      "url": "https://github.com/bkawa-bot/planet-maiko",
-      "domain": "github.com",
-      "published_at": "2026-05-22T23:40:14Z",
-      "category": "tech",
-      "score": 0.2533235804410008,
-      "tldr": "I was bored so I turned my dev tools into an alien planet ruled by my dog",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a7ef0cae-4513-4cb7-9aac-41503c802552",
       "title": "Hackers are now using ChatGPT share links to deliver malware",
       "url": "https://www.neowin.net/news/hackers-are-now-using-chatgpt-share-links-to-deliver-malware",
@@ -1406,8 +1378,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ab5a6e31-f37a-42b8-98aa-32b8da6bd958",
+      "title": "You Can Start Building LLM Skills Before You Know the Whole Shape",
+      "url": "https://sosuke.com/you-can-start-building-llm-skills-before-you-know-the-whole-shape",
+      "domain": "sosuke.com",
+      "published_at": "2026-05-26T17:14:19Z",
+      "category": "tech",
+      "score": 0.2512715180132726,
+      "tldr": "You Can Start Building LLM Skills Before You Know the Whole Shape",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "295544e5-c546-4895-9b3c-402aa2606fae",
+      "title": "NeuralNote",
+      "url": "https://github.com/DamRsn/NeuralNote",
+      "domain": "github.com",
+      "published_at": "2026-05-23T18:51:01Z",
+      "category": "tech",
+      "score": 0.2511019006689653,
+      "tldr": "NeuralNote",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-29T22:48:11.932073428Z",
+  "last_updated": "2026-05-30T00:02:18.484235238Z",
   "total_count": 100
 }
