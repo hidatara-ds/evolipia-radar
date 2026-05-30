@@ -1366,21 +1366,6 @@
       ]
     },
     {
-      "id": "a12fe220-1c2c-4118-8737-d1170861b027",
-      "title": "Dirty Frag, Copy Fail, Fragnesia: A Worrisome Linux Security Trend",
-      "url": "https://www.theregister.com/security/2026/05/23/dirty-frag-copy-fail-fragnesia-the-start-of-a-worrisome-linux-security-trend/5244742",
-      "domain": "theregister.com",
-      "published_at": "2026-05-23T22:14:23Z",
-      "category": "tech",
-      "score": 0.2519325783198682,
-      "tldr": "Dirty Frag, Copy Fail, Fragnesia: A Worrisome Linux Security Trend",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "security",
-        "general_ai"
-      ]
-    },
-    {
       "id": "c8930300-87a0-401e-8788-afac66c24437",
       "title": "Show HN: Fungible – A local personal finance app in the terminal",
       "url": "https://github.com/tomfunk/fungible",
@@ -1407,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "42b9dd36-e54d-496c-84cb-1d57ee24aa04",
+      "title": "Orbitals from Entanglement: Quantum Information gives rise to Chemical bonds",
+      "url": "https://arxiv.org/abs/2501.15699",
+      "domain": "arxiv.org",
+      "published_at": "2026-05-30T00:36:10Z",
+      "category": "tech",
+      "score": 0.25137809331661787,
+      "tldr": "Orbitals from Entanglement: Quantum Information gives rise to Chemical bonds",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-30T21:31:07.486331135Z",
+  "last_updated": "2026-05-30T22:31:48.609859803Z",
   "total_count": 100
 }
