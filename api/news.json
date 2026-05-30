@@ -594,6 +594,21 @@
       ]
     },
     {
+      "id": "67888f29-28f5-41f9-96a9-f6131f786b8c",
+      "title": "API Drift Detection: Catch Breaking Changes Before They Reach Production",
+      "url": "https://apiguard.co/blog/api-drift-detection-guide",
+      "domain": "apiguard.co",
+      "published_at": "2026-05-30T19:52:19Z",
+      "category": "tech",
+      "score": 0.28833537335552545,
+      "tldr": "API Drift Detection: Catch Breaking Changes Before They Reach Production",
+      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
+      "tags": [
+        "computer_vision",
+        "mlops"
+      ]
+    },
+    {
       "id": "59d59cc9-f8ce-4049-9588-85e57592483e",
       "title": "Stripe is friendly to “friendly fraud”",
       "url": "https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud",
@@ -777,6 +792,20 @@
       ]
     },
     {
+      "id": "93a4ce6e-ddc3-4455-bec3-25bdef747296",
+      "title": "Voxel Space (2017)",
+      "url": "https://s-macke.github.io/VoxelSpace",
+      "domain": "s-macke.github.io",
+      "published_at": "2026-05-30T14:25:50Z",
+      "category": "tech",
+      "score": 0.26800689204810224,
+      "tldr": "Voxel Space (2017)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c06919f6-406e-4577-ab8e-10503148fea2",
       "title": "The real cost of owning a home",
       "url": "https://ericturner.dev/posts/cost-of-home-ownership",
@@ -861,6 +890,20 @@
       ]
     },
     {
+      "id": "00effa85-03a2-416a-8d02-4cce44f1d341",
+      "title": "EY Canada published a cybersecurity report and most citations were hallucinated",
+      "url": "https://gptzero.me/investigations/ey",
+      "domain": "gptzero.me",
+      "published_at": "2026-05-30T19:02:54Z",
+      "category": "tech",
+      "score": 0.26134534322034625,
+      "tldr": "EY Canada published a cybersecurity report and most citations were hallucinated",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security"
+      ]
+    },
+    {
       "id": "7c4ba7a0-6a88-42d7-9a9f-e8c766434153",
       "title": "Atomically precise mechanosynthesis of carbon structures on hydrogenated Silicon",
       "url": "https://arxiv.org/abs/2605.27250",
@@ -939,6 +982,20 @@
       "category": "tech",
       "score": 0.2577582566737759,
       "tldr": "Biff is a command line datetime Swiss army knife",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e94f27f6-64d6-434c-b71d-4025217d078b",
+      "title": "Accenture to acquire Ookla",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises",
+      "domain": "newsroom.accenture.com",
+      "published_at": "2026-05-30T16:28:58Z",
+      "category": "tech",
+      "score": 0.25764565874508527,
+      "tldr": "Accenture to acquire Ookla",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1225,6 +1282,20 @@
       ]
     },
     {
+      "id": "ea8d9833-e6a6-4891-adc8-8647539c5245",
+      "title": "768GB Intel Optane DIMMs to run 1T-parameter LLM with single GPU at 4tps",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/enthusiast-runs-1-trillion-parameter-llm-from-768gb-of-intel-optane-dimm-memory-sticks-local-kimi-k2-5-install-achieved-roughly-4-tokens-per-second",
+      "domain": "tomshardware.com",
+      "published_at": "2026-05-30T20:17:49Z",
+      "category": "tech",
+      "score": 0.25267549275349976,
+      "tldr": "768GB Intel Optane DIMMs to run 1T-parameter LLM with single GPU at 4tps",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "366d07cc-e9ee-4d0f-a4ea-040038aa907c",
       "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
       "url": "https://www.githubstatus.com/incidents/xy1tt3hs572m",
@@ -1336,78 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "42b9dd36-e54d-496c-84cb-1d57ee24aa04",
-      "title": "Orbitals from Entanglement: Quantum Information gives rise to Chemical bonds",
-      "url": "https://arxiv.org/abs/2501.15699",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-30T00:36:10Z",
-      "category": "tech",
-      "score": 0.25137809331661787,
-      "tldr": "Orbitals from Entanglement: Quantum Information gives rise to Chemical bonds",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f44047c5-7646-4582-9485-b03275f08f5c",
-      "title": "Macsurf, \"modern\" web browser for macOS 9",
-      "url": "https://github.com/mplsllc/macsurf",
-      "domain": "github.com",
-      "published_at": "2026-05-30T06:58:23Z",
-      "category": "tech",
-      "score": 0.2512864648303026,
-      "tldr": "Macsurf, \"modern\" web browser for macOS 9",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ab5a6e31-f37a-42b8-98aa-32b8da6bd958",
-      "title": "You Can Start Building LLM Skills Before You Know the Whole Shape",
-      "url": "https://sosuke.com/you-can-start-building-llm-skills-before-you-know-the-whole-shape",
-      "domain": "sosuke.com",
-      "published_at": "2026-05-26T17:14:19Z",
-      "category": "tech",
-      "score": 0.2512715180132726,
-      "tldr": "You Can Start Building LLM Skills Before You Know the Whole Shape",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0ce5f620-c13d-4ded-950e-d8e4db28f933",
-      "title": "Cate v1.0 is out: The Infinite canvas workspace for developers",
-      "url": "https://github.com/0-AI-UG/cate",
-      "domain": "github.com",
-      "published_at": "2026-05-25T10:57:57Z",
-      "category": "tech",
-      "score": 0.2509320846155404,
-      "tldr": "0 is out: The Infinite canvas workspace for developers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "50065a74-cf61-4ea1-b118-34da80d0cbb4",
-      "title": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
-      "url": "https://github.com/enumura1/py-sql-cleaner",
-      "domain": "github.com",
-      "published_at": "2026-05-28T17:30:29Z",
-      "category": "tech",
-      "score": 0.25085057675799904,
-      "tldr": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-30T20:09:13.893205097Z",
+  "last_updated": "2026-05-30T21:31:07.486331135Z",
   "total_count": 100
 }
