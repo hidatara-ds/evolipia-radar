@@ -763,20 +763,6 @@
       ]
     },
     {
-      "id": "3e993cc9-a3b9-4fdf-9908-caa789c659e5",
-      "title": "Italy moves to Airbus A330 tankers",
-      "url": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
-      "domain": "euronews.com",
-      "published_at": "2026-05-23T16:02:43Z",
-      "category": "tech",
-      "score": 0.26973391988507395,
-      "tldr": "Italy moves to Airbus A330 tankers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "61bb5719-c97d-440a-a298-109ca0661109",
       "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
       "url": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https",
@@ -1225,20 +1211,6 @@
       ]
     },
     {
-      "id": "a81ab464-05d2-4240-bcdc-3ec5befb0bcc",
-      "title": "Show HN: I built a RAG and knowledge graph agent that runs locally",
-      "url": "https://news.ycombinator.com/item?id=48248801",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-05-23T16:06:25Z",
-      "category": "tech",
-      "score": 0.2529152299835561,
-      "tldr": "Show HN: I built a RAG and knowledge graph agent that runs locally",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "39a3bb91-b3d2-46b6-9e7b-b68aa76dedc7",
       "title": "Logseq Doctor: Heal your flat old Markdown files before importing them to Logseq",
       "url": "https://github.com/andreoliwa/logseq-doctor",
@@ -1406,8 +1378,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ab5a6e31-f37a-42b8-98aa-32b8da6bd958",
+      "title": "You Can Start Building LLM Skills Before You Know the Whole Shape",
+      "url": "https://sosuke.com/you-can-start-building-llm-skills-before-you-know-the-whole-shape",
+      "domain": "sosuke.com",
+      "published_at": "2026-05-26T17:14:19Z",
+      "category": "tech",
+      "score": 0.2512715180132726,
+      "tldr": "You Can Start Building LLM Skills Before You Know the Whole Shape",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "295544e5-c546-4895-9b3c-402aa2606fae",
+      "title": "NeuralNote",
+      "url": "https://github.com/DamRsn/NeuralNote",
+      "domain": "github.com",
+      "published_at": "2026-05-23T18:51:01Z",
+      "category": "tech",
+      "score": 0.2511019006689653,
+      "tldr": "NeuralNote",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-30T15:44:18.76308105Z",
+  "last_updated": "2026-05-30T16:51:14.330037738Z",
   "total_count": 100
 }
