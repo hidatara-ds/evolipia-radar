@@ -889,20 +889,6 @@
       ]
     },
     {
-      "id": "5c588d0b-a52d-47fe-9529-425b9cf9a756",
-      "title": "Rubish: A Unix shell written in pure Ruby",
-      "url": "https://github.com/amatsuda/rubish",
-      "domain": "github.com",
-      "published_at": "2026-05-23T06:32:00Z",
-      "category": "tech",
-      "score": 0.2614626535606511,
-      "tldr": "Rubish: A Unix shell written in pure Ruby",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7c4ba7a0-6a88-42d7-9a9f-e8c766434153",
       "title": "Atomically precise mechanosynthesis of carbon structures on hydrogenated Silicon",
       "url": "https://arxiv.org/abs/2605.27250",
@@ -1149,6 +1135,20 @@
       "category": "tech",
       "score": 0.2537855431993051,
       "tldr": "Endive: A JVM native WebAssembly runtime",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0abd9453-1243-4eac-a270-31460dbc53c7",
+      "title": "Show HN: VT Code – open-source terminal coding agent in Rust",
+      "url": "https://github.com/vinhnx/VTCode",
+      "domain": "github.com",
+      "published_at": "2026-05-30T03:07:25Z",
+      "category": "tech",
+      "score": 0.2536138961838851,
+      "tldr": "Show HN: VT Code – open-source terminal coding agent in Rust",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-05-30T04:32:26.030296063Z",
+  "last_updated": "2026-05-30T07:35:36.748243368Z",
   "total_count": 100
 }
