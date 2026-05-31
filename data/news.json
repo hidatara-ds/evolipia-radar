@@ -551,6 +551,21 @@
       ]
     },
     {
+      "id": "d2aaf36b-5276-4a3c-b5e8-adfaba782217",
+      "title": "ChatGPT for Google Sheets is vulnerable to data exfiltration and phishing",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "domain": "promptarmor.com",
+      "published_at": "2026-05-31T20:35:38Z",
+      "category": "tech",
+      "score": 0.294664032972625,
+      "tldr": "ChatGPT for Google Sheets is vulnerable to data exfiltration and phishing",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
+      ]
+    },
+    {
       "id": "741d2eb7-c561-4008-9f18-01936e849e96",
       "title": "Bttf is a command line datetime Swiss army knife",
       "url": "https://github.com/BurntSushi/bttf",
@@ -1391,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ca0de374-7d6c-4aa1-b278-090504a3d345",
-      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
-      "url": "https://minimaxir.com/2026/05/openrouter-hy3",
-      "domain": "minimaxir.com",
-      "published_at": "2026-05-29T00:09:35Z",
-      "category": "tech",
-      "score": 0.2526317602478657,
-      "tldr": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-31T22:33:23.947270851Z",
+  "last_updated": "2026-05-31T23:55:58.912737473Z",
   "total_count": 100
 }
