@@ -228,6 +228,20 @@
       ]
     },
     {
+      "id": "86009939-867c-413e-921f-78fda517f888",
+      "title": "Creatine raises brain energy levels and slows cognitive decline: study",
+      "url": "https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30",
+      "domain": "thesciverse.org",
+      "published_at": "2026-05-31T16:19:34Z",
+      "category": "tech",
+      "score": 0.3675354893354206,
+      "tldr": "Creatine raises brain energy levels and slows cognitive decline: study",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "9b6f98ad-1c6d-4f5f-9256-1438f6c43ea3",
       "title": "GPT Guesses Between 1 and 100",
       "url": "https://github.com/exmergo/research-chatgpt-guesses-between-1-and-100",
@@ -338,6 +352,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "83722fad-8c36-4636-b7d6-0fb27b762214",
+      "title": "Remove all LLM generated commits before people get hurt by this nonsense",
+      "url": "https://github.com/RsyncProject/rsync/issues/934",
+      "domain": "github.com",
+      "published_at": "2026-05-31T15:44:30Z",
+      "category": "tech",
+      "score": 0.3271614110504866,
+      "tldr": "Remove all LLM generated commits before people get hurt by this nonsense",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8df9c2ed-b000-4011-877a-b7c65725b0db",
-      "title": "AltTab.app makes free features paid, drops old releases",
-      "url": "https://github.com/lwouis/alt-tab-macos/discussions/5533",
-      "domain": "github.com",
-      "published_at": "2026-05-26T18:01:35Z",
-      "category": "tech",
-      "score": 0.25235726584906587,
-      "tldr": "app makes free features paid, drops old releases",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "544d7979-906a-4c6f-82fc-d2c5f09998dd",
-      "title": "Talk Is Cheap: The Operational Impact of LLM Use",
-      "url": "https://unessays.substack.com/p/talk-is-cheap",
-      "domain": "unessays.substack.com",
-      "published_at": "2026-05-31T16:37:47Z",
-      "category": "tech",
-      "score": 0.2521091326223388,
-      "tldr": "Talk Is Cheap: The Operational Impact of LLM Use",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-05-31T20:10:29.069345081Z",
+  "last_updated": "2026-05-31T21:30:42.111519157Z",
   "total_count": 100
 }
