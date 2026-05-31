@@ -71,21 +71,6 @@
       ]
     },
     {
-      "id": "7f883a0b-35ce-4355-8ff4-b12c2b90c142",
-      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
-      "url": "https://arxiv.org/abs/2605.06445",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-24T12:55:53Z",
-      "category": "tech",
-      "score": 0.45373688715597105,
-      "tldr": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "45babdbb-2596-4088-98b3-202286866d97",
       "title": "Magnifica Humanitas",
       "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
@@ -1406,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "1b161d44-404e-4615-a6a1-91656cbaab98",
+      "title": "Slimcc: C23 compiler with C2y/GNU extensions for x86-64 Linux/BSD, written in C9",
+      "url": "https://github.com/fuhsnn/slimcc/tree/main",
+      "domain": "github.com",
+      "published_at": "2026-05-25T20:42:05Z",
+      "category": "tech",
+      "score": 0.2516040146360536,
+      "tldr": "Slimcc: C23 compiler with C2y/GNU extensions for x86-64 Linux/BSD, written in C9",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-05-31T12:54:54.428851745Z",
+  "last_updated": "2026-05-31T14:26:03.841602293Z",
   "total_count": 100
 }
