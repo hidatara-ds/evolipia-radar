@@ -481,20 +481,6 @@
       ]
     },
     {
-      "id": "c95bcbc6-478c-4799-ae67-3d36c5b0fd21",
-      "title": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
-      "url": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says",
-      "domain": "scienceaim.com",
-      "published_at": "2026-05-24T18:56:09Z",
-      "category": "tech",
-      "score": 0.29926800163773426,
-      "tldr": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b8d24acc-018a-4fad-baa1-e7f9186800fb",
       "title": "Cars collect a startling amount of data about you",
       "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "544d7979-906a-4c6f-82fc-d2c5f09998dd",
+      "title": "Talk Is Cheap: The Operational Impact of LLM Use",
+      "url": "https://unessays.substack.com/p/talk-is-cheap",
+      "domain": "unessays.substack.com",
+      "published_at": "2026-05-31T16:37:47Z",
+      "category": "tech",
+      "score": 0.2521091326223388,
+      "tldr": "Talk Is Cheap: The Operational Impact of LLM Use",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-05-31T17:53:57.648657052Z",
+  "last_updated": "2026-05-31T19:00:51.705031846Z",
   "total_count": 100
 }
