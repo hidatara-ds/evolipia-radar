@@ -707,6 +707,20 @@
       ]
     },
     {
+      "id": "fbf8f612-5324-4d4a-ad0b-9c788d3b09b0",
+      "title": "ChatGPT for Google Sheets Exfiltrates Workbooks",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "domain": "promptarmor.com",
+      "published_at": "2026-05-31T20:35:38Z",
+      "category": "tech",
+      "score": 0.275873404467838,
+      "tldr": "ChatGPT for Google Sheets Exfiltrates Workbooks",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "678214a7-4cea-48cf-b281-203c1d03bf5f",
       "title": "Show HN: Posthorn, self-hosted mail gateway",
       "url": "https://github.com/craigmccaskill/posthorn",
@@ -1391,22 +1405,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e4615cb3-d505-405b-ab52-a0cab1e83893",
-      "title": "Ask HN: If I cancel Codex today whats the next best local inference agent?",
-      "url": "https://news.ycombinator.com/item?id=48326267",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-05-29T17:20:05Z",
-      "category": "tech",
-      "score": 0.25238146936437666,
-      "tldr": "Ask HN: If I cancel Codex today whats the next best local inference agent?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-05-31T21:30:42.111519157Z",
+  "last_updated": "2026-05-31T22:33:23.947270851Z",
   "total_count": 100
 }
