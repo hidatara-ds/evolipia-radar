@@ -71,20 +71,6 @@
       ]
     },
     {
-      "id": "45babdbb-2596-4088-98b3-202286866d97",
-      "title": "Magnifica Humanitas",
-      "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
-      "domain": "vatican.va",
-      "published_at": "2026-05-25T10:11:29Z",
-      "category": "tech",
-      "score": 0.4457447374827903,
-      "tldr": "Magnifica Humanitas",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b1497955-d0b9-4bd1-915c-2a94fa2d49f9",
       "title": "Notes from the Mistral AI Now Summit",
       "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
@@ -200,6 +186,20 @@
       ]
     },
     {
+      "id": "d6499f40-d948-4705-8bc7-3a399dc2574c",
+      "title": "NPM packages from RedHat have been compromised",
+      "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
+      "domain": "github.com",
+      "published_at": "2026-06-01T13:30:21Z",
+      "category": "tech",
+      "score": 0.38119653536578657,
+      "tldr": "NPM packages from RedHat have been compromised",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "87d84f9a-3366-4488-888c-e5d785dd8fb2",
       "title": "I Am Retiring from Tech to Live Offline",
       "url": "https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline",
@@ -242,17 +242,17 @@
       ]
     },
     {
-      "id": "9b6f98ad-1c6d-4f5f-9256-1438f6c43ea3",
-      "title": "GPT Guesses Between 1 and 100",
-      "url": "https://github.com/exmergo/research-chatgpt-guesses-between-1-and-100",
-      "domain": "github.com",
-      "published_at": "2026-05-25T11:46:09Z",
+      "id": "f0923285-dc18-4e62-910f-70fca72d33c5",
+      "title": "A 10 year old Xeon is all you need",
+      "url": "https://point.free/blog/gemma-4-on-a-2016-xeon",
+      "domain": "point.free",
+      "published_at": "2026-06-01T06:38:42Z",
       "category": "tech",
-      "score": 0.365396898930879,
-      "tldr": "GPT Guesses Between 1 and 100",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "score": 0.3559612666183839,
+      "tldr": "A 10 year old Xeon is all you need",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
-        "llm"
+        "general_ai"
       ]
     },
     {
@@ -419,20 +419,6 @@
       "category": "tech",
       "score": 0.31380066847698634,
       "tldr": "Show HN: Hallucinate – Massively Multiplayer Online Rave",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "90c5acae-71dc-413e-8344-618119e6c803",
-      "title": "Search engines alternatives now that Google isn't Google anymore",
-      "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore",
-      "domain": "techcrunch.com",
-      "published_at": "2026-05-25T12:27:11Z",
-      "category": "tech",
-      "score": 0.31157550916512633,
-      "tldr": "Search engines alternatives now that Google isn't Google anymore",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -620,6 +606,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "a39ce1e9-2b47-46b0-8d65-a79374ebacbd",
+      "title": "LLMs Are Closer to Religion Than They Appear",
+      "url": "https://www.theregister.com/ai-ml/2026/06/01/llms-are-closer-to-religion-than-they-appear-watch-out-for-those-who-like-it-that-way/5248189",
+      "domain": "theregister.com",
+      "published_at": "2026-06-01T11:03:38Z",
+      "category": "tech",
+      "score": 0.2914733393760051,
+      "tldr": "LLMs Are Closer to Religion Than They Appear",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -815,6 +815,20 @@
       "category": "tech",
       "score": 0.27066576578097246,
       "tldr": "New York Passes Tax on the Ultra-Wealthy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "722c6c3d-18c5-40f9-809c-69e9ba488d64",
+      "title": "Rift: Better Alternative to Git Worktrees",
+      "url": "https://github.com/anomalyco/rift",
+      "domain": "github.com",
+      "published_at": "2026-06-01T06:53:27Z",
+      "category": "tech",
+      "score": 0.2695555781732558,
+      "tldr": "Rift: Better Alternative to Git Worktrees",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1129,6 +1143,20 @@
       ]
     },
     {
+      "id": "fa905de5-de93-45bc-945a-2eaca83984fe",
+      "title": "Flipper Zero Zig Template",
+      "url": "https://github.com/NishantJoshi00/flipper-template",
+      "domain": "github.com",
+      "published_at": "2026-06-01T13:20:54Z",
+      "category": "tech",
+      "score": 0.25570677330174835,
+      "tldr": "Flipper Zero Zig Template",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "01b2061e-a3e1-44d3-97c9-4167da328130",
       "title": "Corporations can vote in some Delaware elections, judge says",
       "url": "https://news.bloomberglaw.com/esg/corporations-have-the-right-to-vote-in-delaware-town-judge-says",
@@ -1379,36 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "c9ac0b31-d903-4635-ba72-000f318ae9e5",
-      "title": "Riscrithm – An intuitive RISC-V assembler and optimizer coded in Go",
-      "url": "https://github.com/ghetea-patrick/riscrithm",
-      "domain": "github.com",
-      "published_at": "2026-05-25T21:01:10Z",
-      "category": "tech",
-      "score": 0.25268507179953126,
-      "tldr": "Riscrithm – An intuitive RISC-V assembler and optimizer coded in Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ea8d9833-e6a6-4891-adc8-8647539c5245",
-      "title": "768GB Intel Optane DIMMs to run 1T-parameter LLM with single GPU at 4tps",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/enthusiast-runs-1-trillion-parameter-llm-from-768gb-of-intel-optane-dimm-memory-sticks-local-kimi-k2-5-install-achieved-roughly-4-tokens-per-second",
-      "domain": "tomshardware.com",
-      "published_at": "2026-05-30T20:17:49Z",
-      "category": "tech",
-      "score": 0.25267549275349976,
-      "tldr": "768GB Intel Optane DIMMs to run 1T-parameter LLM with single GPU at 4tps",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-01T08:23:18.190198013Z",
+  "last_updated": "2026-06-01T14:30:00.497825147Z",
   "total_count": 100
 }
