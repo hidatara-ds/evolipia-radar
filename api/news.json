@@ -142,21 +142,6 @@
       ]
     },
     {
-      "id": "8d9d81f4-d964-4a0c-ba79-d846d5ba73f6",
-      "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
-      "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
-      "domain": "blocksandfiles.com",
-      "published_at": "2026-05-25T19:37:57Z",
-      "category": "tech",
-      "score": 0.4044020150069897,
-      "tldr": "Norway's 2 petabytes of Huawei flash storage and LLM training",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "5636d8f5-603e-4e43-b955-e66f883d610c",
       "title": "Investigating how prompt politeness affects LLM accuracy (2025)",
       "url": "https://arxiv.org/abs/2510.04950",
@@ -1341,20 +1326,6 @@
       ]
     },
     {
-      "id": "c596a8fe-833c-495c-a82a-a51467d798ce",
-      "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
-      "url": "https://github.com/tantara/openbrief",
-      "domain": "github.com",
-      "published_at": "2026-05-25T21:50:03Z",
-      "category": "tech",
-      "score": 0.25428352123317377,
-      "tldr": "Show HN: OpenBrief – Local-first video downloader/summarizer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "fbe524f3-5e03-4ba6-9b0e-85f4e8250ef1",
       "title": "Cox Media fined after bragging it spied on users through their phones",
       "url": "https://www.theverge.com/policy/937027/cox-media-marketing-ai-powered-phone-spying-ads-ftc-fine",
@@ -1409,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "0abd9453-1243-4eac-a270-31460dbc53c7",
+      "title": "Show HN: VT Code – open-source terminal coding agent in Rust",
+      "url": "https://github.com/vinhnx/VTCode",
+      "domain": "github.com",
+      "published_at": "2026-05-30T03:07:25Z",
+      "category": "tech",
+      "score": 0.2536138961838851,
+      "tldr": "Show HN: VT Code – open-source terminal coding agent in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e5e482b1-78ae-4329-9c75-713a4d0098c4",
+      "title": "Can we have the day off?",
+      "url": "https://mlsu.io/posts/day-off",
+      "domain": "mlsu.io",
+      "published_at": "2026-05-28T00:40:26Z",
+      "category": "tech",
+      "score": 0.25353797460473954,
+      "tldr": "Can we have the day off?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-01T19:29:35.412504428Z",
+  "last_updated": "2026-06-01T22:21:12.359578995Z",
   "total_count": 100
 }
