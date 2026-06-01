@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "2b8a0f70-c918-4552-8e3f-c2ae5141cf2b",
+      "title": "Malicious npm packages detected across Red Hat Cloud Services",
+      "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
+      "domain": "github.com",
+      "published_at": "2026-06-01T13:30:21Z",
+      "category": "tech",
+      "score": 0.553161799695361,
+      "tldr": "Malicious npm packages detected across Red Hat Cloud Services",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud"
+      ]
+    },
+    {
       "id": "21464648-81a9-443c-8789-bd39522c4b71",
       "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
       "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
@@ -68,6 +82,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "03c3960f-2973-4fa5-afe4-9d495720cbe9",
+      "title": "The newest Instagram “exploit” is the goofiest I've seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "domain": "0xsid.com",
+      "published_at": "2026-06-01T16:31:42Z",
+      "category": "tech",
+      "score": 0.4739154098443047,
+      "tldr": "The newest Instagram “exploit” is the goofiest I've seen",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -341,6 +369,35 @@
       ]
     },
     {
+      "id": "d674e116-117b-497d-8d0d-e3c683642174",
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "domain": "github.com",
+      "published_at": "2026-06-01T16:41:49Z",
+      "category": "tech",
+      "score": 0.32874442332636894,
+      "tldr": "AI Agent Guidelines for CS336 at Stanford",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9d0b3151-88e3-4596-8028-595bbc8e3231",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "domain": "anthropic.com",
+      "published_at": "2026-06-01T16:00:40Z",
+      "category": "tech",
+      "score": 0.32836582753329047,
+      "tldr": "Anthropic confidentially submits draft S-1 to the SEC",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0598a75a-768f-4672-81b1-d8ff23df64c4",
       "title": "New York passes pied-a-terre tax",
       "url": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
@@ -552,6 +609,20 @@
       ]
     },
     {
+      "id": "6b73c83c-a1a8-481f-9bf0-be0a4e27c2f5",
+      "title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms",
+      "domain": "techcrunch.com",
+      "published_at": "2026-06-01T16:33:59Z",
+      "category": "tech",
+      "score": 0.29614974326419286,
+      "tldr": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d2aaf36b-5276-4a3c-b5e8-adfaba782217",
       "title": "ChatGPT for Google Sheets is vulnerable to data exfiltration and phishing",
       "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
@@ -723,6 +794,20 @@
       ]
     },
     {
+      "id": "56399ce9-93b7-4df6-844a-cb989eeba2ed",
+      "title": "Linux Basics for Hackers (2019)",
+      "url": "https://github.com/ahegazy0/linux-basics-for-hackers-notes",
+      "domain": "github.com",
+      "published_at": "2026-06-01T13:19:01Z",
+      "category": "tech",
+      "score": 0.2823934046504588,
+      "tldr": "Linux Basics for Hackers (2019)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "dc938f90-cbf2-4fde-a819-6a7a53f09f47",
       "title": "Go: Support for Generic Methods",
       "url": "https://github.com/golang/go/issues/77273",
@@ -790,20 +875,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "56b49603-cb94-4d31-bb7d-2d829e444e72",
-      "title": "California moves to exempt Linux from its age-verification law after backlash",
-      "url": "https://www.tomshardware.com/software/linux/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash-over-forcing-operating-systems-to-collect-users-ages-amendment-proposed-by-the-same-lawmaker-who-wrote-the-original-law",
-      "domain": "tomshardware.com",
-      "published_at": "2026-05-25T18:19:58Z",
-      "category": "tech",
-      "score": 0.27140679007008855,
-      "tldr": "California moves to exempt Linux from its age-verification law after backlash",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -891,6 +962,20 @@
       ]
     },
     {
+      "id": "82520c7f-fd3f-472c-ba16-b7cbc0703d0c",
+      "title": "Show HN: A CSS 3D Engine (no WebGL)",
+      "url": "https://github.com/LayoutitStudio/polycss",
+      "domain": "github.com",
+      "published_at": "2026-06-01T13:58:04Z",
+      "category": "tech",
+      "score": 0.26754006987832246,
+      "tldr": "Show HN: A CSS 3D Engine (no WebGL)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f1260cc0-234b-40ef-8ef1-e0ee632ad516",
       "title": "What Is a Dickover?",
       "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
@@ -919,6 +1004,20 @@
       ]
     },
     {
+      "id": "7377c494-5b8b-4ce9-96fd-e258ac34e976",
+      "title": "KDE at 30",
+      "url": "https://kde.org/anniversaries/30",
+      "domain": "kde.org",
+      "published_at": "2026-06-01T14:31:26Z",
+      "category": "tech",
+      "score": 0.26591274866007897,
+      "tldr": "KDE at 30",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0f485043-42ab-43d1-9278-ffd098873c0b",
       "title": "Creusot helps you prove your Rust code is correct",
       "url": "https://github.com/creusot-rs/creusot/tree/master",
@@ -930,6 +1029,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "ecccd4ad-8fa2-4a52-85c2-f9d2eacc0d73",
+      "title": "CS336: Language Modeling from Scratch",
+      "url": "https://cs336.stanford.edu/",
+      "domain": "cs336.stanford.edu",
+      "published_at": "2026-06-01T14:10:32Z",
+      "category": "tech",
+      "score": 0.26516423229205344,
+      "tldr": "CS336: Language Modeling from Scratch",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm",
+        "cloud"
       ]
     },
     {
@@ -1059,6 +1173,20 @@
       ]
     },
     {
+      "id": "54281ca3-1f2d-4692-9dba-9bdf3adaa540",
+      "title": "Nvidia RTX Spark",
+      "url": "https://www.nvidia.com/en-us/products/rtx-spark",
+      "domain": "nvidia.com",
+      "published_at": "2026-06-01T05:24:40Z",
+      "category": "tech",
+      "score": 0.25835555236199576,
+      "tldr": "Nvidia RTX Spark",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7741cafc-6860-41da-91d3-b844c895e01b",
       "title": "AltTab is introducing a Pro version and staying open source",
       "url": "https://github.com/lwouis/alt-tab-macos/discussions/5533",
@@ -1109,20 +1237,6 @@
       "category": "tech",
       "score": 0.2572307157179137,
       "tldr": "Stress disrupts hippocampal integration of overlapping events, memory inference",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8b52e6ba-2a17-46d9-86b1-b94bd433e3c9",
-      "title": "Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing",
-      "url": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
-      "domain": "businessinsider.com",
-      "published_at": "2026-05-25T16:44:49Z",
-      "category": "tech",
-      "score": 0.25711662206634467,
-      "tldr": "Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1295,120 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "0abd9453-1243-4eac-a270-31460dbc53c7",
-      "title": "Show HN: VT Code – open-source terminal coding agent in Rust",
-      "url": "https://github.com/vinhnx/VTCode",
-      "domain": "github.com",
-      "published_at": "2026-05-30T03:07:25Z",
-      "category": "tech",
-      "score": 0.2536138961838851,
-      "tldr": "Show HN: VT Code – open-source terminal coding agent in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e5e482b1-78ae-4329-9c75-713a4d0098c4",
-      "title": "Can we have the day off?",
-      "url": "https://mlsu.io/posts/day-off",
-      "domain": "mlsu.io",
-      "published_at": "2026-05-28T00:40:26Z",
-      "category": "tech",
-      "score": 0.25353797460473954,
-      "tldr": "Can we have the day off?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "82510c28-46eb-46da-8a4e-6acfdbe23edb",
-      "title": "Does anybody like React?",
-      "url": "https://jsx.lol",
-      "domain": "jsx.lol",
-      "published_at": "2026-05-26T01:55:15Z",
-      "category": "tech",
-      "score": 0.2534343421167312,
-      "tldr": "Does anybody like React?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a7ef0cae-4513-4cb7-9aac-41503c802552",
-      "title": "Hackers are now using ChatGPT share links to deliver malware",
-      "url": "https://www.neowin.net/news/hackers-are-now-using-chatgpt-share-links-to-deliver-malware",
-      "domain": "neowin.net",
-      "published_at": "2026-05-29T20:39:23Z",
-      "category": "tech",
-      "score": 0.253286786475637,
-      "tldr": "Hackers are now using ChatGPT share links to deliver malware",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8e6068b4-b5b0-4283-84d2-d70555db1ef9",
-      "title": "A zot extension that makes answering your coding agent's questions painless",
-      "url": "https://github.com/patriceckhart/zot-answer",
-      "domain": "github.com",
-      "published_at": "2026-05-31T12:24:59Z",
-      "category": "tech",
-      "score": 0.2532008692143076,
-      "tldr": "A zot extension that makes answering your coding agent's questions painless",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "09316861-7436-441d-b149-d66a6b94780e",
-      "title": "Show HN: Filemat – an open-source web-based file manager",
-      "url": "https://github.com/bingud/filemat",
-      "domain": "github.com",
-      "published_at": "2026-05-27T14:36:27Z",
-      "category": "tech",
-      "score": 0.25310791418647866,
-      "tldr": "Show HN: Filemat – an open-source web-based file manager",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5a61a1cc-b565-4e38-9eaa-80f861ac82d8",
-      "title": "I just sequenced a human genome to 30× coverage at home",
-      "url": "https://twitter.com/SethSHowes/status/2058835208586362913",
-      "domain": "twitter.com",
-      "published_at": "2026-05-25T17:45:54Z",
-      "category": "tech",
-      "score": 0.25293294362985447,
-      "tldr": "I just sequenced a human genome to 30× coverage at home",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "39a3bb91-b3d2-46b6-9e7b-b68aa76dedc7",
-      "title": "Logseq Doctor: Heal your flat old Markdown files before importing them to Logseq",
-      "url": "https://github.com/andreoliwa/logseq-doctor",
-      "domain": "github.com",
-      "published_at": "2026-05-26T05:43:25Z",
-      "category": "tech",
-      "score": 0.2528861410113862,
-      "tldr": "Logseq Doctor: Heal your flat old Markdown files before importing them to Logseq",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-01T14:30:00.497825147Z",
+  "last_updated": "2026-06-01T19:29:35.412504428Z",
   "total_count": 100
 }
