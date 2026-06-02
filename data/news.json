@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "1e3d0670-c4fd-4c70-b4d5-842d33bc793f",
+      "title": "Please don't spam people looking for employment. It's just cruel",
+      "url": "https://news.ycombinator.com/item?id=48370330",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-06-02T13:56:46Z",
+      "category": "tech",
+      "score": 0.53305928451582,
+      "tldr": "Please don't spam people looking for employment.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "21464648-81a9-443c-8789-bd39522c4b71",
       "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
       "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
@@ -108,20 +122,6 @@
       "category": "tech",
       "score": 0.4110112657390013,
       "tldr": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "81c41fae-aaab-4b24-881e-e0cd0f3ff611",
-      "title": "A sleep-like consolidation mechanism for LLMs",
-      "url": "https://arxiv.org/abs/2605.26099",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-26T15:36:24Z",
-      "category": "tech",
-      "score": 0.408537802354325,
-      "tldr": "A sleep-like consolidation mechanism for LLMs",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -210,6 +210,21 @@
       "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
       "tags": [
         "mlops"
+      ]
+    },
+    {
+      "id": "3593ca80-d13f-4a03-88e5-9de0b89e6bcf",
+      "title": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model",
+      "url": "https://github.com/SpecStudio-net/Viveka",
+      "domain": "github.com",
+      "published_at": "2026-06-02T06:01:37Z",
+      "category": "tech",
+      "score": 0.37485103953562854,
+      "tldr": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -397,20 +412,6 @@
       ]
     },
     {
-      "id": "4418f5a0-0cf5-44fb-9ba7-a9bb5f14312e",
-      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
-      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26",
-      "domain": "reuters.com",
-      "published_at": "2026-05-26T13:08:13Z",
-      "category": "tech",
-      "score": 0.32164132409833746,
-      "tldr": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "aefb7d69-f8e4-4edb-8278-35633c0fbf42",
       "title": "Show HN: Hallucinate – Massively Multiplayer Online Rave",
       "url": "https://hallucinate.site",
@@ -521,20 +522,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "e98574f3-a098-4974-972c-c7a299eb75f3",
-      "title": "Language Models Need Sleep",
-      "url": "https://arxiv.org/abs/2605.26099",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-26T15:36:24Z",
-      "category": "tech",
-      "score": 0.296443808038419,
-      "tldr": "Language Models Need Sleep",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -779,6 +766,20 @@
       ]
     },
     {
+      "id": "a75ebbbf-4c53-4ac9-a6fe-fd0c041e4cb2",
+      "title": "Apple rejected my dictation app for using the accessibility API",
+      "url": "https://www.mitmllc.com/blog/apple-rejected-my-dictation-app",
+      "domain": "mitmllc.com",
+      "published_at": "2026-06-02T12:00:03Z",
+      "category": "tech",
+      "score": 0.27832545439667866,
+      "tldr": "Apple rejected my dictation app for using the accessibility API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "fbf8f612-5324-4d4a-ad0b-9c788d3b09b0",
       "title": "ChatGPT for Google Sheets Exfiltrates Workbooks",
       "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
@@ -888,20 +889,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "0343205c-69d7-4736-8d76-ce48b6b0a57c",
-      "title": "Outsourcing plus local AI will soon become more economical vs. frontier labs",
-      "url": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs",
-      "domain": "signalbloom.ai",
-      "published_at": "2026-05-26T12:08:33Z",
-      "category": "tech",
-      "score": 0.26862928451390966,
-      "tldr": "Outsourcing plus local AI will soon become more economical vs.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1145,6 +1132,20 @@
       ]
     },
     {
+      "id": "2a2fe0cd-d543-41b2-ae96-81bcfad4223a",
+      "title": "You Don't Love Systemd Timers Enough",
+      "url": "https://blog.tjll.net/you-dont-love-systemd-timers-enough",
+      "domain": "blog.tjll.net",
+      "published_at": "2026-06-02T09:34:11Z",
+      "category": "tech",
+      "score": 0.26018687012031155,
+      "tldr": "You Don't Love Systemd Timers Enough",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f42362c2-d80d-4ed5-8977-04d941ab4cc5",
       "title": "XLIDE: VBA without excel",
       "url": "https://github.com/WilliamSmithEdward/xlide_vscode",
@@ -1327,20 +1328,6 @@
       ]
     },
     {
-      "id": "3b735c9e-2b73-4caa-94a4-cfbe38c3c2c2",
-      "title": "Dropbox CEO Drew Houston to step down",
-      "url": "https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-05-26T13:18:33Z",
-      "category": "tech",
-      "score": 0.25390370667275697,
-      "tldr": "Dropbox CEO Drew Houston to step down",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e49ce727-4f39-45a7-bb67-1fcd6a3721f4",
       "title": "Endive: A JVM native WebAssembly runtime",
       "url": "https://github.com/bytecodealliance/endive",
@@ -1409,8 +1396,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "09316861-7436-441d-b149-d66a6b94780e",
+      "title": "Show HN: Filemat – an open-source web-based file manager",
+      "url": "https://github.com/bingud/filemat",
+      "domain": "github.com",
+      "published_at": "2026-05-27T14:36:27Z",
+      "category": "tech",
+      "score": 0.25310791418647866,
+      "tldr": "Show HN: Filemat – an open-source web-based file manager",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-02T11:47:49.119631388Z",
+  "last_updated": "2026-06-02T15:56:26.927064288Z",
   "total_count": 100
 }
