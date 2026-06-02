@@ -128,20 +128,6 @@
       ]
     },
     {
-      "id": "46bfc0cc-9a22-45b7-b9f3-46290d553580",
-      "title": "Show HN: NeuroFlow 55.8x video inference speedup for Vision Transformers PyTorch",
-      "url": "https://github.com/ynnk-research/-NeuroFlow",
-      "domain": "github.com",
-      "published_at": "2026-05-26T16:04:23Z",
-      "category": "tech",
-      "score": 0.3997350284449824,
-      "tldr": "Show HN: NeuroFlow 55. 8x video inference speedup for Vision Transformers PyTorch",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "5e250797-6c16-4672-9619-07c3faa66ac7",
       "title": "Notes from the Mistral AI Now Summit in Paris",
       "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
@@ -284,6 +270,20 @@
       ]
     },
     {
+      "id": "7bdfa6f6-ae87-4e50-8d7d-94c7f5610420",
+      "title": "Coreutils for Windows",
+      "url": "https://github.com/microsoft/coreutils",
+      "domain": "github.com",
+      "published_at": "2026-06-02T16:55:11Z",
+      "category": "tech",
+      "score": 0.3426886956457698,
+      "tldr": "Coreutils for Windows",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4b849d40-0de7-4d62-bf8c-e54e74e3a4c3",
       "title": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
       "url": "https://lenz.io/research/llm-disagreement",
@@ -384,6 +384,21 @@
       ]
     },
     {
+      "id": "cef3566c-c5c0-48de-b54b-47b2bba29898",
+      "title": "CLI tool that packages data science projects for LLM context windows",
+      "url": "https://github.com/arianmokhtariha/data2prompt",
+      "domain": "github.com",
+      "published_at": "2026-06-02T17:08:25Z",
+      "category": "tech",
+      "score": 0.32684694026820255,
+      "tldr": "CLI tool that packages data science projects for LLM context windows",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "data",
+        "llm"
+      ]
+    },
+    {
       "id": "fe4dcd6d-24f8-4e23-8ab5-456a2c43530b",
       "title": "Show HN: Promptloop – create, run, and improve prompt evals from the terminal",
       "url": "https://github.com/Bella3202019/promptloop",
@@ -434,6 +449,20 @@
       "category": "tech",
       "score": 0.31062733416552757,
       "tldr": "All of human cooking compressed into 2 megabytes",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "77c33070-fbf0-4e7c-8e98-bcc72a86cff6",
+      "title": "Larry Ellison: \"Citizens will be on their best behavior because we’re recording\"",
+      "url": "https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy",
+      "domain": "techradar.com",
+      "published_at": "2026-06-02T17:34:10Z",
+      "category": "tech",
+      "score": 0.30645259881871717,
+      "tldr": "Larry Ellison: \"Citizens will be on their best behavior because we’re recording\"",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -497,6 +526,20 @@
       ]
     },
     {
+      "id": "048a1565-fae5-48ec-8211-fe82d9ede033",
+      "title": "Love systemd timers",
+      "url": "https://blog.tjll.net/you-dont-love-systemd-timers-enough",
+      "domain": "blog.tjll.net",
+      "published_at": "2026-06-02T09:34:11Z",
+      "category": "tech",
+      "score": 0.29940215584822155,
+      "tldr": "Love systemd timers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b8d24acc-018a-4fad-baa1-e7f9186800fb",
       "title": "Cars collect a startling amount of data about you",
       "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
@@ -519,20 +562,6 @@
       "category": "tech",
       "score": 0.29713377993998846,
       "tldr": "Chuwi Minibook X",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8297dbf5-cb13-4594-96ad-5bf163d70ad3",
-      "title": "That Methyl Methacrylate Tank",
-      "url": "https://www.science.org/content/blog-post/methyl-methacrylate-tank",
-      "domain": "science.org",
-      "published_at": "2026-05-26T19:25:16Z",
-      "category": "tech",
-      "score": 0.29639259518397204,
-      "tldr": "That Methyl Methacrylate Tank",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -906,20 +935,6 @@
       ]
     },
     {
-      "id": "c06919f6-406e-4577-ab8e-10503148fea2",
-      "title": "The real cost of owning a home",
-      "url": "https://ericturner.dev/posts/cost-of-home-ownership",
-      "domain": "ericturner.dev",
-      "published_at": "2026-05-26T16:04:39Z",
-      "category": "tech",
-      "score": 0.2676195382092041,
-      "tldr": "The real cost of owning a home",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "82520c7f-fd3f-472c-ba16-b7cbc0703d0c",
       "title": "Show HN: A CSS 3D Engine (no WebGL)",
       "url": "https://github.com/LayoutitStudio/polycss",
@@ -956,6 +971,20 @@
       "category": "tech",
       "score": 0.2666272866772781,
       "tldr": "Show HN: Posthorn, self-hosted mail without the mail server",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c652cf51-63a0-41ed-96ec-21b5b1ada217",
+      "title": "GitHub Copilot App",
+      "url": "https://github.com/features/preview/github-app",
+      "domain": "github.com",
+      "published_at": "2026-06-02T17:58:55Z",
+      "category": "tech",
+      "score": 0.26615223737172305,
+      "tldr": "GitHub Copilot App",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1014,6 +1043,20 @@
       "score": 0.26451956666248416,
       "tldr": "White House's Aliens. gov Site Brags That ICE Arrested More Than 700 US Citizens",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "488adc2d-cc89-4a81-9b04-7e62af5f2eff",
+      "title": "Three Ways to Get Paid (2018)",
+      "url": "https://jasonzweig.com/three-ways-to-get-paid",
+      "domain": "jasonzweig.com",
+      "published_at": "2026-06-02T17:09:04Z",
+      "category": "tech",
+      "score": 0.2638001284516234,
+      "tldr": "Three Ways to Get Paid (2018)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1174,14 +1217,14 @@
       ]
     },
     {
-      "id": "7741cafc-6860-41da-91d3-b844c895e01b",
-      "title": "AltTab is introducing a Pro version and staying open source",
-      "url": "https://github.com/lwouis/alt-tab-macos/discussions/5533",
+      "id": "a937bf2a-e1d8-4b42-9e15-029a3564612b",
+      "title": "Muxcard, a DIY credit card size computer",
+      "url": "https://github.com/krauseler/muxcard",
       "domain": "github.com",
-      "published_at": "2026-05-26T18:01:35Z",
+      "published_at": "2026-05-31T01:59:06Z",
       "category": "tech",
-      "score": 0.2580718991461821,
-      "tldr": "AltTab is introducing a Pro version and staying open source",
+      "score": 0.2581573116637425,
+      "tldr": "Muxcard, a DIY credit card size computer",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1230,6 +1273,20 @@
       ]
     },
     {
+      "id": "95e28589-8c1b-46be-a3c1-cb80a601b61e",
+      "title": "What Efforts to Cancel Richard Stallman Ought to Teach Us About the Media",
+      "url": "https://techrights.org/n/2026/06/02/What_Efforts_to_Cancel_Richard_Stallman_Ought_to_Teach_Us_About.shtml",
+      "domain": "techrights.org",
+      "published_at": "2026-06-02T18:32:15Z",
+      "category": "tech",
+      "score": 0.2565978064280447,
+      "tldr": "What Efforts to Cancel Richard Stallman Ought to Teach Us About the Media",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "f2d7770a-ff12-47f1-ab3b-8fe1e3aec8f3",
       "title": "Chibil: A C compiler targeting .NET IL",
       "url": "https://github.com/MichalStrehovsky/chibil",
@@ -1238,6 +1295,20 @@
       "category": "tech",
       "score": 0.25656818147118626,
       "tldr": "Chibil: A C compiler targeting .",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c92595cb-546d-4a95-a88d-9e1aa5dcd3ba",
+      "title": "Morningstar values SpaceX at $780B, half its IPO target",
+      "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02",
+      "domain": "reuters.com",
+      "published_at": "2026-06-02T18:09:53Z",
+      "category": "tech",
+      "score": 0.25574580182561557,
+      "tldr": "Morningstar values SpaceX at $780B, half its IPO target",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1328,90 +1399,20 @@
       ]
     },
     {
-      "id": "e49ce727-4f39-45a7-bb67-1fcd6a3721f4",
-      "title": "Endive: A JVM native WebAssembly runtime",
-      "url": "https://github.com/bytecodealliance/endive",
+      "id": "f8c7aace-6c18-461d-be1c-c12aafc9a284",
+      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "url": "https://github.com/s2-streamstore/replaya",
       "domain": "github.com",
-      "published_at": "2026-05-28T16:40:33Z",
+      "published_at": "2026-06-02T17:40:15Z",
       "category": "tech",
-      "score": 0.2537855431993051,
-      "tldr": "Endive: A JVM native WebAssembly runtime",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0abd9453-1243-4eac-a270-31460dbc53c7",
-      "title": "Show HN: VT Code – open-source terminal coding agent in Rust",
-      "url": "https://github.com/vinhnx/VTCode",
-      "domain": "github.com",
-      "published_at": "2026-05-30T03:07:25Z",
-      "category": "tech",
-      "score": 0.2536138961838851,
-      "tldr": "Show HN: VT Code – open-source terminal coding agent in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e5e482b1-78ae-4329-9c75-713a4d0098c4",
-      "title": "Can we have the day off?",
-      "url": "https://mlsu.io/posts/day-off",
-      "domain": "mlsu.io",
-      "published_at": "2026-05-28T00:40:26Z",
-      "category": "tech",
-      "score": 0.25353797460473954,
-      "tldr": "Can we have the day off?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a7ef0cae-4513-4cb7-9aac-41503c802552",
-      "title": "Hackers are now using ChatGPT share links to deliver malware",
-      "url": "https://www.neowin.net/news/hackers-are-now-using-chatgpt-share-links-to-deliver-malware",
-      "domain": "neowin.net",
-      "published_at": "2026-05-29T20:39:23Z",
-      "category": "tech",
-      "score": 0.253286786475637,
-      "tldr": "Hackers are now using ChatGPT share links to deliver malware",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8e6068b4-b5b0-4283-84d2-d70555db1ef9",
-      "title": "A zot extension that makes answering your coding agent's questions painless",
-      "url": "https://github.com/patriceckhart/zot-answer",
-      "domain": "github.com",
-      "published_at": "2026-05-31T12:24:59Z",
-      "category": "tech",
-      "score": 0.2532008692143076,
-      "tldr": "A zot extension that makes answering your coding agent's questions painless",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "09316861-7436-441d-b149-d66a6b94780e",
-      "title": "Show HN: Filemat – an open-source web-based file manager",
-      "url": "https://github.com/bingud/filemat",
-      "domain": "github.com",
-      "published_at": "2026-05-27T14:36:27Z",
-      "category": "tech",
-      "score": 0.25310791418647866,
-      "tldr": "Show HN: Filemat – an open-source web-based file manager",
+      "score": 0.25391884827766686,
+      "tldr": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-06-02T15:56:26.927064288Z",
+  "last_updated": "2026-06-02T19:36:36.691327592Z",
   "total_count": 100
 }
