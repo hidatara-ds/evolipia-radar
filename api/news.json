@@ -57,20 +57,6 @@
       ]
     },
     {
-      "id": "44849dce-a75c-4117-84d3-0a3353bf7ce7",
-      "title": "GitHub Actions was down",
-      "url": "https://www.githubstatus.com/?today=",
-      "domain": "githubstatus.com",
-      "published_at": "2026-05-26T11:42:58Z",
-      "category": "tech",
-      "score": 0.4846760324412784,
-      "tldr": "GitHub Actions was down",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "eaa0da33-650f-4aee-9984-c4e40d8d44b1",
       "title": "Disagreement Among Frontier LLMs on Real-World Fact-Checks",
       "url": "https://lenz.io/research/llm-disagreement",
@@ -136,20 +122,6 @@
       "category": "tech",
       "score": 0.408537802354325,
       "tldr": "A sleep-like consolidation mechanism for LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5636d8f5-603e-4e43-b955-e66f883d610c",
-      "title": "Investigating how prompt politeness affects LLM accuracy (2025)",
-      "url": "https://arxiv.org/abs/2510.04950",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-26T07:43:22Z",
-      "category": "tech",
-      "score": 0.4008673090481451,
-      "tldr": "Investigating how prompt politeness affects LLM accuracy (2025)",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -309,20 +281,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "21e24a9f-ec57-40d9-bbc6-481a64f3ca9e",
-      "title": "GitHub Actions down again today",
-      "url": "https://www.githubstatus.com/?today=",
-      "domain": "githubstatus.com",
-      "published_at": "2026-05-26T11:42:58Z",
-      "category": "tech",
-      "score": 0.3370073283872678,
-      "tldr": "GitHub Actions down again today",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1201,20 +1159,6 @@
       ]
     },
     {
-      "id": "96064a09-de12-4765-ab58-ad708fb8e9bf",
-      "title": "Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team",
-      "url": "https://vllm.ai/blog/2026-05-26-eagle-3-1",
-      "domain": "vllm.ai",
-      "published_at": "2026-05-26T11:46:10Z",
-      "category": "tech",
-      "score": 0.2585431042892302,
-      "tldr": "1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "54281ca3-1f2d-4692-9dba-9bdf3adaa540",
       "title": "Nvidia RTX Spark",
       "url": "https://www.nvidia.com/en-us/products/rtx-spark",
@@ -1409,8 +1353,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "0abd9453-1243-4eac-a270-31460dbc53c7",
+      "title": "Show HN: VT Code – open-source terminal coding agent in Rust",
+      "url": "https://github.com/vinhnx/VTCode",
+      "domain": "github.com",
+      "published_at": "2026-05-30T03:07:25Z",
+      "category": "tech",
+      "score": 0.2536138961838851,
+      "tldr": "Show HN: VT Code – open-source terminal coding agent in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e5e482b1-78ae-4329-9c75-713a4d0098c4",
+      "title": "Can we have the day off?",
+      "url": "https://mlsu.io/posts/day-off",
+      "domain": "mlsu.io",
+      "published_at": "2026-05-28T00:40:26Z",
+      "category": "tech",
+      "score": 0.25353797460473954,
+      "tldr": "Can we have the day off?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a7ef0cae-4513-4cb7-9aac-41503c802552",
+      "title": "Hackers are now using ChatGPT share links to deliver malware",
+      "url": "https://www.neowin.net/news/hackers-are-now-using-chatgpt-share-links-to-deliver-malware",
+      "domain": "neowin.net",
+      "published_at": "2026-05-29T20:39:23Z",
+      "category": "tech",
+      "score": 0.253286786475637,
+      "tldr": "Hackers are now using ChatGPT share links to deliver malware",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8e6068b4-b5b0-4283-84d2-d70555db1ef9",
+      "title": "A zot extension that makes answering your coding agent's questions painless",
+      "url": "https://github.com/patriceckhart/zot-answer",
+      "domain": "github.com",
+      "published_at": "2026-05-31T12:24:59Z",
+      "category": "tech",
+      "score": 0.2532008692143076,
+      "tldr": "A zot extension that makes answering your coding agent's questions painless",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-02T07:16:11.277421345Z",
+  "last_updated": "2026-06-02T11:47:49.119631388Z",
   "total_count": 100
 }
