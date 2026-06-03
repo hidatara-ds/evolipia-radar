@@ -724,20 +724,6 @@
       ]
     },
     {
-      "id": "59d59cc9-f8ce-4049-9588-85e57592483e",
-      "title": "Stripe is friendly to “friendly fraud”",
-      "url": "https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud",
-      "domain": "gingerlime.com",
-      "published_at": "2026-05-27T00:40:05Z",
-      "category": "tech",
-      "score": 0.288131123938302,
-      "tldr": "Stripe is friendly to “friendly fraud”",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "238faa3c-248d-4481-870e-870385cd07d2",
       "title": "Even (very) noisy LLM evaluators are useful for improving AI agents",
       "url": "https://www.tensorzero.com/blog/even-very-noisy-llm-evaluators-are-useful-for-improving-ai-agents",
@@ -862,20 +848,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "678214a7-4cea-48cf-b281-203c1d03bf5f",
-      "title": "Show HN: Posthorn, self-hosted mail gateway",
-      "url": "https://github.com/craigmccaskill/posthorn",
-      "domain": "github.com",
-      "published_at": "2026-05-27T04:26:26Z",
-      "category": "tech",
-      "score": 0.27586804331366965,
-      "tldr": "Show HN: Posthorn, self-hosted mail gateway",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1013,20 +985,6 @@
       "category": "tech",
       "score": 0.26704539604393795,
       "tldr": "What Is a Dickover?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2327e08c-4ecb-447b-b185-d869811bbbe3",
-      "title": "Show HN: Posthorn, self-hosted mail without the mail server",
-      "url": "https://github.com/craigmccaskill/posthorn",
-      "domain": "github.com",
-      "published_at": "2026-05-27T04:26:26Z",
-      "category": "tech",
-      "score": 0.2666272866772781,
-      "tldr": "Show HN: Posthorn, self-hosted mail without the mail server",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1259,6 +1217,20 @@
       ]
     },
     {
+      "id": "59170251-044f-4793-85ba-6f6020974fe0",
+      "title": "AI outperforms law professors in Stanford Law study",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study",
+      "domain": "law.stanford.edu",
+      "published_at": "2026-06-02T23:43:12Z",
+      "category": "tech",
+      "score": 0.2592863414963339,
+      "tldr": "AI outperforms law professors in Stanford Law study",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "54281ca3-1f2d-4692-9dba-9bdf3adaa540",
       "title": "Nvidia RTX Spark",
       "url": "https://www.nvidia.com/en-us/products/rtx-spark",
@@ -1411,8 +1383,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "275a5315-daa3-4ad9-9127-587e7649ce27",
+      "title": "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal",
+      "url": "https://github.com/marekkowalczyk/breathe-cli",
+      "domain": "github.com",
+      "published_at": "2026-05-30T20:30:53Z",
+      "category": "tech",
+      "score": 0.2553316650689388,
+      "tldr": "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2b23ea71-5bc4-4041-bf25-6c5ce9deb8c0",
+      "title": "Python utility package for building Claude Code hooks",
+      "url": "https://github.com/RasmusGodske/claude-hook-utils",
+      "domain": "github.com",
+      "published_at": "2026-05-29T04:18:34Z",
+      "category": "tech",
+      "score": 0.25470503319872634,
+      "tldr": "Python utility package for building Claude Code hooks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-03T00:09:02.830380254Z",
+  "last_updated": "2026-06-03T05:23:57.73948395Z",
   "total_count": 100
 }
