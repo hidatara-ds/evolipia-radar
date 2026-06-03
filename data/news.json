@@ -228,6 +228,20 @@
       ]
     },
     {
+      "id": "7d4b18ec-397e-4302-a54c-e618e9670c24",
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b",
+      "domain": "blog.google",
+      "published_at": "2026-06-03T16:04:42Z",
+      "category": "tech",
+      "score": 0.3660149117140699,
+      "tldr": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f0923285-dc18-4e62-910f-70fca72d33c5",
       "title": "A 10 year old Xeon is all you need",
       "url": "https://point.free/blog/gemma-4-on-a-2016-xeon",
@@ -324,20 +338,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "0e9ef3f1-12a8-46ef-a67f-f7f93b8e11af",
-      "title": "Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction",
-      "url": "https://arxiv.org/abs/2605.21779",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-27T17:42:24Z",
-      "category": "tech",
-      "score": 0.3317391900408971,
-      "tldr": "Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -539,20 +539,6 @@
       ]
     },
     {
-      "id": "1cbf772f-dd3f-46e3-a7fc-4fb9fa5dfe2f",
-      "title": "Last.fm is now independent",
-      "url": "https://support.last.fm/t/last-fm-is-now-independent/118591",
-      "domain": "support.last.fm",
-      "published_at": "2026-05-27T15:36:09Z",
-      "category": "tech",
-      "score": 0.30453184703128067,
-      "tldr": "fm is now independent",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b5e74cff-b2ae-4529-a61d-07db5a76787d",
       "title": "Reconciling Kubernetes cost estimates with CUR / FOCUS billing data",
       "url": "https://github.com/tanrikuluozlem/burn",
@@ -565,20 +551,6 @@
       "tags": [
         "data",
         "mlops"
-      ]
-    },
-    {
-      "id": "82894f37-8e0a-423c-a119-9accc4ef0102",
-      "title": "Valve raises Steam Deck prices",
-      "url": "https://www.theverge.com/games/938340/valve-steam-deck-price-increase",
-      "domain": "theverge.com",
-      "published_at": "2026-05-27T17:58:47Z",
-      "category": "tech",
-      "score": 0.29995050771026605,
-      "tldr": "Valve raises Steam Deck prices",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -906,20 +878,6 @@
       ]
     },
     {
-      "id": "61bb5719-c97d-440a-a298-109ca0661109",
-      "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
-      "url": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https",
-      "domain": "brennan.day",
-      "published_at": "2026-05-27T17:24:25Z",
-      "category": "tech",
-      "score": 0.26870884202225387,
-      "tldr": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "93a4ce6e-ddc3-4455-bec3-25bdef747296",
       "title": "Voxel Space (2017)",
       "url": "https://s-macke.github.io/VoxelSpace",
@@ -928,6 +886,20 @@
       "category": "tech",
       "score": 0.26800689204810224,
       "tldr": "Voxel Space (2017)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cf10e206-a3c4-4509-95d0-d8a44762b3a7",
+      "title": "Gooey: A GPU-accelerated UI framework for Zig",
+      "url": "https://github.com/duanebester/gooey",
+      "domain": "github.com",
+      "published_at": "2026-06-03T17:12:27Z",
+      "category": "tech",
+      "score": 0.2677026436022969,
+      "tldr": "Gooey: A GPU-accelerated UI framework for Zig",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1061,20 +1033,6 @@
       ]
     },
     {
-      "id": "798d77b9-c2a5-41d1-be6f-ba56b1022dcc",
-      "title": "Training our own AI models",
-      "url": "https://posthog.com/blog/training-ai-models",
-      "domain": "posthog.com",
-      "published_at": "2026-05-27T16:08:42Z",
-      "category": "tech",
-      "score": 0.261731978174882,
-      "tldr": "Training our own AI models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4e3ee88a-40f7-4d9e-938e-524a28d58f2e",
       "title": "OpenAI frontier models and Codex are now available on AWS",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
@@ -1104,6 +1062,20 @@
       ]
     },
     {
+      "id": "24a975e6-b5a3-4bfe-8699-0528c1f02094",
+      "title": "The Public Should Own Half of the Big A.I. Companies",
+      "url": "https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies",
+      "domain": "sanders.senate.gov",
+      "published_at": "2026-06-03T16:58:39Z",
+      "category": "tech",
+      "score": 0.26142381328443137,
+      "tldr": "The Public Should Own Half of the Big A.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "00effa85-03a2-416a-8d02-4cce44f1d341",
       "title": "EY Canada published a cybersecurity report and most citations were hallucinated",
       "url": "https://gptzero.me/investigations/ey",
@@ -1126,20 +1098,6 @@
       "category": "tech",
       "score": 0.26132883844885807,
       "tldr": "Odysseus – self-hosted AI workspace",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8574c97e-2806-4caa-8bd1-fb76b7cf2460",
-      "title": "Tech CEOs are apparently suffering from AI psychosis",
-      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
-      "domain": "techcrunch.com",
-      "published_at": "2026-05-27T15:20:47Z",
-      "category": "tech",
-      "score": 0.26098770713725367,
-      "tldr": "Tech CEOs are apparently suffering from AI psychosis",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1202,6 +1160,20 @@
       ]
     },
     {
+      "id": "7eab7082-33c0-4ca4-a7a5-fc25cc6b8686",
+      "title": "Show HN: Rscrypto, pure-Rust crypto with industry leading public benches",
+      "url": "https://github.com/loadingalias/rscrypto",
+      "domain": "github.com",
+      "published_at": "2026-06-03T16:41:14Z",
+      "category": "tech",
+      "score": 0.2581548016296175,
+      "tldr": "Show HN: Rscrypto, pure-Rust crypto with industry leading public benches",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "82b4c1ba-e7e6-4012-914b-99506bb5472c",
       "title": "Biff is a command line datetime Swiss army knife",
       "url": "https://github.com/BurntSushi/biff",
@@ -1230,20 +1202,6 @@
       ]
     },
     {
-      "id": "828472fb-64a4-4061-a297-311ff2473f46",
-      "title": "Stress disrupts hippocampal integration of overlapping events, memory inference",
-      "url": "https://www.science.org/doi/10.1126/sciadv.aea5496?user_id=66c4bf745d78644b3aa57b08",
-      "domain": "science.org",
-      "published_at": "2026-05-27T16:26:31Z",
-      "category": "tech",
-      "score": 0.2572307157179137,
-      "tldr": "Stress disrupts hippocampal integration of overlapping events, memory inference",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "95e28589-8c1b-46be-a3c1-cb80a601b61e",
       "title": "What Efforts to Cancel Richard Stallman Ought to Teach Us About the Media",
       "url": "https://techrights.org/n/2026/06/02/What_Efforts_to_Cancel_Richard_Stallman_Ought_to_Teach_Us_About.shtml",
@@ -1266,6 +1224,20 @@
       "category": "tech",
       "score": 0.25656818147118626,
       "tldr": "Chibil: A C compiler targeting .",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3eae6bc9-52d0-4f77-8c44-e598c9587267",
+      "title": "Show HN: Ideogram 4.0 – open-weight 9.3B text-to-image model",
+      "url": "https://github.com/ideogram-oss/ideogram4",
+      "domain": "github.com",
+      "published_at": "2026-06-03T16:00:09Z",
+      "category": "tech",
+      "score": 0.25640285518612543,
+      "tldr": "3B text-to-image model",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1410,8 +1382,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "0abd9453-1243-4eac-a270-31460dbc53c7",
+      "title": "Show HN: VT Code – open-source terminal coding agent in Rust",
+      "url": "https://github.com/vinhnx/VTCode",
+      "domain": "github.com",
+      "published_at": "2026-05-30T03:07:25Z",
+      "category": "tech",
+      "score": 0.2536138961838851,
+      "tldr": "Show HN: VT Code – open-source terminal coding agent in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e5e482b1-78ae-4329-9c75-713a4d0098c4",
+      "title": "Can we have the day off?",
+      "url": "https://mlsu.io/posts/day-off",
+      "domain": "mlsu.io",
+      "published_at": "2026-05-28T00:40:26Z",
+      "category": "tech",
+      "score": 0.25353797460473954,
+      "tldr": "Can we have the day off?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-03T15:11:49.631823661Z",
+  "last_updated": "2026-06-03T19:04:24.72717325Z",
   "total_count": 100
 }
