@@ -483,20 +483,6 @@
       ]
     },
     {
-      "id": "dc94a449-db14-4f7f-84dc-5aa46b18cd14",
-      "title": "All of human cooking compressed into 2 megabytes",
-      "url": "https://arxiv.org/abs/2605.22391",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-27T08:14:40Z",
-      "category": "tech",
-      "score": 0.31062733416552757,
-      "tldr": "All of human cooking compressed into 2 megabytes",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "77c33070-fbf0-4e7c-8e98-bcc72a86cff6",
       "title": "Larry Ellison: \"Citizens will be on their best behavior because we’re recording\"",
       "url": "https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy",
@@ -724,21 +710,6 @@
       ]
     },
     {
-      "id": "238faa3c-248d-4481-870e-870385cd07d2",
-      "title": "Even (very) noisy LLM evaluators are useful for improving AI agents",
-      "url": "https://www.tensorzero.com/blog/even-very-noisy-llm-evaluators-are-useful-for-improving-ai-agents",
-      "domain": "tensorzero.com",
-      "published_at": "2026-05-27T07:49:56Z",
-      "category": "tech",
-      "score": 0.2872972211397546,
-      "tldr": "Even (very) noisy LLM evaluators are useful for improving AI agents",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "45b38f0c-e221-4f1e-908d-ecb378722a75",
       "title": "Show HN: AISlop, a CLI for catching AI generated code smells",
       "url": "https://github.com/scanaislop/aislop",
@@ -803,20 +774,6 @@
       "category": "tech",
       "score": 0.2823934046504588,
       "tldr": "Linux Basics for Hackers (2019)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dc938f90-cbf2-4fde-a819-6a7a53f09f47",
-      "title": "Go: Support for Generic Methods",
-      "url": "https://github.com/golang/go/issues/77273",
-      "domain": "github.com",
-      "published_at": "2026-05-27T09:02:59Z",
-      "category": "tech",
-      "score": 0.28152744831140886,
-      "tldr": "Go: Support for Generic Methods",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,8 +1368,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "17e2cdaf-255f-4564-9667-100ed2d20da0",
+      "title": "Show HN: Paseo – Beautiful open-source coding agent interface",
+      "url": "https://github.com/getpaseo/paseo",
+      "domain": "github.com",
+      "published_at": "2026-06-02T22:34:42Z",
+      "category": "tech",
+      "score": 0.2546897563556167,
+      "tldr": "Show HN: Paseo – Beautiful open-source coding agent interface",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "93385972-eecf-4233-b11f-8bbb5bda5b3b",
+      "title": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
+      "url": "https://github.com/HeidiSQL/HeidiSQL",
+      "domain": "github.com",
+      "published_at": "2026-05-29T03:14:39Z",
+      "category": "tech",
+      "score": 0.2542959722129413,
+      "tldr": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f8c7aace-6c18-461d-be1c-c12aafc9a284",
+      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "url": "https://github.com/s2-streamstore/replaya",
+      "domain": "github.com",
+      "published_at": "2026-06-02T17:40:15Z",
+      "category": "tech",
+      "score": 0.25391884827766686,
+      "tldr": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-03T05:23:57.73948395Z",
+  "last_updated": "2026-06-03T10:15:56.381174613Z",
   "total_count": 100
 }
