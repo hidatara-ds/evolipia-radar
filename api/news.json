@@ -271,6 +271,20 @@
       ]
     },
     {
+      "id": "d66be276-c35f-4ca1-a778-7ac9f6f00a4c",
+      "title": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse",
+      "url": "https://e360.yale.edu/digest/trump-ooi-amoc",
+      "domain": "e360.yale.edu",
+      "published_at": "2026-06-04T00:44:13Z",
+      "category": "tech",
+      "score": 0.35943929447668777,
+      "tldr": "to dismantle system tracking Atlantic currents that are at risk of collapse",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f0923285-dc18-4e62-910f-70fca72d33c5",
       "title": "A 10 year old Xeon is all you need",
       "url": "https://point.free/blog/gemma-4-on-a-2016-xeon",
@@ -540,20 +554,6 @@
       ]
     },
     {
-      "id": "aefb7d69-f8e4-4edb-8278-35633c0fbf42",
-      "title": "Show HN: Hallucinate – Massively Multiplayer Online Rave",
-      "url": "https://hallucinate.site",
-      "domain": "hallucinate.site",
-      "published_at": "2026-05-28T03:50:01Z",
-      "category": "tech",
-      "score": 0.31380066847698634,
-      "tldr": "Show HN: Hallucinate – Massively Multiplayer Online Rave",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "77c33070-fbf0-4e7c-8e98-bcc72a86cff6",
       "title": "Larry Ellison: \"Citizens will be on their best behavior because we’re recording\"",
       "url": "https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy",
@@ -565,6 +565,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "5fddd2c1-6690-4d0c-8193-ad950683c71c",
+      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app",
+      "domain": "kasra.blog",
+      "published_at": "2026-06-04T00:56:32Z",
+      "category": "tech",
+      "score": 0.30408790247361417,
+      "tldr": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -666,20 +680,6 @@
       "tags": [
         "llm",
         "data"
-      ]
-    },
-    {
-      "id": "741d2eb7-c561-4008-9f18-01936e849e96",
-      "title": "Bttf is a command line datetime Swiss army knife",
-      "url": "https://github.com/BurntSushi/bttf",
-      "domain": "github.com",
-      "published_at": "2026-05-28T02:58:44Z",
-      "category": "tech",
-      "score": 0.29446022120139315,
-      "tldr": "Bttf is a command line datetime Swiss army knife",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1063,6 +1063,20 @@
       ]
     },
     {
+      "id": "0cb93e5d-016f-44c9-9a46-3b2c7eb2df56",
+      "title": "\"They're made out of weights\"",
+      "url": "https://maxleiter.com/blog/weights",
+      "domain": "maxleiter.com",
+      "published_at": "2026-06-03T23:37:18Z",
+      "category": "tech",
+      "score": 0.26340105281358694,
+      "tldr": "\"They're made out of weights\"",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4e78e8d4-c2d5-438d-869e-5cd76493b56c",
       "title": "A pictorial introduction to differential geometry (2017)",
       "url": "https://arxiv.org/abs/1709.08492",
@@ -1212,20 +1226,6 @@
       "category": "tech",
       "score": 0.2581548016296175,
       "tldr": "Show HN: Rscrypto, pure-Rust crypto with industry leading public benches",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "82b4c1ba-e7e6-4012-914b-99506bb5472c",
-      "title": "Biff is a command line datetime Swiss army knife",
-      "url": "https://github.com/BurntSushi/biff",
-      "domain": "github.com",
-      "published_at": "2026-05-28T02:58:44Z",
-      "category": "tech",
-      "score": 0.2577582566737759,
-      "tldr": "Biff is a command line datetime Swiss army knife",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1414,6 +1414,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-04T00:11:21.612251015Z",
+  "last_updated": "2026-06-04T05:17:49.180136892Z",
   "total_count": 100
 }
