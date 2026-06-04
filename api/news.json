@@ -57,20 +57,6 @@
       ]
     },
     {
-      "id": "eaa0da33-650f-4aee-9984-c4e40d8d44b1",
-      "title": "Disagreement Among Frontier LLMs on Real-World Fact-Checks",
-      "url": "https://lenz.io/research/llm-disagreement",
-      "domain": "lenz.io",
-      "published_at": "2026-05-28T12:20:19Z",
-      "category": "tech",
-      "score": 0.48254828494070656,
-      "tldr": "Disagreement Among Frontier LLMs on Real-World Fact-Checks",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "03c3960f-2973-4fa5-afe4-9d495720cbe9",
       "title": "The newest Instagram “exploit” is the goofiest I've seen",
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
@@ -380,21 +366,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "4b849d40-0de7-4d62-bf8c-e54e74e3a4c3",
-      "title": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
-      "url": "https://lenz.io/research/llm-disagreement",
-      "domain": "lenz.io",
-      "published_at": "2026-05-28T12:20:19Z",
-      "category": "tech",
-      "score": 0.3375560314321162,
-      "tldr": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -1412,8 +1383,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "93385972-eecf-4233-b11f-8bbb5bda5b3b",
+      "title": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
+      "url": "https://github.com/HeidiSQL/HeidiSQL",
+      "domain": "github.com",
+      "published_at": "2026-05-29T03:14:39Z",
+      "category": "tech",
+      "score": 0.2542959722129413,
+      "tldr": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f8c7aace-6c18-461d-be1c-c12aafc9a284",
+      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "url": "https://github.com/s2-streamstore/replaya",
+      "domain": "github.com",
+      "published_at": "2026-06-02T17:40:15Z",
+      "category": "tech",
+      "score": 0.25391884827766686,
+      "tldr": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-04T09:07:54.559479393Z",
+  "last_updated": "2026-06-04T12:25:22.939678169Z",
   "total_count": 100
 }
