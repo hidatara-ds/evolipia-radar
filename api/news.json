@@ -299,6 +299,20 @@
       ]
     },
     {
+      "id": "56bf8e01-20c5-44cc-83d0-28f58205fbf4",
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "domain": "github.com",
+      "published_at": "2026-06-04T15:18:00Z",
+      "category": "tech",
+      "score": 0.3530675409204437,
+      "tldr": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "69cdbbf2-4ca2-41a0-abb1-56c32094560f",
       "title": "Please Do Not Vibe Fuck Up This Software",
       "url": "https://github.com/RsyncProject/rsync/issues/929",
@@ -468,6 +482,20 @@
       ]
     },
     {
+      "id": "7915d144-fb5a-4521-a2a0-6ab2c1009b34",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "domain": "openai.com",
+      "published_at": "2026-06-04T16:04:30Z",
+      "category": "tech",
+      "score": 0.3269771103133957,
+      "tldr": "Dreaming: Better memory for a more helpful ChatGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "cef3566c-c5c0-48de-b54b-47b2bba29898",
       "title": "CLI tool that packages data science projects for LLM context windows",
       "url": "https://github.com/arianmokhtariha/data2prompt",
@@ -580,6 +608,20 @@
       "tags": [
         "data",
         "mlops"
+      ]
+    },
+    {
+      "id": "c3ac4595-33ca-4f4d-81d6-57a38f3f6557",
+      "title": "The LLM warnings Google fired Timnit Gebru over have all come true",
+      "url": "https://www.tumblr.com/dreaminginthedeepsouth/817865966907228160/darren-oconnor-timnit-gebru-was-fired-from",
+      "domain": "tumblr.com",
+      "published_at": "2026-06-04T15:34:43Z",
+      "category": "tech",
+      "score": 0.30042132660890886,
+      "tldr": "The LLM warnings Google fired Timnit Gebru over have all come true",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1369,50 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
-      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
-      "domain": "research.nvidia.com",
-      "published_at": "2026-06-04T13:06:01Z",
-      "category": "tech",
-      "score": 0.25444301049905327,
-      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "93385972-eecf-4233-b11f-8bbb5bda5b3b",
-      "title": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
-      "url": "https://github.com/HeidiSQL/HeidiSQL",
-      "domain": "github.com",
-      "published_at": "2026-05-29T03:14:39Z",
-      "category": "tech",
-      "score": 0.2542959722129413,
-      "tldr": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f8c7aace-6c18-461d-be1c-c12aafc9a284",
-      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
-      "url": "https://github.com/s2-streamstore/replaya",
-      "domain": "github.com",
-      "published_at": "2026-06-02T17:40:15Z",
-      "category": "tech",
-      "score": 0.25391884827766686,
-      "tldr": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-04T15:53:24.938584324Z",
+  "last_updated": "2026-06-04T18:08:10.824137054Z",
   "total_count": 100
 }
