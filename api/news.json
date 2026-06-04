@@ -71,6 +71,20 @@
       ]
     },
     {
+      "id": "4098e248-e97b-4824-9cea-c3265d2add31",
+      "title": "Artificial intelligence is not conscious",
+      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378",
+      "domain": "theatlantic.com",
+      "published_at": "2026-06-03T17:51:37Z",
+      "category": "tech",
+      "score": 0.47301948999073146,
+      "tldr": "Artificial intelligence is not conscious",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "94e167e2-6b93-44c7-a58b-9b14edd846a2",
       "title": "They’re made out of weights",
       "url": "https://maxleiter.com/blog/weights",
@@ -157,20 +171,6 @@
       ]
     },
     {
-      "id": "f4a83768-de01-4d8a-9b79-f7f85f3e267f",
-      "title": "Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM",
-      "url": "https://www.latimes.com/california/story/2026-05-27/uc-math-professors-demand-return-of-sat-for-stem-admissions",
-      "domain": "latimes.com",
-      "published_at": "2026-05-28T14:13:00Z",
-      "category": "tech",
-      "score": 0.38430755213925777,
-      "tldr": "Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d6499f40-d948-4705-8bc7-3a399dc2574c",
       "title": "NPM packages from RedHat have been compromised",
       "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
@@ -211,20 +211,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "24a85f8b-9398-4163-aee9-0b9fde6a77e2",
-      "title": "Show HN: Beacon CLI for self-hosted monitoring, remote access and deployments",
-      "url": "https://github.com/Bajusz15/beacon",
-      "domain": "github.com",
-      "published_at": "2026-05-28T14:12:32Z",
-      "category": "tech",
-      "score": 0.37612655834765957,
-      "tldr": "Show HN: Beacon CLI for self-hosted monitoring, remote access and deployments",
-      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
-      "tags": [
-        "mlops"
       ]
     },
     {
@@ -440,17 +426,17 @@
       ]
     },
     {
-      "id": "0598a75a-768f-4672-81b1-d8ff23df64c4",
-      "title": "New York passes pied-a-terre tax",
-      "url": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-05-28T14:37:51Z",
+      "id": "9c1ab02f-8ce3-4e29-a124-36fe8ae811e6",
+      "title": "KVarN: Native vLLM KV-cache quantization back end by Huawei",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "domain": "github.com",
+      "published_at": "2026-06-04T15:18:00Z",
       "category": "tech",
-      "score": 0.3277483636869264,
-      "tldr": "New York passes pied-a-terre tax",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.32831916575262476,
+      "tldr": "KVarN: Native vLLM KV-cache quantization back end by Huawei",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "general_ai"
+        "llm"
       ]
     },
     {
@@ -724,6 +710,20 @@
       ]
     },
     {
+      "id": "b1eba146-3e7b-4d9c-b73a-9141cfc4fbe2",
+      "title": "VoidZero Is Joining Cloudflare",
+      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare",
+      "domain": "blog.cloudflare.com",
+      "published_at": "2026-06-04T13:00:51Z",
+      "category": "tech",
+      "score": 0.28847535092356635,
+      "tldr": "VoidZero Is Joining Cloudflare",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud"
+      ]
+    },
+    {
       "id": "67888f29-28f5-41f9-96a9-f6131f786b8c",
       "title": "API Drift Detection: Catch Breaking Changes Before They Reach Production",
       "url": "https://apiguard.co/blog/api-drift-detection-guide",
@@ -879,20 +879,6 @@
       ]
     },
     {
-      "id": "145c529a-995f-43ce-b097-7fd4adc554a5",
-      "title": "New York Passes Tax on the Ultra-Wealthy",
-      "url": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-05-28T14:37:51Z",
-      "category": "tech",
-      "score": 0.27066576578097246,
-      "tldr": "New York Passes Tax on the Ultra-Wealthy",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "722c6c3d-18c5-40f9-809c-69e9ba488d64",
       "title": "Rift: Better Alternative to Git Worktrees",
       "url": "https://github.com/anomalyco/rift",
@@ -991,20 +977,6 @@
       ]
     },
     {
-      "id": "0f485043-42ab-43d1-9278-ffd098873c0b",
-      "title": "Creusot helps you prove your Rust code is correct",
-      "url": "https://github.com/creusot-rs/creusot/tree/master",
-      "domain": "github.com",
-      "published_at": "2026-05-28T14:42:04Z",
-      "category": "tech",
-      "score": 0.26558029856235776,
-      "tldr": "Creusot helps you prove your Rust code is correct",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ecccd4ad-8fa2-4a52-85c2-f9d2eacc0d73",
       "title": "CS336: Language Modeling from Scratch",
       "url": "https://cs336.stanford.edu/",
@@ -1070,6 +1042,20 @@
       "category": "tech",
       "score": 0.2625888881289676,
       "tldr": "A pictorial introduction to differential geometry (2017)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "027c9943-e24e-43a5-97bf-ffc628857fb1",
+      "title": "Ian's Secure Shoelace Knot",
+      "url": "https://www.fieggen.com/shoelace/secureknot.htm",
+      "domain": "fieggen.com",
+      "published_at": "2026-06-04T11:17:34Z",
+      "category": "tech",
+      "score": 0.26233067350950134,
+      "tldr": "Ian's Secure Shoelace Knot",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1385,6 +1371,20 @@
       ]
     },
     {
+      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
+      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
+      "domain": "research.nvidia.com",
+      "published_at": "2026-06-04T13:06:01Z",
+      "category": "tech",
+      "score": 0.25444301049905327,
+      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "93385972-eecf-4233-b11f-8bbb5bda5b3b",
       "title": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
       "url": "https://github.com/HeidiSQL/HeidiSQL",
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-04T12:25:22.939678169Z",
+  "last_updated": "2026-06-04T15:53:24.938584324Z",
   "total_count": 100
 }
