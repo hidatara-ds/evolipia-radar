@@ -383,6 +383,20 @@
       ]
     },
     {
+      "id": "33b58639-1c9a-402e-bada-fe1643fc566b",
+      "title": "Do Transformers Need Three Projections? Systematic Study of QKV Variants",
+      "url": "https://arxiv.org/abs/2606.04032",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-04T23:11:56Z",
+      "category": "tech",
+      "score": 0.3383564329263884,
+      "tldr": "Do Transformers Need Three Projections? Systematic Study of QKV Variants",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a98992c7-451d-4544-ac72-75b9531b6173",
       "title": "Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb",
@@ -1034,6 +1048,20 @@
       ]
     },
     {
+      "id": "2241c427-6e63-4bef-8c78-46ae9dfbbea4",
+      "title": "Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed",
+      "url": "https://github.com/schildep/verified-polygon-intersection",
+      "domain": "github.com",
+      "published_at": "2026-06-04T22:06:18Z",
+      "category": "tech",
+      "score": 0.2638233560977696,
+      "tldr": "Show HN: Formally verified polygon intersection – Opus 4. 8 oneshots, prev failed",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "488adc2d-cc89-4a81-9b04-7e62af5f2eff",
       "title": "Three Ways to Get Paid (2018)",
       "url": "https://jasonzweig.com/three-ways-to-get-paid",
@@ -1383,36 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2b23ea71-5bc4-4041-bf25-6c5ce9deb8c0",
-      "title": "Python utility package for building Claude Code hooks",
-      "url": "https://github.com/RasmusGodske/claude-hook-utils",
-      "domain": "github.com",
-      "published_at": "2026-05-29T04:18:34Z",
-      "category": "tech",
-      "score": 0.25470503319872634,
-      "tldr": "Python utility package for building Claude Code hooks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "17e2cdaf-255f-4564-9667-100ed2d20da0",
-      "title": "Show HN: Paseo – Beautiful open-source coding agent interface",
-      "url": "https://github.com/getpaseo/paseo",
-      "domain": "github.com",
-      "published_at": "2026-06-02T22:34:42Z",
-      "category": "tech",
-      "score": 0.2546897563556167,
-      "tldr": "Show HN: Paseo – Beautiful open-source coding agent interface",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-04T22:03:12.394049682Z",
+  "last_updated": "2026-06-04T23:42:55.682093355Z",
   "total_count": 100
 }
