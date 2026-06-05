@@ -539,20 +539,6 @@
       ]
     },
     {
-      "id": "00491625-1e5c-4622-a8f3-71ea0dfa9942",
-      "title": "Volkswagen blocks Home Assistant by requiring client assertion",
-      "url": "https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967",
-      "domain": "github.com",
-      "published_at": "2026-05-29T05:45:36Z",
-      "category": "tech",
-      "score": 0.3219879932213544,
-      "tldr": "Volkswagen blocks Home Assistant by requiring client assertion",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "305a0302-560d-4ce6-9f1f-fb7313774643",
       "title": "MAI-Code-1-Flash",
       "url": "https://microsoft.ai/news/introducingmai-code-1-flash",
@@ -650,20 +636,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "b8d24acc-018a-4fad-baa1-e7f9186800fb",
-      "title": "Cars collect a startling amount of data about you",
-      "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
-      "domain": "bbc.com",
-      "published_at": "2026-05-29T03:01:00Z",
-      "category": "tech",
-      "score": 0.2984347378359161,
-      "tldr": "Cars collect a startling amount of data about you",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
       ]
     },
     {
@@ -859,20 +831,6 @@
       "category": "tech",
       "score": 0.2747641571607415,
       "tldr": "Use your Nvidia GPU's VRAM as swap space on Linux",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5363febd-55bf-4305-89b2-555e442c41f6",
-      "title": "Cars are trying to spy on you, and it's only just the beginning",
-      "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
-      "domain": "bbc.com",
-      "published_at": "2026-05-29T03:01:00Z",
-      "category": "tech",
-      "score": 0.2746490484850769,
-      "tldr": "Cars are trying to spy on you, and it's only just the beginning",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,8 +1369,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e91f1e95-1bb0-462e-88cc-4fe8e4f41400",
+      "title": "Castor: CERN Advanced STORage Manager",
+      "url": "https://castor.web.cern.ch/content/home.html",
+      "domain": "castor.web.cern.ch",
+      "published_at": "2026-06-04T19:52:02Z",
+      "category": "tech",
+      "score": 0.25482121110342654,
+      "tldr": "Castor: CERN Advanced STORage Manager",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "17e2cdaf-255f-4564-9667-100ed2d20da0",
+      "title": "Show HN: Paseo – Beautiful open-source coding agent interface",
+      "url": "https://github.com/getpaseo/paseo",
+      "domain": "github.com",
+      "published_at": "2026-06-02T22:34:42Z",
+      "category": "tech",
+      "score": 0.2546897563556167,
+      "tldr": "Show HN: Paseo – Beautiful open-source coding agent interface",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "df971cd0-661d-46c0-b63b-4d0675d39fe0",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "domain": "openai.com",
+      "published_at": "2026-06-03T17:50:05Z",
+      "category": "tech",
+      "score": 0.25467381505326253,
+      "tldr": "A blueprint for democratic governance of frontier AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-05T02:08:39.783121286Z",
+  "last_updated": "2026-06-05T06:48:01.563238535Z",
   "total_count": 100
 }
