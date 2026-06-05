@@ -367,6 +367,20 @@
       ]
     },
     {
+      "id": "79830110-e977-4caa-a4bc-a309b3f99ebe",
+      "title": "Conventional Commits encourages focus on the wrong things",
+      "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits",
+      "domain": "sumnerevans.com",
+      "published_at": "2026-06-05T15:39:38Z",
+      "category": "tech",
+      "score": 0.32940596074868717,
+      "tldr": "Conventional Commits encourages focus on the wrong things",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d674e116-117b-497d-8d0d-e3c683642174",
       "title": "AI Agent Guidelines for CS336 at Stanford",
       "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
@@ -535,21 +549,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "b5e74cff-b2ae-4529-a61d-07db5a76787d",
-      "title": "Reconciling Kubernetes cost estimates with CUR / FOCUS billing data",
-      "url": "https://github.com/tanrikuluozlem/burn",
-      "domain": "github.com",
-      "published_at": "2026-05-29T17:06:10Z",
-      "category": "tech",
-      "score": 0.30063690121346137,
-      "tldr": "Reconciling Kubernetes cost estimates with CUR / FOCUS billing data",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data",
-        "mlops"
       ]
     },
     {
@@ -1411,6 +1410,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-05T16:25:38.402946804Z",
+  "last_updated": "2026-06-05T18:19:48.545426976Z",
   "total_count": 100
 }
