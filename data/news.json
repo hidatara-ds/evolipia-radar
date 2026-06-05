@@ -299,20 +299,6 @@
       ]
     },
     {
-      "id": "41d2e64b-509a-4f53-8548-85a2672e74cb",
-      "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
-      "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request",
-      "domain": "blog.kog.ai",
-      "published_at": "2026-05-29T09:47:23Z",
-      "category": "tech",
-      "score": 0.35323994504473727,
-      "tldr": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "56bf8e01-20c5-44cc-83d0-28f58205fbf4",
       "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
       "url": "https://github.com/huawei-csl/KVarN",
@@ -533,6 +519,20 @@
       "category": "tech",
       "score": 0.3257491749030499,
       "tldr": "Show HN: Promptloop – create, run, and improve prompt evals from the terminal",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "90bca759-0b99-4e2d-b68b-9b1d7d4670c9",
+      "title": "Changing How We Develop Ladybird",
+      "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird",
+      "domain": "ladybird.org",
+      "published_at": "2026-06-05T07:26:33Z",
+      "category": "tech",
+      "score": 0.321404890100751,
+      "tldr": "Changing How We Develop Ladybird",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -851,6 +851,20 @@
       ]
     },
     {
+      "id": "0410d042-6a5e-4f94-84ab-f9e44c2a0859",
+      "title": "Tracing a powerful GNSS interference source over Europe",
+      "url": "https://arxiv.org/abs/2606.03673",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-05T08:32:16Z",
+      "category": "tech",
+      "score": 0.2704715863118932,
+      "tldr": "Tracing a powerful GNSS interference source over Europe",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "722c6c3d-18c5-40f9-809c-69e9ba488d64",
       "title": "Rift: Better Alternative to Git Worktrees",
       "url": "https://github.com/anomalyco/rift",
@@ -943,6 +957,20 @@
       "category": "tech",
       "score": 0.26672514064472647,
       "tldr": "Open Code Review – An AI-powered code review CLI tool",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d65868b4-4a49-4bd5-8149-aead06d5ee0d",
+      "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
+      "url": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+      "domain": "github.com",
+      "published_at": "2026-06-05T07:40:04Z",
+      "category": "tech",
+      "score": 0.26634724167969026,
+      "tldr": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1371,48 +1399,20 @@
       ]
     },
     {
-      "id": "e91f1e95-1bb0-462e-88cc-4fe8e4f41400",
-      "title": "Castor: CERN Advanced STORage Manager",
-      "url": "https://castor.web.cern.ch/content/home.html",
-      "domain": "castor.web.cern.ch",
-      "published_at": "2026-06-04T19:52:02Z",
+      "id": "a889a7de-ff62-4b04-a2b3-1c742fc8041e",
+      "title": "C++: The Documentary",
+      "url": "https://herbsutter.com/2026/06/04/c-the-documentary-released-today",
+      "domain": "herbsutter.com",
+      "published_at": "2026-06-05T04:37:01Z",
       "category": "tech",
-      "score": 0.25482121110342654,
-      "tldr": "Castor: CERN Advanced STORage Manager",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "17e2cdaf-255f-4564-9667-100ed2d20da0",
-      "title": "Show HN: Paseo – Beautiful open-source coding agent interface",
-      "url": "https://github.com/getpaseo/paseo",
-      "domain": "github.com",
-      "published_at": "2026-06-02T22:34:42Z",
-      "category": "tech",
-      "score": 0.2546897563556167,
-      "tldr": "Show HN: Paseo – Beautiful open-source coding agent interface",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "df971cd0-661d-46c0-b63b-4d0675d39fe0",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "domain": "openai.com",
-      "published_at": "2026-06-03T17:50:05Z",
-      "category": "tech",
-      "score": 0.25467381505326253,
-      "tldr": "A blueprint for democratic governance of frontier AI",
+      "score": 0.2548281297983686,
+      "tldr": "C++: The Documentary",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-06-05T06:48:01.563238535Z",
+  "last_updated": "2026-06-05T10:40:28.394369908Z",
   "total_count": 100
 }
