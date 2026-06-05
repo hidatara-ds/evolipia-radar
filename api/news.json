@@ -43,20 +43,6 @@
       ]
     },
     {
-      "id": "f0f1a709-78c2-445d-95b7-d2526f1b8bff",
-      "title": "Please Use AI",
-      "url": "https://shawnsmucker.substack.com/p/please-use-ai",
-      "domain": "shawnsmucker.substack.com",
-      "published_at": "2026-05-29T13:50:25Z",
-      "category": "tech",
-      "score": 0.4938755789685511,
-      "tldr": "Please Use AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "03c3960f-2973-4fa5-afe4-9d495720cbe9",
       "title": "The newest Instagram “exploit” is the goofiest I've seen",
       "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
@@ -96,21 +82,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "b1497955-d0b9-4bd1-915c-2a94fa2d49f9",
-      "title": "Notes from the Mistral AI Now Summit",
-      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "domain": "koenvangilst.nl",
-      "published_at": "2026-05-29T16:22:01Z",
-      "category": "tech",
-      "score": 0.42584013590688297,
-      "tldr": "Notes from the Mistral AI Now Summit",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -156,21 +127,6 @@
       ]
     },
     {
-      "id": "5e250797-6c16-4672-9619-07c3faa66ac7",
-      "title": "Notes from the Mistral AI Now Summit in Paris",
-      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "domain": "koenvangilst.nl",
-      "published_at": "2026-05-29T16:22:01Z",
-      "category": "tech",
-      "score": 0.3897557889820812,
-      "tldr": "Notes from the Mistral AI Now Summit in Paris",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "d6499f40-d948-4705-8bc7-3a399dc2574c",
       "title": "NPM packages from RedHat have been compromised",
       "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
@@ -197,20 +153,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "87d84f9a-3366-4488-888c-e5d785dd8fb2",
-      "title": "I Am Retiring from Tech to Live Offline",
-      "url": "https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline",
-      "domain": "openpath.quest",
-      "published_at": "2026-05-29T14:40:47Z",
-      "category": "tech",
-      "score": 0.37752880198965993,
-      "tldr": "I Am Retiring from Tech to Live Offline",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -525,20 +467,6 @@
       ]
     },
     {
-      "id": "fe4dcd6d-24f8-4e23-8ab5-456a2c43530b",
-      "title": "Show HN: Promptloop – create, run, and improve prompt evals from the terminal",
-      "url": "https://github.com/Bella3202019/promptloop",
-      "domain": "github.com",
-      "published_at": "2026-05-29T16:06:46Z",
-      "category": "tech",
-      "score": 0.3257491749030499,
-      "tldr": "Show HN: Promptloop – create, run, and improve prompt evals from the terminal",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "90bca759-0b99-4e2d-b68b-9b1d7d4670c9",
       "title": "Changing How We Develop Ladybird",
       "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird",
@@ -848,6 +776,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "e91e0eac-58ff-4bd1-9c32-a35bc45cec2e",
+      "title": "Ask HN: Is the web for machines (/llm.txt) the one we wished we had as humans?",
+      "url": "https://news.ycombinator.com/item?id=48410589",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-06-05T10:43:28Z",
+      "category": "tech",
+      "score": 0.2705496171150998,
+      "tldr": "Ask HN: Is the web for machines (/llm. txt) the one we wished we had as humans?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1399,6 +1341,20 @@
       ]
     },
     {
+      "id": "6db95556-8e5c-437d-b196-325c48fe1c8b",
+      "title": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
+      "url": "https://github.com/kouhxp/textsnap",
+      "domain": "github.com",
+      "published_at": "2026-06-05T11:16:10Z",
+      "category": "tech",
+      "score": 0.25494209664044387,
+      "tldr": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a889a7de-ff62-4b04-a2b3-1c742fc8041e",
       "title": "C++: The Documentary",
       "url": "https://herbsutter.com/2026/06/04/c-the-documentary-released-today",
@@ -1411,8 +1367,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e91f1e95-1bb0-462e-88cc-4fe8e4f41400",
+      "title": "Castor: CERN Advanced STORage Manager",
+      "url": "https://castor.web.cern.ch/content/home.html",
+      "domain": "castor.web.cern.ch",
+      "published_at": "2026-06-04T19:52:02Z",
+      "category": "tech",
+      "score": 0.25482121110342654,
+      "tldr": "Castor: CERN Advanced STORage Manager",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "17e2cdaf-255f-4564-9667-100ed2d20da0",
+      "title": "Show HN: Paseo – Beautiful open-source coding agent interface",
+      "url": "https://github.com/getpaseo/paseo",
+      "domain": "github.com",
+      "published_at": "2026-06-02T22:34:42Z",
+      "category": "tech",
+      "score": 0.2546897563556167,
+      "tldr": "Show HN: Paseo – Beautiful open-source coding agent interface",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "df971cd0-661d-46c0-b63b-4d0675d39fe0",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "domain": "openai.com",
+      "published_at": "2026-06-03T17:50:05Z",
+      "category": "tech",
+      "score": 0.25467381505326253,
+      "tldr": "A blueprint for democratic governance of frontier AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-05T13:47:41.713252166Z",
+  "last_updated": "2026-06-05T16:25:38.402946804Z",
   "total_count": 100
 }
