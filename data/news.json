@@ -383,6 +383,20 @@
       ]
     },
     {
+      "id": "6ae0f4f8-c74a-485f-b4ff-dec15602f1c7",
+      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+      "url": "https://github.com/zdk/lowfat",
+      "domain": "github.com",
+      "published_at": "2026-06-05T09:10:42Z",
+      "category": "tech",
+      "score": 0.33675303333651857,
+      "tldr": "Show HN: Lowfat – pluggable CLI filter that saved 91.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a98992c7-451d-4544-ac72-75b9531b6173",
       "title": "Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb",
@@ -682,20 +696,6 @@
       ]
     },
     {
-      "id": "094d2fcc-c818-44a5-9a6d-5a688188b194",
-      "title": "Is AI causing a repeat of frontend’s lost decade?",
-      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade",
-      "domain": "mastrojs.github.io",
-      "published_at": "2026-05-29T11:09:32Z",
-      "category": "tech",
-      "score": 0.29168260076738123,
-      "tldr": "Is AI causing a repeat of frontend’s lost decade?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a39ce1e9-2b47-46b0-8d65-a79374ebacbd",
       "title": "LLMs Are Closer to Religion Than They Appear",
       "url": "https://www.theregister.com/ai-ml/2026/06/01/llms-are-closer-to-religion-than-they-appear-watch-out-for-those-who-like-it-that-way/5248189",
@@ -739,14 +739,14 @@
       ]
     },
     {
-      "id": "45b38f0c-e221-4f1e-908d-ecb378722a75",
-      "title": "Show HN: AISlop, a CLI for catching AI generated code smells",
-      "url": "https://github.com/scanaislop/aislop",
-      "domain": "github.com",
-      "published_at": "2026-05-29T13:37:38Z",
+      "id": "8594c48e-3bcc-4182-98c4-a34ba8029454",
+      "title": "Ultra-processed foods in the global food system: The role of tobacco companies",
+      "url": "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501",
+      "domain": "ajph.aphapublications.org",
+      "published_at": "2026-06-05T11:56:27Z",
       "category": "tech",
-      "score": 0.2870753013547219,
-      "tldr": "Show HN: AISlop, a CLI for catching AI generated code smells",
+      "score": 0.2866912872588056,
+      "tldr": "Ultra-processed foods in the global food system: The role of tobacco companies",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-05T10:40:28.394369908Z",
+  "last_updated": "2026-06-05T13:47:41.713252166Z",
   "total_count": 100
 }
