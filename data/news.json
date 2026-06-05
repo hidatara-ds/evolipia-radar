@@ -977,6 +977,20 @@
       ]
     },
     {
+      "id": "138f181b-b7ee-4a54-aefe-8e7d75d66b38",
+      "title": "Open Code Review – An AI-powered code review CLI tool",
+      "url": "https://github.com/alibaba/open-code-review",
+      "domain": "github.com",
+      "published_at": "2026-06-05T00:04:29Z",
+      "category": "tech",
+      "score": 0.26672514064472647,
+      "tldr": "Open Code Review – An AI-powered code review CLI tool",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c652cf51-63a0-41ed-96ec-21b5b1ada217",
       "title": "GitHub Copilot App",
       "url": "https://github.com/features/preview/github-app",
@@ -1397,22 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e91f1e95-1bb0-462e-88cc-4fe8e4f41400",
-      "title": "Castor: CERN Advanced STORage Manager",
-      "url": "https://castor.web.cern.ch/content/home.html",
-      "domain": "castor.web.cern.ch",
-      "published_at": "2026-06-04T19:52:02Z",
-      "category": "tech",
-      "score": 0.25482121110342654,
-      "tldr": "Castor: CERN Advanced STORage Manager",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-04T23:42:55.682093355Z",
+  "last_updated": "2026-06-05T02:08:39.783121286Z",
   "total_count": 100
 }
