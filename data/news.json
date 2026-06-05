@@ -85,20 +85,6 @@
       ]
     },
     {
-      "id": "62dde222-6c65-419c-9a92-1ead7bdb38b1",
-      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
-      "url": "https://github.com/jmaczan/tiny-vllm",
-      "domain": "github.com",
-      "published_at": "2026-05-29T19:38:27Z",
-      "category": "tech",
-      "score": 0.4110112657390013,
-      "tldr": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "6aafd72c-556e-4b96-bb4f-5568bf9eb67a",
       "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb",
@@ -478,6 +464,20 @@
       "tags": [
         "data",
         "llm"
+      ]
+    },
+    {
+      "id": "bdb618be-282a-470e-91c3-ccdba0fd9773",
+      "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
+      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+      "domain": "bbc.com",
+      "published_at": "2026-06-05T15:00:31Z",
+      "category": "tech",
+      "score": 0.3251016110195153,
+      "tldr": "Astronauts told to return to ISS after sheltering over air leak repairs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1130,6 +1130,20 @@
       ]
     },
     {
+      "id": "4c4a193d-f6c1-4e61-973a-ab509bf7dbb4",
+      "title": "Transformers Are Inherently Succinct",
+      "url": "https://openreview.net/pdf?id=Yxz92UuPLQ",
+      "domain": "openreview.net",
+      "published_at": "2026-06-05T18:50:26Z",
+      "category": "tech",
+      "score": 0.26110404919086705,
+      "tldr": "Transformers Are Inherently Succinct",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2a2fe0cd-d543-41b2-ae96-81bcfad4223a",
       "title": "You Don't Love Systemd Timers Enough",
       "url": "https://blog.tjll.net/you-dont-love-systemd-timers-enough",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "df971cd0-661d-46c0-b63b-4d0675d39fe0",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "domain": "openai.com",
-      "published_at": "2026-06-03T17:50:05Z",
-      "category": "tech",
-      "score": 0.25467381505326253,
-      "tldr": "A blueprint for democratic governance of frontier AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-05T18:19:48.545426976Z",
+  "last_updated": "2026-06-05T20:21:35.862898733Z",
   "total_count": 100
 }
