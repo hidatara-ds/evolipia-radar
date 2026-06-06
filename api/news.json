@@ -876,20 +876,6 @@
       ]
     },
     {
-      "id": "f1260cc0-234b-40ef-8ef1-e0ee632ad516",
-      "title": "What Is a Dickover?",
-      "url": "https://daringfireball.net/2026/05/what_is_a_dickover",
-      "domain": "daringfireball.net",
-      "published_at": "2026-05-29T23:54:22Z",
-      "category": "tech",
-      "score": 0.26704539604393795,
-      "tldr": "What Is a Dickover?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "138f181b-b7ee-4a54-aefe-8e7d75d66b38",
       "title": "Open Code Review – An AI-powered code review CLI tool",
       "url": "https://github.com/alibaba/open-code-review",
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "df971cd0-661d-46c0-b63b-4d0675d39fe0",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "domain": "openai.com",
+      "published_at": "2026-06-03T17:50:05Z",
+      "category": "tech",
+      "score": 0.25467381505326253,
+      "tldr": "A blueprint for democratic governance of frontier AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-05T22:57:08.320413267Z",
+  "last_updated": "2026-06-06T00:00:05.177079725Z",
   "total_count": 100
 }
