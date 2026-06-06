@@ -651,21 +651,6 @@
       ]
     },
     {
-      "id": "67888f29-28f5-41f9-96a9-f6131f786b8c",
-      "title": "API Drift Detection: Catch Breaking Changes Before They Reach Production",
-      "url": "https://apiguard.co/blog/api-drift-detection-guide",
-      "domain": "apiguard.co",
-      "published_at": "2026-05-30T19:52:19Z",
-      "category": "tech",
-      "score": 0.28833537335552545,
-      "tldr": "API Drift Detection: Catch Breaking Changes Before They Reach Production",
-      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
-      "tags": [
-        "computer_vision",
-        "mlops"
-      ]
-    },
-    {
       "id": "8594c48e-3bcc-4182-98c4-a34ba8029454",
       "title": "Ultra-processed foods in the global food system: The role of tobacco companies",
       "url": "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501",
@@ -1312,20 +1297,6 @@
       ]
     },
     {
-      "id": "275a5315-daa3-4ad9-9127-587e7649ce27",
-      "title": "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal",
-      "url": "https://github.com/marekkowalczyk/breathe-cli",
-      "domain": "github.com",
-      "published_at": "2026-05-30T20:30:53Z",
-      "category": "tech",
-      "score": 0.2553316650689388,
-      "tldr": "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6db95556-8e5c-437d-b196-325c48fe1c8b",
       "title": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
       "url": "https://github.com/kouhxp/textsnap",
@@ -1408,8 +1379,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "f1df22d6-8201-4c2d-88d4-078ddd6db866",
+      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "url": "https://arxiv.org/abs/2605.00414",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-06T12:59:59Z",
+      "category": "tech",
+      "score": 0.25400310733037373,
+      "tldr": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f8c7aace-6c18-461d-be1c-c12aafc9a284",
+      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "url": "https://github.com/s2-streamstore/replaya",
+      "domain": "github.com",
+      "published_at": "2026-06-02T17:40:15Z",
+      "category": "tech",
+      "score": 0.25391884827766686,
+      "tldr": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-06T19:51:53.12929107Z",
+  "last_updated": "2026-06-06T20:54:04.610676454Z",
   "total_count": 100
 }
