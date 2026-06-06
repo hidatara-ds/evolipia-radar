@@ -947,20 +947,6 @@
       ]
     },
     {
-      "id": "a773c6a2-e32b-40dd-b11f-263dbe768ca5",
-      "title": "White House's Aliens.gov Site Brags That ICE Arrested More Than 700 US Citizens",
-      "url": "https://www.wired.com/story/white-house-aliens-gov-us-citizens-arrested",
-      "domain": "wired.com",
-      "published_at": "2026-05-30T18:14:35Z",
-      "category": "tech",
-      "score": 0.26451956666248416,
-      "tldr": "White House's Aliens. gov Site Brags That ICE Arrested More Than 700 US Citizens",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2241c427-6e63-4bef-8c78-46ae9dfbbea4",
       "title": "Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed",
       "url": "https://github.com/schildep/verified-polygon-intersection",
@@ -1071,20 +1057,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "00effa85-03a2-416a-8d02-4cce44f1d341",
-      "title": "EY Canada published a cybersecurity report and most citations were hallucinated",
-      "url": "https://gptzero.me/investigations/ey",
-      "domain": "gptzero.me",
-      "published_at": "2026-05-30T19:02:54Z",
-      "category": "tech",
-      "score": 0.26134534322034625,
-      "tldr": "EY Canada published a cybersecurity report and most citations were hallucinated",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security"
       ]
     },
     {
@@ -1222,6 +1194,20 @@
       "category": "tech",
       "score": 0.25775332874977447,
       "tldr": "Benchmarks in Leipzig",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b8a878b4-911e-42ed-a733-394a83f0227e",
+      "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+      "url": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
+      "domain": "nbcnews.com",
+      "published_at": "2026-06-06T18:21:06Z",
+      "category": "tech",
+      "score": 0.25688210591884053,
+      "tldr": "Pentagon raised threat of Israeli spying on U. to highest level, sources say",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
+      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
+      "domain": "research.nvidia.com",
+      "published_at": "2026-06-04T13:06:01Z",
+      "category": "tech",
+      "score": 0.25444301049905327,
+      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-06T18:03:06.500232842Z",
+  "last_updated": "2026-06-06T19:51:53.12929107Z",
   "total_count": 100
 }
