@@ -99,6 +99,21 @@
       ]
     },
     {
+      "id": "eeecf063-2c50-4f5d-8f89-e8ae605366ef",
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "url": "https://github.com/devenjarvis/lathe",
+      "domain": "github.com",
+      "published_at": "2026-06-07T11:16:46Z",
+      "category": "tech",
+      "score": 0.3877683395051006,
+      "tldr": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "d6499f40-d948-4705-8bc7-3a399dc2574c",
       "title": "NPM packages from RedHat have been compromised",
       "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
@@ -461,6 +476,20 @@
       "category": "tech",
       "score": 0.3251016110195153,
       "tldr": "Astronauts told to return to ISS after sheltering over air leak repairs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "448c8e29-b0be-458d-b745-ac7207cb9a10",
+      "title": "Anthropic, please ship an official Claude Desktop for Linux",
+      "url": "https://github.com/anthropics/claude-code/issues/65697",
+      "domain": "github.com",
+      "published_at": "2026-06-07T13:06:52Z",
+      "category": "tech",
+      "score": 0.32263612699541877,
+      "tldr": "Anthropic, please ship an official Claude Desktop for Linux",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1379,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "17e2cdaf-255f-4564-9667-100ed2d20da0",
-      "title": "Show HN: Paseo – Beautiful open-source coding agent interface",
-      "url": "https://github.com/getpaseo/paseo",
-      "domain": "github.com",
-      "published_at": "2026-06-02T22:34:42Z",
-      "category": "tech",
-      "score": 0.2546897563556167,
-      "tldr": "Show HN: Paseo – Beautiful open-source coding agent interface",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "df971cd0-661d-46c0-b63b-4d0675d39fe0",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "domain": "openai.com",
-      "published_at": "2026-06-03T17:50:05Z",
-      "category": "tech",
-      "score": 0.25467381505326253,
-      "tldr": "A blueprint for democratic governance of frontier AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-07T13:17:43.684460712Z",
+  "last_updated": "2026-06-07T15:08:40.422342725Z",
   "total_count": 100
 }
