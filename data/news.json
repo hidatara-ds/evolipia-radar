@@ -242,6 +242,20 @@
       ]
     },
     {
+      "id": "ae731fac-7a1c-48ff-95dd-576973409a02",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "url": "https://arxiv.org/abs/2605.31514",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-07T18:54:55Z",
+      "category": "tech",
+      "score": 0.34338459130557797,
+      "tldr": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7bdfa6f6-ae87-4e50-8d7d-94c7f5610420",
       "title": "Coreutils for Windows",
       "url": "https://github.com/microsoft/coreutils",
@@ -250,6 +264,20 @@
       "category": "tech",
       "score": 0.3426886956457698,
       "tldr": "Coreutils for Windows",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4fca8c51-c16f-4f57-8c3d-fca0481b8fb8",
+      "title": "Major P2P issues in Israel and possibly other Middle East countries",
+      "url": "https://github.com/ValveSoftware/GameNetworkingSockets/issues/398",
+      "domain": "github.com",
+      "published_at": "2026-06-07T03:21:52Z",
+      "category": "tech",
+      "score": 0.34163523359156467,
+      "tldr": "Major P2P issues in Israel and possibly other Middle East countries",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1379,36 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
-      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
-      "domain": "research.nvidia.com",
-      "published_at": "2026-06-04T13:06:01Z",
-      "category": "tech",
-      "score": 0.25444301049905327,
-      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f1df22d6-8201-4c2d-88d4-078ddd6db866",
-      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
-      "url": "https://arxiv.org/abs/2605.00414",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-06T12:59:59Z",
-      "category": "tech",
-      "score": 0.25400310733037373,
-      "tldr": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-07T20:43:08.941664384Z",
+  "last_updated": "2026-06-07T21:57:50.053680926Z",
   "total_count": 100
 }
