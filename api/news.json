@@ -311,6 +311,20 @@
       ]
     },
     {
+      "id": "65670a40-bd97-48c2-8929-6d670b2813cd",
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering",
+      "domain": "openai.com",
+      "published_at": "2026-06-05T18:20:06Z",
+      "category": "tech",
+      "score": 0.3359066511780523,
+      "tldr": "Harness engineering: Leveraging Codex in an agent-first world",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a98992c7-451d-4544-ac72-75b9531b6173",
       "title": "Hacking your PC using your speaker without ever touching it",
       "url": "https://blog.nns.ee/2026/06/03/katana-badusb",
@@ -1143,20 +1157,6 @@
       ]
     },
     {
-      "id": "a937bf2a-e1d8-4b42-9e15-029a3564612b",
-      "title": "Muxcard, a DIY credit card size computer",
-      "url": "https://github.com/krauseler/muxcard",
-      "domain": "github.com",
-      "published_at": "2026-05-31T01:59:06Z",
-      "category": "tech",
-      "score": 0.2581573116637425,
-      "tldr": "Muxcard, a DIY credit card size computer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7eab7082-33c0-4ca4-a7a5-fc25cc6b8686",
       "title": "Show HN: Rscrypto, pure-Rust crypto with industry leading public benches",
       "url": "https://github.com/loadingalias/rscrypto",
@@ -1235,6 +1235,20 @@
       "category": "tech",
       "score": 0.25640285518612543,
       "tldr": "3B text-to-image model",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "78087ce0-d6f7-4899-829e-502540541d2a",
+      "title": "Elfeed 4.0 (Emacs)",
+      "url": "https://github.com/emacs-elfeed/elfeed/blob/main/NEWS.org",
+      "domain": "github.com",
+      "published_at": "2026-06-06T20:24:56Z",
+      "category": "tech",
+      "score": 0.2560299256770087,
+      "tldr": "Elfeed 4.0 (Emacs)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f8c7aace-6c18-461d-be1c-c12aafc9a284",
-      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
-      "url": "https://github.com/s2-streamstore/replaya",
-      "domain": "github.com",
-      "published_at": "2026-06-02T17:40:15Z",
-      "category": "tech",
-      "score": 0.25391884827766686,
-      "tldr": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-06T23:55:35.018549071Z",
+  "last_updated": "2026-06-07T02:15:46.717750725Z",
   "total_count": 100
 }
