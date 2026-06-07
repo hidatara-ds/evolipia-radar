@@ -227,20 +227,6 @@
       ]
     },
     {
-      "id": "69cdbbf2-4ca2-41a0-abb1-56c32094560f",
-      "title": "Please Do Not Vibe Fuck Up This Software",
-      "url": "https://github.com/RsyncProject/rsync/issues/929",
-      "domain": "github.com",
-      "published_at": "2026-05-31T03:16:48Z",
-      "category": "tech",
-      "score": 0.3504944799213009,
-      "tldr": "Please Do Not Vibe Fuck Up This Software",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9373a7cb-33cf-4abf-b63f-0d36445a7ed7",
       "title": "Elixir v1.20: Now a gradually typed language",
       "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released",
@@ -549,6 +535,20 @@
       "tags": [
         "general_ai",
         "llm"
+      ]
+    },
+    {
+      "id": "a614b2da-03cb-4811-a1dc-8927ca3eb185",
+      "title": "Valve P2P networking broken for more than 2 months",
+      "url": "https://github.com/ValveSoftware/GameNetworkingSockets/issues/398",
+      "domain": "github.com",
+      "published_at": "2026-06-07T03:21:52Z",
+      "category": "tech",
+      "score": 0.3013282883442018,
+      "tldr": "Valve P2P networking broken for more than 2 months",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -974,14 +974,14 @@
       ]
     },
     {
-      "id": "4e78e8d4-c2d5-438d-869e-5cd76493b56c",
-      "title": "A pictorial introduction to differential geometry (2017)",
-      "url": "https://arxiv.org/abs/1709.08492",
-      "domain": "arxiv.org",
-      "published_at": "2026-05-31T05:30:18Z",
+      "id": "78264ac0-dace-4d9a-aaad-62dc2822bceb",
+      "title": "Show HN: Oproxy – inspect and modify network traffic from the browser",
+      "url": "https://github.com/sauravrao637/oproxy",
+      "domain": "github.com",
+      "published_at": "2026-06-07T02:11:29Z",
       "category": "tech",
-      "score": 0.2625888881289676,
-      "tldr": "A pictorial introduction to differential geometry (2017)",
+      "score": 0.26276655572358953,
+      "tldr": "Show HN: Oproxy – inspect and modify network traffic from the browser",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1255,6 +1255,20 @@
       ]
     },
     {
+      "id": "bbb99944-f460-4d06-8da4-6af0d4288176",
+      "title": "Show HN: TakoVM – Isolated model and tool execution used by enterprises",
+      "url": "https://github.com/las7/TakoVM",
+      "domain": "github.com",
+      "published_at": "2026-06-07T02:42:24Z",
+      "category": "tech",
+      "score": 0.2559818871466201,
+      "tldr": "Show HN: TakoVM – Isolated model and tool execution used by enterprises",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c92595cb-546d-4a95-a88d-9e1aa5dcd3ba",
       "title": "Morningstar values SpaceX at $780B, half its IPO target",
       "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02",
@@ -1381,34 +1395,20 @@
       ]
     },
     {
-      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
-      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
-      "domain": "research.nvidia.com",
-      "published_at": "2026-06-04T13:06:01Z",
+      "id": "4c0b4bd5-2894-4fcd-b09b-c53487fcb75b",
+      "title": "HateArena – A free and open source arena shooter",
+      "url": "https://github.com/hatearena/hate",
+      "domain": "github.com",
+      "published_at": "2026-06-07T01:26:37Z",
       "category": "tech",
-      "score": 0.25444301049905327,
-      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f1df22d6-8201-4c2d-88d4-078ddd6db866",
-      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
-      "url": "https://arxiv.org/abs/2605.00414",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-06T12:59:59Z",
-      "category": "tech",
-      "score": 0.25400310733037373,
-      "tldr": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "score": 0.25467204539303034,
+      "tldr": "HateArena – A free and open source arena shooter",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-06-07T02:15:46.717750725Z",
+  "last_updated": "2026-06-07T06:46:59.912773568Z",
   "total_count": 100
 }
