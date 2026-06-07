@@ -609,21 +609,6 @@
       ]
     },
     {
-      "id": "d2aaf36b-5276-4a3c-b5e8-adfaba782217",
-      "title": "ChatGPT for Google Sheets is vulnerable to data exfiltration and phishing",
-      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
-      "domain": "promptarmor.com",
-      "published_at": "2026-05-31T20:35:38Z",
-      "category": "tech",
-      "score": 0.294664032972625,
-      "tldr": "ChatGPT for Google Sheets is vulnerable to data exfiltration and phishing",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "data"
-      ]
-    },
-    {
       "id": "8732f589-b156-4c0c-98e6-307e19d46004",
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
       "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do",
@@ -719,20 +704,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "fbf8f612-5324-4d4a-ad0b-9c788d3b09b0",
-      "title": "ChatGPT for Google Sheets Exfiltrates Workbooks",
-      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
-      "domain": "promptarmor.com",
-      "published_at": "2026-05-31T20:35:38Z",
-      "category": "tech",
-      "score": 0.275873404467838,
-      "tldr": "ChatGPT for Google Sheets Exfiltrates Workbooks",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1408,8 +1379,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
+      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
+      "domain": "research.nvidia.com",
+      "published_at": "2026-06-04T13:06:01Z",
+      "category": "tech",
+      "score": 0.25444301049905327,
+      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f1df22d6-8201-4c2d-88d4-078ddd6db866",
+      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "url": "https://arxiv.org/abs/2605.00414",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-06T12:59:59Z",
+      "category": "tech",
+      "score": 0.25400310733037373,
+      "tldr": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-07T19:12:51.929023064Z",
+  "last_updated": "2026-06-07T20:43:08.941664384Z",
   "total_count": 100
 }
