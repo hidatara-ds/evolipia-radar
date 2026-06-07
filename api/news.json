@@ -1102,6 +1102,20 @@
       ]
     },
     {
+      "id": "e70341a3-5810-48f0-8f5e-1b08ebf8fe7c",
+      "title": "Silurus/ooxml: Pixel-faithful Office documents, rendered in the browser",
+      "url": "https://github.com/yukiyokotani/office-open-xml-viewer",
+      "domain": "github.com",
+      "published_at": "2026-06-07T17:22:28Z",
+      "category": "tech",
+      "score": 0.2600939166944275,
+      "tldr": "Silurus/ooxml: Pixel-faithful Office documents, rendered in the browser",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "59170251-044f-4793-85ba-6f6020974fe0",
       "title": "AI outperforms law professors in Stanford Law study",
       "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
-      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
-      "domain": "research.nvidia.com",
-      "published_at": "2026-06-04T13:06:01Z",
-      "category": "tech",
-      "score": 0.25444301049905327,
-      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-07T17:58:17.267713643Z",
+  "last_updated": "2026-06-07T19:12:51.929023064Z",
   "total_count": 100
 }
