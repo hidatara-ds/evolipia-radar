@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "2b8a0f70-c918-4552-8e3f-c2ae5141cf2b",
-      "title": "Malicious npm packages detected across Red Hat Cloud Services",
-      "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
-      "domain": "github.com",
-      "published_at": "2026-06-01T13:30:21Z",
-      "category": "tech",
-      "score": 0.553161799695361,
-      "tldr": "Malicious npm packages detected across Red Hat Cloud Services",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud"
-      ]
-    },
-    {
       "id": "1e3d0670-c4fd-4c70-b4d5-842d33bc793f",
       "title": "Please don't spam people looking for employment. It's just cruel",
       "url": "https://news.ycombinator.com/item?id=48370330",
@@ -111,20 +97,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "d6499f40-d948-4705-8bc7-3a399dc2574c",
-      "title": "NPM packages from RedHat have been compromised",
-      "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
-      "domain": "github.com",
-      "published_at": "2026-06-01T13:30:21Z",
-      "category": "tech",
-      "score": 0.38119653536578657,
-      "tldr": "NPM packages from RedHat have been compromised",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -538,6 +510,20 @@
       ]
     },
     {
+      "id": "8b3c1a6e-d239-4fd1-8830-ac0deee09258",
+      "title": "Replies to comments on my \"LLMs are eroding my career\" post",
+      "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post",
+      "domain": "human-in-the-loop.bearblog.dev",
+      "published_at": "2026-06-08T09:52:03Z",
+      "category": "tech",
+      "score": 0.3054922484647018,
+      "tldr": "Replies to comments on my \"LLMs are eroding my career\" post",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5fddd2c1-6690-4d0c-8193-ad950683c71c",
       "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app",
@@ -651,20 +637,6 @@
       ]
     },
     {
-      "id": "a39ce1e9-2b47-46b0-8d65-a79374ebacbd",
-      "title": "LLMs Are Closer to Religion Than They Appear",
-      "url": "https://www.theregister.com/ai-ml/2026/06/01/llms-are-closer-to-religion-than-they-appear-watch-out-for-those-who-like-it-that-way/5248189",
-      "domain": "theregister.com",
-      "published_at": "2026-06-01T11:03:38Z",
-      "category": "tech",
-      "score": 0.2914733393760051,
-      "tldr": "LLMs Are Closer to Religion Than They Appear",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "b1eba146-3e7b-4d9c-b73a-9141cfc4fbe2",
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare",
@@ -693,20 +665,6 @@
       ]
     },
     {
-      "id": "56399ce9-93b7-4df6-844a-cb989eeba2ed",
-      "title": "Linux Basics for Hackers (2019)",
-      "url": "https://github.com/ahegazy0/linux-basics-for-hackers-notes",
-      "domain": "github.com",
-      "published_at": "2026-06-01T13:19:01Z",
-      "category": "tech",
-      "score": 0.2823934046504588,
-      "tldr": "Linux Basics for Hackers (2019)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "93acc507-5b0e-46b2-861c-0b48ca7b0fcf",
       "title": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
       "url": "https://github.com/melastmohican/rust-rpico2-embassy-examples",
@@ -715,6 +673,20 @@
       "category": "tech",
       "score": 0.2820878391716852,
       "tldr": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2a2118c6-093f-49fa-9f26-0f3ef0df6c2f",
+      "title": "Zig by Example",
+      "url": "https://github.com/boringcollege/zig-by-example",
+      "domain": "github.com",
+      "published_at": "2026-06-08T13:06:19Z",
+      "category": "tech",
+      "score": 0.280346654476825,
+      "tldr": "Zig by Example",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -799,20 +771,6 @@
       "category": "tech",
       "score": 0.2677026436022969,
       "tldr": "Gooey: A GPU-accelerated UI framework for Zig",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "82520c7f-fd3f-472c-ba16-b7cbc0703d0c",
-      "title": "Show HN: A CSS 3D Engine (no WebGL)",
-      "url": "https://github.com/LayoutitStudio/polycss",
-      "domain": "github.com",
-      "published_at": "2026-06-01T13:58:04Z",
-      "category": "tech",
-      "score": 0.26754006987832246,
-      "tldr": "Show HN: A CSS 3D Engine (no WebGL)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1255,20 +1213,6 @@
       ]
     },
     {
-      "id": "fa905de5-de93-45bc-945a-2eaca83984fe",
-      "title": "Flipper Zero Zig Template",
-      "url": "https://github.com/NishantJoshi00/flipper-template",
-      "domain": "github.com",
-      "published_at": "2026-06-01T13:20:54Z",
-      "category": "tech",
-      "score": 0.25570677330174835,
-      "tldr": "Flipper Zero Zig Template",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a67f8e80-9aa7-46ab-8809-bbf8f27e6219",
       "title": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)",
       "url": "https://github.com/tastyeffectco/sandboxes",
@@ -1407,8 +1351,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f8c7aace-6c18-461d-be1c-c12aafc9a284",
+      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "url": "https://github.com/s2-streamstore/replaya",
+      "domain": "github.com",
+      "published_at": "2026-06-02T17:40:15Z",
+      "category": "tech",
+      "score": 0.25391884827766686,
+      "tldr": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9e00b908-bd5b-49ab-b373-187dff4a2bb5",
+      "title": "Sites and role specific plugins in Codex",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "domain": "openai.com",
+      "published_at": "2026-06-02T16:15:06Z",
+      "category": "tech",
+      "score": 0.2536150819517272,
+      "tldr": "Sites and role specific plugins in Codex",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4732103b-6d3a-47f8-86e8-350caa4d3c5a",
+      "title": "I was recently diagnosed with anti-NMDA receptor encephalitis",
+      "url": "https://burntsushi.net/encephalitis",
+      "domain": "burntsushi.net",
+      "published_at": "2026-06-03T14:10:06Z",
+      "category": "tech",
+      "score": 0.25315130049327855,
+      "tldr": "I was recently diagnosed with anti-NMDA receptor encephalitis",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "00d87896-ca6e-462a-adbf-2b127cdb2e36",
+      "title": "Is anyone here interested in contributing to this OS?",
+      "url": "https://github.com/valivalivali/x-os",
+      "domain": "github.com",
+      "published_at": "2026-06-06T10:16:01Z",
+      "category": "tech",
+      "score": 0.2530699327246725,
+      "tldr": "Is anyone here interested in contributing to this OS?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-08T09:59:43.150502708Z",
+  "last_updated": "2026-06-08T14:05:10.814678169Z",
   "total_count": 100
 }
