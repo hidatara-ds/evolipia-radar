@@ -382,6 +382,20 @@
       ]
     },
     {
+      "id": "e94e63d2-03f1-4410-979f-edff42c930f3",
+      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "domain": "runtimewire.com",
+      "published_at": "2026-06-08T01:39:30Z",
+      "category": "tech",
+      "score": 0.32881277459044844,
+      "tldr": "DeepSeek V4 Pro beats GPT-5.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "d674e116-117b-497d-8d0d-e3c683642174",
       "title": "AI Agent Guidelines for CS336 at Stanford",
       "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
@@ -609,6 +623,20 @@
       ]
     },
     {
+      "id": "172e13ac-2b77-48f4-a37f-2013a37cecce",
+      "title": "Office-open-xml-viewer: Office XML document viewer that renders to HTML Canvas",
+      "url": "https://github.com/yukiyokotani/office-open-xml-viewer",
+      "domain": "github.com",
+      "published_at": "2026-06-07T17:22:28Z",
+      "category": "tech",
+      "score": 0.298980539224826,
+      "tldr": "Office-open-xml-viewer: Office XML document viewer that renders to HTML Canvas",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6b73c83c-a1a8-481f-9bf0-be0a4e27c2f5",
       "title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
       "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms",
@@ -701,6 +729,20 @@
       "category": "tech",
       "score": 0.2823934046504588,
       "tldr": "Linux Basics for Hackers (2019)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "93acc507-5b0e-46b2-861c-0b48ca7b0fcf",
+      "title": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
+      "url": "https://github.com/melastmohican/rust-rpico2-embassy-examples",
+      "domain": "github.com",
+      "published_at": "2026-06-08T00:17:45Z",
+      "category": "tech",
+      "score": 0.2820878391716852,
+      "tldr": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1365,50 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "df971cd0-661d-46c0-b63b-4d0675d39fe0",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "domain": "openai.com",
-      "published_at": "2026-06-03T17:50:05Z",
-      "category": "tech",
-      "score": 0.25467381505326253,
-      "tldr": "A blueprint for democratic governance of frontier AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4c0b4bd5-2894-4fcd-b09b-c53487fcb75b",
-      "title": "HateArena – A free and open source arena shooter",
-      "url": "https://github.com/hatearena/hate",
-      "domain": "github.com",
-      "published_at": "2026-06-07T01:26:37Z",
-      "category": "tech",
-      "score": 0.25467204539303034,
-      "tldr": "HateArena – A free and open source arena shooter",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
-      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
-      "domain": "research.nvidia.com",
-      "published_at": "2026-06-04T13:06:01Z",
-      "category": "tech",
-      "score": 0.25444301049905327,
-      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-08T00:01:52.879194178Z",
+  "last_updated": "2026-06-08T05:10:14.189361801Z",
   "total_count": 100
 }
