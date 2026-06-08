@@ -609,20 +609,6 @@
       ]
     },
     {
-      "id": "9389c640-8a86-4487-8e4f-71a70a988d8e",
-      "title": "Chuwi Minibook X",
-      "url": "https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x",
-      "domain": "tylercipriani.com",
-      "published_at": "2026-05-31T22:59:50Z",
-      "category": "tech",
-      "score": 0.29713377993998846,
-      "tldr": "Chuwi Minibook X",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6b73c83c-a1a8-481f-9bf0-be0a4e27c2f5",
       "title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
       "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms",
@@ -1407,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8cc60b04-f7ca-4a04-a059-4a645568d88a",
+      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
+      "domain": "research.nvidia.com",
+      "published_at": "2026-06-04T13:06:01Z",
+      "category": "tech",
+      "score": 0.25444301049905327,
+      "tldr": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-07T22:57:57.074254993Z",
+  "last_updated": "2026-06-08T00:01:52.879194178Z",
   "total_count": 100
 }
