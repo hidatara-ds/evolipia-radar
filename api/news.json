@@ -130,6 +130,20 @@
       ]
     },
     {
+      "id": "025612c4-04d7-484d-97e8-78a10004c7e8",
+      "title": "GPT-2: Too Dangerous To Release (2019)",
+      "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019",
+      "domain": "naokishibuya.github.io",
+      "published_at": "2026-06-09T18:21:43Z",
+      "category": "tech",
+      "score": 0.3610856174851705,
+      "tldr": "GPT-2: Too Dangerous To Release (2019)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "d66be276-c35f-4ca1-a778-7ac9f6f00a4c",
       "title": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse",
       "url": "https://e360.yale.edu/digest/trump-ooi-amoc",
@@ -1391,22 +1405,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "639d5cf6-3282-4e87-a119-1acce997c28a",
-      "title": "Airlines Uses AI to Fake Empathy Rather Than Fix Problems: Passenger Sent Prompt",
-      "url": "https://viewfromthewing.com/airlines-are-using-ai-to-manufacture-empathy-instead-of-solving-problems-one-passenger-was-sent-the-prompt-by-mistake",
-      "domain": "viewfromthewing.com",
-      "published_at": "2026-06-04T17:39:59Z",
-      "category": "tech",
-      "score": 0.2524887885250384,
-      "tldr": "Airlines Uses AI to Fake Empathy Rather Than Fix Problems: Passenger Sent Prompt",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-09T19:32:56.623870342Z",
+  "last_updated": "2026-06-09T21:29:37.823716775Z",
   "total_count": 100
 }
