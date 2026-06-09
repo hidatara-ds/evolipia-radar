@@ -707,20 +707,6 @@
       ]
     },
     {
-      "id": "a1bf5a15-a86a-4f5e-9530-13cc64636b3a",
-      "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
-      "url": "https://github.com/c0dejedi/nbd-vram",
-      "domain": "github.com",
-      "published_at": "2026-06-02T22:55:33Z",
-      "category": "tech",
-      "score": 0.2747641571607415,
-      "tldr": "Use your Nvidia GPU's VRAM as swap space on Linux",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e91e0eac-58ff-4bd1-9c32-a35bc45cec2e",
       "title": "Ask HN: Is the web for machines (/llm.txt) the one we wished we had as humans?",
       "url": "https://news.ycombinator.com/item?id=48410589",
@@ -757,6 +743,20 @@
       "category": "tech",
       "score": 0.2704715863118932,
       "tldr": "Tracing a powerful GNSS interference source over Europe",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5ff54898-c0ed-45ef-bba6-bf751eaed9e0",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "domain": "jonready.com",
+      "published_at": "2026-06-09T21:19:11Z",
+      "category": "tech",
+      "score": 0.2700345947981836,
+      "tldr": "If Claude Fable stops helping you, you'll never know",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1183,6 +1183,20 @@
       ]
     },
     {
+      "id": "bca08956-cdcf-47e7-8fb0-2bb45f6ea34e",
+      "title": "Claude Fable 5 will sabotage \"frontier LLM research\" tasks",
+      "url": "https://twitter.com/i/status/2064399902684139852",
+      "domain": "twitter.com",
+      "published_at": "2026-06-09T21:16:20Z",
+      "category": "tech",
+      "score": 0.25549712862456164,
+      "tldr": "Claude Fable 5 will sabotage \"frontier LLM research\" tasks",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6db95556-8e5c-437d-b196-325c48fe1c8b",
       "title": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
       "url": "https://github.com/kouhxp/textsnap",
@@ -1220,20 +1234,6 @@
       "score": 0.25482121110342654,
       "tldr": "Castor: CERN Advanced STORage Manager",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "17e2cdaf-255f-4564-9667-100ed2d20da0",
-      "title": "Show HN: Paseo – Beautiful open-source coding agent interface",
-      "url": "https://github.com/getpaseo/paseo",
-      "domain": "github.com",
-      "published_at": "2026-06-02T22:34:42Z",
-      "category": "tech",
-      "score": 0.2546897563556167,
-      "tldr": "Show HN: Paseo – Beautiful open-source coding agent interface",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1407,6 +1407,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-09T21:29:37.823716775Z",
+  "last_updated": "2026-06-09T22:57:23.845352576Z",
   "total_count": 100
 }
