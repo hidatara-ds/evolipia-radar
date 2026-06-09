@@ -115,21 +115,6 @@
       ]
     },
     {
-      "id": "3593ca80-d13f-4a03-88e5-9de0b89e6bcf",
-      "title": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model",
-      "url": "https://github.com/SpecStudio-net/Viveka",
-      "domain": "github.com",
-      "published_at": "2026-06-02T06:01:37Z",
-      "category": "tech",
-      "score": 0.37485103953562854,
-      "tldr": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "7d4b18ec-397e-4302-a54c-e618e9670c24",
       "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b",
@@ -1405,8 +1390,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "9e00b908-bd5b-49ab-b373-187dff4a2bb5",
+      "title": "Sites and role specific plugins in Codex",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "domain": "openai.com",
+      "published_at": "2026-06-02T16:15:06Z",
+      "category": "tech",
+      "score": 0.2536150819517272,
+      "tldr": "Sites and role specific plugins in Codex",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-09T05:37:28.639835181Z",
+  "last_updated": "2026-06-09T08:57:23.996133774Z",
   "total_count": 100
 }
