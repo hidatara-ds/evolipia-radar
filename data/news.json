@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "b06cc23a-8e12-4a61-8aed-55ee9e12ef13",
+      "title": "macOS Container Machines",
+      "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
+      "domain": "github.com",
+      "published_at": "2026-06-10T00:29:01Z",
+      "category": "tech",
+      "score": 0.45021689141045557,
+      "tldr": "macOS Container Machines",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "94e167e2-6b93-44c7-a58b-9b14edd846a2",
       "title": "They’re made out of weights",
       "url": "https://maxleiter.com/blog/weights",
@@ -665,6 +679,20 @@
       ]
     },
     {
+      "id": "5fc9704f-23a3-4407-b732-62677ce3f5fc",
+      "title": "German ruling declares Google liable for false answers in AI Overviews",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
+      "domain": "the-decoder.com",
+      "published_at": "2026-06-10T01:44:13Z",
+      "category": "tech",
+      "score": 0.28554307961617387,
+      "tldr": "German ruling declares Google liable for false answers in AI Overviews",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "93acc507-5b0e-46b2-861c-0b48ca7b0fcf",
       "title": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
       "url": "https://github.com/melastmohican/rust-rpico2-embassy-examples",
@@ -687,6 +715,20 @@
       "category": "tech",
       "score": 0.280346654476825,
       "tldr": "Zig by Example",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "afb453b1-b5cd-4eb2-8304-67030c351e07",
+      "title": "Exif Smuggling (2025)",
+      "url": "https://github.com/signalblur/exifsmugglingpoc",
+      "domain": "github.com",
+      "published_at": "2026-06-09T21:06:00Z",
+      "category": "tech",
+      "score": 0.2795022594506803,
+      "tldr": "Exif Smuggling (2025)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1043,6 +1085,21 @@
       ]
     },
     {
+      "id": "4754c41e-ea39-41ee-b90a-2325379fe566",
+      "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
+      "url": "https://github.com/sig-id/nucleus",
+      "domain": "github.com",
+      "published_at": "2026-06-09T23:03:40Z",
+      "category": "tech",
+      "score": 0.2577796162409665,
+      "tldr": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security",
+        "general_ai"
+      ]
+    },
+    {
       "id": "2e8224ec-8e3b-4154-b156-71756f24f830",
       "title": "Benchmarks in Leipzig",
       "url": "https://arxiv.org/abs/2606.05818",
@@ -1349,64 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
-      "title": "Built to benefit everyone: our plan",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "domain": "openai.com",
-      "published_at": "2026-06-08T20:56:24Z",
-      "category": "tech",
-      "score": 0.2530042051548669,
-      "tldr": "Built to benefit everyone: our plan",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
-      "title": "Efficient and Training-Free Single-Image Diffusion Models",
-      "url": "https://arxiv.org/abs/2606.04299",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-07T09:43:45Z",
-      "category": "tech",
-      "score": 0.2528493952200809,
-      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "477a03b6-e452-4acf-9b4b-9224dce21650",
-      "title": "Fine-tuning an LLM to write docs like it's 1995",
-      "url": "https://passo.uno/fine-tuning-docs-llm",
-      "domain": "passo.uno",
-      "published_at": "2026-06-05T05:46:06Z",
-      "category": "tech",
-      "score": 0.2527395004267309,
-      "tldr": "Fine-tuning an LLM to write docs like it's 1995",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "639d5cf6-3282-4e87-a119-1acce997c28a",
-      "title": "Airlines Uses AI to Fake Empathy Rather Than Fix Problems: Passenger Sent Prompt",
-      "url": "https://viewfromthewing.com/airlines-are-using-ai-to-manufacture-empathy-instead-of-solving-problems-one-passenger-was-sent-the-prompt-by-mistake",
-      "domain": "viewfromthewing.com",
-      "published_at": "2026-06-04T17:39:59Z",
-      "category": "tech",
-      "score": 0.2524887885250384,
-      "tldr": "Airlines Uses AI to Fake Empathy Rather Than Fix Problems: Passenger Sent Prompt",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-10T00:06:20.798399841Z",
+  "last_updated": "2026-06-10T04:54:57.621443464Z",
   "total_count": 100
 }
