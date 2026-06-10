@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "4098e248-e97b-4824-9cea-c3265d2add31",
-      "title": "Artificial intelligence is not conscious",
-      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378",
-      "domain": "theatlantic.com",
-      "published_at": "2026-06-03T17:51:37Z",
-      "category": "tech",
-      "score": 0.47301948999073146,
-      "tldr": "Artificial intelligence is not conscious",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b06cc23a-8e12-4a61-8aed-55ee9e12ef13",
       "title": "macOS Container Machines",
       "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
@@ -228,6 +214,20 @@
       ]
     },
     {
+      "id": "bb17c3ae-0495-4e05-bd66-c60395a7dbf0",
+      "title": "I'm Eric Ries, author of \"The Lean Startup\" and new book \"Incorruptible\" – AMA",
+      "url": "https://news.ycombinator.com/item?id=48477135",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-06-10T14:47:52Z",
+      "category": "tech",
+      "score": 0.34566694585925295,
+      "tldr": "I'm Eric Ries, author of \"The Lean Startup\" and new book \"Incorruptible\" – AMA",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ae731fac-7a1c-48ff-95dd-576973409a02",
       "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
       "url": "https://arxiv.org/abs/2605.31514",
@@ -421,6 +421,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "e9632a27-04cc-4e01-ad19-587cf14892cb",
+      "title": "Show HN: Drift – an embedding-model upgrade should be a rotation, not a reindex",
+      "url": "https://github.com/aayush4vedi/drift-spark",
+      "domain": "github.com",
+      "published_at": "2026-06-10T12:08:34Z",
+      "category": "tech",
+      "score": 0.3124484103593769,
+      "tldr": "Show HN: Drift – an embedding-model upgrade should be a rotation, not a reindex",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
       ]
     },
     {
@@ -623,6 +637,20 @@
       ]
     },
     {
+      "id": "944a39ca-fd12-4237-a356-7537a6262177",
+      "title": "Claude Desktop spins up a VM without no way of stopping it",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "domain": "github.com",
+      "published_at": "2026-06-10T17:11:56Z",
+      "category": "tech",
+      "score": 0.2893908018049308,
+      "tldr": "Claude Desktop spins up a VM without no way of stopping it",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b1eba146-3e7b-4d9c-b73a-9141cfc4fbe2",
       "title": "VoidZero Is Joining Cloudflare",
       "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare",
@@ -634,6 +662,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "cloud"
+      ]
+    },
+    {
+      "id": "26fd526c-a0a8-4273-8d3b-6b3161e41d1e",
+      "title": "Show HN: HelixDB – A graph database built on object storage",
+      "url": "https://github.com/HelixDB/helix-db/tree/main",
+      "domain": "github.com",
+      "published_at": "2026-06-10T15:47:31Z",
+      "category": "tech",
+      "score": 0.28846677418231387,
+      "tldr": "Show HN: HelixDB – A graph database built on object storage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "data"
       ]
     },
     {
@@ -805,20 +847,6 @@
       ]
     },
     {
-      "id": "cf10e206-a3c4-4509-95d0-d8a44762b3a7",
-      "title": "Gooey: A GPU-accelerated UI framework for Zig",
-      "url": "https://github.com/duanebester/gooey",
-      "domain": "github.com",
-      "published_at": "2026-06-03T17:12:27Z",
-      "category": "tech",
-      "score": 0.2677026436022969,
-      "tldr": "Gooey: A GPU-accelerated UI framework for Zig",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "469e0eda-1e18-404d-9dce-daf3c5207e76",
       "title": "Show HN: FFmpeg WebCLI – Full FFmpeg in Browser, Offline PWA, No Uploads(WASM)",
       "url": "https://github.com/tejaswigowda/ffmpeg-webCLI",
@@ -841,6 +869,20 @@
       "category": "tech",
       "score": 0.26672514064472647,
       "tldr": "Open Code Review – An AI-powered code review CLI tool",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "21899028-0c93-484f-a7e7-3d86114e937a",
+      "title": "Postgres by Example",
+      "url": "https://github.com/boringcollege/postgres-by-example",
+      "domain": "github.com",
+      "published_at": "2026-06-10T16:05:06Z",
+      "category": "tech",
+      "score": 0.26654427530223457,
+      "tldr": "Postgres by Example",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -959,20 +1001,6 @@
       ]
     },
     {
-      "id": "24a975e6-b5a3-4bfe-8699-0528c1f02094",
-      "title": "The Public Should Own Half of the Big A.I. Companies",
-      "url": "https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies",
-      "domain": "sanders.senate.gov",
-      "published_at": "2026-06-03T16:58:39Z",
-      "category": "tech",
-      "score": 0.26142381328443137,
-      "tldr": "The Public Should Own Half of the Big A.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4f732919-6752-4111-aa05-ac15bc67903a",
       "title": "New U.S. college grads now have higher unemployment than the average worker",
       "url": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip",
@@ -1079,20 +1107,6 @@
       "category": "tech",
       "score": 0.25859608280866625,
       "tldr": "Nordstjernen Web Browser 1.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "7eab7082-33c0-4ca4-a7a5-fc25cc6b8686",
-      "title": "Show HN: Rscrypto, pure-Rust crypto with industry leading public benches",
-      "url": "https://github.com/loadingalias/rscrypto",
-      "domain": "github.com",
-      "published_at": "2026-06-03T16:41:14Z",
-      "category": "tech",
-      "score": 0.2581548016296175,
-      "tldr": "Show HN: Rscrypto, pure-Rust crypto with industry leading public benches",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1296,20 +1310,6 @@
       ]
     },
     {
-      "id": "df971cd0-661d-46c0-b63b-4d0675d39fe0",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "domain": "openai.com",
-      "published_at": "2026-06-03T17:50:05Z",
-      "category": "tech",
-      "score": 0.25467381505326253,
-      "tldr": "A blueprint for democratic governance of frontier AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4c0b4bd5-2894-4fcd-b09b-c53487fcb75b",
       "title": "HateArena – A free and open source arena shooter",
       "url": "https://github.com/hatearena/hate",
@@ -1335,6 +1335,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "9c8dbe69-3267-496d-ae85-6b9b4f877047",
+      "title": "Babel-USB: USB drive with every file",
+      "url": "https://github.com/p2r3/babel-usb",
+      "domain": "github.com",
+      "published_at": "2026-06-10T16:28:30Z",
+      "category": "tech",
+      "score": 0.2542072436314612,
+      "tldr": "Babel-USB: USB drive with every file",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
-      "title": "Built to benefit everyone: our plan",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "domain": "openai.com",
-      "published_at": "2026-06-08T20:56:24Z",
-      "category": "tech",
-      "score": 0.2530042051548669,
-      "tldr": "Built to benefit everyone: our plan",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-10T16:13:07.54548391Z",
+  "last_updated": "2026-06-10T18:46:36.666797047Z",
   "total_count": 100
 }
