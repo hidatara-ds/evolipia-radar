@@ -57,6 +57,20 @@
       ]
     },
     {
+      "id": "4c56fc0a-bddf-4a77-bafa-13747955dc45",
+      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "domain": "github.com",
+      "published_at": "2026-06-10T17:11:56Z",
+      "category": "tech",
+      "score": 0.3906430755523389,
+      "tldr": "Claude Desktop spawns 1. 8 GB Hyper-V VM on every launch, even for chat-only use",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0f10e782-1515-4e6b-8271-31311b066493",
       "title": "Unified Controllable and Faithful Text-to-CAD Generation with LLMs",
       "url": "https://arxiv.org/abs/2604.19773",
@@ -80,21 +94,6 @@
       "category": "tech",
       "score": 0.3877683395051006,
       "tldr": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "16a20b9e-58a4-4fa8-aaae-1b08bf063112",
-      "title": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
-      "url": "https://github.com/zaydmulani09/mnemo",
-      "domain": "github.com",
-      "published_at": "2026-06-03T20:32:10Z",
-      "category": "tech",
-      "score": 0.38052345322693704,
-      "tldr": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
@@ -169,20 +168,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "9373a7cb-33cf-4abf-b63f-0d36445a7ed7",
-      "title": "Elixir v1.20: Now a gradually typed language",
-      "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released",
-      "domain": "elixir-lang.org",
-      "published_at": "2026-06-03T19:02:26Z",
-      "category": "tech",
-      "score": 0.3490252953895813,
-      "tldr": "20: Now a gradually typed language",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -321,6 +306,20 @@
       "score": 0.3359066511780523,
       "tldr": "Harness engineering: Leveraging Codex in an agent-first world",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8c7ba5a6-f65c-4f80-abc5-139625ef3566",
+      "title": "πFS",
+      "url": "https://github.com/philipl/pifs",
+      "domain": "github.com",
+      "published_at": "2026-06-10T18:54:54Z",
+      "category": "tech",
+      "score": 0.3316834125410979,
+      "tldr": "πFS",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -477,21 +476,6 @@
       "tldr": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d663fecb-31fa-4524-bd1e-2bbd3951f4de",
-      "title": "Gemini Spark is the most impressive and terrifying AI experience I've had yet",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
-      "domain": "theverge.com",
-      "published_at": "2026-06-03T21:20:43Z",
-      "category": "tech",
-      "score": 0.30324471289732347,
-      "tldr": "Gemini Spark is the most impressive and terrifying AI experience I've had yet",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
         "llm"
       ]
     },
@@ -917,6 +901,20 @@
       ]
     },
     {
+      "id": "8e4cf7b0-a105-41e2-83a5-12ded923c38c",
+      "title": "Anthropic's Model Naming, Extrapolated",
+      "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "domain": "samwilkinson.io",
+      "published_at": "2026-06-10T18:45:20Z",
+      "category": "tech",
+      "score": 0.2655319124976431,
+      "tldr": "Anthropic's Model Naming, Extrapolated",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0c2e8e5b-b1bf-4989-bf83-3e03e12c177b",
       "title": "Nordstjernen 1.0",
       "url": "https://github.com/nordstjernen-web/nordstjernen/releases/tag/1.0.0",
@@ -1226,20 +1224,6 @@
       ]
     },
     {
-      "id": "a67f8e80-9aa7-46ab-8809-bbf8f27e6219",
-      "title": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)",
-      "url": "https://github.com/tastyeffectco/sandboxes",
-      "domain": "github.com",
-      "published_at": "2026-06-03T19:43:37Z",
-      "category": "tech",
-      "score": 0.25562585719922487,
-      "tldr": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bca08956-cdcf-47e7-8fb0-2bb45f6ea34e",
       "title": "Claude Fable 5 will sabotage \"frontier LLM research\" tasks",
       "url": "https://twitter.com/i/status/2064399902684139852",
@@ -1406,8 +1390,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
+      "title": "Built to benefit everyone: our plan",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "domain": "openai.com",
+      "published_at": "2026-06-08T20:56:24Z",
+      "category": "tech",
+      "score": 0.2530042051548669,
+      "tldr": "Built to benefit everyone: our plan",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-10T18:46:36.666797047Z",
+  "last_updated": "2026-06-10T21:22:51.676301167Z",
   "total_count": 100
 }
