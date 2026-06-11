@@ -831,20 +831,6 @@
       ]
     },
     {
-      "id": "469e0eda-1e18-404d-9dce-daf3c5207e76",
-      "title": "Show HN: FFmpeg WebCLI – Full FFmpeg in Browser, Offline PWA, No Uploads(WASM)",
-      "url": "https://github.com/tejaswigowda/ffmpeg-webCLI",
-      "domain": "github.com",
-      "published_at": "2026-06-04T20:32:18Z",
-      "category": "tech",
-      "score": 0.26707524746996447,
-      "tldr": "Show HN: FFmpeg WebCLI – Full FFmpeg in Browser, Offline PWA, No Uploads(WASM)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "138f181b-b7ee-4a54-aefe-8e7d75d66b38",
       "title": "Open Code Review – An AI-powered code review CLI tool",
       "url": "https://github.com/alibaba/open-code-review",
@@ -1069,20 +1055,6 @@
       ]
     },
     {
-      "id": "cc36c1ea-4c96-4b20-a354-3cd432f1e659",
-      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
-      "url": "https://github.com/anthropics/defending-code-reference-harness",
-      "domain": "github.com",
-      "published_at": "2026-06-04T20:11:20Z",
-      "category": "tech",
-      "score": 0.25865694904490244,
-      "tldr": "Anthropic's open-source framework for AI-powered vulnerability discovery",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ae1c2b0d-d607-4cb1-8790-0fb014288e14",
       "title": "Nordstjernen Web Browser 1.0.0 released",
       "url": "https://github.com/nordstjernen-web/nordstjernen/releases/tag/1.0.0",
@@ -1294,20 +1266,6 @@
       ]
     },
     {
-      "id": "e91f1e95-1bb0-462e-88cc-4fe8e4f41400",
-      "title": "Castor: CERN Advanced STORage Manager",
-      "url": "https://castor.web.cern.ch/content/home.html",
-      "domain": "castor.web.cern.ch",
-      "published_at": "2026-06-04T19:52:02Z",
-      "category": "tech",
-      "score": 0.25482121110342654,
-      "tldr": "Castor: CERN Advanced STORage Manager",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4c0b4bd5-2894-4fcd-b09b-c53487fcb75b",
       "title": "HateArena – A free and open source arena shooter",
       "url": "https://github.com/hatearena/hate",
@@ -1404,8 +1362,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
+      "title": "Efficient and Training-Free Single-Image Diffusion Models",
+      "url": "https://arxiv.org/abs/2606.04299",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-07T09:43:45Z",
+      "category": "tech",
+      "score": 0.2528493952200809,
+      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "477a03b6-e452-4acf-9b4b-9224dce21650",
+      "title": "Fine-tuning an LLM to write docs like it's 1995",
+      "url": "https://passo.uno/fine-tuning-docs-llm",
+      "domain": "passo.uno",
+      "published_at": "2026-06-05T05:46:06Z",
+      "category": "tech",
+      "score": 0.2527395004267309,
+      "tldr": "Fine-tuning an LLM to write docs like it's 1995",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "df4dfdf0-e002-44a6-abe6-38bebe3493ec",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "domain": "openai.com",
+      "published_at": "2026-06-10T20:17:37Z",
+      "category": "tech",
+      "score": 0.2524635137762857,
+      "tldr": "PRC-linked influence operations are targeting AI debates in the US",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-11T18:16:09.496012047Z",
+  "last_updated": "2026-06-11T20:41:13.161738399Z",
   "total_count": 100
 }
