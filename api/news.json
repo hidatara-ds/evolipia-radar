@@ -1224,6 +1224,20 @@
       ]
     },
     {
+      "id": "3cab2561-1f50-46ce-a1be-bee9ed589ea3",
+      "title": "It blocked us at 'hello ' Anthropic Fable 5 refusing innocuous prompts",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/10/anthropic-claude-fable-5-refuses-innocuous-prompts/5253754",
+      "domain": "theregister.com",
+      "published_at": "2026-06-11T04:54:52Z",
+      "category": "tech",
+      "score": 0.25525968358794604,
+      "tldr": "It blocked us at 'hello ' Anthropic Fable 5 refusing innocuous prompts",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6db95556-8e5c-437d-b196-325c48fe1c8b",
       "title": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
       "url": "https://github.com/kouhxp/textsnap",
@@ -1390,22 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "477a03b6-e452-4acf-9b4b-9224dce21650",
-      "title": "Fine-tuning an LLM to write docs like it's 1995",
-      "url": "https://passo.uno/fine-tuning-docs-llm",
-      "domain": "passo.uno",
-      "published_at": "2026-06-05T05:46:06Z",
-      "category": "tech",
-      "score": 0.2527395004267309,
-      "tldr": "Fine-tuning an LLM to write docs like it's 1995",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-11T01:45:28.021667913Z",
+  "last_updated": "2026-06-11T06:39:46.997571593Z",
   "total_count": 100
 }
