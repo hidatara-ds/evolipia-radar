@@ -101,6 +101,21 @@
       ]
     },
     {
+      "id": "8c003db6-71aa-42c9-8c27-9c295cf5f9d0",
+      "title": "Kina, Kubernetes but Apple Containers",
+      "url": "https://github.com/vinnie357/kina",
+      "domain": "github.com",
+      "published_at": "2026-06-11T19:22:50Z",
+      "category": "tech",
+      "score": 0.364457281107502,
+      "tldr": "Kina, Kubernetes but Apple Containers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "mlops"
+      ]
+    },
+    {
       "id": "025612c4-04d7-484d-97e8-78a10004c7e8",
       "title": "GPT-2: Too Dangerous To Release (2019)",
       "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019",
@@ -311,6 +326,20 @@
       ]
     },
     {
+      "id": "16eb761d-89eb-4d96-b993-357790ca4690",
+      "title": "Shall we play a game? – LLMs use tactical nukes in 95% of simulations",
+      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "domain": "kennethpayne.uk",
+      "published_at": "2026-06-11T19:54:54Z",
+      "category": "tech",
+      "score": 0.3269456586507335,
+      "tldr": "Shall we play a game? – LLMs use tactical nukes in 95% of simulations",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "bc76037b-c01d-41fd-a555-74e1f62365bd",
       "title": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
       "url": "https://github.com/vishal-dehurdle/state-harness",
@@ -474,6 +503,20 @@
       "category": "tech",
       "score": 0.2947591043432608,
       "tldr": "AI Is Slowing Down",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a0fd7958-2d5e-405b-9ffa-f1f0dbbc9fcf",
+      "title": "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public",
+      "url": "https://fablepool.com",
+      "domain": "fablepool.com",
+      "published_at": "2026-06-11T21:17:30Z",
+      "category": "tech",
+      "score": 0.29182744392368754,
+      "tldr": "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -915,20 +958,6 @@
       ]
     },
     {
-      "id": "2241c427-6e63-4bef-8c78-46ae9dfbbea4",
-      "title": "Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed",
-      "url": "https://github.com/schildep/verified-polygon-intersection",
-      "domain": "github.com",
-      "published_at": "2026-06-04T22:06:18Z",
-      "category": "tech",
-      "score": 0.2638233560977696,
-      "tldr": "Show HN: Formally verified polygon intersection – Opus 4. 8 oneshots, prev failed",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "78264ac0-dace-4d9a-aaad-62dc2822bceb",
       "title": "Show HN: Oproxy – inspect and modify network traffic from the browser",
       "url": "https://github.com/sauravrao637/oproxy",
@@ -1007,6 +1036,20 @@
       "category": "tech",
       "score": 0.2605642686511047,
       "tldr": "OpenAI Submits S-1 Draft to SEC",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "90c52cc4-610a-4c80-88b6-93c6f85a638e",
+      "title": "Show HN: Boo – screen-style terminal multiplexer built on libghostty",
+      "url": "https://github.com/coder/boo",
+      "domain": "github.com",
+      "published_at": "2026-06-11T20:52:26Z",
+      "category": "tech",
+      "score": 0.2604824066844782,
+      "tldr": "Show HN: Boo – screen-style terminal multiplexer built on libghostty",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1362,50 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
-      "title": "Efficient and Training-Free Single-Image Diffusion Models",
-      "url": "https://arxiv.org/abs/2606.04299",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-07T09:43:45Z",
-      "category": "tech",
-      "score": 0.2528493952200809,
-      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "477a03b6-e452-4acf-9b4b-9224dce21650",
-      "title": "Fine-tuning an LLM to write docs like it's 1995",
-      "url": "https://passo.uno/fine-tuning-docs-llm",
-      "domain": "passo.uno",
-      "published_at": "2026-06-05T05:46:06Z",
-      "category": "tech",
-      "score": 0.2527395004267309,
-      "tldr": "Fine-tuning an LLM to write docs like it's 1995",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "df4dfdf0-e002-44a6-abe6-38bebe3493ec",
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "domain": "openai.com",
-      "published_at": "2026-06-10T20:17:37Z",
-      "category": "tech",
-      "score": 0.2524635137762857,
-      "tldr": "PRC-linked influence operations are targeting AI debates in the US",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-11T20:41:13.161738399Z",
+  "last_updated": "2026-06-11T22:47:06.569591866Z",
   "total_count": 100
 }
