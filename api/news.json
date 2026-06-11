@@ -115,20 +115,6 @@
       ]
     },
     {
-      "id": "56bf8e01-20c5-44cc-83d0-28f58205fbf4",
-      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
-      "url": "https://github.com/huawei-csl/KVarN",
-      "domain": "github.com",
-      "published_at": "2026-06-04T15:18:00Z",
-      "category": "tech",
-      "score": 0.3530675409204437,
-      "tldr": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "e01bd7d0-7f34-400e-9dbe-416d78a9ea3d",
       "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
       "url": "https://arxiv.org/abs/2603.24647",
@@ -325,28 +311,14 @@
       ]
     },
     {
-      "id": "9c1ab02f-8ce3-4e29-a124-36fe8ae811e6",
-      "title": "KVarN: Native vLLM KV-cache quantization back end by Huawei",
-      "url": "https://github.com/huawei-csl/KVarN",
+      "id": "bc76037b-c01d-41fd-a555-74e1f62365bd",
+      "title": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
+      "url": "https://github.com/vishal-dehurdle/state-harness",
       "domain": "github.com",
-      "published_at": "2026-06-04T15:18:00Z",
+      "published_at": "2026-06-11T11:21:54Z",
       "category": "tech",
-      "score": 0.32831916575262476,
-      "tldr": "KVarN: Native vLLM KV-cache quantization back end by Huawei",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7915d144-fb5a-4521-a2a0-6ab2c1009b34",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "domain": "openai.com",
-      "published_at": "2026-06-04T16:04:30Z",
-      "category": "tech",
-      "score": 0.3269771103133957,
-      "tldr": "Dreaming: Better memory for a more helpful ChatGPT",
+      "score": 0.3258192357043062,
+      "tldr": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -463,20 +435,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "c3ac4595-33ca-4f4d-81d6-57a38f3f6557",
-      "title": "The LLM warnings Google fired Timnit Gebru over have all come true",
-      "url": "https://www.tumblr.com/dreaminginthedeepsouth/817865966907228160/darren-oconnor-timnit-gebru-was-fired-from",
-      "domain": "tumblr.com",
-      "published_at": "2026-06-04T15:34:43Z",
-      "category": "tech",
-      "score": 0.30042132660890886,
-      "tldr": "The LLM warnings Google fired Timnit Gebru over have all come true",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -663,6 +621,20 @@
       ]
     },
     {
+      "id": "adda7e91-ad4e-4d25-a028-34ccc65e95d3",
+      "title": "FPS.cob: A first person shooter in COBOL",
+      "url": "https://github.com/icitry/FPS.cob",
+      "domain": "github.com",
+      "published_at": "2026-06-11T15:13:57Z",
+      "category": "tech",
+      "score": 0.280581723407116,
+      "tldr": "cob: A first person shooter in COBOL",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "30eed148-7ae0-458e-8a78-e2ce7994f932",
       "title": "Macaroni – a single HTML file messenger",
       "url": "https://github.com/vanyapr/makaroshki",
@@ -705,6 +677,20 @@
       ]
     },
     {
+      "id": "3d1dec13-d1ac-40a6-a909-11b13ed56aa1",
+      "title": "Show HN: Homebrew 6.0.0",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0",
+      "domain": "brew.sh",
+      "published_at": "2026-06-11T13:24:29Z",
+      "category": "tech",
+      "score": 0.2780899978023169,
+      "tldr": "Show HN: Homebrew 6.0.0",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "45a4215a-1799-4ce2-bf9d-9f9f54e2ea79",
       "title": "Raspberry Pi 5 – 16GB RAM",
       "url": "https://www.adafruit.com/product/6125?src=raspberrypi",
@@ -727,6 +713,20 @@
       "category": "tech",
       "score": 0.27590594083405423,
       "tldr": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2c773df0-a782-47bd-93c0-ccb9e9afa601",
+      "title": "Solar generates more energy in US than coal for first time",
+      "url": "https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal",
+      "domain": "theguardian.com",
+      "published_at": "2026-06-11T16:10:05Z",
+      "category": "tech",
+      "score": 0.27193801337019075,
+      "tldr": "Solar generates more energy in US than coal for first time",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -803,6 +803,20 @@
       ]
     },
     {
+      "id": "7d7752ef-f54a-4596-80f7-4e234996eada",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "domain": "theverge.com",
+      "published_at": "2026-06-11T12:05:02Z",
+      "category": "tech",
+      "score": 0.2692765758337684,
+      "tldr": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8e9b5bcc-ab69-4b83-a75b-06915873ef83",
       "title": "WWDC 2026: Apple is Folding",
       "url": "https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding",
@@ -867,20 +881,6 @@
       "category": "tech",
       "score": 0.26634724167969026,
       "tldr": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8ed55d43-30de-4c1a-a169-a7a45c9dc0e2",
-      "title": "Sagrada Família Lego set",
-      "url": "https://www.lego.com/en-us/product/sagrada-familia-21065",
-      "domain": "lego.com",
-      "published_at": "2026-06-04T16:25:20Z",
-      "category": "tech",
-      "score": 0.26563696958803984,
-      "tldr": "Sagrada Família Lego set",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -996,6 +996,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "4b6c06fe-77c1-4874-bd45-b27fe791b4ff",
+      "title": "Show HN: Open-source API Key server written in Go by Ory",
+      "url": "https://github.com/ory/talos/tree/master",
+      "domain": "github.com",
+      "published_at": "2026-06-11T15:09:42Z",
+      "category": "tech",
+      "score": 0.260925331859837,
+      "tldr": "Show HN: Open-source API Key server written in Go by Ory",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1390,22 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
-      "title": "Efficient and Training-Free Single-Image Diffusion Models",
-      "url": "https://arxiv.org/abs/2606.04299",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-07T09:43:45Z",
-      "category": "tech",
-      "score": 0.2528493952200809,
-      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-11T15:01:21.84909276Z",
+  "last_updated": "2026-06-11T18:16:09.496012047Z",
   "total_count": 100
 }
