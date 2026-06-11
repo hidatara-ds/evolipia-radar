@@ -15,20 +15,6 @@
       ]
     },
     {
-      "id": "94e167e2-6b93-44c7-a58b-9b14edd846a2",
-      "title": "They’re made out of weights",
-      "url": "https://maxleiter.com/blog/weights",
-      "domain": "maxleiter.com",
-      "published_at": "2026-06-03T23:37:18Z",
-      "category": "tech",
-      "score": 0.4438676893732121,
-      "tldr": "They’re made out of weights",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "288420bc-9b88-4d09-979b-02daa624f071",
       "title": "Building an HTML-first site doubled our users overnight",
       "url": "https://mohkohn.co.uk/writing/html-first",
@@ -126,20 +112,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "d66be276-c35f-4ca1-a778-7ac9f6f00a4c",
-      "title": "U.S. to dismantle system tracking Atlantic currents that are at risk of collapse",
-      "url": "https://e360.yale.edu/digest/trump-ooi-amoc",
-      "domain": "e360.yale.edu",
-      "published_at": "2026-06-04T00:44:13Z",
-      "category": "tech",
-      "score": 0.35943929447668777,
-      "tldr": "to dismantle system tracking Atlantic currents that are at risk of collapse",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -466,20 +438,6 @@
       ]
     },
     {
-      "id": "5fddd2c1-6690-4d0c-8193-ad950683c71c",
-      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app",
-      "domain": "kasra.blog",
-      "published_at": "2026-06-04T00:56:32Z",
-      "category": "tech",
-      "score": 0.30408790247361417,
-      "tldr": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7834e6fb-6ea3-4ce1-8b0c-079a14075cf5",
       "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
       "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
@@ -747,6 +705,20 @@
       ]
     },
     {
+      "id": "45a4215a-1799-4ce2-bf9d-9f9f54e2ea79",
+      "title": "Raspberry Pi 5 – 16GB RAM",
+      "url": "https://www.adafruit.com/product/6125?src=raspberrypi",
+      "domain": "adafruit.com",
+      "published_at": "2026-06-10T20:05:21Z",
+      "category": "tech",
+      "score": 0.2761189330982018,
+      "tldr": "Raspberry Pi 5 – 16GB RAM",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "14fbe851-d2e3-4865-ac13-82a17b155458",
       "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
       "url": "https://arxiv.org/abs/2605.15184",
@@ -943,20 +915,6 @@
       ]
     },
     {
-      "id": "0cb93e5d-016f-44c9-9a46-3b2c7eb2df56",
-      "title": "\"They're made out of weights\"",
-      "url": "https://maxleiter.com/blog/weights",
-      "domain": "maxleiter.com",
-      "published_at": "2026-06-03T23:37:18Z",
-      "category": "tech",
-      "score": 0.26340105281358694,
-      "tldr": "\"They're made out of weights\"",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "78264ac0-dace-4d9a-aaad-62dc2822bceb",
       "title": "Show HN: Oproxy – inspect and modify network traffic from the browser",
       "url": "https://github.com/sauravrao637/oproxy",
@@ -1137,6 +1095,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "d9816306-e9ba-4897-989f-2418965590fe",
+      "title": "Deficient executive control in transformer attention",
+      "url": "https://academic.oup.com/pnasnexus/article/5/6/pgag149/8698838",
+      "domain": "academic.oup.com",
+      "published_at": "2026-06-10T23:35:01Z",
+      "category": "tech",
+      "score": 0.25740828959389955,
+      "tldr": "Deficient executive control in transformer attention",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1404,8 +1376,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
+      "title": "Efficient and Training-Free Single-Image Diffusion Models",
+      "url": "https://arxiv.org/abs/2606.04299",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-07T09:43:45Z",
+      "category": "tech",
+      "score": 0.2528493952200809,
+      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "477a03b6-e452-4acf-9b4b-9224dce21650",
+      "title": "Fine-tuning an LLM to write docs like it's 1995",
+      "url": "https://passo.uno/fine-tuning-docs-llm",
+      "domain": "passo.uno",
+      "published_at": "2026-06-05T05:46:06Z",
+      "category": "tech",
+      "score": 0.2527395004267309,
+      "tldr": "Fine-tuning an LLM to write docs like it's 1995",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-10T23:03:24.008084841Z",
+  "last_updated": "2026-06-11T01:45:28.021667913Z",
   "total_count": 100
 }
