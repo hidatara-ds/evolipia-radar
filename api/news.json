@@ -214,20 +214,6 @@
       ]
     },
     {
-      "id": "33b58639-1c9a-402e-bada-fe1643fc566b",
-      "title": "Do Transformers Need Three Projections? Systematic Study of QKV Variants",
-      "url": "https://arxiv.org/abs/2606.04032",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-04T23:11:56Z",
-      "category": "tech",
-      "score": 0.3383564329263884,
-      "tldr": "Do Transformers Need Three Projections? Systematic Study of QKV Variants",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "6ae0f4f8-c74a-485f-b4ff-dec15602f1c7",
       "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
       "url": "https://github.com/zdk/lowfat",
@@ -720,6 +706,20 @@
       ]
     },
     {
+      "id": "595e9857-39f8-4d78-ba4a-594116f322a3",
+      "title": "Shall we play a game? My AI nuclear simulation",
+      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "domain": "kennethpayne.uk",
+      "published_at": "2026-06-11T19:54:54Z",
+      "category": "tech",
+      "score": 0.2789878729440569,
+      "tldr": "Shall we play a game? My AI nuclear simulation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3d1dec13-d1ac-40a6-a909-11b13ed56aa1",
       "title": "Show HN: Homebrew 6.0.0",
       "url": "https://brew.sh/2026/06/11/homebrew-6.0.0",
@@ -868,20 +868,6 @@
       "category": "tech",
       "score": 0.2684193739872439,
       "tldr": "WWDC 2026: Apple is Folding",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "138f181b-b7ee-4a54-aefe-8e7d75d66b38",
-      "title": "Open Code Review – An AI-powered code review CLI tool",
-      "url": "https://github.com/alibaba/open-code-review",
-      "domain": "github.com",
-      "published_at": "2026-06-05T00:04:29Z",
-      "category": "tech",
-      "score": 0.26672514064472647,
-      "tldr": "Open Code Review – An AI-powered code review CLI tool",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
+      "title": "Efficient and Training-Free Single-Image Diffusion Models",
+      "url": "https://arxiv.org/abs/2606.04299",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-07T09:43:45Z",
+      "category": "tech",
+      "score": 0.2528493952200809,
+      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-11T22:47:06.569591866Z",
+  "last_updated": "2026-06-12T00:14:32.044498844Z",
   "total_count": 100
 }
