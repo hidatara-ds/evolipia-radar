@@ -622,20 +622,6 @@
       ]
     },
     {
-      "id": "8594c48e-3bcc-4182-98c4-a34ba8029454",
-      "title": "Ultra-processed foods in the global food system: The role of tobacco companies",
-      "url": "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501",
-      "domain": "ajph.aphapublications.org",
-      "published_at": "2026-06-05T11:56:27Z",
-      "category": "tech",
-      "score": 0.2866912872588056,
-      "tldr": "Ultra-processed foods in the global food system: The role of tobacco companies",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5fc9704f-23a3-4407-b732-62677ce3f5fc",
       "title": "German ruling declares Google liable for false answers in AI Overviews",
       "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
@@ -787,20 +773,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "e91e0eac-58ff-4bd1-9c32-a35bc45cec2e",
-      "title": "Ask HN: Is the web for machines (/llm.txt) the one we wished we had as humans?",
-      "url": "https://news.ycombinator.com/item?id=48410589",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-06-05T10:43:28Z",
-      "category": "tech",
-      "score": 0.2705496171150998,
-      "tldr": "Ask HN: Is the web for machines (/llm. txt) the one we wished we had as humans?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1155,6 +1127,20 @@
       ]
     },
     {
+      "id": "8d47ee4a-6404-4e02-acbd-c2353d7fa427",
+      "title": "Maxproof",
+      "url": "https://arxiv.org/abs/2606.13473",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-12T12:00:02Z",
+      "category": "tech",
+      "score": 0.25670463655984327,
+      "tldr": "Maxproof",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "156ffe61-702d-4da1-9798-3de7aa05ca33",
       "title": "Using Optical Aberrations to Distinguish Real Astronomical Transients",
       "url": "https://arxiv.org/abs/2606.08319",
@@ -1281,20 +1267,6 @@
       ]
     },
     {
-      "id": "6db95556-8e5c-437d-b196-325c48fe1c8b",
-      "title": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
-      "url": "https://github.com/kouhxp/textsnap",
-      "domain": "github.com",
-      "published_at": "2026-06-05T11:16:10Z",
-      "category": "tech",
-      "score": 0.25494209664044387,
-      "tldr": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4c0b4bd5-2894-4fcd-b09b-c53487fcb75b",
       "title": "HateArena – A free and open source arena shooter",
       "url": "https://github.com/hatearena/hate",
@@ -1405,8 +1377,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
+      "title": "Efficient and Training-Free Single-Image Diffusion Models",
+      "url": "https://arxiv.org/abs/2606.04299",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-07T09:43:45Z",
+      "category": "tech",
+      "score": 0.2528493952200809,
+      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "df4dfdf0-e002-44a6-abe6-38bebe3493ec",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "domain": "openai.com",
+      "published_at": "2026-06-10T20:17:37Z",
+      "category": "tech",
+      "score": 0.2524635137762857,
+      "tldr": "PRC-linked influence operations are targeting AI debates in the US",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-12T09:40:49.055374167Z",
+  "last_updated": "2026-06-12T12:48:48.441104787Z",
   "total_count": 100
 }
