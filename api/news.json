@@ -284,20 +284,6 @@
       ]
     },
     {
-      "id": "79830110-e977-4caa-a4bc-a309b3f99ebe",
-      "title": "Conventional Commits encourages focus on the wrong things",
-      "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits",
-      "domain": "sumnerevans.com",
-      "published_at": "2026-06-05T15:39:38Z",
-      "category": "tech",
-      "score": 0.32940596074868717,
-      "tldr": "Conventional Commits encourages focus on the wrong things",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e94e63d2-03f1-4410-979f-edff42c930f3",
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
       "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
@@ -340,20 +326,6 @@
       ]
     },
     {
-      "id": "bdb618be-282a-470e-91c3-ccdba0fd9773",
-      "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
-      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
-      "domain": "bbc.com",
-      "published_at": "2026-06-05T15:00:31Z",
-      "category": "tech",
-      "score": 0.3251016110195153,
-      "tldr": "Astronauts told to return to ISS after sheltering over air leak repairs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "448c8e29-b0be-458d-b745-ac7207cb9a10",
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
       "url": "https://github.com/anthropics/claude-code/issues/65697",
@@ -376,6 +348,20 @@
       "category": "tech",
       "score": 0.3189491218787773,
       "tldr": "Claude Fable is relentlessly proactive",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c2d300cf-41c2-424e-aa11-824971cfc8b0",
+      "title": "WASI 0.3.0 Released",
+      "url": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.0",
+      "domain": "github.com",
+      "published_at": "2026-06-12T13:51:15Z",
+      "category": "tech",
+      "score": 0.31494247572054357,
+      "tldr": "WASI 0.3.0 Released",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -916,6 +902,20 @@
       ]
     },
     {
+      "id": "d52271df-1add-4ba2-9b95-335dd6fcaf08",
+      "title": "A Call to Action: Stop the FCC's KYC Regime",
+      "url": "https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime",
+      "domain": "blog.lopp.net",
+      "published_at": "2026-06-12T14:33:29Z",
+      "category": "tech",
+      "score": 0.2623668090424808,
+      "tldr": "A Call to Action: Stop the FCC's KYC Regime",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6a24f9d9-8c28-43b7-97d7-62bb1035a478",
       "title": "Mercedes‑Benz starts large‑scale production of electric axial flux motor",
       "url": "https://media.mercedes-benz.com/en/article/bebac2af-acdc-465a-9538-adb0bf3d8ccf",
@@ -1110,6 +1110,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "e513eaad-12e2-480d-a9e3-82d62ae70d83",
+      "title": "Show HN: Script to bulk delete Claude chats from the web UI",
+      "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+      "domain": "github.com",
+      "published_at": "2026-06-12T15:08:59Z",
+      "category": "tech",
+      "score": 0.25703610455710096,
+      "tldr": "Show HN: Script to bulk delete Claude chats from the web UI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1323,6 +1337,20 @@
       ]
     },
     {
+      "id": "a76d3b51-10cc-46fd-a1ba-a12b6a1a5492",
+      "title": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
+      "url": "https://github.com/WebAssembly/wasi-webgpu",
+      "domain": "github.com",
+      "published_at": "2026-06-12T15:26:58Z",
+      "category": "tech",
+      "score": 0.2532649461041467,
+      "tldr": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "00d87896-ca6e-462a-adbf-2b127cdb2e36",
       "title": "Is anyone here interested in contributing to this OS?",
       "url": "https://github.com/valivalivali/x-os",
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
-      "title": "Efficient and Training-Free Single-Image Diffusion Models",
-      "url": "https://arxiv.org/abs/2606.04299",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-07T09:43:45Z",
-      "category": "tech",
-      "score": 0.2528493952200809,
-      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "df4dfdf0-e002-44a6-abe6-38bebe3493ec",
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "domain": "openai.com",
-      "published_at": "2026-06-10T20:17:37Z",
-      "category": "tech",
-      "score": 0.2524635137762857,
-      "tldr": "PRC-linked influence operations are targeting AI debates in the US",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-12T12:48:48.441104787Z",
+  "last_updated": "2026-06-12T16:12:16.299254981Z",
   "total_count": 100
 }
