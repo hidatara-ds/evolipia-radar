@@ -382,6 +382,20 @@
       ]
     },
     {
+      "id": "5ef241d3-58f1-4fe7-8b96-6d9fd8998989",
+      "title": "Claude Fable is relentlessly proactive",
+      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive",
+      "domain": "simonwillison.net",
+      "published_at": "2026-06-12T01:06:51Z",
+      "category": "tech",
+      "score": 0.3189491218787773,
+      "tldr": "Claude Fable is relentlessly proactive",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e9632a27-04cc-4e01-ad19-587cf14892cb",
       "title": "Show HN: Drift – an embedding-model upgrade should be a rotation, not a reindex",
       "url": "https://github.com/aayush4vedi/drift-spark",
@@ -489,6 +503,20 @@
       "category": "tech",
       "score": 0.2947591043432608,
       "tldr": "AI Is Slowing Down",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f220c64f-8bdc-41a9-9722-a5d3f5c67a5f",
+      "title": "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]",
+      "url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf",
+      "domain": "web.mit.edu",
+      "published_at": "2026-06-12T00:38:11Z",
+      "category": "tech",
+      "score": 0.29218583076779453,
+      "tldr": "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1098,6 +1126,20 @@
       ]
     },
     {
+      "id": "a4ce3b11-9b52-439b-aef4-ccf97e7f550f",
+      "title": "Codex for Open Source",
+      "url": "https://openai.com/form/codex-for-oss",
+      "domain": "openai.com",
+      "published_at": "2026-06-11T22:20:03Z",
+      "category": "tech",
+      "score": 0.258454831449166,
+      "tldr": "Codex for Open Source",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4754c41e-ea39-41ee-b90a-2325379fe566",
       "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
       "url": "https://github.com/sig-id/nucleus",
@@ -1267,6 +1309,20 @@
       ]
     },
     {
+      "id": "bc26bf54-ce03-4bdb-a33f-941a585b6a54",
+      "title": "Making a vintage LLM from scratch",
+      "url": "https://crlf.link/log/entries/260525-1",
+      "domain": "crlf.link",
+      "published_at": "2026-06-11T08:38:00Z",
+      "category": "tech",
+      "score": 0.25523692805984693,
+      "tldr": "Making a vintage LLM from scratch",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6db95556-8e5c-437d-b196-325c48fe1c8b",
       "title": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
       "url": "https://github.com/kouhxp/textsnap",
@@ -1275,20 +1331,6 @@
       "category": "tech",
       "score": 0.25494209664044387,
       "tldr": "Show HN: Local-first fast CPU image to text for screenshots, PDFs, webpages",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a889a7de-ff62-4b04-a2b3-1c742fc8041e",
-      "title": "C++: The Documentary",
-      "url": "https://herbsutter.com/2026/06/04/c-the-documentary-released-today",
-      "domain": "herbsutter.com",
-      "published_at": "2026-06-05T04:37:01Z",
-      "category": "tech",
-      "score": 0.2548281297983686,
-      "tldr": "C++: The Documentary",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1306,6 +1348,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "a7cd45bf-7cdc-49d9-beb1-d499233bf105",
+      "title": "Don't let the LLM speak, just probe it",
+      "url": "https://blog.j11y.io/2026-06-10_hidden-state-probes",
+      "domain": "blog.j11y.io",
+      "published_at": "2026-06-12T00:24:48Z",
+      "category": "tech",
+      "score": 0.2544898148762644,
+      "tldr": "Don't let the LLM speak, just probe it",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1349,64 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f15d6f32-4289-4d02-a7db-c3b06f26fa33",
-      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
-      "url": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users",
-      "domain": "404media.co",
-      "published_at": "2026-06-08T18:34:04Z",
-      "category": "tech",
-      "score": 0.2530347153472123,
-      "tldr": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a420d2e2-f1dd-4755-b91f-b001ac41abc7",
-      "title": "Solar Energy Saves Europeans $135M a Day",
-      "url": "https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day",
-      "domain": "cleantechnica.com",
-      "published_at": "2026-06-09T15:09:38Z",
-      "category": "tech",
-      "score": 0.253014164395982,
-      "tldr": "Solar Energy Saves Europeans $135M a Day",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
-      "title": "Built to benefit everyone: our plan",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "domain": "openai.com",
-      "published_at": "2026-06-08T20:56:24Z",
-      "category": "tech",
-      "score": 0.2530042051548669,
-      "tldr": "Built to benefit everyone: our plan",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d5f056f1-b867-4571-8dfc-17960800d7f9",
-      "title": "Efficient and Training-Free Single-Image Diffusion Models",
-      "url": "https://arxiv.org/abs/2606.04299",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-07T09:43:45Z",
-      "category": "tech",
-      "score": 0.2528493952200809,
-      "tldr": "Efficient and Training-Free Single-Image Diffusion Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-12T00:14:32.044498844Z",
+  "last_updated": "2026-06-12T05:12:32.31779205Z",
   "total_count": 100
 }
