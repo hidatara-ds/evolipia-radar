@@ -846,20 +846,6 @@
       ]
     },
     {
-      "id": "0c2e8e5b-b1bf-4989-bf83-3e03e12c177b",
-      "title": "Nordstjernen 1.0",
-      "url": "https://github.com/nordstjernen-web/nordstjernen/releases/tag/1.0.0",
-      "domain": "github.com",
-      "published_at": "2026-06-05T23:42:54Z",
-      "category": "tech",
-      "score": 0.265246744471116,
-      "tldr": "Nordstjernen 1.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2eae2823-aace-46e2-b4fc-f5374a545f50",
       "title": "Lines of Code Got a Better Publicist",
       "url": "https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist",
@@ -1014,6 +1000,20 @@
       ]
     },
     {
+      "id": "3e39cc0a-4e6d-4fb3-b781-83fc1c92f352",
+      "title": "/architect: Reduce Fable tokens by 80%, Fable orchestrates/reviews, Codex builds",
+      "url": "https://github.com/DanMcInerney/architect-loop",
+      "domain": "github.com",
+      "published_at": "2026-06-12T20:33:22Z",
+      "category": "tech",
+      "score": 0.2599423008324569,
+      "tldr": "/architect: Reduce Fable tokens by 80%, Fable orchestrates/reviews, Codex builds",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "84f71070-5445-431f-8461-f1e77f404c10",
       "title": "I Hate (Most) Keyboard 'Fn' Keys",
       "url": "https://danq.me/2026/06/09/fn-keys",
@@ -1053,20 +1053,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "ae1c2b0d-d607-4cb1-8790-0fb014288e14",
-      "title": "Nordstjernen Web Browser 1.0.0 released",
-      "url": "https://github.com/nordstjernen-web/nordstjernen/releases/tag/1.0.0",
-      "domain": "github.com",
-      "published_at": "2026-06-05T23:42:54Z",
-      "category": "tech",
-      "score": 0.25859608280866625,
-      "tldr": "Nordstjernen Web Browser 1.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
+      "title": "Built to benefit everyone: our plan",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "domain": "openai.com",
+      "published_at": "2026-06-08T20:56:24Z",
+      "category": "tech",
+      "score": 0.2530042051548669,
+      "tldr": "Built to benefit everyone: our plan",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-12T22:18:06.193309521Z",
+  "last_updated": "2026-06-12T23:58:34.329677442Z",
   "total_count": 100
 }
