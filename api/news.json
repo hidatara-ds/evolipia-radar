@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "16506878-5dcc-4651-ad5a-f50aa8b25bcb",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian",
+      "domain": "lantian.pub",
+      "published_at": "2026-06-12T04:42:53Z",
+      "category": "tech",
+      "score": 0.42105952649075734,
+      "tldr": "AI agent bankrupted their operator while trying to scan DN42",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "288420bc-9b88-4d09-979b-02daa624f071",
       "title": "Building an HTML-first site doubled our users overnight",
       "url": "https://mohkohn.co.uk/writing/html-first",
@@ -214,20 +228,6 @@
       ]
     },
     {
-      "id": "6ae0f4f8-c74a-485f-b4ff-dec15602f1c7",
-      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
-      "url": "https://github.com/zdk/lowfat",
-      "domain": "github.com",
-      "published_at": "2026-06-05T09:10:42Z",
-      "category": "tech",
-      "score": 0.33675303333651857,
-      "tldr": "Show HN: Lowfat – pluggable CLI filter that saved 91.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "0330563b-66af-46a5-b662-9e493bd6614d",
       "title": "Chrome is looking to permanently drop MV2 extension",
       "url": "https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow",
@@ -362,20 +362,6 @@
       "category": "tech",
       "score": 0.32263612699541877,
       "tldr": "Anthropic, please ship an official Claude Desktop for Linux",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "90bca759-0b99-4e2d-b68b-9b1d7d4670c9",
-      "title": "Changing How We Develop Ladybird",
-      "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird",
-      "domain": "ladybird.org",
-      "published_at": "2026-06-05T07:26:33Z",
-      "category": "tech",
-      "score": 0.321404890100751,
-      "tldr": "Changing How We Develop Ladybird",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -832,20 +818,6 @@
       ]
     },
     {
-      "id": "0410d042-6a5e-4f94-84ab-f9e44c2a0859",
-      "title": "Tracing a powerful GNSS interference source over Europe",
-      "url": "https://arxiv.org/abs/2606.03673",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-05T08:32:16Z",
-      "category": "tech",
-      "score": 0.2704715863118932,
-      "tldr": "Tracing a powerful GNSS interference source over Europe",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5ff54898-c0ed-45ef-bba6-bf751eaed9e0",
       "title": "If Claude Fable stops helping you, you'll never know",
       "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
@@ -910,20 +882,6 @@
       "category": "tech",
       "score": 0.26654427530223457,
       "tldr": "Postgres by Example",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d65868b4-4a49-4bd5-8149-aead06d5ee0d",
-      "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
-      "url": "https://github.com/geo-tp/ESP32-Bit-Pirate",
-      "domain": "github.com",
-      "published_at": "2026-06-05T07:40:04Z",
-      "category": "tech",
-      "score": 0.26634724167969026,
-      "tldr": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,8 +1363,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f15d6f32-4289-4d02-a7db-c3b06f26fa33",
+      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
+      "url": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users",
+      "domain": "404media.co",
+      "published_at": "2026-06-08T18:34:04Z",
+      "category": "tech",
+      "score": 0.2530347153472123,
+      "tldr": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a420d2e2-f1dd-4755-b91f-b001ac41abc7",
+      "title": "Solar Energy Saves Europeans $135M a Day",
+      "url": "https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day",
+      "domain": "cleantechnica.com",
+      "published_at": "2026-06-09T15:09:38Z",
+      "category": "tech",
+      "score": 0.253014164395982,
+      "tldr": "Solar Energy Saves Europeans $135M a Day",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
+      "title": "Built to benefit everyone: our plan",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "domain": "openai.com",
+      "published_at": "2026-06-08T20:56:24Z",
+      "category": "tech",
+      "score": 0.2530042051548669,
+      "tldr": "Built to benefit everyone: our plan",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-12T05:12:32.31779205Z",
+  "last_updated": "2026-06-12T09:40:49.055374167Z",
   "total_count": 100
 }
