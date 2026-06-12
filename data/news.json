@@ -242,20 +242,6 @@
       ]
     },
     {
-      "id": "65670a40-bd97-48c2-8929-6d670b2813cd",
-      "title": "Harness engineering: Leveraging Codex in an agent-first world",
-      "url": "https://openai.com/index/harness-engineering",
-      "domain": "openai.com",
-      "published_at": "2026-06-05T18:20:06Z",
-      "category": "tech",
-      "score": 0.3359066511780523,
-      "tldr": "Harness engineering: Leveraging Codex in an agent-first world",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8c7ba5a6-f65c-4f80-abc5-139625ef3566",
       "title": "πFS",
       "url": "https://github.com/philipl/pifs",
@@ -888,6 +874,20 @@
       ]
     },
     {
+      "id": "31661741-3b5c-4097-a38d-cbbc2d6cb868",
+      "title": "WASI 0.3",
+      "url": "https://bytecodealliance.org/articles/WASI-0.3",
+      "domain": "bytecodealliance.org",
+      "published_at": "2026-06-12T13:51:15Z",
+      "category": "tech",
+      "score": 0.263278233328435,
+      "tldr": "WASI 0.3",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "78264ac0-dace-4d9a-aaad-62dc2822bceb",
       "title": "Show HN: Oproxy – inspect and modify network traffic from the browser",
       "url": "https://github.com/sauravrao637/oproxy",
@@ -1039,6 +1039,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "6306f6b5-77d9-4bd5-a7ab-2428f80a8b58",
+      "title": "\"Don't You Just Upload It to ChatGPT?\"",
+      "url": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt",
+      "domain": "correresmidestino.com",
+      "published_at": "2026-06-12T17:52:46Z",
+      "category": "tech",
+      "score": 0.25879189976082123,
+      "tldr": "\"Don't You Just Upload It to ChatGPT?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1391,22 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
-      "title": "Built to benefit everyone: our plan",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "domain": "openai.com",
-      "published_at": "2026-06-08T20:56:24Z",
-      "category": "tech",
-      "score": 0.2530042051548669,
-      "tldr": "Built to benefit everyone: our plan",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-12T16:12:16.299254981Z",
+  "last_updated": "2026-06-12T18:22:53.268409672Z",
   "total_count": 100
 }
