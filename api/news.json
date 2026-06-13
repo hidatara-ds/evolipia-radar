@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "1c6dad2b-2d6b-4911-9a3b-f902f6604cbb",
+      "title": "US Government directive to suspend access to Fable 5 and Mythos 5",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "domain": "anthropic.com",
+      "published_at": "2026-06-13T00:51:30Z",
+      "category": "tech",
+      "score": 0.7021320062782133,
+      "tldr": "US Government directive to suspend access to Fable 5 and Mythos 5",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b06cc23a-8e12-4a61-8aed-55ee9e12ef13",
       "title": "macOS Container Machines",
       "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
@@ -1391,22 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
-      "title": "Built to benefit everyone: our plan",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "domain": "openai.com",
-      "published_at": "2026-06-08T20:56:24Z",
-      "category": "tech",
-      "score": 0.2530042051548669,
-      "tldr": "Built to benefit everyone: our plan",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-12T23:58:34.329677442Z",
+  "last_updated": "2026-06-13T02:50:58.671227899Z",
   "total_count": 100
 }
