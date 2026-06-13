@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "62be079e-dbb5-4f34-8edf-176266711a02",
+      "title": "Noise infusion banned from statistical products published by Census Bureau",
+      "url": "https://desfontain.es/blog/banning-noise.html",
+      "domain": "desfontain.es",
+      "published_at": "2026-06-13T13:54:56Z",
+      "category": "tech",
+      "score": 0.45141889109032707,
+      "tldr": "Noise infusion banned from statistical products published by Census Bureau",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b06cc23a-8e12-4a61-8aed-55ee9e12ef13",
       "title": "macOS Container Machines",
       "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
@@ -169,6 +183,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "9239e59e-9c6b-464a-b8e6-e2ea2d23724d",
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?reflink=desktopwebshare_permalink\u0026st=Yct6gx",
+      "domain": "wsj.com",
+      "published_at": "2026-06-13T16:57:49Z",
+      "category": "tech",
+      "score": 0.3531560137192032,
+      "tldr": "Amazon CEO's talks with U. officials triggered crackdown on Anthropic models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -860,6 +888,20 @@
       ]
     },
     {
+      "id": "256ac4c9-4cd6-403c-9cc6-29b9518e4791",
+      "title": "GLM 5.2 Is Out",
+      "url": "https://twitter.com/jietang/status/2065784751345287314",
+      "domain": "twitter.com",
+      "published_at": "2026-06-13T16:18:31Z",
+      "category": "tech",
+      "score": 0.2665796406933734,
+      "tldr": "GLM 5.2 Is Out",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "21899028-0c93-484f-a7e7-3d86114e937a",
       "title": "Postgres by Example",
       "url": "https://github.com/boringcollege/postgres-by-example",
@@ -967,20 +1009,6 @@
       "score": 0.26198826477071396,
       "tldr": "Mercedes‑Benz starts large‑scale production of electric axial flux motor",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4f732919-6752-4111-aa05-ac15bc67903a",
-      "title": "New U.S. college grads now have higher unemployment than the average worker",
-      "url": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip",
-      "domain": "randalolson.com",
-      "published_at": "2026-06-06T20:35:40Z",
-      "category": "tech",
-      "score": 0.2612019686996707,
-      "tldr": "college grads now have higher unemployment than the average worker",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1211,20 +1239,6 @@
       ]
     },
     {
-      "id": "78087ce0-d6f7-4899-829e-502540541d2a",
-      "title": "Elfeed 4.0 (Emacs)",
-      "url": "https://github.com/emacs-elfeed/elfeed/blob/main/NEWS.org",
-      "domain": "github.com",
-      "published_at": "2026-06-06T20:24:56Z",
-      "category": "tech",
-      "score": 0.2560299256770087,
-      "tldr": "Elfeed 4.0 (Emacs)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bbb99944-f460-4d06-8da4-6af0d4288176",
       "title": "Show HN: TakoVM – Isolated model and tool execution used by enterprises",
       "url": "https://github.com/las7/TakoVM",
@@ -1391,22 +1405,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "a420d2e2-f1dd-4755-b91f-b001ac41abc7",
-      "title": "Solar Energy Saves Europeans $135M a Day",
-      "url": "https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day",
-      "domain": "cleantechnica.com",
-      "published_at": "2026-06-09T15:09:38Z",
-      "category": "tech",
-      "score": 0.253014164395982,
-      "tldr": "Solar Energy Saves Europeans $135M a Day",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-13T19:59:47.829523685Z",
+  "last_updated": "2026-06-13T21:14:36.944553044Z",
   "total_count": 100
 }
