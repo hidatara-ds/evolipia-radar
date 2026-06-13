@@ -1141,20 +1141,6 @@
       ]
     },
     {
-      "id": "2e8224ec-8e3b-4154-b156-71756f24f830",
-      "title": "Benchmarks in Leipzig",
-      "url": "https://arxiv.org/abs/2606.05818",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-06T14:00:52Z",
-      "category": "tech",
-      "score": 0.25775332874977447,
-      "tldr": "Benchmarks in Leipzig",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d9816306-e9ba-4897-989f-2418965590fe",
       "title": "Deficient executive control in transformer attention",
       "url": "https://academic.oup.com/pnasnexus/article/5/6/pgag149/8698838",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f15d6f32-4289-4d02-a7db-c3b06f26fa33",
+      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
+      "url": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users",
+      "domain": "404media.co",
+      "published_at": "2026-06-08T18:34:04Z",
+      "category": "tech",
+      "score": 0.2530347153472123,
+      "tldr": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-13T13:22:07.804848168Z",
+  "last_updated": "2026-06-13T15:16:14.683717323Z",
   "total_count": 100
 }
