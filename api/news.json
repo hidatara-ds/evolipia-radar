@@ -99,6 +99,20 @@
       ]
     },
     {
+      "id": "d41c8515-4f1d-4416-a530-5c287fe134aa",
+      "title": "Not everyone is using AI for everything",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "domain": "gabrielweinberg.com",
+      "published_at": "2026-06-14T14:44:29Z",
+      "category": "tech",
+      "score": 0.3929818480477526,
+      "tldr": "Not everyone is using AI for everything",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4c56fc0a-bddf-4a77-bafa-13747955dc45",
       "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
       "url": "https://github.com/anthropics/claude-code/issues/29045",
@@ -657,6 +671,20 @@
       "category": "tech",
       "score": 0.2820878391716852,
       "tldr": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2f43bbc1-5d2c-4401-b5d0-4ae60f9580a6",
+      "title": "Yserver: A modern X11 server written in Rust",
+      "url": "https://github.com/joske/yserver",
+      "domain": "github.com",
+      "published_at": "2026-06-14T19:10:35Z",
+      "category": "tech",
+      "score": 0.28178364890965035,
+      "tldr": "Yserver: A modern X11 server written in Rust",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1225,6 +1253,20 @@
       ]
     },
     {
+      "id": "8a7a0507-927f-413f-a63a-2278d3936671",
+      "title": "Ponytail – make your AI agent think like the laziest senior dev in the room",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "domain": "github.com",
+      "published_at": "2026-06-14T15:08:17Z",
+      "category": "tech",
+      "score": 0.25606254207782597,
+      "tldr": "Ponytail – make your AI agent think like the laziest senior dev in the room",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6afdf2f7-6375-4c8a-8e44-b12a59bad093",
       "title": "Show HN: Mach – A compiled systems language looking for contributions",
       "url": "https://github.com/octalide/mach",
@@ -1363,50 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f15d6f32-4289-4d02-a7db-c3b06f26fa33",
-      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
-      "url": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users",
-      "domain": "404media.co",
-      "published_at": "2026-06-08T18:34:04Z",
-      "category": "tech",
-      "score": 0.2530347153472123,
-      "tldr": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a420d2e2-f1dd-4755-b91f-b001ac41abc7",
-      "title": "Solar Energy Saves Europeans $135M a Day",
-      "url": "https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day",
-      "domain": "cleantechnica.com",
-      "published_at": "2026-06-09T15:09:38Z",
-      "category": "tech",
-      "score": 0.253014164395982,
-      "tldr": "Solar Energy Saves Europeans $135M a Day",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
-      "title": "Built to benefit everyone: our plan",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "domain": "openai.com",
-      "published_at": "2026-06-08T20:56:24Z",
-      "category": "tech",
-      "score": 0.2530042051548669,
-      "tldr": "Built to benefit everyone: our plan",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-14T20:03:29.966562039Z",
+  "last_updated": "2026-06-14T21:48:37.050657499Z",
   "total_count": 100
 }
