@@ -241,6 +241,20 @@
       ]
     },
     {
+      "id": "7fbff56d-0da9-48f4-bb09-24d166549ab7",
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "domain": "github.com",
+      "published_at": "2026-06-14T15:37:31Z",
+      "category": "tech",
+      "score": 0.3422380701512993,
+      "tldr": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c4e4af9d-cedb-4d4d-9057-8e0f3a549850",
       "title": "Apple WWDC 2026",
       "url": "https://www.apple.com/apple-events/event-stream",
@@ -410,6 +424,20 @@
       ]
     },
     {
+      "id": "0472e40b-8172-470b-9981-58f16083e0dc",
+      "title": "Show HN: Dual YOLOv8n UAV Detection on RK3588S at 42 FPS Using NPU",
+      "url": "https://github.com/alebal123bal/khadas_yolov8n_multithread",
+      "domain": "github.com",
+      "published_at": "2026-06-14T14:37:51Z",
+      "category": "tech",
+      "score": 0.30821370448518615,
+      "tldr": "Show HN: Dual YOLOv8n UAV Detection on RK3588S at 42 FPS Using NPU",
+      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
+      "tags": [
+        "computer_vision"
+      ]
+    },
+    {
       "id": "8b3c1a6e-d239-4fd1-8830-ac0deee09258",
       "title": "Replies to comments on my \"LLMs are eroding my career\" post",
       "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post",
@@ -474,6 +502,20 @@
       "category": "tech",
       "score": 0.2962316075499604,
       "tldr": "GentleOS – Classic operating system with a lovely retro GUI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "26e250c6-a1a5-4741-8f88-424ecc0d393e",
+      "title": "No, everyone is not using AI for everything",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "domain": "gabrielweinberg.com",
+      "published_at": "2026-06-14T14:44:29Z",
+      "category": "tech",
+      "score": 0.29498705368497835,
+      "tldr": "No, everyone is not using AI for everything",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -842,6 +884,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "ec6dab2f-d42f-4e4a-ab7f-082029e9d90e",
+      "title": "Cloud-based LLM gold rush is ending",
+      "url": "https://automato.substack.com/p/apple-wwdc-and-the-fable-5-embargo",
+      "domain": "automato.substack.com",
+      "published_at": "2026-06-14T14:56:35Z",
+      "category": "tech",
+      "score": 0.2680737557828703,
+      "tldr": "Cloud-based LLM gold rush is ending",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "cloud",
+        "llm"
       ]
     },
     {
@@ -1348,64 +1405,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "a420d2e2-f1dd-4755-b91f-b001ac41abc7",
-      "title": "Solar Energy Saves Europeans $135M a Day",
-      "url": "https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day",
-      "domain": "cleantechnica.com",
-      "published_at": "2026-06-09T15:09:38Z",
-      "category": "tech",
-      "score": 0.253014164395982,
-      "tldr": "Solar Energy Saves Europeans $135M a Day",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
-      "title": "Built to benefit everyone: our plan",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "domain": "openai.com",
-      "published_at": "2026-06-08T20:56:24Z",
-      "category": "tech",
-      "score": 0.2530042051548669,
-      "tldr": "Built to benefit everyone: our plan",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "00237d0b-3fb0-4e55-9b99-5ebbf4df236e",
-      "title": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
-      "url": "https://github.com/vrtnis/tycoon-learning-environment",
-      "domain": "github.com",
-      "published_at": "2026-06-13T02:02:07Z",
-      "category": "tech",
-      "score": 0.2529192516107575,
-      "tldr": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2e29ff9a-2480-403a-adcc-ac3b4568f5f5",
-      "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
-      "url": "https://github.com/vladignatyev/brain-map-skill",
-      "domain": "github.com",
-      "published_at": "2026-06-13T06:43:42Z",
-      "category": "tech",
-      "score": 0.252880344049879,
-      "tldr": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-14T15:05:48.001240508Z",
+  "last_updated": "2026-06-14T16:53:00.555315772Z",
   "total_count": 100
 }
