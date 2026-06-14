@@ -227,20 +227,6 @@
       ]
     },
     {
-      "id": "ae731fac-7a1c-48ff-95dd-576973409a02",
-      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
-      "url": "https://arxiv.org/abs/2605.31514",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-07T18:54:55Z",
-      "category": "tech",
-      "score": 0.34338459130557797,
-      "tldr": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7fbff56d-0da9-48f4-bb09-24d166549ab7",
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
       "url": "https://github.com/nex-agi/Nex-N2/issues/4",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ca21f7ff-9826-4371-9370-eeb70184adf6",
+      "title": "Built to benefit everyone: our plan",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "domain": "openai.com",
+      "published_at": "2026-06-08T20:56:24Z",
+      "category": "tech",
+      "score": 0.2530042051548669,
+      "tldr": "Built to benefit everyone: our plan",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-14T18:07:35.269622302Z",
+  "last_updated": "2026-06-14T20:03:29.966562039Z",
   "total_count": 100
 }
