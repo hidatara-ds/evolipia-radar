@@ -255,6 +255,20 @@
       ]
     },
     {
+      "id": "eb8e1581-687b-4d9b-802a-2f1da6619c63",
+      "title": "Your ePub Is fine",
+      "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
+      "domain": "andreklein.net",
+      "published_at": "2026-06-14T22:54:55Z",
+      "category": "tech",
+      "score": 0.3409944218577574,
+      "tldr": "Your ePub Is fine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c4e4af9d-cedb-4d4d-9057-8e0f3a549850",
       "title": "Apple WWDC 2026",
       "url": "https://www.apple.com/apple-events/event-stream",
@@ -308,20 +322,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "e94e63d2-03f1-4410-979f-edff42c930f3",
-      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
-      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
-      "domain": "runtimewire.com",
-      "published_at": "2026-06-08T01:39:30Z",
-      "category": "tech",
-      "score": 0.32881277459044844,
-      "tldr": "DeepSeek V4 Pro beats GPT-5.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -657,20 +657,6 @@
       "category": "tech",
       "score": 0.28554307961617387,
       "tldr": "German ruling declares Google liable for false answers in AI Overviews",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "93acc507-5b0e-46b2-861c-0b48ca7b0fcf",
-      "title": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
-      "url": "https://github.com/melastmohican/rust-rpico2-embassy-examples",
-      "domain": "github.com",
-      "published_at": "2026-06-08T00:17:45Z",
-      "category": "tech",
-      "score": 0.2820878391716852,
-      "tldr": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a76d3b51-10cc-46fd-a1ba-a12b6a1a5492",
+      "title": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
+      "url": "https://github.com/WebAssembly/wasi-webgpu",
+      "domain": "github.com",
+      "published_at": "2026-06-12T15:26:58Z",
+      "category": "tech",
+      "score": 0.2532649461041467,
+      "tldr": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-15T00:05:17.825319336Z",
+  "last_updated": "2026-06-15T05:34:08.641190159Z",
   "total_count": 100
 }
