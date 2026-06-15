@@ -57,6 +57,20 @@
       ]
     },
     {
+      "id": "27611485-64d4-4da4-8b28-0a53fe743520",
+      "title": "CrankGPT",
+      "url": "https://crankgpt.com",
+      "domain": "crankgpt.com",
+      "published_at": "2026-06-15T13:20:13Z",
+      "category": "tech",
+      "score": 0.436019149035504,
+      "tldr": "CrankGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "16506878-5dcc-4651-ad5a-f50aa8b25bcb",
       "title": "AI agent bankrupted their operator while trying to scan DN42",
       "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian",
@@ -224,20 +238,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "31288884-d523-44a1-9b9c-97a0463d0759",
-      "title": "Show HN: Performative-UI – a react component library of design tropes",
-      "url": "https://vorpus.github.io/performativeUI",
-      "domain": "vorpus.github.io",
-      "published_at": "2026-06-08T14:05:16Z",
-      "category": "tech",
-      "score": 0.3464443831454227,
-      "tldr": "Show HN: Performative-UI – a react component library of design tropes",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -409,6 +409,34 @@
       ]
     },
     {
+      "id": "8e96736a-7f43-443a-8e6d-80e51434460c",
+      "title": "Iroh 1.0",
+      "url": "https://www.iroh.computer/blog/v1",
+      "domain": "iroh.computer",
+      "published_at": "2026-06-15T15:13:06Z",
+      "category": "tech",
+      "score": 0.31587698633939953,
+      "tldr": "Iroh 1.0",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "caf4a092-09f0-4339-a0e8-c66156984779",
+      "title": "Hetzner increased dedicated server prices 3-4x",
+      "url": "https://news.ycombinator.com/item?id=48542064",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-06-15T14:44:02Z",
+      "category": "tech",
+      "score": 0.3151602764329868,
+      "tldr": "Hetzner increased dedicated server prices 3-4x",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c2d300cf-41c2-424e-aa11-824971cfc8b0",
       "title": "WASI 0.3.0 Released",
       "url": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.0",
@@ -420,6 +448,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "ce45eadb-db01-496f-a85c-9204c5be3416",
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-06-15T14:46:53Z",
+      "category": "tech",
+      "score": 0.31480940119070794,
+      "tldr": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -466,20 +509,6 @@
       ]
     },
     {
-      "id": "7834e6fb-6ea3-4ce1-8b0c-079a14075cf5",
-      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
-      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
-      "domain": "mimo.xiaomi.com",
-      "published_at": "2026-06-08T15:27:33Z",
-      "category": "tech",
-      "score": 0.3029382990234807,
-      "tldr": "5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "85b6da02-6b70-499d-8730-fe8372afdbae",
       "title": "How to Earn a Billion Dollars",
       "url": "https://paulgraham.com/earn.html",
@@ -516,20 +545,6 @@
       "category": "tech",
       "score": 0.29498705368497835,
       "tldr": "No, everyone is not using AI for everything",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fb934ddb-427e-4141-b3d5-0668984495a3",
-      "title": "AI Is Slowing Down",
-      "url": "https://www.wheresyoured.at/ai-is-slowing-down",
-      "domain": "wheresyoured.at",
-      "published_at": "2026-06-08T15:46:37Z",
-      "category": "tech",
-      "score": 0.2947591043432608,
-      "tldr": "AI Is Slowing Down",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -601,6 +616,20 @@
       "category": "tech",
       "score": 0.29098165069126064,
       "tldr": "We Think the SpaceX IPO Is Overvalued",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c8538738-19c8-40b9-868a-c1aba5e53230",
+      "title": "Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
+      "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin?bc=HL",
+      "domain": "salesforce.com",
+      "published_at": "2026-06-15T12:08:59Z",
+      "category": "tech",
+      "score": 0.29015093757940225,
+      "tldr": "Salesforce to Acquire Fin (formerly Intercom) for $3.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -719,20 +748,6 @@
       ]
     },
     {
-      "id": "2a2118c6-093f-49fa-9f26-0f3ef0df6c2f",
-      "title": "Zig by Example",
-      "url": "https://github.com/boringcollege/zig-by-example",
-      "domain": "github.com",
-      "published_at": "2026-06-08T13:06:19Z",
-      "category": "tech",
-      "score": 0.280346654476825,
-      "tldr": "Zig by Example",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "afb453b1-b5cd-4eb2-8304-67030c351e07",
       "title": "Exif Smuggling (2025)",
       "url": "https://github.com/signalblur/exifsmugglingpoc",
@@ -775,6 +790,20 @@
       ]
     },
     {
+      "id": "0561c3c4-e058-4579-906d-6d56940f3501",
+      "title": "Show HN: Can Europe train a frontier AI model on the compute it owns?",
+      "url": "https://github.com/sammysltd/euromesh",
+      "domain": "github.com",
+      "published_at": "2026-06-15T13:31:09Z",
+      "category": "tech",
+      "score": 0.2778164844309066,
+      "tldr": "Show HN: Can Europe train a frontier AI model on the compute it owns?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "45a4215a-1799-4ce2-bf9d-9f9f54e2ea79",
       "title": "Raspberry Pi 5 – 16GB RAM",
       "url": "https://www.adafruit.com/product/6125?src=raspberrypi",
@@ -811,20 +840,6 @@
       "category": "tech",
       "score": 0.27193801337019075,
       "tldr": "Solar generates more energy in US than coal for first time",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "09764d7e-9cbb-4745-a38a-17ddd7cfdb8e",
-      "title": "SoulsOnly.tff – A font for humans not AI and keyboard firmware to type in it",
-      "url": "https://github.com/convictional/souls-only",
-      "domain": "github.com",
-      "published_at": "2026-06-08T14:00:22Z",
-      "category": "tech",
-      "score": 0.27051198708666147,
-      "tldr": "tff – A font for humans not AI and keyboard firmware to type in it",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1112,20 +1127,6 @@
       ]
     },
     {
-      "id": "bfb7a822-e5d0-4ef3-915b-c434a2b0202e",
-      "title": "A Farmer Donated Land to Turn into a Park. The City Is Building a Data Center",
-      "url": "https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead",
-      "domain": "404media.co",
-      "published_at": "2026-06-08T15:14:29Z",
-      "category": "tech",
-      "score": 0.2603106521955916,
-      "tldr": "A Farmer Donated Land to Turn into a Park. The City Is Building a Data Center",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "3e39cc0a-4e6d-4fb3-b781-83fc1c92f352",
       "title": "/architect: Reduce Fable tokens by 80%, Fable orchestrates/reviews, Codex builds",
       "url": "https://github.com/DanMcInerney/architect-loop",
@@ -1267,20 +1268,6 @@
       ]
     },
     {
-      "id": "3b79f613-5fd3-42e1-82de-fe4ec509051a",
-      "title": "Why are so many young people getting cancer?",
-      "url": "https://www.nature.com/articles/d41586-026-01780-6",
-      "domain": "nature.com",
-      "published_at": "2026-06-08T15:48:00Z",
-      "category": "tech",
-      "score": 0.25632084744517664,
-      "tldr": "Why are so many young people getting cancer?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8a7a0507-927f-413f-a63a-2278d3936671",
       "title": "Ponytail – make your AI agent think like the laziest senior dev in the room",
       "url": "https://github.com/DietrichGebert/ponytail",
@@ -1405,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "42990371-8d25-4508-9801-f6b3804bc9d9",
+      "title": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
+      "url": "https://github.com/ayushh0110/ScreenMind",
+      "domain": "github.com",
+      "published_at": "2026-06-13T23:12:54Z",
+      "category": "tech",
+      "score": 0.2539859880384443,
+      "tldr": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-15T11:42:19.117885706Z",
+  "last_updated": "2026-06-15T16:53:01.055692216Z",
   "total_count": 100
 }
