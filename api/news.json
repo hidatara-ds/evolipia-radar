@@ -99,6 +99,20 @@
       ]
     },
     {
+      "id": "8bc24136-2f6b-419c-a0bd-b68ab5eb9c43",
+      "title": "Curl will not accept vulnerability reports during July 2026",
+      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss",
+      "domain": "daniel.haxx.se",
+      "published_at": "2026-06-15T06:02:57Z",
+      "category": "tech",
+      "score": 0.3968001967763516,
+      "tldr": "Curl will not accept vulnerability reports during July 2026",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d41c8515-4f1d-4416-a530-5c287fe134aa",
       "title": "Not everyone is using AI for everything",
       "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
@@ -381,6 +395,20 @@
       ]
     },
     {
+      "id": "835aa70c-d6f4-4dce-86c9-c5ce6dd772f2",
+      "title": "What the Fuck Happened to Nerds",
+      "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+      "domain": "mrmarket.lol",
+      "published_at": "2026-06-15T08:23:52Z",
+      "category": "tech",
+      "score": 0.3174566042586374,
+      "tldr": "What the Fuck Happened to Nerds",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c2d300cf-41c2-424e-aa11-824971cfc8b0",
       "title": "WASI 0.3.0 Released",
       "url": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.0",
@@ -435,20 +463,6 @@
       "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
       "tags": [
         "computer_vision"
-      ]
-    },
-    {
-      "id": "8b3c1a6e-d239-4fd1-8830-ac0deee09258",
-      "title": "Replies to comments on my \"LLMs are eroding my career\" post",
-      "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post",
-      "domain": "human-in-the-loop.bearblog.dev",
-      "published_at": "2026-06-08T09:52:03Z",
-      "category": "tech",
-      "score": 0.3054922484647018,
-      "tldr": "Replies to comments on my \"LLMs are eroding my career\" post",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -916,6 +930,20 @@
       ]
     },
     {
+      "id": "50e08808-69e2-4273-af8a-760162af1bd2",
+      "title": "Apple Foundation Models",
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "domain": "platform.claude.com",
+      "published_at": "2026-06-15T04:55:34Z",
+      "category": "tech",
+      "score": 0.26564278500228833,
+      "tldr": "Apple Foundation Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8e4cf7b0-a105-41e2-83a5-12ded923c38c",
       "title": "Anthropic's Model Naming, Extrapolated",
       "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "42990371-8d25-4508-9801-f6b3804bc9d9",
-      "title": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
-      "url": "https://github.com/ayushh0110/ScreenMind",
-      "domain": "github.com",
-      "published_at": "2026-06-13T23:12:54Z",
-      "category": "tech",
-      "score": 0.2539859880384443,
-      "tldr": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a76d3b51-10cc-46fd-a1ba-a12b6a1a5492",
-      "title": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
-      "url": "https://github.com/WebAssembly/wasi-webgpu",
-      "domain": "github.com",
-      "published_at": "2026-06-12T15:26:58Z",
-      "category": "tech",
-      "score": 0.2532649461041467,
-      "tldr": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-15T05:34:08.641190159Z",
+  "last_updated": "2026-06-15T11:42:19.117885706Z",
   "total_count": 100
 }
