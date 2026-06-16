@@ -339,6 +339,20 @@
       ]
     },
     {
+      "id": "4e9aee36-46a2-4848-8dee-d98e874c2f62",
+      "title": "John Carmack on Fabrice Bellard",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
+      "domain": "twitter.com",
+      "published_at": "2026-06-16T04:58:15Z",
+      "category": "tech",
+      "score": 0.32735776558438745,
+      "tldr": "John Carmack on Fabrice Bellard",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "16eb761d-89eb-4d96-b993-357790ca4690",
       "title": "Shall we play a game? – LLMs use tactical nukes in 95% of simulations",
       "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
@@ -536,20 +550,6 @@
       ]
     },
     {
-      "id": "6747e407-ed55-4f0d-8dac-3122d195fa5f",
-      "title": "GentleOS – Classic operating system with a lovely retro GUI",
-      "url": "https://github.com/luke8086/gentleos32",
-      "domain": "github.com",
-      "published_at": "2026-06-09T09:50:30Z",
-      "category": "tech",
-      "score": 0.2962316075499604,
-      "tldr": "GentleOS – Classic operating system with a lovely retro GUI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "26e250c6-a1a5-4741-8f88-424ecc0d393e",
       "title": "No, everyone is not using AI for everything",
       "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
@@ -713,6 +713,20 @@
       "category": "tech",
       "score": 0.28178364890965035,
       "tldr": "Yserver: A modern X11 server written in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0799189e-060d-4705-9434-e04a934412ac",
+      "title": "I Could've Rickrolled the FIFA World Cup. All I Needed Was My ID",
+      "url": "https://bobdahacker.com/blog/fifa-hack",
+      "domain": "bobdahacker.com",
+      "published_at": "2026-06-16T05:23:42Z",
+      "category": "tech",
+      "score": 0.28132747431897565,
+      "tldr": "I Could've Rickrolled the FIFA World Cup. All I Needed Was My ID",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1253,6 +1267,20 @@
       ]
     },
     {
+      "id": "37aa6f9b-d1ba-4f2a-a0e6-0102c5a8a1bb",
+      "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
+      "url": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
+      "domain": "theregister.com",
+      "published_at": "2026-06-16T09:26:09Z",
+      "category": "tech",
+      "score": 0.25624093043734975,
+      "tldr": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8a7a0507-927f-413f-a63a-2278d3936671",
       "title": "Ponytail – make your AI agent think like the laziest senior dev in the room",
       "url": "https://github.com/DietrichGebert/ponytail",
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "952bd46f-65ae-46fc-af98-940000f797bd",
-      "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
-      "url": "https://github.com/themartiano/luz",
-      "domain": "github.com",
-      "published_at": "2026-06-15T09:34:10Z",
-      "category": "tech",
-      "score": 0.25384723259246544,
-      "tldr": "Show HN: I wrote a C++ ray tracer from scratch without AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "00d676d1-5e4d-4060-b484-668c41c01bb2",
-      "title": "LLMs Will Replace 8-Track Duplication Engineers",
-      "url": "https://bbenchoff.github.io/pages/8Tracks.html",
-      "domain": "bbenchoff.github.io",
-      "published_at": "2026-06-15T19:00:08Z",
-      "category": "tech",
-      "score": 0.2535445701472767,
-      "tldr": "LLMs Will Replace 8-Track Duplication Engineers",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-16T05:42:32.803652807Z",
+  "last_updated": "2026-06-16T10:51:30.671514239Z",
   "total_count": 100
 }
