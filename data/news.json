@@ -1250,21 +1250,6 @@
       ]
     },
     {
-      "id": "4754c41e-ea39-41ee-b90a-2325379fe566",
-      "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
-      "url": "https://github.com/sig-id/nucleus",
-      "domain": "github.com",
-      "published_at": "2026-06-09T23:03:40Z",
-      "category": "tech",
-      "score": 0.2577796162409665,
-      "tldr": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security",
-        "general_ai"
-      ]
-    },
-    {
       "id": "d9816306-e9ba-4897-989f-2418965590fe",
       "title": "Deficient executive control in transformer attention",
       "url": "https://academic.oup.com/pnasnexus/article/5/6/pgag149/8698838",
@@ -1403,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a7cd45bf-7cdc-49d9-beb1-d499233bf105",
+      "title": "Don't let the LLM speak, just probe it",
+      "url": "https://blog.j11y.io/2026-06-10_hidden-state-probes",
+      "domain": "blog.j11y.io",
+      "published_at": "2026-06-12T00:24:48Z",
+      "category": "tech",
+      "score": 0.2544898148762644,
+      "tldr": "Don't let the LLM speak, just probe it",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-16T21:59:48.395446357Z",
+  "last_updated": "2026-06-16T23:22:19.996024287Z",
   "total_count": 100
 }
