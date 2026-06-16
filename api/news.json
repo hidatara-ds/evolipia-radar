@@ -621,20 +621,6 @@
       ]
     },
     {
-      "id": "858b8ffc-f46f-420b-a814-9a9eed748e0b",
-      "title": "We Think the SpaceX IPO Is Overvalued",
-      "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
-      "domain": "morningstar.com",
-      "published_at": "2026-06-09T01:56:40Z",
-      "category": "tech",
-      "score": 0.29098165069126064,
-      "tldr": "We Think the SpaceX IPO Is Overvalued",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c8538738-19c8-40b9-868a-c1aba5e53230",
       "title": "Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
       "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin?bc=HL",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "00d676d1-5e4d-4060-b484-668c41c01bb2",
+      "title": "LLMs Will Replace 8-Track Duplication Engineers",
+      "url": "https://bbenchoff.github.io/pages/8Tracks.html",
+      "domain": "bbenchoff.github.io",
+      "published_at": "2026-06-15T19:00:08Z",
+      "category": "tech",
+      "score": 0.2535445701472767,
+      "tldr": "LLMs Will Replace 8-Track Duplication Engineers",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-16T00:22:21.409481074Z",
+  "last_updated": "2026-06-16T05:42:32.803652807Z",
   "total_count": 100
 }
