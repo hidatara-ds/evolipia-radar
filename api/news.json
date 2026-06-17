@@ -57,20 +57,6 @@
       ]
     },
     {
-      "id": "b06cc23a-8e12-4a61-8aed-55ee9e12ef13",
-      "title": "macOS Container Machines",
-      "url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
-      "domain": "github.com",
-      "published_at": "2026-06-10T00:29:01Z",
-      "category": "tech",
-      "score": 0.45021689141045557,
-      "tldr": "macOS Container Machines",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6a2ff73b-2f5a-47a9-bafb-927cab8ea84b",
       "title": "I admire Fabrice Bellard. He is almost certainly a better overall programmer",
       "url": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
@@ -209,6 +195,20 @@
       "tags": [
         "general_ai",
         "mlops"
+      ]
+    },
+    {
+      "id": "6a0bee5a-0da4-43e5-a5bc-0339e9b00131",
+      "title": "GrapheneOS has been ported to Android 17",
+      "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+      "domain": "discuss.grapheneos.org",
+      "published_at": "2026-06-16T20:34:35Z",
+      "category": "tech",
+      "score": 0.3573348717090377,
+      "tldr": "GrapheneOS has been ported to Android 17",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -739,20 +739,6 @@
       "category": "tech",
       "score": 0.2879818338492891,
       "tldr": "Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5fc9704f-23a3-4407-b732-62677ce3f5fc",
-      "title": "German ruling declares Google liable for false answers in AI Overviews",
-      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
-      "domain": "the-decoder.com",
-      "published_at": "2026-06-10T01:44:13Z",
-      "category": "tech",
-      "score": 0.28554307961617387,
-      "tldr": "German ruling declares Google liable for false answers in AI Overviews",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1402,8 +1388,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "9c8dbe69-3267-496d-ae85-6b9b4f877047",
+      "title": "Babel-USB: USB drive with every file",
+      "url": "https://github.com/p2r3/babel-usb",
+      "domain": "github.com",
+      "published_at": "2026-06-10T16:28:30Z",
+      "category": "tech",
+      "score": 0.2542072436314612,
+      "tldr": "Babel-USB: USB drive with every file",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-16T23:22:19.996024287Z",
+  "last_updated": "2026-06-17T01:59:08.607584792Z",
   "total_count": 100
 }
