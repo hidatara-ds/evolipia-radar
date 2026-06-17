@@ -310,20 +310,6 @@
       ]
     },
     {
-      "id": "0330563b-66af-46a5-b662-9e493bd6614d",
-      "title": "Chrome is looking to permanently drop MV2 extension",
-      "url": "https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow",
-      "domain": "neowin.net",
-      "published_at": "2026-06-10T05:50:07Z",
-      "category": "tech",
-      "score": 0.33631177631811365,
-      "tldr": "Chrome is looking to permanently drop MV2 extension",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a4568cf1-75ee-45c1-9e52-1463308e6d54",
       "title": "Is Meta destroying its engineering organization?",
       "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
@@ -728,20 +714,6 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "data"
-      ]
-    },
-    {
-      "id": "bf152122-1318-4e0c-85d0-6d9edb576a80",
-      "title": "Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow",
-      "url": "https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow",
-      "domain": "neowin.net",
-      "published_at": "2026-06-10T05:50:07Z",
-      "category": "tech",
-      "score": 0.2879818338492891,
-      "tldr": "Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1402,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "42990371-8d25-4508-9801-f6b3804bc9d9",
+      "title": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
+      "url": "https://github.com/ayushh0110/ScreenMind",
+      "domain": "github.com",
+      "published_at": "2026-06-13T23:12:54Z",
+      "category": "tech",
+      "score": 0.2539859880384443,
+      "tldr": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "952bd46f-65ae-46fc-af98-940000f797bd",
+      "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
+      "url": "https://github.com/themartiano/luz",
+      "domain": "github.com",
+      "published_at": "2026-06-15T09:34:10Z",
+      "category": "tech",
+      "score": 0.25384723259246544,
+      "tldr": "Show HN: I wrote a C++ ray tracer from scratch without AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-17T01:59:08.607584792Z",
+  "last_updated": "2026-06-17T07:06:10.99548865Z",
   "total_count": 100
 }
