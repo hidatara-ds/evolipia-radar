@@ -675,20 +675,6 @@
       ]
     },
     {
-      "id": "251dfc39-2d35-4689-995b-3be6e574acf9",
-      "title": "Port React Compiler to Rust",
-      "url": "https://github.com/react/react/pull/36173",
-      "domain": "github.com",
-      "published_at": "2026-06-10T09:19:55Z",
-      "category": "tech",
-      "score": 0.2900366453686439,
-      "tldr": "Port React Compiler to Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "944a39ca-fd12-4237-a356-7537a6262177",
       "title": "Claude Desktop spins up a VM without no way of stopping it",
       "url": "https://github.com/anthropics/claude-code/issues/29045",
@@ -714,6 +700,20 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "data"
+      ]
+    },
+    {
+      "id": "edc7b0b0-dbca-4952-85d7-89105658467b",
+      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "domain": "artificialanalysis.ai",
+      "published_at": "2026-06-17T09:12:00Z",
+      "category": "tech",
+      "score": 0.2825534924588273,
+      "tldr": "2 is the new leading open weights model on Artificial Analysis",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1068,20 +1068,6 @@
       ]
     },
     {
-      "id": "6a24f9d9-8c28-43b7-97d7-62bb1035a478",
-      "title": "Mercedes‑Benz starts large‑scale production of electric axial flux motor",
-      "url": "https://media.mercedes-benz.com/en/article/bebac2af-acdc-465a-9538-adb0bf3d8ccf",
-      "domain": "media.mercedes-benz.com",
-      "published_at": "2026-06-10T07:44:49Z",
-      "category": "tech",
-      "score": 0.26198826477071396,
-      "tldr": "Mercedes‑Benz starts large‑scale production of electric axial flux motor",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4b6c06fe-77c1-4874-bd45-b27fe791b4ff",
       "title": "Show HN: Open-source API Key server written in Go by Ory",
       "url": "https://github.com/ory/talos/tree/master",
@@ -1292,20 +1278,6 @@
       ]
     },
     {
-      "id": "a8cb0b60-e9bf-4f06-8dea-533a3938dfdb",
-      "title": "Show HN: macOS menu bar gauges for your Claude Code quota",
-      "url": "https://github.com/grzegorz-raczek-unit8/claude-quota",
-      "domain": "github.com",
-      "published_at": "2026-06-10T09:43:16Z",
-      "category": "tech",
-      "score": 0.25538676870421423,
-      "tldr": "Show HN: macOS menu bar gauges for your Claude Code quota",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3cab2561-1f50-46ce-a1be-bee9ed589ea3",
       "title": "It blocked us at 'hello ' Anthropic Fable 5 refusing innocuous prompts",
       "url": "https://www.theregister.com/ai-and-ml/2026/06/10/anthropic-claude-fable-5-refuses-innocuous-prompts/5253754",
@@ -1402,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "00d676d1-5e4d-4060-b484-668c41c01bb2",
+      "title": "LLMs Will Replace 8-Track Duplication Engineers",
+      "url": "https://bbenchoff.github.io/pages/8Tracks.html",
+      "domain": "bbenchoff.github.io",
+      "published_at": "2026-06-15T19:00:08Z",
+      "category": "tech",
+      "score": 0.2535445701472767,
+      "tldr": "LLMs Will Replace 8-Track Duplication Engineers",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a76d3b51-10cc-46fd-a1ba-a12b6a1a5492",
+      "title": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
+      "url": "https://github.com/WebAssembly/wasi-webgpu",
+      "domain": "github.com",
+      "published_at": "2026-06-12T15:26:58Z",
+      "category": "tech",
+      "score": 0.2532649461041467,
+      "tldr": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-17T07:06:10.99548865Z",
+  "last_updated": "2026-06-17T12:00:45.953983194Z",
   "total_count": 100
 }
