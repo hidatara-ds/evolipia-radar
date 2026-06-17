@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "ddfac255-51ba-49bf-81f5-2522b3bae47f",
+      "title": "Lore – Open source version control system designed for scalability",
+      "url": "https://lore.org/",
+      "domain": "lore.org",
+      "published_at": "2026-06-17T14:30:27Z",
+      "category": "tech",
+      "score": 0.5460989633595658,
+      "tldr": "Lore – Open source version control system designed for scalability",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "754c6f2a-5421-4fba-a077-e31ab5bc6f79",
       "title": "What happened to nerds?",
       "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
@@ -318,20 +332,6 @@
       "category": "tech",
       "score": 0.3336103313491867,
       "tldr": "Is Meta destroying its engineering organization?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8c7ba5a6-f65c-4f80-abc5-139625ef3566",
-      "title": "πFS",
-      "url": "https://github.com/philipl/pifs",
-      "domain": "github.com",
-      "published_at": "2026-06-10T18:54:54Z",
-      "category": "tech",
-      "score": 0.3316834125410979,
-      "tldr": "πFS",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -829,20 +829,6 @@
       ]
     },
     {
-      "id": "45a4215a-1799-4ce2-bf9d-9f9f54e2ea79",
-      "title": "Raspberry Pi 5 – 16GB RAM",
-      "url": "https://www.adafruit.com/product/6125?src=raspberrypi",
-      "domain": "adafruit.com",
-      "published_at": "2026-06-10T20:05:21Z",
-      "category": "tech",
-      "score": 0.2761189330982018,
-      "tldr": "Raspberry Pi 5 – 16GB RAM",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8d307fc5-e693-47c1-9592-c03f734651eb",
       "title": "Claude: Elevated errors across many models [resolved]",
       "url": "https://status.claude.com/incidents/xmhsglsz3h3w",
@@ -964,20 +950,6 @@
       "category": "tech",
       "score": 0.26564278500228833,
       "tldr": "Apple Foundation Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8e4cf7b0-a105-41e2-83a5-12ded923c38c",
-      "title": "Anthropic's Model Naming, Extrapolated",
-      "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
-      "domain": "samwilkinson.io",
-      "published_at": "2026-06-10T18:45:20Z",
-      "category": "tech",
-      "score": 0.2655319124976431,
-      "tldr": "Anthropic's Model Naming, Extrapolated",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1402,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "87f0e22c-b53a-44df-848f-9a969ec212b3",
+      "title": "Micro Radar: a tiny open-source flight radar for your desk",
+      "url": "https://github.com/AnthonySturdy/micro-radar",
+      "domain": "github.com",
+      "published_at": "2026-06-15T22:13:48Z",
+      "category": "tech",
+      "score": 0.25300343979194895,
+      "tldr": "Micro Radar: a tiny open-source flight radar for your desk",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "00237d0b-3fb0-4e55-9b99-5ebbf4df236e",
+      "title": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
+      "url": "https://github.com/vrtnis/tycoon-learning-environment",
+      "domain": "github.com",
+      "published_at": "2026-06-13T02:02:07Z",
+      "category": "tech",
+      "score": 0.2529192516107575,
+      "tldr": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-17T18:08:59.8840915Z",
+  "last_updated": "2026-06-17T20:33:49.78592602Z",
   "total_count": 100
 }
