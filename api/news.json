@@ -211,21 +211,6 @@
       ]
     },
     {
-      "id": "8c003db6-71aa-42c9-8c27-9c295cf5f9d0",
-      "title": "Kina, Kubernetes but Apple Containers",
-      "url": "https://github.com/vinnie357/kina",
-      "domain": "github.com",
-      "published_at": "2026-06-11T19:22:50Z",
-      "category": "tech",
-      "score": 0.364457281107502,
-      "tldr": "Kina, Kubernetes but Apple Containers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "mlops"
-      ]
-    },
-    {
       "id": "6a0bee5a-0da4-43e5-a5bc-0339e9b00131",
       "title": "GrapheneOS has been ported to Android 17",
       "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
@@ -377,20 +362,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "16eb761d-89eb-4d96-b993-357790ca4690",
-      "title": "Shall we play a game? – LLMs use tactical nukes in 95% of simulations",
-      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-      "domain": "kennethpayne.uk",
-      "published_at": "2026-06-11T19:54:54Z",
-      "category": "tech",
-      "score": 0.3269456586507335,
-      "tldr": "Shall we play a game? – LLMs use tactical nukes in 95% of simulations",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -759,6 +730,20 @@
       ]
     },
     {
+      "id": "f0347275-c811-4753-85a9-4dfa9d6bc946",
+      "title": "Hospitals and universities repurposing drugs at lower cost",
+      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
+      "domain": "kcl.ac.uk",
+      "published_at": "2026-06-18T10:33:22Z",
+      "category": "tech",
+      "score": 0.2805457806498608,
+      "tldr": "Hospitals and universities repurposing drugs at lower cost",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2cf5770a-02d3-4f89-b991-f8d04153cd6e",
       "title": "Why is Meta destroying its engineering organization?",
       "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
@@ -767,20 +752,6 @@
       "category": "tech",
       "score": 0.2798131945439511,
       "tldr": "Why is Meta destroying its engineering organization?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "595e9857-39f8-4d78-ba4a-594116f322a3",
-      "title": "Shall we play a game? My AI nuclear simulation",
-      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-      "domain": "kennethpayne.uk",
-      "published_at": "2026-06-11T19:54:54Z",
-      "category": "tech",
-      "score": 0.2789878729440569,
-      "tldr": "Shall we play a game? My AI nuclear simulation",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1006,6 +977,20 @@
       "category": "tech",
       "score": 0.2623668090424808,
       "tldr": "A Call to Action: Stop the FCC's KYC Regime",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "fa92d465-d0d5-446c-b257-f763a38abf72",
+      "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
+      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided",
+      "domain": "cs.cornell.edu",
+      "published_at": "2026-06-18T11:04:31Z",
+      "category": "tech",
+      "score": 0.26127723575720435,
+      "tldr": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1403,8 +1388,22 @@
         "general_ai",
         "data"
       ]
+    },
+    {
+      "id": "e0c44456-f30c-43b9-a853-d2a308774081",
+      "title": "SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "domain": "github.com",
+      "published_at": "2026-06-12T21:49:49Z",
+      "category": "tech",
+      "score": 0.2523709278274888,
+      "tldr": "SkillSpector",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-18T17:54:18.798257185Z",
+  "last_updated": "2026-06-18T20:08:29.042482323Z",
   "total_count": 100
 }
