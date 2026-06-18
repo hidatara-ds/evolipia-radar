@@ -57,6 +57,20 @@
       ]
     },
     {
+      "id": "505db651-61f5-42c4-87c4-367d4072fe7c",
+      "title": "Midjourney Medical",
+      "url": "https://www.midjourney.com/medical/blogpost",
+      "domain": "midjourney.com",
+      "published_at": "2026-06-18T01:59:51Z",
+      "category": "tech",
+      "score": 0.46690715210726963,
+      "tldr": "Midjourney Medical",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b7437969-b02d-4795-b29f-d5dfe3596530",
       "title": "Sixty percent of US consumers say 'AI' in brand messaging is a turnoff",
       "url": "https://wpvip.com/future-of-the-web-2026",
@@ -338,20 +352,6 @@
       ]
     },
     {
-      "id": "5975ae6d-1379-4598-bf3a-e8eda39c9d5a",
-      "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
-      "url": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation",
-      "domain": "dronexl.co",
-      "published_at": "2026-06-11T06:42:06Z",
-      "category": "tech",
-      "score": 0.3311351417689558,
-      "tldr": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4e9aee36-46a2-4848-8dee-d98e874c2f62",
       "title": "John Carmack on Fabrice Bellard",
       "url": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
@@ -549,6 +549,20 @@
       ]
     },
     {
+      "id": "2c80307f-5076-4703-b028-df16d51393e8",
+      "title": "ChatGPT's image generator can be manipulated to produce violent, sexual content",
+      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "domain": "mindgard.ai",
+      "published_at": "2026-06-18T00:24:04Z",
+      "category": "tech",
+      "score": 0.30666014983470224,
+      "tldr": "ChatGPT's image generator can be manipulated to produce violent, sexual content",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5115b696-3360-488f-b026-aeb0ddcda5fa",
       "title": "Apple's weird anti-nausea dots cured my car sickness",
       "url": "https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work",
@@ -739,20 +753,6 @@
       "category": "tech",
       "score": 0.280581723407116,
       "tldr": "cob: A first person shooter in COBOL",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "30eed148-7ae0-458e-8a78-e2ce7994f932",
-      "title": "Macaroni – a single HTML file messenger",
-      "url": "https://github.com/vanyapr/makaroshki",
-      "domain": "github.com",
-      "published_at": "2026-06-11T06:32:33Z",
-      "category": "tech",
-      "score": 0.2804149239902918,
-      "tldr": "Macaroni – a single HTML file messenger",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1264,20 +1264,6 @@
       ]
     },
     {
-      "id": "3cab2561-1f50-46ce-a1be-bee9ed589ea3",
-      "title": "It blocked us at 'hello ' Anthropic Fable 5 refusing innocuous prompts",
-      "url": "https://www.theregister.com/ai-and-ml/2026/06/10/anthropic-claude-fable-5-refuses-innocuous-prompts/5253754",
-      "domain": "theregister.com",
-      "published_at": "2026-06-11T04:54:52Z",
-      "category": "tech",
-      "score": 0.25525968358794604,
-      "tldr": "It blocked us at 'hello ' Anthropic Fable 5 refusing innocuous prompts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bc26bf54-ce03-4bdb-a33f-941a585b6a54",
       "title": "Making a vintage LLM from scratch",
       "url": "https://crlf.link/log/entries/260525-1",
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "00237d0b-3fb0-4e55-9b99-5ebbf4df236e",
+      "title": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
+      "url": "https://github.com/vrtnis/tycoon-learning-environment",
+      "domain": "github.com",
+      "published_at": "2026-06-13T02:02:07Z",
+      "category": "tech",
+      "score": 0.2529192516107575,
+      "tldr": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-18T02:34:03.629843424Z",
+  "last_updated": "2026-06-18T07:25:23.918564175Z",
   "total_count": 100
 }
