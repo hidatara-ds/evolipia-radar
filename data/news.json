@@ -394,20 +394,6 @@
       ]
     },
     {
-      "id": "bc76037b-c01d-41fd-a555-74e1f62365bd",
-      "title": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
-      "url": "https://github.com/vishal-dehurdle/state-harness",
-      "domain": "github.com",
-      "published_at": "2026-06-11T11:21:54Z",
-      "category": "tech",
-      "score": 0.3258192357043062,
-      "tldr": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "5ef241d3-58f1-4fe7-8b96-6d9fd8998989",
       "title": "Claude Fable is relentlessly proactive",
       "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive",
@@ -1264,20 +1250,6 @@
       ]
     },
     {
-      "id": "bc26bf54-ce03-4bdb-a33f-941a585b6a54",
-      "title": "Making a vintage LLM from scratch",
-      "url": "https://crlf.link/log/entries/260525-1",
-      "domain": "crlf.link",
-      "published_at": "2026-06-11T08:38:00Z",
-      "category": "tech",
-      "score": 0.25523692805984693,
-      "tldr": "Making a vintage LLM from scratch",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "5dfcdba5-a2ac-4e43-a9c8-dbce6deeb6a3",
       "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
       "url": "https://github.com/tensorzero/tensorzero",
@@ -1402,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2e29ff9a-2480-403a-adcc-ac3b4568f5f5",
+      "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
+      "url": "https://github.com/vladignatyev/brain-map-skill",
+      "domain": "github.com",
+      "published_at": "2026-06-13T06:43:42Z",
+      "category": "tech",
+      "score": 0.252880344049879,
+      "tldr": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f97d365e-24f5-4e60-a63d-51f4dfdab44d",
+      "title": "Semiclassical Gravity Efficiently Solves NP-Complete Problems",
+      "url": "https://arxiv.org/abs/2606.14806",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-17T03:25:51Z",
+      "category": "tech",
+      "score": 0.2526849004443755,
+      "tldr": "Semiclassical Gravity Efficiently Solves NP-Complete Problems",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-18T07:25:23.918564175Z",
+  "last_updated": "2026-06-18T11:34:57.570353857Z",
   "total_count": 100
 }
