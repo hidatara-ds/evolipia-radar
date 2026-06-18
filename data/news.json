@@ -296,6 +296,20 @@
       ]
     },
     {
+      "id": "f5c63a60-4af1-4b83-958b-c25eef58304e",
+      "title": "Swiss parliament lifts ban on new nuclear power plants",
+      "url": "https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html",
+      "domain": "bluewin.ch",
+      "published_at": "2026-06-18T14:17:07Z",
+      "category": "tech",
+      "score": 0.3423512231147802,
+      "tldr": "Swiss parliament lifts ban on new nuclear power plants",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7fbff56d-0da9-48f4-bb09-24d166549ab7",
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
       "url": "https://github.com/nex-agi/Nex-N2/issues/4",
@@ -745,20 +759,6 @@
       ]
     },
     {
-      "id": "adda7e91-ad4e-4d25-a028-34ccc65e95d3",
-      "title": "FPS.cob: A first person shooter in COBOL",
-      "url": "https://github.com/icitry/FPS.cob",
-      "domain": "github.com",
-      "published_at": "2026-06-11T15:13:57Z",
-      "category": "tech",
-      "score": 0.280581723407116,
-      "tldr": "cob: A first person shooter in COBOL",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2cf5770a-02d3-4f89-b991-f8d04153cd6e",
       "title": "Why is Meta destroying its engineering organization?",
       "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
@@ -851,20 +851,6 @@
       "category": "tech",
       "score": 0.27381053074908224,
       "tldr": "Agentic coding deserves more than a chat box bolted onto VS Code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2c773df0-a782-47bd-93c0-ccb9e9afa601",
-      "title": "Solar generates more energy in US than coal for first time",
-      "url": "https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal",
-      "domain": "theguardian.com",
-      "published_at": "2026-06-11T16:10:05Z",
-      "category": "tech",
-      "score": 0.27193801337019075,
-      "tldr": "Solar generates more energy in US than coal for first time",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1020,20 +1006,6 @@
       "category": "tech",
       "score": 0.2623668090424808,
       "tldr": "A Call to Action: Stop the FCC's KYC Regime",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4b6c06fe-77c1-4874-bd45-b27fe791b4ff",
-      "title": "Show HN: Open-source API Key server written in Go by Ory",
-      "url": "https://github.com/ory/talos/tree/master",
-      "domain": "github.com",
-      "published_at": "2026-06-11T15:09:42Z",
-      "category": "tech",
-      "score": 0.260925331859837,
-      "tldr": "Show HN: Open-source API Key server written in Go by Ory",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1236,6 +1208,34 @@
       ]
     },
     {
+      "id": "aa7a6a46-c211-42bd-a170-d33aaf2f27fb",
+      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52",
+      "domain": "simonwillison.net",
+      "published_at": "2026-06-18T15:58:09Z",
+      "category": "tech",
+      "score": 0.25561054939570893,
+      "tldr": "2 is probably the most powerful text-only open weights LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c8a123b4-fd70-441c-83f7-56311e2541e8",
+      "title": "A website that lists websites to submit your website to",
+      "url": "https://www.submission.directory/",
+      "domain": "submission.directory",
+      "published_at": "2026-06-18T15:12:43Z",
+      "category": "tech",
+      "score": 0.2556074271104668,
+      "tldr": "A website that lists websites to submit your website to",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5dfcdba5-a2ac-4e43-a9c8-dbce6deeb6a3",
       "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
       "url": "https://github.com/tensorzero/tensorzero",
@@ -1405,6 +1405,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-18T14:43:00.800663719Z",
+  "last_updated": "2026-06-18T17:54:18.798257185Z",
   "total_count": 100
 }
