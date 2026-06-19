@@ -421,20 +421,6 @@
       ]
     },
     {
-      "id": "c2d300cf-41c2-424e-aa11-824971cfc8b0",
-      "title": "WASI 0.3.0 Released",
-      "url": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.0",
-      "domain": "github.com",
-      "published_at": "2026-06-12T13:51:15Z",
-      "category": "tech",
-      "score": 0.31494247572054357,
-      "tldr": "WASI 0.3.0 Released",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ce45eadb-db01-496f-a85c-9204c5be3416",
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
       "url": "https://news.ycombinator.com/item?id=48542100",
@@ -871,20 +857,6 @@
       ]
     },
     {
-      "id": "31661741-3b5c-4097-a38d-cbbc2d6cb868",
-      "title": "WASI 0.3",
-      "url": "https://bytecodealliance.org/articles/WASI-0.3",
-      "domain": "bytecodealliance.org",
-      "published_at": "2026-06-12T13:51:15Z",
-      "category": "tech",
-      "score": 0.263278233328435,
-      "tldr": "WASI 0.3",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5c9ef2a1-7778-4346-b233-a8b67b595a63",
       "title": "Clojure Hosted on Go",
       "url": "https://github.com/glojurelang/glojure",
@@ -1047,20 +1019,6 @@
       "category": "tech",
       "score": 0.25703610455710096,
       "tldr": "Show HN: Script to bulk delete Claude chats from the web UI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8d47ee4a-6404-4e02-acbd-c2353d7fa427",
-      "title": "Maxproof",
-      "url": "https://arxiv.org/abs/2606.13473",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-12T12:00:02Z",
-      "category": "tech",
-      "score": 0.25670463655984327,
-      "tldr": "Maxproof",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1402,8 +1360,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b3309984-a17b-4513-a173-72a4edb43df0",
+      "title": "LLMs aren't conscious (and thinking they are is culturally dangerous)",
+      "url": "https://www.theintrinsicperspective.com/p/dont-dethrone-consciousness",
+      "domain": "theintrinsicperspective.com",
+      "published_at": "2026-06-13T20:47:07Z",
+      "category": "tech",
+      "score": 0.25162094918942784,
+      "tldr": "LLMs aren't conscious (and thinking they are is culturally dangerous)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9e5d0299-1e56-47c5-85dd-d8515ebafd4b",
+      "title": "Typst 0.15.0",
+      "url": "https://typst.app/docs/changelog/0.15.0",
+      "domain": "typst.app",
+      "published_at": "2026-06-15T17:24:17Z",
+      "category": "tech",
+      "score": 0.251601136075372,
+      "tldr": "Typst 0.15.0",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ee309701-baf1-40fa-b039-ce753954e674",
+      "title": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
+      "url": "https://github.com/mupt-ai/relaymux",
+      "domain": "github.com",
+      "published_at": "2026-06-17T17:27:58Z",
+      "category": "tech",
+      "score": 0.251428981226504,
+      "tldr": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-19T10:10:07.676240873Z",
+  "last_updated": "2026-06-19T13:53:27.255158792Z",
   "total_count": 100
 }
