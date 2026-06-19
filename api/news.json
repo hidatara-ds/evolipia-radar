@@ -127,20 +127,6 @@
       ]
     },
     {
-      "id": "16506878-5dcc-4651-ad5a-f50aa8b25bcb",
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian",
-      "domain": "lantian.pub",
-      "published_at": "2026-06-12T04:42:53Z",
-      "category": "tech",
-      "score": 0.42105952649075734,
-      "tldr": "AI agent bankrupted their operator while trying to scan DN42",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e6cf92cd-c102-4af6-a115-4868f373b6f4",
       "title": "Want your images back? That'll be $5",
       "url": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
@@ -379,20 +365,6 @@
       ]
     },
     {
-      "id": "5ef241d3-58f1-4fe7-8b96-6d9fd8998989",
-      "title": "Claude Fable is relentlessly proactive",
-      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive",
-      "domain": "simonwillison.net",
-      "published_at": "2026-06-12T01:06:51Z",
-      "category": "tech",
-      "score": 0.3189491218787773,
-      "tldr": "Claude Fable is relentlessly proactive",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "835aa70c-d6f4-4dce-86c9-c5ce6dd772f2",
       "title": "What the Fuck Happened to Nerds",
       "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
@@ -612,20 +584,6 @@
       "category": "tech",
       "score": 0.29289735067992717,
       "tldr": "New pancreatic cancer drug might open the door to much longer survival times",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f220c64f-8bdc-41a9-9722-a5d3f5c67a5f",
-      "title": "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]",
-      "url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf",
-      "domain": "web.mit.edu",
-      "published_at": "2026-06-12T00:38:11Z",
-      "category": "tech",
-      "score": 0.29218583076779453,
-      "tldr": "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1193,17 +1151,17 @@
       ]
     },
     {
-      "id": "a7cd45bf-7cdc-49d9-beb1-d499233bf105",
-      "title": "Don't let the LLM speak, just probe it",
-      "url": "https://blog.j11y.io/2026-06-10_hidden-state-probes",
-      "domain": "blog.j11y.io",
-      "published_at": "2026-06-12T00:24:48Z",
+      "id": "2d43223e-e8aa-45f7-b2a6-aa2086411388",
+      "title": "Show HN: Talos – Open-source WASM interpreter for Lean",
+      "url": "https://github.com/cajal-technologies/talos",
+      "domain": "github.com",
+      "published_at": "2026-06-18T13:10:44Z",
       "category": "tech",
-      "score": 0.2544898148762644,
-      "tldr": "Don't let the LLM speak, just probe it",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "score": 0.25453854496812045,
+      "tldr": "Show HN: Talos – Open-source WASM interpreter for Lean",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
-        "llm"
+        "general_ai"
       ]
     },
     {
@@ -1402,8 +1360,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ef897d2b-90be-41df-9f3c-90cfcb7c4ad0",
+      "title": "AI is code and can't be prompted into being smarter",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter",
+      "domain": "theregister.com",
+      "published_at": "2026-06-14T16:27:17Z",
+      "category": "tech",
+      "score": 0.25184797386452384,
+      "tldr": "AI is code and can't be prompted into being smarter",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e15a691c-ad70-4bfb-ac4b-56c536fac4fc",
+      "title": "Claude Fable 5 vs. GPT-5.5: Better Planning, Similar Execution",
+      "url": "https://blog.kilo.ai/p/claude-fable-5-vs-gpt-5-5",
+      "domain": "blog.kilo.ai",
+      "published_at": "2026-06-13T14:59:59Z",
+      "category": "tech",
+      "score": 0.2516782424450734,
+      "tldr": "5: Better Planning, Similar Execution",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "47a6fbd7-bc67-48a4-ad4b-9cca703da4b1",
+      "title": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
+      "url": "https://github.com/spronta/crawlie",
+      "domain": "github.com",
+      "published_at": "2026-06-18T22:54:21Z",
+      "category": "tech",
+      "score": 0.25167412691780067,
+      "tldr": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-19T00:09:07.338606798Z",
+  "last_updated": "2026-06-19T05:32:01.329457787Z",
   "total_count": 100
 }
