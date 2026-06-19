@@ -885,20 +885,6 @@
       ]
     },
     {
-      "id": "d52271df-1add-4ba2-9b95-335dd6fcaf08",
-      "title": "A Call to Action: Stop the FCC's KYC Regime",
-      "url": "https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime",
-      "domain": "blog.lopp.net",
-      "published_at": "2026-06-12T14:33:29Z",
-      "category": "tech",
-      "score": 0.2623668090424808,
-      "tldr": "A Call to Action: Stop the FCC's KYC Regime",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "fa92d465-d0d5-446c-b257-f763a38abf72",
       "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
       "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided",
@@ -1011,20 +997,6 @@
       ]
     },
     {
-      "id": "e513eaad-12e2-480d-a9e3-82d62ae70d83",
-      "title": "Show HN: Script to bulk delete Claude chats from the web UI",
-      "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
-      "domain": "github.com",
-      "published_at": "2026-06-12T15:08:59Z",
-      "category": "tech",
-      "score": 0.25703610455710096,
-      "tldr": "Show HN: Script to bulk delete Claude chats from the web UI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "afda0eed-4280-4dd7-a452-028eec69d6f5",
       "title": "Claude: Elevated errors across many models",
       "url": "https://status.claude.com/incidents/xmhsglsz3h3w",
@@ -1090,6 +1062,20 @@
       "score": 0.2556074271104668,
       "tldr": "A website that lists websites to submit your website to",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f81b1a21-38e5-472b-b1be-2d483d9489f0",
+      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
+      "url": "https://www.cnbc.com/2026/06/18/the-average-spacex-buyer-post-ipo-is-almost-under-water-after-two-day-slide.html",
+      "domain": "cnbc.com",
+      "published_at": "2026-06-19T13:48:28Z",
+      "category": "tech",
+      "score": 0.25511706277961504,
+      "tldr": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1173,20 +1159,6 @@
       "category": "tech",
       "score": 0.25354108709593987,
       "tldr": "AI chemist improves a challenging reaction in medicinal chemistry",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a76d3b51-10cc-46fd-a1ba-a12b6a1a5492",
-      "title": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
-      "url": "https://github.com/WebAssembly/wasi-webgpu",
-      "domain": "github.com",
-      "published_at": "2026-06-12T15:26:58Z",
-      "category": "tech",
-      "score": 0.2532649461041467,
-      "tldr": "Wasi: WebGPU – A Proposed WebAssembly System Interface API",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1402,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "487dd280-431f-490b-ac8f-8c760cb34a86",
+      "title": "Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+      "url": "https://github.com/firish/claude_code_vs",
+      "domain": "github.com",
+      "published_at": "2026-06-15T23:15:56Z",
+      "category": "tech",
+      "score": 0.2514235676340478,
+      "tldr": "Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "480895c5-b2d6-443c-9249-7ce34fef0bd6",
+      "title": "LLMs Pre-Commodify Ideas",
+      "url": "https://summerlightning.substack.com/p/llms-pre-commodify-ideas",
+      "domain": "summerlightning.substack.com",
+      "published_at": "2026-06-14T00:00:43Z",
+      "category": "tech",
+      "score": 0.2513471504626752,
+      "tldr": "LLMs Pre-Commodify Ideas",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-19T13:53:27.255158792Z",
+  "last_updated": "2026-06-19T16:27:50.101481382Z",
   "total_count": 100
 }
