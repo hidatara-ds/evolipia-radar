@@ -365,20 +365,6 @@
       ]
     },
     {
-      "id": "4bbd67c6-aef3-4b4c-a2aa-4e75ef7dcaa4",
-      "title": "Electric motors with no rare earths",
-      "url": "https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths",
-      "domain": "renaultgroup.com",
-      "published_at": "2026-06-12T22:08:03Z",
-      "category": "tech",
-      "score": 0.32651770648974343,
-      "tldr": "Electric motors with no rare earths",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "835aa70c-d6f4-4dce-86c9-c5ce6dd772f2",
       "title": "What the Fuck Happened to Nerds",
       "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
@@ -1208,20 +1194,6 @@
       ]
     },
     {
-      "id": "e0c44456-f30c-43b9-a853-d2a308774081",
-      "title": "SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "domain": "github.com",
-      "published_at": "2026-06-12T21:49:49Z",
-      "category": "tech",
-      "score": 0.2523709278274888,
-      "tldr": "SkillSpector",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9da0694b-40fa-4b90-b660-98f4e23e2599",
       "title": "ChatGPT Is Down",
       "url": "https://chatgpt.com",
@@ -1289,6 +1261,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "d6fab907-4019-4f99-84a7-fc18be68c277",
+      "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
+      "url": "https://arrowtsx.dev/bigger-models",
+      "domain": "arrowtsx.dev",
+      "published_at": "2026-06-19T16:11:25Z",
+      "category": "tech",
+      "score": 0.2517079617510477,
+      "tldr": "5 hallucinates 3x more than MIT-licensed GLM-5.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "af48cb71-2386-4c02-a74a-3a25082688a4",
+      "title": "Show HN: Zero Browser",
+      "url": "https://github.com/nz366/zero_browser",
+      "domain": "github.com",
+      "published_at": "2026-06-15T23:19:15Z",
+      "category": "tech",
+      "score": 0.25117875814202917,
+      "tldr": "Show HN: Zero Browser",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-19T21:41:28.191698496Z",
+  "last_updated": "2026-06-19T22:43:09.80569383Z",
   "total_count": 100
 }
