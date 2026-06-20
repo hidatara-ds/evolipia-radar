@@ -183,20 +183,6 @@
       ]
     },
     {
-      "id": "9239e59e-9c6b-464a-b8e6-e2ea2d23724d",
-      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
-      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?reflink=desktopwebshare_permalink\u0026st=Yct6gx",
-      "domain": "wsj.com",
-      "published_at": "2026-06-13T16:57:49Z",
-      "category": "tech",
-      "score": 0.3531560137192032,
-      "tldr": "Amazon CEO's talks with U. officials triggered crackdown on Anthropic models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6aaec03f-21e1-45b3-a195-19a54817c06b",
       "title": "Want your images back? Sure... That'll be $5!",
       "url": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
@@ -759,20 +745,6 @@
       ]
     },
     {
-      "id": "256ac4c9-4cd6-403c-9cc6-29b9518e4791",
-      "title": "GLM 5.2 Is Out",
-      "url": "https://twitter.com/jietang/status/2065784751345287314",
-      "domain": "twitter.com",
-      "published_at": "2026-06-13T16:18:31Z",
-      "category": "tech",
-      "score": 0.2665796406933734,
-      "tldr": "GLM 5.2 Is Out",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "50e08808-69e2-4273-af8a-760162af1bd2",
       "title": "Apple Foundation Models",
       "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
@@ -907,6 +879,20 @@
       "category": "tech",
       "score": 0.25774805117071176,
       "tldr": "XLibre XServer 25.2.0 Released",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "aabd2933-d2cc-4ce9-be37-39b4edf6bea6",
+      "title": "Cargo-Geiger",
+      "url": "https://github.com/geiger-rs/cargo-geiger",
+      "domain": "github.com",
+      "published_at": "2026-06-20T14:52:59Z",
+      "category": "tech",
+      "score": 0.2568066465448528,
+      "tldr": "Cargo-Geiger",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "332c337b-57ed-416c-b6fb-cf311911e6f1",
+      "title": "A 24-byte TAR-like file system for microcontrollers",
+      "url": "https://github.com/clisystems/utfs",
+      "domain": "github.com",
+      "published_at": "2026-06-17T14:25:42Z",
+      "category": "tech",
+      "score": 0.25007288162388963,
+      "tldr": "A 24-byte TAR-like file system for microcontrollers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-20T15:20:58.098346698Z",
+  "last_updated": "2026-06-20T16:59:11.939387432Z",
   "total_count": 100
 }
