@@ -337,6 +337,20 @@
       ]
     },
     {
+      "id": "59b1b9b7-5dd6-49e4-8b4d-01ebe35ec974",
+      "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "url": "https://github.com/JustVugg/nanoeuler",
+      "domain": "github.com",
+      "published_at": "2026-06-19T18:18:35Z",
+      "category": "tech",
+      "score": 0.323655434696329,
+      "tldr": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "835aa70c-d6f4-4dce-86c9-c5ce6dd772f2",
       "title": "What the Fuck Happened to Nerds",
       "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
@@ -1123,20 +1137,6 @@
       ]
     },
     {
-      "id": "2e29ff9a-2480-403a-adcc-ac3b4568f5f5",
-      "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
-      "url": "https://github.com/vladignatyev/brain-map-skill",
-      "domain": "github.com",
-      "published_at": "2026-06-13T06:43:42Z",
-      "category": "tech",
-      "score": 0.252880344049879,
-      "tldr": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f97d365e-24f5-4e60-a63d-51f4dfdab44d",
       "title": "Semiclassical Gravity Efficiently Solves NP-Complete Problems",
       "url": "https://arxiv.org/abs/2606.14806",
@@ -1404,6 +1404,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-20T02:53:29.140458753Z",
+  "last_updated": "2026-06-20T06:54:38.369688067Z",
   "total_count": 100
 }
