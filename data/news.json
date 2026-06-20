@@ -1264,20 +1264,6 @@
       ]
     },
     {
-      "id": "b3309984-a17b-4513-a173-72a4edb43df0",
-      "title": "LLMs aren't conscious (and thinking they are is culturally dangerous)",
-      "url": "https://www.theintrinsicperspective.com/p/dont-dethrone-consciousness",
-      "domain": "theintrinsicperspective.com",
-      "published_at": "2026-06-13T20:47:07Z",
-      "category": "tech",
-      "score": 0.25162094918942784,
-      "tldr": "LLMs aren't conscious (and thinking they are is culturally dangerous)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "9e5d0299-1e56-47c5-85dd-d8515ebafd4b",
       "title": "Typst 0.15.0",
       "url": "https://typst.app/docs/changelog/0.15.0",
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8aa9caab-7e1a-4dcd-8561-26088092fd7d",
+      "title": "Show HN: Ctx, save tokens by loading only the relevant tools",
+      "url": "https://github.com/stevesolun/ctx",
+      "domain": "github.com",
+      "published_at": "2026-06-16T18:14:48Z",
+      "category": "tech",
+      "score": 0.25103124075144034,
+      "tldr": "Show HN: Ctx, save tokens by loading only the relevant tools",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-20T20:02:28.651708473Z",
+  "last_updated": "2026-06-20T21:45:21.54159142Z",
   "total_count": 100
 }
