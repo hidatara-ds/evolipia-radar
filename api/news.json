@@ -57,20 +57,6 @@
       ]
     },
     {
-      "id": "62be079e-dbb5-4f34-8edf-176266711a02",
-      "title": "Noise infusion banned from statistical products published by Census Bureau",
-      "url": "https://desfontain.es/blog/banning-noise.html",
-      "domain": "desfontain.es",
-      "published_at": "2026-06-13T13:54:56Z",
-      "category": "tech",
-      "score": 0.45141889109032707,
-      "tldr": "Noise infusion banned from statistical products published by Census Bureau",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6a2ff73b-2f5a-47a9-bafb-927cab8ea84b",
       "title": "I admire Fabrice Bellard. He is almost certainly a better overall programmer",
       "url": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
@@ -542,20 +528,6 @@
       "category": "tech",
       "score": 0.29290145344113283,
       "tldr": "Wages in America Are Too Low for the 30% Rule to Work for Renters Anymore",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "212c94c9-a673-4812-ad8d-ea27dad6edba",
-      "title": "New pancreatic cancer drug might open the door to much longer survival times",
-      "url": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
-      "domain": "economist.com",
-      "published_at": "2026-06-13T13:34:00Z",
-      "category": "tech",
-      "score": 0.29289735067992717,
-      "tldr": "New pancreatic cancer drug might open the door to much longer survival times",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1222,20 +1194,6 @@
       ]
     },
     {
-      "id": "e15a691c-ad70-4bfb-ac4b-56c536fac4fc",
-      "title": "Claude Fable 5 vs. GPT-5.5: Better Planning, Similar Execution",
-      "url": "https://blog.kilo.ai/p/claude-fable-5-vs-gpt-5-5",
-      "domain": "blog.kilo.ai",
-      "published_at": "2026-06-13T14:59:59Z",
-      "category": "tech",
-      "score": 0.2516782424450734,
-      "tldr": "5: Better Planning, Similar Execution",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "47a6fbd7-bc67-48a4-ad4b-9cca703da4b1",
       "title": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
       "url": "https://github.com/spronta/crawlie",
@@ -1402,8 +1360,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c649a3d1-15e1-4e82-80c3-b4aca726c800",
+      "title": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown",
+      "url": "https://www.cnn.com/2026/06/12/climate/cold-blob-atlantic-amoc-ocean-circulation",
+      "domain": "cnn.com",
+      "published_at": "2026-06-14T14:40:33Z",
+      "category": "tech",
+      "score": 0.250854107465972,
+      "tldr": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9f61a1b9-53df-4aa0-80bc-ccbc0dbac582",
+      "title": "LLMs Are Complicated Now",
+      "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now",
+      "domain": "ianbarber.blog",
+      "published_at": "2026-06-20T01:25:14Z",
+      "category": "tech",
+      "score": 0.25065698230246614,
+      "tldr": "LLMs Are Complicated Now",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "adb9e489-4532-4460-8ae9-e511b0cf932c",
+      "title": "Show HN: A pure-Ruby X11 terminal",
+      "url": "https://github.com/vidarh/rubyterm",
+      "domain": "github.com",
+      "published_at": "2026-06-15T18:15:57Z",
+      "category": "tech",
+      "score": 0.25030204747752133,
+      "tldr": "Show HN: A pure-Ruby X11 terminal",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-20T13:24:17.985230032Z",
+  "last_updated": "2026-06-20T15:20:58.098346698Z",
   "total_count": 100
 }
