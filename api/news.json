@@ -226,20 +226,6 @@
       ]
     },
     {
-      "id": "eb8e1581-687b-4d9b-802a-2f1da6619c63",
-      "title": "Your ePub Is fine",
-      "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
-      "domain": "andreklein.net",
-      "published_at": "2026-06-14T22:54:55Z",
-      "category": "tech",
-      "score": 0.3409944218577574,
-      "tldr": "Your ePub Is fine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "7f679a06-585e-4195-a23b-0500182ac41f",
       "title": "GateGPT: 56k tokens per second Transformer (KV cache) on FPGA at 80 MHz",
       "url": "https://twitter.com/fguzmanai/status/2065832668172845209",
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "9f61a1b9-53df-4aa0-80bc-ccbc0dbac582",
+      "title": "LLMs Are Complicated Now",
+      "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now",
+      "domain": "ianbarber.blog",
+      "published_at": "2026-06-20T01:25:14Z",
+      "category": "tech",
+      "score": 0.25065698230246614,
+      "tldr": "LLMs Are Complicated Now",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-21T21:50:16.018258752Z",
+  "last_updated": "2026-06-21T22:59:18.468412503Z",
   "total_count": 100
 }
