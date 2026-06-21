@@ -1165,20 +1165,6 @@
       ]
     },
     {
-      "id": "ef897d2b-90be-41df-9f3c-90cfcb7c4ad0",
-      "title": "AI is code and can't be prompted into being smarter",
-      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter",
-      "domain": "theregister.com",
-      "published_at": "2026-06-14T16:27:17Z",
-      "category": "tech",
-      "score": 0.25184797386452384,
-      "tldr": "AI is code and can't be prompted into being smarter",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d6fab907-4019-4f99-84a7-fc18be68c277",
       "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
       "url": "https://arrowtsx.dev/bigger-models",
@@ -1401,8 +1387,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "332c337b-57ed-416c-b6fb-cf311911e6f1",
+      "title": "A 24-byte TAR-like file system for microcontrollers",
+      "url": "https://github.com/clisystems/utfs",
+      "domain": "github.com",
+      "published_at": "2026-06-17T14:25:42Z",
+      "category": "tech",
+      "score": 0.25007288162388963,
+      "tldr": "A 24-byte TAR-like file system for microcontrollers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-21T15:45:18.975533021Z",
+  "last_updated": "2026-06-21T17:17:34.872699311Z",
   "total_count": 100
 }
