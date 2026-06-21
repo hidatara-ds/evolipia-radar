@@ -1067,6 +1067,20 @@
       ]
     },
     {
+      "id": "322d0056-de3d-4755-8f4d-b9361cc7e55c",
+      "title": "Stop wasting tokens and re explaining your project between sessions",
+      "url": "https://github.com/raiyanyahya/recall",
+      "domain": "github.com",
+      "published_at": "2026-06-21T21:05:37Z",
+      "category": "tech",
+      "score": 0.25326696710487073,
+      "tldr": "Stop wasting tokens and re explaining your project between sessions",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "87f0e22c-b53a-44df-848f-9a969ec212b3",
       "title": "Micro Radar: a tiny open-source flight radar for your desk",
       "url": "https://github.com/AnthonySturdy/micro-radar",
@@ -1250,6 +1264,20 @@
       ]
     },
     {
+      "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
+      "title": "Jonathan Blow on why LLMs cannot program [video]",
+      "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
+      "domain": "youtube.com",
+      "published_at": "2026-06-21T21:36:28Z",
+      "category": "tech",
+      "score": 0.2512528846144636,
+      "tldr": "Jonathan Blow on why LLMs cannot program [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "243ade9b-9ae0-4b69-92f4-d7cd9b13eae6",
       "title": "What was nice about the UI of Windows 2000",
       "url": "https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html",
@@ -1258,6 +1286,20 @@
       "category": "tech",
       "score": 0.2512233780184724,
       "tldr": "What was nice about the UI of Windows 2000",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "01e62da8-7c05-470d-83c2-0690b9f1bafb",
+      "title": "Show HN: DebugBrief – turn debugging sessions into reports, no AI",
+      "url": "https://github.com/harihkk/Debug-Brief",
+      "domain": "github.com",
+      "published_at": "2026-06-21T19:57:54Z",
+      "category": "tech",
+      "score": 0.2511911458952304,
+      "tldr": "Show HN: DebugBrief – turn debugging sessions into reports, no AI",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1360,50 +1402,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "9f61a1b9-53df-4aa0-80bc-ccbc0dbac582",
-      "title": "LLMs Are Complicated Now",
-      "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now",
-      "domain": "ianbarber.blog",
-      "published_at": "2026-06-20T01:25:14Z",
-      "category": "tech",
-      "score": 0.25065698230246614,
-      "tldr": "LLMs Are Complicated Now",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d6ee97cc-932f-453c-9e72-776a592363c4",
-      "title": "Refloow Photo Studio – A local, offline photo editor with on-device AI",
-      "url": "https://github.com/Refloow/Refloow-Photo-Studio",
-      "domain": "github.com",
-      "published_at": "2026-06-21T14:04:34Z",
-      "category": "tech",
-      "score": 0.2506343136783191,
-      "tldr": "Refloow Photo Studio – A local, offline photo editor with on-device AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "14bc02f9-4678-480b-b5a6-7fa58c35db3f",
-      "title": "Show HN: Agentic coding workflows built on Git worktrees and task evidence",
-      "url": "https://github.com/alex-reysa/glueRun-go",
-      "domain": "github.com",
-      "published_at": "2026-06-20T23:58:18Z",
-      "category": "tech",
-      "score": 0.2505795281195182,
-      "tldr": "Show HN: Agentic coding workflows built on Git worktrees and task evidence",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T20:21:22.690503353Z",
+  "last_updated": "2026-06-21T21:50:16.018258752Z",
   "total_count": 100
 }
