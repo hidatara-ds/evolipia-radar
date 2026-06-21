@@ -127,6 +127,21 @@
       ]
     },
     {
+      "id": "d01d60f0-b914-4f5f-831e-9e68ecde3b95",
+      "title": "Daily_stock_analysis: LLM-powered multi-market stock analysis system",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "domain": "github.com",
+      "published_at": "2026-06-21T14:10:12Z",
+      "category": "tech",
+      "score": 0.3756643678542375,
+      "tldr": "Daily_stock_analysis: LLM-powered multi-market stock analysis system",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
       "id": "a3baa35c-f193-4786-aa37-ea51c63f6a86",
       "title": "U.S. pulling ocean sensors a 'shock' for Canadian research as El Niño nears",
       "url": "https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874",
@@ -576,20 +591,6 @@
       ]
     },
     {
-      "id": "2f43bbc1-5d2c-4401-b5d0-4ae60f9580a6",
-      "title": "Yserver: A modern X11 server written in Rust",
-      "url": "https://github.com/joske/yserver",
-      "domain": "github.com",
-      "published_at": "2026-06-14T19:10:35Z",
-      "category": "tech",
-      "score": 0.28178364890965035,
-      "tldr": "Yserver: A modern X11 server written in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0799189e-060d-4705-9434-e04a934412ac",
       "title": "I Could've Rickrolled the FIFA World Cup. All I Needed Was My ID",
       "url": "https://bobdahacker.com/blog/fifa-hack",
@@ -794,20 +795,6 @@
       "category": "tech",
       "score": 0.26127723575720435,
       "tldr": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4c1a5665-daaa-4765-b540-220dd3cd3f6c",
-      "title": "AI is code – and can't be prompted into being smarter",
-      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-      "domain": "theregister.com",
-      "published_at": "2026-06-14T20:17:54Z",
-      "category": "tech",
-      "score": 0.2607264755040303,
-      "tldr": "AI is code – and can't be prompted into being smarter",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1389,6 +1376,20 @@
       ]
     },
     {
+      "id": "d6ee97cc-932f-453c-9e72-776a592363c4",
+      "title": "Refloow Photo Studio – A local, offline photo editor with on-device AI",
+      "url": "https://github.com/Refloow/Refloow-Photo-Studio",
+      "domain": "github.com",
+      "published_at": "2026-06-21T14:04:34Z",
+      "category": "tech",
+      "score": 0.2506343136783191,
+      "tldr": "Refloow Photo Studio – A local, offline photo editor with on-device AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "14bc02f9-4678-480b-b5a6-7fa58c35db3f",
       "title": "Show HN: Agentic coding workflows built on Git worktrees and task evidence",
       "url": "https://github.com/alex-reysa/glueRun-go",
@@ -1403,6 +1404,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-21T18:57:27.58966518Z",
+  "last_updated": "2026-06-21T20:21:22.690503353Z",
   "total_count": 100
 }
