@@ -1067,20 +1067,6 @@
       ]
     },
     {
-      "id": "42990371-8d25-4508-9801-f6b3804bc9d9",
-      "title": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
-      "url": "https://github.com/ayushh0110/ScreenMind",
-      "domain": "github.com",
-      "published_at": "2026-06-13T23:12:54Z",
-      "category": "tech",
-      "score": 0.2539859880384443,
-      "tldr": "Show HN: I run a vision model on every screenshot, locally, on a 4GB GPU",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "952bd46f-65ae-46fc-af98-940000f797bd",
       "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
       "url": "https://github.com/themartiano/luz",
@@ -1191,6 +1177,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "2114a81e-13a5-4fbc-bc96-051cfaacaca8",
+      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "url": "https://github.com/mysk-research/loupe",
+      "domain": "github.com",
+      "published_at": "2026-06-20T12:08:23Z",
+      "category": "tech",
+      "score": 0.25231466457998364,
+      "tldr": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1334,20 +1334,6 @@
       ]
     },
     {
-      "id": "480895c5-b2d6-443c-9249-7ce34fef0bd6",
-      "title": "LLMs Pre-Commodify Ideas",
-      "url": "https://summerlightning.substack.com/p/llms-pre-commodify-ideas",
-      "domain": "summerlightning.substack.com",
-      "published_at": "2026-06-14T00:00:43Z",
-      "category": "tech",
-      "score": 0.2513471504626752,
-      "tldr": "LLMs Pre-Commodify Ideas",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "243ade9b-9ae0-4b69-92f4-d7cd9b13eae6",
       "title": "What was nice about the UI of Windows 2000",
       "url": "https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html",
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "898d5a52-d51b-490e-a6fb-291520f20147",
+      "title": "Byobu – text-based window manager and terminal multiplexer",
+      "url": "https://github.com/dustinkirkland/byobu",
+      "domain": "github.com",
+      "published_at": "2026-06-18T10:21:01Z",
+      "category": "tech",
+      "score": 0.25104029997329297,
+      "tldr": "Byobu – text-based window manager and terminal multiplexer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-20T22:57:52.038959406Z",
+  "last_updated": "2026-06-21T00:01:11.094950591Z",
   "total_count": 100
 }
