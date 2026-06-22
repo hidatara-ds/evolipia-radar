@@ -57,20 +57,6 @@
       ]
     },
     {
-      "id": "27611485-64d4-4da4-8b28-0a53fe743520",
-      "title": "CrankGPT",
-      "url": "https://crankgpt.com",
-      "domain": "crankgpt.com",
-      "published_at": "2026-06-15T13:20:13Z",
-      "category": "tech",
-      "score": 0.436019149035504,
-      "tldr": "CrankGPT",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "e6cf92cd-c102-4af6-a115-4868f373b6f4",
       "title": "Want your images back? That'll be $5",
       "url": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
@@ -124,6 +110,34 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "484bd252-b889-4afe-8a81-e80affeec854",
+      "title": "Never Give Them Your Face",
+      "url": "https://nevergivethemyourface.com/",
+      "domain": "nevergivethemyourface.com",
+      "published_at": "2026-06-22T13:45:48Z",
+      "category": "tech",
+      "score": 0.3671543526677334,
+      "tldr": "Never Give Them Your Face",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4c761855-2a74-45f2-a93a-a0d101556c7d",
+      "title": "Pledging Another $400k to the Zig Software Foundation",
+      "url": "https://mitchellh.com/writing/zig-donation-2026",
+      "domain": "mitchellh.com",
+      "published_at": "2026-06-22T13:43:01Z",
+      "category": "tech",
+      "score": 0.36612168473246876,
+      "tldr": "Pledging Another $400k to the Zig Software Foundation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
         "general_ai"
       ]
     },
@@ -296,20 +310,6 @@
       ]
     },
     {
-      "id": "8e96736a-7f43-443a-8e6d-80e51434460c",
-      "title": "Iroh 1.0",
-      "url": "https://www.iroh.computer/blog/v1",
-      "domain": "iroh.computer",
-      "published_at": "2026-06-15T15:13:06Z",
-      "category": "tech",
-      "score": 0.31587698633939953,
-      "tldr": "Iroh 1.0",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ef79e904-84c9-4554-a1cd-3ad6287c5089",
       "title": "Apple is about to make Hide My Email useless",
       "url": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless",
@@ -318,49 +318,6 @@
       "category": "tech",
       "score": 0.3151912138028853,
       "tldr": "Apple is about to make Hide My Email useless",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "caf4a092-09f0-4339-a0e8-c66156984779",
-      "title": "Hetzner increased dedicated server prices 3-4x",
-      "url": "https://news.ycombinator.com/item?id=48542064",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-06-15T14:44:02Z",
-      "category": "tech",
-      "score": 0.3151602764329868,
-      "tldr": "Hetzner increased dedicated server prices 3-4x",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ce45eadb-db01-496f-a85c-9204c5be3416",
-      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
-      "url": "https://news.ycombinator.com/item?id=48542100",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-06-15T14:46:53Z",
-      "category": "tech",
-      "score": 0.31480940119070794,
-      "tldr": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "1fc8da62-e7e7-409e-b3b3-9ff550754e40",
-      "title": "Hetzner Price Adjustment",
-      "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment",
-      "domain": "docs.hetzner.com",
-      "published_at": "2026-06-15T13:19:39Z",
-      "category": "tech",
-      "score": 0.31339071414830477,
-      "tldr": "Hetzner Price Adjustment",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -451,20 +408,6 @@
       ]
     },
     {
-      "id": "336ddc19-f048-400f-8e23-7fba0afa846a",
-      "title": "Can Europe train a frontier AI model on the compute it owns?",
-      "url": "https://github.com/sammysltd/euromesh",
-      "domain": "github.com",
-      "published_at": "2026-06-15T13:31:09Z",
-      "category": "tech",
-      "score": 0.30465749504495065,
-      "tldr": "Can Europe train a frontier AI model on the compute it owns?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "eb8309a2-1e2f-4655-ab55-791adb996259",
       "title": "LLMs do not merely reflect the bias of their training, they police it",
       "url": "https://twitter.com/brianroemmele/status/1991714955339657384",
@@ -516,20 +459,6 @@
       "category": "tech",
       "score": 0.29160017815324657,
       "tldr": "SpaceX to buy Cursor for $60B",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c8538738-19c8-40b9-868a-c1aba5e53230",
-      "title": "Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-      "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin?bc=HL",
-      "domain": "salesforce.com",
-      "published_at": "2026-06-15T12:08:59Z",
-      "category": "tech",
-      "score": 0.29015093757940225,
-      "tldr": "Salesforce to Acquire Fin (formerly Intercom) for $3.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -656,20 +585,6 @@
       "category": "tech",
       "score": 0.2798131945439511,
       "tldr": "Why is Meta destroying its engineering organization?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0561c3c4-e058-4579-906d-6d56940f3501",
-      "title": "Show HN: Can Europe train a frontier AI model on the compute it owns?",
-      "url": "https://github.com/sammysltd/euromesh",
-      "domain": "github.com",
-      "published_at": "2026-06-15T13:31:09Z",
-      "category": "tech",
-      "score": 0.2778164844309066,
-      "tldr": "Show HN: Can Europe train a frontier AI model on the compute it owns?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -858,6 +773,20 @@
       ]
     },
     {
+      "id": "d8ea9efd-39eb-4d35-bca3-4f692f59a1c4",
+      "title": "I built Ponytrail, a local audit trail for AI coding-agent edits",
+      "url": "https://github.com/0xroylee/ponytrail",
+      "domain": "github.com",
+      "published_at": "2026-06-22T14:54:59Z",
+      "category": "tech",
+      "score": 0.25908259086703467,
+      "tldr": "I built Ponytrail, a local audit trail for AI coding-agent edits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "aa9b4a76-5895-4439-b02b-22634fba1d94",
       "title": "Emacs 31 Is Around the Corner: The Changes I'm Daily Driving",
       "url": "https://www.rahuljuliato.com/posts/emacs-31-around-the-corner",
@@ -998,6 +927,20 @@
       ]
     },
     {
+      "id": "41886c08-1d48-4554-bf72-730d34b1e70b",
+      "title": "UUID: NewV7() always generates a UUID with 7000 on browsers (Golang)",
+      "url": "https://github.com/golang/go/issues/80084",
+      "domain": "github.com",
+      "published_at": "2026-06-22T08:59:26Z",
+      "category": "tech",
+      "score": 0.25621005170468913,
+      "tldr": "UUID: NewV7() always generates a UUID with 7000 on browsers (Golang)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "aa7a6a46-c211-42bd-a170-d33aaf2f27fb",
       "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
       "url": "https://simonwillison.net/2026/Jun/17/glm-52",
@@ -1035,6 +978,34 @@
       "score": 0.25511706277961504,
       "tldr": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "db7f9336-5e80-42ea-947f-67973b85e598",
+      "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
+      "url": "https://github.com/kyle-ssg/kyde",
+      "domain": "github.com",
+      "published_at": "2026-06-22T12:44:17Z",
+      "category": "tech",
+      "score": 0.25459946379035814,
+      "tldr": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8bdf7eb2-a18c-45a5-a0f2-86cf8802ffa3",
+      "title": "Rive, Fast and reliable background jobs in Go",
+      "url": "https://github.com/riverqueue/river",
+      "domain": "github.com",
+      "published_at": "2026-06-22T10:37:13Z",
+      "category": "tech",
+      "score": 0.25457724799134357,
+      "tldr": "Rive, Fast and reliable background jobs in Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1403,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d1b84343-9c73-40f8-9ed8-45fc96caf3e1",
+      "title": "Firecracker-like microVMs for Proxmox VE",
+      "url": "https://github.com/rcarmo/pve-microvm",
+      "domain": "github.com",
+      "published_at": "2026-06-21T11:17:37Z",
+      "category": "tech",
+      "score": 0.2510089177944892,
+      "tldr": "Firecracker-like microVMs for Proxmox VE",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "bbf7a680-bcc3-4967-b2fc-ada164a4d893",
+      "title": "Securing the Future of AI Agents",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents",
+      "domain": "deepmind.google",
+      "published_at": "2026-06-21T21:10:24Z",
+      "category": "tech",
+      "score": 0.25085474227521465,
+      "tldr": "Securing the Future of AI Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-22T11:31:25.817035331Z",
+  "last_updated": "2026-06-22T16:12:02.878407749Z",
   "total_count": 100
 }
