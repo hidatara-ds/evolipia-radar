@@ -1376,6 +1376,20 @@
       ]
     },
     {
+      "id": "bbf7a680-bcc3-4967-b2fc-ada164a4d893",
+      "title": "Securing the Future of AI Agents",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents",
+      "domain": "deepmind.google",
+      "published_at": "2026-06-21T21:10:24Z",
+      "category": "tech",
+      "score": 0.25085474227521465,
+      "tldr": "Securing the Future of AI Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d4a363d1-cce9-4046-8290-f8389cab12fa",
       "title": "Show HN: Teach your kids perfect pitch",
       "url": "https://github.com/paytonjjones/bsharp",
@@ -1388,22 +1402,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "9f61a1b9-53df-4aa0-80bc-ccbc0dbac582",
-      "title": "LLMs Are Complicated Now",
-      "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now",
-      "domain": "ianbarber.blog",
-      "published_at": "2026-06-20T01:25:14Z",
-      "category": "tech",
-      "score": 0.25065698230246614,
-      "tldr": "LLMs Are Complicated Now",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-21T22:59:18.468412503Z",
+  "last_updated": "2026-06-22T00:09:29.87611718Z",
   "total_count": 100
 }
