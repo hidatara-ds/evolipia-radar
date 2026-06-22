@@ -282,6 +282,20 @@
       ]
     },
     {
+      "id": "bae580d8-4b92-4a6b-89ec-e5b1be02059f",
+      "title": "Show HN: Crespo – Tree-sitter AST blueprints instead of raw code for LLMs",
+      "url": "https://github.com/hrudulmmn/crespo",
+      "domain": "github.com",
+      "published_at": "2026-06-22T03:28:11Z",
+      "category": "tech",
+      "score": 0.32567919033199355,
+      "tldr": "Show HN: Crespo – Tree-sitter AST blueprints instead of raw code for LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "59b1b9b7-5dd6-49e4-8b4d-01ebe35ec974",
       "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
       "url": "https://github.com/JustVugg/nanoeuler",
@@ -465,6 +479,20 @@
       ]
     },
     {
+      "id": "4e8de9c5-5026-4e63-ac1b-66427a5bfdfa",
+      "title": "Show HN: Recall – Local project memory for Claude Code",
+      "url": "https://github.com/raiyanyahya/recall",
+      "domain": "github.com",
+      "published_at": "2026-06-21T21:05:37Z",
+      "category": "tech",
+      "score": 0.29410303030842155,
+      "tldr": "Show HN: Recall – Local project memory for Claude Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b7710426-d099-407d-b459-59633c92811e",
       "title": "Wages in America Are Too Low for the 30% Rule to Work for Renters Anymore",
       "url": "https://www.realtor.com/advice/rent/wages-in-america-are-too-low-for-the-30-rule-to-work-for-renters-anymore",
@@ -605,6 +633,20 @@
       ]
     },
     {
+      "id": "9b4013d1-8b06-420c-bf1e-e5ab5158356c",
+      "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "domain": "teachmecoolstuff.com",
+      "published_at": "2026-06-21T22:55:23Z",
+      "category": "tech",
+      "score": 0.2799480791132399,
+      "tldr": "Good results fine tuning a local LLM like Qwen 3:0. 6B to categorize questions",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2cf5770a-02d3-4f89-b991-f8d04153cd6e",
       "title": "Why is Meta destroying its engineering organization?",
       "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
@@ -711,20 +753,6 @@
       "category": "tech",
       "score": 0.26834362758420793,
       "tldr": "Using AI to improve a challenging reaction in medicinal chemistry",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "50e08808-69e2-4273-af8a-760162af1bd2",
-      "title": "Apple Foundation Models",
-      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-      "domain": "platform.claude.com",
-      "published_at": "2026-06-15T04:55:34Z",
-      "category": "tech",
-      "score": 0.26564278500228833,
-      "tldr": "Apple Foundation Models",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -882,6 +910,20 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "f300a140-a593-4b9d-8c5c-a61e4563f9cd",
+      "title": "I Canceled My French Tutor and Built an LLM Tool That Does It Better",
+      "url": "https://alshe.substack.com/p/i-canceled-my-french-tutor-and-built",
+      "domain": "alshe.substack.com",
+      "published_at": "2026-06-21T22:46:43Z",
+      "category": "tech",
+      "score": 0.25693270882054386,
+      "tldr": "I Canceled My French Tutor and Built an LLM Tool That Does It Better",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1360,50 +1402,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d1b84343-9c73-40f8-9ed8-45fc96caf3e1",
-      "title": "Firecracker-like microVMs for Proxmox VE",
-      "url": "https://github.com/rcarmo/pve-microvm",
-      "domain": "github.com",
-      "published_at": "2026-06-21T11:17:37Z",
-      "category": "tech",
-      "score": 0.2510089177944892,
-      "tldr": "Firecracker-like microVMs for Proxmox VE",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "bbf7a680-bcc3-4967-b2fc-ada164a4d893",
-      "title": "Securing the Future of AI Agents",
-      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents",
-      "domain": "deepmind.google",
-      "published_at": "2026-06-21T21:10:24Z",
-      "category": "tech",
-      "score": 0.25085474227521465,
-      "tldr": "Securing the Future of AI Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d4a363d1-cce9-4046-8290-f8389cab12fa",
-      "title": "Show HN: Teach your kids perfect pitch",
-      "url": "https://github.com/paytonjjones/bsharp",
-      "domain": "github.com",
-      "published_at": "2026-06-21T12:49:48Z",
-      "category": "tech",
-      "score": 0.2506823716256521,
-      "tldr": "Show HN: Teach your kids perfect pitch",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-22T00:09:29.87611718Z",
+  "last_updated": "2026-06-22T05:38:49.037608176Z",
   "total_count": 100
 }
