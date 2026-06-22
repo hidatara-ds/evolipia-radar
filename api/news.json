@@ -15,20 +15,6 @@
       ]
     },
     {
-      "id": "754c6f2a-5421-4fba-a077-e31ab5bc6f79",
-      "title": "What happened to nerds?",
-      "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-      "domain": "mrmarket.lol",
-      "published_at": "2026-06-15T08:23:52Z",
-      "category": "tech",
-      "score": 0.4818938301195791,
-      "tldr": "What happened to nerds?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "505db651-61f5-42c4-87c4-367d4072fe7c",
       "title": "Midjourney Medical",
       "url": "https://www.midjourney.com/medical/blogpost",
@@ -113,14 +99,14 @@
       ]
     },
     {
-      "id": "8bc24136-2f6b-419c-a0bd-b68ab5eb9c43",
-      "title": "Curl will not accept vulnerability reports during July 2026",
-      "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss",
-      "domain": "daniel.haxx.se",
-      "published_at": "2026-06-15T06:02:57Z",
+      "id": "03d5306d-0dd6-4691-aabe-fb3f8c78fb4c",
+      "title": "Deno Desktop",
+      "url": "https://docs.deno.com/runtime/desktop",
+      "domain": "docs.deno.com",
+      "published_at": "2026-06-22T05:38:40Z",
       "category": "tech",
-      "score": 0.3968001967763516,
-      "tldr": "Curl will not accept vulnerability reports during July 2026",
+      "score": 0.39551106803890734,
+      "tldr": "Deno Desktop",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -310,20 +296,6 @@
       ]
     },
     {
-      "id": "835aa70c-d6f4-4dce-86c9-c5ce6dd772f2",
-      "title": "What the Fuck Happened to Nerds",
-      "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-      "domain": "mrmarket.lol",
-      "published_at": "2026-06-15T08:23:52Z",
-      "category": "tech",
-      "score": 0.3174566042586374,
-      "tldr": "What the Fuck Happened to Nerds",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8e96736a-7f43-443a-8e6d-80e51434460c",
       "title": "Iroh 1.0",
       "url": "https://www.iroh.computer/blog/v1",
@@ -409,6 +381,20 @@
       ]
     },
     {
+      "id": "86b3ea96-a83f-49a3-bb3b-0a68b45f4e1c",
+      "title": "Codex logging bug may write TBs to local SSDs",
+      "url": "https://github.com/openai/codex/issues/28224",
+      "domain": "github.com",
+      "published_at": "2026-06-22T07:30:17Z",
+      "category": "tech",
+      "score": 0.3106388028076081,
+      "tldr": "Codex logging bug may write TBs to local SSDs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d6faab99-eb47-4a93-b429-44ee42207c19",
       "title": "Volkswagen started blocking GrapheneOS users",
       "url": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
@@ -476,6 +462,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "eb8309a2-1e2f-4655-ab55-791adb996259",
+      "title": "LLMs do not merely reflect the bias of their training, they police it",
+      "url": "https://twitter.com/brianroemmele/status/1991714955339657384",
+      "domain": "twitter.com",
+      "published_at": "2026-06-22T10:50:46Z",
+      "category": "tech",
+      "score": 0.30394057868880037,
+      "tldr": "LLMs do not merely reflect the bias of their training, they police it",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -725,6 +726,20 @@
       "category": "tech",
       "score": 0.27381053074908224,
       "tldr": "Agentic coding deserves more than a chat box bolted onto VS Code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5f6cbc97-3c20-474d-aa6a-d1c97505f57b",
+      "title": "GLM 5.2 vs. Opus",
+      "url": "https://techstackups.com/comparisons/glm-5.2-vs-opus",
+      "domain": "techstackups.com",
+      "published_at": "2026-06-22T07:22:03Z",
+      "category": "tech",
+      "score": 0.2709325171122764,
+      "tldr": "GLM 5.2 vs. Opus",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1033,20 +1048,6 @@
       "category": "tech",
       "score": 0.25453854496812045,
       "tldr": "Show HN: Talos – Open-source WASM interpreter for Lean",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "952bd46f-65ae-46fc-af98-940000f797bd",
-      "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
-      "url": "https://github.com/themartiano/luz",
-      "domain": "github.com",
-      "published_at": "2026-06-15T09:34:10Z",
-      "category": "tech",
-      "score": 0.25384723259246544,
-      "tldr": "Show HN: I wrote a C++ ray tracer from scratch without AI",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1404,6 +1405,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-22T05:38:49.037608176Z",
+  "last_updated": "2026-06-22T11:31:25.817035331Z",
   "total_count": 100
 }
