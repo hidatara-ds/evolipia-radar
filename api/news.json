@@ -200,6 +200,20 @@
       ]
     },
     {
+      "id": "94f266da-1fb9-44c6-ba21-d9247f5bffd5",
+      "title": "Mistral OCR 4",
+      "url": "https://mistral.ai/news/ocr-4",
+      "domain": "mistral.ai",
+      "published_at": "2026-06-23T14:03:19Z",
+      "category": "tech",
+      "score": 0.347401447487357,
+      "tldr": "Mistral OCR 4",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6aaec03f-21e1-45b3-a195-19a54817c06b",
       "title": "Want your images back? Sure... That'll be $5!",
       "url": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
@@ -228,20 +242,6 @@
       ]
     },
     {
-      "id": "7f679a06-585e-4195-a23b-0500182ac41f",
-      "title": "GateGPT: 56k tokens per second Transformer (KV cache) on FPGA at 80 MHz",
-      "url": "https://twitter.com/fguzmanai/status/2065832668172845209",
-      "domain": "twitter.com",
-      "published_at": "2026-06-16T16:12:26Z",
-      "category": "tech",
-      "score": 0.33955236281483797,
-      "tldr": "GateGPT: 56k tokens per second Transformer (KV cache) on FPGA at 80 MHz",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "bc62a4d0-f824-496c-9b22-e02ef6f5f8e2",
       "title": "Amateur may have cracked Linear A",
       "url": "https://aiclambake.com/clamtakes/linear-a",
@@ -250,20 +250,6 @@
       "category": "tech",
       "score": 0.3386911287059058,
       "tldr": "Amateur may have cracked Linear A",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a4568cf1-75ee-45c1-9e52-1463308e6d54",
-      "title": "Is Meta destroying its engineering organization?",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "domain": "newsletter.pragmaticengineer.com",
-      "published_at": "2026-06-16T16:42:32Z",
-      "category": "tech",
-      "score": 0.3336103313491867,
-      "tldr": "Is Meta destroying its engineering organization?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -424,20 +410,6 @@
       ]
     },
     {
-      "id": "5115b696-3360-488f-b026-aeb0ddcda5fa",
-      "title": "Apple's weird anti-nausea dots cured my car sickness",
-      "url": "https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work",
-      "domain": "theverge.com",
-      "published_at": "2026-06-16T16:12:06Z",
-      "category": "tech",
-      "score": 0.3054994851829571,
-      "tldr": "Apple's weird anti-nausea dots cured my car sickness",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "dcb1fc66-b2b4-45d1-be0b-f4192cc10085",
       "title": "GLM-5.2 – How to Run Locally",
       "url": "https://unsloth.ai/docs/models/glm-5.2",
@@ -579,6 +551,20 @@
       ]
     },
     {
+      "id": "8a564843-d7f2-4d0b-98f7-6a3887ad6191",
+      "title": "Elevated error rate across multiple models",
+      "url": "https://status.claude.com/incidents/jbhf20wjmzrf",
+      "domain": "status.claude.com",
+      "published_at": "2026-06-23T14:19:47Z",
+      "category": "tech",
+      "score": 0.28328501574072484,
+      "tldr": "Elevated error rate across multiple models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1b959a4a-7b01-429d-a728-fbc5bd501777",
       "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
       "url": "https://github.com/rxi/microui",
@@ -632,20 +618,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "2cf5770a-02d3-4f89-b991-f8d04153cd6e",
-      "title": "Why is Meta destroying its engineering organization?",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "domain": "newsletter.pragmaticengineer.com",
-      "published_at": "2026-06-16T16:42:32Z",
-      "category": "tech",
-      "score": 0.2798131945439511,
-      "tldr": "Why is Meta destroying its engineering organization?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -755,6 +727,20 @@
       "category": "tech",
       "score": 0.26834362758420793,
       "tldr": "Using AI to improve a challenging reaction in medicinal chemistry",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "af7536b6-50d0-4e83-a902-3b543599cb88",
+      "title": "Show HN: Bun-sqlgen – Type-safe raw SQL for Bun, no ORM",
+      "url": "https://github.com/ilbertt/bun-sqlgen",
+      "domain": "github.com",
+      "published_at": "2026-06-23T14:20:24Z",
+      "category": "tech",
+      "score": 0.26649750277587236,
+      "tldr": "Show HN: Bun-sqlgen – Type-safe raw SQL for Bun, no ORM",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1404,8 +1390,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "c0e34c3c-7f79-40e6-9070-0d62d52d4b14",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "domain": "openai.com",
+      "published_at": "2026-06-22T18:50:36Z",
+      "category": "tech",
+      "score": 0.25123928801717466,
+      "tldr": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-23T14:22:24.855849077Z",
+  "last_updated": "2026-06-23T16:46:20.252860825Z",
   "total_count": 100
 }
