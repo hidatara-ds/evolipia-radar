@@ -85,20 +85,6 @@
       ]
     },
     {
-      "id": "67345b35-752f-4a91-bd8f-18035811744e",
-      "title": "Feds freaked over Fable 5 after 'fix this code', not jailbreak, say researchers",
-      "url": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
-      "domain": "theregister.com",
-      "published_at": "2026-06-16T09:26:09Z",
-      "category": "tech",
-      "score": 0.40424799172941084,
-      "tldr": "Feds freaked over Fable 5 after 'fix this code', not jailbreak, say researchers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "03d5306d-0dd6-4691-aabe-fb3f8c78fb4c",
       "title": "Deno Desktop",
       "url": "https://docs.deno.com/runtime/desktop",
@@ -109,6 +95,21 @@
       "tldr": "Deno Desktop",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6899668d-dfa8-4ec1-8fa3-834a6bf73cc0",
+      "title": "The Reversal Curse: LLMs trained on \"A is B\" fail to learn \"B is A\"",
+      "url": "https://arxiv.org/abs/2309.12288",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-23T11:07:05Z",
+      "category": "tech",
+      "score": 0.37934870862002956,
+      "tldr": "The Reversal Curse: LLMs trained on \"A is B\" fail to learn \"B is A\"",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
         "general_ai"
       ]
     },
@@ -193,20 +194,6 @@
       "category": "tech",
       "score": 0.3573348717090377,
       "tldr": "GrapheneOS has been ported to Android 17",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "90271c61-c967-4fa8-bff1-c337952b9f64",
-      "title": "Mechanical Watch (2022)",
-      "url": "https://ciechanow.ski/mechanical-watch",
-      "domain": "ciechanow.ski",
-      "published_at": "2026-06-16T11:26:27Z",
-      "category": "tech",
-      "score": 0.35356815555683535,
-      "tldr": "Mechanical Watch (2022)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -502,20 +489,6 @@
       "category": "tech",
       "score": 0.29290145344113283,
       "tldr": "Wages in America Are Too Low for the 30% Rule to Work for Renters Anymore",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ec567472-edc5-4b6b-b10c-b9816106c365",
-      "title": "SpaceX to buy Cursor for $60B",
-      "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16",
-      "domain": "reuters.com",
-      "published_at": "2026-06-16T10:44:24Z",
-      "category": "tech",
-      "score": 0.29160017815324657,
-      "tldr": "SpaceX to buy Cursor for $60B",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1040,20 +1013,6 @@
       ]
     },
     {
-      "id": "37aa6f9b-d1ba-4f2a-a0e6-0102c5a8a1bb",
-      "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
-      "url": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
-      "domain": "theregister.com",
-      "published_at": "2026-06-16T09:26:09Z",
-      "category": "tech",
-      "score": 0.25624093043734975,
-      "tldr": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "41886c08-1d48-4554-bf72-730d34b1e70b",
       "title": "UUID: NewV7() always generates a UUID with 7000 on browsers (Golang)",
       "url": "https://github.com/golang/go/issues/80084",
@@ -1403,8 +1362,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
+      "title": "Jonathan Blow on why LLMs cannot program [video]",
+      "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
+      "domain": "youtube.com",
+      "published_at": "2026-06-21T21:36:28Z",
+      "category": "tech",
+      "score": 0.2512528846144636,
+      "tldr": "Jonathan Blow on why LLMs cannot program [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c0e34c3c-7f79-40e6-9070-0d62d52d4b14",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "domain": "openai.com",
+      "published_at": "2026-06-22T18:50:36Z",
+      "category": "tech",
+      "score": 0.25123928801717466,
+      "tldr": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "243ade9b-9ae0-4b69-92f4-d7cd9b13eae6",
+      "title": "What was nice about the UI of Windows 2000",
+      "url": "https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html",
+      "domain": "movq.de",
+      "published_at": "2026-06-18T14:45:43Z",
+      "category": "tech",
+      "score": 0.2512233780184724,
+      "tldr": "What was nice about the UI of Windows 2000",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-23T08:56:13.439224883Z",
+  "last_updated": "2026-06-23T11:51:57.423450381Z",
   "total_count": 100
 }
