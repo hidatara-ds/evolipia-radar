@@ -1068,6 +1068,20 @@
       ]
     },
     {
+      "id": "fd3cdb09-40e2-4159-aa6e-095553fceef2",
+      "title": "Show HN: A pure ARM64 Assembly web server, now on Linux with CGI for no reason",
+      "url": "https://github.com/imtomt/ymawky/tree/linux",
+      "domain": "github.com",
+      "published_at": "2026-06-23T04:28:14Z",
+      "category": "tech",
+      "score": 0.2558201949014081,
+      "tldr": "Show HN: A pure ARM64 Assembly web server, now on Linux with CGI for no reason",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "aa7a6a46-c211-42bd-a170-d33aaf2f27fb",
       "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
       "url": "https://simonwillison.net/2026/Jun/17/glm-52",
@@ -1363,6 +1377,20 @@
       ]
     },
     {
+      "id": "83da17e4-8a4b-4407-9c5a-98f691720a6d",
+      "title": "How sad should I be about ChatGPT? (2022)",
+      "url": "https://robertheaton.com/chatgpt",
+      "domain": "robertheaton.com",
+      "published_at": "2026-06-23T07:52:03Z",
+      "category": "tech",
+      "score": 0.251434858568476,
+      "tldr": "How sad should I be about ChatGPT?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "ee309701-baf1-40fa-b039-ce753954e674",
       "title": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
       "url": "https://github.com/mupt-ai/relaymux",
@@ -1375,36 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
-      "title": "Jonathan Blow on why LLMs cannot program [video]",
-      "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
-      "domain": "youtube.com",
-      "published_at": "2026-06-21T21:36:28Z",
-      "category": "tech",
-      "score": 0.2512528846144636,
-      "tldr": "Jonathan Blow on why LLMs cannot program [video]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c0e34c3c-7f79-40e6-9070-0d62d52d4b14",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "domain": "openai.com",
-      "published_at": "2026-06-22T18:50:36Z",
-      "category": "tech",
-      "score": 0.25123928801717466,
-      "tldr": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-23T05:37:29.193482768Z",
+  "last_updated": "2026-06-23T08:56:13.439224883Z",
   "total_count": 100
 }
