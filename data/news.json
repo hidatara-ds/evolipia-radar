@@ -256,6 +256,20 @@
       ]
     },
     {
+      "id": "7ff722cd-0b37-44a9-a1b7-b15ee23c98fc",
+      "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+      "url": "https://github.com/End2End-Diffusion/diffusion-bench",
+      "domain": "github.com",
+      "published_at": "2026-06-24T02:12:31Z",
+      "category": "tech",
+      "score": 0.33472973757813734,
+      "tldr": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1c55bf97-197a-4ba9-a498-802c910c2828",
       "title": "Unlimited OCR: One-Shot Long-Horizon Parsing",
       "url": "https://github.com/baidu/Unlimited-OCR",
@@ -719,6 +733,20 @@
       ]
     },
     {
+      "id": "d8e9b084-6801-4252-add7-b8eb09c1f3a9",
+      "title": "Qwen-AgentWorld: Language World Models for General Agents",
+      "url": "https://arxiv.org/abs/2606.24597",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-24T02:21:47Z",
+      "category": "tech",
+      "score": 0.26929852276113947,
+      "tldr": "Qwen-AgentWorld: Language World Models for General Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4256453a-c0a9-4050-8d3d-eda1f18868eb",
       "title": "Using AI to improve a challenging reaction in medicinal chemistry",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
@@ -783,6 +811,20 @@
       "category": "tech",
       "score": 0.26286604242892614,
       "tldr": "Clojure Hosted on Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "550a44af-0115-4cec-a347-a8726346f2c1",
+      "title": "The war on terror primed America for autocracy",
+      "url": "https://www.economist.com/by-invitation/2026/06/02/how-the-war-on-terror-primed-america-for-autocracy",
+      "domain": "economist.com",
+      "published_at": "2026-06-24T02:23:39Z",
+      "category": "tech",
+      "score": 0.2626268548981209,
+      "tldr": "The war on terror primed America for autocracy",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1167,20 +1209,6 @@
       ]
     },
     {
-      "id": "f97d365e-24f5-4e60-a63d-51f4dfdab44d",
-      "title": "Semiclassical Gravity Efficiently Solves NP-Complete Problems",
-      "url": "https://arxiv.org/abs/2606.14806",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-17T03:25:51Z",
-      "category": "tech",
-      "score": 0.2526849004443755,
-      "tldr": "Semiclassical Gravity Efficiently Solves NP-Complete Problems",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d84b807d-e853-4355-a7f2-db077f205152",
       "title": "Show HN: Local personal data redaction for any AI tools",
       "url": "https://github.com/sophia486/pii-gui",
@@ -1308,6 +1336,20 @@
       ]
     },
     {
+      "id": "b54d1684-e652-4156-8797-8be73a2075e3",
+      "title": "Advanced Nintendo Entertainment System (ANES) – NES Modded to Use 2 PPUs",
+      "url": "https://github.com/decrazyo/anes",
+      "domain": "github.com",
+      "published_at": "2026-06-23T23:21:35Z",
+      "category": "tech",
+      "score": 0.2518892629787147,
+      "tldr": "Advanced Nintendo Entertainment System (ANES) – NES Modded to Use 2 PPUs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d6fab907-4019-4f99-84a7-fc18be68c277",
       "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
       "url": "https://arrowtsx.dev/bigger-models",
@@ -1362,50 +1404,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "ee309701-baf1-40fa-b039-ce753954e674",
-      "title": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
-      "url": "https://github.com/mupt-ai/relaymux",
-      "domain": "github.com",
-      "published_at": "2026-06-17T17:27:58Z",
-      "category": "tech",
-      "score": 0.251428981226504,
-      "tldr": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
-      "title": "Jonathan Blow on why LLMs cannot program [video]",
-      "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
-      "domain": "youtube.com",
-      "published_at": "2026-06-21T21:36:28Z",
-      "category": "tech",
-      "score": 0.2512528846144636,
-      "tldr": "Jonathan Blow on why LLMs cannot program [video]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c0e34c3c-7f79-40e6-9070-0d62d52d4b14",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "domain": "openai.com",
-      "published_at": "2026-06-22T18:50:36Z",
-      "category": "tech",
-      "score": 0.25123928801717466,
-      "tldr": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-24T02:04:16.853031743Z",
+  "last_updated": "2026-06-24T06:28:18.703398164Z",
   "total_count": 100
 }
