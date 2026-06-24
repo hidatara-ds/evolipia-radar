@@ -328,6 +328,20 @@
       ]
     },
     {
+      "id": "bee16af0-e533-48e1-b1bc-9462bf95aec3",
+      "title": "Zero-Downtime Deployments with Docker Compose – No Kubernetes Required",
+      "url": "https://statusdude.com/blog/zero-downtime-docker-compose",
+      "domain": "statusdude.com",
+      "published_at": "2026-06-24T20:20:33Z",
+      "category": "tech",
+      "score": 0.31342918995931923,
+      "tldr": "Zero-Downtime Deployments with Docker Compose – No Kubernetes Required",
+      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
+      "tags": [
+        "mlops"
+      ]
+    },
+    {
       "id": "0eab04d7-20a9-4459-a545-68b646bf649c",
       "title": "Prefer duplication over the wrong abstraction (2016)",
       "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
@@ -1393,22 +1407,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
-      "title": "Jonathan Blow on why LLMs cannot program [video]",
-      "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
-      "domain": "youtube.com",
-      "published_at": "2026-06-21T21:36:28Z",
-      "category": "tech",
-      "score": 0.2512528846144636,
-      "tldr": "Jonathan Blow on why LLMs cannot program [video]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-24T19:08:26.21189857Z",
+  "last_updated": "2026-06-24T21:07:22.755730146Z",
   "total_count": 100
 }
