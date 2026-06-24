@@ -58,6 +58,20 @@
       ]
     },
     {
+      "id": "91791160-b8f0-4183-97ca-67a174b5c97e",
+      "title": "We’re making Bunny DNS free",
+      "url": "https://bunny.net/blog/were-making-bunny-dns-free",
+      "domain": "bunny.net",
+      "published_at": "2026-06-24T08:50:41Z",
+      "category": "tech",
+      "score": 0.4503743767104635,
+      "tldr": "We’re making Bunny DNS free",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3db381b0-afed-41a2-826f-06854cfbc4d8",
       "title": "What we call \"age verification\" is actually mass surveillance",
       "url": "https://pluralistic.net/2026/06/23/destroy-the-village",
@@ -97,6 +111,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "89fdbb4a-b179-49f1-b61b-af9d5f21205c",
+      "title": "RubyLLM: A Ruby framework for all major AI providers",
+      "url": "https://rubyllm.com/",
+      "domain": "rubyllm.com",
+      "published_at": "2026-06-24T14:41:41Z",
+      "category": "tech",
+      "score": 0.38012944705806784,
+      "tldr": "RubyLLM: A Ruby framework for all major AI providers",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
       ]
     },
     {
@@ -427,6 +456,20 @@
       ]
     },
     {
+      "id": "22259a54-16c4-4240-b5d0-264cb96c079e",
+      "title": "John Carmack on the mistakes around Quake that ruined id software",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
+      "domain": "twitter.com",
+      "published_at": "2026-06-24T15:56:19Z",
+      "category": "tech",
+      "score": 0.29427308147878145,
+      "tldr": "John Carmack on the mistakes around Quake that ruined id software",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4e8de9c5-5026-4e63-ac1b-66427a5bfdfa",
       "title": "Show HN: Recall – Local project memory for Claude Code",
       "url": "https://github.com/raiyanyahya/recall",
@@ -623,20 +666,6 @@
       ]
     },
     {
-      "id": "fd88f526-2d0f-449f-aefe-61e3ac03d5b7",
-      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
-      "url": "https://github.com/Adam-CAD/CADAM",
-      "domain": "github.com",
-      "published_at": "2026-06-17T16:14:04Z",
-      "category": "tech",
-      "score": 0.27697095897993684,
-      "tldr": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b89fae2c-784a-4ec1-afcc-710e4fae41e1",
       "title": "Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
       "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
@@ -645,20 +674,6 @@
       "category": "tech",
       "score": 0.2766061438785274,
       "tldr": "Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "84afa383-c7f8-4d78-a822-c964f390036c",
-      "title": "Agentic coding deserves more than a chat box bolted onto VS Code",
-      "url": "https://github.com/evanklem/polypore",
-      "domain": "github.com",
-      "published_at": "2026-06-17T15:26:29Z",
-      "category": "tech",
-      "score": 0.27381053074908224,
-      "tldr": "Agentic coding deserves more than a chat box bolted onto VS Code",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1226,20 +1241,6 @@
       ]
     },
     {
-      "id": "9da0694b-40fa-4b90-b660-98f4e23e2599",
-      "title": "ChatGPT Is Down",
-      "url": "https://chatgpt.com",
-      "domain": "chatgpt.com",
-      "published_at": "2026-06-17T17:17:44Z",
-      "category": "tech",
-      "score": 0.25236477123704104,
-      "tldr": "ChatGPT Is Down",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "2114a81e-13a5-4fbc-bc96-051cfaacaca8",
       "title": "Loupe – A iOS app that raises awareness about what native apps can see",
       "url": "https://github.com/mysk-research/loupe",
@@ -1408,6 +1409,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-24T15:16:10.475700072Z",
+  "last_updated": "2026-06-24T17:25:14.350307035Z",
   "total_count": 100
 }
