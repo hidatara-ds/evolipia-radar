@@ -216,6 +216,20 @@
       ]
     },
     {
+      "id": "e4199a49-1627-4de4-a9b6-42ff5b1b99e4",
+      "title": "There are a few things that I look back on as my mistakes in the early days",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
+      "domain": "twitter.com",
+      "published_at": "2026-06-24T15:56:19Z",
+      "category": "tech",
+      "score": 0.36184235761616557,
+      "tldr": "There are a few things that I look back on as my mistakes in the early days",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "94f266da-1fb9-44c6-ba21-d9247f5bffd5",
       "title": "Mistral OCR 4",
       "url": "https://mistral.ai/news/ocr-4",
@@ -666,6 +680,20 @@
       ]
     },
     {
+      "id": "2d15519c-48e0-49d5-bf3e-e107b16d8f31",
+      "title": "Computer use in Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
+      "domain": "blog.google",
+      "published_at": "2026-06-24T17:21:34Z",
+      "category": "tech",
+      "score": 0.27687032337265705,
+      "tldr": "Computer use in Gemini 3.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b89fae2c-784a-4ec1-afcc-710e4fae41e1",
       "title": "Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
       "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
@@ -736,14 +764,14 @@
       ]
     },
     {
-      "id": "4256453a-c0a9-4050-8d3d-eda1f18868eb",
-      "title": "Using AI to improve a challenging reaction in medicinal chemistry",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "domain": "openai.com",
-      "published_at": "2026-06-17T17:34:20Z",
+      "id": "42655b03-0057-4f45-b95e-a9a7e03444e9",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom",
+      "domain": "techcrunch.com",
+      "published_at": "2026-06-24T17:47:00Z",
       "category": "tech",
-      "score": 0.26834362758420793,
-      "tldr": "Using AI to improve a challenging reaction in medicinal chemistry",
+      "score": 0.268742145990876,
+      "tldr": "OpenAI unveils its first custom chip, built by Broadcom",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1170,20 +1198,6 @@
       ]
     },
     {
-      "id": "9e667277-f266-41bd-bf61-9af1b7b622da",
-      "title": "AI chemist improves a challenging reaction in medicinal chemistry",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "domain": "openai.com",
-      "published_at": "2026-06-17T17:34:20Z",
-      "category": "tech",
-      "score": 0.25354108709593987,
-      "tldr": "AI chemist improves a challenging reaction in medicinal chemistry",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "faa7f136-7906-4926-bc6e-266738e27166",
       "title": "Show HN: Tiny – An interpeted dynamic langauge with inline Go native functions",
       "url": "https://github.com/confh/Tiny",
@@ -1381,20 +1395,6 @@
       ]
     },
     {
-      "id": "ee309701-baf1-40fa-b039-ce753954e674",
-      "title": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
-      "url": "https://github.com/mupt-ai/relaymux",
-      "domain": "github.com",
-      "published_at": "2026-06-17T17:27:58Z",
-      "category": "tech",
-      "score": 0.251428981226504,
-      "tldr": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
       "title": "Jonathan Blow on why LLMs cannot program [video]",
       "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
@@ -1409,6 +1409,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-24T17:25:14.350307035Z",
+  "last_updated": "2026-06-24T19:08:26.21189857Z",
   "total_count": 100
 }
