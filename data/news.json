@@ -607,20 +607,6 @@
       ]
     },
     {
-      "id": "edc7b0b0-dbca-4952-85d7-89105658467b",
-      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
-      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-      "domain": "artificialanalysis.ai",
-      "published_at": "2026-06-17T09:12:00Z",
-      "category": "tech",
-      "score": 0.2825534924588273,
-      "tldr": "2 is the new leading open weights model on Artificial Analysis",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f0347275-c811-4753-85a9-4dfa9d6bc946",
       "title": "Hospitals and universities repurposing drugs at lower cost",
       "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
@@ -1322,20 +1308,6 @@
       ]
     },
     {
-      "id": "dbab50b2-8233-4f46-9874-837ffee56af9",
-      "title": "Hacker News but for Independent Blogs",
-      "url": "https://bubbles.town/",
-      "domain": "bubbles.town",
-      "published_at": "2026-06-17T07:49:44Z",
-      "category": "tech",
-      "score": 0.2519139015388686,
-      "tldr": "Hacker News but for Independent Blogs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b54d1684-e652-4156-8797-8be73a2075e3",
       "title": "Advanced Nintendo Entertainment System (ANES) – NES Modded to Use 2 PPUs",
       "url": "https://github.com/decrazyo/anes",
@@ -1404,8 +1376,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "ee309701-baf1-40fa-b039-ce753954e674",
+      "title": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
+      "url": "https://github.com/mupt-ai/relaymux",
+      "domain": "github.com",
+      "published_at": "2026-06-17T17:27:58Z",
+      "category": "tech",
+      "score": 0.251428981226504,
+      "tldr": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
+      "title": "Jonathan Blow on why LLMs cannot program [video]",
+      "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
+      "domain": "youtube.com",
+      "published_at": "2026-06-21T21:36:28Z",
+      "category": "tech",
+      "score": 0.2512528846144636,
+      "tldr": "Jonathan Blow on why LLMs cannot program [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-24T06:28:18.703398164Z",
+  "last_updated": "2026-06-24T09:55:56.896577218Z",
   "total_count": 100
 }
