@@ -848,20 +848,6 @@
       ]
     },
     {
-      "id": "5c9ef2a1-7778-4346-b233-a8b67b595a63",
-      "title": "Clojure Hosted on Go",
-      "url": "https://github.com/glojurelang/glojure",
-      "domain": "github.com",
-      "published_at": "2026-06-17T23:14:49Z",
-      "category": "tech",
-      "score": 0.26286604242892614,
-      "tldr": "Clojure Hosted on Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "550a44af-0115-4cec-a347-a8726346f2c1",
       "title": "The war on terror primed America for autocracy",
       "url": "https://www.economist.com/by-invitation/2026/06/02/how-the-war-on-terror-primed-america-for-autocracy",
@@ -1407,8 +1393,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
+      "title": "Jonathan Blow on why LLMs cannot program [video]",
+      "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
+      "domain": "youtube.com",
+      "published_at": "2026-06-21T21:36:28Z",
+      "category": "tech",
+      "score": 0.2512528846144636,
+      "tldr": "Jonathan Blow on why LLMs cannot program [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-24T22:47:51.23861336Z",
+  "last_updated": "2026-06-24T23:57:29.988577278Z",
   "total_count": 100
 }
