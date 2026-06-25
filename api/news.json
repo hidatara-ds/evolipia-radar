@@ -455,6 +455,21 @@
       ]
     },
     {
+      "id": "90d1a801-45cc-44cf-97d1-b86f0ff2d326",
+      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+      "domain": "theverge.com",
+      "published_at": "2026-06-25T22:49:33Z",
+      "category": "tech",
+      "score": 0.30533137085325124,
+      "tldr": "OpenAI will delay GPT-5. 6 after Trump administration request",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "dcb1fc66-b2b4-45d1-be0b-f4192cc10085",
       "title": "GLM-5.2 – How to Run Locally",
       "url": "https://unsloth.ai/docs/models/glm-5.2",
@@ -562,6 +577,20 @@
       "category": "tech",
       "score": 0.2906748493627346,
       "tldr": "VibeThinker: 3B param model that beats Opus 4. 5 on reasoning with novel SFT+GRPO",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f53f1da5-8310-45ae-a8df-77e821a4d8b4",
+      "title": "Om Malik has died",
+      "url": "https://om.co/2026/06/24/1966-2026",
+      "domain": "om.co",
+      "published_at": "2026-06-25T20:33:37Z",
+      "category": "tech",
+      "score": 0.29064204716180053,
+      "tldr": "Om Malik has died",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -747,6 +776,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "bba28b6c-95cd-4cb5-9122-dbbfe9615e2c",
+      "title": "The 'papers, please' era of the internet will decimate your privacy",
+      "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
+      "domain": "expression.fire.org",
+      "published_at": "2026-06-25T21:44:55Z",
+      "category": "tech",
+      "score": 0.2724650400066447,
+      "tldr": "The 'papers, please' era of the internet will decimate your privacy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security"
       ]
     },
     {
@@ -1338,20 +1381,6 @@
       ]
     },
     {
-      "id": "47a6fbd7-bc67-48a4-ad4b-9cca703da4b1",
-      "title": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
-      "url": "https://github.com/spronta/crawlie",
-      "domain": "github.com",
-      "published_at": "2026-06-18T22:54:21Z",
-      "category": "tech",
-      "score": 0.25167412691780067,
-      "tldr": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5e999509-ef2e-4de0-a67e-1d21318c4e21",
       "title": "Modal Auto Endpoints: Optimized inference you own",
       "url": "https://modal.com/blog/introducing-auto-endpoints",
@@ -1378,36 +1407,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "c909d511-dd72-487b-b874-a867254f81b9",
-      "title": "What I'm Finding About LLM Code Style and Token Costs",
-      "url": "https://www.jimmont.com/llm-style-token-costs",
-      "domain": "jimmont.com",
-      "published_at": "2026-06-25T00:52:40Z",
-      "category": "tech",
-      "score": 0.251254919206605,
-      "tldr": "What I'm Finding About LLM Code Style and Token Costs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1703ea06-5e47-4891-a240-fd25bd3b2c43",
-      "title": "Jonathan Blow on why LLMs cannot program [video]",
-      "url": "https://www.youtube.com/watch?v=DdjUDpU-as0",
-      "domain": "youtube.com",
-      "published_at": "2026-06-21T21:36:28Z",
-      "category": "tech",
-      "score": 0.2512528846144636,
-      "tldr": "Jonathan Blow on why LLMs cannot program [video]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-25T22:03:33.409371236Z",
+  "last_updated": "2026-06-25T23:50:01.978875547Z",
   "total_count": 100
 }
