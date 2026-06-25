@@ -638,20 +638,6 @@
       ]
     },
     {
-      "id": "f0347275-c811-4753-85a9-4dfa9d6bc946",
-      "title": "Hospitals and universities repurposing drugs at lower cost",
-      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
-      "domain": "kcl.ac.uk",
-      "published_at": "2026-06-18T10:33:22Z",
-      "category": "tech",
-      "score": 0.2805457806498608,
-      "tldr": "Hospitals and universities repurposing drugs at lower cost",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9b4013d1-8b06-420c-bf1e-e5ab5158356c",
       "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
       "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
@@ -663,20 +649,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "4c9a286c-fa8a-40e1-8ea2-bc9eba651bfa",
-      "title": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
-      "url": "https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows",
-      "domain": "windowslatest.com",
-      "published_at": "2026-06-18T12:19:05Z",
-      "category": "tech",
-      "score": 0.2777427151383177,
-      "tldr": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -862,20 +834,6 @@
       ]
     },
     {
-      "id": "fa92d465-d0d5-446c-b257-f763a38abf72",
-      "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
-      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided",
-      "domain": "cs.cornell.edu",
-      "published_at": "2026-06-18T11:04:31Z",
-      "category": "tech",
-      "score": 0.26127723575720435,
-      "tldr": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d7e7093a-640e-4267-a937-7c7110925a60",
       "title": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
       "url": "https://github.com/overflowy/make-look-scanned",
@@ -898,20 +856,6 @@
       "category": "tech",
       "score": 0.25908259086703467,
       "tldr": "I built Ponytrail, a local audit trail for AI coding-agent edits",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "aa9b4a76-5895-4439-b02b-22634fba1d94",
-      "title": "Emacs 31 Is Around the Corner: The Changes I'm Daily Driving",
-      "url": "https://www.rahuljuliato.com/posts/emacs-31-around-the-corner",
-      "domain": "rahuljuliato.com",
-      "published_at": "2026-06-18T12:10:53Z",
-      "category": "tech",
-      "score": 0.25884374822512235,
-      "tldr": "Emacs 31 Is Around the Corner: The Changes I'm Daily Driving",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1350,64 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "c0e34c3c-7f79-40e6-9070-0d62d52d4b14",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "domain": "openai.com",
+      "published_at": "2026-06-22T18:50:36Z",
+      "category": "tech",
+      "score": 0.25123928801717466,
+      "tldr": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "243ade9b-9ae0-4b69-92f4-d7cd9b13eae6",
+      "title": "What was nice about the UI of Windows 2000",
+      "url": "https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html",
+      "domain": "movq.de",
+      "published_at": "2026-06-18T14:45:43Z",
+      "category": "tech",
+      "score": 0.2512233780184724,
+      "tldr": "What was nice about the UI of Windows 2000",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "01e62da8-7c05-470d-83c2-0690b9f1bafb",
+      "title": "Show HN: DebugBrief – turn debugging sessions into reports, no AI",
+      "url": "https://github.com/harihkk/Debug-Brief",
+      "domain": "github.com",
+      "published_at": "2026-06-21T19:57:54Z",
+      "category": "tech",
+      "score": 0.2511911458952304,
+      "tldr": "Show HN: DebugBrief – turn debugging sessions into reports, no AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "10522090-78a8-4c1d-8f6f-7948258f73d1",
+      "title": "GPT-5 writing a Singularity scenario (2025)",
+      "url": "https://www.lesswrong.com/posts/dT3StLjeJG7ordQGm/gpt-5-writing-a-singularity-scenario",
+      "domain": "lesswrong.com",
+      "published_at": "2026-06-18T17:11:47Z",
+      "category": "tech",
+      "score": 0.2511109519354856,
+      "tldr": "GPT-5 writing a Singularity scenario (2025)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-25T10:02:25.67183866Z",
+  "last_updated": "2026-06-25T12:36:18.636040317Z",
   "total_count": 100
 }
