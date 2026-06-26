@@ -230,6 +230,20 @@
       ]
     },
     {
+      "id": "cc6482fd-3a51-445a-94a0-b2a5e6dce872",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+      "domain": "washingtonpost.com",
+      "published_at": "2026-06-26T18:23:14Z",
+      "category": "tech",
+      "score": 0.36715031624841493,
+      "tldr": "government will decide who gets to use GPT-5.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "4c761855-2a74-45f2-a93a-a0d101556c7d",
       "title": "Pledging Another $400k to the Zig Software Foundation",
       "url": "https://mitchellh.com/writing/zig-donation-2026",
@@ -337,20 +351,6 @@
       "category": "tech",
       "score": 0.32567919033199355,
       "tldr": "Show HN: Crespo – Tree-sitter AST blueprints instead of raw code for LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "59b1b9b7-5dd6-49e4-8b4d-01ebe35ec974",
-      "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
-      "url": "https://github.com/JustVugg/nanoeuler",
-      "domain": "github.com",
-      "published_at": "2026-06-19T18:18:35Z",
-      "category": "tech",
-      "score": 0.323655434696329,
-      "tldr": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -581,6 +581,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "0f78433d-78ea-4bf6-bdae-fd04bd926dc1",
+      "title": "US Govt to individually approve who gets GPT 5.6",
+      "url": "https://old.reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56",
+      "domain": "old.reddit.com",
+      "published_at": "2026-06-26T06:24:39Z",
+      "category": "tech",
+      "score": 0.2918724938116011,
+      "tldr": "US Govt to individually approve who gets GPT 5.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "dd90b954-9c99-438a-bb60-8230bc632189",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "domain": "openai.com",
-      "published_at": "2026-06-22T17:14:38Z",
-      "category": "tech",
-      "score": 0.2521401399117929,
-      "tldr": "Daybreak: Tools for securing every organization in the world",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-26T17:13:26.296344187Z",
+  "last_updated": "2026-06-26T19:13:59.436384771Z",
   "total_count": 100
 }
