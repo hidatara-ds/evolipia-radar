@@ -1241,6 +1241,20 @@
       ]
     },
     {
+      "id": "00bc693d-83ec-4fdb-9145-2f3526100f42",
+      "title": "As SuperAgers age, they make at least twice as many new neurons as their peers",
+      "url": "https://news.northwestern.edu/stories/2026/02/as-superagers-age-they-make-at-least-twice-as-many-new-neurons-as-their-peers",
+      "domain": "news.northwestern.edu",
+      "published_at": "2026-06-26T01:02:50Z",
+      "category": "tech",
+      "score": 0.25293940565263956,
+      "tldr": "As SuperAgers age, they make at least twice as many new neurons as their peers",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "242303ad-f9bd-47b4-a63d-56bcfb4ac4ca",
       "title": "Self-Harness: Harnesses That Improve Themselves",
       "url": "https://arxiv.org/abs/2606.09498",
@@ -1393,22 +1407,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "83da17e4-8a4b-4407-9c5a-98f691720a6d",
-      "title": "How sad should I be about ChatGPT? (2022)",
-      "url": "https://robertheaton.com/chatgpt",
-      "domain": "robertheaton.com",
-      "published_at": "2026-06-23T07:52:03Z",
-      "category": "tech",
-      "score": 0.251434858568476,
-      "tldr": "How sad should I be about ChatGPT?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-25T23:50:01.978875547Z",
+  "last_updated": "2026-06-26T02:07:30.027798729Z",
   "total_count": 100
 }
