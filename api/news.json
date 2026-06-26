@@ -794,6 +794,20 @@
       ]
     },
     {
+      "id": "bffa757b-7d15-4ad0-9e66-956ecce57d59",
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "domain": "blog.doubleword.ai",
+      "published_at": "2026-06-26T21:14:47Z",
+      "category": "tech",
+      "score": 0.2790765017387763,
+      "tldr": "The gap between open weights LLMs and closed source LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2d15519c-48e0-49d5-bf3e-e107b16d8f31",
       "title": "Computer use in Gemini 3.5 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
@@ -1012,6 +1026,20 @@
       "category": "tech",
       "score": 0.2617281158154079,
       "tldr": "Ember, a native iOS Hacker News reader I built around accessibility",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1ff15832-b58b-4c91-acee-c7f6189502eb",
+      "title": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
+      "url": "https://github.com/Tessil/hopscotch-map",
+      "domain": "github.com",
+      "published_at": "2026-06-26T21:18:28Z",
+      "category": "tech",
+      "score": 0.26096084245688905,
+      "tldr": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1380,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "242303ad-f9bd-47b4-a63d-56bcfb4ac4ca",
-      "title": "Self-Harness: Harnesses That Improve Themselves",
-      "url": "https://arxiv.org/abs/2606.09498",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-22T19:45:05Z",
-      "category": "tech",
-      "score": 0.2523727395278456,
-      "tldr": "Self-Harness: Harnesses That Improve Themselves",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2114a81e-13a5-4fbc-bc96-051cfaacaca8",
-      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
-      "url": "https://github.com/mysk-research/loupe",
-      "domain": "github.com",
-      "published_at": "2026-06-20T12:08:23Z",
-      "category": "tech",
-      "score": 0.25231466457998364,
-      "tldr": "Loupe – A iOS app that raises awareness about what native apps can see",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-26T21:02:51.449121732Z",
+  "last_updated": "2026-06-26T22:41:14.681914472Z",
   "total_count": 100
 }
