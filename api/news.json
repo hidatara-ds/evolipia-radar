@@ -258,6 +258,21 @@
       ]
     },
     {
+      "id": "2c0a74d3-d09b-48cf-86e6-b9bb8618dfa9",
+      "title": "Why current LLM costs are not sustainable",
+      "url": "https://aditya.patadia.org/p/ai-and-cloud-costs",
+      "domain": "aditya.patadia.org",
+      "published_at": "2026-06-26T07:44:11Z",
+      "category": "tech",
+      "score": 0.36096425178358327,
+      "tldr": "Why current LLM costs are not sustainable",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "94f266da-1fb9-44c6-ba21-d9247f5bffd5",
       "title": "Mistral OCR 4",
       "url": "https://mistral.ai/news/ocr-4",
@@ -1393,22 +1408,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "5e999509-ef2e-4de0-a67e-1d21318c4e21",
-      "title": "Modal Auto Endpoints: Optimized inference you own",
-      "url": "https://modal.com/blog/introducing-auto-endpoints",
-      "domain": "modal.com",
-      "published_at": "2026-06-23T18:35:50Z",
-      "category": "tech",
-      "score": 0.25162988479675685,
-      "tldr": "Modal Auto Endpoints: Optimized inference you own",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-26T06:33:54.835513407Z",
+  "last_updated": "2026-06-26T10:13:08.908908336Z",
   "total_count": 100
 }
