@@ -892,6 +892,20 @@
       ]
     },
     {
+      "id": "f78ef354-6e43-43ce-8eec-fe2a97ec642a",
+      "title": "Captcha proves you're human. HATCHA proves you're not",
+      "url": "https://github.com/mondaycom/HATCHA",
+      "domain": "github.com",
+      "published_at": "2026-06-26T12:06:17Z",
+      "category": "tech",
+      "score": 0.26713550096694116,
+      "tldr": "Captcha proves you're human. HATCHA proves you're not",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "af7536b6-50d0-4e83-a902-3b543599cb88",
       "title": "Show HN: Bun-sqlgen – Type-safe raw SQL for Bun, no ORM",
       "url": "https://github.com/ilbertt/bun-sqlgen",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d6fab907-4019-4f99-84a7-fc18be68c277",
-      "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
-      "url": "https://arrowtsx.dev/bigger-models",
-      "domain": "arrowtsx.dev",
-      "published_at": "2026-06-19T16:11:25Z",
-      "category": "tech",
-      "score": 0.2517079617510477,
-      "tldr": "5 hallucinates 3x more than MIT-licensed GLM-5.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-26T10:13:08.908908336Z",
+  "last_updated": "2026-06-26T12:29:39.374755778Z",
   "total_count": 100
 }
