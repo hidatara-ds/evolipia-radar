@@ -1103,6 +1103,20 @@
       ]
     },
     {
+      "id": "4d081edc-e74d-45ea-a32f-748c74777043",
+      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+      "url": "https://github.com/bikini/exploitarium",
+      "domain": "github.com",
+      "published_at": "2026-06-27T14:31:00Z",
+      "category": "tech",
+      "score": 0.2599548256787749,
+      "tldr": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d7e7093a-640e-4267-a937-7c7110925a60",
       "title": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
       "url": "https://github.com/overflowy/make-look-scanned",
@@ -1237,20 +1251,6 @@
       "category": "tech",
       "score": 0.256883406952094,
       "tldr": "Show HN: Shumai – open-source Frame. io alternative for creative work",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "aabd2933-d2cc-4ce9-be37-39b4edf6bea6",
-      "title": "Cargo-Geiger",
-      "url": "https://github.com/geiger-rs/cargo-geiger",
-      "domain": "github.com",
-      "published_at": "2026-06-20T14:52:59Z",
-      "category": "tech",
-      "score": 0.2568066465448528,
-      "tldr": "Cargo-Geiger",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-27T14:23:18.965380303Z",
+  "last_updated": "2026-06-27T15:45:55.102271126Z",
   "total_count": 100
 }
