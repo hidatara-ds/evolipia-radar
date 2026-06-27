@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "82b3be48-5d72-4fb0-9f37-e969530591b0",
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "domain": "github.com",
+      "published_at": "2026-06-27T09:18:52Z",
+      "category": "tech",
+      "score": 0.6460646290509207,
+      "tldr": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b7ff09ca-d9c2-405a-bf66-d37821c00820",
       "title": "Steam Machine",
       "url": "https://store.steampowered.com/hardware/steammachine",
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "322d0056-de3d-4755-8f4d-b9361cc7e55c",
-      "title": "Stop wasting tokens and re explaining your project between sessions",
-      "url": "https://github.com/raiyanyahya/recall",
-      "domain": "github.com",
-      "published_at": "2026-06-21T21:05:37Z",
-      "category": "tech",
-      "score": 0.25326696710487073,
-      "tldr": "Stop wasting tokens and re explaining your project between sessions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-27T12:49:13.808566455Z",
+  "last_updated": "2026-06-27T14:23:18.965380303Z",
   "total_count": 100
 }
