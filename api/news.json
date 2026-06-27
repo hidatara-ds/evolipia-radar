@@ -258,6 +258,21 @@
       ]
     },
     {
+      "id": "7d1a2766-b53f-49d2-849c-967a55a378db",
+      "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
+      "url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol",
+      "domain": "metr.org",
+      "published_at": "2026-06-26T19:12:20Z",
+      "category": "tech",
+      "score": 0.3631503014050209,
+      "tldr": "Summary of METR's predeployment evaluation of GPT-5.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "mlops"
+      ]
+    },
+    {
       "id": "e4199a49-1627-4de4-a9b6-42ff5b1b99e4",
       "title": "There are a few things that I look back on as my mistakes in the early days",
       "url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
@@ -1394,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8201277b-b138-42a9-8b7d-10baad4572c5",
-      "title": "Murmur: Shared communication bus for your coding agents",
-      "url": "https://github.com/instavm/murmur",
-      "domain": "github.com",
-      "published_at": "2026-06-26T18:20:42Z",
-      "category": "tech",
-      "score": 0.252396141994876,
-      "tldr": "Murmur: Shared communication bus for your coding agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-26T23:53:51.677033245Z",
+  "last_updated": "2026-06-27T02:02:23.500829347Z",
   "total_count": 100
 }
