@@ -399,6 +399,20 @@
       ]
     },
     {
+      "id": "6066b69d-cbe3-445c-8685-aa379c101646",
+      "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "url": "https://github.com/kamaludu/bash4llm",
+      "domain": "github.com",
+      "published_at": "2026-06-28T19:43:10Z",
+      "category": "tech",
+      "score": 0.3312694060853785,
+      "tldr": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1c55bf97-197a-4ba9-a498-802c910c2828",
       "title": "Unlimited OCR: One-Shot Long-Horizon Parsing",
       "url": "https://github.com/baidu/Unlimited-OCR",
@@ -407,6 +421,20 @@
       "category": "tech",
       "score": 0.32813546413373385,
       "tldr": "Unlimited OCR: One-Shot Long-Horizon Parsing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "46227b48-ba0d-43ce-9d94-325f6756fa83",
+      "title": "Librepods: AirPods liberated",
+      "url": "https://github.com/librepods-org/librepods",
+      "domain": "github.com",
+      "published_at": "2026-06-28T18:48:53Z",
+      "category": "tech",
+      "score": 0.32732763543442217,
+      "tldr": "Librepods: AirPods liberated",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -635,20 +663,6 @@
       "category": "tech",
       "score": 0.29427308147878145,
       "tldr": "John Carmack on the mistakes around Quake that ruined id software",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4e8de9c5-5026-4e63-ac1b-66427a5bfdfa",
-      "title": "Show HN: Recall – Local project memory for Claude Code",
-      "url": "https://github.com/raiyanyahya/recall",
-      "domain": "github.com",
-      "published_at": "2026-06-21T21:05:37Z",
-      "category": "tech",
-      "score": 0.29410303030842155,
-      "tldr": "Show HN: Recall – Local project memory for Claude Code",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "db7f9336-5e80-42ea-947f-67973b85e598",
-      "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
-      "url": "https://github.com/kyle-ssg/kyde",
-      "domain": "github.com",
-      "published_at": "2026-06-22T12:44:17Z",
-      "category": "tech",
-      "score": 0.25459946379035814,
-      "tldr": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-28T20:15:01.683738358Z",
+  "last_updated": "2026-06-28T21:35:31.174341943Z",
   "total_count": 100
 }
