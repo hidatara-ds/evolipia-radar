@@ -851,20 +851,6 @@
       ]
     },
     {
-      "id": "9b4013d1-8b06-420c-bf1e-e5ab5158356c",
-      "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
-      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-      "domain": "teachmecoolstuff.com",
-      "published_at": "2026-06-21T22:55:23Z",
-      "category": "tech",
-      "score": 0.2799480791132399,
-      "tldr": "Good results fine tuning a local LLM like Qwen 3:0. 6B to categorize questions",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "bffa757b-7d15-4ad0-9e66-956ecce57d59",
       "title": "The gap between open weights LLMs and closed source LLMs",
       "url": "https://blog.doubleword.ai/frontier-os-llm",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8bdf7eb2-a18c-45a5-a0f2-86cf8802ffa3",
+      "title": "Rive, Fast and reliable background jobs in Go",
+      "url": "https://github.com/riverqueue/river",
+      "domain": "github.com",
+      "published_at": "2026-06-22T10:37:13Z",
+      "category": "tech",
+      "score": 0.25457724799134357,
+      "tldr": "Rive, Fast and reliable background jobs in Go",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-28T22:53:34.918577338Z",
+  "last_updated": "2026-06-28T23:59:03.909460871Z",
   "total_count": 100
 }
