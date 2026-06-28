@@ -1117,6 +1117,20 @@
       ]
     },
     {
+      "id": "f66031b8-ab4b-418a-95ed-ef5bbc9ce0fb",
+      "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+      "domain": "oldvcr.blogspot.com",
+      "published_at": "2026-06-28T16:58:59Z",
+      "category": "tech",
+      "score": 0.25934290798258497,
+      "tldr": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4b207290-e7ad-4006-a006-d3cf34f8a7e6",
       "title": "AMD Strix Halo RDMA Cluster Setup Guide",
       "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "967f53c9-bd13-4a00-9b44-7a866e052503",
-      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "url": "https://arxiv.org/abs/2606.22283",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-27T23:30:14Z",
-      "category": "tech",
-      "score": 0.25375776482671947,
-      "tldr": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-28T16:11:43.856398126Z",
+  "last_updated": "2026-06-28T17:42:15.384784252Z",
   "total_count": 100
 }
