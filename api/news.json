@@ -1299,20 +1299,6 @@
       ]
     },
     {
-      "id": "f300a140-a593-4b9d-8c5c-a61e4563f9cd",
-      "title": "I Canceled My French Tutor and Built an LLM Tool That Does It Better",
-      "url": "https://alshe.substack.com/p/i-canceled-my-french-tutor-and-built",
-      "domain": "alshe.substack.com",
-      "published_at": "2026-06-21T22:46:43Z",
-      "category": "tech",
-      "score": 0.25693270882054386,
-      "tldr": "I Canceled My French Tutor and Built an LLM Tool That Does It Better",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "de3f642b-e056-4efb-a127-b830957c4643",
       "title": "Show HN: Shumai – open-source Frame.io alternative for creative work",
       "url": "https://github.com/shumaiOne/shumai",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "db7f9336-5e80-42ea-947f-67973b85e598",
+      "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
+      "url": "https://github.com/kyle-ssg/kyde",
+      "domain": "github.com",
+      "published_at": "2026-06-22T12:44:17Z",
+      "category": "tech",
+      "score": 0.25459946379035814,
+      "tldr": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-28T21:35:31.174341943Z",
+  "last_updated": "2026-06-28T22:53:34.918577338Z",
   "total_count": 100
 }
