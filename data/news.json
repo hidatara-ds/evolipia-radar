@@ -229,21 +229,6 @@
       ]
     },
     {
-      "id": "d01d60f0-b914-4f5f-831e-9e68ecde3b95",
-      "title": "Daily_stock_analysis: LLM-powered multi-market stock analysis system",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "domain": "github.com",
-      "published_at": "2026-06-21T14:10:12Z",
-      "category": "tech",
-      "score": 0.3756643678542375,
-      "tldr": "Daily_stock_analysis: LLM-powered multi-market stock analysis system",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "general_ai"
-      ]
-    },
-    {
       "id": "54e0bc53-00f0-4664-903d-bec017fe36c1",
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
       "url": "https://paolino.me/founding-a-company-in-germany",
@@ -453,6 +438,21 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "df92e397-ca86-44b6-b9c8-d16b40b06fa1",
+      "title": "Google limits Meta's use of its Gemini AI models",
+      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "domain": "cnbc.com",
+      "published_at": "2026-06-28T13:30:06Z",
+      "category": "tech",
+      "score": 0.320276163568526,
+      "tldr": "Google limits Meta's use of its Gemini AI models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm",
+        "general_ai"
       ]
     },
     {
@@ -935,6 +935,20 @@
       ]
     },
     {
+      "id": "e620f41e-897c-496a-a8f7-944e8f9eef4d",
+      "title": "EU Open Sources Ten-Year Network Development Planning Tools",
+      "url": "https://github.com/open-energy-transition/open-tyndp",
+      "domain": "github.com",
+      "published_at": "2026-06-28T14:05:47Z",
+      "category": "tech",
+      "score": 0.2709090065391333,
+      "tldr": "EU Open Sources Ten-Year Network Development Planning Tools",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "33f2a1b9-b36c-447e-97ad-7ca7c1dedc82",
       "title": "Anthropic updates their terms to verify age or identity",
       "url": "https://www.anthropic.com/legal/privacy",
@@ -1139,6 +1153,20 @@
       "category": "tech",
       "score": 0.25908259086703467,
       "tldr": "I built Ponytrail, a local audit trail for AI coding-agent edits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2fd8d5af-68f8-4df6-b218-5758f0fbff38",
+      "title": "The MUMPS 76 Primer – anniversary edition",
+      "url": "https://github.com/rochus-keller/MUMPS/blob/main/docs/MUMPS_Primer.adoc",
+      "domain": "github.com",
+      "published_at": "2026-06-28T12:41:45Z",
+      "category": "tech",
+      "score": 0.2588140346445836,
+      "tldr": "The MUMPS 76 Primer – anniversary edition",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1381,36 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "967f53c9-bd13-4a00-9b44-7a866e052503",
-      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "url": "https://arxiv.org/abs/2606.22283",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-27T23:30:14Z",
-      "category": "tech",
-      "score": 0.25375776482671947,
-      "tldr": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "322d0056-de3d-4755-8f4d-b9361cc7e55c",
-      "title": "Stop wasting tokens and re explaining your project between sessions",
-      "url": "https://github.com/raiyanyahya/recall",
-      "domain": "github.com",
-      "published_at": "2026-06-21T21:05:37Z",
-      "category": "tech",
-      "score": 0.25326696710487073,
-      "tldr": "Stop wasting tokens and re explaining your project between sessions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-28T13:11:44.34156683Z",
+  "last_updated": "2026-06-28T15:00:38.662422759Z",
   "total_count": 100
 }
