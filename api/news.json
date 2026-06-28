@@ -484,20 +484,6 @@
       ]
     },
     {
-      "id": "0eab04d7-20a9-4459-a545-68b646bf649c",
-      "title": "Prefer duplication over the wrong abstraction (2016)",
-      "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
-      "domain": "sandimetz.com",
-      "published_at": "2026-06-21T16:08:23Z",
-      "category": "tech",
-      "score": 0.3115858431887061,
-      "tldr": "Prefer duplication over the wrong abstraction (2016)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "86b3ea96-a83f-49a3-bb3b-0a68b45f4e1c",
       "title": "Codex logging bug may write TBs to local SSDs",
       "url": "https://github.com/openai/codex/issues/28224",
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "967f53c9-bd13-4a00-9b44-7a866e052503",
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "url": "https://arxiv.org/abs/2606.22283",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-27T23:30:14Z",
+      "category": "tech",
+      "score": 0.25375776482671947,
+      "tldr": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-28T15:00:38.662422759Z",
+  "last_updated": "2026-06-28T16:11:43.856398126Z",
   "total_count": 100
 }
