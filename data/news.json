@@ -414,6 +414,20 @@
       ]
     },
     {
+      "id": "b6638492-a8db-4e33-98ca-a2281038c459",
+      "title": "Show HN: KV-psi, using Linux PSI to to trim an LLM KV cache",
+      "url": "https://github.com/infiniteregrets/kv-psi",
+      "domain": "github.com",
+      "published_at": "2026-06-27T22:50:54Z",
+      "category": "tech",
+      "score": 0.32573941036937537,
+      "tldr": "Show HN: KV-psi, using Linux PSI to to trim an LLM KV cache",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "bae580d8-4b92-4a6b-89ec-e5b1be02059f",
       "title": "Show HN: Crespo – Tree-sitter AST blueprints instead of raw code for LLMs",
       "url": "https://github.com/hrudulmmn/crespo",
@@ -1117,6 +1131,20 @@
       ]
     },
     {
+      "id": "4b207290-e7ad-4006-a006-d3cf34f8a7e6",
+      "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+      "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+      "domain": "github.com",
+      "published_at": "2026-06-28T00:46:52Z",
+      "category": "tech",
+      "score": 0.2592248544290168,
+      "tldr": "AMD Strix Halo RDMA Cluster Setup Guide",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d8ea9efd-39eb-4d35-bca3-4f692f59a1c4",
       "title": "I built Ponytrail, a local audit trail for AI coding-agent edits",
       "url": "https://github.com/0xroylee/ponytrail",
@@ -1381,36 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "00bc693d-83ec-4fdb-9145-2f3526100f42",
-      "title": "As SuperAgers age, they make at least twice as many new neurons as their peers",
-      "url": "https://news.northwestern.edu/stories/2026/02/as-superagers-age-they-make-at-least-twice-as-many-new-neurons-as-their-peers",
-      "domain": "news.northwestern.edu",
-      "published_at": "2026-06-26T01:02:50Z",
-      "category": "tech",
-      "score": 0.25293940565263956,
-      "tldr": "As SuperAgers age, they make at least twice as many new neurons as their peers",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fad13eb4-65c5-4c23-9538-8a390fd54d96",
-      "title": "IBM MCGA Gate Array Reverse Engineering",
-      "url": "https://github.com/schlae/IBM_MCGA",
-      "domain": "github.com",
-      "published_at": "2026-06-27T05:17:08Z",
-      "category": "tech",
-      "score": 0.2525896856615841,
-      "tldr": "IBM MCGA Gate Array Reverse Engineering",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-27T23:52:45.868088534Z",
+  "last_updated": "2026-06-28T02:12:54.21593681Z",
   "total_count": 100
 }
