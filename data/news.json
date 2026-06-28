@@ -372,6 +372,20 @@
       ]
     },
     {
+      "id": "87e183b9-1158-44e9-b031-25ab9717d7b0",
+      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+      "url": "https://github.com/itsthelore/wayfinder-router",
+      "domain": "github.com",
+      "published_at": "2026-06-28T04:31:18Z",
+      "category": "tech",
+      "score": 0.3380878531750856,
+      "tldr": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7ff722cd-0b37-44a9-a1b7-b15ee23c98fc",
       "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
       "url": "https://github.com/End2End-Diffusion/diffusion-bench",
@@ -538,20 +552,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "bd32ee70-555c-4c0e-8268-9a71bf1695c7",
-      "title": "The brain was not designed for this much bad news",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
-      "domain": "sciencedaily.com",
-      "published_at": "2026-06-21T04:02:08Z",
-      "category": "tech",
-      "score": 0.30707194876823873,
-      "tldr": "The brain was not designed for this much bad news",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1383,6 +1383,20 @@
       ]
     },
     {
+      "id": "653b5660-c632-4e17-9135-9f6a25d802be",
+      "title": "Show HN: FSM – an advanced system monitor for Linux",
+      "url": "https://github.com/mskrasnov/FSM",
+      "domain": "github.com",
+      "published_at": "2026-06-28T01:46:36Z",
+      "category": "tech",
+      "score": 0.25404661701129105,
+      "tldr": "Show HN: FSM – an advanced system monitor for Linux",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ca8adff5-11fa-4395-8327-b8c23ffddcfe",
       "title": "Swsim: A Software SIM Card",
       "url": "https://github.com/tomasz-lisowski/swsim",
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "322d0056-de3d-4755-8f4d-b9361cc7e55c",
-      "title": "Stop wasting tokens and re explaining your project between sessions",
-      "url": "https://github.com/raiyanyahya/recall",
-      "domain": "github.com",
-      "published_at": "2026-06-21T21:05:37Z",
-      "category": "tech",
-      "score": 0.25326696710487073,
-      "tldr": "Stop wasting tokens and re explaining your project between sessions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-28T02:12:54.21593681Z",
+  "last_updated": "2026-06-28T06:41:24.781092797Z",
   "total_count": 100
 }
