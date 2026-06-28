@@ -795,20 +795,6 @@
       ]
     },
     {
-      "id": "2ff8de71-3f75-46d3-90eb-429b1edf566f",
-      "title": "Identity verification on Claude",
-      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
-      "domain": "support.claude.com",
-      "published_at": "2026-06-21T12:44:13Z",
-      "category": "tech",
-      "score": 0.28658640901759785,
-      "tldr": "Identity verification on Claude",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8a564843-d7f2-4d0b-98f7-6a3887ad6191",
       "title": "Elevated error rate across multiple models",
       "url": "https://status.claude.com/incidents/jbhf20wjmzrf",
@@ -1215,6 +1201,20 @@
       ]
     },
     {
+      "id": "bcd59eda-71ff-4fee-a46d-174234728161",
+      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
+      "url": "https://github.com/openai/codex/issues/2847",
+      "domain": "github.com",
+      "published_at": "2026-06-28T12:27:33Z",
+      "category": "tech",
+      "score": 0.25695297102337267,
+      "tldr": "A way to exclude sensitive files issue still open for OpenAI Codex",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f300a140-a593-4b9d-8c5c-a61e4563f9cd",
       "title": "I Canceled My French Tutor and Built an LLM Tool That Does It Better",
       "url": "https://alshe.substack.com/p/i-canceled-my-french-tutor-and-built",
@@ -1268,20 +1268,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "computer_vision"
-      ]
-    },
-    {
-      "id": "66e3d0d5-5da1-4613-9fcf-0f29429b6312",
-      "title": "David Ahl's Basic Computer Games Ported to C",
-      "url": "https://github.com/proteanthread/bcg",
-      "domain": "github.com",
-      "published_at": "2026-06-21T12:11:29Z",
-      "category": "tech",
-      "score": 0.25639156849226563,
-      "tldr": "David Ahl's Basic Computer Games Ported to C",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1409,8 +1395,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "322d0056-de3d-4755-8f4d-b9361cc7e55c",
+      "title": "Stop wasting tokens and re explaining your project between sessions",
+      "url": "https://github.com/raiyanyahya/recall",
+      "domain": "github.com",
+      "published_at": "2026-06-21T21:05:37Z",
+      "category": "tech",
+      "score": 0.25326696710487073,
+      "tldr": "Stop wasting tokens and re explaining your project between sessions",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-28T11:40:30.019880709Z",
+  "last_updated": "2026-06-28T13:11:44.34156683Z",
   "total_count": 100
 }
