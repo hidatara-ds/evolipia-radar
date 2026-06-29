@@ -498,34 +498,6 @@
       ]
     },
     {
-      "id": "c28aa04a-f479-47bf-8401-987f8655e021",
-      "title": "Jobs and Software Is Fucked",
-      "url": "https://urflow.bearblog.dev/jobs-and-software-is-fucked",
-      "domain": "urflow.bearblog.dev",
-      "published_at": "2026-06-22T19:47:52Z",
-      "category": "tech",
-      "score": 0.3085035223257211,
-      "tldr": "Jobs and Software Is Fucked",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a2c06110-7d36-4707-90d2-213a67b9e16a",
-      "title": "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040",
-      "url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
-      "domain": "cbc.ca",
-      "published_at": "2026-06-22T19:06:48Z",
-      "category": "tech",
-      "score": 0.3079927074507884,
-      "tldr": "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "667e8bfb-d06e-47ec-98cf-e489ca801c18",
       "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
       "url": "https://rubyllm.com/",
@@ -962,20 +934,6 @@
       ]
     },
     {
-      "id": "d471815f-da91-4c56-ac03-4c9c8f85af03",
-      "title": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
-      "url": "https://github.com/dorukkumkumoglu/optocamzero",
-      "domain": "github.com",
-      "published_at": "2026-06-22T19:19:55Z",
-      "category": "tech",
-      "score": 0.2693175347543789,
-      "tldr": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d8e9b084-6801-4252-add7-b8eb09c1f3a9",
       "title": "Qwen-AgentWorld: Language World Models for General Agents",
       "url": "https://arxiv.org/abs/2606.24597",
@@ -1214,6 +1172,20 @@
       ]
     },
     {
+      "id": "6dfffa44-36e3-4084-8965-929b3df29e63",
+      "title": "JumpServer: Open-Source Privileged Access Management",
+      "url": "https://github.com/jumpserver/jumpserver",
+      "domain": "github.com",
+      "published_at": "2026-06-29T19:06:17Z",
+      "category": "tech",
+      "score": 0.2578302628467417,
+      "tldr": "JumpServer: Open-Source Privileged Access Management",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3272b903-a80e-4846-9f53-e5249cb94398",
       "title": "Show HN: Secs-man, a secrets manager you can (not) rely on",
       "url": "https://github.com/Fran314/secrets-manager-rs",
@@ -1408,8 +1380,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f8f1b1f7-ba84-4d1b-9470-18c78dd220a3",
+      "title": "Programmable Probabilistic Computer with 1M p-bits",
+      "url": "https://arxiv.org/abs/2606.25313",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T15:55:31Z",
+      "category": "tech",
+      "score": 0.25291624629638004,
+      "tldr": "Programmable Probabilistic Computer with 1M p-bits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "fad13eb4-65c5-4c23-9538-8a390fd54d96",
+      "title": "IBM MCGA Gate Array Reverse Engineering",
+      "url": "https://github.com/schlae/IBM_MCGA",
+      "domain": "github.com",
+      "published_at": "2026-06-27T05:17:08Z",
+      "category": "tech",
+      "score": 0.2525896856615841,
+      "tldr": "IBM MCGA Gate Array Reverse Engineering",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-29T18:57:47.77582397Z",
+  "last_updated": "2026-06-29T20:47:46.228106331Z",
   "total_count": 100
 }
