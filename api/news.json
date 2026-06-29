@@ -343,6 +343,20 @@
       ]
     },
     {
+      "id": "3d4b5118-f502-4f27-8f29-25e6f75ab67d",
+      "title": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
+      "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it",
+      "domain": "blog.pragmaticengineer.com",
+      "published_at": "2026-06-29T09:28:08Z",
+      "category": "tech",
+      "score": 0.34762763081304804,
+      "tldr": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "94f266da-1fb9-44c6-ba21-d9247f5bffd5",
       "title": "Mistral OCR 4",
       "url": "https://mistral.ai/news/ocr-4",
@@ -595,21 +609,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "eb8309a2-1e2f-4655-ab55-791adb996259",
-      "title": "LLMs do not merely reflect the bias of their training, they police it",
-      "url": "https://twitter.com/brianroemmele/status/1991714955339657384",
-      "domain": "twitter.com",
-      "published_at": "2026-06-22T10:50:46Z",
-      "category": "tech",
-      "score": 0.30394057868880037,
-      "tldr": "LLMs do not merely reflect the bias of their training, they police it",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -1103,20 +1102,6 @@
       ]
     },
     {
-      "id": "dda67168-f7fc-4390-b78c-7097b2be937c",
-      "title": "Alan Greenspan has died",
-      "url": "https://www.washingtonpost.com/obituaries/2026/06/22/alan-greenspan-most-powerful-central-banker-modern-times-dies-100",
-      "domain": "washingtonpost.com",
-      "published_at": "2026-06-22T11:27:40Z",
-      "category": "tech",
-      "score": 0.265773460398345,
-      "tldr": "Alan Greenspan has died",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "74e20dc7-7dc8-46b3-a06f-eb1b2860c23d",
       "title": "Slisp: Simple Lisp compiler (Linux/amd64)",
       "url": "https://github.com/skx/slisp",
@@ -1341,20 +1326,6 @@
       ]
     },
     {
-      "id": "41886c08-1d48-4554-bf72-730d34b1e70b",
-      "title": "UUID: NewV7() always generates a UUID with 7000 on browsers (Golang)",
-      "url": "https://github.com/golang/go/issues/80084",
-      "domain": "github.com",
-      "published_at": "2026-06-22T08:59:26Z",
-      "category": "tech",
-      "score": 0.25621005170468913,
-      "tldr": "UUID: NewV7() always generates a UUID with 7000 on browsers (Golang)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2b82604b-b5c3-4ec6-9fa2-456d148ef6c1",
       "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
       "url": "https://github.com/workweave/router",
@@ -1397,20 +1368,48 @@
       ]
     },
     {
-      "id": "db7f9336-5e80-42ea-947f-67973b85e598",
-      "title": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
-      "url": "https://github.com/kyle-ssg/kyde",
+      "id": "653b5660-c632-4e17-9135-9f6a25d802be",
+      "title": "Show HN: FSM – an advanced system monitor for Linux",
+      "url": "https://github.com/mskrasnov/FSM",
       "domain": "github.com",
-      "published_at": "2026-06-22T12:44:17Z",
+      "published_at": "2026-06-28T01:46:36Z",
       "category": "tech",
-      "score": 0.25459946379035814,
-      "tldr": "Show HN: I rebuilt the only parts of my IDE I use, in Rust, over a weekend",
+      "score": 0.25404661701129105,
+      "tldr": "Show HN: FSM – an advanced system monitor for Linux",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ca8adff5-11fa-4395-8327-b8c23ffddcfe",
+      "title": "Swsim: A Software SIM Card",
+      "url": "https://github.com/tomasz-lisowski/swsim",
+      "domain": "github.com",
+      "published_at": "2026-06-26T14:42:05Z",
+      "category": "tech",
+      "score": 0.2539171537245829,
+      "tldr": "Swsim: A Software SIM Card",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "967f53c9-bd13-4a00-9b44-7a866e052503",
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "url": "https://arxiv.org/abs/2606.22283",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-27T23:30:14Z",
+      "category": "tech",
+      "score": 0.25375776482671947,
+      "tldr": "Apple Neural Engine: Architecture, Programming, and Performance",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-06-29T08:32:59.62177972Z",
+  "last_updated": "2026-06-29T12:56:20.672270626Z",
   "total_count": 100
 }
