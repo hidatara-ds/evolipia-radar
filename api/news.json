@@ -542,20 +542,6 @@
       ]
     },
     {
-      "id": "dcb1fc66-b2b4-45d1-be0b-f4192cc10085",
-      "title": "GLM-5.2 – How to Run Locally",
-      "url": "https://unsloth.ai/docs/models/glm-5.2",
-      "domain": "unsloth.ai",
-      "published_at": "2026-06-22T21:21:01Z",
-      "category": "tech",
-      "score": 0.30406768868438155,
-      "tldr": "2 – How to Run Locally",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2c0cf8b2-b7b7-4edc-8d29-1e2168e4c9ac",
       "title": "Tidal AI Policy",
       "url": "https://tidal.com/ai-policy",
@@ -1408,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d3c272a8-a225-4a29-9195-b51bf73c6ca7",
+      "title": "Bashblog – a single bash script to create blogs",
+      "url": "https://github.com/cfenollosa/bashblog",
+      "domain": "github.com",
+      "published_at": "2026-06-28T04:48:32Z",
+      "category": "tech",
+      "score": 0.25245840452294027,
+      "tldr": "Bashblog – a single bash script to create blogs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-29T20:47:46.228106331Z",
+  "last_updated": "2026-06-29T22:03:38.786444266Z",
   "total_count": 100
 }
