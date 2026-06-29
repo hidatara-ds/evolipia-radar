@@ -156,20 +156,6 @@
       ]
     },
     {
-      "id": "03d5306d-0dd6-4691-aabe-fb3f8c78fb4c",
-      "title": "Deno Desktop",
-      "url": "https://docs.deno.com/runtime/desktop",
-      "domain": "docs.deno.com",
-      "published_at": "2026-06-22T05:38:40Z",
-      "category": "tech",
-      "score": 0.39551106803890734,
-      "tldr": "Deno Desktop",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d7ed0102-a8e3-4001-93e0-60e20c4e0cdf",
       "title": "Apple raises prices of MacBooks, iPads",
       "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25",
@@ -237,6 +223,20 @@
       "category": "tech",
       "score": 0.37521642416803436,
       "tldr": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0ecb5e9e-90cf-4e3e-a60c-46415377dfa8",
+      "title": "Age verification is just a precursor to automated attribution of speech",
+      "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
+      "domain": "nonogra.ph",
+      "published_at": "2026-06-29T03:42:07Z",
+      "category": "tech",
+      "score": 0.3697928781381787,
+      "tldr": "Age verification is just a precursor to automated attribution of speech",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -455,6 +455,20 @@
       ]
     },
     {
+      "id": "222930b8-cd62-4ce0-a985-658b044b3147",
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "domain": "danunparsed.com",
+      "published_at": "2026-06-29T01:44:40Z",
+      "category": "tech",
+      "score": 0.32190616799072047,
+      "tldr": "HackerRank open sourced its ATS. My resume scored 90/100.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "df92e397-ca86-44b6-b9c8-d16b40b06fa1",
       "title": "Google limits Meta's use of its Gemini AI models",
       "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
@@ -495,20 +509,6 @@
       "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
       "tags": [
         "mlops"
-      ]
-    },
-    {
-      "id": "86b3ea96-a83f-49a3-bb3b-0a68b45f4e1c",
-      "title": "Codex logging bug may write TBs to local SSDs",
-      "url": "https://github.com/openai/codex/issues/28224",
-      "domain": "github.com",
-      "published_at": "2026-06-22T07:30:17Z",
-      "category": "tech",
-      "score": 0.3106388028076081,
-      "tldr": "Codex logging bug may write TBs to local SSDs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -907,6 +907,20 @@
       ]
     },
     {
+      "id": "e728c41d-0174-438d-af29-cf45fcd4f57e",
+      "title": "Herdr: Agent multiplexer that lives in your terminal",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "domain": "github.com",
+      "published_at": "2026-06-29T04:27:46Z",
+      "category": "tech",
+      "score": 0.274969326429475,
+      "tldr": "Herdr: Agent multiplexer that lives in your terminal",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f00a14bf-efdc-4fd8-ac48-95cd607c6f75",
       "title": "GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
       "url": "https://github.com/librepods-org/librepods",
@@ -932,20 +946,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "security"
-      ]
-    },
-    {
-      "id": "5f6cbc97-3c20-474d-aa6a-d1c97505f57b",
-      "title": "GLM 5.2 vs. Opus",
-      "url": "https://techstackups.com/comparisons/glm-5.2-vs-opus",
-      "domain": "techstackups.com",
-      "published_at": "2026-06-22T07:22:03Z",
-      "category": "tech",
-      "score": 0.2709325171122764,
-      "tldr": "GLM 5.2 vs. Opus",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1083,6 +1083,20 @@
       "category": "tech",
       "score": 0.26649750277587236,
       "tldr": "Show HN: Bun-sqlgen – Type-safe raw SQL for Bun, no ORM",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ede16894-4f1d-4180-97b3-dcb7c0040a44",
+      "title": "Lore – Give your coding agent the decisions your team made",
+      "url": "https://github.com/itsthelore/rac-core",
+      "domain": "github.com",
+      "published_at": "2026-06-29T04:40:35Z",
+      "category": "tech",
+      "score": 0.2662137155830989,
+      "tldr": "Lore – Give your coding agent the decisions your team made",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1395,22 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "8bdf7eb2-a18c-45a5-a0f2-86cf8802ffa3",
-      "title": "Rive, Fast and reliable background jobs in Go",
-      "url": "https://github.com/riverqueue/river",
-      "domain": "github.com",
-      "published_at": "2026-06-22T10:37:13Z",
-      "category": "tech",
-      "score": 0.25457724799134357,
-      "tldr": "Rive, Fast and reliable background jobs in Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-29T03:31:29.929584123Z",
+  "last_updated": "2026-06-29T08:32:59.62177972Z",
   "total_count": 100
 }
