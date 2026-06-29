@@ -455,20 +455,6 @@
       ]
     },
     {
-      "id": "bae580d8-4b92-4a6b-89ec-e5b1be02059f",
-      "title": "Show HN: Crespo – Tree-sitter AST blueprints instead of raw code for LLMs",
-      "url": "https://github.com/hrudulmmn/crespo",
-      "domain": "github.com",
-      "published_at": "2026-06-22T03:28:11Z",
-      "category": "tech",
-      "score": 0.32567919033199355,
-      "tldr": "Show HN: Crespo – Tree-sitter AST blueprints instead of raw code for LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "df92e397-ca86-44b6-b9c8-d16b40b06fa1",
       "title": "Google limits Meta's use of its Gemini AI models",
       "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
@@ -890,6 +876,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "59e4cedc-ad1b-4c6b-acef-deb0d1f63b7c",
+      "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T22:32:04Z",
+      "category": "tech",
+      "score": 0.27622429366752277,
+      "tldr": "Knowledge Distillation of Black-Box Large Language Models (2024)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-06-28T23:59:03.909460871Z",
+  "last_updated": "2026-06-29T03:31:29.929584123Z",
   "total_count": 100
 }
