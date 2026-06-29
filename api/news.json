@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "efc53022-407d-4d82-b175-7c05a59f1833",
-      "title": "Steam Machine launches today",
-      "url": "https://store.steampowered.com/news/group/45479024/view/685257114654870245",
-      "domain": "store.steampowered.com",
-      "published_at": "2026-06-22T17:09:51Z",
-      "category": "tech",
-      "score": 0.6718363609872914,
-      "tldr": "Steam Machine launches today",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "82b3be48-5d72-4fb0-9f37-e969530591b0",
       "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
       "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
@@ -26,20 +12,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "b7ff09ca-d9c2-405a-bf66-d37821c00820",
-      "title": "Steam Machine",
-      "url": "https://store.steampowered.com/hardware/steammachine",
-      "domain": "store.steampowered.com",
-      "published_at": "2026-06-22T17:09:51Z",
-      "category": "tech",
-      "score": 0.5070846427262898,
-      "tldr": "Steam Machine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -136,6 +108,20 @@
       "category": "tech",
       "score": 0.43357192479443873,
       "tldr": "F3",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0c689556-9cf6-475f-85cc-e6f0ac41083d",
+      "title": "The CEO of Mullvad is the main financer of the Swedish Örebro party",
+      "url": "https://det.social/@lostgen/116820546568940358",
+      "domain": "det.social",
+      "published_at": "2026-06-29T10:45:51Z",
+      "category": "tech",
+      "score": 0.4293088331567704,
+      "tldr": "The CEO of Mullvad is the main financer of the Swedish Örebro party",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -668,6 +654,20 @@
       ]
     },
     {
+      "id": "0c51287c-ebee-4e04-94ca-1c65a44c889f",
+      "title": "Qwen 3.6 27B is the sweet spot for local development",
+      "url": "https://quesma.com/blog/qwen-36-is-awesome",
+      "domain": "quesma.com",
+      "published_at": "2026-06-29T17:05:16Z",
+      "category": "tech",
+      "score": 0.2938319530972304,
+      "tldr": "6 27B is the sweet spot for local development",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0f78433d-78ea-4bf6-bdae-fd04bd926dc1",
       "title": "US Govt to individually approve who gets GPT 5.6",
       "url": "https://old.reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56",
@@ -1102,6 +1102,20 @@
       ]
     },
     {
+      "id": "6f446950-9337-4d51-b3d3-f60cad1f1631",
+      "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+      "url": "https://github.com/deepreinforce-ai/Ornith-1",
+      "domain": "github.com",
+      "published_at": "2026-06-29T17:16:17Z",
+      "category": "tech",
+      "score": 0.2612291472252041,
+      "tldr": "0: self-improving open-source models for agentic coding",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1ff15832-b58b-4c91-acee-c7f6189502eb",
       "title": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
       "url": "https://github.com/Tessil/hopscotch-map",
@@ -1394,22 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f8f1b1f7-ba84-4d1b-9470-18c78dd220a3",
-      "title": "Programmable Probabilistic Computer with 1M p-bits",
-      "url": "https://arxiv.org/abs/2606.25313",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-28T15:55:31Z",
-      "category": "tech",
-      "score": 0.25291624629638004,
-      "tldr": "Programmable Probabilistic Computer with 1M p-bits",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-06-29T16:33:30.55587281Z",
+  "last_updated": "2026-06-29T18:57:47.77582397Z",
   "total_count": 100
 }
