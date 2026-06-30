@@ -905,6 +905,20 @@
       ]
     },
     {
+      "id": "c0727ce7-7971-49c2-851e-738214c6d93b",
+      "title": "Linux for the Sega MegaDrive",
+      "url": "https://github.com/LinuxMD/linuxmd",
+      "domain": "github.com",
+      "published_at": "2026-06-29T15:01:39Z",
+      "category": "tech",
+      "score": 0.2695137511201656,
+      "tldr": "Linux for the Sega MegaDrive",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d8e9b084-6801-4252-add7-b8eb09c1f3a9",
       "title": "Qwen-AgentWorld: Language World Models for General Agents",
       "url": "https://arxiv.org/abs/2606.24597",
@@ -1213,20 +1227,6 @@
       ]
     },
     {
-      "id": "ec0a05fd-e5fe-458e-bfd2-4162f94db57c",
-      "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
-      "url": "https://arxiv.org/abs/2606.03748",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-23T02:28:00Z",
-      "category": "tech",
-      "score": 0.2565704545165097,
-      "tldr": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "computer_vision"
-      ]
-    },
-    {
       "id": "2b82604b-b5c3-4ec6-9fa2-456d148ef6c1",
       "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
       "url": "https://github.com/workweave/router",
@@ -1235,20 +1235,6 @@
       "category": "tech",
       "score": 0.2561585066638363,
       "tldr": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fd3cdb09-40e2-4159-aa6e-095553fceef2",
-      "title": "Show HN: A pure ARM64 Assembly web server, now on Linux with CGI for no reason",
-      "url": "https://github.com/imtomt/ymawky/tree/linux",
-      "domain": "github.com",
-      "published_at": "2026-06-23T04:28:14Z",
-      "category": "tech",
-      "score": 0.2558201949014081,
-      "tldr": "Show HN: A pure ARM64 Assembly web server, now on Linux with CGI for no reason",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c1b0654b-ccb0-4a1b-8927-c7f6156a76b6",
+      "title": "Reed-Solomon for OCR: error correction for messy printed codes",
+      "url": "https://github.com/chasangchual/reed-solomon-for-ocr",
+      "domain": "github.com",
+      "published_at": "2026-06-26T20:12:14Z",
+      "category": "tech",
+      "score": 0.252260132294453,
+      "tldr": "Reed-Solomon for OCR: error correction for messy printed codes",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-30T02:07:19.293647777Z",
+  "last_updated": "2026-06-30T06:37:11.603865163Z",
   "total_count": 100
 }
