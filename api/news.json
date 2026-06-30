@@ -834,20 +834,6 @@
       ]
     },
     {
-      "id": "33f2a1b9-b36c-447e-97ad-7ca7c1dedc82",
-      "title": "Anthropic updates their terms to verify age or identity",
-      "url": "https://www.anthropic.com/legal/privacy",
-      "domain": "anthropic.com",
-      "published_at": "2026-06-23T19:45:07Z",
-      "category": "tech",
-      "score": 0.27082770060408806,
-      "tldr": "Anthropic updates their terms to verify age or identity",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "34c64a4f-6246-4a67-b2f3-3c61f28d77d8",
       "title": "The KIDS Act would require age checks to get online",
       "url": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
@@ -1406,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
+      "title": "Knowledge Distillation of Black-Box Large Language Models",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T22:32:04Z",
+      "category": "tech",
+      "score": 0.25208798865806664,
+      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-30T19:14:40.328022533Z",
+  "last_updated": "2026-06-30T21:12:13.554565315Z",
   "total_count": 100
 }
