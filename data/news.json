@@ -185,21 +185,6 @@
       ]
     },
     {
-      "id": "6899668d-dfa8-4ec1-8fa3-834a6bf73cc0",
-      "title": "The Reversal Curse: LLMs trained on \"A is B\" fail to learn \"B is A\"",
-      "url": "https://arxiv.org/abs/2309.12288",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-23T11:07:05Z",
-      "category": "tech",
-      "score": 0.37934870862002956,
-      "tldr": "The Reversal Curse: LLMs trained on \"A is B\" fail to learn \"B is A\"",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "general_ai"
-      ]
-    },
-    {
       "id": "54e0bc53-00f0-4664-903d-bec017fe36c1",
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
       "url": "https://paolino.me/founding-a-company-in-germany",
@@ -398,20 +383,6 @@
       ]
     },
     {
-      "id": "1c55bf97-197a-4ba9-a498-802c910c2828",
-      "title": "Unlimited OCR: One-Shot Long-Horizon Parsing",
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "domain": "github.com",
-      "published_at": "2026-06-23T11:35:05Z",
-      "category": "tech",
-      "score": 0.32813546413373385,
-      "tldr": "Unlimited OCR: One-Shot Long-Horizon Parsing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "46227b48-ba0d-43ce-9d94-325f6756fa83",
       "title": "Librepods: AirPods liberated",
       "url": "https://github.com/librepods-org/librepods",
@@ -577,6 +548,20 @@
       "category": "tech",
       "score": 0.29477696741306414,
       "tldr": "OAuth for all",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "02b59e6e-6d1d-4679-8c5c-1a6f1f903b09",
+      "title": "European digital ID wallets are a gift to Google and Apple",
+      "url": "https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple",
+      "domain": "waag.org",
+      "published_at": "2026-06-30T10:36:23Z",
+      "category": "tech",
+      "score": 0.29429047300312616,
+      "tldr": "European digital ID wallets are a gift to Google and Apple",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
+      "title": "Knowledge Distillation of Black-Box Large Language Models",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T22:32:04Z",
+      "category": "tech",
+      "score": 0.25208798865806664,
+      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-06-30T10:24:04.62508906Z",
+  "last_updated": "2026-06-30T12:28:01.499457468Z",
   "total_count": 100
 }
