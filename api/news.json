@@ -200,21 +200,6 @@
       ]
     },
     {
-      "id": "912b5c75-e3c2-4e84-94b5-58ae3c27ed6a",
-      "title": "OpenAI DayBreak – GPT-5.5-Cyber",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "domain": "openai.com",
-      "published_at": "2026-06-23T01:36:08Z",
-      "category": "tech",
-      "score": 0.3779699247051702,
-      "tldr": "OpenAI DayBreak – GPT-5.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "54e0bc53-00f0-4664-903d-bec017fe36c1",
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
       "url": "https://paolino.me/founding-a-company-in-germany",
@@ -393,6 +378,20 @@
       "category": "tech",
       "score": 0.3312694060853785,
       "tldr": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "75dcfaff-3c7a-4492-871d-3e33dce87268",
+      "title": "Open Memory Protocol – One Memory Store for Claude, ChatGPT, Curso",
+      "url": "https://github.com/SMJAI/open-memory-protocol",
+      "domain": "github.com",
+      "published_at": "2026-06-30T00:05:33Z",
+      "category": "tech",
+      "score": 0.32825346865027893,
+      "tldr": "Open Memory Protocol – One Memory Store for Claude, ChatGPT, Curso",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -637,20 +636,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "0d61872e-ae3d-4c47-8a96-378ea3098b29",
-      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
-      "url": "https://arxiv.org/abs/2606.16140",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-23T02:01:25Z",
-      "category": "tech",
-      "score": 0.2906748493627346,
-      "tldr": "VibeThinker: 3B param model that beats Opus 4. 5 on reasoning with novel SFT+GRPO",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1408,8 +1393,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "8201277b-b138-42a9-8b7d-10baad4572c5",
+      "title": "Murmur: Shared communication bus for your coding agents",
+      "url": "https://github.com/instavm/murmur",
+      "domain": "github.com",
+      "published_at": "2026-06-26T18:20:42Z",
+      "category": "tech",
+      "score": 0.252396141994876,
+      "tldr": "Murmur: Shared communication bus for your coding agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-06-29T23:32:15.504045872Z",
+  "last_updated": "2026-06-30T02:07:19.293647777Z",
   "total_count": 100
 }
