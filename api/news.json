@@ -988,6 +988,20 @@
       ]
     },
     {
+      "id": "dbcca654-4848-48ff-8e0c-6f97c5d2739b",
+      "title": "We Are the Last People Who Know How It Works",
+      "url": "https://unix.foo/posts/last-people-who-know-how-it-works",
+      "domain": "unix.foo",
+      "published_at": "2026-06-30T16:59:00Z",
+      "category": "tech",
+      "score": 0.2638031309128096,
+      "tldr": "We Are the Last People Who Know How It Works",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "550a44af-0115-4cec-a347-a8726346f2c1",
       "title": "The war on terror primed America for autocracy",
       "url": "https://www.economist.com/by-invitation/2026/06/02/how-the-war-on-terror-primed-america-for-autocracy",
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
-      "title": "Knowledge Distillation of Black-Box Large Language Models",
-      "url": "https://arxiv.org/abs/2401.07013",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-28T22:32:04Z",
-      "category": "tech",
-      "score": 0.25208798865806664,
-      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-30T17:21:23.64535616Z",
+  "last_updated": "2026-06-30T19:14:40.328022533Z",
   "total_count": 100
 }
