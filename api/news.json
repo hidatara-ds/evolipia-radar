@@ -86,20 +86,6 @@
       ]
     },
     {
-      "id": "de9ea1a0-f176-49ef-b42d-e3f647529d88",
-      "title": "F3",
-      "url": "https://github.com/future-file-format/f3",
-      "domain": "github.com",
-      "published_at": "2026-06-23T16:53:32Z",
-      "category": "tech",
-      "score": 0.43357192479443873,
-      "tldr": "F3",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0c689556-9cf6-475f-85cc-e6f0ac41083d",
       "title": "The CEO of Mullvad is the main financer of the Swedish Örebro party",
       "url": "https://det.social/@lostgen/116820546568940358",
@@ -182,6 +168,34 @@
       "tags": [
         "general_ai",
         "llm"
+      ]
+    },
+    {
+      "id": "8bee1de8-59da-43d2-9ac0-f52b95b6c9fb",
+      "title": "Claude Code Is Steganographically Marking Requests",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "domain": "thereallo.dev",
+      "published_at": "2026-06-30T15:44:24Z",
+      "category": "tech",
+      "score": 0.3796341873489186,
+      "tldr": "Claude Code Is Steganographically Marking Requests",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d5914b95-dae6-45c4-b2ea-0cbf856fb0a6",
+      "title": "The labor share of income in the US is at its lowest post-war level",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share",
+      "domain": "libertystreeteconomics.newyorkfed.org",
+      "published_at": "2026-06-30T15:35:04Z",
+      "category": "tech",
+      "score": 0.3759563329526386,
+      "tldr": "The labor share of income in the US is at its lowest post-war level",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -946,6 +960,20 @@
       ]
     },
     {
+      "id": "97d022fd-139f-4a9e-8222-ced845b34423",
+      "title": "Nano Banana 2 Lite",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite",
+      "domain": "deepmind.google",
+      "published_at": "2026-06-30T16:48:37Z",
+      "category": "tech",
+      "score": 0.26594996892426337,
+      "tldr": "Nano Banana 2 Lite",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "74e20dc7-7dc8-46b3-a06f-eb1b2860c23d",
       "title": "Slisp: Simple Lisp compiler (Linux/amd64)",
       "url": "https://github.com/skx/slisp",
@@ -1378,36 +1406,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "fca36bf5-6ceb-4468-b694-ade5fd928239",
-      "title": "US says PRC trying to discourage states, businesses from engaging with Taiwan",
-      "url": "https://www.reuters.com/world/china/us-says-china-trying-discourage-states-businesses-engaging-with-taiwan-2026-06-25",
-      "domain": "reuters.com",
-      "published_at": "2026-06-25T21:34:26Z",
-      "category": "tech",
-      "score": 0.2520484492466455,
-      "tldr": "US says PRC trying to discourage states, businesses from engaging with Taiwan",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d19d1e43-c408-43b6-8e42-1526c19609b7",
-      "title": "NLNet Labs LLM Policy",
-      "url": "https://nlnetlabs.nl/llm-policy",
-      "domain": "nlnetlabs.nl",
-      "published_at": "2026-06-27T07:41:42Z",
-      "category": "tech",
-      "score": 0.2519559127840778,
-      "tldr": "NLNet Labs LLM Policy",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-06-30T15:08:00.863244729Z",
+  "last_updated": "2026-06-30T17:21:23.64535616Z",
   "total_count": 100
 }
