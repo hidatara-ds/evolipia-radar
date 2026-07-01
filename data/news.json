@@ -1338,6 +1338,20 @@
       ]
     },
     {
+      "id": "94d33197-237f-48e9-aa6c-808b783ebf04",
+      "title": "Single header Parser Combinators for C",
+      "url": "https://github.com/steve-chavez/CParseC",
+      "domain": "github.com",
+      "published_at": "2026-07-01T03:52:55Z",
+      "category": "tech",
+      "score": 0.2522396665970569,
+      "tldr": "Single header Parser Combinators for C",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "feb8fc74-4161-4153-85c3-e18acfbfa67f",
       "title": "Meta Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
       "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing",
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d19d1e43-c408-43b6-8e42-1526c19609b7",
-      "title": "NLNet Labs LLM Policy",
-      "url": "https://nlnetlabs.nl/llm-policy",
-      "domain": "nlnetlabs.nl",
-      "published_at": "2026-06-27T07:41:42Z",
-      "category": "tech",
-      "score": 0.2519559127840778,
-      "tldr": "NLNet Labs LLM Policy",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-01T02:43:48.805348543Z",
+  "last_updated": "2026-07-01T07:03:14.943897148Z",
   "total_count": 100
 }
