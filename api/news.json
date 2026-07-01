@@ -43,6 +43,20 @@
       ]
     },
     {
+      "id": "a35eab2c-6483-46ed-a6ff-6e55c88625ea",
+      "title": "Why I Stopped Arguing with People",
+      "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
+      "domain": "wangcong.org",
+      "published_at": "2026-07-01T13:29:29Z",
+      "category": "tech",
+      "score": 0.4446272224924625,
+      "tldr": "Why I Stopped Arguing with People",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "afc85d7b-badd-40be-bc2c-73af9b491ef9",
       "title": "DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
       "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
@@ -124,21 +138,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "89fdbb4a-b179-49f1-b61b-af9d5f21205c",
-      "title": "RubyLLM: A Ruby framework for all major AI providers",
-      "url": "https://rubyllm.com/",
-      "domain": "rubyllm.com",
-      "published_at": "2026-06-24T14:41:41Z",
-      "category": "tech",
-      "score": 0.38012944705806784,
-      "tldr": "RubyLLM: A Ruby framework for all major AI providers",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
       ]
     },
     {
@@ -224,20 +223,6 @@
       "tags": [
         "llm",
         "mlops"
-      ]
-    },
-    {
-      "id": "e4199a49-1627-4de4-a9b6-42ff5b1b99e4",
-      "title": "There are a few things that I look back on as my mistakes in the early days",
-      "url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
-      "domain": "twitter.com",
-      "published_at": "2026-06-24T15:56:19Z",
-      "category": "tech",
-      "score": 0.36184235761616557,
-      "tldr": "There are a few things that I look back on as my mistakes in the early days",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -411,21 +396,6 @@
       ]
     },
     {
-      "id": "667e8bfb-d06e-47ec-98cf-e489ca801c18",
-      "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
-      "url": "https://rubyllm.com/",
-      "domain": "rubyllm.com",
-      "published_at": "2026-06-24T14:41:41Z",
-      "category": "tech",
-      "score": 0.3074550582788178,
-      "tldr": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "ee191fa4-c2fa-4303-9841-db00faf2ce30",
       "title": "Apple announces significant price increases for MacBooks, iPads, more",
       "url": "https://9to5mac.com/2026/06/25/apple-price-increases-mac-ipad-more",
@@ -491,20 +461,6 @@
       "category": "tech",
       "score": 0.29429047300312616,
       "tldr": "European digital ID wallets are a gift to Google and Apple",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "22259a54-16c4-4240-b5d0-264cb96c079e",
-      "title": "John Carmack on the mistakes around Quake that ruined id software",
-      "url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
-      "domain": "twitter.com",
-      "published_at": "2026-06-24T15:56:19Z",
-      "category": "tech",
-      "score": 0.29427308147878145,
-      "tldr": "John Carmack on the mistakes around Quake that ruined id software",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1029,20 +985,6 @@
       ]
     },
     {
-      "id": "c5025360-fdbe-4b8b-8a30-8c5768110b82",
-      "title": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
-      "url": "https://github.com/nubjs/nub",
-      "domain": "github.com",
-      "published_at": "2026-06-24T14:14:18Z",
-      "category": "tech",
-      "score": 0.2587685363904372,
-      "tldr": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6dfffa44-36e3-4084-8965-929b3df29e63",
       "title": "JumpServer: Open-Source Privileged Access Management",
       "url": "https://github.com/jumpserver/jumpserver",
@@ -1107,6 +1049,20 @@
       "category": "tech",
       "score": 0.2561585066638363,
       "tldr": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "dd2fb309-94bc-41d7-a507-46487c7ea7a2",
+      "title": "Ray Tracer in SQL",
+      "url": "https://github.com/ClickHouse/RayTracer",
+      "domain": "github.com",
+      "published_at": "2026-07-01T14:27:48Z",
+      "category": "tech",
+      "score": 0.2555063841197528,
+      "tldr": "Ray Tracer in SQL",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,8 +1361,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a80fe0b6-097a-4f31-b1e6-dd1e8f1c0d5d",
+      "title": "Ornith-1.0: A family of open-source LLMs specialized for agentic coding",
+      "url": "https://twitter.com/ornith_/status/2070148887067963854",
+      "domain": "twitter.com",
+      "published_at": "2026-06-27T10:45:38Z",
+      "category": "tech",
+      "score": 0.2516805132611037,
+      "tldr": "0: A family of open-source LLMs specialized for agentic coding",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4e90a085-473b-4268-b5bf-1f0d96904d3f",
+      "title": "Webradio server – broadcasts audio source to clients",
+      "url": "https://github.com/tau-org/tau-tower",
+      "domain": "github.com",
+      "published_at": "2026-06-26T17:57:06Z",
+      "category": "tech",
+      "score": 0.25164658505420034,
+      "tldr": "Webradio server – broadcasts audio source to clients",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c92405c5-1c54-453b-91e1-46253ab89809",
+      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+      "url": "https://deep-reinforce.com/ornith_1_0.html",
+      "domain": "deep-reinforce.com",
+      "published_at": "2026-06-28T17:58:04Z",
+      "category": "tech",
+      "score": 0.25127729771568624,
+      "tldr": "0: Self-Scaffolding LLMs for Agentic Coding",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-01T13:31:18.641806792Z",
+  "last_updated": "2026-07-01T16:07:24.005089458Z",
   "total_count": 100
 }
