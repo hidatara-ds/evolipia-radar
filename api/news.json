@@ -30,20 +30,6 @@
       ]
     },
     {
-      "id": "91791160-b8f0-4183-97ca-67a174b5c97e",
-      "title": "We’re making Bunny DNS free",
-      "url": "https://bunny.net/blog/were-making-bunny-dns-free",
-      "domain": "bunny.net",
-      "published_at": "2026-06-24T08:50:41Z",
-      "category": "tech",
-      "score": 0.4503743767104635,
-      "tldr": "We’re making Bunny DNS free",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "55fde1a0-44d4-451a-aafd-911f37eef769",
       "title": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors",
       "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
@@ -719,6 +705,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "5b6be4a1-e1bd-4e2d-8676-3d3c435292ee",
+      "title": "Godot will no longer accept AI-authored code contributions",
+      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it",
+      "domain": "pcgamer.com",
+      "published_at": "2026-07-01T07:43:22Z",
+      "category": "tech",
+      "score": 0.2775730729147276,
+      "tldr": "Godot will no longer accept AI-authored code contributions",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1408,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-01T07:03:14.943897148Z",
+  "last_updated": "2026-07-01T10:52:35.784389413Z",
   "total_count": 100
 }
