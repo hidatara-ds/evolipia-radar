@@ -396,20 +396,6 @@
       ]
     },
     {
-      "id": "bee16af0-e533-48e1-b1bc-9462bf95aec3",
-      "title": "Zero-Downtime Deployments with Docker Compose – No Kubernetes Required",
-      "url": "https://statusdude.com/blog/zero-downtime-docker-compose",
-      "domain": "statusdude.com",
-      "published_at": "2026-06-24T20:20:33Z",
-      "category": "tech",
-      "score": 0.31342918995931923,
-      "tldr": "Zero-Downtime Deployments with Docker Compose – No Kubernetes Required",
-      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
-      "tags": [
-        "mlops"
-      ]
-    },
-    {
       "id": "3a8dabb5-d4e7-4a39-ac79-e8230b2963d7",
       "title": "A retrospective of my time on the internet",
       "url": "https://cleberg.net/blog/internet.html",
@@ -1153,6 +1139,20 @@
       ]
     },
     {
+      "id": "ff9e1b7d-c364-4058-a69f-c979cd5c6786",
+      "title": "Show HN: Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
+      "url": "https://github.com/Division-36/Z-Jail",
+      "domain": "github.com",
+      "published_at": "2026-07-01T19:18:11Z",
+      "category": "tech",
+      "score": 0.2538086273399901,
+      "tldr": "Show HN: Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "967f53c9-bd13-4a00-9b44-7a866e052503",
       "title": "Apple Neural Engine: Architecture, Programming, and Performance",
       "url": "https://arxiv.org/abs/2606.22283",
@@ -1405,6 +1405,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-01T18:22:37.723480591Z",
+  "last_updated": "2026-07-01T20:21:16.305599197Z",
   "total_count": 100
 }
