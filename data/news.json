@@ -270,6 +270,20 @@
       ]
     },
     {
+      "id": "5d4a7333-156f-481d-9f1d-e70de791ee70",
+      "title": "Claude-real-video － any LLM can watch a video",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "domain": "github.com",
+      "published_at": "2026-07-02T19:10:12Z",
+      "category": "tech",
+      "score": 0.33518320405771307,
+      "tldr": "Claude-real-video － any LLM can watch a video",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8a3a2248-a39d-4e9f-9724-85643cbe14ef",
       "title": "Previewing GPT‑5.6 Sol: a next-generation model",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
@@ -493,20 +507,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "f53f1da5-8310-45ae-a8df-77e821a4d8b4",
-      "title": "Om Malik has died",
-      "url": "https://om.co/2026/06/24/1966-2026",
-      "domain": "om.co",
-      "published_at": "2026-06-25T20:33:37Z",
-      "category": "tech",
-      "score": 0.29064204716180053,
-      "tldr": "Om Malik has died",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1378,20 +1378,6 @@
       ]
     },
     {
-      "id": "fca36bf5-6ceb-4468-b694-ade5fd928239",
-      "title": "US says PRC trying to discourage states, businesses from engaging with Taiwan",
-      "url": "https://www.reuters.com/world/china/us-says-china-trying-discourage-states-businesses-engaging-with-taiwan-2026-06-25",
-      "domain": "reuters.com",
-      "published_at": "2026-06-25T21:34:26Z",
-      "category": "tech",
-      "score": 0.2520484492466455,
-      "tldr": "US says PRC trying to discourage states, businesses from engaging with Taiwan",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "582be5be-dd41-425d-b206-aa19d00764b9",
       "title": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
       "url": "https://github.com/arman-jalili/rigorix-oss",
@@ -1404,8 +1390,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d19d1e43-c408-43b6-8e42-1526c19609b7",
+      "title": "NLNet Labs LLM Policy",
+      "url": "https://nlnetlabs.nl/llm-policy",
+      "domain": "nlnetlabs.nl",
+      "published_at": "2026-06-27T07:41:42Z",
+      "category": "tech",
+      "score": 0.2519559127840778,
+      "tldr": "NLNet Labs LLM Policy",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-02T20:14:13.706917384Z",
+  "last_updated": "2026-07-02T21:41:11.63005151Z",
   "total_count": 100
 }
