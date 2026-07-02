@@ -453,20 +453,6 @@
       ]
     },
     {
-      "id": "199fcee5-5eb0-4bf0-b329-8aee31f397be",
-      "title": "OAuth for all",
-      "url": "https://blog.cloudflare.com/oauth-for-all",
-      "domain": "blog.cloudflare.com",
-      "published_at": "2026-06-25T02:18:10Z",
-      "category": "tech",
-      "score": 0.29477696741306414,
-      "tldr": "OAuth for all",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "02b59e6e-6d1d-4679-8c5c-1a6f1f903b09",
       "title": "European digital ID wallets are a gift to Google and Apple",
       "url": "https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple",
@@ -1403,8 +1389,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a80fe0b6-097a-4f31-b1e6-dd1e8f1c0d5d",
+      "title": "Ornith-1.0: A family of open-source LLMs specialized for agentic coding",
+      "url": "https://twitter.com/ornith_/status/2070148887067963854",
+      "domain": "twitter.com",
+      "published_at": "2026-06-27T10:45:38Z",
+      "category": "tech",
+      "score": 0.2516805132611037,
+      "tldr": "0: A family of open-source LLMs specialized for agentic coding",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-02T01:29:53.490376898Z",
+  "last_updated": "2026-07-02T05:30:53.231037102Z",
   "total_count": 100
 }
