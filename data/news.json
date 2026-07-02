@@ -43,20 +43,6 @@
       ]
     },
     {
-      "id": "55fde1a0-44d4-451a-aafd-911f37eef769",
-      "title": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
-      "domain": "bloomberg.com",
-      "published_at": "2026-06-25T14:58:50Z",
-      "category": "tech",
-      "score": 0.4466270813987712,
-      "tldr": "Ford AI hiccups push carmaker to rehire ‘gray beard’ inspectors",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "49ef0fcf-455c-4bed-8b8a-3b12288e9970",
       "title": "Pollen tried to remove my article and Google is assisting with it",
       "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it",
@@ -986,6 +972,20 @@
       ]
     },
     {
+      "id": "0125d5f1-c9f4-4236-bd41-74915dccc121",
+      "title": "PeerTube is a free, decentralized and federated video platform",
+      "url": "https://github.com/Chocobozzz/PeerTube",
+      "domain": "github.com",
+      "published_at": "2026-07-02T11:17:45Z",
+      "category": "tech",
+      "score": 0.25687481525257977,
+      "tldr": "PeerTube is a free, decentralized and federated video platform",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "600aa6a1-8479-48df-a69c-f057efd3f933",
       "title": "Jolla Phone (October 2026)",
       "url": "https://commerce.jolla.com/products/jolla-phone-october-2026",
@@ -994,6 +994,20 @@
       "category": "tech",
       "score": 0.25669976605319283,
       "tldr": "Jolla Phone (October 2026)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a5a1132e-9abd-4080-ab40-981c4e97d35f",
+      "title": "Show HN: CLI tool for detecting non-exact code duplication with embedding models",
+      "url": "https://github.com/rafal-qa/slopo",
+      "domain": "github.com",
+      "published_at": "2026-07-02T14:19:24Z",
+      "category": "tech",
+      "score": 0.25649700767539463,
+      "tldr": "Show HN: CLI tool for detecting non-exact code duplication with embedding models",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1025,6 +1039,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "c6dfd302-cc51-42e2-8d6a-683f2de40e91",
+      "title": "Comparing Fable and 10 other LLMs on refactoring a LangGraph god node",
+      "url": "https://wtf.korridzy.com/twilight-of-the-gods",
+      "domain": "wtf.korridzy.com",
+      "published_at": "2026-07-02T13:19:56Z",
+      "category": "tech",
+      "score": 0.2560926693275447,
+      "tldr": "Comparing Fable and 10 other LLMs on refactoring a LangGraph god node",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1134,6 +1162,20 @@
       "category": "tech",
       "score": 0.25375776482671947,
       "tldr": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "27e815c5-b56b-46e7-bc5d-bf48b8287c20",
+      "title": "The primary purpose of code review is to find code that will be hard to maintain",
+      "url": "https://mathstodon.xyz/@mjd/115096720350507897",
+      "domain": "mathstodon.xyz",
+      "published_at": "2026-07-02T11:41:27Z",
+      "category": "tech",
+      "score": 0.2533746655100523,
+      "tldr": "The primary purpose of code review is to find code that will be hard to maintain",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1350,62 +1392,20 @@
       ]
     },
     {
-      "id": "2a228236-d786-4613-8a76-9253b191a1ac",
-      "title": "Show HN: Agentic Orchestrator, a TUI for long-running coding agents",
-      "url": "https://github.com/doordash-oss/agentic-orchestrator",
+      "id": "87520c14-5e2f-4943-a780-26905a997cba",
+      "title": "Show HN: I built an open-source alternative to Claude Cowork",
+      "url": "https://github.com/valmishq/valmis",
       "domain": "github.com",
-      "published_at": "2026-06-30T01:14:29Z",
+      "published_at": "2026-07-02T13:17:49Z",
       "category": "tech",
-      "score": 0.2517072170636095,
-      "tldr": "Show HN: Agentic Orchestrator, a TUI for long-running coding agents",
+      "score": 0.2518871963679775,
+      "tldr": "Show HN: I built an open-source alternative to Claude Cowork",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "a80fe0b6-097a-4f31-b1e6-dd1e8f1c0d5d",
-      "title": "Ornith-1.0: A family of open-source LLMs specialized for agentic coding",
-      "url": "https://twitter.com/ornith_/status/2070148887067963854",
-      "domain": "twitter.com",
-      "published_at": "2026-06-27T10:45:38Z",
-      "category": "tech",
-      "score": 0.2516805132611037,
-      "tldr": "0: A family of open-source LLMs specialized for agentic coding",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4e90a085-473b-4268-b5bf-1f0d96904d3f",
-      "title": "Webradio server – broadcasts audio source to clients",
-      "url": "https://github.com/tau-org/tau-tower",
-      "domain": "github.com",
-      "published_at": "2026-06-26T17:57:06Z",
-      "category": "tech",
-      "score": 0.25164658505420034,
-      "tldr": "Webradio server – broadcasts audio source to clients",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "342936bd-8bf6-40c9-b014-4861edc21595",
-      "title": "Stop Quoting Steve Ballmer",
-      "url": "https://www.boxofcables.dev/stop-quoting-steve-ballmer",
-      "domain": "boxofcables.dev",
-      "published_at": "2026-07-01T22:11:56Z",
-      "category": "tech",
-      "score": 0.25158191882972364,
-      "tldr": "Stop Quoting Steve Ballmer",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     }
   ],
-  "last_updated": "2026-07-02T13:14:32.070185945Z",
+  "last_updated": "2026-07-02T15:38:27.612639053Z",
   "total_count": 100
 }
