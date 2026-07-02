@@ -411,21 +411,6 @@
       ]
     },
     {
-      "id": "90d1a801-45cc-44cf-97d1-b86f0ff2d326",
-      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-      "domain": "theverge.com",
-      "published_at": "2026-06-25T22:49:33Z",
-      "category": "tech",
-      "score": 0.30533137085325124,
-      "tldr": "OpenAI will delay GPT-5. 6 after Trump administration request",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "2c0cf8b2-b7b7-4edc-8d29-1e2168e4c9ac",
       "title": "Tidal AI Policy",
       "url": "https://tidal.com/ai-policy",
@@ -434,6 +419,20 @@
       "category": "tech",
       "score": 0.29890299128010495,
       "tldr": "Tidal AI Policy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4bd6a218-7243-4137-9888-a444aeea2554",
+      "title": "Immich 3.0",
+      "url": "https://github.com/immich-app/immich/discussions/29439",
+      "domain": "github.com",
+      "published_at": "2026-07-02T14:13:26Z",
+      "category": "tech",
+      "score": 0.2968428671205665,
+      "tldr": "Immich 3.0",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -552,6 +551,20 @@
       ]
     },
     {
+      "id": "b5d8a7c3-bd1d-4872-bee8-c8bab61f3ccf",
+      "title": "This is my attempt to get Vulkan going on NetBSD",
+      "url": "https://github.com/segaboy/vulkan-netbsd",
+      "domain": "github.com",
+      "published_at": "2026-07-02T18:36:09Z",
+      "category": "tech",
+      "score": 0.2793954600206913,
+      "tldr": "This is my attempt to get Vulkan going on NetBSD",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "bffa757b-7d15-4ad0-9e66-956ecce57d59",
       "title": "The gap between open weights LLMs and closed source LLMs",
       "url": "https://blog.doubleword.ai/frontier-os-llm",
@@ -647,20 +660,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "bba28b6c-95cd-4cb5-9122-dbbfe9615e2c",
-      "title": "The 'papers, please' era of the internet will decimate your privacy",
-      "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
-      "domain": "expression.fire.org",
-      "published_at": "2026-06-25T21:44:55Z",
-      "category": "tech",
-      "score": 0.2724650400066447,
-      "tldr": "The 'papers, please' era of the internet will decimate your privacy",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security"
       ]
     },
     {
@@ -1378,6 +1377,20 @@
       ]
     },
     {
+      "id": "904db963-e84f-48fe-bc16-7e69062fa584",
+      "title": "Swift-Nio-QUIC",
+      "url": "https://github.com/apple/swift-nio-quic",
+      "domain": "github.com",
+      "published_at": "2026-07-02T21:10:15Z",
+      "category": "tech",
+      "score": 0.2520726241748281,
+      "tldr": "Swift-Nio-QUIC",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "582be5be-dd41-425d-b206-aa19d00764b9",
       "title": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
       "url": "https://github.com/arman-jalili/rigorix-oss",
@@ -1390,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d19d1e43-c408-43b6-8e42-1526c19609b7",
-      "title": "NLNet Labs LLM Policy",
-      "url": "https://nlnetlabs.nl/llm-policy",
-      "domain": "nlnetlabs.nl",
-      "published_at": "2026-06-27T07:41:42Z",
-      "category": "tech",
-      "score": 0.2519559127840778,
-      "tldr": "NLNet Labs LLM Policy",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-02T21:41:11.63005151Z",
+  "last_updated": "2026-07-02T22:56:04.932668827Z",
   "total_count": 100
 }
