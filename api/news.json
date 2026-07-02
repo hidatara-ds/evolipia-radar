@@ -608,6 +608,20 @@
       ]
     },
     {
+      "id": "41552c55-c248-4b5f-a8dd-db9c0a2aca85",
+      "title": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
+      "url": "https://github.com/anthropics/claude-code/issues/73125",
+      "domain": "github.com",
+      "published_at": "2026-07-02T18:37:57Z",
+      "category": "tech",
+      "score": 0.2755293782845014,
+      "tldr": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e728c41d-0174-438d-af29-cf45fcd4f57e",
       "title": "Herdr: Agent multiplexer that lives in your terminal",
       "url": "https://github.com/ogulcancelik/herdr",
@@ -924,6 +938,20 @@
       "category": "tech",
       "score": 0.2588140346445836,
       "tldr": "The MUMPS 76 Primer – anniversary edition",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c37c7b85-9f14-4d35-9e92-530fef926830",
+      "title": "Vulkan is now available on NetBSD",
+      "url": "https://github.com/segaboy/vulkan-netbsd",
+      "domain": "github.com",
+      "published_at": "2026-07-02T18:36:09Z",
+      "category": "tech",
+      "score": 0.25785525884840615,
+      "tldr": "Vulkan is now available on NetBSD",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1376,36 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d19d1e43-c408-43b6-8e42-1526c19609b7",
-      "title": "NLNet Labs LLM Policy",
-      "url": "https://nlnetlabs.nl/llm-policy",
-      "domain": "nlnetlabs.nl",
-      "published_at": "2026-06-27T07:41:42Z",
-      "category": "tech",
-      "score": 0.2519559127840778,
-      "tldr": "NLNet Labs LLM Policy",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dbf87399-f124-4c06-aa93-70cf5ee03852",
-      "title": "Instagram is incorporating users' photos in ads for Meta Glasses",
-      "url": "https://twitter.com/i/status/2071277885646868536",
-      "domain": "twitter.com",
-      "published_at": "2026-06-29T13:26:35Z",
-      "category": "tech",
-      "score": 0.2518975660248006,
-      "tldr": "Instagram is incorporating users' photos in ads for Meta Glasses",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-02T18:55:25.53525232Z",
+  "last_updated": "2026-07-02T20:14:13.706917384Z",
   "total_count": 100
 }
