@@ -579,6 +579,20 @@
       ]
     },
     {
+      "id": "cf89b027-8b42-419a-9d8f-5419ef19ae43",
+      "title": "crustc: entirety of `rustc`, translated to C",
+      "url": "https://github.com/FractalFir/crustc",
+      "domain": "github.com",
+      "published_at": "2026-07-02T22:57:35Z",
+      "category": "tech",
+      "score": 0.27799357527516194,
+      "tldr": "crustc: entirety of `rustc`, translated to C",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5b6be4a1-e1bd-4e2d-8676-3d3c435292ee",
       "title": "Godot will no longer accept AI-authored code contributions",
       "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it",
@@ -1389,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "582be5be-dd41-425d-b206-aa19d00764b9",
-      "title": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
-      "url": "https://github.com/arman-jalili/rigorix-oss",
-      "domain": "github.com",
-      "published_at": "2026-07-01T01:17:41Z",
-      "category": "tech",
-      "score": 0.2519698522090507,
-      "tldr": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-02T22:56:04.932668827Z",
+  "last_updated": "2026-07-02T23:55:07.696007665Z",
   "total_count": 100
 }
