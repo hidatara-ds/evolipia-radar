@@ -776,6 +776,20 @@
       ]
     },
     {
+      "id": "9c07b144-3c43-4b54-8873-e09d11c2b675",
+      "title": "No LLM Code in Dependencies",
+      "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies",
+      "domain": "joeyh.name",
+      "published_at": "2026-07-02T14:17:23Z",
+      "category": "tech",
+      "score": 0.26433979260195795,
+      "tldr": "No LLM Code in Dependencies",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "74e20dc7-7dc8-46b3-a06f-eb1b2860c23d",
       "title": "Slisp: Simple Lisp compiler (Linux/amd64)",
       "url": "https://github.com/skx/slisp",
@@ -924,6 +938,20 @@
       "category": "tech",
       "score": 0.2578302628467417,
       "tldr": "JumpServer: Open-Source Privileged Access Management",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2e36c080-ce6f-4054-9a63-aa459b515629",
+      "title": "Immich v3.0.0 Released",
+      "url": "https://github.com/immich-app/immich/discussions/29439",
+      "domain": "github.com",
+      "published_at": "2026-07-02T14:13:26Z",
+      "category": "tech",
+      "score": 0.2573195359543178,
+      "tldr": "Immich v3.0.0 Released",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1210,6 +1238,20 @@
       ]
     },
     {
+      "id": "d13ee19c-3056-4276-aa95-403f513b4c20",
+      "title": "Show HN: ctx – Search the coding agent history already on your machine",
+      "url": "https://github.com/ctxrs/ctx",
+      "domain": "github.com",
+      "published_at": "2026-07-02T15:58:32Z",
+      "category": "tech",
+      "score": 0.25272804191588477,
+      "tldr": "Show HN: ctx – Search the coding agent history already on your machine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "fad13eb4-65c5-4c23-9538-8a390fd54d96",
       "title": "IBM MCGA Gate Array Reverse Engineering",
       "url": "https://github.com/schlae/IBM_MCGA",
@@ -1362,50 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "87520c14-5e2f-4943-a780-26905a997cba",
-      "title": "Show HN: I built an open-source alternative to Claude Cowork",
-      "url": "https://github.com/valmishq/valmis",
-      "domain": "github.com",
-      "published_at": "2026-07-02T13:17:49Z",
-      "category": "tech",
-      "score": 0.2518871963679775,
-      "tldr": "Show HN: I built an open-source alternative to Claude Cowork",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "464970aa-a99b-4b9f-939f-8edc8a18517b",
-      "title": "Show HN: Enola-A deterministic architecture graph for developers and AI agents",
-      "url": "https://github.com/enola-labs/enola/tree/main",
-      "domain": "github.com",
-      "published_at": "2026-07-02T14:53:27Z",
-      "category": "tech",
-      "score": 0.2518262868262173,
-      "tldr": "Show HN: Enola-A deterministic architecture graph for developers and AI agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2a228236-d786-4613-8a76-9253b191a1ac",
-      "title": "Show HN: Agentic Orchestrator, a TUI for long-running coding agents",
-      "url": "https://github.com/doordash-oss/agentic-orchestrator",
-      "domain": "github.com",
-      "published_at": "2026-06-30T01:14:29Z",
-      "category": "tech",
-      "score": 0.2517072170636095,
-      "tldr": "Show HN: Agentic Orchestrator, a TUI for long-running coding agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-02T17:25:33.590199439Z",
+  "last_updated": "2026-07-02T18:55:25.53525232Z",
   "total_count": 100
 }
