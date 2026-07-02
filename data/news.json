@@ -15,6 +15,20 @@
       ]
     },
     {
+      "id": "7c76cae8-62e3-4590-9e2e-34f7867cf851",
+      "title": "Android Developer Verification: Threat masquerading as Protection",
+      "url": "https://f-droid.org/2026/07/01/adv-malware.html",
+      "domain": "f-droid.org",
+      "published_at": "2026-07-02T03:00:15Z",
+      "category": "tech",
+      "score": 0.5725470997274972,
+      "tldr": "Android Developer Verification: Threat masquerading as Protection",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "02aa1515-b695-45bd-b3b2-47d02c0686cc",
       "title": "Most arguments are about ego, not ideas",
       "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
@@ -141,20 +155,6 @@
       ]
     },
     {
-      "id": "d7ed0102-a8e3-4001-93e0-60e20c4e0cdf",
-      "title": "Apple raises prices of MacBooks, iPads",
-      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25",
-      "domain": "reuters.com",
-      "published_at": "2026-06-25T13:02:56Z",
-      "category": "tech",
-      "score": 0.39294515055237156,
-      "tldr": "Apple raises prices of MacBooks, iPads",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8bee1de8-59da-43d2-9ac0-f52b95b6c9fb",
       "title": "Claude Code Is Steganographically Marking Requests",
       "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
@@ -165,6 +165,21 @@
       "tldr": "Claude Code Is Steganographically Marking Requests",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "171d2e16-8a07-4a07-90a6-a038a11dedeb",
+      "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
+      "url": "https://arxiv.org/abs/2607.01232",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-02T12:10:24Z",
+      "category": "tech",
+      "score": 0.37923240228164884,
+      "tldr": "A Single Transformer Layer Matches Full-Parameter RL Train",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
         "general_ai"
       ]
     },
@@ -410,20 +425,6 @@
       ]
     },
     {
-      "id": "ee191fa4-c2fa-4303-9841-db00faf2ce30",
-      "title": "Apple announces significant price increases for MacBooks, iPads, more",
-      "url": "https://9to5mac.com/2026/06/25/apple-price-increases-mac-ipad-more",
-      "domain": "9to5mac.com",
-      "published_at": "2026-06-25T13:02:56Z",
-      "category": "tech",
-      "score": 0.30611477674128784,
-      "tldr": "Apple announces significant price increases for MacBooks, iPads, more",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "90d1a801-45cc-44cf-97d1-b86f0ff2d326",
       "title": "OpenAI will delay GPT-5.6 after Trump administration request",
       "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
@@ -531,20 +532,6 @@
       "category": "tech",
       "score": 0.29064204716180053,
       "tldr": "Om Malik has died",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0a6df78b-729c-43ce-9a84-0f81a24e3ceb",
-      "title": "Countries are competing to see which can carry out mass surveillance the best",
-      "url": "https://mullvad.net/en/why-privacy-matters/state-mass-surveillance",
-      "domain": "mullvad.net",
-      "published_at": "2026-06-25T13:07:07Z",
-      "category": "tech",
-      "score": 0.2892038355663039,
-      "tldr": "Countries are competing to see which can carry out mass surveillance the best",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -985,20 +972,6 @@
       ]
     },
     {
-      "id": "3272b903-a80e-4846-9f53-e5249cb94398",
-      "title": "Show HN: Secs-man, a secrets manager you can (not) rely on",
-      "url": "https://github.com/Fran314/secrets-manager-rs",
-      "domain": "github.com",
-      "published_at": "2026-06-25T12:30:36Z",
-      "category": "tech",
-      "score": 0.257624238695247,
-      "tldr": "Show HN: Secs-man, a secrets manager you can (not) rely on",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bcd59eda-71ff-4fee-a46d-174234728161",
       "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
       "url": "https://github.com/openai/codex/issues/2847",
@@ -1403,8 +1376,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "4e90a085-473b-4268-b5bf-1f0d96904d3f",
+      "title": "Webradio server – broadcasts audio source to clients",
+      "url": "https://github.com/tau-org/tau-tower",
+      "domain": "github.com",
+      "published_at": "2026-06-26T17:57:06Z",
+      "category": "tech",
+      "score": 0.25164658505420034,
+      "tldr": "Webradio server – broadcasts audio source to clients",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "342936bd-8bf6-40c9-b014-4861edc21595",
+      "title": "Stop Quoting Steve Ballmer",
+      "url": "https://www.boxofcables.dev/stop-quoting-steve-ballmer",
+      "domain": "boxofcables.dev",
+      "published_at": "2026-07-01T22:11:56Z",
+      "category": "tech",
+      "score": 0.25158191882972364,
+      "tldr": "Stop Quoting Steve Ballmer",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-02T11:06:35.947656221Z",
+  "last_updated": "2026-07-02T13:14:32.070185945Z",
   "total_count": 100
 }
