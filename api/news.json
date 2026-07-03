@@ -774,20 +774,6 @@
       ]
     },
     {
-      "id": "f78ef354-6e43-43ce-8eec-fe2a97ec642a",
-      "title": "Captcha proves you're human. HATCHA proves you're not",
-      "url": "https://github.com/mondaycom/HATCHA",
-      "domain": "github.com",
-      "published_at": "2026-06-26T12:06:17Z",
-      "category": "tech",
-      "score": 0.26713550096694116,
-      "tldr": "Captcha proves you're human. HATCHA proves you're not",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ede16894-4f1d-4180-97b3-dcb7c0040a44",
       "title": "Lore – Give your coding agent the decisions your team made",
       "url": "https://github.com/itsthelore/rac-core",
@@ -1138,20 +1124,6 @@
       ]
     },
     {
-      "id": "a48a7ff9-0a5a-4fe9-a186-1c3d8c5748ac",
-      "title": "Mlibc: A fukk-featured portable C standard library",
-      "url": "https://github.com/managarm/mlibc",
-      "domain": "github.com",
-      "published_at": "2026-06-26T11:42:04Z",
-      "category": "tech",
-      "score": 0.2550066327889133,
-      "tldr": "Mlibc: A fukk-featured portable C standard library",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1a3a0461-5b33-46aa-9244-b06eb710e130",
       "title": "Are readers generating fiction with AI models?",
       "url": "https://arxiv.org/abs/2606.22748",
@@ -1402,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
+      "title": "Knowledge Distillation of Black-Box Large Language Models",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T22:32:04Z",
+      "category": "tech",
+      "score": 0.25208798865806664,
+      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "904db963-e84f-48fe-bc16-7e69062fa584",
+      "title": "Swift-Nio-QUIC",
+      "url": "https://github.com/apple/swift-nio-quic",
+      "domain": "github.com",
+      "published_at": "2026-07-02T21:10:15Z",
+      "category": "tech",
+      "score": 0.2520726241748281,
+      "tldr": "Swift-Nio-QUIC",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-03T11:24:45.495118771Z",
+  "last_updated": "2026-07-03T13:18:56.49953243Z",
   "total_count": 100
 }
