@@ -212,20 +212,6 @@
       ]
     },
     {
-      "id": "cc6482fd-3a51-445a-94a0-b2a5e6dce872",
-      "title": "U.S. government will decide who gets to use GPT-5.6",
-      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
-      "domain": "washingtonpost.com",
-      "published_at": "2026-06-26T18:23:14Z",
-      "category": "tech",
-      "score": 0.36715031624841493,
-      "tldr": "government will decide who gets to use GPT-5.",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "1f020e71-63ba-4931-986e-a5fbad74dbd6",
       "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
       "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
@@ -269,6 +255,20 @@
       ]
     },
     {
+      "id": "ceb794dc-a2a3-40a1-a03c-96a8267f2d36",
+      "title": "Markets are competitive if and only if P != NP",
+      "url": "https://arxiv.org/abs/2602.20415",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-03T15:41:44Z",
+      "category": "tech",
+      "score": 0.3524160273091767,
+      "tldr": "Markets are competitive if and only if P !",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3d4b5118-f502-4f27-8f29-25e6f75ab67d",
       "title": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
       "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it",
@@ -291,6 +291,20 @@
       "category": "tech",
       "score": 0.3380878531750856,
       "tldr": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4cc60781-ba84-417a-9628-02b647b39eaa",
+      "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination",
+      "url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
+      "domain": "inpreparation.substack.com",
+      "published_at": "2026-07-03T17:46:10Z",
+      "category": "tech",
+      "score": 0.3370271428274294,
+      "tldr": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -872,20 +886,6 @@
       ]
     },
     {
-      "id": "74e20dc7-7dc8-46b3-a06f-eb1b2860c23d",
-      "title": "Slisp: Simple Lisp compiler (Linux/amd64)",
-      "url": "https://github.com/skx/slisp",
-      "domain": "github.com",
-      "published_at": "2026-06-26T18:30:11Z",
-      "category": "tech",
-      "score": 0.26413243496235145,
-      "tldr": "Slisp: Simple Lisp compiler (Linux/amd64)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "dbcca654-4848-48ff-8e0c-6f97c5d2739b",
       "title": "We Are the Last People Who Know How It Works",
       "url": "https://unix.foo/posts/last-people-who-know-how-it-works",
@@ -1348,20 +1348,6 @@
       ]
     },
     {
-      "id": "8201277b-b138-42a9-8b7d-10baad4572c5",
-      "title": "Murmur: Shared communication bus for your coding agents",
-      "url": "https://github.com/instavm/murmur",
-      "domain": "github.com",
-      "published_at": "2026-06-26T18:20:42Z",
-      "category": "tech",
-      "score": 0.252396141994876,
-      "tldr": "Murmur: Shared communication bus for your coding agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c1b0654b-ccb0-4a1b-8927-c7f6156a76b6",
       "title": "Reed-Solomon for OCR: error correction for messy printed codes",
       "url": "https://github.com/chasangchual/reed-solomon-for-ocr",
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
+      "title": "Knowledge Distillation of Black-Box Large Language Models",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T22:32:04Z",
+      "category": "tech",
+      "score": 0.25208798865806664,
+      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-03T17:11:33.039991214Z",
+  "last_updated": "2026-07-03T18:44:43.621523488Z",
   "total_count": 100
 }
