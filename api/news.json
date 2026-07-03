@@ -340,6 +340,20 @@
       ]
     },
     {
+      "id": "a85394b8-db51-4fcb-8e51-f5bca379db88",
+      "title": "Lotus: Optimized Agentic and LLM Bulk Processing",
+      "url": "https://github.com/lotus-data/lotus",
+      "domain": "github.com",
+      "published_at": "2026-07-03T02:35:05Z",
+      "category": "tech",
+      "score": 0.3258139656179243,
+      "tldr": "Lotus: Optimized Agentic and LLM Bulk Processing",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b6638492-a8db-4e33-98ca-a2281038c459",
       "title": "Show HN: KV-psi, using Linux PSI to to trim an LLM KV cache",
       "url": "https://github.com/infiniteregrets/kv-psi",
@@ -531,6 +545,20 @@
       "category": "tech",
       "score": 0.28711788076459827,
       "tldr": "Springer Nature has removed two studies by Max Planck",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2a41c7d4-14a9-463f-a410-c0bc4fd8c4e9",
+      "title": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
+      "url": "https://stefan.schueller.net/posts/the-free-market-lie",
+      "domain": "stefan.schueller.net",
+      "published_at": "2026-07-03T04:16:17Z",
+      "category": "tech",
+      "score": 0.2837245802991794,
+      "tldr": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1375,36 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
-      "title": "Knowledge Distillation of Black-Box Large Language Models",
-      "url": "https://arxiv.org/abs/2401.07013",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-28T22:32:04Z",
-      "category": "tech",
-      "score": 0.25208798865806664,
-      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "904db963-e84f-48fe-bc16-7e69062fa584",
-      "title": "Swift-Nio-QUIC",
-      "url": "https://github.com/apple/swift-nio-quic",
-      "domain": "github.com",
-      "published_at": "2026-07-02T21:10:15Z",
-      "category": "tech",
-      "score": 0.2520726241748281,
-      "tldr": "Swift-Nio-QUIC",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-03T01:49:14.478402425Z",
+  "last_updated": "2026-07-03T05:42:24.200219364Z",
   "total_count": 100
 }
