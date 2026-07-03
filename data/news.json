@@ -802,6 +802,20 @@
       ]
     },
     {
+      "id": "369c0db1-2a6e-4e23-92a9-e4c49156f7e0",
+      "title": "Half-Baked Product",
+      "url": "https://weli.dev/blog/half-baked-product",
+      "domain": "weli.dev",
+      "published_at": "2026-07-03T08:23:32Z",
+      "category": "tech",
+      "score": 0.26612231209212317,
+      "tldr": "Half-Baked Product",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "97d022fd-139f-4a9e-8222-ced845b34423",
       "title": "Nano Banana 2 Lite",
       "url": "https://deepmind.google/models/gemini-image/flash-lite",
@@ -1388,22 +1402,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
-      "title": "Knowledge Distillation of Black-Box Large Language Models",
-      "url": "https://arxiv.org/abs/2401.07013",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-28T22:32:04Z",
-      "category": "tech",
-      "score": 0.25208798865806664,
-      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-03T08:46:13.210327028Z",
+  "last_updated": "2026-07-03T11:24:45.495118771Z",
   "total_count": 100
 }
