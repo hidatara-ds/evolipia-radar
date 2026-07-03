@@ -647,20 +647,6 @@
       ]
     },
     {
-      "id": "bffa757b-7d15-4ad0-9e66-956ecce57d59",
-      "title": "The gap between open weights LLMs and closed source LLMs",
-      "url": "https://blog.doubleword.ai/frontier-os-llm",
-      "domain": "blog.doubleword.ai",
-      "published_at": "2026-06-26T21:14:47Z",
-      "category": "tech",
-      "score": 0.2790765017387763,
-      "tldr": "The gap between open weights LLMs and closed source LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "bf7e3be2-be1c-4580-b77b-de8de0d29dde",
       "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
       "url": "https://news.ycombinator.com/item?id=48771515",
@@ -885,6 +871,20 @@
       ]
     },
     {
+      "id": "33183c1c-83ab-458a-a432-378f9d4f590e",
+      "title": "SearXNG: A free internet metasearch engine",
+      "url": "https://github.com/searxng/searxng",
+      "domain": "github.com",
+      "published_at": "2026-07-03T20:15:49Z",
+      "category": "tech",
+      "score": 0.26630573041245276,
+      "tldr": "SearXNG: A free internet metasearch engine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ede16894-4f1d-4180-97b3-dcb7c0040a44",
       "title": "Lore – Give your coding agent the decisions your team made",
       "url": "https://github.com/itsthelore/rac-core",
@@ -991,20 +991,6 @@
       "category": "tech",
       "score": 0.2612291472252041,
       "tldr": "0: self-improving open-source models for agentic coding",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1ff15832-b58b-4c91-acee-c7f6189502eb",
-      "title": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
-      "url": "https://github.com/Tessil/hopscotch-map",
-      "domain": "github.com",
-      "published_at": "2026-06-26T21:18:28Z",
-      "category": "tech",
-      "score": 0.26096084245688905,
-      "tldr": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1221,6 +1207,20 @@
       ]
     },
     {
+      "id": "e3a6baf4-121e-40c5-a70d-8e16463146fd",
+      "title": "ClawdMojis – A Clawd for Every Occasion",
+      "url": "https://github.com/afspies/ClawdMoji",
+      "domain": "github.com",
+      "published_at": "2026-07-03T19:28:10Z",
+      "category": "tech",
+      "score": 0.2550960165720068,
+      "tldr": "ClawdMojis – A Clawd for Every Occasion",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1a3a0461-5b33-46aa-9244-b06eb710e130",
       "title": "Are readers generating fiction with AI models?",
       "url": "https://arxiv.org/abs/2606.22748",
@@ -1403,6 +1403,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-03T20:09:23.109080702Z",
+  "last_updated": "2026-07-03T21:38:34.801415626Z",
   "total_count": 100
 }
