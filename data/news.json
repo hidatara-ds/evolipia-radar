@@ -255,6 +255,20 @@
       ]
     },
     {
+      "id": "80d608bf-24db-47fc-8285-e7bdb673a0c4",
+      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "url": "https://github.com/jamesob/local-llm",
+      "domain": "github.com",
+      "published_at": "2026-07-03T15:03:43Z",
+      "category": "tech",
+      "score": 0.35347358848446137,
+      "tldr": "Jamesob's guide to running SOTA LLMs locally",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "3d4b5118-f502-4f27-8f29-25e6f75ab67d",
       "title": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
       "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it",
@@ -291,20 +305,6 @@
       "category": "tech",
       "score": 0.33518320405771307,
       "tldr": "Claude-real-video － any LLM can watch a video",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8a3a2248-a39d-4e9f-9724-85643cbe14ef",
-      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "domain": "openai.com",
-      "published_at": "2026-06-26T17:06:55Z",
-      "category": "tech",
-      "score": 0.3344102314542145,
-      "tldr": "6 Sol: a next-generation model",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -406,6 +406,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "20c1c7f0-6452-4c9d-aabc-84b3a44545f2",
+      "title": "Markets are competitive if and only if P = NP",
+      "url": "https://arxiv.org/abs/2602.20415",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-03T15:41:44Z",
+      "category": "tech",
+      "score": 0.31912221182758943,
+      "tldr": "Markets are competitive if and only if P = NP",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
         "general_ai"
       ]
     },
@@ -1096,20 +1110,6 @@
       ]
     },
     {
-      "id": "2b82604b-b5c3-4ec6-9fa2-456d148ef6c1",
-      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
-      "url": "https://github.com/workweave/router",
-      "domain": "github.com",
-      "published_at": "2026-06-26T16:40:11Z",
-      "category": "tech",
-      "score": 0.2561585066638363,
-      "tldr": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c6dfd302-cc51-42e2-8d6a-683f2de40e91",
       "title": "Comparing Fable and 10 other LLMs on refactoring a LangGraph god node",
       "url": "https://wtf.korridzy.com/twilight-of-the-gods",
@@ -1121,6 +1121,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "18769fa4-ae13-40e7-b6d9-fbd29bc7ac13",
+      "title": "60% Fable cost cut by converting code to images and having the model OCR it",
+      "url": "https://github.com/teamchong/pxpipe",
+      "domain": "github.com",
+      "published_at": "2026-07-03T15:50:49Z",
+      "category": "tech",
+      "score": 0.2556301762304928,
+      "tldr": "60% Fable cost cut by converting code to images and having the model OCR it",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1388,22 +1402,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
-      "title": "Knowledge Distillation of Black-Box Large Language Models",
-      "url": "https://arxiv.org/abs/2401.07013",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-28T22:32:04Z",
-      "category": "tech",
-      "score": 0.25208798865806664,
-      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-03T15:32:46.854773781Z",
+  "last_updated": "2026-07-03T17:11:33.039991214Z",
   "total_count": 100
 }
