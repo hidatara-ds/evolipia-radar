@@ -254,6 +254,20 @@
       ]
     },
     {
+      "id": "602b476d-06b2-4648-a243-1b7d602afbb7",
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "url": "https://github.com/openai/codex/issues/30364",
+      "domain": "github.com",
+      "published_at": "2026-07-04T21:51:09Z",
+      "category": "tech",
+      "score": 0.3374546108779828,
+      "tldr": "5 Codex reasoning-token clustering may be leading to degraded performance",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "4cc60781-ba84-417a-9628-02b647b39eaa",
       "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination",
       "url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
@@ -1388,22 +1402,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "326d4ff3-9783-469a-ae54-0a0aa8eabc63",
-      "title": "Yap – free offline voice dictation for Mac/Windows/Linux (Wispr Flow alt)",
-      "url": "https://github.com/AkuchiS/yap",
-      "domain": "github.com",
-      "published_at": "2026-06-28T02:41:06Z",
-      "category": "tech",
-      "score": 0.2529753306142572,
-      "tldr": "Yap – free offline voice dictation for Mac/Windows/Linux (Wispr Flow alt)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-04T21:25:57.591008324Z",
+  "last_updated": "2026-07-04T22:25:38.046107823Z",
   "total_count": 100
 }
