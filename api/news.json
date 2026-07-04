@@ -423,20 +423,6 @@
       ]
     },
     {
-      "id": "6cd42a5e-e7c4-473a-82fc-52f472294202",
-      "title": "The case for physical media ownership",
-      "url": "https://dervis.de/physical",
-      "domain": "dervis.de",
-      "published_at": "2026-06-27T11:32:10Z",
-      "category": "tech",
-      "score": 0.3153514830224388,
-      "tldr": "The case for physical media ownership",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3a8dabb5-d4e7-4a39-ac79-e8230b2963d7",
       "title": "A retrospective of my time on the internet",
       "url": "https://cleberg.net/blog/internet.html",
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f0975a01-5855-43ef-8542-a35fc8ee40e1",
+      "title": "Show HN: ContextCodeCache in Rust",
+      "url": "https://github.com/colwill/ccc",
+      "domain": "github.com",
+      "published_at": "2026-07-03T21:03:19Z",
+      "category": "tech",
+      "score": 0.2524700573723664,
+      "tldr": "Show HN: ContextCodeCache in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-04T10:31:03.562602005Z",
+  "last_updated": "2026-07-04T11:52:16.835051928Z",
   "total_count": 100
 }
