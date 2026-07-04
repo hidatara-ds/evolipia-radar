@@ -113,20 +113,6 @@
       ]
     },
     {
-      "id": "7a136097-3258-436d-a809-67d015a1c0d7",
-      "title": "Zuckerberg's war on whistleblowers",
-      "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2",
-      "domain": "pluralistic.net",
-      "published_at": "2026-06-27T14:38:05Z",
-      "category": "tech",
-      "score": 0.4097145594595034,
-      "tldr": "Zuckerberg's war on whistleblowers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8bee1de8-59da-43d2-9ac0-f52b95b6c9fb",
       "title": "Claude Code Is Steganographically Marking Requests",
       "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
@@ -460,6 +446,20 @@
       "category": "tech",
       "score": 0.29890299128010495,
       "tldr": "Tidal AI Policy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1a88c7b7-2ef7-4903-87f0-7b2f0c65f73e",
+      "title": "Potential session/cache leakage between workspace instances or consumer accounts",
+      "url": "https://github.com/anthropics/claude-code/issues/74066",
+      "domain": "github.com",
+      "published_at": "2026-07-04T14:03:40Z",
+      "category": "tech",
+      "score": 0.29768009384756006,
+      "tldr": "Potential session/cache leakage between workspace instances or consumer accounts",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -970,20 +970,6 @@
       ]
     },
     {
-      "id": "4d081edc-e74d-45ea-a32f-748c74777043",
-      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
-      "url": "https://github.com/bikini/exploitarium",
-      "domain": "github.com",
-      "published_at": "2026-06-27T14:31:00Z",
-      "category": "tech",
-      "score": 0.2599548256787749,
-      "tldr": "Anonymous GitHub account mass-dropping undisclosed 0-days",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f66031b8-ab4b-418a-95ed-ef5bbc9ce0fb",
       "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
       "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
@@ -1161,6 +1147,20 @@
       "score": 0.2556301762304928,
       "tldr": "60% Fable cost cut by converting code to images and having the model OCR it",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "845aa911-e074-4c2e-aac1-d0f3042ee19e",
+      "title": "Does average person understand that all disc media dies too?",
+      "url": "https://news.ycombinator.com/item?id=48785525",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-04T14:08:55Z",
+      "category": "tech",
+      "score": 0.25556940868190453,
+      "tldr": "Does average person understand that all disc media dies too?",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -1404,6 +1404,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-04T14:23:53.361189217Z",
+  "last_updated": "2026-07-04T15:38:51.601437167Z",
   "total_count": 100
 }
