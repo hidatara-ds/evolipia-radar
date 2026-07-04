@@ -366,6 +366,20 @@
       ]
     },
     {
+      "id": "517e8fd2-3857-4b70-88ea-dc2b1a23f4ce",
+      "title": "OpenScience: Workbench for scientific research using custom LLMs",
+      "url": "https://github.com/synthetic-sciences/openscience",
+      "domain": "github.com",
+      "published_at": "2026-07-04T16:50:25Z",
+      "category": "tech",
+      "score": 0.325369430428871,
+      "tldr": "OpenScience: Workbench for scientific research using custom LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "222930b8-cd62-4ce0-a985-658b044b3147",
       "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
       "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
@@ -810,20 +824,6 @@
       "category": "tech",
       "score": 0.26850246790963495,
       "tldr": "Memorizing session transcripts isn't useful",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "322c2724-e039-4ba7-8622-1e30b826121f",
-      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
-      "url": "https://github.com/kageroumado/adrafinil",
-      "domain": "github.com",
-      "published_at": "2026-06-27T20:34:53Z",
-      "category": "tech",
-      "score": 0.2678521023468244,
-      "tldr": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1404,6 +1404,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-04T20:04:45.313582752Z",
+  "last_updated": "2026-07-04T21:25:57.591008324Z",
   "total_count": 100
 }
