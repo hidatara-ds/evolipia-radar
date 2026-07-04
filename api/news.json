@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "82b3be48-5d72-4fb0-9f37-e969530591b0",
-      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-      "domain": "github.com",
-      "published_at": "2026-06-27T09:18:52Z",
-      "category": "tech",
-      "score": 0.6460646290509207,
-      "tldr": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7c76cae8-62e3-4590-9e2e-34f7867cf851",
       "title": "Android Developer Verification: Threat masquerading as Protection",
       "url": "https://f-droid.org/2026/07/01/adv-malware.html",
@@ -82,20 +68,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data"
-      ]
-    },
-    {
-      "id": "afc85d7b-badd-40be-bc2c-73af9b491ef9",
-      "title": "DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
-      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-      "domain": "github.com",
-      "published_at": "2026-06-27T09:18:52Z",
-      "category": "tech",
-      "score": 0.4382101411687932,
-      "tldr": "DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1402,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f8f1b1f7-ba84-4d1b-9470-18c78dd220a3",
+      "title": "Programmable Probabilistic Computer with 1M p-bits",
+      "url": "https://arxiv.org/abs/2606.25313",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T15:55:31Z",
+      "category": "tech",
+      "score": 0.25291624629638004,
+      "tldr": "Programmable Probabilistic Computer with 1M p-bits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d13ee19c-3056-4276-aa95-403f513b4c20",
+      "title": "Show HN: ctx – Search the coding agent history already on your machine",
+      "url": "https://github.com/ctxrs/ctx",
+      "domain": "github.com",
+      "published_at": "2026-07-02T15:58:32Z",
+      "category": "tech",
+      "score": 0.25272804191588477,
+      "tldr": "Show HN: ctx – Search the coding agent history already on your machine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-04T08:20:46.116500648Z",
+  "last_updated": "2026-07-04T10:31:03.562602005Z",
   "total_count": 100
 }
