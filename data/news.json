@@ -366,20 +366,6 @@
       ]
     },
     {
-      "id": "b6638492-a8db-4e33-98ca-a2281038c459",
-      "title": "Show HN: KV-psi, using Linux PSI to to trim an LLM KV cache",
-      "url": "https://github.com/infiniteregrets/kv-psi",
-      "domain": "github.com",
-      "published_at": "2026-06-27T22:50:54Z",
-      "category": "tech",
-      "score": 0.32573941036937537,
-      "tldr": "Show HN: KV-psi, using Linux PSI to to trim an LLM KV cache",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "517e8fd2-3857-4b70-88ea-dc2b1a23f4ce",
       "title": "OpenScience: Workbench for scientific research using custom LLMs",
       "url": "https://github.com/synthetic-sciences/openscience",
@@ -1402,8 +1388,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "326d4ff3-9783-469a-ae54-0a0aa8eabc63",
+      "title": "Yap – free offline voice dictation for Mac/Windows/Linux (Wispr Flow alt)",
+      "url": "https://github.com/AkuchiS/yap",
+      "domain": "github.com",
+      "published_at": "2026-06-28T02:41:06Z",
+      "category": "tech",
+      "score": 0.2529753306142572,
+      "tldr": "Yap – free offline voice dictation for Mac/Windows/Linux (Wispr Flow alt)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-04T22:25:38.046107823Z",
+  "last_updated": "2026-07-04T23:28:47.471893434Z",
   "total_count": 100
 }
