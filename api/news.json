@@ -368,20 +368,6 @@
       ]
     },
     {
-      "id": "46227b48-ba0d-43ce-9d94-325f6756fa83",
-      "title": "Librepods: AirPods liberated",
-      "url": "https://github.com/librepods-org/librepods",
-      "domain": "github.com",
-      "published_at": "2026-06-28T18:48:53Z",
-      "category": "tech",
-      "score": 0.32732763543442217,
-      "tldr": "Librepods: AirPods liberated",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a85394b8-db51-4fcb-8e51-f5bca379db88",
       "title": "Lotus: Optimized Agentic and LLM Bulk Processing",
       "url": "https://github.com/lotus-data/lotus",
@@ -713,20 +699,6 @@
       "category": "tech",
       "score": 0.274969326429475,
       "tldr": "Herdr: Agent multiplexer that lives in your terminal",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f00a14bf-efdc-4fd8-ac48-95cd607c6f75",
-      "title": "GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
-      "url": "https://github.com/librepods-org/librepods",
-      "domain": "github.com",
-      "published_at": "2026-06-28T18:48:53Z",
-      "category": "tech",
-      "score": 0.27417151134841294,
-      "tldr": "GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1403,8 +1375,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
+      "title": "Knowledge Distillation of Black-Box Large Language Models",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T22:32:04Z",
+      "category": "tech",
+      "score": 0.25208798865806664,
+      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b248ff5d-6077-43ec-9154-735c45040b46",
+      "title": "Tell HN: Fewer PRs done with proper prompting, review, and refinement wins",
+      "url": "https://news.ycombinator.com/item?id=48778345",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-03T18:37:36Z",
+      "category": "tech",
+      "score": 0.25208566624220724,
+      "tldr": "Tell HN: Fewer PRs done with proper prompting, review, and refinement wins",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-05T17:55:18.094348938Z",
+  "last_updated": "2026-07-05T18:58:51.721392088Z",
   "total_count": 100
 }
