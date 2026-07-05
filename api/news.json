@@ -326,20 +326,6 @@
       ]
     },
     {
-      "id": "6066b69d-cbe3-445c-8685-aa379c101646",
-      "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "url": "https://github.com/kamaludu/bash4llm",
-      "domain": "github.com",
-      "published_at": "2026-06-28T19:43:10Z",
-      "category": "tech",
-      "score": 0.3312694060853785,
-      "tldr": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "2e291c72-2548-43fb-8c4d-e3fd883c27b5",
       "title": "Protect your right to run local AI",
       "url": "https://righttointelligence.org/",
@@ -545,6 +531,20 @@
       "category": "tech",
       "score": 0.28919832226760767,
       "tldr": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "eff9f0c7-df35-44c1-947d-d064ae889c61",
+      "title": "A sociotechnical threat model for AI-driven smart home devices",
+      "url": "https://arxiv.org/abs/2602.09239",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-05T17:05:57Z",
+      "category": "tech",
+      "score": 0.28899279236220315,
+      "tldr": "A sociotechnical threat model for AI-driven smart home devices",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -772,6 +772,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "85d067e9-b4ad-4de8-82ed-e572b8b4e461",
+      "title": "Introduction to Compilers and Language Design (2021)",
+      "url": "https://dthain.github.io/books/compiler",
+      "domain": "dthain.github.io",
+      "published_at": "2026-07-05T11:54:16Z",
+      "category": "tech",
+      "score": 0.2672081869003098,
+      "tldr": "Introduction to Compilers and Language Design (2021)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1265,20 +1279,6 @@
       ]
     },
     {
-      "id": "347c81aa-bdcd-4707-a6bb-73d01292303e",
-      "title": "Do LLMs pass the mirror test?",
-      "url": "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test",
-      "domain": "blog.pascalschuster.de",
-      "published_at": "2026-06-28T19:06:07Z",
-      "category": "tech",
-      "score": 0.25330193401043455,
-      "tldr": "Do LLMs pass the mirror test?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "18a10044-2be0-467c-b850-c05246e39489",
       "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
       "url": "https://arxiv.org/abs/2607.02512",
@@ -1405,6 +1405,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-05T18:58:51.721392088Z",
+  "last_updated": "2026-07-05T20:11:04.757006175Z",
   "total_count": 100
 }
