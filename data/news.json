@@ -142,6 +142,21 @@
       ]
     },
     {
+      "id": "b34ac07c-e6ce-4bcb-8cac-9ea73072a8cd",
+      "title": "Train and run transformers directly on Apple's Neural Engine",
+      "url": "https://github.com/christopherkarani/Espresso",
+      "domain": "github.com",
+      "published_at": "2026-07-05T15:02:43Z",
+      "category": "tech",
+      "score": 0.37828908359933633,
+      "tldr": "Train and run transformers directly on Apple's Neural Engine",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "63e322d4-e2d0-4a56-8235-e6016c8d58a2",
       "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination (2025)",
       "url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
@@ -502,20 +517,6 @@
       "category": "tech",
       "score": 0.29429047300312616,
       "tldr": "European digital ID wallets are a gift to Google and Apple",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3478f837-7f20-4ddf-a6d7-02c395a35ce7",
-      "title": "5k menus from the New York Public Library’s Buttolph Collection (1880-1920)",
-      "url": "https://pudding.cool/2026/06/menu-story",
-      "domain": "pudding.cool",
-      "published_at": "2026-06-28T14:44:56Z",
-      "category": "tech",
-      "score": 0.29398057956704177,
-      "tldr": "5k menus from the New York Public Library’s Buttolph Collection (1880-1920)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1404,6 +1405,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-05T14:14:58.73604256Z",
+  "last_updated": "2026-07-05T15:43:24.577130383Z",
   "total_count": 100
 }
