@@ -354,6 +354,20 @@
       ]
     },
     {
+      "id": "177ce55f-3bf7-421b-8bce-90feb40b7dcb",
+      "title": "Show HN: Sidenote – comment on your rendered blog, an LLM writes the Git diff",
+      "url": "https://github.com/bharadwaj-pendyala/sidenote",
+      "domain": "github.com",
+      "published_at": "2026-07-05T20:39:11Z",
+      "category": "tech",
+      "score": 0.3260994436875262,
+      "tldr": "Show HN: Sidenote – comment on your rendered blog, an LLM writes the Git diff",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a85394b8-db51-4fcb-8e51-f5bca379db88",
       "title": "Lotus: Optimized Agentic and LLM Bulk Processing",
       "url": "https://github.com/lotus-data/lotus",
@@ -646,20 +660,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "59e4cedc-ad1b-4c6b-acef-deb0d1f63b7c",
-      "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
-      "url": "https://arxiv.org/abs/2401.07013",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-28T22:32:04Z",
-      "category": "tech",
-      "score": 0.27622429366752277,
-      "tldr": "Knowledge Distillation of Black-Box Large Language Models (2024)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1181,6 +1181,20 @@
       ]
     },
     {
+      "id": "590f1c8a-320d-4166-996a-6ed683c1d38a",
+      "title": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
+      "url": "https://github.com/514-labs/dnsglobe",
+      "domain": "github.com",
+      "published_at": "2026-07-05T21:55:53Z",
+      "category": "tech",
+      "score": 0.25407826056166194,
+      "tldr": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "9deec72b-fa23-4255-bcc9-5c822b484a05",
       "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
       "url": "https://ridgetext.com/blog/mapbox-llm-composition",
@@ -1377,20 +1391,6 @@
       ]
     },
     {
-      "id": "2953324b-1c93-4dfd-a016-82ffc2b4cdb0",
-      "title": "Knowledge Distillation of Black-Box Large Language Models",
-      "url": "https://arxiv.org/abs/2401.07013",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-28T22:32:04Z",
-      "category": "tech",
-      "score": 0.25208798865806664,
-      "tldr": "Knowledge Distillation of Black-Box Large Language Models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "b248ff5d-6077-43ec-9154-735c45040b46",
       "title": "Tell HN: Fewer PRs done with proper prompting, review, and refinement wins",
       "url": "https://news.ycombinator.com/item?id=48778345",
@@ -1405,6 +1405,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-05T21:32:26.629416157Z",
+  "last_updated": "2026-07-05T22:49:44.50461242Z",
   "total_count": 100
 }
