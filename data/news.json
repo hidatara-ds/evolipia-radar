@@ -409,21 +409,6 @@
       ]
     },
     {
-      "id": "df92e397-ca86-44b6-b9c8-d16b40b06fa1",
-      "title": "Google limits Meta's use of its Gemini AI models",
-      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-06-28T13:30:06Z",
-      "category": "tech",
-      "score": 0.320276163568526,
-      "tldr": "Google limits Meta's use of its Gemini AI models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm",
-        "general_ai"
-      ]
-    },
-    {
       "id": "20c1c7f0-6452-4c9d-aabc-84b3a44545f2",
       "title": "Markets are competitive if and only if P = NP",
       "url": "https://arxiv.org/abs/2602.20415",
@@ -761,20 +746,6 @@
       ]
     },
     {
-      "id": "e620f41e-897c-496a-a8f7-944e8f9eef4d",
-      "title": "EU Open Sources Ten-Year Network Development Planning Tools",
-      "url": "https://github.com/open-energy-transition/open-tyndp",
-      "domain": "github.com",
-      "published_at": "2026-06-28T14:05:47Z",
-      "category": "tech",
-      "score": 0.2709090065391333,
-      "tldr": "EU Open Sources Ten-Year Network Development Planning Tools",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2d59c512-465a-4049-a242-59dc7c156315",
       "title": "Google copybara: moving code between repositories",
       "url": "https://github.com/google/copybara",
@@ -999,20 +970,6 @@
       ]
     },
     {
-      "id": "2fd8d5af-68f8-4df6-b218-5758f0fbff38",
-      "title": "The MUMPS 76 Primer – anniversary edition",
-      "url": "https://github.com/rochus-keller/MUMPS/blob/main/docs/MUMPS_Primer.adoc",
-      "domain": "github.com",
-      "published_at": "2026-06-28T12:41:45Z",
-      "category": "tech",
-      "score": 0.2588140346445836,
-      "tldr": "The MUMPS 76 Primer – anniversary edition",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "62dca1a3-4ff6-4607-ad22-fd18dd44e58b",
       "title": "Wordgard: In-browser rich-text editor from the creator of ProseMirror",
       "url": "https://wordgard.net/",
@@ -1077,20 +1034,6 @@
       "category": "tech",
       "score": 0.2570643781543119,
       "tldr": "Windows CE Dreamcast Community Edition (wince-dc)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "bcd59eda-71ff-4fee-a46d-174234728161",
-      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
-      "url": "https://github.com/openai/codex/issues/2847",
-      "domain": "github.com",
-      "published_at": "2026-06-28T12:27:33Z",
-      "category": "tech",
-      "score": 0.25695297102337267,
-      "tldr": "A way to exclude sensitive files issue still open for OpenAI Codex",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1403,8 +1346,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ac16e808-283a-4e2e-ac6d-f8369956ea71",
+      "title": "The Log Is the Agent",
+      "url": "https://arxiv.org/abs/2605.21997",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-05T02:57:38Z",
+      "category": "tech",
+      "score": 0.2526691708628976,
+      "tldr": "The Log Is the Agent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f0975a01-5855-43ef-8542-a35fc8ee40e1",
+      "title": "Show HN: ContextCodeCache in Rust",
+      "url": "https://github.com/colwill/ccc",
+      "domain": "github.com",
+      "published_at": "2026-07-03T21:03:19Z",
+      "category": "tech",
+      "score": 0.2524700573723664,
+      "tldr": "Show HN: ContextCodeCache in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "bbd2368a-6a9c-4e94-991c-14ce1443abf1",
+      "title": "Show HN: Waypoint.nvim – A Neovim plugin for bookmarking lines of code",
+      "url": "https://github.com/patrick-sharp/waypoint.nvim",
+      "domain": "github.com",
+      "published_at": "2026-07-04T19:55:28Z",
+      "category": "tech",
+      "score": 0.25231650675389067,
+      "tldr": "nvim – A Neovim plugin for bookmarking lines of code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "94d33197-237f-48e9-aa6c-808b783ebf04",
+      "title": "Single header Parser Combinators for C",
+      "url": "https://github.com/steve-chavez/CParseC",
+      "domain": "github.com",
+      "published_at": "2026-07-01T03:52:55Z",
+      "category": "tech",
+      "score": 0.2522396665970569,
+      "tldr": "Single header Parser Combinators for C",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-05T12:09:19.393989452Z",
+  "last_updated": "2026-07-05T14:14:58.73604256Z",
   "total_count": 100
 }
