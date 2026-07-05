@@ -943,20 +943,6 @@
       ]
     },
     {
-      "id": "f66031b8-ab4b-418a-95ed-ef5bbc9ce0fb",
-      "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
-      "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
-      "domain": "oldvcr.blogspot.com",
-      "published_at": "2026-06-28T16:58:59Z",
-      "category": "tech",
-      "score": 0.25934290798258497,
-      "tldr": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1c0a5619-b3fb-4472-8e78-dcdd5eff7377",
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
       "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
@@ -1021,6 +1007,20 @@
       "category": "tech",
       "score": 0.2573195359543178,
       "tldr": "Immich v3.0.0 Released",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0cca8d7a-7bcb-4037-8940-ccb9ebd55943",
+      "title": "\"These cameras are just like the Eye of Sauron\"",
+      "url": "https://arxiv.org/abs/2602.09239",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-05T17:05:57Z",
+      "category": "tech",
+      "score": 0.25713303899710727,
+      "tldr": "\"These cameras are just like the Eye of Sauron\"",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,6 +1405,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-05T16:53:23.628879778Z",
+  "last_updated": "2026-07-05T17:55:18.094348938Z",
   "total_count": 100
 }
