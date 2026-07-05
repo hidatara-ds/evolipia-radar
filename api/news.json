@@ -170,6 +170,21 @@
       ]
     },
     {
+      "id": "c74309b5-ffa4-40c2-ba5c-95f7a40a9f8e",
+      "title": "Exploiting LLM Agent Supply Chains via Payload-Less Skills",
+      "url": "https://arxiv.org/abs/2605.14460",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-04T22:01:01Z",
+      "category": "tech",
+      "score": 0.3745108099762301,
+      "tldr": "Exploiting LLM Agent Supply Chains via Payload-Less Skills",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "0ecb5e9e-90cf-4e3e-a60c-46415377dfa8",
       "title": "Age verification is just a precursor to automated attribution of speech",
       "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
@@ -237,20 +252,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "87e183b9-1158-44e9-b031-25ab9717d7b0",
-      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-      "url": "https://github.com/itsthelore/wayfinder-router",
-      "domain": "github.com",
-      "published_at": "2026-06-28T04:31:18Z",
-      "category": "tech",
-      "score": 0.3380878531750856,
-      "tldr": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -673,20 +674,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "7377f49f-7595-4e5b-8253-15de0b51eff4",
-      "title": "The best response to AI slop and online noise is from Robin Williams",
-      "url": "https://jayacunzo.com/blog/your-move-chief",
-      "domain": "jayacunzo.com",
-      "published_at": "2026-06-28T01:28:10Z",
-      "category": "tech",
-      "score": 0.27616952506719705,
-      "tldr": "The best response to AI slop and online noise is from Robin Williams",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1264,17 +1251,17 @@
       ]
     },
     {
-      "id": "653b5660-c632-4e17-9135-9f6a25d802be",
-      "title": "Show HN: FSM – an advanced system monitor for Linux",
-      "url": "https://github.com/mskrasnov/FSM",
-      "domain": "github.com",
-      "published_at": "2026-06-28T01:46:36Z",
+      "id": "9deec72b-fa23-4255-bcc9-5c822b484a05",
+      "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
+      "url": "https://ridgetext.com/blog/mapbox-llm-composition",
+      "domain": "ridgetext.com",
+      "published_at": "2026-07-04T23:25:53Z",
       "category": "tech",
-      "score": 0.25404661701129105,
-      "tldr": "Show HN: FSM – an advanced system monitor for Linux",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.25400838827539973,
+      "tldr": "Mapping with In-Memory Layers to Reduce LLM Overload",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
-        "general_ai"
+        "llm"
       ]
     },
     {
@@ -1286,6 +1273,20 @@
       "category": "tech",
       "score": 0.2538086273399901,
       "tldr": "Show HN: Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "052b1b45-d775-4bdb-bedd-f8e4a1d45ad6",
+      "title": "Anthropic performing prompt injection on its users",
+      "url": "https://old.reddit.com/r/LLMDevs/comments/1udpw9h/just_got_this_response_from_claude_what_is_going",
+      "domain": "old.reddit.com",
+      "published_at": "2026-07-05T01:30:44Z",
+      "category": "tech",
+      "score": 0.253802762859328,
+      "tldr": "Anthropic performing prompt injection on its users",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1362,20 +1363,6 @@
       ]
     },
     {
-      "id": "326d4ff3-9783-469a-ae54-0a0aa8eabc63",
-      "title": "Yap – free offline voice dictation for Mac/Windows/Linux (Wispr Flow alt)",
-      "url": "https://github.com/AkuchiS/yap",
-      "domain": "github.com",
-      "published_at": "2026-06-28T02:41:06Z",
-      "category": "tech",
-      "score": 0.2529753306142572,
-      "tldr": "Yap – free offline voice dictation for Mac/Windows/Linux (Wispr Flow alt)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f8f1b1f7-ba84-4d1b-9470-18c78dd220a3",
       "title": "Programmable Probabilistic Computer with 1M p-bits",
       "url": "https://arxiv.org/abs/2606.25313",
@@ -1402,8 +1389,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "ac16e808-283a-4e2e-ac6d-f8369956ea71",
+      "title": "The Log Is the Agent",
+      "url": "https://arxiv.org/abs/2605.21997",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-05T02:57:38Z",
+      "category": "tech",
+      "score": 0.2526691708628976,
+      "tldr": "The Log Is the Agent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-05T01:14:16.690664601Z",
+  "last_updated": "2026-07-05T05:28:15.664457275Z",
   "total_count": 100
 }
