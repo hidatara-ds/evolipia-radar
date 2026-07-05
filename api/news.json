@@ -998,20 +998,6 @@
       ]
     },
     {
-      "id": "4b207290-e7ad-4006-a006-d3cf34f8a7e6",
-      "title": "AMD Strix Halo RDMA Cluster Setup Guide",
-      "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
-      "domain": "github.com",
-      "published_at": "2026-06-28T00:46:52Z",
-      "category": "tech",
-      "score": 0.2592248544290168,
-      "tldr": "AMD Strix Halo RDMA Cluster Setup Guide",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1c0a5619-b3fb-4472-8e78-dcdd5eff7377",
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
       "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
@@ -1306,20 +1292,6 @@
       ]
     },
     {
-      "id": "967f53c9-bd13-4a00-9b44-7a866e052503",
-      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "url": "https://arxiv.org/abs/2606.22283",
-      "domain": "arxiv.org",
-      "published_at": "2026-06-27T23:30:14Z",
-      "category": "tech",
-      "score": 0.25375776482671947,
-      "tldr": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "93b5b8ee-1803-4c97-9d47-22f639c393fe",
       "title": "Show HN: I made a tool that prevents websites from tracking you",
       "url": "https://github.com/alex-w-developer/GetBlocked",
@@ -1402,8 +1374,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f8f1b1f7-ba84-4d1b-9470-18c78dd220a3",
+      "title": "Programmable Probabilistic Computer with 1M p-bits",
+      "url": "https://arxiv.org/abs/2606.25313",
+      "domain": "arxiv.org",
+      "published_at": "2026-06-28T15:55:31Z",
+      "category": "tech",
+      "score": 0.25291624629638004,
+      "tldr": "Programmable Probabilistic Computer with 1M p-bits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d13ee19c-3056-4276-aa95-403f513b4c20",
+      "title": "Show HN: ctx – Search the coding agent history already on your machine",
+      "url": "https://github.com/ctxrs/ctx",
+      "domain": "github.com",
+      "published_at": "2026-07-02T15:58:32Z",
+      "category": "tech",
+      "score": 0.25272804191588477,
+      "tldr": "Show HN: ctx – Search the coding agent history already on your machine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-04T23:28:47.471893434Z",
+  "last_updated": "2026-07-05T01:14:16.690664601Z",
   "total_count": 100
 }
