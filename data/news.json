@@ -298,6 +298,20 @@
       ]
     },
     {
+      "id": "8ce218db-1775-4ab8-ab4e-4dcc96544bde",
+      "title": "Show HN: Otari: your open-source LLM control plane",
+      "url": "https://github.com/mozilla-ai/otari",
+      "domain": "github.com",
+      "published_at": "2026-07-06T21:08:47Z",
+      "category": "tech",
+      "score": 0.32627770568716086,
+      "tldr": "Show HN: Otari: your open-source LLM control plane",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "177ce55f-3bf7-421b-8bce-90feb40b7dcb",
       "title": "Show HN: Sidenote – comment on your rendered blog, an LLM writes the Git diff",
       "url": "https://github.com/bharadwaj-pendyala/sidenote",
@@ -901,6 +915,20 @@
       ]
     },
     {
+      "id": "179f35dc-2340-4212-a647-7f3c7f9dd92c",
+      "title": "Pruning RAG context down to what the answer actually needs",
+      "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+      "domain": "kapa.ai",
+      "published_at": "2026-07-06T19:28:24Z",
+      "category": "tech",
+      "score": 0.259199157054952,
+      "tldr": "Pruning RAG context down to what the answer actually needs",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1c0a5619-b3fb-4472-8e78-dcdd5eff7377",
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
       "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
@@ -1294,6 +1322,20 @@
       ]
     },
     {
+      "id": "70f4d010-1398-42aa-afdb-d3d9124f61a7",
+      "title": "Titan's Resources and Their Utilization",
+      "url": "https://arxiv.org/abs/2606.06608",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-06T21:39:04Z",
+      "category": "tech",
+      "score": 0.25315102964780956,
+      "tldr": "Titan's Resources and Their Utilization",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "18a10044-2be0-467c-b850-c05246e39489",
       "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
       "url": "https://arxiv.org/abs/2607.02512",
@@ -1350,62 +1392,20 @@
       ]
     },
     {
-      "id": "3755d80d-b224-49e1-b3b3-f8d35a2401e8",
-      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
+      "title": "Full Writeup of the Windows GDID",
+      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
       "domain": "github.com",
-      "published_at": "2026-07-06T16:47:44Z",
+      "published_at": "2026-07-06T22:02:24Z",
       "category": "tech",
-      "score": 0.2523888499305068,
-      "tldr": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9a33d3d2-424f-445f-9474-7f077511a7e2",
-      "title": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
-      "url": "https://github.com/karola3vax/CS2FOW",
-      "domain": "github.com",
-      "published_at": "2026-07-06T15:23:34Z",
-      "category": "tech",
-      "score": 0.2523593265366995,
-      "tldr": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "bbd2368a-6a9c-4e94-991c-14ce1443abf1",
-      "title": "Show HN: Waypoint.nvim – A Neovim plugin for bookmarking lines of code",
-      "url": "https://github.com/patrick-sharp/waypoint.nvim",
-      "domain": "github.com",
-      "published_at": "2026-07-04T19:55:28Z",
-      "category": "tech",
-      "score": 0.25231650675389067,
-      "tldr": "nvim – A Neovim plugin for bookmarking lines of code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "94d33197-237f-48e9-aa6c-808b783ebf04",
-      "title": "Single header Parser Combinators for C",
-      "url": "https://github.com/steve-chavez/CParseC",
-      "domain": "github.com",
-      "published_at": "2026-07-01T03:52:55Z",
-      "category": "tech",
-      "score": 0.2522396665970569,
-      "tldr": "Single header Parser Combinators for C",
+      "score": 0.25241692399568594,
+      "tldr": "Full Writeup of the Windows GDID",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-07-06T21:11:08.159606197Z",
+  "last_updated": "2026-07-06T22:44:08.689150547Z",
   "total_count": 100
 }
