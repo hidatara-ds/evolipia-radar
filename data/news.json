@@ -439,20 +439,6 @@
       ]
     },
     {
-      "id": "0c51287c-ebee-4e04-94ca-1c65a44c889f",
-      "title": "Qwen 3.6 27B is the sweet spot for local development",
-      "url": "https://quesma.com/blog/qwen-36-is-awesome",
-      "domain": "quesma.com",
-      "published_at": "2026-06-29T17:05:16Z",
-      "category": "tech",
-      "score": 0.2938319530972304,
-      "tldr": "6 27B is the sweet spot for local development",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0b9f1417-bb96-4b34-8ea0-fd25731308ab",
       "title": "Words Are a Byproduct of Consciousness. For LLMs, It's Backwards",
       "url": "https://ranpara.net/posts/words-are-a-byproduct-of-consciousness",
@@ -677,20 +663,6 @@
       ]
     },
     {
-      "id": "c0727ce7-7971-49c2-851e-738214c6d93b",
-      "title": "Linux for the Sega MegaDrive",
-      "url": "https://github.com/LinuxMD/linuxmd",
-      "domain": "github.com",
-      "published_at": "2026-06-29T15:01:39Z",
-      "category": "tech",
-      "score": 0.2695137511201656,
-      "tldr": "Linux for the Sega MegaDrive",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "803c5006-cc97-48c0-90f7-3ea7592a58ba",
       "title": "Memorizing session transcripts isn't useful",
       "url": "https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts",
@@ -817,6 +789,20 @@
       ]
     },
     {
+      "id": "c82cad63-a081-4ae3-b1ad-2dc3c1433ab4",
+      "title": "How Kalshi Infects the News",
+      "url": "https://www.publicnotice.co/p/kalshi-cnn-cnbc",
+      "domain": "publicnotice.co",
+      "published_at": "2026-07-06T13:12:52Z",
+      "category": "tech",
+      "score": 0.26322887325443745,
+      "tldr": "How Kalshi Infects the News",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ec5552b6-75c5-4383-ab2a-c18bb75004c3",
       "title": "GPT-5.6 Sol Ultra will be in Codex",
       "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
@@ -853,20 +839,6 @@
       "category": "tech",
       "score": 0.2612863073076463,
       "tldr": "Beware, Claude Code deletes \u003e30 day old transcripts. Anthropic won't fix it",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6f446950-9337-4d51-b3d3-f60cad1f1631",
-      "title": "Ornith-1.0: self-improving open-source models for agentic coding",
-      "url": "https://github.com/deepreinforce-ai/Ornith-1",
-      "domain": "github.com",
-      "published_at": "2026-06-29T17:16:17Z",
-      "category": "tech",
-      "score": 0.2612291472252041,
-      "tldr": "0: self-improving open-source models for agentic coding",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1125,6 +1097,20 @@
       ]
     },
     {
+      "id": "cfd74e1e-d40e-462a-91ca-5f0c4ad4bb00",
+      "title": "Kani: A Model Checker for Rust",
+      "url": "https://arxiv.org/abs/2607.01504",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-06T15:53:24Z",
+      "category": "tech",
+      "score": 0.2550695650710408,
+      "tldr": "Kani: A Model Checker for Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1a3a0461-5b33-46aa-9244-b06eb710e130",
       "title": "Are readers generating fiction with AI models?",
       "url": "https://arxiv.org/abs/2606.22748",
@@ -1161,6 +1147,20 @@
       "category": "tech",
       "score": 0.25446757770837636,
       "tldr": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ac36cde1-d22b-450f-be7b-bc4dfc2f7956",
+      "title": "Show HN: I Built LangGraph for Swift",
+      "url": "https://github.com/christopherkarani/Swarm",
+      "domain": "github.com",
+      "published_at": "2026-07-06T14:47:45Z",
+      "category": "tech",
+      "score": 0.25423837685132483,
+      "tldr": "Show HN: I Built LangGraph for Swift",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1350,6 +1350,34 @@
       ]
     },
     {
+      "id": "3755d80d-b224-49e1-b3b3-f8d35a2401e8",
+      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "domain": "github.com",
+      "published_at": "2026-07-06T16:47:44Z",
+      "category": "tech",
+      "score": 0.2523888499305068,
+      "tldr": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9a33d3d2-424f-445f-9474-7f077511a7e2",
+      "title": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
+      "url": "https://github.com/karola3vax/CS2FOW",
+      "domain": "github.com",
+      "published_at": "2026-07-06T15:23:34Z",
+      "category": "tech",
+      "score": 0.2523593265366995,
+      "tldr": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "bbd2368a-6a9c-4e94-991c-14ce1443abf1",
       "title": "Show HN: Waypoint.nvim – A Neovim plugin for bookmarking lines of code",
       "url": "https://github.com/patrick-sharp/waypoint.nvim",
@@ -1376,36 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "feb8fc74-4161-4153-85c3-e18acfbfa67f",
-      "title": "Meta Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
-      "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing",
-      "domain": "wired.com",
-      "published_at": "2026-06-29T22:51:48Z",
-      "category": "tech",
-      "score": 0.2522060225719087,
-      "tldr": "Meta Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b248ff5d-6077-43ec-9154-735c45040b46",
-      "title": "Tell HN: Fewer PRs done with proper prompting, review, and refinement wins",
-      "url": "https://news.ycombinator.com/item?id=48778345",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-03T18:37:36Z",
-      "category": "tech",
-      "score": 0.25208566624220724,
-      "tldr": "Tell HN: Fewer PRs done with proper prompting, review, and refinement wins",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-06T14:41:40.717896208Z",
+  "last_updated": "2026-07-06T17:34:51.161402731Z",
   "total_count": 100
 }
