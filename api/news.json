@@ -396,20 +396,6 @@
       ]
     },
     {
-      "id": "222930b8-cd62-4ce0-a985-658b044b3147",
-      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
-      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
-      "domain": "danunparsed.com",
-      "published_at": "2026-06-29T01:44:40Z",
-      "category": "tech",
-      "score": 0.32190616799072047,
-      "tldr": "HackerRank open sourced its ATS. My resume scored 90/100.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "20c1c7f0-6452-4c9d-aabc-84b3a44545f2",
       "title": "Markets are competitive if and only if P = NP",
       "url": "https://arxiv.org/abs/2602.20415",
@@ -901,6 +887,20 @@
       ]
     },
     {
+      "id": "ec5552b6-75c5-4383-ab2a-c18bb75004c3",
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "domain": "twitter.com",
+      "published_at": "2026-07-06T01:04:03Z",
+      "category": "tech",
+      "score": 0.2624761256909633,
+      "tldr": "6 Sol Ultra will be in Codex",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "53f31c39-fdd0-4337-9de8-596002a36751",
       "title": "Single Dose of Frog-Derived Gut Bacterium Eradicates 100% of Tumors in Mice",
       "url": "https://www.thefocalpoints.com/p/new-study-frog-derived-gut-bacterium",
@@ -937,6 +937,20 @@
       "category": "tech",
       "score": 0.2612291472252041,
       "tldr": "0: self-improving open-source models for agentic coding",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5636f8b9-d2c3-43d9-ad2f-59affe04fb12",
+      "title": "Does Code Cleanliness Affect Coding Agents?",
+      "url": "https://arxiv.org/abs/2605.20049",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-05T23:03:55Z",
+      "category": "tech",
+      "score": 0.25935056312627636,
+      "tldr": "Does Code Cleanliness Affect Coding Agents?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1389,22 +1403,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "feb8fc74-4161-4153-85c3-e18acfbfa67f",
-      "title": "Meta Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
-      "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing",
-      "domain": "wired.com",
-      "published_at": "2026-06-29T22:51:48Z",
-      "category": "tech",
-      "score": 0.2522060225719087,
-      "tldr": "Meta Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-05T23:55:36.376214898Z",
+  "last_updated": "2026-07-06T02:00:40.617700368Z",
   "total_count": 100
 }
