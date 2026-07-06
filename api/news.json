@@ -397,20 +397,6 @@
       ]
     },
     {
-      "id": "2c0cf8b2-b7b7-4edc-8d29-1e2168e4c9ac",
-      "title": "Tidal AI Policy",
-      "url": "https://tidal.com/ai-policy",
-      "domain": "tidal.com",
-      "published_at": "2026-06-29T13:09:03Z",
-      "category": "tech",
-      "score": 0.29890299128010495,
-      "tldr": "Tidal AI Policy",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1a88c7b7-2ef7-4903-87f0-7b2f0c65f73e",
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
       "url": "https://github.com/anthropics/claude-code/issues/74066",
@@ -506,6 +492,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "41158e9c-2769-469f-9930-56a96bb6a436",
+      "title": "Regression to the Mean: on LLMs and the quiet death of the new",
+      "url": "https://rruxandra.github.io/regression-to-the-mean.html",
+      "domain": "rruxandra.github.io",
+      "published_at": "2026-07-06T13:20:59Z",
+      "category": "tech",
+      "score": 0.2887942350609256,
+      "tldr": "Regression to the Mean: on LLMs and the quiet death of the new",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -873,6 +873,20 @@
       ]
     },
     {
+      "id": "3b6ad4b1-764f-4d8d-b321-c861b0b9699c",
+      "title": "The Hitchhiker's Guide to Agentic AI",
+      "url": "https://arxiv.org/abs/2606.24937",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-06T08:40:29Z",
+      "category": "tech",
+      "score": 0.26061639287275523,
+      "tldr": "The Hitchhiker's Guide to Agentic AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5636f8b9-d2c3-43d9-ad2f-59affe04fb12",
       "title": "Does Code Cleanliness Affect Coding Agents?",
       "url": "https://arxiv.org/abs/2605.20049",
@@ -881,6 +895,20 @@
       "category": "tech",
       "score": 0.25935056312627636,
       "tldr": "Does Code Cleanliness Affect Coding Agents?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "35503510-8d02-4ca4-96aa-65aedb560849",
+      "title": "Show HN: Scan your AI agents for dangerous capabilities",
+      "url": "https://github.com/makerchecker/MakerChecker",
+      "domain": "github.com",
+      "published_at": "2026-07-06T13:17:27Z",
+      "category": "tech",
+      "score": 0.25924122037191194,
+      "tldr": "Show HN: Scan your AI agents for dangerous capabilities",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1139,6 +1167,21 @@
       ]
     },
     {
+      "id": "c6bfd5dd-9051-481c-88e4-04a148dd443d",
+      "title": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
+      "url": "https://github.com/HouzuoGuo/hzgl-air-bridge",
+      "domain": "github.com",
+      "published_at": "2026-07-06T07:31:47Z",
+      "category": "tech",
+      "score": 0.2541454500636947,
+      "tldr": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data",
+        "general_ai"
+      ]
+    },
+    {
       "id": "590f1c8a-320d-4166-996a-6ed683c1d38a",
       "title": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
       "url": "https://github.com/514-labs/dnsglobe",
@@ -1361,50 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "904db963-e84f-48fe-bc16-7e69062fa584",
-      "title": "Swift-Nio-QUIC",
-      "url": "https://github.com/apple/swift-nio-quic",
-      "domain": "github.com",
-      "published_at": "2026-07-02T21:10:15Z",
-      "category": "tech",
-      "score": 0.2520726241748281,
-      "tldr": "Swift-Nio-QUIC",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "17f6e344-9c85-4759-8e77-f47dea8cacec",
-      "title": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
-      "url": "https://github.com/kerlenton/mcpsnoop",
-      "domain": "github.com",
-      "published_at": "2026-07-03T16:53:50Z",
-      "category": "tech",
-      "score": 0.2520457705162013,
-      "tldr": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "12b0ac21-032f-4b24-86ff-a210602d4de0",
-      "title": "Had an idea for a Rust editor with simple Vim mode for learning",
-      "url": "https://github.com/electronicsleep/rust-vim",
-      "domain": "github.com",
-      "published_at": "2026-07-05T21:36:28Z",
-      "category": "tech",
-      "score": 0.25203257313214517,
-      "tldr": "Had an idea for a Rust editor with simple Vim mode for learning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-06T11:12:32.9969916Z",
+  "last_updated": "2026-07-06T14:41:40.717896208Z",
   "total_count": 100
 }
