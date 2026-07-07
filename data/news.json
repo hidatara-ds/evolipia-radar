@@ -129,16 +129,17 @@
       ]
     },
     {
-      "id": "d5914b95-dae6-45c4-b2ea-0cbf856fb0a6",
-      "title": "The labor share of income in the US is at its lowest post-war level",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share",
-      "domain": "libertystreeteconomics.newyorkfed.org",
-      "published_at": "2026-06-30T15:35:04Z",
+      "id": "4252fab9-2907-463f-aade-781f43ed2c1f",
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Uncertainty in LLMs",
+      "url": "https://arxiv.org/abs/2606.32032",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-07T09:02:38Z",
       "category": "tech",
-      "score": 0.3759563329526386,
-      "tldr": "The labor share of income in the US is at its lowest post-war level",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "score": 0.3757205661480353,
+      "tldr": "Reinforcement Learning with Metacognitive Feedback Elicits Uncertainty in LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
+        "llm",
         "general_ai"
       ]
     },
@@ -312,6 +313,20 @@
       ]
     },
     {
+      "id": "cab87a37-ec6b-468c-8de2-0647c81844c0",
+      "title": "98% Isn't Much",
+      "url": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much",
+      "domain": "whynothugo.nl",
+      "published_at": "2026-07-07T12:45:14Z",
+      "category": "tech",
+      "score": 0.32601263265142516,
+      "tldr": "98% Isn't Much",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "a85394b8-db51-4fcb-8e51-f5bca379db88",
       "title": "Lotus: Optimized Agentic and LLM Bulk Processing",
       "url": "https://github.com/lotus-data/lotus",
@@ -425,17 +440,17 @@
       ]
     },
     {
-      "id": "0b9f1417-bb96-4b34-8ea0-fd25731308ab",
-      "title": "Words Are a Byproduct of Consciousness. For LLMs, It's Backwards",
-      "url": "https://ranpara.net/posts/words-are-a-byproduct-of-consciousness",
-      "domain": "ranpara.net",
-      "published_at": "2026-06-30T14:16:57Z",
+      "id": "15b23e9c-013f-4f8f-90cf-0ceeb4dd1e9a",
+      "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
+      "url": "https://streetcomplete.app/",
+      "domain": "streetcomplete.app",
+      "published_at": "2026-07-07T12:38:35Z",
       "category": "tech",
-      "score": 0.2908403431270419,
-      "tldr": "Words Are a Byproduct of Consciousness. For LLMs, It's Backwards",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "score": 0.2921640820400996,
+      "tldr": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
-        "llm"
+        "general_ai"
       ]
     },
     {
@@ -649,6 +664,20 @@
       ]
     },
     {
+      "id": "b30f7c64-60b6-41e0-bb4b-5361426da732",
+      "title": "Sodium-ion \"salt\" batteries will revolutionize electric-vehicle and grid storage",
+      "url": "https://www.newscientist.com/article/2532997-salt-batteries-are-about-to-shake-up-evs-and-grid-storage",
+      "domain": "newscientist.com",
+      "published_at": "2026-07-07T14:19:34Z",
+      "category": "tech",
+      "score": 0.27125649377155214,
+      "tldr": "Sodium-ion \"salt\" batteries will revolutionize electric-vehicle and grid storage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2d59c512-465a-4049-a242-59dc7c156315",
       "title": "Google copybara: moving code between repositories",
       "url": "https://github.com/google/copybara",
@@ -699,6 +728,20 @@
       "category": "tech",
       "score": 0.2672081869003098,
       "tldr": "Introduction to Compilers and Language Design (2021)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1430b0c9-ba8e-4f47-bca5-099cde87c3fa",
+      "title": "Dua Lipa opens library for banned and censored books in Portugal",
+      "url": "https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal",
+      "domain": "euronews.com",
+      "published_at": "2026-07-07T12:50:40Z",
+      "category": "tech",
+      "score": 0.2669910115813081,
+      "tldr": "Dua Lipa opens library for banned and censored books in Portugal",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -839,20 +882,6 @@
       "category": "tech",
       "score": 0.26144455147107654,
       "tldr": "Single Dose of Frog-Derived Gut Bacterium Eradicates 100% of Tumors in Mice",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c58fc6b3-91d6-422c-b017-dab5a5a17bbe",
-      "title": "Beware, Claude Code deletes \u003e30 day old transcripts. Anthropic won't fix it",
-      "url": "https://github.com/anthropics/claude-code/issues/62476",
-      "domain": "github.com",
-      "published_at": "2026-06-30T13:58:21Z",
-      "category": "tech",
-      "score": 0.2612863073076463,
-      "tldr": "Beware, Claude Code deletes \u003e30 day old transcripts. Anthropic won't fix it",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1376,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f0975a01-5855-43ef-8542-a35fc8ee40e1",
-      "title": "Show HN: ContextCodeCache in Rust",
-      "url": "https://github.com/colwill/ccc",
-      "domain": "github.com",
-      "published_at": "2026-07-03T21:03:19Z",
-      "category": "tech",
-      "score": 0.2524700573723664,
-      "tldr": "Show HN: ContextCodeCache in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
-      "title": "Full Writeup of the Windows GDID",
-      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:02:24Z",
-      "category": "tech",
-      "score": 0.25241692399568594,
-      "tldr": "Full Writeup of the Windows GDID",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-07T12:41:02.098911325Z",
+  "last_updated": "2026-07-07T15:39:36.120383749Z",
   "total_count": 100
 }
