@@ -257,6 +257,20 @@
       ]
     },
     {
+      "id": "2da91436-8eb9-457d-9ef2-211714266c85",
+      "title": "Show HN: Baerly-storage, a document DB that runs per request, no DB server",
+      "url": "https://github.com/Gusto/baerly-storage",
+      "domain": "github.com",
+      "published_at": "2026-07-07T16:44:03Z",
+      "category": "tech",
+      "score": 0.3290029480339678,
+      "tldr": "Show HN: Baerly-storage, a document DB that runs per request, no DB server",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2e291c72-2548-43fb-8c4d-e3fd883c27b5",
       "title": "Protect your right to run local AI",
       "url": "https://righttointelligence.org/",
@@ -1210,6 +1224,20 @@
       ]
     },
     {
+      "id": "5089414e-4311-403a-9cb7-5ff5c7d31693",
+      "title": "Men's average testosterone levels have halved in last 50 years",
+      "url": "https://www.theguardian.com/society/2026/jul/07/mens-average-testosterone-levels-have-halved-in-last-50-years-say-scientists",
+      "domain": "theguardian.com",
+      "published_at": "2026-07-07T20:36:01Z",
+      "category": "tech",
+      "score": 0.25482420464292366,
+      "tldr": "Men's average testosterone levels have halved in last 50 years",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6a13e804-68de-4cde-ac4c-e0d15927fcd2",
       "title": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
       "url": "https://github.com/langchain-ai/openwiki",
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "18a10044-2be0-467c-b850-c05246e39489",
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "url": "https://arxiv.org/abs/2607.02512",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-03T12:46:30Z",
-      "category": "tech",
-      "score": 0.2529958312552989,
-      "tldr": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b582d419-0f68-4497-9547-0664adcdf4ca",
-      "title": "Poly/ML – A Standard ML Implementation",
-      "url": "https://github.com/polyml/polyml",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:28:06Z",
-      "category": "tech",
-      "score": 0.252798651220502,
-      "tldr": "Poly/ML – A Standard ML Implementation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-07T19:32:49.540631325Z",
+  "last_updated": "2026-07-07T21:14:05.512965898Z",
   "total_count": 100
 }
