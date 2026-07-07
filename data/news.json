@@ -71,20 +71,6 @@
       ]
     },
     {
-      "id": "8bee1de8-59da-43d2-9ac0-f52b95b6c9fb",
-      "title": "Claude Code Is Steganographically Marking Requests",
-      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-      "domain": "thereallo.dev",
-      "published_at": "2026-06-30T15:44:24Z",
-      "category": "tech",
-      "score": 0.3796341873489186,
-      "tldr": "Claude Code Is Steganographically Marking Requests",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "171d2e16-8a07-4a07-90a6-a038a11dedeb",
       "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
       "url": "https://arxiv.org/abs/2607.01232",
@@ -240,6 +226,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "f3c94bf7-7a0c-4680-a580-80302febfdaf",
+      "title": "Microsoft fire idTech team at Id software",
+      "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software",
+      "domain": "gamefromscratch.com",
+      "published_at": "2026-07-07T15:33:20Z",
+      "category": "tech",
+      "score": 0.3337720249397508,
+      "tldr": "Microsoft fire idTech team at Id software",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -776,20 +776,6 @@
       ]
     },
     {
-      "id": "97d022fd-139f-4a9e-8222-ced845b34423",
-      "title": "Nano Banana 2 Lite",
-      "url": "https://deepmind.google/models/gemini-image/flash-lite",
-      "domain": "deepmind.google",
-      "published_at": "2026-06-30T16:48:37Z",
-      "category": "tech",
-      "score": 0.26594996892426337,
-      "tldr": "Nano Banana 2 Lite",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e2fe4cb1-85df-482c-a9a1-dfa9aab7cd95",
       "title": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
       "url": "https://github.com/MaximeRivest/Riddle",
@@ -815,20 +801,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "dbcca654-4848-48ff-8e0c-6f97c5d2739b",
-      "title": "We Are the Last People Who Know How It Works",
-      "url": "https://unix.foo/posts/last-people-who-know-how-it-works",
-      "domain": "unix.foo",
-      "published_at": "2026-06-30T16:59:00Z",
-      "category": "tech",
-      "score": 0.2638031309128096,
-      "tldr": "We Are the Last People Who Know How It Works",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -972,6 +944,20 @@
       ]
     },
     {
+      "id": "5f7afdea-1b14-488c-8e79-7a5693d84fcd",
+      "title": "Jim's TrueType QR Code Font",
+      "url": "https://github.com/jimparis/qr-font",
+      "domain": "github.com",
+      "published_at": "2026-07-07T16:30:42Z",
+      "category": "tech",
+      "score": 0.2579853997683318,
+      "tldr": "Jim's TrueType QR Code Font",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "c37c7b85-9f14-4d35-9e92-530fef926830",
       "title": "Vulkan is now available on NetBSD",
       "url": "https://github.com/segaboy/vulkan-netbsd",
@@ -980,6 +966,20 @@
       "category": "tech",
       "score": 0.25785525884840615,
       "tldr": "Vulkan is now available on NetBSD",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ce5571e7-539c-4d85-a28d-a47f14a377d0",
+      "title": "MacSurf 1.68 – NetSurf on OS 9 Released",
+      "url": "https://github.com/mplsllc/macsurf/releases/tag/v1.86",
+      "domain": "github.com",
+      "published_at": "2026-07-07T16:24:40Z",
+      "category": "tech",
+      "score": 0.25772741900193546,
+      "tldr": "68 – NetSurf on OS 9 Released",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,6 +1407,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-07T15:39:36.120383749Z",
+  "last_updated": "2026-07-07T17:51:13.419464241Z",
   "total_count": 100
 }
