@@ -285,6 +285,20 @@
       ]
     },
     {
+      "id": "70b8cbab-c5a2-43a6-bdc4-16ba05069ace",
+      "title": "Show HN: Foreman, a self-hosted LLM gateway for cost aware model routing",
+      "url": "https://github.com/Northwood-Systems/foreman",
+      "domain": "github.com",
+      "published_at": "2026-07-08T17:56:53Z",
+      "category": "tech",
+      "score": 0.32668373675000867,
+      "tldr": "Show HN: Foreman, a self-hosted LLM gateway for cost aware model routing",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c1e71839-f002-4f51-a4a4-3a472270ff55",
       "title": "Show HN: LLM Thought Visualization",
       "url": "https://github.com/ninjahawk/Subtext",
@@ -1239,20 +1253,6 @@
       ]
     },
     {
-      "id": "ff9e1b7d-c364-4058-a69f-c979cd5c6786",
-      "title": "Show HN: Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
-      "url": "https://github.com/Division-36/Z-Jail",
-      "domain": "github.com",
-      "published_at": "2026-07-01T19:18:11Z",
-      "category": "tech",
-      "score": 0.2538086273399901,
-      "tldr": "Show HN: Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "052b1b45-d775-4bdb-bedd-f8e4a1d45ad6",
       "title": "Anthropic performing prompt injection on its users",
       "url": "https://old.reddit.com/r/LLMDevs/comments/1udpw9h/just_got_this_response_from_claude_what_is_going",
@@ -1407,6 +1407,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-08T18:52:55.954628912Z",
+  "last_updated": "2026-07-08T20:16:19.676154716Z",
   "total_count": 100
 }
