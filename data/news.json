@@ -425,6 +425,20 @@
       ]
     },
     {
+      "id": "8aeb67bd-5219-4e47-a212-5af012b4e2e9",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "domain": "openai.com",
+      "published_at": "2026-07-08T21:03:51Z",
+      "category": "tech",
+      "score": 0.3032674567698316,
+      "tldr": "Separating signal from noise in coding evaluations",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8bc9fc78-f575-4a1e-84d9-3a6516e3ad0b",
       "title": "Meta AI chief says their coming LLM has caught up with OpenAI's flagship model",
       "url": "https://www.businessinsider.com/meta-ai-model-catches-up-openai-gpt-5-says-2026-7",
@@ -672,6 +686,20 @@
       "category": "tech",
       "score": 0.2755293782845014,
       "tldr": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9def8ed8-7687-4667-b8c9-84451044e43a",
+      "title": "The classifiers Anthropic puts in front of Fable are too zealous",
+      "url": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
+      "domain": "combine-lab.github.io",
+      "published_at": "2026-07-08T20:41:33Z",
+      "category": "tech",
+      "score": 0.2737555464238285,
+      "tldr": "The classifiers Anthropic puts in front of Fable are too zealous",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "12dfe3ff-7f9b-4c9d-a6bd-4ffc3feb7613",
-      "title": "We Are Living in a 'ChatGPT Flyer Pandemic'",
-      "url": "https://www.404media.co/we-are-living-in-a-chatgpt-flyer-pandemic",
-      "domain": "404media.co",
-      "published_at": "2026-07-08T14:21:18Z",
-      "category": "tech",
-      "score": 0.25307134178057084,
-      "tldr": "We Are Living in a 'ChatGPT Flyer Pandemic'",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "18a10044-2be0-467c-b850-c05246e39489",
-      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "url": "https://arxiv.org/abs/2607.02512",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-03T12:46:30Z",
-      "category": "tech",
-      "score": 0.2529958312552989,
-      "tldr": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-08T21:37:31.813886007Z",
+  "last_updated": "2026-07-08T22:55:05.067022327Z",
   "total_count": 100
 }
