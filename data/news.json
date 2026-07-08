@@ -15,34 +15,6 @@
       ]
     },
     {
-      "id": "02aa1515-b695-45bd-b3b2-47d02c0686cc",
-      "title": "Most arguments are about ego, not ideas",
-      "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-      "domain": "wangcong.org",
-      "published_at": "2026-07-01T13:29:29Z",
-      "category": "tech",
-      "score": 0.4884731960218232,
-      "tldr": "Most arguments are about ego, not ideas",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a35eab2c-6483-46ed-a6ff-6e55c88625ea",
-      "title": "Why I Stopped Arguing with People",
-      "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-      "domain": "wangcong.org",
-      "published_at": "2026-07-01T13:29:29Z",
-      "category": "tech",
-      "score": 0.4446272224924625,
-      "tldr": "Why I Stopped Arguing with People",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8bcf263d-78b4-4185-bca6-d5692ed9c5bd",
       "title": "Virginia bans sale of precise geolocation data",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
@@ -454,6 +426,20 @@
       ]
     },
     {
+      "id": "8153922b-a8f5-45d3-bd6d-d4b7d5c3bc60",
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "url": "https://mistral.ai/news/robostral-navigate",
+      "domain": "mistral.ai",
+      "published_at": "2026-07-08T14:09:17Z",
+      "category": "tech",
+      "score": 0.29733933666951684,
+      "tldr": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "4bd6a218-7243-4137-9888-a444aeea2554",
       "title": "Immich 3.0",
       "url": "https://github.com/immich-app/immich/discussions/29439",
@@ -818,6 +804,20 @@
       ]
     },
     {
+      "id": "40ed43a2-cde0-4693-9335-2d9822b94f97",
+      "title": "US Food and Drug Administration rejects petition to set PFAS limits in food",
+      "url": "https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food",
+      "domain": "theguardian.com",
+      "published_at": "2026-07-08T13:35:59Z",
+      "category": "tech",
+      "score": 0.2593578780202667,
+      "tldr": "US Food and Drug Administration rejects petition to set PFAS limits in food",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5636f8b9-d2c3-43d9-ad2f-59affe04fb12",
       "title": "Does Code Cleanliness Affect Coding Agents?",
       "url": "https://arxiv.org/abs/2605.20049",
@@ -1051,20 +1051,6 @@
       "score": 0.25556940868190453,
       "tldr": "Does average person understand that all disc media dies too?",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dd2fb309-94bc-41d7-a507-46487c7ea7a2",
-      "title": "Ray Tracer in SQL",
-      "url": "https://github.com/ClickHouse/RayTracer",
-      "domain": "github.com",
-      "published_at": "2026-07-01T14:27:48Z",
-      "category": "tech",
-      "score": 0.2555063841197528,
-      "tldr": "Ray Tracer in SQL",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1351,6 +1337,20 @@
       ]
     },
     {
+      "id": "12dfe3ff-7f9b-4c9d-a6bd-4ffc3feb7613",
+      "title": "We Are Living in a 'ChatGPT Flyer Pandemic'",
+      "url": "https://www.404media.co/we-are-living-in-a-chatgpt-flyer-pandemic",
+      "domain": "404media.co",
+      "published_at": "2026-07-08T14:21:18Z",
+      "category": "tech",
+      "score": 0.25307134178057084,
+      "tldr": "We Are Living in a 'ChatGPT Flyer Pandemic'",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "18a10044-2be0-467c-b850-c05246e39489",
       "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
       "url": "https://arxiv.org/abs/2607.02512",
@@ -1407,6 +1407,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-08T13:27:02.710778292Z",
+  "last_updated": "2026-07-08T15:40:29.183887775Z",
   "total_count": 100
 }
