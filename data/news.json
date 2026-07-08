@@ -173,6 +173,20 @@
       ]
     },
     {
+      "id": "a49ad969-af53-435c-bdce-ab87d42fdebe",
+      "title": "GPT‑Live",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "domain": "openai.com",
+      "published_at": "2026-07-08T17:03:19Z",
+      "category": "tech",
+      "score": 0.3391645363966645,
+      "tldr": "GPT‑Live",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "602b476d-06b2-4648-a243-1b7d602afbb7",
       "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
       "url": "https://github.com/openai/codex/issues/30364",
@@ -524,6 +538,20 @@
       ]
     },
     {
+      "id": "39da6cc5-9224-49a0-b9dd-382db894a5e9",
+      "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
+      "url": "https://cognition.com/blog/swe-1-7",
+      "domain": "cognition.com",
+      "published_at": "2026-07-08T16:19:36Z",
+      "category": "tech",
+      "score": 0.28359014572848723,
+      "tldr": "5 and Opus Intelligence",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a8ef3de4-f133-42d3-b636-937f4adf217a",
       "title": "Please stop the AI confidence theater",
       "url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
@@ -631,6 +659,20 @@
       "score": 0.27125649377155214,
       "tldr": "Sodium-ion \"salt\" batteries will revolutionize electric-vehicle and grid storage",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3352ec5a-59dd-4503-b652-4b2ea512b574",
+      "title": "FDA rejects petition to set PFAS limits in food",
+      "url": "https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food",
+      "domain": "theguardian.com",
+      "published_at": "2026-07-08T13:35:59Z",
+      "category": "tech",
+      "score": 0.2705626354624857,
+      "tldr": "FDA rejects petition to set PFAS limits in food",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1000,20 +1042,6 @@
       ]
     },
     {
-      "id": "b5099002-9c5e-413c-826d-dd7c58162ea9",
-      "title": "Show HN: Pglayers – PostgreSQL extensions as stackable Docker layers",
-      "url": "https://github.com/pglayers/pglayers",
-      "domain": "github.com",
-      "published_at": "2026-07-01T16:50:02Z",
-      "category": "tech",
-      "score": 0.2564057574285951,
-      "tldr": "Show HN: Pglayers – PostgreSQL extensions as stackable Docker layers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "c6dfd302-cc51-42e2-8d6a-683f2de40e91",
       "title": "Comparing Fable and 10 other LLMs on refactoring a LangGraph god node",
       "url": "https://wtf.korridzy.com/twilight-of-the-gods",
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d13ee19c-3056-4276-aa95-403f513b4c20",
-      "title": "Show HN: ctx – Search the coding agent history already on your machine",
-      "url": "https://github.com/ctxrs/ctx",
-      "domain": "github.com",
-      "published_at": "2026-07-02T15:58:32Z",
-      "category": "tech",
-      "score": 0.25272804191588477,
-      "tldr": "Show HN: ctx – Search the coding agent history already on your machine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ac16e808-283a-4e2e-ac6d-f8369956ea71",
-      "title": "The Log Is the Agent",
-      "url": "https://arxiv.org/abs/2605.21997",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-05T02:57:38Z",
-      "category": "tech",
-      "score": 0.2526691708628976,
-      "tldr": "The Log Is the Agent",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-08T15:40:29.183887775Z",
+  "last_updated": "2026-07-08T17:17:48.602819441Z",
   "total_count": 100
 }
