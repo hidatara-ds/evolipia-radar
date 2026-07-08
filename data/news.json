@@ -552,20 +552,6 @@
       ]
     },
     {
-      "id": "7376dbed-b7ad-4c78-8d19-4565ddcc5fd8",
-      "title": "Box3D, an open source 3D physics engine",
-      "url": "https://box2d.org/posts/2026/06/announcing-box3d",
-      "domain": "box2d.org",
-      "published_at": "2026-07-01T12:12:17Z",
-      "category": "tech",
-      "score": 0.2822618080684944,
-      "tldr": "Box3D, an open source 3D physics engine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b5d8a7c3-bd1d-4872-bee8-c8bab61f3ccf",
       "title": "This is my attempt to get Vulkan going on NetBSD",
       "url": "https://github.com/segaboy/vulkan-netbsd",
@@ -644,20 +630,6 @@
       "category": "tech",
       "score": 0.2755293782845014,
       "tldr": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8e1a11e8-4ed8-42c5-b795-42d9a7be269d",
-      "title": "Internal Combustion Engine (2021)",
-      "url": "https://ciechanow.ski/internal-combustion-engine",
-      "domain": "ciechanow.ski",
-      "published_at": "2026-07-01T13:04:16Z",
-      "category": "tech",
-      "score": 0.2722762780599499,
-      "tldr": "Internal Combustion Engine (2021)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,8 +1377,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d13ee19c-3056-4276-aa95-403f513b4c20",
+      "title": "Show HN: ctx – Search the coding agent history already on your machine",
+      "url": "https://github.com/ctxrs/ctx",
+      "domain": "github.com",
+      "published_at": "2026-07-02T15:58:32Z",
+      "category": "tech",
+      "score": 0.25272804191588477,
+      "tldr": "Show HN: ctx – Search the coding agent history already on your machine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ac16e808-283a-4e2e-ac6d-f8369956ea71",
+      "title": "The Log Is the Agent",
+      "url": "https://arxiv.org/abs/2605.21997",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-05T02:57:38Z",
+      "category": "tech",
+      "score": 0.2526691708628976,
+      "tldr": "The Log Is the Agent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-08T11:41:36.67036154Z",
+  "last_updated": "2026-07-08T13:27:02.710778292Z",
   "total_count": 100
 }
