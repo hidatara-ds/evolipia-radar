@@ -271,6 +271,20 @@
       ]
     },
     {
+      "id": "a33342d8-8ef6-40b5-8e80-866a16c0f64a",
+      "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase",
+      "url": "https://github.com/animesh-94/Onboard-CLI",
+      "domain": "github.com",
+      "published_at": "2026-07-08T20:09:03Z",
+      "category": "tech",
+      "score": 0.3288732616425438,
+      "tldr": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2e291c72-2548-43fb-8c4d-e3fd883c27b5",
       "title": "Protect your right to run local AI",
       "url": "https://righttointelligence.org/",
@@ -658,6 +672,20 @@
       "category": "tech",
       "score": 0.2755293782845014,
       "tldr": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "9f2397e5-4162-4d9b-8220-78bae3d1f1ed",
+      "title": "OpenAI no longer recommends SWE-Bench Pro",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "domain": "openai.com",
+      "published_at": "2026-07-08T21:03:51Z",
+      "category": "tech",
+      "score": 0.27355476393404543,
+      "tldr": "OpenAI no longer recommends SWE-Bench Pro",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1126,6 +1154,20 @@
       ]
     },
     {
+      "id": "9c8456d6-e8b8-45d4-afec-42d4b3d08b99",
+      "title": "Turning a pile of documents into a searchable useable knowledge base",
+      "url": "https://github.com/linuxrebel/DocuBrowser",
+      "domain": "github.com",
+      "published_at": "2026-07-08T20:37:29Z",
+      "category": "tech",
+      "score": 0.2551206115161244,
+      "tldr": "Turning a pile of documents into a searchable useable knowledge base",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e3a6baf4-121e-40c5-a70d-8e16463146fd",
       "title": "ClawdMojis – A Clawd for Every Occasion",
       "url": "https://github.com/afspies/ClawdMoji",
@@ -1177,20 +1219,6 @@
       "score": 0.25482420464292366,
       "tldr": "Men's average testosterone levels have halved in last 50 years",
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6a13e804-68de-4cde-ac4c-e0d15927fcd2",
-      "title": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
-      "url": "https://github.com/langchain-ai/openwiki",
-      "domain": "github.com",
-      "published_at": "2026-07-01T20:51:52Z",
-      "category": "tech",
-      "score": 0.25446757770837636,
-      "tldr": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b582d419-0f68-4497-9547-0664adcdf4ca",
-      "title": "Poly/ML – A Standard ML Implementation",
-      "url": "https://github.com/polyml/polyml",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:28:06Z",
-      "category": "tech",
-      "score": 0.252798651220502,
-      "tldr": "Poly/ML – A Standard ML Implementation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d13ee19c-3056-4276-aa95-403f513b4c20",
-      "title": "Show HN: ctx – Search the coding agent history already on your machine",
-      "url": "https://github.com/ctxrs/ctx",
-      "domain": "github.com",
-      "published_at": "2026-07-02T15:58:32Z",
-      "category": "tech",
-      "score": 0.25272804191588477,
-      "tldr": "Show HN: ctx – Search the coding agent history already on your machine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-08T20:16:19.676154716Z",
+  "last_updated": "2026-07-08T21:37:31.813886007Z",
   "total_count": 100
 }
