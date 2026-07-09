@@ -494,6 +494,21 @@
       ]
     },
     {
+      "id": "bb07dee7-ce99-44be-9eb3-4e3fd01900a9",
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-09T22:28:58Z",
+      "category": "tech",
+      "score": 0.3035295455031263,
+      "tldr": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "8aeb67bd-5219-4e47-a212-5af012b4e2e9",
       "title": "Separating signal from noise in coding evaluations",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
@@ -759,20 +774,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "cf89b027-8b42-419a-9d8f-5419ef19ae43",
-      "title": "crustc: entirety of `rustc`, translated to C",
-      "url": "https://github.com/FractalFir/crustc",
-      "domain": "github.com",
-      "published_at": "2026-07-02T22:57:35Z",
-      "category": "tech",
-      "score": 0.27799357527516194,
-      "tldr": "crustc: entirety of `rustc`, translated to C",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1407,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-09T22:22:08.467937626Z",
+  "last_updated": "2026-07-09T23:43:01.149133255Z",
   "total_count": 100
 }
