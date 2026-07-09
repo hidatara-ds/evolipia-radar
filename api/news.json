@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "c54157e8-675e-433d-a503-ebb76f5751be",
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6",
+      "domain": "openai.com",
+      "published_at": "2026-07-09T17:04:14Z",
+      "category": "tech",
+      "score": 0.4908535397563472,
+      "tldr": "GPT-5.6",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e0456114-d53b-45c5-9309-96219e304e7d",
+      "title": "My thoughts on the Bun Rust rewrite",
+      "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+      "domain": "andrewkelley.me",
+      "published_at": "2026-07-09T09:47:28Z",
+      "category": "tech",
+      "score": 0.4554051673804637,
+      "tldr": "My thoughts on the Bun Rust rewrite",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8bcf263d-78b4-4185-bca6-d5692ed9c5bd",
       "title": "Virginia bans sale of precise geolocation data",
       "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
@@ -12,6 +40,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data"
+      ]
+    },
+    {
+      "id": "759b6ad6-8266-4648-8014-598e46621f89",
+      "title": "EU Parliament greenlights Chat Control 1.0",
+      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out",
+      "domain": "patrick-breyer.de",
+      "published_at": "2026-07-09T11:03:54Z",
+      "category": "tech",
+      "score": 0.43619800606497033,
+      "tldr": "EU Parliament greenlights Chat Control 1.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -127,6 +169,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "836b0b75-3db6-4461-8058-025d11385628",
+      "title": "ChatGPT Work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "domain": "openai.com",
+      "published_at": "2026-07-09T17:03:53Z",
+      "category": "tech",
+      "score": 0.36035157015010855,
+      "tldr": "ChatGPT Work",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -452,6 +508,20 @@
       ]
     },
     {
+      "id": "227e4cea-da37-4640-8e62-964dcf9827fc",
+      "title": "Bonnie Tyler has died",
+      "url": "https://www.bbc.com/news/articles/cg5pd9z2487o",
+      "domain": "bbc.com",
+      "published_at": "2026-07-09T10:02:33Z",
+      "category": "tech",
+      "score": 0.3082992001544416,
+      "tldr": "Bonnie Tyler has died",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8aeb67bd-5219-4e47-a212-5af012b4e2e9",
       "title": "Separating signal from noise in coding evaluations",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
@@ -549,6 +619,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "8f74da87-a457-42ee-8732-3cef8c39990c",
+      "title": "PostHog FOSS",
+      "url": "https://github.com/PostHog/posthog-foss",
+      "domain": "github.com",
+      "published_at": "2026-07-09T14:17:40Z",
+      "category": "tech",
+      "score": 0.2965307909742282,
+      "tldr": "PostHog FOSS",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -742,6 +826,20 @@
       "category": "tech",
       "score": 0.2774728189402506,
       "tldr": "PostHog Open Sourced",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ff2201b9-8309-45af-80ed-0e06a81c33e0",
+      "title": "Muse Spark 1.1",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api",
+      "domain": "ai.meta.com",
+      "published_at": "2026-07-09T14:10:22Z",
+      "category": "tech",
+      "score": 0.2768761915038223,
+      "tldr": "Muse Spark 1.1",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1196,6 +1294,20 @@
       ]
     },
     {
+      "id": "e1d047aa-3001-4862-b2d9-3f3973c6e6a1",
+      "title": "Farage left fighting a trash can as the UK populist's election gamble backfires",
+      "url": "https://www.cnn.com/2026/07/09/uk/nigel-farage-special-election-bin-face-intl",
+      "domain": "cnn.com",
+      "published_at": "2026-07-09T15:56:24Z",
+      "category": "tech",
+      "score": 0.25543535254974026,
+      "tldr": "Farage left fighting a trash can as the UK populist's election gamble backfires",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f9ced8e4-9f3b-4286-8203-e648708116d8",
       "title": "Show HN: Fortress – a stealth Chromium so your agents stop getting blocked",
       "url": "https://github.com/tiliondev/fortress",
@@ -1252,6 +1364,20 @@
       ]
     },
     {
+      "id": "1914e9c8-7826-4a9e-8c7a-eaf2e59d04d8",
+      "title": "NASA SpaceWASM – A flight-compliant WebAssembly interpreter",
+      "url": "https://github.com/nasa/spacewasm",
+      "domain": "github.com",
+      "published_at": "2026-07-09T14:00:00Z",
+      "category": "tech",
+      "score": 0.2550873383733295,
+      "tldr": "NASA SpaceWASM – A flight-compliant WebAssembly interpreter",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "cfd74e1e-d40e-462a-91ca-5f0c4ad4bb00",
       "title": "Kani: A Model Checker for Rust",
       "url": "https://arxiv.org/abs/2607.01504",
@@ -1278,135 +1404,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "1fc52617-232f-43b4-a710-221a94b505ea",
-      "title": "AI inference is obviously profitable",
-      "url": "https://www.seangoedecke.com/ai-inference-is-obviously-profitable",
-      "domain": "seangoedecke.com",
-      "published_at": "2026-07-03T21:14:33Z",
-      "category": "tech",
-      "score": 0.2548702118487541,
-      "tldr": "AI inference is obviously profitable",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5089414e-4311-403a-9cb7-5ff5c7d31693",
-      "title": "Men's average testosterone levels have halved in last 50 years",
-      "url": "https://www.theguardian.com/society/2026/jul/07/mens-average-testosterone-levels-have-halved-in-last-50-years-say-scientists",
-      "domain": "theguardian.com",
-      "published_at": "2026-07-07T20:36:01Z",
-      "category": "tech",
-      "score": 0.25482420464292366,
-      "tldr": "Men's average testosterone levels have halved in last 50 years",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ac36cde1-d22b-450f-be7b-bc4dfc2f7956",
-      "title": "Show HN: I Built LangGraph for Swift",
-      "url": "https://github.com/christopherkarani/Swarm",
-      "domain": "github.com",
-      "published_at": "2026-07-06T14:47:45Z",
-      "category": "tech",
-      "score": 0.25423837685132483,
-      "tldr": "Show HN: I Built LangGraph for Swift",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c6bfd5dd-9051-481c-88e4-04a148dd443d",
-      "title": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
-      "url": "https://github.com/HouzuoGuo/hzgl-air-bridge",
-      "domain": "github.com",
-      "published_at": "2026-07-06T07:31:47Z",
-      "category": "tech",
-      "score": 0.2541454500636947,
-      "tldr": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "590f1c8a-320d-4166-996a-6ed683c1d38a",
-      "title": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
-      "url": "https://github.com/514-labs/dnsglobe",
-      "domain": "github.com",
-      "published_at": "2026-07-05T21:55:53Z",
-      "category": "tech",
-      "score": 0.25407826056166194,
-      "tldr": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9deec72b-fa23-4255-bcc9-5c822b484a05",
-      "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
-      "url": "https://ridgetext.com/blog/mapbox-llm-composition",
-      "domain": "ridgetext.com",
-      "published_at": "2026-07-04T23:25:53Z",
-      "category": "tech",
-      "score": 0.25400838827539973,
-      "tldr": "Mapping with In-Memory Layers to Reduce LLM Overload",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "052b1b45-d775-4bdb-bedd-f8e4a1d45ad6",
-      "title": "Anthropic performing prompt injection on its users",
-      "url": "https://old.reddit.com/r/LLMDevs/comments/1udpw9h/just_got_this_response_from_claude_what_is_going",
-      "domain": "old.reddit.com",
-      "published_at": "2026-07-05T01:30:44Z",
-      "category": "tech",
-      "score": 0.253802762859328,
-      "tldr": "Anthropic performing prompt injection on its users",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4f3fe4f7-1cfe-4622-8992-e34dd2ba0f3d",
-      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
-      "domain": "twitter.com",
-      "published_at": "2026-07-08T04:12:13Z",
-      "category": "tech",
-      "score": 0.2537929751907909,
-      "tldr": "6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "93b5b8ee-1803-4c97-9d47-22f639c393fe",
-      "title": "Show HN: I made a tool that prevents websites from tracking you",
-      "url": "https://github.com/alex-w-developer/GetBlocked",
-      "domain": "github.com",
-      "published_at": "2026-07-03T00:11:55Z",
-      "category": "tech",
-      "score": 0.25360783250884106,
-      "tldr": "Show HN: I made a tool that prevents websites from tracking you",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-09T15:52:21.113592891Z",
+  "last_updated": "2026-07-09T17:47:08.383734268Z",
   "total_count": 100
 }
