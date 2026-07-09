@@ -29,20 +29,6 @@
       ]
     },
     {
-      "id": "8bcf263d-78b4-4185-bca6-d5692ed9c5bd",
-      "title": "Virginia bans sale of precise geolocation data",
-      "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
-      "domain": "hunton.com",
-      "published_at": "2026-07-02T21:03:45Z",
-      "category": "tech",
-      "score": 0.43919738102684464,
-      "tldr": "Virginia bans sale of precise geolocation data",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "759b6ad6-8266-4648-8014-598e46621f89",
       "title": "EU Parliament greenlights Chat Control 1.0",
       "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out",
@@ -1404,8 +1390,23 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "c6bfd5dd-9051-481c-88e4-04a148dd443d",
+      "title": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
+      "url": "https://github.com/HouzuoGuo/hzgl-air-bridge",
+      "domain": "github.com",
+      "published_at": "2026-07-06T07:31:47Z",
+      "category": "tech",
+      "score": 0.2541454500636947,
+      "tldr": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data",
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-09T21:00:14.587645319Z",
+  "last_updated": "2026-07-09T22:22:08.467937626Z",
   "total_count": 100
 }
