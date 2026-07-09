@@ -411,6 +411,20 @@
       ]
     },
     {
+      "id": "1ffc98df-1fc2-416e-baae-a420b5bb9278",
+      "title": "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT)",
+      "url": "https://github.com/Rodiun/frugon",
+      "domain": "github.com",
+      "published_at": "2026-07-07T12:20:54Z",
+      "category": "tech",
+      "score": 0.31770511271299817,
+      "tldr": "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "665f33a7-a8f7-4c00-8f11-1615f4db5edf",
       "title": "A better way to tie gym shorts (or any drawstring) [video]",
       "url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
@@ -563,6 +577,34 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "f6372278-25a1-4287-84ba-dee45349f834",
+      "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
+      "url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
+      "domain": "tryai.dev",
+      "published_at": "2026-07-08T23:27:14Z",
+      "category": "tech",
+      "score": 0.28699483922296726,
+      "tldr": "5, and Claude build the same apps",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6cfb27aa-5bbd-457b-a2d4-76844857a78c",
+      "title": "I Think I Have LLM Burnout",
+      "url": "https://www.alecscollon.com/blog/llm-burnout",
+      "domain": "alecscollon.com",
+      "published_at": "2026-07-09T01:56:28Z",
+      "category": "tech",
+      "score": 0.2851233159269339,
+      "tldr": "I Think I Have LLM Burnout",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1363,50 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b0615dd3-293b-422e-a241-326466cac11e",
-      "title": "Rage of the Falling Elite: How downward mobility fuels radical politics",
-      "url": "https://www.robkhenderson.com/p/rage-of-the-falling-elite",
-      "domain": "robkhenderson.com",
-      "published_at": "2026-07-03T23:39:06Z",
-      "category": "tech",
-      "score": 0.25342047064898887,
-      "tldr": "Rage of the Falling Elite: How downward mobility fuels radical politics",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "27e815c5-b56b-46e7-bc5d-bf48b8287c20",
-      "title": "The primary purpose of code review is to find code that will be hard to maintain",
-      "url": "https://mathstodon.xyz/@mjd/115096720350507897",
-      "domain": "mathstodon.xyz",
-      "published_at": "2026-07-02T11:41:27Z",
-      "category": "tech",
-      "score": 0.2533746655100523,
-      "tldr": "The primary purpose of code review is to find code that will be hard to maintain",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "70f4d010-1398-42aa-afdb-d3d9124f61a7",
-      "title": "Titan's Resources and Their Utilization",
-      "url": "https://arxiv.org/abs/2606.06608",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-06T21:39:04Z",
-      "category": "tech",
-      "score": 0.25315102964780956,
-      "tldr": "Titan's Resources and Their Utilization",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-08T23:59:19.610336011Z",
+  "last_updated": "2026-07-09T02:40:19.79818801Z",
   "total_count": 100
 }
