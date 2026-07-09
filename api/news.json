@@ -284,20 +284,6 @@
       ]
     },
     {
-      "id": "5d4a7333-156f-481d-9f1d-e70de791ee70",
-      "title": "Claude-real-video － any LLM can watch a video",
-      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-      "domain": "github.com",
-      "published_at": "2026-07-02T19:10:12Z",
-      "category": "tech",
-      "score": 0.33518320405771307,
-      "tldr": "Claude-real-video － any LLM can watch a video",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "f3c94bf7-7a0c-4680-a580-80302febfdaf",
       "title": "Microsoft fire idTech team at Id software",
       "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software",
@@ -776,20 +762,6 @@
       ]
     },
     {
-      "id": "b5d8a7c3-bd1d-4872-bee8-c8bab61f3ccf",
-      "title": "This is my attempt to get Vulkan going on NetBSD",
-      "url": "https://github.com/segaboy/vulkan-netbsd",
-      "domain": "github.com",
-      "published_at": "2026-07-02T18:36:09Z",
-      "category": "tech",
-      "score": 0.2793954600206913,
-      "tldr": "This is my attempt to get Vulkan going on NetBSD",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bf7e3be2-be1c-4580-b77b-de8de0d29dde",
       "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
       "url": "https://news.ycombinator.com/item?id=48771515",
@@ -868,20 +840,6 @@
       "category": "tech",
       "score": 0.2756026032301862,
       "tldr": "14 compiled to metal – no interpreter",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "41552c55-c248-4b5f-a8dd-db9c0a2aca85",
-      "title": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
-      "url": "https://github.com/anthropics/claude-code/issues/73125",
-      "domain": "github.com",
-      "published_at": "2026-07-02T18:37:57Z",
-      "category": "tech",
-      "score": 0.2755293782845014,
-      "tldr": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1210,20 +1168,6 @@
       ]
     },
     {
-      "id": "c37c7b85-9f14-4d35-9e92-530fef926830",
-      "title": "Vulkan is now available on NetBSD",
-      "url": "https://github.com/segaboy/vulkan-netbsd",
-      "domain": "github.com",
-      "published_at": "2026-07-02T18:36:09Z",
-      "category": "tech",
-      "score": 0.25785525884840615,
-      "tldr": "Vulkan is now available on NetBSD",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ce5571e7-539c-4d85-a28d-a47f14a377d0",
       "title": "MacSurf 1.68 – NetSurf on OS 9 Released",
       "url": "https://github.com/mplsllc/macsurf/releases/tag/v1.86",
@@ -1404,8 +1348,65 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "1fc52617-232f-43b4-a710-221a94b505ea",
+      "title": "AI inference is obviously profitable",
+      "url": "https://www.seangoedecke.com/ai-inference-is-obviously-profitable",
+      "domain": "seangoedecke.com",
+      "published_at": "2026-07-03T21:14:33Z",
+      "category": "tech",
+      "score": 0.2548702118487541,
+      "tldr": "AI inference is obviously profitable",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5089414e-4311-403a-9cb7-5ff5c7d31693",
+      "title": "Men's average testosterone levels have halved in last 50 years",
+      "url": "https://www.theguardian.com/society/2026/jul/07/mens-average-testosterone-levels-have-halved-in-last-50-years-say-scientists",
+      "domain": "theguardian.com",
+      "published_at": "2026-07-07T20:36:01Z",
+      "category": "tech",
+      "score": 0.25482420464292366,
+      "tldr": "Men's average testosterone levels have halved in last 50 years",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ac36cde1-d22b-450f-be7b-bc4dfc2f7956",
+      "title": "Show HN: I Built LangGraph for Swift",
+      "url": "https://github.com/christopherkarani/Swarm",
+      "domain": "github.com",
+      "published_at": "2026-07-06T14:47:45Z",
+      "category": "tech",
+      "score": 0.25423837685132483,
+      "tldr": "Show HN: I Built LangGraph for Swift",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c6bfd5dd-9051-481c-88e4-04a148dd443d",
+      "title": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
+      "url": "https://github.com/HouzuoGuo/hzgl-air-bridge",
+      "domain": "github.com",
+      "published_at": "2026-07-06T07:31:47Z",
+      "category": "tech",
+      "score": 0.2541454500636947,
+      "tldr": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data",
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-09T17:47:08.383734268Z",
+  "last_updated": "2026-07-09T19:19:19.346734326Z",
   "total_count": 100
 }
