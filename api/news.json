@@ -242,6 +242,20 @@
       ]
     },
     {
+      "id": "310ddb6d-9257-4273-b4e9-93e558e55181",
+      "title": "Prismata: Confining cross-site prompt injection in web agents",
+      "url": "https://arxiv.org/abs/2607.08147",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-10T21:03:38Z",
+      "category": "tech",
+      "score": 0.3268885691429093,
+      "tldr": "Prismata: Confining cross-site prompt injection in web agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "70b8cbab-c5a2-43a6-bdc4-16ba05069ace",
       "title": "Show HN: Foreman, a self-hosted LLM gateway for cost aware model routing",
       "url": "https://github.com/Northwood-Systems/foreman",
@@ -510,6 +524,20 @@
       ]
     },
     {
+      "id": "da7e03f8-cbc4-4346-9e1b-47751d04e9c5",
+      "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
+      "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
+      "domain": "tryai.dev",
+      "published_at": "2026-07-10T20:52:28Z",
+      "category": "tech",
+      "score": 0.29154135043171087,
+      "tldr": "5, Claude, and Muse Spark build the same 4 apps",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "eff9f0c7-df35-44c1-947d-d064ae889c61",
       "title": "A sociotechnical threat model for AI-driven smart home devices",
       "url": "https://arxiv.org/abs/2602.09239",
@@ -770,20 +798,6 @@
       "category": "tech",
       "score": 0.265029201596906,
       "tldr": "Show HN: Getting GLM 5. 2 running on my slow computer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "83b21f98-40ee-4d19-a920-cc313f8899fa",
-      "title": "Performance per dollar is getting faster and cheaper",
-      "url": "https://www.wafer.ai/blog/glm52-amd",
-      "domain": "wafer.ai",
-      "published_at": "2026-07-03T21:49:06Z",
-      "category": "tech",
-      "score": 0.263697357633106,
-      "tldr": "Performance per dollar is getting faster and cheaper",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1140,20 +1154,6 @@
       ]
     },
     {
-      "id": "1fc52617-232f-43b4-a710-221a94b505ea",
-      "title": "AI inference is obviously profitable",
-      "url": "https://www.seangoedecke.com/ai-inference-is-obviously-profitable",
-      "domain": "seangoedecke.com",
-      "published_at": "2026-07-03T21:14:33Z",
-      "category": "tech",
-      "score": 0.2548702118487541,
-      "tldr": "AI inference is obviously profitable",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5089414e-4311-403a-9cb7-5ff5c7d31693",
       "title": "Men's average testosterone levels have halved in last 50 years",
       "url": "https://www.theguardian.com/society/2026/jul/07/mens-average-testosterone-levels-have-halved-in-last-50-years-say-scientists",
@@ -1208,6 +1208,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
+      "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
+      "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
+      "domain": "twitter.com",
+      "published_at": "2026-07-10T21:03:03Z",
+      "category": "tech",
+      "score": 0.2540402865781295,
+      "tldr": "6-Sol just accidentally deleted almost ALL of my Mac's files",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1365,20 +1379,6 @@
       ]
     },
     {
-      "id": "f0975a01-5855-43ef-8542-a35fc8ee40e1",
-      "title": "Show HN: ContextCodeCache in Rust",
-      "url": "https://github.com/colwill/ccc",
-      "domain": "github.com",
-      "published_at": "2026-07-03T21:03:19Z",
-      "category": "tech",
-      "score": 0.2524700573723664,
-      "tldr": "Show HN: ContextCodeCache in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
       "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
       "url": "https://danluu.com/ai-coding",
@@ -1407,6 +1407,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-10T21:00:38.49525743Z",
+  "last_updated": "2026-07-10T22:03:22.935229733Z",
   "total_count": 100
 }
