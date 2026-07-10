@@ -411,21 +411,6 @@
       ]
     },
     {
-      "id": "8bc9fc78-f575-4a1e-84d9-3a6516e3ad0b",
-      "title": "Meta AI chief says their coming LLM has caught up with OpenAI's flagship model",
-      "url": "https://www.businessinsider.com/meta-ai-model-catches-up-openai-gpt-5-says-2026-7",
-      "domain": "businessinsider.com",
-      "published_at": "2026-07-03T21:00:18Z",
-      "category": "tech",
-      "score": 0.3028763968669944,
-      "tldr": "Meta AI chief says their coming LLM has caught up with OpenAI's flagship model",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "3222a9e0-c4d4-4bcd-aa8e-6bc1abe8f5ad",
       "title": "Ollama raises $65M, grows to nearly 9M users",
       "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users",
@@ -763,20 +748,6 @@
       ]
     },
     {
-      "id": "33183c1c-83ab-458a-a432-378f9d4f590e",
-      "title": "SearXNG: A free internet metasearch engine",
-      "url": "https://github.com/searxng/searxng",
-      "domain": "github.com",
-      "published_at": "2026-07-03T20:15:49Z",
-      "category": "tech",
-      "score": 0.26630573041245276,
-      "tldr": "SearXNG: A free internet metasearch engine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e2fe4cb1-85df-482c-a9a1-dfa9aab7cd95",
       "title": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
       "url": "https://github.com/MaximeRivest/Riddle",
@@ -1026,6 +997,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "1cc8cdfe-6fb5-4251-a222-95f85f7e3c00",
+      "title": "Don't discontinue Gemini 2.5 Flash",
+      "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
+      "domain": "discuss.ai.google.dev",
+      "published_at": "2026-07-10T20:00:28Z",
+      "category": "tech",
+      "score": 0.2564111456476847,
+      "tldr": "Don't discontinue Gemini 2.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1406,8 +1391,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
+      "title": "Full Writeup of the Windows GDID",
+      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
+      "domain": "github.com",
+      "published_at": "2026-07-06T22:02:24Z",
+      "category": "tech",
+      "score": 0.25241692399568594,
+      "tldr": "Full Writeup of the Windows GDID",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-10T19:57:20.269306449Z",
+  "last_updated": "2026-07-10T21:00:38.49525743Z",
   "total_count": 100
 }
