@@ -158,34 +158,6 @@
       ]
     },
     {
-      "id": "80d608bf-24db-47fc-8285-e7bdb673a0c4",
-      "title": "Jamesob's guide to running SOTA LLMs locally",
-      "url": "https://github.com/jamesob/local-llm",
-      "domain": "github.com",
-      "published_at": "2026-07-03T15:03:43Z",
-      "category": "tech",
-      "score": 0.35347358848446137,
-      "tldr": "Jamesob's guide to running SOTA LLMs locally",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ceb794dc-a2a3-40a1-a03c-96a8267f2d36",
-      "title": "Markets are competitive if and only if P != NP",
-      "url": "https://arxiv.org/abs/2602.20415",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-03T15:41:44Z",
-      "category": "tech",
-      "score": 0.3524160273091767,
-      "tldr": "Markets are competitive if and only if P !",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0a25b034-d8eb-4f70-bba0-ef8bf7114f6d",
       "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
       "url": "https://github.com/malisper/pgrust",
@@ -379,20 +351,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "20c1c7f0-6452-4c9d-aabc-84b3a44545f2",
-      "title": "Markets are competitive if and only if P = NP",
-      "url": "https://arxiv.org/abs/2602.20415",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-03T15:41:44Z",
-      "category": "tech",
-      "score": 0.31912221182758943,
-      "tldr": "Markets are competitive if and only if P = NP",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -791,20 +749,6 @@
       ]
     },
     {
-      "id": "803c5006-cc97-48c0-90f7-3ea7592a58ba",
-      "title": "Memorizing session transcripts isn't useful",
-      "url": "https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts",
-      "domain": "12gramsofcarbon.com",
-      "published_at": "2026-07-03T15:32:51Z",
-      "category": "tech",
-      "score": 0.26850246790963495,
-      "tldr": "Memorizing session transcripts isn't useful",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "85d067e9-b4ad-4de8-82ed-e572b8b4e461",
       "title": "Introduction to Compilers and Language Design (2021)",
       "url": "https://dthain.github.io/books/compiler",
@@ -925,6 +869,20 @@
       "category": "tech",
       "score": 0.26061639287275523,
       "tldr": "The Hitchhiker's Guide to Agentic AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6963cf1d-fba4-430b-86b8-03681502e486",
+      "title": "Show HN: Runloom – Go-style coroutines for Python free-threaded",
+      "url": "https://github.com/robertsdotpm/runloom",
+      "domain": "github.com",
+      "published_at": "2026-07-10T13:07:38Z",
+      "category": "tech",
+      "score": 0.25968958511545465,
+      "tldr": "Show HN: Runloom – Go-style coroutines for Python free-threaded",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1079,20 +1037,6 @@
       "category": "tech",
       "score": 0.2570643781543119,
       "tldr": "Windows CE Dreamcast Community Edition (wince-dc)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "18769fa4-ae13-40e7-b6d9-fbd29bc7ac13",
-      "title": "60% Fable cost cut by converting code to images and having the model OCR it",
-      "url": "https://github.com/teamchong/pxpipe",
-      "domain": "github.com",
-      "published_at": "2026-07-03T15:50:49Z",
-      "category": "tech",
-      "score": 0.2556301762304928,
-      "tldr": "60% Fable cost cut by converting code to images and having the model OCR it",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1350,64 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "b582d419-0f68-4497-9547-0664adcdf4ca",
+      "title": "Poly/ML – A Standard ML Implementation",
+      "url": "https://github.com/polyml/polyml",
+      "domain": "github.com",
+      "published_at": "2026-07-06T22:28:06Z",
+      "category": "tech",
+      "score": 0.252798651220502,
+      "tldr": "Poly/ML – A Standard ML Implementation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ac16e808-283a-4e2e-ac6d-f8369956ea71",
+      "title": "The Log Is the Agent",
+      "url": "https://arxiv.org/abs/2605.21997",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-05T02:57:38Z",
+      "category": "tech",
+      "score": 0.2526691708628976,
+      "tldr": "The Log Is the Agent",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2cb7640e-6342-458b-ae6d-982635d1f2bd",
+      "title": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
+      "url": "https://itsfoss.com/news/windows-11-cam-bug",
+      "domain": "itsfoss.com",
+      "published_at": "2026-07-07T20:32:12Z",
+      "category": "tech",
+      "score": 0.25263195741013145,
+      "tldr": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f0975a01-5855-43ef-8542-a35fc8ee40e1",
+      "title": "Show HN: ContextCodeCache in Rust",
+      "url": "https://github.com/colwill/ccc",
+      "domain": "github.com",
+      "published_at": "2026-07-03T21:03:19Z",
+      "category": "tech",
+      "score": 0.2524700573723664,
+      "tldr": "Show HN: ContextCodeCache in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-10T13:54:16.026270238Z",
+  "last_updated": "2026-07-10T16:13:30.059123318Z",
   "total_count": 100
 }
