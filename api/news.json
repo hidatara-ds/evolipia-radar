@@ -158,20 +158,6 @@
       ]
     },
     {
-      "id": "83c3ee9f-d3e5-449d-936b-83a260de074f",
-      "title": "Valve open-source the Steam Machine e-ink screen so you can make your own",
-      "url": "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own",
-      "domain": "gamingonlinux.com",
-      "published_at": "2026-07-03T13:01:49Z",
-      "category": "tech",
-      "score": 0.3561093161511008,
-      "tldr": "Valve open-source the Steam Machine e-ink screen so you can make your own",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "80d608bf-24db-47fc-8285-e7bdb673a0c4",
       "title": "Jamesob's guide to running SOTA LLMs locally",
       "url": "https://github.com/jamesob/local-llm",
@@ -693,20 +679,6 @@
       ]
     },
     {
-      "id": "a8ef3de4-f133-42d3-b636-937f4adf217a",
-      "title": "Please stop the AI confidence theater",
-      "url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
-      "domain": "elenaverna.com",
-      "published_at": "2026-07-03T12:51:17Z",
-      "category": "tech",
-      "score": 0.28244609450030883,
-      "tldr": "Please stop the AI confidence theater",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "d631ba27-497b-4083-b97f-f77c4bd7e591",
       "title": "PostHog Open Sourced",
       "url": "https://github.com/PostHog/posthog-foss",
@@ -830,20 +802,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "798fdaf2-d982-4c51-8eb7-7409f75a2ea4",
-      "title": "Gemini Code Assist will be shut down on July 17",
-      "url": "https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code",
-      "domain": "docs.cloud.google.com",
-      "published_at": "2026-07-03T12:52:48Z",
-      "category": "tech",
-      "score": 0.2673922691209646,
-      "tldr": "Gemini Code Assist will be shut down on July 17",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1352,6 +1310,20 @@
       ]
     },
     {
+      "id": "c3d0f969-5db2-4551-b605-e5c00931ceb7",
+      "title": "Offline tool to stabilize TV volume using IR control and spike detection",
+      "url": "https://github.com/AdBusterOfficial/Adbuster--WinApp",
+      "domain": "github.com",
+      "published_at": "2026-07-10T13:39:49Z",
+      "category": "tech",
+      "score": 0.2538759565944357,
+      "tldr": "Offline tool to stabilize TV volume using IR control and spike detection",
+      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
+      "tags": [
+        "computer_vision"
+      ]
+    },
+    {
       "id": "052b1b45-d775-4bdb-bedd-f8e4a1d45ad6",
       "title": "Anthropic performing prompt injection on its users",
       "url": "https://old.reddit.com/r/LLMDevs/comments/1udpw9h/just_got_this_response_from_claude_what_is_going",
@@ -1406,8 +1378,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "70f4d010-1398-42aa-afdb-d3d9124f61a7",
+      "title": "Titan's Resources and Their Utilization",
+      "url": "https://arxiv.org/abs/2606.06608",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-06T21:39:04Z",
+      "category": "tech",
+      "score": 0.25315102964780956,
+      "tldr": "Titan's Resources and Their Utilization",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "12dfe3ff-7f9b-4c9d-a6bd-4ffc3feb7613",
+      "title": "We Are Living in a 'ChatGPT Flyer Pandemic'",
+      "url": "https://www.404media.co/we-are-living-in-a-chatgpt-flyer-pandemic",
+      "domain": "404media.co",
+      "published_at": "2026-07-08T14:21:18Z",
+      "category": "tech",
+      "score": 0.25307134178057084,
+      "tldr": "We Are Living in a 'ChatGPT Flyer Pandemic'",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-10T11:46:17.374610877Z",
+  "last_updated": "2026-07-10T13:54:16.026270238Z",
   "total_count": 100
 }
