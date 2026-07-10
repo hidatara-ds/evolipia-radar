@@ -1085,6 +1085,20 @@
       ]
     },
     {
+      "id": "45a962f1-30b9-4b80-9d78-de29074d0a17",
+      "title": "Ask HN: Do we need a support group for developers alienated by LLMs?",
+      "url": "https://news.ycombinator.com/item?id=48857085",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-10T08:00:24Z",
+      "category": "tech",
+      "score": 0.2573315178639769,
+      "tldr": "Ask HN: Do we need a support group for developers alienated by LLMs?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "0cca8d7a-7bcb-4037-8940-ccb9ebd55943",
       "title": "\"These cameras are just like the Eye of Sauron\"",
       "url": "https://arxiv.org/abs/2602.09239",
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "70f4d010-1398-42aa-afdb-d3d9124f61a7",
-      "title": "Titan's Resources and Their Utilization",
-      "url": "https://arxiv.org/abs/2606.06608",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-06T21:39:04Z",
-      "category": "tech",
-      "score": 0.25315102964780956,
-      "tldr": "Titan's Resources and Their Utilization",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-10T08:58:21.264966466Z",
+  "last_updated": "2026-07-10T11:46:17.374610877Z",
   "total_count": 100
 }
