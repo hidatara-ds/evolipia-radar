@@ -144,6 +144,20 @@
       ]
     },
     {
+      "id": "65238b04-1def-4382-9906-2e362f8e3e73",
+      "title": "New York City to to ban deceptive subscription practices",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "domain": "theguardian.com",
+      "published_at": "2026-07-10T18:26:24Z",
+      "category": "tech",
+      "score": 0.34450359541047515,
+      "tldr": "New York City to to ban deceptive subscription practices",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0a25b034-d8eb-4f70-bba0-ef8bf7114f6d",
       "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
       "url": "https://github.com/malisper/pgrust",
@@ -393,6 +407,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "b6d5b851-cf29-428b-95b4-7226b47a56da",
+      "title": "Please don't discontinue Gemini 2.5 Flash",
+      "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
+      "domain": "discuss.ai.google.dev",
+      "published_at": "2026-07-10T20:00:28Z",
+      "category": "tech",
+      "score": 0.3043675837687665,
+      "tldr": "Please don't discontinue Gemini 2.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -686,6 +714,20 @@
       "category": "tech",
       "score": 0.2756026032301862,
       "tldr": "14 compiled to metal – no interpreter",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a9be566b-8f15-4c99-88ba-b42014f2703b",
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft",
+      "domain": "9to5mac.com",
+      "published_at": "2026-07-10T20:47:09Z",
+      "category": "tech",
+      "score": 0.2752254132927149,
+      "tldr": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1363,50 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2cb7640e-6342-458b-ae6d-982635d1f2bd",
-      "title": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
-      "url": "https://itsfoss.com/news/windows-11-cam-bug",
-      "domain": "itsfoss.com",
-      "published_at": "2026-07-07T20:32:12Z",
-      "category": "tech",
-      "score": 0.25263195741013145,
-      "tldr": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
-      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
-      "url": "https://danluu.com/ai-coding",
-      "domain": "danluu.com",
-      "published_at": "2026-07-08T20:21:45Z",
-      "category": "tech",
-      "score": 0.2524492192573599,
-      "tldr": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
-      "title": "Full Writeup of the Windows GDID",
-      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:02:24Z",
-      "category": "tech",
-      "score": 0.25241692399568594,
-      "tldr": "Full Writeup of the Windows GDID",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-10T22:03:22.935229733Z",
+  "last_updated": "2026-07-10T23:27:07.188315461Z",
   "total_count": 100
 }
