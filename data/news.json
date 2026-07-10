@@ -72,20 +72,6 @@
       ]
     },
     {
-      "id": "63e322d4-e2d0-4a56-8235-e6016c8d58a2",
-      "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination (2025)",
-      "url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
-      "domain": "inpreparation.substack.com",
-      "published_at": "2026-07-03T17:46:10Z",
-      "category": "tech",
-      "score": 0.37648538621307004,
-      "tldr": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination (2025)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "4252fab9-2907-463f-aade-781f43ed2c1f",
       "title": "Reinforcement Learning with Metacognitive Feedback Elicits Uncertainty in LLMs",
       "url": "https://arxiv.org/abs/2606.32032",
@@ -194,20 +180,6 @@
       "category": "tech",
       "score": 0.3374546108779828,
       "tldr": "5 Codex reasoning-token clustering may be leading to degraded performance",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4cc60781-ba84-417a-9628-02b647b39eaa",
-      "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination",
-      "url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
-      "domain": "inpreparation.substack.com",
-      "published_at": "2026-07-03T17:46:10Z",
-      "category": "tech",
-      "score": 0.3370271428274294,
-      "tldr": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1406,8 +1378,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "url": "https://danluu.com/ai-coding",
+      "domain": "danluu.com",
+      "published_at": "2026-07-08T20:21:45Z",
+      "category": "tech",
+      "score": 0.2524492192573599,
+      "tldr": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
+      "title": "Full Writeup of the Windows GDID",
+      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
+      "domain": "github.com",
+      "published_at": "2026-07-06T22:02:24Z",
+      "category": "tech",
+      "score": 0.25241692399568594,
+      "tldr": "Full Writeup of the Windows GDID",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-10T16:13:30.059123318Z",
+  "last_updated": "2026-07-10T18:06:48.017144191Z",
   "total_count": 100
 }
