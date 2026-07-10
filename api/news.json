@@ -57,20 +57,6 @@
       ]
     },
     {
-      "id": "bcad9ec2-ca5a-42f7-9204-76df99f740d8",
-      "title": "Why Switzerland has 25 gbit internet and America doesn't",
-      "url": "https://stefan.schueller.net/posts/the-free-market-lie",
-      "domain": "stefan.schueller.net",
-      "published_at": "2026-07-03T04:16:17Z",
-      "category": "tech",
-      "score": 0.42479627955335564,
-      "tldr": "Why Switzerland has 25 gbit internet and America doesn't",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b34ac07c-e6ce-4bcb-8cac-9ea73072a8cd",
       "title": "Train and run transformers directly on Apple's Neural Engine",
       "url": "https://github.com/christopherkarani/Espresso",
@@ -396,20 +382,6 @@
       ]
     },
     {
-      "id": "a85394b8-db51-4fcb-8e51-f5bca379db88",
-      "title": "Lotus: Optimized Agentic and LLM Bulk Processing",
-      "url": "https://github.com/lotus-data/lotus",
-      "domain": "github.com",
-      "published_at": "2026-07-03T02:35:05Z",
-      "category": "tech",
-      "score": 0.3258139656179243,
-      "tldr": "Lotus: Optimized Agentic and LLM Bulk Processing",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "517e8fd2-3857-4b70-88ea-dc2b1a23f4ce",
       "title": "OpenScience: Workbench for scientific research using custom LLMs",
       "url": "https://github.com/synthetic-sciences/openscience",
@@ -701,20 +673,6 @@
       "category": "tech",
       "score": 0.28443597776032176,
       "tldr": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2a41c7d4-14a9-463f-a410-c0bc4fd8c4e9",
-      "title": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
-      "url": "https://stefan.schueller.net/posts/the-free-market-lie",
-      "domain": "stefan.schueller.net",
-      "published_at": "2026-07-03T04:16:17Z",
-      "category": "tech",
-      "score": 0.2837245802991794,
-      "tldr": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1364,50 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "9deec72b-fa23-4255-bcc9-5c822b484a05",
+      "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
+      "url": "https://ridgetext.com/blog/mapbox-llm-composition",
+      "domain": "ridgetext.com",
+      "published_at": "2026-07-04T23:25:53Z",
+      "category": "tech",
+      "score": 0.25400838827539973,
+      "tldr": "Mapping with In-Memory Layers to Reduce LLM Overload",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "052b1b45-d775-4bdb-bedd-f8e4a1d45ad6",
+      "title": "Anthropic performing prompt injection on its users",
+      "url": "https://old.reddit.com/r/LLMDevs/comments/1udpw9h/just_got_this_response_from_claude_what_is_going",
+      "domain": "old.reddit.com",
+      "published_at": "2026-07-05T01:30:44Z",
+      "category": "tech",
+      "score": 0.253802762859328,
+      "tldr": "Anthropic performing prompt injection on its users",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4f3fe4f7-1cfe-4622-8992-e34dd2ba0f3d",
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "domain": "twitter.com",
+      "published_at": "2026-07-08T04:12:13Z",
+      "category": "tech",
+      "score": 0.2537929751907909,
+      "tldr": "6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-10T01:46:16.59709001Z",
+  "last_updated": "2026-07-10T05:52:23.065172941Z",
   "total_count": 100
 }
