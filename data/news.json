@@ -707,20 +707,6 @@
       ]
     },
     {
-      "id": "bf7e3be2-be1c-4580-b77b-de8de0d29dde",
-      "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
-      "url": "https://news.ycombinator.com/item?id=48771515",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-03T06:21:44Z",
-      "category": "tech",
-      "score": 0.2789864277437865,
-      "tldr": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "d631ba27-497b-4083-b97f-f77c4bd7e591",
       "title": "PostHog Open Sourced",
       "url": "https://github.com/PostHog/posthog-foss",
@@ -903,20 +889,6 @@
       ]
     },
     {
-      "id": "369c0db1-2a6e-4e23-92a9-e4c49156f7e0",
-      "title": "Half-Baked Product",
-      "url": "https://weli.dev/blog/half-baked-product",
-      "domain": "weli.dev",
-      "published_at": "2026-07-03T08:23:32Z",
-      "category": "tech",
-      "score": 0.26612231209212317,
-      "tldr": "Half-Baked Product",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e2fe4cb1-85df-482c-a9a1-dfa9aab7cd95",
       "title": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
       "url": "https://github.com/MaximeRivest/Riddle",
@@ -1065,20 +1037,6 @@
       "category": "tech",
       "score": 0.2590602337088224,
       "tldr": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "62dca1a3-4ff6-4607-ad22-fd18dd44e58b",
-      "title": "Wordgard: In-browser rich-text editor from the creator of ProseMirror",
-      "url": "https://wordgard.net/",
-      "domain": "wordgard.net",
-      "published_at": "2026-07-03T08:50:47Z",
-      "category": "tech",
-      "score": 0.2585339568815713,
-      "tldr": "Wordgard: In-browser rich-text editor from the creator of ProseMirror",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1364,50 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "ac3a39d0-d496-42b5-8500-f380024eae9e",
+      "title": "“Beyond the limit”: Satellites and mirrors in space pose threat to the night sky",
+      "url": "https://www.eso.org/public/news/eso2607",
+      "domain": "eso.org",
+      "published_at": "2026-07-04T17:17:28Z",
+      "category": "tech",
+      "score": 0.2535647250173659,
+      "tldr": "“Beyond the limit”: Satellites and mirrors in space pose threat to the night sky",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b0615dd3-293b-422e-a241-326466cac11e",
+      "title": "Rage of the Falling Elite: How downward mobility fuels radical politics",
+      "url": "https://www.robkhenderson.com/p/rage-of-the-falling-elite",
+      "domain": "robkhenderson.com",
+      "published_at": "2026-07-03T23:39:06Z",
+      "category": "tech",
+      "score": 0.25342047064898887,
+      "tldr": "Rage of the Falling Elite: How downward mobility fuels radical politics",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "70f4d010-1398-42aa-afdb-d3d9124f61a7",
+      "title": "Titan's Resources and Their Utilization",
+      "url": "https://arxiv.org/abs/2606.06608",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-06T21:39:04Z",
+      "category": "tech",
+      "score": 0.25315102964780956,
+      "tldr": "Titan's Resources and Their Utilization",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-10T05:52:23.065172941Z",
+  "last_updated": "2026-07-10T08:58:21.264966466Z",
   "total_count": 100
 }
