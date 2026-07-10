@@ -340,6 +340,20 @@
       ]
     },
     {
+      "id": "b290dabd-974c-4cab-95e7-6a4573a631fc",
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "domain": "cdn.openai.com",
+      "published_at": "2026-07-10T18:29:19Z",
+      "category": "tech",
+      "score": 0.31767724810190523,
+      "tldr": "6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "665f33a7-a8f7-4c00-8f11-1615f4db5edf",
       "title": "A better way to tie gym shorts (or any drawstring) [video]",
       "url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
@@ -1015,6 +1029,20 @@
       ]
     },
     {
+      "id": "42f742c1-8850-4ea2-b34a-8908471b59b0",
+      "title": "Cpp2Rust: Translates C++ to safe Rust automatically",
+      "url": "https://github.com/Cpp2Rust/cpp2rust",
+      "domain": "github.com",
+      "published_at": "2026-07-10T16:24:20Z",
+      "category": "tech",
+      "score": 0.25558759240851003,
+      "tldr": "Cpp2Rust: Translates C++ to safe Rust automatically",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "845aa911-e074-4c2e-aac1-d0f3042ee19e",
       "title": "Does average person understand that all disc media dies too?",
       "url": "https://news.ycombinator.com/item?id=48785525",
@@ -1079,20 +1107,6 @@
       "category": "tech",
       "score": 0.2551206115161244,
       "tldr": "Turning a pile of documents into a searchable useable knowledge base",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e3a6baf4-121e-40c5-a70d-8e16463146fd",
-      "title": "ClawdMojis – A Clawd for Every Occasion",
-      "url": "https://github.com/afspies/ClawdMoji",
-      "domain": "github.com",
-      "published_at": "2026-07-03T19:28:10Z",
-      "category": "tech",
-      "score": 0.2550960165720068,
-      "tldr": "ClawdMojis – A Clawd for Every Occasion",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1392,22 +1406,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
-      "title": "Full Writeup of the Windows GDID",
-      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:02:24Z",
-      "category": "tech",
-      "score": 0.25241692399568594,
-      "tldr": "Full Writeup of the Windows GDID",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-10T18:06:48.017144191Z",
+  "last_updated": "2026-07-10T19:57:20.269306449Z",
   "total_count": 100
 }
