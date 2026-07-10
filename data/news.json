@@ -326,20 +326,6 @@
       ]
     },
     {
-      "id": "2e291c72-2548-43fb-8c4d-e3fd883c27b5",
-      "title": "Protect your right to run local AI",
-      "url": "https://righttointelligence.org/",
-      "domain": "righttointelligence.org",
-      "published_at": "2026-07-02T23:54:03Z",
-      "category": "tech",
-      "score": 0.32855373547985955,
-      "tldr": "Protect your right to run local AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "70b8cbab-c5a2-43a6-bdc4-16ba05069ace",
       "title": "Show HN: Foreman, a self-hosted LLM gateway for cost aware model routing",
       "url": "https://github.com/Northwood-Systems/foreman",
@@ -1406,8 +1392,22 @@
         "data",
         "general_ai"
       ]
+    },
+    {
+      "id": "590f1c8a-320d-4166-996a-6ed683c1d38a",
+      "title": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
+      "url": "https://github.com/514-labs/dnsglobe",
+      "domain": "github.com",
+      "published_at": "2026-07-05T21:55:53Z",
+      "category": "tech",
+      "score": 0.25407826056166194,
+      "tldr": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-09T23:43:01.149133255Z",
+  "last_updated": "2026-07-10T01:46:16.59709001Z",
   "total_count": 100
 }
