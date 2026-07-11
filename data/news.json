@@ -354,20 +354,6 @@
       ]
     },
     {
-      "id": "517e8fd2-3857-4b70-88ea-dc2b1a23f4ce",
-      "title": "OpenScience: Workbench for scientific research using custom LLMs",
-      "url": "https://github.com/synthetic-sciences/openscience",
-      "domain": "github.com",
-      "published_at": "2026-07-04T16:50:25Z",
-      "category": "tech",
-      "score": 0.325369430428871,
-      "tldr": "OpenScience: Workbench for scientific research using custom LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "1ffc98df-1fc2-416e-baae-a420b5bb9278",
       "title": "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT)",
       "url": "https://github.com/Rodiun/frugon",
@@ -1281,20 +1267,6 @@
       ]
     },
     {
-      "id": "ac3a39d0-d496-42b5-8500-f380024eae9e",
-      "title": "“Beyond the limit”: Satellites and mirrors in space pose threat to the night sky",
-      "url": "https://www.eso.org/public/news/eso2607",
-      "domain": "eso.org",
-      "published_at": "2026-07-04T17:17:28Z",
-      "category": "tech",
-      "score": 0.2535647250173659,
-      "tldr": "“Beyond the limit”: Satellites and mirrors in space pose threat to the night sky",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "70f4d010-1398-42aa-afdb-d3d9124f61a7",
       "title": "Titan's Resources and Their Utilization",
       "url": "https://arxiv.org/abs/2606.06608",
@@ -1405,8 +1377,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "9a33d3d2-424f-445f-9474-7f077511a7e2",
+      "title": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
+      "url": "https://github.com/karola3vax/CS2FOW",
+      "domain": "github.com",
+      "published_at": "2026-07-06T15:23:34Z",
+      "category": "tech",
+      "score": 0.2523593265366995,
+      "tldr": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "bbd2368a-6a9c-4e94-991c-14ce1443abf1",
+      "title": "Show HN: Waypoint.nvim – A Neovim plugin for bookmarking lines of code",
+      "url": "https://github.com/patrick-sharp/waypoint.nvim",
+      "domain": "github.com",
+      "published_at": "2026-07-04T19:55:28Z",
+      "category": "tech",
+      "score": 0.25231650675389067,
+      "tldr": "nvim – A Neovim plugin for bookmarking lines of code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-11T16:24:10.791868022Z",
+  "last_updated": "2026-07-11T17:28:32.828504794Z",
   "total_count": 100
 }
