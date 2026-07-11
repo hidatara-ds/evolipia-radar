@@ -367,6 +367,21 @@
       ]
     },
     {
+      "id": "0bd1d389-5e96-44d4-8e0f-56c3e38cd27f",
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "domain": "iroh.computer",
+      "published_at": "2026-07-11T22:38:57Z",
+      "category": "tech",
+      "score": 0.3106924097558297,
+      "tldr": "Mesh LLM: distributed AI computing on iroh",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "665f33a7-a8f7-4c00-8f11-1615f4db5edf",
       "title": "A better way to tie gym shorts (or any drawstring) [video]",
       "url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
@@ -506,6 +521,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "93dfe62a-12cd-42f8-a88e-ca9cfc2d9c1b",
+      "title": "Stop Telling Me to Ask an LLM",
+      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm",
+      "domain": "blog.yaelwrites.com",
+      "published_at": "2026-07-11T22:28:48Z",
+      "category": "tech",
+      "score": 0.29556319018038585,
+      "tldr": "Stop Telling Me to Ask an LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -915,6 +944,20 @@
       ]
     },
     {
+      "id": "604102e8-d3a7-4baa-a32b-a526a196afd2",
+      "title": "RISCBoy is an open-source portable games console, designed from scratch",
+      "url": "https://github.com/Wren6991/RISCBoy",
+      "domain": "github.com",
+      "published_at": "2026-07-11T21:58:00Z",
+      "category": "tech",
+      "score": 0.25886981649375346,
+      "tldr": "RISCBoy is an open-source portable games console, designed from scratch",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5f7afdea-1b14-488c-8e79-7a5693d84fcd",
       "title": "Jim's TrueType QR Code Font",
       "url": "https://github.com/jimparis/qr-font",
@@ -1182,20 +1225,6 @@
       ]
     },
     {
-      "id": "9deec72b-fa23-4255-bcc9-5c822b484a05",
-      "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
-      "url": "https://ridgetext.com/blog/mapbox-llm-composition",
-      "domain": "ridgetext.com",
-      "published_at": "2026-07-04T23:25:53Z",
-      "category": "tech",
-      "score": 0.25400838827539973,
-      "tldr": "Mapping with In-Memory Layers to Reduce LLM Overload",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "c3d0f969-5db2-4551-b605-e5c00931ceb7",
       "title": "Offline tool to stabilize TV volume using IR control and spike detection",
       "url": "https://github.com/AdBusterOfficial/Adbuster--WinApp",
@@ -1376,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "eeacd3f7-b61a-4f4f-9dda-ad66adcf7354",
-      "title": "The Next Chapter for ChatGPT",
-      "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
-      "domain": "youtube.com",
-      "published_at": "2026-07-09T16:42:27Z",
-      "category": "tech",
-      "score": 0.25229289281618256,
-      "tldr": "The Next Chapter for ChatGPT",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "12b0ac21-032f-4b24-86ff-a210602d4de0",
-      "title": "Had an idea for a Rust editor with simple Vim mode for learning",
-      "url": "https://github.com/electronicsleep/rust-vim",
-      "domain": "github.com",
-      "published_at": "2026-07-05T21:36:28Z",
-      "category": "tech",
-      "score": 0.25203257313214517,
-      "tldr": "Had an idea for a Rust editor with simple Vim mode for learning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-11T22:36:24.209492743Z",
+  "last_updated": "2026-07-11T23:42:27.303914427Z",
   "total_count": 100
 }
