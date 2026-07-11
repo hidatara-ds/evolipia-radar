@@ -510,20 +510,6 @@
       ]
     },
     {
-      "id": "1a88c7b7-2ef7-4903-87f0-7b2f0c65f73e",
-      "title": "Potential session/cache leakage between workspace instances or consumer accounts",
-      "url": "https://github.com/anthropics/claude-code/issues/74066",
-      "domain": "github.com",
-      "published_at": "2026-07-04T14:03:40Z",
-      "category": "tech",
-      "score": 0.29768009384756006,
-      "tldr": "Potential session/cache leakage between workspace instances or consumer accounts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8153922b-a8f5-45d3-bd6d-d4b7d5c3bc60",
       "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
       "url": "https://mistral.ai/news/robostral-navigate",
@@ -1084,20 +1070,6 @@
       ]
     },
     {
-      "id": "845aa911-e074-4c2e-aac1-d0f3042ee19e",
-      "title": "Does average person understand that all disc media dies too?",
-      "url": "https://news.ycombinator.com/item?id=48785525",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-04T14:08:55Z",
-      "category": "tech",
-      "score": 0.25556940868190453,
-      "tldr": "Does average person understand that all disc media dies too?",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e1d047aa-3001-4862-b2d9-3f3973c6e6a1",
       "title": "Farage left fighting a trash can as the UK populist's election gamble backfires",
       "url": "https://www.cnn.com/2026/07/09/uk/nigel-farage-special-election-bin-face-intl",
@@ -1405,8 +1377,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "url": "https://danluu.com/ai-coding",
+      "domain": "danluu.com",
+      "published_at": "2026-07-08T20:21:45Z",
+      "category": "tech",
+      "score": 0.2524492192573599,
+      "tldr": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
+      "title": "Full Writeup of the Windows GDID",
+      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
+      "domain": "github.com",
+      "published_at": "2026-07-06T22:02:24Z",
+      "category": "tech",
+      "score": 0.25241692399568594,
+      "tldr": "Full Writeup of the Windows GDID",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-11T12:51:01.879396681Z",
+  "last_updated": "2026-07-11T14:17:32.866687568Z",
   "total_count": 100
 }
