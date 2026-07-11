@@ -706,20 +706,6 @@
       ]
     },
     {
-      "id": "dbfacc36-6f3a-4a02-96b9-7d457c0991ed",
-      "title": "Explanation of everything you can see in htop/top on Linux (2019)",
-      "url": "https://peteris.rocks/blog/htop",
-      "domain": "peteris.rocks",
-      "published_at": "2026-07-04T12:00:57Z",
-      "category": "tech",
-      "score": 0.27614058570329303,
-      "tldr": "Explanation of everything you can see in htop/top on Linux (2019)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "56d38d98-bf03-4f03-9d9a-62b6794e30ea",
       "title": "Python 3.14 compiled to metal – no interpreter",
       "url": "https://github.com/can1357/pon",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2cb7640e-6342-458b-ae6d-982635d1f2bd",
+      "title": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
+      "url": "https://itsfoss.com/news/windows-11-cam-bug",
+      "domain": "itsfoss.com",
+      "published_at": "2026-07-07T20:32:12Z",
+      "category": "tech",
+      "score": 0.25263195741013145,
+      "tldr": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-11T11:42:51.709490871Z",
+  "last_updated": "2026-07-11T12:51:01.879396681Z",
   "total_count": 100
 }
