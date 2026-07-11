@@ -101,21 +101,6 @@
       ]
     },
     {
-      "id": "c74309b5-ffa4-40c2-ba5c-95f7a40a9f8e",
-      "title": "Exploiting LLM Agent Supply Chains via Payload-Less Skills",
-      "url": "https://arxiv.org/abs/2605.14460",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-04T22:01:01Z",
-      "category": "tech",
-      "score": 0.3745108099762301,
-      "tldr": "Exploiting LLM Agent Supply Chains via Payload-Less Skills",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "7ece58b9-6f98-4efd-8a14-1c73e5d82018",
       "title": "EU Parliament greenlights Chat Control 1.0 – Breyer: \"Our children lose out\"",
       "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out",
@@ -194,20 +179,6 @@
       "category": "tech",
       "score": 0.3391645363966645,
       "tldr": "GPT‑Live",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "602b476d-06b2-4648-a243-1b7d602afbb7",
-      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
-      "url": "https://github.com/openai/codex/issues/30364",
-      "domain": "github.com",
-      "published_at": "2026-07-04T21:51:09Z",
-      "category": "tech",
-      "score": 0.3374546108779828,
-      "tldr": "5 Codex reasoning-token clustering may be leading to degraded performance",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1405,8 +1376,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "eeacd3f7-b61a-4f4f-9dda-ad66adcf7354",
+      "title": "The Next Chapter for ChatGPT",
+      "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
+      "domain": "youtube.com",
+      "published_at": "2026-07-09T16:42:27Z",
+      "category": "tech",
+      "score": 0.25229289281618256,
+      "tldr": "The Next Chapter for ChatGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "12b0ac21-032f-4b24-86ff-a210602d4de0",
+      "title": "Had an idea for a Rust editor with simple Vim mode for learning",
+      "url": "https://github.com/electronicsleep/rust-vim",
+      "domain": "github.com",
+      "published_at": "2026-07-05T21:36:28Z",
+      "category": "tech",
+      "score": 0.25203257313214517,
+      "tldr": "Had an idea for a Rust editor with simple Vim mode for learning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-11T21:38:56.184159613Z",
+  "last_updated": "2026-07-11T22:36:24.209492743Z",
   "total_count": 100
 }
