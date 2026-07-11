@@ -72,6 +72,20 @@
       ]
     },
     {
+      "id": "90beb0f7-9bfd-4d60-9299-b49fc50fa0dd",
+      "title": "New York City to ban deceptive subscription practices",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "domain": "theguardian.com",
+      "published_at": "2026-07-10T18:26:24Z",
+      "category": "tech",
+      "score": 0.37813385365199526,
+      "tldr": "New York City to ban deceptive subscription practices",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4252fab9-2907-463f-aade-781f43ed2c1f",
       "title": "Reinforcement Learning with Metacognitive Feedback Elicits Uncertainty in LLMs",
       "url": "https://arxiv.org/abs/2606.32032",
@@ -1391,22 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2cb7640e-6342-458b-ae6d-982635d1f2bd",
-      "title": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
-      "url": "https://itsfoss.com/news/windows-11-cam-bug",
-      "domain": "itsfoss.com",
-      "published_at": "2026-07-07T20:32:12Z",
-      "category": "tech",
-      "score": 0.25263195741013145,
-      "tldr": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-11T00:15:58.168425218Z",
+  "last_updated": "2026-07-11T03:50:28.50456763Z",
   "total_count": 100
 }
