@@ -636,6 +636,20 @@
       ]
     },
     {
+      "id": "42f01001-c527-4481-bd99-c7671f384307",
+      "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
+      "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason",
+      "domain": "cacm.acm.org",
+      "published_at": "2026-07-12T18:04:41Z",
+      "category": "tech",
+      "score": 0.28661899199732754,
+      "tldr": "Mechanistic interpretability researchers applying causality theory to LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6cfb27aa-5bbd-457b-a2d4-76844857a78c",
       "title": "I Think I Have LLM Burnout",
       "url": "https://www.alecscollon.com/blog/llm-burnout",
@@ -1239,20 +1253,6 @@
       ]
     },
     {
-      "id": "590f1c8a-320d-4166-996a-6ed683c1d38a",
-      "title": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
-      "url": "https://github.com/514-labs/dnsglobe",
-      "domain": "github.com",
-      "published_at": "2026-07-05T21:55:53Z",
-      "category": "tech",
-      "score": 0.25407826056166194,
-      "tldr": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
       "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
       "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
@@ -1407,6 +1407,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-12T21:38:58.098496863Z",
+  "last_updated": "2026-07-12T22:36:43.986292841Z",
   "total_count": 100
 }
