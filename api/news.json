@@ -296,20 +296,6 @@
       ]
     },
     {
-      "id": "177ce55f-3bf7-421b-8bce-90feb40b7dcb",
-      "title": "Show HN: Sidenote – comment on your rendered blog, an LLM writes the Git diff",
-      "url": "https://github.com/bharadwaj-pendyala/sidenote",
-      "domain": "github.com",
-      "published_at": "2026-07-05T20:39:11Z",
-      "category": "tech",
-      "score": 0.3260994436875262,
-      "tldr": "Show HN: Sidenote – comment on your rendered blog, an LLM writes the Git diff",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "cab87a37-ec6b-468c-8de2-0647c81844c0",
       "title": "98% Isn't Much",
       "url": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b582d419-0f68-4497-9547-0664adcdf4ca",
+      "title": "Poly/ML – A Standard ML Implementation",
+      "url": "https://github.com/polyml/polyml",
+      "domain": "github.com",
+      "published_at": "2026-07-06T22:28:06Z",
+      "category": "tech",
+      "score": 0.252798651220502,
+      "tldr": "Poly/ML – A Standard ML Implementation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-12T20:00:54.50438197Z",
+  "last_updated": "2026-07-12T20:49:25.09296342Z",
   "total_count": 100
 }
