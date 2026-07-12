@@ -395,6 +395,20 @@
       ]
     },
     {
+      "id": "c6f87e91-3f59-4ba5-9a9f-b73e63b32d7a",
+      "title": "Relm – local LLMs as base-R objects, with interpretability",
+      "url": "https://github.com/Vadale/R-ebirth",
+      "domain": "github.com",
+      "published_at": "2026-07-09T09:58:28Z",
+      "category": "tech",
+      "score": 0.30433054743459537,
+      "tldr": "Relm – local LLMs as base-R objects, with interpretability",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "bb07dee7-ce99-44be-9eb3-4e3fd01900a9",
       "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
       "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial",
@@ -1280,6 +1294,20 @@
       ]
     },
     {
+      "id": "e9fc2d5c-69b4-453e-9bb8-645fa59c6ef0",
+      "title": "Show HN: Skillscript – A declarative, sandboxed language for tool orchestration",
+      "url": "https://github.com/sshwarts/skillscript",
+      "domain": "github.com",
+      "published_at": "2026-07-12T13:34:00Z",
+      "category": "tech",
+      "score": 0.25285870768422974,
+      "tldr": "Show HN: Skillscript – A declarative, sandboxed language for tool orchestration",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b582d419-0f68-4497-9547-0664adcdf4ca",
       "title": "Poly/ML – A Standard ML Implementation",
       "url": "https://github.com/polyml/polyml",
@@ -1376,36 +1404,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "12b0ac21-032f-4b24-86ff-a210602d4de0",
-      "title": "Had an idea for a Rust editor with simple Vim mode for learning",
-      "url": "https://github.com/electronicsleep/rust-vim",
-      "domain": "github.com",
-      "published_at": "2026-07-05T21:36:28Z",
-      "category": "tech",
-      "score": 0.25203257313214517,
-      "tldr": "Had an idea for a Rust editor with simple Vim mode for learning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d5735ee8-0c2f-4930-8b19-0d81a2cb44cc",
-      "title": "Neverclick: Desktop application for performing mouse actions with your keyboard",
-      "url": "https://github.com/LazoVelko/neverclick",
-      "domain": "github.com",
-      "published_at": "2026-07-12T01:32:53Z",
-      "category": "tech",
-      "score": 0.2520068036229531,
-      "tldr": "Neverclick: Desktop application for performing mouse actions with your keyboard",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-12T15:31:47.848569154Z",
+  "last_updated": "2026-07-12T16:44:04.465854428Z",
   "total_count": 100
 }
