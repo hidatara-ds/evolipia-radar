@@ -608,20 +608,6 @@
       ]
     },
     {
-      "id": "3509e711-4af9-4bab-9e93-c3cc3ae600db",
-      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
-      "url": "https://arxiv.org/abs/2605.20049",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-05T23:03:55Z",
-      "category": "tech",
-      "score": 0.28872409601431726,
-      "tldr": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f6372278-25a1-4287-84ba-dee45349f834",
       "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
       "url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
@@ -924,20 +910,6 @@
       "category": "tech",
       "score": 0.2593578780202667,
       "tldr": "US Food and Drug Administration rejects petition to set PFAS limits in food",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5636f8b9-d2c3-43d9-ad2f-59affe04fb12",
-      "title": "Does Code Cleanliness Affect Coding Agents?",
-      "url": "https://arxiv.org/abs/2605.20049",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-05T23:03:55Z",
-      "category": "tech",
-      "score": 0.25935056312627636,
-      "tldr": "Does Code Cleanliness Affect Coding Agents?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1379,6 +1351,20 @@
       ]
     },
     {
+      "id": "d7c96a79-5ddb-4f99-9dd6-a4e4b6b129fd",
+      "title": "Ask HN: How do you use LLMs for private discussions?",
+      "url": "https://news.ycombinator.com/item?id=48885422",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-12T22:17:12Z",
+      "category": "tech",
+      "score": 0.25282512560416814,
+      "tldr": "Ask HN: How do you use LLMs for private discussions?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b582d419-0f68-4497-9547-0664adcdf4ca",
       "title": "Poly/ML – A Standard ML Implementation",
       "url": "https://github.com/polyml/polyml",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "url": "https://danluu.com/ai-coding",
+      "domain": "danluu.com",
+      "published_at": "2026-07-08T20:21:45Z",
+      "category": "tech",
+      "score": 0.2524492192573599,
+      "tldr": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-12T22:36:43.986292841Z",
+  "last_updated": "2026-07-12T23:42:21.254506989Z",
   "total_count": 100
 }
