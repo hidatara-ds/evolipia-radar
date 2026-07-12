@@ -338,6 +338,20 @@
       ]
     },
     {
+      "id": "ac358399-7af9-4bfc-924a-9cf30a69d046",
+      "title": "Old and new apps, via modern coding agents",
+      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents",
+      "domain": "terrytao.wordpress.com",
+      "published_at": "2026-07-12T11:09:42Z",
+      "category": "tech",
+      "score": 0.3156155900400796,
+      "tldr": "Old and new apps, via modern coding agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0bd1d389-5e96-44d4-8e0f-56c3e38cd27f",
       "title": "Mesh LLM: distributed AI computing on iroh",
       "url": "https://www.iroh.computer/blog/mesh-llm",
@@ -520,6 +534,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "a51748ba-d587-4219-88d2-67b3d68ee6fa",
+      "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "domain": "gist.github.com",
+      "published_at": "2026-07-12T01:09:50Z",
+      "category": "tech",
+      "score": 0.2928188535004101,
+      "tldr": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1280,6 +1308,20 @@
       ]
     },
     {
+      "id": "2988aef9-2067-4fe5-8c18-b7b47c418625",
+      "title": "Croc: Securely transfer files and folders between two computers",
+      "url": "https://github.com/schollz/croc",
+      "domain": "github.com",
+      "published_at": "2026-07-12T15:44:13Z",
+      "category": "tech",
+      "score": 0.2535203270593292,
+      "tldr": "Croc: Securely transfer files and folders between two computers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "70f4d010-1398-42aa-afdb-d3d9124f61a7",
       "title": "Titan's Resources and Their Utilization",
       "url": "https://arxiv.org/abs/2606.06608",
@@ -1362,50 +1404,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
-      "title": "Full Writeup of the Windows GDID",
-      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:02:24Z",
-      "category": "tech",
-      "score": 0.25241692399568594,
-      "tldr": "Full Writeup of the Windows GDID",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3755d80d-b224-49e1-b3b3-f8d35a2401e8",
-      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "domain": "github.com",
-      "published_at": "2026-07-06T16:47:44Z",
-      "category": "tech",
-      "score": 0.2523888499305068,
-      "tldr": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9a33d3d2-424f-445f-9474-7f077511a7e2",
-      "title": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
-      "url": "https://github.com/karola3vax/CS2FOW",
-      "domain": "github.com",
-      "published_at": "2026-07-06T15:23:34Z",
-      "category": "tech",
-      "score": 0.2523593265366995,
-      "tldr": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-12T17:49:30.692370652Z",
+  "last_updated": "2026-07-12T18:47:00.7997981Z",
   "total_count": 100
 }
