@@ -142,6 +142,20 @@
       ]
     },
     {
+      "id": "7caff217-372b-43c9-9413-d001838fd9e9",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "domain": "systima.ai",
+      "published_at": "2026-07-12T18:25:51Z",
+      "category": "tech",
+      "score": 0.3423907721848771,
+      "tldr": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0a25b034-d8eb-4f70-bba0-ef8bf7114f6d",
       "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
       "url": "https://github.com/malisper/pgrust",
@@ -438,6 +452,21 @@
       ]
     },
     {
+      "id": "06d76001-5c03-45a7-9298-a6d20d1afc02",
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "domain": "ploy.ai",
+      "published_at": "2026-07-12T17:13:07Z",
+      "category": "tech",
+      "score": 0.30340280005771975,
+      "tldr": "Migrating a production AI agent to GPT-5. 2x faster, 27% cheaper",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "8aeb67bd-5219-4e47-a212-5af012b4e2e9",
       "title": "Separating signal from noise in coding evaluations",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
@@ -478,6 +507,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "8bd430cc-ec48-4cb2-9bcc-08f7155ea46d",
+      "title": "I love LLMs, I hate hype",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "domain": "geohot.github.io",
+      "published_at": "2026-07-12T18:31:56Z",
+      "category": "tech",
+      "score": 0.30186575900779383,
+      "tldr": "I love LLMs, I hate hype",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1362,50 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b582d419-0f68-4497-9547-0664adcdf4ca",
-      "title": "Poly/ML – A Standard ML Implementation",
-      "url": "https://github.com/polyml/polyml",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:28:06Z",
-      "category": "tech",
-      "score": 0.252798651220502,
-      "tldr": "Poly/ML – A Standard ML Implementation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2cb7640e-6342-458b-ae6d-982635d1f2bd",
-      "title": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
-      "url": "https://itsfoss.com/news/windows-11-cam-bug",
-      "domain": "itsfoss.com",
-      "published_at": "2026-07-07T20:32:12Z",
-      "category": "tech",
-      "score": 0.25263195741013145,
-      "tldr": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
-      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
-      "url": "https://danluu.com/ai-coding",
-      "domain": "danluu.com",
-      "published_at": "2026-07-08T20:21:45Z",
-      "category": "tech",
-      "score": 0.2524492192573599,
-      "tldr": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-12T18:47:00.7997981Z",
+  "last_updated": "2026-07-12T20:00:54.50438197Z",
   "total_count": 100
 }
