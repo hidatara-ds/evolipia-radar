@@ -482,20 +482,6 @@
       ]
     },
     {
-      "id": "002a7a77-9056-4d9f-8748-0f89288935bd",
-      "title": "OpenPrinter",
-      "url": "https://www.opentools.studio/",
-      "domain": "opentools.studio",
-      "published_at": "2026-07-05T21:03:06Z",
-      "category": "tech",
-      "score": 0.30187246294112374,
-      "tldr": "OpenPrinter",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8bd430cc-ec48-4cb2-9bcc-08f7155ea46d",
       "title": "I love LLMs, I hate hype",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "2cb7640e-6342-458b-ae6d-982635d1f2bd",
+      "title": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
+      "url": "https://itsfoss.com/news/windows-11-cam-bug",
+      "domain": "itsfoss.com",
+      "published_at": "2026-07-07T20:32:12Z",
+      "category": "tech",
+      "score": 0.25263195741013145,
+      "tldr": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-12T20:49:25.09296342Z",
+  "last_updated": "2026-07-12T21:38:58.098496863Z",
   "total_count": 100
 }
