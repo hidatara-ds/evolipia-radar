@@ -1084,6 +1084,20 @@
       ]
     },
     {
+      "id": "09497429-4977-4757-b69e-2ecbc3f8e25d",
+      "title": "The Energetic Costs of Cellular Computation (2012)",
+      "url": "https://arxiv.org/abs/1203.5426",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-12T01:59:35Z",
+      "category": "tech",
+      "score": 0.2552656135651172,
+      "tldr": "The Energetic Costs of Cellular Computation (2012)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "8cff1849-28b1-4345-a4d9-dde562b39f4b",
       "title": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
       "url": "https://github.com/kklimuk/docx-cli",
@@ -1239,20 +1253,6 @@
       ]
     },
     {
-      "id": "052b1b45-d775-4bdb-bedd-f8e4a1d45ad6",
-      "title": "Anthropic performing prompt injection on its users",
-      "url": "https://old.reddit.com/r/LLMDevs/comments/1udpw9h/just_got_this_response_from_claude_what_is_going",
-      "domain": "old.reddit.com",
-      "published_at": "2026-07-05T01:30:44Z",
-      "category": "tech",
-      "score": 0.253802762859328,
-      "tldr": "Anthropic performing prompt injection on its users",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "4f3fe4f7-1cfe-4622-8992-e34dd2ba0f3d",
       "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
       "url": "https://twitter.com/OpenAI/status/2074704958419792299",
@@ -1317,20 +1317,6 @@
       "category": "tech",
       "score": 0.252798651220502,
       "tldr": "Poly/ML – A Standard ML Implementation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ac16e808-283a-4e2e-ac6d-f8369956ea71",
-      "title": "The Log Is the Agent",
-      "url": "https://arxiv.org/abs/2605.21997",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-05T02:57:38Z",
-      "category": "tech",
-      "score": 0.2526691708628976,
-      "tldr": "The Log Is the Agent",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "eeacd3f7-b61a-4f4f-9dda-ad66adcf7354",
+      "title": "The Next Chapter for ChatGPT",
+      "url": "https://www.youtube.com/watch?v=Wq45rvPGNHs",
+      "domain": "youtube.com",
+      "published_at": "2026-07-09T16:42:27Z",
+      "category": "tech",
+      "score": 0.25229289281618256,
+      "tldr": "The Next Chapter for ChatGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-12T01:27:29.820888648Z",
+  "last_updated": "2026-07-12T04:48:24.466864523Z",
   "total_count": 100
 }
