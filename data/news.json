@@ -310,20 +310,6 @@
       ]
     },
     {
-      "id": "c1e71839-f002-4f51-a4a4-3a472270ff55",
-      "title": "Show HN: LLM Thought Visualization",
-      "url": "https://github.com/ninjahawk/Subtext",
-      "domain": "github.com",
-      "published_at": "2026-07-06T23:34:27Z",
-      "category": "tech",
-      "score": 0.3263763934942734,
-      "tldr": "Show HN: LLM Thought Visualization",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "cab87a37-ec6b-468c-8de2-0647c81844c0",
       "title": "98% Isn't Much",
       "url": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much",
@@ -748,6 +734,20 @@
       ]
     },
     {
+      "id": "ec316da4-7c8a-44e0-ab62-d6a7175e93ec",
+      "title": "Claude is just Mr. Meeseeks",
+      "url": "https://github.com/thephw/claude-meseeks",
+      "domain": "github.com",
+      "published_at": "2026-07-13T22:03:54Z",
+      "category": "tech",
+      "score": 0.28081202657389226,
+      "tldr": "Claude is just Mr. Meeseeks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d631ba27-497b-4083-b97f-f77c4bd7e591",
       "title": "PostHog Open Sourced",
       "url": "https://github.com/PostHog/posthog-foss",
@@ -882,20 +882,6 @@
       "category": "tech",
       "score": 0.2669910115813081,
       "tldr": "Dua Lipa opens library for banned and censored books in Portugal",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e2fe4cb1-85df-482c-a9a1-dfa9aab7cd95",
-      "title": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
-      "url": "https://github.com/MaximeRivest/Riddle",
-      "domain": "github.com",
-      "published_at": "2026-07-06T23:00:24Z",
-      "category": "tech",
-      "score": 0.2654878714157998,
-      "tldr": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1405,8 +1391,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "d7c96a79-5ddb-4f99-9dd6-a4e4b6b129fd",
+      "title": "Ask HN: How do you use LLMs for private discussions?",
+      "url": "https://news.ycombinator.com/item?id=48885422",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-12T22:17:12Z",
+      "category": "tech",
+      "score": 0.25282512560416814,
+      "tldr": "Ask HN: How do you use LLMs for private discussions?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-13T22:43:51.123231389Z",
+  "last_updated": "2026-07-13T23:42:32.588236459Z",
   "total_count": 100
 }
