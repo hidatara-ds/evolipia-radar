@@ -636,20 +636,6 @@
       ]
     },
     {
-      "id": "41158e9c-2769-469f-9930-56a96bb6a436",
-      "title": "Regression to the Mean: on LLMs and the quiet death of the new",
-      "url": "https://rruxandra.github.io/regression-to-the-mean.html",
-      "domain": "rruxandra.github.io",
-      "published_at": "2026-07-06T13:20:59Z",
-      "category": "tech",
-      "score": 0.2887942350609256,
-      "tldr": "Regression to the Mean: on LLMs and the quiet death of the new",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "f6372278-25a1-4287-84ba-dee45349f834",
       "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
       "url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
@@ -846,6 +832,20 @@
       ]
     },
     {
+      "id": "94bd39e5-0d0e-4b33-bab4-604f5e7e77ea",
+      "title": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
+      "url": "https://github.com/floodtide/dom-docx",
+      "domain": "github.com",
+      "published_at": "2026-07-13T11:51:56Z",
+      "category": "tech",
+      "score": 0.26836592720375396,
+      "tldr": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1430b0c9-ba8e-4f47-bca5-099cde87c3fa",
       "title": "Dua Lipa opens library for banned and censored books in Portugal",
       "url": "https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal",
@@ -902,20 +902,6 @@
       ]
     },
     {
-      "id": "c82cad63-a081-4ae3-b1ad-2dc3c1433ab4",
-      "title": "How Kalshi Infects the News",
-      "url": "https://www.publicnotice.co/p/kalshi-cnn-cnbc",
-      "domain": "publicnotice.co",
-      "published_at": "2026-07-06T13:12:52Z",
-      "category": "tech",
-      "score": 0.26322887325443745,
-      "tldr": "How Kalshi Infects the News",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6963cf1d-fba4-430b-86b8-03681502e486",
       "title": "Show HN: Runloom – Go-style coroutines for Python free-threaded",
       "url": "https://github.com/robertsdotpm/runloom",
@@ -938,20 +924,6 @@
       "category": "tech",
       "score": 0.2593578780202667,
       "tldr": "US Food and Drug Administration rejects petition to set PFAS limits in food",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "35503510-8d02-4ca4-96aa-65aedb560849",
-      "title": "Show HN: Scan your AI agents for dangerous capabilities",
-      "url": "https://github.com/makerchecker/MakerChecker",
-      "domain": "github.com",
-      "published_at": "2026-07-06T13:17:27Z",
-      "category": "tech",
-      "score": 0.25924122037191194,
-      "tldr": "Show HN: Scan your AI agents for dangerous capabilities",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1404,8 +1376,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "url": "https://danluu.com/ai-coding",
+      "domain": "danluu.com",
+      "published_at": "2026-07-08T20:21:45Z",
+      "category": "tech",
+      "score": 0.2524492192573599,
+      "tldr": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
+      "title": "Full Writeup of the Windows GDID",
+      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
+      "domain": "github.com",
+      "published_at": "2026-07-06T22:02:24Z",
+      "category": "tech",
+      "score": 0.25241692399568594,
+      "tldr": "Full Writeup of the Windows GDID",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-13T11:35:16.596166081Z",
+  "last_updated": "2026-07-13T14:00:10.903992811Z",
   "total_count": 100
 }
