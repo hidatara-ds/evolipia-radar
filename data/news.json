@@ -636,6 +636,20 @@
       ]
     },
     {
+      "id": "d340f76c-ae34-4dbd-9504-925e31ef00ec",
+      "title": "Robust Secret Storage in Networks",
+      "url": "https://arxiv.org/abs/2606.30261",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-08T21:37:58Z",
+      "category": "tech",
+      "score": 0.29281057224879187,
+      "tldr": "Robust Secret Storage in Networks",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "15b23e9c-013f-4f8f-90cf-0ceeb4dd1e9a",
       "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
       "url": "https://streetcomplete.app/",
@@ -954,6 +968,21 @@
       "tldr": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "065819ca-71a8-4b1e-a750-df3c4db254dd",
+      "title": "Samsung Health app threatens data deletion if users opt out AI training",
+      "url": "https://neow.in/cWsyMTV3",
+      "domain": "neow.in",
+      "published_at": "2026-07-13T20:01:43Z",
+      "category": "tech",
+      "score": 0.2591239447812135,
+      "tldr": "Samsung Health app threatens data deletion if users opt out AI training",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data",
         "general_ai"
       ]
     },
@@ -1376,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "d7c96a79-5ddb-4f99-9dd6-a4e4b6b129fd",
-      "title": "Ask HN: How do you use LLMs for private discussions?",
-      "url": "https://news.ycombinator.com/item?id=48885422",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-12T22:17:12Z",
-      "category": "tech",
-      "score": 0.25282512560416814,
-      "tldr": "Ask HN: How do you use LLMs for private discussions?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b582d419-0f68-4497-9547-0664adcdf4ca",
-      "title": "Poly/ML – A Standard ML Implementation",
-      "url": "https://github.com/polyml/polyml",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:28:06Z",
-      "category": "tech",
-      "score": 0.252798651220502,
-      "tldr": "Poly/ML – A Standard ML Implementation",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-13T21:43:35.327193289Z",
+  "last_updated": "2026-07-13T22:43:51.123231389Z",
   "total_count": 100
 }
