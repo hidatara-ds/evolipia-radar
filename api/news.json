@@ -380,6 +380,20 @@
       ]
     },
     {
+      "id": "3606516a-4585-40c5-aff3-0c4ad4aff965",
+      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+      "url": "https://github.com/clawkwork/clawk",
+      "domain": "github.com",
+      "published_at": "2026-07-13T14:02:03Z",
+      "category": "tech",
+      "score": 0.31259710290977827,
+      "tldr": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0bd1d389-5e96-44d4-8e0f-56c3e38cd27f",
       "title": "Mesh LLM: distributed AI computing on iroh",
       "url": "https://www.iroh.computer/blog/mesh-llm",
@@ -1140,20 +1154,6 @@
       ]
     },
     {
-      "id": "cfd74e1e-d40e-462a-91ca-5f0c4ad4bb00",
-      "title": "Kani: A Model Checker for Rust",
-      "url": "https://arxiv.org/abs/2607.01504",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-06T15:53:24Z",
-      "category": "tech",
-      "score": 0.2550695650710408,
-      "tldr": "Kani: A Model Checker for Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a0bf4999-1d48-441a-bb8b-a7f231d535e9",
       "title": "Altman: GPT-5.6 is 54% more token efficient on agentic coding",
       "url": "https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html",
@@ -1190,20 +1190,6 @@
       "category": "tech",
       "score": 0.2547208902135416,
       "tldr": "Automation Without Understanding",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ac36cde1-d22b-450f-be7b-bc4dfc2f7956",
-      "title": "Show HN: I Built LangGraph for Swift",
-      "url": "https://github.com/christopherkarani/Swarm",
-      "domain": "github.com",
-      "published_at": "2026-07-06T14:47:45Z",
-      "category": "tech",
-      "score": 0.25423837685132483,
-      "tldr": "Show HN: I Built LangGraph for Swift",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1404,8 +1390,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "3755d80d-b224-49e1-b3b3-f8d35a2401e8",
+      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "domain": "github.com",
+      "published_at": "2026-07-06T16:47:44Z",
+      "category": "tech",
+      "score": 0.2523888499305068,
+      "tldr": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-13T14:00:10.903992811Z",
+  "last_updated": "2026-07-13T16:32:29.665639718Z",
   "total_count": 100
 }
