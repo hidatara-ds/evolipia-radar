@@ -324,20 +324,6 @@
       ]
     },
     {
-      "id": "8ce218db-1775-4ab8-ab4e-4dcc96544bde",
-      "title": "Show HN: Otari: your open-source LLM control plane",
-      "url": "https://github.com/mozilla-ai/otari",
-      "domain": "github.com",
-      "published_at": "2026-07-06T21:08:47Z",
-      "category": "tech",
-      "score": 0.32627770568716086,
-      "tldr": "Show HN: Otari: your open-source LLM control plane",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "cab87a37-ec6b-468c-8de2-0647c81844c0",
       "title": "98% Isn't Much",
       "url": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much",
@@ -1084,6 +1070,20 @@
       ]
     },
     {
+      "id": "935b1c19-47b8-45af-9867-8903b70159fc",
+      "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
+      "url": "https://github.com/Poseidon-fan/linux-0.11-rs",
+      "domain": "github.com",
+      "published_at": "2026-07-13T20:11:29Z",
+      "category": "tech",
+      "score": 0.2557683466042312,
+      "tldr": "11 rewritten in idiomatic Rust, boots in QEMU",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "42f742c1-8850-4ea2-b34a-8908471b59b0",
       "title": "Cpp2Rust: Translates C++ to safe Rust automatically",
       "url": "https://github.com/Cpp2Rust/cpp2rust",
@@ -1336,20 +1336,6 @@
       ]
     },
     {
-      "id": "70f4d010-1398-42aa-afdb-d3d9124f61a7",
-      "title": "Titan's Resources and Their Utilization",
-      "url": "https://arxiv.org/abs/2606.06608",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-06T21:39:04Z",
-      "category": "tech",
-      "score": 0.25315102964780956,
-      "tldr": "Titan's Resources and Their Utilization",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "12dfe3ff-7f9b-4c9d-a6bd-4ffc3feb7613",
       "title": "We Are Living in a 'ChatGPT Flyer Pandemic'",
       "url": "https://www.404media.co/we-are-living-in-a-chatgpt-flyer-pandemic",
@@ -1361,6 +1347,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "9465cbdb-efd6-4755-9197-400ec1c1ec54",
+      "title": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
+      "url": "https://github.com/yeet-src/sigwire",
+      "domain": "github.com",
+      "published_at": "2026-07-13T20:07:45Z",
+      "category": "tech",
+      "score": 0.25297744128276567,
+      "tldr": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1406,6 +1406,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-13T20:47:59.214383211Z",
+  "last_updated": "2026-07-13T21:43:35.327193289Z",
   "total_count": 100
 }
