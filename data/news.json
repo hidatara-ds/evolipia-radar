@@ -1070,6 +1070,20 @@
       ]
     },
     {
+      "id": "082cafab-c9b3-4c02-a57e-68b43acb540b",
+      "title": "Show HN: I implemented a neural network in SQL",
+      "url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
+      "domain": "github.com",
+      "published_at": "2026-07-13T20:00:10Z",
+      "category": "tech",
+      "score": 0.2560623027751694,
+      "tldr": "Show HN: I implemented a neural network in SQL",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "42f742c1-8850-4ea2-b34a-8908471b59b0",
       "title": "Cpp2Rust: Translates C++ to safe Rust automatically",
       "url": "https://github.com/Cpp2Rust/cpp2rust",
@@ -1176,6 +1190,20 @@
       "category": "tech",
       "score": 0.2550873383733295,
       "tldr": "NASA SpaceWASM – A flight-compliant WebAssembly interpreter",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "903fb82c-56bd-4cad-ace8-ed683a5c2ed9",
+      "title": "Show HN: YouTube Guitar Tab Parser",
+      "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
+      "domain": "github.com",
+      "published_at": "2026-07-13T20:13:14Z",
+      "category": "tech",
+      "score": 0.2550619667687181,
+      "tldr": "Show HN: YouTube Guitar Tab Parser",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1376,36 +1404,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "2cb7640e-6342-458b-ae6d-982635d1f2bd",
-      "title": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
-      "url": "https://itsfoss.com/news/windows-11-cam-bug",
-      "domain": "itsfoss.com",
-      "published_at": "2026-07-07T20:32:12Z",
-      "category": "tech",
-      "score": 0.25263195741013145,
-      "tldr": "LOL Storage Bug on Microsoft Windows 11 Could Eat Up 500 GB Disk Space",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
-      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
-      "url": "https://danluu.com/ai-coding",
-      "domain": "danluu.com",
-      "published_at": "2026-07-08T20:21:45Z",
-      "category": "tech",
-      "score": 0.2524492192573599,
-      "tldr": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-13T19:56:45.703980497Z",
+  "last_updated": "2026-07-13T20:47:59.214383211Z",
   "total_count": 100
 }
