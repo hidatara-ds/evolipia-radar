@@ -310,6 +310,20 @@
       ]
     },
     {
+      "id": "9d8f15c5-4562-42fa-8d89-ad35dddc0d94",
+      "title": "Performant C/CUDA inference engine for Qwen 3.6 35B on RTX 5090 / Blackwell",
+      "url": "https://github.com/ambud/q36",
+      "domain": "github.com",
+      "published_at": "2026-07-13T00:13:20Z",
+      "category": "tech",
+      "score": 0.32552653331539066,
+      "tldr": "Performant C/CUDA inference engine for Qwen 3. 6 35B on RTX 5090 / Blackwell",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1ffc98df-1fc2-416e-baae-a420b5bb9278",
       "title": "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT)",
       "url": "https://github.com/Rodiun/frugon",
@@ -389,6 +403,20 @@
       "category": "tech",
       "score": 0.3082992001544416,
       "tldr": "Bonnie Tyler has died",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "929e118b-3abf-4287-90ba-2864e80ea76a",
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "url": "https://news.ycombinator.com/item?id=48886741",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-13T01:24:20Z",
+      "category": "tech",
+      "score": 0.30624781155700653,
+      "tldr": "Ask HN: Add flag for AI-generated articles",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1377,36 +1405,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "e76abef3-8929-4f4b-9a13-a3f2acaf0516",
-      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
-      "url": "https://danluu.com/ai-coding",
-      "domain": "danluu.com",
-      "published_at": "2026-07-08T20:21:45Z",
-      "category": "tech",
-      "score": 0.2524492192573599,
-      "tldr": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
-      "title": "Full Writeup of the Windows GDID",
-      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
-      "domain": "github.com",
-      "published_at": "2026-07-06T22:02:24Z",
-      "category": "tech",
-      "score": 0.25241692399568594,
-      "tldr": "Full Writeup of the Windows GDID",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-13T01:28:51.423346097Z",
+  "last_updated": "2026-07-13T04:57:18.114852369Z",
   "total_count": 100
 }
