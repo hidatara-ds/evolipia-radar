@@ -860,20 +860,6 @@
       ]
     },
     {
-      "id": "ec5552b6-75c5-4383-ab2a-c18bb75004c3",
-      "title": "GPT-5.6 Sol Ultra will be in Codex",
-      "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
-      "domain": "twitter.com",
-      "published_at": "2026-07-06T01:04:03Z",
-      "category": "tech",
-      "score": 0.2624761256909633,
-      "tldr": "6 Sol Ultra will be in Codex",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "3b6ad4b1-764f-4d8d-b321-c861b0b9699c",
       "title": "The Hitchhiker's Guide to Agentic AI",
       "url": "https://arxiv.org/abs/2606.24937",
@@ -1405,8 +1391,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "770830e2-6bea-475c-ab95-9aa536c3b68f",
+      "title": "Full Writeup of the Windows GDID",
+      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
+      "domain": "github.com",
+      "published_at": "2026-07-06T22:02:24Z",
+      "category": "tech",
+      "score": 0.25241692399568594,
+      "tldr": "Full Writeup of the Windows GDID",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-12T23:42:21.254506989Z",
+  "last_updated": "2026-07-13T01:28:51.423346097Z",
   "total_count": 100
 }
