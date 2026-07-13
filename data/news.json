@@ -57,6 +57,20 @@
       ]
     },
     {
+      "id": "0e8daf13-28e1-4baa-964a-5f5f34c9c530",
+      "title": "A graph that should be front-page news",
+      "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
+      "domain": "lyrebirddreaming.com",
+      "published_at": "2026-07-13T05:35:27Z",
+      "category": "tech",
+      "score": 0.421085613767088,
+      "tldr": "A graph that should be front-page news",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "90beb0f7-9bfd-4d60-9299-b49fc50fa0dd",
       "title": "New York City to ban deceptive subscription practices",
       "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
@@ -762,20 +776,6 @@
       ]
     },
     {
-      "id": "56d38d98-bf03-4f03-9d9a-62b6794e30ea",
-      "title": "Python 3.14 compiled to metal – no interpreter",
-      "url": "https://github.com/can1357/pon",
-      "domain": "github.com",
-      "published_at": "2026-07-06T19:40:22Z",
-      "category": "tech",
-      "score": 0.2756026032301862,
-      "tldr": "14 compiled to metal – no interpreter",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a9be566b-8f15-4c99-88ba-b42014f2703b",
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft",
@@ -958,15 +958,15 @@
       ]
     },
     {
-      "id": "179f35dc-2340-4212-a647-7f3c7f9dd92c",
-      "title": "Pruning RAG context down to what the answer actually needs",
-      "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
-      "domain": "kapa.ai",
-      "published_at": "2026-07-06T19:28:24Z",
+      "id": "a7c41a9b-e62b-4dc8-9ed6-9f0ed40a091a",
+      "title": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
+      "url": "https://github.com/morganwilliscloud/billai-bass",
+      "domain": "github.com",
+      "published_at": "2026-07-13T18:18:23Z",
       "category": "tech",
-      "score": 0.259199157054952,
-      "tldr": "Pruning RAG context down to what the answer actually needs",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "score": 0.25934241044110223,
+      "tldr": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
@@ -1406,6 +1406,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-13T18:26:21.376281039Z",
+  "last_updated": "2026-07-13T19:56:45.703980497Z",
   "total_count": 100
 }
