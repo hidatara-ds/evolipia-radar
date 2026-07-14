@@ -183,6 +183,21 @@
       ]
     },
     {
+      "id": "aa851746-4482-43a9-9269-61ac783ed8c5",
+      "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "domain": "prismml.com",
+      "published_at": "2026-07-14T17:50:48Z",
+      "category": "tech",
+      "score": 0.3471636961603852,
+      "tldr": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "1ccf7be0-4f9d-49eb-94ba-8c9b9ebc993b",
       "title": "Former NOAA employees built Climate.us to preserve climate data and resources",
       "url": "https://19thnews.org/2026/07/noaa-climate-data-website",
@@ -1197,20 +1212,6 @@
       ]
     },
     {
-      "id": "8cff1849-28b1-4345-a4d9-dde562b39f4b",
-      "title": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
-      "url": "https://github.com/kklimuk/docx-cli",
-      "domain": "github.com",
-      "published_at": "2026-07-07T18:19:00Z",
-      "category": "tech",
-      "score": 0.2552460227630834,
-      "tldr": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9c8456d6-e8b8-45d4-afec-42d4b3d08b99",
       "title": "Turning a pile of documents into a searchable useable knowledge base",
       "url": "https://github.com/linuxrebel/DocuBrowser",
@@ -1407,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-14T18:04:49.461410454Z",
+  "last_updated": "2026-07-14T19:50:28.216484178Z",
   "total_count": 100
 }
