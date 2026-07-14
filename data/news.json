@@ -29,6 +29,20 @@
       ]
     },
     {
+      "id": "79ade675-c1fa-4af4-9107-0a6af41553b1",
+      "title": "Codex starts encrypting prompts, uses ciphertext for inference instead",
+      "url": "https://github.com/openai/codex/issues/28058",
+      "domain": "github.com",
+      "published_at": "2026-07-14T11:21:32Z",
+      "category": "tech",
+      "score": 0.4448771449443212,
+      "tldr": "Codex starts encrypting prompts, uses ciphertext for inference instead",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "759b6ad6-8266-4648-8014-598e46621f89",
       "title": "EU Parliament greenlights Chat Control 1.0",
       "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out",
@@ -1391,22 +1405,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "c3d0f969-5db2-4551-b605-e5c00931ceb7",
-      "title": "Offline tool to stabilize TV volume using IR control and spike detection",
-      "url": "https://github.com/AdBusterOfficial/Adbuster--WinApp",
-      "domain": "github.com",
-      "published_at": "2026-07-10T13:39:49Z",
-      "category": "tech",
-      "score": 0.2538759565944357,
-      "tldr": "Offline tool to stabilize TV volume using IR control and spike detection",
-      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
-      "tags": [
-        "computer_vision"
-      ]
     }
   ],
-  "last_updated": "2026-07-14T10:41:15.603958657Z",
+  "last_updated": "2026-07-14T12:05:11.642037772Z",
   "total_count": 100
 }
