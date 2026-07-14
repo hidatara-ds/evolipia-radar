@@ -99,21 +99,6 @@
       ]
     },
     {
-      "id": "4252fab9-2907-463f-aade-781f43ed2c1f",
-      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Uncertainty in LLMs",
-      "url": "https://arxiv.org/abs/2606.32032",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-07T09:02:38Z",
-      "category": "tech",
-      "score": 0.3757205661480353,
-      "tldr": "Reinforcement Learning with Metacognitive Feedback Elicits Uncertainty in LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm",
-        "general_ai"
-      ]
-    },
-    {
       "id": "7ece58b9-6f98-4efd-8a14-1c73e5d82018",
       "title": "EU Parliament greenlights Chat Control 1.0 – Breyer: \"Our children lose out\"",
       "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out",
@@ -360,6 +345,20 @@
       "category": "tech",
       "score": 0.32552653331539066,
       "tldr": "Performant C/CUDA inference engine for Qwen 3. 6 35B on RTX 5090 / Blackwell",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "98603ec4-b82b-4f40-8353-a96d80f43e03",
+      "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
+      "url": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19",
+      "domain": "github.com",
+      "published_at": "2026-07-14T08:34:57Z",
+      "category": "tech",
+      "score": 0.3187113648054356,
+      "tldr": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1408,6 +1407,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-14T08:58:54.142950329Z",
+  "last_updated": "2026-07-14T10:41:15.603958657Z",
   "total_count": 100
 }
