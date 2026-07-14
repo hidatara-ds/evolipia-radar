@@ -170,6 +170,20 @@
       ]
     },
     {
+      "id": "1ccf7be0-4f9d-49eb-94ba-8c9b9ebc993b",
+      "title": "Former NOAA employees built Climate.us to preserve climate data and resources",
+      "url": "https://19thnews.org/2026/07/noaa-climate-data-website",
+      "domain": "19thnews.org",
+      "published_at": "2026-07-13T19:57:55Z",
+      "category": "tech",
+      "score": 0.3470052508017348,
+      "tldr": "Former NOAA employees built Climate. us to preserve climate data and resources",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "65238b04-1def-4382-9906-2e362f8e3e73",
       "title": "New York City to to ban deceptive subscription practices",
       "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
@@ -423,6 +437,20 @@
       ]
     },
     {
+      "id": "539aa344-9013-4048-abc1-c8860bf2ad7e",
+      "title": "Building and shipping Mac and iOS apps without opening Xcode",
+      "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode",
+      "domain": "scottwillsey.com",
+      "published_at": "2026-07-13T18:22:16Z",
+      "category": "tech",
+      "score": 0.308535295768582,
+      "tldr": "Building and shipping Mac and iOS apps without opening Xcode",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "227e4cea-da37-4640-8e62-964dcf9827fc",
       "title": "Bonnie Tyler has died",
       "url": "https://www.bbc.com/news/articles/cg5pd9z2487o",
@@ -445,6 +473,20 @@
       "category": "tech",
       "score": 0.30624781155700653,
       "tldr": "Ask HN: Add flag for AI-generated articles",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0c7afb7a-c2c0-4db2-96dd-a6e2a94b7384",
+      "title": "Claude Code plugin that plays a Mr. Meeseeks voice line whene Claude is waiting",
+      "url": "https://github.com/thephw/claude-meseeks",
+      "domain": "github.com",
+      "published_at": "2026-07-13T22:03:54Z",
+      "category": "tech",
+      "score": 0.3060946546833486,
+      "tldr": "Claude Code plugin that plays a Mr. Meeseeks voice line whene Claude is waiting",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1363,50 +1405,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "9465cbdb-efd6-4755-9197-400ec1c1ec54",
-      "title": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
-      "url": "https://github.com/yeet-src/sigwire",
-      "domain": "github.com",
-      "published_at": "2026-07-13T20:07:45Z",
-      "category": "tech",
-      "score": 0.25297744128276567,
-      "tldr": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e9fc2d5c-69b4-453e-9bb8-645fa59c6ef0",
-      "title": "Show HN: Skillscript – A declarative, sandboxed language for tool orchestration",
-      "url": "https://github.com/sshwarts/skillscript",
-      "domain": "github.com",
-      "published_at": "2026-07-12T13:34:00Z",
-      "category": "tech",
-      "score": 0.25285870768422974,
-      "tldr": "Show HN: Skillscript – A declarative, sandboxed language for tool orchestration",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d7c96a79-5ddb-4f99-9dd6-a4e4b6b129fd",
-      "title": "Ask HN: How do you use LLMs for private discussions?",
-      "url": "https://news.ycombinator.com/item?id=48885422",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-12T22:17:12Z",
-      "category": "tech",
-      "score": 0.25282512560416814,
-      "tldr": "Ask HN: How do you use LLMs for private discussions?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-13T23:42:32.588236459Z",
+  "last_updated": "2026-07-14T01:18:21.873971241Z",
   "total_count": 100
 }
