@@ -310,6 +310,20 @@
       ]
     },
     {
+      "id": "bc3e6a79-fa3a-4584-80c1-d70348508d04",
+      "title": "Show HN: MemStitch – Zero-copy context bridging for vLLM (25x TTFT speedup)",
+      "url": "https://github.com/DaqulaLin/MemStitch",
+      "domain": "github.com",
+      "published_at": "2026-07-14T01:04:02Z",
+      "category": "tech",
+      "score": 0.32678690923321574,
+      "tldr": "Show HN: MemStitch – Zero-copy context bridging for vLLM (25x TTFT speedup)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "70b8cbab-c5a2-43a6-bdc4-16ba05069ace",
       "title": "Show HN: Foreman, a self-hosted LLM gateway for cost aware model routing",
       "url": "https://github.com/Northwood-Systems/foreman",
@@ -391,6 +405,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "510baaf0-e6db-44ad-ae75-d1cf9bc2020c",
+      "title": "ESBMC-Arduino: Closing the Deployment Gap for Formal Verification",
+      "url": "https://arxiv.org/abs/2607.08550",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-14T00:58:55Z",
+      "category": "tech",
+      "score": 0.31384977004639764,
+      "tldr": "ESBMC-Arduino: Closing the Deployment Gap for Formal Verification",
+      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
+      "tags": [
+        "mlops"
       ]
     },
     {
@@ -1099,6 +1127,21 @@
       ]
     },
     {
+      "id": "40416fbb-dae7-4d36-b553-e131dba0d807",
+      "title": "Building Food Metadata with LLM Juries",
+      "url": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai",
+      "domain": "careersatdoordash.com",
+      "published_at": "2026-07-14T01:41:49Z",
+      "category": "tech",
+      "score": 0.25719374826372665,
+      "tldr": "Building Food Metadata with LLM Juries",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
+      ]
+    },
+    {
       "id": "1cc8cdfe-6fb5-4251-a222-95f85f7e3c00",
       "title": "Don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
@@ -1363,50 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4c9f70c4-0aba-42b5-9563-23eed305e1c1",
-      "title": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
-      "url": "https://github.com/skorotkiewicz/earth-game",
-      "domain": "github.com",
-      "published_at": "2026-07-11T16:37:02Z",
-      "category": "tech",
-      "score": 0.2535268444471043,
-      "tldr": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2988aef9-2067-4fe5-8c18-b7b47c418625",
-      "title": "Croc: Securely transfer files and folders between two computers",
-      "url": "https://github.com/schollz/croc",
-      "domain": "github.com",
-      "published_at": "2026-07-12T15:44:13Z",
-      "category": "tech",
-      "score": 0.2535203270593292,
-      "tldr": "Croc: Securely transfer files and folders between two computers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "12dfe3ff-7f9b-4c9d-a6bd-4ffc3feb7613",
-      "title": "We Are Living in a 'ChatGPT Flyer Pandemic'",
-      "url": "https://www.404media.co/we-are-living-in-a-chatgpt-flyer-pandemic",
-      "domain": "404media.co",
-      "published_at": "2026-07-08T14:21:18Z",
-      "category": "tech",
-      "score": 0.25307134178057084,
-      "tldr": "We Are Living in a 'ChatGPT Flyer Pandemic'",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-14T01:18:21.873971241Z",
+  "last_updated": "2026-07-14T04:21:54.768672375Z",
   "total_count": 100
 }
