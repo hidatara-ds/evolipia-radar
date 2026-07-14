@@ -521,6 +521,20 @@
       ]
     },
     {
+      "id": "9a13bd9b-2076-4cb7-bb97-e6218b487edf",
+      "title": "The git history command",
+      "url": "https://lalitm.com/post/git-history",
+      "domain": "lalitm.com",
+      "published_at": "2026-07-14T00:57:11Z",
+      "category": "tech",
+      "score": 0.304992423517524,
+      "tldr": "The git history command",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b6d5b851-cf29-428b-95b4-7226b47a56da",
       "title": "Please don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
@@ -1392,22 +1406,8 @@
       "tags": [
         "computer_vision"
       ]
-    },
-    {
-      "id": "4f3fe4f7-1cfe-4622-8992-e34dd2ba0f3d",
-      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
-      "domain": "twitter.com",
-      "published_at": "2026-07-08T04:12:13Z",
-      "category": "tech",
-      "score": 0.2537929751907909,
-      "tldr": "6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-14T06:32:37.999205038Z",
+  "last_updated": "2026-07-14T08:58:54.142950329Z",
   "total_count": 100
 }
