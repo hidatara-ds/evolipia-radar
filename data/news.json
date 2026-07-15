@@ -282,20 +282,6 @@
       ]
     },
     {
-      "id": "a33342d8-8ef6-40b5-8e80-866a16c0f64a",
-      "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase",
-      "url": "https://github.com/animesh-94/Onboard-CLI",
-      "domain": "github.com",
-      "published_at": "2026-07-08T20:09:03Z",
-      "category": "tech",
-      "score": 0.3288732616425438,
-      "tldr": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "89a50320-4cc5-42f4-9df3-06e2655fd214",
       "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)",
       "url": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
@@ -307,6 +293,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "5f2f2dff-3a84-4e34-b2af-3a526032d111",
+      "title": "GPT‑Red: Unlocking Self-Improvement for Robustness",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "domain": "openai.com",
+      "published_at": "2026-07-15T17:41:46Z",
+      "category": "tech",
+      "score": 0.32738690152207456,
+      "tldr": "GPT‑Red: Unlocking Self-Improvement for Robustness",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -874,20 +874,6 @@
       ]
     },
     {
-      "id": "9def8ed8-7687-4667-b8c9-84451044e43a",
-      "title": "The classifiers Anthropic puts in front of Fable are too zealous",
-      "url": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
-      "domain": "combine-lab.github.io",
-      "published_at": "2026-07-08T20:41:33Z",
-      "category": "tech",
-      "score": 0.2737555464238285,
-      "tldr": "The classifiers Anthropic puts in front of Fable are too zealous",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "9f2397e5-4162-4d9b-8220-78bae3d1f1ed",
       "title": "OpenAI no longer recommends SWE-Bench Pro",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
@@ -1366,20 +1352,6 @@
       ]
     },
     {
-      "id": "9c8456d6-e8b8-45d4-afec-42d4b3d08b99",
-      "title": "Turning a pile of documents into a searchable useable knowledge base",
-      "url": "https://github.com/linuxrebel/DocuBrowser",
-      "domain": "github.com",
-      "published_at": "2026-07-08T20:37:29Z",
-      "category": "tech",
-      "score": 0.2551206115161244,
-      "tldr": "Turning a pile of documents into a searchable useable knowledge base",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1914e9c8-7826-4a9e-8c7a-eaf2e59d04d8",
       "title": "NASA SpaceWASM – A flight-compliant WebAssembly interpreter",
       "url": "https://github.com/nasa/spacewasm",
@@ -1406,8 +1378,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "a0bf4999-1d48-441a-bb8b-a7f231d535e9",
+      "title": "Altman: GPT-5.6 is 54% more token efficient on agentic coding",
+      "url": "https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html",
+      "domain": "cnbc.com",
+      "published_at": "2026-07-09T14:25:13Z",
+      "category": "tech",
+      "score": 0.2549484832946252,
+      "tldr": "6 is 54% more token efficient on agentic coding",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c7018404-6a72-4648-b5a9-12c3a9aaad5d",
+      "title": "Automation Without Understanding",
+      "url": "https://arxiv.org/abs/2607.06377",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-12T16:54:47Z",
+      "category": "tech",
+      "score": 0.2547208902135416,
+      "tldr": "Automation Without Understanding",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-15T20:01:20.370586456Z",
+  "last_updated": "2026-07-15T21:02:34.866991304Z",
   "total_count": 100
 }
