@@ -268,20 +268,6 @@
       ]
     },
     {
-      "id": "a49ad969-af53-435c-bdce-ab87d42fdebe",
-      "title": "GPT‑Live",
-      "url": "https://openai.com/index/introducing-gpt-live",
-      "domain": "openai.com",
-      "published_at": "2026-07-08T17:03:19Z",
-      "category": "tech",
-      "score": 0.3391645363966645,
-      "tldr": "GPT‑Live",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "fdc2ea42-5ca2-490c-9bd2-d1869c67dd0f",
       "title": "Show HN: Reame – a CPU inference server that gets faster as it runs",
       "url": "https://github.com/swellweb/reame",
@@ -748,6 +734,20 @@
       ]
     },
     {
+      "id": "ecea5170-3935-4353-aecc-a15ac88a3b27",
+      "title": "Codex Micro",
+      "url": "https://openai.com/supply/co-lab/work-louder",
+      "domain": "openai.com",
+      "published_at": "2026-07-15T16:12:58Z",
+      "category": "tech",
+      "score": 0.2907243090477615,
+      "tldr": "Codex Micro",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f6372278-25a1-4287-84ba-dee45349f834",
       "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
       "url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
@@ -815,20 +815,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "39da6cc5-9224-49a0-b9dd-382db894a5e9",
-      "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
-      "url": "https://cognition.com/blog/swe-1-7",
-      "domain": "cognition.com",
-      "published_at": "2026-07-08T16:19:36Z",
-      "category": "tech",
-      "score": 0.28359014572848723,
-      "tldr": "5 and Opus Intelligence",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -958,6 +944,20 @@
       ]
     },
     {
+      "id": "1d5f1488-f236-42e8-a9ed-37a1b9649067",
+      "title": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
+      "url": "https://github.com/welcome-to-the-sunny-side/misa77",
+      "domain": "github.com",
+      "published_at": "2026-07-15T15:58:59Z",
+      "category": "tech",
+      "score": 0.26946405886154,
+      "tldr": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "94bd39e5-0d0e-4b33-bab4-604f5e7e77ea",
       "title": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
       "url": "https://github.com/floodtide/dom-docx",
@@ -1008,6 +1008,20 @@
       "category": "tech",
       "score": 0.265029201596906,
       "tldr": "Show HN: Getting GLM 5. 2 running on my slow computer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "17621621-7f61-4e72-a3b8-9edb42edbe89",
+      "title": "Open-source memory for coding agents, synced over SSH",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "domain": "github.com",
+      "published_at": "2026-07-15T16:15:03Z",
+      "category": "tech",
+      "score": 0.2649577166558693,
+      "tldr": "Open-source memory for coding agents, synced over SSH",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
-      "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
-      "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
-      "domain": "twitter.com",
-      "published_at": "2026-07-10T21:03:03Z",
-      "category": "tech",
-      "score": 0.2540402865781295,
-      "tldr": "6-Sol just accidentally deleted almost ALL of my Mac's files",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-15T16:13:20.904723681Z",
+  "last_updated": "2026-07-15T17:44:46.070417902Z",
   "total_count": 100
 }
