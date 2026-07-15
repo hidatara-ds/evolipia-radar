@@ -1128,6 +1128,20 @@
       ]
     },
     {
+      "id": "1dec476d-b34a-43c9-bbfd-dac22dbedd96",
+      "title": "ChatGPT Is Down",
+      "url": "https://chatgpt.com/",
+      "domain": "chatgpt.com",
+      "published_at": "2026-07-14T23:48:36Z",
+      "category": "tech",
+      "score": 0.25708649906837017,
+      "tldr": "ChatGPT Is Down",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1cc8cdfe-6fb5-4251-a222-95f85f7e3c00",
       "title": "Don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
@@ -1198,20 +1212,6 @@
       ]
     },
     {
-      "id": "f9ced8e4-9f3b-4286-8203-e648708116d8",
-      "title": "Show HN: Fortress – a stealth Chromium so your agents stop getting blocked",
-      "url": "https://github.com/tiliondev/fortress",
-      "domain": "github.com",
-      "published_at": "2026-07-08T00:08:21Z",
-      "category": "tech",
-      "score": 0.25543072126978994,
-      "tldr": "Show HN: Fortress – a stealth Chromium so your agents stop getting blocked",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ee1d6689-8316-4495-a796-737b26ccbe61",
       "title": "YouTrackDB is a general-use object-oriented graph database",
       "url": "https://github.com/JetBrains/youtrackdb",
@@ -1248,6 +1248,20 @@
       "category": "tech",
       "score": 0.2552656135651172,
       "tldr": "The Energetic Costs of Cellular Computation (2012)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a7285f07-0ec6-44f1-a4b9-c8bab04883b1",
+      "title": "Casio FX-870P Emulator",
+      "url": "https://github.com/urbancamo/fx870p-emulator",
+      "domain": "github.com",
+      "published_at": "2026-07-14T22:47:58Z",
+      "category": "tech",
+      "score": 0.25519594641712634,
+      "tldr": "Casio FX-870P Emulator",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1392,22 +1406,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4c9f70c4-0aba-42b5-9563-23eed305e1c1",
-      "title": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
-      "url": "https://github.com/skorotkiewicz/earth-game",
-      "domain": "github.com",
-      "published_at": "2026-07-11T16:37:02Z",
-      "category": "tech",
-      "score": 0.2535268444471043,
-      "tldr": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-14T23:41:43.294416492Z",
+  "last_updated": "2026-07-15T01:15:11.607870854Z",
   "total_count": 100
 }
