@@ -338,20 +338,6 @@
       ]
     },
     {
-      "id": "70b8cbab-c5a2-43a6-bdc4-16ba05069ace",
-      "title": "Show HN: Foreman, a self-hosted LLM gateway for cost aware model routing",
-      "url": "https://github.com/Northwood-Systems/foreman",
-      "domain": "github.com",
-      "published_at": "2026-07-08T17:56:53Z",
-      "category": "tech",
-      "score": 0.32668373675000867,
-      "tldr": "Show HN: Foreman, a self-hosted LLM gateway for cost aware model routing",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "9d8f15c5-4562-42fa-8d89-ad35dddc0d94",
       "title": "Performant C/CUDA inference engine for Qwen 3.6 35B on RTX 5090 / Blackwell",
       "url": "https://github.com/ambud/q36",
@@ -944,6 +930,20 @@
       ]
     },
     {
+      "id": "5575fc04-9032-4a88-9c38-24fe3a841f3e",
+      "title": "Murati's Thinking Machines Releases Open-Weights 975B Parameter LLM",
+      "url": "https://thinkingmachines.ai/inkling",
+      "domain": "thinkingmachines.ai",
+      "published_at": "2026-07-15T18:14:23Z",
+      "category": "tech",
+      "score": 0.27023138863998264,
+      "tldr": "Murati's Thinking Machines Releases Open-Weights 975B Parameter LLM",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1d5f1488-f236-42e8-a9ed-37a1b9649067",
       "title": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
       "url": "https://github.com/welcome-to-the-sunny-side/misa77",
@@ -1408,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-15T17:44:46.070417902Z",
+  "last_updated": "2026-07-15T18:53:06.269551252Z",
   "total_count": 100
 }
