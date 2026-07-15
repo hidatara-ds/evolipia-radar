@@ -268,6 +268,20 @@
       ]
     },
     {
+      "id": "0976a393-1c66-4bdd-9ee0-75aa736b3d12",
+      "title": "Grok Build",
+      "url": "https://github.com/xai-org/grok-build",
+      "domain": "github.com",
+      "published_at": "2026-07-15T20:24:58Z",
+      "category": "tech",
+      "score": 0.33250806597341565,
+      "tldr": "Grok Build",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "fdc2ea42-5ca2-490c-9bd2-d1869c67dd0f",
       "title": "Show HN: Reame – a CPU inference server that gets faster as it runs",
       "url": "https://github.com/swellweb/reame",
@@ -349,6 +363,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "8b1791c1-a3f1-4d8a-9499-e3ec4d80d763",
+      "title": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
+      "url": "https://github.com/projectargus-cc/libargus.cc",
+      "domain": "github.com",
+      "published_at": "2026-07-14T14:40:46Z",
+      "category": "tech",
+      "score": 0.3207962407951764,
+      "tldr": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -565,20 +593,6 @@
       ]
     },
     {
-      "id": "8aeb67bd-5219-4e47-a212-5af012b4e2e9",
-      "title": "Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "domain": "openai.com",
-      "published_at": "2026-07-08T21:03:51Z",
-      "category": "tech",
-      "score": 0.3032674567698316,
-      "tldr": "Separating signal from noise in coding evaluations",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "3222a9e0-c4d4-4bcd-aa8e-6bc1abe8f5ad",
       "title": "Ollama raises $65M, grows to nearly 9M users",
       "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users",
@@ -673,20 +687,6 @@
       "score": 0.2928188535004101,
       "tldr": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d340f76c-ae34-4dbd-9504-925e31ef00ec",
-      "title": "Robust Secret Storage in Networks",
-      "url": "https://arxiv.org/abs/2606.30261",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-08T21:37:58Z",
-      "category": "tech",
-      "score": 0.29281057224879187,
-      "tldr": "Robust Secret Storage in Networks",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
       ]
@@ -868,20 +868,6 @@
       "category": "tech",
       "score": 0.2752254132927149,
       "tldr": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9f2397e5-4162-4d9b-8220-78bae3d1f1ed",
-      "title": "OpenAI no longer recommends SWE-Bench Pro",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "domain": "openai.com",
-      "published_at": "2026-07-08T21:03:51Z",
-      "category": "tech",
-      "score": 0.27355476393404543,
-      "tldr": "OpenAI no longer recommends SWE-Bench Pro",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1406,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
+      "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
+      "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
+      "domain": "twitter.com",
+      "published_at": "2026-07-10T21:03:03Z",
+      "category": "tech",
+      "score": 0.2540402865781295,
+      "tldr": "6-Sol just accidentally deleted almost ALL of my Mac's files",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-15T21:02:34.866991304Z",
+  "last_updated": "2026-07-15T22:28:07.419718009Z",
   "total_count": 100
 }
