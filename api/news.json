@@ -1380,20 +1380,6 @@
       ]
     },
     {
-      "id": "4f3fe4f7-1cfe-4622-8992-e34dd2ba0f3d",
-      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
-      "domain": "twitter.com",
-      "published_at": "2026-07-08T04:12:13Z",
-      "category": "tech",
-      "score": 0.2537929751907909,
-      "tldr": "6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "f620b8ea-e473-49f6-8466-691da29c923d",
       "title": "The Lunduke Computer Operating System",
       "url": "https://github.com/BryanLunduke/LCOS",
@@ -1406,8 +1392,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "4c9f70c4-0aba-42b5-9563-23eed305e1c1",
+      "title": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
+      "url": "https://github.com/skorotkiewicz/earth-game",
+      "domain": "github.com",
+      "published_at": "2026-07-11T16:37:02Z",
+      "category": "tech",
+      "score": 0.2535268444471043,
+      "tldr": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-15T01:15:11.607870854Z",
+  "last_updated": "2026-07-15T04:21:41.673324188Z",
   "total_count": 100
 }
