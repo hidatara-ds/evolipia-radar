@@ -169,6 +169,20 @@
       ]
     },
     {
+      "id": "8dd7900a-29fd-4a8e-b461-3b0fed2a8c9a",
+      "title": "Grok Build is open source",
+      "url": "https://github.com/xai-org/grok-build",
+      "domain": "github.com",
+      "published_at": "2026-07-15T20:24:58Z",
+      "category": "tech",
+      "score": 0.3627683178098463,
+      "tldr": "Grok Build is open source",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "836b0b75-3db6-4461-8058-025d11385628",
       "title": "ChatGPT Work",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
@@ -745,20 +759,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "f6372278-25a1-4287-84ba-dee45349f834",
-      "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
-      "url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
-      "domain": "tryai.dev",
-      "published_at": "2026-07-08T23:27:14Z",
-      "category": "tech",
-      "score": 0.28699483922296726,
-      "tldr": "5, and Claude build the same apps",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1408,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-15T22:28:07.419718009Z",
+  "last_updated": "2026-07-15T23:27:16.01978245Z",
   "total_count": 100
 }
