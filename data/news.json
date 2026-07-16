@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "6d237d2b-3eea-4340-966b-c328f04036d9",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "url": "https://www.kimi.com/blog/kimi-k3",
+      "domain": "kimi.com",
+      "published_at": "2026-07-16T14:46:05Z",
+      "category": "tech",
+      "score": 0.597947435690694,
+      "tldr": "Kimi K3: Open Frontier Intelligence",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b59f0ace-eeb6-4c53-b97a-f74db5e60d85",
       "title": "Codex starts encrypting sub-agent prompts",
       "url": "https://github.com/openai/codex/issues/28058",
@@ -223,6 +237,21 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "1b5ceb22-cf6a-4e43-9cf2-330018c10b74",
+      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+      "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+      "domain": "tryai.dev",
+      "published_at": "2026-07-16T20:03:23Z",
+      "category": "tech",
+      "score": 0.32977065057143934,
+      "tldr": "$100 AI Music Video: Claude Fable 5 vs.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "general_ai"
       ]
     },
     {
@@ -1383,36 +1412,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f620b8ea-e473-49f6-8466-691da29c923d",
-      "title": "The Lunduke Computer Operating System",
-      "url": "https://github.com/BryanLunduke/LCOS",
-      "domain": "github.com",
-      "published_at": "2026-07-12T14:15:13Z",
-      "category": "tech",
-      "score": 0.2535364349429075,
-      "tldr": "The Lunduke Computer Operating System",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4c9f70c4-0aba-42b5-9563-23eed305e1c1",
-      "title": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
-      "url": "https://github.com/skorotkiewicz/earth-game",
-      "domain": "github.com",
-      "published_at": "2026-07-11T16:37:02Z",
-      "category": "tech",
-      "score": 0.2535268444471043,
-      "tldr": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-16T20:44:03.72327329Z",
+  "last_updated": "2026-07-16T21:54:42.143838665Z",
   "total_count": 100
 }
