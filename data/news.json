@@ -29,20 +29,6 @@
       ]
     },
     {
-      "id": "e0456114-d53b-45c5-9309-96219e304e7d",
-      "title": "My thoughts on the Bun Rust rewrite",
-      "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
-      "domain": "andrewkelley.me",
-      "published_at": "2026-07-09T09:47:28Z",
-      "category": "tech",
-      "score": 0.4554051673804637,
-      "tldr": "My thoughts on the Bun Rust rewrite",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "79ade675-c1fa-4af4-9107-0a6af41553b1",
       "title": "Codex starts encrypting prompts, uses ciphertext for inference instead",
       "url": "https://github.com/openai/codex/issues/28058",
@@ -493,20 +479,6 @@
       ]
     },
     {
-      "id": "227e4cea-da37-4640-8e62-964dcf9827fc",
-      "title": "Bonnie Tyler has died",
-      "url": "https://www.bbc.com/news/articles/cg5pd9z2487o",
-      "domain": "bbc.com",
-      "published_at": "2026-07-09T10:02:33Z",
-      "category": "tech",
-      "score": 0.3082992001544416,
-      "tldr": "Bonnie Tyler has died",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "929e118b-3abf-4287-90ba-2864e80ea76a",
       "title": "Ask HN: Add flag for AI-generated articles",
       "url": "https://news.ycombinator.com/item?id=48886741",
@@ -558,20 +530,6 @@
       "score": 0.3043675837687665,
       "tldr": "Please don't discontinue Gemini 2.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c6f87e91-3f59-4ba5-9a9f-b73e63b32d7a",
-      "title": "Relm – local LLMs as base-R objects, with interpretability",
-      "url": "https://github.com/Vadale/R-ebirth",
-      "domain": "github.com",
-      "published_at": "2026-07-09T09:58:28Z",
-      "category": "tech",
-      "score": 0.30433054743459537,
-      "tldr": "Relm – local LLMs as base-R objects, with interpretability",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
       ]
@@ -648,20 +606,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "3e3e377e-0773-4f63-a6cd-696379fb6054",
-      "title": "Bonnie Tyler, singer of Total Eclipse of the Heart, dies aged 75",
-      "url": "https://www.bbc.com/news/articles/cg5pd9z2487o",
-      "domain": "bbc.com",
-      "published_at": "2026-07-09T10:02:33Z",
-      "category": "tech",
-      "score": 0.3004780071888452,
-      "tldr": "Bonnie Tyler, singer of Total Eclipse of the Heart, dies aged 75",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1407,8 +1351,65 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "6f32234b-d8a4-4366-9b3e-d90e36e3161c",
+      "title": "Free Remote Desktop Without Servers",
+      "url": "https://github.com/Teylersf/freeremotedesk",
+      "domain": "github.com",
+      "published_at": "2026-07-16T00:25:10Z",
+      "category": "tech",
+      "score": 0.2543796290823904,
+      "tldr": "Free Remote Desktop Without Servers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cda8302a-5d5d-4bef-89e7-ee7b3ac3fb1e",
+      "title": "Open Source, Free Tier Capable Whispr Using Cloudflare AI",
+      "url": "https://github.com/PrestigePvP/Voicebox",
+      "domain": "github.com",
+      "published_at": "2026-07-16T02:57:30Z",
+      "category": "tech",
+      "score": 0.2540803378109992,
+      "tldr": "Open Source, Free Tier Capable Whispr Using Cloudflare AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "cloud",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
+      "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
+      "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
+      "domain": "twitter.com",
+      "published_at": "2026-07-10T21:03:03Z",
+      "category": "tech",
+      "score": 0.2540402865781295,
+      "tldr": "6-Sol just accidentally deleted almost ALL of my Mac's files",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c3d0f969-5db2-4551-b605-e5c00931ceb7",
+      "title": "Offline tool to stabilize TV volume using IR control and spike detection",
+      "url": "https://github.com/AdBusterOfficial/Adbuster--WinApp",
+      "domain": "github.com",
+      "published_at": "2026-07-10T13:39:49Z",
+      "category": "tech",
+      "score": 0.2538759565944357,
+      "tldr": "Offline tool to stabilize TV volume using IR control and spike detection",
+      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
+      "tags": [
+        "computer_vision"
+      ]
     }
   ],
-  "last_updated": "2026-07-16T08:38:53.738975581Z",
+  "last_updated": "2026-07-16T10:48:37.115254081Z",
   "total_count": 100
 }
