@@ -790,20 +790,6 @@
       ]
     },
     {
-      "id": "6cfb27aa-5bbd-457b-a2d4-76844857a78c",
-      "title": "I Think I Have LLM Burnout",
-      "url": "https://www.alecscollon.com/blog/llm-burnout",
-      "domain": "alecscollon.com",
-      "published_at": "2026-07-09T01:56:28Z",
-      "category": "tech",
-      "score": 0.2851233159269339,
-      "tldr": "I Think I Have LLM Burnout",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "283fc643-c8bc-4a7d-8863-847a80f0aa6c",
       "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
       "url": "https://github.com/ronak-create/FableCut",
@@ -1394,6 +1380,20 @@
       ]
     },
     {
+      "id": "6f32234b-d8a4-4366-9b3e-d90e36e3161c",
+      "title": "Free Remote Desktop Without Servers",
+      "url": "https://github.com/Teylersf/freeremotedesk",
+      "domain": "github.com",
+      "published_at": "2026-07-16T00:25:10Z",
+      "category": "tech",
+      "score": 0.2543796290823904,
+      "tldr": "Free Remote Desktop Without Servers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
       "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
       "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
@@ -1408,6 +1408,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-16T00:54:52.448351845Z",
+  "last_updated": "2026-07-16T03:55:32.335399281Z",
   "total_count": 100
 }
