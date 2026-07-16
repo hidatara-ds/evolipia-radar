@@ -977,6 +977,20 @@
       ]
     },
     {
+      "id": "7add2344-59b7-42ba-8d3c-6733834cb021",
+      "title": "The Little Book of Reinforcement Learning",
+      "url": "https://github.com/alxndrTL/little-book-rl",
+      "domain": "github.com",
+      "published_at": "2026-07-16T22:27:22Z",
+      "category": "tech",
+      "score": 0.2603410986386784,
+      "tldr": "The Little Book of Reinforcement Learning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "6963cf1d-fba4-430b-86b8-03681502e486",
       "title": "Show HN: Runloom – Go-style coroutines for Python free-threaded",
       "url": "https://github.com/robertsdotpm/runloom",
@@ -1398,22 +1412,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
-      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
-      "url": "https://github.com/logxio/picchio",
-      "domain": "github.com",
-      "published_at": "2026-07-14T21:06:11Z",
-      "category": "tech",
-      "score": 0.2538057700330029,
-      "tldr": "Same model, same Q4_K_M label: 5.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-16T22:47:10.363074936Z",
+  "last_updated": "2026-07-16T23:47:28.624088581Z",
   "total_count": 100
 }
