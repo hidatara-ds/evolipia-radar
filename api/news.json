@@ -113,20 +113,6 @@
       ]
     },
     {
-      "id": "57eb2f8a-80cd-4375-abc6-7c6b8b9d0793",
-      "title": "Show HN: 18 Words",
-      "url": "https://18words.com/",
-      "domain": "18words.com",
-      "published_at": "2026-07-09T12:48:52Z",
-      "category": "tech",
-      "score": 0.36574792800653405,
-      "tldr": "Show HN: 18 Words",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8dd7900a-29fd-4a8e-b461-3b0fed2a8c9a",
       "title": "Grok Build is open source",
       "url": "https://github.com/xai-org/grok-build",
@@ -408,6 +394,20 @@
       ]
     },
     {
+      "id": "f6d521be-f694-4f0b-97a2-3d65641aaa8d",
+      "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
+      "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
+      "domain": "latimes.com",
+      "published_at": "2026-07-16T12:02:11Z",
+      "category": "tech",
+      "score": 0.3128725927548059,
+      "tldr": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3606516a-4585-40c5-aff3-0c4ad4aff965",
       "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
       "url": "https://github.com/clawkwork/clawk",
@@ -433,6 +433,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "1897a181-9602-4e19-ae47-cbf41d55b1a3",
+      "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+      "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway",
+      "domain": "theocharis.dev",
+      "published_at": "2026-07-16T11:59:01Z",
+      "category": "tech",
+      "score": 0.3100649844926303,
+      "tldr": "The LLM Critics Are Right.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
         "llm"
       ]
     },
@@ -537,21 +551,6 @@
       ]
     },
     {
-      "id": "3222a9e0-c4d4-4bcd-aa8e-6bc1abe8f5ad",
-      "title": "Ollama raises $65M, grows to nearly 9M users",
-      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users",
-      "domain": "techcrunch.com",
-      "published_at": "2026-07-09T14:08:51Z",
-      "category": "tech",
-      "score": 0.3027224240124322,
-      "tldr": "Ollama raises $65M, grows to nearly 9M users",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "8bd430cc-ec48-4cb2-9bcc-08f7155ea46d",
       "title": "I love LLMs, I hate hype",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
@@ -589,20 +588,6 @@
       "category": "tech",
       "score": 0.29944947651998516,
       "tldr": "Australian energy retailers must offer three hours of free daytime electricity",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8f74da87-a457-42ee-8732-3cef8c39990c",
-      "title": "PostHog FOSS",
-      "url": "https://github.com/PostHog/posthog-foss",
-      "domain": "github.com",
-      "published_at": "2026-07-09T14:17:40Z",
-      "category": "tech",
-      "score": 0.2965307909742282,
-      "tldr": "PostHog FOSS",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -721,20 +706,6 @@
       ]
     },
     {
-      "id": "283fc643-c8bc-4a7d-8863-847a80f0aa6c",
-      "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
-      "url": "https://github.com/ronak-create/FableCut",
-      "domain": "github.com",
-      "published_at": "2026-07-09T13:23:10Z",
-      "category": "tech",
-      "score": 0.28443597776032176,
-      "tldr": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ec316da4-7c8a-44e0-ab62-d6a7175e93ec",
       "title": "Claude is just Mr. Meeseeks",
       "url": "https://github.com/thephw/claude-meseeks",
@@ -743,34 +714,6 @@
       "category": "tech",
       "score": 0.28081202657389226,
       "tldr": "Claude is just Mr. Meeseeks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d631ba27-497b-4083-b97f-f77c4bd7e591",
-      "title": "PostHog Open Sourced",
-      "url": "https://github.com/PostHog/posthog-foss",
-      "domain": "github.com",
-      "published_at": "2026-07-09T14:17:40Z",
-      "category": "tech",
-      "score": 0.2774728189402506,
-      "tldr": "PostHog Open Sourced",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ff2201b9-8309-45af-80ed-0e06a81c33e0",
-      "title": "Muse Spark 1.1",
-      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api",
-      "domain": "ai.meta.com",
-      "published_at": "2026-07-09T14:10:22Z",
-      "category": "tech",
-      "score": 0.2768761915038223,
-      "tldr": "Muse Spark 1.1",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1044,20 +987,6 @@
       ]
     },
     {
-      "id": "61e340f8-248e-43f4-826d-7078fb172d4b",
-      "title": "US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers",
-      "url": "https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers",
-      "domain": "arstechnica.com",
-      "published_at": "2026-07-09T13:29:31Z",
-      "category": "tech",
-      "score": 0.2578967664737998,
-      "tldr": "US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "dfd4489e-74c1-4582-95cd-52e3e3f61c2a",
       "title": "Show HN: Grepathy – Claude made a decision nobody approved",
       "url": "https://github.com/evansjp/grepathy",
@@ -1269,20 +1198,6 @@
       ]
     },
     {
-      "id": "1914e9c8-7826-4a9e-8c7a-eaf2e59d04d8",
-      "title": "NASA SpaceWASM – A flight-compliant WebAssembly interpreter",
-      "url": "https://github.com/nasa/spacewasm",
-      "domain": "github.com",
-      "published_at": "2026-07-09T14:00:00Z",
-      "category": "tech",
-      "score": 0.2550873383733295,
-      "tldr": "NASA SpaceWASM – A flight-compliant WebAssembly interpreter",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "903fb82c-56bd-4cad-ace8-ed683a5c2ed9",
       "title": "Show HN: YouTube Guitar Tab Parser",
       "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
@@ -1294,20 +1209,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "a0bf4999-1d48-441a-bb8b-a7f231d535e9",
-      "title": "Altman: GPT-5.6 is 54% more token efficient on agentic coding",
-      "url": "https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-07-09T14:25:13Z",
-      "category": "tech",
-      "score": 0.2549484832946252,
-      "tldr": "6 is 54% more token efficient on agentic coding",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1408,8 +1309,106 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "4c9f70c4-0aba-42b5-9563-23eed305e1c1",
+      "title": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
+      "url": "https://github.com/skorotkiewicz/earth-game",
+      "domain": "github.com",
+      "published_at": "2026-07-11T16:37:02Z",
+      "category": "tech",
+      "score": 0.2535268444471043,
+      "tldr": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6c0706e2-c44a-4423-9a96-e9b64636f724",
+      "title": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
+      "url": "https://github.com/jbunke/painterly",
+      "domain": "github.com",
+      "published_at": "2026-07-15T17:01:34Z",
+      "category": "tech",
+      "score": 0.2535238255652048,
+      "tldr": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2988aef9-2067-4fe5-8c18-b7b47c418625",
+      "title": "Croc: Securely transfer files and folders between two computers",
+      "url": "https://github.com/schollz/croc",
+      "domain": "github.com",
+      "published_at": "2026-07-12T15:44:13Z",
+      "category": "tech",
+      "score": 0.2535203270593292,
+      "tldr": "Croc: Securely transfer files and folders between two computers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "052cb999-f284-4f37-a4eb-61d784e1080b",
+      "title": "Odin 2 Portal Exploded",
+      "url": "https://github.com/virtudude/armada/issues/94",
+      "domain": "github.com",
+      "published_at": "2026-07-15T21:24:31Z",
+      "category": "tech",
+      "score": 0.2534584166997492,
+      "tldr": "Odin 2 Portal Exploded",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
+      "title": "LLM Networking with MikroTik",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "domain": "blog.greg.technology",
+      "published_at": "2026-07-15T22:23:27Z",
+      "category": "tech",
+      "score": 0.2533737519015256,
+      "tldr": "LLM Networking with MikroTik",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9465cbdb-efd6-4755-9197-400ec1c1ec54",
+      "title": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
+      "url": "https://github.com/yeet-src/sigwire",
+      "domain": "github.com",
+      "published_at": "2026-07-13T20:07:45Z",
+      "category": "tech",
+      "score": 0.25297744128276567,
+      "tldr": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "66ce3eb7-ce5c-48d7-acc3-ccc0c90c174f",
+      "title": "Show HN: Aict – Unix coreutils that output XML/JSON, built for AI agents",
+      "url": "https://github.com/synseqack/aict",
+      "domain": "github.com",
+      "published_at": "2026-07-15T13:39:54Z",
+      "category": "tech",
+      "score": 0.2528621595365297,
+      "tldr": "Show HN: Aict – Unix coreutils that output XML/JSON, built for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-16T12:13:33.138429092Z",
+  "last_updated": "2026-07-16T14:30:46.718344856Z",
   "total_count": 100
 }
