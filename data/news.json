@@ -268,20 +268,6 @@
       ]
     },
     {
-      "id": "0a25b034-d8eb-4f70-bba0-ef8bf7114f6d",
-      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "url": "https://github.com/malisper/pgrust",
-      "domain": "github.com",
-      "published_at": "2026-07-09T06:18:19Z",
-      "category": "tech",
-      "score": 0.34022389493325816,
-      "tldr": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0976a393-1c66-4bdd-9ee0-75aa736b3d12",
       "title": "Grok Build",
       "url": "https://github.com/xai-org/grok-build",
@@ -1015,20 +1001,6 @@
       ]
     },
     {
-      "id": "cb032b39-f532-40e0-a05d-75bad05a1bf5",
-      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
-      "url": "https://github.com/JustVugg/colibri",
-      "domain": "github.com",
-      "published_at": "2026-07-09T08:05:04Z",
-      "category": "tech",
-      "score": 0.265029201596906,
-      "tldr": "Show HN: Getting GLM 5. 2 running on my slow computer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "17621621-7f61-4e72-a3b8-9edb42edbe89",
       "title": "Open-source memory for coding agents, synced over SSH",
       "url": "https://github.com/vshulcz/deja-vu",
@@ -1037,6 +1009,20 @@
       "category": "tech",
       "score": 0.2649577166558693,
       "tldr": "Open-source memory for coding agents, synced over SSH",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "996cc5c4-a775-4673-a1d6-ec11f487e798",
+      "title": "Reynard: A real Firefox web browser for iOS 13 or later",
+      "url": "https://github.com/minh-ton/reynard-browser",
+      "domain": "github.com",
+      "published_at": "2026-07-16T04:36:07Z",
+      "category": "tech",
+      "score": 0.2610510998555605,
+      "tldr": "Reynard: A real Firefox web browser for iOS 13 or later",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1407,8 +1393,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "c7018404-6a72-4648-b5a9-12c3a9aaad5d",
+      "title": "Automation Without Understanding",
+      "url": "https://arxiv.org/abs/2607.06377",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-12T16:54:47Z",
+      "category": "tech",
+      "score": 0.2547208902135416,
+      "tldr": "Automation Without Understanding",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-16T06:09:51.187416596Z",
+  "last_updated": "2026-07-16T08:38:53.738975581Z",
   "total_count": 100
 }
