@@ -296,6 +296,20 @@
       ]
     },
     {
+      "id": "e5a7b901-4f56-4d02-9f87-0c3b9b84e1ab",
+      "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers",
+      "url": "https://arxiv.org/abs/2607.11859",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-16T02:17:31Z",
+      "category": "tech",
+      "score": 0.33208157654752446,
+      "tldr": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "fdc2ea42-5ca2-490c-9bd2-d1869c67dd0f",
       "title": "Show HN: Reame – a CPU inference server that gets faster as it runs",
       "url": "https://github.com/swellweb/reame",
@@ -632,6 +646,21 @@
       "tldr": "I love LLMs, I hate hype",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "476c8bc3-696e-43d0-a885-4495cbafee51",
+      "title": "AI That Never Forgets – Dendritron Transformer Explained [video]",
+      "url": "https://www.youtube.com/watch?v=6zwuTqGweJE",
+      "domain": "youtube.com",
+      "published_at": "2026-07-16T05:26:50Z",
+      "category": "tech",
+      "score": 0.3013257880925104,
+      "tldr": "AI That Never Forgets – Dendritron Transformer Explained [video]",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
         "llm"
       ]
     },
@@ -1184,6 +1213,20 @@
       ]
     },
     {
+      "id": "22255e9b-fe39-44e8-8987-a27794aa6a8c",
+      "title": "Guerrilla London bus ads mock Kylie Jenner’s Meta glasses campaign",
+      "url": "https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign",
+      "domain": "hyperallergic.com",
+      "published_at": "2026-07-16T03:24:25Z",
+      "category": "tech",
+      "score": 0.2565203863215994,
+      "tldr": "Guerrilla London bus ads mock Kylie Jenner’s Meta glasses campaign",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "1cc8cdfe-6fb5-4251-a222-95f85f7e3c00",
       "title": "Don't discontinue Gemini 2.5 Flash",
       "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
@@ -1364,50 +1407,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "c7018404-6a72-4648-b5a9-12c3a9aaad5d",
-      "title": "Automation Without Understanding",
-      "url": "https://arxiv.org/abs/2607.06377",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-12T16:54:47Z",
-      "category": "tech",
-      "score": 0.2547208902135416,
-      "tldr": "Automation Without Understanding",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6f32234b-d8a4-4366-9b3e-d90e36e3161c",
-      "title": "Free Remote Desktop Without Servers",
-      "url": "https://github.com/Teylersf/freeremotedesk",
-      "domain": "github.com",
-      "published_at": "2026-07-16T00:25:10Z",
-      "category": "tech",
-      "score": 0.2543796290823904,
-      "tldr": "Free Remote Desktop Without Servers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
-      "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
-      "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
-      "domain": "twitter.com",
-      "published_at": "2026-07-10T21:03:03Z",
-      "category": "tech",
-      "score": 0.2540402865781295,
-      "tldr": "6-Sol just accidentally deleted almost ALL of my Mac's files",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-16T03:55:32.335399281Z",
+  "last_updated": "2026-07-16T06:09:51.187416596Z",
   "total_count": 100
 }
