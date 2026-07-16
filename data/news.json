@@ -43,20 +43,6 @@
       ]
     },
     {
-      "id": "759b6ad6-8266-4648-8014-598e46621f89",
-      "title": "EU Parliament greenlights Chat Control 1.0",
-      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out",
-      "domain": "patrick-breyer.de",
-      "published_at": "2026-07-09T11:03:54Z",
-      "category": "tech",
-      "score": 0.43619800606497033,
-      "tldr": "EU Parliament greenlights Chat Control 1.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0e8daf13-28e1-4baa-964a-5f5f34c9c530",
       "title": "A graph that should be front-page news",
       "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
@@ -110,20 +96,6 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "7ece58b9-6f98-4efd-8a14-1c73e5d82018",
-      "title": "EU Parliament greenlights Chat Control 1.0 – Breyer: \"Our children lose out\"",
-      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out",
-      "domain": "patrick-breyer.de",
-      "published_at": "2026-07-09T11:03:54Z",
-      "category": "tech",
-      "score": 0.3729762548667468,
-      "tldr": "EU Parliament greenlights Chat Control 1. 0 – Breyer: \"Our children lose out\"",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1408,8 +1380,36 @@
       "tags": [
         "computer_vision"
       ]
+    },
+    {
+      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
+      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
+      "url": "https://github.com/logxio/picchio",
+      "domain": "github.com",
+      "published_at": "2026-07-14T21:06:11Z",
+      "category": "tech",
+      "score": 0.2538057700330029,
+      "tldr": "Same model, same Q4_K_M label: 5.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f620b8ea-e473-49f6-8466-691da29c923d",
+      "title": "The Lunduke Computer Operating System",
+      "url": "https://github.com/BryanLunduke/LCOS",
+      "domain": "github.com",
+      "published_at": "2026-07-12T14:15:13Z",
+      "category": "tech",
+      "score": 0.2535364349429075,
+      "tldr": "The Lunduke Computer Operating System",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-16T10:48:37.115254081Z",
+  "last_updated": "2026-07-16T12:13:33.138429092Z",
   "total_count": 100
 }
