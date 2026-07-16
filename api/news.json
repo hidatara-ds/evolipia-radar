@@ -493,6 +493,21 @@
       ]
     },
     {
+      "id": "50243186-7000-4520-a9ea-5bf231cd5c32",
+      "title": "Detecting LLM-Generated Texts with \"Classical\" Machine Learning",
+      "url": "https://blog.lyc8503.net/en/post/llm-classifier",
+      "domain": "blog.lyc8503.net",
+      "published_at": "2026-07-16T16:41:37Z",
+      "category": "tech",
+      "score": 0.3055888101258912,
+      "tldr": "Detecting LLM-Generated Texts with \"Classical\" Machine Learning",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "9a13bd9b-2076-4cb7-bb97-e6218b487edf",
       "title": "The git history command",
       "url": "https://lalitm.com/post/git-history",
@@ -1142,20 +1157,6 @@
       ]
     },
     {
-      "id": "e1d047aa-3001-4862-b2d9-3f3973c6e6a1",
-      "title": "Farage left fighting a trash can as the UK populist's election gamble backfires",
-      "url": "https://www.cnn.com/2026/07/09/uk/nigel-farage-special-election-bin-face-intl",
-      "domain": "cnn.com",
-      "published_at": "2026-07-09T15:56:24Z",
-      "category": "tech",
-      "score": 0.25543535254974026,
-      "tldr": "Farage left fighting a trash can as the UK populist's election gamble backfires",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ee1d6689-8316-4495-a796-737b26ccbe61",
       "title": "YouTrackDB is a general-use object-oriented graph database",
       "url": "https://github.com/JetBrains/youtrackdb",
@@ -1212,6 +1213,20 @@
       ]
     },
     {
+      "id": "99075004-b759-4170-86a7-6697595b88e6",
+      "title": "NotebookLM is now Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook",
+      "domain": "blog.google",
+      "published_at": "2026-07-16T16:08:13Z",
+      "category": "tech",
+      "score": 0.2551602611524522,
+      "tldr": "NotebookLM is now Gemini Notebook",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "903fb82c-56bd-4cad-ace8-ed683a5c2ed9",
       "title": "Show HN: YouTube Guitar Tab Parser",
       "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
@@ -1220,6 +1235,20 @@
       "category": "tech",
       "score": 0.2550619667687181,
       "tldr": "Show HN: YouTube Guitar Tab Parser",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "8e2a5bab-daf5-4b4c-b843-3ae6f3ad5e94",
+      "title": "Show HN: Ratel, give agents unlimited tools and skills without context bloat",
+      "url": "https://github.com/ratel-ai/ratel",
+      "domain": "github.com",
+      "published_at": "2026-07-16T16:11:13Z",
+      "category": "tech",
+      "score": 0.2547451271486047,
+      "tldr": "Show HN: Ratel, give agents unlimited tools and skills without context bloat",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1379,36 +1408,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
-      "title": "LLM Networking with MikroTik",
-      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
-      "domain": "blog.greg.technology",
-      "published_at": "2026-07-15T22:23:27Z",
-      "category": "tech",
-      "score": 0.2533737519015256,
-      "tldr": "LLM Networking with MikroTik",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9465cbdb-efd6-4755-9197-400ec1c1ec54",
-      "title": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
-      "url": "https://github.com/yeet-src/sigwire",
-      "domain": "github.com",
-      "published_at": "2026-07-13T20:07:45Z",
-      "category": "tech",
-      "score": 0.25297744128276567,
-      "tldr": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-16T15:56:20.543925738Z",
+  "last_updated": "2026-07-16T17:02:05.946647896Z",
   "total_count": 100
 }
