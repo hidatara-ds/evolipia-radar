@@ -1090,6 +1090,20 @@
       ]
     },
     {
+      "id": "316e7a25-77d8-48c7-ae0e-7d17c8fe6ae0",
+      "title": "PennyLane is an open-source quantum software platform for quantum",
+      "url": "https://github.com/PennyLaneAI/pennylane",
+      "domain": "github.com",
+      "published_at": "2026-07-17T13:30:47Z",
+      "category": "tech",
+      "score": 0.258581819312542,
+      "tldr": "PennyLane is an open-source quantum software platform for quantum",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "dfd4489e-74c1-4582-95cd-52e3e3f61c2a",
       "title": "Show HN: Grepathy – Claude made a decision nobody approved",
       "url": "https://github.com/evansjp/grepathy",
@@ -1398,22 +1412,8 @@
         "cloud",
         "general_ai"
       ]
-    },
-    {
-      "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
-      "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
-      "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
-      "domain": "twitter.com",
-      "published_at": "2026-07-10T21:03:03Z",
-      "category": "tech",
-      "score": 0.2540402865781295,
-      "tldr": "6-Sol just accidentally deleted almost ALL of my Mac's files",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-17T14:24:26.483831732Z",
+  "last_updated": "2026-07-17T15:52:43.328320085Z",
   "total_count": 100
 }
