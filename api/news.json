@@ -1217,6 +1217,20 @@
       ]
     },
     {
+      "id": "b04f486c-113f-4cbc-a80a-b939bc86778e",
+      "title": "Ask HN: Do you say please and thank you to your LLMs?",
+      "url": "https://news.ycombinator.com/item?id=48945125",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-17T09:27:41Z",
+      "category": "tech",
+      "score": 0.25533085011473566,
+      "tldr": "Ask HN: Do you say please and thank you to your LLMs?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "ee1d6689-8316-4495-a796-737b26ccbe61",
       "title": "YouTrackDB is a general-use object-oriented graph database",
       "url": "https://github.com/JetBrains/youtrackdb",
@@ -1398,22 +1412,8 @@
       "tags": [
         "computer_vision"
       ]
-    },
-    {
-      "id": "c0aba29c-fe4a-463b-893e-ff1a74c26d2b",
-      "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
-      "domain": "bloomberg.com",
-      "published_at": "2026-07-16T18:13:00Z",
-      "category": "tech",
-      "score": 0.253816970773297,
-      "tldr": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-17T09:25:38.649783538Z",
+  "last_updated": "2026-07-17T11:01:31.300833819Z",
   "total_count": 100
 }
