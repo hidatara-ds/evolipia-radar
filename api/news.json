@@ -1231,20 +1231,6 @@
       ]
     },
     {
-      "id": "42f742c1-8850-4ea2-b34a-8908471b59b0",
-      "title": "Cpp2Rust: Translates C++ to safe Rust automatically",
-      "url": "https://github.com/Cpp2Rust/cpp2rust",
-      "domain": "github.com",
-      "published_at": "2026-07-10T16:24:20Z",
-      "category": "tech",
-      "score": 0.25558759240851003,
-      "tldr": "Cpp2Rust: Translates C++ to safe Rust automatically",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "b04f486c-113f-4cbc-a80a-b939bc86778e",
       "title": "Ask HN: Do you say please and thank you to your LLMs?",
       "url": "https://news.ycombinator.com/item?id=48945125",
@@ -1412,8 +1398,22 @@
         "cloud",
         "general_ai"
       ]
+    },
+    {
+      "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
+      "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
+      "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
+      "domain": "twitter.com",
+      "published_at": "2026-07-10T21:03:03Z",
+      "category": "tech",
+      "score": 0.2540402865781295,
+      "tldr": "6-Sol just accidentally deleted almost ALL of my Mac's files",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-17T15:52:43.328320085Z",
+  "last_updated": "2026-07-17T16:58:01.397534136Z",
   "total_count": 100
 }
