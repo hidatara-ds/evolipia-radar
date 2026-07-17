@@ -72,20 +72,6 @@
       ]
     },
     {
-      "id": "90beb0f7-9bfd-4d60-9299-b49fc50fa0dd",
-      "title": "New York City to ban deceptive subscription practices",
-      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
-      "domain": "theguardian.com",
-      "published_at": "2026-07-10T18:26:24Z",
-      "category": "tech",
-      "score": 0.37813385365199526,
-      "tldr": "New York City to ban deceptive subscription practices",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "228ed184-d5ee-4fab-84a5-45936cd06740",
       "title": "Sony deletes more movies from the accounts of people who ‘bought’ them",
       "url": "https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them",
@@ -196,20 +182,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "data"
-      ]
-    },
-    {
-      "id": "65238b04-1def-4382-9906-2e362f8e3e73",
-      "title": "New York City to to ban deceptive subscription practices",
-      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
-      "domain": "theguardian.com",
-      "published_at": "2026-07-10T18:26:24Z",
-      "category": "tech",
-      "score": 0.34450359541047515,
-      "tldr": "New York City to to ban deceptive subscription practices",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -408,20 +380,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "b290dabd-974c-4cab-95e7-6a4573a631fc",
-      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "domain": "cdn.openai.com",
-      "published_at": "2026-07-10T18:29:19Z",
-      "category": "tech",
-      "score": 0.31767724810190523,
-      "tldr": "6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1412,8 +1370,50 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "fe71f751-728c-4127-9ce2-55c0f49f55e5",
+      "title": "Homomorphically encrypted CIFAR-10 inference in 200ms",
+      "url": "https://sofar.belfortlabs.cloud/",
+      "domain": "sofar.belfortlabs.cloud",
+      "published_at": "2026-07-17T16:29:52Z",
+      "category": "tech",
+      "score": 0.25391097438920784,
+      "tldr": "Homomorphically encrypted CIFAR-10 inference in 200ms",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "c0aba29c-fe4a-463b-893e-ff1a74c26d2b",
+      "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
+      "domain": "bloomberg.com",
+      "published_at": "2026-07-16T18:13:00Z",
+      "category": "tech",
+      "score": 0.253816970773297,
+      "tldr": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
+      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
+      "url": "https://github.com/logxio/picchio",
+      "domain": "github.com",
+      "published_at": "2026-07-14T21:06:11Z",
+      "category": "tech",
+      "score": 0.2538057700330029,
+      "tldr": "Same model, same Q4_K_M label: 5.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-17T17:59:12.705595546Z",
+  "last_updated": "2026-07-17T19:02:11.517354839Z",
   "total_count": 100
 }
