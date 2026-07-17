@@ -1189,6 +1189,20 @@
       ]
     },
     {
+      "id": "a84576cd-62c7-4e15-a5f5-7c3fc6835a57",
+      "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
+      "url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918",
+      "domain": "kaggle.com",
+      "published_at": "2026-07-17T11:30:00Z",
+      "category": "tech",
+      "score": 0.2558487166943712,
+      "tldr": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "935b1c19-47b8-45af-9867-8903b70159fc",
       "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
       "url": "https://github.com/Poseidon-fan/linux-0.11-rs",
@@ -1398,22 +1412,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "c3d0f969-5db2-4551-b605-e5c00931ceb7",
-      "title": "Offline tool to stabilize TV volume using IR control and spike detection",
-      "url": "https://github.com/AdBusterOfficial/Adbuster--WinApp",
-      "domain": "github.com",
-      "published_at": "2026-07-10T13:39:49Z",
-      "category": "tech",
-      "score": 0.2538759565944357,
-      "tldr": "Offline tool to stabilize TV volume using IR control and spike detection",
-      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
-      "tags": [
-        "computer_vision"
-      ]
     }
   ],
-  "last_updated": "2026-07-17T11:01:31.300833819Z",
+  "last_updated": "2026-07-17T12:40:06.49016425Z",
   "total_count": 100
 }
