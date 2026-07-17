@@ -1104,20 +1104,6 @@
       ]
     },
     {
-      "id": "45a962f1-30b9-4b80-9d78-de29074d0a17",
-      "title": "Ask HN: Do we need a support group for developers alienated by LLMs?",
-      "url": "https://news.ycombinator.com/item?id=48857085",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-10T08:00:24Z",
-      "category": "tech",
-      "score": 0.2573315178639769,
-      "tldr": "Ask HN: Do we need a support group for developers alienated by LLMs?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "40416fbb-dae7-4d36-b553-e131dba0d807",
       "title": "Building Food Metadata with LLM Juries",
       "url": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai",
@@ -1412,8 +1398,22 @@
       "tags": [
         "computer_vision"
       ]
+    },
+    {
+      "id": "c0aba29c-fe4a-463b-893e-ff1a74c26d2b",
+      "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
+      "domain": "bloomberg.com",
+      "published_at": "2026-07-16T18:13:00Z",
+      "category": "tech",
+      "score": 0.253816970773297,
+      "tldr": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-17T07:09:39.627426105Z",
+  "last_updated": "2026-07-17T09:25:38.649783538Z",
   "total_count": 100
 }
