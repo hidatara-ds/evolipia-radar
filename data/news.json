@@ -299,6 +299,20 @@
       ]
     },
     {
+      "id": "62eaa4c8-d006-4869-bbbd-e992a85009c9",
+      "title": "The state of open source AI",
+      "url": "https://stateofopensource.ai/",
+      "domain": "stateofopensource.ai",
+      "published_at": "2026-07-17T14:31:10Z",
+      "category": "tech",
+      "score": 0.3282101344264377,
+      "tldr": "The state of open source AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5f2f2dff-3a84-4e34-b2af-3a526032d111",
       "title": "GPT‑Red: Unlocking Self-Improvement for Robustness",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
@@ -550,20 +564,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "b6d5b851-cf29-428b-95b4-7226b47a56da",
-      "title": "Please don't discontinue Gemini 2.5 Flash",
-      "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
-      "domain": "discuss.ai.google.dev",
-      "published_at": "2026-07-10T20:00:28Z",
-      "category": "tech",
-      "score": 0.3043675837687665,
-      "tldr": "Please don't discontinue Gemini 2.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1119,20 +1119,6 @@
       ]
     },
     {
-      "id": "1cc8cdfe-6fb5-4251-a222-95f85f7e3c00",
-      "title": "Don't discontinue Gemini 2.5 Flash",
-      "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
-      "domain": "discuss.ai.google.dev",
-      "published_at": "2026-07-10T20:00:28Z",
-      "category": "tech",
-      "score": 0.2564111456476847,
-      "tldr": "Don't discontinue Gemini 2.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "082cafab-c9b3-4c02-a57e-68b43acb540b",
       "title": "Show HN: I implemented a neural network in SQL",
       "url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
@@ -1412,8 +1398,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "5666c88a-5321-4344-9148-88d3ea11fcab",
+      "title": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
+      "url": "https://github.com/19h/EPathfinder",
+      "domain": "github.com",
+      "published_at": "2026-07-16T22:21:20Z",
+      "category": "tech",
+      "score": 0.2536724079894752,
+      "tldr": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-17T19:02:11.517354839Z",
+  "last_updated": "2026-07-17T20:26:30.227778965Z",
   "total_count": 100
 }
