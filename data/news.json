@@ -327,20 +327,6 @@
       ]
     },
     {
-      "id": "310ddb6d-9257-4273-b4e9-93e558e55181",
-      "title": "Prismata: Confining cross-site prompt injection in web agents",
-      "url": "https://arxiv.org/abs/2607.08147",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-10T21:03:38Z",
-      "category": "tech",
-      "score": 0.3268885691429093,
-      "tldr": "Prismata: Confining cross-site prompt injection in web agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "bc3e6a79-fa3a-4584-80c1-d70348508d04",
       "title": "Show HN: MemStitch – Zero-copy context bridging for vLLM (25x TTFT speedup)",
       "url": "https://github.com/DaqulaLin/MemStitch",
@@ -669,20 +655,6 @@
       ]
     },
     {
-      "id": "da7e03f8-cbc4-4346-9e1b-47751d04e9c5",
-      "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
-      "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
-      "domain": "tryai.dev",
-      "published_at": "2026-07-10T20:52:28Z",
-      "category": "tech",
-      "score": 0.29154135043171087,
-      "tldr": "5, Claude, and Muse Spark build the same 4 apps",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "f42db87b-3b61-4ba0-b3dc-fed9bddcf3aa",
       "title": "I tricked Claude into leaking your deepest, darkest secrets",
       "url": "https://www.ayush.digital/blog/the-memory-heist",
@@ -775,20 +747,6 @@
       "category": "tech",
       "score": 0.28081202657389226,
       "tldr": "Claude is just Mr. Meeseeks",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a9be566b-8f15-4c99-88ba-b42014f2703b",
-      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft",
-      "domain": "9to5mac.com",
-      "published_at": "2026-07-10T20:47:09Z",
-      "category": "tech",
-      "score": 0.2752254132927149,
-      "tldr": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1344,20 +1302,6 @@
       ]
     },
     {
-      "id": "b854c5da-e73e-47c6-93c6-14381885e60d",
-      "title": "GPT-5.6-Sol just accidentally deleted almost ALL of my Mac's files",
-      "url": "https://twitter.com/mattshumer_/status/2075657271401390161",
-      "domain": "twitter.com",
-      "published_at": "2026-07-10T21:03:03Z",
-      "category": "tech",
-      "score": 0.2540402865781295,
-      "tldr": "6-Sol just accidentally deleted almost ALL of my Mac's files",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "fe71f751-728c-4127-9ce2-55c0f49f55e5",
       "title": "Homomorphically encrypted CIFAR-10 inference in 200ms",
       "url": "https://sofar.belfortlabs.cloud/",
@@ -1412,8 +1356,64 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "f620b8ea-e473-49f6-8466-691da29c923d",
+      "title": "The Lunduke Computer Operating System",
+      "url": "https://github.com/BryanLunduke/LCOS",
+      "domain": "github.com",
+      "published_at": "2026-07-12T14:15:13Z",
+      "category": "tech",
+      "score": 0.2535364349429075,
+      "tldr": "The Lunduke Computer Operating System",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4c9f70c4-0aba-42b5-9563-23eed305e1c1",
+      "title": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
+      "url": "https://github.com/skorotkiewicz/earth-game",
+      "domain": "github.com",
+      "published_at": "2026-07-11T16:37:02Z",
+      "category": "tech",
+      "score": 0.2535268444471043,
+      "tldr": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6c0706e2-c44a-4423-9a96-e9b64636f724",
+      "title": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
+      "url": "https://github.com/jbunke/painterly",
+      "domain": "github.com",
+      "published_at": "2026-07-15T17:01:34Z",
+      "category": "tech",
+      "score": 0.2535238255652048,
+      "tldr": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2988aef9-2067-4fe5-8c18-b7b47c418625",
+      "title": "Croc: Securely transfer files and folders between two computers",
+      "url": "https://github.com/schollz/croc",
+      "domain": "github.com",
+      "published_at": "2026-07-12T15:44:13Z",
+      "category": "tech",
+      "score": 0.2535203270593292,
+      "tldr": "Croc: Securely transfer files and folders between two computers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-17T20:26:30.227778965Z",
+  "last_updated": "2026-07-17T21:13:20.103168385Z",
   "total_count": 100
 }
