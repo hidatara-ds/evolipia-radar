@@ -128,6 +128,21 @@
       ]
     },
     {
+      "id": "2701e6dc-8808-4894-aab2-99f60b6557c2",
+      "title": "Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
+      "url": "https://github.com/saineshnakra/automated-data-analyst",
+      "domain": "github.com",
+      "published_at": "2026-07-18T21:06:49Z",
+      "category": "tech",
+      "score": 0.37630138672106866,
+      "tldr": "Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "735ddc4c-92bf-4c03-9345-a4b058992fb7",
       "title": "Show HN: Goku – WASM (wllama)-powered LLM inference and model manager",
       "url": "https://userfrom1995.github.io/goku",
@@ -639,20 +654,6 @@
       ]
     },
     {
-      "id": "93dfe62a-12cd-42f8-a88e-ca9cfc2d9c1b",
-      "title": "Stop Telling Me to Ask an LLM",
-      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm",
-      "domain": "blog.yaelwrites.com",
-      "published_at": "2026-07-11T22:28:48Z",
-      "category": "tech",
-      "score": 0.29556319018038585,
-      "tldr": "Stop Telling Me to Ask an LLM",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7f172118-783e-4647-8899-9d0d2b006977",
       "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "url": "https://news.ycombinator.com/item?id=48937020",
@@ -1048,20 +1049,6 @@
       ]
     },
     {
-      "id": "604102e8-d3a7-4baa-a32b-a526a196afd2",
-      "title": "RISCBoy is an open-source portable games console, designed from scratch",
-      "url": "https://github.com/Wren6991/RISCBoy",
-      "domain": "github.com",
-      "published_at": "2026-07-11T21:58:00Z",
-      "category": "tech",
-      "score": 0.25886981649375346,
-      "tldr": "RISCBoy is an open-source portable games console, designed from scratch",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "316e7a25-77d8-48c7-ae0e-7d17c8fe6ae0",
       "title": "PennyLane is an open-source quantum software platform for quantum",
       "url": "https://github.com/PennyLaneAI/pennylane",
@@ -1412,8 +1399,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "5666c88a-5321-4344-9148-88d3ea11fcab",
+      "title": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
+      "url": "https://github.com/19h/EPathfinder",
+      "domain": "github.com",
+      "published_at": "2026-07-16T22:21:20Z",
+      "category": "tech",
+      "score": 0.2536724079894752,
+      "tldr": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-18T21:39:38.745013517Z",
+  "last_updated": "2026-07-18T22:37:22.840036666Z",
   "total_count": 100
 }
