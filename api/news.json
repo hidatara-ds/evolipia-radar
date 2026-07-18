@@ -284,20 +284,6 @@
       ]
     },
     {
-      "id": "fdc2ea42-5ca2-490c-9bd2-d1869c67dd0f",
-      "title": "Show HN: Reame – a CPU inference server that gets faster as it runs",
-      "url": "https://github.com/swellweb/reame",
-      "domain": "github.com",
-      "published_at": "2026-07-11T16:27:44Z",
-      "category": "tech",
-      "score": 0.3295011697863435,
-      "tldr": "Show HN: Reame – a CPU inference server that gets faster as it runs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "076146ef-1f23-412f-82dd-c0f049058c68",
       "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
       "url": "https://blog.lyc8503.net/en/post/llm-classifier",
@@ -1412,8 +1398,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
+      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
+      "url": "https://github.com/logxio/picchio",
+      "domain": "github.com",
+      "published_at": "2026-07-14T21:06:11Z",
+      "category": "tech",
+      "score": 0.2538057700330029,
+      "tldr": "Same model, same Q4_K_M label: 5.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-18T16:25:42.13678468Z",
+  "last_updated": "2026-07-18T17:28:25.432742806Z",
   "total_count": 100
 }
