@@ -270,20 +270,6 @@
       ]
     },
     {
-      "id": "7caff217-372b-43c9-9413-d001838fd9e9",
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "domain": "systima.ai",
-      "published_at": "2026-07-12T18:25:51Z",
-      "category": "tech",
-      "score": 0.3423907721848771,
-      "tldr": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0976a393-1c66-4bdd-9ee0-75aa736b3d12",
       "title": "Grok Build",
       "url": "https://github.com/xai-org/grok-build",
@@ -707,20 +693,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "42f01001-c527-4481-bd99-c7671f384307",
-      "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
-      "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason",
-      "domain": "cacm.acm.org",
-      "published_at": "2026-07-12T18:04:41Z",
-      "category": "tech",
-      "score": 0.28661899199732754,
-      "tldr": "Mechanistic interpretability researchers applying causality theory to LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1411,8 +1383,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "052cb999-f284-4f37-a4eb-61d784e1080b",
+      "title": "Odin 2 Portal Exploded",
+      "url": "https://github.com/virtudude/armada/issues/94",
+      "domain": "github.com",
+      "published_at": "2026-07-15T21:24:31Z",
+      "category": "tech",
+      "score": 0.2534584166997492,
+      "tldr": "Odin 2 Portal Exploded",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e0451f53-48f8-4d42-a7c2-8b4462239e5c",
+      "title": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
+      "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+      "domain": "latimes.com",
+      "published_at": "2026-07-19T04:35:08Z",
+      "category": "tech",
+      "score": 0.2534063881340535,
+      "tldr": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-19T17:30:32.787109553Z",
+  "last_updated": "2026-07-19T18:27:47.34054698Z",
   "total_count": 100
 }
