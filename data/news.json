@@ -581,20 +581,6 @@
       ]
     },
     {
-      "id": "8bd430cc-ec48-4cb2-9bcc-08f7155ea46d",
-      "title": "I love LLMs, I hate hype",
-      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
-      "domain": "geohot.github.io",
-      "published_at": "2026-07-12T18:31:56Z",
-      "category": "tech",
-      "score": 0.30186575900779383,
-      "tldr": "I love LLMs, I hate hype",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "476c8bc3-696e-43d0-a885-4495cbafee51",
       "title": "AI That Never Forgets – Dendritron Transformer Explained [video]",
       "url": "https://www.youtube.com/watch?v=6zwuTqGweJE",
@@ -1411,8 +1397,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
+      "title": "LLM Networking with MikroTik",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "domain": "blog.greg.technology",
+      "published_at": "2026-07-15T22:23:27Z",
+      "category": "tech",
+      "score": 0.2533737519015256,
+      "tldr": "LLM Networking with MikroTik",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-19T18:27:47.34054698Z",
+  "last_updated": "2026-07-19T19:39:22.579483197Z",
   "total_count": 100
 }
