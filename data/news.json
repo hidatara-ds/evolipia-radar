@@ -595,21 +595,6 @@
       ]
     },
     {
-      "id": "06d76001-5c03-45a7-9298-a6d20d1afc02",
-      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
-      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
-      "domain": "ploy.ai",
-      "published_at": "2026-07-12T17:13:07Z",
-      "category": "tech",
-      "score": 0.30340280005771975,
-      "tldr": "Migrating a production AI agent to GPT-5. 2x faster, 27% cheaper",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "8bd430cc-ec48-4cb2-9bcc-08f7155ea46d",
       "title": "I love LLMs, I hate hype",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
@@ -1048,20 +1033,6 @@
       ]
     },
     {
-      "id": "5a45b28d-4018-47fd-bbc7-28ea1465470c",
-      "title": "Show HN: Shirei, cross-platform GUI framework in native Go",
-      "url": "https://github.com/hasenj/go-shirei",
-      "domain": "github.com",
-      "published_at": "2026-07-12T16:55:42Z",
-      "category": "tech",
-      "score": 0.2590450491487668,
-      "tldr": "Show HN: Shirei, cross-platform GUI framework in native Go",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "316e7a25-77d8-48c7-ae0e-7d17c8fe6ae0",
       "title": "PennyLane is an open-source quantum software platform for quantum",
       "url": "https://github.com/PennyLaneAI/pennylane",
@@ -1329,20 +1300,6 @@
       ]
     },
     {
-      "id": "c7018404-6a72-4648-b5a9-12c3a9aaad5d",
-      "title": "Automation Without Understanding",
-      "url": "https://arxiv.org/abs/2607.06377",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-12T16:54:47Z",
-      "category": "tech",
-      "score": 0.2547208902135416,
-      "tldr": "Automation Without Understanding",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6f32234b-d8a4-4366-9b3e-d90e36e3161c",
       "title": "Free Remote Desktop Without Servers",
       "url": "https://github.com/Teylersf/freeremotedesk",
@@ -1412,8 +1369,50 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
+      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
+      "url": "https://github.com/logxio/picchio",
+      "domain": "github.com",
+      "published_at": "2026-07-14T21:06:11Z",
+      "category": "tech",
+      "score": 0.2538057700330029,
+      "tldr": "Same model, same Q4_K_M label: 5.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5666c88a-5321-4344-9148-88d3ea11fcab",
+      "title": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
+      "url": "https://github.com/19h/EPathfinder",
+      "domain": "github.com",
+      "published_at": "2026-07-16T22:21:20Z",
+      "category": "tech",
+      "score": 0.2536724079894752,
+      "tldr": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6c0706e2-c44a-4423-9a96-e9b64636f724",
+      "title": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
+      "url": "https://github.com/jbunke/painterly",
+      "domain": "github.com",
+      "published_at": "2026-07-15T17:01:34Z",
+      "category": "tech",
+      "score": 0.2535238255652048,
+      "tldr": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-19T16:26:39.422244286Z",
+  "last_updated": "2026-07-19T17:30:32.787109553Z",
   "total_count": 100
 }
