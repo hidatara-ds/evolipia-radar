@@ -440,20 +440,6 @@
       ]
     },
     {
-      "id": "ac358399-7af9-4bfc-924a-9cf30a69d046",
-      "title": "Old and new apps, via modern coding agents",
-      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents",
-      "domain": "terrytao.wordpress.com",
-      "published_at": "2026-07-12T11:09:42Z",
-      "category": "tech",
-      "score": 0.3156155900400796,
-      "tldr": "Old and new apps, via modern coding agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "510baaf0-e6db-44ad-ae75-d1cf9bc2020c",
       "title": "ESBMC-Arduino: Closing the Deployment Gap for Formal Verification",
       "url": "https://arxiv.org/abs/2607.08550",
@@ -1412,8 +1398,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
+      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
+      "url": "https://github.com/logxio/picchio",
+      "domain": "github.com",
+      "published_at": "2026-07-14T21:06:11Z",
+      "category": "tech",
+      "score": 0.2538057700330029,
+      "tldr": "Same model, same Q4_K_M label: 5.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-19T10:50:35.700053057Z",
+  "last_updated": "2026-07-19T11:48:25.41273335Z",
   "total_count": 100
 }
