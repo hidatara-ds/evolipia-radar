@@ -384,6 +384,20 @@
       ]
     },
     {
+      "id": "36f67863-e4fe-4190-8a33-bf1709f941dc",
+      "title": "Show HN: PilotCite – Get your brand cited by ChatGPT, Gemini, and more",
+      "url": "https://www.pilotcite.com",
+      "domain": "pilotcite.com",
+      "published_at": "2026-07-19T07:17:50Z",
+      "category": "tech",
+      "score": 0.3256857698778869,
+      "tldr": "Show HN: PilotCite – Get your brand cited by ChatGPT, Gemini, and more",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "9d8f15c5-4562-42fa-8d89-ad35dddc0d94",
       "title": "Performant C/CUDA inference engine for Qwen 3.6 35B on RTX 5090 / Blackwell",
       "url": "https://github.com/ambud/q36",
@@ -1398,22 +1412,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
-      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
-      "url": "https://github.com/logxio/picchio",
-      "domain": "github.com",
-      "published_at": "2026-07-14T21:06:11Z",
-      "category": "tech",
-      "score": 0.2538057700330029,
-      "tldr": "Same model, same Q4_K_M label: 5.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-19T09:24:38.37694415Z",
+  "last_updated": "2026-07-19T10:50:35.700053057Z",
   "total_count": 100
 }
