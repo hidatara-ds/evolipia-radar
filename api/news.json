@@ -157,6 +157,20 @@
       ]
     },
     {
+      "id": "65510812-be65-4a24-a77a-faca89f48c93",
+      "title": "Qwen 3.8",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "domain": "twitter.com",
+      "published_at": "2026-07-19T08:44:57Z",
+      "category": "tech",
+      "score": 0.37181495325981007,
+      "tldr": "Qwen 3.8",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "e08aec62-2f53-4784-99ba-0d692f5bf508",
       "title": "Evidence of inconsistencies in evaluation process and selection of winners",
       "url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918",
@@ -1398,22 +1412,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
-      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
-      "url": "https://github.com/logxio/picchio",
-      "domain": "github.com",
-      "published_at": "2026-07-14T21:06:11Z",
-      "category": "tech",
-      "score": 0.2538057700330029,
-      "tldr": "Same model, same Q4_K_M label: 5.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-19T14:19:33.300618312Z",
+  "last_updated": "2026-07-19T15:29:36.326862478Z",
   "total_count": 100
 }
