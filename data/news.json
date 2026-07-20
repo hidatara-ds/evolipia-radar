@@ -398,20 +398,6 @@
       ]
     },
     {
-      "id": "9d8f15c5-4562-42fa-8d89-ad35dddc0d94",
-      "title": "Performant C/CUDA inference engine for Qwen 3.6 35B on RTX 5090 / Blackwell",
-      "url": "https://github.com/ambud/q36",
-      "domain": "github.com",
-      "published_at": "2026-07-13T00:13:20Z",
-      "category": "tech",
-      "score": 0.32552653331539066,
-      "tldr": "Performant C/CUDA inference engine for Qwen 3. 6 35B on RTX 5090 / Blackwell",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "8b1791c1-a3f1-4d8a-9499-e3ec4d80d763",
       "title": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
       "url": "https://github.com/projectargus-cc/libargus.cc",
@@ -434,6 +420,20 @@
       "category": "tech",
       "score": 0.3187113648054356,
       "tldr": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7ac4f1de-3715-4da5-8a06-ea69b79ec62b",
+      "title": "AI advice made people less accurate but more confident – sudy",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "domain": "thenextweb.com",
+      "published_at": "2026-07-19T21:18:10Z",
+      "category": "tech",
+      "score": 0.31396327627337084,
+      "tldr": "AI advice made people less accurate but more confident – sudy",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -504,20 +504,6 @@
       "category": "tech",
       "score": 0.308535295768582,
       "tldr": "Building and shipping Mac and iOS apps without opening Xcode",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "929e118b-3abf-4287-90ba-2864e80ea76a",
-      "title": "Ask HN: Add flag for AI-generated articles",
-      "url": "https://news.ycombinator.com/item?id=48886741",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-13T01:24:20Z",
-      "category": "tech",
-      "score": 0.30624781155700653,
-      "tldr": "Ask HN: Add flag for AI-generated articles",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,8 +1397,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "9465cbdb-efd6-4755-9197-400ec1c1ec54",
+      "title": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
+      "url": "https://github.com/yeet-src/sigwire",
+      "domain": "github.com",
+      "published_at": "2026-07-13T20:07:45Z",
+      "category": "tech",
+      "score": 0.25297744128276567,
+      "tldr": "Show HN: Sigwire – a live TUI switchboard for every signal on your Linux box",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-19T23:45:27.865191216Z",
+  "last_updated": "2026-07-20T01:30:14.762540055Z",
   "total_count": 100
 }
