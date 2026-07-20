@@ -58,20 +58,6 @@
       ]
     },
     {
-      "id": "0e8daf13-28e1-4baa-964a-5f5f34c9c530",
-      "title": "A graph that should be front-page news",
-      "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
-      "domain": "lyrebirddreaming.com",
-      "published_at": "2026-07-13T05:35:27Z",
-      "category": "tech",
-      "score": 0.421085613767088,
-      "tldr": "A graph that should be front-page news",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "e6e021ef-c5b7-4427-8c25-d2902349d750",
       "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
       "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
@@ -724,14 +710,14 @@
       ]
     },
     {
-      "id": "bb8ab433-1339-4e16-b3d0-81d8311a5393",
-      "title": "Beavis Ultrasound PnP ISA Sound Card Replica",
-      "url": "https://github.com/schlae/BeavisUltrasound",
+      "id": "3ee86d83-7e54-41bd-840d-7a9c2ba93eda",
+      "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
+      "url": "https://github.com/Saivineeth147/lora-speedrun",
       "domain": "github.com",
-      "published_at": "2026-07-13T05:15:14Z",
+      "published_at": "2026-07-20T04:24:48Z",
       "category": "tech",
-      "score": 0.2721956979074578,
-      "tldr": "Beavis Ultrasound PnP ISA Sound Card Replica",
+      "score": 0.2720444337469141,
+      "tldr": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,8 +1397,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
+      "title": "LLM Networking with MikroTik",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "domain": "blog.greg.technology",
+      "published_at": "2026-07-15T22:23:27Z",
+      "category": "tech",
+      "score": 0.2533737519015256,
+      "tldr": "LLM Networking with MikroTik",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-20T05:06:15.174563904Z",
+  "last_updated": "2026-07-20T08:21:31.868366119Z",
   "total_count": 100
 }
