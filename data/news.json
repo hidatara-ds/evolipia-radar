@@ -468,20 +468,6 @@
       ]
     },
     {
-      "id": "539aa344-9013-4048-abc1-c8860bf2ad7e",
-      "title": "Building and shipping Mac and iOS apps without opening Xcode",
-      "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode",
-      "domain": "scottwillsey.com",
-      "published_at": "2026-07-13T18:22:16Z",
-      "category": "tech",
-      "score": 0.308535295768582,
-      "tldr": "Building and shipping Mac and iOS apps without opening Xcode",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "acffbfb6-3984-47ee-9393-c355449028bf",
       "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
       "url": "https://joinedanthropic.com",
@@ -850,6 +836,20 @@
       ]
     },
     {
+      "id": "d688a69b-c20b-4e9f-be2b-f230b62494ea",
+      "title": "Ziggity – A terminal UI for Git, written in Zig",
+      "url": "https://github.com/simoarpe/ziggity",
+      "domain": "github.com",
+      "published_at": "2026-07-20T15:46:18Z",
+      "category": "tech",
+      "score": 0.26508779513886416,
+      "tldr": "Ziggity – A terminal UI for Git, written in Zig",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "17621621-7f61-4e72-a3b8-9edb42edbe89",
       "title": "Open-source memory for coding agents, synced over SSH",
       "url": "https://github.com/vshulcz/deja-vu",
@@ -900,20 +900,6 @@
       "category": "tech",
       "score": 0.2603410986386784,
       "tldr": "The Little Book of Reinforcement Learning",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a7c41a9b-e62b-4dc8-9ed6-9f0ed40a091a",
-      "title": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
-      "url": "https://github.com/morganwilliscloud/billai-bass",
-      "domain": "github.com",
-      "published_at": "2026-07-13T18:18:23Z",
-      "category": "tech",
-      "score": 0.25934241044110223,
-      "tldr": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1174,20 +1160,6 @@
       ]
     },
     {
-      "id": "4793ccf8-17f0-49e1-b285-5e37365c1bce",
-      "title": "Logseq 2.0 Beta (DB version) is here",
-      "url": "https://github.com/logseq/logseq/releases",
-      "domain": "github.com",
-      "published_at": "2026-07-13T17:49:49Z",
-      "category": "tech",
-      "score": 0.25526791304406043,
-      "tldr": "0 Beta (DB version) is here",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a7285f07-0ec6-44f1-a4b9-c8bab04883b1",
       "title": "Casio FX-870P Emulator",
       "url": "https://github.com/urbancamo/fx870p-emulator",
@@ -1283,6 +1255,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "5a73dcd6-20fa-4d0c-844a-dc7f74d33fc6",
+      "title": "Chrome installed a global Ctrl+G keyboard shortcut to launch Gemini",
+      "url": "https://mastodon.online/users/mwichary/statuses/116952836351215165",
+      "domain": "mastodon.online",
+      "published_at": "2026-07-20T16:17:17Z",
+      "category": "tech",
+      "score": 0.2541265403119348,
+      "tldr": "Chrome installed a global Ctrl+G keyboard shortcut to launch Gemini",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1411,8 +1397,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
+      "title": "LLM Networking with MikroTik",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "domain": "blog.greg.technology",
+      "published_at": "2026-07-15T22:23:27Z",
+      "category": "tech",
+      "score": 0.2533737519015256,
+      "tldr": "LLM Networking with MikroTik",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-20T16:51:46.98755136Z",
+  "last_updated": "2026-07-20T18:48:41.248973267Z",
   "total_count": 100
 }
