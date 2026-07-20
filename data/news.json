@@ -696,6 +696,20 @@
       ]
     },
     {
+      "id": "4074409e-279a-4045-a92c-9016694ae2e9",
+      "title": "China's open-weights AI strategy is winning",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
+      "domain": "werd.io",
+      "published_at": "2026-07-20T14:21:47Z",
+      "category": "tech",
+      "score": 0.27248904922563977,
+      "tldr": "China's open-weights AI strategy is winning",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3ee86d83-7e54-41bd-840d-7a9c2ba93eda",
       "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
       "url": "https://github.com/Saivineeth147/lora-speedrun",
@@ -1397,22 +1411,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
-      "title": "LLM Networking with MikroTik",
-      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
-      "domain": "blog.greg.technology",
-      "published_at": "2026-07-15T22:23:27Z",
-      "category": "tech",
-      "score": 0.2533737519015256,
-      "tldr": "LLM Networking with MikroTik",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-20T15:25:46.009613078Z",
+  "last_updated": "2026-07-20T16:51:46.98755136Z",
   "total_count": 100
 }
