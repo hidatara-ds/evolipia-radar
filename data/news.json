@@ -100,20 +100,6 @@
       ]
     },
     {
-      "id": "14fa0ee6-913d-4dd5-b4cc-d2d74c62dc68",
-      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade",
-      "domain": "raymyers.org",
-      "published_at": "2026-07-13T08:39:39Z",
-      "category": "tech",
-      "score": 0.37644612179248904,
-      "tldr": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "2701e6dc-8808-4894-aab2-99f60b6557c2",
       "title": "Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
       "url": "https://github.com/saineshnakra/automated-data-analyst",
@@ -392,6 +378,20 @@
       "category": "tech",
       "score": 0.3207962407951764,
       "tldr": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "34d8ada6-00ab-4fc4-b7c1-b92e72cec068",
+      "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
+      "domain": "slcyber.io",
+      "published_at": "2026-07-20T08:13:36Z",
+      "category": "tech",
+      "score": 0.31991472961394435,
+      "tldr": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1413,6 +1413,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-20T08:21:31.868366119Z",
+  "last_updated": "2026-07-20T11:19:30.097559748Z",
   "total_count": 100
 }
