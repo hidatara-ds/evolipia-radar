@@ -200,20 +200,6 @@
       ]
     },
     {
-      "id": "1ccf7be0-4f9d-49eb-94ba-8c9b9ebc993b",
-      "title": "Former NOAA employees built Climate.us to preserve climate data and resources",
-      "url": "https://19thnews.org/2026/07/noaa-climate-data-website",
-      "domain": "19thnews.org",
-      "published_at": "2026-07-13T19:57:55Z",
-      "category": "tech",
-      "score": 0.3470052508017348,
-      "tldr": "Former NOAA employees built Climate. us to preserve climate data and resources",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "1c613265-4acf-4908-8d2a-bc07e78933ca",
       "title": "S\u0026P Global has lowered Oracle’s creditworthiness from BBB to BBB-",
       "url": "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html",
@@ -878,6 +864,34 @@
       ]
     },
     {
+      "id": "9c17ab99-d01f-4048-abd2-d96debe95713",
+      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
+      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "domain": "unslop.run",
+      "published_at": "2026-07-20T16:36:36Z",
+      "category": "tech",
+      "score": 0.26309521778297235,
+      "tldr": "How we measured AI writing across arXiv, and where the measurement breaks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4d193323-9944-4e85-af05-1aebae4bccb7",
+      "title": "LEDs' Potential to Save Our Night Skies",
+      "url": "https://spectrum.ieee.org/led-light-pollution",
+      "domain": "spectrum.ieee.org",
+      "published_at": "2026-07-20T13:07:11Z",
+      "category": "tech",
+      "score": 0.26197806744201835,
+      "tldr": "LEDs' Potential to Save Our Night Skies",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "996cc5c4-a775-4673-a1d6-ec11f487e798",
       "title": "Reynard: A real Firefox web browser for iOS 13 or later",
       "url": "https://github.com/minh-ton/reynard-browser",
@@ -944,21 +958,6 @@
       "tldr": "Bonsai 27B: A 27B-Class Model that runs on a phone",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "065819ca-71a8-4b1e-a750-df3c4db254dd",
-      "title": "Samsung Health app threatens data deletion if users opt out AI training",
-      "url": "https://neow.in/cWsyMTV3",
-      "domain": "neow.in",
-      "published_at": "2026-07-13T20:01:43Z",
-      "category": "tech",
-      "score": 0.2591239447812135,
-      "tldr": "Samsung Health app threatens data deletion if users opt out AI training",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "data",
         "general_ai"
       ]
     },
@@ -1062,20 +1061,6 @@
       ]
     },
     {
-      "id": "082cafab-c9b3-4c02-a57e-68b43acb540b",
-      "title": "Show HN: I implemented a neural network in SQL",
-      "url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
-      "domain": "github.com",
-      "published_at": "2026-07-13T20:00:10Z",
-      "category": "tech",
-      "score": 0.2560623027751694,
-      "tldr": "Show HN: I implemented a neural network in SQL",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "5a46175a-4296-4d69-97db-2e01d86d2542",
       "title": "Show HN: StyleSeed – a design-rules engine so AI agents stop building generic UI",
       "url": "https://github.com/bitjaru/styleseed",
@@ -1118,14 +1103,14 @@
       ]
     },
     {
-      "id": "935b1c19-47b8-45af-9867-8903b70159fc",
-      "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
-      "url": "https://github.com/Poseidon-fan/linux-0.11-rs",
-      "domain": "github.com",
-      "published_at": "2026-07-13T20:11:29Z",
+      "id": "604ad15b-6046-4a44-bac8-716156eb699c",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "domain": "openai.com",
+      "published_at": "2026-07-20T18:43:55Z",
       "category": "tech",
-      "score": 0.2557683466042312,
-      "tldr": "11 rewritten in idiomatic Rust, boots in QEMU",
+      "score": 0.2555520782833607,
+      "tldr": "Safety and alignment in an era of long-horizon models",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1196,20 +1181,6 @@
       "category": "tech",
       "score": 0.255108020686315,
       "tldr": "IceCream – Never use print() to debug again",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "903fb82c-56bd-4cad-ace8-ed683a5c2ed9",
-      "title": "Show HN: YouTube Guitar Tab Parser",
-      "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
-      "domain": "github.com",
-      "published_at": "2026-07-13T20:13:14Z",
-      "category": "tech",
-      "score": 0.2550619667687181,
-      "tldr": "Show HN: YouTube Guitar Tab Parser",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1411,8 +1382,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "4ebab268-81d7-4ac5-87ca-c633fd34325b",
+      "title": "Controlling Reasoning Effort in LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "domain": "magazine.sebastianraschka.com",
+      "published_at": "2026-07-20T14:35:19Z",
+      "category": "tech",
+      "score": 0.2531697409939885,
+      "tldr": "Controlling Reasoning Effort in LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "557e3819-7d7a-4ef3-b0ce-253383982d07",
+      "title": "Show HN: Leaves – a text-UI disk usage treemap visualizer",
+      "url": "https://github.com/patonw/leaves",
+      "domain": "github.com",
+      "published_at": "2026-07-16T16:03:43Z",
+      "category": "tech",
+      "score": 0.2529738853914071,
+      "tldr": "Show HN: Leaves – a text-UI disk usage treemap visualizer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-20T18:48:41.248973267Z",
+  "last_updated": "2026-07-20T20:16:31.540539964Z",
   "total_count": 100
 }
