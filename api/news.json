@@ -72,6 +72,20 @@
       ]
     },
     {
+      "id": "e57fdf5d-170f-4a6d-8d63-caa8885e97de",
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
+      "domain": "blog.google",
+      "published_at": "2026-07-21T15:17:16Z",
+      "category": "tech",
+      "score": 0.38898461851233657,
+      "tldr": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8f026edf-68a9-4844-af20-d9e42d44764d",
       "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
       "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
@@ -850,6 +864,20 @@
       ]
     },
     {
+      "id": "947b6621-b2ad-48e9-a725-78dbdca6e222",
+      "title": "Apple Fixes Hide My Email Vulnerability After 404 Media Coverage",
+      "url": "https://www.404media.co/apple-fixes-hide-my-email-vulnerability-after-404-media-coverage",
+      "domain": "404media.co",
+      "published_at": "2026-07-21T15:31:41Z",
+      "category": "tech",
+      "score": 0.25926423004318033,
+      "tldr": "Apple Fixes Hide My Email Vulnerability After 404 Media Coverage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "df3d52aa-b9e5-41fb-90f1-b8a8e115d023",
       "title": "Bonsai 27B: A 27B-Class Model that runs on a phone",
       "url": "https://prismml.com/news/bonsai-27b",
@@ -858,6 +886,20 @@
       "category": "tech",
       "score": 0.2591991670860282,
       "tldr": "Bonsai 27B: A 27B-Class Model that runs on a phone",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "60797c85-75ad-4edf-9a67-7dde40e7f5cf",
+      "title": "ICE to Pay Thomson Reuters $125M to Find Voter Fraud",
+      "url": "https://www.404media.co/ice-to-pay-thomson-reuters-125-million-to-find-voter-fraud",
+      "domain": "404media.co",
+      "published_at": "2026-07-21T15:19:44Z",
+      "category": "tech",
+      "score": 0.25915187315194615,
+      "tldr": "ICE to Pay Thomson Reuters $125M to Find Voter Fraud",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1367,50 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "6968a23a-38fc-49e3-98c9-e7f30299e515",
-      "title": "The age of the Universe from a large sample of the oldest Galactic stars",
-      "url": "https://arxiv.org/abs/2607.00764",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-15T15:36:32Z",
-      "category": "tech",
-      "score": 0.25258397173039826,
-      "tldr": "The age of the Universe from a large sample of the oldest Galactic stars",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "47ac76d3-b204-4e7b-8820-49ee0c0f031f",
-      "title": "Show HN: We hid a backdoor in an LLM – $51,200 on finding it",
-      "url": "https://protora.vulcora.se/challenge",
-      "domain": "protora.vulcora.se",
-      "published_at": "2026-07-16T13:34:03Z",
-      "category": "tech",
-      "score": 0.2525527526235758,
-      "tldr": "Show HN: We hid a backdoor in an LLM – $51,200 on finding it",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2c72a93b-8134-4090-89db-9269ed57145d",
-      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
-      "url": "https://github.com/openai/codex/pull/33972/files",
-      "domain": "github.com",
-      "published_at": "2026-07-19T07:54:39Z",
-      "category": "tech",
-      "score": 0.2525267777411396,
-      "tldr": "OpenAI reduces Codex Model Context Size from 372k to 272k",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-21T15:21:32.060767647Z",
+  "last_updated": "2026-07-21T16:52:41.438631595Z",
   "total_count": 100
 }
