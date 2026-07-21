@@ -328,20 +328,6 @@
       ]
     },
     {
-      "id": "8b1791c1-a3f1-4d8a-9499-e3ec4d80d763",
-      "title": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
-      "url": "https://github.com/projectargus-cc/libargus.cc",
-      "domain": "github.com",
-      "published_at": "2026-07-14T14:40:46Z",
-      "category": "tech",
-      "score": 0.3207962407951764,
-      "tldr": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "34d8ada6-00ab-4fc4-b7c1-b92e72cec068",
       "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
       "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
@@ -805,6 +791,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "b0725c60-7b1b-4e08-a886-c10dd07393c5",
+      "title": "Gemini 3.6 Flash",
+      "url": "https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemini-3.6-flash",
+      "domain": "console.cloud.google.com",
+      "published_at": "2026-07-21T14:56:15Z",
+      "category": "tech",
+      "score": 0.26101014018213636,
+      "tldr": "Gemini 3.6 Flash",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1411,6 +1411,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-21T13:12:44.177983763Z",
+  "last_updated": "2026-07-21T15:21:32.060767647Z",
   "total_count": 100
 }
