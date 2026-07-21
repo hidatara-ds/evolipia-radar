@@ -199,6 +199,20 @@
       ]
     },
     {
+      "id": "d34f92b4-389e-4c00-8a17-a9acac8e2059",
+      "title": "Advertise in ChatGPT",
+      "url": "https://ads.openai.com/",
+      "domain": "ads.openai.com",
+      "published_at": "2026-07-21T18:58:44Z",
+      "category": "tech",
+      "score": 0.3356846163865552,
+      "tldr": "Advertise in ChatGPT",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "0976a393-1c66-4bdd-9ee0-75aa736b3d12",
       "title": "Grok Build",
       "url": "https://github.com/xai-org/grok-build",
@@ -307,6 +321,20 @@
       "category": "tech",
       "score": 0.3256857698778869,
       "tldr": "Show HN: PilotCite – Get your brand cited by ChatGPT, Gemini, and more",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1c2cb72f-130d-4ac2-9e60-677486074034",
+      "title": "LLM-Based Hierarchical Topic Modeling Tool",
+      "url": "https://github.com/Tryhard-cs/LLM-Hierarchical-Topic-Modeling",
+      "domain": "github.com",
+      "published_at": "2026-07-21T16:26:11Z",
+      "category": "tech",
+      "score": 0.3256845511701075,
+      "tldr": "LLM-Based Hierarchical Topic Modeling Tool",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -765,6 +793,20 @@
       ]
     },
     {
+      "id": "07f0fe51-6aef-4191-a1e4-7afd9e0c6345",
+      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "url": "https://github.com/Kalcode/spaceprojectsim",
+      "domain": "github.com",
+      "published_at": "2026-07-21T18:29:57Z",
+      "category": "tech",
+      "score": 0.26111905541508007,
+      "tldr": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "996cc5c4-a775-4673-a1d6-ec11f487e798",
       "title": "Reynard: A real Firefox web browser for iOS 13 or later",
       "url": "https://github.com/minh-ton/reynard-browser",
@@ -804,6 +846,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "f9cbd9c4-fdaa-4e39-a9ba-b83aaaf86a00",
+      "title": "Cheap self-hosted Kubernetes on Hetzner cloud (2025)",
+      "url": "https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud",
+      "domain": "blog.qstars.nl",
+      "published_at": "2026-07-21T18:25:08Z",
+      "category": "tech",
+      "score": 0.25943739717787173,
+      "tldr": "Cheap self-hosted Kubernetes on Hetzner cloud (2025)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops",
+        "cloud"
       ]
     },
     {
@@ -1228,6 +1285,20 @@
       ]
     },
     {
+      "id": "fd3cddd6-7f29-4a21-9076-a7540f45c4e6",
+      "title": "Slater – Low-memory graphdb designed for read-heavy graphs",
+      "url": "https://github.com/Hikari-Systems/slater",
+      "domain": "github.com",
+      "published_at": "2026-07-21T18:39:41Z",
+      "category": "tech",
+      "score": 0.2537117672713704,
+      "tldr": "Slater – Low-memory graphdb designed for read-heavy graphs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5666c88a-5321-4344-9148-88d3ea11fcab",
       "title": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
       "url": "https://github.com/19h/EPathfinder",
@@ -1312,6 +1383,20 @@
       ]
     },
     {
+      "id": "6e0ff727-182e-475c-983b-aa72907e170d",
+      "title": "Greedy is optimal for single-pass semi-streaming matching",
+      "url": "https://arxiv.org/abs/2607.14656",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-21T17:59:29Z",
+      "category": "tech",
+      "score": 0.253265060367593,
+      "tldr": "Greedy is optimal for single-pass semi-streaming matching",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4ebab268-81d7-4ac5-87ca-c633fd34325b",
       "title": "Controlling Reasoning Effort in LLMs",
       "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
@@ -1324,92 +1409,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "557e3819-7d7a-4ef3-b0ce-253383982d07",
-      "title": "Show HN: Leaves – a text-UI disk usage treemap visualizer",
-      "url": "https://github.com/patonw/leaves",
-      "domain": "github.com",
-      "published_at": "2026-07-16T16:03:43Z",
-      "category": "tech",
-      "score": 0.2529738853914071,
-      "tldr": "Show HN: Leaves – a text-UI disk usage treemap visualizer",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "00365770-60b6-4580-8558-5981bfc5dbb1",
-      "title": "LLM spambots liked my Show HN post more than real people did",
-      "url": "https://sgnt.ai/p/show-hn-llm-spam",
-      "domain": "sgnt.ai",
-      "published_at": "2026-07-21T11:22:30Z",
-      "category": "tech",
-      "score": 0.25289601825716823,
-      "tldr": "LLM spambots liked my Show HN post more than real people did",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "66ce3eb7-ce5c-48d7-acc3-ccc0c90c174f",
-      "title": "Show HN: Aict – Unix coreutils that output XML/JSON, built for AI agents",
-      "url": "https://github.com/synseqack/aict",
-      "domain": "github.com",
-      "published_at": "2026-07-15T13:39:54Z",
-      "category": "tech",
-      "score": 0.2528621595365297,
-      "tldr": "Show HN: Aict – Unix coreutils that output XML/JSON, built for AI agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "047ebb07-680f-4524-bc52-ef48e54a3bb9",
-      "title": "Agent-talk: Enabling coding agents to work together",
-      "url": "https://github.com/xhluca/agent-talk",
-      "domain": "github.com",
-      "published_at": "2026-07-16T16:14:20Z",
-      "category": "tech",
-      "score": 0.252817201314654,
-      "tldr": "Agent-talk: Enabling coding agents to work together",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "12b82a52-ec5f-4d15-8f5f-fe1ab058dfd6",
-      "title": "Show HN: Galois connections for composable numeric casts in Rust",
-      "url": "https://github.com/cmk/connections",
-      "domain": "github.com",
-      "published_at": "2026-07-16T16:36:17Z",
-      "category": "tech",
-      "score": 0.25262292557682486,
-      "tldr": "Show HN: Galois connections for composable numeric casts in Rust",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6968a23a-38fc-49e3-98c9-e7f30299e515",
-      "title": "The age of the Universe from a large sample of the oldest Galactic stars",
-      "url": "https://arxiv.org/abs/2607.00764",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-15T15:36:32Z",
-      "category": "tech",
-      "score": 0.25258397173039826,
-      "tldr": "The age of the Universe from a large sample of the oldest Galactic stars",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-21T18:08:28.838388822Z",
+  "last_updated": "2026-07-21T19:59:17.631682853Z",
   "total_count": 100
 }
