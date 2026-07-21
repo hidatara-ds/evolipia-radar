@@ -206,25 +206,35 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		item.HeatLevel = getHeatLevel(item.Score)
 
 		if len(tagsJSON) > 0 && string(tagsJSON) != "[]" {
-			_ = json.Unmarshal(tagsJSON, &item.Tags)
+			if err := json.Unmarshal(tagsJSON, &item.Tags); err != nil {
+				log.Printf("⚠️ Failed to unmarshal tags for item %s: %v", item.ID, err)
+			}
 		}
 		items = append(items, item)
 	}
 
-	json.NewEncoder(w).Encode(Response{
+	if err := rows.Err(); err != nil {
+		log.Printf("⚠️ Error iterating rows: %v", err)
+	}
+
+	if err := json.NewEncoder(w).Encode(Response{
 		Success: true,
 		Data: map[string]interface{}{
 			"items":        items,
 			"total_count":  len(items),
 			"last_updated": time.Now(),
 		},
-	})
+	}); err != nil {
+		log.Printf("Failed to encode response: %v", err)
+	}
 }
 
 func handleJSONFallback(w http.ResponseWriter, topics, domains []string, sortMode string, timeThreshold time.Time, searchQuery string) {
 	data, err := api.LoadNewsData()
 	if err != nil {
-		json.NewEncoder(w).Encode(Response{Success: false, Error: "Failed to load fallback JSON data"})
+		if encErr := json.NewEncoder(w).Encode(Response{Success: false, Error: "Failed to load fallback JSON data"}); encErr != nil {
+			log.Printf("Failed to encode error response: %v", encErr)
+		}
 		return
 	}
 
@@ -315,12 +325,14 @@ func handleJSONFallback(w http.ResponseWriter, topics, domains []string, sortMod
 		filtered = filtered[:30]
 	}
 
-	json.NewEncoder(w).Encode(Response{
+	if err := json.NewEncoder(w).Encode(Response{
 		Success: true,
 		Data: map[string]interface{}{
 			"items":        filtered,
 			"total_count":  len(filtered),
 			"last_updated": data.LastUpdated,
 		},
-	})
+	}); err != nil {
+		log.Printf("Failed to encode response: %v", err)
+	}
 }
