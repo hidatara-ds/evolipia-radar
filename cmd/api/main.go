@@ -18,6 +18,10 @@ import (
 	"github.com/hidatara-ds/evolipia-radar/pkg/crawler"
 	"github.com/hidatara-ds/evolipia-radar/pkg/db"
 	"github.com/hidatara-ds/evolipia-radar/pkg/http/handlers"
+
+	"github.com/hidatara-ds/evolipia-radar/api/news"
+	"github.com/hidatara-ds/evolipia-radar/api/search"
+	"github.com/hidatara-ds/evolipia-radar/api/trending"
 )
 
 func main() {
@@ -97,6 +101,14 @@ func main() {
 			"stats":  stats,
 		})
 	})
+
+	// ----------------------------------------------------------------------
+	// Local Dev mapping to Vercel Serverless Functions
+	// ----------------------------------------------------------------------
+	router.GET("/api/news", gin.WrapF(news.Handler))
+	router.GET("/api/trending", gin.WrapF(trending.Handler))
+	router.GET("/api/search", gin.WrapF(search.Handler))
+
 	// ----------------------------------------------------------------------
 
 	// API routes

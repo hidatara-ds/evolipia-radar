@@ -91,8 +91,12 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [newsLoading, setNewsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectedTopic, setSelectedTopic] = useState<string>("all");
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [sortMode, setSortMode] = useState<string>("");
+  const [timeRange, setTimeRange] = useState<string>("7d");
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [searchInput, setSearchInput] = useState<string>("");
+  const [domainFilter, setDomainFilter] = useState<string>("all");
   const [triggering, setTriggering] = useState(false);
   const [toast, setToast] = useState<{message: string, type: 'info' | 'success' | 'error'} | null>(null);
   const [showSettings, setShowSettings] = useState(false);
@@ -111,18 +115,42 @@ export default function Dashboard() {
   };
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("topic")) setSelectedTopics(params.get("topic")!.split(","));
+    if (params.has("sort")) setSortMode(params.get("sort")!);
+    if (params.has("time")) setTimeRange(params.get("time")!);
+    if (params.has("q")) {
+      setSearchQuery(params.get("q")!);
+      setSearchInput(params.get("q")!);
+    }
+    if (params.has("domain")) setDomainFilter(params.get("domain")!);
+  }, []);
+
+  useEffect(() => {
     const url = (process.env.NEXT_PUBLIC_API_BASE_URL || "").replace(/\/+$/g, "");
     setBaseUrl(url);
     fetchMetrics(url);
-    fetchNews(url, selectedTopic, sortMode);
+    fetchNews(url, selectedTopics, sortMode, timeRange, searchQuery, domainFilter);
     fetchSettings(url);
-    
+
+    // Phase 3: URL Sync
+    const params = new URLSearchParams();
+    if (selectedTopics.length > 0) params.set("topic", selectedTopics.join(","));
+    if (sortMode) params.set("sort", sortMode);
+    if (timeRange && timeRange !== "7d") params.set("time", timeRange);
+    if (searchQuery) params.set("q", searchQuery);
+    if (domainFilter && domainFilter !== "all") params.set("domain", domainFilter);
+    const qs = params.toString();
+    window.history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
+  }, [selectedTopics, sortMode, timeRange, searchQuery, domainFilter]);
+
+  useEffect(() => {
+    if (!baseUrl) return;
     const interval = setInterval(() => {
-      fetchMetrics(url);
+      fetchMetrics(baseUrl);
     }, 15000);
-    
     return () => clearInterval(interval);
-  }, [selectedTopic, sortMode]);
+  }, [baseUrl]);
 
   const fetchMetrics = async (url: string) => {
     try {
@@ -138,13 +166,21 @@ export default function Dashboard() {
     }
   };
 
-  const fetchNews = async (url: string, topic: string, sort: string) => {
-    setNewsLoading(true);
+  const fetchNews = async (url: string, topics: string[], sort: string, time: string, q: string, domain: string) => {
+    // Add jittery fix: delay showing skeleton if load is very fast
+    let isFast = true;
+    const loadingTimer = setTimeout(() => {
+      if (isFast) setNewsLoading(true);
+    }, 150);
+
     setError(null);
     try {
       const params = new URLSearchParams();
-      if (topic !== "all") params.set("topic", topic);
+      if (topics.length > 0) params.set("topic", topics.join(","));
       if (sort) params.set("sort", sort);
+      if (time) params.set("time", time);
+      if (q) params.set("q", q);
+      if (domain !== "all") params.set("domain", domain);
       const qs = params.toString() ? `?${params.toString()}` : "";
       
       const res = await fetch(`${buildUrl(url, "/api/news")}${qs}`);
@@ -156,6 +192,8 @@ export default function Dashboard() {
     } catch (e) {
       setError(e instanceof Error ? e.message : "Failed to load news");
     } finally {
+      isFast = false;
+      clearTimeout(loadingTimer);
       setNewsLoading(false);
     }
   };
@@ -201,7 +239,7 @@ export default function Dashboard() {
       if (res.ok) {
         setToast({ message: "Crawl complete! Insights are being clustered.", type: 'success' });
         fetchMetrics(baseUrl);
-        fetchNews(baseUrl, selectedTopic, sortMode);
+        fetchNews(baseUrl, selectedTopics, sortMode, timeRange, searchQuery, domainFilter);
       } else {
         setToast({ message: "Failed to trigger crawl.", type: 'error' });
       }
@@ -346,38 +384,96 @@ export default function Dashboard() {
           <div className="lg:col-span-2 space-y-6">
             {/* Filter Bar + Sort */}
             <div className="space-y-3 border-b border-white/5 pb-4">
-              <div className="flex items-center justify-between">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <h3 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
                   <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-400" />
                   Latest Insights
                 </h3>
                 
-                {/* Sort Toggle */}
-                <div className="flex items-center gap-1 bg-white/5 rounded-xl p-1 border border-white/5">
-                  {SORT_OPTIONS.map(opt => (
-                    <button
-                      key={opt.id}
-                      onClick={() => setSortMode(opt.id)}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                        sortMode === opt.id
-                        ? 'bg-emerald-500 text-black' 
-                        : 'text-slate-400 hover:text-white'
-                      }`}
-                    >
-                      {opt.label}
-                    </button>
-                  ))}
+                <div className="flex flex-wrap items-center gap-2">
+                  {/* Search Bar */}
+                  <div className="relative">
+                    <input 
+                      type="text"
+                      placeholder="Search..."
+                      value={searchInput}
+                      onChange={(e) => setSearchInput(e.target.value)}
+                      onKeyDown={(e) => e.key === 'Enter' && setSearchQuery(searchInput)}
+                      className="bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 text-sm focus:outline-none focus:ring-1 focus:ring-emerald-500/50 w-32 sm:w-48 placeholder:text-slate-400"
+                    />
+                  </div>
+
+                  {/* Domain Filter */}
+                  <select 
+                    value={domainFilter} 
+                    onChange={(e) => setDomainFilter(e.target.value)}
+                    className="bg-white/5 border border-white/10 rounded-xl px-2 py-1.5 text-sm font-bold text-slate-400 hover:text-white focus:outline-none cursor-pointer max-w-[120px] truncate"
+                  >
+                    <option value="all" className="bg-[#0A1118]">All Sources</option>
+                    <option value="arxiv.org" className="bg-[#0A1118]">arXiv</option>
+                    <option value="huggingface.co" className="bg-[#0A1118]">HuggingFace</option>
+                    <option value="github.com" className="bg-[#0A1118]">GitHub</option>
+                    <option value="news.ycombinator.com" className="bg-[#0A1118]">HackerNews</option>
+                    <option value="techcrunch.com" className="bg-[#0A1118]">TechCrunch</option>
+                    <option value="venturebeat.com" className="bg-[#0A1118]">VentureBeat</option>
+                  </select>
+
+                  {/* Time Range */}
+                  <select 
+                    value={timeRange} 
+                    onChange={(e) => setTimeRange(e.target.value)}
+                    className="bg-white/5 border border-white/10 rounded-xl px-2 py-1.5 text-sm font-bold text-slate-400 hover:text-white focus:outline-none cursor-pointer"
+                  >
+                    <option value="24h" className="bg-[#0A1118]">24 Hours</option>
+                    <option value="7d" className="bg-[#0A1118]">7 Days</option>
+                    <option value="30d" className="bg-[#0A1118]">30 Days</option>
+                    <option value="all" className="bg-[#0A1118]">All Time</option>
+                  </select>
+
+                  {/* Sort Toggle */}
+                  <div className="flex items-center gap-1 bg-white/5 rounded-xl p-1 border border-white/5">
+                    {SORT_OPTIONS.map(opt => (
+                      <button
+                        key={opt.id}
+                        onClick={() => setSortMode(opt.id)}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                          sortMode === opt.id
+                          ? 'bg-emerald-500 text-black' 
+                          : 'text-slate-400 hover:text-white'
+                        }`}
+                      >
+                        {opt.label}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </div>
               
               {/* Topic Filters — Scrollable */}
               <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide pb-1">
-                {TOPICS.map(topic => (
+                <button
+                  onClick={() => setSelectedTopics([])}
+                  className={`flex-shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition-all flex items-center gap-2 ${
+                    selectedTopics.length === 0 
+                    ? 'bg-emerald-500 text-black shadow-lg shadow-emerald-500/20' 
+                    : 'bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white border border-white/5'
+                  }`}
+                >
+                  <TrendingUp className="w-4 h-4" />
+                  <span>All</span>
+                </button>
+                {TOPICS.filter(t => t.id !== "all").map(topic => (
                   <button
                     key={topic.id}
-                    onClick={() => setSelectedTopic(topic.id)}
+                    onClick={() => {
+                      if (selectedTopics.includes(topic.id)) {
+                        setSelectedTopics(selectedTopics.filter(t => t !== topic.id));
+                      } else {
+                        setSelectedTopics([...selectedTopics, topic.id]);
+                      }
+                    }}
                     className={`flex-shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition-all flex items-center gap-2 ${
-                      selectedTopic === topic.id 
+                      selectedTopics.includes(topic.id)
                       ? 'bg-emerald-500 text-black shadow-lg shadow-emerald-500/20' 
                       : 'bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white border border-white/5'
                     }`}
@@ -399,7 +495,7 @@ export default function Dashboard() {
                 <h4 className="text-lg font-bold text-white mb-2">Sync Interrupted</h4>
                 <p className="text-slate-400 mb-4 text-sm">{error}</p>
                 <button 
-                  onClick={() => fetchNews(baseUrl, selectedTopic, sortMode)}
+                  onClick={() => fetchNews(baseUrl, selectedTopics, sortMode, timeRange, searchQuery, domainFilter)}
                   className="px-6 py-2 bg-rose-500 text-white font-bold rounded-xl hover:bg-rose-600 transition-colors text-sm"
                 >
                   Reconnect
@@ -427,10 +523,16 @@ export default function Dashboard() {
           {/* Sidebar - Emerging Trends */}
           <aside className="space-y-6">
             <div className="p-5 sm:p-6 bg-black/40 border border-white/5 rounded-2xl backdrop-blur-xl">
-              <h3 className="text-base sm:text-lg font-bold text-white mb-5 flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-emerald-400" />
-                Top Trending
-              </h3>
+              <div className="flex items-center gap-2 mb-5">
+                <h3 className="text-base sm:text-lg font-bold text-white flex items-center gap-2 group relative">
+                  <TrendingUp className="w-5 h-5 text-emerald-400" />
+                  Top Trending
+                  <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 w-64 p-3 bg-[#0A1118] border border-white/10 rounded-xl shadow-2xl text-xs text-slate-400 z-50">
+                    <strong className="text-white block mb-1">Trending Metrics</strong>
+                    Topics actively discussed in the last 24 hours. Driven by social velocity and AI relevance scoring.
+                  </div>
+                </h3>
+              </div>
               
               {loading ? (
                 <div className="space-y-3">
@@ -516,7 +618,7 @@ export default function Dashboard() {
                 <input 
                   type="password"
                   value={settings.openrouter_api_key}
-                  onChange={(e) => setSettings({...settings, openrouter_api_key: e.target.value})}
+                  onChange={(e) => setSettings({...settings, openrouter_api_key: e.target.value.trim()})}
                   placeholder="sk-or-v1-..."
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
                 />
@@ -530,7 +632,7 @@ export default function Dashboard() {
                 <input 
                   type="password"
                   value={settings.x_api_key}
-                  onChange={(e) => setSettings({...settings, x_api_key: e.target.value})}
+                  onChange={(e) => setSettings({...settings, x_api_key: e.target.value.trim()})}
                   placeholder="Enter X API Key..."
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
                 />
@@ -661,12 +763,10 @@ function HeatBadge({ level, score }: { level: string; score: number }) {
 function NewsCard({ item, index }: { item: NewsItem, index: number }) {
   const [isExpanded, setIsExpanded] = useState(false);
   
-  // Ensure score is on 1-10 scale (backend now sends it correctly)
-  const displayScore = item.score >= 0 && item.score <= 1.1 
-    ? (item.score * 9) + 1  // Fallback conversion if backend sent raw
-    : item.score;           // Already 1-10 scale
+  // Use the 1-10 scale score directly from the backend
+  const displayScore = item.score;
   
-  const heatLevel = item.heat_level || (displayScore >= 7 ? "hot" : displayScore >= 5 ? "rising" : displayScore >= 3 ? "signal" : "low");
+  const heatLevel = item.heat_level || (displayScore >= 7.0 ? "hot" : displayScore >= 5.0 ? "rising" : displayScore >= 3.0 ? "signal" : "low");
 
   return (
     <div className="group relative">
@@ -680,6 +780,9 @@ function NewsCard({ item, index }: { item: NewsItem, index: number }) {
           <div className="flex-1 space-y-3">
             <div className="flex flex-wrap items-center gap-2">
               <HeatBadge level={heatLevel} score={displayScore} />
+              <span className="px-2 py-0.5 bg-emerald-500/10 border border-emerald-500/20 rounded-md text-[11px] font-bold text-emerald-400 uppercase tracking-widest flex items-center gap-1">
+                Score: {displayScore.toFixed(1)}/10
+              </span>
               <span className="text-[11px] font-bold text-slate-500 flex items-center gap-1 uppercase tracking-widest">
                 <Clock className="w-3 h-3" /> {new Date(item.published_at).toLocaleDateString()}
               </span>

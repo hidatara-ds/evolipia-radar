@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"time"
 
 	"github.com/hidatara-ds/evolipia-radar/pkg/ai"
 	"github.com/hidatara-ds/evolipia-radar/pkg/api"
@@ -67,8 +68,12 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	botOrchestrator := crawler.NewOrchestrator(clusterService, inMemClusterSvc, aiService, metricsData, database, dryRunEnv, summarizer)
 
 	// Executing the cycle synchronously for Vercel Serverless
-	stats := botOrchestrator.RunCycle(context.Background())
-	botOrchestrator.UpdateClusterMetrics(context.Background())
+	// Add an 8-second timeout so Vercel doesn't kill it with 504 Gateway Timeout
+	ctx, cancel := context.WithTimeout(r.Context(), 8*time.Second)
+	defer cancel()
+
+	stats := botOrchestrator.RunCycle(ctx)
+	botOrchestrator.UpdateClusterMetrics(ctx)
 
 	w.Header().Set("Content-Type", "application/json")
 	if err := json.NewEncoder(w).Encode(map[string]interface{}{
