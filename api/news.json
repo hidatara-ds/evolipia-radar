@@ -29,6 +29,21 @@
       ]
     },
     {
+      "id": "14bc538b-62d1-4434-8433-185fa30bd4c7",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "domain": "openai.com",
+      "published_at": "2026-07-21T20:09:52Z",
+      "category": "tech",
+      "score": 0.4758926496703121,
+      "tldr": "OpenAI and Hugging Face address security incident during model evaluation",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security",
+        "general_ai"
+      ]
+    },
+    {
       "id": "76eba627-fe13-46eb-a0da-91be64064bd2",
       "title": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection",
       "url": "https://github.com/cgrtml/reasongate",
@@ -211,6 +226,20 @@
       "tags": [
         "security",
         "general_ai"
+      ]
+    },
+    {
+      "id": "a95d44b7-d82e-481c-9720-cff412e999ce",
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "domain": "tryai.dev",
+      "published_at": "2026-07-21T21:13:20Z",
+      "category": "tech",
+      "score": 0.33605275570965354,
+      "tldr": "\"Drawing\" the Mona Lisa with GPT-5. 6, Claude, Gemini, and Grok",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1286,20 +1315,6 @@
       ]
     },
     {
-      "id": "62735c03-cd4d-4faa-9a4e-f3d4dc062049",
-      "title": "Same model, same Q4_K_M label: 5.02, 5.07 and 5.27 bits per weight",
-      "url": "https://github.com/logxio/picchio",
-      "domain": "github.com",
-      "published_at": "2026-07-14T21:06:11Z",
-      "category": "tech",
-      "score": 0.2538057700330029,
-      "tldr": "Same model, same Q4_K_M label: 5.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "fd3cddd6-7f29-4a21-9076-a7540f45c4e6",
       "title": "Slater – Low-memory graphdb designed for read-heavy graphs",
       "url": "https://github.com/Hikari-Systems/slater",
@@ -1396,22 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "6e0ff727-182e-475c-983b-aa72907e170d",
-      "title": "Greedy is optimal for single-pass semi-streaming matching",
-      "url": "https://arxiv.org/abs/2607.14656",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-21T17:59:29Z",
-      "category": "tech",
-      "score": 0.253265060367593,
-      "tldr": "Greedy is optimal for single-pass semi-streaming matching",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-21T21:02:22.866495805Z",
+  "last_updated": "2026-07-21T22:25:07.321329457Z",
   "total_count": 100
 }
