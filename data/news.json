@@ -29,20 +29,6 @@
       ]
     },
     {
-      "id": "b59f0ace-eeb6-4c53-b97a-f74db5e60d85",
-      "title": "Codex starts encrypting sub-agent prompts",
-      "url": "https://github.com/openai/codex/issues/28058",
-      "domain": "github.com",
-      "published_at": "2026-07-14T11:21:32Z",
-      "category": "tech",
-      "score": 0.4666003291717866,
-      "tldr": "Codex starts encrypting sub-agent prompts",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "76eba627-fe13-46eb-a0da-91be64064bd2",
       "title": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection",
       "url": "https://github.com/cgrtml/reasongate",
@@ -55,20 +41,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "79ade675-c1fa-4af4-9107-0a6af41553b1",
-      "title": "Codex starts encrypting prompts, uses ciphertext for inference instead",
-      "url": "https://github.com/openai/codex/issues/28058",
-      "domain": "github.com",
-      "published_at": "2026-07-14T11:21:32Z",
-      "category": "tech",
-      "score": 0.4448771449443212,
-      "tldr": "Codex starts encrypting prompts, uses ciphertext for inference instead",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1409,8 +1381,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "12b82a52-ec5f-4d15-8f5f-fe1ab058dfd6",
+      "title": "Show HN: Galois connections for composable numeric casts in Rust",
+      "url": "https://github.com/cmk/connections",
+      "domain": "github.com",
+      "published_at": "2026-07-16T16:36:17Z",
+      "category": "tech",
+      "score": 0.25262292557682486,
+      "tldr": "Show HN: Galois connections for composable numeric casts in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6968a23a-38fc-49e3-98c9-e7f30299e515",
+      "title": "The age of the Universe from a large sample of the oldest Galactic stars",
+      "url": "https://arxiv.org/abs/2607.00764",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-15T15:36:32Z",
+      "category": "tech",
+      "score": 0.25258397173039826,
+      "tldr": "The age of the Universe from a large sample of the oldest Galactic stars",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-21T09:58:50.287886098Z",
+  "last_updated": "2026-07-21T11:44:45.418960119Z",
   "total_count": 100
 }
