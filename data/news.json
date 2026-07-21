@@ -199,6 +199,21 @@
       ]
     },
     {
+      "id": "79a4a390-4e2e-4191-8dc1-4ed9d8d57793",
+      "title": "OpenAI and Hugging Face partner to address security incident",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "domain": "openai.com",
+      "published_at": "2026-07-21T20:09:52Z",
+      "category": "tech",
+      "score": 0.3392038470151965,
+      "tldr": "OpenAI and Hugging Face partner to address security incident",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security",
+        "general_ai"
+      ]
+    },
+    {
       "id": "d34f92b4-389e-4c00-8a17-a9acac8e2059",
       "title": "Advertise in ChatGPT",
       "url": "https://ads.openai.com/",
@@ -1395,22 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4ebab268-81d7-4ac5-87ca-c633fd34325b",
-      "title": "Controlling Reasoning Effort in LLMs",
-      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-      "domain": "magazine.sebastianraschka.com",
-      "published_at": "2026-07-20T14:35:19Z",
-      "category": "tech",
-      "score": 0.2531697409939885,
-      "tldr": "Controlling Reasoning Effort in LLMs",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-21T19:59:17.631682853Z",
+  "last_updated": "2026-07-21T21:02:22.866495805Z",
   "total_count": 100
 }
