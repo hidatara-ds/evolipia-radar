@@ -199,35 +199,6 @@
       ]
     },
     {
-      "id": "aa851746-4482-43a9-9269-61ac783ed8c5",
-      "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "domain": "prismml.com",
-      "published_at": "2026-07-14T17:50:48Z",
-      "category": "tech",
-      "score": 0.3471636961603852,
-      "tldr": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "1c613265-4acf-4908-8d2a-bc07e78933ca",
-      "title": "S\u0026P Global has lowered Oracle’s creditworthiness from BBB to BBB-",
-      "url": "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html",
-      "domain": "heise.de",
-      "published_at": "2026-07-14T16:56:48Z",
-      "category": "tech",
-      "score": 0.34404198682846615,
-      "tldr": "S\u0026P Global has lowered Oracle’s creditworthiness from BBB to BBB-",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0976a393-1c66-4bdd-9ee0-75aa736b3d12",
       "title": "Grok Build",
       "url": "https://github.com/xai-org/grok-build",
@@ -878,20 +849,6 @@
       ]
     },
     {
-      "id": "df3d52aa-b9e5-41fb-90f1-b8a8e115d023",
-      "title": "Bonsai 27B: A 27B-Class Model that runs on a phone",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "domain": "prismml.com",
-      "published_at": "2026-07-14T17:50:48Z",
-      "category": "tech",
-      "score": 0.2591991670860282,
-      "tldr": "Bonsai 27B: A 27B-Class Model that runs on a phone",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "60797c85-75ad-4edf-9a67-7dde40e7f5cf",
       "title": "ICE to Pay Thomson Reuters $125M to Find Voter Fraud",
       "url": "https://www.404media.co/ice-to-pay-thomson-reuters-125-million-to-find-voter-fraud",
@@ -1071,6 +1028,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "0e84d1e8-fb0b-4059-a9f7-4d923ed82edb",
+      "title": "Show HN: OSS Cross-Harness self hosted registry and analytics for AI Agents",
+      "url": "https://github.com/Observal/Observal",
+      "domain": "github.com",
+      "published_at": "2026-07-21T16:57:30Z",
+      "category": "tech",
+      "score": 0.25526462130058547,
+      "tldr": "Show HN: OSS Cross-Harness self hosted registry and analytics for AI Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1327,6 +1298,20 @@
       ]
     },
     {
+      "id": "1a835b4e-f1c0-4635-9232-9507dc2b9345",
+      "title": "Show HN: Imagin Raw – A 9MB Open-Source Alternative to Adobe Bridge for Mac",
+      "url": "https://github.com/cristibaluta/Imagin-Raw",
+      "domain": "github.com",
+      "published_at": "2026-07-21T17:30:01Z",
+      "category": "tech",
+      "score": 0.25330206207304556,
+      "tldr": "Show HN: Imagin Raw – A 9MB Open-Source Alternative to Adobe Bridge for Mac",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4ebab268-81d7-4ac5-87ca-c633fd34325b",
       "title": "Controlling Reasoning Effort in LLMs",
       "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
@@ -1409,8 +1394,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "6968a23a-38fc-49e3-98c9-e7f30299e515",
+      "title": "The age of the Universe from a large sample of the oldest Galactic stars",
+      "url": "https://arxiv.org/abs/2607.00764",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-15T15:36:32Z",
+      "category": "tech",
+      "score": 0.25258397173039826,
+      "tldr": "The age of the Universe from a large sample of the oldest Galactic stars",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-21T16:52:41.438631595Z",
+  "last_updated": "2026-07-21T18:08:28.838388822Z",
   "total_count": 100
 }
