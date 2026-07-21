@@ -556,20 +556,6 @@
       ]
     },
     {
-      "id": "7af11a52-2cdc-4ba1-9dab-1fdece15a4ac",
-      "title": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)",
-      "url": "https://github.com/Danau5tin/ai-trains-ai",
-      "domain": "github.com",
-      "published_at": "2026-07-14T12:41:25Z",
-      "category": "tech",
-      "score": 0.2860864521411939,
-      "tldr": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "1562b4a3-5f35-4d8c-aa66-f90d3363c682",
       "title": "Kimi K3 is now live",
       "url": "https://www.kimi.com/en",
@@ -626,20 +612,6 @@
       ]
     },
     {
-      "id": "bab1ae11-fe1d-4132-aecc-e3376b188a69",
-      "title": "Coding agents think ahead of time",
-      "url": "https://arxiv.org/abs/2607.05188",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-14T12:28:09Z",
-      "category": "tech",
-      "score": 0.2717041444908812,
-      "tldr": "Coding agents think ahead of time",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "a1c4a76f-b59a-43bb-88d5-e97cf7e540a8",
       "title": "SpaceX bond worth 10% less than issue price – heading for junk bond status",
       "url": "https://www.ft.com/content/3a023b95-66c3-41e1-b0ce-df752a499541",
@@ -690,20 +662,6 @@
       "category": "tech",
       "score": 0.26946405886154,
       "tldr": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e0f51a41-a63b-41dd-9125-0e20efa1f8fd",
-      "title": "Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)",
-      "url": "https://github.com/Danau5tin/ai-trains-ai",
-      "domain": "github.com",
-      "published_at": "2026-07-14T12:41:25Z",
-      "category": "tech",
-      "score": 0.2671902422174328,
-      "tldr": "Show HN: I RL-trained an agent that trains models with RL (for –$1.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1355,6 +1313,20 @@
       ]
     },
     {
+      "id": "00365770-60b6-4580-8558-5981bfc5dbb1",
+      "title": "LLM spambots liked my Show HN post more than real people did",
+      "url": "https://sgnt.ai/p/show-hn-llm-spam",
+      "domain": "sgnt.ai",
+      "published_at": "2026-07-21T11:22:30Z",
+      "category": "tech",
+      "score": 0.25289601825716823,
+      "tldr": "LLM spambots liked my Show HN post more than real people did",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "66ce3eb7-ce5c-48d7-acc3-ccc0c90c174f",
       "title": "Show HN: Aict – Unix coreutils that output XML/JSON, built for AI agents",
       "url": "https://github.com/synseqack/aict",
@@ -1409,8 +1381,36 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "47ac76d3-b204-4e7b-8820-49ee0c0f031f",
+      "title": "Show HN: We hid a backdoor in an LLM – $51,200 on finding it",
+      "url": "https://protora.vulcora.se/challenge",
+      "domain": "protora.vulcora.se",
+      "published_at": "2026-07-16T13:34:03Z",
+      "category": "tech",
+      "score": 0.2525527526235758,
+      "tldr": "Show HN: We hid a backdoor in an LLM – $51,200 on finding it",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2c72a93b-8134-4090-89db-9269ed57145d",
+      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+      "url": "https://github.com/openai/codex/pull/33972/files",
+      "domain": "github.com",
+      "published_at": "2026-07-19T07:54:39Z",
+      "category": "tech",
+      "score": 0.2525267777411396,
+      "tldr": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-21T11:44:45.418960119Z",
+  "last_updated": "2026-07-21T13:12:44.177983763Z",
   "total_count": 100
 }
