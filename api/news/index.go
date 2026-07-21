@@ -17,6 +17,8 @@ import (
 	_ "github.com/lib/pq"
 )
 
+const allConst = "all"
+
 type NewsItem struct {
 	ID           string    `json:"id"`
 	Title        string    `json:"title"`
@@ -24,9 +26,9 @@ type NewsItem struct {
 	Domain       string    `json:"domain"`
 	PublishedAt  time.Time `json:"published_at"`
 	Category     string    `json:"category"`
-	Score        float64   `json:"score"`      // Always 1-10 scale for frontend
-	RawScore     float64   `json:"raw_score"`  // Internal 0.0-1.0 for debugging
-	HeatLevel    string    `json:"heat_level"` // "hot", "rising", "signal", "low"
+	Score        float64   `json:"score"`
+	RawScore     float64   `json:"raw_score"`
+	HeatLevel    string    `json:"heat_level"`
 	TLDR         string    `json:"tldr,omitempty"`
 	WhyItMatters string    `json:"why_it_matters,omitempty"`
 	Tags         []string  `json:"tags,omitempty"`
@@ -62,67 +64,53 @@ func getHeatLevel(score10 float64) string {
 	}
 }
 
-func Handler(w http.ResponseWriter, r *http.Request) {
-	api.EnableCORS(w)
-	w.Header().Set("Content-Type", "application/json")
-
-	if r.Method == "OPTIONS" {
-		w.WriteHeader(http.StatusOK)
-		return
+func parseListQuery(val []string, rawVal string) []string {
+	if len(val) == 0 && rawVal != "" {
+		return strings.Split(rawVal, ",")
 	}
+	return val
+}
 
-	query := r.URL.Query()
-	topics := query["topic"]
-	if len(topics) == 0 && query.Get("topic") != "" {
-		topics = strings.Split(query.Get("topic"), ",")
+func getTimeThreshold(timeRange string) time.Time {
+	switch timeRange {
+	case "24h":
+		return time.Now().Add(-24 * time.Hour)
+	case "30d":
+		return time.Now().Add(-30 * 24 * time.Hour)
+	case allConst:
+		return time.Time{}
+	default:
+		return time.Now().Add(-7 * 24 * time.Hour)
 	}
-	domains := query["domain"]
-	if len(domains) == 0 && query.Get("domain") != "" {
-		domains = strings.Split(query.Get("domain"), ",")
-	}
-	sortMode := query.Get("sort")
-	timeRange := query.Get("time") // "24h", "7d", "30d"
-	searchQuery := strings.ToLower(query.Get("q"))
+}
 
-	timeThreshold := time.Now().Add(-7 * 24 * time.Hour) // default 7d
-	if timeRange == "24h" {
-		timeThreshold = time.Now().Add(-24 * time.Hour)
-	} else if timeRange == "30d" {
-		timeThreshold = time.Now().Add(-30 * 24 * time.Hour)
-	} else if timeRange == "all" {
-		timeThreshold = time.Time{}
-	}
-
-	useFallback := false
+func connectToDB() (*sql.DB, bool) {
 	dbURL := os.Getenv("DATABASE_URL")
-	var db *sql.DB
-	var err error
-
 	if dbURL == "" {
 		log.Println("⚠️ DATABASE_URL not set, using JSON fallback")
-		useFallback = true
-	} else {
-		db, err = sql.Open("postgres", dbURL)
-		if err != nil {
-			log.Printf("⚠️ Failed to connect to database: %v. Using JSON fallback", err)
-			useFallback = true
-		} else {
-			defer db.Close()
-			db.SetMaxOpenConns(3)
-			ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
-			defer cancel()
-			if err := db.PingContext(ctx); err != nil {
-				log.Printf("⚠️ Failed to ping database: %v. Using JSON fallback", err)
-				useFallback = true
-			}
-		}
+		return nil, true
 	}
 
-	if useFallback {
-		handleJSONFallback(w, topics, domains, sortMode, timeThreshold, searchQuery)
-		return
+	db, err := sql.Open("postgres", dbURL)
+	if err != nil {
+		log.Printf("⚠️ Failed to connect to database: %v. Using JSON fallback", err)
+		return nil, true
 	}
 
+	db.SetMaxOpenConns(3)
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+
+	if err := db.PingContext(ctx); err != nil {
+		log.Printf("⚠️ Failed to ping database: %v. Using JSON fallback", err)
+		_ = db.Close()
+		return nil, true
+	}
+
+	return db, false
+}
+
+func buildSQLQuery(topics, domains []string, sortMode string, timeThreshold time.Time, searchQuery string) (string, []interface{}) {
 	sqlQuery := `
 		SELECT 
 			i.id, i.title, i.url, i.domain, i.published_at, i.category,
@@ -157,7 +145,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	if len(topics) > 0 {
 		var topicChecks []string
 		for _, t := range topics {
-			if t != "" && strings.ToLower(t) != "all" {
+			if t != "" && !strings.EqualFold(t, allConst) {
 				topicChecks = append(topicChecks, `sm.tags @> $`+strconv.Itoa(argIdx)+`::jsonb`)
 				args = append(args, `["`+t+`"]`)
 				argIdx++
@@ -182,15 +170,10 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		) DESC, i.published_at DESC`
 	}
 	sqlQuery += ` LIMIT 30`
+	return sqlQuery, args
+}
 
-	rows, err := db.Query(sqlQuery, args...)
-	if err != nil {
-		log.Printf("❌ Failed to query database: %v. Using JSON fallback", err)
-		handleJSONFallback(w, topics, domains, sortMode, timeThreshold, searchQuery)
-		return
-	}
-	defer rows.Close()
-
+func scanNewsItems(rows *sql.Rows) []NewsItem {
 	var items []NewsItem
 	for rows.Next() {
 		var item NewsItem
@@ -212,49 +195,90 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		}
 		items = append(items, item)
 	}
+	return items
+}
 
+func Handler(w http.ResponseWriter, r *http.Request) {
+	api.EnableCORS(w)
+	w.Header().Set("Content-Type", "application/json")
+
+	if r.Method == "OPTIONS" {
+		w.WriteHeader(http.StatusOK)
+		return
+	}
+
+	query := r.URL.Query()
+	topics := parseListQuery(query["topic"], query.Get("topic"))
+	domains := parseListQuery(query["domain"], query.Get("domain"))
+	sortMode := query.Get("sort")
+	searchQuery := strings.ToLower(query.Get("q"))
+	timeThreshold := getTimeThreshold(query.Get("time"))
+
+	db, useFallback := connectToDB()
+	if db != nil {
+		defer db.Close()
+	}
+
+	if useFallback {
+		handleJSONFallback(w, topics, domains, sortMode, timeThreshold, searchQuery)
+		return
+	}
+
+	sqlQuery, args := buildSQLQuery(topics, domains, sortMode, timeThreshold, searchQuery)
+	rows, err := db.Query(sqlQuery, args...)
+	if err != nil {
+		log.Printf("❌ Failed to query database: %v. Using JSON fallback", err)
+		handleJSONFallback(w, topics, domains, sortMode, timeThreshold, searchQuery)
+		return
+	}
+	defer rows.Close()
+
+	items := scanNewsItems(rows)
 	if err := rows.Err(); err != nil {
 		log.Printf("⚠️ Error iterating rows: %v", err)
 	}
 
-	if err := json.NewEncoder(w).Encode(Response{
-		Success: true,
-		Data: map[string]interface{}{
-			"items":        items,
-			"total_count":  len(items),
-			"last_updated": time.Now(),
-		},
-	}); err != nil {
-		log.Printf("Failed to encode response: %v", err)
-	}
+	sendSuccessResponse(w, items, time.Now())
 }
 
-func handleJSONFallback(w http.ResponseWriter, topics, domains []string, sortMode string, timeThreshold time.Time, searchQuery string) {
-	data, err := api.LoadNewsData()
-	if err != nil {
-		if encErr := json.NewEncoder(w).Encode(Response{Success: false, Error: "Failed to load fallback JSON data"}); encErr != nil {
-			log.Printf("Failed to encode error response: %v", encErr)
-		}
-		return
+func isMatchTopic(rawTags []string, reqTopics []string) bool {
+	if len(reqTopics) == 0 {
+		return true
 	}
+	for _, reqTopic := range reqTopics {
+		if strings.EqualFold(reqTopic, allConst) || reqTopic == "" {
+			return true
+		}
+		for _, tag := range rawTags {
+			if strings.EqualFold(tag, reqTopic) {
+				return true
+			}
+		}
+	}
+	return false
+}
 
-	var filtered []NewsItem
-	for _, rawItem := range data.Items {
+func isMatchDomain(itemDomain string, reqDomains []string) bool {
+	if len(reqDomains) == 0 {
+		return true
+	}
+	for _, d := range reqDomains {
+		if strings.EqualFold(itemDomain, d) {
+			return true
+		}
+	}
+	return false
+}
+
+func filterJSONItems(dataItems []api.NewsItem, topics, domains []string, timeThreshold time.Time, searchQuery string) []NewsItem {
+	filtered := make([]NewsItem, 0, len(dataItems))
+	for _, rawItem := range dataItems {
 		if rawItem.PublishedAt.Before(timeThreshold) {
 			continue
 		}
 
-		if len(domains) > 0 {
-			matchDomain := false
-			for _, d := range domains {
-				if strings.EqualFold(rawItem.Domain, d) {
-					matchDomain = true
-					break
-				}
-			}
-			if !matchDomain {
-				continue
-			}
+		if !isMatchDomain(rawItem.Domain, domains) {
+			continue
 		}
 
 		if searchQuery != "" {
@@ -264,26 +288,8 @@ func handleJSONFallback(w http.ResponseWriter, topics, domains []string, sortMod
 			}
 		}
 
-		if len(topics) > 0 {
-			matchTopic := false
-			for _, reqTopic := range topics {
-				if strings.ToLower(reqTopic) == "all" || reqTopic == "" {
-					matchTopic = true
-					break
-				}
-				for _, tag := range rawItem.Tags {
-					if strings.EqualFold(tag, reqTopic) {
-						matchTopic = true
-						break
-					}
-				}
-				if matchTopic {
-					break
-				}
-			}
-			if !matchTopic {
-				continue
-			}
+		if !isMatchTopic(rawItem.Tags, topics) {
+			continue
 		}
 
 		item := NewsItem{
@@ -293,16 +299,19 @@ func handleJSONFallback(w http.ResponseWriter, topics, domains []string, sortMod
 			Domain:       rawItem.Domain,
 			PublishedAt:  rawItem.PublishedAt,
 			Category:     rawItem.Category,
-			Tags:         rawItem.Tags,
+			Score:        convertToScale10(rawItem.Score),
+			RawScore:     rawItem.Score,
+			HeatLevel:    getHeatLevel(convertToScale10(rawItem.Score)),
 			TLDR:         rawItem.TLDR,
 			WhyItMatters: rawItem.WhyItMatters,
-			RawScore:     rawItem.Score, 
+			Tags:         rawItem.Tags,
 		}
-		item.Score = convertToScale10(rawItem.Score)
-		item.HeatLevel = getHeatLevel(item.Score)
 		filtered = append(filtered, item)
 	}
+	return filtered
+}
 
+func sortJSONItems(filtered []NewsItem, sortMode string) {
 	if sortMode == "newest" {
 		sort.Slice(filtered, func(i, j int) bool { return filtered[i].PublishedAt.After(filtered[j].PublishedAt) })
 	} else if sortMode == "oldest" {
@@ -320,17 +329,34 @@ func handleJSONFallback(w http.ResponseWriter, topics, domains []string, sortMod
 			return scoreI > scoreJ
 		})
 	}
+}
+
+func handleJSONFallback(w http.ResponseWriter, topics, domains []string, sortMode string, timeThreshold time.Time, searchQuery string) {
+	data, err := api.LoadNewsData()
+	if err != nil {
+		if encErr := json.NewEncoder(w).Encode(Response{Success: false, Error: "Failed to load fallback JSON data"}); encErr != nil {
+			log.Printf("Failed to encode error response: %v", encErr)
+		}
+		return
+	}
+
+	filtered := filterJSONItems(data.Items, topics, domains, timeThreshold, searchQuery)
+	sortJSONItems(filtered, sortMode)
 
 	if len(filtered) > 30 {
 		filtered = filtered[:30]
 	}
 
+	sendSuccessResponse(w, filtered, data.LastUpdated)
+}
+
+func sendSuccessResponse(w http.ResponseWriter, items []NewsItem, lastUpdated time.Time) {
 	if err := json.NewEncoder(w).Encode(Response{
 		Success: true,
 		Data: map[string]interface{}{
-			"items":        filtered,
-			"total_count":  len(filtered),
-			"last_updated": data.LastUpdated,
+			"items":        items,
+			"total_count":  len(items),
+			"last_updated": lastUpdated,
 		},
 	}); err != nil {
 		log.Printf("Failed to encode response: %v", err)
