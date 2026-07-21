@@ -86,6 +86,20 @@
       ]
     },
     {
+      "id": "07028f6c-030e-4bcd-acf6-95948f9da95c",
+      "title": "I found a WordPress RCEs with GPT5.6 and $25",
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
+      "domain": "slcyber.io",
+      "published_at": "2026-07-20T08:13:36Z",
+      "category": "tech",
+      "score": 0.39624974161229815,
+      "tldr": "I found a WordPress RCEs with GPT5.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8f026edf-68a9-4844-af20-d9e42d44764d",
       "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
       "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
@@ -328,20 +342,6 @@
       ]
     },
     {
-      "id": "bc3e6a79-fa3a-4584-80c1-d70348508d04",
-      "title": "Show HN: MemStitch – Zero-copy context bridging for vLLM (25x TTFT speedup)",
-      "url": "https://github.com/DaqulaLin/MemStitch",
-      "domain": "github.com",
-      "published_at": "2026-07-14T01:04:02Z",
-      "category": "tech",
-      "score": 0.32678690923321574,
-      "tldr": "Show HN: MemStitch – Zero-copy context bridging for vLLM (25x TTFT speedup)",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "36f67863-e4fe-4190-8a33-bf1709f941dc",
       "title": "Show HN: PilotCite – Get your brand cited by ChatGPT, Gemini, and more",
       "url": "https://www.pilotcite.com",
@@ -409,20 +409,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "510baaf0-e6db-44ad-ae75-d1cf9bc2020c",
-      "title": "ESBMC-Arduino: Closing the Deployment Gap for Formal Verification",
-      "url": "https://arxiv.org/abs/2607.08550",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-14T00:58:55Z",
-      "category": "tech",
-      "score": 0.31384977004639764,
-      "tldr": "ESBMC-Arduino: Closing the Deployment Gap for Formal Verification",
-      "why_it_matters": "For ML engineers, this addresses critical production challenges around model deployment, monitoring, and maintaining model performance in real-world environments.",
-      "tags": [
-        "mlops"
       ]
     },
     {
@@ -494,20 +480,6 @@
       "tags": [
         "general_ai",
         "llm"
-      ]
-    },
-    {
-      "id": "9a13bd9b-2076-4cb7-bb97-e6218b487edf",
-      "title": "The git history command",
-      "url": "https://lalitm.com/post/git-history",
-      "domain": "lalitm.com",
-      "published_at": "2026-07-14T00:57:11Z",
-      "category": "tech",
-      "score": 0.304992423517524,
-      "tldr": "The git history command",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1410,8 +1382,36 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "557e3819-7d7a-4ef3-b0ce-253383982d07",
+      "title": "Show HN: Leaves – a text-UI disk usage treemap visualizer",
+      "url": "https://github.com/patonw/leaves",
+      "domain": "github.com",
+      "published_at": "2026-07-16T16:03:43Z",
+      "category": "tech",
+      "score": 0.2529738853914071,
+      "tldr": "Show HN: Leaves – a text-UI disk usage treemap visualizer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "66ce3eb7-ce5c-48d7-acc3-ccc0c90c174f",
+      "title": "Show HN: Aict – Unix coreutils that output XML/JSON, built for AI agents",
+      "url": "https://github.com/synseqack/aict",
+      "domain": "github.com",
+      "published_at": "2026-07-15T13:39:54Z",
+      "category": "tech",
+      "score": 0.2528621595365297,
+      "tldr": "Show HN: Aict – Unix coreutils that output XML/JSON, built for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-20T23:46:06.044744536Z",
+  "last_updated": "2026-07-21T01:25:03.237878906Z",
   "total_count": 100
 }
