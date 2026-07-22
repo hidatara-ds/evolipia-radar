@@ -1020,20 +1020,6 @@
       ]
     },
     {
-      "id": "1dec476d-b34a-43c9-bbfd-dac22dbedd96",
-      "title": "ChatGPT Is Down",
-      "url": "https://chatgpt.com/",
-      "domain": "chatgpt.com",
-      "published_at": "2026-07-14T23:48:36Z",
-      "category": "tech",
-      "score": 0.25708649906837017,
-      "tldr": "ChatGPT Is Down",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "44d42b6b-c1b8-4c4c-91d1-b3942dbbd159",
       "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
       "url": "https://ai.google.dev/gemini-api/docs/latest-model",
@@ -1411,8 +1397,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "1a835b4e-f1c0-4635-9232-9507dc2b9345",
+      "title": "Show HN: Imagin Raw – A 9MB Open-Source Alternative to Adobe Bridge for Mac",
+      "url": "https://github.com/cristibaluta/Imagin-Raw",
+      "domain": "github.com",
+      "published_at": "2026-07-21T17:30:01Z",
+      "category": "tech",
+      "score": 0.25330206207304556,
+      "tldr": "Show HN: Imagin Raw – A 9MB Open-Source Alternative to Adobe Bridge for Mac",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-21T23:26:39.217656241Z",
+  "last_updated": "2026-07-22T00:13:58.660282313Z",
   "total_count": 100
 }
