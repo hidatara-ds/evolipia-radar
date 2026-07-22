@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "85ea4a97-0d2e-402c-9cb3-d705e903dfd2",
+      "title": "Microsoft strikes 'multibillion-dollar' deal with French AI firm Mistral",
+      "url": "https://www.france24.com/en/france/20260721-microsoft-strikes-multi-billion-dollar-deal-to-expand-france-ai-firm-mistral",
+      "domain": "france24.com",
+      "published_at": "2026-07-22T09:12:58Z",
+      "category": "tech",
+      "score": 0.737657923784617,
+      "tldr": "Microsoft strikes 'multibillion-dollar' deal with French AI firm Mistral",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "6d237d2b-3eea-4340-966b-c328f04036d9",
       "title": "Kimi K3: Open Frontier Intelligence",
       "url": "https://www.kimi.com/blog/kimi-k3",
@@ -12,6 +27,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "5874a624-caec-47fd-895e-b31d4f42ecaf",
+      "title": "Codeberg: ToU extension to prohibit LLM-extrusions",
+      "url": "https://codeberg.org/Codeberg/org/pulls/1253",
+      "domain": "codeberg.org",
+      "published_at": "2026-07-22T08:27:12Z",
+      "category": "tech",
+      "score": 0.5968398046614509,
+      "tldr": "Codeberg: ToU extension to prohibit LLM-extrusions",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -98,6 +127,203 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "705731dd-1765-4d77-af1c-a09a5db17935",
+      "title": "How the judge on Oracle vs. Google taught himself to code",
+      "url": "https://www.theverge.com/2017/10/19/16503076/oracle-vs-google-judge-william-alsup-interview-waymo-uber",
+      "domain": "theverge.com",
+      "published_at": "2026-07-22T09:32:45Z",
+      "category": "tech",
+      "score": 0.38801098364394915,
+      "tldr": "How the judge on Oracle vs. Google taught himself to code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1286e2ec-686d-411c-86f9-8d8b9647f3d4",
+      "title": "Minuet, a KDE application for music education, calls for testers",
+      "url": "https://sandroandrade.org/minuet-26-08-call-for-testers",
+      "domain": "sandroandrade.org",
+      "published_at": "2026-07-22T09:26:34Z",
+      "category": "tech",
+      "score": 0.3878990697554518,
+      "tldr": "Minuet, a KDE application for music education, calls for testers",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4ed74183-929f-4da5-bb03-74bf89200086",
+      "title": "White House used keywords to kill billions worth of California research grants",
+      "url": "https://apnews.com/article/california-research-grants-terminated-keywords-lawsuit-a0ddb01413ecb68d9668490a20be6207",
+      "domain": "apnews.com",
+      "published_at": "2026-07-22T08:46:22Z",
+      "category": "tech",
+      "score": 0.38718506280433634,
+      "tldr": "White House used keywords to kill billions worth of California research grants",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4380d672-feba-4e0d-90c4-84c47dc35431",
+      "title": "Phenethylamines I have feared and loathed (2020)",
+      "url": "https://nikobidin.com/phenethylamines-i-have-feared-and-loathed",
+      "domain": "nikobidin.com",
+      "published_at": "2026-07-22T06:13:38Z",
+      "category": "tech",
+      "score": 0.38445703883603394,
+      "tldr": "Phenethylamines I have feared and loathed (2020)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "bdc2fde0-324a-4a93-912c-bc50eefba763",
+      "title": "The US has collected about $13B of Venezuela's oil money. Where is it?",
+      "url": "https://www.ft.com/content/0e562e03-106e-4729-83d7-675c27eb8c4d",
+      "domain": "ft.com",
+      "published_at": "2026-07-22T06:09:51Z",
+      "category": "tech",
+      "score": 0.38438669872683573,
+      "tldr": "The US has collected about $13B of Venezuela's oil money.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "acfd15e7-e6f3-422b-b189-66a911b671c6",
+      "title": "I graded 36 popular MCP servers on agent usability. A third got a D or F",
+      "url": "https://tengli.dev/posts/mcp-servers-failing-agents.html",
+      "domain": "tengli.dev",
+      "published_at": "2026-07-22T05:51:50Z",
+      "category": "tech",
+      "score": 0.3840647591752637,
+      "tldr": "I graded 36 popular MCP servers on agent usability.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "e30f5378-ca91-4a42-a7e2-9674b0fb93d3",
+      "title": "Show HN: ReadKinetic – a free, local-first speed reader for your own books",
+      "url": "https://www.readkinetic.com/app",
+      "domain": "readkinetic.com",
+      "published_at": "2026-07-22T05:49:51Z",
+      "category": "tech",
+      "score": 0.38403367499638574,
+      "tldr": "Show HN: ReadKinetic – a free, local-first speed reader for your own books",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "911308f6-38be-4da6-b7f6-3a9a503ccb5c",
+      "title": "Show HN: A new kind of FPS aim trainer",
+      "url": "https://openaim.pramit.gg/",
+      "domain": "openaim.pramit.gg",
+      "published_at": "2026-07-22T05:39:31Z",
+      "category": "tech",
+      "score": 0.38384759911550537,
+      "tldr": "Show HN: A new kind of FPS aim trainer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ab5af000-6d0a-4bcf-b02c-c649f65925cd",
+      "title": "Show HN: Public-safe skin packs for the Codex desktop app",
+      "url": "https://codex-theme-gallery.howardhua.chatgpt.site/codex-skin-pack-installer",
+      "domain": "codex-theme-gallery.howardhua.chatgpt.site",
+      "published_at": "2026-07-22T04:53:13Z",
+      "category": "tech",
+      "score": 0.3830188883364682,
+      "tldr": "Show HN: Public-safe skin packs for the Codex desktop app",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "7cf057a4-a742-4b64-8f3c-deb1c70fcf1b",
+      "title": "Tesla Balance Bike",
+      "url": "https://shop.tesla.com/product/balance-bike-for-kids",
+      "domain": "shop.tesla.com",
+      "published_at": "2026-07-22T04:00:11Z",
+      "category": "tech",
+      "score": 0.3820720784941378,
+      "tldr": "Tesla Balance Bike",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4835b7c9-aaa3-4635-8cd1-f54eddf2a8a8",
+      "title": "Watching a language model think before it speaks",
+      "url": "https://blog.nathanlangley.dev/posts/subtext.html",
+      "domain": "blog.nathanlangley.dev",
+      "published_at": "2026-07-22T03:53:40Z",
+      "category": "tech",
+      "score": 0.3819567808003863,
+      "tldr": "Watching a language model think before it speaks",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "cdba2f4d-e097-4be2-9718-d11cd54c3d87",
+      "title": "Apply Tracker, Free AI CV, Cover Letter and Job Tracker",
+      "url": "https://www.apply-tracker.com/en",
+      "domain": "apply-tracker.com",
+      "published_at": "2026-07-22T03:47:55Z",
+      "category": "tech",
+      "score": 0.3818545287562676,
+      "tldr": "Apply Tracker, Free AI CV, Cover Letter and Job Tracker",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "computer_vision"
+      ]
+    },
+    {
+      "id": "1c437118-48c1-4c22-adf8-d3aed3f8efa6",
+      "title": "A simple API for offering your coding agent a smoke break",
+      "url": "https://smoke-break.pineapplefreefall.com",
+      "domain": "smoke-break.pineapplefreefall.com",
+      "published_at": "2026-07-22T03:40:37Z",
+      "category": "tech",
+      "score": 0.3817233168508036,
+      "tldr": "A simple API for offering your coding agent a smoke break",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "454f7e9d-dde0-4c05-8c6b-d9dbd2c53de1",
+      "title": "Never Enough",
+      "url": "https://dark.ronacher.eu/2026/7/21/never-enough",
+      "domain": "dark.ronacher.eu",
+      "published_at": "2026-07-22T03:24:36Z",
+      "category": "tech",
+      "score": 0.3814396569679935,
+      "tldr": "Never Enough",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -399,6 +625,20 @@
       ]
     },
     {
+      "id": "cab2f531-9ede-415b-be7a-6045f5a5f3e9",
+      "title": "Introduction to Formal Verification with Lean Part 1",
+      "url": "https://hashcloak.com/blog/tutorial-introduction-to-formal-verification-with-lean-(part-1)",
+      "domain": "hashcloak.com",
+      "published_at": "2026-07-19T15:49:58Z",
+      "category": "tech",
+      "score": 0.31760520834405803,
+      "tldr": "Introduction to Formal Verification with Lean Part 1",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7ac4f1de-3715-4da5-8a06-ea69b79ec62b",
       "title": "AI advice made people less accurate but more confident – sudy",
       "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
@@ -449,6 +689,20 @@
       "category": "tech",
       "score": 0.31248899974968514,
       "tldr": "Annoying and alarming things about OpenCode",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "71dd0341-4e9f-4a06-9523-7fa999d39e6f",
+      "title": "AMD Ryzen 7 7700X3D Review: 3D V-Cache Gaming Performance for Less – HotHardware",
+      "url": "https://hothardware.com/reviews/amd-ryzen-7-7700x3d-gaming-cpu-review",
+      "domain": "hothardware.com",
+      "published_at": "2026-07-19T10:54:41Z",
+      "category": "tech",
+      "score": 0.31233314626010744,
+      "tldr": "AMD Ryzen 7 7700X3D Review: 3D V-Cache Gaming Performance for Less – HotHardware",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -541,6 +795,20 @@
       ]
     },
     {
+      "id": "811a3ced-d735-4797-85a3-dcd4047dbe45",
+      "title": "Intel Starts Shipping High-NA EUV Silicon",
+      "url": "https://morethanmoore.substack.com/p/intel-starts-shipping-high-na-euv",
+      "domain": "morethanmoore.substack.com",
+      "published_at": "2026-07-18T19:56:33Z",
+      "category": "tech",
+      "score": 0.2962956933499244,
+      "tldr": "Intel Starts Shipping High-NA EUV Silicon",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7f172118-783e-4647-8899-9d0d2b006977",
       "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "url": "https://news.ycombinator.com/item?id=48937020",
@@ -565,20 +833,6 @@
       "category": "tech",
       "score": 0.2907243090477615,
       "tldr": "Codex Micro",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "aea79ded-6057-407b-8cc4-f88e99443a6d",
-      "title": "Weathergotchi – an E-Paper Climate Logger",
-      "url": "https://github.com/Michael-Manning/E-Paper-Climate-Logger",
-      "domain": "github.com",
-      "published_at": "2026-07-15T11:02:43Z",
-      "category": "tech",
-      "score": 0.28883581021117155,
-      "tldr": "Weathergotchi – an E-Paper Climate Logger",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -739,6 +993,34 @@
       ]
     },
     {
+      "id": "75e8837c-2276-4116-b1e1-e14f7a63bd89",
+      "title": "Atomically Thin Materials Significantly Shrink Qubits",
+      "url": "https://spectrum.ieee.org/2d-hbn-qubit",
+      "domain": "spectrum.ieee.org",
+      "published_at": "2026-07-17T15:55:42Z",
+      "category": "tech",
+      "score": 0.2662785903513366,
+      "tldr": "Atomically Thin Materials Significantly Shrink Qubits",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a5c8182e-96dd-4cbe-ae4c-e605ee29d943",
+      "title": "Atomically Thin Materials Significantly Shrink Qubits (2022)",
+      "url": "https://spectrum.ieee.org/2d-hbn-qubit",
+      "domain": "spectrum.ieee.org",
+      "published_at": "2026-07-17T15:55:42Z",
+      "category": "tech",
+      "score": 0.2662770910350667,
+      "tldr": "Atomically Thin Materials Significantly Shrink Qubits (2022)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "f4d9dc62-6c8d-435a-945a-0f4f15e21263",
       "title": "Map of the world's great castles and fortresses",
       "url": "https://thecastlemap.com/",
@@ -893,6 +1175,20 @@
       ]
     },
     {
+      "id": "0de3eedd-f21a-4d19-a07f-ba9f8b5381f7",
+      "title": "ScreenWall – Turn old phones into synced widgets for your space",
+      "url": "https://screenwall.app/",
+      "domain": "screenwall.app",
+      "published_at": "2026-07-17T11:00:04Z",
+      "category": "tech",
+      "score": 0.26100092012241727,
+      "tldr": "ScreenWall – Turn old phones into synced widgets for your space",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7add2344-59b7-42ba-8d3c-6733834cb021",
       "title": "The Little Book of Reinforcement Learning",
       "url": "https://github.com/alxndrTL/little-book-rl",
@@ -919,20 +1215,6 @@
       "tags": [
         "mlops",
         "cloud"
-      ]
-    },
-    {
-      "id": "c854e545-307e-480c-b7b3-823ee86a85a8",
-      "title": "Weathergotchi – an open-source climate Tamagotchi",
-      "url": "https://github.com/Michael-Manning/E-Paper-Climate-Logger",
-      "domain": "github.com",
-      "published_at": "2026-07-15T11:02:43Z",
-      "category": "tech",
-      "score": 0.25928203328238597,
-      "tldr": "Weathergotchi – an open-source climate Tamagotchi",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
       ]
     },
     {
@@ -1130,289 +1412,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "604ad15b-6046-4a44-bac8-716156eb699c",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "domain": "openai.com",
-      "published_at": "2026-07-20T18:43:55Z",
-      "category": "tech",
-      "score": 0.2555520782833607,
-      "tldr": "Safety and alignment in an era of long-horizon models",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b04f486c-113f-4cbc-a80a-b939bc86778e",
-      "title": "Ask HN: Do you say please and thank you to your LLMs?",
-      "url": "https://news.ycombinator.com/item?id=48945125",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-17T09:27:41Z",
-      "category": "tech",
-      "score": 0.25533085011473566,
-      "tldr": "Ask HN: Do you say please and thank you to your LLMs?",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0e84d1e8-fb0b-4059-a9f7-4d923ed82edb",
-      "title": "Show HN: OSS Cross-Harness self hosted registry and analytics for AI Agents",
-      "url": "https://github.com/Observal/Observal",
-      "domain": "github.com",
-      "published_at": "2026-07-21T16:57:30Z",
-      "category": "tech",
-      "score": 0.25526462130058547,
-      "tldr": "Show HN: OSS Cross-Harness self hosted registry and analytics for AI Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2d504cfd-e765-4764-9f32-7dac2b330143",
-      "title": "Jane Street: Incremental",
-      "url": "https://github.com/janestreet/incremental",
-      "domain": "github.com",
-      "published_at": "2026-07-21T03:50:53Z",
-      "category": "tech",
-      "score": 0.2551818937603837,
-      "tldr": "Jane Street: Incremental",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "99075004-b759-4170-86a7-6697595b88e6",
-      "title": "NotebookLM is now Gemini Notebook",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook",
-      "domain": "blog.google",
-      "published_at": "2026-07-16T16:08:13Z",
-      "category": "tech",
-      "score": 0.2551602611524522,
-      "tldr": "NotebookLM is now Gemini Notebook",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "01675787-162b-4f33-be44-a5e4ca3ec9a5",
-      "title": "IceCream – Never use print() to debug again",
-      "url": "https://github.com/gruns/icecream",
-      "domain": "github.com",
-      "published_at": "2026-07-19T01:39:04Z",
-      "category": "tech",
-      "score": 0.255108020686315,
-      "tldr": "IceCream – Never use print() to debug again",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "8e2a5bab-daf5-4b4c-b843-3ae6f3ad5e94",
-      "title": "Show HN: Ratel, give agents unlimited tools and skills without context bloat",
-      "url": "https://github.com/ratel-ai/ratel",
-      "domain": "github.com",
-      "published_at": "2026-07-16T16:11:13Z",
-      "category": "tech",
-      "score": 0.2547451271486047,
-      "tldr": "Show HN: Ratel, give agents unlimited tools and skills without context bloat",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6f32234b-d8a4-4366-9b3e-d90e36e3161c",
-      "title": "Free Remote Desktop Without Servers",
-      "url": "https://github.com/Teylersf/freeremotedesk",
-      "domain": "github.com",
-      "published_at": "2026-07-16T00:25:10Z",
-      "category": "tech",
-      "score": 0.2543796290823904,
-      "tldr": "Free Remote Desktop Without Servers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d24faeaf-eb89-469a-a5b3-0fa2c1733809",
-      "title": "UIUC AI Teaching Assistant",
-      "url": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
-      "domain": "github.com",
-      "published_at": "2026-07-17T02:23:18Z",
-      "category": "tech",
-      "score": 0.25429887589445344,
-      "tldr": "UIUC AI Teaching Assistant",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5a73dcd6-20fa-4d0c-844a-dc7f74d33fc6",
-      "title": "Chrome installed a global Ctrl+G keyboard shortcut to launch Gemini",
-      "url": "https://mastodon.online/users/mwichary/statuses/116952836351215165",
-      "domain": "mastodon.online",
-      "published_at": "2026-07-20T16:17:17Z",
-      "category": "tech",
-      "score": 0.2541265403119348,
-      "tldr": "Chrome installed a global Ctrl+G keyboard shortcut to launch Gemini",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "cda8302a-5d5d-4bef-89e7-ee7b3ac3fb1e",
-      "title": "Open Source, Free Tier Capable Whispr Using Cloudflare AI",
-      "url": "https://github.com/PrestigePvP/Voicebox",
-      "domain": "github.com",
-      "published_at": "2026-07-16T02:57:30Z",
-      "category": "tech",
-      "score": 0.2540803378109992,
-      "tldr": "Open Source, Free Tier Capable Whispr Using Cloudflare AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "cloud",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "836c8829-0967-4ead-8fff-594f3acb9dc1",
-      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
-      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
-      "domain": "xcancel.com",
-      "published_at": "2026-07-20T02:51:16Z",
-      "category": "tech",
-      "score": 0.2539639237911426,
-      "tldr": "Claude Fable produced a counterexample to the Jacobian Conjecture",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fe71f751-728c-4127-9ce2-55c0f49f55e5",
-      "title": "Homomorphically encrypted CIFAR-10 inference in 200ms",
-      "url": "https://sofar.belfortlabs.cloud/",
-      "domain": "sofar.belfortlabs.cloud",
-      "published_at": "2026-07-17T16:29:52Z",
-      "category": "tech",
-      "score": 0.25391097438920784,
-      "tldr": "Homomorphically encrypted CIFAR-10 inference in 200ms",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c0aba29c-fe4a-463b-893e-ff1a74c26d2b",
-      "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
-      "domain": "bloomberg.com",
-      "published_at": "2026-07-16T18:13:00Z",
-      "category": "tech",
-      "score": 0.253816970773297,
-      "tldr": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fd3cddd6-7f29-4a21-9076-a7540f45c4e6",
-      "title": "Slater – Low-memory graphdb designed for read-heavy graphs",
-      "url": "https://github.com/Hikari-Systems/slater",
-      "domain": "github.com",
-      "published_at": "2026-07-21T18:39:41Z",
-      "category": "tech",
-      "score": 0.2537117672713704,
-      "tldr": "Slater – Low-memory graphdb designed for read-heavy graphs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5666c88a-5321-4344-9148-88d3ea11fcab",
-      "title": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
-      "url": "https://github.com/19h/EPathfinder",
-      "domain": "github.com",
-      "published_at": "2026-07-16T22:21:20Z",
-      "category": "tech",
-      "score": 0.2536724079894752,
-      "tldr": "Russian kamikaze drone C++ reconstruction of onboard autonomy stack",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6c0706e2-c44a-4423-9a96-e9b64636f724",
-      "title": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
-      "url": "https://github.com/jbunke/painterly",
-      "domain": "github.com",
-      "published_at": "2026-07-15T17:01:34Z",
-      "category": "tech",
-      "score": 0.2535238255652048,
-      "tldr": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "052cb999-f284-4f37-a4eb-61d784e1080b",
-      "title": "Odin 2 Portal Exploded",
-      "url": "https://github.com/virtudude/armada/issues/94",
-      "domain": "github.com",
-      "published_at": "2026-07-15T21:24:31Z",
-      "category": "tech",
-      "score": 0.2534584166997492,
-      "tldr": "Odin 2 Portal Exploded",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e0451f53-48f8-4d42-a7c2-8b4462239e5c",
-      "title": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
-      "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
-      "domain": "latimes.com",
-      "published_at": "2026-07-19T04:35:08Z",
-      "category": "tech",
-      "score": 0.2534063881340535,
-      "tldr": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
-      "title": "LLM Networking with MikroTik",
-      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
-      "domain": "blog.greg.technology",
-      "published_at": "2026-07-15T22:23:27Z",
-      "category": "tech",
-      "score": 0.2533737519015256,
-      "tldr": "LLM Networking with MikroTik",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-22T09:06:13.668894821Z",
+  "last_updated": "2026-07-22T11:24:14.484155358Z",
   "total_count": 100
 }
