@@ -1020,6 +1020,20 @@
       ]
     },
     {
+      "id": "aa539f06-ef20-4b68-9b66-afcc7df095d1",
+      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "domain": "github.com",
+      "published_at": "2026-07-22T05:18:08Z",
+      "category": "tech",
+      "score": 0.25768547799876557,
+      "tldr": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "dfd4489e-74c1-4582-95cd-52e3e3f61c2a",
       "title": "Show HN: Grepathy – Claude made a decision nobody approved",
       "url": "https://github.com/evansjp/grepathy",
@@ -1397,22 +1411,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
-      "title": "LLM Networking with MikroTik",
-      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
-      "domain": "blog.greg.technology",
-      "published_at": "2026-07-15T22:23:27Z",
-      "category": "tech",
-      "score": 0.2533737519015256,
-      "tldr": "LLM Networking with MikroTik",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-07-22T03:55:13.450936001Z",
+  "last_updated": "2026-07-22T06:20:45.976706249Z",
   "total_count": 100
 }
