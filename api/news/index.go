@@ -39,15 +39,15 @@ func getAliases(topic string) []string {
 }
 
 type NewsItem struct {
-	ID           string    `json:"id"`
-	Title        string    `json:"title"`
-	URL          string    `json:"url"`
-	Domain       string    `json:"domain"`
-	PublishedAt  time.Time `json:"published_at"`
-	Category     string    `json:"category"`
-	Score        float64   `json:"score"`
-	RawScore     float64   `json:"raw_score"`
-	HeatLevel    string    `json:"heat_level"`
+	ID               string    `json:"id"`
+	Title            string    `json:"title"`
+	URL              string    `json:"url"`
+	Domain           string    `json:"domain"`
+	PublishedAt      time.Time `json:"published_at"`
+	Category         string    `json:"category"`
+	Score            float64   `json:"score"`
+	RawScore         float64   `json:"raw_score"`
+	HeatLevel        string    `json:"heat_level"`
 	TLDR             string    `json:"tldr,omitempty"`
 	WhyItMatters     string    `json:"why_it_matters,omitempty"`
 	Tags             []string  `json:"tags,omitempty"`
@@ -207,7 +207,13 @@ func scanNewsItems(rows *sql.Rows) []NewsItem {
 		var rawScore float64
 		var tagsJSON []byte
 
-		if err := rows.Scan(&item.ID, &item.Title, &item.URL, &item.Domain, &item.PublishedAt, &item.Category, &rawScore, &item.TLDR, &item.WhyItMatters, &tagsJSON, &item.Novelty, &item.Impact, &item.EngineeringValue, &item.Reasoning); err != nil {
+		err := rows.Scan(
+			&item.ID, &item.Title, &item.URL, &item.Domain,
+			&item.PublishedAt, &item.Category, &rawScore,
+			&item.TLDR, &item.WhyItMatters, &tagsJSON,
+			&item.Novelty, &item.Impact, &item.EngineeringValue, &item.Reasoning,
+		)
+		if err != nil {
 			continue
 		}
 
@@ -283,7 +289,7 @@ func isMatchTopic(rawTags []string, reqTopics []string) bool {
 		for _, tag := range rawTags {
 			tagLower := strings.ToLower(tag)
 			for _, alias := range aliases {
-				if tagLower == strings.ToLower(alias) {
+				if strings.EqualFold(tagLower, alias) {
 					return true
 				}
 			}

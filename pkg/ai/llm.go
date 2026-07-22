@@ -87,9 +87,9 @@ type SummarizeResponse struct {
 
 // AnalyzeRequest contains the parameters for analyzing an article.
 type AnalyzeRequest struct {
-	Title   string   `json:"title"`
-	Content string   `json:"content"`
-	Model   string   `json:"model,omitempty"`
+	Title   string `json:"title"`
+	Content string `json:"content"`
+	Model   string `json:"model,omitempty"`
 }
 
 // AnalyzeResponse contains the structured scoring analysis.

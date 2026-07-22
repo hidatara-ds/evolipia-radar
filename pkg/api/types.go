@@ -10,13 +10,13 @@ import (
 )
 
 type NewsItem struct {
-	ID           string    `json:"id"`
-	Title        string    `json:"title"`
-	URL          string    `json:"url"`
-	Domain       string    `json:"domain"`
-	PublishedAt  time.Time `json:"published_at"`
-	Category     string    `json:"category"`
-	Score        float64   `json:"score"`
+	ID               string    `json:"id"`
+	Title            string    `json:"title"`
+	URL              string    `json:"url"`
+	Domain           string    `json:"domain"`
+	PublishedAt      time.Time `json:"published_at"`
+	Category         string    `json:"category"`
+	Score            float64   `json:"score"`
 	TLDR             string    `json:"tldr,omitempty"`
 	WhyItMatters     string    `json:"why_it_matters,omitempty"`
 	Tags             []string  `json:"tags,omitempty"`

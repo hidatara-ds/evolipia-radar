@@ -46,8 +46,6 @@ func TestComputeScore_Basic(t *testing.T) {
 	assert.LessOrEqual(t, score.Final, 1.0)
 }
 
-
-
 func TestComputeScore_Relevance(t *testing.T) {
 	now := time.Now()
 
@@ -187,7 +185,7 @@ func FuzzComputeScore(f *testing.F) {
 			PublishedAt: published,
 		}
 
-	score := scoring.ComputeScore(item, nil, nil, nil, scoring.DefaultWeights)
+		score := scoring.ComputeScore(item, nil, nil, nil, scoring.DefaultWeights)
 		require.GreaterOrEqual(t, score.Final, 0.0)
 		require.LessOrEqual(t, score.Final, 1.0)
 	})

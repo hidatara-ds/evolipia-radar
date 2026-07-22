@@ -275,7 +275,7 @@ func (w *Worker) computeScores(ctx context.Context) error {
 		signal, _ := w.signalRepo.GetLatestByItemID(ctx, item.ID)
 		summary, _ := w.summaryRepo.GetByItemID(ctx, item.ID)
 		existingScore, _ := w.scoreRepo.GetByItemID(ctx, item.ID)
-		
+
 		score := scoring.ComputeScore(&item, signal, summary, existingScore, scoring.DefaultWeights)
 
 		if err := w.scoreRepo.Upsert(ctx, score); err != nil {

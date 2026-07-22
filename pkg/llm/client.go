@@ -35,8 +35,8 @@ type Message struct {
 }
 
 type ResponseFormat struct {
-	Type       string      `json:"type"`
-	Schema     interface{} `json:"schema,omitempty"`
+	Type   string      `json:"type"`
+	Schema interface{} `json:"schema,omitempty"`
 }
 
 // CompletionRequest for OpenRouter API

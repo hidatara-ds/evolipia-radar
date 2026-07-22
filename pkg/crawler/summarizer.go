@@ -10,8 +10,8 @@ import (
 )
 
 type Summarizer struct {
-	aiSvc    *ai.Service
-	repo     *db.SummaryRepository
+	aiSvc     *ai.Service
+	repo      *db.SummaryRepository
 	scoreRepo *db.ScoreRepository
 }
 
@@ -47,7 +47,7 @@ func (s *Summarizer) Process(ctx context.Context, itemID uuid.UUID, title, conte
 		summaryContent = resp.TLDR
 		whyMatters = resp.WhyItMatters
 		tags = []string{"AI", "Innovation"} // Keep simple for now
-		
+
 		impact = resp.Impact
 		engineeringValue = resp.EngineeringValue
 		novelty = resp.Novelty
@@ -72,14 +72,14 @@ func (s *Summarizer) Process(ctx context.Context, itemID uuid.UUID, title, conte
 		if existingScore == nil {
 			existingScore = &models.Score{ItemID: itemID}
 		}
-		
+
 		existingScore.Impact = impact
 		existingScore.EngineeringValue = engineeringValue
 		existingScore.Novelty = novelty
 		existingScore.Reasoning = reasoning
-		
+
 		_ = s.scoreRepo.Upsert(ctx, existingScore)
 	}
-	
+
 	return nil
 }

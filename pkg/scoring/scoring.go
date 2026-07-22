@@ -31,18 +31,18 @@ var (
 func ComputeScore(item *models.Item, signal *models.Signal, summary *models.Summary, existingScore *models.Score, weights Weights) *models.Score {
 	hot := computeHotScore(signal, item.PublishedAt)
 	credibility := computeCredibilityScore(item.Domain)
-	
+
 	relevance := computeRelevanceScore(item, summary) // Fallback for impact if no LLM
-	
+
 	// Default to heuristic novelty
 	novelty := computeNoveltyScore(item.PublishedAt)
 	impact := relevance
 	engineeringValue := relevance
 	reasoning := ""
-	
+
 	// Use LLM scores if available
 	if existingScore != nil && existingScore.Impact > 0 {
-		// LLM scores are 1-10. Normalize to 0-1 for internal math if needed, 
+		// LLM scores are 1-10. Normalize to 0-1 for internal math if needed,
 		// but wait, let's keep them as 0-1 or 1-10.
 		// AnalyzeArticle returns 1-10. Let's normalize them here to 0-1.
 		novelty = existingScore.Novelty / 10.0
