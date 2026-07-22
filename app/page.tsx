@@ -789,9 +789,9 @@ function NewsCard({ item, index }: { item: NewsItem, index: number }) {
               <span className="text-[11px] text-slate-600">{item.domain}</span>
             </div>
 
-            <h4 className="text-lg sm:text-xl font-black text-white leading-tight group-hover:text-emerald-400 transition-colors">
+            <a href={item.url} target="_blank" rel="noopener noreferrer" className="block text-lg sm:text-xl font-black text-white leading-tight group-hover:text-emerald-400 transition-colors">
               {item.title}
-            </h4>
+            </a>
 
             {item.tldr && (
               <div className="space-y-2">
