@@ -101,7 +101,7 @@ func getTimeThreshold(timeRange string) time.Time {
 	case "30d":
 		return time.Now().Add(-30 * 24 * time.Hour)
 	case allConst:
-		return time.Time{}
+		return time.Date(2000, 1, 1, 0, 0, 0, 0, time.UTC)
 	default:
 		return time.Now().Add(-7 * 24 * time.Hour)
 	}
@@ -194,7 +194,7 @@ func buildSQLQuery(topics, domains []string, sortMode string, timeThreshold time
 	case "oldest":
 		sqlQuery += ` ORDER BY i.published_at ASC`
 	default:
-		sqlQuery += ` ORDER BY COALESCE(s.final, 0) / POWER(EXTRACT(EPOCH FROM (NOW() - i.published_at))/3600 + 2, 1.8) DESC, i.published_at DESC`
+		sqlQuery += ` ORDER BY COALESCE(s.final, 0) DESC, i.published_at DESC`
 	}
 	sqlQuery += ` LIMIT 30`
 	return sqlQuery, args
