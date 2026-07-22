@@ -19,6 +19,25 @@ import (
 
 const allConst = "all"
 
+var TopicAliases = map[string][]string{
+	"llm":         {"llm", "large language models", "gpt", "claude", "llama", "general_ai"},
+	"agents":      {"agents", "autonomous", "autogpt", "babyagi"},
+	"vision":      {"computer vision", "cv", "image generation", "midjourney", "dalle"},
+	"open-source": {"open source", "oss", "huggingface", "open_source"},
+	"infra":       {"infrastructure", "mlops", "deployment", "kubernetes"},
+	"robotics":    {"robotics", "embodied ai", "control"},
+	"security":    {"security", "safety", "alignment", "jailbreak"},
+}
+
+func getAliases(topic string) []string {
+	topic = strings.ToLower(topic)
+	aliases := []string{topic}
+	if mapped, ok := TopicAliases[topic]; ok {
+		aliases = append(aliases, mapped...)
+	}
+	return aliases
+}
+
 type NewsItem struct {
 	ID           string    `json:"id"`
 	Title        string    `json:"title"`
@@ -146,9 +165,14 @@ func buildSQLQuery(topics, domains []string, sortMode string, timeThreshold time
 		var topicChecks []string
 		for _, t := range topics {
 			if t != "" && !strings.EqualFold(t, allConst) {
-				topicChecks = append(topicChecks, `sm.tags @> $`+strconv.Itoa(argIdx)+`::jsonb`)
-				args = append(args, `["`+t+`"]`)
-				argIdx++
+				aliases := getAliases(t)
+				var placeholders []string
+				for _, alias := range aliases {
+					placeholders = append(placeholders, "$"+strconv.Itoa(argIdx))
+					args = append(args, strings.ToLower(alias))
+					argIdx++
+				}
+				topicChecks = append(topicChecks, `EXISTS (SELECT 1 FROM jsonb_array_elements_text(sm.tags) as tag WHERE LOWER(tag) IN (`+strings.Join(placeholders, ",")+`))`)
 			}
 		}
 		if len(topicChecks) > 0 {
@@ -249,9 +273,13 @@ func isMatchTopic(rawTags []string, reqTopics []string) bool {
 		if strings.EqualFold(reqTopic, allConst) || reqTopic == "" {
 			return true
 		}
+		aliases := getAliases(reqTopic)
 		for _, tag := range rawTags {
-			if strings.EqualFold(tag, reqTopic) {
-				return true
+			tagLower := strings.ToLower(tag)
+			for _, alias := range aliases {
+				if tagLower == strings.ToLower(alias) {
+					return true
+				}
 			}
 		}
 	}
