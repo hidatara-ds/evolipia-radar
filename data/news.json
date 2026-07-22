@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "06cdb412-856d-4db0-835a-c3cde637e552",
+      "title": "Proxy for OpenAI Codex and Claude Code, use any LLM with those apps",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "domain": "github.com",
+      "published_at": "2026-07-22T19:42:08Z",
+      "category": "tech",
+      "score": 0.7555013990612175,
+      "tldr": "Proxy for OpenAI Codex and Claude Code, use any LLM with those apps",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "5909a8e4-40fb-4cc9-bfd0-fb628f858980",
       "title": "I used ChatGPT to sue a Norwegian airline from New York and get $4760",
       "url": "https://www.behind-the-enemy-lines.com/2026/07/the-lawyer-i-never-hired-how-chatgpt.html",
@@ -27,6 +42,34 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "0ce9477a-299c-4c13-a1ab-5a1fec85e8d1",
+      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
+      "url": "https://arxiv.org/abs/2607.18250",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-22T22:49:58Z",
+      "category": "tech",
+      "score": 0.6688526384459101,
+      "tldr": "Anthropomorphism in Children's Interactions with LLM Chatbots",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "57c7cddd-31d4-4f0c-9cb4-d7eba302128c",
+      "title": "Show HN: Millwright – Rust-based, self-hosted LLM router",
+      "url": "https://github.com/Northwood-Systems/millwright",
+      "domain": "github.com",
+      "published_at": "2026-07-22T19:03:50Z",
+      "category": "tech",
+      "score": 0.614815873699625,
+      "tldr": "Show HN: Millwright – Rust-based, self-hosted LLM router",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
         "llm"
       ]
     },
@@ -243,6 +286,20 @@
       ]
     },
     {
+      "id": "c72c85ad-bb8e-478e-bc16-dadb2de1e83c",
+      "title": "NotchAgent – native macOS notch control for AI agents running under herdr",
+      "url": "https://github.com/ykushch/agsig",
+      "domain": "github.com",
+      "published_at": "2026-07-22T21:43:42Z",
+      "category": "tech",
+      "score": 0.407671700075939,
+      "tldr": "NotchAgent – native macOS notch control for AI agents running under herdr",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "494def25-3d25-4d2e-a522-954f0429ee9a",
       "title": "Raku++ Compiler v1.0.0 Released",
       "url": "https://github.com/ash/rakupp",
@@ -452,6 +509,20 @@
       "tags": [
         "general_ai",
         "security"
+      ]
+    },
+    {
+      "id": "53277a4c-8045-4084-9e1d-058fe8bc36bb",
+      "title": "You Opened a Credit Card. ICE Now Knows Where You Live",
+      "url": "https://nonogra.ph/you-opened-a-credit-card-ice-now-knows-where-you-live-07-22-2026",
+      "domain": "nonogra.ph",
+      "published_at": "2026-07-22T23:26:24Z",
+      "category": "tech",
+      "score": 0.3895034997294711,
+      "tldr": "You Opened a Credit Card. ICE Now Knows Where You Live",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -948,6 +1019,20 @@
       ]
     },
     {
+      "id": "d0ab12f3-d8e1-47f8-a921-1870637fe7e8",
+      "title": "Type-Aware Linting Stable",
+      "url": "https://oxc.rs/blog/2026-07-22-type-aware-linting-stable",
+      "domain": "oxc.rs",
+      "published_at": "2026-07-22T22:34:13Z",
+      "category": "tech",
+      "score": 0.38857112216965417,
+      "tldr": "Type-Aware Linting Stable",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "2de29745-367e-42b0-a735-e867186720db",
       "title": "Ukraine's secret weapon: The bright pink 'Flamingo' missiles",
       "url": "https://www.dailymail.com/news/article-15996043/Ukraine-secret-weapon-pink-Flamingo-missiles-engines-landfill-sites-Russia.html",
@@ -1172,6 +1257,20 @@
       ]
     },
     {
+      "id": "34eae928-f83f-4f86-9855-5eeddd7b6b6f",
+      "title": "Show HN: ValuePair – a friendship app that cares about values first",
+      "url": "https://valuepair.app",
+      "domain": "valuepair.app",
+      "published_at": "2026-07-22T22:20:00Z",
+      "category": "tech",
+      "score": 0.38832097981498337,
+      "tldr": "Show HN: ValuePair – a friendship app that cares about values first",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "69229913-b399-4e5b-8218-136733d93ee7",
       "title": "What happens when you try to chop a photon in half?",
       "url": "https://arstechnica.com/science/2026/07/what-happens-when-you-try-to-chop-a-photon-in-half",
@@ -1242,6 +1341,20 @@
       ]
     },
     {
+      "id": "e21735e0-ac18-47a3-8bf4-8474ae740456",
+      "title": "Quadraphonic Sound",
+      "url": "https://en.wikipedia.org/wiki/Quadraphonic_sound",
+      "domain": "en.wikipedia.org",
+      "published_at": "2026-07-22T22:15:15Z",
+      "category": "tech",
+      "score": 0.38823376240254287,
+      "tldr": "Quadraphonic Sound",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "4e1d6d1b-4f91-408a-8907-d830cc0efe90",
       "title": "OpenAI Models Escaped and Hacked a Company in Cybersecurity Test Gone Wrong",
       "url": "https://www.wsj.com/tech/ai/openai-models-escaped-and-hacked-a-company-in-cybersecurity-test-gone-wrong-ee388506",
@@ -1253,6 +1366,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "security",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1246fedc-aae5-4100-9126-56bdf2a8931d",
+      "title": "Fretboard Memorisation with Modular Arithmetic",
+      "url": "https://ohaodha.ie/blog/fretboard-memorisation-with-modular-arithmetic",
+      "domain": "ohaodha.ie",
+      "published_at": "2026-07-22T22:09:41Z",
+      "category": "tech",
+      "score": 0.3881348897590536,
+      "tldr": "Fretboard Memorisation with Modular Arithmetic",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
         "general_ai"
       ]
     },
@@ -1283,134 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "7c6d6618-b554-45d7-ae02-d61f01749de4",
-      "title": "We got California to intervene about OpenAI's corporate switch from nonprofit",
-      "url": "https://fortune.com/2026/07/22/openai-foundation-class-n-stock-board-control-ipo",
-      "domain": "fortune.com",
-      "published_at": "2026-07-22T19:46:18Z",
-      "category": "tech",
-      "score": 0.3880611679340429,
-      "tldr": "We got California to intervene about OpenAI's corporate switch from nonprofit",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "39958009-6928-4dfb-bf3d-7fd4dd7ce393",
-      "title": "Fairphone 6 with /e/OS 4.0 – Results, results, results",
-      "url": "https://www.dedoimedo.com/computers/fairphone-6-eos-4-review.html",
-      "domain": "dedoimedo.com",
-      "published_at": "2026-07-22T19:45:27Z",
-      "category": "tech",
-      "score": 0.3880463960640613,
-      "tldr": "Fairphone 6 with /e/OS 4. 0 – Results, results, results",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "705731dd-1765-4d77-af1c-a09a5db17935",
-      "title": "How the judge on Oracle vs. Google taught himself to code",
-      "url": "https://www.theverge.com/2017/10/19/16503076/oracle-vs-google-judge-william-alsup-interview-waymo-uber",
-      "domain": "theverge.com",
-      "published_at": "2026-07-22T09:32:45Z",
-      "category": "tech",
-      "score": 0.38801098364394915,
-      "tldr": "How the judge on Oracle vs. Google taught himself to code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "359e3d1e-360f-43ff-bae2-2ba1ff717cac",
-      "title": "Teardown: The BMW / Harman IDC23H Infotainment Unit (B423)",
-      "url": "https://www.hakstuff.net/blog/teardown-the-bmw-idc23h-infotainment-unit",
-      "domain": "hakstuff.net",
-      "published_at": "2026-07-22T19:42:40Z",
-      "category": "tech",
-      "score": 0.3879973033385792,
-      "tldr": "Teardown: The BMW / Harman IDC23H Infotainment Unit (B423)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ff358f52-c6ba-4066-9a3f-7f9b1666213d",
-      "title": "Show HN: LiquidBrain – Unlimited Tokens. Unlimited Context. One Fixed Price",
-      "url": "https://liquidbrain.ai/",
-      "domain": "liquidbrain.ai",
-      "published_at": "2026-07-22T20:59:57Z",
-      "category": "tech",
-      "score": 0.3879909760197988,
-      "tldr": "Show HN: LiquidBrain – Unlimited Tokens.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "bb2bd2e9-7880-4906-85ed-35d7b5202415",
-      "title": "Non-performant software and its incentives",
-      "url": "https://iainschmitt.com/post/non-performant-software-and-its-incentives",
-      "domain": "iainschmitt.com",
-      "published_at": "2026-07-22T14:20:40Z",
-      "category": "tech",
-      "score": 0.3879686522156009,
-      "tldr": "Non-performant software and its incentives",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "446627e7-e381-4f07-9ef0-70efe68143c2",
-      "title": "Speeding incurs substantial environmental costs for negligible time savings",
-      "url": "https://www.nature.com/articles/s44458-026-00100-3",
-      "domain": "nature.com",
-      "published_at": "2026-07-22T15:51:18Z",
-      "category": "tech",
-      "score": 0.38793124819861136,
-      "tldr": "Speeding incurs substantial environmental costs for negligible time savings",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "627f587e-24da-4880-baa2-d88290e6e517",
-      "title": "When Is NVLink Worth It?",
-      "url": "https://platform-fools.com/posts/2026-04-27-nvlink",
-      "domain": "platform-fools.com",
-      "published_at": "2026-07-22T14:18:11Z",
-      "category": "tech",
-      "score": 0.387925641711214,
-      "tldr": "When Is NVLink Worth It?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "aad9b32d-cdd1-4bfc-b40d-04ab469cffcc",
-      "title": "Quality non-fiction books are the antithesis of AI slop",
-      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
-      "domain": "resobscura.substack.com",
-      "published_at": "2026-07-22T14:18:05Z",
-      "category": "tech",
-      "score": 0.38792278825469584,
-      "tldr": "Quality non-fiction books are the antithesis of AI slop",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-22T22:52:34.12441866Z",
+  "last_updated": "2026-07-22T23:54:21.955732507Z",
   "total_count": 100
 }
