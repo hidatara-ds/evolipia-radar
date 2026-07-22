@@ -85,6 +85,25 @@ type SummarizeResponse struct {
 	Usage   Usage  `json:"usage"`
 }
 
+// AnalyzeRequest contains the parameters for analyzing an article.
+type AnalyzeRequest struct {
+	Title   string   `json:"title"`
+	Content string   `json:"content"`
+	Model   string   `json:"model,omitempty"`
+}
+
+// AnalyzeResponse contains the structured scoring analysis.
+type AnalyzeResponse struct {
+	TLDR             string  `json:"tldr"`
+	WhyItMatters     string  `json:"why_it_matters"`
+	Novelty          float64 `json:"novelty"`
+	Impact           float64 `json:"impact"`
+	EngineeringValue float64 `json:"engineering_value"`
+	Reasoning        string  `json:"reasoning"`
+	Model            string  `json:"model"`
+	Usage            Usage   `json:"usage"`
+}
+
 // EmbeddingRequest contains parameters for generating vector embeddings.
 type EmbeddingRequest struct {
 	Input string `json:"input"`
@@ -111,4 +130,5 @@ type LLMProvider interface {
 	ChatCompletion(ctx context.Context, req ChatRequest) (*ChatResponse, error)
 	Summarize(ctx context.Context, req SummarizeRequest) (*SummarizeResponse, error)
 	Embed(ctx context.Context, req EmbeddingRequest) (*EmbeddingResponse, error)
+	AnalyzeArticle(ctx context.Context, req AnalyzeRequest) (*AnalyzeResponse, error)
 }

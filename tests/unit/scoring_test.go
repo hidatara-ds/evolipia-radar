@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/hidatara-ds/evolipia-radar/internal/models"
-	"github.com/hidatara-ds/evolipia-radar/internal/scoring"
+	"github.com/hidatara-ds/evolipia-radar/pkg/models"
+	"github.com/hidatara-ds/evolipia-radar/pkg/scoring"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -39,55 +39,14 @@ func TestComputeScore_Basic(t *testing.T) {
 		CreatedAt:    time.Now(),
 	}
 
-	score := scoring.ComputeScore(item, signal, summary, scoring.DefaultWeights)
+	score := scoring.ComputeScore(item, signal, summary, nil, scoring.DefaultWeights)
 
 	require.NotNil(t, score)
 	assert.Greater(t, score.Final, 0.0)
 	assert.LessOrEqual(t, score.Final, 1.0)
 }
 
-func TestComputeScore_PopularityAndRecency(t *testing.T) {
-	now := time.Now()
 
-	baseItem := models.Item{
-		ID:          uuid.New(),
-		Title:       "Article",
-		URL:         "https://example.com/article",
-		Domain:      "example.com",
-		PublishedAt: now,
-	}
-
-	pointsLow := 10
-	commentsLow := 1
-	pointsHigh := 1000
-	commentsHigh := 100
-
-	signalLow := &models.Signal{
-		ItemID:    baseItem.ID,
-		Points:    &pointsLow,
-		Comments:  &commentsLow,
-		FetchedAt: now,
-	}
-	signalHigh := &models.Signal{
-		ItemID:    baseItem.ID,
-		Points:    &pointsHigh,
-		Comments:  &commentsHigh,
-		FetchedAt: now,
-	}
-
-	itemRecent := baseItem
-	itemRecent.PublishedAt = now.Add(-1 * time.Hour)
-
-	itemOld := baseItem
-	itemOld.PublishedAt = now.Add(-72 * time.Hour)
-
-	lowRecent := scoring.ComputeScore(&itemRecent, signalLow, nil, scoring.DefaultWeights)
-	highRecent := scoring.ComputeScore(&itemRecent, signalHigh, nil, scoring.DefaultWeights)
-	highOld := scoring.ComputeScore(&itemOld, signalHigh, nil, scoring.DefaultWeights)
-
-	assert.Greater(t, highRecent.Final, lowRecent.Final, "more engagement should yield higher score")
-	assert.Greater(t, highRecent.Final, highOld.Final, "more recent items should yield higher score")
-}
 
 func TestComputeScore_Relevance(t *testing.T) {
 	now := time.Now()
@@ -109,8 +68,8 @@ func TestComputeScore_Relevance(t *testing.T) {
 		FetchedAt: now,
 	}
 
-	relevant := scoring.ComputeScore(itemRelevant, signal, nil, scoring.DefaultWeights)
-	irrelevant := scoring.ComputeScore(itemIrrelevant, signal, nil, scoring.DefaultWeights)
+	relevant := scoring.ComputeScore(itemRelevant, signal, nil, nil, scoring.DefaultWeights)
+	irrelevant := scoring.ComputeScore(itemIrrelevant, signal, nil, nil, scoring.DefaultWeights)
 
 	assert.Greater(t, relevant.Final, irrelevant.Final, "ML-related content should have higher score")
 }
@@ -128,15 +87,15 @@ func TestComputeScore_Credibility(t *testing.T) {
 	itemMedium := &models.Item{
 		ID:          uuid.New(),
 		Title:       "Blog Post",
-		URL:         "https://example.com/blog",
-		Domain:      "example.com",
+		URL:         "https://techcrunch.com/blog",
+		Domain:      "techcrunch.com",
 		PublishedAt: now,
 	}
 	itemLow := &models.Item{
 		ID:          uuid.New(),
 		Title:       "Opinion Piece",
-		URL:         "https://medium.com/article",
-		Domain:      "medium.com",
+		URL:         "https://unknown-blog.com/article",
+		Domain:      "unknown-blog.com",
 		PublishedAt: now,
 	}
 
@@ -146,9 +105,9 @@ func TestComputeScore_Credibility(t *testing.T) {
 		FetchedAt: now,
 	}
 
-	high := scoring.ComputeScore(itemHigh, signal, nil, scoring.DefaultWeights)
-	medium := scoring.ComputeScore(itemMedium, signal, nil, scoring.DefaultWeights)
-	low := scoring.ComputeScore(itemLow, signal, nil, scoring.DefaultWeights)
+	high := scoring.ComputeScore(itemHigh, signal, nil, nil, scoring.DefaultWeights)
+	medium := scoring.ComputeScore(itemMedium, signal, nil, nil, scoring.DefaultWeights)
+	low := scoring.ComputeScore(itemLow, signal, nil, nil, scoring.DefaultWeights)
 
 	assert.Greater(t, high.Final, medium.Final, "whitelisted domains should have highest credibility/score")
 	assert.Greater(t, medium.Final, low.Final, "blacklisted domains should have lowest credibility/score")
@@ -179,9 +138,9 @@ func TestComputeScore_Novelty(t *testing.T) {
 		FetchedAt: now,
 	}
 
-	scoreNew := scoring.ComputeScore(itemNew, signal, nil, scoring.DefaultWeights)
-	scoreDayOld := scoring.ComputeScore(itemDayOld, signal, nil, scoring.DefaultWeights)
-	scoreWeekOld := scoring.ComputeScore(itemWeekOld, signal, nil, scoring.DefaultWeights)
+	scoreNew := scoring.ComputeScore(itemNew, signal, nil, nil, scoring.DefaultWeights)
+	scoreDayOld := scoring.ComputeScore(itemDayOld, signal, nil, nil, scoring.DefaultWeights)
+	scoreWeekOld := scoring.ComputeScore(itemWeekOld, signal, nil, nil, scoring.DefaultWeights)
 
 	assert.Greater(t, scoreNew.Final, scoreDayOld.Final)
 	assert.Greater(t, scoreDayOld.Final, scoreWeekOld.Final)
@@ -208,7 +167,7 @@ func BenchmarkComputeScore(b *testing.B) {
 
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
-		_ = scoring.ComputeScore(item, signal, nil, scoring.DefaultWeights)
+		_ = scoring.ComputeScore(item, signal, nil, nil, scoring.DefaultWeights)
 	}
 }
 
@@ -228,7 +187,7 @@ func FuzzComputeScore(f *testing.F) {
 			PublishedAt: published,
 		}
 
-		score := scoring.ComputeScore(item, nil, nil, scoring.DefaultWeights)
+	score := scoring.ComputeScore(item, nil, nil, nil, scoring.DefaultWeights)
 		require.GreaterOrEqual(t, score.Final, 0.0)
 		require.LessOrEqual(t, score.Final, 1.0)
 	})

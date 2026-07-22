@@ -1,26 +1,30 @@
 package scoring
 
-// CredibilityConfig holds credibility scoring configuration
 type CredibilityConfig struct {
-	Whitelist map[string]bool
-	Blacklist map[string]bool
+	Tier1 map[string]float64
+	Tier2 map[string]float64
+	Tier3 map[string]float64
 }
 
 // DefaultCredibilityConfig returns the default credibility configuration
 func DefaultCredibilityConfig() CredibilityConfig {
 	return CredibilityConfig{
-		Whitelist: map[string]bool{
-			"openai.com":        true,
-			"ai.googleblog.com": true,
-			"deepmind.google":   true,
-			"arxiv.org":         true,
-			"acm.org":           true,
-			"ieee.org":          true,
-			"github.com":        true,
-			"docs.github.com":   true,
+		Tier1: map[string]float64{
+			"arxiv.org":             1.2,
+			"deepmind.google":       1.2,
+			"openai.com":            1.2,
+			"ai.googleblog.com":     1.2,
+			"research.facebook.com": 1.2,
 		},
-		Blacklist: map[string]bool{
-			"medium.com": true,
+		Tier2: map[string]float64{
+			"anthropic.com": 1.0,
+			"acm.org":       1.0,
+			"ieee.org":      1.0,
+		},
+		Tier3: map[string]float64{
+			"github.com":      0.7,
+			"techcrunch.com":  0.7,
+			"venturebeat.com": 0.7,
 		},
 	}
 }

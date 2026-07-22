@@ -40,6 +40,10 @@ interface NewsItem {
   tldr?: string;
   why_it_matters?: string;
   tags: string[];
+  novelty?: number;
+  impact?: number;
+  engineering_value?: number;
+  reasoning?: string;
 }
 
 interface NewsResponse {
@@ -798,10 +802,59 @@ function NewsCard({ item, index }: { item: NewsItem, index: number }) {
                 <div className={`text-slate-400 text-sm leading-relaxed ${!isExpanded && 'line-clamp-2'}`}>
                   {item.tldr}
                 </div>
-                {item.why_it_matters && isExpanded && (
-                  <div className="pt-3 border-t border-white/5">
-                    <h5 className="text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-1.5">Why It Matters</h5>
-                    <p className="text-slate-400 text-sm leading-relaxed">{item.why_it_matters}</p>
+                {(item.why_it_matters || item.reasoning) && isExpanded && (
+                  <div className="pt-4 border-t border-white/5 space-y-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                      {item.novelty !== undefined && item.novelty > 0 && (
+                        <div>
+                          <div className="flex justify-between text-[10px] font-bold uppercase tracking-wider mb-1.5 text-slate-400">
+                            <span>Novelty</span>
+                            <span className="text-emerald-400">{item.novelty.toFixed(1)}/10</span>
+                          </div>
+                          <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
+                            <div className="h-full bg-emerald-500 rounded-full" style={{ width: `${(item.novelty / 10) * 100}%` }} />
+                          </div>
+                        </div>
+                      )}
+                      {item.impact !== undefined && item.impact > 0 && (
+                        <div>
+                          <div className="flex justify-between text-[10px] font-bold uppercase tracking-wider mb-1.5 text-slate-400">
+                            <span>Impact</span>
+                            <span className="text-blue-400">{item.impact.toFixed(1)}/10</span>
+                          </div>
+                          <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
+                            <div className="h-full bg-blue-500 rounded-full" style={{ width: `${(item.impact / 10) * 100}%` }} />
+                          </div>
+                        </div>
+                      )}
+                      {item.engineering_value !== undefined && item.engineering_value > 0 && (
+                        <div>
+                          <div className="flex justify-between text-[10px] font-bold uppercase tracking-wider mb-1.5 text-slate-400">
+                            <span>Engineering</span>
+                            <span className="text-purple-400">{item.engineering_value.toFixed(1)}/10</span>
+                          </div>
+                          <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
+                            <div className="h-full bg-purple-500 rounded-full" style={{ width: `${(item.engineering_value / 10) * 100}%` }} />
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                    
+                    {item.reasoning && (
+                      <div>
+                        <h5 className="text-[10px] font-black uppercase tracking-[0.2em] text-teal-400 mb-2 flex items-center gap-1.5">
+                          <Bot className="w-3 h-3" /> AI Analysis
+                        </h5>
+                        <p className="text-slate-300 text-sm leading-relaxed italic border-l-2 border-teal-500/30 pl-3 py-0.5">{item.reasoning}</p>
+                      </div>
+                    )}
+                    
+                    {item.why_it_matters && (
+                      <div>
+                        <h5 className="text-[10px] font-black uppercase tracking-[0.2em] text-blue-400 mb-2">Why It Matters</h5>
+                        <p className="text-slate-400 text-sm leading-relaxed">{item.why_it_matters}</p>
+                      </div>
+                    )}
                   </div>
                 )}
                 <button 

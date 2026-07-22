@@ -48,9 +48,13 @@ type NewsItem struct {
 	Score        float64   `json:"score"`
 	RawScore     float64   `json:"raw_score"`
 	HeatLevel    string    `json:"heat_level"`
-	TLDR         string    `json:"tldr,omitempty"`
-	WhyItMatters string    `json:"why_it_matters,omitempty"`
-	Tags         []string  `json:"tags,omitempty"`
+	TLDR             string    `json:"tldr,omitempty"`
+	WhyItMatters     string    `json:"why_it_matters,omitempty"`
+	Tags             []string  `json:"tags,omitempty"`
+	Novelty          float64   `json:"novelty,omitempty"`
+	Impact           float64   `json:"impact,omitempty"`
+	EngineeringValue float64   `json:"engineering_value,omitempty"`
+	Reasoning        string    `json:"reasoning,omitempty"`
 }
 
 type Response struct {
@@ -136,7 +140,11 @@ func buildSQLQuery(topics, domains []string, sortMode string, timeThreshold time
 			COALESCE(s.final, 0) as raw_score,
 			COALESCE(sm.tldr, '') as tldr,
 			COALESCE(sm.why_it_matters, '') as why_it_matters,
-			COALESCE(sm.tags, '[]'::jsonb) as tags
+			COALESCE(sm.tags, '[]'::jsonb) as tags,
+			COALESCE(s.novelty, 0) as novelty,
+			COALESCE(s.impact, 0) as impact,
+			COALESCE(s.engineering_value, 0) as engineering_value,
+			COALESCE(s.reasoning, '') as reasoning
 		FROM items i
 		LEFT JOIN scores s ON i.id = s.item_id
 		LEFT JOIN summaries sm ON i.id = sm.item_id
@@ -186,12 +194,7 @@ func buildSQLQuery(topics, domains []string, sortMode string, timeThreshold time
 	case "oldest":
 		sqlQuery += ` ORDER BY i.published_at ASC`
 	default:
-		sqlQuery += ` ORDER BY (
-			COALESCE(s.final, 0) * 0.7 + 
-			CASE WHEN i.published_at > NOW() - INTERVAL '24 hours' THEN 0.3 
-			     WHEN i.published_at > NOW() - INTERVAL '48 hours' THEN 0.2 
-			     ELSE 0.1 END
-		) DESC, i.published_at DESC`
+		sqlQuery += ` ORDER BY COALESCE(s.final, 0) / POWER(EXTRACT(EPOCH FROM (NOW() - i.published_at))/3600 + 2, 1.8) DESC, i.published_at DESC`
 	}
 	sqlQuery += ` LIMIT 30`
 	return sqlQuery, args
@@ -204,13 +207,16 @@ func scanNewsItems(rows *sql.Rows) []NewsItem {
 		var rawScore float64
 		var tagsJSON []byte
 
-		if err := rows.Scan(&item.ID, &item.Title, &item.URL, &item.Domain, &item.PublishedAt, &item.Category, &rawScore, &item.TLDR, &item.WhyItMatters, &tagsJSON); err != nil {
+		if err := rows.Scan(&item.ID, &item.Title, &item.URL, &item.Domain, &item.PublishedAt, &item.Category, &rawScore, &item.TLDR, &item.WhyItMatters, &tagsJSON, &item.Novelty, &item.Impact, &item.EngineeringValue, &item.Reasoning); err != nil {
 			continue
 		}
 
 		item.RawScore = rawScore
 		item.Score = convertToScale10(rawScore)
 		item.HeatLevel = getHeatLevel(item.Score)
+		item.Novelty = convertToScale10(item.Novelty)
+		item.Impact = convertToScale10(item.Impact)
+		item.EngineeringValue = convertToScale10(item.EngineeringValue)
 
 		if len(tagsJSON) > 0 && string(tagsJSON) != "[]" {
 			if err := json.Unmarshal(tagsJSON, &item.Tags); err != nil {
@@ -321,18 +327,22 @@ func filterJSONItems(dataItems []api.NewsItem, topics, domains []string, timeThr
 		}
 
 		item := NewsItem{
-			ID:           rawItem.ID,
-			Title:        rawItem.Title,
-			URL:          rawItem.URL,
-			Domain:       rawItem.Domain,
-			PublishedAt:  rawItem.PublishedAt,
-			Category:     rawItem.Category,
-			Score:        convertToScale10(rawItem.Score),
-			RawScore:     rawItem.Score,
-			HeatLevel:    getHeatLevel(convertToScale10(rawItem.Score)),
-			TLDR:         rawItem.TLDR,
-			WhyItMatters: rawItem.WhyItMatters,
-			Tags:         rawItem.Tags,
+			ID:               rawItem.ID,
+			Title:            rawItem.Title,
+			URL:              rawItem.URL,
+			Domain:           rawItem.Domain,
+			PublishedAt:      rawItem.PublishedAt,
+			Category:         rawItem.Category,
+			Score:            convertToScale10(rawItem.Score),
+			RawScore:         rawItem.Score,
+			HeatLevel:        getHeatLevel(convertToScale10(rawItem.Score)),
+			TLDR:             rawItem.TLDR,
+			WhyItMatters:     rawItem.WhyItMatters,
+			Tags:             rawItem.Tags,
+			Novelty:          convertToScale10(rawItem.Novelty),
+			Impact:           convertToScale10(rawItem.Impact),
+			EngineeringValue: convertToScale10(rawItem.EngineeringValue),
+			Reasoning:        rawItem.Reasoning,
 		}
 		filtered = append(filtered, item)
 	}

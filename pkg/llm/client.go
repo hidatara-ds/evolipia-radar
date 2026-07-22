@@ -34,12 +34,18 @@ type Message struct {
 	Content string `json:"content"`
 }
 
+type ResponseFormat struct {
+	Type       string      `json:"type"`
+	Schema     interface{} `json:"schema,omitempty"`
+}
+
 // CompletionRequest for OpenRouter API
 type CompletionRequest struct {
-	Model       string    `json:"model"`
-	Messages    []Message `json:"messages"`
-	MaxTokens   int       `json:"max_tokens,omitempty"`
-	Temperature float64   `json:"temperature,omitempty"`
+	Model          string          `json:"model"`
+	Messages       []Message       `json:"messages"`
+	MaxTokens      int             `json:"max_tokens,omitempty"`
+	Temperature    float64         `json:"temperature,omitempty"`
+	ResponseFormat *ResponseFormat `json:"response_format,omitempty"`
 }
 
 // CompletionResponse from OpenRouter API
@@ -64,12 +70,13 @@ func NewClient(apiKey string) *Client {
 }
 
 // Complete sends a completion request to the LLM
-func (c *Client) Complete(ctx context.Context, model string, messages []Message, maxTokens int, temperature float64) (string, error) {
+func (c *Client) Complete(ctx context.Context, model string, messages []Message, maxTokens int, temperature float64, format *ResponseFormat) (string, error) {
 	req := CompletionRequest{
-		Model:       model,
-		Messages:    messages,
-		MaxTokens:   maxTokens,
-		Temperature: temperature,
+		Model:          model,
+		Messages:       messages,
+		MaxTokens:      maxTokens,
+		Temperature:    temperature,
+		ResponseFormat: format,
 	}
 
 	body, err := json.Marshal(req)
@@ -122,53 +129,46 @@ func (c *Client) Complete(ctx context.Context, model string, messages []Message,
 	return completionResp.Choices[0].Message.Content, nil
 }
 
-// Summarize generates an abstractive summary using LLM
-func (c *Client) Summarize(ctx context.Context, config Config, title, content string) (summary string, whyItMatters string, err error) {
-	prompt := fmt.Sprintf(`Summarize this AI/ML news article:
+type ArticleAnalysis struct {
+	TLDR             string  `json:"tldr"`
+	WhyItMatters     string  `json:"why_it_matters"`
+	Novelty          float64 `json:"novelty"`
+	Impact           float64 `json:"impact"`
+	EngineeringValue float64 `json:"engineering_value"`
+	Reasoning        string  `json:"reasoning"`
+}
+
+// AnalyzeArticle generates a structured analysis using LLM
+func (c *Client) AnalyzeArticle(ctx context.Context, config Config, title, content string) (*ArticleAnalysis, error) {
+	prompt := fmt.Sprintf(`Analyze this AI/ML news article:
 
 Title: %s
 Content: %s
 
-Provide:
-1. A 2-sentence summary (TLDR)
-2. One sentence explaining why this matters to AI/ML engineers
+You must output a strict JSON object with the following fields:
+- tldr: A 2-sentence summary of the article.
+- why_it_matters: One sentence explaining why this matters to AI/ML engineers.
+- reasoning: A 1-2 sentence explanation of your scores below.
+- novelty: Score from 1-10. (10 = open weights SOTA paper, 1 = generic API wrapper).
+- impact: Score from 1-10. (10 = industry-changing, 1 = unnoticeable).
+- engineering_value: Score from 1-10. (10 = highly useful for builders/engineers, 1 = irrelevant).
 
-Format your response as:
-TLDR: [your summary]
-WHY: [why it matters]`, title, content)
+Return ONLY the raw JSON object, no markdown blocks.`, title, content)
 
 	messages := []Message{
-		{Role: "system", Content: "You are an AI/ML news analyst. Provide concise, technical summaries focused on engineering impact."},
+		{Role: "system", Content: "You are an expert AI/ML news analyst and scoring engine. You strictly output valid JSON."},
 		{Role: "user", Content: prompt},
 	}
 
-	response, err := c.Complete(ctx, config.Model, messages, config.MaxTokens, config.Temperature)
+	response, err := c.Complete(ctx, config.Model, messages, config.MaxTokens, config.Temperature, &ResponseFormat{Type: "json_object"})
 	if err != nil {
-		return "", "", err
+		return nil, err
 	}
 
-	// Parse response
-	tldr, why := parseSummaryResponse(response)
-	return tldr, why, nil
-}
-
-func parseSummaryResponse(response string) (summary string, whyItMatters string) {
-	lines := bytes.Split([]byte(response), []byte("\n"))
-	tldr := ""
-	why := ""
-
-	for _, line := range lines {
-		if bytes.HasPrefix(line, []byte("TLDR:")) {
-			tldr = string(bytes.TrimSpace(bytes.TrimPrefix(line, []byte("TLDR:"))))
-		} else if bytes.HasPrefix(line, []byte("WHY:")) {
-			why = string(bytes.TrimSpace(bytes.TrimPrefix(line, []byte("WHY:"))))
-		}
+	var analysis ArticleAnalysis
+	if err := json.Unmarshal([]byte(response), &analysis); err != nil {
+		return nil, fmt.Errorf("failed to parse analysis JSON: %w", err)
 	}
 
-	// Fallback if parsing fails
-	if tldr == "" {
-		tldr = response
-	}
-
-	return tldr, why
+	return &analysis, nil
 }

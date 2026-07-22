@@ -44,13 +44,16 @@ type Signal struct {
 }
 
 type Score struct {
-	ItemID      uuid.UUID `json:"item_id"`
-	Hot         float64   `json:"hot"`
-	Relevance   float64   `json:"relevance"`
-	Credibility float64   `json:"credibility"`
-	Novelty     float64   `json:"novelty"`
-	Final       float64   `json:"final"`
-	ComputedAt  time.Time `json:"computed_at"`
+	ItemID           uuid.UUID `json:"item_id"`
+	Hot              float64   `json:"hot"`
+	Relevance        float64   `json:"relevance"`
+	Credibility      float64   `json:"credibility"`
+	Novelty          float64   `json:"novelty"`
+	Impact           float64   `json:"impact"`
+	EngineeringValue float64   `json:"engineering_value"`
+	Reasoning        string    `json:"reasoning"`
+	Final            float64   `json:"final"`
+	ComputedAt       time.Time `json:"computed_at"`
 }
 
 type Summary struct {

@@ -506,28 +506,32 @@ func NewScoreRepository(db *DB) *ScoreRepository {
 
 func (r *ScoreRepository) Upsert(ctx context.Context, score *models.Score) error {
 	_, err := r.db.Pool.Exec(ctx, `
-		INSERT INTO scores (item_id, hot, relevance, credibility, novelty, final)
-		VALUES ($1, $2, $3, $4, $5, $6)
+		INSERT INTO scores (item_id, hot, relevance, credibility, novelty, impact, engineering_value, reasoning, final)
+		VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
 		ON CONFLICT (item_id) DO UPDATE SET
 			hot = EXCLUDED.hot,
 			relevance = EXCLUDED.relevance,
 			credibility = EXCLUDED.credibility,
 			novelty = EXCLUDED.novelty,
+			impact = EXCLUDED.impact,
+			engineering_value = EXCLUDED.engineering_value,
+			reasoning = EXCLUDED.reasoning,
 			final = EXCLUDED.final,
 			computed_at = now()
-	`, score.ItemID, score.Hot, score.Relevance, score.Credibility, score.Novelty, score.Final)
+	`, score.ItemID, score.Hot, score.Relevance, score.Credibility, score.Novelty, score.Impact, score.EngineeringValue, score.Reasoning, score.Final)
 	return err
 }
 
 func (r *ScoreRepository) GetByItemID(ctx context.Context, itemID uuid.UUID) (*models.Score, error) {
 	var score models.Score
 	err := r.db.Pool.QueryRow(ctx, `
-		SELECT item_id, hot, relevance, credibility, novelty, final, computed_at
+		SELECT item_id, hot, relevance, credibility, novelty, impact, engineering_value, reasoning, final, computed_at
 		FROM scores
 		WHERE item_id = $1
 	`, itemID).Scan(
 		&score.ItemID, &score.Hot, &score.Relevance, &score.Credibility,
-		&score.Novelty, &score.Final, &score.ComputedAt,
+		&score.Novelty, &score.Impact, &score.EngineeringValue, &score.Reasoning,
+		&score.Final, &score.ComputedAt,
 	)
 	if errors.Is(err, pgx.ErrNoRows) {
 		return nil, nil

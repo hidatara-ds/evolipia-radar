@@ -52,3 +52,11 @@ func (s *Service) Embed(ctx context.Context, req EmbeddingRequest) (*EmbeddingRe
 	}
 	return s.provider.Embed(ctx, req)
 }
+
+// AnalyzeArticle generates a structured analysis (scores, tldr, reasoning) using LLM.
+func (s *Service) AnalyzeArticle(ctx context.Context, req AnalyzeRequest) (*AnalyzeResponse, error) {
+	if req.Content == "" {
+		return nil, fmt.Errorf("analysis text cannot be empty")
+	}
+	return s.provider.AnalyzeArticle(ctx, req)
+}

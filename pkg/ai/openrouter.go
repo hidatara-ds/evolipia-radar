@@ -51,10 +51,11 @@ func NewOpenRouterProvider(cfg OpenRouterProviderConfig) LLMProvider {
 
 // openRouterRequest models the OpenRouter API request payload.
 type openRouterRequest struct {
-	Model       string        `json:"model"`
-	Messages    []ChatMessage `json:"messages"`
-	Temperature *float32      `json:"temperature,omitempty"`
-	MaxTokens   *int          `json:"max_tokens,omitempty"`
+	Model          string        `json:"model"`
+	Messages       []ChatMessage `json:"messages"`
+	Temperature    *float32      `json:"temperature,omitempty"`
+	MaxTokens      *int          `json:"max_tokens,omitempty"`
+	ResponseFormat interface{}   `json:"response_format,omitempty"`
 }
 
 // openRouterResponse models the OpenRouter API response payload.
@@ -268,4 +269,58 @@ func (p *openRouterProvider) Embed(ctx context.Context, req EmbeddingRequest) (*
 			TotalTokens:  orResp.Usage.TotalTokens,
 		},
 	}, nil
+}
+
+// AnalyzeArticle implements LLMProvider to generate structured analysis.
+func (p *openRouterProvider) AnalyzeArticle(ctx context.Context, req AnalyzeRequest) (*AnalyzeResponse, error) {
+	model := req.Model
+	if model == "" {
+		model = p.defaultModel
+	}
+
+	prompt := fmt.Sprintf(`Analyze this AI/ML news article:
+
+Title: %s
+Content: %s
+
+You must output a strict JSON object with the following fields:
+- tldr: A 2-sentence summary of the article.
+- why_it_matters: One sentence explaining why this matters to AI/ML engineers.
+- novelty: Score from 1-10. (10 = SOTA/breakthrough, 1 = generic API wrapper/noise).
+- impact: Score from 1-10. (10 = industry-changing, 1 = unnoticeable).
+- engineering_value: Score from 1-10. (10 = highly useful for builders, 1 = irrelevant/fluff).
+- reasoning: A 1-2 sentence explanation of your scores.
+
+Return ONLY the raw JSON object.`, req.Title, req.Content)
+
+	messages := []ChatMessage{
+		{Role: RoleSystem, Content: "You are an expert AI/ML news analyst. You strictly output valid JSON."},
+		{Role: RoleUser, Content: prompt},
+	}
+
+	payload := openRouterRequest{
+		Model:          model,
+		Messages:       messages,
+		ResponseFormat: map[string]string{"type": "json_object"},
+	}
+
+	orResp, err := p.doChatRequest(ctx, payload)
+	if err != nil {
+		return nil, err
+	}
+
+	content := orResp.Choices[0].Message.Content
+	var analysis AnalyzeResponse
+	if err := json.Unmarshal([]byte(content), &analysis); err != nil {
+		return nil, fmt.Errorf("failed to parse analysis JSON: %w (content: %s)", err, content)
+	}
+
+	analysis.Model = orResp.Model
+	analysis.Usage = Usage{
+		PromptTokens:     orResp.Usage.PromptTokens,
+		CompletionTokens: orResp.Usage.CompletionTokens,
+		TotalTokens:      orResp.Usage.TotalTokens,
+	}
+
+	return &analysis, nil
 }

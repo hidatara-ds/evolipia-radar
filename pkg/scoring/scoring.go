@@ -9,16 +9,18 @@ import (
 
 type Weights struct {
 	W1 float64 // popularity
-	W2 float64 // relevance
+	W2 float64 // relevance/impact
 	W3 float64 // credibility
-	W4 float64 // novelty
+	W4 float64 // engineering value
+	W5 float64 // novelty
 }
 
 var DefaultWeights = Weights{
-	W1: 0.55,
-	W2: 0.25,
-	W3: 0.15,
-	W4: 0.05,
+	W1: 0.0, // Hot/popularity (handled by gravity decay now, but keep field)
+	W2: 0.3, // Impact
+	W3: 0.1, // Credibility
+	W4: 0.4, // Engineering Value
+	W5: 0.2, // Novelty
 }
 
 var (
@@ -26,22 +28,42 @@ var (
 	defaultRelevanceKeywords = DefaultRelevanceKeywords()
 )
 
-func ComputeScore(item *models.Item, signal *models.Signal, summary *models.Summary, weights Weights) *models.Score {
+func ComputeScore(item *models.Item, signal *models.Signal, summary *models.Summary, existingScore *models.Score, weights Weights) *models.Score {
 	hot := computeHotScore(signal, item.PublishedAt)
-	relevance := computeRelevanceScore(item, summary)
 	credibility := computeCredibilityScore(item.Domain)
+	
+	relevance := computeRelevanceScore(item, summary) // Fallback for impact if no LLM
+	
+	// Default to heuristic novelty
 	novelty := computeNoveltyScore(item.PublishedAt)
+	impact := relevance
+	engineeringValue := relevance
+	reasoning := ""
+	
+	// Use LLM scores if available
+	if existingScore != nil && existingScore.Impact > 0 {
+		// LLM scores are 1-10. Normalize to 0-1 for internal math if needed, 
+		// but wait, let's keep them as 0-1 or 1-10.
+		// AnalyzeArticle returns 1-10. Let's normalize them here to 0-1.
+		novelty = existingScore.Novelty / 10.0
+		impact = existingScore.Impact / 10.0
+		engineeringValue = existingScore.EngineeringValue / 10.0
+		reasoning = existingScore.Reasoning
+	}
 
-	final := weights.W1*hot + weights.W2*relevance + weights.W3*credibility + weights.W4*novelty
+	final := (weights.W2 * impact) + (weights.W3 * credibility) + (weights.W4 * engineeringValue) + (weights.W5 * novelty)
 
 	return &models.Score{
-		ItemID:      item.ID,
-		Hot:         hot,
-		Relevance:   relevance,
-		Credibility: credibility,
-		Novelty:     novelty,
-		Final:       final,
-		ComputedAt:  time.Now(),
+		ItemID:           item.ID,
+		Hot:              hot,
+		Relevance:        relevance,
+		Credibility:      credibility,
+		Novelty:          novelty,
+		Impact:           impact,
+		EngineeringValue: engineeringValue,
+		Reasoning:        reasoning,
+		Final:            final,
+		ComputedAt:       time.Now(),
 	}
 }
 
@@ -144,11 +166,14 @@ func computeCredibilityScore(domain string) float64 {
 }
 
 func computeCredibilityScoreWithConfig(domain string, config CredibilityConfig) float64 {
-	if config.Whitelist[domain] {
-		return 1.0
+	if val, ok := config.Tier1[domain]; ok {
+		return val
 	}
-	if config.Blacklist[domain] {
-		return 0.2
+	if val, ok := config.Tier2[domain]; ok {
+		return val
+	}
+	if val, ok := config.Tier3[domain]; ok {
+		return val
 	}
 	return 0.5 // Baseline
 }

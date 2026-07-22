@@ -54,7 +54,7 @@ func main() {
 		summary, _ := summaryRepo.GetByItemID(ctx, item.ID)
 
 		// Compute new score
-		score := scoring.ComputeScore(&item, signal, summary, scoring.DefaultWeights)
+		score := scoring.ComputeScore(&item, signal, summary, nil, scoring.DefaultWeights)
 
 		// Update score in database
 		if err := scoreRepo.Upsert(ctx, score); err != nil {

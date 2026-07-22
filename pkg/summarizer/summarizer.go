@@ -69,9 +69,9 @@ func GenerateLLMSummary(ctx context.Context, item *models.Item, cfg *config.Conf
 		Temperature: cfg.LLMTemperature,
 	}
 
-	tldr, why, err := client.Summarize(ctx, llmConfig, item.Title, content)
+	analysis, err := client.AnalyzeArticle(ctx, llmConfig, item.Title, content)
 	if err != nil {
-		return nil, fmt.Errorf("failed to generate summary: %w", err)
+		return nil, fmt.Errorf("failed to generate analysis: %w", err)
 	}
 
 	// Extract tags using existing logic
@@ -79,8 +79,8 @@ func GenerateLLMSummary(ctx context.Context, item *models.Item, cfg *config.Conf
 
 	return &models.Summary{
 		ItemID:       item.ID,
-		TLDR:         tldr,
-		WhyItMatters: why,
+		TLDR:         analysis.TLDR,
+		WhyItMatters: analysis.WhyItMatters,
 		Tags:         tags,
 		Method:       "llm",
 	}, nil

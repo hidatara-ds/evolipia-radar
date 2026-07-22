@@ -17,9 +17,13 @@ type NewsItem struct {
 	PublishedAt  time.Time `json:"published_at"`
 	Category     string    `json:"category"`
 	Score        float64   `json:"score"`
-	TLDR         string    `json:"tldr,omitempty"`
-	WhyItMatters string    `json:"why_it_matters,omitempty"`
-	Tags         []string  `json:"tags,omitempty"`
+	TLDR             string    `json:"tldr,omitempty"`
+	WhyItMatters     string    `json:"why_it_matters,omitempty"`
+	Tags             []string  `json:"tags,omitempty"`
+	Novelty          float64   `json:"novelty,omitempty"`
+	Impact           float64   `json:"impact,omitempty"`
+	EngineeringValue float64   `json:"engineering_value,omitempty"`
+	Reasoning        string    `json:"reasoning,omitempty"`
 }
 
 type NewsData struct {

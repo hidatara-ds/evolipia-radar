@@ -136,3 +136,14 @@ func (m *TrackerMiddleware) Embed(ctx context.Context, req EmbeddingRequest) (*E
 	}
 	return resp, err
 }
+
+func (m *TrackerMiddleware) AnalyzeArticle(ctx context.Context, req AnalyzeRequest) (*AnalyzeResponse, error) {
+	if err := m.tracker.IsBudgetExhausted(); err != nil {
+		return nil, fmt.Errorf("BUDGET EXHAUSTED: %w", err)
+	}
+	resp, err := m.next.AnalyzeArticle(ctx, req)
+	if resp != nil {
+		m.tracker.RecordUsage(resp.Usage)
+	}
+	return resp, err
+}
