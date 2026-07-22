@@ -557,20 +557,6 @@
       ]
     },
     {
-      "id": "f42db87b-3b61-4ba0-b3dc-fed9bddcf3aa",
-      "title": "I tricked Claude into leaking your deepest, darkest secrets",
-      "url": "https://www.ayush.digital/blog/the-memory-heist",
-      "domain": "ayush.digital",
-      "published_at": "2026-07-15T06:28:00Z",
-      "category": "tech",
-      "score": 0.2909775697503589,
-      "tldr": "I tricked Claude into leaking your deepest, darkest secrets",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "ecea5170-3935-4353-aecc-a15ac88a3b27",
       "title": "Codex Micro",
       "url": "https://openai.com/supply/co-lab/work-louder",
@@ -1411,8 +1397,22 @@
       "tags": [
         "llm"
       ]
+    },
+    {
+      "id": "59355650-90fc-4f07-9ec4-3f0127f96d11",
+      "title": "LLM Networking with MikroTik",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "domain": "blog.greg.technology",
+      "published_at": "2026-07-15T22:23:27Z",
+      "category": "tech",
+      "score": 0.2533737519015256,
+      "tldr": "LLM Networking with MikroTik",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
     }
   ],
-  "last_updated": "2026-07-22T06:20:45.976706249Z",
+  "last_updated": "2026-07-22T09:06:13.668894821Z",
   "total_count": 100
 }
