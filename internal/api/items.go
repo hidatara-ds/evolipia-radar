@@ -215,38 +215,31 @@ func buildWhereClauses(search, dateFrom, dateTo string, sources, categories []st
 		argIdx++
 	}
 
-	if len(sources) > 0 && sources[0] != "" {
-		var srcOr []string
-		for _, s := range sources {
-			if s != "" {
-				srcOr = append(srcOr, fmt.Sprintf("s.name ILIKE $%d OR i.source_id::text = $%d", argIdx, argIdx))
-				args = append(args, "%"+s+"%")
-				argIdx++
-			}
-		}
-		if len(srcOr) > 0 {
-			whereClauses = append(whereClauses, "("+strings.Join(srcOr, " OR ")+")")
-		}
-	}
-
-	if len(categories) > 0 && categories[0] != "" {
-		var catOr []string
-		for _, c := range categories {
-			if c != "" {
-				catOr = append(catOr, fmt.Sprintf("i.category ILIKE $%d", argIdx))
-				args = append(args, "%"+c+"%")
-				argIdx++
-			}
-		}
-		if len(catOr) > 0 {
-			whereClauses = append(whereClauses, "("+strings.Join(catOr, " OR ")+")")
-		}
-	}
+	whereClauses, args, argIdx = appendListFilter("s.name ILIKE $%d OR i.source_id::text = $%d", sources, whereClauses, args, argIdx)
+	whereClauses, args, _ = appendListFilter("i.category ILIKE $%d", categories, whereClauses, args, argIdx)
 
 	if len(whereClauses) == 0 {
 		return "", args
 	}
 	return "WHERE " + strings.Join(whereClauses, " AND "), args
+}
+
+func appendListFilter(pattern string, items []string, whereClauses []string, args []interface{}, argIdx int) ([]string, []interface{}, int) {
+	if len(items) == 0 || items[0] == "" {
+		return whereClauses, args, argIdx
+	}
+	var orClauses []string
+	for _, item := range items {
+		if item != "" {
+			orClauses = append(orClauses, fmt.Sprintf(pattern, argIdx, argIdx))
+			args = append(args, "%"+item+"%")
+			argIdx++
+		}
+	}
+	if len(orClauses) > 0 {
+		whereClauses = append(whereClauses, "("+strings.Join(orClauses, " OR ")+")")
+	}
+	return whereClauses, args, argIdx
 }
 
 func getSortOrdering(sortBy, sortOrder string) (string, string) {
