@@ -119,7 +119,7 @@ func (h *ItemsHandler) queryItems(
 		return mockItems(), 5, 5, nil
 	}
 
-	whereStmt, args := buildWhereClauses(search, dateFrom, dateTo, sources, minRelevance, status)
+	whereStmt, args := buildWhereClauses(search, dateFrom, dateTo, sources, categories, minRelevance, status)
 
 	// Count Total
 	var totalCount int64
@@ -172,7 +172,7 @@ func (h *ItemsHandler) queryItems(
 	return items, totalCount, filteredCount, nil
 }
 
-func buildWhereClauses(search, dateFrom, dateTo string, sources []string, minRelevance int, status string) (string, []interface{}) {
+func buildWhereClauses(search, dateFrom, dateTo string, sources, categories []string, minRelevance int, status string) (string, []interface{}) {
 	var whereClauses []string
 	var args []interface{}
 	argIdx := 1
@@ -226,6 +226,20 @@ func buildWhereClauses(search, dateFrom, dateTo string, sources []string, minRel
 		}
 		if len(srcOr) > 0 {
 			whereClauses = append(whereClauses, "("+strings.Join(srcOr, " OR ")+")")
+		}
+	}
+
+	if len(categories) > 0 && categories[0] != "" {
+		var catOr []string
+		for _, c := range categories {
+			if c != "" {
+				catOr = append(catOr, fmt.Sprintf("i.category ILIKE $%d", argIdx))
+				args = append(args, "%"+c+"%")
+				argIdx++
+			}
+		}
+		if len(catOr) > 0 {
+			whereClauses = append(whereClauses, "("+strings.Join(catOr, " OR ")+")")
 		}
 	}
 
