@@ -1,121 +1,141 @@
-# Evolipia Radar: AI-Powered News Intelligence
+# Evolipia Radar: AI-Powered News Intelligence & Auto-Crawler Platform
 
-> AI Research Intelligence Platform -- Go + Next.js + PostgreSQL
+> AI Research Intelligence Platform -- Go Backend + Next.js Frontend + PostgreSQL
 
 [![Go](https://img.shields.io/badge/Go-1.24.1-00ADD8?logo=go&logoColor=white)](https://go.dev/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Scrape%20Pipeline-2088FF?logo=github-actions&logoColor=white)](https://github.com/hidatara-ds/evolipia-radar/actions)
-[![Code Security](https://img.shields.io/badge/Code%20Security-CodeQL-2EA44F?logo=github&logoColor=white)](https://github.com/hidatara-ds/evolipia-radar/security)
+[![Next.js](https://img.shields.io/badge/Next.js-15.5-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-Evolipia Radar is an automated intelligence pipeline that discovers AI/ML news, enriches and scores it with concurrent Go workers, then applies LLM-based processing for summarization and structured insights. The system is designed to run continuously through GitHub Actions and produce reliable JSON outputs for downstream API/UI consumption even when production database access is unavailable in CI runners.
+Evolipia Radar is an automated news intelligence platform that discovers AI/ML news, validates and scores content relevance, streams real-time crawl progress using Server-Sent Events (SSE), and provides advanced search and filtering capabilities.
 
-## Executive Summary
+---
 
-This repository delivers a production-oriented news intelligence workflow:
+## 🚀 Main Features & Recent Upgrades
 
-- Collects curated AI/ML updates from multiple sources using high-throughput Go crawlers.
-- Processes article text with LLM providers (OpenRouter or Gemini Flash) to generate concise summaries and tags.
-- Stores outputs in PostgreSQL and JSON artifacts to support both API serving and static delivery workflows.
-- Runs on scheduled GitHub Actions to keep content fresh with minimal operational overhead.
+### 1. AutoCrawl & Auto-Scheduler
+- **Cron Scheduler**: Automatic background crawling executed via `github.com/robfig/cron/v3` on server boot.
+- **Configurable Interval**: Default run interval of every 6 hours (configurable via `CRAWL_INTERVAL`).
+- **Emergency Trigger**: Endpoint `POST /api/crawl` for manual crawl execution.
+- **Concurrency Guard**: Atomic lock prevents concurrent double-runs.
+- **Graceful Shutdown**: Stops cron workers cleanly on SIGINT/SIGTERM using `sync.WaitGroup`.
 
-## Data Pipeline Architecture
+### 2. Real-Time Crawl Progress & UI Indicators
+- **SSE Stream**: Server-Sent Events endpoint `GET /api/crawl/progress` broadcasting step progress.
+- **Step Progress Indicator**:
+  1. `Initializing crawler...`
+  2. `Scanning sources (1/N)...`
+  3. `Parsing content from [source_name]...`
+  4. `Validating data...`
+  5. `Saving to database...`
+  6. `Done! X items processed`
+- **UI Components**: `CrawlProgress.tsx` displaying step stepper, percentage bar, source status, estimated remaining time, and toast notifications.
+- **Data Freshness Badge**: `DataFreshness.tsx` showing "Last crawled: X minutes ago" with color coding (Green < 6h, Yellow 6-24h, Red > 24h).
 
-```mermaid
-flowchart LR
-    A[Target URL Sources] --> B[Go Scraper Worker]
-    B --> C[LLM Processing<br/>Gemini / OpenRouter]
-    C --> D[JSON Storage<br/>data/news.json]
-    C --> E[PostgreSQL Storage]
+### 3. Data Quality, Validation & Retry Mechanism
+- **Validation Layer**: Rejects invalid candidates lacking required title length (min 10 chars), URL protocol (`http://` or `https://`), non-future publication date, or excerpt length (min 50 chars).
+- **Duplicate Detection**: Hashes normalized title and URL to prevent duplicate inserts.
+- **Relevance Scoring**: Topic-based keyword matching algorithm (0-100 score) rejecting low-relevance items (< threshold, default 30).
+- **Exponential Backoff Retries**: Retries failed sources up to 3 times (1s, 2s, 4s) before marking as unhealthy.
+- **Database Schema**: New migration `migrations/000008_add_crawl_fields.up.sql` adding `crawl_status`, `crawl_error`, `relevance_score`, and `validated_at`.
+
+### 4. Advanced Sort & Filter Bar
+- **Debounced Search**: 300ms real-time search across titles, content excerpts, and domains.
+- **Date Range Selector**: Today, Last 7 Days, Last 30 Days, or Custom Range.
+- **Source & Category Multi-Select**: Checkboxes and category tag filters.
+- **Relevance Slider**: Dynamic min-max relevance threshold filter (0-100%).
+- **Saved Presets**: Save custom filter configurations to `localStorage` with custom names.
+- **URL Synchronization**: Two-way state sync with browser URL query parameters.
+
+---
+
+## 🛠️ Environment Variables List
+
+| Variable Name | Required | Default Value | Description |
+|---|---|---|---|
+| `PORT` | Optional | `8080` | Backend API server port |
+| `DATABASE_URL` | Optional | `postgres://postgres:postgres@localhost:5432/radar?sslmode=disable` | PostgreSQL connection string |
+| `CRAWL_INTERVAL` | Optional | `@every 6h` | Auto-scheduler interval (`@every 6h`, `0 */6 * * *`) |
+| `MIN_RELEVANCE_SCORE` | Optional | `30` | Minimum score threshold (0-100) to save items |
+| `TOPICS_KEYWORDS` | Optional | `llm,agents,vision,open source,infra,robotics,security` | Comma-separated keyword list for relevance scoring |
+| `MAX_CRAWL_RETRIES` | Optional | `3` | Maximum retry attempts for failed sources |
+| `LLM_API_KEY` | Optional | `""` | OpenRouter / LLM API key |
+| `LLM_PROVIDER` | Optional | `openrouter` | LLM provider identifier |
+| `LLM_MODEL` | Optional | `google/gemini-flash-1.5` | Default LLM model string |
+
+---
+
+## 📂 Backend & Frontend Directory Structure
+
+```
+backend/
+├── cmd/
+│   └── server/
+│       └── main.go          # Main entry point with auto-scheduler, SSE stream, and API routes
+├── internal/
+│   ├── crawler/
+│   │   ├── crawler.go       # Crawler core logic
+│   │   ├── scheduler.go     # robfig/cron/v3 auto-scheduler & concurrency lock
+│   │   ├── validator.go     # Item validation & 0-100 relevance scoring
+│   │   └── retry.go         # Exponential backoff retry & source health tracker
+│   ├── api/
+│   │   ├── handler.go       # HTTP handlers
+│   │   ├── items.go         # GET /api/items advanced filter & pagination handler
+│   │   ├── middleware.go    # CORS, logging, recovery
+│   │   └── sse.go           # SSE progress stream broadcaster
+│   ├── models/
+│   │   └── item.go          # Item DB models & Progress DTOs
+│   └── config/
+│       └── config.go        # Env config loading and validation
+├── pkg/
+│   └── utils/
+│       └── utils.go         # SHA256 hashing, normalization, URL validation
+└── go.mod
+
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── CrawlProgress.tsx    # Real-time progress UI & step stepper
+│   │   ├── FilterBar.tsx        # Advanced filter bar & preset manager
+│   │   └── DataFreshness.tsx    # Freshness badge indicator
+│   ├── hooks/
+│   │   ├── useCrawlProgress.ts  # SSE hook for /api/crawl/progress
+│   │   └── useFilters.ts        # Filter state & URL query sync hook
+│   └── api/
+│       └── client.ts            # API client wrapper
+├── app/
+│   └── page.tsx                 # Next.js main dashboard
+└── package.json
 ```
 
-## Key Features
+---
 
-- Go concurrency for fast parallel scraping, normalization, and scoring.
-- Dynamic LLM integration with provider/model configuration via environment variables.
-- Automated and resilient CI workflow that keeps producing JSON output during restricted network conditions.
-- Multi-target output strategy (`data/news.json` and API mirror) for frontend and serverless compatibility.
+## 💻 How to Run & Test
 
-## Repository Layout
-
-- `cmd/worker-json`: scraping + export worker used by scheduled automation.
-- `pkg/`: shared business logic (crawler, AI, DB, scoring, services).
-- `api/`: serverless endpoints consumed by deployed frontend.
-- `app/`: Next.js interface.
-- `data/`: generated JSON artifacts (`news.json`, `hybrid_result.json`, `sem_result.json`, `text_result.json`).
-
-## Local Setup
-
-1. Clone and enter repository:
-
+### 1. Run Backend Server
 ```bash
-git clone https://github.com/hidatara-ds/evolipia-radar.git
-cd evolipia-radar
+go run ./cmd/server
 ```
+Backend API will start on `http://localhost:8080`.
 
-2. Install dependencies:
-
+### 2. Run Backend Formatting & Unit Tests
 ```bash
-go mod download
-npm install
+gofmt -w .
+go vet ./...
+go test ./...
 ```
 
-3. Configure environment:
-
-```bash
-cp .env.example .env.local
-```
-
-Set required variables in `.env.local`:
-
-```env
-DATABASE_URL=postgresql://user:password@host:5432/dbname?sslmode=require
-LLM_API_KEY=your_key
-LLM_PROVIDER=openrouter
-LLM_MODEL=google/gemini-flash-1.5
-LLM_ENABLED=true
-JSON_OUTPUT_PATH=data/news.json
-```
-
-Optional CI-safe variables:
-
-```env
-CI=true
-SKIP_DB=true
-```
-
-When `CI=true` or `SKIP_DB=true`, database ping is bypassed and the worker can still emit JSON output without crashing.
-
-4. Run worker export locally:
-
-```bash
-go run ./cmd/worker-json
-```
-
-5. Run frontend locally:
-
+### 3. Run Frontend Development Server
 ```bash
 npm run dev
 ```
+Access UI at `http://localhost:3000`.
 
-## CI/CD Workflow Notes
+### 4. Build Frontend for Production
+```bash
+npm run build
+```
 
-The scheduled workflow lives in `.github/workflows/scrape.yml` and runs every 30 minutes.
+---
 
-Pipeline behavior:
-
-- Runs `go run ./cmd/worker-json` with JSON output enabled.
-- Uses `CI=true` and `SKIP_DB=true` to avoid failing on database network restrictions in GitHub-hosted runners.
-- Syncs `data/news.json` to `api/news.json` for deployment compatibility.
-- Commits updated data artifacts when changes are detected.
-
-This approach keeps automation healthy while preserving production database usage for non-CI runtime environments.
-
-## Commands
-
-- Scraper worker JSON export: `go run ./cmd/worker-json`
-- API server: `go run ./cmd/api/main.go`
-- Go tests: `go test ./...`
-- Frontend dev server: `npm run dev`
-
-## License
-
+## 📜 License
 MIT License. See `LICENSE.md`.
