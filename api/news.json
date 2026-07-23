@@ -60,6 +60,20 @@
       ]
     },
     {
+      "id": "270b88ac-3195-42df-b8c4-573e032511ee",
+      "title": "Honey Bee Colony Monitoring via Audio IoT Sensors, Tensorgrams and RNNs",
+      "url": "https://arxiv.org/abs/2607.20386",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-23T01:58:18Z",
+      "category": "tech",
+      "score": 0.6315038581175337,
+      "tldr": "Honey Bee Colony Monitoring via Audio IoT Sensors, Tensorgrams and RNNs",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
+      ]
+    },
+    {
       "id": "57c7cddd-31d4-4f0c-9cb4-d7eba302128c",
       "title": "Show HN: Millwright – Rust-based, self-hosted LLM router",
       "url": "https://github.com/Northwood-Systems/millwright",
@@ -158,6 +172,34 @@
       ]
     },
     {
+      "id": "eecfa7ee-d625-4c14-bc4b-7449029bb654",
+      "title": "Petals: Run LLMs at home, BitTorrent-style",
+      "url": "https://petals.dev/",
+      "domain": "petals.dev",
+      "published_at": "2026-07-23T01:33:12Z",
+      "category": "tech",
+      "score": 0.596057872728875,
+      "tldr": "Petals: Run LLMs at home, BitTorrent-style",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "85450a80-4550-485c-a525-023781906f96",
+      "title": "Protecting our FLOSS commons from LLMs",
+      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
+      "domain": "blog.codeberg.org",
+      "published_at": "2026-07-23T01:14:53Z",
+      "category": "tech",
+      "score": 0.595731397054145,
+      "tldr": "Protecting our FLOSS commons from LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "ae3298c1-c7f7-43ae-bb4e-43c6a3456b4f",
       "title": "We audited 1,751 \"relationship milestones\" our RAG extractor wrote 62% were junk",
       "url": "https://myastra.pl/casestudy",
@@ -169,6 +211,20 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "9a997ca5-5478-4741-a4ad-b9127d75aa00",
+      "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "domain": "chatgpt.com",
+      "published_at": "2026-07-22T17:30:40Z",
+      "category": "tech",
+      "score": 0.5874420679476938,
+      "tldr": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -328,6 +384,34 @@
       ]
     },
     {
+      "id": "8a146731-a9b1-40d9-969c-95f2a7b4d83e",
+      "title": "Show HN: AgentNest, self-hosted sandboxes for AI agents",
+      "url": "https://github.com/mihirahuja1/agentnestOSS",
+      "domain": "github.com",
+      "published_at": "2026-07-23T01:54:06Z",
+      "category": "tech",
+      "score": 0.4064298706976301,
+      "tldr": "Show HN: AgentNest, self-hosted sandboxes for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "b32f5a23-6434-44a7-85dc-874336821b98",
+      "title": "De-complect: Skill to remove braided complexity from projects",
+      "url": "https://github.com/danverbraganza/de-complect",
+      "domain": "github.com",
+      "published_at": "2026-07-23T01:19:34Z",
+      "category": "tech",
+      "score": 0.4058142173659354,
+      "tldr": "De-complect: Skill to remove braided complexity from projects",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b3eeb626-aa9e-466a-8d93-6908f3417874",
       "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
       "url": "https://github.com/cactus-compute/cactus-hybrid",
@@ -350,6 +434,20 @@
       "category": "tech",
       "score": 0.4046788921342432,
       "tldr": "Retry Storm Lab",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "76cdb720-4afb-4177-a658-93324c786231",
+      "title": "Show HN: KageOps – An open-source, local-first alternative to Devin",
+      "url": "https://github.com/hmanoor/kageops-core",
+      "domain": "github.com",
+      "published_at": "2026-07-23T00:04:21Z",
+      "category": "tech",
+      "score": 0.4044706575391673,
+      "tldr": "Show HN: KageOps – An open-source, local-first alternative to Devin",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -816,6 +914,20 @@
       "category": "tech",
       "score": 0.3890651874414783,
       "tldr": "'Rust makes coding fun again': Why Linux is moving away from C, says Greg KH",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "cb829cf9-c90d-4a85-809e-d18c5c1fe912",
+      "title": "What we know about the typical Polymarket user",
+      "url": "https://www.pewresearch.org/short-reads/2026/07/22/what-we-know-about-the-typical-polymarket-user",
+      "domain": "pewresearch.org",
+      "published_at": "2026-07-23T04:19:04Z",
+      "category": "tech",
+      "score": 0.38901775097510954,
+      "tldr": "What we know about the typical Polymarket user",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1297,121 +1409,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "44f950d0-22d6-4b96-82ae-3951a415f48f",
-      "title": "Ethics Is the Skill That Matters Most Now",
-      "url": "https://agonora.com/blog/ethics-most-important-skill",
-      "domain": "agonora.com",
-      "published_at": "2026-07-22T14:39:40Z",
-      "category": "tech",
-      "score": 0.3883148798948958,
-      "tldr": "Ethics Is the Skill That Matters Most Now",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d2edbb78-4272-4e72-bc17-8835cca3110b",
-      "title": "Are AI Labs Pelicanmaxxing?",
-      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
-      "domain": "dylancastillo.co",
-      "published_at": "2026-07-22T17:17:54Z",
-      "category": "tech",
-      "score": 0.3882668600115405,
-      "tldr": "Are AI Labs Pelicanmaxxing?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b1fa1914-ab57-406b-8af2-9722f8cd2e63",
-      "title": "Every .ru Domain Now Needs Government ID",
-      "url": "https://webhosting.today/2026/07/22/a-government-id-for-every-ru-domain-and-a-warning-for-every-country-code",
-      "domain": "webhosting.today",
-      "published_at": "2026-07-22T19:57:23Z",
-      "category": "tech",
-      "score": 0.38825827022272474,
-      "tldr": "ru Domain Now Needs Government ID",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "09f78baf-ae12-456d-a2c1-135a90927696",
-      "title": "Proofs",
-      "url": "https://home.omg.lol/info/proofs",
-      "domain": "home.omg.lol",
-      "published_at": "2026-07-22T16:08:42Z",
-      "category": "tech",
-      "score": 0.388244943584956,
-      "tldr": "Proofs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e21735e0-ac18-47a3-8bf4-8474ae740456",
-      "title": "Quadraphonic Sound",
-      "url": "https://en.wikipedia.org/wiki/Quadraphonic_sound",
-      "domain": "en.wikipedia.org",
-      "published_at": "2026-07-22T22:15:15Z",
-      "category": "tech",
-      "score": 0.38823376240254287,
-      "tldr": "Quadraphonic Sound",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4e1d6d1b-4f91-408a-8907-d830cc0efe90",
-      "title": "OpenAI Models Escaped and Hacked a Company in Cybersecurity Test Gone Wrong",
-      "url": "https://www.wsj.com/tech/ai/openai-models-escaped-and-hacked-a-company-in-cybersecurity-test-gone-wrong-ee388506",
-      "domain": "wsj.com",
-      "published_at": "2026-07-22T14:35:05Z",
-      "category": "tech",
-      "score": 0.38823250083816013,
-      "tldr": "OpenAI Models Escaped and Hacked a Company in Cybersecurity Test Gone Wrong",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fc8adc5d-9ad9-4baa-a1cb-e77a1bc364a2",
-      "title": "What Happened When Flock Came to My Town",
-      "url": "https://www.404media.co/what-happened-when-flock-came-to-my-town",
-      "domain": "404media.co",
-      "published_at": "2026-07-23T00:01:50Z",
-      "category": "tech",
-      "score": 0.3881858621608021,
-      "tldr": "What Happened When Flock Came to My Town",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1246fedc-aae5-4100-9126-56bdf2a8931d",
-      "title": "Fretboard Memorisation with Modular Arithmetic",
-      "url": "https://ohaodha.ie/blog/fretboard-memorisation-with-modular-arithmetic",
-      "domain": "ohaodha.ie",
-      "published_at": "2026-07-22T22:09:41Z",
-      "category": "tech",
-      "score": 0.3881348897590536,
-      "tldr": "Fretboard Memorisation with Modular Arithmetic",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-23T01:43:30.515851069Z",
+  "last_updated": "2026-07-23T05:14:08.031680676Z",
   "total_count": 100
 }
