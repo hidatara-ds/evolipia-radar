@@ -330,21 +330,6 @@
       ]
     },
     {
-      "id": "76eba627-fe13-46eb-a0da-91be64064bd2",
-      "title": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection",
-      "url": "https://github.com/cgrtml/reasongate",
-      "domain": "github.com",
-      "published_at": "2026-07-16T22:21:31Z",
-      "category": "tech",
-      "score": 0.4511945200321734,
-      "tldr": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "d2f49826-891f-4d95-8583-91e4771fb943",
       "title": "GigaToken: ~1000x faster Language model tokenization",
       "url": "https://github.com/marcelroed/gigatoken",
@@ -1412,8 +1397,22 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "6148a5be-e60e-4057-80c3-e76bf6848bf0",
+      "title": "ISPs' long nightmare of having to list all the fees they charge is finally over",
+      "url": "https://arstechnica.com/tech-policy/2026/07/isps-long-nightmare-of-having-to-list-all-the-fees-they-charge-is-finally-over",
+      "domain": "arstechnica.com",
+      "published_at": "2026-07-22T20:44:02Z",
+      "category": "tech",
+      "score": 0.38909089897473037,
+      "tldr": "ISPs' long nightmare of having to list all the fees they charge is finally over",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-23T21:32:53.97453283Z",
+  "last_updated": "2026-07-23T22:45:37.011782276Z",
   "total_count": 100
 }
