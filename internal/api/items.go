@@ -106,7 +106,14 @@ func (h *ItemsHandler) HandleGetItems(c *gin.Context) {
 	})
 }
 
-func (h *ItemsHandler) queryItems(ctx context.Context, search, dateFrom, dateTo string, sources, categories []string, minRelevance int, status, sortBy, sortOrder string, page, limit int) ([]models.Item, int64, int64, error) {
+func (h *ItemsHandler) queryItems(
+	ctx context.Context,
+	search, dateFrom, dateTo string,
+	sources, categories []string,
+	minRelevance int,
+	status, sortBy, sortOrder string,
+	page, limit int,
+) ([]models.Item, int64, int64, error) {
 	if h.database == nil || h.database.Pool == nil {
 		// Mock fallback if running without live database connection
 		return mockItems(), 5, 5, nil
