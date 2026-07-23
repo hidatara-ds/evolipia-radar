@@ -70,7 +70,7 @@ func (v *Validator) ValidateItem(item *models.Item) error {
 // ScoreRelevance calculates a 0-100 relevance score based on keyword occurrences.
 func (v *Validator) ScoreRelevance(title, excerpt string) int {
 	combined := strings.ToLower(title + " " + excerpt)
-	if len(combined) == 0 {
+	if combined == "" {
 		return 0
 	}
 

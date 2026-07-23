@@ -16,6 +16,8 @@ import (
 	"github.com/hidatara-ds/evolipia-radar/pkg/db"
 )
 
+const colPublishedAt = "i.published_at"
+
 // ItemsHandler handles item listing, filtering, search, and pagination.
 type ItemsHandler struct {
 	database *db.DB
@@ -110,6 +112,60 @@ func (h *ItemsHandler) queryItems(ctx context.Context, search, dateFrom, dateTo 
 		return mockItems(), 5, 5, nil
 	}
 
+	whereStmt, args := buildWhereClauses(search, dateFrom, dateTo, sources, minRelevance, status)
+
+	// Count Total
+	var totalCount int64
+	_ = h.database.Pool.QueryRow(ctx, "SELECT COUNT(*) FROM items").Scan(&totalCount)
+
+	// Count Filtered
+	countQuery := fmt.Sprintf("SELECT COUNT(*) FROM items i LEFT JOIN sources s ON i.source_id = s.id %s", whereStmt)
+	var filteredCount int64
+	err := h.database.Pool.QueryRow(ctx, countQuery, args...).Scan(&filteredCount)
+	if err != nil {
+		return nil, 0, 0, fmt.Errorf("error counting filtered items: %w", err)
+	}
+
+	orderCol, dir := getSortOrdering(sortBy, sortOrder)
+	offset := (page - 1) * limit
+	argIdx := len(args) + 1
+
+	query := fmt.Sprintf(`
+		SELECT 
+			i.id, i.source_id, COALESCE(s.name, 'Unknown') as source_name, i.title, i.url, 
+			i.published_at, i.content_hash, i.domain, i.category, i.raw_excerpt, 
+			COALESCE(i.crawl_status, 'done') as crawl_status, i.crawl_error, COALESCE(i.relevance_score, 0) as relevance_score, 
+			i.validated_at, i.created_at,
+			sc.hot, sc.relevance, sc.credibility, sc.novelty, sc.impact, sc.engineering_value, sc.final
+		FROM items i
+		LEFT JOIN sources s ON i.source_id = s.id
+		LEFT JOIN scores sc ON i.id = sc.item_id
+		%s
+		ORDER BY %s %s
+		LIMIT $%d OFFSET $%d
+	`, whereStmt, orderCol, dir, argIdx, argIdx+1)
+
+	argsWithPagination := append(append([]interface{}{}, args...), limit, offset)
+	rows, err := h.database.Pool.Query(ctx, query, argsWithPagination...)
+	if err != nil {
+		return nil, totalCount, filteredCount, fmt.Errorf("error querying items page: %w", err)
+	}
+	defer rows.Close()
+
+	var items []models.Item
+	for rows.Next() {
+		it, scanErr := scanItemRow(rows)
+		if scanErr != nil {
+			slog.Error("Error scanning item row", "err", scanErr)
+			continue
+		}
+		items = append(items, it)
+	}
+
+	return items, totalCount, filteredCount, nil
+}
+
+func buildWhereClauses(search, dateFrom, dateTo string, sources []string, minRelevance int, status string) (string, []interface{}) {
 	var whereClauses []string
 	var args []interface{}
 	argIdx := 1
@@ -122,7 +178,7 @@ func (h *ItemsHandler) queryItems(ctx context.Context, search, dateFrom, dateTo 
 
 	if dateFrom != "" {
 		if t, err := time.Parse("2006-01-02", dateFrom); err == nil {
-			whereClauses = append(whereClauses, fmt.Sprintf("i.published_at >= $%d", argIdx))
+			whereClauses = append(whereClauses, fmt.Sprintf("%s >= $%d", colPublishedAt, argIdx))
 			args = append(args, t)
 			argIdx++
 		}
@@ -130,7 +186,7 @@ func (h *ItemsHandler) queryItems(ctx context.Context, search, dateFrom, dateTo 
 
 	if dateTo != "" {
 		if t, err := time.Parse("2006-01-02", dateTo); err == nil {
-			whereClauses = append(whereClauses, fmt.Sprintf("i.published_at <= $%d", argIdx))
+			whereClauses = append(whereClauses, fmt.Sprintf("%s <= $%d", colPublishedAt, argIdx))
 			args = append(args, t.Add(24*time.Hour))
 			argIdx++
 		}
@@ -143,15 +199,13 @@ func (h *ItemsHandler) queryItems(ctx context.Context, search, dateFrom, dateTo 
 	}
 
 	if status != "" && status != "all" {
+		targetStatus := status
 		if status == "verified" {
-			whereClauses = append(whereClauses, fmt.Sprintf("i.crawl_status = $%d", argIdx))
-			args = append(args, "done")
-			argIdx++
-		} else {
-			whereClauses = append(whereClauses, fmt.Sprintf("i.crawl_status = $%d", argIdx))
-			args = append(args, status)
-			argIdx++
+			targetStatus = "done"
 		}
+		whereClauses = append(whereClauses, fmt.Sprintf("i.crawl_status = $%d", argIdx))
+		args = append(args, targetStatus)
+		argIdx++
 	}
 
 	if len(sources) > 0 && sources[0] != "" {
@@ -168,115 +222,79 @@ func (h *ItemsHandler) queryItems(ctx context.Context, search, dateFrom, dateTo 
 		}
 	}
 
-	whereStmt := ""
-	if len(whereClauses) > 0 {
-		whereStmt = "WHERE " + strings.Join(whereClauses, " AND ")
+	if len(whereClauses) == 0 {
+		return "", args
 	}
+	return "WHERE " + strings.Join(whereClauses, " AND "), args
+}
 
-	// Count Total
-	var totalCount int64
-	_ = h.database.Pool.QueryRow(ctx, "SELECT COUNT(*) FROM items").Scan(&totalCount)
-
-	// Count Filtered
-	countQuery := fmt.Sprintf("SELECT COUNT(*) FROM items i LEFT JOIN sources s ON i.source_id = s.id %s", whereStmt)
-	var filteredCount int64
-	err := h.database.Pool.QueryRow(ctx, countQuery, args...).Scan(&filteredCount)
-	if err != nil {
-		return nil, 0, 0, fmt.Errorf("error counting filtered items: %w", err)
-	}
-
-	// Order By
-	orderCol := "i.published_at"
+func getSortOrdering(sortBy, sortOrder string) (string, string) {
 	dir := "DESC"
-	if strings.ToLower(sortOrder) == "asc" {
+	if strings.EqualFold(sortOrder, "asc") {
 		dir = "ASC"
 	}
 
 	switch strings.ToLower(sortBy) {
 	case "relevance":
-		orderCol = "i.relevance_score"
+		return "i.relevance_score", dir
 	case "credibility":
-		orderCol = "sc.credibility"
+		return "sc.credibility", dir
 	case "impact":
-		orderCol = "sc.impact"
+		return "sc.impact", dir
 	case "oldest":
-		orderCol = "i.published_at"
-		dir = "ASC"
+		return colPublishedAt, "ASC"
 	default:
-		orderCol = "i.published_at"
+		return colPublishedAt, dir
 	}
+}
 
-	offset := (page - 1) * limit
-	query := fmt.Sprintf(`
-		SELECT 
-			i.id, i.source_id, COALESCE(s.name, 'Unknown') as source_name, i.title, i.url, 
-			i.published_at, i.content_hash, i.domain, i.category, i.raw_excerpt, 
-			COALESCE(i.crawl_status, 'done') as crawl_status, i.crawl_error, COALESCE(i.relevance_score, 0) as relevance_score, 
-			i.validated_at, i.created_at,
-			sc.hot, sc.relevance, sc.credibility, sc.novelty, sc.impact, sc.engineering_value, sc.final
-		FROM items i
-		LEFT JOIN sources s ON i.source_id = s.id
-		LEFT JOIN scores sc ON i.id = sc.item_id
-		%s
-		ORDER BY %s %s
-		LIMIT $%d OFFSET $%d
-	`, whereStmt, orderCol, dir, argIdx, argIdx+1)
+type rowScanner interface {
+	Scan(dest ...interface{}) error
+}
 
-	argsWithPagination := append(args, limit, offset)
-	rows, err := h.database.Pool.Query(ctx, query, argsWithPagination...)
+func scanItemRow(scanner rowScanner) (models.Item, error) {
+	var it models.Item
+	var score models.Score
+	var hot, rel, cred, nov, imp, eng, fin *float64
+
+	err := scanner.Scan(
+		&it.ID, &it.SourceID, &it.SourceName, &it.Title, &it.URL,
+		&it.PublishedAt, &it.ContentHash, &it.Domain, &it.Category, &it.RawExcerpt,
+		&it.CrawlStatus, &it.CrawlError, &it.RelevanceScore,
+		&it.ValidatedAt, &it.CreatedAt,
+		&hot, &rel, &cred, &nov, &imp, &eng, &fin,
+	)
 	if err != nil {
-		return nil, totalCount, filteredCount, fmt.Errorf("error querying items page: %w", err)
-	}
-	defer rows.Close()
-
-	var items []models.Item
-	for rows.Next() {
-		var it models.Item
-		var score models.Score
-		var hot, rel, cred, nov, imp, eng, fin *float64
-
-		err := rows.Scan(
-			&it.ID, &it.SourceID, &it.SourceName, &it.Title, &it.URL,
-			&it.PublishedAt, &it.ContentHash, &it.Domain, &it.Category, &it.RawExcerpt,
-			&it.CrawlStatus, &it.CrawlError, &it.RelevanceScore,
-			&it.ValidatedAt, &it.CreatedAt,
-			&hot, &rel, &cred, &nov, &imp, &eng, &fin,
-		)
-		if err != nil {
-			slog.Error("Error scanning item row", "err", err)
-			continue
-		}
-
-		if fin != nil {
-			score.Final = *fin
-			if hot != nil {
-				score.Hot = *hot
-			}
-			if rel != nil {
-				score.Relevance = *rel
-			}
-			if cred != nil {
-				score.Credibility = *cred
-			}
-			if nov != nil {
-				score.Novelty = *nov
-			}
-			if imp != nil {
-				score.Impact = *imp
-			}
-			if eng != nil {
-				score.EngineeringValue = *eng
-			}
-			it.Score = &score
-			it.ScaledScore = score.Final * 10
-		} else {
-			it.ScaledScore = float64(it.RelevanceScore) / 10.0
-		}
-
-		items = append(items, it)
+		return it, err
 	}
 
-	return items, totalCount, filteredCount, nil
+	if fin != nil {
+		score.Final = *fin
+		if hot != nil {
+			score.Hot = *hot
+		}
+		if rel != nil {
+			score.Relevance = *rel
+		}
+		if cred != nil {
+			score.Credibility = *cred
+		}
+		if nov != nil {
+			score.Novelty = *nov
+		}
+		if imp != nil {
+			score.Impact = *imp
+		}
+		if eng != nil {
+			score.EngineeringValue = *eng
+		}
+		it.Score = &score
+		it.ScaledScore = score.Final * 10
+	} else {
+		it.ScaledScore = float64(it.RelevanceScore) / 10.0
+	}
+
+	return it, nil
 }
 
 func mockItems() []models.Item {

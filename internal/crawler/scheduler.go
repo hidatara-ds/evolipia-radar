@@ -49,7 +49,9 @@ func NewScheduler(interval string, task CrawlTaskFunc, progressReporter func(mod
 	}
 
 	_, err := c.AddFunc(interval, func() {
-		s.RunCrawl(context.Background(), "auto")
+		if _, crawlErr := s.RunCrawl(context.Background(), "auto"); crawlErr != nil {
+			slog.Warn("Scheduled auto-crawl skipped or failed", "err", crawlErr)
+		}
 	})
 	if err != nil {
 		return nil, fmt.Errorf("failed to schedule crawl job with spec '%s': %w", interval, err)
