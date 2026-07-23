@@ -1,3 +1,4 @@
+// Package models defines data models and database structs.
 package models
 
 import (
@@ -6,6 +7,7 @@ import (
 	"github.com/google/uuid"
 )
 
+// Source represents a content source feed configuration.
 type Source struct {
 	ID              uuid.UUID `json:"id"`
 	Name            string    `json:"name"`
@@ -21,19 +23,7 @@ type Source struct {
 	UpdatedAt       time.Time `json:"updated_at"`
 }
 
-type Item struct {
-	ID          uuid.UUID `json:"id"`
-	SourceID    uuid.UUID `json:"source_id"`
-	Title       string    `json:"title"`
-	URL         string    `json:"url"`
-	PublishedAt time.Time `json:"published_at"`
-	ContentHash string    `json:"content_hash"`
-	Domain      string    `json:"domain"`
-	Category    string    `json:"category"`
-	RawExcerpt  *string   `json:"raw_excerpt,omitempty"`
-	CreatedAt   time.Time `json:"created_at"`
-}
-
+// Signal represents social signals (upvotes, comments, rank position) for an item.
 type Signal struct {
 	ID        uuid.UUID `json:"id"`
 	ItemID    uuid.UUID `json:"item_id"`
@@ -43,6 +33,7 @@ type Signal struct {
 	FetchedAt time.Time `json:"fetched_at"`
 }
 
+// Score represents computed algorithmic and LLM quality scores for an item.
 type Score struct {
 	ItemID           uuid.UUID `json:"item_id"`
 	Hot              float64   `json:"hot"`
@@ -56,6 +47,7 @@ type Score struct {
 	ComputedAt       time.Time `json:"computed_at"`
 }
 
+// Summary represents an AI-generated TLDR and summary breakdown.
 type Summary struct {
 	ItemID       uuid.UUID `json:"item_id"`
 	TLDR         string    `json:"tldr"`
@@ -65,6 +57,7 @@ type Summary struct {
 	CreatedAt    time.Time `json:"created_at"`
 }
 
+// FetchRun represents a historical record of a crawl execution pass.
 type FetchRun struct {
 	ID            uuid.UUID `json:"id"`
 	SourceID      uuid.UUID `json:"source_id"`
@@ -75,6 +68,7 @@ type FetchRun struct {
 	ItemsInserted int       `json:"items_inserted"`
 }
 
+// Setting represents dynamic system configuration settings.
 type Setting struct {
 	Key       string    `json:"key"`
 	Value     string    `json:"value"`

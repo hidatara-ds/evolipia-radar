@@ -1,17 +1,37 @@
+// Package config provides application configuration loading and validation.
 package config
 
 import (
+	"log/slog"
 	"os"
 	"strconv"
 	"strings"
 	"time"
 )
 
+const (
+	defaultPort              = "8080"
+	defaultDatabaseURL       = "postgres://postgres:postgres@localhost:5432/radar?sslmode=disable"
+	defaultCacheTTL          = 60
+	defaultCrawlInterval     = "@every 6h"
+	defaultMinRelevance      = 30
+	defaultMaxRetries        = 3
+	defaultFetchTimeout      = 8
+	defaultMaxFetchBytes     = 2000000
+	defaultTopicKeywords     = "llm,agents,vision,open source,infra,robotics,security,ai,machine learning"
+	defaultFallbackLLMModels = "anthropic/claude-3.5-sonnet,meta-llama/llama-3.1-70b-instruct"
+)
+
+// Config holding all environment configuration options for Evolipia Radar.
 type Config struct {
 	DatabaseURL         string
 	Port                string
 	CacheTTLSeconds     int
 	WorkerCron          string
+	CrawlInterval       string
+	MinRelevanceScore   int
+	MaxCrawlRetries     int
+	TopicKeywords       []string
 	MaxFetchBytes       int64
 	FetchTimeoutSeconds int
 
@@ -25,25 +45,25 @@ type Config struct {
 	LLMEnabled        bool
 }
 
+// Load populates Config from environment variables with safe default values.
 func Load() *Config {
-	// Parse fallback models from comma-separated string
-	fallbackModelsStr := getEnv("LLM_FALLBACK_MODELS", "anthropic/claude-3.5-sonnet,meta-llama/llama-3.1-70b-instruct")
-	var fallbackModels []string
-	if fallbackModelsStr != "" {
-		for _, model := range splitString(fallbackModelsStr, ",") {
-			if model != "" {
-				fallbackModels = append(fallbackModels, model)
-			}
-		}
-	}
+	fallbackModelsStr := getEnv("LLM_FALLBACK_MODELS", defaultFallbackLLMModels)
+	fallbackModels := splitString(fallbackModelsStr, ",")
 
-	return &Config{
-		DatabaseURL:         getEnv("DATABASE_URL", "postgres://postgres:postgres@localhost:5432/radar?sslmode=disable"),
-		Port:                getEnv("PORT", "8080"),
-		CacheTTLSeconds:     getEnvInt("CACHE_TTL_SECONDS", 60),
+	topicsStr := getEnv("TOPICS_KEYWORDS", defaultTopicKeywords)
+	topics := splitString(topicsStr, ",")
+
+	cfg := &Config{
+		DatabaseURL:         getEnv("DATABASE_URL", defaultDatabaseURL),
+		Port:                getEnv("PORT", defaultPort),
+		CacheTTLSeconds:     getEnvInt("CACHE_TTL_SECONDS", defaultCacheTTL),
 		WorkerCron:          getEnv("WORKER_CRON", "*/10 * * * *"),
-		MaxFetchBytes:       int64(getEnvInt("MAX_FETCH_BYTES", 2000000)),
-		FetchTimeoutSeconds: getEnvInt("FETCH_TIMEOUT_SECONDS", 8),
+		CrawlInterval:       getEnv("CRAWL_INTERVAL", defaultCrawlInterval),
+		MinRelevanceScore:   getEnvInt("MIN_RELEVANCE_SCORE", defaultMinRelevance),
+		MaxCrawlRetries:     getEnvInt("MAX_CRAWL_RETRIES", defaultMaxRetries),
+		TopicKeywords:       topics,
+		MaxFetchBytes:       int64(getEnvInt("MAX_FETCH_BYTES", defaultMaxFetchBytes)),
+		FetchTimeoutSeconds: getEnvInt("FETCH_TIMEOUT_SECONDS", defaultFetchTimeout),
 
 		// LLM Configuration
 		LLMProvider:       getEnv("LLM_PROVIDER", "openrouter"),
@@ -54,6 +74,31 @@ func Load() *Config {
 		LLMTemperature:    getEnvFloat("LLM_TEMPERATURE", 0.7),
 		LLMEnabled:        getEnvBool("LLM_ENABLED", false),
 	}
+
+	cfg.Validate()
+	return cfg
+}
+
+// Validate checks critical config parameters.
+func (c *Config) Validate() {
+	if c.MinRelevanceScore < 0 || c.MinRelevanceScore > 100 {
+		slog.Warn("MIN_RELEVANCE_SCORE out of bounds [0-100], defaulting to 30", "val", c.MinRelevanceScore)
+		c.MinRelevanceScore = defaultMinRelevance
+	}
+	if c.MaxCrawlRetries <= 0 {
+		slog.Warn("MAX_CRAWL_RETRIES must be positive, defaulting to 3", "val", c.MaxCrawlRetries)
+		c.MaxCrawlRetries = defaultMaxRetries
+	}
+}
+
+// CacheTTL returns duration for cache expiry.
+func (c *Config) CacheTTL() time.Duration {
+	return time.Duration(c.CacheTTLSeconds) * time.Second
+}
+
+// FetchTimeout returns HTTP client timeout duration.
+func (c *Config) FetchTimeout() time.Duration {
+	return time.Duration(c.FetchTimeoutSeconds) * time.Second
 }
 
 func getEnv(key, defaultValue string) string {
@@ -70,14 +115,6 @@ func getEnvInt(key string, defaultValue int) int {
 		}
 	}
 	return defaultValue
-}
-
-func (c *Config) CacheTTL() time.Duration {
-	return time.Duration(c.CacheTTLSeconds) * time.Second
-}
-
-func (c *Config) FetchTimeout() time.Duration {
-	return time.Duration(c.FetchTimeoutSeconds) * time.Second
 }
 
 func getEnvFloat(key string, defaultValue float64) float64 {

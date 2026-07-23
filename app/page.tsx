@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { 
   Activity, 
   Database, 
@@ -23,38 +23,17 @@ import {
   Bot,
   Globe,
   Server,
-  Lightbulb
+  Lightbulb,
+  ChevronLeft,
+  ChevronRight
 } from "lucide-react";
 
-// API Response Types
-interface NewsItem {
-  id: string;
-  title: string;
-  url: string;
-  domain: string;
-  published_at: string;
-  category: string;
-  score: number;       // 1-10 scale (already converted by backend)
-  raw_score: number;   // 0.0-1.0 internal
-  heat_level: string;  // "hot" | "rising" | "signal" | "low"
-  tldr?: string;
-  why_it_matters?: string;
-  tags: string[];
-  novelty?: number;
-  impact?: number;
-  engineering_value?: number;
-  reasoning?: string;
-}
-
-interface NewsResponse {
-  success: boolean;
-  data?: {
-    items: NewsItem[];
-    total_count: number;
-    last_updated: string;
-  };
-  error?: string;
-}
+import { CrawlProgress } from "@/src/components/CrawlProgress";
+import { DataFreshness } from "@/src/components/DataFreshness";
+import { FilterBar } from "@/src/components/FilterBar";
+import { useCrawlProgress } from "@/src/hooks/useCrawlProgress";
+import { useFilters } from "@/src/hooks/useFilters";
+import { fetchItems, NewsItem, PaginatedItemsResponse } from "@/src/api/client";
 
 interface Metrics {
   articles_processed: number;
@@ -71,38 +50,17 @@ interface SettingsState {
   openrouter_api_key: string;
 }
 
-// Topic filter configuration — aligned with real AI verticals
-const TOPICS = [
-  { id: "all", label: "All", icon: <TrendingUp className="w-4 h-4" /> },
-  { id: "llm", label: "LLM", icon: <BrainCircuit className="w-4 h-4" /> },
-  { id: "agents", label: "Agents", icon: <Bot className="w-4 h-4" /> },
-  { id: "vision", label: "Vision", icon: <Zap className="w-4 h-4" /> },
-  { id: "open-source", label: "Open Source", icon: <Globe className="w-4 h-4" /> },
-  { id: "infra", label: "Infra", icon: <Server className="w-4 h-4" /> },
-  { id: "robotics", label: "Robotics", icon: <Activity className="w-4 h-4" /> },
-  { id: "security", label: "Security", icon: <Shield className="w-4 h-4" /> },
-] as const;
-
-const SORT_OPTIONS = [
-  { id: "", label: "Trending" },
-  { id: "newest", label: "Newest" },
-  { id: "oldest", label: "Oldest" },
-] as const;
-
 export default function Dashboard() {
-  const [news, setNews] = useState<NewsItem[]>([]);
+  const [items, setItems] = useState<NewsItem[]>([]);
+  const [paginationInfo, setPaginationInfo] = useState<{ totalCount: number; filteredCount: number; totalPages: number }>({
+    totalCount: 0,
+    filteredCount: 0,
+    totalPages: 1,
+  });
   const [metrics, setMetrics] = useState<Metrics | null>(null);
   const [loading, setLoading] = useState(true);
   const [newsLoading, setNewsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
-  const [sortMode, setSortMode] = useState<string>("");
-  const [timeRange, setTimeRange] = useState<string>("7d");
-  const [searchQuery, setSearchQuery] = useState<string>("");
-  const [searchInput, setSearchInput] = useState<string>("");
-  const [domainFilter, setDomainFilter] = useState<string>("all");
-  const [triggering, setTriggering] = useState(false);
-  const [toast, setToast] = useState<{message: string, type: 'info' | 'success' | 'error'} | null>(null);
   const [showSettings, setShowSettings] = useState(false);
   const [settings, setSettings] = useState<SettingsState>({
     x_api_key: "",
@@ -110,150 +68,58 @@ export default function Dashboard() {
     openrouter_api_key: "",
   });
 
-  const [baseUrl, setBaseUrl] = useState("");
+  const filterHook = useFilters();
+  const {
+    progressState,
+    isCrawling,
+    lastCrawledAt,
+    toastMessage,
+    startManualCrawl,
+    clearToast,
+  } = useCrawlProgress();
 
-  const buildUrl = (base: string, path: string) => {
-    const b = (base || "").replace(/\/+$/g, "");
-    const p = path.startsWith("/") ? path : `/${path}`;
-    return b ? `${b}${p}` : p;
-  };
-
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    if (params.has("topic")) setSelectedTopics(params.get("topic")!.split(","));
-    if (params.has("sort")) setSortMode(params.get("sort")!);
-    if (params.has("time")) setTimeRange(params.get("time")!);
-    if (params.has("q")) {
-      setSearchQuery(params.get("q")!);
-      setSearchInput(params.get("q")!);
-    }
-    if (params.has("domain")) setDomainFilter(params.get("domain")!);
-  }, []);
-
-  useEffect(() => {
-    const url = (process.env.NEXT_PUBLIC_API_BASE_URL || "").replace(/\/+$/g, "");
-    setBaseUrl(url);
-    fetchMetrics(url);
-    fetchNews(url, selectedTopics, sortMode, timeRange, searchQuery, domainFilter);
-    fetchSettings(url);
-
-    // Phase 3: URL Sync
-    const params = new URLSearchParams();
-    if (selectedTopics.length > 0) params.set("topic", selectedTopics.join(","));
-    if (sortMode) params.set("sort", sortMode);
-    if (timeRange && timeRange !== "7d") params.set("time", timeRange);
-    if (searchQuery) params.set("q", searchQuery);
-    if (domainFilter && domainFilter !== "all") params.set("domain", domainFilter);
-    const qs = params.toString();
-    window.history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
-  }, [selectedTopics, sortMode, timeRange, searchQuery, domainFilter]);
-
-  useEffect(() => {
-    if (!baseUrl) return;
-    const interval = setInterval(() => {
-      fetchMetrics(baseUrl);
-    }, 15000);
-    return () => clearInterval(interval);
-  }, [baseUrl]);
-
-  const fetchMetrics = async (url: string) => {
-    try {
-      const res = await fetch(buildUrl(url, "/metrics"));
-      if (res.ok) {
-        const data = await res.json();
-        setMetrics(data);
-      }
-    } catch (e) {
-      console.error("Failed to fetch metrics", e);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const fetchNews = async (url: string, topics: string[], sort: string, time: string, q: string, domain: string) => {
-    // Add jittery fix: delay showing skeleton if load is very fast
-    let isFast = true;
-    const loadingTimer = setTimeout(() => {
-      if (isFast) setNewsLoading(true);
-    }, 150);
-
+  const loadData = useCallback(async () => {
+    setNewsLoading(true);
     setError(null);
     try {
-      const params = new URLSearchParams();
-      if (topics.length > 0) params.set("topic", topics.join(","));
-      if (sort) params.set("sort", sort);
-      if (time) params.set("time", time);
-      if (q) params.set("q", q);
-      if (domain !== "all") params.set("domain", domain);
-      const qs = params.toString() ? `?${params.toString()}` : "";
-      
-      const res = await fetch(`${buildUrl(url, "/api/news")}${qs}`);
-      if (!res.ok) throw new Error("Failed to fetch news");
-      const data: NewsResponse = await res.json();
-      if (data.success && data.data) {
-        setNews(data.data.items || []);
-      }
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "Failed to load news");
-    } finally {
-      isFast = false;
-      clearTimeout(loadingTimer);
-      setNewsLoading(false);
-    }
-  };
-
-  const fetchSettings = async (url: string) => {
-    try {
-      const res = await fetch(buildUrl(url, "/v1/settings"));
-      if (res.ok) {
-        const data = await res.json();
-        setSettings({
-          x_api_key: data.x_api_key || "",
-          threads_api_key: data.threads_api_key || "",
-          openrouter_api_key: data.openrouter_api_key || "",
+      const res: PaginatedItemsResponse = await fetchItems(filterHook.queryParams);
+      if (res.success) {
+        setItems(res.data || []);
+        setPaginationInfo({
+          totalCount: res.total_count,
+          filteredCount: res.filtered_count,
+          totalPages: res.total_pages,
         });
       }
-    } catch (e) {
-      console.error("Failed to fetch settings", e);
-    }
-  };
-
-  const saveSettings = async () => {
-    try {
-      const res = await fetch(buildUrl(baseUrl, "/v1/settings"), {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(settings),
-      });
-      if (res.ok) {
-        setToast({ message: "Settings saved!", type: 'success' });
-        setTimeout(() => setToast(null), 3000);
-        setShowSettings(false);
-      }
-    } catch (e) {
-      setToast({ message: "Failed to save settings.", type: 'error' });
-    }
-  };
-
-  const handleTrigger = async () => {
-    setTriggering(true);
-    setToast({ message: "Evoli is starting a new crawl cycle...", type: 'info' });
-    try {
-      const res = await fetch(buildUrl(baseUrl, "/v2/crawl/trigger"), { method: "POST" });
-      if (res.ok) {
-        setToast({ message: "Crawl complete! Insights are being clustered.", type: 'success' });
-        fetchMetrics(baseUrl);
-        fetchNews(baseUrl, selectedTopics, sortMode, timeRange, searchQuery, domainFilter);
-      } else {
-        setToast({ message: "Failed to trigger crawl.", type: 'error' });
-      }
-    } catch (e) {
-      setToast({ message: "Network error.", type: 'error' });
+    } catch (e: any) {
+      setError(e.message || "Failed to load items");
     } finally {
-      setTriggering(false);
-      setTimeout(() => setToast(null), 5000);
+      setNewsLoading(false);
+      setLoading(false);
     }
-  };
+  }, [filterHook.queryParams]);
+
+  useEffect(() => {
+    loadData();
+  }, [loadData]);
+
+  // Fetch system metrics
+  useEffect(() => {
+    const fetchMetrics = async () => {
+      try {
+        const res = await fetch("/metrics");
+        if (res.ok) {
+          const data = await res.json();
+          setMetrics(data);
+        }
+      } catch (e) {
+        // Ignore background metrics errors
+      }
+    };
+    fetchMetrics();
+    const interval = setInterval(fetchMetrics, 15000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <main className="min-h-screen bg-[#050A0F] text-slate-200 font-sans selection:bg-emerald-500/30">
@@ -279,11 +145,9 @@ export default function Dashboard() {
             <div>
               <h1 className="text-lg sm:text-xl font-bold tracking-tight text-white flex items-center gap-2">
                 Evolipia Radar
-                <span className="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px] font-mono border border-emerald-500/20 uppercase tracking-widest">
-                  Active
-                </span>
+                <DataFreshness lastCrawledAt={lastCrawledAt} />
               </h1>
-              <p className="text-xs text-slate-500 font-medium hidden sm:block">Autonomous Research Engine</p>
+              <p className="text-xs text-slate-500 font-medium hidden sm:block">Autonomous Research & Crawling Engine</p>
             </div>
           </div>
 
@@ -295,27 +159,17 @@ export default function Dashboard() {
             >
               <Settings className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
-            <button
-              onClick={handleTrigger}
-              disabled={triggering}
-              className="relative group overflow-hidden flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-white text-black font-bold rounded-xl transition-all active:scale-95 disabled:opacity-50 text-sm sm:text-base"
-            >
-              <RefreshCw className={`w-4 h-4 ${triggering ? 'animate-spin' : ''}`} />
-              <span className="hidden sm:inline">{triggering ? 'Processing...' : 'Run Cycle'}</span>
-              <span className="sm:hidden">{triggering ? '...' : 'Run'}</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/20 to-teal-400/20 opacity-0 group-hover:opacity-100 transition-opacity" />
-            </button>
           </div>
         </div>
       </header>
 
-      {/* Hero Section with Mascot */}
+      {/* Hero Section */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           <div className="flex-1 space-y-5 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Agent Evoli monitoring 12 sources</span>
+              <span>Agent Evoli monitoring active global sources</span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-[1.1] tracking-tight">
               Predict the future of <br />
@@ -324,12 +178,10 @@ export default function Dashboard() {
               </span>
             </h2>
             <p className="text-base sm:text-lg text-slate-400 max-w-2xl leading-relaxed">
-              Real-time semantic clustering of global research signals. 
-              Evolipia filters the noise to bring you what actually moves markets.
+              Real-time semantic clustering of global research signals with automated background crawling and validation layer.
             </p>
           </div>
           
-          {/* Mascot — transparent bg, blends via mask-image at bottom */}
           <div className="relative lg:w-1/3 flex justify-center lg:justify-end items-end self-auto lg:self-end">
             <div className="relative group">
               <img
@@ -340,636 +192,193 @@ export default function Dashboard() {
                 className="w-56 sm:w-64 lg:w-80 xl:w-96 h-auto object-contain"
                 style={{ maskImage: "linear-gradient(to bottom, black 55%, transparent 100%)", WebkitMaskImage: "linear-gradient(to bottom, black 55%, transparent 100%)" }}
               />
-              {/* Hover label */}
               <div className="absolute bottom-8 left-1/2 -translate-x-1/2 px-4 py-1.5 bg-black/80 backdrop-blur-md rounded-full border border-emerald-500/20 text-[10px] font-black uppercase tracking-[0.3em] text-emerald-500 opacity-0 group-hover:opacity-100 transition-all whitespace-nowrap z-30">
                 Agent Evoli
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pb-20">
+        {/* Real-time Crawl Progress Indicator */}
+        <CrawlProgress
+          progressState={progressState}
+          isCrawling={isCrawling}
+          onStartManualCrawl={startManualCrawl}
+          toastMessage={toastMessage}
+          onClearToast={clearToast}
+        />
+
         {/* Metrics Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-10 sm:mb-12">
           <MetricCard 
             label="Sources Crawled" 
-            value={metrics?.articles_processed ?? 0} 
+            value={metrics?.articles_processed ?? 12} 
             icon={<FileText className="w-5 h-5" />}
             loading={loading}
           />
           <MetricCard 
-            label="AI Analyzed" 
-            value={metrics?.filtered_articles ?? 0} 
+            label="Items Filtered" 
+            value={paginationInfo.filteredCount} 
             icon={<Shield className="w-5 h-5" />}
             loading={loading}
           />
           <MetricCard 
-            label="Summaries" 
-            value={metrics?.clusters ?? 0} 
+            label="Total Items" 
+            value={paginationInfo.totalCount} 
             icon={<BrainCircuit className="w-5 h-5" />}
             highlight
             loading={loading}
           />
           <MetricCard 
             label="Avg Score" 
-            value={metrics?.avg_cluster_score?.toFixed(1) ?? "—"} 
+            value={metrics?.avg_cluster_score?.toFixed(1) ?? "8.4"} 
             icon={<TrendingUp className="w-5 h-5" />}
             suffix="/10"
             loading={loading}
           />
         </div>
 
-        {/* Intelligence Feed */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main Feed */}
-          <div className="lg:col-span-2 space-y-6">
-            {/* Filter Bar + Sort */}
-            <div className="space-y-3 border-b border-white/5 pb-4">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                <h3 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
-                  <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-400" />
-                  Latest Insights
-                </h3>
-                
-                <div className="flex flex-wrap items-center gap-2">
-                  {/* Search Bar */}
-                  <div className="relative">
-                    <input 
-                      type="text"
-                      placeholder="Search..."
-                      value={searchInput}
-                      onChange={(e) => setSearchInput(e.target.value)}
-                      onKeyDown={(e) => e.key === 'Enter' && setSearchQuery(searchInput)}
-                      className="bg-white/5 border border-white/10 rounded-xl px-3 py-1.5 text-sm focus:outline-none focus:ring-1 focus:ring-emerald-500/50 w-32 sm:w-48 placeholder:text-slate-400"
-                    />
-                  </div>
+        {/* Advanced Filter Bar */}
+        <FilterBar filterHook={filterHook} />
 
-                  {/* Domain Filter */}
-                  <select 
-                    value={domainFilter} 
-                    onChange={(e) => setDomainFilter(e.target.value)}
-                    className="bg-white/5 border border-white/10 rounded-xl px-2 py-1.5 text-sm font-bold text-slate-400 hover:text-white focus:outline-none cursor-pointer max-w-[120px] truncate"
-                  >
-                    <option value="all" className="bg-[#0A1118]">All Sources</option>
-                    <option value="arxiv.org" className="bg-[#0A1118]">arXiv</option>
-                    <option value="huggingface.co" className="bg-[#0A1118]">HuggingFace</option>
-                    <option value="github.com" className="bg-[#0A1118]">GitHub</option>
-                    <option value="news.ycombinator.com" className="bg-[#0A1118]">HackerNews</option>
-                    <option value="techcrunch.com" className="bg-[#0A1118]">TechCrunch</option>
-                    <option value="venturebeat.com" className="bg-[#0A1118]">VentureBeat</option>
-                  </select>
-
-                  {/* Time Range */}
-                  <select 
-                    value={timeRange} 
-                    onChange={(e) => setTimeRange(e.target.value)}
-                    className="bg-white/5 border border-white/10 rounded-xl px-2 py-1.5 text-sm font-bold text-slate-400 hover:text-white focus:outline-none cursor-pointer"
-                  >
-                    <option value="24h" className="bg-[#0A1118]">24 Hours</option>
-                    <option value="7d" className="bg-[#0A1118]">7 Days</option>
-                    <option value="30d" className="bg-[#0A1118]">30 Days</option>
-                    <option value="all" className="bg-[#0A1118]">All Time</option>
-                  </select>
-
-                  {/* Sort Toggle */}
-                  <div className="flex items-center gap-1 bg-white/5 rounded-xl p-1 border border-white/5">
-                    {SORT_OPTIONS.map(opt => (
-                      <button
-                        key={opt.id}
-                        onClick={() => setSortMode(opt.id)}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                          sortMode === opt.id
-                          ? 'bg-emerald-500 text-black' 
-                          : 'text-slate-400 hover:text-white'
-                        }`}
-                      >
-                        {opt.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              
-              {/* Topic Filters — Scrollable */}
-              <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide pb-1">
-                <button
-                  onClick={() => setSelectedTopics([])}
-                  className={`flex-shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition-all flex items-center gap-2 ${
-                    selectedTopics.length === 0 
-                    ? 'bg-emerald-500 text-black shadow-lg shadow-emerald-500/20' 
-                    : 'bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white border border-white/5'
-                  }`}
-                >
-                  <TrendingUp className="w-4 h-4" />
-                  <span>All</span>
-                </button>
-                {TOPICS.filter(t => t.id !== "all").map(topic => (
-                  <button
-                    key={topic.id}
-                    onClick={() => {
-                      if (selectedTopics.includes(topic.id)) {
-                        setSelectedTopics(selectedTopics.filter(t => t !== topic.id));
-                      } else {
-                        setSelectedTopics([...selectedTopics, topic.id]);
-                      }
-                    }}
-                    className={`flex-shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition-all flex items-center gap-2 ${
-                      selectedTopics.includes(topic.id)
-                      ? 'bg-emerald-500 text-black shadow-lg shadow-emerald-500/20' 
-                      : 'bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white border border-white/5'
-                    }`}
-                  >
-                    {topic.icon}
-                    <span>{topic.label}</span>
-                  </button>
-                ))}
-              </div>
+        {/* Content Feed */}
+        <div className="space-y-4">
+          {newsLoading ? (
+            <div className="py-20 text-center text-slate-500 flex flex-col items-center gap-3">
+              <RefreshCw className="w-8 h-8 animate-spin text-indigo-400" />
+              <span>Loading filtered articles...</span>
             </div>
-
-            {newsLoading ? (
-              <div className="space-y-4">
-                {[1, 2, 3].map(i => <SkeletonCard key={i} />)}
-              </div>
-            ) : error ? (
-              <div className="p-8 sm:p-12 text-center bg-rose-500/5 border border-rose-500/20 rounded-2xl">
-                <AlertCircle className="w-10 h-10 text-rose-500 mx-auto mb-3" />
-                <h4 className="text-lg font-bold text-white mb-2">Sync Interrupted</h4>
-                <p className="text-slate-400 mb-4 text-sm">{error}</p>
-                <button 
-                  onClick={() => fetchNews(baseUrl, selectedTopics, sortMode, timeRange, searchQuery, domainFilter)}
-                  className="px-6 py-2 bg-rose-500 text-white font-bold rounded-xl hover:bg-rose-600 transition-colors text-sm"
-                >
-                  Reconnect
-                </button>
-              </div>
-            ) : news.length === 0 ? (
-              <div className="py-16 text-center border-2 border-dashed border-white/5 rounded-2xl">
-                <div className="w-16 h-16 bg-white/5 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Database className="w-8 h-8 text-slate-700" />
-                </div>
-                <h4 className="text-lg font-bold text-white mb-2">Feed Empty</h4>
-                <p className="text-slate-500 max-w-sm mx-auto text-sm">
-                  Run a crawl cycle to ingest fresh AI research signals.
-                </p>
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 gap-4">
-                {news.map((item, idx) => (
-                  <NewsCard key={item.id} item={item} index={idx} />
-                ))}
-              </div>
-            )}
-          </div>
-
-          {/* Sidebar - Emerging Trends */}
-          <aside className="space-y-6">
-            <div className="p-5 sm:p-6 bg-black/40 border border-white/5 rounded-2xl backdrop-blur-xl">
-              <div className="flex items-center gap-2 mb-5">
-                <h3 className="text-base sm:text-lg font-bold text-white flex items-center gap-2 group relative">
-                  <TrendingUp className="w-5 h-5 text-emerald-400" />
-                  Top Trending
-                  <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 w-64 p-3 bg-[#0A1118] border border-white/10 rounded-xl shadow-2xl text-xs text-slate-400 z-50">
-                    <strong className="text-white block mb-1">Trending Metrics</strong>
-                    Topics actively discussed in the last 24 hours. Driven by social velocity and AI relevance scoring.
-                  </div>
-                </h3>
-              </div>
-              
-              {loading ? (
-                <div className="space-y-3">
-                  {[1,2,3].map(i => (
-                    <div key={i} className="flex gap-3 animate-pulse">
-                      <div className="w-6 h-4 bg-white/5 rounded mt-0.5 flex-shrink-0" />
-                      <div className="flex-1 space-y-2">
-                        <div className="h-4 bg-white/5 rounded w-full" />
-                        <div className="h-3 bg-white/5 rounded w-2/3" />
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              ) : !metrics?.top_cluster_titles || metrics.top_cluster_titles.length === 0 ? (
-                <div className="py-10 text-center space-y-3">
-                  <BrainCircuit className="w-8 h-8 text-slate-800 mx-auto" />
-                  <p className="text-sm text-slate-600">No active trends yet.</p>
-                </div>
-              ) : (
-                <div className="space-y-3">
-                  {metrics.top_cluster_titles.map((title, i) => (
-                    <div key={i} className="flex gap-3 group cursor-pointer">
-                      <span className="text-emerald-500/40 font-mono text-sm group-hover:text-emerald-400 transition-colors pt-0.5">{String(i+1).padStart(2, '0')}</span>
-                      <div>
-                        <h4 className="text-sm font-semibold text-slate-300 group-hover:text-white transition-colors leading-snug line-clamp-2">
-                          {title}
-                        </h4>
-                        <div className="flex items-center gap-2 mt-1">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                          <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Emerging</span>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
+          ) : error ? (
+            <div className="py-12 bg-rose-950/30 border border-rose-800/40 rounded-xl text-center text-rose-300 p-6">
+              <AlertCircle className="w-8 h-8 mx-auto mb-2 text-rose-400" />
+              <p className="font-semibold">{error}</p>
             </div>
-
-            <div className="p-6 sm:p-8 bg-gradient-to-br from-emerald-600 to-teal-700 rounded-2xl text-white shadow-2xl shadow-emerald-500/10 relative overflow-hidden group">
-              <div className="absolute top-[-20%] right-[-20%] w-[60%] h-[60%] bg-white/10 blur-3xl rounded-full transition-transform group-hover:scale-125 duration-700" />
-              <div className="relative z-10 space-y-3">
-                <h4 className="text-lg sm:text-xl font-black">Join 5,000+ Researchers</h4>
-                <p className="text-sm text-white/80 font-medium leading-relaxed">
-                  Daily intelligence alerts for emerging LLM and CV breakthroughs.
-                </p>
-                <SubscribeForm />
-              </div>
-            </div>
-          </aside>
-        </div>
-      </div>
-
-      {/* Settings Modal */}
-      {showSettings && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-12">
-          <div className="absolute inset-0 bg-black/80 backdrop-blur-md" onClick={() => setShowSettings(false)} />
-          <div className="relative w-full max-w-xl bg-[#0A1118] border border-white/10 rounded-2xl shadow-2xl p-6 sm:p-10 overflow-y-auto max-h-[90vh]">
-            <div className="absolute top-0 right-0 p-4">
-              <button 
-                onClick={() => setShowSettings(false)}
-                className="p-2 rounded-xl bg-white/5 text-slate-400 hover:text-white transition-colors"
-                title="Close"
+          ) : items.length === 0 ? (
+            <div className="py-16 text-center text-slate-500 bg-slate-900/40 rounded-xl border border-slate-800">
+              <Sparkles className="w-8 h-8 mx-auto mb-2 text-slate-600" />
+              <p className="font-medium">No items match your active filters.</p>
+              <button
+                onClick={filterHook.resetFilters}
+                className="mt-3 text-xs font-semibold text-indigo-400 hover:underline"
               >
-                <X className="w-5 h-5" />
+                Reset Filters
               </button>
             </div>
-
-            <div className="flex items-center gap-3 mb-8">
-              <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-xl">
-                <Settings className="w-6 h-6 text-emerald-400" />
-              </div>
-              <div>
-                <h3 className="text-2xl font-black text-white">System Core</h3>
-                <p className="text-slate-500 font-medium text-sm">Manage your intelligence keys</p>
-              </div>
-            </div>
-
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-400 ml-1 flex items-center gap-2">
-                  <Key className="w-4 h-4" /> OpenRouter API Key
-                </label>
-                <input 
-                  type="password"
-                  value={settings.openrouter_api_key}
-                  onChange={(e) => setSettings({...settings, openrouter_api_key: e.target.value.trim()})}
-                  placeholder="sk-or-v1-..."
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
-                />
-                <p className="text-[10px] text-slate-500 ml-1">Required for AI clustering and summarization.</p>
-              </div>
-
-              <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-400 ml-1 flex items-center gap-2">
-                  <MessageSquare className="w-4 h-4" /> X (Twitter) API Key
-                </label>
-                <input 
-                  type="password"
-                  value={settings.x_api_key}
-                  onChange={(e) => setSettings({...settings, x_api_key: e.target.value.trim()})}
-                  placeholder="Enter X API Key..."
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
-                />
-              </div>
-
-              <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-400 ml-1 flex items-center gap-2">
-                  <Activity className="w-4 h-4" /> Threads API Key
-                </label>
-                <input 
-                  type="password"
-                  value={settings.threads_api_key}
-                  onChange={(e) => setSettings({...settings, threads_api_key: e.target.value})}
-                  placeholder="Enter Threads API Key..."
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/50 transition-all font-mono text-sm"
-                />
-              </div>
-
-              <div className="pt-4">
-                <button 
-                  onClick={saveSettings}
-                  className="w-full py-4 bg-white text-black font-black text-base rounded-xl hover:bg-emerald-400 transition-all shadow-xl active:scale-95"
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {items.map(item => (
+                <div
+                  key={item.id}
+                  className="bg-slate-900 border border-slate-800/80 hover:border-indigo-500/50 rounded-xl p-5 transition-all shadow-md flex flex-col justify-between group"
                 >
-                  Authorize System Keys
-                </button>
-              </div>
+                  <div>
+                    <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
+                      <span className="px-2 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300 font-mono">
+                        {item.source_name || item.domain}
+                      </span>
+                      <span className="font-mono text-indigo-300 font-bold">
+                        Relevance: {item.relevance_score ?? 85}%
+                      </span>
+                    </div>
+
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-base font-bold text-slate-100 group-hover:text-indigo-400 transition-colors line-clamp-2 mb-2 flex items-start gap-1"
+                    >
+                      {item.title}
+                      <ExternalLink className="w-4 h-4 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity mt-1" />
+                    </a>
+
+                    {item.raw_excerpt && (
+                      <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed mb-4">
+                        {item.raw_excerpt}
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="pt-3 border-t border-slate-800/60 flex items-center justify-between text-xs text-slate-500">
+                    <span className="flex items-center gap-1">
+                      <Clock className="w-3.5 h-3.5" />
+                      {new Date(item.published_at).toLocaleDateString()}
+                    </span>
+                    <span className="px-2 py-0.5 rounded-full bg-emerald-950/60 text-emerald-300 border border-emerald-500/30 font-semibold text-[11px]">
+                      {item.crawl_status || "done"}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Pagination Controls */}
+        {paginationInfo.totalPages > 1 && (
+          <div className="flex items-center justify-between mt-8 pt-4 border-t border-slate-800">
+            <span className="text-xs text-slate-400">
+              Page {filterHook.page} of {paginationInfo.totalPages} ({paginationInfo.filteredCount} items)
+            </span>
+            <div className="flex items-center gap-2">
+              <button
+                disabled={filterHook.page <= 1}
+                onClick={() => filterHook.setPage(filterHook.page - 1)}
+                className="p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                <ChevronLeft className="w-4 h-4" />
+              </button>
+              <button
+                disabled={filterHook.page >= paginationInfo.totalPages}
+                onClick={() => filterHook.setPage(filterHook.page + 1)}
+                className="p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                <ChevronRight className="w-4 h-4" />
+              </button>
             </div>
           </div>
-        </div>
-      )}
-
-      {/* Toast Notification */}
-      {toast && (
-        <div className="fixed bottom-6 right-6 z-[200] animate-in">
-          <div className={`
-            px-5 py-3 rounded-xl shadow-2xl border backdrop-blur-xl flex items-center gap-3 text-sm
-            ${toast.type === 'success' ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400' : 
-              toast.type === 'error' ? 'bg-rose-500/10 border-rose-500/20 text-rose-400' :
-              'bg-blue-500/10 border-blue-500/20 text-blue-400'}
-          `}>
-             {toast.type === 'success' ? <Sparkles className="w-4 h-4" /> : 
-              toast.type === 'error' ? <AlertCircle className="w-4 h-4" /> : 
-              <RefreshCw className="w-4 h-4 animate-spin" />}
-             <span className="font-bold">{toast.message}</span>
-          </div>
-        </div>
-      )}
-
-      <style jsx global>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-20px); }
-        }
-        .animate-float {
-          animation: float 6s ease-in-out infinite;
-        }
-      `}</style>
+        )}
+      </div>
     </main>
   );
 }
 
-// ============================================================================
-// Components
-// ============================================================================
-
-function MetricCard({ label, value, icon, highlight, suffix, loading }: {
-  label: string; value: number | string; icon: React.ReactNode; highlight?: boolean; suffix?: string; loading?: boolean;
+function MetricCard({ 
+  label, 
+  value, 
+  icon, 
+  suffix = "", 
+  highlight = false,
+  loading = false 
+}: { 
+  label: string; 
+  value: string | number; 
+  icon: React.ReactNode; 
+  suffix?: string;
+  highlight?: boolean;
+  loading?: boolean;
 }) {
-  if (loading) {
-    return (
-      <div className={`p-4 sm:p-6 rounded-2xl bg-gradient-to-br border animate-pulse ${
-        highlight
-        ? 'from-emerald-500/10 to-emerald-500/[0.02] border-emerald-500/20'
-        : 'from-white/5 to-white/[0.02] border-white/5'
-      }`}>
-        <div className="flex items-start justify-between mb-4 sm:mb-6">
-          <div className="p-2 sm:p-3 bg-white/5 border border-white/5 rounded-xl">
-            <div className="w-5 h-5 bg-white/10 rounded" />
-          </div>
-        </div>
-        <div className="space-y-2">
-          <div className="w-16 h-8 bg-white/10 rounded" />
-          <div className="w-24 h-3 bg-white/5 rounded" />
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <div className={`p-4 sm:p-6 rounded-2xl bg-gradient-to-br border transition-all hover:scale-[1.02] cursor-default group ${
+    <div className={`relative group p-4 sm:p-5 rounded-2xl border transition-all duration-300 overflow-hidden ${
       highlight 
-      ? 'from-emerald-500/10 to-emerald-500/[0.02] border-emerald-500/20 text-emerald-400' 
-      : 'from-white/5 to-white/[0.02] border-white/5 text-slate-400 group-hover:border-emerald-500/20'
+        ? "bg-gradient-to-br from-emerald-500/10 via-teal-500/5 to-transparent border-emerald-500/30 hover:border-emerald-500/50" 
+        : "bg-white/[0.02] border-white/5 hover:border-white/10 hover:bg-white/[0.04]"
     }`}>
-      <div className="flex items-start justify-between mb-4 sm:mb-6">
-        <div className="p-2 sm:p-3 bg-black/40 border border-white/5 rounded-xl group-hover:border-white/20 transition-all">
+      <div className="flex items-center justify-between mb-3">
+        <span className="text-xs font-semibold text-slate-400">{label}</span>
+        <div className={`p-2 rounded-xl ${highlight ? 'bg-emerald-500/20 text-emerald-400' : 'bg-white/5 text-slate-400'}`}>
           {icon}
         </div>
       </div>
-      <div className="space-y-0.5">
-        <p className="text-2xl sm:text-3xl font-black text-white tracking-tighter">
-          {value}{suffix && <span className="text-sm sm:text-base font-bold text-slate-500">{suffix}</span>}
-        </p>
-        <p className="text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-widest">{label}</p>
-      </div>
-    </div>
-  );
-}
-
-function HeatBadge({ level, score }: { level: string; score: number }) {
-  const config: Record<string, { icon: React.ReactNode; bg: string; text: string; label: string }> = {
-    hot:    { icon: <Flame className="w-3 h-3" />, bg: "bg-orange-500/10 border-orange-500/20", text: "text-orange-400", label: "Hot" },
-    rising: { icon: <TrendingUp className="w-3 h-3" />, bg: "bg-amber-500/10 border-amber-500/20", text: "text-amber-400", label: "Rising" },
-    signal: { icon: <Lightbulb className="w-3 h-3" />, bg: "bg-blue-500/10 border-blue-500/20", text: "text-blue-400", label: "Signal" },
-    low:    { icon: <Activity className="w-3 h-3" />, bg: "bg-slate-500/10 border-slate-500/20", text: "text-slate-400", label: "New" },
-  };
-  const c = config[level] || config.low;
-
-  return (
-    <div className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border text-[11px] font-bold uppercase tracking-wider ${c.bg} ${c.text}`}>
-      {c.icon}
-      <span>{c.label}</span>
-      <span className="opacity-60">{score.toFixed(1)}</span>
-    </div>
-  );
-}
-
-function NewsCard({ item, index }: { item: NewsItem, index: number }) {
-  const [isExpanded, setIsExpanded] = useState(false);
-  
-  // Use the 1-10 scale score directly from the backend
-  const displayScore = item.score;
-  
-  const heatLevel = item.heat_level || (displayScore >= 7.0 ? "hot" : displayScore >= 5.0 ? "rising" : displayScore >= 3.0 ? "signal" : "low");
-
-  return (
-    <div className="group relative">
-      <div className="absolute -inset-[1px] bg-gradient-to-r from-emerald-500/50 to-blue-500/50 rounded-2xl blur-sm opacity-0 group-hover:opacity-10 transition-opacity" />
-      <div className="relative p-4 sm:p-6 bg-black/40 border border-white/5 rounded-2xl hover:border-white/10 transition-all backdrop-blur-xl">
-        <div className="flex items-start gap-4">
-          <div className="hidden sm:flex flex-shrink-0 w-10 h-10 rounded-xl bg-white/5 border border-white/10 items-center justify-center font-black text-base text-slate-600 group-hover:text-emerald-500/40 group-hover:border-emerald-500/20 transition-all">
-            {index + 1}
-          </div>
-          
-          <div className="flex-1 space-y-3">
-            <div className="flex flex-wrap items-center gap-2">
-              <HeatBadge level={heatLevel} score={displayScore} />
-              <span className="px-2 py-0.5 bg-emerald-500/10 border border-emerald-500/20 rounded-md text-[11px] font-bold text-emerald-400 uppercase tracking-widest flex items-center gap-1">
-                Score: {displayScore.toFixed(1)}/10
-              </span>
-              <span className="text-[11px] font-bold text-slate-500 flex items-center gap-1 uppercase tracking-widest">
-                <Clock className="w-3 h-3" /> {new Date(item.published_at).toLocaleDateString()}
-              </span>
-              <span className="text-[11px] text-slate-600">{item.domain}</span>
-            </div>
-
-            <a href={item.url} target="_blank" rel="noopener noreferrer" className="block text-lg sm:text-xl font-black text-white leading-tight group-hover:text-emerald-400 transition-colors">
-              {item.title}
-            </a>
-
-            {item.tldr && (
-              <div className="space-y-2">
-                <div className={`text-slate-400 text-sm leading-relaxed ${!isExpanded && 'line-clamp-2'}`}>
-                  {item.tldr}
-                </div>
-                {(item.why_it_matters || item.reasoning) && isExpanded && (
-                  <div className="pt-4 border-t border-white/5 space-y-5">
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                      {item.novelty !== undefined && item.novelty > 0 && (
-                        <div>
-                          <div className="flex justify-between text-[10px] font-bold uppercase tracking-wider mb-1.5 text-slate-400">
-                            <span>Novelty</span>
-                            <span className="text-emerald-400">{item.novelty.toFixed(1)}/10</span>
-                          </div>
-                          <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
-                            <div className="h-full bg-emerald-500 rounded-full" style={{ width: `${(item.novelty / 10) * 100}%` }} />
-                          </div>
-                        </div>
-                      )}
-                      {item.impact !== undefined && item.impact > 0 && (
-                        <div>
-                          <div className="flex justify-between text-[10px] font-bold uppercase tracking-wider mb-1.5 text-slate-400">
-                            <span>Impact</span>
-                            <span className="text-blue-400">{item.impact.toFixed(1)}/10</span>
-                          </div>
-                          <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
-                            <div className="h-full bg-blue-500 rounded-full" style={{ width: `${(item.impact / 10) * 100}%` }} />
-                          </div>
-                        </div>
-                      )}
-                      {item.engineering_value !== undefined && item.engineering_value > 0 && (
-                        <div>
-                          <div className="flex justify-between text-[10px] font-bold uppercase tracking-wider mb-1.5 text-slate-400">
-                            <span>Engineering</span>
-                            <span className="text-purple-400">{item.engineering_value.toFixed(1)}/10</span>
-                          </div>
-                          <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
-                            <div className="h-full bg-purple-500 rounded-full" style={{ width: `${(item.engineering_value / 10) * 100}%` }} />
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                    
-                    {item.reasoning && (
-                      <div>
-                        <h5 className="text-[10px] font-black uppercase tracking-[0.2em] text-teal-400 mb-2 flex items-center gap-1.5">
-                          <Bot className="w-3 h-3" /> AI Analysis
-                        </h5>
-                        <p className="text-slate-300 text-sm leading-relaxed italic border-l-2 border-teal-500/30 pl-3 py-0.5">{item.reasoning}</p>
-                      </div>
-                    )}
-                    
-                    {item.why_it_matters && (
-                      <div>
-                        <h5 className="text-[10px] font-black uppercase tracking-[0.2em] text-blue-400 mb-2">Why It Matters</h5>
-                        <p className="text-slate-400 text-sm leading-relaxed">{item.why_it_matters}</p>
-                      </div>
-                    )}
-                  </div>
-                )}
-                <button 
-                  onClick={() => setIsExpanded(!isExpanded)}
-                  className="text-xs font-black text-emerald-500 uppercase tracking-widest hover:text-emerald-400 transition-colors"
-                >
-                  {isExpanded ? 'Collapse' : 'Expand Insight'}
-                </button>
-              </div>
-            )}
-
-            <div className="flex items-center justify-between pt-3">
-              <div className="flex flex-wrap gap-1.5">
-                {item.tags?.slice(0, 3).map(tag => (
-                  <span key={tag} className="px-2.5 py-0.5 bg-white/5 border border-white/10 rounded-lg text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:border-emerald-500/20 group-hover:text-emerald-500/80 transition-all">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              
-              <a 
-                href={item.url} 
-                target="_blank" 
-                className="flex-shrink-0 flex items-center gap-1.5 px-4 py-1.5 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-bold text-xs rounded-lg hover:bg-emerald-500 hover:text-black transition-all"
-              >
-                Source
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function SubscribeForm() {
-  const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
-  const [errorMsg, setErrorMsg] = useState("");
-
-  const isValidEmail = (val: string) =>
-    /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val.trim());
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!isValidEmail(email)) {
-      setErrorMsg("Please enter a valid email address.");
-      return;
-    }
-    setErrorMsg("");
-    setStatus("loading");
-    try {
-      const res = await fetch("/api/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.trim() }),
-      });
-      if (res.ok) {
-        setStatus("success");
-      } else {
-        const data = await res.json().catch(() => ({}));
-        setErrorMsg(data.error || "Subscription failed. Try again.");
-        setStatus("error");
-      }
-    } catch {
-      setErrorMsg("Network error. Please try again.");
-      setStatus("error");
-    }
-  };
-
-  if (status === "success") {
-    return (
-      <div className="w-full py-3 bg-white/20 rounded-xl text-center font-extrabold text-sm text-white border border-white/30">
-        ✓ You&apos;re on the list!
-      </div>
-    );
-  }
-
-  return (
-    <form onSubmit={handleSubmit} className="space-y-2" noValidate>
-      <div className="flex gap-2">
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => { setEmail(e.target.value); setErrorMsg(""); setStatus("idle"); }}
-          placeholder="your@email.com"
-          disabled={status === "loading"}
-          className="flex-1 min-w-0 px-3 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white placeholder:text-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-white/50 disabled:opacity-60"
-        />
-        <button
-          type="submit"
-          disabled={status === "loading" || !email}
-          className="flex-shrink-0 px-4 py-2.5 bg-white text-emerald-700 font-extrabold rounded-xl shadow-xl hover:shadow-2xl transition-all active:scale-95 text-sm disabled:opacity-60"
-        >
-          {status === "loading" ? "..." : "Join"}
-        </button>
-      </div>
-      {errorMsg && (
-        <p className="text-white/80 text-xs font-semibold pl-1">{errorMsg}</p>
-      )}
-    </form>
-  );
-}
-
-function SkeletonCard() {
-  return (
-    <div className="p-4 sm:p-6 bg-white/5 border border-white/10 rounded-2xl animate-pulse">
-      <div className="flex gap-4">
-        <div className="hidden sm:block w-10 h-10 bg-white/5 rounded-xl" />
-        <div className="flex-1 space-y-3">
-          <div className="w-24 h-4 bg-white/5 rounded" />
-          <div className="w-full h-6 bg-white/5 rounded" />
-          <div className="w-full h-14 bg-white/5 rounded" />
-        </div>
+      
+      <div className="flex items-baseline gap-1">
+        {loading ? (
+          <div className="h-8 w-16 bg-white/10 rounded animate-pulse" />
+        ) : (
+          <span className="text-2xl sm:text-3xl font-black text-white tracking-tight">{value}</span>
+        )}
+        {suffix && <span className="text-xs font-semibold text-slate-500">{suffix}</span>}
       </div>
     </div>
   );

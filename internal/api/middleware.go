@@ -1,13 +1,47 @@
+// Package api provides HTTP routing, middleware, and Server-Sent Events handling.
 package api
 
 import (
 	"context"
 	"log"
+	"log/slog"
 	"net/http"
 	"time"
 
 	"github.com/gin-gonic/gin"
 )
+
+// CORS returns a middleware handling Cross-Origin Resource Sharing.
+func CORS() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		c.Writer.Header().Set("Access-Control-Allow-Origin", "*")
+		c.Writer.Header().Set("Access-Control-Allow-Credentials", "true")
+		c.Writer.Header().Set("Access-Control-Allow-Headers", "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With")
+		c.Writer.Header().Set("Access-Control-Allow-Methods", "POST, OPTIONS, GET, PUT, PATCH, DELETE")
+
+		if c.Request.Method == "OPTIONS" {
+			c.AbortWithStatus(http.StatusNoContent)
+			return
+		}
+
+		c.Next()
+	}
+}
+
+// Logger logs request details cleanly using slog.
+func Logger() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		start := time.Now()
+		path := c.Request.URL.Path
+
+		c.Next()
+
+		latency := time.Since(start)
+		status := c.Writer.Status()
+
+		slog.Info("HTTP Request", "method", c.Request.Method, "path", path, "status", status, "latency", latency)
+	}
+}
 
 // AILoggerMiddleware logs AI requests and records total processing time latency.
 func AILoggerMiddleware() gin.HandlerFunc {
@@ -45,10 +79,8 @@ func TimeoutMiddleware(timeout time.Duration) gin.HandlerFunc {
 
 		select {
 		case <-done:
-			// Request naturally finished
 			return
 		case <-ctx.Done():
-			// Context timed out
 			if !c.IsAborted() {
 				RespondWithError(c, http.StatusGatewayTimeout, ErrCodeTimeout, "AI provider request timed out")
 				c.Abort()
@@ -57,8 +89,7 @@ func TimeoutMiddleware(timeout time.Duration) gin.HandlerFunc {
 	}
 }
 
-// AIRecoveryMiddleware safely recovers from panics during AI operations,
-// logging them and returning a clean JSON 500.
+// AIRecoveryMiddleware safely recovers from panics during AI operations.
 func AIRecoveryMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		defer func() {
