@@ -16,6 +16,21 @@
       ]
     },
     {
+      "id": "83919d75-d160-4177-b21d-197754825a6f",
+      "title": "One ChatGPT link could smuggle a rogue AI agent into your company",
+      "url": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
+      "domain": "theregister.com",
+      "published_at": "2026-07-23T15:07:06Z",
+      "category": "tech",
+      "score": 0.7387121344529628,
+      "tldr": "One ChatGPT link could smuggle a rogue AI agent into your company",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "5909a8e4-40fb-4cc9-bfd0-fb628f858980",
       "title": "I used ChatGPT to sue a Norwegian airline from New York and get $4760",
       "url": "https://www.behind-the-enemy-lines.com/2026/07/the-lawyer-i-never-hired-how-chatgpt.html",
@@ -71,6 +86,21 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "mlops"
+      ]
+    },
+    {
+      "id": "e712f145-5018-4bde-9cec-36c27a2d1249",
+      "title": "Free way to get your data out of ChatGPT Business accounts",
+      "url": "https://github.com/Conradqh/scrapemychats",
+      "domain": "github.com",
+      "published_at": "2026-07-23T15:45:51Z",
+      "category": "tech",
+      "score": 0.6194038965554931,
+      "tldr": "Free way to get your data out of ChatGPT Business accounts",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
       ]
     },
     {
@@ -130,14 +160,14 @@
       ]
     },
     {
-      "id": "6d237d2b-3eea-4340-966b-c328f04036d9",
-      "title": "Kimi K3: Open Frontier Intelligence",
-      "url": "https://www.kimi.com/blog/kimi-k3",
-      "domain": "kimi.com",
-      "published_at": "2026-07-16T14:46:05Z",
+      "id": "eae90b2f-fa05-4a51-a0ba-747cf9f66e32",
+      "title": "Show HN: Whetuu – a zero-config cross-shell prompt written in Zig",
+      "url": "https://yamafaktory.github.io/whetuu",
+      "domain": "yamafaktory.github.io",
+      "published_at": "2026-07-23T14:37:54Z",
       "category": "tech",
-      "score": 0.597947435690694,
-      "tldr": "Kimi K3: Open Frontier Intelligence",
+      "score": 0.5981921752135072,
+      "tldr": "Show HN: Whetuu – a zero-config cross-shell prompt written in Zig",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -314,6 +344,20 @@
       ]
     },
     {
+      "id": "dbcbe17e-7ef7-467a-aa21-5e4e360af69e",
+      "title": "NerdLens: Mirror your computer with cardboard VR",
+      "url": "https://github.com/ThatXliner/NerdLens",
+      "domain": "github.com",
+      "published_at": "2026-07-23T15:02:27Z",
+      "category": "tech",
+      "score": 0.4086282897070825,
+      "tldr": "NerdLens: Mirror your computer with cardboard VR",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7e801cae-6aca-45c9-b85c-95ca4fb244b6",
       "title": "Can Chinese AI (Kimi K3) file American tax returns (TaxCalcBench)?",
       "url": "https://github.com/column-tax/tax-calc-bench/pull/93",
@@ -322,6 +366,34 @@
       "category": "tech",
       "score": 0.40826879668567057,
       "tldr": "Can Chinese AI (Kimi K3) file American tax returns (TaxCalcBench)?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "6f50ae6f-9a9f-41e1-9382-9bea709e7113",
+      "title": "Show HN: macOS menu-bar manager for SSH port forwards",
+      "url": "https://github.com/lx2026/RelayBar",
+      "domain": "github.com",
+      "published_at": "2026-07-23T14:32:53Z",
+      "category": "tech",
+      "score": 0.40809990823218484,
+      "tldr": "Show HN: macOS menu-bar manager for SSH port forwards",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "2558d004-cf55-4f78-94ae-1a78668ccb45",
+      "title": "Show HN: Remux – an open-source tmux workspace designed for iPhone",
+      "url": "https://github.com/h3nock/remux",
+      "domain": "github.com",
+      "published_at": "2026-07-23T14:31:26Z",
+      "category": "tech",
+      "score": 0.4080677405654188,
+      "tldr": "Show HN: Remux – an open-source tmux workspace designed for iPhone",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -350,6 +422,20 @@
       "category": "tech",
       "score": 0.407671700075939,
       "tldr": "NotchAgent – native macOS notch control for AI agents running under herdr",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ffee23b4-4413-4d4c-9c54-9586323f02a8",
+      "title": "You can now run same OCI images as containers or Firecracker microVMs",
+      "url": "https://github.com/pullrun/pullrun",
+      "domain": "github.com",
+      "published_at": "2026-07-23T14:08:39Z",
+      "category": "tech",
+      "score": 0.40766575292323365,
+      "tldr": "You can now run same OCI images as containers or Firecracker microVMs",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -849,6 +935,20 @@
       ]
     },
     {
+      "id": "1b813832-ab6f-4a3c-8daf-fa9e45c6a39c",
+      "title": "UK households free to install plug-in balcony solar panels from end of August",
+      "url": "https://www.theguardian.com/money/2026/jul/23/uk-households-free-install-plug-in-balcony-solar-panels",
+      "domain": "theguardian.com",
+      "published_at": "2026-07-23T15:35:33Z",
+      "category": "tech",
+      "score": 0.3892195633197322,
+      "tldr": "UK households free to install plug-in balcony solar panels from end of August",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "bf550dd9-776c-4c0f-8fdf-0a0a4fd74c11",
       "title": "Show HN: HN Hall of Fame – browse 3,100 legendary Hacker News links",
       "url": "https://www.orangecrumbs.com/hall",
@@ -990,6 +1090,20 @@
       ]
     },
     {
+      "id": "ac75d23f-ac16-477e-a7d1-36829ad6051a",
+      "title": "Stop pretending billionaires built the future",
+      "url": "https://www.elysian.press/p/billionaires-didnt-create-innovation",
+      "domain": "elysian.press",
+      "published_at": "2026-07-23T15:28:13Z",
+      "category": "tech",
+      "score": 0.38908213300665806,
+      "tldr": "Stop pretending billionaires built the future",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "028c2500-f5c7-4afa-b59d-328ff0d16ba8",
       "title": "Is Passwork safe for your business?",
       "url": "https://proton.me/business/blog/is-passwork-safe",
@@ -1060,6 +1174,20 @@
       ]
     },
     {
+      "id": "cd562310-9db9-48a4-9549-981526030ab2",
+      "title": "Fourth Circuit: Border Agents Can Search Your Phone by Hand, No Suspicion Needed",
+      "url": "https://www.eff.org/deeplinks/2026/07/fourth-circuit-says-border-agents-can-search-your-phone-hand-no-suspicion-required",
+      "domain": "eff.org",
+      "published_at": "2026-07-23T15:22:21Z",
+      "category": "tech",
+      "score": 0.38897838223208037,
+      "tldr": "Fourth Circuit: Border Agents Can Search Your Phone by Hand, No Suspicion Needed",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "69ceb427-e8a6-4dd4-961f-ad9d48fb1e95",
       "title": "Science: A New Golden Age",
       "url": "https://www.whitehouse.gov/science",
@@ -1116,6 +1244,34 @@
       ]
     },
     {
+      "id": "f044a3f8-55ac-49a3-939a-48880e2a748f",
+      "title": "Leaked Document Shows the Surveillance Tech at ICE's Fingertips",
+      "url": "https://www.404media.co/leaked-document-shows-the-surveillance-tech-at-ices-fingertips",
+      "domain": "404media.co",
+      "published_at": "2026-07-23T15:20:18Z",
+      "category": "tech",
+      "score": 0.38894359463844763,
+      "tldr": "Leaked Document Shows the Surveillance Tech at ICE's Fingertips",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5f4f4985-a257-4e17-b6ac-fee4dea1bbeb",
+      "title": "Startup founders urge Trump not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "domain": "politico.com",
+      "published_at": "2026-07-23T15:18:40Z",
+      "category": "tech",
+      "score": 0.3889182776346634,
+      "tldr": "Startup founders urge Trump not to shut off Chinese open weight AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "208c65b2-0d1c-4cfc-86e9-972034462736",
       "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
       "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware",
@@ -1138,6 +1294,34 @@
       "category": "tech",
       "score": 0.38890029920588215,
       "tldr": "DOJ Now Citing Fake AI-Generated Cases to Keep ICE Detainees Locked Up",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "5f08cb92-0ae4-40cf-90b4-cc4c71cc5610",
+      "title": "I Killed an AI-Generated Essay During Its Defence",
+      "url": "https://medium.com/@henry.fisher.n/how-i-killed-an-ai-generated-essay-during-its-defence-50f3b869f660",
+      "domain": "medium.com",
+      "published_at": "2026-07-23T15:16:35Z",
+      "category": "tech",
+      "score": 0.3888758103252884,
+      "tldr": "I Killed an AI-Generated Essay During Its Defence",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "dcb1bf72-929e-4d75-9289-adca3af83404",
+      "title": "Ask HN: Is there a website that tracks excessive writes to SSDs in OS/app betas?",
+      "url": "https://news.ycombinator.com/item?id=49022990",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-23T15:16:31Z",
+      "category": "tech",
+      "score": 0.388875226361328,
+      "tldr": "Ask HN: Is there a website that tracks excessive writes to SSDs in OS/app betas?",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1186,231 +1370,48 @@
       ]
     },
     {
-      "id": "d9ecc15b-b2d8-4a49-9bc1-861dc0f4d208",
-      "title": "Ask HN: What changed in your life when you started meditating (and how)?",
-      "url": "https://news.ycombinator.com/item?id=49012902",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-22T20:24:22Z",
+      "id": "92dccee1-f4fb-4e8a-951a-ea6be2241bac",
+      "title": "PyPI now rejects new files after 14 days",
+      "url": "https://lwn.net/Articles/1084218",
+      "domain": "lwn.net",
+      "published_at": "2026-07-23T15:13:25Z",
       "category": "tech",
-      "score": 0.3887411332659074,
-      "tldr": "Ask HN: What changed in your life when you started meditating (and how)?",
+      "score": 0.38881966708451965,
+      "tldr": "PyPI now rejects new files after 14 days",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     },
     {
-      "id": "5aa390d3-bf8a-4d98-942d-9e06bb6040aa",
-      "title": "Google revenue surges on AI-driven boom in Cloud unit",
-      "url": "https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530",
-      "domain": "ft.com",
-      "published_at": "2026-07-22T20:21:12Z",
+      "id": "f8bc9a4d-4d9f-4c85-974f-e42d16dd33eb",
+      "title": "You Should Get to Own Your Media, Not Rent it Forever",
+      "url": "https://www.currentaffairs.org/news/you-should-get-to-own-your-media-not-rent-it-forever",
+      "domain": "currentaffairs.org",
+      "published_at": "2026-07-23T15:10:51Z",
       "category": "tech",
-      "score": 0.38868336424259586,
-      "tldr": "Google revenue surges on AI-driven boom in Cloud unit",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "cloud"
-      ]
-    },
-    {
-      "id": "815df403-d9f3-49e7-8a79-f6f41b240973",
-      "title": "Moody's Upgrades Argentina Credit Rating, Citing Milei's Economic Overhaul",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-21/moody-s-lifts-argentina-credit-rating-in-fresh-in-boost-to-milei",
-      "domain": "bloomberg.com",
-      "published_at": "2026-07-22T20:20:02Z",
-      "category": "tech",
-      "score": 0.38866192104004643,
-      "tldr": "Moody's Upgrades Argentina Credit Rating, Citing Milei's Economic Overhaul",
+      "score": 0.38877626478599403,
+      "tldr": "You Should Get to Own Your Media, Not Rent it Forever",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     },
     {
-      "id": "f464fb40-d067-4193-b0a9-e0f464be69b2",
-      "title": "Perlin's Noise Algorithm",
-      "url": "https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm",
-      "domain": "blog.jaysmito.dev",
-      "published_at": "2026-07-22T14:59:08Z",
+      "id": "cd73b960-e5ee-42fe-ab08-05f60a5192cd",
+      "title": "Windows: Global Device ID leads to legally relevant identification",
+      "url": "https://www.heise.de/en/news/Windows-Global-Device-ID-leads-to-legally-relevant-identification-11373604.html",
+      "domain": "heise.de",
+      "published_at": "2026-07-23T15:09:21Z",
       "category": "tech",
-      "score": 0.3886582266584515,
-      "tldr": "Perlin's Noise Algorithm",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b5b067e6-b91c-4b73-a048-3e89db079457",
-      "title": "Airbus Full Scale Foldable Wing Extensions",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow",
-      "domain": "airbus.com",
-      "published_at": "2026-07-22T14:57:24Z",
-      "category": "tech",
-      "score": 0.3886288770011753,
-      "tldr": "Airbus Full Scale Foldable Wing Extensions",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "326f0be1-42ff-4ac1-9431-25b71dfa9178",
-      "title": "The Pillars of an API Platform",
-      "url": "https://launchany.com/the-pillars-of-an-api-platform",
-      "domain": "launchany.com",
-      "published_at": "2026-07-22T14:57:37Z",
-      "category": "tech",
-      "score": 0.3886282064415545,
-      "tldr": "The Pillars of an API Platform",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a63207e3-5f9b-48c1-92ac-410c68899dde",
-      "title": "Unranked, Systemd, Crawls",
-      "url": "https://www.marginalia.nu/log/a_138_systemdocker",
-      "domain": "marginalia.nu",
-      "published_at": "2026-07-23T10:50:52Z",
-      "category": "tech",
-      "score": 0.38860977337466074,
-      "tldr": "Unranked, Systemd, Crawls",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3774eb33-40f0-497e-bd08-9114b89b82fc",
-      "title": "Fairphone 6 wide camera experimental Linux support",
-      "url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux",
-      "domain": "nondescriptpointer.com",
-      "published_at": "2026-07-22T20:16:01Z",
-      "category": "tech",
-      "score": 0.38858938108799496,
-      "tldr": "Fairphone 6 wide camera experimental Linux support",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d0ab12f3-d8e1-47f8-a921-1870637fe7e8",
-      "title": "Type-Aware Linting Stable",
-      "url": "https://oxc.rs/blog/2026-07-22-type-aware-linting-stable",
-      "domain": "oxc.rs",
-      "published_at": "2026-07-22T22:34:13Z",
-      "category": "tech",
-      "score": 0.38857112216965417,
-      "tldr": "Type-Aware Linting Stable",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2de29745-367e-42b0-a735-e867186720db",
-      "title": "Ukraine's secret weapon: The bright pink 'Flamingo' missiles",
-      "url": "https://www.dailymail.com/news/article-15996043/Ukraine-secret-weapon-pink-Flamingo-missiles-engines-landfill-sites-Russia.html",
-      "domain": "dailymail.com",
-      "published_at": "2026-07-22T16:26:04Z",
-      "category": "tech",
-      "score": 0.3885516551122664,
-      "tldr": "Ukraine's secret weapon: The bright pink 'Flamingo' missiles",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d4216719-3d05-459d-b41a-2278fc33727b",
-      "title": "Show HN: Web swing through midtown NYC",
-      "url": "https://www.swingnyc.com/",
-      "domain": "swingnyc.com",
-      "published_at": "2026-07-22T16:25:08Z",
-      "category": "tech",
-      "score": 0.3885390362007566,
-      "tldr": "Show HN: Web swing through midtown NYC",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "727ae6cf-2ee2-4ea5-a262-a428d5e4a65f",
-      "title": "Fujifilm X100 vs. Leica Q vs. Ricoh GR",
-      "url": "https://map.simonsarris.com/p/fujifilm-x100-vs-leica-q-vs-ricoh",
-      "domain": "map.simonsarris.com",
-      "published_at": "2026-07-22T14:50:00Z",
-      "category": "tech",
-      "score": 0.3885002050585923,
-      "tldr": "Fujifilm X100 vs. Leica Q vs. Ricoh GR",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c7aa3737-30de-4d5c-821b-cead0d164431",
-      "title": "Waymos cause \"way mo\" injuries per mile driven than for-hire vehicles in NYC",
-      "url": "https://gothamist.com/news/are-waymo-robotaxis-actually-safer-than-nyc-uber-and-taxi-drivers",
-      "domain": "gothamist.com",
-      "published_at": "2026-07-22T14:48:03Z",
-      "category": "tech",
-      "score": 0.38846565070530925,
-      "tldr": "Waymos cause \"way mo\" injuries per mile driven than for-hire vehicles in NYC",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4dde7b7e-dbd6-44fc-a9ab-91c9cab9fdc9",
-      "title": "Which streaming service was that on again",
-      "url": "https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again",
-      "domain": "timwehrle.de",
-      "published_at": "2026-07-22T14:46:14Z",
-      "category": "tech",
-      "score": 0.38842386498300896,
-      "tldr": "Which streaming service was that on again",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fe506953-ccc6-4d26-ade5-bcb76d378653",
-      "title": "Lung cancer in nonsmokers: A women's health crisis",
-      "url": "https://www.cbsnews.com/news/lung-cancer-non-smoking-women",
-      "domain": "cbsnews.com",
-      "published_at": "2026-07-22T16:18:08Z",
-      "category": "tech",
-      "score": 0.3884125445507241,
-      "tldr": "Lung cancer in nonsmokers: A women's health crisis",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "5bdf1b97-e89b-40b6-9e8c-7bcaeddc11c5",
-      "title": "Frontier AI models will attempt to cheat",
-      "url": "https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations",
-      "domain": "aisi.gov.uk",
-      "published_at": "2026-07-22T17:26:03Z",
-      "category": "tech",
-      "score": 0.3884121518651887,
-      "tldr": "Frontier AI models will attempt to cheat",
+      "score": 0.38874502601281846,
+      "tldr": "Windows: Global Device ID leads to legally relevant identification",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
       ]
     }
   ],
-  "last_updated": "2026-07-23T14:39:10.401419048Z",
+  "last_updated": "2026-07-23T16:19:39.691649027Z",
   "total_count": 100
 }
