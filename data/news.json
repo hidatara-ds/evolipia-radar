@@ -273,6 +273,20 @@
       ]
     },
     {
+      "id": "0b6a25fe-3242-4739-9e27-0a5699039c52",
+      "title": "Letterpaths: Or how LLMs can be good even when they're bad",
+      "url": "https://www.robinlinacre.com/letterpaths_llms_good_even_when_bad",
+      "domain": "robinlinacre.com",
+      "published_at": "2026-07-24T00:58:35Z",
+      "category": "tech",
+      "score": 0.5930907370598256,
+      "tldr": "Letterpaths: Or how LLMs can be good even when they're bad",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "9a997ca5-5478-4741-a4ad-b9127d75aa00",
       "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
@@ -355,6 +369,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "416ba7bd-e340-4c0e-8996-fb7f19e6eec2",
+      "title": "Automated sign detection across the Electronic Babylonian Library",
+      "url": "https://arxiv.org/abs/2606.22608",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-24T02:06:35Z",
+      "category": "tech",
+      "score": 0.45430226581607647,
+      "tldr": "Automated sign detection across the Electronic Babylonian Library",
+      "why_it_matters": "Advances in computer vision directly impact applications in autonomous systems, medical imaging, and industrial automation, requiring engineers to stay updated on state-of-the-art techniques.",
+      "tags": [
+        "computer_vision"
       ]
     },
     {
@@ -666,6 +694,20 @@
       ]
     },
     {
+      "id": "d7846d6b-89cc-4b34-83ce-27cb88a05a31",
+      "title": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
+      "url": "https://github.com/kdeps/turo",
+      "domain": "github.com",
+      "published_at": "2026-07-24T00:32:12Z",
+      "category": "tech",
+      "score": 0.40261850162197443,
+      "tldr": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "07028f6c-030e-4bcd-acf6-95948f9da95c",
       "title": "I found a WordPress RCEs with GPT5.6 and $25",
       "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
@@ -858,6 +900,20 @@
       "category": "tech",
       "score": 0.3895956870521497,
       "tldr": "How to Read a Painting",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "40fcb143-8e86-4037-907e-dcb744815f81",
+      "title": "The PImpl idiom and the C++26 std:indirect type",
+      "url": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type",
+      "domain": "mariusbancila.ro",
+      "published_at": "2026-07-24T07:02:43Z",
+      "category": "tech",
+      "score": 0.38959366989561817,
+      "tldr": "The PImpl idiom and the C++26 std:indirect type",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1354,64 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b3196a01-be88-4ec4-88eb-fc37c992e23d",
-      "title": "Geekbench 7",
-      "url": "https://www.geekbench.com/blog/2026/07/geekbench-7",
-      "domain": "geekbench.com",
-      "published_at": "2026-07-23T18:11:46Z",
-      "category": "tech",
-      "score": 0.38918623056815804,
-      "tldr": "Geekbench 7",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "84166a09-5b4c-4f7e-b2aa-9378db42d48a",
-      "title": "'The Odyssey' Proves It: Audiences Want Movies Made the Hard Way",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/odyssey-box-office-2026-practical-effects-1236652219",
-      "domain": "hollywoodreporter.com",
-      "published_at": "2026-07-22T18:08:25Z",
-      "category": "tech",
-      "score": 0.3891685053340292,
-      "tldr": "'The Odyssey' Proves It: Audiences Want Movies Made the Hard Way",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "3b5955a6-1024-49d3-ab27-221d87c609eb",
-      "title": "Million Dollar Homepage",
-      "url": "https://milliondollarhomepage.com/",
-      "domain": "milliondollarhomepage.com",
-      "published_at": "2026-07-24T00:40:42Z",
-      "category": "tech",
-      "score": 0.3891673814684464,
-      "tldr": "Million Dollar Homepage",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "a0d794e6-0550-4f89-b8db-bd1de19595b5",
-      "title": "Critical Minerals: Reducing U.S. Import Reliance with Substitution and Recycling",
-      "url": "https://www.gao.gov/products/gao-26-108687",
-      "domain": "gao.gov",
-      "published_at": "2026-07-22T15:26:56Z",
-      "category": "tech",
-      "score": 0.3891557236766417,
-      "tldr": "Critical Minerals: Reducing U. Import Reliance with Substitution and Recycling",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-24T04:43:26.037311861Z",
+  "last_updated": "2026-07-24T07:25:42.078303126Z",
   "total_count": 100
 }
