@@ -247,6 +247,20 @@
       ]
     },
     {
+      "id": "343f9bec-c48f-4471-839f-c952851be78f",
+      "title": "Debian launches competing General Resolutions on LLM usage in Debian code",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "domain": "debian.org",
+      "published_at": "2026-07-24T20:48:45Z",
+      "category": "tech",
+      "score": 0.598819210692981,
+      "tldr": "Debian launches competing General Resolutions on LLM usage in Debian code",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "eae90b2f-fa05-4a51-a0ba-747cf9f66e32",
       "title": "Show HN: Whetuu – a zero-config cross-shell prompt written in Zig",
       "url": "https://yamafaktory.github.io/whetuu",
@@ -511,6 +525,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "7ca4e0b4-32ba-4399-afdc-014b2b2ce3a8",
+      "title": "Show HN: Max Studio Tools (C++ DSP Modules for Max and Ableton Live)",
+      "url": "https://github.com/apresta/max-studio-tools",
+      "domain": "github.com",
+      "published_at": "2026-07-24T21:03:10Z",
+      "category": "tech",
+      "score": 0.40908013448483993,
+      "tldr": "Show HN: Max Studio Tools (C++ DSP Modules for Max and Ableton Live)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1383,36 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "bf98a4ad-ebd0-4e05-97d4-33a62eaf1059",
-      "title": "Building on ATProto",
-      "url": "https://lukekanies.com/writing/building-on-atproto",
-      "domain": "lukekanies.com",
-      "published_at": "2026-07-23T18:23:50Z",
-      "category": "tech",
-      "score": 0.3894028910020825,
-      "tldr": "Building on ATProto",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4cbbd9a0-5d70-4de1-8567-42e0ee72d770",
-      "title": "Stripe in talks to buy OpenRouter for ~10B",
-      "url": "https://www.wsj.com/tech/ai/stripe-in-talks-to-buy-buzzy-ai-model-marketplace-openrouter-decc6a74",
-      "domain": "wsj.com",
-      "published_at": "2026-07-23T20:59:22Z",
-      "category": "tech",
-      "score": 0.389402044795472,
-      "tldr": "Stripe in talks to buy OpenRouter for ~10B",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-24T20:44:29.022078355Z",
+  "last_updated": "2026-07-24T21:54:55.081026492Z",
   "total_count": 100
 }
