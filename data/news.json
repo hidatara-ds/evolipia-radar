@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7d7b7be8-e8cf-4ad0-9b07-6fee77424c71",
+      "title": "A production-grade OCR pipeline on Kubernetes with vLLM and Rust",
+      "url": "https://github.com/neural-maze/production-ocr-course",
+      "domain": "github.com",
+      "published_at": "2026-07-24T15:25:16Z",
+      "category": "tech",
+      "score": 0.9293014311232756,
+      "tldr": "A production-grade OCR pipeline on Kubernetes with vLLM and Rust",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "mlops",
+        "llm"
+      ]
+    },
+    {
       "id": "cd10dfb8-83ee-4a36-ab03-cbe2a1544199",
       "title": "Hetzner is working on LLM Inference",
       "url": "https://sliplane.io/blog/hetzner-inference",
@@ -765,6 +780,48 @@
       ]
     },
     {
+      "id": "7288a126-fbba-406b-9700-95447c8129fe",
+      "title": "Orbit – a local-first interface to Slurm",
+      "url": "https://github.com/vertices-solutions/orbit",
+      "domain": "github.com",
+      "published_at": "2026-07-24T16:23:21Z",
+      "category": "tech",
+      "score": 0.4053375644377997,
+      "tldr": "Orbit – a local-first interface to Slurm",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "d6f75442-149e-4795-b6c0-4e8d89b37979",
+      "title": "Show HN: Jixp, a Lisp DSL for describing Jax neural nets",
+      "url": "https://github.com/baileywickham/jixp",
+      "domain": "github.com",
+      "published_at": "2026-07-24T16:10:56Z",
+      "category": "tech",
+      "score": 0.40511733577567655,
+      "tldr": "Show HN: Jixp, a Lisp DSL for describing Jax neural nets",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "a037839b-97ee-49ed-89bd-68424ac074f5",
+      "title": "Show HN: Crisp – Open-source display manager for macOS (DDC, HiDPI, presets)",
+      "url": "https://github.com/didriksg/Crisp",
+      "domain": "github.com",
+      "published_at": "2026-07-24T16:05:13Z",
+      "category": "tech",
+      "score": 0.40501439642744763,
+      "tldr": "Show HN: Crisp – Open-source display manager for macOS (DDC, HiDPI, presets)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "b3eeb626-aa9e-466a-8d93-6908f3417874",
       "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
       "url": "https://github.com/cactus-compute/cactus-hybrid",
@@ -1354,64 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4118bbae-8743-418c-9578-6f8f97c9cabd",
-      "title": "Quick Followup on the Truth Social Thing",
-      "url": "https://www.businesslawprofessors.com/2026/07/quick-followup-on-the-truth-social-thing",
-      "domain": "businesslawprofessors.com",
-      "published_at": "2026-07-23T23:15:22Z",
-      "category": "tech",
-      "score": 0.38939935607917264,
-      "tldr": "Quick Followup on the Truth Social Thing",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "706b7e64-229d-4f94-9223-e842ad101daa",
-      "title": "Fedora 45 Atomic Desktops Look to Allow for Web-Based Remote Installations",
-      "url": "https://discussion.fedoraproject.org/t/f45-change-proposal-web-based-remote-installation-support-for-atomic-desktops-self-contained/197426",
-      "domain": "discussion.fedoraproject.org",
-      "published_at": "2026-07-23T17:19:44Z",
-      "category": "tech",
-      "score": 0.3893930282430592,
-      "tldr": "Fedora 45 Atomic Desktops Look to Allow for Web-Based Remote Installations",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "36de61b5-1291-44f2-a92c-d798e1e743c2",
-      "title": "The day Steve Jobs dissed me in a keynote (2010)",
-      "url": "https://sive.rs/itunes",
-      "domain": "sive.rs",
-      "published_at": "2026-07-24T09:07:44Z",
-      "category": "tech",
-      "score": 0.3893871170208211,
-      "tldr": "The day Steve Jobs dissed me in a keynote (2010)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c9c88280-8747-471e-ab27-41a6cf8005b2",
-      "title": "Safari Technology Preview 248 Released",
-      "url": "https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248",
-      "domain": "webkit.org",
-      "published_at": "2026-07-22T21:00:26Z",
-      "category": "tech",
-      "score": 0.38938294286724107,
-      "tldr": "Safari Technology Preview 248 Released",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-24T19:15:26.787471093Z",
+  "last_updated": "2026-07-24T20:44:29.022078355Z",
   "total_count": 100
 }
