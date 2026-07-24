@@ -261,6 +261,20 @@
       ]
     },
     {
+      "id": "84aae34c-df07-4543-9b2a-d627e8e13d65",
+      "title": "GR: Ban LLM Contributions from Debian",
+      "url": "https://lists.debian.org/debian-vote/2026/07/msg00000.html",
+      "domain": "lists.debian.org",
+      "published_at": "2026-07-24T22:43:15Z",
+      "category": "tech",
+      "score": 0.5987299344403649,
+      "tldr": "GR: Ban LLM Contributions from Debian",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "eae90b2f-fa05-4a51-a0ba-747cf9f66e32",
       "title": "Show HN: Whetuu – a zero-config cross-shell prompt written in Zig",
       "url": "https://yamafaktory.github.io/whetuu",
@@ -1273,6 +1287,20 @@
       ]
     },
     {
+      "id": "dd9c9473-6658-422a-8050-9b30d4955160",
+      "title": "Amazon cracks down on use of AI images by sellers after New York law",
+      "url": "https://www.cnbc.com/2026/07/23/amazon-makes-sellers-label-ai-generated-people-in-images-after-ny-law.html",
+      "domain": "cnbc.com",
+      "published_at": "2026-07-24T23:28:18Z",
+      "category": "tech",
+      "score": 0.3895346737903509,
+      "tldr": "Amazon cracks down on use of AI images by sellers after New York law",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "75c668ec-97e7-4d76-a329-ee931a88df1c",
       "title": "Bakelite – first commercial synthetic plastic",
       "url": "https://en.wikipedia.org/wiki/Bakelite",
@@ -1383,36 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "0a949110-710c-409e-8913-21b4cead350a",
-      "title": "Publishers consider opting out of Google as search traffic declines",
-      "url": "https://www.niemanlab.org/2026/07/search-traffic-has-declined-so-much-that-some-publishers-are-considering-opting-out-of-google-entirely",
-      "domain": "niemanlab.org",
-      "published_at": "2026-07-23T11:38:12Z",
-      "category": "tech",
-      "score": 0.3894538104740408,
-      "tldr": "Publishers consider opting out of Google as search traffic declines",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "938856e6-0f2c-4dc6-9715-62a57f8f631f",
-      "title": "Chinese AI's role in stopping rogue OpenAI agent shows cost of US guardrails",
-      "url": "https://www.reuters.com/legal/litigation/chinese-ais-role-stopping-rogue-openai-agent-shows-cost-us-guardrails-2026-07-22",
-      "domain": "reuters.com",
-      "published_at": "2026-07-23T14:08:14Z",
-      "category": "tech",
-      "score": 0.3894488870240652,
-      "tldr": "Chinese AI's role in stopping rogue OpenAI agent shows cost of US guardrails",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-24T22:52:01.669408189Z",
+  "last_updated": "2026-07-24T23:54:28.897991195Z",
   "total_count": 100
 }
