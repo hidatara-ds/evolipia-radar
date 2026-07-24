@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "cd10dfb8-83ee-4a36-ab03-cbe2a1544199",
+      "title": "Hetzner is working on LLM Inference",
+      "url": "https://sliplane.io/blog/hetzner-inference",
+      "domain": "sliplane.io",
+      "published_at": "2026-07-24T09:24:44Z",
+      "category": "tech",
+      "score": 0.8077646917067391,
+      "tldr": "Hetzner is working on LLM Inference",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7d073bc7-e7a1-4a4e-b680-cab4c973f58e",
+      "title": "A Pragmatic Approach to LLMs",
+      "url": "https://gracefulliberty.com/articles/pragmatic-llms",
+      "domain": "gracefulliberty.com",
+      "published_at": "2026-07-24T07:00:01Z",
+      "category": "tech",
+      "score": 0.8051777775566956,
+      "tldr": "A Pragmatic Approach to LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "06cdb412-856d-4db0-835a-c3cde637e552",
       "title": "Proxy for OpenAI Codex and Claude Code, use any LLM with those apps",
       "url": "https://github.com/lidge-jun/opencodex",
@@ -1382,36 +1410,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "83eea7a1-b6c8-4ce3-b3b3-5715c12ca7b4",
-      "title": "A solid-state “atomic channel” for separating rare earth elements",
-      "url": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
-      "domain": "pme.uchicago.edu",
-      "published_at": "2026-07-23T18:13:03Z",
-      "category": "tech",
-      "score": 0.38920820303192594,
-      "tldr": "A solid-state “atomic channel” for separating rare earth elements",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "be03aafc-5775-44f5-9028-c91823b5375f",
-      "title": "Americans – including many Republicans – are losing faith in capitalism",
-      "url": "https://www.cnn.com/2026/07/23/politics/republicans-capitalism-socialism-poll",
-      "domain": "cnn.com",
-      "published_at": "2026-07-23T19:23:55Z",
-      "category": "tech",
-      "score": 0.389207698068706,
-      "tldr": "Americans – including many Republicans – are losing faith in capitalism",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-24T09:42:05.704927598Z",
+  "last_updated": "2026-07-24T11:30:05.8389193Z",
   "total_count": 100
 }
