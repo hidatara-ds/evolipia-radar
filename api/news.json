@@ -331,6 +331,20 @@
       ]
     },
     {
+      "id": "62afe41d-7153-400e-9907-1179fdfd3d78",
+      "title": "\"We removed over 80% of Claude Code's system prompt for Opus 5 and Fable 5\"",
+      "url": "https://twitter.com/trq212/status/2080710971228918066",
+      "domain": "twitter.com",
+      "published_at": "2026-07-25T02:18:09Z",
+      "category": "tech",
+      "score": 0.597469281071228,
+      "tldr": "\"We removed over 80% of Claude Code's system prompt for Opus 5 and Fable 5\"",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5874a624-caec-47fd-895e-b31d4f42ecaf",
       "title": "Codeberg: ToU extension to prohibit LLM-extrusions",
       "url": "https://codeberg.org/Codeberg/org/pulls/1253",
@@ -440,6 +454,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "mlops"
+      ]
+    },
+    {
+      "id": "53f81e94-acf2-444f-93f9-3401700dfd8c",
+      "title": "Show HN: Lucen a Python compiler that parallelizes for-loops via comment pragmas",
+      "url": "https://github.com/fcmv/lucen",
+      "domain": "github.com",
+      "published_at": "2026-07-21T15:36:37Z",
+      "category": "tech",
+      "score": 0.5288702211095991,
+      "tldr": "Show HN: Lucen a Python compiler that parallelizes for-loops via comment pragmas",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -620,6 +648,20 @@
       "category": "tech",
       "score": 0.40809990823218484,
       "tldr": "Show HN: macOS menu-bar manager for SSH port forwards",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "0ac89f80-a2ea-4246-9ac1-aab6b8e5f9e4",
+      "title": "US accuses American of allegedly wiping his phone during border search",
+      "url": "https://techcrunch.com/2026/07/24/us-accuses-american-of-allegedly-wiping-his-phone-using-a-duress-password-during-border-search",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-25T02:52:14Z",
+      "category": "tech",
+      "score": 0.40807866158319794,
+      "tldr": "US accuses American of allegedly wiping his phone during border search",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1369,50 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "7c8bcc3d-c309-44be-ae5e-a81b612d11fe",
-      "title": "Raspberry Pi, Picos, Hats Humble Book Bundle",
-      "url": "https://www.humblebundle.com/books/picos-hats-and-more-raspberry-pi-press-books",
-      "domain": "humblebundle.com",
-      "published_at": "2026-07-22T14:26:35Z",
-      "category": "tech",
-      "score": 0.3894996534057905,
-      "tldr": "Raspberry Pi, Picos, Hats Humble Book Bundle",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ccda29f5-ee83-4cf8-bcd5-30333b3c8c7c",
-      "title": "Does creatine make you smarter?",
-      "url": "https://dynomight.net/creatine",
-      "domain": "dynomight.net",
-      "published_at": "2026-07-22T15:45:18Z",
-      "category": "tech",
-      "score": 0.38948316551707296,
-      "tldr": "Does creatine make you smarter?",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ce76e15d-0312-4444-9304-18cecbc82d46",
-      "title": "Passkeys were invented by engineers with zero understanding of consumer brain",
-      "url": "https://twitter.com/nikitabier/status/2079787406300266743",
-      "domain": "twitter.com",
-      "published_at": "2026-07-22T14:25:13Z",
-      "category": "tech",
-      "score": 0.38947418635198006,
-      "tldr": "Passkeys were invented by engineers with zero understanding of consumer brain",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-25T01:27:40.333539877Z",
+  "last_updated": "2026-07-25T04:39:54.803884635Z",
   "total_count": 100
 }
