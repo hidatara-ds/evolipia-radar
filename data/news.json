@@ -206,6 +206,20 @@
       ]
     },
     {
+      "id": "0fa1ce28-1478-4d52-aace-6d0eda0ad71f",
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "domain": "github.com",
+      "published_at": "2026-07-25T18:59:50Z",
+      "category": "tech",
+      "score": 0.6164936740383777,
+      "tldr": "9M parameter LLM on an $8 microcontroller",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "57c7cddd-31d4-4f0c-9cb4-d7eba302128c",
       "title": "Show HN: Millwright – Rust-based, self-hosted LLM router",
       "url": "https://github.com/Northwood-Systems/millwright",
@@ -260,6 +274,20 @@
       "tags": [
         "llm",
         "cloud"
+      ]
+    },
+    {
+      "id": "06a32d22-09e5-462c-b41a-6ecc1d2a6809",
+      "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+      "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+      "domain": "spectrum.ieee.org",
+      "published_at": "2026-07-25T21:48:22Z",
+      "category": "tech",
+      "score": 0.5995017843612518,
+      "tldr": "GM Backs Sodium Ion Batteries for U.",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -417,6 +445,20 @@
       ]
     },
     {
+      "id": "dc3ad947-cc1e-4e5f-b5ca-81ca0318ab36",
+      "title": "General Resolution: LLM Usage in Debian",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "domain": "debian.org",
+      "published_at": "2026-07-25T19:44:39Z",
+      "category": "tech",
+      "score": 0.5972871915523762,
+      "tldr": "General Resolution: LLM Usage in Debian",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5874a624-caec-47fd-895e-b31d4f42ecaf",
       "title": "Codeberg: ToU extension to prohibit LLM-extrusions",
       "url": "https://codeberg.org/Codeberg/org/pulls/1253",
@@ -512,6 +554,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "3e5d5342-3637-4768-b151-76ed5c7ed8a0",
+      "title": "I built Kubernetes for Rust. One command deploys your binary to every server",
+      "url": "https://github.com/Emran-goat/sortie",
+      "domain": "github.com",
+      "published_at": "2026-07-25T18:49:04Z",
+      "category": "tech",
+      "score": 0.5812988685651905,
+      "tldr": "I built Kubernetes for Rust. One command deploys your binary to every server",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
       ]
     },
     {
@@ -681,6 +737,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "07d20a05-32db-4dea-9160-95a279089258",
+      "title": "Tesla's robotaxis are moving in reverse",
+      "url": "https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-25T21:34:53Z",
+      "category": "tech",
+      "score": 0.40925903328424856,
+      "tldr": "Tesla's robotaxis are moving in reverse",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1048,6 +1118,20 @@
       ]
     },
     {
+      "id": "f6e9310d-af7c-4bfe-809f-3a9638fc25b5",
+      "title": "ThinkPad Ergonomic Keyboard with Trackpoint",
+      "url": "https://github.com/saoto28/pineapple60",
+      "domain": "github.com",
+      "published_at": "2026-07-25T18:13:44Z",
+      "category": "tech",
+      "score": 0.4056662218078753,
+      "tldr": "ThinkPad Ergonomic Keyboard with Trackpoint",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "0da6a0ca-6196-49ef-86cc-1815333e1fe8",
       "title": "Quil – a reboot-proof terminal multiplexer that resumes AI sessions",
       "url": "https://github.com/artyomsv/quil",
@@ -1327,92 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ab167f92-3f35-4f2e-8fef-cab2329bcecb",
-      "title": "Writing by Hand is Good for your Brain",
-      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "domain": "nealstephenson.substack.com",
-      "published_at": "2026-07-23T14:24:43Z",
-      "category": "tech",
-      "score": 0.38974388908180685,
-      "tldr": "Writing by Hand is Good for your Brain",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "6bcdd7dc-8c3a-42f2-ab16-648d183d15c1",
-      "title": "New York's small business owners rejoice as Mamdani cuts red tape",
-      "url": "https://www.theguardian.com/us-news/2026/jul/25/zohran-mamdani-small-business-policies",
-      "domain": "theguardian.com",
-      "published_at": "2026-07-25T15:22:16Z",
-      "category": "tech",
-      "score": 0.3897434390652878,
-      "tldr": "New York's small business owners rejoice as Mamdani cuts red tape",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "cc6794f1-4a88-4627-a9ef-4f509cc9c45c",
-      "title": "Co-Opting Linux Processes for High-Performance Network Simulation (2022)",
-      "url": "https://www.usenix.org/conference/atc22/presentation/jansen",
-      "domain": "usenix.org",
-      "published_at": "2026-07-24T14:28:38Z",
-      "category": "tech",
-      "score": 0.3897395210020786,
-      "tldr": "Co-Opting Linux Processes for High-Performance Network Simulation (2022)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0c112c7c-8837-4ba6-b6e1-ba0c660caf59",
-      "title": "Mag Computer: A Mag History of RAM (1960–2025)",
-      "url": "https://magworld.pw/episodes/computer",
-      "domain": "magworld.pw",
-      "published_at": "2026-07-24T14:26:09Z",
-      "category": "tech",
-      "score": 0.38969349699116607,
-      "tldr": "Mag Computer: A Mag History of RAM (1960–2025)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "9c486195-307f-4f26-b1da-c3207ecbaf1e",
-      "title": "I Built a Private Genomics Study with Stoffel MPC",
-      "url": "https://vishakh.blog/2026/07/21/i-built-a-private-genomics-study-with-stoffel-mpc",
-      "domain": "vishakh.blog",
-      "published_at": "2026-07-22T14:35:55Z",
-      "category": "tech",
-      "score": 0.3896665856974941,
-      "tldr": "I Built a Private Genomics Study with Stoffel MPC",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "de0649ef-4a59-48ba-b92b-5345a58edcc4",
-      "title": "Malleable Computing, Emacs, and You",
-      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
-      "domain": "yummymelon.com",
-      "published_at": "2026-07-22T21:15:26Z",
-      "category": "tech",
-      "score": 0.3896548678064003,
-      "tldr": "Malleable Computing, Emacs, and You",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-25T21:14:43.121838461Z",
+  "last_updated": "2026-07-25T22:16:36.815015687Z",
   "total_count": 100
 }
