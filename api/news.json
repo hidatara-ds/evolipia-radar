@@ -44,6 +44,21 @@
       ]
     },
     {
+      "id": "d91805e8-4a77-4e3b-bcd6-74c810df08b8",
+      "title": "Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
+      "url": "https://github.com/Nutlope/hallmark",
+      "domain": "github.com",
+      "published_at": "2026-07-26T14:25:17Z",
+      "category": "tech",
+      "score": 0.7587291363089345,
+      "tldr": "Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
       "id": "06cdb412-856d-4db0-835a-c3cde637e552",
       "title": "Proxy for OpenAI Codex and Claude Code, use any LLM with those apps",
       "url": "https://github.com/lidge-jun/opencodex",
@@ -571,6 +586,20 @@
       ]
     },
     {
+      "id": "d5b8dbb8-54ec-4ba8-b8e6-a596ce1c1ef5",
+      "title": "Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
+      "url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
+      "domain": "antigma.ai",
+      "published_at": "2026-07-26T07:54:11Z",
+      "category": "tech",
+      "score": 0.5917503381457494,
+      "tldr": "Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "9a997ca5-5478-4741-a4ad-b9127d75aa00",
       "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
@@ -607,6 +636,20 @@
       "category": "tech",
       "score": 0.5812988685651905,
       "tldr": "I built Kubernetes for Rust. One command deploys your binary to every server",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
+      ]
+    },
+    {
+      "id": "a9e78596-da4e-4eba-ab03-34799fb32f5a",
+      "title": "Build a self-scaling OCR pipeline with Qwen 3.5 and Kubernetes",
+      "url": "https://github.com/neural-maze/production-ocr-course",
+      "domain": "github.com",
+      "published_at": "2026-07-26T08:47:33Z",
+      "category": "tech",
+      "score": 0.5777013825003363,
+      "tldr": "Build a self-scaling OCR pipeline with Qwen 3.",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "mlops"
@@ -1286,6 +1329,20 @@
       ]
     },
     {
+      "id": "48a54611-3e3b-4716-9c6d-e4495c0cb3df",
+      "title": "Show HN: Wmux – A workspace multiplexer for AI agents",
+      "url": "https://github.com/openwong2kim/wmux",
+      "domain": "github.com",
+      "published_at": "2026-07-26T11:06:16Z",
+      "category": "tech",
+      "score": 0.4051795316637807,
+      "tldr": "Show HN: Wmux – A workspace multiplexer for AI agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "d6f75442-149e-4795-b6c0-4e8d89b37979",
       "title": "Show HN: Jixp, a Lisp DSL for describing Jax neural nets",
       "url": "https://github.com/baileywickham/jixp",
@@ -1328,6 +1385,20 @@
       ]
     },
     {
+      "id": "968c5669-8dff-43bb-b54d-c7f73f33e5ba",
+      "title": "KGazer: Kafka Compacted Topic Explorer",
+      "url": "https://github.com/alfonsojimenez/kgazer",
+      "domain": "github.com",
+      "published_at": "2026-07-26T10:38:34Z",
+      "category": "tech",
+      "score": 0.40468009182566045,
+      "tldr": "KGazer: Kafka Compacted Topic Explorer",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "3609a941-ce85-4380-a4a2-ebf9d748aa1d",
       "title": "Retry Storm Lab",
       "url": "https://github.com/telemetry-sh/retry-storm-lab",
@@ -1340,78 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "76cdb720-4afb-4177-a658-93324c786231",
-      "title": "Show HN: KageOps – An open-source, local-first alternative to Devin",
-      "url": "https://github.com/hmanoor/kageops-core",
-      "domain": "github.com",
-      "published_at": "2026-07-23T00:04:21Z",
-      "category": "tech",
-      "score": 0.4044706575391673,
-      "tldr": "Show HN: KageOps – An open-source, local-first alternative to Devin",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "1da2027a-42d4-469e-b001-e84e46aaf660",
-      "title": "Show HN: Hubo – two agents that implement and review code until they agree",
-      "url": "https://github.com/h0ngcha0/hubo",
-      "domain": "github.com",
-      "published_at": "2026-07-25T22:49:43Z",
-      "category": "tech",
-      "score": 0.4035453712533295,
-      "tldr": "Show HN: Hubo – two agents that implement and review code until they agree",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "47001427-e147-4fcb-83ac-89526cb73607",
-      "title": "Show HN: Claude-thermos keeps your Claude session warm for you",
-      "url": "https://github.com/izeigerman/claude-thermos",
-      "domain": "github.com",
-      "published_at": "2026-07-23T17:06:22Z",
-      "category": "tech",
-      "score": 0.40280953082583365,
-      "tldr": "Show HN: Claude-thermos keeps your Claude session warm for you",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "d7846d6b-89cc-4b34-83ce-27cb88a05a31",
-      "title": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
-      "url": "https://github.com/kdeps/turo",
-      "domain": "github.com",
-      "published_at": "2026-07-24T00:32:12Z",
-      "category": "tech",
-      "score": 0.40261850162197443,
-      "tldr": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4e0742d6-0a63-4a69-a967-e315bbec0352",
-      "title": "Show HN: SpinWin – A macOS menu bar app to visually rotate or spin any window",
-      "url": "https://github.com/alokdhir/spinwin",
-      "domain": "github.com",
-      "published_at": "2026-07-25T17:29:55Z",
-      "category": "tech",
-      "score": 0.40187495240858156,
-      "tldr": "Show HN: SpinWin – A macOS menu bar app to visually rotate or spin any window",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-26T14:23:27.348609779Z",
+  "last_updated": "2026-07-26T15:36:31.386883371Z",
   "total_count": 100
 }
