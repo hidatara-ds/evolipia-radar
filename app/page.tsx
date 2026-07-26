@@ -64,6 +64,8 @@ export default function Dashboard() {
     clearToast,
   } = useCrawlProgress();
 
+  const queryParamsKey = JSON.stringify(filterHook.queryParams);
+
   const loadData = useCallback(async () => {
     setNewsLoading(true);
     setError(null);
@@ -83,7 +85,8 @@ export default function Dashboard() {
       setNewsLoading(false);
       setLoading(false);
     }
-  }, [filterHook.queryParams]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [queryParamsKey]);
 
   useEffect(() => {
     loadData();
@@ -513,10 +516,27 @@ function SignalCard({ item }: { item: NewsItem }) {
           <ExternalLink className="mt-1 h-4 w-4 shrink-0 opacity-0 transition-opacity group-hover:opacity-100" />
         </a>
 
-        {item.raw_excerpt && (
+        {(item.raw_excerpt || item.tldr) && (
           <p className="mt-3 text-sm leading-relaxed text-slate-400 line-clamp-3">
-            {item.raw_excerpt}
+            {item.raw_excerpt || item.tldr}
           </p>
+        )}
+
+        {item.why_it_matters && (
+          <div className="mt-3 p-2.5 rounded-xl bg-emerald-950/20 border border-emerald-500/20 text-xs text-emerald-200/90 leading-relaxed">
+            <span className="font-bold text-emerald-400 block mb-0.5">Why it matters:</span>
+            {item.why_it_matters}
+          </div>
+        )}
+
+        {item.tags && item.tags.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {item.tags.map((tag, idx) => (
+              <span key={idx} className="px-2 py-0.5 rounded-md bg-slate-900 text-slate-400 text-[10px] font-mono border border-slate-800">
+                #{tag}
+              </span>
+            ))}
+          </div>
         )}
       </div>
 

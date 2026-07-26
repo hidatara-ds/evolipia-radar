@@ -77,6 +77,8 @@ export async function fetchItems(params: ItemQueryParams): Promise<PaginatedItem
   const endpoint = `${API_BASE_URL}/api/items?${query.toString()}`;
   const res = await fetch(endpoint);
   
+  let jsonResult: PaginatedItemsResponse;
+
   if (!res.ok) {
     // Fallback to legacy news endpoint if /api/items is not present
     const legacyRes = await fetch(`${API_BASE_URL}/api/news?${query.toString()}`);
@@ -84,18 +86,33 @@ export async function fetchItems(params: ItemQueryParams): Promise<PaginatedItem
       throw new Error(`API error: ${res.statusText}`);
     }
     const legacyJson = await legacyRes.json();
-    return {
+    const rawList: any[] = legacyJson.data?.items || (Array.isArray(legacyJson.data) ? legacyJson.data : []);
+    jsonResult = {
       success: legacyJson.success,
-      data: legacyJson.data?.items || [],
-      total_count: legacyJson.data?.total_count || 0,
-      filtered_count: legacyJson.data?.items?.length || 0,
+      data: rawList,
+      total_count: legacyJson.data?.total_count || rawList.length,
+      filtered_count: legacyJson.data?.filtered_count || rawList.length,
       page: 1,
       total_pages: 1,
       last_updated: legacyJson.data?.last_updated || new Date().toISOString(),
     };
+  } else {
+    jsonResult = await res.json();
   }
 
-  return res.json();
+  // Normalize data items
+  if (jsonResult && Array.isArray(jsonResult.data)) {
+    jsonResult.data = jsonResult.data.map((item: any) => ({
+      ...item,
+      raw_excerpt: item.raw_excerpt || item.tldr || item.title || "",
+      relevance_score: item.relevance_score ?? (item.score ? Math.round(item.score * 100) : (item.raw_score ? Math.round(item.raw_score * 100) : 85)),
+      scaled_score: item.scaled_score ?? (item.score ? Number((item.score * 10).toFixed(1)) : 8.5),
+      source_name: item.source_name || (item.domain === "github.com" ? "GitHub Trending" : item.domain?.includes("arxiv") ? "ArXiv AI" : item.domain || "Global Source"),
+      crawl_status: item.crawl_status || "done",
+    }));
+  }
+
+  return jsonResult;
 }
 
 export async function triggerManualCrawl(): Promise<{ success: boolean; message: string }> {

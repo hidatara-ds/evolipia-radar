@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { ItemQueryParams } from "../api/client";
 
 export interface FilterPreset {
@@ -12,12 +12,12 @@ const LOCAL_STORAGE_KEY = "evolipia_radar_saved_filters";
 export function useFilters() {
   const [search, setSearch] = useState<string>("");
   const [debouncedSearch, setDebouncedSearch] = useState<string>("");
-  const [dateRange, setDateRange] = useState<string>("7d");
+  const [dateRange, setDateRange] = useState<string>("all");
   const [dateFrom, setDateFrom] = useState<string>("");
   const [dateTo, setDateTo] = useState<string>("");
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [minRelevance, setMinRelevance] = useState<number>(30);
+  const [minRelevance, setMinRelevance] = useState<number>(0);
   const [status, setStatus] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("date");
   const [sortOrder, setSortOrder] = useState<string>("desc");
@@ -143,19 +143,19 @@ export function useFilters() {
   const resetFilters = () => {
     setSearch("");
     setDebouncedSearch("");
-    setDateRange("7d");
+    setDateRange("all");
     setDateFrom("");
     setDateTo("");
     setSelectedSources([]);
     setSelectedCategories([]);
-    setMinRelevance(30);
+    setMinRelevance(0);
     setStatus("all");
     setSortBy("date");
     setSortOrder("desc");
     setPage(1);
   };
 
-  const queryParams: ItemQueryParams = {
+  const queryParams: ItemQueryParams = useMemo(() => ({
     search: debouncedSearch,
     date_from: dateFrom,
     date_to: dateTo,
@@ -167,7 +167,18 @@ export function useFilters() {
     sort_order: sortOrder,
     page,
     limit: 20,
-  };
+  }), [
+    debouncedSearch,
+    dateFrom,
+    dateTo,
+    selectedSources,
+    selectedCategories,
+    minRelevance,
+    status,
+    sortBy,
+    sortOrder,
+    page,
+  ]);
 
   return {
     search,
