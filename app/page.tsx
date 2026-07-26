@@ -78,6 +78,8 @@ export default function Dashboard() {
     clearToast,
   } = useCrawlProgress();
 
+  const queryParamsKey = JSON.stringify(filterHook.queryParams);
+
   const loadData = useCallback(async () => {
     setNewsLoading(true);
     setError(null);
@@ -97,7 +99,8 @@ export default function Dashboard() {
       setNewsLoading(false);
       setLoading(false);
     }
-  }, [filterHook.queryParams]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [queryParamsKey]);
 
   useEffect(() => {
     loadData();
@@ -271,15 +274,15 @@ export default function Dashboard() {
               {items.map(item => (
                 <div
                   key={item.id}
-                  className="bg-slate-900 border border-slate-800/80 hover:border-indigo-500/50 rounded-xl p-5 transition-all shadow-md flex flex-col justify-between group"
+                  className="bg-slate-900/90 border border-slate-800/80 hover:border-indigo-500/50 rounded-2xl p-5 transition-all shadow-xl flex flex-col justify-between group"
                 >
                   <div>
-                    <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                      <span className="px-2 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300 font-mono">
+                    <div className="flex items-center justify-between text-xs text-slate-400 mb-3">
+                      <span className="px-2.5 py-0.5 rounded-lg bg-slate-800/90 border border-slate-700/80 text-slate-200 font-semibold font-mono">
                         {item.source_name || item.domain}
                       </span>
-                      <span className="font-mono text-indigo-300 font-bold">
-                        Relevance: {item.relevance_score ?? 85}%
+                      <span className="px-2 py-0.5 rounded-md bg-indigo-950/80 border border-indigo-700/50 font-mono text-indigo-300 font-bold text-[11px]">
+                        {item.relevance_score ?? 85}% Relevance
                       </span>
                     </div>
 
@@ -287,25 +290,42 @@ export default function Dashboard() {
                       href={item.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-base font-bold text-slate-100 group-hover:text-indigo-400 transition-colors line-clamp-2 mb-2 flex items-start gap-1"
+                      className="text-base font-bold text-slate-100 group-hover:text-indigo-400 transition-colors line-clamp-2 mb-2 flex items-start justify-between gap-2"
                     >
-                      {item.title}
-                      <ExternalLink className="w-4 h-4 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity mt-1" />
+                      <span>{item.title}</span>
+                      <ExternalLink className="w-4 h-4 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity mt-1 text-indigo-400" />
                     </a>
 
-                    {item.raw_excerpt && (
-                      <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed mb-4">
-                        {item.raw_excerpt}
+                    {(item.raw_excerpt || item.tldr) && (
+                      <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed mb-3">
+                        {item.raw_excerpt || item.tldr}
                       </p>
+                    )}
+
+                    {item.why_it_matters && (
+                      <div className="p-2.5 rounded-xl bg-indigo-950/30 border border-indigo-500/20 text-xs text-indigo-200/90 leading-relaxed mb-3">
+                        <span className="font-bold text-indigo-400 block mb-0.5">Why it matters:</span>
+                        {item.why_it_matters}
+                      </div>
+                    )}
+
+                    {item.tags && item.tags.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5 mb-3">
+                        {item.tags.map((tag, idx) => (
+                          <span key={idx} className="px-2 py-0.5 rounded-md bg-slate-950 text-slate-400 text-[10px] font-mono border border-slate-800">
+                            #{tag}
+                          </span>
+                        ))}
+                      </div>
                     )}
                   </div>
 
                   <div className="pt-3 border-t border-slate-800/60 flex items-center justify-between text-xs text-slate-500">
-                    <span className="flex items-center gap-1">
-                      <Clock className="w-3.5 h-3.5" />
-                      {new Date(item.published_at).toLocaleDateString()}
+                    <span className="flex items-center gap-1.5 font-mono">
+                      <Clock className="w-3.5 h-3.5 text-slate-400" />
+                      {new Date(item.published_at).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })}
                     </span>
-                    <span className="px-2 py-0.5 rounded-full bg-emerald-950/60 text-emerald-300 border border-emerald-500/30 font-semibold text-[11px]">
+                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-950/60 text-emerald-300 border border-emerald-500/30 font-semibold text-[11px]">
                       {item.crawl_status || "done"}
                     </span>
                   </div>
