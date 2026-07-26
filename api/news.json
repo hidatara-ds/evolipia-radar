@@ -16,6 +16,20 @@
       ]
     },
     {
+      "id": "fb5eab1c-9916-4a17-b839-c5f90982d682",
+      "title": "What if LLMs escape through inferences itself? This is fiction. For now",
+      "url": "https://www.agrillo.it/EvasionEn.html",
+      "domain": "agrillo.it",
+      "published_at": "2026-07-26T16:23:56Z",
+      "category": "tech",
+      "score": 0.8084086013912337,
+      "tldr": "What if LLMs escape through inferences itself?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "cd10dfb8-83ee-4a36-ab03-cbe2a1544199",
       "title": "Hetzner is working on LLM Inference",
       "url": "https://sliplane.io/blog/hetzner-inference",
@@ -1397,22 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "b3eeb626-aa9e-466a-8d93-6908f3417874",
-      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
-      "url": "https://github.com/cactus-compute/cactus-hybrid",
-      "domain": "github.com",
-      "published_at": "2026-07-22T17:56:29Z",
-      "category": "tech",
-      "score": 0.40471497988429617,
-      "tldr": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-26T16:44:58.7684449Z",
+  "last_updated": "2026-07-26T17:53:07.714193884Z",
   "total_count": 100
 }
