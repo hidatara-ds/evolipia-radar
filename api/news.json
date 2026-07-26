@@ -487,6 +487,20 @@
       ]
     },
     {
+      "id": "470450dc-51ec-4f73-a37e-4fbb4c365134",
+      "title": "Becoming a Research Engineer at a Big LLM Lab",
+      "url": "https://www.maxmynter.com/pages/blog/jobhunt",
+      "domain": "maxmynter.com",
+      "published_at": "2026-07-25T21:19:42Z",
+      "category": "tech",
+      "score": 0.5959777449159569,
+      "tldr": "Becoming a Research Engineer at a Big LLM Lab",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "85450a80-4550-485c-a525-023781906f96",
       "title": "Protecting our FLOSS commons from LLMs",
       "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
@@ -512,6 +526,20 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "764ace54-71a1-420b-9a5d-6b9820044989",
+      "title": "LLM Usage in Debian: Three Proposals",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "domain": "debian.org",
+      "published_at": "2026-07-25T19:44:39Z",
+      "category": "tech",
+      "score": 0.5942818669422938,
+      "tldr": "LLM Usage in Debian: Three Proposals",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -810,6 +838,20 @@
       ]
     },
     {
+      "id": "54dd257b-9077-4f79-aa19-be50199ce623",
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "domain": "github.com",
+      "published_at": "2026-07-25T23:32:50Z",
+      "category": "tech",
+      "score": 0.4083568121535438,
+      "tldr": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7e801cae-6aca-45c9-b85c-95ca4fb244b6",
       "title": "Can Chinese AI (Kimi K3) file American tax returns (TaxCalcBench)?",
       "url": "https://github.com/column-tax/tax-calc-bench/pull/93",
@@ -1048,6 +1090,20 @@
       ]
     },
     {
+      "id": "7be74b19-e543-4e57-827f-708f8014e075",
+      "title": "Show HN: Rudoc – a 4.5MB Rust document converter",
+      "url": "https://github.com/asong56/rudoc",
+      "domain": "github.com",
+      "published_at": "2026-07-25T22:11:59Z",
+      "category": "tech",
+      "score": 0.4069125786460161,
+      "tldr": "Show HN: Rudoc – a 4. 5MB Rust document converter",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "70cfd158-50ec-4935-a74e-a4b67ded3988",
       "title": "Show HN: Audio Player with \"Binaural Beats\" tuned to the same key as your music",
       "url": "https://github.com/henrygabriels/binaural-studio",
@@ -1272,6 +1328,20 @@
       ]
     },
     {
+      "id": "4e0742d6-0a63-4a69-a967-e315bbec0352",
+      "title": "Show HN: SpinWin – A macOS menu bar app to visually rotate or spin any window",
+      "url": "https://github.com/alokdhir/spinwin",
+      "domain": "github.com",
+      "published_at": "2026-07-25T17:29:55Z",
+      "category": "tech",
+      "score": 0.40187495240858156,
+      "tldr": "Show HN: SpinWin – A macOS menu bar app to visually rotate or spin any window",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "07028f6c-030e-4bcd-acf6-95948f9da95c",
       "title": "I found a WordPress RCEs with GPT5.6 and $25",
       "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
@@ -1341,78 +1411,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "606583d5-d704-47ff-988f-eaca8a658c1c",
-      "title": "Postgres LISTEN/NOTIFY actually scales",
-      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
-      "domain": "dbos.dev",
-      "published_at": "2026-07-24T19:05:53Z",
-      "category": "tech",
-      "score": 0.38983159096829256,
-      "tldr": "Postgres LISTEN/NOTIFY actually scales",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c81ac25c-9234-4ddc-981d-fe58639e81e8",
-      "title": "Canada is taking an outsized role in the construction of the post-American world",
-      "url": "https://www.theglobeandmail.com/opinion/article-carney-canada-role-post-american-world-trump",
-      "domain": "theglobeandmail.com",
-      "published_at": "2026-07-25T17:38:48Z",
-      "category": "tech",
-      "score": 0.3898198743127015,
-      "tldr": "Canada is taking an outsized role in the construction of the post-American world",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "396e98f2-2cc5-45af-9c80-074ca98a7e2c",
-      "title": "Amen Break",
-      "url": "https://en.wikipedia.org/wiki/Amen_break",
-      "domain": "en.wikipedia.org",
-      "published_at": "2026-07-25T16:34:16Z",
-      "category": "tech",
-      "score": 0.38981893923151223,
-      "tldr": "Amen Break",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c3cc5d75-d73f-4837-9ee5-54198c9648e8",
-      "title": "Waymo's driverless cars crash less often than people",
-      "url": "https://www.iihs.org/news/detail/waymos-driverless-cars-crash-less-often-than-people",
-      "domain": "iihs.org",
-      "published_at": "2026-07-23T18:45:27Z",
-      "category": "tech",
-      "score": 0.38978630248186696,
-      "tldr": "Waymo's driverless cars crash less often than people",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "feeeedc6-2ab7-45f2-98c3-0ccdfc3c21d3",
-      "title": "Future euro banknote design proposals",
-      "url": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html",
-      "domain": "ecb.europa.eu",
-      "published_at": "2026-07-24T09:29:44Z",
-      "category": "tech",
-      "score": 0.38978039185598007,
-      "tldr": "Future euro banknote design proposals",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-25T23:26:49.701922305Z",
+  "last_updated": "2026-07-26T01:04:58.446041756Z",
   "total_count": 100
 }
