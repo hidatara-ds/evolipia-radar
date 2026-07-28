@@ -16,6 +16,20 @@
       ]
     },
     {
+      "id": "ce021ed0-51ee-4fd4-bb54-569645595fbe",
+      "title": "Show HN: Writekin – fine-tune a local LLM on your own writing, on your Mac",
+      "url": "https://github.com/scouttyg/writekin",
+      "domain": "github.com",
+      "published_at": "2026-07-28T19:05:12Z",
+      "category": "tech",
+      "score": 0.8269619642561272,
+      "tldr": "Show HN: Writekin – fine-tune a local LLM on your own writing, on your Mac",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "fb5eab1c-9916-4a17-b839-c5f90982d682",
       "title": "What if LLMs escape through inferences itself? This is fiction. For now",
       "url": "https://www.agrillo.it/EvasionEn.html",
@@ -455,6 +469,20 @@
       "category": "tech",
       "score": 0.5987299344403649,
       "tldr": "GR: Ban LLM Contributions from Debian",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "de496d80-38a2-4337-9218-ee32ebd76cef",
+      "title": "OpenReviewer: A Specialized LLM for Generating Critical Scientific Paper Reviews",
+      "url": "https://aclanthology.org/2025.naacl-demo.44",
+      "domain": "aclanthology.org",
+      "published_at": "2026-07-28T20:39:05Z",
+      "category": "tech",
+      "score": 0.5986419733634217,
+      "tldr": "OpenReviewer: A Specialized LLM for Generating Critical Scientific Paper Reviews",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1106,6 +1134,20 @@
       ]
     },
     {
+      "id": "d7db7297-0dd0-48dd-9a04-b29b1a33fe51",
+      "title": "Running Kimi K3 on a M1 Mac",
+      "url": "https://github.com/gavamedia/deltafin",
+      "domain": "github.com",
+      "published_at": "2026-07-28T21:35:19Z",
+      "category": "tech",
+      "score": 0.4096393746492816,
+      "tldr": "Running Kimi K3 on a M1 Mac",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ec1d1301-2b5f-4302-bdac-d0267472cc0e",
       "title": "Show HN: Proxmox -\u003e Share your host's Bluetooth with a VM over the network",
       "url": "https://github.com/lucid-fabrics/proxmox-bluetooth",
@@ -1131,6 +1173,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "c23284ca-be25-45f5-8d57-e013aa7d49d6",
+      "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
+      "url": "https://github.com/anthropics/cryptography-research-demo",
+      "domain": "github.com",
+      "published_at": "2026-07-28T21:22:48Z",
+      "category": "tech",
+      "score": 0.40942011207189555,
+      "tldr": "Anthropic publishes a practical key-recovery attack on HAWK-256",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1274,6 +1330,21 @@
       ]
     },
     {
+      "id": "4bd6e8cf-8ab5-4c6b-bd4c-5b82e3239731",
+      "title": "OpenAI just open-sourced Codex Security",
+      "url": "https://github.com/openai/codex-security",
+      "domain": "github.com",
+      "published_at": "2026-07-28T20:52:55Z",
+      "category": "tech",
+      "score": 0.40888322734518606,
+      "tldr": "OpenAI just open-sourced Codex Security",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security",
+        "general_ai"
+      ]
+    },
+    {
       "id": "fee28729-2a4c-4e2b-823d-7b43a6b96d30",
       "title": "Claude shared chats and Artifacts may have ended up on Google",
       "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
@@ -1342,79 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "f4dbc5c3-ddf4-440f-91ed-cce5825975d8",
-      "title": "Simulate cassette tape audio profiles using FFmpeg",
-      "url": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
-      "domain": "github.com",
-      "published_at": "2026-07-26T20:02:15Z",
-      "category": "tech",
-      "score": 0.4085373668958673,
-      "tldr": "Simulate cassette tape audio profiles using FFmpeg",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "dbf4d719-d945-4732-9b83-8d698f24d82f",
-      "title": "Analysis of Opus 5's 'Contrition'",
-      "url": "https://github.com/curtis-arch/Why-Opus-feels-intolerable/blob/main/reports/recommended-instructions.md",
-      "domain": "github.com",
-      "published_at": "2026-07-28T19:17:01Z",
-      "category": "tech",
-      "score": 0.4085279938251929,
-      "tldr": "Analysis of Opus 5's 'Contrition'",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "f52ac43e-6f8c-4559-844c-a220567668fb",
-      "title": "Show HN: HART OS – an open-source AI OS built so frontier AI needs no datacenter",
-      "url": "https://github.com/hertz-ai/HARTOS",
-      "domain": "github.com",
-      "published_at": "2026-07-26T18:40:08Z",
-      "category": "tech",
-      "score": 0.40850381173947353,
-      "tldr": "Show HN: HART OS – an open-source AI OS built so frontier AI needs no datacenter",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai",
-        "data"
-      ]
-    },
-    {
-      "id": "9c15ada1-d2de-4f61-9349-1e32ee1f17bd",
-      "title": "Show HN: Boffin – Staff-engineer layer for AI coding agents",
-      "url": "https://github.com/MicSm/boffin",
-      "domain": "github.com",
-      "published_at": "2026-07-26T17:28:03Z",
-      "category": "tech",
-      "score": 0.40847179852584137,
-      "tldr": "Show HN: Boffin – Staff-engineer layer for AI coding agents",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "54dd257b-9077-4f79-aa19-be50199ce623",
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "domain": "github.com",
-      "published_at": "2026-07-25T23:32:50Z",
-      "category": "tech",
-      "score": 0.4083568121535438,
-      "tldr": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-28T20:39:31.81146382Z",
+  "last_updated": "2026-07-28T21:55:34.035827256Z",
   "total_count": 100
 }
