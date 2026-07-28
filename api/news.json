@@ -58,6 +58,21 @@
       ]
     },
     {
+      "id": "5e59c13f-e924-4c0c-b07e-944755eaa724",
+      "title": "Measured LLM inference speeds on Apple Silicon, with raw data (CC BY 4.0)",
+      "url": "https://macyou.co/benchmarks",
+      "domain": "macyou.co",
+      "published_at": "2026-07-27T23:45:05Z",
+      "category": "tech",
+      "score": 0.8048170975388772,
+      "tldr": "Measured LLM inference speeds on Apple Silicon, with raw data (CC BY 4.",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "data"
+      ]
+    },
+    {
       "id": "d91805e8-4a77-4e3b-bcd6-74c810df08b8",
       "title": "Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
       "url": "https://github.com/Nutlope/hallmark",
@@ -488,6 +503,20 @@
       ]
     },
     {
+      "id": "edb20103-c878-46bd-bf12-acaaee0408fc",
+      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+      "url": "https://fermisense.com/when-machines-take-the-wheel",
+      "domain": "fermisense.com",
+      "published_at": "2026-07-28T02:18:53Z",
+      "category": "tech",
+      "score": 0.5975702604655819,
+      "tldr": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "9289d4dc-1bc2-4230-91a7-855868a2072a",
       "title": "Show HN: Connecting my dumb garage and car's homelink buttons to Home Assistant",
       "url": "https://dsauerbrun.com/writing/dumb-garage",
@@ -513,6 +542,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "53827b20-4574-439a-9578-6cee8e0806ce",
+      "title": "Gemini Distillation Service",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/tuning/distillation",
+      "domain": "docs.cloud.google.com",
+      "published_at": "2026-07-28T02:08:12Z",
+      "category": "tech",
+      "score": 0.5973739990253137,
+      "tldr": "Gemini Distillation Service",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -611,6 +654,20 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "6be5af60-7ead-4537-b91f-e82076290ecb",
+      "title": "Don't ask an LLM for a confidence score",
+      "url": "https://justinflick.com/2026/07/27/llm-confidence-scores.html",
+      "domain": "justinflick.com",
+      "published_at": "2026-07-28T00:06:53Z",
+      "category": "tech",
+      "score": 0.5952098736521396,
+      "tldr": "Don't ask an LLM for a confidence score",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -847,6 +904,20 @@
       "category": "tech",
       "score": 0.4534405399598068,
       "tldr": "Saga: Source Attribution of Generative AI Videos (identifies the model used)",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "bd05b062-a8d1-4b44-a908-d50810ce0588",
+      "title": "The Polynomial-Time Low-Degree Conjecture Is False",
+      "url": "https://arxiv.org/abs/2607.20318",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-27T21:50:04Z",
+      "category": "tech",
+      "score": 0.4527642261261753,
+      "tldr": "The Polynomial-Time Low-Degree Conjecture Is False",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1342,78 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "add4d145-b444-42b4-9c26-63c5fb8bd6cb",
-      "title": "Show HN: Vivace – A single-process Qt media player with interactive DVD menus",
-      "url": "https://github.com/Sportacandy/vivace",
-      "domain": "github.com",
-      "published_at": "2026-07-22T23:15:56Z",
-      "category": "tech",
-      "score": 0.40736642290822145,
-      "tldr": "Show HN: Vivace – A single-process Qt media player with interactive DVD menus",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fea90b7a-d8c1-4808-ad06-76f9ee96541a",
-      "title": "Scanwheel is a drum style mechanical television you can build yourself",
-      "url": "https://github.com/AncientJames/Scanwheel",
-      "domain": "github.com",
-      "published_at": "2026-07-25T14:10:43Z",
-      "category": "tech",
-      "score": 0.4072537218028661,
-      "tldr": "Scanwheel is a drum style mechanical television you can build yourself",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e7bbbbe5-bebe-4498-a640-c1087587ba3f",
-      "title": "Why Software Factories Fail (or: harness engineering is not enough)",
-      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
-      "domain": "github.com",
-      "published_at": "2026-07-23T15:18:48Z",
-      "category": "tech",
-      "score": 0.4072332486092378,
-      "tldr": "Why Software Factories Fail (or: harness engineering is not enough)",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "b2e472b8-913d-4b4e-9191-2f72fcaa81cf",
-      "title": "Show HN: A browser-based video editor that renders videos directly with FFmpeg",
-      "url": "https://github.com/thiagoalbrecht/weave",
-      "domain": "github.com",
-      "published_at": "2026-07-26T14:07:56Z",
-      "category": "tech",
-      "score": 0.40719946910362415,
-      "tldr": "Show HN: A browser-based video editor that renders videos directly with FFmpeg",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "75292372-470e-4eab-9800-ee616d15b70d",
-      "title": "Show HN: Palmier Pro – open-source macOS video editor built for AI",
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "domain": "github.com",
-      "published_at": "2026-07-23T15:11:37Z",
-      "category": "tech",
-      "score": 0.40710420791918633,
-      "tldr": "Show HN: Palmier Pro – open-source macOS video editor built for AI",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-28T01:23:31.374233376Z",
+  "last_updated": "2026-07-28T04:35:21.197715251Z",
   "total_count": 100
 }
