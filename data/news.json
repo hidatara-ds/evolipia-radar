@@ -264,6 +264,20 @@
       ]
     },
     {
+      "id": "ec318406-e20a-42f2-a881-ba85d03a3d59",
+      "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
+      "url": "https://github.com/ctrlb-hq/ctrlb-decompose",
+      "domain": "github.com",
+      "published_at": "2026-07-28T13:13:35Z",
+      "category": "tech",
+      "score": 0.6181562121839946,
+      "tldr": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "0fa1ce28-1478-4d52-aace-6d0eda0ad71f",
       "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
       "url": "https://github.com/slvDev/esp32-ai",
@@ -601,6 +615,20 @@
       ]
     },
     {
+      "id": "bc66282f-e126-4257-ad55-acb235be7fdc",
+      "title": "Mondragon Corporation – a federation of co-operatives",
+      "url": "https://en.wikipedia.org/wiki/Mondragon_Corporation",
+      "domain": "en.wikipedia.org",
+      "published_at": "2026-07-28T12:19:07Z",
+      "category": "tech",
+      "score": 0.597184871920223,
+      "tldr": "Mondragon Corporation – a federation of co-operatives",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "5874a624-caec-47fd-895e-b31d4f42ecaf",
       "title": "Codeberg: ToU extension to prohibit LLM-extrusions",
       "url": "https://codeberg.org/Codeberg/org/pulls/1253",
@@ -876,6 +904,20 @@
       "category": "tech",
       "score": 0.4565543229013759,
       "tldr": "How real are real numbers?",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "fb39d00e-ec78-4f63-a21e-eafc48d2f7be",
+      "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+      "url": "https://arxiv.org/abs/2510.26692",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-28T10:52:30Z",
+      "category": "tech",
+      "score": 0.455637080102889,
+      "tldr": "Kimi Linear: An Expressive, Efficient Attention Architecture",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1317,6 +1359,20 @@
       ]
     },
     {
+      "id": "0253ac38-f133-4dae-8fed-456c1b5e0704",
+      "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+      "url": "https://github.com/schildep/verified-3d-mesh-intersection",
+      "domain": "github.com",
+      "published_at": "2026-07-28T13:07:14Z",
+      "category": "tech",
+      "score": 0.4080451650365875,
+      "tldr": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "93d82a3e-66c3-4d0d-8e75-72d32f6e069a",
       "title": "Show HN: Claude-thermos – keeps your Claude session warm for you",
       "url": "https://github.com/izeigerman/claude-thermos",
@@ -1357,64 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "7c9264fd-7387-46a8-ab5a-b82bbbfceaad",
-      "title": "Flare Redact – zero-dependency secret and PII redaction for Node.js",
-      "url": "https://github.com/umudhasanli/flare-redact",
-      "domain": "github.com",
-      "published_at": "2026-07-22T20:53:36Z",
-      "category": "tech",
-      "score": 0.40787661547788934,
-      "tldr": "Flare Redact – zero-dependency secret and PII redaction for Node.",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "4b1b813b-1e5d-4b6c-a800-61723328029b",
-      "title": "Libsm64: Mario 64 as a library for use in external game engines",
-      "url": "https://github.com/libsm64/libsm64",
-      "domain": "github.com",
-      "published_at": "2026-07-27T10:04:48Z",
-      "category": "tech",
-      "score": 0.4077600730269328,
-      "tldr": "Libsm64: Mario 64 as a library for use in external game engines",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "c72c85ad-bb8e-478e-bc16-dadb2de1e83c",
-      "title": "NotchAgent – native macOS notch control for AI agents running under herdr",
-      "url": "https://github.com/ykushch/agsig",
-      "domain": "github.com",
-      "published_at": "2026-07-22T21:43:42Z",
-      "category": "tech",
-      "score": 0.407671700075939,
-      "tldr": "NotchAgent – native macOS notch control for AI agents running under herdr",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ffee23b4-4413-4d4c-9c54-9586323f02a8",
-      "title": "You can now run same OCI images as containers or Firecracker microVMs",
-      "url": "https://github.com/pullrun/pullrun",
-      "domain": "github.com",
-      "published_at": "2026-07-23T14:08:39Z",
-      "category": "tech",
-      "score": 0.40766575292323365,
-      "tldr": "You can now run same OCI images as containers or Firecracker microVMs",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-28T12:19:00.272707397Z",
+  "last_updated": "2026-07-28T14:57:03.755618796Z",
   "total_count": 100
 }
