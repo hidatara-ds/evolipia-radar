@@ -221,6 +221,20 @@
       ]
     },
     {
+      "id": "7a83c9a7-13c1-4b1d-9b77-9c8d4df1e4fc",
+      "title": "\"Uncensored\" open LLMs are measurably more optimistic than their base models",
+      "url": "https://arxiv.org/abs/2607.17427",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-28T16:09:27Z",
+      "category": "tech",
+      "score": 0.6681722072750063,
+      "tldr": "\"Uncensored\" open LLMs are measurably more optimistic than their base models",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "87c4818e-2fe6-40cc-bb67-b76af7c453d2",
       "title": "Launching Health in ChatGPT to US Users",
       "url": "https://openai.com/index/health-in-chatgpt",
@@ -811,6 +825,21 @@
       ]
     },
     {
+      "id": "0a38afff-9cee-41d1-b77a-52ab61e71ee1",
+      "title": "Show HN: Cloudrift – CLI open-source that finds wated AWS spend",
+      "url": "https://github.com/elleVas/cloudrift",
+      "domain": "github.com",
+      "published_at": "2026-07-28T13:25:17Z",
+      "category": "tech",
+      "score": 0.5802402303331637,
+      "tldr": "Show HN: Cloudrift – CLI open-source that finds wated AWS spend",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops",
+        "cloud"
+      ]
+    },
+    {
       "id": "a9e78596-da4e-4eba-ab03-34799fb32f5a",
       "title": "Build a self-scaling OCR pipeline with Qwen 3.5 and Kubernetes",
       "url": "https://github.com/neural-maze/production-ocr-course",
@@ -850,6 +879,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "security",
+        "general_ai"
+      ]
+    },
+    {
+      "id": "1c2a428a-703e-4047-ae9d-eea0aa4272b0",
+      "title": "Scientific computing in the age of agentic AI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "domain": "openai.com",
+      "published_at": "2026-07-28T17:13:15Z",
+      "category": "tech",
+      "score": 0.4593104205151363,
+      "tldr": "Scientific computing in the age of agentic AI",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
         "general_ai"
       ]
     },
@@ -994,6 +1037,20 @@
       ]
     },
     {
+      "id": "93041fa5-0713-43bf-8a68-b53998853c84",
+      "title": "Discovering Cryptographic Weaknesses with Claude",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "domain": "anthropic.com",
+      "published_at": "2026-07-28T17:22:16Z",
+      "category": "tech",
+      "score": 0.43947229008959765,
+      "tldr": "Discovering Cryptographic Weaknesses with Claude",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "ae15e6dd-c6b7-4675-b31b-8aa2843513cf",
       "title": "Our position on open-weights models",
       "url": "https://www.anthropic.com/news/position-open-weights-models",
@@ -1120,6 +1177,20 @@
       ]
     },
     {
+      "id": "b07ee887-1359-439d-b572-59a2a0caa300",
+      "title": "Coding Tools MCP (v0.2.2):Give any AI chat or agent a pair of hands on your code",
+      "url": "https://github.com/xyTom/coding-tools-mcp",
+      "domain": "github.com",
+      "published_at": "2026-07-28T17:04:44Z",
+      "category": "tech",
+      "score": 0.4091566211150819,
+      "tldr": "Coding Tools MCP (v0. 2):Give any AI chat or agent a pair of hands on your code",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7ca4e0b4-32ba-4399-afdc-014b2b2ce3a8",
       "title": "Show HN: Max Studio Tools (C++ DSP Modules for Max and Ableton Live)",
       "url": "https://github.com/apresta/max-studio-tools",
@@ -1170,6 +1241,20 @@
       "category": "tech",
       "score": 0.4088104377390527,
       "tldr": "Claude shared chats and Artifacts may have ended up on Google",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ed606375-39bf-4a21-abdf-6494e9e09a79",
+      "title": "Show HN: Cynative – Read-only CLI in Go that explains your live infrastructure",
+      "url": "https://github.com/cynative/cynative",
+      "domain": "github.com",
+      "published_at": "2026-07-28T16:43:09Z",
+      "category": "tech",
+      "score": 0.4087714188248703,
+      "tldr": "Show HN: Cynative – Read-only CLI in Go that explains your live infrastructure",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1329,92 +1414,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "6f50ae6f-9a9f-41e1-9382-9bea709e7113",
-      "title": "Show HN: macOS menu-bar manager for SSH port forwards",
-      "url": "https://github.com/lx2026/RelayBar",
-      "domain": "github.com",
-      "published_at": "2026-07-23T14:32:53Z",
-      "category": "tech",
-      "score": 0.40809990823218484,
-      "tldr": "Show HN: macOS menu-bar manager for SSH port forwards",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0ac89f80-a2ea-4246-9ac1-aab6b8e5f9e4",
-      "title": "US accuses American of allegedly wiping his phone during border search",
-      "url": "https://techcrunch.com/2026/07/24/us-accuses-american-of-allegedly-wiping-his-phone-using-a-duress-password-during-border-search",
-      "domain": "techcrunch.com",
-      "published_at": "2026-07-25T02:52:14Z",
-      "category": "tech",
-      "score": 0.40807866158319794,
-      "tldr": "US accuses American of allegedly wiping his phone during border search",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "2558d004-cf55-4f78-94ae-1a78668ccb45",
-      "title": "Show HN: Remux – an open-source tmux workspace designed for iPhone",
-      "url": "https://github.com/h3nock/remux",
-      "domain": "github.com",
-      "published_at": "2026-07-23T14:31:26Z",
-      "category": "tech",
-      "score": 0.4080677405654188,
-      "tldr": "Show HN: Remux – an open-source tmux workspace designed for iPhone",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "cf97da75-d779-4684-bf54-c89bfbc2d84e",
-      "title": "Show HN: Max Studio Tools – C++ DSP Modules for Max and Ableton Live",
-      "url": "https://github.com/apresta/max-studio-tools",
-      "domain": "github.com",
-      "published_at": "2026-07-24T21:03:10Z",
-      "category": "tech",
-      "score": 0.40805772888924763,
-      "tldr": "Show HN: Max Studio Tools – C++ DSP Modules for Max and Ableton Live",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "0253ac38-f133-4dae-8fed-456c1b5e0704",
-      "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
-      "url": "https://github.com/schildep/verified-3d-mesh-intersection",
-      "domain": "github.com",
-      "published_at": "2026-07-28T13:07:14Z",
-      "category": "tech",
-      "score": 0.4080451650365875,
-      "tldr": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "93d82a3e-66c3-4d0d-8e75-72d32f6e069a",
-      "title": "Show HN: Claude-thermos – keeps your Claude session warm for you",
-      "url": "https://github.com/izeigerman/claude-thermos",
-      "domain": "github.com",
-      "published_at": "2026-07-23T17:06:22Z",
-      "category": "tech",
-      "score": 0.40801985422413933,
-      "tldr": "Show HN: Claude-thermos – keeps your Claude session warm for you",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-28T16:28:38.80660777Z",
+  "last_updated": "2026-07-28T17:52:03.513122683Z",
   "total_count": 100
 }
