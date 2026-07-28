@@ -447,6 +447,20 @@
       ]
     },
     {
+      "id": "9d373fca-b7e1-41e7-8454-4193deed3fc1",
+      "title": "Now Is the Time to Give LLMs Access to the ACM Digital Library",
+      "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library",
+      "domain": "cacm.acm.org",
+      "published_at": "2026-07-28T15:01:12Z",
+      "category": "tech",
+      "score": 0.5984456635448935,
+      "tldr": "Now Is the Time to Give LLMs Access to the ACM Digital Library",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "eae90b2f-fa05-4a51-a0ba-747cf9f66e32",
       "title": "Show HN: Whetuu – a zero-config cross-shell prompt written in Zig",
       "url": "https://yamafaktory.github.io/whetuu",
@@ -825,20 +839,6 @@
       ]
     },
     {
-      "id": "53f81e94-acf2-444f-93f9-3401700dfd8c",
-      "title": "Show HN: Lucen a Python compiler that parallelizes for-loops via comment pragmas",
-      "url": "https://github.com/fcmv/lucen",
-      "domain": "github.com",
-      "published_at": "2026-07-21T15:36:37Z",
-      "category": "tech",
-      "score": 0.5288702211095991,
-      "tldr": "Show HN: Lucen a Python compiler that parallelizes for-loops via comment pragmas",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "14bc538b-62d1-4434-8433-185fa30bd4c7",
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
@@ -876,6 +876,20 @@
       "category": "tech",
       "score": 0.4588946586551709,
       "tldr": "OpenAI Presence",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "f82f5c53-f898-4e36-9b68-b8a0b8e05fed",
+      "title": "Harmony Explained: Progress Towards a Scientific Theory of Music (2012)",
+      "url": "https://arxiv.org/abs/1202.4212",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-28T15:20:35Z",
+      "category": "tech",
+      "score": 0.45878616084302715,
+      "tldr": "Harmony Explained: Progress Towards a Scientific Theory of Music (2012)",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1047,6 +1061,20 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "a2898b8e-f15c-42a6-9d9c-eb2213bb3123",
+      "title": "Show HN: XY – Fast, composable, GPU-accelerated charts, written in Rust",
+      "url": "https://github.com/reflex-dev/xy",
+      "domain": "github.com",
+      "published_at": "2026-07-28T15:54:55Z",
+      "category": "tech",
+      "score": 0.4094025578947908,
+      "tldr": "Show HN: XY – Fast, composable, GPU-accelerated charts, written in Rust",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1385,36 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4943ab52-8fd2-4274-89c3-8d9e607cf38e",
-      "title": "Pizauth: An OAuth2 token requester daemon",
-      "url": "https://github.com/ltratt/pizauth",
-      "domain": "github.com",
-      "published_at": "2026-07-24T17:24:02Z",
-      "category": "tech",
-      "score": 0.4080114232558292,
-      "tldr": "Pizauth: An OAuth2 token requester daemon",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ca26fb4a-08d0-46cf-9b67-c27ce4bc0ff1",
-      "title": "Kimi-K3 Technical Report [pdf]",
-      "url": "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf",
-      "domain": "github.com",
-      "published_at": "2026-07-27T15:23:45Z",
-      "category": "tech",
-      "score": 0.4080097843389009,
-      "tldr": "Kimi-K3 Technical Report [pdf]",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-28T14:57:03.755618796Z",
+  "last_updated": "2026-07-28T16:28:38.80660777Z",
   "total_count": 100
 }
