@@ -161,6 +161,21 @@
       ]
     },
     {
+      "id": "16ab9202-37d0-46d2-a2d9-c2f3fbd8c900",
+      "title": "ChatGPT claims rogue AI attacked more companies",
+      "url": "https://www.bbc.co.uk/news/articles/c2el319vzr3o",
+      "domain": "bbc.co.uk",
+      "published_at": "2026-07-29T09:03:17Z",
+      "category": "tech",
+      "score": 0.7384889019162589,
+      "tldr": "ChatGPT claims rogue AI attacked more companies",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "5909a8e4-40fb-4cc9-bfd0-fb628f858980",
       "title": "I used ChatGPT to sue a Norwegian airline from New York and get $4760",
       "url": "https://www.behind-the-enemy-lines.com/2026/07/the-lawyer-i-never-hired-how-chatgpt.html",
@@ -170,21 +185,6 @@
       "score": 0.7383813331943703,
       "tldr": "I used ChatGPT to sue a Norwegian airline from New York and get $4760",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "85ea4a97-0d2e-402c-9cb3-d705e903dfd2",
-      "title": "Microsoft strikes 'multibillion-dollar' deal with French AI firm Mistral",
-      "url": "https://www.france24.com/en/france/20260721-microsoft-strikes-multi-billion-dollar-deal-to-expand-france-ai-firm-mistral",
-      "domain": "france24.com",
-      "published_at": "2026-07-22T09:12:58Z",
-      "category": "tech",
-      "score": 0.737657923784617,
-      "tldr": "Microsoft strikes 'multibillion-dollar' deal with French AI firm Mistral",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai",
         "llm"
@@ -696,20 +696,6 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "5874a624-caec-47fd-895e-b31d4f42ecaf",
-      "title": "Codeberg: ToU extension to prohibit LLM-extrusions",
-      "url": "https://codeberg.org/Codeberg/org/pulls/1253",
-      "domain": "codeberg.org",
-      "published_at": "2026-07-22T08:27:12Z",
-      "category": "tech",
-      "score": 0.5968398046614509,
-      "tldr": "Codeberg: ToU extension to prohibit LLM-extrusions",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1412,8 +1398,23 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "4bd6e8cf-8ab5-4c6b-bd4c-5b82e3239731",
+      "title": "OpenAI just open-sourced Codex Security",
+      "url": "https://github.com/openai/codex-security",
+      "domain": "github.com",
+      "published_at": "2026-07-28T20:52:55Z",
+      "category": "tech",
+      "score": 0.40888322734518606,
+      "tldr": "OpenAI just open-sourced Codex Security",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security",
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-29T07:37:18.870433848Z",
+  "last_updated": "2026-07-29T10:27:57.823295245Z",
   "total_count": 100
 }
