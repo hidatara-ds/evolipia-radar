@@ -191,21 +191,6 @@
       ]
     },
     {
-      "id": "5909a8e4-40fb-4cc9-bfd0-fb628f858980",
-      "title": "I used ChatGPT to sue a Norwegian airline from New York and get $4760",
-      "url": "https://www.behind-the-enemy-lines.com/2026/07/the-lawyer-i-never-hired-how-chatgpt.html",
-      "domain": "behind-the-enemy-lines.com",
-      "published_at": "2026-07-22T16:16:31Z",
-      "category": "tech",
-      "score": 0.7383813331943703,
-      "tldr": "I used ChatGPT to sue a Norwegian airline from New York and get $4760",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "4f54638e-7fa4-42aa-b285-fc64556c62e9",
       "title": "Google DeepMind Disbands AlphaFold Team as AI Strategy Shifts Toward Gemini",
       "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-alphabet-apos-google-093407849.html",
@@ -389,20 +374,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "4c6c11b8-2ed8-4c15-9ca6-ad4d0c94ec36",
-      "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
-      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "domain": "chatgpt.com",
-      "published_at": "2026-07-22T17:30:40Z",
-      "category": "tech",
-      "score": 0.5997106068673974,
-      "tldr": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -729,6 +700,20 @@
       ]
     },
     {
+      "id": "443c7fe5-b76b-44c7-b69d-8b0bf438c0f4",
+      "title": "An Android and iOS app from 7 Claude Code commands, every prompt and timing",
+      "url": "https://proandroiddev.com/seven-claude-code-commands-one-kotlin-multiplatform-app-on-android-and-ios-cb01e920a3e6",
+      "domain": "proandroiddev.com",
+      "published_at": "2026-07-29T14:08:57Z",
+      "category": "tech",
+      "score": 0.5961329538275251,
+      "tldr": "An Android and iOS app from 7 Claude Code commands, every prompt and timing",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "eecfa7ee-d625-4c14-bc4b-7449029bb654",
       "title": "Petals: Run LLMs at home, BitTorrent-style",
       "url": "https://petals.dev/",
@@ -824,20 +809,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "9a997ca5-5478-4741-a4ad-b9127d75aa00",
-      "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
-      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "domain": "chatgpt.com",
-      "published_at": "2026-07-22T17:30:40Z",
-      "category": "tech",
-      "score": 0.5874420679476938,
-      "tldr": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -1220,20 +1191,6 @@
       ]
     },
     {
-      "id": "d2f49826-891f-4d95-8583-91e4771fb943",
-      "title": "GigaToken: ~1000x faster Language model tokenization",
-      "url": "https://github.com/marcelroed/gigatoken",
-      "domain": "github.com",
-      "published_at": "2026-07-22T17:20:38Z",
-      "category": "tech",
-      "score": 0.4095256340435485,
-      "tldr": "GigaToken: ~1000x faster Language model tokenization",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "c23284ca-be25-45f5-8d57-e013aa7d49d6",
       "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
       "url": "https://github.com/anthropics/cryptography-research-demo",
@@ -1415,8 +1372,50 @@
         "security",
         "general_ai"
       ]
+    },
+    {
+      "id": "fee28729-2a4c-4e2b-823d-7b43a6b96d30",
+      "title": "Claude shared chats and Artifacts may have ended up on Google",
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-27T20:28:07Z",
+      "category": "tech",
+      "score": 0.4088104377390527,
+      "tldr": "Claude shared chats and Artifacts may have ended up on Google",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "ed606375-39bf-4a21-abdf-6494e9e09a79",
+      "title": "Show HN: Cynative – Read-only CLI in Go that explains your live infrastructure",
+      "url": "https://github.com/cynative/cynative",
+      "domain": "github.com",
+      "published_at": "2026-07-28T16:43:09Z",
+      "category": "tech",
+      "score": 0.4087714188248703,
+      "tldr": "Show HN: Cynative – Read-only CLI in Go that explains your live infrastructure",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "954a209e-c224-4aa8-bb06-930b984e5d29",
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "domain": "github.com",
+      "published_at": "2026-07-29T15:05:43Z",
+      "category": "tech",
+      "score": 0.4087487322003277,
+      "tldr": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-29T16:15:51.864148125Z",
+  "last_updated": "2026-07-29T17:45:34.705571099Z",
   "total_count": 100
 }
