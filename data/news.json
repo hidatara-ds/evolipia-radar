@@ -532,6 +532,20 @@
       ]
     },
     {
+      "id": "4b35e0b7-9783-4529-b838-6266fd29e38c",
+      "title": "TokenTown: A visual way to understand how LLMs work",
+      "url": "https://laurentiugabriel.github.io/token-town",
+      "domain": "laurentiugabriel.github.io",
+      "published_at": "2026-07-29T13:05:17Z",
+      "category": "tech",
+      "score": 0.5983098249632224,
+      "tldr": "TokenTown: A visual way to understand how LLMs work",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "eae90b2f-fa05-4a51-a0ba-747cf9f66e32",
       "title": "Show HN: Whetuu – a zero-config cross-shell prompt written in Zig",
       "url": "https://yamafaktory.github.io/whetuu",
@@ -784,20 +798,6 @@
       ]
     },
     {
-      "id": "ae3298c1-c7f7-43ae-bb4e-43c6a3456b4f",
-      "title": "We audited 1,751 \"relationship milestones\" our RAG extractor wrote 62% were junk",
-      "url": "https://myastra.pl/casestudy",
-      "domain": "myastra.pl",
-      "published_at": "2026-07-22T13:45:09Z",
-      "category": "tech",
-      "score": 0.5956804866812682,
-      "tldr": "We audited 1,751 \"relationship milestones\" our RAG extractor wrote 62% were junk",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "6be5af60-7ead-4537-b91f-e82076290ecb",
       "title": "Don't ask an LLM for a confidence score",
       "url": "https://justinflick.com/2026/07/27/llm-confidence-scores.html",
@@ -1031,6 +1031,20 @@
       "category": "tech",
       "score": 0.4582648395162119,
       "tldr": "The Burau representation of the braid group is faithful for n = 4",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4b87c53f-d607-4e2e-b75c-9a4f61e03f8f",
+      "title": "Handbook.md shows that long policy documents do not reliably govern agents",
+      "url": "https://arxiv.org/abs/2607.25398",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-29T13:01:57Z",
+      "category": "tech",
+      "score": 0.4582505692918807,
+      "tldr": "md shows that long policy documents do not reliably govern agents",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1399,22 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "058da77d-ccbf-4295-8f7d-34f03471de8c",
-      "title": "Show HN: Ami – A local, open-source agent that does your busywork across apps",
-      "url": "https://github.com/NanoNets/ami",
-      "domain": "github.com",
-      "published_at": "2026-07-27T22:55:33Z",
-      "category": "tech",
-      "score": 0.40895435331768426,
-      "tldr": "Show HN: Ami – A local, open-source agent that does your busywork across apps",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-29T12:28:31.482543185Z",
+  "last_updated": "2026-07-29T14:40:11.252714642Z",
   "total_count": 100
 }
