@@ -161,6 +161,21 @@
       ]
     },
     {
+      "id": "46f6bed9-2ad7-4868-a93c-9629b9b0b3da",
+      "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
+      "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+      "domain": "juliahub.com",
+      "published_at": "2026-07-29T14:56:28Z",
+      "category": "tech",
+      "score": 0.7385922796379256,
+      "tldr": "Claude Fable 5 for Physical AI, which performs best?",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm",
+        "general_ai"
+      ]
+    },
+    {
       "id": "16ab9202-37d0-46d2-a2d9-c2f3fbd8c900",
       "title": "ChatGPT claims rogue AI attacked more companies",
       "url": "https://www.bbc.co.uk/news/articles/c2el319vzr3o",
@@ -420,34 +435,6 @@
       ]
     },
     {
-      "id": "3bc7e5ed-e25e-4184-bf5b-7b5fc86ec15f",
-      "title": "Six questions before you add an LLM",
-      "url": "https://cameronmpalmer.medium.com/should-you-even-use-an-llm-b4f3b7914f4d",
-      "domain": "cameronmpalmer.medium.com",
-      "published_at": "2026-07-22T15:43:45Z",
-      "category": "tech",
-      "score": 0.5994573563996027,
-      "tldr": "Six questions before you add an LLM",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9e19293f-951f-45d4-ac8a-c6474797771a",
-      "title": "A Zipper Patent Sat in a Garage for 40 Years. Now It's Real",
-      "url": "https://www.yankodesign.com/2026/05/31/a-zipper-patent-sat-in-a-garage-for-40-years-now-its-real",
-      "domain": "yankodesign.com",
-      "published_at": "2026-07-22T15:37:25Z",
-      "category": "tech",
-      "score": 0.5993383866106498,
-      "tldr": "A Zipper Patent Sat in a Garage for 40 Years.",
-      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "0c0555b5-6350-47b2-9fc3-8b6315cd812d",
       "title": "A system prompt to get AI to stop pretending to be human",
       "url": "https://swiftrocks.com/a-system-prompt-to-get-ai-to-stop-pretending-to-be-human",
@@ -613,20 +600,6 @@
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
-      ]
-    },
-    {
-      "id": "5cfe153e-c1dc-4bce-91e9-51e8a507c3eb",
-      "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
-      "url": "https://cruciblebench.ai/",
-      "domain": "cruciblebench.ai",
-      "published_at": "2026-07-22T15:39:01Z",
-      "category": "tech",
-      "score": 0.5977136068530685,
-      "tldr": "Can a MUD evaluate LLMs? A $99 proof of concept",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
       ]
     },
     {
@@ -995,20 +968,6 @@
       ]
     },
     {
-      "id": "5f2b608f-f0aa-4815-a436-fd6fc3d8e6f4",
-      "title": "OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "domain": "openai.com",
-      "published_at": "2026-07-22T15:12:26Z",
-      "category": "tech",
-      "score": 0.4588946586551709,
-      "tldr": "OpenAI Presence",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
       "id": "f82f5c53-f898-4e36-9b68-b8a0b8e05fed",
       "title": "Harmony Explained: Progress Towards a Scientific Theory of Music (2012)",
       "url": "https://arxiv.org/abs/1202.4212",
@@ -1045,6 +1004,20 @@
       "category": "tech",
       "score": 0.4582505692918807,
       "tldr": "md shows that long policy documents do not reliably govern agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "3dc60674-0b55-4331-981c-1c10d4dbfbd9",
+      "title": "Teaching agents to predict and pre-execute their next tool call",
+      "url": "https://arxiv.org/abs/2607.25816",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-29T13:53:13Z",
+      "category": "tech",
+      "score": 0.45745627220215895,
+      "tldr": "Teaching agents to predict and pre-execute their next tool call",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "general_ai"
@@ -1413,8 +1386,37 @@
       "tags": [
         "general_ai"
       ]
+    },
+    {
+      "id": "058da77d-ccbf-4295-8f7d-34f03471de8c",
+      "title": "Show HN: Ami – A local, open-source agent that does your busywork across apps",
+      "url": "https://github.com/NanoNets/ami",
+      "domain": "github.com",
+      "published_at": "2026-07-27T22:55:33Z",
+      "category": "tech",
+      "score": 0.40895435331768426,
+      "tldr": "Show HN: Ami – A local, open-source agent that does your busywork across apps",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
+      "id": "4bd6e8cf-8ab5-4c6b-bd4c-5b82e3239731",
+      "title": "OpenAI just open-sourced Codex Security",
+      "url": "https://github.com/openai/codex-security",
+      "domain": "github.com",
+      "published_at": "2026-07-28T20:52:55Z",
+      "category": "tech",
+      "score": 0.40888322734518606,
+      "tldr": "OpenAI just open-sourced Codex Security",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "security",
+        "general_ai"
+      ]
     }
   ],
-  "last_updated": "2026-07-29T14:40:11.252714642Z",
+  "last_updated": "2026-07-29T16:15:51.864148125Z",
   "total_count": 100
 }
