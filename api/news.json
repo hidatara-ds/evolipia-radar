@@ -191,6 +191,21 @@
       ]
     },
     {
+      "id": "4f54638e-7fa4-42aa-b285-fc64556c62e9",
+      "title": "Google DeepMind Disbands AlphaFold Team as AI Strategy Shifts Toward Gemini",
+      "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-alphabet-apos-google-093407849.html",
+      "domain": "finance.yahoo.com",
+      "published_at": "2026-07-29T10:40:55Z",
+      "category": "tech",
+      "score": 0.7380790794543902,
+      "tldr": "Google DeepMind Disbands AlphaFold Team as AI Strategy Shifts Toward Gemini",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "83d09ef5-f5f7-432d-a618-19eb509f93d0",
       "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment",
@@ -713,6 +728,20 @@
       ]
     },
     {
+      "id": "1e2f734e-f515-4d2b-bdfb-cac01657b0c9",
+      "title": "CodeCrucible: A blueprint for LLM-driven SAST",
+      "url": "https://engineering.block.xyz/blog/codecrucible-a-blueprint-for-llm-driven-sast",
+      "domain": "engineering.block.xyz",
+      "published_at": "2026-07-29T08:53:51Z",
+      "category": "tech",
+      "score": 0.5961684342884938,
+      "tldr": "CodeCrucible: A blueprint for LLM-driven SAST",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "eecfa7ee-d625-4c14-bc4b-7449029bb654",
       "title": "Petals: Run LLMs at home, BitTorrent-style",
       "url": "https://petals.dev/",
@@ -904,20 +933,6 @@
       "category": "tech",
       "score": 0.5640700028901994,
       "tldr": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "mlops"
-      ]
-    },
-    {
-      "id": "8129aa39-ac62-4e01-984c-9c55d0628f57",
-      "title": "Nobody needs Kubernetes for eleven users",
-      "url": "https://medium.com/@walexy85/nobody-needs-kubernetes-for-eleven-users-6176948a1730",
-      "domain": "medium.com",
-      "published_at": "2026-07-22T11:40:17Z",
-      "category": "tech",
-      "score": 0.5636831423379702,
-      "tldr": "Nobody needs Kubernetes for eleven users",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "mlops"
@@ -1398,23 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4bd6e8cf-8ab5-4c6b-bd4c-5b82e3239731",
-      "title": "OpenAI just open-sourced Codex Security",
-      "url": "https://github.com/openai/codex-security",
-      "domain": "github.com",
-      "published_at": "2026-07-28T20:52:55Z",
-      "category": "tech",
-      "score": 0.40888322734518606,
-      "tldr": "OpenAI just open-sourced Codex Security",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security",
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-29T10:27:57.823295245Z",
+  "last_updated": "2026-07-29T12:28:31.482543185Z",
   "total_count": 100
 }
