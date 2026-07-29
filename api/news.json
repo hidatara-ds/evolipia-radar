@@ -116,21 +116,6 @@
       ]
     },
     {
-      "id": "06cdb412-856d-4db0-835a-c3cde637e552",
-      "title": "Proxy for OpenAI Codex and Claude Code, use any LLM with those apps",
-      "url": "https://github.com/lidge-jun/opencodex",
-      "domain": "github.com",
-      "published_at": "2026-07-22T19:42:08Z",
-      "category": "tech",
-      "score": 0.7555013990612175,
-      "tldr": "Proxy for OpenAI Codex and Claude Code, use any LLM with those apps",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "general_ai",
-        "llm"
-      ]
-    },
-    {
       "id": "bf87adff-f187-4a9a-a799-5f15cc68a690",
       "title": "Testing Gemini 3.5 Flash Lite for human detection in home surveillance",
       "url": "https://romanuk.org/vlm-models",
@@ -329,20 +314,6 @@
       "category": "tech",
       "score": 0.6164936740383777,
       "tldr": "9M parameter LLM on an $8 microcontroller",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "57c7cddd-31d4-4f0c-9cb4-d7eba302128c",
-      "title": "Show HN: Millwright – Rust-based, self-hosted LLM router",
-      "url": "https://github.com/Northwood-Systems/millwright",
-      "domain": "github.com",
-      "published_at": "2026-07-22T19:03:50Z",
-      "category": "tech",
-      "score": 0.614815873699625,
-      "tldr": "Show HN: Millwright – Rust-based, self-hosted LLM router",
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
@@ -1303,6 +1274,20 @@
       ]
     },
     {
+      "id": "7f750730-27f5-4365-a164-f391fefc86d2",
+      "title": "Show HN: ActionRail, verify agent actions using live system of records",
+      "url": "https://github.com/ToolJet/ActionRail",
+      "domain": "github.com",
+      "published_at": "2026-07-29T19:20:22Z",
+      "category": "tech",
+      "score": 0.4091562303903914,
+      "tldr": "Show HN: ActionRail, verify agent actions using live system of records",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "7ca4e0b4-32ba-4399-afdc-014b2b2ce3a8",
       "title": "Show HN: Max Studio Tools (C++ DSP Modules for Max and Ableton Live)",
       "url": "https://github.com/apresta/max-studio-tools",
@@ -1402,6 +1387,20 @@
       ]
     },
     {
+      "id": "25f285b2-f712-4365-9a00-881cb43cc68b",
+      "title": "Claude Opus 5 cheated when tasked with running a vending machine",
+      "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-29T18:58:07Z",
+      "category": "tech",
+      "score": 0.4087591110273209,
+      "tldr": "Claude Opus 5 cheated when tasked with running a vending machine",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "954a209e-c224-4aa8-bb06-930b984e5d29",
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
       "url": "https://github.com/drumih/turbo-fieldfare",
@@ -1416,6 +1415,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-29T18:52:53.98036501Z",
+  "last_updated": "2026-07-29T20:07:50.785082995Z",
   "total_count": 100
 }
