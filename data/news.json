@@ -221,20 +221,6 @@
       ]
     },
     {
-      "id": "0ce9477a-299c-4c13-a1ab-5a1fec85e8d1",
-      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
-      "url": "https://arxiv.org/abs/2607.18250",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-22T22:49:58Z",
-      "category": "tech",
-      "score": 0.6688526384459101,
-      "tldr": "Anthropomorphism in Children's Interactions with LLM Chatbots",
-      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "7a83c9a7-13c1-4b1d-9b77-9c8d4df1e4fc",
       "title": "\"Uncensored\" open LLMs are measurably more optimistic than their base models",
       "url": "https://arxiv.org/abs/2607.17427",
@@ -374,6 +360,20 @@
       "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
       "tags": [
         "general_ai"
+      ]
+    },
+    {
+      "id": "e9b7acae-0d93-48b3-b827-33db93c658a6",
+      "title": "LLM Honeypot",
+      "url": "https://llm2human.pages.dev/",
+      "domain": "llm2human.pages.dev",
+      "published_at": "2026-07-29T22:51:03Z",
+      "category": "tech",
+      "score": 0.5993231041889628,
+      "tldr": "LLM Honeypot",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -1415,6 +1415,6 @@
       ]
     }
   ],
-  "last_updated": "2026-07-29T22:26:38.561801005Z",
+  "last_updated": "2026-07-29T23:29:02.165757258Z",
   "total_count": 100
 }
