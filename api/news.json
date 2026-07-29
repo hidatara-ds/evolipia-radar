@@ -699,6 +699,20 @@
       ]
     },
     {
+      "id": "376587ce-1da3-4ed5-8cac-620762183054",
+      "title": "I Asked Gemini to Read 300-Year-Old Portuguese Parish Records",
+      "url": "https://mariofilho.com/gemini-portuguese-parish-records",
+      "domain": "mariofilho.com",
+      "published_at": "2026-07-28T22:08:46Z",
+      "category": "tech",
+      "score": 0.5965083379067054,
+      "tldr": "I Asked Gemini to Read 300-Year-Old Portuguese Parish Records",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "eecfa7ee-d625-4c14-bc4b-7449029bb654",
       "title": "Petals: Run LLMs at home, BitTorrent-style",
       "url": "https://petals.dev/",
@@ -876,6 +890,20 @@
       "category": "tech",
       "score": 0.5777013825003363,
       "tldr": "Build a self-scaling OCR pipeline with Qwen 3.",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
+      ]
+    },
+    {
+      "id": "1a281170-1932-405f-931b-cd832fb01309",
+      "title": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
+      "url": "https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html",
+      "domain": "pvrlabs.xyz",
+      "published_at": "2026-07-29T00:32:08Z",
+      "category": "tech",
+      "score": 0.5640700028901994,
+      "tldr": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
       "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
       "tags": [
         "mlops"
@@ -1385,36 +1413,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "691d0a74-f91f-48a1-b6d5-97ff6d067d1c",
-      "title": "Running Kimi K3 on a M1 Max",
-      "url": "https://github.com/gavamedia/deltafin",
-      "domain": "github.com",
-      "published_at": "2026-07-28T21:35:19Z",
-      "category": "tech",
-      "score": 0.4086582827481426,
-      "tldr": "Running Kimi K3 on a M1 Max",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "e5e8848b-200a-4c15-af27-5f0f31b66262",
-      "title": "Benchmarking Opus 5 on SlopCodeBench",
-      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
-      "domain": "github.com",
-      "published_at": "2026-07-27T22:37:52Z",
-      "category": "tech",
-      "score": 0.4086395925359869,
-      "tldr": "Benchmarking Opus 5 on SlopCodeBench",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-28T23:49:54.892320564Z",
+  "last_updated": "2026-07-29T01:24:20.016628823Z",
   "total_count": 100
 }
