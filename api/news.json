@@ -447,6 +447,20 @@
       ]
     },
     {
+      "id": "5bb87447-6d07-4c18-b516-e88b18505af2",
+      "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
+      "url": "https://transformer-transformer.github.io/",
+      "domain": "transformer-transformer.github.io",
+      "published_at": "2026-07-29T03:52:29Z",
+      "category": "tech",
+      "score": 0.5991428810800563,
+      "tldr": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "343f9bec-c48f-4471-839f-c952851be78f",
       "title": "Debian launches competing General Resolutions on LLM usage in Debian code",
       "url": "https://www.debian.org/vote/2026/vote_002",
@@ -924,6 +938,34 @@
       ]
     },
     {
+      "id": "105b9980-eefe-4c14-96f3-8824d70dbe14",
+      "title": "Truth is not a direction: a Tarski attack on LLM probes",
+      "url": "https://abeljansma.nl/2026/07/10/truth-is-not-a-direction.html",
+      "domain": "abeljansma.nl",
+      "published_at": "2026-07-27T12:56:36Z",
+      "category": "tech",
+      "score": 0.5574271417570762,
+      "tldr": "Truth is not a direction: a Tarski attack on LLM probes",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "64677f11-836a-4bb6-a019-baa2645bebec",
+      "title": "OpenShell Kubernetes Operator",
+      "url": "https://github.com/lensapp/openshell-k8s-operator",
+      "domain": "github.com",
+      "published_at": "2026-07-24T13:01:30Z",
+      "category": "tech",
+      "score": 0.46537365130854735,
+      "tldr": "OpenShell Kubernetes Operator",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "mlops"
+      ]
+    },
+    {
       "id": "1c2a428a-703e-4047-ae9d-eea0aa4272b0",
       "title": "Scientific computing in the age of agentic AI",
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
@@ -1370,51 +1412,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "4bd6e8cf-8ab5-4c6b-bd4c-5b82e3239731",
-      "title": "OpenAI just open-sourced Codex Security",
-      "url": "https://github.com/openai/codex-security",
-      "domain": "github.com",
-      "published_at": "2026-07-28T20:52:55Z",
-      "category": "tech",
-      "score": 0.40888322734518606,
-      "tldr": "OpenAI just open-sourced Codex Security",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "security",
-        "general_ai"
-      ]
-    },
-    {
-      "id": "fee28729-2a4c-4e2b-823d-7b43a6b96d30",
-      "title": "Claude shared chats and Artifacts may have ended up on Google",
-      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
-      "domain": "techcrunch.com",
-      "published_at": "2026-07-27T20:28:07Z",
-      "category": "tech",
-      "score": 0.4088104377390527,
-      "tldr": "Claude shared chats and Artifacts may have ended up on Google",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "ed606375-39bf-4a21-abdf-6494e9e09a79",
-      "title": "Show HN: Cynative – Read-only CLI in Go that explains your live infrastructure",
-      "url": "https://github.com/cynative/cynative",
-      "domain": "github.com",
-      "published_at": "2026-07-28T16:43:09Z",
-      "category": "tech",
-      "score": 0.4087714188248703,
-      "tldr": "Show HN: Cynative – Read-only CLI in Go that explains your live infrastructure",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-29T01:24:20.016628823Z",
+  "last_updated": "2026-07-29T04:40:44.936088138Z",
   "total_count": 100
 }
