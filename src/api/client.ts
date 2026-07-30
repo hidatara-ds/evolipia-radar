@@ -102,14 +102,38 @@ export async function fetchItems(params: ItemQueryParams): Promise<PaginatedItem
 
   // Normalize data items
   if (jsonResult && Array.isArray(jsonResult.data)) {
-    jsonResult.data = jsonResult.data.map((item: any) => ({
-      ...item,
-      raw_excerpt: item.raw_excerpt || item.tldr || item.title || "",
-      relevance_score: item.relevance_score ?? (item.score ? Math.round(item.score * 100) : (item.raw_score ? Math.round(item.raw_score * 100) : 85)),
-      scaled_score: item.scaled_score ?? (item.score ? Number((item.score * 10).toFixed(1)) : 8.5),
-      source_name: item.source_name || (item.domain === "github.com" ? "GitHub Trending" : item.domain?.includes("arxiv") ? "ArXiv AI" : item.domain || "Global Source"),
-      crawl_status: item.crawl_status || "done",
-    }));
+    jsonResult.data = jsonResult.data.map((item: any) => {
+      const src = (item.source_name || "").toLowerCase().trim();
+      const dom = (item.domain || "").toLowerCase().trim();
+      let effSource = item.source_name;
+
+      if (!effSource || effSource === "Global Source" || effSource === "Unknown") {
+        if (src.includes("hacker") || src.includes("ycombinator") || dom.includes("ycombinator.com")) {
+          effSource = "Hacker News";
+        } else if (src.includes("arxiv") || dom.includes("arxiv")) {
+          effSource = "ArXiv AI";
+        } else if (src.includes("techcrunch") || dom.includes("techcrunch")) {
+          effSource = "TechCrunch AI";
+        } else if (src.includes("reddit") || dom.includes("reddit")) {
+          effSource = "Reddit MachineLearning";
+        } else if (src.includes("twitter") || src.includes("x.com") || dom.includes("twitter") || dom.includes("x.com")) {
+          effSource = "Twitter / X";
+        } else if (src.includes("github") || dom.includes("github")) {
+          effSource = "GitHub Trending";
+        } else {
+          effSource = item.domain || "Global Source";
+        }
+      }
+
+      return {
+        ...item,
+        raw_excerpt: item.raw_excerpt || item.tldr || item.title || "",
+        relevance_score: item.relevance_score ?? (item.score ? Math.round(item.score * 100) : (item.raw_score ? Math.round(item.raw_score * 100) : 85)),
+        scaled_score: item.scaled_score ?? (item.score ? Number((item.score * 10).toFixed(1)) : 8.5),
+        source_name: effSource,
+        crawl_status: item.crawl_status || "done",
+      };
+    });
   }
 
   return jsonResult;

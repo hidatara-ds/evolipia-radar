@@ -275,16 +275,19 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters> }> 
           </button>
 
           {showSourceDropdown && (
-            <div className="absolute left-0 right-0 top-full mt-2 bg-slate-950 border border-slate-800 rounded-xl p-2.5 z-30 shadow-2xl max-h-56 overflow-y-auto space-y-1">
-              <div className="flex items-center justify-between px-2 py-1 text-[11px] font-semibold text-slate-400 border-b border-slate-800 mb-1">
+            <div className="absolute left-0 min-w-[240px] w-full top-full mt-2 bg-slate-950/98 border border-slate-700/80 backdrop-blur-2xl rounded-xl p-2.5 z-50 shadow-2xl max-h-64 overflow-y-auto space-y-1">
+              <div className="flex items-center justify-between px-2 py-1.5 text-[11px] font-bold text-slate-400 border-b border-slate-800 mb-1">
                 <span>Select Sources</span>
-                {selectedSources.length > 0 && (
+                {selectedSources.length > 0 ? (
                   <button
+                    type="button"
                     onClick={() => setSelectedSources([])}
-                    className="text-indigo-400 hover:underline"
+                    className="text-indigo-400 hover:text-indigo-300 font-semibold"
                   >
-                    Reset
+                    Reset (All)
                   </button>
+                ) : (
+                  <span className="text-[10px] text-slate-500 font-normal">All active</span>
                 )}
               </div>
               {AVAILABLE_SOURCES.map(src => {
@@ -292,20 +295,20 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters> }> 
                 return (
                   <label
                     key={src}
-                    className={`flex items-center justify-between text-xs px-2.5 py-1.5 rounded-lg cursor-pointer transition-all ${
-                      checked ? "bg-indigo-950/60 text-indigo-200 font-semibold" : "text-slate-300 hover:bg-slate-900"
+                    className={`flex items-center justify-between text-xs px-2.5 py-2 rounded-lg cursor-pointer transition-all ${
+                      checked ? "bg-indigo-950/80 text-indigo-200 font-semibold border border-indigo-800/40" : "text-slate-300 hover:bg-slate-900 border border-transparent"
                     }`}
                   >
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2.5">
                       <input
                         type="checkbox"
                         checked={checked}
                         onChange={() => toggleSource(src)}
-                        className="rounded border-slate-700 bg-slate-900 text-indigo-500 focus:ring-0 cursor-pointer"
+                        className="w-4 h-4 rounded border-slate-700 bg-slate-900 text-indigo-500 focus:ring-0 cursor-pointer accent-indigo-500"
                       />
                       <span>{src}</span>
                     </div>
-                    {checked && <Check className="w-3.5 h-3.5 text-indigo-400" />}
+                    {checked && <Check className="w-3.5 h-3.5 text-indigo-400 shrink-0" />}
                   </label>
                 );
               })}

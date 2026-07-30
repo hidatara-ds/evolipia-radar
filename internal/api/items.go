@@ -116,7 +116,8 @@ func (h *ItemsHandler) queryItems(
 ) ([]models.Item, int64, int64, error) {
 	if h.database == nil || h.database.Pool == nil {
 		// Mock fallback if running without live database connection
-		return mockItems(), 5, 5, nil
+		res := mockItems(sources, minRelevance)
+		return res, int64(len(res)), int64(len(res)), nil
 	}
 
 	whereStmt, args := buildWhereClauses(search, dateFrom, dateTo, sources, categories, minRelevance, status)
@@ -311,10 +312,10 @@ func scanItemRow(scanner rowScanner) (models.Item, error) {
 	return it, nil
 }
 
-func mockItems() []models.Item {
+func mockItems(sources []string, minRelevance int) []models.Item {
 	now := time.Now()
 	excerpt := "Comprehensive deep-dive analysis on autonomous AI agents and vector retrieval pipelines."
-	return []models.Item{
+	allMocks := []models.Item{
 		{
 			ID:             uuid.New(),
 			SourceID:       uuid.New(),
@@ -347,7 +348,64 @@ func mockItems() []models.Item {
 			CreatedAt:      now,
 			ScaledScore:    8.8,
 		},
+		{
+			ID:             uuid.New(),
+			SourceID:       uuid.New(),
+			SourceName:     "TechCrunch AI",
+			Title:          "Enterprise Adoption of Agentic AI Systems Doubles in 2026",
+			URL:            "https://techcrunch.com/2026/07/30/enterprise-agentic-ai",
+			PublishedAt:    now.Add(-4 * time.Hour),
+			ContentHash:    "hash3",
+			Domain:         "techcrunch.com",
+			Category:       "agents",
+			RawExcerpt:     &excerpt,
+			CrawlStatus:    "done",
+			RelevanceScore: 85,
+			CreatedAt:      now,
+			ScaledScore:    8.5,
+		},
+		{
+			ID:             uuid.New(),
+			SourceID:       uuid.New(),
+			SourceName:     "GitHub Trending",
+			Title:          "LocalAI: Open-Source Self-Hosted OpenAI Replacement API",
+			URL:            "https://github.com/mudler/LocalAI",
+			PublishedAt:    now.Add(-6 * time.Hour),
+			ContentHash:    "hash4",
+			Domain:         "github.com",
+			Category:       "open-source",
+			RawExcerpt:     &excerpt,
+			CrawlStatus:    "done",
+			RelevanceScore: 90,
+			CreatedAt:      now,
+			ScaledScore:    9.0,
+		},
 	}
+
+	var result []models.Item
+	for _, item := range allMocks {
+		if minRelevance > 0 && item.RelevanceScore < minRelevance {
+			continue
+		}
+		if len(sources) > 0 && sources[0] != "" {
+			matched := false
+			for _, src := range sources {
+				s := strings.ToLower(src)
+				itemSrc := strings.ToLower(item.SourceName)
+				itemDom := strings.ToLower(item.Domain)
+				if strings.Contains(itemSrc, s) || strings.Contains(itemDom, s) || strings.Contains(s, itemSrc) {
+					matched = true
+					break
+				}
+			}
+			if !matched {
+				continue
+			}
+		}
+		result = append(result, item)
+	}
+
+	return result
 }
 
 func stringPtr(s string) *string {

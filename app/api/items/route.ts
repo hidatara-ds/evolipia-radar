@@ -41,17 +41,48 @@ function getDBPool(): Pool | null {
   return pool;
 }
 
-function getSourceKeywords(source: string): string[] {
-  const s = source.toLowerCase().trim();
-  if (s.includes("hacker") || s.includes("ycombinator")) return ["hacker news", "hackernews", "ycombinator", "news.ycombinator.com"];
-  if (s.includes("arxiv")) return ["arxiv", "arxiv.org"];
-  if (s.includes("techcrunch")) return ["techcrunch", "techcrunch.com"];
-  if (s.includes("github")) return ["github", "github.com"];
-  if (s.includes("reddit")) return ["reddit", "reddit.com"];
-  if (s.includes("twitter") || s === "x" || s.includes(" / x")) return ["twitter", "x.com", "twitter.com"];
-  if (s.includes("ai labs") || s.includes("openai")) return ["openai", "deepmind", "anthropic", "stability"];
-  const cleaned = s.replace(/[^a-z0-9]/g, "").trim();
-  return cleaned ? [s, cleaned] : [s];
+function getEffectiveSourceName(rawSourceName?: string, domain?: string): string {
+  const src = (rawSourceName || "").toLowerCase().trim();
+  const dom = (domain || "").toLowerCase().trim();
+
+  if (src.includes("hacker") || src.includes("ycombinator") || dom.includes("ycombinator.com")) {
+    return "Hacker News";
+  }
+  if (src.includes("arxiv") || dom.includes("arxiv")) {
+    return "ArXiv AI";
+  }
+  if (src.includes("techcrunch") || dom.includes("techcrunch")) {
+    return "TechCrunch AI";
+  }
+  if (src.includes("reddit") || dom.includes("reddit")) {
+    return "Reddit MachineLearning";
+  }
+  if (src.includes("twitter") || src.includes("x.com") || dom.includes("twitter") || dom.includes("x.com")) {
+    return "Twitter / X";
+  }
+  if (src.includes("github") || dom.includes("github")) {
+    return "GitHub Trending";
+  }
+  if (src.includes("openai") || dom.includes("openai.com")) {
+    return "OpenAI Blog";
+  }
+  if (src.includes("deepmind") || dom.includes("deepmind")) {
+    return "DeepMind Research";
+  }
+  if (src.includes("stability") || dom.includes("stability.ai")) {
+    return "Stability AI";
+  }
+  if (src.includes("anthropic") || dom.includes("anthropic.com")) {
+    return "Anthropic";
+  }
+
+  if (rawSourceName && rawSourceName !== "Global Source" && rawSourceName !== "Unknown") {
+    return rawSourceName;
+  }
+  if (domain) {
+    return domain;
+  }
+  return "Global Source";
 }
 
 export async function GET(request: NextRequest) {
@@ -130,12 +161,23 @@ export async function GET(request: NextRequest) {
       if (sources.length > 0) {
         const sourceOrClauses: string[] = [];
         sources.forEach(src => {
-          const keywords = getSourceKeywords(src);
-          keywords.forEach(kw => {
+          if (src.includes("hacker") || src.includes("ycombinator")) {
+            sourceOrClauses.push(`(LOWER(s.name) LIKE '%hacker%' OR LOWER(s.name) LIKE '%ycombinator%' OR LOWER(i.domain) LIKE '%ycombinator%')`);
+          } else if (src.includes("arxiv")) {
+            sourceOrClauses.push(`(LOWER(s.name) LIKE '%arxiv%' OR LOWER(i.domain) LIKE '%arxiv%')`);
+          } else if (src.includes("techcrunch")) {
+            sourceOrClauses.push(`(LOWER(s.name) LIKE '%techcrunch%' OR LOWER(i.domain) LIKE '%techcrunch%')`);
+          } else if (src.includes("reddit")) {
+            sourceOrClauses.push(`(LOWER(s.name) LIKE '%reddit%' OR LOWER(i.domain) LIKE '%reddit%')`);
+          } else if (src.includes("twitter") || src.includes("x")) {
+            sourceOrClauses.push(`(LOWER(s.name) LIKE '%twitter%' OR LOWER(i.domain) LIKE '%twitter%' OR LOWER(i.domain) LIKE '%x.com%')`);
+          } else if (src.includes("github")) {
+            sourceOrClauses.push(`((LOWER(s.name) LIKE '%github%' OR LOWER(i.domain) LIKE '%github%') AND LOWER(COALESCE(s.name, '')) NOT LIKE '%hacker%' AND LOWER(i.domain) NOT LIKE '%ycombinator%')`);
+          } else {
             sourceOrClauses.push(`(LOWER(s.name) LIKE $${paramIdx} OR LOWER(i.domain) LIKE $${paramIdx})`);
-            queryParams.push(`%${kw}%`);
+            queryParams.push(`%${src}%`);
             paramIdx++;
-          });
+          }
         });
         if (sourceOrClauses.length > 0) {
           whereClauses.push(`(${sourceOrClauses.join(" OR ")})`);
@@ -214,10 +256,12 @@ export async function GET(request: NextRequest) {
         const rawImp = Number(row.impact);
         const impactScore = !isNaN(rawImp) ? (rawImp <= 1.0 ? Math.round(rawImp * 100) : Math.round(rawImp)) : 85;
 
+        const effSource = getEffectiveSourceName(row.source_name, row.domain);
+
         return {
           id: row.id,
           source_id: row.source_id,
-          source_name: row.source_name,
+          source_name: effSource,
           title: row.title,
           url: row.url,
           published_at: row.published_at ? new Date(row.published_at).toISOString() : new Date().toISOString(),
@@ -297,10 +341,12 @@ export async function GET(request: NextRequest) {
 
     let filtered = items.map(item => {
       const scaledScore = Math.round((item.score || item.raw_score || 0.8) * (item.score && item.score > 1 ? 1 : 100));
+      const effSource = getEffectiveSourceName(item.domain === "github.com" ? "GitHub Trending" : item.domain.includes("arxiv") ? "ArXiv AI" : (item as any).source_name || "", item.domain);
+
       return {
         id: item.id,
         source_id: item.id,
-        source_name: item.domain === "github.com" ? "GitHub Trending" : item.domain.includes("arxiv") ? "ArXiv AI" : item.domain,
+        source_name: effSource,
         title: item.title,
         url: item.url,
         published_at: item.published_at,
@@ -349,11 +395,7 @@ export async function GET(request: NextRequest) {
     if (sources.length > 0) {
       filtered = filtered.filter(it => {
         const itemSrc = (it.source_name || "").toLowerCase();
-        const itemDomain = (it.domain || "").toLowerCase();
-        return sources.some(src => {
-          const keywords = getSourceKeywords(src);
-          return keywords.some(kw => itemSrc.includes(kw) || itemDomain.includes(kw));
-        });
+        return sources.some(src => itemSrc.includes(src) || src.includes(itemSrc));
       });
     }
 
