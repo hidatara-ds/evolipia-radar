@@ -1,5 +1,264 @@
 {
-  "items": [],
-  "last_updated": "2026-07-30T06:16:20.372119281Z",
-  "total_count": 0
+  "items": [
+    {
+      "id": "3e49229f-f8d2-459b-9eff-3a3a2ec18ab0",
+      "title": "Show HN: Open Source Agentic Workflow Framework in Go",
+      "url": "https://news.ycombinator.com/item?id=39123456",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-30T13:58:34.0302316+07:00",
+      "category": "agents",
+      "score": 0.92,
+      "tldr": "A lightweight zero-dependency Go library for orchestrating autonomous LLM agent networks",
+      "why_it_matters": "Enables production deployment of complex multi-agent workflows with low latency",
+      "tags": [
+        "agents",
+        "open-source"
+      ]
+    },
+    {
+      "id": "b4431a2a-caf9-4725-b38e-f027eb37ced4",
+      "title": "PostgreSQL 17 Vector Extensions Benchmark for RAG Workloads",
+      "url": "https://news.ycombinator.com/item?id=39124000",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-30T12:58:34.0302316+07:00",
+      "category": "infra",
+      "score": 0.89,
+      "tldr": "Benchmark comparing pgvector HNSW indexing performance against dedicated vector DBs",
+      "why_it_matters": "Proves traditional RDBMS can handle production scale vector similarity search",
+      "tags": [
+        "infra",
+        "llm"
+      ]
+    },
+    {
+      "id": "e2a4c370-54cc-44c3-8876-12c8bc9d2ae7",
+      "title": "TechCrunch: Startup Raises $50M for Autonomous Code Refactoring Agents",
+      "url": "https://techcrunch.com/2026/07/30/autonomous-code-agents-series-a",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-30T13:28:34.0302316+07:00",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "AI coding startup secures Series A to automate legacy codebase migrations and test generation",
+      "why_it_matters": "Accelerates enterprise software maintenance and reduces technical debt dramatically",
+      "tags": [
+        "agents",
+        "infra"
+      ]
+    },
+    {
+      "id": "36e74d95-4265-43df-a2cb-9eb8580a469e",
+      "title": "TechCrunch: Next-Gen Open Models Challenge Closed Frontier APIs",
+      "url": "https://techcrunch.com/2026/07/29/open-source-ai-frontier-models",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-30T10:28:34.0302316+07:00",
+      "category": "open-source",
+      "score": 0.86,
+      "tldr": "New open-weight models achieve parity with proprietary APIs on coding and reasoning benchmarks",
+      "why_it_matters": "Shifts competitive advantage toward customized on-premise AI deployments",
+      "tags": [
+        "open-source",
+        "llm"
+      ]
+    },
+    {
+      "id": "329b3fe9-1e3c-4704-a1c6-fe7a0fdbc634",
+      "title": "ArXiv: Efficient Speculative Decoding for Long-Context Transformer Models",
+      "url": "https://arxiv.org/abs/2026.09876",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-30T12:28:34.0302316+07:00",
+      "category": "research",
+      "score": 0.94,
+      "tldr": "A novel speculative decoding method achieving 3.5x inference speedup without precision loss",
+      "why_it_matters": "Crucial optimization for real-time LLM inference serving",
+      "tags": [
+        "research",
+        "llm",
+        "infra"
+      ]
+    },
+    {
+      "id": "0a910a88-26d6-4ed7-9c63-0cff9a4df50c",
+      "title": "ArXiv: Multi-Modal Mixture-of-Experts for Real-Time Robot Vision",
+      "url": "https://arxiv.org/abs/2026.05432",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-30T09:28:34.0302316+07:00",
+      "category": "vision",
+      "score": 0.91,
+      "tldr": "Sparse MoE vision architecture designed for low-power edge computing on mobile robots",
+      "why_it_matters": "Unlocks spatial understanding for autonomous physical agents",
+      "tags": [
+        "vision",
+        "robotics",
+        "research"
+      ]
+    },
+    {
+      "id": "6223c57a-c4dd-4b87-a96e-ba1ab39ac142",
+      "title": "GitHub Trending: LocalAI - Self-Hosted OpenAI Equivalent REST API",
+      "url": "https://github.com/mudler/LocalAI",
+      "domain": "github.com",
+      "published_at": "2026-07-30T11:28:34.0302316+07:00",
+      "category": "open-source",
+      "score": 0.9,
+      "tldr": "Drop-in replacement REST API for OpenAI specs supporting local model inference",
+      "why_it_matters": "Essential tool for local privacy-conscious AI application development",
+      "tags": [
+        "open-source",
+        "infra",
+        "llm"
+      ]
+    },
+    {
+      "id": "ab523c0e-44a8-4be2-8bfe-f252bf69128a",
+      "title": "GitHub Trending: AutoRAG - Automated RAG Pipeline Evaluation Framework",
+      "url": "https://github.com/Marker-IncDB/AutoRAG",
+      "domain": "github.com",
+      "published_at": "2026-07-30T08:28:34.0302316+07:00",
+      "category": "infra",
+      "score": 0.87,
+      "tldr": "Automated evaluation and parameter optimization tool for retrieval-augmented generation",
+      "why_it_matters": "Simplifies RAG pipeline tuning and chunking strategy benchmarking",
+      "tags": [
+        "infra",
+        "llm"
+      ]
+    },
+    {
+      "id": "edafc0fd-929b-4ab3-b54c-20f746e6767b",
+      "title": "Reddit r/MachineLearning: Discussion on Small Language Models vs Large Model Distillation",
+      "url": "https://reddit.com/r/MachineLearning/comments/slm_vs_distillation",
+      "domain": "reddit.com",
+      "published_at": "2026-07-30T10:28:34.0302316+07:00",
+      "category": "llm",
+      "score": 0.84,
+      "tldr": "Community discussion analyzing trade-offs of 3B-7B parameter distilled models vs large APIs",
+      "why_it_matters": "Provides practical deployment insights from engineers scaling local LLM pipelines",
+      "tags": [
+        "llm",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9de25ad7-5aeb-487f-aeed-23ad242047da",
+      "title": "Stable Diffusion 3.5 Released with Improved Image Quality",
+      "url": "https://stability.ai/news/stable-diffusion-3",
+      "domain": "stability.ai",
+      "published_at": "2026-07-30T12:28:34.0302316+07:00",
+      "category": "vision",
+      "score": 0.85,
+      "tldr": "Stability AI releases Stable Diffusion 3.5 with better text-to-image generation and prompt adherence",
+      "why_it_matters": "Major update to popular open-source image generation model family",
+      "tags": [
+        "vision",
+        "open-source"
+      ]
+    },
+    {
+      "id": "7d6c4ae0-72c0-4efb-9846-6fa3f2d018bf",
+      "title": "DALL-E 3 Now Available in ChatGPT Plus",
+      "url": "https://openai.com/blog/dall-e-3-chatgpt",
+      "domain": "openai.com",
+      "published_at": "2026-07-30T09:28:34.0302316+07:00",
+      "category": "vision",
+      "score": 0.82,
+      "tldr": "OpenAI integrates DALL-E 3 image generation directly into ChatGPT conversational interface",
+      "why_it_matters": "Makes advanced vision generation accessible to non-technical users",
+      "tags": [
+        "vision",
+        "llm"
+      ]
+    },
+    {
+      "id": "1a0f2ba2-e40c-4e2a-a443-eaeed284ae37",
+      "title": "DeepMind's New RL Algorithm Achieves Human-Level Control Performance",
+      "url": "https://deepmind.google/research/rl-breakthrough",
+      "domain": "deepmind.google",
+      "published_at": "2026-07-30T11:28:34.0302316+07:00",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "New reinforcement learning approach matches human expert controllers in complex physics tasks",
+      "why_it_matters": "Breakthrough in RL could enable more capable autonomous robotics systems",
+      "tags": [
+        "robotics",
+        "security"
+      ]
+    },
+    {
+      "id": "0947deb3-4337-46ae-af61-b03b7d361824",
+      "title": "Anthropic Offers Free Credits and API Tiers for AI Researchers",
+      "url": "https://anthropic.com/student-program",
+      "domain": "anthropic.com",
+      "published_at": "2026-07-30T13:28:34.0302316+07:00",
+      "category": "llm",
+      "score": 0.8,
+      "tldr": "Researchers can now access Claude 3.5 Sonnet API with upgraded grant allocation",
+      "why_it_matters": "Lowers barriers for academic research on model alignment and safety",
+      "tags": [
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "id": "04437e6c-3168-421b-8ca2-a7b275c074b2",
+      "title": "PPO Algorithm Improvements for Robotics Control",
+      "url": "https://arxiv.org/abs/2024.12345",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-30T08:27:36.9250794+07:00",
+      "category": "tech",
+      "score": 0.75,
+      "tldr": "Researchers improve Proximal Policy Optimization for robot manipulation",
+      "why_it_matters": "Better RL algorithms enable more efficient robot training",
+      "tags": [
+        "rl",
+        "robotics",
+        "research"
+      ]
+    },
+    {
+      "id": "5792ea80-4948-4720-9eb2-eb9dd8ac2712",
+      "title": "Boston Dynamics Unveils New Humanoid Robot Atlas",
+      "url": "https://bostondynamics.com/blog/atlas-next-gen",
+      "domain": "bostondynamics.com",
+      "published_at": "2026-07-30T10:27:36.9250794+07:00",
+      "category": "tech",
+      "score": 0.9,
+      "tldr": "Next-generation Atlas robot demonstrates advanced manipulation capabilities",
+      "why_it_matters": "Humanoid robots getting closer to practical real-world deployment",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "2c2a6410-d905-4fce-8f2c-fd5b381f5eff",
+      "title": "Tesla Optimus Robot Shows Improved Dexterity",
+      "url": "https://tesla.com/blog/optimus-update",
+      "domain": "tesla.com",
+      "published_at": "2026-07-30T07:27:36.9250794+07:00",
+      "category": "tech",
+      "score": 0.87,
+      "tldr": "Tesla's humanoid robot demonstrates fine motor control improvements",
+      "why_it_matters": "Progress toward general-purpose household robots",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "7e80a379-b5ec-4017-86f7-fb4278d9738d",
+      "title": "GitHub Student Developer Pack Adds New AI Tools",
+      "url": "https://education.github.com/pack",
+      "domain": "education.github.com",
+      "published_at": "2026-07-30T06:27:36.9250794+07:00",
+      "category": "tech",
+      "score": 0.8,
+      "tldr": "GitHub expands student benefits with free access to AI coding tools",
+      "why_it_matters": "Students get free access to premium developer tools and AI assistants",
+      "tags": [
+        "free-credits",
+        "ide",
+        "tools"
+      ]
+    }
+  ],
+  "last_updated": "2026-07-30T14:28:34.0302316+07:00",
+  "total_count": 17
 }

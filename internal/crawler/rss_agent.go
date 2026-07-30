@@ -20,7 +20,8 @@ func NewRSSAgent() *RSSAgent {
 		feeds: []string{
 			"https://news.ycombinator.com/rss",                              // HackerNews
 			"https://techcrunch.com/category/artificial-intelligence/feed/", // TechCrunch AI
-			// Add more high-signal feeds here
+			"https://arxiv.org/rss/cs.AI",                                  // ArXiv AI
+			"https://openai.com/blog/rss.xml",                               // OpenAI Blog
 		},
 	}
 }

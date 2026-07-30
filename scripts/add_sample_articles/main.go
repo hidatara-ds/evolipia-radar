@@ -50,18 +50,136 @@ func main() {
 
 	// Sample articles for missing tags
 	sampleArticles := []NewsItem{
-		// Vision articles
+		// Hacker News
 		{
 			ID:           uuid.New().String(),
-			Title:        "Stable Diffusion 3.0 Released with Improved Image Quality",
+			Title:        "Show HN: Open Source Agentic Workflow Framework in Go",
+			URL:          "https://news.ycombinator.com/item?id=39123456",
+			Domain:       "news.ycombinator.com",
+			PublishedAt:  now.Add(-30 * time.Minute),
+			Category:     "agents",
+			Score:        0.92,
+			TLDR:         "A lightweight zero-dependency Go library for orchestrating autonomous LLM agent networks",
+			WhyItMatters: "Enables production deployment of complex multi-agent workflows with low latency",
+			Tags:         []string{"agents", "open-source"},
+		},
+		{
+			ID:           uuid.New().String(),
+			Title:        "PostgreSQL 17 Vector Extensions Benchmark for RAG Workloads",
+			URL:          "https://news.ycombinator.com/item?id=39124000",
+			Domain:       "news.ycombinator.com",
+			PublishedAt:  now.Add(-90 * time.Minute),
+			Category:     "infra",
+			Score:        0.89,
+			TLDR:         "Benchmark comparing pgvector HNSW indexing performance against dedicated vector DBs",
+			WhyItMatters: "Proves traditional RDBMS can handle production scale vector similarity search",
+			Tags:         []string{"infra", "llm"},
+		},
+
+		// TechCrunch AI
+		{
+			ID:           uuid.New().String(),
+			Title:        "TechCrunch: Startup Raises $50M for Autonomous Code Refactoring Agents",
+			URL:          "https://techcrunch.com/2026/07/30/autonomous-code-agents-series-a",
+			Domain:       "techcrunch.com",
+			PublishedAt:  now.Add(-1 * time.Hour),
+			Category:     "agents",
+			Score:        0.88,
+			TLDR:         "AI coding startup secures Series A to automate legacy codebase migrations and test generation",
+			WhyItMatters: "Accelerates enterprise software maintenance and reduces technical debt dramatically",
+			Tags:         []string{"agents", "infra"},
+		},
+		{
+			ID:           uuid.New().String(),
+			Title:        "TechCrunch: Next-Gen Open Models Challenge Closed Frontier APIs",
+			URL:          "https://techcrunch.com/2026/07/29/open-source-ai-frontier-models",
+			Domain:       "techcrunch.com",
+			PublishedAt:  now.Add(-4 * time.Hour),
+			Category:     "open-source",
+			Score:        0.86,
+			TLDR:         "New open-weight models achieve parity with proprietary APIs on coding and reasoning benchmarks",
+			WhyItMatters: "Shifts competitive advantage toward customized on-premise AI deployments",
+			Tags:         []string{"open-source", "llm"},
+		},
+
+		// ArXiv AI
+		{
+			ID:           uuid.New().String(),
+			Title:        "ArXiv: Efficient Speculative Decoding for Long-Context Transformer Models",
+			URL:          "https://arxiv.org/abs/2026.09876",
+			Domain:       "arxiv.org",
+			PublishedAt:  now.Add(-2 * time.Hour),
+			Category:     "research",
+			Score:        0.94,
+			TLDR:         "A novel speculative decoding method achieving 3.5x inference speedup without precision loss",
+			WhyItMatters: "Crucial optimization for real-time LLM inference serving",
+			Tags:         []string{"research", "llm", "infra"},
+		},
+		{
+			ID:           uuid.New().String(),
+			Title:        "ArXiv: Multi-Modal Mixture-of-Experts for Real-Time Robot Vision",
+			URL:          "https://arxiv.org/abs/2026.05432",
+			Domain:       "arxiv.org",
+			PublishedAt:  now.Add(-5 * time.Hour),
+			Category:     "vision",
+			Score:        0.91,
+			TLDR:         "Sparse MoE vision architecture designed for low-power edge computing on mobile robots",
+			WhyItMatters: "Unlocks spatial understanding for autonomous physical agents",
+			Tags:         []string{"vision", "robotics", "research"},
+		},
+
+		// GitHub Trending
+		{
+			ID:           uuid.New().String(),
+			Title:        "GitHub Trending: LocalAI - Self-Hosted OpenAI Equivalent REST API",
+			URL:          "https://github.com/mudler/LocalAI",
+			Domain:       "github.com",
+			PublishedAt:  now.Add(-3 * time.Hour),
+			Category:     "open-source",
+			Score:        0.90,
+			TLDR:         "Drop-in replacement REST API for OpenAI specs supporting local model inference",
+			WhyItMatters: "Essential tool for local privacy-conscious AI application development",
+			Tags:         []string{"open-source", "infra", "llm"},
+		},
+		{
+			ID:           uuid.New().String(),
+			Title:        "GitHub Trending: AutoRAG - Automated RAG Pipeline Evaluation Framework",
+			URL:          "https://github.com/Marker-IncDB/AutoRAG",
+			Domain:       "github.com",
+			PublishedAt:  now.Add(-6 * time.Hour),
+			Category:     "infra",
+			Score:        0.87,
+			TLDR:         "Automated evaluation and parameter optimization tool for retrieval-augmented generation",
+			WhyItMatters: "Simplifies RAG pipeline tuning and chunking strategy benchmarking",
+			Tags:         []string{"infra", "llm"},
+		},
+
+		// Reddit MachineLearning
+		{
+			ID:           uuid.New().String(),
+			Title:        "Reddit r/MachineLearning: Discussion on Small Language Models vs Large Model Distillation",
+			URL:          "https://reddit.com/r/MachineLearning/comments/slm_vs_distillation",
+			Domain:       "reddit.com",
+			PublishedAt:  now.Add(-4 * time.Hour),
+			Category:     "llm",
+			Score:        0.84,
+			TLDR:         "Community discussion analyzing trade-offs of 3B-7B parameter distilled models vs large APIs",
+			WhyItMatters: "Provides practical deployment insights from engineers scaling local LLM pipelines",
+			Tags:         []string{"llm", "open-source"},
+		},
+
+		// Vision & AI Labs
+		{
+			ID:           uuid.New().String(),
+			Title:        "Stable Diffusion 3.5 Released with Improved Image Quality",
 			URL:          "https://stability.ai/news/stable-diffusion-3",
 			Domain:       "stability.ai",
 			PublishedAt:  now.Add(-2 * time.Hour),
-			Category:     "tech",
+			Category:     "vision",
 			Score:        0.85,
-			TLDR:         "Stability AI releases Stable Diffusion 3.0 with better text-to-image generation",
-			WhyItMatters: "Major update to popular open-source image generation model",
-			Tags:         []string{"vision", "tools"},
+			TLDR:         "Stability AI releases Stable Diffusion 3.5 with better text-to-image generation and prompt adherence",
+			WhyItMatters: "Major update to popular open-source image generation model family",
+			Tags:         []string{"vision", "open-source"},
 		},
 		{
 			ID:           uuid.New().String(),
@@ -69,118 +187,80 @@ func main() {
 			URL:          "https://openai.com/blog/dall-e-3-chatgpt",
 			Domain:       "openai.com",
 			PublishedAt:  now.Add(-5 * time.Hour),
-			Category:     "tech",
+			Category:     "vision",
 			Score:        0.82,
-			TLDR:         "OpenAI integrates DALL-E 3 image generation into ChatGPT",
-			WhyItMatters: "Makes advanced image generation accessible to millions of users",
+			TLDR:         "OpenAI integrates DALL-E 3 image generation directly into ChatGPT conversational interface",
+			WhyItMatters: "Makes advanced vision generation accessible to non-technical users",
 			Tags:         []string{"vision", "llm"},
 		},
-		// RL articles
 		{
 			ID:           uuid.New().String(),
-			Title:        "DeepMind's New RL Algorithm Achieves Human-Level Performance",
+			Title:        "DeepMind's New RL Algorithm Achieves Human-Level Control Performance",
 			URL:          "https://deepmind.google/research/rl-breakthrough",
 			Domain:       "deepmind.google",
 			PublishedAt:  now.Add(-3 * time.Hour),
-			Category:     "tech",
+			Category:     "robotics",
 			Score:        0.88,
-			TLDR:         "New reinforcement learning approach matches human experts in complex tasks",
-			WhyItMatters: "Breakthrough in RL could enable more capable autonomous systems",
-			Tags:         []string{"rl", "research"},
+			TLDR:         "New reinforcement learning approach matches human expert controllers in complex physics tasks",
+			WhyItMatters: "Breakthrough in RL could enable more capable autonomous robotics systems",
+			Tags:         []string{"robotics", "security"},
 		},
 		{
 			ID:           uuid.New().String(),
-			Title:        "PPO Algorithm Improvements for Robotics Control",
-			URL:          "https://arxiv.org/abs/2024.12345",
-			Domain:       "arxiv.org",
-			PublishedAt:  now.Add(-6 * time.Hour),
-			Category:     "tech",
-			Score:        0.75,
-			TLDR:         "Researchers improve Proximal Policy Optimization for robot manipulation",
-			WhyItMatters: "Better RL algorithms enable more efficient robot training",
-			Tags:         []string{"rl", "robotics", "research"},
-		},
-		// Robotics articles
-		{
-			ID:           uuid.New().String(),
-			Title:        "Boston Dynamics Unveils New Humanoid Robot Atlas",
-			URL:          "https://bostondynamics.com/blog/atlas-next-gen",
-			Domain:       "bostondynamics.com",
-			PublishedAt:  now.Add(-4 * time.Hour),
-			Category:     "tech",
-			Score:        0.90,
-			TLDR:         "Next-generation Atlas robot demonstrates advanced manipulation capabilities",
-			WhyItMatters: "Humanoid robots getting closer to practical real-world deployment",
-			Tags:         []string{"robotics"},
-		},
-		{
-			ID:           uuid.New().String(),
-			Title:        "Tesla Optimus Robot Shows Improved Dexterity",
-			URL:          "https://tesla.com/blog/optimus-update",
-			Domain:       "tesla.com",
-			PublishedAt:  now.Add(-7 * time.Hour),
-			Category:     "tech",
-			Score:        0.87,
-			TLDR:         "Tesla's humanoid robot demonstrates fine motor control improvements",
-			WhyItMatters: "Progress toward general-purpose household robots",
-			Tags:         []string{"robotics"},
-		},
-		// Free credits articles
-		{
-			ID:           uuid.New().String(),
-			Title:        "Anthropic Offers $10 Free Credits for Students",
+			Title:        "Anthropic Offers Free Credits and API Tiers for AI Researchers",
 			URL:          "https://anthropic.com/student-program",
 			Domain:       "anthropic.com",
 			PublishedAt:  now.Add(-1 * time.Hour),
-			Category:     "tech",
-			Score:        0.78,
-			TLDR:         "Students can now access Claude API with $10 in free credits",
-			WhyItMatters: "Makes advanced AI accessible to students and educators",
-			Tags:         []string{"free-credits", "llm"},
-		},
-		{
-			ID:           uuid.New().String(),
-			Title:        "GitHub Student Developer Pack Adds New AI Tools",
-			URL:          "https://education.github.com/pack",
-			Domain:       "education.github.com",
-			PublishedAt:  now.Add(-8 * time.Hour),
-			Category:     "tech",
+			Category:     "llm",
 			Score:        0.80,
-			TLDR:         "GitHub expands student benefits with free access to AI coding tools",
-			WhyItMatters: "Students get free access to premium developer tools and AI assistants",
-			Tags:         []string{"free-credits", "ide", "tools"},
+			TLDR:         "Researchers can now access Claude 3.5 Sonnet API with upgraded grant allocation",
+			WhyItMatters: "Lowers barriers for academic research on model alignment and safety",
+			Tags:         []string{"llm", "security"},
 		},
 	}
 
-	// Add sample articles to the beginning (highest scores)
-	newsData.Items = append(sampleArticles, newsData.Items...)
+	// Read existing if present to keep dataset healthy
+	if len(newsData.Items) > 0 {
+		// Merge existing items avoiding duplicates by URL
+		existingURLs := make(map[string]bool)
+		for _, art := range sampleArticles {
+			existingURLs[art.URL] = true
+		}
+		for _, old := range newsData.Items {
+			if !existingURLs[old.URL] {
+				sampleArticles = append(sampleArticles, old)
+			}
+		}
+	}
+
+	newsData.Items = sampleArticles
 	newsData.TotalCount = len(newsData.Items)
 	newsData.LastUpdated = now
 
-	// Keep only top 100
-	if len(newsData.Items) > 100 {
-		newsData.Items = newsData.Items[:100]
-		newsData.TotalCount = 100
-	}
-
-	// Write back to file
+	// Write to data/news.json
 	file, err := os.Create(inputPath)
 	if err != nil {
 		log.Fatalf("❌ Failed to create output file: %v", err)
 	}
-	defer file.Close()
-
 	encoder := json.NewEncoder(file)
 	encoder.SetIndent("", "  ")
 	if err := encoder.Encode(newsData); err != nil {
+		file.Close()
 		log.Fatalf("❌ Failed to write JSON: %v", err)
 	}
+	file.Close()
 
-	log.Printf("✅ Added %d sample articles", len(sampleArticles))
-	log.Println("📊 Sample articles by tag:")
-	log.Println("   - vision: 2 articles")
-	log.Println("   - rl: 2 articles")
-	log.Println("   - robotics: 3 articles")
-	log.Println("   - free-credits: 2 articles")
+	// Also write to api/news.json
+	apiPath := "api/news.json"
+	apiFile, err := os.Create(apiPath)
+	if err == nil {
+		apiEncoder := json.NewEncoder(apiFile)
+		apiEncoder.SetIndent("", "  ")
+		_ = apiEncoder.Encode(newsData)
+		apiFile.Close()
+		log.Printf("💾 Synced to %s", apiPath)
+	}
+
+	log.Printf("✅ Added %d sample articles across diverse sources", len(newsData.Items))
 	log.Printf("\n💾 Updated file: %s", inputPath)
 }

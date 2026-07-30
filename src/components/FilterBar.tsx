@@ -19,6 +19,7 @@ import {
   CheckCircle2,
   Clock,
   AlertTriangle,
+  X,
 } from "lucide-react";
 
 const AVAILABLE_SOURCES = [
@@ -143,30 +144,40 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters> }> 
   return (
     <div className="w-full bg-slate-900/90 border border-slate-800 backdrop-blur-xl rounded-2xl p-5 sm:p-6 shadow-2xl mb-8 text-slate-100 space-y-5 transition-all">
       {/* Search & Sort Controls Header */}
-      <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
         {/* Search Input Box */}
-        <div className="relative flex-1 min-w-[260px] w-full">
-          <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+        <div className="relative flex-1 min-w-[260px] w-full group">
+          <div className="absolute left-3.5 top-1/2 -translate-y-1/2 flex items-center gap-2 pointer-events-none text-slate-400 group-focus-within:text-indigo-400 transition-colors">
+            <Search className="w-4 h-4" />
+          </div>
           <input
             type="text"
             value={search}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearch(e.target.value)}
             placeholder="Search articles, research papers, topics..."
-            className="w-full pl-10 pr-10 py-2.5 bg-slate-950/80 border border-slate-800/90 rounded-xl text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500/30 transition-all"
+            className="w-full pl-10 pr-20 h-11 bg-slate-950/90 border border-slate-800/90 rounded-xl text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500/80 focus:ring-2 focus:ring-indigo-500/20 shadow-inner transition-all"
           />
-          {search && (
-            <button
-              onClick={() => setSearch("")}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 text-xs px-1 py-0.5 rounded bg-slate-900"
-            >
-              Clear
-            </button>
-          )}
+          <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+            {search ? (
+              <button
+                type="button"
+                onClick={() => setSearch("")}
+                className="p-1 rounded-lg text-slate-400 hover:text-slate-100 hover:bg-slate-800 transition-all"
+                title="Clear search"
+              >
+                <X className="w-3.5 h-3.5" />
+              </button>
+            ) : (
+              <span className="hidden sm:inline-flex items-center gap-0.5 px-2 py-0.5 rounded-md bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-500">
+                Search
+              </span>
+            )}
+          </div>
         </div>
 
         {/* Sort Selector & Reset */}
         <div className="flex items-center gap-3 shrink-0">
-          <div className="relative flex items-center bg-slate-950/80 border border-slate-800/90 rounded-xl px-3 py-2">
+          <div className="relative flex items-center h-11 bg-slate-950/90 border border-slate-800/90 rounded-xl px-3.5 hover:border-slate-700 transition-all">
             <ArrowUpDown className="w-3.5 h-3.5 text-indigo-400 mr-2 shrink-0" />
             <select
               value={`${sortBy}_${sortOrder}`}
@@ -177,7 +188,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters> }> 
                   setSortOrder(opt.sortOrder);
                 }
               }}
-              className="bg-transparent text-xs font-semibold text-slate-200 focus:outline-none cursor-pointer pr-4 appearance-none"
+              className="bg-transparent text-xs font-semibold text-slate-200 focus:outline-none cursor-pointer pr-5 appearance-none"
             >
               {SORT_OPTIONS.map(opt => (
                 <option key={opt.id} value={opt.id} className="bg-slate-900 text-slate-100 py-1">
@@ -185,15 +196,15 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters> }> 
                 </option>
               ))}
             </select>
-            <ChevronDown className="w-3 h-3 text-slate-400 pointer-events-none absolute right-2.5" />
+            <ChevronDown className="w-3 h-3 text-slate-400 pointer-events-none absolute right-3" />
           </div>
 
           <button
             onClick={resetFilters}
-            className="px-3 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 text-slate-300 text-xs font-semibold flex items-center gap-1.5 border border-slate-700/50 transition-all active:scale-95"
+            className="h-11 px-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 text-slate-200 text-xs font-semibold flex items-center gap-2 border border-slate-700/60 shadow-sm transition-all active:scale-95"
             title="Reset Filters"
           >
-            <RotateCcw className="w-3.5 h-3.5 text-slate-400" />
+            <RotateCcw className="w-3.5 h-3.5 text-indigo-400" />
             <span>Reset</span>
           </button>
         </div>

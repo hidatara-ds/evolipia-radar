@@ -41,6 +41,19 @@ function getDBPool(): Pool | null {
   return pool;
 }
 
+function getSourceKeywords(source: string): string[] {
+  const s = source.toLowerCase().trim();
+  if (s.includes("hacker") || s.includes("ycombinator")) return ["hacker news", "hackernews", "ycombinator", "news.ycombinator.com"];
+  if (s.includes("arxiv")) return ["arxiv", "arxiv.org"];
+  if (s.includes("techcrunch")) return ["techcrunch", "techcrunch.com"];
+  if (s.includes("github")) return ["github", "github.com"];
+  if (s.includes("reddit")) return ["reddit", "reddit.com"];
+  if (s.includes("twitter") || s === "x" || s.includes(" / x")) return ["twitter", "x.com", "twitter.com"];
+  if (s.includes("ai labs") || s.includes("openai")) return ["openai", "deepmind", "anthropic", "stability"];
+  const cleaned = s.replace(/[^a-z0-9]/g, "").trim();
+  return cleaned ? [s, cleaned] : [s];
+}
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
 
@@ -115,10 +128,18 @@ export async function GET(request: NextRequest) {
       }
 
       if (sources.length > 0) {
-        const srcPlaceholders = sources.map((_, idx) => `$${paramIdx + idx}`).join(", ");
-        whereClauses.push(`(LOWER(s.name) IN (${srcPlaceholders}) OR LOWER(i.domain) IN (${srcPlaceholders}))`);
-        sources.forEach(s => queryParams.push(s));
-        paramIdx += sources.length;
+        const sourceOrClauses: string[] = [];
+        sources.forEach(src => {
+          const keywords = getSourceKeywords(src);
+          keywords.forEach(kw => {
+            sourceOrClauses.push(`(LOWER(s.name) LIKE $${paramIdx} OR LOWER(i.domain) LIKE $${paramIdx})`);
+            queryParams.push(`%${kw}%`);
+            paramIdx++;
+          });
+        });
+        if (sourceOrClauses.length > 0) {
+          whereClauses.push(`(${sourceOrClauses.join(" OR ")})`);
+        }
       }
 
       if (categories.length > 0) {
@@ -326,9 +347,14 @@ export async function GET(request: NextRequest) {
     }
 
     if (sources.length > 0) {
-      filtered = filtered.filter(it =>
-        sources.some(s => it.source_name.toLowerCase().includes(s) || it.domain.toLowerCase().includes(s))
-      );
+      filtered = filtered.filter(it => {
+        const itemSrc = (it.source_name || "").toLowerCase();
+        const itemDomain = (it.domain || "").toLowerCase();
+        return sources.some(src => {
+          const keywords = getSourceKeywords(src);
+          return keywords.some(kw => itemSrc.includes(kw) || itemDomain.includes(kw));
+        });
+      });
     }
 
     if (categories.length > 0) {
