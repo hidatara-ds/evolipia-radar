@@ -69,27 +69,14 @@ export function useFilters() {
     }
   }, []);
 
-  // Sync state TO URL query params when filters change
+  // Keep browser address bar clean without polluting URL query params on filter change
   const syncToURL = useCallback(() => {
     if (typeof window === "undefined") return;
-
-    const params = new URLSearchParams();
-    if (debouncedSearch) params.set("search", debouncedSearch);
-    if (dateRange) params.set("date_range", dateRange);
-    if (dateFrom) params.set("date_from", dateFrom);
-    if (dateTo) params.set("date_to", dateTo);
-    if (minRelevance > 0) params.set("min_relevance", minRelevance.toString());
-    if (status !== "all") params.set("status", status);
-    if (sortBy) params.set("sort_by", sortBy);
-    if (sortOrder) params.set("sort_order", sortOrder);
-    if (page > 1) params.set("page", page.toString());
-
-    selectedSources.forEach((s: string) => params.append("sources[]", s));
-    selectedCategories.forEach((c: string) => params.append("categories[]", c));
-
-    const newUrl = `${window.location.pathname}?${params.toString()}`;
-    window.history.replaceState(null, "", newUrl);
-  }, [debouncedSearch, dateRange, dateFrom, dateTo, minRelevance, status, sortBy, sortOrder, page, selectedSources, selectedCategories]);
+    // Replace URL to clean base path so browser address bar remains neat and concise
+    if (window.location.search) {
+      window.history.replaceState(null, "", window.location.pathname);
+    }
+  }, []);
 
   useEffect(() => {
     syncToURL();

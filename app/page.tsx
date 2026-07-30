@@ -232,19 +232,61 @@ export default function Dashboard() {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                  {topTopics.map((topic, idx) => (
-                    <div key={topic} className="rounded-2xl border border-white/10 bg-black/25 p-3">
-                      <p className="text-[10px] uppercase tracking-[0.25em] text-slate-500">Theme 0{idx + 1}</p>
-                      <p className="mt-1 font-bold text-slate-100 line-clamp-1">{topic}</p>
-                      <div className="mt-3 h-1.5 rounded-full bg-slate-800 overflow-hidden">
-                        <div
-                          className="h-full rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400"
-                          style={{ width: `${86 - idx * 14}%` }}
-                        />
-                      </div>
+                {/* TV Breaking News Running Text Ticker Banner */}
+                <div className="w-full rounded-2xl border border-emerald-500/30 bg-black/60 backdrop-blur-md overflow-hidden p-1.5 flex items-center shadow-xl">
+                  {/* Ticker Badge */}
+                  <div className="shrink-0 flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-cyan-600 px-3 py-1.5 rounded-xl text-white text-[11px] font-black tracking-wider uppercase shadow-md mr-3 z-10">
+                    <span className="w-2 h-2 rounded-full bg-white animate-ping" />
+                    TRENDING SIGNALS
+                  </div>
+
+                  {/* Marquee Running Text Loop */}
+                  <div className="relative overflow-hidden w-full flex items-center py-1">
+                    <div className="animate-marquee whitespace-nowrap flex items-center gap-8 text-xs font-semibold text-slate-200">
+                      {items.map((item, idx) => (
+                        <a
+                          key={`ticker-1-${item.id || idx}`}
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-slate-200 hover:text-emerald-300 transition-colors group cursor-pointer"
+                        >
+                          <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[10px] font-bold">
+                            {item.source_name || item.domain || "GLOBAL"}
+                          </span>
+                          <span className="font-bold group-hover:underline text-slate-100">{item.title}</span>
+                          {item.relevance_score ? (
+                            <span className="text-emerald-400 font-mono text-[11px]">
+                              [{item.relevance_score}%]
+                            </span>
+                          ) : null}
+                          <span className="text-slate-600 mx-2">•</span>
+                        </a>
+                      ))}
+
+                      {/* Duplicate list for seamless infinite loop */}
+                      {items.map((item, idx) => (
+                        <a
+                          key={`ticker-2-${item.id || idx}`}
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-slate-200 hover:text-emerald-300 transition-colors group cursor-pointer"
+                        >
+                          <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[10px] font-bold">
+                            {item.source_name || item.domain || "GLOBAL"}
+                          </span>
+                          <span className="font-bold group-hover:underline text-slate-100">{item.title}</span>
+                          {item.relevance_score ? (
+                            <span className="text-emerald-400 font-mono text-[11px]">
+                              [{item.relevance_score}%]
+                            </span>
+                          ) : null}
+                          <span className="text-slate-600 mx-2">•</span>
+                        </a>
+                      ))}
                     </div>
-                  ))}
+                  </div>
                 </div>
               </div>
 
