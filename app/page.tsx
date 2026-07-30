@@ -213,103 +213,110 @@ export default function Dashboard() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-6 pb-20">
         <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1.5fr)_minmax(20rem,0.8fr)] gap-5">
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.035] p-5 sm:p-7 shadow-2xl">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.16),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.16),transparent_35%)]" />
-            <div className="relative grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-6 items-center">
-              <div className="space-y-5">
+          <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.035] p-5 sm:p-7 shadow-2xl flex flex-col justify-between space-y-6">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.16),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.16),transparent_35%)] pointer-events-none" />
+            
+            {/* Top Row: Briefing Heading + Agent Evoli Mascot */}
+            <div className="relative flex flex-col md:flex-row items-center justify-between gap-6">
+              {/* Left Column: Heading & Description */}
+              <div className="space-y-4 flex-1 min-w-0">
                 <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/25 bg-emerald-400/10 px-3 py-1 text-xs font-bold text-emerald-300">
                   <Sparkles className="w-3.5 h-3.5" />
                   Live AI Signal Briefing
                 </div>
 
-                <div className="space-y-3">
-                  <h2 className="text-3xl sm:text-5xl font-black leading-tight tracking-tight text-white">
+                <div className="space-y-2">
+                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-white">
                     What is moving in the AI ecosystem?
                   </h2>
-                  <p className="max-w-2xl text-sm sm:text-base leading-relaxed text-slate-400">
+                  <p className="max-w-2xl text-xs sm:text-sm leading-relaxed text-slate-400">
                     Evolipia Radar now frames incoming articles as early intelligence signals, combining crawl freshness,
                     relevance, source diversity, and emerging themes into a daily research command center.
                   </p>
                 </div>
-
-                {/* TV Breaking News Running Text Ticker Banner */}
-                <div className="w-full rounded-2xl border border-emerald-500/30 bg-black/60 backdrop-blur-md overflow-hidden p-1.5 flex items-center shadow-xl">
-                  {/* Ticker Badge */}
-                  <div className="shrink-0 flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-cyan-600 px-3 py-1.5 rounded-xl text-white text-[11px] font-black tracking-wider uppercase shadow-md mr-3 z-10">
-                    <span className="w-2 h-2 rounded-full bg-white animate-ping" />
-                    TRENDING SIGNALS
-                  </div>
-
-                  {/* Marquee Running Text Loop */}
-                  <div className="relative overflow-hidden w-full flex items-center py-1">
-                    <div className="animate-marquee whitespace-nowrap flex items-center gap-8 text-xs font-semibold text-slate-200">
-                      {items.map((item, idx) => (
-                        <a
-                          key={`ticker-1-${item.id || idx}`}
-                          href={item.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 text-slate-200 hover:text-emerald-300 transition-colors group cursor-pointer"
-                        >
-                          <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[10px] font-bold">
-                            {item.source_name || item.domain || "GLOBAL"}
-                          </span>
-                          <span className="font-bold group-hover:underline text-slate-100">{item.title}</span>
-                          {item.relevance_score ? (
-                            <span className="text-emerald-400 font-mono text-[11px]">
-                              [{item.relevance_score}%]
-                            </span>
-                          ) : null}
-                          <span className="text-slate-600 mx-2">•</span>
-                        </a>
-                      ))}
-
-                      {/* Duplicate list for seamless infinite loop */}
-                      {items.map((item, idx) => (
-                        <a
-                          key={`ticker-2-${item.id || idx}`}
-                          href={item.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 text-slate-200 hover:text-emerald-300 transition-colors group cursor-pointer"
-                        >
-                          <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[10px] font-bold">
-                            {item.source_name || item.domain || "GLOBAL"}
-                          </span>
-                          <span className="font-bold group-hover:underline text-slate-100">{item.title}</span>
-                          {item.relevance_score ? (
-                            <span className="text-emerald-400 font-mono text-[11px]">
-                              [{item.relevance_score}%]
-                            </span>
-                          ) : null}
-                          <span className="text-slate-600 mx-2">•</span>
-                        </a>
-                      ))}
-                    </div>
-                  </div>
-                </div>
               </div>
 
-              <div className="relative mx-auto flex w-full max-w-xs flex-col items-center lg:items-end">
-                <div className="absolute inset-x-8 bottom-4 h-20 rounded-full bg-emerald-400/20 blur-3xl" />
+              {/* Right Column: Agent Evoli Mascot */}
+              <div className="relative shrink-0 flex flex-col items-center md:items-end w-full md:w-auto max-w-[240px]">
+                <div className="absolute inset-x-4 bottom-4 h-16 rounded-full bg-emerald-400/20 blur-2xl pointer-events-none" />
                 <img
                   src="/assets/maskot1.webp"
                   alt="Agent Evoli research assistant"
                   fetchPriority="high"
                   loading="eager"
-                  className="relative w-44 sm:w-56 lg:w-64 h-auto object-contain"
-                  style={{ maskImage: "linear-gradient(to bottom, black 62%, transparent 100%)", WebkitMaskImage: "linear-gradient(to bottom, black 62%, transparent 100%)" }}
+                  className="relative w-40 sm:w-48 lg:w-56 h-auto object-contain drop-shadow-[0_10px_20px_rgba(16,185,129,0.2)]"
+                  style={{
+                    maskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
+                    WebkitMaskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
+                  }}
                 />
-                <div className="relative -mt-6 w-full rounded-2xl border border-emerald-400/20 bg-black/55 p-4 backdrop-blur-md">
-                  <div className="flex items-center justify-between gap-3">
+                <div className="relative -mt-4 w-full rounded-2xl border border-emerald-400/25 bg-black/70 p-3 backdrop-blur-md shadow-xl">
+                  <div className="flex items-center justify-between gap-2">
                     <div>
-                      <p className="text-xs font-bold uppercase tracking-[0.24em] text-emerald-300">Agent Evoli</p>
-                      <p className="mt-1 text-sm text-slate-300">
-                        {isCrawling ? progressState?.message || "Collecting new signals..." : "Standing by for the next crawl."}
+                      <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-emerald-300">Agent Evoli</p>
+                      <p className="mt-0.5 text-xs text-slate-300 line-clamp-1 font-medium">
+                        {isCrawling ? progressState?.message || "Collecting signals..." : "Standing by for next crawl"}
                       </p>
                     </div>
-                    <div className={`h-3 w-3 rounded-full ${isCrawling ? "bg-amber-300 animate-pulse" : "bg-emerald-400"}`} />
+                    <div className={`h-2.5 w-2.5 rounded-full shrink-0 ${isCrawling ? "bg-amber-300 animate-pulse" : "bg-emerald-400"}`} />
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom Row: TV Breaking News Running Text Ticker Banner */}
+            <div className="relative w-full rounded-2xl border border-emerald-500/30 bg-black/60 backdrop-blur-md overflow-hidden p-1.5 flex items-center shadow-xl">
+              {/* Ticker Badge */}
+              <div className="shrink-0 flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-cyan-600 px-3 py-1.5 rounded-xl text-white text-[11px] font-black tracking-wider uppercase shadow-md mr-3 z-10">
+                <span className="w-2 h-2 rounded-full bg-white animate-ping" />
+                TRENDING SIGNALS
+              </div>
+
+              {/* Marquee Running Text Loop */}
+              <div className="relative overflow-hidden w-full flex items-center py-1">
+                <div className="animate-marquee whitespace-nowrap flex items-center gap-8 text-xs font-semibold text-slate-200">
+                  {items.map((item, idx) => (
+                    <a
+                      key={`ticker-1-${item.id || idx}`}
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-slate-200 hover:text-emerald-300 transition-colors group cursor-pointer"
+                    >
+                      <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[10px] font-bold">
+                        {item.source_name || item.domain || "GLOBAL"}
+                      </span>
+                      <span className="font-bold group-hover:underline text-slate-100">{item.title}</span>
+                      {item.relevance_score ? (
+                        <span className="text-emerald-400 font-mono text-[11px]">
+                          [{item.relevance_score}%]
+                        </span>
+                      ) : null}
+                      <span className="text-slate-600 mx-2">•</span>
+                    </a>
+                  ))}
+
+                  {/* Duplicate list for seamless infinite loop */}
+                  {items.map((item, idx) => (
+                    <a
+                      key={`ticker-2-${item.id || idx}`}
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-slate-200 hover:text-emerald-300 transition-colors group cursor-pointer"
+                    >
+                      <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[10px] font-bold">
+                        {item.source_name || item.domain || "GLOBAL"}
+                      </span>
+                      <span className="font-bold group-hover:underline text-slate-100">{item.title}</span>
+                      {item.relevance_score ? (
+                        <span className="text-emerald-400 font-mono text-[11px]">
+                          [{item.relevance_score}%]
+                        </span>
+                      ) : null}
+                      <span className="text-slate-600 mx-2">•</span>
+                    </a>
+                  ))}
                 </div>
               </div>
             </div>
