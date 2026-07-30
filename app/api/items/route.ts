@@ -44,7 +44,7 @@ function getDBPool(): Pool | null {
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
 
-  // 1. Try proxying to Go backend if running on localhost:8080
+  // 1. Try proxying to local Go backend if available
   const backendUrl = process.env.BACKEND_URL || "http://localhost:8080";
   try {
     const controller = new AbortController();
@@ -62,7 +62,7 @@ export async function GET(request: NextRequest) {
     // Go backend not running, proceed to direct Neon DB / PostgreSQL query
   }
 
-  // 2. Direct Neon DB / PostgreSQL connection using DATABASE_URL
+  // 2. Direct Neon DB / PostgreSQL connection using exact Neon schema
   const dbPool = getDBPool();
   if (dbPool) {
     try {
@@ -89,7 +89,7 @@ export async function GET(request: NextRequest) {
       let paramIdx = 1;
 
       if (search) {
-        whereClauses.push(`(LOWER(i.title) LIKE $${paramIdx} OR LOWER(i.domain) LIKE $${paramIdx} OR LOWER(COALESCE(i.raw_excerpt, '')) LIKE $${paramIdx})`);
+        whereClauses.push(`(LOWER(i.title) LIKE $${paramIdx} OR LOWER(i.domain) LIKE $${paramIdx} OR LOWER(COALESCE(i.raw_excerpt, '')) LIKE $${paramIdx} OR LOWER(COALESCE(sm.tldr, '')) LIKE $${paramIdx})`);
         queryParams.push(`%${search}%`);
         paramIdx++;
       }
@@ -109,14 +109,8 @@ export async function GET(request: NextRequest) {
       }
 
       if (minRelevance > 0) {
-        whereClauses.push(`COALESCE(i.relevance_score, ROUND(COALESCE(sc.final, 0.85) * 100)) >= $${paramIdx}`);
+        whereClauses.push(`ROUND(COALESCE(sc.relevance, sc.final, 0.85) * (CASE WHEN COALESCE(sc.relevance, sc.final, 0.85) <= 1.0 THEN 100 ELSE 1 END)) >= $${paramIdx}`);
         queryParams.push(minRelevance);
-        paramIdx++;
-      }
-
-      if (status && status !== "all") {
-        whereClauses.push(`COALESCE(i.crawl_status, 'done') = $${paramIdx}`);
-        queryParams.push(status);
         paramIdx++;
       }
 
@@ -145,6 +139,7 @@ export async function GET(request: NextRequest) {
         SELECT COUNT(*) FROM items i 
         LEFT JOIN sources s ON i.source_id = s.id 
         LEFT JOIN scores sc ON i.id = sc.item_id 
+        LEFT JOIN summaries sm ON i.id = sm.item_id
         ${whereSQL}
       `;
       const filteredCountRes = await dbPool.query(filteredCountQuery, queryParams);
@@ -153,21 +148,29 @@ export async function GET(request: NextRequest) {
       // Sorting
       let orderCol = "i.published_at";
       if (sortBy === "relevance") {
-        orderCol = "COALESCE(i.relevance_score, ROUND(COALESCE(sc.final, 0.85) * 100))";
+        orderCol = "COALESCE(sc.relevance, sc.final, 0.85)";
       } else if (sortBy === "impact") {
-        orderCol = "COALESCE(sc.impact, 8.5)";
+        orderCol = "COALESCE(sc.impact, 0.85)";
       }
       const dir = sortOrder.toUpperCase() === "ASC" ? "ASC" : "DESC";
 
       const offset = (page - 1) * limit;
       const dataQuery = `
         SELECT 
-          i.id, i.source_id, COALESCE(s.name, 'Global Source') as source_name, i.title, i.url, 
-          i.published_at, i.domain, i.category, i.raw_excerpt, 
-          COALESCE(i.crawl_status, 'done') as crawl_status, i.crawl_error,
-          COALESCE(i.relevance_score, ROUND(COALESCE(sc.final, 0.85) * 100)) as relevance_score,
-          COALESCE(sc.impact, 8.5) as impact,
-          COALESCE(sc.engineering_value, 8.5) as engineering_value,
+          i.id, 
+          i.source_id, 
+          COALESCE(s.name, 'Global Source') as source_name, 
+          i.title, 
+          i.url, 
+          i.published_at, 
+          i.domain, 
+          i.category, 
+          i.raw_excerpt, 
+          'done' as crawl_status, 
+          NULL as crawl_error,
+          ROUND(COALESCE(sc.relevance, sc.final, 0.85) * (CASE WHEN COALESCE(sc.relevance, sc.final, 0.85) <= 1.0 THEN 100 ELSE 1 END)) as relevance_score,
+          COALESCE(sc.impact, 0.85) as impact,
+          COALESCE(sc.engineering_value, 0.85) as engineering_value,
           COALESCE(sc.reasoning, '') as reasoning,
           COALESCE(sm.tldr, i.raw_excerpt, i.title) as tldr,
           COALESCE(sm.why_it_matters, '') as why_it_matters,
@@ -184,28 +187,35 @@ export async function GET(request: NextRequest) {
 
       const dataRes = await dbPool.query(dataQuery, [...queryParams, limit, offset]);
 
-      const items = dataRes.rows.map(row => ({
-        id: row.id,
-        source_id: row.source_id,
-        source_name: row.source_name,
-        title: row.title,
-        url: row.url,
-        published_at: row.published_at ? new Date(row.published_at).toISOString() : new Date().toISOString(),
-        domain: row.domain,
-        category: row.category || "llm",
-        raw_excerpt: row.raw_excerpt || row.tldr || row.title,
-        tldr: row.tldr,
-        why_it_matters: row.why_it_matters,
-        tags: Array.isArray(row.tags) ? row.tags : (typeof row.tags === "string" ? JSON.parse(row.tags) : []),
-        crawl_status: row.crawl_status,
-        crawl_error: row.crawl_error,
-        relevance_score: Number(row.relevance_score) || 85,
-        scaled_score: Number(((Number(row.relevance_score) || 85) / 10).toFixed(1)),
-        created_at: row.created_at ? new Date(row.created_at).toISOString() : new Date().toISOString(),
-        impact: Number(row.impact) || 8.5,
-        engineering_value: Number(row.engineering_value) || 8.5,
-        reasoning: row.reasoning,
-      }));
+      const items = dataRes.rows.map(row => {
+        const rawRel = Number(row.relevance_score);
+        const relScore = !isNaN(rawRel) && rawRel > 0 ? Math.round(rawRel) : 85;
+        const rawImp = Number(row.impact);
+        const impactScore = !isNaN(rawImp) ? (rawImp <= 1.0 ? Math.round(rawImp * 100) : Math.round(rawImp)) : 85;
+
+        return {
+          id: row.id,
+          source_id: row.source_id,
+          source_name: row.source_name,
+          title: row.title,
+          url: row.url,
+          published_at: row.published_at ? new Date(row.published_at).toISOString() : new Date().toISOString(),
+          domain: row.domain,
+          category: row.category || "llm",
+          raw_excerpt: row.raw_excerpt || row.tldr || row.title,
+          tldr: row.tldr,
+          why_it_matters: row.why_it_matters,
+          tags: Array.isArray(row.tags) ? row.tags : (typeof row.tags === "string" ? JSON.parse(row.tags) : []),
+          crawl_status: "done",
+          crawl_error: null,
+          relevance_score: relScore,
+          scaled_score: Number((relScore / 10).toFixed(1)),
+          created_at: row.created_at ? new Date(row.created_at).toISOString() : new Date().toISOString(),
+          impact: impactScore,
+          engineering_value: Number(row.engineering_value) || 85,
+          reasoning: row.reasoning,
+        };
+      });
 
       const totalPages = Math.max(1, Math.ceil(filteredCount / limit));
 

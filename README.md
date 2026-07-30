@@ -48,6 +48,58 @@ Evolipia Radar is an automated news intelligence platform that discovers AI/ML n
 
 ---
 
+## 📊 Database Architecture & Entity Relationship Diagram (ERD)
+
+The platform connects to a serverless **Neon.tech (PostgreSQL)** database. Full schema specifications and table structures are documented in [docs/DATABASE_SCHEMA.md](file:///e:/evolipia-radar-1/docs/DATABASE_SCHEMA.md).
+
+```mermaid
+erDiagram
+    sources ||--o{ items : "has many"
+    sources ||--o{ fetch_runs : "tracks"
+    items ||--|| scores : "has 1:1"
+    items ||--|| summaries : "has 1:1"
+    items ||--o{ signals : "has many"
+
+    items {
+        uuid id PK
+        uuid source_id FK
+        text title
+        text url
+        timestamptz published_at
+        text domain
+        text category
+        text raw_excerpt
+        timestamptz created_at
+    }
+
+    scores {
+        uuid item_id PK, FK
+        double_precision relevance
+        double_precision impact
+        double_precision engineering_value
+        double_precision final
+    }
+
+    summaries {
+        uuid item_id PK, FK
+        text tldr
+        text why_it_matters
+        jsonb tags
+    }
+
+    sources {
+        uuid id PK
+        text name
+        text type
+        text url
+        boolean enabled
+    }
+```
+
+> 📖 **Full Database Schema**: For full column definitions, data types, and constraint relationships, see [DATABASE_SCHEMA.md](file:///e:/evolipia-radar-1/docs/DATABASE_SCHEMA.md).
+
+---
+
 ## 🛠️ Environment Variables List
 
 | Variable Name | Required | Default Value | Description |
