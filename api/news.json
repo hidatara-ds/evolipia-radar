@@ -1,51 +1,5 @@
 {
-  "items": [
-    {
-      "id": "item-1",
-      "title": "DeepSeek-V3 Technical Report: Multi-Head Latent Attention & Mixture-of-Experts Architecture",
-      "url": "https://arxiv.org/abs/2412.19437",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-30T08:00:00Z",
-      "category": "llm",
-      "score": 0.95,
-      "tldr": "DeepSeek-V3 achieves state-of-the-art performance using Multi-head Latent Attention (MLA) and DeepSeekMoE architecture for high efficiency training and inference.",
-      "why_it_matters": "Demonstrates massive parameter efficiency and lower cost for frontier LLM reasoning.",
-      "tags": ["llm", "open-source", "infra"],
-      "impact": 0.95,
-      "engineering_value": 0.92,
-      "reasoning": "High impact architecture innovation."
-    },
-    {
-      "id": "item-2",
-      "title": "Show HN: Open Source Autonomous Agentic Workflow Framework",
-      "url": "https://github.com/trending",
-      "domain": "github.com",
-      "published_at": "2026-07-29T18:00:00Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "A lightweight Python engine for orchestrating asynchronous LLM agent teams with tools, vector memory, and self-correction loops.",
-      "why_it_matters": "Simplifies multi-agent systems integration for production applications.",
-      "tags": ["agents", "open-source", "infra"],
-      "impact": 0.88,
-      "engineering_value": 0.90,
-      "reasoning": "High developer adoption."
-    },
-    {
-      "id": "item-3",
-      "title": "Anthropic Announces Claude 3.5 Sonnet Artifacts and Computer Use Capabilities",
-      "url": "https://techcrunch.com/category/artificial-intelligence",
-      "domain": "techcrunch.com",
-      "published_at": "2026-07-29T12:00:00Z",
-      "category": "vision",
-      "score": 0.92,
-      "tldr": "Claude 3.5 Sonnet introduces API support for direct GUI control, allowing models to interpret screens, move cursors, and click UI elements.",
-      "why_it_matters": "Unlocks next-generation desktop automation and browser agent workflows.",
-      "tags": ["agents", "vision", "security"],
-      "impact": 0.94,
-      "engineering_value": 0.91,
-      "reasoning": "Frontier multimodal agent capability."
-    }
-  ],
-  "last_updated": "2026-07-30T10:00:00Z",
-  "total_count": 3
+  "items": [],
+  "last_updated": "2026-07-30T06:16:20.372119281Z",
+  "total_count": 0
 }
