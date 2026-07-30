@@ -34,7 +34,7 @@ Add these secrets:
 
 1. **DATABASE_URL**
    ```
-   postgresql://evolipia-radar_owner:npg_ntTN8wojqf3R@ep-quiet-butterfly-a1qlqxqy.ap-southeast-1.aws.neon.tech/evolipia-radar?sslmode=require
+   postgresql://user:password@ep-your-db-id.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
    ```
 
 2. **LLM_API_KEY**

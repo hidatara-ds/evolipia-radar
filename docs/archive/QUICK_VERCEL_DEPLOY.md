@@ -22,7 +22,7 @@ The source type issue has been **FIXED**! The worker now supports:
 2. **Set Environment Variables**
    In Vercel dashboard, add:
    ```
-   DATABASE_URL=postgresql://radar_owner:npg_ntTN8wojqf3R@ep-rough-darkness-a5qvqhqr.us-east-2.aws.neon.tech/radar?sslmode=require
+   DATABASE_URL=postgresql://user:password@ep-your-db-id.us-east-2.aws.neon.tech/neondb?sslmode=require
    LLM_API_KEY=your_openrouter_key
    ```
 

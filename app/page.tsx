@@ -425,25 +425,54 @@ export default function Dashboard() {
         </section>
 
         {paginationInfo.totalPages > 1 && (
-          <div className="flex items-center justify-between mt-8 pt-4 border-t border-slate-800">
-            <span className="text-xs text-slate-400">
-              Page {filterHook.page} of {paginationInfo.totalPages} ({paginationInfo.filteredCount} signals)
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 pt-4 border-t border-slate-800 text-xs">
+            <span className="text-slate-400 font-medium">
+              Showing page <span className="font-bold text-slate-200">{filterHook.page}</span> of{" "}
+              <span className="font-bold text-slate-200">{paginationInfo.totalPages}</span> ({paginationInfo.filteredCount} total signals)
             </span>
-            <div className="flex items-center gap-2">
+
+            <div className="flex items-center gap-1.5">
               <button
                 disabled={filterHook.page <= 1}
                 onClick={() => filterHook.setPage(filterHook.page - 1)}
-                className="p-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-emerald-400/60"
+                className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-emerald-400/60 flex items-center gap-1 font-semibold transition-all"
                 aria-label="Previous page"
               >
                 <ChevronLeft className="w-4 h-4" />
+                <span>Prev</span>
               </button>
+
+              {Array.from({ length: Math.min(5, paginationInfo.totalPages) }, (_, i) => {
+                let pNum = i + 1;
+                if (paginationInfo.totalPages > 5 && filterHook.page > 3) {
+                  pNum = filterHook.page - 2 + i;
+                  if (pNum > paginationInfo.totalPages) {
+                    pNum = paginationInfo.totalPages - (4 - i);
+                  }
+                }
+                const isActive = filterHook.page === pNum;
+                return (
+                  <button
+                    key={pNum}
+                    onClick={() => filterHook.setPage(pNum)}
+                    className={`w-8 h-8 rounded-xl font-bold flex items-center justify-center transition-all ${
+                      isActive
+                        ? "bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/20"
+                        : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 hover:bg-slate-800"
+                    }`}
+                  >
+                    {pNum}
+                  </button>
+                );
+              })}
+
               <button
                 disabled={filterHook.page >= paginationInfo.totalPages}
                 onClick={() => filterHook.setPage(filterHook.page + 1)}
-                className="p-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-emerald-400/60"
+                className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-emerald-400/60 flex items-center gap-1 font-semibold transition-all"
                 aria-label="Next page"
               >
+                <span>Next</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>

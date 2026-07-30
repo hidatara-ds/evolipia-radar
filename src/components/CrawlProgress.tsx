@@ -123,17 +123,17 @@ export const CrawlProgress: React.FC<CrawlProgressProps> = ({
             >
               <div className="flex items-center gap-1.5 mb-1">
                 {isDone ? (
-                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                 ) : isActive ? (
-                  <Loader2 className="w-3.5 h-3.5 text-indigo-400 animate-spin" />
+                  <Loader2 className="w-3.5 h-3.5 text-indigo-400 animate-spin shrink-0" />
                 ) : (
-                  <span className="w-3.5 h-3.5 rounded-full border border-slate-700 text-[10px] flex items-center justify-center font-mono">
+                  <span className="w-4 h-4 rounded-full border border-slate-700 text-[10px] flex items-center justify-center font-mono text-slate-400 shrink-0">
                     {stepNum}
                   </span>
                 )}
-                <span className="font-semibold">{stepNum}. Step</span>
+                <span className="font-bold text-[11px] tracking-wide uppercase">Step {stepNum}</span>
               </div>
-              <p className="truncate text-[11px] opacity-90">{stepLabel}</p>
+              <p className="truncate text-xs font-medium text-slate-300">{stepLabel}</p>
             </div>
           );
         })}

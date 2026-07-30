@@ -17,7 +17,7 @@ Mengubah API untuk membaca langsung dari Neon.tech PostgreSQL database.
 5. Klik **Add New**
 6. Isi form:
    - **Name**: `DATABASE_URL`
-   - **Value**: `postgresql://neondb_owner:npg_ntTN8wojqf3R@ep-falling-grass-a1dfoa60-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require`
+   - **Value**: `postgresql://user:password@ep-your-db-id.ap-southeast-1.aws.neon.tech/neondb?sslmode=require`
    - **Environment**: Centang semua (Production, Preview, Development)
 7. Klik **Save**
 

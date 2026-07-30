@@ -22,7 +22,7 @@ This guide walks you through deploying the Evolipia Radar backend (API + Worker)
    - Add credits ($5-10 recommended for testing)
 
 4. **Neon.tech Database**: Already configured
-   - Connection string: `postgresql://evolipia-radar_owner:npg_ntTN8wojqf3R@ep-quiet-butterfly-a1qlqxqy.ap-southeast-1.aws.neon.tech/evolipia-radar?sslmode=require`
+   - Connection string: `postgresql://user:password@ep-your-db-id.ap-southeast-1.aws.neon.tech/neondb?sslmode=require`
 
 ## Architecture Overview
 
@@ -50,7 +50,7 @@ Before deploying, ensure your Neon.tech database has the latest schema:
 # Or download from: https://github.com/golang-migrate/migrate/releases
 
 # Run migrations
-migrate -path migrations -database "postgresql://evolipia-radar_owner:npg_ntTN8wojqf3R@ep-quiet-butterfly-a1qlqxqy.ap-southeast-1.aws.neon.tech/evolipia-radar?sslmode=require" up
+migrate -path migrations -database "postgresql://user:password@ep-your-db-id.ap-southeast-1.aws.neon.tech/neondb?sslmode=require" up
 ```
 
 ## Step 3: Deploy API Server
@@ -65,7 +65,7 @@ fly apps create evolipia-radar --org personal
 
 ```bash
 # Database connection
-fly secrets set DATABASE_URL="postgresql://evolipia-radar_owner:npg_ntTN8wojqf3R@ep-quiet-butterfly-a1qlqxqy.ap-southeast-1.aws.neon.tech/evolipia-radar?sslmode=require" -a evolipia-radar
+fly secrets set DATABASE_URL="postgresql://user:password@ep-your-db-id.ap-southeast-1.aws.neon.tech/neondb?sslmode=require" -a evolipia-radar
 
 # OpenRouter API key (replace with your actual key)
 fly secrets set LLM_API_KEY="sk-or-v1-your-api-key-here" -a evolipia-radar
@@ -104,7 +104,7 @@ fly apps create evolipia-radar-worker --org personal
 
 ```bash
 # Database connection
-fly secrets set DATABASE_URL="postgresql://evolipia-radar_owner:npg_ntTN8wojqf3R@ep-quiet-butterfly-a1qlqxqy.ap-southeast-1.aws.neon.tech/evolipia-radar?sslmode=require" -a evolipia-radar-worker
+fly secrets set DATABASE_URL="postgresql://user:password@ep-your-db-id.ap-southeast-1.aws.neon.tech/neondb?sslmode=require" -a evolipia-radar-worker
 
 # OpenRouter API key (replace with your actual key)
 fly secrets set LLM_API_KEY="sk-or-v1-your-api-key-here" -a evolipia-radar-worker
@@ -288,7 +288,7 @@ fly secrets list -a evolipia-radar
 
 Test connection locally:
 ```bash
-psql "postgresql://evolipia-radar_owner:npg_ntTN8wojqf3R@ep-quiet-butterfly-a1qlqxqy.ap-southeast-1.aws.neon.tech/evolipia-radar?sslmode=require"
+psql "postgresql://user:password@ep-your-db-id.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
 ```
 
 ### Cold start too slow
