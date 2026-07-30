@@ -58,6 +58,21 @@
       ]
     },
     {
+      "id": "b09dff18-9ea3-431a-9221-1a4b700718c0",
+      "title": "The way GPT-5.6 fuses frontier intelligence with frontier efficiency – OpenAI",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "domain": "openai.com",
+      "published_at": "2026-07-29T20:52:48Z",
+      "category": "tech",
+      "score": 0.8057005581271341,
+      "tldr": "6 fuses frontier intelligence with frontier efficiency – OpenAI",
+      "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
+      "tags": [
+        "general_ai",
+        "llm"
+      ]
+    },
+    {
       "id": "7d073bc7-e7a1-4a4e-b680-cab4c973f58e",
       "title": "A Pragmatic Approach to LLMs",
       "url": "https://gracefulliberty.com/articles/pragmatic-llms",
@@ -472,6 +487,20 @@
       "why_it_matters": "This development could impact how AI engineers build and deploy language models, potentially affecting inference costs, model architecture choices, and RAG system design.",
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "660f0d52-342f-405a-879a-efff06bee737",
+      "title": "The Productivity Mirage",
+      "url": "https://frantic.im/mirage",
+      "domain": "frantic.im",
+      "published_at": "2026-07-29T23:18:11Z",
+      "category": "tech",
+      "score": 0.5982956092041506,
+      "tldr": "The Productivity Mirage",
+      "why_it_matters": "This could improve how AI systems access and utilize external knowledge, which is crucial for building more capable and accurate AI applications.",
+      "tags": [
+        "general_ai"
       ]
     },
     {
@@ -1190,6 +1219,20 @@
       ]
     },
     {
+      "id": "f5178d1f-1fb9-4e77-8fe2-5d74c646c5f1",
+      "title": "Show HN: A local merge queue for parallel Claude Code agents",
+      "url": "https://github.com/funador/claude-code-merge-queue",
+      "domain": "github.com",
+      "published_at": "2026-07-30T00:20:16Z",
+      "category": "tech",
+      "score": 0.4094010146375,
+      "tldr": "Show HN: A local merge queue for parallel Claude Code agents",
+      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
+      "tags": [
+        "general_ai"
+      ]
+    },
+    {
       "id": "01886ce7-5ed8-4331-9d14-829809bb3b2e",
       "title": "Cursor Bridge – Run Unlimited Claude Code on Your Cursor Subscription",
       "url": "https://github.com/hkc5/cursor-bridge",
@@ -1371,50 +1414,8 @@
       "tags": [
         "general_ai"
       ]
-    },
-    {
-      "id": "ed606375-39bf-4a21-abdf-6494e9e09a79",
-      "title": "Show HN: Cynative – Read-only CLI in Go that explains your live infrastructure",
-      "url": "https://github.com/cynative/cynative",
-      "domain": "github.com",
-      "published_at": "2026-07-28T16:43:09Z",
-      "category": "tech",
-      "score": 0.4087714188248703,
-      "tldr": "Show HN: Cynative – Read-only CLI in Go that explains your live infrastructure",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "25f285b2-f712-4365-9a00-881cb43cc68b",
-      "title": "Claude Opus 5 cheated when tasked with running a vending machine",
-      "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine",
-      "domain": "techcrunch.com",
-      "published_at": "2026-07-29T18:58:07Z",
-      "category": "tech",
-      "score": 0.4087591110273209,
-      "tldr": "Claude Opus 5 cheated when tasked with running a vending machine",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
-    },
-    {
-      "id": "954a209e-c224-4aa8-bb06-930b984e5d29",
-      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "domain": "github.com",
-      "published_at": "2026-07-29T15:05:43Z",
-      "category": "tech",
-      "score": 0.4087487322003277,
-      "tldr": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
-      "why_it_matters": "Staying informed about AI/ML developments helps engineers make better technical decisions, adopt new tools and techniques, and understand the evolving landscape of machine learning.",
-      "tags": [
-        "general_ai"
-      ]
     }
   ],
-  "last_updated": "2026-07-29T23:29:02.165757258Z",
+  "last_updated": "2026-07-30T00:53:55.134237369Z",
   "total_count": 100
 }
