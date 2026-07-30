@@ -1,6 +1,6 @@
-# Neon Database Schema & ERD Documentation
+# 🗄️ Neon Database Schema & ERD Documentation
 
-Comprehensive database schema reference and Entity Relationship Diagram (ERD) for **Evolipia Radar** hosted on **Neon.tech (PostgreSQL)**.
+This document provides a comprehensive database schema specification for **Evolipia Radar** hosted on **Neon.tech (Serverless PostgreSQL)**, detailing entity relationships (ERD), performance indexes, vector search support (`pgvector`), and migration history.
 
 ---
 
@@ -13,7 +13,7 @@ erDiagram
     items ||--|| scores : "has 1:1"
     items ||--|| summaries : "has 1:1"
     items ||--o{ signals : "has many"
-    
+
     sources {
         uuid id PK
         text name
@@ -39,9 +39,13 @@ erDiagram
         text domain
         text category
         text raw_excerpt
-        timestamptz created_at
-        USER-DEFINED embedding
+        text crawl_status
+        text crawl_error
+        int relevance_score
+        timestamptz validated_at
+        vector embedding
         text embedding_model
+        timestamptz created_at
     }
 
     scores {
@@ -62,171 +66,112 @@ erDiagram
         text tldr
         text why_it_matters
         jsonb tags
-        text method
-        timestamptz created_at
+        text model
+        timestamptz generated_at
     }
 
     signals {
         uuid id PK
         uuid item_id FK
-        integer points
-        integer comments
-        integer rank_pos
-        timestamptz fetched_at
+        text type
+        double_precision score
+        jsonb metadata
+        timestamptz created_at
+    }
+
+    settings {
+        text key PK
+        text value
+        timestamptz updated_at
     }
 
     fetch_runs {
         uuid id PK
         uuid source_id FK
-        timestamptz fetched_at
         text status
-        text error
-        integer items_fetched
-        integer items_inserted
-    }
-
-    scrape_logs {
-        uuid id PK
-        timestamp started_at
-        timestamp completed_at
-        integer items_processed
-        integer items_new
-        varchar status
+        int items_fetched
         text error_message
-        varchar trigger_source
-    }
-
-    schema_migrations {
-        bigint version PK
-        boolean dirty
+        timestamptz started_at
+        timestamptz completed_at
     }
 ```
 
 ---
 
-## 🗃️ Table Specifications
+## 📋 Table Specifications
 
-### 1. `items`
-Primary table storing intelligence articles and candidate signals scraped from various sources.
+### 1. Table `sources`
+Stores source configurations and metadata for news ingestion agents (RSS feeds, APIs, scrapers).
+- `id` (UUID, Primary Key, Default: `gen_random_uuid()`)
+- `name` (TEXT, NOT NULL): Name of the source (e.g., "TechCrunch AI", "ArXiv AI").
+- `type` (TEXT, NOT NULL): Ingestion agent type (`rss`, `api`, `scrape`, `trending`).
+- `category` (TEXT, NULLABLE): Default category (`llm`, `agents`, `vision`, `infra`).
+- `url` (TEXT, NOT NULL): Target URL for RSS feeds or APIs.
+- `mapping_json` (JSONB, NULLABLE): Custom field mapping for parser.
+- `enabled` (BOOLEAN, DEFAULT: `true`): Active/inactive state flag.
+- `status` (TEXT, DEFAULT: `'active'`): Health status (`active`, `degraded`, `unhealthy`).
+- `created_at` / `updated_at` (TIMESTAMPTZ, DEFAULT: `NOW()`).
 
-| Column | Data Type | Nullable | Default | Key / FK | Description |
-|---|---|---|---|---|---|
-| `id` | `uuid` | NO | `gen_random_uuid()` | **PK** | Unique item ID |
-| `source_id` | `uuid` | NO | - | **FK** (`sources.id`) | Reference to parent source |
-| `title` | `text` | NO | - | - | Headline title |
-| `url` | `text` | NO | - | - | Original article URL |
-| `published_at` | `timestamptz` | NO | - | - | Article publication timestamp |
-| `content_hash` | `text` | NO | - | - | Deduplication hash |
-| `domain` | `text` | NO | - | - | Website domain (e.g. `arxiv.org`, `github.com`) |
-| `category` | `text` | NO | - | - | AI Category (e.g. `llm`, `agents`, `vision`) |
-| `raw_excerpt` | `text` | YES | - | - | Extracted text snippet |
-| `created_at` | `timestamptz` | NO | `now()` | - | Record insertion timestamp |
-| `embedding` | `vector` | YES | - | - | pgvector embedding vector |
-| `embedding_model` | `text` | YES | - | - | Vector embedding model identifier |
+### 2. Table `items`
+Main repository table for validated and processed AI news articles.
+- `id` (UUID, Primary Key, Default: `gen_random_uuid()`)
+- `source_id` (UUID, Foreign Key to `sources(id)` ON DELETE SET NULL).
+- `title` (TEXT, NOT NULL): Article title.
+- `url` (TEXT, NOT NULL, UNIQUE): Original source URL.
+- `published_at` (TIMESTAMPTZ, NOT NULL): Publication timestamp.
+- `content_hash` (TEXT, UNIQUE): SHA-256 hash of Title + URL for deduplication.
+- `domain` (TEXT, NULLABLE): Origin domain (e.g., `arxiv.org`, `techcrunch.com`).
+- `category` (TEXT, NULLABLE): Category classification (`llm`, `agents`, `vision`, `infra`).
+- `raw_excerpt` (TEXT, NULLABLE): Raw text snippet or content excerpt.
+- `crawl_status` (TEXT, DEFAULT: `'verified'`): Crawl status (`verified`, `pending`, `done`, `failed`).
+- `crawl_error` (TEXT, NULLABLE): Error message if ingestion failed.
+- `relevance_score` (INT, DEFAULT: `0`): Initial keyword relevance score (0-100).
+- `validated_at` (TIMESTAMPTZ, NULLABLE): Validation timestamp.
+- `embedding` (VECTOR, NULLABLE): `pgvector` column (1536-dimensional vector embedding for semantic search).
+- `embedding_model` (TEXT, NULLABLE): Model used for generating embeddings (e.g., `text-embedding-3-small`).
+- `created_at` (TIMESTAMPTZ, DEFAULT: `NOW()`).
 
----
+### 3. Table `scores`
+Stores multi-factor score evaluations for each item (1:1 relationship with `items`).
+- `item_id` (UUID, PK, FK to `items(id)` ON DELETE CASCADE).
+- `hot` (DOUBLE PRECISION, DEFAULT: 0.0): Popularity / trending score.
+- `relevance` (DOUBLE PRECISION, DEFAULT: 0.0): Topic relevance score.
+- `credibility` (DOUBLE PRECISION, DEFAULT: 0.0): Source credibility score.
+- `novelty` (DOUBLE PRECISION, DEFAULT: 0.0): Breakthrough recency score.
+- `impact` (DOUBLE PRECISION, DEFAULT: 0.0): Industry impact weight.
+- `engineering_value` (DOUBLE PRECISION, DEFAULT: 0.0): Technical content density score.
+- `final` (DOUBLE PRECISION, DEFAULT: 0.0): Aggregate final score.
+- `reasoning` (TEXT, NULLABLE): Scoring rationale from algorithm or LLM.
+- `computed_at` (TIMESTAMPTZ, DEFAULT: `NOW()`).
 
-### 2. `scores`
-Scores and relevance metrics calculated per item.
-
-| Column | Data Type | Nullable | Default | Key / FK | Description |
-|---|---|---|---|---|---|
-| `item_id` | `uuid` | NO | - | **PK**, **FK** (`items.id`) | 1-to-1 link to items table |
-| `hot` | `double precision` | NO | - | - | Recency & velocity score |
-| `relevance` | `double precision` | NO | - | - | AI domain relevance score (0.0-1.0) |
-| `credibility` | `double precision` | NO | - | - | Source credibility index |
-| `novelty` | `double precision` | NO | - | - | Uniqueness score |
-| `final` | `double precision` | NO | - | - | Weighted composite final score |
-| `impact` | `double precision` | NO | `0.0` | - | Ecosystem impact score |
-| `engineering_value` | `double precision` | NO | `0.0` | - | Practical developer value score |
-| `reasoning` | `text` | NO | `''` | - | LLM scoring explanation |
-| `computed_at` | `timestamptz` | NO | `now()` | - | Score calculation timestamp |
-
----
-
-### 3. `summaries`
-AI-generated executive briefings, key takeaways, and tags for items.
-
-| Column | Data Type | Nullable | Default | Key / FK | Description |
-|---|---|---|---|---|---|
-| `item_id` | `uuid` | NO | - | **PK**, **FK** (`items.id`) | 1-to-1 link to items table |
-| `tldr` | `text` | NO | - | - | Single-sentence TL;DR summary |
-| `why_it_matters` | `text` | NO | - | - | Strategic impact summary |
-| `tags` | `jsonb` | NO | - | - | Topic tags array (e.g. `["llm", "open_source"]`) |
-| `method` | `text` | NO | - | - | Summarization method (`llm` or `extractive`) |
-| `created_at` | `timestamptz` | NO | `now()` | - | Summary creation timestamp |
-
----
-
-### 4. `sources`
-Configuration registry for crawled websites, RSS feeds, and APIs.
-
-| Column | Data Type | Nullable | Default | Key / FK | Description |
-|---|---|---|---|---|---|
-| `id` | `uuid` | NO | `gen_random_uuid()` | **PK** | Source unique ID |
-| `name` | `text` | NO | - | - | Display name |
-| `type` | `text` | NO | - | - | Source type (`rss`, `api`, `scrape`) |
-| `category` | `text` | NO | - | - | Target category |
-| `url` | `text` | NO | - | - | Base feed/endpoint URL |
-| `mapping_json` | `jsonb` | YES | - | - | JSON parsing rule map |
-| `enabled` | `boolean` | NO | `false` | - | Active toggle flag |
-| `status` | `text` | NO | `'pending'` | - | Current health status |
-| `last_test_status` | `text` | YES | - | - | Last validation result |
-| `last_test_message` | `text` | YES | - | - | Health test output message |
-| `created_at` | `timestamptz` | NO | `now()` | - | Creation timestamp |
-| `updated_at` | `timestamptz` | NO | `now()` | - | Modification timestamp |
+### 4. Table `summaries`
+Stores AI-generated summaries for each item (1:1 relationship with `items`).
+- `item_id` (UUID, PK, FK to `items(id)` ON DELETE CASCADE).
+- `tldr` (TEXT, NOT NULL): 1-2 sentence executive summary.
+- `why_it_matters` (TEXT, NULLABLE): Explanation of strategic or technical importance.
+- `tags` (JSONB, DEFAULT: `'[]'`): Keyword tag array (e.g., `["llm", "agents"]`).
+- `model` (TEXT, NULLABLE): LLM model name used to generate summary.
+- `generated_at` (TIMESTAMPTZ, DEFAULT: `NOW()`).
 
 ---
 
-### 5. `signals`
-Time-series social velocity signals (points, comments, rank position).
+## 🔍 Database Migration History (`migrations/`)
 
-| Column | Data Type | Nullable | Default | Key / FK | Description |
-|---|---|---|---|---|---|
-| `id` | `uuid` | NO | `gen_random_uuid()` | **PK** | Signal ID |
-| `item_id` | `uuid` | NO | - | **FK** (`items.id`) | Target item ID |
-| `points` | `integer` | YES | - | - | Upvotes / points count |
-| `comments` | `integer` | YES | - | - | Discussion comment count |
-| `rank_pos` | `integer` | YES | - | - | Leaderboard rank position |
-| `fetched_at` | `timestamptz` | NO | `now()` | - | Signal snapshot timestamp |
+The application utilizes `golang-migrate` for sequential SQL migrations:
 
----
-
-### 6. `fetch_runs`
-Audit history of source scraper runs.
-
-| Column | Data Type | Nullable | Default | Key / FK | Description |
-|---|---|---|---|---|---|
-| `id` | `uuid` | NO | `gen_random_uuid()` | **PK** | Fetch run ID |
-| `source_id` | `uuid` | NO | - | **FK** (`sources.id`) | Target source ID |
-| `fetched_at` | `timestamptz` | NO | `now()` | - | Run timestamp |
-| `status` | `text` | NO | - | - | Status (`success`, `failed`) |
-| `error` | `text` | YES | - | - | Error message if failed |
-| `items_fetched` | `integer` | NO | `0` | - | Count of fetched items |
-| `items_inserted` | `integer` | NO | `0` | - | Count of newly inserted items |
+1. **`000001_init_schema.up.sql`**: Enables `pgcrypto` extension and creates core tables: `sources`, `items`, `scores`, `summaries`, `signals`, and `settings`.
+2. **`000003_add_clustering.up.sql`**: Adds table clustering support and topic groupings.
+3. **`000004_add_metrics.up.sql`**: Adds telemetry table `fetch_runs` for tracking crawler executions.
+4. **`000005_add_settings_and_metrics.up.sql`**: Enhances configuration settings storage.
+5. **`000006_add_pgvector.up.sql`**: Enables `vector` extension (`pgvector`) and adds `embedding` and `embedding_model` columns to `items`.
+6. **`000007_add_llm_scores.up.sql`**: Adds `impact` and `engineering_value` columns to `scores`.
+7. **`000008_add_crawl_fields.up.sql`**: Adds `crawl_status`, `crawl_error`, `relevance_score`, and `validated_at` columns to `items`.
 
 ---
 
-### 7. `scrape_logs`
-Global scraper execution logs.
+## ⚡ Indexing Strategy
 
-| Column | Data Type | Nullable | Default | Key / FK | Description |
-|---|---|---|---|---|---|
-| `id` | `uuid` | NO | `gen_random_uuid()` | **PK** | Log ID |
-| `started_at` | `timestamp` | NO | `now()` | - | Start time |
-| `completed_at` | `timestamp` | YES | - | - | Finish time |
-| `items_processed` | `integer` | YES | `0` | - | Total processed items |
-| `items_new` | `integer` | YES | `0` | - | Total new items saved |
-| `status` | `varchar(20)`| YES | `'running'` | - | Status state |
-| `error_message` | `text` | YES | - | - | Error log |
-| `trigger_source` | `varchar(50)`| YES | `'github_actions'`| - | Execution trigger |
-
----
-
-### 8. `schema_migrations`
-Track applied database migration scripts (`golang-migrate`).
-
-| Column | Data Type | Nullable | Default | Key / FK | Description |
-|---|---|---|---|---|---|
-| `version` | `bigint` | NO | - | **PK** | Migration version number |
-| `dirty` | `boolean` | NO | - | - | Migration dirty state flag |
+- `idx_items_published_at`: Index on `items(published_at DESC)` for fast chronological pagination.
+- `idx_items_source_id`: Foreign key index on `items(source_id)` for optimized joins.
+- `idx_items_content_hash`: UNIQUE index on `items(content_hash)` for instant deduplication checks.
+- `idx_items_embedding`: HNSW / IVFFlat Index on `items(embedding vector_cosine_ops)` for ultra-fast semantic similarity search via pgvector.

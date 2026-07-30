@@ -1,140 +1,69 @@
-# Documentation Index
+# 📚 Evolipia Radar - Documentation Hub & AI Agent Blueprint
 
-Welcome to Evolipia Radar documentation! This directory contains comprehensive guides for using, developing, and deploying the platform.
+> **Central Information & Master Documentation for Evolipia Radar AI Agents and Software Engineers.**
 
-## 📚 Documentation Structure
-
-### Getting Started
-
-- **[Main README](../README.md)** - Project overview, quick start, and features
-- **[Quick Start Guide](DEPLOYMENT.md#quick-deploy)** - Deploy in 5 minutes
-- **[Development Guide](DEVELOPMENT.md)** - Set up local development environment
-
-### Core Documentation
-
-- **[Architecture Guide](ARCHITECTURE.md)** - System design, components, and data flow
-- **[API Documentation](API.md)** - REST API endpoints, examples, and SDKs
-- **[Database Schema](DATABASE.md)** - PostgreSQL schema, queries, and optimization
-- **[Deployment Guide](DEPLOYMENT.md)** - Production deployment to Vercel
-- **[Development Guide](DEVELOPMENT.md)** - Local development workflow
-- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute to the project
-
-### Additional Resources
-
-- **[Archive](archive/)** - Historical documentation and implementation notes
-- **[OpenAPI Spec](openapi.yaml)** - API specification (if available)
-
-## 🚀 Quick Links
-
-### For Users
-
-- [Live Demo](https://evolipia-radar.vercel.app)
-- [API Endpoints](API.md#endpoints)
-- [Topic Filters](../README.md#topic-filters)
-
-### For Developers
-
-- [Local Setup](DEVELOPMENT.md#initial-setup)
-- [Project Structure](DEVELOPMENT.md#project-structure)
-- [Testing Guide](DEVELOPMENT.md#testing)
-- [Code Style](DEVELOPMENT.md#code-style)
-
-### For DevOps
-
-- [Deployment Steps](DEPLOYMENT.md#manual-deployment)
-- [Environment Variables](DEPLOYMENT.md#environment-variables-reference)
-- [Monitoring](DEPLOYMENT.md#monitoring)
-- [Troubleshooting](DEPLOYMENT.md#troubleshooting)
-
-## 📖 Documentation by Role
-
-### I'm a User
-
-1. Start with [Main README](../README.md) for overview
-2. Check [API Documentation](API.md) for integration
-3. See [Topic Filters](../README.md#topic-filters) for available categories
-
-### I'm a Developer
-
-1. Read [Development Guide](DEVELOPMENT.md) for setup
-2. Review [Architecture Guide](ARCHITECTURE.md) for system understanding
-3. Check [Database Schema](DATABASE.md) for data models
-4. Follow [Contributing Guide](CONTRIBUTING.md) for contribution workflow
-
-### I'm a DevOps Engineer
-
-1. Follow [Deployment Guide](DEPLOYMENT.md) for production setup
-2. Review [Architecture Guide](ARCHITECTURE.md) for infrastructure
-3. Check [Monitoring](DEPLOYMENT.md#monitoring) for observability
-4. See [Troubleshooting](DEPLOYMENT.md#troubleshooting) for common issues
-
-### I'm a System Analyst
-
-1. Read [Architecture Guide](ARCHITECTURE.md) for system design
-2. Review [Database Schema](DATABASE.md) for data models
-3. Check [API Documentation](API.md) for interfaces
-4. See [Scoring Algorithm](ARCHITECTURE.md#scoring-algorithm) for business logic
-
-## 🔍 Find What You Need
-
-### Common Questions
-
-**How do I deploy to production?**
-→ [Deployment Guide](DEPLOYMENT.md)
-
-**How do I set up local development?**
-→ [Development Guide](DEVELOPMENT.md#initial-setup)
-
-**What are the API endpoints?**
-→ [API Documentation](API.md#endpoints)
-
-**How does the scoring algorithm work?**
-→ [Architecture Guide](ARCHITECTURE.md#scoring-algorithm)
-
-**What's the database schema?**
-→ [Database Schema](DATABASE.md#tables)
-
-**How do I add a new topic tag?**
-→ [Development Guide](DEVELOPMENT.md#add-new-topic-tag)
-
-**How do I contribute?**
-→ [Contributing Guide](CONTRIBUTING.md)
-
-**How do I troubleshoot deployment issues?**
-→ [Deployment Troubleshooting](DEPLOYMENT.md#troubleshooting)
-
-## 📝 Documentation Standards
-
-All documentation follows these principles:
-
-- **Clear and Concise** - Get to the point quickly
-- **Example-Driven** - Show, don't just tell
-- **Up-to-Date** - Maintained with code changes
-- **Searchable** - Easy to find information
-- **Accessible** - Written for all skill levels
-
-## 🤝 Contributing to Documentation
-
-Found an error or want to improve documentation?
-
-1. Edit the relevant `.md` file
-2. Follow the existing format and style
-3. Test any code examples
-4. Submit a pull request
-
-See [Contributing Guide](CONTRIBUTING.md) for details.
-
-## 📧 Support
-
-- **Issues:** [GitHub Issues](https://github.com/hidatara-ds/evolipia-radar/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/hidatara-ds/evolipia-radar/discussions)
-- **Email:** Contact via GitHub profile
-
-## 📜 License
-
-This documentation is part of Evolipia Radar and is licensed under the MIT License.
+Welcome to the official documentation repository for **Evolipia Radar**. This documentation suite is specifically structured so that **AI Assistants (LLMs)** and **Developers** can rapidly understand the system architecture, data models, API endpoints, development workflows, and deployment procedures without scanning every line of source code.
 
 ---
 
-**Last Updated:** March 18, 2026  
-**Version:** 2.0.0
+## 🗺️ Documentation Navigation Map
+
+Each documentation file has a clear, dedicated purpose and scope:
+
+| Documentation File | Scope & Purpose |
+|---|---|
+| 📐 [**ARCHITECTURE.md**](file:///e:/evolipia-radar-1/docs/ARCHITECTURE.md) | **Complete System Architecture**: Comprehensive breakdown of Go backend (`cmd/`, `internal/`), Next.js frontend (`app/`, `src/`), crawler pipeline, background worker, SSE real-time stream, and scoring engine. |
+| 🔌 [**API_REFERENCE.md**](file:///e:/evolipia-radar-1/docs/API_REFERENCE.md) | **REST API & SSE Specification**: Detailed specifications for HTTP endpoints (`GET /api/items`, `POST /api/crawl`, `POST /v2/chat`, `POST /v2/summarize`), query parameters, SSE event payload formats (`/api/crawl/progress`), and Prometheus `/metrics`. |
+| 🗄️ [**DATABASE_SCHEMA.md**](file:///e:/evolipia-radar-1/docs/DATABASE_SCHEMA.md) | **Database Schema & ERD**: ERD diagram, Neon.tech PostgreSQL table structures (`sources`, `items`, `scores`, `summaries`, `signals`, `settings`), `pgvector` vector embedding support, and migration history `000001` - `000008`. |
+| 🛠️ [**DEVELOPMENT_GUIDE.md**](file:///e:/evolipia-radar-1/docs/DEVELOPMENT_GUIDE.md) | **Setup & Dev Workflow**: Prerequisites, step-by-step local setup (Windows/Linux/macOS), Environment Variables reference table, running backend/worker/frontend, and unit testing. |
+| 🚀 [**DEPLOYMENT_GUIDE.md**](file:///e:/evolipia-radar-1/docs/DEPLOYMENT_GUIDE.md) | **Production & Infrastructure**: Production deployment instructions for Go backend & worker on **Fly.io**, frontend on **Vercel**, Docker Compose, Kubernetes, and Terraform. |
+| 📋 [**openapi.yaml**](file:///e:/evolipia-radar-1/docs/openapi.yaml) | **OpenAPI 3.0 Specification**: Machine-readable REST API specification in OpenAPI YAML format for SDK generators and Swagger UI. |
+| 🤝 [**CONTRIBUTING.md**](file:///e:/evolipia-radar-1/docs/CONTRIBUTING.md) | **Contribution Guidelines**: Code style standards (Go & TypeScript), git flow, and pull request procedures. |
+
+---
+
+## ⚡ Quick System Overview
+
+**Evolipia Radar** is an automated AI/ML research intelligence platform built with **Go 1.24+** (Backend & Ingestion Worker), **Next.js 15+** (React Frontend UI), and **PostgreSQL (Neon.tech)** with vector search capabilities (`pgvector`).
+
+### Key Component Summary:
+1. **Go API Server (`cmd/server`)**: Provides REST API endpoints, handles database connections, broadcasts real-time crawling progress via Server-Sent Events (SSE), and triggers manual crawl executions.
+2. **Scheduled Worker (`cmd/worker`)**: Standalone background ingestion service running `robfig/cron/v3` on configurable schedules (default: every 6 hours) to harvest news from RSS & Trending agents.
+3. **Crawler & Scoring Engine (`internal/crawler`, `internal/scoring`)**: Fetches content, validates URLs & text length, prevents duplicate entries via SHA-256 content hashing, and computes multi-tier relevance scores (Relevance, Impact, Engineering Value, Novelty).
+4. **LLM Gateway Service (`internal/ai`, `internal/llm`)**: Provides a REST API proxy to OpenRouter / Gemini LLMs for interactive chat and auto-summarization (`tldr`, `why_it_matters`).
+5. **Next.js Frontend (`app/`, `src/`)**: Modern UI featuring a dynamic Filter Bar (search, date picker, relevance slider, saved presets), live SSE Crawl Progress stepper modal, and Data Freshness indicators.
+
+---
+
+## 📂 Repository Directory Structure
+
+```
+evolipia-radar/
+├── cmd/
+│   ├── server/          # Main HTTP API Server & SSE Broadcaster
+│   ├── worker/          # Background Scheduled Ingestion Worker
+│   └── api/             # Standalone API runner
+├── internal/
+│   ├── ai/              # AI Gateway service & HTTP handlers (v2)
+│   ├── crawler/         # Orchestrator, RSS agent, Trending agent, Validator, Retries
+│   ├── db/              # GORM / SQL Database connection & helpers
+│   ├── llm/             # OpenRouter & Gemini LLM HTTP Client
+│   ├── models/          # Data Models, GORM structs, & DTOs
+│   ├── scoring/         # Keyword & Multi-factor Relevance Scoring Engine
+│   └── services/        # Business logic services (Feed, Source, Worker)
+├── app/                 # Next.js App Router (pages, layout, globals.css, route proxies)
+├── src/
+│   └── components/      # React Components (FilterBar, CrawlProgress, DataFreshness)
+├── migrations/          # SQL Migration files (000001 - 000008)
+└── docs/                # Modular documentation suite (README, ARCHITECTURE, API, DB, DEV, DEPLOY)
+```
+
+---
+
+## 🤖 Guidance for Future AI Sessions
+
+If you are an AI assistant opening this repository:
+- **Do not** scan all codebase files line-by-line to understand functional behavior.
+- Read [ARCHITECTURE.md](file:///e:/evolipia-radar-1/docs/ARCHITECTURE.md) to understand end-to-end component interactions.
+- Read [API_REFERENCE.md](file:///e:/evolipia-radar-1/docs/API_REFERENCE.md) for REST API contracts and SSE event structures.
+- Read [DATABASE_SCHEMA.md](file:///e:/evolipia-radar-1/docs/DATABASE_SCHEMA.md) to understand PostgreSQL entity relationships.
