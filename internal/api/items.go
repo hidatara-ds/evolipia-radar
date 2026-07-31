@@ -382,7 +382,7 @@ func mockItems(sources []string, minRelevance int) []models.Item {
 		},
 	}
 
-	var result []models.Item
+	result := make([]models.Item, 0, len(allMocks))
 	for _, item := range allMocks {
 		if minRelevance > 0 && item.RelevanceScore < minRelevance {
 			continue
