@@ -76,7 +76,7 @@ func (a *SocialAgent) Crawl(ctx context.Context, maxItems int) ([]Article, error
 		client := &http.Client{Timeout: 10 * time.Second}
 		resp, err := client.Do(req)
 		if err != nil {
-			return nil, fmt.Errorf("X API request failed: %w", err)
+			return nil, fmt.Errorf("x API request failed: %w", err)
 		}
 		defer resp.Body.Close()
 

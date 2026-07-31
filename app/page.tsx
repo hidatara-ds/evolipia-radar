@@ -4,6 +4,7 @@ import { useEffect, useState, useCallback } from "react";
 import {
   AlertCircle,
   ArrowRight,
+  Bookmark,
   BrainCircuit,
   CheckCircle,
   ChevronLeft,
@@ -13,13 +14,13 @@ import {
   Eye,
   FileText,
   Flame,
-  Gauge,
   Globe,
   Layers3,
   Mail,
   Moon,
   RefreshCw,
   Search,
+  Share2,
   Shield,
   Sparkles,
   Sun,
@@ -29,6 +30,13 @@ import {
 
 import { CrawlProgress } from "@/src/components/CrawlProgress";
 import { FilterBar } from "@/src/components/FilterBar";
+import { CommandPalette } from "@/src/components/CommandPalette";
+import { AIDailyBriefing } from "@/src/components/AIDailyBriefing";
+import { AIPulseKeywords } from "@/src/components/AIPulseKeywords";
+import { BreakingSignals } from "@/src/components/BreakingSignals";
+import { TrendingClusters } from "@/src/components/TrendingClusters";
+import { IntelligenceSidebar } from "@/src/components/IntelligenceSidebar";
+
 import { useCrawlProgress } from "@/src/hooks/useCrawlProgress";
 import { useFilters } from "@/src/hooks/useFilters";
 import { fetchItems, NewsItem, PaginatedItemsResponse } from "@/src/api/client";
@@ -58,7 +66,6 @@ function AnimatedCount({ value, duration = 1400 }: { value: number | string; dur
     const step = (timestamp: number) => {
       if (!startTimestamp) startTimestamp = timestamp;
       const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-      // Smooth cubic ease-out
       const easeOut = 1 - Math.pow(1 - progress, 3);
       setCurrent(targetNumber * easeOut);
 
@@ -71,10 +78,7 @@ function AnimatedCount({ value, duration = 1400 }: { value: number | string; dur
   }, [targetNumber, duration]);
 
   if (isNaN(targetNumber)) return <span>{value}</span>;
-
-  if (isFloat) {
-    return <span>{current.toFixed(1)}</span>;
-  }
+  if (isFloat) return <span>{current.toFixed(1)}</span>;
   return <span>{Math.round(current).toLocaleString()}</span>;
 }
 
@@ -82,6 +86,11 @@ export default function Dashboard() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [emailInput, setEmailInput] = useState("");
   const [subscribed, setSubscribed] = useState(false);
+  const [isCmdPaletteOpen, setIsCmdPaletteOpen] = useState(false);
+
+  // Bookmarking System
+  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string | number>>(new Set());
+  const [showOnlyBookmarked, setShowOnlyBookmarked] = useState(false);
 
   const [items, setItems] = useState<NewsItem[]>([]);
   const [paginationInfo, setPaginationInfo] = useState<{ totalCount: number; filteredCount: number; totalPages: number }>({
@@ -95,13 +104,31 @@ export default function Dashboard() {
   const [error, setError] = useState<string | null>(null);
 
   const filterHook = useFilters();
-  const {
-    progressState,
-    isCrawling,
-    toastMessage,
-    startManualCrawl,
-    clearToast,
-  } = useCrawlProgress();
+  const { progressState, isCrawling, toastMessage, startManualCrawl, clearToast } = useCrawlProgress();
+
+  // Load bookmarks from local storage
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("evolipia_bookmarks");
+      if (saved) {
+        setBookmarkedIds(new Set(JSON.parse(saved)));
+      }
+    } catch (e) {
+      // Ignore fallback
+    }
+  }, []);
+
+  const toggleBookmark = (id: string | number) => {
+    setBookmarkedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      try {
+        localStorage.setItem("evolipia_bookmarks", JSON.stringify(Array.from(next)));
+      } catch (e) {}
+      return next;
+    });
+  };
 
   const queryParamsKey = JSON.stringify(filterHook.queryParams);
 
@@ -124,8 +151,7 @@ export default function Dashboard() {
       setNewsLoading(false);
       setLoading(false);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [queryParamsKey]);
+  }, [queryParamsKey, filterHook.queryParams]);
 
   useEffect(() => {
     loadData();
@@ -140,7 +166,7 @@ export default function Dashboard() {
           setMetrics(data);
         }
       } catch (e) {
-        // Ignore background metrics errors so the dashboard can still render.
+        // Ignore background metrics errors
       }
     };
     fetchMetrics();
@@ -148,65 +174,15 @@ export default function Dashboard() {
     return () => clearInterval(interval);
   }, []);
 
+  const displayedItems = showOnlyBookmarked
+    ? items.filter((item) => bookmarkedIds.has(item.id))
+    : items;
+
   const topSignals = items.slice(0, 3);
-  const highConfidenceCount = items.filter((item) => (item.relevance_score ?? 0) >= 75).length;
-  const sourceDiversity = new Set(items.map((item) => item.source_name || item.domain).filter(Boolean)).size;
 
-  const applyQuickPreset = (preset: "today" | "high" | "research" | "developer" | "agents") => {
-    const today = new Date().toISOString().split("T")[0];
+  const handleTopicSelect = (keyword: string) => {
+    filterHook.setSearch(keyword);
     filterHook.setPage(1);
-
-    if (preset === "today") {
-      filterHook.setDateRange("today");
-      filterHook.setDateFrom(today);
-      filterHook.setDateTo(today);
-      filterHook.setMinRelevance(30);
-      filterHook.setSelectedCategories([]);
-      filterHook.setSortBy("date");
-      filterHook.setSortOrder("desc");
-      return;
-    }
-
-    if (preset === "high") {
-      filterHook.setDateRange("7d");
-      filterHook.setDateFrom("");
-      filterHook.setDateTo("");
-      filterHook.setMinRelevance(75);
-      filterHook.setSelectedCategories([]);
-      filterHook.setSortBy("relevance");
-      filterHook.setSortOrder("desc");
-      return;
-    }
-
-    if (preset === "research") {
-      filterHook.setDateRange("30d");
-      filterHook.setDateFrom("");
-      filterHook.setDateTo("");
-      filterHook.setMinRelevance(45);
-      filterHook.setSelectedCategories(["research", "llm"]);
-      filterHook.setSortBy("impact");
-      filterHook.setSortOrder("desc");
-      return;
-    }
-
-    if (preset === "developer") {
-      filterHook.setDateRange("7d");
-      filterHook.setDateFrom("");
-      filterHook.setDateTo("");
-      filterHook.setMinRelevance(40);
-      filterHook.setSelectedCategories(["open-source", "infra"]);
-      filterHook.setSortBy("impact");
-      filterHook.setSortOrder("desc");
-      return;
-    }
-
-    filterHook.setDateRange("7d");
-    filterHook.setDateFrom("");
-    filterHook.setDateTo("");
-    filterHook.setMinRelevance(40);
-    filterHook.setSelectedCategories(["agents"]);
-    filterHook.setSortBy("relevance");
-    filterHook.setSortOrder("desc");
   };
 
   const handleSubscribe = (e: React.FormEvent) => {
@@ -222,18 +198,28 @@ export default function Dashboard() {
   };
 
   return (
-    <main className={`min-h-screen font-sans transition-colors duration-300 relative ${
-      isDarkMode
-        ? "bg-[#050A0F] text-[#F8FAFC] selection:bg-emerald-500/30"
-        : "bg-slate-50 text-slate-900 selection:bg-emerald-500/20"
-    }`}>
+    <main
+      className={`min-h-screen font-sans transition-colors duration-300 relative ${
+        isDarkMode
+          ? "bg-[#050A0F] text-[#F8FAFC] selection:bg-emerald-500/30"
+          : "bg-slate-50 text-slate-900 selection:bg-emerald-500/20"
+      }`}
+    >
+      {/* Command Palette Modal */}
+      <CommandPalette
+        isOpen={isCmdPaletteOpen}
+        onClose={() => setIsCmdPaletteOpen(false)}
+        items={items}
+        onSelectTopic={handleTopicSelect}
+        isDarkMode={isDarkMode}
+      />
+
       {/* Background Ambient Glows */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
         {isDarkMode ? (
           <>
-            <div className="absolute left-[-14rem] top-[-12rem] h-[34rem] w-[34rem] rounded-full bg-emerald-500/10 blur-[130px]" />
-            <div className="absolute right-[-12rem] top-[18rem] h-[30rem] w-[30rem] rounded-full bg-cyan-500/10 blur-[130px]" />
-            <div className="absolute bottom-[-16rem] left-1/3 h-[28rem] w-[28rem] rounded-full bg-indigo-500/10 blur-[140px]" />
+            <div className="absolute left-[-14rem] top-[-12rem] h-[34rem] w-[34rem] rounded-full bg-emerald-500/10 blur-[140px]" />
+            <div className="absolute right-[-12rem] top-[18rem] h-[30rem] w-[30rem] rounded-full bg-cyan-500/10 blur-[140px]" />
           </>
         ) : (
           <>
@@ -243,468 +229,337 @@ export default function Dashboard() {
         )}
       </div>
 
-      {/* FLOATING LOGO (Top-Left) */}
-      <div className="fixed top-5 left-5 sm:left-8 z-50 flex items-center gap-3">
-        <div className={`flex items-center gap-3 p-2 pr-4 rounded-2xl border backdrop-blur-2xl shadow-xl transition-all ${
-          isDarkMode
-            ? "bg-slate-950/80 border-white/10 text-white"
-            : "bg-white/90 border-slate-200 text-slate-900 shadow-md"
-        }`}>
-          <div className="relative shrink-0">
-            <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-xl blur opacity-30" />
-            <img
-              src="/assets/icon.webp"
-              alt="Evolipia logo"
-              loading="lazy"
-              className="relative w-8 h-8 rounded-xl border border-white/10 shadow-sm object-cover"
-            />
+      {/* STICKY EDITORIAL TOP NAVIGATION BAR */}
+      <header className={`sticky top-0 z-50 border-b backdrop-blur-xl transition-all ${
+        isDarkMode ? "border-white/10 bg-[#050A0F]/85" : "border-slate-200 bg-white/85 shadow-sm"
+      }`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+          {/* Logo & Brand */}
+          <div className="flex items-center gap-3">
+            <div className="relative shrink-0">
+              <img
+                src="/assets/icon.webp"
+                alt="Evolipia logo"
+                className="w-8 h-8 rounded-xl border border-white/10 object-cover shadow-sm"
+              />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <h1 className="text-base font-black tracking-tight leading-none">Evolipia</h1>
+                <span className="px-2 py-0.5 rounded-md bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-mono text-[9px] font-black uppercase tracking-widest">
+                  Intelligence
+                </span>
+              </div>
+              <span className="text-[10px] text-slate-400 font-medium hidden sm:block">
+                Bloomberg Terminal for AI
+              </span>
+            </div>
           </div>
-          <div>
-            <h1 className="text-base font-black tracking-tight leading-none">Evolipia</h1>
-            <span className={`text-[10px] font-bold block mt-0.5 ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
-              AI Radar
-            </span>
+
+          {/* Center Search Bar Trigger (Cmd+K) */}
+          <button
+            onClick={() => setIsCmdPaletteOpen(true)}
+            className={`flex-1 max-w-md hidden md:flex items-center justify-between px-3.5 py-2 rounded-xl border transition-all text-xs cursor-pointer ${
+              isDarkMode
+                ? "bg-slate-900/60 border-white/10 text-slate-400 hover:border-emerald-500/40 hover:bg-slate-900"
+                : "bg-slate-100 border-slate-200 text-slate-500 hover:bg-slate-200"
+            }`}
+          >
+            <div className="flex items-center gap-2">
+              <Search className="w-4 h-4 text-emerald-400" />
+              <span>Search topics, models, papers...</span>
+            </div>
+            <kbd className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px] font-mono border border-slate-700">
+              ⌘K
+            </kbd>
+          </button>
+
+          {/* Right Header Actions */}
+          <div className="flex items-center gap-2 sm:gap-3">
+            <button
+              onClick={() => setShowOnlyBookmarked(!showOnlyBookmarked)}
+              className={`px-3 py-2 rounded-xl border text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
+                showOnlyBookmarked
+                  ? "bg-emerald-500 border-emerald-400 text-slate-950 shadow-md shadow-emerald-500/20"
+                  : isDarkMode
+                  ? "bg-slate-900/80 border-white/10 text-slate-300 hover:border-emerald-500/40"
+                  : "bg-slate-100 border-slate-200 text-slate-700 hover:bg-slate-200"
+              }`}
+            >
+              <Bookmark className="w-4 h-4" />
+              <span className="hidden sm:inline">Bookmarks</span>
+              {bookmarkedIds.size > 0 && (
+                <span className="px-1.5 py-0.2 rounded-full bg-slate-950/30 text-[10px] font-mono font-black">
+                  {bookmarkedIds.size}
+                </span>
+              )}
+            </button>
+
+            <button
+              onClick={() => setIsDarkMode(!isDarkMode)}
+              className={`p-2.5 rounded-xl border transition-all cursor-pointer ${
+                isDarkMode
+                  ? "bg-slate-900/80 border-white/10 text-amber-400 hover:bg-slate-900"
+                  : "bg-white border-slate-200 text-slate-700 hover:bg-slate-100"
+              }`}
+              title={isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
+            >
+              {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+            </button>
           </div>
         </div>
-      </div>
+      </header>
 
-      {/* FLOATING THEME TOGGLE (Top-Right) */}
-      <div className="fixed top-5 right-5 sm:right-8 z-50">
-        <button
-          onClick={() => setIsDarkMode(!isDarkMode)}
-          className={`p-3 rounded-2xl border backdrop-blur-2xl shadow-xl transition-all hover:scale-105 active:scale-95 cursor-pointer ${
-            isDarkMode
-              ? "bg-slate-950/80 border-white/10 text-amber-400 hover:bg-slate-900"
-              : "bg-white/90 border-slate-200 text-slate-700 hover:bg-slate-100 shadow-md"
-          }`}
-          title={isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
-        >
-          {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5 text-slate-700" />}
-        </button>
-      </div>
-
-      {/* VIBRANT GREEN PILL-SHAPED FLOATING ACTION BUTTON (FAB) (Bottom-Right) */}
-      <div className="fixed bottom-6 right-6 sm:right-8 z-50">
+      {/* Floating Subscribe FAB */}
+      <div className="fixed bottom-6 right-6 z-50">
         <button
           onClick={scrollToSubscribe}
-          className="px-5 py-3.5 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm shadow-2xl shadow-emerald-500/40 transition-all flex items-center gap-2.5 hover:scale-105 active:scale-95 cursor-pointer border border-emerald-300/40"
+          className="px-5 py-3 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm shadow-2xl shadow-emerald-500/40 transition-all flex items-center gap-2 hover:scale-105 active:scale-95 cursor-pointer border border-emerald-300/40"
         >
           <Mail className="w-4 h-4" />
           <span>Subscribe</span>
         </button>
       </div>
 
-      {/* Main Dashboard Container */}
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 pb-20 space-y-6">
-        
-        {/* Research Modes Toolbar & Main Hero Banner */}
-        <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1.5fr)_minmax(20rem,0.8fr)] gap-5">
-          
-          {/* Hero Banner: Live AI Signal Briefing + Agent Evoli Mascot */}
-          <div className={`relative overflow-hidden rounded-[2rem] border p-5 sm:p-7 shadow-2xl flex flex-col justify-between space-y-6 ${
-            isDarkMode
-              ? "border-white/10 bg-slate-950/70"
-              : "border-slate-200 bg-white"
-          }`}>
-            <div className={`absolute inset-0 pointer-events-none ${
-              isDarkMode
-                ? "bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.16),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.16),transparent_35%)]"
-                : "bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.08),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.08),transparent_35%)]"
-            }`} />
-            
-            {/* Top Row: Heading & Agent Evoli Mascot */}
-            <div className="relative flex flex-col md:flex-row items-center justify-between gap-6">
-              {/* Left Column: Heading & Description */}
-              <div className="space-y-4 flex-1 min-w-0">
-                <div className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-bold ${
-                  isDarkMode
-                    ? "border-emerald-400/25 bg-emerald-400/10 text-emerald-300"
-                    : "border-emerald-500/30 bg-emerald-50 text-emerald-800"
-                }`}>
-                  <Sparkles className="w-3.5 h-3.5" />
-                  Live AI Signal Briefing
-                </div>
-
-                <div className="space-y-2">
-                  <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-black leading-tight tracking-tight ${
-                    isDarkMode ? "text-white" : "text-slate-900"
-                  }`}>
-                    What is moving in the AI ecosystem?
-                  </h2>
-                  <p className={`max-w-2xl text-xs sm:text-sm leading-relaxed ${
-                    isDarkMode ? "text-slate-400" : "text-slate-600"
-                  }`}>
-                    Evolipia Radar frames incoming articles into early intelligence signals, combining crawl freshness,
-                    relevance, source diversity, and emerging themes into a daily research command center.
-                  </p>
-                </div>
-              </div>
-
-              {/* Right Column: Agent Evoli Mascot */}
-              <div className="relative shrink-0 flex flex-col items-center md:items-end w-full md:w-auto max-w-[240px]">
-                <div className="absolute inset-x-4 bottom-4 h-16 rounded-full bg-emerald-400/20 blur-2xl pointer-events-none" />
-                <img
-                  src="/assets/maskot1.webp"
-                  alt="Agent Evoli research assistant"
-                  fetchPriority="high"
-                  loading="eager"
-                  className="relative w-40 sm:w-48 lg:w-56 h-auto object-contain drop-shadow-[0_10px_20px_rgba(16,185,129,0.25)]"
-                  style={{
-                    maskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
-                    WebkitMaskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
-                  }}
-                />
-                <div className={`relative -mt-4 w-full rounded-2xl border p-3 backdrop-blur-md shadow-xl ${
-                  isDarkMode ? "border-emerald-400/25 bg-black/80" : "border-emerald-500/30 bg-white/90"
-                }`}>
-                  <div className="flex items-center justify-between gap-2">
-                    <div>
-                      <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-emerald-500">Agent Evoli</p>
-                      <p className={`mt-0.5 text-xs line-clamp-1 font-medium ${isDarkMode ? "text-slate-300" : "text-slate-700"}`}>
-                        {isCrawling ? progressState?.message || "Collecting signals..." : "Standing by for next crawl"}
-                      </p>
-                    </div>
-                    <div className={`h-2.5 w-2.5 rounded-full shrink-0 ${isCrawling ? "bg-amber-400 animate-pulse" : "bg-emerald-400"}`} />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Running Text Ticker Banner */}
-            <div className={`relative w-full rounded-2xl border backdrop-blur-md overflow-hidden p-1.5 flex items-center shadow-xl ${
-              isDarkMode ? "border-emerald-500/30 bg-black/60" : "border-emerald-500/30 bg-slate-100"
-            }`}>
-              <div className="shrink-0 flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-cyan-600 px-3 py-1.5 rounded-xl text-white text-[11px] font-black tracking-wider uppercase shadow-md mr-3 z-10">
-                <span className="w-2 h-2 rounded-full bg-white animate-ping" />
-                TRENDING SIGNALS
-              </div>
-
-              <div className="relative overflow-hidden w-full flex items-center py-1">
-                <div className={`animate-marquee whitespace-nowrap flex items-center gap-8 text-xs font-semibold ${
-                  isDarkMode ? "text-slate-200" : "text-slate-800"
-                }`}>
-                  {items.map((item, idx) => (
-                    <a
-                      key={`ticker-1-${item.id || idx}`}
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 hover:text-emerald-500 transition-colors group cursor-pointer"
-                    >
-                      <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-600 font-mono text-[10px] font-bold">
-                        {item.source_name || item.domain || "GLOBAL"}
-                      </span>
-                      <span className="font-bold group-hover:underline">{item.title}</span>
-                      {item.relevance_score ? (
-                        <span className="text-emerald-500 font-mono text-[11px]">
-                          [{item.relevance_score}%]
-                        </span>
-                      ) : null}
-                      <span className="text-slate-400 mx-2">•</span>
-                    </a>
-                  ))}
-
-                  {/* Duplicate list for seamless infinite loop */}
-                  {items.map((item, idx) => (
-                    <a
-                      key={`ticker-2-${item.id || idx}`}
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 hover:text-emerald-500 transition-colors group cursor-pointer"
-                    >
-                      <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-600 font-mono text-[10px] font-bold">
-                        {item.source_name || item.domain || "GLOBAL"}
-                      </span>
-                      <span className="font-bold group-hover:underline">{item.title}</span>
-                      {item.relevance_score ? (
-                        <span className="text-emerald-500 font-mono text-[11px]">
-                          [{item.relevance_score}%]
-                        </span>
-                      ) : null}
-                      <span className="text-slate-400 mx-2">•</span>
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </div>
+      {/* Main Container */}
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-20 space-y-8">
+        {/* Ticker Marquee */}
+        <div className={`relative w-full rounded-2xl border backdrop-blur-md overflow-hidden p-2 flex items-center shadow-lg ${
+          isDarkMode ? "border-emerald-500/25 bg-[#09131D]/80" : "border-emerald-500/30 bg-slate-100"
+        }`}>
+          <div className="shrink-0 flex items-center gap-2 bg-emerald-500 px-3 py-1 rounded-xl text-slate-950 text-[10px] font-black tracking-wider uppercase shadow-md mr-3 z-10 font-mono">
+            <span className="w-2 h-2 rounded-full bg-slate-950 animate-ping" />
+            LIVE BREAKING
           </div>
 
-          {/* Consolidated Operations & Signal Health Sidebar */}
-          <aside className={`rounded-[2rem] border p-5 shadow-2xl flex flex-col justify-between ${
-            isDarkMode ? "border-white/10 bg-slate-950/70 text-white" : "border-slate-200 bg-white text-slate-900"
-          }`}>
-            <div>
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-xs font-bold uppercase tracking-[0.24em] text-slate-500">Operations</p>
-                  <h3 className="mt-1 text-xl font-black">Signal Health</h3>
-                </div>
-                <Gauge className="h-6 w-6 text-emerald-500" />
-              </div>
-
-              {/* Progress Indicators Flow */}
-              <div className="mt-5 space-y-3">
-                <BriefingStat isDarkMode={isDarkMode} label="Fresh signals" value={paginationInfo.filteredCount} detail="matching current filters" icon={<Zap className="h-4 w-4" />} />
-                <BriefingStat isDarkMode={isDarkMode} label="High confidence" value={highConfidenceCount} detail="relevance ≥ 75%" icon={<Shield className="h-4 w-4" />} />
-                <BriefingStat isDarkMode={isDarkMode} label="Source diversity" value={sourceDiversity || "—"} detail="unique sources in view" icon={<Globe className="h-4 w-4" />} />
-              </div>
+          <div className="relative overflow-hidden w-full flex items-center py-0.5">
+            <div className={`animate-marquee whitespace-nowrap flex items-center gap-8 text-xs font-semibold ${
+              isDarkMode ? "text-slate-200" : "text-slate-800"
+            }`}>
+              {items.map((item, idx) => (
+                <a
+                  key={`ticker-1-${item.id || idx}`}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 hover:text-emerald-400 transition-colors group cursor-pointer"
+                >
+                  <span className="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-mono text-[10px] font-bold">
+                    {item.source_name || item.domain || "GLOBAL"}
+                  </span>
+                  <span className="font-bold group-hover:underline">{item.title}</span>
+                  <span className="text-slate-500 mx-2">•</span>
+                </a>
+              ))}
             </div>
+          </div>
+        </div>
 
-            <button
-              onClick={startManualCrawl}
-              disabled={isCrawling}
-              className="mt-5 w-full rounded-2xl bg-emerald-500 px-4 py-3.5 text-sm font-black text-slate-950 shadow-lg shadow-emerald-500/20 transition-all hover:bg-emerald-400 disabled:cursor-not-allowed disabled:bg-slate-400 disabled:text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 cursor-pointer"
-            >
-              {isCrawling ? "Crawl running..." : "Trigger Signal Crawl"}
-            </button>
-          </aside>
-        </section>
+        {/* 1. AI Daily Briefing */}
+        <AIDailyBriefing isDarkMode={isDarkMode} />
 
-        {/* Crawl Progress Component with Strict Theme Sync */}
-        <CrawlProgress
-          progressState={progressState}
-          isCrawling={isCrawling}
-          onStartManualCrawl={startManualCrawl}
-          toastMessage={toastMessage}
-          onClearToast={clearToast}
+        {/* 2. Breaking Signals */}
+        <BreakingSignals
+          items={items}
+          bookmarkedIds={bookmarkedIds}
+          onToggleBookmark={toggleBookmark}
           isDarkMode={isDarkMode}
         />
 
-        {/* Consolidated Key Stats & Line Graph Cards */}
-        <section className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
-          <MetricCard
-            isDarkMode={isDarkMode}
-            label="Signals Processed"
-            value={metrics?.articles_processed ?? 1125}
-            detail="crawler throughput"
-            icon={<FileText className="w-5 h-5" />}
-            loading={loading}
-          />
-          <MetricCard
-            isDarkMode={isDarkMode}
-            label="Active Signal View"
-            value={paginationInfo.filteredCount}
-            detail="after filters"
-            icon={<Eye className="w-5 h-5" />}
-            loading={loading}
-          />
-          <MetricCard
-            isDarkMode={isDarkMode}
-            label="Total Knowledge Items"
-            value={paginationInfo.totalCount}
-            detail="current compatibility dataset"
-            icon={<BrainCircuit className="w-5 h-5" />}
-            highlight
-            loading={loading}
-          />
-          <MetricCard
-            isDarkMode={isDarkMode}
-            label="Cluster Momentum"
-            value={metrics?.avg_cluster_score?.toFixed(1) ?? "8.4"}
-            detail="average cluster score"
-            icon={<TrendingUp className="w-5 h-5" />}
-            suffix="/10"
-            showGraph
-            loading={loading}
-          />
-        </section>
+        {/* 3. AI Pulse (Exploding Keywords Counter) */}
+        <AIPulseKeywords
+          activeKeyword={filterHook.search}
+          onSelectKeyword={handleTopicSelect}
+          isDarkMode={isDarkMode}
+        />
 
-        {/* Research Modes Toolbar Section */}
-        <section className={`rounded-[1.75rem] border p-4 sm:p-5 ${
-          isDarkMode ? "border-white/10 bg-slate-950/70" : "border-slate-200 bg-white shadow-sm"
-        }`}>
-          <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.24em] text-slate-500">Research modes</p>
-              <h3 className={`mt-1 text-lg font-black ${isDarkMode ? "text-white" : "text-slate-900"}`}>
-                Start with a signal preset
-              </h3>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <QuickPreset isDarkMode={isDarkMode} label="Today" onClick={() => applyQuickPreset("today")} icon={<Clock className="h-4 w-4" />} />
-              <QuickPreset isDarkMode={isDarkMode} label="High Relevance" onClick={() => applyQuickPreset("high")} icon={<Flame className="h-4 w-4" />} />
-              <QuickPreset isDarkMode={isDarkMode} label="Research" onClick={() => applyQuickPreset("research")} icon={<Layers3 className="h-4 w-4" />} />
-              <QuickPreset isDarkMode={isDarkMode} label="Developer" onClick={() => applyQuickPreset("developer")} icon={<Search className="h-4 w-4" />} />
-              <QuickPreset isDarkMode={isDarkMode} label="Agents" onClick={() => applyQuickPreset("agents")} icon={<Sparkles className="h-4 w-4" />} />
-            </div>
-          </div>
-        </section>
+        {/* 4. NLP Keyword Clusters & Heatmap */}
+        <TrendingClusters
+          onSelectCluster={handleTopicSelect}
+          isDarkMode={isDarkMode}
+        />
 
-        {/* Central Filter Panel */}
+        {/* 5. Central Filter Bar */}
         <FilterBar filterHook={filterHook} isDarkMode={isDarkMode} />
 
-        {/* Signal Stream / Article List */}
+        {/* 6. Main Editorial Intelligence Stream + Sidebar */}
         <section className="space-y-4">
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+          <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.24em] text-slate-500">Signal stream</p>
+              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-400 font-mono">
+                Signal Feed
+              </p>
               <h3 className={`text-2xl font-black ${isDarkMode ? "text-white" : "text-slate-900"}`}>
-                Latest intelligence signals
+                {showOnlyBookmarked ? "Bookmarked Intelligence Signals" : "Latest Intelligence Signals"}
               </h3>
             </div>
-            <p className="text-xs text-slate-500">
-              Showing {items.length} of {paginationInfo.filteredCount} matching signals
+            <p className="text-xs text-slate-400 font-mono">
+              Showing {displayedItems.length} of {paginationInfo.filteredCount} signals
             </p>
           </div>
 
           {newsLoading ? (
-            <div className={`py-20 text-center flex flex-col items-center gap-3 rounded-[1.75rem] border ${
-              isDarkMode ? "border-white/10 bg-slate-950/70 text-slate-400" : "border-slate-200 bg-white text-slate-500"
+            <div className={`py-20 text-center flex flex-col items-center gap-3 rounded-[2rem] border ${
+              isDarkMode ? "border-white/10 bg-[#09131D] text-slate-400" : "border-slate-200 bg-white text-slate-500"
             }`}>
-              <RefreshCw className="w-8 h-8 animate-spin text-emerald-500" />
-              <span>Loading filtered signals...</span>
+              <RefreshCw className="w-8 h-8 animate-spin text-emerald-400" />
+              <span className="font-semibold text-sm">Loading intelligence stream...</span>
             </div>
           ) : error ? (
-            <div className="py-12 bg-rose-950/30 border border-rose-800/40 rounded-[1.75rem] text-center text-rose-300 p-6">
+            <div className="py-12 bg-rose-950/30 border border-rose-800/40 rounded-[2rem] text-center text-rose-300 p-6">
               <AlertCircle className="w-8 h-8 mx-auto mb-2 text-rose-400" />
               <p className="font-semibold">{error}</p>
             </div>
-          ) : items.length === 0 ? (
-            <div className={`py-16 text-center rounded-[1.75rem] border ${
+          ) : displayedItems.length === 0 ? (
+            <div className={`py-16 text-center rounded-[2rem] border ${
               isDarkMode ? "bg-slate-900/40 border-slate-800 text-slate-400" : "bg-slate-100 border-slate-200 text-slate-600"
             }`}>
               <Sparkles className="w-8 h-8 mx-auto mb-2 text-slate-400" />
-              <p className="font-medium">No signals match your active filters.</p>
+              <p className="font-medium">No intelligence signals match your active filter.</p>
               <button
-                onClick={filterHook.resetFilters}
-                className="mt-3 text-xs font-bold text-emerald-500 hover:underline focus:outline-none focus:ring-2 focus:ring-emerald-400/60 rounded"
+                onClick={() => {
+                  filterHook.resetFilters();
+                  setShowOnlyBookmarked(false);
+                }}
+                className="mt-3 text-xs font-bold text-emerald-400 hover:underline cursor-pointer"
               >
                 Reset Filters
               </button>
             </div>
           ) : (
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-              {/* Article Cards Grid */}
-              <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
-                {items.map((item) => (
-                  <SignalCard key={item.id} item={item} isDarkMode={isDarkMode} />
-                ))}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              {/* Editorial Feed Grid */}
+              <div className="lg:col-span-2 space-y-4">
+                {displayedItems.map((item) => {
+                  const isBookmarked = bookmarkedIds.has(item.id);
+                  return (
+                    <article
+                      key={item.id}
+                      className={`group rounded-[1.75rem] border p-6 shadow-xl transition-all hover:border-emerald-500/40 ${
+                        isDarkMode
+                          ? "border-white/10 bg-[#09131D]/90 text-slate-100 hover:bg-[#0B1824]"
+                          : "border-slate-200 bg-white text-slate-900 hover:shadow-2xl"
+                      }`}
+                    >
+                      <div className="flex items-center justify-between gap-2 mb-3">
+                        <div className="flex items-center gap-2">
+                          <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-mono text-[10px] font-bold">
+                            {item.source_name || item.domain || "GLOBAL"}
+                          </span>
+                          <span className="text-[11px] text-slate-400 font-mono">
+                            {new Date(item.published_at).toLocaleDateString()}
+                          </span>
+                        </div>
+
+                        {item.relevance_score ? (
+                          <span className="px-2 py-0.5 rounded bg-emerald-500 text-slate-950 font-mono text-[10px] font-black">
+                            {item.relevance_score}% Impact
+                          </span>
+                        ) : null}
+                      </div>
+
+                      <h4 className={`text-lg sm:text-xl font-black leading-snug tracking-tight mb-2 group-hover:text-emerald-400 transition-colors ${
+                        isDarkMode ? "text-white" : "text-slate-900"
+                      }`}>
+                        <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                          {item.title}
+                        </a>
+                      </h4>
+
+                      {(item.raw_excerpt || item.summary || item.tldr) && (
+                        <p className={`text-xs sm:text-sm leading-relaxed line-clamp-3 mb-4 ${
+                          isDarkMode ? "text-slate-300" : "text-slate-600"
+                        }`}>
+                          {item.raw_excerpt || item.summary || item.tldr}
+                        </p>
+                      )}
+
+                      {item.why_it_matters && (
+                        <div className={`p-3 rounded-xl border text-xs leading-relaxed mb-4 ${
+                          isDarkMode ? "bg-emerald-950/20 border-emerald-500/20 text-emerald-200" : "bg-emerald-50 border-emerald-200 text-emerald-900"
+                        }`}>
+                          <span className="font-bold text-emerald-400 block mb-0.5">Why it matters:</span>
+                          {item.why_it_matters}
+                        </div>
+                      )}
+
+                      {/* Card Footer Quick Actions */}
+                      <div className="pt-3 border-t border-white/10 flex items-center justify-between gap-4 text-xs">
+                        <div className="flex items-center gap-2">
+                          <button
+                            onClick={() => toggleBookmark(item.id)}
+                            className={`p-1.5 rounded-lg border transition-all cursor-pointer ${
+                              isBookmarked
+                                ? "bg-emerald-500 border-emerald-400 text-slate-950"
+                                : isDarkMode
+                                ? "bg-slate-900 border-slate-700 text-slate-400 hover:text-white"
+                                : "bg-slate-100 border-slate-200 text-slate-600 hover:bg-slate-200"
+                            }`}
+                            title={isBookmarked ? "Bookmarked" : "Bookmark"}
+                          >
+                            <Bookmark className="w-3.5 h-3.5" />
+                          </button>
+
+                          <a
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs font-bold text-emerald-400 hover:underline inline-flex items-center gap-1"
+                          >
+                            Read Full <ArrowRight className="w-3.5 h-3.5" />
+                          </a>
+                        </div>
+                      </div>
+                    </article>
+                  );
+                })}
               </div>
 
-              {/* Briefing Queue Sidebar */}
-              <aside className="hidden lg:block space-y-4">
-                <div className={`sticky top-24 rounded-[1.75rem] border p-5 ${
-                  isDarkMode ? "border-white/10 bg-slate-950/75" : "border-slate-200 bg-white shadow-md"
-                }`}>
-                  <p className="text-xs font-bold uppercase tracking-[0.24em] text-slate-500">Briefing queue</p>
-                  <h4 className={`mt-1 text-lg font-black ${isDarkMode ? "text-white" : "text-slate-900"}`}>
-                    Top signals to inspect
-                  </h4>
-                  <div className="mt-4 space-y-3">
-                    {topSignals.map((item, index) => (
-                      <a
-                        key={item.id}
-                        href={item.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`block rounded-2xl border p-3 transition-all hover:border-emerald-500/40 hover:bg-emerald-500/5 ${
-                          isDarkMode ? "border-white/10 bg-white/[0.03]" : "border-slate-200 bg-slate-50"
-                        }`}
-                      >
-                        <p className="text-[10px] font-black uppercase tracking-[0.22em] text-emerald-500">
-                          Priority 0{index + 1}
-                        </p>
-                        <p className={`mt-1 line-clamp-2 text-sm font-bold ${isDarkMode ? "text-slate-100" : "text-slate-900"}`}>
-                          {item.title}
-                        </p>
-                        <p className="mt-2 text-xs text-slate-500">{item.source_name || item.domain}</p>
-                      </a>
-                    ))}
-                  </div>
-                </div>
+              {/* Intelligence Sidebar */}
+              <aside className="space-y-4">
+                <IntelligenceSidebar
+                  topSignals={topSignals}
+                  onSelectTopic={handleTopicSelect}
+                  isDarkMode={isDarkMode}
+                />
               </aside>
             </div>
           )}
         </section>
 
-        {/* Pagination Section */}
-        {paginationInfo.totalPages > 1 && (
-          <div className={`flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 pt-4 border-t text-xs ${
-            isDarkMode ? "border-slate-800" : "border-slate-200"
-          }`}>
-            <span className={isDarkMode ? "text-slate-400 font-medium" : "text-slate-600 font-medium"}>
-              Showing page <span className={`font-bold ${isDarkMode ? "text-slate-200" : "text-slate-900"}`}>{filterHook.page}</span> of{" "}
-              <span className={`font-bold ${isDarkMode ? "text-slate-200" : "text-slate-900"}`}>{paginationInfo.totalPages}</span> ({paginationInfo.filteredCount} total signals)
-            </span>
+        {/* 7. Collapsible Developer & Technical Monitoring Section */}
+        <section className="pt-6">
+          <CrawlProgress
+            progressState={progressState}
+            isCrawling={isCrawling}
+            onStartManualCrawl={startManualCrawl}
+            toastMessage={toastMessage}
+            onClearToast={clearToast}
+            isDarkMode={isDarkMode}
+          />
+        </section>
 
-            <div className="flex items-center gap-1.5">
-              <button
-                disabled={filterHook.page <= 1}
-                onClick={() => filterHook.setPage(filterHook.page - 1)}
-                className={`px-3 py-1.5 rounded-xl border flex items-center gap-1 font-semibold transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
-                  isDarkMode ? "bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800" : "bg-slate-100 border-slate-200 text-slate-700 hover:bg-slate-200"
-                }`}
-                aria-label="Previous page"
-              >
-                <ChevronLeft className="w-4 h-4" />
-                <span>Prev</span>
-              </button>
-
-              {Array.from({ length: Math.min(5, paginationInfo.totalPages) }, (_, i) => {
-                let pNum = i + 1;
-                if (paginationInfo.totalPages > 5 && filterHook.page > 3) {
-                  pNum = filterHook.page - 2 + i;
-                  if (pNum > paginationInfo.totalPages) {
-                    pNum = paginationInfo.totalPages - (4 - i);
-                  }
-                }
-                const isActive = filterHook.page === pNum;
-                return (
-                  <button
-                    key={pNum}
-                    onClick={() => filterHook.setPage(pNum)}
-                    className={`w-8 h-8 rounded-xl font-bold flex items-center justify-center transition-all ${
-                      isActive
-                        ? "bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/20 font-black"
-                        : isDarkMode
-                        ? "bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 hover:bg-slate-800"
-                        : "bg-slate-100 border border-slate-200 text-slate-600 hover:text-slate-900 hover:bg-slate-200"
-                    }`}
-                  >
-                    {pNum}
-                  </button>
-                );
-              })}
-
-              <button
-                disabled={filterHook.page >= paginationInfo.totalPages}
-                onClick={() => filterHook.setPage(filterHook.page + 1)}
-                className={`px-3 py-1.5 rounded-xl border flex items-center gap-1 font-semibold transition-all disabled:opacity-40 disabled:cursor-not-allowed ${
-                  isDarkMode ? "bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800" : "bg-slate-100 border-slate-200 text-slate-700 hover:bg-slate-200"
-                }`}
-                aria-label="Next page"
-              >
-                <span>Next</span>
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            </div>
-          </div>
-        )}
-
-        {/* Consolidated CTA Section */}
-        <section id="subscribe-section" className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-slate-950 via-slate-900 to-black p-8 sm:p-12 text-white shadow-2xl mt-16 scroll-mt-28">
+        {/* 8. Newsletter CTA */}
+        <section id="subscribe-section" className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-[#09131D] via-slate-950 to-black p-8 sm:p-12 text-white shadow-2xl mt-12 scroll-mt-28">
           <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none" />
-          <div className="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl pointer-events-none" />
-
           <div className="relative max-w-3xl mx-auto text-center space-y-6">
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-1.5 text-xs font-bold text-emerald-300">
               <Sparkles className="w-4 h-4" />
-              Stay Ahead Of The Curve
+              Daily AI Intelligence Briefing
             </div>
 
             <h3 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white">
-              Get real-time AI signal alerts
+              Never miss a breakthrough signal
             </h3>
 
-            <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">
-              Subscribe free to receive curated daily briefings on breaking AI models, research papers, and developer tools directly in your inbox.
+            <p className="text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
+              Join thousands of engineers, founders, researchers, and AI enthusiasts receiving curated daily briefings.
             </p>
 
             {subscribed ? (
               <div className="inline-flex items-center gap-2 p-4 rounded-2xl bg-emerald-950/60 border border-emerald-500/40 text-emerald-300 text-sm font-bold shadow-lg">
                 <CheckCircle className="w-5 h-5 text-emerald-400" />
-                Thank you for subscribing! You will receive daily AI signal briefings.
+                Subscribed! Welcome to Evolipia Radar Daily.
               </div>
             ) : (
               <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row items-center gap-3 max-w-lg mx-auto pt-2">
@@ -713,10 +568,10 @@ export default function Dashboard() {
                   <input
                     type="email"
                     required
-                    placeholder="Enter your email address..."
+                    placeholder="Enter your work email..."
                     value={emailInput}
                     onChange={(e) => setEmailInput(e.target.value)}
-                    className="w-full pl-11 pr-4 h-12 rounded-2xl bg-black/60 border border-white/15 text-sm text-white placeholder-slate-400 focus:outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-400/20 shadow-inner"
+                    className="w-full pl-11 pr-4 h-12 rounded-2xl bg-black/60 border border-white/15 text-sm text-white placeholder-slate-400 focus:outline-none focus:border-emerald-400 shadow-inner"
                   />
                 </div>
                 <button
@@ -729,12 +584,11 @@ export default function Dashboard() {
             )}
           </div>
         </section>
-
       </div>
 
-      {/* Unified Footer */}
+      {/* Footer */}
       <footer className={`border-t py-12 transition-colors ${
-        isDarkMode ? "border-white/10 bg-slate-950 text-slate-400" : "border-slate-200 bg-slate-100 text-slate-600"
+        isDarkMode ? "border-white/10 bg-[#050A0F] text-slate-400" : "border-slate-200 bg-slate-100 text-slate-600"
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
@@ -745,247 +599,17 @@ export default function Dashboard() {
             />
             <div>
               <span className={`text-base font-black tracking-tight ${isDarkMode ? "text-white" : "text-slate-900"}`}>
-                Evolipia
+                Evolipia Radar
               </span>
               <span className="text-xs text-slate-500 block">AI Intelligence Platform</span>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-6 text-xs font-semibold">
-            <a href="#" className="hover:text-emerald-500 transition-colors">Documentation</a>
-            <a href="#" className="hover:text-emerald-500 transition-colors">API</a>
-            <a href="#" className="hover:text-emerald-500 transition-colors">Privacy</a>
-            <a href="#" className="hover:text-emerald-500 transition-colors">Terms</a>
-          </div>
-
           <p className="text-xs text-slate-500">
-            © 2026 Evolipia Radar. All rights reserved.
+            © 2026 Evolipia Radar. Built for engineers, founders, researchers &amp; investors.
           </p>
         </div>
       </footer>
     </main>
-  );
-}
-
-function getSignalPhase(score: number) {
-  if (score >= 85) return { label: "Accelerating", style: "bg-emerald-400/10 text-emerald-500 border-emerald-400/30" };
-  if (score >= 60) return { label: "Emerging", style: "bg-cyan-400/10 text-cyan-500 border-cyan-400/30" };
-  return { label: "Watch", style: "bg-amber-400/10 text-amber-500 border-amber-400/30" };
-}
-
-function formatCategory(category?: string) {
-  if (!category) return "General AI";
-  return category
-    .split(/[-_\s]+/)
-    .filter(Boolean)
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(" ");
-}
-
-function SignalCard({ item, isDarkMode }: { item: NewsItem; isDarkMode: boolean }) {
-  const relevance = item.relevance_score ?? Math.round((item.scaled_score || 8.5) * 10);
-  const phase = getSignalPhase(relevance);
-  const source = item.source_name || item.domain || "Unknown source";
-
-  return (
-    <article className={`group flex min-h-[17rem] flex-col justify-between rounded-[1.5rem] border p-5 shadow-lg transition-all hover:-translate-y-0.5 ${
-      isDarkMode
-        ? "border-white/10 bg-slate-950/70 hover:border-emerald-400/35 hover:bg-slate-900/85 text-slate-100"
-        : "border-slate-200 bg-white hover:border-emerald-500/40 hover:shadow-xl text-slate-900"
-    }`}>
-      <div>
-        <div className="mb-3 flex items-start justify-between gap-3 text-xs">
-          <div className="min-w-0">
-            <span className={`inline-flex max-w-full items-center gap-1.5 rounded-full border px-2.5 py-1 font-bold ${
-              isDarkMode ? "border-white/10 bg-white/[0.04] text-slate-300" : "border-slate-200 bg-slate-100 text-slate-700"
-            }`}>
-              <Globe className="h-3.5 w-3.5 shrink-0 text-slate-400" />
-              <span className="truncate">{source}</span>
-            </span>
-          </div>
-          <span className={`shrink-0 rounded-full border px-2.5 py-1 text-[11px] font-black ${phase.style}`}>
-            {phase.label}
-          </span>
-        </div>
-
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`flex items-start gap-2 text-base font-black leading-snug transition-colors line-clamp-2 hover:text-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 rounded ${
-            isDarkMode ? "text-slate-100" : "text-slate-900"
-          }`}
-        >
-          {item.title}
-          <ExternalLink className="mt-1 h-4 w-4 shrink-0 opacity-0 transition-opacity group-hover:opacity-100 text-emerald-500" />
-        </a>
-
-        {(item.raw_excerpt || item.tldr) && (
-          <p className={`mt-3 text-sm leading-relaxed line-clamp-3 ${
-            isDarkMode ? "text-slate-400" : "text-slate-600"
-          }`}>
-            {item.raw_excerpt || item.tldr}
-          </p>
-        )}
-
-        {item.why_it_matters && (
-          <div className={`mt-3 p-2.5 rounded-xl border text-xs leading-relaxed ${
-            isDarkMode ? "bg-emerald-950/20 border-emerald-500/20 text-emerald-200" : "bg-emerald-50 border-emerald-200 text-emerald-900"
-          }`}>
-            <span className="font-bold text-emerald-500 block mb-0.5">Why it matters:</span>
-            {item.why_it_matters}
-          </div>
-        )}
-
-        {item.tags && item.tags.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-1.5">
-            {item.tags.map((tag, idx) => (
-              <span key={idx} className={`px-2 py-0.5 rounded-md text-[10px] font-mono border ${
-                isDarkMode ? "bg-slate-900 text-slate-400 border-slate-800" : "bg-slate-100 text-slate-600 border-slate-200"
-              }`}>
-                #{tag}
-              </span>
-            ))}
-          </div>
-        )}
-      </div>
-
-      <div className="mt-5 space-y-4">
-        <div>
-          <div className="mb-1.5 flex items-center justify-between text-xs">
-            <span className="font-semibold text-slate-400">Signal score proxy</span>
-            <span className="font-mono font-black text-emerald-500">{relevance}%</span>
-          </div>
-          <div className={`h-2 rounded-full overflow-hidden ${isDarkMode ? "bg-slate-800" : "bg-slate-200"}`}>
-            <div
-              className="h-full rounded-full bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400"
-              style={{ width: `${Math.max(8, Math.min(100, relevance))}%` }}
-            />
-          </div>
-        </div>
-
-        <div className={`flex flex-wrap items-center justify-between gap-3 border-t pt-3 text-xs ${
-          isDarkMode ? "border-white/10 text-slate-400" : "border-slate-200 text-slate-500"
-        }`}>
-          <span className="inline-flex items-center gap-1.5">
-            <Clock className="h-3.5 w-3.5" />
-            {new Date(item.published_at).toLocaleDateString()}
-          </span>
-          <span className={`rounded-full border px-2.5 py-1 font-bold ${
-            isDarkMode ? "border-white/10 bg-white/[0.04] text-slate-300" : "border-slate-200 bg-slate-100 text-slate-700"
-          }`}>
-            {formatCategory(item.category)}
-          </span>
-          <a
-            href={item.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 font-black text-emerald-500 hover:text-emerald-400"
-          >
-            Inspect <ArrowRight className="h-3.5 w-3.5" />
-          </a>
-        </div>
-      </div>
-    </article>
-  );
-}
-
-function BriefingStat({ label, value, detail, icon, isDarkMode }: { label: string; value: string | number; detail: string; icon: React.ReactNode; isDarkMode: boolean }) {
-  return (
-    <div className={`rounded-2xl border p-4 ${
-      isDarkMode ? "border-white/10 bg-white/[0.03]" : "border-slate-200 bg-slate-50"
-    }`}>
-      <div className="flex items-center justify-between gap-3">
-        <div>
-          <p className="text-xs font-semibold text-slate-500">{label}</p>
-          <p className={`mt-1 text-2xl font-black ${isDarkMode ? "text-white" : "text-slate-900"}`}>
-            <AnimatedCount value={value} />
-          </p>
-        </div>
-        <div className="rounded-xl bg-emerald-500/10 p-2 text-emerald-500">{icon}</div>
-      </div>
-      <p className="mt-2 text-xs text-slate-500">{detail}</p>
-    </div>
-  );
-}
-
-function QuickPreset({ label, onClick, icon, isDarkMode }: { label: string; onClick: () => void; icon: React.ReactNode; isDarkMode: boolean }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`inline-flex items-center gap-2 rounded-full border px-3.5 py-2 text-xs font-black transition-all focus:outline-none focus:ring-2 focus:ring-emerald-400/60 cursor-pointer ${
-        isDarkMode
-          ? "border-white/10 bg-slate-950/70 text-slate-300 hover:border-emerald-400/40 hover:bg-emerald-400/10 hover:text-emerald-200"
-          : "border-slate-200 bg-slate-100 text-slate-700 hover:border-emerald-500/40 hover:bg-emerald-50 hover:text-emerald-800"
-      }`}
-    >
-      {icon}
-      {label}
-    </button>
-  );
-}
-
-function MetricCard({
-  label,
-  value,
-  icon,
-  detail,
-  suffix = "",
-  highlight = false,
-  showGraph = false,
-  loading = false,
-  isDarkMode = true,
-}: {
-  label: string;
-  value: string | number;
-  icon: React.ReactNode;
-  detail: string;
-  suffix?: string;
-  highlight?: boolean;
-  showGraph?: boolean;
-  loading?: boolean;
-  isDarkMode?: boolean;
-}) {
-  return (
-    <div className={`relative group p-4 sm:p-5 rounded-[1.5rem] border transition-all duration-300 overflow-hidden ${
-      highlight
-        ? isDarkMode
-          ? "bg-gradient-to-br from-emerald-500/15 via-cyan-500/10 to-transparent border-emerald-500/30 shadow-lg"
-          : "bg-emerald-50/60 border-emerald-200 shadow-sm"
-        : isDarkMode
-        ? "bg-white/[0.025] border-white/10 hover:border-white/15"
-        : "bg-white border-slate-200 hover:border-slate-300 shadow-sm"
-    }`}>
-      <div className="flex items-center justify-between mb-3">
-        <span className="text-xs font-bold uppercase tracking-[0.16em] text-slate-500">{label}</span>
-        <div className={`p-2 rounded-xl ${highlight ? "bg-emerald-500/20 text-emerald-500" : "bg-emerald-500/10 text-emerald-500"}`}>
-          {icon}
-        </div>
-      </div>
-
-      <div className="flex items-baseline justify-between gap-1">
-        <div className="flex items-baseline gap-1">
-          {loading ? (
-            <div className="h-8 w-16 bg-slate-400/20 rounded animate-pulse" />
-          ) : (
-            <span className={`text-2xl sm:text-3xl font-black tracking-tight ${isDarkMode ? "text-white" : "text-slate-900"}`}>
-              <AnimatedCount value={value} />
-            </span>
-          )}
-          {suffix && <span className="text-xs font-semibold text-slate-500">{suffix}</span>}
-        </div>
-
-        {/* Sparkline Graph visual for Cluster Momentum */}
-        {showGraph && (
-          <div className="w-16 h-8 shrink-0">
-            <svg viewBox="0 0 60 25" className="w-full h-full stroke-emerald-500 fill-none stroke-[2.5] stroke-linecap-round stroke-linejoin-round">
-              <path d="M 0 18 Q 15 15, 25 10 T 45 6 T 60 2" />
-            </svg>
-          </div>
-        )}
-      </div>
-
-      <p className="mt-2 text-xs text-slate-500">{detail}</p>
-    </div>
   );
 }
