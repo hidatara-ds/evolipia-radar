@@ -218,10 +218,28 @@ export async function GET(request: NextRequest) {
       }
 
       if (categories.length > 0) {
-        const catPlaceholders = categories.map((_, idx) => `$${paramIdx + idx}`).join(", ");
-        whereClauses.push(`LOWER(i.category) IN (${catPlaceholders})`);
-        categories.forEach(c => queryParams.push(c));
-        paramIdx += categories.length;
+        const catOrClauses: string[] = [];
+        categories.forEach(c => {
+          const lowerC = c.toLowerCase().trim();
+          let catCondition = `(LOWER(i.category) LIKE $${paramIdx} OR LOWER(COALESCE(i.title, '')) LIKE $${paramIdx} OR LOWER(COALESCE(i.raw_excerpt, '')) LIKE $${paramIdx} OR LOWER(COALESCE(sm.tldr, '')) LIKE $${paramIdx} OR EXISTS (SELECT 1 FROM jsonb_array_elements_text(COALESCE(sm.tags, '[]'::jsonb)) elem WHERE LOWER(elem) LIKE $${paramIdx}))`;
+
+          if (lowerC === "llm") {
+            catCondition += ` OR LOWER(i.category) IN ('research', 'news', 'general', 'models')`;
+          } else if (lowerC === "open-source") {
+            catCondition += ` OR LOWER(i.category) IN ('tools', 'github', 'models') OR LOWER(i.domain) LIKE '%github%'`;
+          } else if (lowerC === "infra") {
+            catCondition += ` OR LOWER(i.category) IN ('tools', 'infra', 'benchmarks')`;
+          } else if (lowerC === "agents") {
+            catCondition += ` OR LOWER(i.category) IN ('research', 'tools', 'news')`;
+          }
+
+          catOrClauses.push(`(${catCondition})`);
+          queryParams.push(`%${lowerC}%`);
+          paramIdx++;
+        });
+        if (catOrClauses.length > 0) {
+          whereClauses.push(`(${catOrClauses.join(" OR ")})`);
+        }
       }
 
       const whereSQL = whereClauses.length > 0 ? `WHERE ${whereClauses.join(" AND ")}` : "";
@@ -434,10 +452,22 @@ export async function GET(request: NextRequest) {
 
     if (categories.length > 0) {
       filtered = filtered.filter(it =>
-        categories.some(c =>
-          it.category.toLowerCase().includes(c) ||
-          it.tags.some(t => t.toLowerCase().includes(c))
-        )
+        categories.some(c => {
+          const lowerC = c.toLowerCase().trim();
+          const cat = (it.category || "").toLowerCase();
+          const title = (it.title || "").toLowerCase();
+          const excerpt = (it.raw_excerpt || it.tldr || "").toLowerCase();
+          const tags = (it.tags || []).map((t: string) => t.toLowerCase());
+
+          if (cat.includes(lowerC) || title.includes(lowerC) || excerpt.includes(lowerC) || tags.some((t: string) => t.includes(lowerC))) {
+            return true;
+          }
+          if (lowerC === "llm" && (cat === "research" || cat === "news" || cat === "general" || cat === "models")) return true;
+          if (lowerC === "open-source" && (cat === "tools" || cat === "github" || (it.domain || "").includes("github"))) return true;
+          if (lowerC === "infra" && (cat === "tools" || cat === "infra" || cat === "benchmarks")) return true;
+          if (lowerC === "agents" && (cat === "research" || cat === "tools" || cat === "news")) return true;
+          return false;
+        })
       );
     }
 

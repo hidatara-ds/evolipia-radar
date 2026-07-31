@@ -217,7 +217,7 @@ func buildWhereClauses(search, dateFrom, dateTo string, sources, categories []st
 	}
 
 	whereClauses, args, argIdx = appendListFilter("s.name ILIKE $%d OR i.source_id::text = $%d", sources, whereClauses, args, argIdx)
-	whereClauses, args, _ = appendListFilter("i.category ILIKE $%d", categories, whereClauses, args, argIdx)
+	whereClauses, args, _ = appendCategoryFilter(categories, whereClauses, args, argIdx)
 
 	if len(whereClauses) == 0 {
 		return "", args
@@ -234,6 +234,35 @@ func appendListFilter(pattern string, items []string, whereClauses []string, arg
 		if item != "" {
 			orClauses = append(orClauses, fmt.Sprintf(pattern, argIdx, argIdx))
 			args = append(args, "%"+item+"%")
+			argIdx++
+		}
+	}
+	if len(orClauses) > 0 {
+		whereClauses = append(whereClauses, "("+strings.Join(orClauses, " OR ")+")")
+	}
+	return whereClauses, args, argIdx
+}
+
+func appendCategoryFilter(categories []string, whereClauses []string, args []interface{}, argIdx int) ([]string, []interface{}, int) {
+	if len(categories) == 0 || categories[0] == "" {
+		return whereClauses, args, argIdx
+	}
+	var orClauses []string
+	for _, cat := range categories {
+		c := strings.TrimSpace(strings.ToLower(cat))
+		if c != "" {
+			clause := fmt.Sprintf("(i.category ILIKE $%d OR i.title ILIKE $%d OR i.raw_excerpt ILIKE $%d)", argIdx, argIdx, argIdx)
+			if c == "llm" {
+				clause += " OR i.category IN ('research', 'news', 'general', 'models')"
+			} else if c == "open-source" {
+				clause += " OR i.category IN ('tools', 'github', 'models') OR i.domain ILIKE '%github%'"
+			} else if c == "infra" {
+				clause += " OR i.category IN ('tools', 'infra', 'benchmarks')"
+			} else if c == "agents" {
+				clause += " OR i.category IN ('research', 'tools', 'news')"
+			}
+			orClauses = append(orClauses, "("+clause+")")
+			args = append(args, "%"+c+"%")
 			argIdx++
 		}
 	}
