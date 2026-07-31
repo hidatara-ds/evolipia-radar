@@ -107,18 +107,38 @@ export async function fetchItems(params: ItemQueryParams): Promise<PaginatedItem
       const dom = (item.domain || "").toLowerCase().trim();
       let effSource = item.source_name;
 
-      if (!effSource || effSource === "Global Source" || effSource === "Unknown") {
-        if (src.includes("hacker") || src.includes("ycombinator") || dom.includes("ycombinator.com")) {
+      if (dom.includes("ycombinator.com") || dom.includes("news.ycombinator")) {
+        effSource = "Hacker News";
+      } else if (dom.includes("arxiv")) {
+        effSource = "ArXiv AI";
+      } else if (dom.includes("techcrunch")) {
+        effSource = "TechCrunch AI";
+      } else if (dom.includes("reddit")) {
+        effSource = "Reddit MachineLearning";
+      } else if (dom.includes("twitter") || dom.includes("x.com")) {
+        effSource = "Twitter / X";
+      } else if (dom.includes("github")) {
+        effSource = "GitHub Trending";
+      } else if (dom.includes("openai.com")) {
+        effSource = "OpenAI Blog";
+      } else if (dom.includes("deepmind")) {
+        effSource = "DeepMind Research";
+      } else if (dom.includes("stability.ai")) {
+        effSource = "Stability AI";
+      } else if (dom.includes("anthropic.com")) {
+        effSource = "Anthropic";
+      } else if (!effSource || effSource === "Global Source" || effSource === "Unknown" || effSource === "RSSAgent") {
+        if (src.includes("hacker") || src.includes("ycombinator")) {
           effSource = "Hacker News";
-        } else if (src.includes("arxiv") || dom.includes("arxiv")) {
+        } else if (src.includes("arxiv")) {
           effSource = "ArXiv AI";
-        } else if (src.includes("techcrunch") || dom.includes("techcrunch")) {
+        } else if (src.includes("techcrunch")) {
           effSource = "TechCrunch AI";
-        } else if (src.includes("reddit") || dom.includes("reddit")) {
+        } else if (src.includes("reddit")) {
           effSource = "Reddit MachineLearning";
-        } else if (src.includes("twitter") || src.includes("x.com") || dom.includes("twitter") || dom.includes("x.com")) {
+        } else if (src.includes("twitter") || src.includes("x.com")) {
           effSource = "Twitter / X";
-        } else if (src.includes("github") || dom.includes("github")) {
+        } else if (src.includes("github")) {
           effSource = "GitHub Trending";
         } else {
           effSource = item.domain || "Global Source";

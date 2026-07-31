@@ -42,41 +42,74 @@ function getDBPool(): Pool | null {
 }
 
 function getEffectiveSourceName(rawSourceName?: string, domain?: string): string {
-  const src = (rawSourceName || "").toLowerCase().trim();
   const dom = (domain || "").toLowerCase().trim();
+  const src = (rawSourceName || "").toLowerCase().trim();
 
-  if (src.includes("hacker") || src.includes("ycombinator") || dom.includes("ycombinator.com")) {
+  // 1. Check specific domains first to accurately map article source badge
+  if (dom.includes("ycombinator.com") || dom.includes("news.ycombinator")) {
     return "Hacker News";
   }
-  if (src.includes("arxiv") || dom.includes("arxiv")) {
+  if (dom.includes("arxiv")) {
     return "ArXiv AI";
   }
-  if (src.includes("techcrunch") || dom.includes("techcrunch")) {
+  if (dom.includes("techcrunch")) {
     return "TechCrunch AI";
   }
-  if (src.includes("reddit") || dom.includes("reddit")) {
+  if (dom.includes("reddit")) {
     return "Reddit MachineLearning";
   }
-  if (src.includes("twitter") || src.includes("x.com") || dom.includes("twitter") || dom.includes("x.com")) {
+  if (dom.includes("twitter") || dom.includes("x.com")) {
     return "Twitter / X";
   }
-  if (src.includes("github") || dom.includes("github")) {
+  if (dom.includes("github")) {
     return "GitHub Trending";
   }
-  if (src.includes("openai") || dom.includes("openai.com")) {
+  if (dom.includes("openai.com")) {
     return "OpenAI Blog";
   }
-  if (src.includes("deepmind") || dom.includes("deepmind")) {
+  if (dom.includes("deepmind")) {
     return "DeepMind Research";
   }
-  if (src.includes("stability") || dom.includes("stability.ai")) {
+  if (dom.includes("stability.ai")) {
     return "Stability AI";
   }
-  if (src.includes("anthropic") || dom.includes("anthropic.com")) {
+  if (dom.includes("anthropic.com")) {
     return "Anthropic";
   }
 
-  if (rawSourceName && rawSourceName !== "Global Source" && rawSourceName !== "Unknown") {
+  // 2. Fall back to raw source name matching if domain isn't a specific known domain
+  if (src.includes("hacker") || src.includes("ycombinator")) {
+    return "Hacker News";
+  }
+  if (src.includes("arxiv")) {
+    return "ArXiv AI";
+  }
+  if (src.includes("techcrunch")) {
+    return "TechCrunch AI";
+  }
+  if (src.includes("reddit")) {
+    return "Reddit MachineLearning";
+  }
+  if (src.includes("twitter") || src.includes("x.com")) {
+    return "Twitter / X";
+  }
+  if (src.includes("github")) {
+    return "GitHub Trending";
+  }
+  if (src.includes("openai")) {
+    return "OpenAI Blog";
+  }
+  if (src.includes("deepmind")) {
+    return "DeepMind Research";
+  }
+  if (src.includes("stability")) {
+    return "Stability AI";
+  }
+  if (src.includes("anthropic")) {
+    return "Anthropic";
+  }
+
+  if (rawSourceName && rawSourceName !== "Global Source" && rawSourceName !== "Unknown" && rawSourceName !== "RSSAgent") {
     return rawSourceName;
   }
   if (domain) {
