@@ -1,27 +1,26 @@
 "use client";
 
 import React from "react";
-import { Layers3, Sparkles, TrendingUp, BarChart2, Hash, ArrowUpRight } from "lucide-react";
+import { Layers3, TrendingUp, ArrowUpRight } from "lucide-react";
 
 interface ClusterItem {
+  ticker: string;
   keyword: string;
   frequency: string;
   growth: string;
-  momentum: string;
   sentiment: "Bullish" | "Neutral" | "High Hype";
   sources: number;
-  score: number;
 }
 
 const CLUSTERS: ClusterItem[] = [
-  { keyword: "GPT-6", frequency: "4.2k", growth: "+38%", momentum: "Exploding", sentiment: "Bullish", sources: 28, score: 98 },
-  { keyword: "Claude Code", frequency: "2.9k", growth: "+91%", momentum: "Surging", sentiment: "High Hype", sources: 34, score: 96 },
-  { keyword: "MCP Protocol", frequency: "2.1k", growth: "+123%", momentum: "Breakthrough", sentiment: "Bullish", sources: 22, score: 94 },
-  { keyword: "Reasoning Models", frequency: "1.8k", growth: "+64%", momentum: "Rising", sentiment: "Bullish", sources: 19, score: 91 },
-  { keyword: "Embodied Robotics", frequency: "1.4k", growth: "+201%", momentum: "Exploding", sentiment: "High Hype", sources: 16, score: 89 },
-  { keyword: "Vector Database", frequency: "1.1k", growth: "+15%", momentum: "Steady", sentiment: "Neutral", sources: 14, score: 82 },
-  { keyword: "Agent Frameworks", frequency: "980", growth: "+45%", momentum: "Surging", sentiment: "Bullish", sources: 25, score: 88 },
-  { keyword: "Open Source Weights", frequency: "870", growth: "+28%", momentum: "Steady", sentiment: "Bullish", sources: 18, score: 85 },
+  { ticker: "$GPT6", keyword: "GPT-6 Models", frequency: "4.2k", growth: "+38%", sentiment: "Bullish", sources: 28 },
+  { ticker: "$CLAUDE", keyword: "Claude Code", frequency: "2.9k", growth: "+91%", sentiment: "High Hype", sources: 34 },
+  { ticker: "$MCP", keyword: "MCP Protocol", frequency: "2.1k", growth: "+123%", sentiment: "Bullish", sources: 22 },
+  { ticker: "$REASON", keyword: "Reasoning Models", frequency: "1.8k", growth: "+64%", sentiment: "Bullish", sources: 19 },
+  { ticker: "$ROBOT", keyword: "Embodied Robotics", frequency: "1.4k", growth: "+201%", sentiment: "High Hype", sources: 16 },
+  { ticker: "$VECDB", keyword: "Vector Database", frequency: "1.1k", growth: "+15%", sentiment: "Neutral", sources: 14 },
+  { ticker: "$AGENTS", keyword: "Agent Frameworks", frequency: "980", growth: "+45%", sentiment: "Bullish", sources: 25 },
+  { ticker: "$OPENSRC", keyword: "Open Source Weights", frequency: "870", growth: "+28%", sentiment: "Bullish", sources: 18 },
 ];
 
 interface TrendingClustersProps {
@@ -35,76 +34,64 @@ export const TrendingClusters: React.FC<TrendingClustersProps> = ({
 }) => {
   return (
     <div
-      className={`rounded-[2rem] border p-6 shadow-xl transition-all ${
-        isDarkMode ? "border-white/10 bg-[#09131D]/80 text-white" : "border-slate-200 bg-white text-slate-900"
+      className={`rounded-2xl border p-4 sm:p-5 transition-all shadow-md ${
+        isDarkMode ? "border-white/10 bg-[#09131D]/90 text-white" : "border-slate-200 bg-white text-slate-900"
       }`}
     >
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-5">
-        <div className="flex items-center gap-2.5">
-          <div className="p-2 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
-            <Layers3 className="w-5 h-5" />
+      {/* Header */}
+      <div className="flex items-center justify-between gap-3 mb-3 pb-2.5 border-b border-white/10">
+        <div className="flex items-center gap-2">
+          <div className="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+            <Layers3 className="w-4 h-4" />
           </div>
-          <div>
-            <h3 className="text-lg font-black tracking-tight">NLP Keyword Clusters &amp; Topic Heatmap</h3>
-            <p className={`text-xs ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
-              Extracted via Named Entity Recognition (NER), TF-IDF, &amp; Semantic Embedding Similarity
-            </p>
-          </div>
+          <h3 className="text-sm font-black tracking-tight uppercase font-mono flex items-center gap-2">
+            NLP Keyword Clusters Watchlist
+            <span className="text-[10px] text-slate-400 font-normal normal-case">
+              NER &amp; Embedding Clusters
+            </span>
+          </h3>
         </div>
 
-        <div className="flex items-center gap-2 text-xs font-mono">
-          <span className="px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-bold">
-            8 Clusters Active
-          </span>
-        </div>
+        <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+          8 Active Heatmaps
+        </span>
       </div>
 
-      {/* Cluster Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+      {/* Stock Watchlist Compact Table Grid (2 rows x 4 columns) */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
         {CLUSTERS.map((cluster) => (
           <button
-            key={cluster.keyword}
+            key={cluster.ticker}
             onClick={() => onSelectCluster(cluster.keyword)}
-            className={`group p-4 rounded-2xl border text-left transition-all relative flex flex-col justify-between cursor-pointer ${
+            className={`p-2.5 rounded-xl border text-left transition-all relative flex flex-col justify-between cursor-pointer group ${
               isDarkMode
-                ? "bg-slate-900/40 border-white/10 hover:border-emerald-500/50 hover:bg-emerald-500/5"
+                ? "bg-slate-900/60 border-white/10 hover:border-emerald-500/50 hover:bg-emerald-500/10"
                 : "bg-slate-50 border-slate-200 hover:border-emerald-500/50 hover:bg-emerald-50"
             }`}
           >
-            <div>
-              <div className="flex items-center justify-between gap-2 mb-2">
-                <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-400">
-                  {cluster.sentiment}
-                </span>
-                <span className="text-xs font-mono font-bold text-emerald-400 flex items-center gap-0.5">
-                  <TrendingUp className="w-3 h-3" /> {cluster.growth}
-                </span>
-              </div>
-
-              <h4 className={`text-base font-black tracking-tight group-hover:text-emerald-400 transition-colors ${
-                isDarkMode ? "text-white" : "text-slate-900"
-              }`}>
-                {cluster.keyword}
-              </h4>
+            <div className="flex items-center justify-between gap-1 mb-1">
+              <span className="text-[10px] font-mono font-bold text-slate-400">
+                {cluster.ticker}
+              </span>
+              <span className="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                {cluster.sentiment}
+              </span>
             </div>
 
-            <div className="mt-4 pt-3 border-t border-white/10 space-y-2">
-              <div className="flex items-center justify-between text-xs font-mono">
-                <span className={isDarkMode ? "text-slate-400" : "text-slate-500"}>Mentions</span>
-                <span className="font-bold">{cluster.frequency}</span>
-              </div>
-              <div className="flex items-center justify-between text-xs font-mono">
-                <span className={isDarkMode ? "text-slate-400" : "text-slate-500"}>Sources</span>
-                <span className="font-bold">{cluster.sources} active</span>
-              </div>
+            <div className={`text-xs font-black truncate group-hover:text-emerald-400 transition-colors mb-2 ${
+              isDarkMode ? "text-white" : "text-slate-900"
+            }`}>
+              {cluster.keyword}
+            </div>
 
-              {/* Progress bar visual for cluster momentum */}
-              <div className="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-emerald-500 to-cyan-400 rounded-full"
-                  style={{ width: `${cluster.score}%` }}
-                />
-              </div>
+            <div className="flex items-center justify-between text-xs font-mono pt-1.5 border-t border-white/10">
+              <span className={isDarkMode ? "text-slate-400" : "text-slate-500"}>
+                {cluster.frequency} <span className="text-[10px] opacity-75">({cluster.sources} src)</span>
+              </span>
+              <span className="font-black text-emerald-400 flex items-center gap-0.5">
+                <ArrowUpRight className="w-3 h-3" />
+                {cluster.growth}
+              </span>
             </div>
           </button>
         ))}

@@ -5,26 +5,18 @@ import {
   AlertCircle,
   ArrowRight,
   Bookmark,
-  BrainCircuit,
   CheckCircle,
   ChevronLeft,
   ChevronRight,
   Clock,
   ExternalLink,
-  Eye,
-  FileText,
-  Flame,
   Globe,
-  Layers3,
   Mail,
   Moon,
   RefreshCw,
   Search,
-  Share2,
-  Shield,
   Sparkles,
   Sun,
-  TrendingUp,
   Zap,
 } from "lucide-react";
 
@@ -48,38 +40,6 @@ interface Metrics {
   clusters: number;
   avg_cluster_score: number;
   top_cluster_titles: string[] | null;
-}
-
-function AnimatedCount({ value, duration = 1400 }: { value: number | string; duration?: number }) {
-  const rawStr = String(value).replace(/[^0-9.]/g, "");
-  const targetNumber = parseFloat(rawStr);
-  const isFloat = String(value).includes(".");
-  const [current, setCurrent] = useState(0);
-
-  useEffect(() => {
-    if (isNaN(targetNumber) || targetNumber === 0) {
-      setCurrent(targetNumber || 0);
-      return;
-    }
-
-    let startTimestamp: number | null = null;
-    const step = (timestamp: number) => {
-      if (!startTimestamp) startTimestamp = timestamp;
-      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-      const easeOut = 1 - Math.pow(1 - progress, 3);
-      setCurrent(targetNumber * easeOut);
-
-      if (progress < 1) {
-        window.requestAnimationFrame(step);
-      }
-    };
-
-    window.requestAnimationFrame(step);
-  }, [targetNumber, duration]);
-
-  if (isNaN(targetNumber)) return <span>{value}</span>;
-  if (isFloat) return <span>{current.toFixed(1)}</span>;
-  return <span>{Math.round(current).toLocaleString()}</span>;
 }
 
 export default function Dashboard() {
@@ -106,16 +66,13 @@ export default function Dashboard() {
   const filterHook = useFilters();
   const { progressState, isCrawling, toastMessage, startManualCrawl, clearToast } = useCrawlProgress();
 
-  // Load bookmarks from local storage
   useEffect(() => {
     try {
       const saved = localStorage.getItem("evolipia_bookmarks");
       if (saved) {
         setBookmarkedIds(new Set(JSON.parse(saved)));
       }
-    } catch (e) {
-      // Ignore fallback
-    }
+    } catch (e) {}
   }, []);
 
   const toggleBookmark = (id: string | number) => {
@@ -165,9 +122,7 @@ export default function Dashboard() {
           const data = await res.json();
           setMetrics(data);
         }
-      } catch (e) {
-        // Ignore background metrics errors
-      }
+      } catch (e) {}
     };
     fetchMetrics();
     const interval = setInterval(fetchMetrics, 15000);
@@ -229,7 +184,7 @@ export default function Dashboard() {
         )}
       </div>
 
-      {/* STICKY EDITORIAL TOP NAVIGATION BAR */}
+      {/* STICKY TOP NAVIGATION BAR */}
       <header className={`sticky top-0 z-50 border-b backdrop-blur-xl transition-all ${
         isDarkMode ? "border-white/10 bg-[#050A0F]/85" : "border-slate-200 bg-white/85 shadow-sm"
       }`}>
@@ -322,7 +277,7 @@ export default function Dashboard() {
       </div>
 
       {/* Main Container */}
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-20 space-y-8">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-20 space-y-6">
         {/* Ticker Marquee */}
         <div className={`relative w-full rounded-2xl border backdrop-blur-md overflow-hidden p-2 flex items-center shadow-lg ${
           isDarkMode ? "border-emerald-500/25 bg-[#09131D]/80" : "border-emerald-500/30 bg-slate-100"
@@ -355,10 +310,64 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* 1. AI Daily Briefing */}
-        <AIDailyBriefing isDarkMode={isDarkMode} />
+        {/* 1. Hero Grid: AI Daily Briefing + Agent Evoli Mascot Banner */}
+        <section className="grid grid-cols-1 lg:grid-cols-[1fr_240px] gap-5 items-stretch">
+          <AIDailyBriefing isDarkMode={isDarkMode} />
 
-        {/* 2. Breaking Signals */}
+          {/* Agent Evoli Mascot Hero Card */}
+          <div className={`relative overflow-hidden rounded-[2rem] border p-5 shadow-2xl flex flex-col justify-between items-center text-center transition-all ${
+            isDarkMode ? "border-emerald-500/25 bg-gradient-to-b from-[#0B1A24] to-[#050A0F] text-white" : "border-emerald-500/30 bg-white text-slate-900 shadow-xl"
+          }`}>
+            <div className="absolute top-0 inset-x-0 h-32 bg-emerald-500/10 blur-2xl pointer-events-none" />
+
+            <div className="relative z-10">
+              <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-mono text-[10px] font-black uppercase tracking-widest">
+                AI Mascot Assistant
+              </span>
+              <h4 className="text-base font-black tracking-tight mt-1">Agent Evoli</h4>
+            </div>
+
+            {/* Mascot Image */}
+            <div className="relative my-2">
+              <div className="absolute inset-x-2 bottom-2 h-12 bg-emerald-400/25 blur-xl pointer-events-none" />
+              <img
+                src="/assets/maskot1.webp"
+                alt="Agent Evoli research mascot"
+                className="relative w-36 sm:w-40 h-auto object-contain drop-shadow-[0_8px_16px_rgba(16,185,129,0.3)] transition-transform hover:scale-105"
+              />
+            </div>
+
+            {/* Agent Status Badge */}
+            <div className={`relative w-full rounded-xl border p-2.5 backdrop-blur-md shadow-md ${
+              isDarkMode ? "border-white/10 bg-slate-950/80" : "border-slate-200 bg-slate-50"
+            }`}>
+              <div className="flex items-center justify-between gap-2 text-left">
+                <div className="min-w-0">
+                  <p className="text-[9px] font-bold uppercase tracking-wider text-emerald-400">Agent Status</p>
+                  <p className={`text-[11px] font-semibold truncate ${isDarkMode ? "text-slate-200" : "text-slate-800"}`}>
+                    {isCrawling ? progressState?.message || "Collecting signals..." : "Standing by for next crawl"}
+                  </p>
+                </div>
+                <div className={`h-2.5 w-2.5 rounded-full shrink-0 ${isCrawling ? "bg-amber-400 animate-pulse" : "bg-emerald-400"}`} />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 2. Stock Watchlist Style AI Pulse Keywords */}
+        <AIPulseKeywords
+          activeKeyword={filterHook.search}
+          onSelectKeyword={handleTopicSelect}
+          isDarkMode={isDarkMode}
+        />
+
+        {/* 3. Stock Watchlist Style Trending NLP Clusters */}
+        <TrendingClusters
+          onSelectCluster={handleTopicSelect}
+          isDarkMode={isDarkMode}
+        />
+
+        {/* 4. Breaking Signals */}
         <BreakingSignals
           items={items}
           bookmarkedIds={bookmarkedIds}
@@ -366,23 +375,10 @@ export default function Dashboard() {
           isDarkMode={isDarkMode}
         />
 
-        {/* 3. AI Pulse (Exploding Keywords Counter) */}
-        <AIPulseKeywords
-          activeKeyword={filterHook.search}
-          onSelectKeyword={handleTopicSelect}
-          isDarkMode={isDarkMode}
-        />
-
-        {/* 4. NLP Keyword Clusters & Heatmap */}
-        <TrendingClusters
-          onSelectCluster={handleTopicSelect}
-          isDarkMode={isDarkMode}
-        />
-
-        {/* 5. Central Filter Bar */}
+        {/* 5. Refined Central Filter Bar */}
         <FilterBar filterHook={filterHook} isDarkMode={isDarkMode} />
 
-        {/* 6. Main Editorial Intelligence Stream + Sidebar */}
+        {/* 6. Editorial Intelligence Stream + Sidebar */}
         <section className="space-y-4">
           <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
             <div>
@@ -483,7 +479,6 @@ export default function Dashboard() {
                         </div>
                       )}
 
-                      {/* Card Footer Quick Actions */}
                       <div className="pt-3 border-t border-white/10 flex items-center justify-between gap-4 text-xs">
                         <div className="flex items-center gap-2">
                           <button
@@ -528,7 +523,7 @@ export default function Dashboard() {
         </section>
 
         {/* 7. Collapsible Developer & Technical Monitoring Section */}
-        <section className="pt-6">
+        <section className="pt-4">
           <CrawlProgress
             progressState={progressState}
             isCrawling={isCrawling}
