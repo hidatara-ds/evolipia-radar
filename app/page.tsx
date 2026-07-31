@@ -4,7 +4,6 @@ import { useEffect, useState, useCallback } from "react";
 import {
   AlertCircle,
   ArrowRight,
-  Bell,
   BrainCircuit,
   CheckCircle,
   ChevronLeft,
@@ -21,17 +20,14 @@ import {
   Moon,
   RefreshCw,
   Search,
-  Settings,
   Shield,
   Sparkles,
   Sun,
   TrendingUp,
-  User,
   Zap,
 } from "lucide-react";
 
 import { CrawlProgress } from "@/src/components/CrawlProgress";
-import { DataFreshness } from "@/src/components/DataFreshness";
 import { FilterBar } from "@/src/components/FilterBar";
 import { useCrawlProgress } from "@/src/hooks/useCrawlProgress";
 import { useFilters } from "@/src/hooks/useFilters";
@@ -45,8 +41,6 @@ interface Metrics {
   avg_cluster_score: number;
   top_cluster_titles: string[] | null;
 }
-
-const DEFAULT_TOPICS = ["LLM", "Agents", "Open Source", "Infrastructure", "Research", "Security"];
 
 export default function Dashboard() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -69,7 +63,6 @@ export default function Dashboard() {
   const {
     progressState,
     isCrawling,
-    lastCrawledAt,
     toastMessage,
     startManualCrawl,
     clearToast,
@@ -189,10 +182,14 @@ export default function Dashboard() {
     }
   };
 
+  const scrollToSubscribe = () => {
+    document.getElementById("subscribe-section")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <main className={`min-h-screen font-sans transition-colors duration-300 ${
       isDarkMode
-        ? "bg-[#050A0F] text-slate-200 selection:bg-emerald-500/30"
+        ? "bg-[#050A0F] text-[#F8FAFC] selection:bg-emerald-500/30"
         : "bg-slate-50 text-slate-900 selection:bg-emerald-500/20"
     }`}>
       {/* Background Decorative Ambient Glows */}
@@ -211,15 +208,16 @@ export default function Dashboard() {
         )}
       </div>
 
-      {/* 1. Top Navigation Bar */}
+      {/* 1. Complete Navbar Overhaul */}
       <header className={`sticky top-0 z-[60] backdrop-blur-2xl transition-colors border-b ${
         isDarkMode
-          ? "border-white/10 bg-[#050A0F]/80 text-white"
-          : "border-slate-200 bg-white/80 text-slate-900 shadow-sm"
+          ? "border-white/10 bg-[#050A0F]/85 text-white"
+          : "border-slate-200/80 bg-white/85 text-slate-900 shadow-sm"
       }`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-4">
-          {/* Brand & Logo */}
-          <div className="flex items-center gap-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between gap-4">
+          
+          {/* Left Side: Brand Logo & Title */}
+          <div className="flex items-center gap-8">
             <div className="flex items-center gap-3">
               <div className="relative shrink-0">
                 <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-2xl blur opacity-30" />
@@ -227,59 +225,53 @@ export default function Dashboard() {
                   src="/assets/icon.webp"
                   alt="Evolipia logo"
                   loading="lazy"
-                  className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-2xl border border-white/10 shadow-lg object-cover"
+                  className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-2xl border border-white/10 shadow-md object-cover"
                 />
               </div>
               <div>
                 <h1 className="text-lg sm:text-xl font-black tracking-tight flex items-center gap-2">
                   Evolipia
-                  <DataFreshness lastCrawledAt={lastCrawledAt} />
                 </h1>
-                <p className={`text-xs font-medium hidden sm:block ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
+                <p className={`text-[11px] font-medium hidden sm:block ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
                   AI Intelligence Platform
                 </p>
               </div>
             </div>
 
-            {/* Navigation Links */}
-            <nav className="hidden lg:flex items-center gap-1 bg-slate-500/10 p-1 rounded-2xl border border-white/5">
+            {/* Clean Standard SaaS Inline Text Navigation Menu (No Floating Pill Background) */}
+            <nav className="hidden md:flex items-center gap-7">
               {["Signals", "Analytics", "Sources", "Briefings"].map((tab) => {
                 const isActive = activeTab === tab;
                 return (
                   <button
                     key={tab}
                     onClick={() => setActiveTab(tab)}
-                    className={`px-4 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                    className={`text-sm font-semibold transition-all relative py-1 focus:outline-none ${
                       isActive
-                        ? "bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/20"
+                        ? "text-emerald-500 font-bold"
                         : isDarkMode
-                        ? "text-slate-400 hover:text-slate-100 hover:bg-white/5"
-                        : "text-slate-600 hover:text-slate-900 hover:bg-slate-200/60"
+                        ? "text-slate-400 hover:text-white"
+                        : "text-slate-600 hover:text-slate-900"
                     }`}
                   >
                     {tab}
+                    {isActive && (
+                      <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-500 rounded-full" />
+                    )}
                   </button>
                 );
               })}
             </nav>
           </div>
 
-          {/* Right Action Icons & User Avatar */}
-          <div className="flex items-center gap-2 sm:gap-3">
-            {/* Status Pill */}
-            <div className={`hidden sm:inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold border ${
-              isDarkMode ? "bg-slate-900 border-slate-800 text-slate-300" : "bg-slate-100 border-slate-200 text-slate-700"
-            }`}>
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>Last crawl: Just now</span>
-            </div>
-
-            {/* Light / Dark Mode Toggle */}
+          {/* Far Right Action: Theme Toggle & Subscribe Button ONLY */}
+          <div className="flex items-center gap-3">
+            {/* Theme Toggle (Sun/Moon) */}
             <button
               onClick={() => setIsDarkMode(!isDarkMode)}
-              className={`p-2.5 rounded-2xl border transition-all ${
+              className={`p-2.5 rounded-xl border transition-all ${
                 isDarkMode
-                  ? "bg-slate-900 border-slate-800 text-amber-400 hover:bg-slate-800"
+                  ? "bg-slate-900/90 border-slate-800 text-amber-400 hover:bg-slate-800"
                   : "bg-slate-100 border-slate-200 text-slate-700 hover:bg-slate-200"
               }`}
               title={isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
@@ -287,46 +279,20 @@ export default function Dashboard() {
               {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4 text-slate-700" />}
             </button>
 
-            {/* Notification Bell */}
+            {/* Subscribe Action Button */}
             <button
-              className={`relative p-2.5 rounded-2xl border transition-all ${
-                isDarkMode
-                  ? "bg-slate-900 border-slate-800 text-slate-400 hover:text-white hover:bg-slate-800"
-                  : "bg-slate-100 border-slate-200 text-slate-600 hover:text-slate-900 hover:bg-slate-200"
-              }`}
-              title="Notifications"
+              onClick={scrollToSubscribe}
+              className="px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs shadow-md shadow-emerald-500/20 transition-all flex items-center gap-1.5 active:scale-95 cursor-pointer"
             >
-              <Bell className="w-4 h-4" />
-              <span className="absolute top-2 right-2 w-2 h-2 rounded-full bg-emerald-400" />
+              <Mail className="w-3.5 h-3.5" />
+              <span>Subscribe</span>
             </button>
-
-            {/* Settings Gear */}
-            <button
-              className={`p-2.5 rounded-2xl border transition-all ${
-                isDarkMode
-                  ? "bg-slate-900 border-slate-800 text-slate-400 hover:text-white hover:bg-slate-800"
-                  : "bg-slate-100 border-slate-200 text-slate-600 hover:text-slate-900 hover:bg-slate-200"
-              }`}
-              title="System settings"
-            >
-              <Settings className="w-4 h-4" />
-            </button>
-
-            {/* User Profile Avatar */}
-            <div className="flex items-center gap-2 pl-2 border-l border-slate-500/20">
-              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-emerald-500 to-cyan-500 p-0.5 shadow-md flex items-center justify-center cursor-pointer">
-                <div className={`w-full h-full rounded-full flex items-center justify-center font-bold text-xs ${
-                  isDarkMode ? "bg-slate-950 text-white" : "bg-white text-slate-900"
-                }`}>
-                  JD
-                </div>
-              </div>
-            </div>
           </div>
+
         </div>
       </header>
 
-      {/* Main Container */}
+      {/* Main Dashboard Container */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-6 pb-20">
         
         {/* Research Modes Toolbar & Main Hero Banner */}
@@ -714,7 +680,7 @@ export default function Dashboard() {
         )}
 
         {/* 6. Consolidated CTA Section (Dark-patterned CTA card) */}
-        <section className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-slate-950 via-slate-900 to-black p-8 sm:p-12 text-white shadow-2xl mt-16">
+        <section id="subscribe-section" className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-slate-950 via-slate-900 to-black p-8 sm:p-12 text-white shadow-2xl mt-16 scroll-mt-28">
           <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none" />
           <div className="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl pointer-events-none" />
 

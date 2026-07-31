@@ -151,7 +151,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
         {/* Search Input Box */}
         <div className="relative flex-1 min-w-[260px] w-full group">
-          <div className="absolute left-3.5 top-1/2 -translate-y-1/2 flex items-center gap-2 pointer-events-none text-slate-400 group-focus-within:text-emerald-500 transition-colors">
+          <div className="absolute left-3.5 top-1/2 -translate-y-1/2 flex items-center pointer-events-none text-slate-400 group-focus-within:text-emerald-500 transition-colors z-10">
             <Search className="w-4 h-4" />
           </div>
           <input
@@ -159,13 +159,13 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
             value={search}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearch(e.target.value)}
             placeholder="Search articles, research papers, topics..."
-            className={`w-full pl-10 pr-20 h-11 rounded-xl text-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/30 ${
+            className={`w-full pl-11 pr-24 h-11 rounded-xl text-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/30 ${
               isDarkMode
-                ? "bg-slate-950/90 border border-slate-800/90 text-slate-100 placeholder-slate-500 focus:border-emerald-500/80 shadow-inner"
+                ? "bg-slate-950/90 border border-slate-800 text-slate-100 placeholder-slate-500 focus:border-emerald-500/80 shadow-inner"
                 : "bg-slate-100/90 border border-slate-200 text-slate-900 placeholder-slate-400 focus:border-emerald-500 focus:bg-white shadow-sm"
             }`}
           />
-          <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+          <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5 z-10">
             {search ? (
               <button
                 type="button"
@@ -178,7 +178,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
                 <X className="w-3.5 h-3.5" />
               </button>
             ) : (
-              <span className={`hidden sm:inline-flex items-center gap-0.5 px-2 py-0.5 rounded-md text-[10px] font-mono border ${
+              <span className={`hidden sm:inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-mono border ${
                 isDarkMode ? "bg-slate-900 border-slate-800 text-slate-500" : "bg-slate-200/80 border-slate-300 text-slate-600"
               }`}>
                 Search
