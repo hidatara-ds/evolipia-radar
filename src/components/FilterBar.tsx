@@ -131,7 +131,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
     <div className={`w-full backdrop-blur-xl rounded-2xl p-5 sm:p-6 mb-8 transition-all space-y-5 border ${
       isDarkMode
         ? "bg-slate-900/90 border-slate-800 text-slate-100 shadow-2xl"
-        : "bg-white/95 border-slate-200 text-slate-900 shadow-xl"
+        : "bg-white border-slate-200 text-slate-900 shadow-lg"
     }`}>
       {/* Search & Sort Controls Header */}
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
@@ -147,8 +147,8 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
             placeholder="Search articles, research papers, topics..."
             className={`w-full pl-11 pr-24 h-11 rounded-xl text-sm transition-all focus:outline-none focus:ring-2 focus:ring-emerald-500/30 ${
               isDarkMode
-                ? "bg-slate-950/90 border border-slate-800 text-slate-100 placeholder-slate-500 focus:border-emerald-500/80 shadow-inner"
-                : "bg-slate-100/90 border border-slate-200 text-slate-900 placeholder-slate-400 focus:border-emerald-500 focus:bg-white shadow-sm"
+                ? "bg-slate-950 border border-slate-800 text-slate-100 placeholder-slate-500 focus:border-emerald-500/80 shadow-inner"
+                : "bg-slate-100/80 border border-slate-300/80 text-slate-900 placeholder-slate-500 focus:border-emerald-500 focus:bg-white shadow-sm"
             }`}
           />
           <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5 z-10">
@@ -176,7 +176,9 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
         {/* Sort Selector & Reset */}
         <div className="flex items-center gap-3 shrink-0">
           <div className={`relative flex items-center h-11 border rounded-xl px-3.5 pr-8 transition-all ${
-            isDarkMode ? "bg-slate-950/90 border-slate-800 hover:border-slate-700" : "bg-slate-100 border-slate-200 hover:border-slate-300"
+            isDarkMode
+              ? "bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-200"
+              : "bg-slate-100/90 border-slate-300/80 text-slate-900 hover:border-slate-400 hover:bg-white shadow-sm"
           }`}>
             <ArrowUpDown className="w-3.5 h-3.5 text-emerald-500 mr-2 shrink-0" />
             <select
@@ -189,7 +191,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
                 }
               }}
               className={`bg-transparent text-xs font-bold focus:outline-none cursor-pointer appearance-none truncate pr-2 ${
-                isDarkMode ? "text-slate-200" : "text-slate-800"
+                isDarkMode ? "text-slate-200" : "text-slate-900"
               }`}
             >
               {SORT_OPTIONS.map(opt => (
@@ -203,7 +205,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
 
           <button
             onClick={resetFilters}
-            className={`h-11 px-4 rounded-xl text-xs font-semibold flex items-center gap-2 border shadow-sm transition-all active:scale-95 ${
+            className={`h-11 px-4 rounded-xl text-xs font-semibold flex items-center gap-2 border shadow-sm transition-all active:scale-95 cursor-pointer ${
               isDarkMode
                 ? "bg-slate-800/80 hover:bg-slate-700/80 text-slate-200 border-slate-700/60"
                 : "bg-slate-200 hover:bg-slate-300/80 text-slate-800 border-slate-300"
@@ -216,7 +218,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
         </div>
       </div>
 
-      {/* Main Filter Section (3 Spread-out columns without Verification Status) */}
+      {/* Main Filter Section (3 Spread-out columns) */}
       <div className={`grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t ${
         isDarkMode ? "border-slate-800/70" : "border-slate-200"
       }`}>
@@ -236,7 +238,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
                   key={opt.id}
                   type="button"
                   onClick={() => handleDateRangeChange(opt.id)}
-                  className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all flex-1 text-center ${
+                  className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all flex-1 text-center cursor-pointer ${
                     isActive
                       ? "bg-emerald-500 text-slate-950 font-black shadow-md shadow-emerald-500/20"
                       : isDarkMode
@@ -280,7 +282,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
           <button
             type="button"
             onClick={() => setShowSourceDropdown(!showSourceDropdown)}
-            className={`w-full border text-xs font-medium p-2.5 rounded-xl flex items-center justify-between focus:outline-none focus:border-emerald-500 transition-all ${
+            className={`w-full border text-xs font-medium p-2.5 rounded-xl flex items-center justify-between focus:outline-none focus:border-emerald-500 transition-all cursor-pointer ${
               isDarkMode ? "bg-slate-950/80 border-slate-800 text-slate-200 hover:bg-slate-900" : "bg-slate-100 border-slate-200 text-slate-800 hover:bg-slate-200/80"
             }`}
           >
@@ -344,7 +346,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
           )}
         </div>
 
-        {/* Min Relevance Slider with Green Accent Handle */}
+        {/* Min Relevance Slider with Emerald Accent Handle */}
         <div className="space-y-2">
           <div className="flex justify-between items-center">
             <label className={`text-xs font-bold flex items-center gap-1.5 ${isDarkMode ? "text-slate-300" : "text-slate-700"}`}>
@@ -387,7 +389,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
             <button
               key={cat}
               onClick={() => toggleCategory(cat)}
-              className={`px-3 py-1 rounded-full text-xs font-semibold transition-all flex items-center gap-1.5 ${
+              className={`px-3 py-1 rounded-full text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer ${
                 isSelected
                   ? "bg-emerald-500 text-slate-950 font-black shadow-md shadow-emerald-500/20"
                   : isDarkMode
@@ -454,14 +456,14 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
             />
             <button
               type="submit"
-              className="px-2.5 py-1 rounded-lg bg-emerald-500 text-slate-950 font-bold text-xs hover:bg-emerald-400"
+              className="px-2.5 py-1 rounded-lg bg-emerald-500 text-slate-950 font-bold text-xs hover:bg-emerald-400 cursor-pointer"
             >
               Save
             </button>
             <button
               type="button"
               onClick={() => setShowSavePreset(false)}
-              className="text-slate-400 hover:text-slate-200 text-xs"
+              className="text-slate-400 hover:text-slate-200 text-xs cursor-pointer"
             >
               Cancel
             </button>
@@ -470,7 +472,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
           <button
             type="button"
             onClick={() => setShowSavePreset(true)}
-            className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-500 hover:text-emerald-400"
+            className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-500 hover:text-emerald-400 cursor-pointer"
           >
             <Plus className="w-3.5 h-3.5" /> Save Current Preset
           </button>

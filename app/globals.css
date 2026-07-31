@@ -5,7 +5,6 @@
 :root {
   --background: #050A0F;
   --foreground: #fafafa;
-  color-scheme: dark;
 }
 
 body {
@@ -13,22 +12,38 @@ body {
   background: var(--background);
 }
 
-/* Custom dark styling for native select options & date pickers */
+/* Custom styling for native select options & date pickers */
 select option {
-  background-color: #0B1320;
-  color: #f1f5f9;
   padding: 8px 12px;
 }
 
-select option:hover,
-select option:focus {
-  background-color: #1e293b;
-  color: #38bdf8;
+/* Custom Range slider thumb accent */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #10b981;
+  border: 2px solid #047857;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+  transition: transform 0.15s ease;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(0.8) sepia(1) saturate(5) hue-rotate(180deg);
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #10b981;
+  border: 2px solid #047857;
   cursor: pointer;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+  transition: transform 0.15s ease;
 }
 
 /* Custom scrollbar */
@@ -78,4 +93,3 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .animate-marquee:hover {
   animation-play-state: paused;
 }
-

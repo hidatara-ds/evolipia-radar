@@ -42,6 +42,42 @@ interface Metrics {
   top_cluster_titles: string[] | null;
 }
 
+function AnimatedCount({ value, duration = 1400 }: { value: number | string; duration?: number }) {
+  const rawStr = String(value).replace(/[^0-9.]/g, "");
+  const targetNumber = parseFloat(rawStr);
+  const isFloat = String(value).includes(".");
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    if (isNaN(targetNumber) || targetNumber === 0) {
+      setCurrent(targetNumber || 0);
+      return;
+    }
+
+    let startTimestamp: number | null = null;
+    const step = (timestamp: number) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      // Smooth cubic ease-out
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      setCurrent(targetNumber * easeOut);
+
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+    };
+
+    window.requestAnimationFrame(step);
+  }, [targetNumber, duration]);
+
+  if (isNaN(targetNumber)) return <span>{value}</span>;
+
+  if (isFloat) {
+    return <span>{current.toFixed(1)}</span>;
+  }
+  return <span>{Math.round(current).toLocaleString()}</span>;
+}
+
 export default function Dashboard() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [emailInput, setEmailInput] = useState("");
@@ -207,7 +243,7 @@ export default function Dashboard() {
         )}
       </div>
 
-      {/* 1. FLOATING LOGO (Top-Left) */}
+      {/* FLOATING LOGO (Top-Left) */}
       <div className="fixed top-5 left-5 sm:left-8 z-50 flex items-center gap-3">
         <div className={`flex items-center gap-3 p-2 pr-4 rounded-2xl border backdrop-blur-2xl shadow-xl transition-all ${
           isDarkMode
@@ -232,7 +268,7 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* 2. FLOATING THEME TOGGLE (Top-Right) */}
+      {/* FLOATING THEME TOGGLE (Top-Right) */}
       <div className="fixed top-5 right-5 sm:right-8 z-50">
         <button
           onClick={() => setIsDarkMode(!isDarkMode)}
@@ -247,7 +283,7 @@ export default function Dashboard() {
         </button>
       </div>
 
-      {/* 3. VIBRANT GREEN PILL-SHAPED FLOATING ACTION BUTTON (FAB) (Bottom-Right) */}
+      {/* VIBRANT GREEN PILL-SHAPED FLOATING ACTION BUTTON (FAB) (Bottom-Right) */}
       <div className="fixed bottom-6 right-6 sm:right-8 z-50">
         <button
           onClick={scrollToSubscribe}
@@ -440,7 +476,7 @@ export default function Dashboard() {
           <MetricCard
             isDarkMode={isDarkMode}
             label="Signals Processed"
-            value={metrics?.articles_processed ?? 12}
+            value={metrics?.articles_processed ?? 1125}
             detail="crawler throughput"
             icon={<FileText className="w-5 h-5" />}
             loading={loading}
@@ -495,7 +531,7 @@ export default function Dashboard() {
           </div>
         </section>
 
-        {/* Central Filter Panel (Spread-out 3-column layout without Verification Status) */}
+        {/* Central Filter Panel */}
         <FilterBar filterHook={filterHook} isDarkMode={isDarkMode} />
 
         {/* Signal Stream / Article List */}
@@ -862,7 +898,9 @@ function BriefingStat({ label, value, detail, icon, isDarkMode }: { label: strin
       <div className="flex items-center justify-between gap-3">
         <div>
           <p className="text-xs font-semibold text-slate-500">{label}</p>
-          <p className={`mt-1 text-2xl font-black ${isDarkMode ? "text-white" : "text-slate-900"}`}>{value}</p>
+          <p className={`mt-1 text-2xl font-black ${isDarkMode ? "text-white" : "text-slate-900"}`}>
+            <AnimatedCount value={value} />
+          </p>
         </div>
         <div className="rounded-xl bg-emerald-500/10 p-2 text-emerald-500">{icon}</div>
       </div>
@@ -875,7 +913,7 @@ function QuickPreset({ label, onClick, icon, isDarkMode }: { label: string; onCl
   return (
     <button
       onClick={onClick}
-      className={`inline-flex items-center gap-2 rounded-full border px-3.5 py-2 text-xs font-black transition-all focus:outline-none focus:ring-2 focus:ring-emerald-400/60 ${
+      className={`inline-flex items-center gap-2 rounded-full border px-3.5 py-2 text-xs font-black transition-all focus:outline-none focus:ring-2 focus:ring-emerald-400/60 cursor-pointer ${
         isDarkMode
           ? "border-white/10 bg-slate-950/70 text-slate-300 hover:border-emerald-400/40 hover:bg-emerald-400/10 hover:text-emerald-200"
           : "border-slate-200 bg-slate-100 text-slate-700 hover:border-emerald-500/40 hover:bg-emerald-50 hover:text-emerald-800"
@@ -931,7 +969,7 @@ function MetricCard({
             <div className="h-8 w-16 bg-slate-400/20 rounded animate-pulse" />
           ) : (
             <span className={`text-2xl sm:text-3xl font-black tracking-tight ${isDarkMode ? "text-white" : "text-slate-900"}`}>
-              {value}
+              <AnimatedCount value={value} />
             </span>
           )}
           {suffix && <span className="text-xs font-semibold text-slate-500">{suffix}</span>}
