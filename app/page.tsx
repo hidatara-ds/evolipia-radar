@@ -44,7 +44,6 @@ interface Metrics {
 
 export default function Dashboard() {
   const [isDarkMode, setIsDarkMode] = useState(true);
-  const [activeTab, setActiveTab] = useState("Signals");
   const [emailInput, setEmailInput] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
@@ -187,12 +186,12 @@ export default function Dashboard() {
   };
 
   return (
-    <main className={`min-h-screen font-sans transition-colors duration-300 ${
+    <main className={`min-h-screen font-sans transition-colors duration-300 relative ${
       isDarkMode
         ? "bg-[#050A0F] text-[#F8FAFC] selection:bg-emerald-500/30"
         : "bg-slate-50 text-slate-900 selection:bg-emerald-500/20"
     }`}>
-      {/* Background Decorative Ambient Glows */}
+      {/* Background Ambient Glows */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
         {isDarkMode ? (
           <>
@@ -208,92 +207,59 @@ export default function Dashboard() {
         )}
       </div>
 
-      {/* 1. Complete Navbar Overhaul */}
-      <header className={`sticky top-0 z-[60] backdrop-blur-2xl transition-colors border-b ${
-        isDarkMode
-          ? "border-white/10 bg-[#050A0F]/85 text-white"
-          : "border-slate-200/80 bg-white/85 text-slate-900 shadow-sm"
-      }`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between gap-4">
-          
-          {/* Left Side: Brand Logo & Title */}
-          <div className="flex items-center gap-8">
-            <div className="flex items-center gap-3">
-              <div className="relative shrink-0">
-                <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-2xl blur opacity-30" />
-                <img
-                  src="/assets/icon.webp"
-                  alt="Evolipia logo"
-                  loading="lazy"
-                  className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-2xl border border-white/10 shadow-md object-cover"
-                />
-              </div>
-              <div>
-                <h1 className="text-lg sm:text-xl font-black tracking-tight flex items-center gap-2">
-                  Evolipia
-                </h1>
-                <p className={`text-[11px] font-medium hidden sm:block ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
-                  AI Intelligence Platform
-                </p>
-              </div>
-            </div>
-
-            {/* Clean Standard SaaS Inline Text Navigation Menu (No Floating Pill Background) */}
-            <nav className="hidden md:flex items-center gap-7">
-              {["Signals", "Analytics", "Sources", "Briefings"].map((tab) => {
-                const isActive = activeTab === tab;
-                return (
-                  <button
-                    key={tab}
-                    onClick={() => setActiveTab(tab)}
-                    className={`text-sm font-semibold transition-all relative py-1 focus:outline-none ${
-                      isActive
-                        ? "text-emerald-500 font-bold"
-                        : isDarkMode
-                        ? "text-slate-400 hover:text-white"
-                        : "text-slate-600 hover:text-slate-900"
-                    }`}
-                  >
-                    {tab}
-                    {isActive && (
-                      <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-500 rounded-full" />
-                    )}
-                  </button>
-                );
-              })}
-            </nav>
+      {/* 1. FLOATING LOGO (Top-Left) */}
+      <div className="fixed top-5 left-5 sm:left-8 z-50 flex items-center gap-3">
+        <div className={`flex items-center gap-3 p-2 pr-4 rounded-2xl border backdrop-blur-2xl shadow-xl transition-all ${
+          isDarkMode
+            ? "bg-slate-950/80 border-white/10 text-white"
+            : "bg-white/90 border-slate-200 text-slate-900 shadow-md"
+        }`}>
+          <div className="relative shrink-0">
+            <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-xl blur opacity-30" />
+            <img
+              src="/assets/icon.webp"
+              alt="Evolipia logo"
+              loading="lazy"
+              className="relative w-8 h-8 rounded-xl border border-white/10 shadow-sm object-cover"
+            />
           </div>
-
-          {/* Far Right Action: Theme Toggle & Subscribe Button ONLY */}
-          <div className="flex items-center gap-3">
-            {/* Theme Toggle (Sun/Moon) */}
-            <button
-              onClick={() => setIsDarkMode(!isDarkMode)}
-              className={`p-2.5 rounded-xl border transition-all ${
-                isDarkMode
-                  ? "bg-slate-900/90 border-slate-800 text-amber-400 hover:bg-slate-800"
-                  : "bg-slate-100 border-slate-200 text-slate-700 hover:bg-slate-200"
-              }`}
-              title={isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
-            >
-              {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4 text-slate-700" />}
-            </button>
-
-            {/* Subscribe Action Button */}
-            <button
-              onClick={scrollToSubscribe}
-              className="px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs shadow-md shadow-emerald-500/20 transition-all flex items-center gap-1.5 active:scale-95 cursor-pointer"
-            >
-              <Mail className="w-3.5 h-3.5" />
-              <span>Subscribe</span>
-            </button>
+          <div>
+            <h1 className="text-base font-black tracking-tight leading-none">Evolipia</h1>
+            <span className={`text-[10px] font-bold block mt-0.5 ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
+              AI Radar
+            </span>
           </div>
-
         </div>
-      </header>
+      </div>
+
+      {/* 2. FLOATING THEME TOGGLE (Top-Right) */}
+      <div className="fixed top-5 right-5 sm:right-8 z-50">
+        <button
+          onClick={() => setIsDarkMode(!isDarkMode)}
+          className={`p-3 rounded-2xl border backdrop-blur-2xl shadow-xl transition-all hover:scale-105 active:scale-95 cursor-pointer ${
+            isDarkMode
+              ? "bg-slate-950/80 border-white/10 text-amber-400 hover:bg-slate-900"
+              : "bg-white/90 border-slate-200 text-slate-700 hover:bg-slate-100 shadow-md"
+          }`}
+          title={isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
+        >
+          {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5 text-slate-700" />}
+        </button>
+      </div>
+
+      {/* 3. VIBRANT GREEN PILL-SHAPED FLOATING ACTION BUTTON (FAB) (Bottom-Right) */}
+      <div className="fixed bottom-6 right-6 sm:right-8 z-50">
+        <button
+          onClick={scrollToSubscribe}
+          className="px-5 py-3.5 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm shadow-2xl shadow-emerald-500/40 transition-all flex items-center gap-2.5 hover:scale-105 active:scale-95 cursor-pointer border border-emerald-300/40"
+        >
+          <Mail className="w-4 h-4" />
+          <span>Subscribe</span>
+        </button>
+      </div>
 
       {/* Main Dashboard Container */}
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-6 pb-20">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 pb-20 space-y-6">
         
         {/* Research Modes Toolbar & Main Hero Banner */}
         <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1.5fr)_minmax(20rem,0.8fr)] gap-5">
@@ -452,20 +418,21 @@ export default function Dashboard() {
             <button
               onClick={startManualCrawl}
               disabled={isCrawling}
-              className="mt-5 w-full rounded-2xl bg-emerald-500 px-4 py-3.5 text-sm font-black text-slate-950 shadow-lg shadow-emerald-500/20 transition-all hover:bg-emerald-400 disabled:cursor-not-allowed disabled:bg-slate-400 disabled:text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-400/60"
+              className="mt-5 w-full rounded-2xl bg-emerald-500 px-4 py-3.5 text-sm font-black text-slate-950 shadow-lg shadow-emerald-500/20 transition-all hover:bg-emerald-400 disabled:cursor-not-allowed disabled:bg-slate-400 disabled:text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 cursor-pointer"
             >
               {isCrawling ? "Crawl running..." : "Trigger Signal Crawl"}
             </button>
           </aside>
         </section>
 
-        {/* Crawl Progress Notification Component */}
+        {/* Crawl Progress Component with Strict Theme Sync */}
         <CrawlProgress
           progressState={progressState}
           isCrawling={isCrawling}
           onStartManualCrawl={startManualCrawl}
           toastMessage={toastMessage}
           onClearToast={clearToast}
+          isDarkMode={isDarkMode}
         />
 
         {/* Consolidated Key Stats & Line Graph Cards */}
@@ -528,7 +495,7 @@ export default function Dashboard() {
           </div>
         </section>
 
-        {/* Central Filter Panel */}
+        {/* Central Filter Panel (Spread-out 3-column layout without Verification Status) */}
         <FilterBar filterHook={filterHook} isDarkMode={isDarkMode} />
 
         {/* Signal Stream / Article List */}
@@ -679,7 +646,7 @@ export default function Dashboard() {
           </div>
         )}
 
-        {/* 6. Consolidated CTA Section (Dark-patterned CTA card) */}
+        {/* Consolidated CTA Section */}
         <section id="subscribe-section" className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-slate-950 via-slate-900 to-black p-8 sm:p-12 text-white shadow-2xl mt-16 scroll-mt-28">
           <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none" />
           <div className="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl pointer-events-none" />
@@ -718,7 +685,7 @@ export default function Dashboard() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full sm:w-auto h-12 px-6 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm shadow-xl shadow-emerald-500/25 transition-all shrink-0 active:scale-95"
+                  className="w-full sm:w-auto h-12 px-6 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm shadow-xl shadow-emerald-500/25 transition-all shrink-0 active:scale-95 cursor-pointer"
                 >
                   Subscribe Free
                 </button>
@@ -729,7 +696,7 @@ export default function Dashboard() {
 
       </div>
 
-      {/* 7. Unified Footer */}
+      {/* Unified Footer */}
       <footer className={`border-t py-12 transition-colors ${
         isDarkMode ? "border-white/10 bg-slate-950 text-slate-400" : "border-slate-200 bg-slate-100 text-slate-600"
       }`}>

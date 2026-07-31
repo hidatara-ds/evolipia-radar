@@ -5,7 +5,6 @@ import { useFilters, FilterPreset } from "../hooks/useFilters";
 import {
   Search,
   Calendar,
-  SlidersHorizontal,
   Bookmark,
   RotateCcw,
   Plus,
@@ -15,10 +14,6 @@ import {
   Filter,
   Sparkles,
   ArrowUpDown,
-  Layers,
-  CheckCircle2,
-  Clock,
-  AlertTriangle,
   X,
 } from "lucide-react";
 
@@ -49,13 +44,6 @@ const DATE_RANGE_OPTIONS = [
   { id: "custom", label: "Custom" },
 ];
 
-const STATUS_OPTIONS = [
-  { id: "all", label: "All Items", icon: Layers },
-  { id: "verified", label: "Verified", icon: CheckCircle2 },
-  { id: "pending", label: "Pending", icon: Clock },
-  { id: "failed", label: "Failed", icon: AlertTriangle },
-];
-
 const SORT_OPTIONS = [
   { id: "date_desc", label: "Date (Newest)", sortBy: "date", sortOrder: "desc" },
   { id: "date_asc", label: "Date (Oldest)", sortBy: "date", sortOrder: "asc" },
@@ -79,8 +67,6 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
     setSelectedCategories,
     minRelevance,
     setMinRelevance,
-    status,
-    setStatus,
     sortBy,
     setSortBy,
     sortOrder,
@@ -189,7 +175,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
 
         {/* Sort Selector & Reset */}
         <div className="flex items-center gap-3 shrink-0">
-          <div className={`relative flex items-center h-11 border rounded-xl px-3.5 transition-all ${
+          <div className={`relative flex items-center h-11 border rounded-xl px-3.5 pr-8 transition-all ${
             isDarkMode ? "bg-slate-950/90 border-slate-800 hover:border-slate-700" : "bg-slate-100 border-slate-200 hover:border-slate-300"
           }`}>
             <ArrowUpDown className="w-3.5 h-3.5 text-emerald-500 mr-2 shrink-0" />
@@ -202,7 +188,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
                   setSortOrder(opt.sortOrder);
                 }
               }}
-              className={`bg-transparent text-xs font-semibold focus:outline-none cursor-pointer pr-5 appearance-none ${
+              className={`bg-transparent text-xs font-bold focus:outline-none cursor-pointer appearance-none truncate pr-2 ${
                 isDarkMode ? "text-slate-200" : "text-slate-800"
               }`}
             >
@@ -212,7 +198,7 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
                 </option>
               ))}
             </select>
-            <ChevronDown className="w-3 h-3 text-slate-400 pointer-events-none absolute right-3" />
+            <ChevronDown className="w-3.5 h-3.5 text-slate-400 pointer-events-none absolute right-3" />
           </div>
 
           <button
@@ -230,8 +216,8 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
         </div>
       </div>
 
-      {/* Main Filter Section */}
-      <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pt-4 border-t ${
+      {/* Main Filter Section (3 Spread-out columns without Verification Status) */}
+      <div className={`grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t ${
         isDarkMode ? "border-slate-800/70" : "border-slate-200"
       }`}>
         
@@ -358,11 +344,11 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
           )}
         </div>
 
-        {/* Min Relevance Slider */}
+        {/* Min Relevance Slider with Green Accent Handle */}
         <div className="space-y-2">
           <div className="flex justify-between items-center">
             <label className={`text-xs font-bold flex items-center gap-1.5 ${isDarkMode ? "text-slate-300" : "text-slate-700"}`}>
-              <Sparkles className="w-3.5 h-3.5 text-amber-500" /> Min Relevance
+              <Sparkles className="w-3.5 h-3.5 text-emerald-500" /> Min Relevance
             </label>
             <span className={`text-xs font-mono font-bold px-2 py-0.5 rounded-md border ${
               isDarkMode ? "text-emerald-300 bg-emerald-950/60 border-emerald-800/40" : "text-emerald-800 bg-emerald-50 border-emerald-200"
@@ -385,38 +371,6 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
             <button onClick={() => setMinRelevance(0)} className={isDarkMode ? "hover:text-slate-300" : "hover:text-slate-800"}>0% (All)</button>
             <button onClick={() => setMinRelevance(50)} className={isDarkMode ? "hover:text-slate-300" : "hover:text-slate-800"}>50%</button>
             <button onClick={() => setMinRelevance(80)} className={isDarkMode ? "hover:text-slate-300" : "hover:text-slate-800"}>80% (High)</button>
-          </div>
-        </div>
-
-        {/* Radio Box Segment: Verification Status */}
-        <div className="space-y-2">
-          <label className={`text-xs font-bold flex items-center gap-1.5 ${isDarkMode ? "text-slate-300" : "text-slate-700"}`}>
-            <SlidersHorizontal className="w-3.5 h-3.5 text-emerald-500" /> Verification Status
-          </label>
-          <div className={`grid grid-cols-2 gap-1 p-1 border rounded-xl ${
-            isDarkMode ? "bg-slate-950/80 border-slate-800" : "bg-slate-100 border-slate-200"
-          }`}>
-            {STATUS_OPTIONS.map(opt => {
-              const isActive = status === opt.id;
-              const IconComponent = opt.icon;
-              return (
-                <button
-                  key={opt.id}
-                  type="button"
-                  onClick={() => setStatus(opt.id)}
-                  className={`px-2 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center justify-center gap-1.5 ${
-                    isActive
-                      ? "bg-emerald-500 text-slate-950 font-black shadow-md shadow-emerald-500/20"
-                      : isDarkMode
-                      ? "text-slate-400 hover:text-slate-200 hover:bg-slate-900"
-                      : "text-slate-600 hover:text-slate-900 hover:bg-slate-200"
-                  }`}
-                >
-                  <IconComponent className="w-3 h-3" />
-                  <span className="truncate">{opt.label}</span>
-                </button>
-              );
-            })}
           </div>
         </div>
 
@@ -448,34 +402,36 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
         })}
       </div>
 
-      {/* Saved Presets Toolbar */}
+      {/* Presets Management Bar */}
       <div className={`pt-3 border-t flex flex-wrap items-center justify-between gap-3 text-xs ${
-        isDarkMode ? "border-slate-800/60" : "border-slate-200"
+        isDarkMode ? "border-slate-800/60 text-slate-400" : "border-slate-200 text-slate-500"
       }`}>
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className={`font-bold flex items-center gap-1 ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="font-bold flex items-center gap-1">
             <Bookmark className="w-3.5 h-3.5 text-emerald-500" /> Presets:
           </span>
-
           {savedPresets.length === 0 ? (
-            <span className={isDarkMode ? "text-slate-600 italic" : "text-slate-400 italic"}>No saved filter presets yet</span>
+            <span className="italic text-[11px]">No saved presets yet</span>
           ) : (
             savedPresets.map((preset: FilterPreset) => (
               <div
                 key={preset.id}
-                className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg border transition-all ${
-                  isDarkMode
-                    ? "bg-slate-800/80 border-slate-700/60 text-slate-200 hover:bg-slate-700/80"
-                    : "bg-slate-100 border-slate-200 text-slate-800 hover:bg-slate-200"
+                className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border text-[11px] font-semibold transition-all ${
+                  isDarkMode ? "bg-slate-950 border-slate-800 text-slate-300" : "bg-slate-100 border-slate-200 text-slate-700"
                 }`}
               >
-                <button onClick={() => loadPreset(preset)} className="font-semibold hover:underline">
+                <button
+                  type="button"
+                  onClick={() => loadPreset(preset)}
+                  className="hover:text-emerald-500 transition-colors"
+                >
                   {preset.name}
                 </button>
                 <button
+                  type="button"
                   onClick={() => deletePreset(preset.id)}
-                  className="text-slate-400 hover:text-rose-500 ml-1 p-0.5"
-                  title="Delete Preset"
+                  className="text-slate-500 hover:text-rose-400 transition-colors"
+                  title="Delete preset"
                 >
                   <Trash2 className="w-3 h-3" />
                 </button>
@@ -484,49 +440,41 @@ export const FilterBar: React.FC<{ filterHook: ReturnType<typeof useFilters>; is
           )}
         </div>
 
-        {/* Save Current Preset Button */}
-        <div>
-          {!showSavePreset ? (
-            <button
-              onClick={() => setShowSavePreset(true)}
-              className={`px-3 py-1 rounded-lg border font-semibold flex items-center gap-1.5 transition-all ${
-                isDarkMode
-                  ? "bg-emerald-950/60 border-emerald-700/60 text-emerald-300 hover:bg-emerald-900"
-                  : "bg-emerald-50 border-emerald-300 text-emerald-800 hover:bg-emerald-100"
+        {showSavePreset ? (
+          <form onSubmit={handleSavePreset} className="flex items-center gap-2">
+            <input
+              type="text"
+              placeholder="Preset name..."
+              value={presetNameInput}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPresetNameInput(e.target.value)}
+              className={`px-2.5 py-1 text-xs rounded-lg border focus:outline-none focus:border-emerald-500 ${
+                isDarkMode ? "bg-slate-950 border-slate-800 text-slate-200" : "bg-white border-slate-300 text-slate-900"
               }`}
+              autoFocus
+            />
+            <button
+              type="submit"
+              className="px-2.5 py-1 rounded-lg bg-emerald-500 text-slate-950 font-bold text-xs hover:bg-emerald-400"
             >
-              <Plus className="w-3.5 h-3.5" /> Save Filter Preset
+              Save
             </button>
-          ) : (
-            <form onSubmit={handleSavePreset} className="flex items-center gap-1.5">
-              <input
-                type="text"
-                placeholder="Preset Name..."
-                value={presetNameInput}
-                onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPresetNameInput(e.target.value)}
-                className={`text-xs px-2.5 py-1 rounded-lg border focus:outline-none focus:border-emerald-500 ${
-                  isDarkMode ? "bg-slate-950 border-slate-700 text-slate-100" : "bg-white border-slate-300 text-slate-900"
-                }`}
-                autoFocus
-              />
-              <button
-                type="submit"
-                className="px-2.5 py-1 bg-emerald-500 hover:bg-emerald-400 text-slate-950 rounded-lg text-xs font-black transition-all"
-              >
-                Save
-              </button>
-              <button
-                type="button"
-                onClick={() => setShowSavePreset(false)}
-                className={`px-2.5 py-1 rounded-lg text-xs ${
-                  isDarkMode ? "bg-slate-800 text-slate-400 hover:text-slate-200" : "bg-slate-200 text-slate-600 hover:text-slate-900"
-                }`}
-              >
-                Cancel
-              </button>
-            </form>
-          )}
-        </div>
+            <button
+              type="button"
+              onClick={() => setShowSavePreset(false)}
+              className="text-slate-400 hover:text-slate-200 text-xs"
+            >
+              Cancel
+            </button>
+          </form>
+        ) : (
+          <button
+            type="button"
+            onClick={() => setShowSavePreset(true)}
+            className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-500 hover:text-emerald-400"
+          >
+            <Plus className="w-3.5 h-3.5" /> Save Current Preset
+          </button>
+        )}
       </div>
     </div>
   );
