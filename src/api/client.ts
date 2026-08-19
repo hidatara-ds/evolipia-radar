@@ -31,6 +31,7 @@ export interface NewsItem {
   created_at: string;
   scaled_score?: number;
   tldr?: string;
+  summary?: string;
   why_it_matters?: string;
   tags?: string[];
   impact?: number;

@@ -1,8 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { CrawlProgressEvent } from "../hooks/useCrawlProgress";
-import { CheckCircle2, AlertCircle, Loader2, Play } from "lucide-react";
+import { CheckCircle2, AlertCircle, Loader2, Play, ChevronDown, ChevronUp, Terminal, Shield } from "lucide-react";
 
 interface CrawlProgressProps {
   progressState: CrawlProgressEvent | null;
@@ -30,164 +30,149 @@ export const CrawlProgress: React.FC<CrawlProgressProps> = ({
   onClearToast,
   isDarkMode = true,
 }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
   const currentStep = progressState?.step || (isCrawling ? 1 : 0);
   const progressPct = progressState?.progress ?? (isCrawling ? 10 : 0);
 
   return (
-    <div className={`w-full rounded-2xl p-5 sm:p-6 mb-6 transition-all border ${
-      isDarkMode
-        ? "bg-slate-950/70 border-white/10 text-slate-100 shadow-2xl"
-        : "bg-white border-slate-200 text-slate-900 shadow-lg"
-    }`}>
-      {/* Header & Controls */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
-        <div>
-          <h3 className={`text-lg font-black flex items-center gap-2 ${
-            isDarkMode ? "text-white" : "text-slate-900"
+    <div
+      className={`w-full rounded-2xl transition-all border ${
+        isDarkMode
+          ? "bg-[#09131D]/60 border-white/10 text-slate-100"
+          : "bg-slate-50 border-slate-200 text-slate-900 shadow-sm"
+      }`}
+    >
+      {/* Compact Header Bar */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4">
+        <div className="flex items-center gap-3">
+          <div className={`p-2 rounded-xl border ${
+            isDarkMode ? "bg-slate-900 border-white/10 text-emerald-400" : "bg-white border-slate-200 text-emerald-600"
           }`}>
-            {isCrawling ? (
-              <Loader2 className="w-5 h-5 text-emerald-400 animate-spin" />
-            ) : (
-              <CheckCircle2 className="w-5 h-5 text-emerald-500" />
-            )}
-            Auto-Crawl Status & Real-time Progress
-          </h3>
-          <p className={`text-xs mt-0.5 ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
-            {isCrawling
-              ? progressState?.message || "Crawler is actively running..."
-              : "Auto-scheduler runs every 6 hours automatically."}
-          </p>
+            <Terminal className="w-4 h-4" />
+          </div>
+          <div>
+            <div className="flex items-center gap-2">
+              <h4 className="text-xs font-black uppercase tracking-wider">
+                Developer &amp; Crawler Status
+              </h4>
+              <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full border ${
+                isCrawling
+                  ? "bg-amber-500/20 border-amber-500/30 text-amber-400 font-bold animate-pulse"
+                  : "bg-emerald-500/10 border-emerald-500/20 text-emerald-400 font-semibold"
+              }`}>
+                {isCrawling ? "Active Crawl" : "Background Sync Idle"}
+              </span>
+            </div>
+            <p className={`text-[11px] mt-0.5 ${isDarkMode ? "text-slate-400" : "text-slate-500"}`}>
+              {isCrawling
+                ? progressState?.message || "Collecting and embedding incoming signals..."
+                : "Continuous NLP extraction running on 6h schedule."}
+            </p>
+          </div>
         </div>
 
-        <button
-          onClick={onStartManualCrawl}
-          disabled={isCrawling}
-          className={`px-4 py-2.5 rounded-xl text-xs font-black flex items-center justify-center gap-2 transition-all ${
-            isCrawling
-              ? isDarkMode
+        <div className="flex items-center gap-2">
+          <button
+            onClick={onStartManualCrawl}
+            disabled={isCrawling}
+            className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
+              isCrawling
                 ? "bg-slate-800 text-slate-500 cursor-not-allowed border border-slate-700"
-                : "bg-slate-200 text-slate-400 cursor-not-allowed border border-slate-300"
-              : "bg-emerald-500 hover:bg-emerald-400 text-slate-950 shadow-md shadow-emerald-500/20 active:scale-95 cursor-pointer"
-          }`}
-        >
-          {isCrawling ? (
-            <>
-              <Loader2 className="w-4 h-4 animate-spin" />
-              Crawling In Progress...
-            </>
-          ) : (
-            <>
-              <Play className="w-4 h-4 fill-current" />
-              Trigger Manual Crawl
-            </>
-          )}
-        </button>
+                : "bg-emerald-500 hover:bg-emerald-400 text-slate-950 shadow-md shadow-emerald-500/20 active:scale-95"
+            }`}
+          >
+            {isCrawling ? (
+              <>
+                <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                Crawling...
+              </>
+            ) : (
+              <>
+                <Play className="w-3.5 h-3.5 fill-current" />
+                Trigger Crawl
+              </>
+            )}
+          </button>
+
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className={`p-1.5 rounded-xl border transition-all cursor-pointer ${
+              isDarkMode ? "bg-slate-900 border-white/10 text-slate-400 hover:text-white" : "bg-white border-slate-200 text-slate-600 hover:text-slate-900"
+            }`}
+            title={isExpanded ? "Collapse Details" : "Expand Technical Monitor"}
+          >
+            {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
+        </div>
       </div>
 
-      {/* Progress Bar & Details */}
-      {isCrawling && (
-        <div className={`space-y-3 mt-4 pt-4 border-t ${isDarkMode ? "border-white/10" : "border-slate-200"}`}>
-          <div className="flex justify-between text-xs font-semibold">
-            <span className={isDarkMode ? "text-slate-300" : "text-slate-700"}>
-              {progressState?.current_source
-                ? `Current Source: ${progressState.current_source}`
-                : progressState?.message || "Processing..."}
-            </span>
-            <span className="font-mono text-emerald-500">{progressPct}%</span>
-          </div>
-
-          {/* Progress Bar Container */}
-          <div className={`w-full h-2.5 rounded-full overflow-hidden ${isDarkMode ? "bg-slate-800" : "bg-slate-200"}`}>
-            <div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-400 transition-all duration-300 ease-out"
-              style={{ width: `${Math.max(5, Math.min(100, progressPct))}%` }}
-            />
-          </div>
-
-          {/* Estimated Time Remaining */}
-          {progressState?.estimated_remaining_secs !== undefined && (
-            <div className="text-right text-xs text-emerald-500 font-mono font-bold">
-              Estimated time remaining: ~{progressState.estimated_remaining_secs}s
+      {/* Expanded Technical Inspector */}
+      {(isExpanded || isCrawling) && (
+        <div className={`p-4 border-t space-y-4 ${isDarkMode ? "border-white/10 bg-slate-950/40" : "border-slate-200 bg-white"}`}>
+          {isCrawling && (
+            <div className="space-y-2">
+              <div className="flex justify-between text-xs font-mono font-semibold">
+                <span className={isDarkMode ? "text-slate-300" : "text-slate-700"}>
+                  {progressState?.current_source
+                    ? `Ingesting source: ${progressState.current_source}`
+                    : progressState?.message || "Parsing..."}
+                </span>
+                <span className="text-emerald-400 font-bold">{progressPct}%</span>
+              </div>
+              <div className="w-full h-2 rounded-full overflow-hidden bg-slate-800">
+                <div
+                  className="h-full bg-gradient-to-r from-emerald-500 to-cyan-400 transition-all duration-300"
+                  style={{ width: `${Math.max(5, Math.min(100, progressPct))}%` }}
+                />
+              </div>
             </div>
           )}
+
+          {/* Stepper details */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2">
+            {STEPS.map((stepLabel, idx) => {
+              const stepNum = idx + 1;
+              const isActive = currentStep === stepNum;
+              const isDone = currentStep > stepNum || (!isCrawling && progressState?.is_complete);
+
+              return (
+                <div
+                  key={idx}
+                  className={`p-2 rounded-xl text-[11px] font-medium border ${
+                    isActive
+                      ? "bg-emerald-950/60 border-emerald-500 text-emerald-200"
+                      : isDone
+                      ? "bg-slate-900/60 border-emerald-500/40 text-emerald-400"
+                      : "bg-slate-900/20 border-slate-800 text-slate-500"
+                  }`}
+                >
+                  <div className="flex items-center gap-1 font-mono text-[10px] font-bold mb-0.5">
+                    {isDone ? (
+                      <CheckCircle2 className="w-3 h-3 text-emerald-400" />
+                    ) : isActive ? (
+                      <Loader2 className="w-3 h-3 text-emerald-400 animate-spin" />
+                    ) : (
+                      <span>Step {stepNum}</span>
+                    )}
+                  </div>
+                  <p className="truncate font-sans text-xs">{stepLabel}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       )}
 
-      {/* Step Indicator Stepper */}
-      <div className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 mt-4 pt-4 border-t ${
-        isDarkMode ? "border-white/10" : "border-slate-200"
-      }`}>
-        {STEPS.map((stepLabel, idx) => {
-          const stepNum = idx + 1;
-          const isActive = currentStep === stepNum;
-          const isDone = currentStep > stepNum || (!isCrawling && progressState?.is_complete);
-
-          return (
-            <div
-              key={idx}
-              className={`p-2.5 rounded-xl text-xs font-medium border transition-all ${
-                isActive
-                  ? isDarkMode
-                    ? "bg-emerald-950/60 border-emerald-500 text-emerald-200 shadow-sm"
-                    : "bg-emerald-50 border-emerald-500 text-emerald-900 font-bold shadow-sm"
-                  : isDone
-                  ? isDarkMode
-                    ? "bg-slate-900 border-emerald-500/40 text-emerald-400"
-                    : "bg-emerald-50/50 border-emerald-300 text-emerald-800"
-                  : isDarkMode
-                  ? "bg-slate-900/40 border-slate-800 text-slate-500"
-                  : "bg-slate-100/80 border-slate-200 text-slate-500"
-              }`}
-            >
-              <div className="flex items-center gap-1.5 mb-1">
-                {isDone ? (
-                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                ) : isActive ? (
-                  <Loader2 className="w-3.5 h-3.5 text-emerald-400 animate-spin shrink-0" />
-                ) : (
-                  <span className={`w-4 h-4 rounded-full border text-[10px] flex items-center justify-center font-mono shrink-0 ${
-                    isDarkMode ? "border-slate-700 text-slate-400" : "border-slate-300 text-slate-500"
-                  }`}>
-                    {stepNum}
-                  </span>
-                )}
-                <span className="font-bold text-[11px] tracking-wide uppercase">Step {stepNum}</span>
-              </div>
-              <p className={`truncate text-xs font-medium ${
-                isDarkMode ? "text-slate-300" : "text-slate-700"
-              }`}>{stepLabel}</p>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Toast Notification Banner */}
+      {/* Toast Notification */}
       {toastMessage && (
-        <div
-          className={`mt-4 p-3 rounded-xl border text-xs font-medium flex items-center justify-between ${
-            toastMessage.type === "success"
-              ? isDarkMode
-                ? "bg-emerald-950/80 border-emerald-500/50 text-emerald-200"
-                : "bg-emerald-50 border-emerald-300 text-emerald-900"
-              : isDarkMode
-              ? "bg-rose-950/80 border-rose-500/50 text-rose-200"
-              : "bg-rose-50 border-rose-300 text-rose-900"
-          }`}
-        >
+        <div className={`p-3 border-t text-xs font-medium flex items-center justify-between ${
+          toastMessage.type === "success" ? "bg-emerald-950/80 text-emerald-200" : "bg-rose-950/80 text-rose-200"
+        }`}>
           <div className="flex items-center gap-2">
-            {toastMessage.type === "success" ? (
-              <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-            ) : (
-              <AlertCircle className="w-4 h-4 text-rose-500 shrink-0" />
-            )}
+            {toastMessage.type === "success" ? <CheckCircle2 className="w-4 h-4 text-emerald-400" /> : <AlertCircle className="w-4 h-4 text-rose-400" />}
             <span>{toastMessage.text}</span>
           </div>
-          <button
-            onClick={onClearToast}
-            className={`text-xs px-2 py-1 rounded font-bold ${
-              isDarkMode ? "text-slate-400 hover:text-slate-200 bg-slate-900/60" : "text-slate-600 hover:text-slate-900 bg-slate-200/80"
-            }`}
-          >
+          <button onClick={onClearToast} className="text-xs font-bold text-slate-400 hover:text-white">
             Dismiss
           </button>
         </div>

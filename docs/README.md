@@ -17,6 +17,7 @@ Each documentation file has a clear, dedicated purpose and scope:
 | 🗄️ [**DATABASE_SCHEMA.md**](file:///e:/evolipia-radar-1/docs/DATABASE_SCHEMA.md) | **Database Schema & ERD**: ERD diagram, Neon.tech PostgreSQL table structures (`sources`, `items`, `scores`, `summaries`, `signals`, `settings`), `pgvector` vector embedding support, and migration history `000001` - `000008`. |
 | 🛠️ [**DEVELOPMENT_GUIDE.md**](file:///e:/evolipia-radar-1/docs/DEVELOPMENT_GUIDE.md) | **Setup & Dev Workflow**: Prerequisites, step-by-step local setup (Windows/Linux/macOS), Environment Variables reference table, running backend/worker/frontend, and unit testing. |
 | 🚀 [**DEPLOYMENT_GUIDE.md**](file:///e:/evolipia-radar-1/docs/DEPLOYMENT_GUIDE.md) | **Production & Infrastructure**: Production deployment instructions for Go backend & worker on **Fly.io**, frontend on **Vercel**, Docker Compose, Kubernetes, and Terraform. |
+| 🛡️ [**SECURITY_TRACKER_GUIDE.md**](file:///e:/evolipia-radar-1/docs/SECURITY_TRACKER_GUIDE.md) | **Security & Anti-Theft Telemetry**: Canarytokens setup, email alert beacons, visitor counter badges, and GitHub Action clone tracking. |
 | 📋 [**openapi.yaml**](file:///e:/evolipia-radar-1/docs/openapi.yaml) | **OpenAPI 3.0 Specification**: Machine-readable REST API specification in OpenAPI YAML format for SDK generators and Swagger UI. |
 | 🤝 [**CONTRIBUTING.md**](file:///e:/evolipia-radar-1/docs/CONTRIBUTING.md) | **Contribution Guidelines**: Code style standards (Go & TypeScript), git flow, and pull request procedures. |
 

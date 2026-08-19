@@ -49,7 +49,7 @@ primary_region = "sin"
 
 - **Set Secret Environment Variables**:
   ```bash
-  fly secrets set DATABASE_URL="postgres://user:password@ep-cool-neon.singapore.aws.neon.tech/radar?sslmode=require" LLM_API_KEY="sk-or-v1-your-key"
+  fly secrets set DATABASE_URL="postgres://YOUR_DB_USER:YOUR_DB_PASSWORD@YOUR_NEON_HOST.neon.tech/radar?sslmode=require" LLM_API_KEY="sk-or-v1-your-key"
   ```
 - **Deploy Command**:
   ```bash
@@ -71,7 +71,7 @@ primary_region = "sin"
 
 - **Set Secret & Deploy Worker**:
   ```bash
-  fly secrets set --app evolipia-radar-worker DATABASE_URL="postgres://user:password@ep-cool-neon.singapore.aws.neon.tech/radar?sslmode=require"
+  fly secrets set --app evolipia-radar-worker DATABASE_URL="postgres://YOUR_DB_USER:YOUR_DB_PASSWORD@YOUR_NEON_HOST.neon.tech/radar?sslmode=require"
   fly deploy --config fly.worker.toml
   ```
 
