@@ -1,15 +1,35 @@
-# Evolipia Radar: AI-Powered News Intelligence & Auto-Crawler Platform
+<div align="center">
 
-> AI Research Intelligence Platform -- Go Backend + Next.js Frontend + PostgreSQL
+# 📡 EVOLIPIA RADAR
+### Next-Gen AI/ML Research Intelligence & Real-Time Auto-Crawler Platform
 
-[![Go](https://img.shields.io/badge/Go-1.24.1-00ADD8?logo=go&logoColor=white)](https://go.dev/)
-[![Next.js](https://img.shields.io/badge/Next.js-15.5-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Repository Views](https://komarev.com/ghpvc/?username=hidatara-ds&repo=evolipia-radar&label=Repository%20Views&color=blue&style=flat-square)](https://github.com/hidatara-ds/evolipia-radar)
-[![Hits Tracker](https://hits.seeyoufarm.org/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhidatara-ds%2Fevolipia-radar&count_bg=%237928CA&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.org)
-[![Security Tracker Active](https://img.shields.io/badge/Security-Canary%20Telemetry%20Active-brightgreen?style=flat-square&logo=shield)](docs/SECURITY_TRACKER_GUIDE.md)
+[![Go](https://img.shields.io/badge/Go-1.24.1-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.5-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16%20%2B%20pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://neon.tech/)
+[![Fly.io](https://img.shields.io/badge/Fly.io-Production-24185B?style=for-the-badge&logo=fly.io&logoColor=white)](https://fly.io)
 
-Evolipia Radar is an automated news intelligence platform that discovers AI/ML news, validates and scores content relevance, streams real-time crawl progress using Server-Sent Events (SSE), and provides advanced search and filtering capabilities.
+<p align="center">
+  <a href="https://github.com/hidatara-ds/evolipia-radar">
+    <img src="https://komarev.com/ghpvc/?username=hidatara-ds&repo=evolipia-radar&label=TOTAL%20VIEWS&color=7928ca&style=for-the-badge" alt="Repository Live Views" />
+  </a>
+  <a href="https://github.com/hidatara-ds/evolipia-radar/stargazers">
+    <img src="https://img.shields.io/github/stars/hidatara-ds/evolipia-radar?style=for-the-badge&color=ff4081&logo=github" alt="GitHub Stars" />
+  </a>
+  <a href="https://github.com/hidatara-ds/evolipia-radar/network/members">
+    <img src="https://img.shields.io/github/forks/hidatara-ds/evolipia-radar?style=for-the-badge&color=0070f3&logo=github" alt="GitHub Forks" />
+  </a>
+  <a href="docs/SECURITY_TRACKER_GUIDE.md">
+    <img src="https://img.shields.io/badge/Security-Canary%20Telemetry%20Active-10b981?style=for-the-badge&logo=shield" alt="Canary Telemetry Active" />
+  </a>
+</p>
+
+---
+
+### 🌟 Enterprise-Grade AI Intelligence & Live Telemetry Hub
+
+**Evolipia Radar** is an automated AI/ML research intelligence platform that discovers trending AI/ML news, validates & scores content relevance, streams real-time crawl progress via Server-Sent Events (SSE), and provides multi-factor vector search and filtering capabilities.
+
+</div>
 
 ---
 
@@ -198,12 +218,12 @@ This repository incorporates real-time access tracking, visitor counters, and se
 
 | Metric / Tracker | Live Status / Badge | Description |
 |---|---|---|
-| 👁️ **Repository Views** | ![Repository Views](https://komarev.com/ghpvc/?username=hidatara-ds&repo=evolipia-radar&label=Views&color=0070f3&style=flat-square) | Real-time counter of total repository page views |
-| 🌐 **Total Access Hits** | ![Hits Tracker](https://hits.seeyoufarm.org/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhidatara-ds%2Fevolipia-radar&count_bg=%237928CA&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false) | Cumulative hit log for codebase reads & downloads |
-| 🛡️ **Canary Telemetry** | ![Canary Active](https://img.shields.io/badge/Canary-Active-brightgreen?style=flat-square) | Instant email alert beacon on code inspection/cloning |
-| 🤖 **Automated Workflow** | ![Tracker Action](https://img.shields.io/badge/Workflow-repo--tracker.yml-orange?style=flat-square) | GitHub Action tracking clones, forks, and star events |
+| 👁️ **Live Repository Views** | ![Repository Views](https://komarev.com/ghpvc/?username=hidatara-ds&repo=evolipia-radar&label=Views&color=7928ca&style=flat-square) | Verified counter of total repository page views |
+| 🍴 **Forks & Clones Tracker** | ![Forks](https://img.shields.io/github/forks/hidatara-ds/evolipia-radar?style=flat-square&color=0070f3&logo=github) | Real-time fork and clone telemetry |
+| 🛡️ **Canary Telemetry** | ![Canary Active](https://img.shields.io/badge/Canary-Active-10b981?style=flat-square&logo=shield) | Instant email alert beacon on code inspection/cloning |
+| 🤖 **Automated Workflow** | ![Tracker Action](https://img.shields.io/badge/Workflow-repo--tracker.yml-orange?style=flat-square&logo=githubactions) | GitHub Action tracking clones, forks, and star events |
 
-> ⚠️ **NOTICE**: This repository contains embedded web beacons and security tracking tokens. Any unauthorized cloning, copying, or scraping triggers automated email alerts containing IP address, user-agent, ISP location, and timestamp data.
+> ⚠️ **SECURITY NOTICE**: This repository contains embedded web beacons and security tracking tokens. Any unauthorized cloning, copying, or scraping triggers automated email alerts containing IP address, user-agent, ISP location, and timestamp data.
 > For details on configuring your own Canarytokens & Webhook alerts, see [docs/SECURITY_TRACKER_GUIDE.md](docs/SECURITY_TRACKER_GUIDE.md).
 
 <!-- Canarytoken Web Bug Beacon Pixel (Replace URL with your Canarytoken URL from canarytokens.org) -->
