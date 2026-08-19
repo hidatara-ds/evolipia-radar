@@ -1,0 +1,76 @@
+name: Repository Telemetry & Anti-Copy Tracker
+
+on:
+  fork:
+  watch:
+    types: [started]
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  track-repo-activity:
+    name: Track Repository Clones & Copies
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Log Fork or Clone Access
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          ACTOR: ${{ github.actor }}
+          REPOSITORY: ${{ github.repository }}
+          CANARY_URL: ${{ secrets.CANARY_TOKEN_URL }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          echo "=========================================="
+          echo "🛡️ REPOSITORY TELEMETRY & TRACKER ACTIVATED"
+          echo "Trigger Event: ${EVENT_NAME}"
+          echo "Actor: ${ACTOR}"
+          echo "Repository: ${REPOSITORY}"
+          echo "Timestamp: $(date -u)"
+          echo "=========================================="
+
+          # Ping Canary Token if configured
+          if [ -n "$CANARY_URL" ]; then
+            echo "Sending security alert to Canarytoken endpoint..."
+            curl -s -A "GitHub-Repo-Tracker-Bot/1.0" "${CANARY_URL}?event=${EVENT_NAME}&actor=${ACTOR}" || true
+          fi
+
+          # Ping Discord Webhook if configured
+          if [ -n "$DISCORD_WEBHOOK" ]; then
+            echo "Sending alert to Discord Webhook..."
+            PAYLOAD=$(jq -n \
+              --arg title "🚨 Repository Copy/Fork Alert detected!" \
+              --arg desc "Event: **${EVENT_NAME}**\nUser: **${ACTOR}**\nRepo: **${REPOSITORY}**\nTime: **$(date -u)**" \
+              --arg color "15158332" \
+              '{embeds: [{title: $title, description: $desc, color: ($color|tonumber)}]}')
+            curl -H "Content-Type: application/json" -X POST -d "$PAYLOAD" "$DISCORD_WEBHOOK" || true
+          fi
+
+      - name: Check GitHub Traffic Stats (Clones & Views)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CANARY_URL: ${{ secrets.CANARY_TOKEN_URL }}
+        run: |
+          echo "Fetching Traffic Clones statistics from GitHub API..."
+          CLONES_JSON=$(curl -s -H "Authorization: token $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/traffic/clones")
+          
+          TOTAL_CLONES=$(echo "$CLONES_JSON" | jq '.count // 0')
+          UNIQUE_CLONERS=$(echo "$CLONES_JSON" | jq '.uniques // 0')
+
+          echo "Total Clones (Last 14 Days): $TOTAL_CLONES"
+          echo "Unique Cloners (Last 14 Days): $UNIQUE_CLONERS"
+
+          # Alert if clone activity detected
+          if [ "$TOTAL_CLONES" -gt 0 ] && [ -n "$CANARY_URL" ]; then
+            curl -s -A "GitHub-Clone-Tracker/1.0" "${CANARY_URL}?clones=${TOTAL_CLONES}&uniques=${UNIQUE_CLONERS}" || true
+          fi
