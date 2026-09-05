@@ -80,7 +80,7 @@ export function useCrawlProgress() {
     };
   }, [checkStatus]);
 
-  const startManualCrawl = async () => {
+  const startManualCrawl = async (onComplete?: () => Promise<void> | void) => {
     try {
       setIsCrawling(true);
       setProgressState({
@@ -89,25 +89,50 @@ export function useCrawlProgress() {
         progress: 10,
       });
 
-      await triggerManualCrawl();
+      // Step simulation for instant visual feedback during async execution
+      const stepPromise = (async () => {
+        const steps = [
+          { step: 2, message: "Scanning sources (HN, ArXiv, TechCrunch)...", progress: 30 },
+          { step: 3, message: "Parsing content & extracting signals...", progress: 55 },
+          { step: 4, message: "Validating data & deduplicating...", progress: 75 },
+          { step: 5, message: "Merging signals into database & feeds...", progress: 90 },
+        ];
+        for (let i = 0; i < steps.length; i++) {
+          await new Promise((resolve) => setTimeout(resolve, 450));
+          setProgressState(steps[i]);
+        }
+      })();
 
-      // Step simulation for instant visual feedback
-      const steps = [
-        { step: 2, message: "Scanning sources...", progress: 30 },
-        { step: 3, message: "Parsing content...", progress: 55 },
-        { step: 4, message: "Validating data...", progress: 75 },
-        { step: 5, message: "Saving to database...", progress: 90 },
-        { step: 6, message: "Done!", progress: 100, is_complete: true, processed_items: 12 },
-      ];
+      const [res] = await Promise.all([triggerManualCrawl(), stepPromise]);
 
-      for (let i = 0; i < steps.length; i++) {
-        await new Promise((resolve) => setTimeout(resolve, 600));
-        setProgressState(steps[i]);
-      }
+      const newMergedCount = res?.stats?.newMerged ?? (res?.items_count ?? 0);
+      const totalCount = res?.stats?.totalCount ?? 0;
+
+      setProgressState({
+        step: 6,
+        message: "Done!",
+        progress: 100,
+        is_complete: true,
+        processed_items: newMergedCount,
+      });
 
       setIsCrawling(false);
       setLastCrawledAt(new Date());
-      setToastMessage({ type: "success", text: "Signal crawl completed successfully!" });
+
+      const successMsg =
+        newMergedCount > 0
+          ? `Signal crawl completed! Successfully merged ${newMergedCount} new signals (${totalCount} total).`
+          : "Crawl completed! All discovered signals are already up to date.";
+
+      setToastMessage({ type: "success", text: successMsg });
+
+      if (onComplete) {
+        try {
+          await onComplete();
+        } catch (reloadErr) {
+          console.error("Failed to reload data after crawl:", reloadErr);
+        }
+      }
     } catch (err: any) {
       setIsCrawling(false);
       setToastMessage({ type: "error", text: `Failed to start crawl: ${err.message}` });

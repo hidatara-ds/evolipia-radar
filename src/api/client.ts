@@ -160,7 +160,17 @@ export async function fetchItems(params: ItemQueryParams): Promise<PaginatedItem
   return jsonResult;
 }
 
-export async function triggerManualCrawl(): Promise<{ success: boolean; message: string }> {
+export async function triggerManualCrawl(): Promise<{
+  success: boolean;
+  message: string;
+  stats?: {
+    discovered?: number;
+    newMerged?: number;
+    totalCount?: number;
+    lastUpdated?: string;
+  };
+  items_count?: number;
+}> {
   const res = await fetch(`${API_BASE_URL}/api/crawl`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

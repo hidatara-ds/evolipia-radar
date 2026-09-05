@@ -1,5 +1,811 @@
 {
-  "items": [],
-  "last_updated": "2026-09-05T01:45:36.864019719Z",
-  "total_count": 0
+  "items": [
+    {
+      "id": "2d9b7987-a968-40c4-bec3-50b57d054edb",
+      "title": "Ask HN: Resources to get good at soldering?",
+      "url": "https://news.ycombinator.com/item?id=49533840",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-02T09:24:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49533840\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b4cfec76-6f79-4762-8433-18e56dffedd3",
+      "title": "An open DNS recursive service for free security and high privacy",
+      "url": "https://quad9.net/",
+      "domain": "quad9.net",
+      "published_at": "2026-09-04T20:13:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49569663\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "fa36f72d-b20b-40e2-85dc-d169779af68a",
+      "title": "Fermat's Last Theorem in Lean 4",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "domain": "github.com",
+      "published_at": "2026-09-04T18:57:32Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49568697\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ad5f9602-8468-4dbb-a487-81dc23094dbf",
+      "title": "The Highest Point in the Netherlands",
+      "url": "https://ipv6.hanazo.no/posts/anniversary-personal/",
+      "domain": "ipv6.hanazo.no",
+      "published_at": "2026-09-02T14:58:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49537340\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ccd63121-f0b4-4a1e-99e6-1a323b156dc0",
+      "title": "Government Rails Site Hit Hours After CVE Patch",
+      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+      "domain": "rietta.com",
+      "published_at": "2026-09-04T19:06:39Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49568828\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a2fbd927-a387-4b49-aa7d-9c9868fba04d",
+      "title": "Nitter has more working instances than before the takedowns",
+      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "domain": "codeberg.org",
+      "published_at": "2026-09-05T00:04:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49571634\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0c328ce2-4b25-47cf-b9ec-07fdb3671854",
+      "title": "The Rust React Compiler is now native in Vite",
+      "url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+      "domain": "blog.master.dev",
+      "published_at": "2026-09-04T17:49:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49567873\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8add10c0-df98-4c5c-9988-89380fda7e15",
+      "title": "Decompiler Explorer",
+      "url": "https://dogbolt.org",
+      "domain": "dogbolt.org",
+      "published_at": "2026-09-01T22:33:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49529161\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9ab86b60-7024-4082-9f56-897cd6093fc9",
+      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+      "domain": "github.com",
+      "published_at": "2026-09-04T09:03:00Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49562219\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9ac5f853-b0ce-455d-a92f-eb68e16dc875",
+      "title": "Bugs happen: The easy way to compare solo PQ to ECC+PQ",
+      "url": "https://blog.cr.yp.to/20260704-bugs.html",
+      "domain": "blog.cr.yp.to",
+      "published_at": "2026-09-01T21:27:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49528484\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "dd161963-8dcc-4bb9-80f5-95b15e8bebbe",
+      "title": "deSEC – Free Secure DNS",
+      "url": "https://desec.io/",
+      "domain": "desec.io",
+      "published_at": "2026-09-04T15:38:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "deSEC – Free Secure DNS. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3222a7eb-106d-4096-8bc6-86353f164039",
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "domain": "collusion.wiki",
+      "published_at": "2026-09-04T11:54:53Z",
+      "category": "agents",
+      "score": 0.96,
+      "tldr": "https:\u0026#x2F;\u0026#x2F;www.reuters.com\u0026#x2F;world\u0026#x2F;europe\u0026#x2F;openai-agents-hijacked-...",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "agents",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "6f81cf2c-9128-4f14-bade-9a0c03b316ac",
+      "title": "Formalizing Fermat's Last Theorem",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "domain": "anthropic.com",
+      "published_at": "2026-09-04T18:42:56Z",
+      "category": "llm",
+      "score": 0.96,
+      "tldr": "https:\u0026#x2F;\u0026#x2F;xenaproject.wordpress.com\u0026#x2F;2026\u0026#x2F;09\u0026#x2F;04\u0026#x2F;flt-anthropic-h...",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "llm",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "3139d25e-2a8c-4005-9d64-1a0b1479a951",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "domain": "nvd.nist.gov",
+      "published_at": "2026-09-04T21:52:01Z",
+      "category": "llm",
+      "score": 0.94,
+      "tldr": "Actively exploited sandbox RCE in all Chromium versions trending on Hacker News with 349+ points.",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "llm",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "7b864bdb-e6c1-469b-a84e-8abb6cc2dd59",
+      "title": "Shutting down our public encrypted DNS",
+      "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+      "domain": "mullvad.net",
+      "published_at": "2026-09-04T18:50:28Z",
+      "category": "llm",
+      "score": 0.92,
+      "tldr": "Shutting down our public encrypted DNS trending on Hacker News with 288+ points.",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "llm",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "a00488e6-c589-4b66-afd1-a2fb2dc95d27",
+      "title": "Record-High 89% in U.S. Say Government Corruption Widespread",
+      "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "domain": "news.gallup.com",
+      "published_at": "2026-09-04T22:03:16Z",
+      "category": "llm",
+      "score": 0.91,
+      "tldr": "Record-High 89% in U.S. Say Government Corruption Widespread trending on Hacker News with 283+ points.",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "llm",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "6e51fd0a-912a-40b4-9fba-2b59db290ed8",
+      "title": "Show HN: Open-Source eInk Bike Computer",
+      "url": "https://opentrailpaper.com/",
+      "domain": "opentrailpaper.com",
+      "published_at": "2026-09-04T17:18:08Z",
+      "category": "research",
+      "score": 0.91,
+      "tldr": "Hey all, i just launched my Eink Bike computer project and think it is cool. Another tidbit, in the crazy things that AI has done... It has helped create a ANT (common sensor wireless protocol used...",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "research",
+        "open-source",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "62434009-d01d-443b-87b5-5ea3d8117179",
+      "title": "IBM Bob",
+      "url": "https://bob.ibm.com/",
+      "domain": "bob.ibm.com",
+      "published_at": "2026-09-04T12:50:29Z",
+      "category": "llm",
+      "score": 0.9,
+      "tldr": "IBM Bob trending on Hacker News with 242+ points.",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "llm",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "5c470861-c9db-444b-8cc0-59efbd4c88d5",
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet",
+      "domain": "eebench.org",
+      "published_at": "2026-09-04T19:48:29Z",
+      "category": "llm",
+      "score": 0.89,
+      "tldr": "Can AI design circuit boards yet? trending on Hacker News with 200+ points.",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "llm",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "98826b26-a79d-48e4-a8a9-88c3a20c0c9e",
+      "title": "Statichost.eu – European static site hosting",
+      "url": "https://www.statichost.eu/",
+      "domain": "statichost.eu",
+      "published_at": "2026-09-04T20:34:49Z",
+      "category": "llm",
+      "score": 0.89,
+      "tldr": "Statichost.eu – European static site hosting trending on Hacker News with 196+ points.",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "llm",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "3211ae7a-2982-4201-9399-54e55d041c36",
+      "title": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "domain": "openrouter.ai",
+      "published_at": "2026-09-04T21:39:19Z",
+      "category": "llm",
+      "score": 0.87,
+      "tldr": "GPT-6 Astra on OpenRouter trending on Hacker News with 157+ points.",
+      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
+      "tags": [
+        "llm",
+        "hacker-news"
+      ]
+    },
+    {
+      "id": "da8d0f96-af8e-404b-9410-fa91f3efc63b",
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T23:36:14Z",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "The round is being raised just months after the robot data startup exited from stealth.",
+      "why_it_matters": "High signal AI development regarding robotics and practical deployments.",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "68ae925d-6297-4275-9b33-d601ed1a1cda",
+      "title": "OpenAI\u0026#8217;s rogue agents keep escaping, with no formal process to investigate them",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T23:15:11Z",
+      "category": "agents",
+      "score": 0.86,
+      "tldr": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "why_it_matters": "High signal AI development regarding agents and practical deployments.",
+      "tags": [
+        "agents",
+        "security"
+      ]
+    },
+    {
+      "id": "46632d68-7327-426b-b439-36e6d5489a19",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T21:12:11Z",
+      "category": "llm",
+      "score": 0.93,
+      "tldr": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4e0898b4-a13f-4f2c-ac1a-ea3679ae5e10",
+      "title": "What will Apple\u0026#8217;s John Ternus era look like?",
+      "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T17:18:00Z",
+      "category": "llm",
+      "score": 0.87,
+      "tldr": "It\u0026#8217;s\u0026#160;officially the Ternus era at Apple.\u0026#160;\u0026#160; Tim Cook stepped down\u0026#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo\u0026#160;promised...",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "73f28a80-4167-466c-8613-4a04fed44d97",
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab\u0026#8217;s knowledge",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T16:21:11Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "It's the latest failure of OpenAI's internal monitoring and security systems.",
+      "why_it_matters": "High signal AI development regarding agents and practical deployments.",
+      "tags": [
+        "agents",
+        "security"
+      ]
+    },
+    {
+      "id": "14b68356-c12d-48ad-be9e-1a5ef79ea3dc",
+      "title": "Apple\u0026#8217;s Ternus era begins as Nvidia bets on the whole AI stack",
+      "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T16:04:08Z",
+      "category": "llm",
+      "score": 0.93,
+      "tldr": "It\u0026#8217;s\u0026#160;officially the Ternus era at Apple.\u0026#160;\u0026#160; Tim Cook stepped down\u0026#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo\u0026#160;promised...",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0b5b9438-7e22-420c-a4dd-d14edcdb4916",
+      "title": "Google\u0026#8217;s Gemini Spark can now manage your Google Photos library",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T14:47:11Z",
+      "category": "llm",
+      "score": 0.94,
+      "tldr": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "db0ca196-497a-4bc6-8cd6-788b5afd305c",
+      "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+      "url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T14:00:00Z",
+      "category": "llm",
+      "score": 0.96,
+      "tldr": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2ab309bb-bf07-4750-970f-216c0920e007",
+      "title": "The sameness problem behind those unappetizing AI-generated menus",
+      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T04:21:03Z",
+      "category": "llm",
+      "score": 0.9,
+      "tldr": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "35c48e56-999c-46c9-8c42-06785ea7aa58",
+      "title": "Crusoe reportedly raises $3B at a $30B valuation",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-04T00:48:42Z",
+      "category": "llm",
+      "score": 0.85,
+      "tldr": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e93aba57-46d4-4c85-ab5d-6b2ff6adf3f6",
+      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-03T19:36:29Z",
+      "category": "llm",
+      "score": 0.96,
+      "tldr": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c7bdd82e-0a75-4942-addc-40c966bd92ad",
+      "title": "Abliteration.ai is making a business out of removing AI guardrails",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-03T18:37:57Z",
+      "category": "security",
+      "score": 0.91,
+      "tldr": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+      "why_it_matters": "High signal AI development regarding security and practical deployments.",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "30e2718a-df2b-42d6-8d38-92ad7cbe8dd6",
+      "title": "Artificial Analysis Intelligence Index v4.2",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+      "domain": "artificialanalysis.ai",
+      "published_at": "2026-09-05T00:04:14Z",
+      "category": "llm",
+      "score": 0.92,
+      "tldr": "Artificial Analysis Intelligence Index v4.2. Latest update from Hacker News.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "47b56a31-20e8-4f0c-8a96-da8cc3541c0f",
+      "title": "Git Submodules as a Package Manager",
+      "url": "https://nesbitt.io/2026/09/01/git-submodules-as-a-package-manager.html",
+      "domain": "nesbitt.io",
+      "published_at": "2026-09-01T09:36:10Z",
+      "category": "llm",
+      "score": 0.96,
+      "tldr": "Git Submodules as a Package Manager. Latest update from Hacker News.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "557025f9-39f3-4d42-bef5-9bc1c5e53d42",
+      "title": "Can guitar frets perform multiplication?",
+      "url": "https://www.charlespetzold.com/blog/2026/09/Can-Guitar-Frets-Perform-Multiplication.html",
+      "domain": "charlespetzold.com",
+      "published_at": "2026-09-04T22:40:30Z",
+      "category": "llm",
+      "score": 0.89,
+      "tldr": "Can guitar frets perform multiplication?. Latest update from Hacker News.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9496e9a4-11a4-4cb9-9285-4732cbcc872e",
+      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "domain": "engineering.atspotify.com",
+      "published_at": "2026-09-04T23:38:50Z",
+      "category": "llm",
+      "score": 0.92,
+      "tldr": "Portal by Spotify cut my Claude Code token usage by 90%. Latest update from Hacker News.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c3d0926d-9e8c-4a08-9550-49deb0396575",
+      "title": "RSA-260 Factorized",
+      "url": "https://twitter.com/penlume/status/2095372672356212876",
+      "domain": "twitter.com",
+      "published_at": "2026-09-03T05:35:31Z",
+      "category": "llm",
+      "score": 0.91,
+      "tldr": "RSA-260 Factorized. Latest update from Hacker News.",
+      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3e49229f-f8d2-459b-9eff-3a3a2ec18ab0",
+      "title": "Show HN: Open Source Agentic Workflow Framework in Go",
+      "url": "https://news.ycombinator.com/item?id=39123456",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-30T13:58:34.0302316+07:00",
+      "category": "agents",
+      "score": 0.92,
+      "tldr": "A lightweight zero-dependency Go library for orchestrating autonomous LLM agent networks",
+      "why_it_matters": "Enables production deployment of complex multi-agent workflows with low latency",
+      "tags": [
+        "agents",
+        "open-source"
+      ]
+    },
+    {
+      "id": "b4431a2a-caf9-4725-b38e-f027eb37ced4",
+      "title": "PostgreSQL 17 Vector Extensions Benchmark for RAG Workloads",
+      "url": "https://news.ycombinator.com/item?id=39124000",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-07-30T12:58:34.0302316+07:00",
+      "category": "infra",
+      "score": 0.89,
+      "tldr": "Benchmark comparing pgvector HNSW indexing performance against dedicated vector DBs",
+      "why_it_matters": "Proves traditional RDBMS can handle production scale vector similarity search",
+      "tags": [
+        "infra",
+        "llm"
+      ]
+    },
+    {
+      "id": "e2a4c370-54cc-44c3-8876-12c8bc9d2ae7",
+      "title": "TechCrunch: Startup Raises $50M for Autonomous Code Refactoring Agents",
+      "url": "https://techcrunch.com/2026/07/30/autonomous-code-agents-series-a",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-30T13:28:34.0302316+07:00",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "AI coding startup secures Series A to automate legacy codebase migrations and test generation",
+      "why_it_matters": "Accelerates enterprise software maintenance and reduces technical debt dramatically",
+      "tags": [
+        "agents",
+        "infra"
+      ]
+    },
+    {
+      "id": "36e74d95-4265-43df-a2cb-9eb8580a469e",
+      "title": "TechCrunch: Next-Gen Open Models Challenge Closed Frontier APIs",
+      "url": "https://techcrunch.com/2026/07/29/open-source-ai-frontier-models",
+      "domain": "techcrunch.com",
+      "published_at": "2026-07-30T10:28:34.0302316+07:00",
+      "category": "open-source",
+      "score": 0.86,
+      "tldr": "New open-weight models achieve parity with proprietary APIs on coding and reasoning benchmarks",
+      "why_it_matters": "Shifts competitive advantage toward customized on-premise AI deployments",
+      "tags": [
+        "open-source",
+        "llm"
+      ]
+    },
+    {
+      "id": "329b3fe9-1e3c-4704-a1c6-fe7a0fdbc634",
+      "title": "ArXiv: Efficient Speculative Decoding for Long-Context Transformer Models",
+      "url": "https://arxiv.org/abs/2026.09876",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-30T12:28:34.0302316+07:00",
+      "category": "research",
+      "score": 0.94,
+      "tldr": "A novel speculative decoding method achieving 3.5x inference speedup without precision loss",
+      "why_it_matters": "Crucial optimization for real-time LLM inference serving",
+      "tags": [
+        "research",
+        "llm",
+        "infra"
+      ]
+    },
+    {
+      "id": "0a910a88-26d6-4ed7-9c63-0cff9a4df50c",
+      "title": "ArXiv: Multi-Modal Mixture-of-Experts for Real-Time Robot Vision",
+      "url": "https://arxiv.org/abs/2026.05432",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-30T09:28:34.0302316+07:00",
+      "category": "vision",
+      "score": 0.91,
+      "tldr": "Sparse MoE vision architecture designed for low-power edge computing on mobile robots",
+      "why_it_matters": "Unlocks spatial understanding for autonomous physical agents",
+      "tags": [
+        "vision",
+        "robotics",
+        "research"
+      ]
+    },
+    {
+      "id": "6223c57a-c4dd-4b87-a96e-ba1ab39ac142",
+      "title": "GitHub Trending: LocalAI - Self-Hosted OpenAI Equivalent REST API",
+      "url": "https://github.com/mudler/LocalAI",
+      "domain": "github.com",
+      "published_at": "2026-07-30T11:28:34.0302316+07:00",
+      "category": "open-source",
+      "score": 0.9,
+      "tldr": "Drop-in replacement REST API for OpenAI specs supporting local model inference",
+      "why_it_matters": "Essential tool for local privacy-conscious AI application development",
+      "tags": [
+        "open-source",
+        "infra",
+        "llm"
+      ]
+    },
+    {
+      "id": "ab523c0e-44a8-4be2-8bfe-f252bf69128a",
+      "title": "GitHub Trending: AutoRAG - Automated RAG Pipeline Evaluation Framework",
+      "url": "https://github.com/Marker-IncDB/AutoRAG",
+      "domain": "github.com",
+      "published_at": "2026-07-30T08:28:34.0302316+07:00",
+      "category": "infra",
+      "score": 0.87,
+      "tldr": "Automated evaluation and parameter optimization tool for retrieval-augmented generation",
+      "why_it_matters": "Simplifies RAG pipeline tuning and chunking strategy benchmarking",
+      "tags": [
+        "infra",
+        "llm"
+      ]
+    },
+    {
+      "id": "edafc0fd-929b-4ab3-b54c-20f746e6767b",
+      "title": "Reddit r/MachineLearning: Discussion on Small Language Models vs Large Model Distillation",
+      "url": "https://reddit.com/r/MachineLearning/comments/slm_vs_distillation",
+      "domain": "reddit.com",
+      "published_at": "2026-07-30T10:28:34.0302316+07:00",
+      "category": "llm",
+      "score": 0.84,
+      "tldr": "Community discussion analyzing trade-offs of 3B-7B parameter distilled models vs large APIs",
+      "why_it_matters": "Provides practical deployment insights from engineers scaling local LLM pipelines",
+      "tags": [
+        "llm",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9de25ad7-5aeb-487f-aeed-23ad242047da",
+      "title": "Stable Diffusion 3.5 Released with Improved Image Quality",
+      "url": "https://stability.ai/news/stable-diffusion-3",
+      "domain": "stability.ai",
+      "published_at": "2026-07-30T12:28:34.0302316+07:00",
+      "category": "vision",
+      "score": 0.85,
+      "tldr": "Stability AI releases Stable Diffusion 3.5 with better text-to-image generation and prompt adherence",
+      "why_it_matters": "Major update to popular open-source image generation model family",
+      "tags": [
+        "vision",
+        "open-source"
+      ]
+    },
+    {
+      "id": "7d6c4ae0-72c0-4efb-9846-6fa3f2d018bf",
+      "title": "DALL-E 3 Now Available in ChatGPT Plus",
+      "url": "https://openai.com/blog/dall-e-3-chatgpt",
+      "domain": "openai.com",
+      "published_at": "2026-07-30T09:28:34.0302316+07:00",
+      "category": "vision",
+      "score": 0.82,
+      "tldr": "OpenAI integrates DALL-E 3 image generation directly into ChatGPT conversational interface",
+      "why_it_matters": "Makes advanced vision generation accessible to non-technical users",
+      "tags": [
+        "vision",
+        "llm"
+      ]
+    },
+    {
+      "id": "1a0f2ba2-e40c-4e2a-a443-eaeed284ae37",
+      "title": "DeepMind's New RL Algorithm Achieves Human-Level Control Performance",
+      "url": "https://deepmind.google/research/rl-breakthrough",
+      "domain": "deepmind.google",
+      "published_at": "2026-07-30T11:28:34.0302316+07:00",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "New reinforcement learning approach matches human expert controllers in complex physics tasks",
+      "why_it_matters": "Breakthrough in RL could enable more capable autonomous robotics systems",
+      "tags": [
+        "robotics",
+        "security"
+      ]
+    },
+    {
+      "id": "0947deb3-4337-46ae-af61-b03b7d361824",
+      "title": "Anthropic Offers Free Credits and API Tiers for AI Researchers",
+      "url": "https://anthropic.com/student-program",
+      "domain": "anthropic.com",
+      "published_at": "2026-07-30T13:28:34.0302316+07:00",
+      "category": "llm",
+      "score": 0.8,
+      "tldr": "Researchers can now access Claude 3.5 Sonnet API with upgraded grant allocation",
+      "why_it_matters": "Lowers barriers for academic research on model alignment and safety",
+      "tags": [
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "id": "04437e6c-3168-421b-8ca2-a7b275c074b2",
+      "title": "PPO Algorithm Improvements for Robotics Control",
+      "url": "https://arxiv.org/abs/2024.12345",
+      "domain": "arxiv.org",
+      "published_at": "2026-07-30T08:27:36.9250794+07:00",
+      "category": "tech",
+      "score": 0.75,
+      "tldr": "Researchers improve Proximal Policy Optimization for robot manipulation",
+      "why_it_matters": "Better RL algorithms enable more efficient robot training",
+      "tags": [
+        "rl",
+        "robotics",
+        "research"
+      ]
+    },
+    {
+      "id": "5792ea80-4948-4720-9eb2-eb9dd8ac2712",
+      "title": "Boston Dynamics Unveils New Humanoid Robot Atlas",
+      "url": "https://bostondynamics.com/blog/atlas-next-gen",
+      "domain": "bostondynamics.com",
+      "published_at": "2026-07-30T10:27:36.9250794+07:00",
+      "category": "tech",
+      "score": 0.9,
+      "tldr": "Next-generation Atlas robot demonstrates advanced manipulation capabilities",
+      "why_it_matters": "Humanoid robots getting closer to practical real-world deployment",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "2c2a6410-d905-4fce-8f2c-fd5b381f5eff",
+      "title": "Tesla Optimus Robot Shows Improved Dexterity",
+      "url": "https://tesla.com/blog/optimus-update",
+      "domain": "tesla.com",
+      "published_at": "2026-07-30T07:27:36.9250794+07:00",
+      "category": "tech",
+      "score": 0.87,
+      "tldr": "Tesla's humanoid robot demonstrates fine motor control improvements",
+      "why_it_matters": "Progress toward general-purpose household robots",
+      "tags": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "7e80a379-b5ec-4017-86f7-fb4278d9738d",
+      "title": "GitHub Student Developer Pack Adds New AI Tools",
+      "url": "https://education.github.com/pack",
+      "domain": "education.github.com",
+      "published_at": "2026-07-30T06:27:36.9250794+07:00",
+      "category": "tech",
+      "score": 0.8,
+      "tldr": "GitHub expands student benefits with free access to AI coding tools",
+      "why_it_matters": "Students get free access to premium developer tools and AI assistants",
+      "tags": [
+        "free-credits",
+        "ide",
+        "tools"
+      ]
+    }
+  ],
+  "last_updated": "2026-09-05T11:43:33.191953+07:00",
+  "total_count": 55
 }

@@ -112,6 +112,11 @@ export default function Dashboard() {
 
   useEffect(() => {
     loadData();
+    // Background auto-refresh signals every 2 minutes
+    const refreshTimer = setInterval(() => {
+      loadData();
+    }, 120000);
+    return () => clearInterval(refreshTimer);
   }, [loadData]);
 
   useEffect(() => {
@@ -353,6 +358,16 @@ export default function Dashboard() {
             </div>
           </div>
         </section>
+
+        {/* Crawler Status & Realtime Sync Engine */}
+        <CrawlProgress
+          progressState={progressState}
+          isCrawling={isCrawling}
+          onStartManualCrawl={() => startManualCrawl(loadData)}
+          toastMessage={toastMessage}
+          onClearToast={clearToast}
+          isDarkMode={isDarkMode}
+        />
 
         {/* 2. Stock Watchlist Style AI Pulse Keywords */}
         <AIPulseKeywords
