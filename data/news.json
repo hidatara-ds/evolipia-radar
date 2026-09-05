@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "id": "aaec16fc-9242-4de3-9829-6875e1c2a5c5",
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "domain": "sylvainkalache.com",
+      "published_at": "2026-09-05T07:52:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49574167\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8e4e5a54-62ad-4c18-a024-58946248bc9c",
+      "title": "Kale: A Transformation-Safe Spreadsheet System",
+      "url": "https://arxiv.org/abs/2608.26345",
+      "domain": "arxiv.org",
+      "published_at": "2026-09-01T01:42:30Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49516962\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "feb937c1-adcb-4fee-807e-0f0400a753c5",
+      "title": "Sky Map 2000 – Star Atlas and Planetarium",
+      "url": "https://skymap2000.com/",
+      "domain": "skymap2000.com",
+      "published_at": "2026-09-03T11:20:47Z",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49548596\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "robotics",
+        "robotics"
+      ]
+    },
+    {
+      "id": "342eab51-285d-455f-a815-20d0047953dd",
+      "title": "Pointing at the error: compiler-style diagnostics in uutils coreutils",
+      "url": "https://uutils.org/blog/2026-08-error-diagnostics/",
+      "domain": "uutils.org",
+      "published_at": "2026-09-02T12:05:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49535024\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a10c0e19-8e41-4f2a-8c44-1b434d5a702d",
+      "title": "Git hosting that never leaves Europe",
+      "url": "https://pushin.eu",
+      "domain": "pushin.eu",
+      "published_at": "2026-09-05T06:31:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49573680\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4013abe6-fbc0-4c6c-83f3-c854916c22be",
+      "title": "GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "domain": "openai.com",
+      "published_at": "2026-09-03T18:41:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "System Card: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;deploymentsafety.openai.com\u0026#x2F;gpt-6-astra\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;deploymentsafety.openai.com\u0026#x2F;gpt-6-astra\u003c/a\u003e\u003cp\u003eRelated ongoing threads:\u003cp\u003e...",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8c5c576d-e53b-483d-a5ea-92a0971adfe8",
       "title": "Why are European countries moving their gold out of North America?",
       "url": "https://www.bbc.com/news/articles/cvgyn8q8gqxo",
@@ -848,6 +934,6 @@
       ]
     }
   ],
-  "last_updated": "2026-09-05T06:26:04.824112Z",
-  "total_count": 58
+  "last_updated": "2026-09-05T10:46:54.511148444Z",
+  "total_count": 64
 }
