@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "id": "2bd4b91a-dc8c-4db0-8cbd-40d438ed215d",
+      "title": "Making a Python interpreter in 1024 bytes",
+      "url": "https://austinhenley.com/blog/python1024.html",
+      "domain": "austinhenley.com",
+      "published_at": "2026-09-06T23:14:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49591876\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7f90f89b-cffd-45e8-8771-50ee3b4e7d81",
+      "title": "Harnessing the Universal Geometry of Embeddings",
+      "url": "https://arxiv.org/abs/2505.12540",
+      "domain": "arxiv.org",
+      "published_at": "2026-09-06T20:31:20Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49590595\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "e7765ed6-6167-4920-ac06-dbbb83700880",
+      "title": "Reverse engineering the storage format for an undocumented database",
+      "url": "https://blog.glazer.ee/posts/converting-cronos/",
+      "domain": "blog.glazer.ee",
+      "published_at": "2026-09-04T07:17:00Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49561514\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "6ef665f4-4202-4eed-8d90-c5053df1b396",
+      "title": "Political meddling at the Census Bureau damages the US statistical system",
+      "url": "https://www.piie.com/blogs/realtime-economics/2026/political-meddling-census-bureau-damages-entire-us-statistical-system",
+      "domain": "piie.com",
+      "published_at": "2026-09-06T22:36:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49591620\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f3030a5d-8a8e-45d4-bc5c-23bf12512357",
+      "title": "D2 Is Non-Profit",
+      "url": "https://d2lang.com/blog/d2-non-profit/",
+      "domain": "d2lang.com",
+      "published_at": "2026-09-06T19:11:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49589768\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3eb7cf0c-b9a5-4bd7-a8bb-ea1235d66b87",
+      "title": "Windows 11's \"special\" developer edition looks like another marketing misfire",
+      "url": "https://www.neowin.net/opinions/windows-11s-special-developer-edition-sounds-like-yet-another-marketing-misfire/",
+      "domain": "neowin.net",
+      "published_at": "2026-09-06T21:16:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49591036\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5b775a98-5712-4a52-8b71-384c2c2db739",
+      "title": "A Week of Bug Reporting",
+      "url": "https://tratt.net/laurie/blog/2022/a_week_of_bug_reporting.html",
+      "domain": "tratt.net",
+      "published_at": "2026-09-04T10:08:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49562594\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c4b0eada-5c80-47e7-a073-5c328fe32580",
       "title": "It took a year to ship WebAssembly in Anubis",
       "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
@@ -2036,108 +2136,8 @@
       "tags": [
         "security"
       ]
-    },
-    {
-      "id": "30e2718a-df2b-42d6-8d38-92ad7cbe8dd6",
-      "title": "Artificial Analysis Intelligence Index v4.2",
-      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
-      "domain": "artificialanalysis.ai",
-      "published_at": "2026-09-05T00:04:14Z",
-      "category": "llm",
-      "score": 0.92,
-      "tldr": "Artificial Analysis Intelligence Index v4.2. Latest update from Hacker News.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "47b56a31-20e8-4f0c-8a96-da8cc3541c0f",
-      "title": "Git Submodules as a Package Manager",
-      "url": "https://nesbitt.io/2026/09/01/git-submodules-as-a-package-manager.html",
-      "domain": "nesbitt.io",
-      "published_at": "2026-09-01T09:36:10Z",
-      "category": "llm",
-      "score": 0.96,
-      "tldr": "Git Submodules as a Package Manager. Latest update from Hacker News.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "557025f9-39f3-4d42-bef5-9bc1c5e53d42",
-      "title": "Can guitar frets perform multiplication?",
-      "url": "https://www.charlespetzold.com/blog/2026/09/Can-Guitar-Frets-Perform-Multiplication.html",
-      "domain": "charlespetzold.com",
-      "published_at": "2026-09-04T22:40:30Z",
-      "category": "llm",
-      "score": 0.89,
-      "tldr": "Can guitar frets perform multiplication?. Latest update from Hacker News.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9496e9a4-11a4-4cb9-9285-4732cbcc872e",
-      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
-      "domain": "engineering.atspotify.com",
-      "published_at": "2026-09-04T23:38:50Z",
-      "category": "llm",
-      "score": 0.92,
-      "tldr": "Portal by Spotify cut my Claude Code token usage by 90%. Latest update from Hacker News.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c3d0926d-9e8c-4a08-9550-49deb0396575",
-      "title": "RSA-260 Factorized",
-      "url": "https://twitter.com/penlume/status/2095372672356212876",
-      "domain": "twitter.com",
-      "published_at": "2026-09-03T05:35:31Z",
-      "category": "llm",
-      "score": 0.91,
-      "tldr": "RSA-260 Factorized. Latest update from Hacker News.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3e49229f-f8d2-459b-9eff-3a3a2ec18ab0",
-      "title": "Show HN: Open Source Agentic Workflow Framework in Go",
-      "url": "https://news.ycombinator.com/item?id=39123456",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-30T13:58:34.0302316+07:00",
-      "category": "agents",
-      "score": 0.92,
-      "tldr": "A lightweight zero-dependency Go library for orchestrating autonomous LLM agent networks",
-      "why_it_matters": "Enables production deployment of complex multi-agent workflows with low latency",
-      "tags": [
-        "agents",
-        "open-source"
-      ]
-    },
-    {
-      "id": "b4431a2a-caf9-4725-b38e-f027eb37ced4",
-      "title": "PostgreSQL 17 Vector Extensions Benchmark for RAG Workloads",
-      "url": "https://news.ycombinator.com/item?id=39124000",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-07-30T12:58:34.0302316+07:00",
-      "category": "infra",
-      "score": 0.89,
-      "tldr": "Benchmark comparing pgvector HNSW indexing performance against dedicated vector DBs",
-      "why_it_matters": "Proves traditional RDBMS can handle production scale vector similarity search",
-      "tags": [
-        "infra",
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-06T21:48:28.373300506Z",
+  "last_updated": "2026-09-06T23:19:10.802077763Z",
   "total_count": 150
 }
