@@ -1,6 +1,133 @@
 {
   "items": [
     {
+      "id": "2cbe31c1-827f-443d-b87f-bc3cef03f62b",
+      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+      "url": "https://cloudinabottle.org/blog/launch-post",
+      "domain": "cloudinabottle.org",
+      "published_at": "2026-09-06T00:03:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49582000\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "62d2759f-ee69-461b-9354-f97b1c2d17f8",
+      "title": "GPT-6 Astra on robot arms",
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "domain": "openai.robocurve.org",
+      "published_at": "2026-09-06T01:52:45Z",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49582582\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "robotics",
+        "robotics"
+      ]
+    },
+    {
+      "id": "3e1374ac-fa1d-49d9-a45b-9049f502ca6b",
+      "title": "OpenBSD Stories: Strange Medieval Devices",
+      "url": "http://miod.online.fr/software/openbsd/stories/smd.html",
+      "domain": "miod.online.fr",
+      "published_at": "2026-09-02T17:44:24Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49539759\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "627a188e-b652-45fc-bd19-d615f8140d19",
+      "title": "Chrome again exempts Google from user site data settings",
+      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "domain": "lapcatsoftware.com",
+      "published_at": "2026-09-05T23:39:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49581870\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6a1f8644-b856-42f0-a91d-2725b0534a74",
+      "title": "Trump signs order to remove endangered species protection for grey wolves",
+      "url": "https://www.bbc.com/news/articles/c62k677d4lzo",
+      "domain": "bbc.com",
+      "published_at": "2026-09-06T03:46:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49583144\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "393224bc-37c4-4a4c-b740-53a1516f1038",
+      "title": "The ColorChecker, photography's most important 24 squares, turns 50",
+      "url": "https://www.dpreview.com/news/the-colorchecker-photographys-most-important-24-squares-turns-50/",
+      "domain": "dpreview.com",
+      "published_at": "2026-09-01T22:54:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49529398\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "635f7a3b-7e43-4318-8618-c6bcf548d9b5",
+      "title": "RecurseCenter.return()",
+      "url": "https://mm-dev.rocks/series/recursecenter.return/",
+      "domain": "mm-dev.rocks",
+      "published_at": "2026-09-01T19:48:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49527110\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3dfe1e0e-382b-49a2-9d53-abfb9e56e5e5",
+      "title": "AI, Tools and Transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "domain": "ben-evans.com",
+      "published_at": "2026-09-06T02:12:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49582656\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "98b6d066-3c90-49a6-98b2-4481aeeafc50",
+      "title": "Vancouver strip club's Instagram taken down over sign featuring lake joke",
+      "url": "https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993",
+      "domain": "vancouverisawesome.com",
+      "published_at": "2026-09-06T04:07:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49583232\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "9323be15-2721-4543-bee1-1acf01c7b19f",
       "title": "Falsehoods Programmers Believe About LANs",
       "url": "https://dreamstation.systems/personal/lanfalsehoods.html",
@@ -1472,6 +1599,6 @@
       ]
     }
   ],
-  "last_updated": "2026-09-06T00:03:25.058493789Z",
-  "total_count": 102
+  "last_updated": "2026-09-06T04:51:59.507714888Z",
+  "total_count": 111
 }
