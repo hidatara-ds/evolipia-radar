@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "id": "9323be15-2721-4543-bee1-1acf01c7b19f",
+      "title": "Falsehoods Programmers Believe About LANs",
+      "url": "https://dreamstation.systems/personal/lanfalsehoods.html",
+      "domain": "dreamstation.systems",
+      "published_at": "2026-09-05T22:08:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49581179\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3ac40a98-f8e4-4956-9bbf-ba91553ce3bd",
+      "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+      "url": "https://github.com/okf-memory/okf-agent-memory",
+      "domain": "github.com",
+      "published_at": "2026-09-05T22:15:52Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49581240\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "47d3a899-1a67-43e7-a005-bc5a031f206f",
+      "title": "Show HN: Fly By – retro biplane flying game",
+      "url": "https://michaelteter.com/flyby.html",
+      "domain": "michaelteter.com",
+      "published_at": "2026-09-01T07:31:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49519101\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "57a90129-b11f-47ff-9238-ddef5a0252e0",
+      "title": "How AI is breaking the British state",
+      "url": "https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state",
+      "domain": "economist.com",
+      "published_at": "2026-09-05T21:05:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49580687\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3ef29c03-9ecb-4746-8758-28d6e7d41eab",
+      "title": "The revolt of the reader",
+      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+      "domain": "bcantrill.dtrace.org",
+      "published_at": "2026-09-05T21:37:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49580939\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "68ec52db-44b7-413f-a18f-d5a7ae40e80e",
+      "title": "ISAR Aerospace 5 Sept Mission Onward and Upward",
+      "url": "https://isaraerospace.com/mission-updates-overview",
+      "domain": "isaraerospace.com",
+      "published_at": "2026-09-05T19:41:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49579956\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8332958e-3792-46a2-afe8-a5e2425a2d7d",
+      "title": "Topologist's Map of the World",
+      "url": "https://www.futilitycloset.com/2026/09/01/small-world-20/",
+      "domain": "futilitycloset.com",
+      "published_at": "2026-09-01T20:21:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49527599\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "0a055e43-f7f1-45fc-a1dc-2150f8d8bb38",
       "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)",
       "url": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
@@ -1372,6 +1472,6 @@
       ]
     }
   ],
-  "last_updated": "2026-09-05T22:26:19.670822079Z",
-  "total_count": 95
+  "last_updated": "2026-09-06T00:03:25.058493789Z",
+  "total_count": 102
 }
