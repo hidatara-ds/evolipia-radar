@@ -1,6 +1,50 @@
 {
   "items": [
     {
+      "id": "03dc6dfb-5cdc-4545-8bd6-2e365270688c",
+      "title": "Nitter is unarchived and will continue",
+      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+      "domain": "github.com",
+      "published_at": "2026-09-06T17:49:47Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49588988\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "0fa0b1c0-e338-4ff4-8165-a4a183fe9347",
+      "title": "Finder is so frustrating and has been since day one",
+      "url": "https://kepter.app/finder",
+      "domain": "kepter.app",
+      "published_at": "2026-09-06T19:06:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49589722\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9a9e8181-8ecd-48ce-93af-41a591749384",
+      "title": "Following legal advice, the Nitter project will continue",
+      "url": "https://github.com/zedeus/nitter",
+      "domain": "github.com",
+      "published_at": "2026-09-06T17:51:23Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49589003\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "ea4994a9-e318-4567-b5d3-8380affe5bd4",
       "title": "NetBSD 9.5 released and EOL for NetBSD-9",
       "url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
@@ -2101,54 +2145,8 @@
         "vision",
         "llm"
       ]
-    },
-    {
-      "id": "1a0f2ba2-e40c-4e2a-a443-eaeed284ae37",
-      "title": "DeepMind's New RL Algorithm Achieves Human-Level Control Performance",
-      "url": "https://deepmind.google/research/rl-breakthrough",
-      "domain": "deepmind.google",
-      "published_at": "2026-07-30T11:28:34.0302316+07:00",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "New reinforcement learning approach matches human expert controllers in complex physics tasks",
-      "why_it_matters": "Breakthrough in RL could enable more capable autonomous robotics systems",
-      "tags": [
-        "robotics",
-        "security"
-      ]
-    },
-    {
-      "id": "0947deb3-4337-46ae-af61-b03b7d361824",
-      "title": "Anthropic Offers Free Credits and API Tiers for AI Researchers",
-      "url": "https://anthropic.com/student-program",
-      "domain": "anthropic.com",
-      "published_at": "2026-07-30T13:28:34.0302316+07:00",
-      "category": "llm",
-      "score": 0.8,
-      "tldr": "Researchers can now access Claude 3.5 Sonnet API with upgraded grant allocation",
-      "why_it_matters": "Lowers barriers for academic research on model alignment and safety",
-      "tags": [
-        "llm",
-        "security"
-      ]
-    },
-    {
-      "id": "04437e6c-3168-421b-8ca2-a7b275c074b2",
-      "title": "PPO Algorithm Improvements for Robotics Control",
-      "url": "https://arxiv.org/abs/2024.12345",
-      "domain": "arxiv.org",
-      "published_at": "2026-07-30T08:27:36.9250794+07:00",
-      "category": "tech",
-      "score": 0.75,
-      "tldr": "Researchers improve Proximal Policy Optimization for robot manipulation",
-      "why_it_matters": "Better RL algorithms enable more efficient robot training",
-      "tags": [
-        "rl",
-        "robotics",
-        "research"
-      ]
     }
   ],
-  "last_updated": "2026-09-06T17:54:53.94112003Z",
+  "last_updated": "2026-09-06T19:42:04.454332203Z",
   "total_count": 150
 }
