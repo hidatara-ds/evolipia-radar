@@ -1,6 +1,230 @@
 {
   "items": [
     {
+      "id": "aa70a972-eefb-4c54-a080-02a39dab51b9",
+      "title": "Live map of public transport in Belgium",
+      "url": "https://openbaarvervoerbelgie.be/",
+      "domain": "openbaarvervoerbelgie.be",
+      "published_at": "2026-09-07T09:02:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49595865\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "828878a3-67ab-4c71-8dfc-16eb2433871b",
+      "title": "Caltech Mathathon – first hackathon ever devoted to research level mathematics",
+      "url": "https://mathathonchallenge.com/index.html",
+      "domain": "mathathonchallenge.com",
+      "published_at": "2026-09-07T09:26:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49596055\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c26fbd2f-1d05-4f4e-ba43-9f9636d4858f",
+      "title": "Smartphone makers don't bother to comply with EU repairability requirements",
+      "url": "https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532",
+      "domain": "theregister.com",
+      "published_at": "2026-09-07T11:46:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49597189\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "42a5decf-7d20-433e-b38d-ebeaf901495d",
+      "title": "Impedance Matching (2017)",
+      "url": "https://www.edge.org/response-detail/27238",
+      "domain": "edge.org",
+      "published_at": "2026-09-07T09:52:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49596274\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "93f33f4d-6bb0-4e7a-826f-7c4c7b95a0a6",
+      "title": "Speculative Decoding in vLLM on AMD GPUs",
+      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+      "domain": "vllm.ai",
+      "published_at": "2026-09-07T09:26:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49596054\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7d6f8ea2-e197-4bcf-a3b1-0abe455d9747",
+      "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+      "domain": "notebookcheck.net",
+      "published_at": "2026-09-07T07:03:20Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49594878\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "caa186fc-c12e-4c71-9624-cd578b628143",
+      "title": "'You Can See Everything' Review: Nathan Fielder's Doc About Elizabeth Holmes",
+      "url": "https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/",
+      "domain": "variety.com",
+      "published_at": "2026-09-07T09:33:39Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49596119\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "98203519-5a9b-45f8-ad49-119a89fb1480",
+      "title": "Tiny $70 Xteink X3 e-reader puts Silicon Valley to shame",
+      "url": "https://www.theatlantic.com/technology/2026/09/xteink-e-reader-best-technology-years/688539/",
+      "domain": "theatlantic.com",
+      "published_at": "2026-09-07T10:41:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49596629\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b4f1b4c4-96a7-4e0c-a91c-feabd38b790f",
+      "title": "I Connected My Withings Body+ to Home Assistant with an ESP32",
+      "url": "https://didac.dev/blog/i-made-my-withings-scale-sync-to-home-assistant-without-the-cloud",
+      "domain": "didac.dev",
+      "published_at": "2026-09-03T14:33:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49550436\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c28cef92-96e2-48b9-b17d-55af87936669",
+      "title": "Apparently CodePen 2.0 sends data to their servers as you type",
+      "url": "https://news.ycombinator.com/item?id=49596976",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-07T11:22:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49596976\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "43625ec3-0d44-4285-9998-0bf108cc844f",
+      "title": "Why are there no flow batteries with symmetric ferrocyanide electrolytes?",
+      "url": "https://chemisting.com/2026/09/02/why-are-there-no-flow-batteries-with-symmetric-ferrocyanide-electrolytes/",
+      "domain": "chemisting.com",
+      "published_at": "2026-09-02T10:39:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49534396\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5ab5bbab-e501-4ced-b69c-d71a2b42c767",
+      "title": "VMware migration reduces Tottenham Hotspur's licensing fees by 85 percent",
+      "url": "https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/",
+      "domain": "arstechnica.com",
+      "published_at": "2026-09-07T11:01:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49596797\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4c8ddca4-0823-406e-8e2e-6a1aacd79e2b",
+      "title": "Show HN: Think Turing Complete, but you write the circuits in TypeScript (WIP)",
+      "url": "https://play.simten.dev",
+      "domain": "play.simten.dev",
+      "published_at": "2026-09-02T14:47:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49537143\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "dd25fcbe-5004-4be7-8a8e-531f6d98fd23",
+      "title": "Programming is Art",
+      "url": "https://orchidfiles.com/programming-is-art/",
+      "domain": "orchidfiles.com",
+      "published_at": "2026-09-07T08:05:00Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49595360\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0f849853-67a9-49b9-8dfb-b36e659d0531",
+      "title": "Switzerland's Federal Government Is Replacing Microsoft on 3k Computers",
+      "url": "https://itsfoss.com/news/switzerland-replace-microssoft-pilot/",
+      "domain": "itsfoss.com",
+      "published_at": "2026-09-07T05:33:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Switzerland's Federal Government Is Replacing Microsoft on 3k Computers. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0573f624-be09-463e-b1f2-264e811c6f18",
+      "title": "TiVo to charge money for skipping commercials in your own recordings",
+      "url": "https://cordcuttersnews.com/tivo-plans-to-end-free-automatic-commercial-skipping-in-november-tests-paid-premium-replacement-service/",
+      "domain": "cordcuttersnews.com",
+      "published_at": "2026-09-07T04:41:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "TiVo to charge money for skipping commercials in your own recordings. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "44a46537-59ff-4f23-ba47-2c291fff920a",
       "title": "Keep Our Servers Running",
       "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
@@ -1900,237 +2124,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "620f5e9f-82de-4548-b2f9-d7d4fa7eb3b6",
-      "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
-      "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
-      "domain": "coderabbit.ai",
-      "published_at": "2026-09-05T03:38:56Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49572875\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "faea55b8-f161-4b4a-b36f-f40fc28f5b7f",
-      "title": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064",
-      "domain": "onlinelibrary.wiley.com",
-      "published_at": "2026-09-01T14:05:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49522194\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2d9b7987-a968-40c4-bec3-50b57d054edb",
-      "title": "Ask HN: Resources to get good at soldering?",
-      "url": "https://news.ycombinator.com/item?id=49533840",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-09-02T09:24:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49533840\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b4cfec76-6f79-4762-8433-18e56dffedd3",
-      "title": "An open DNS recursive service for free security and high privacy",
-      "url": "https://quad9.net/",
-      "domain": "quad9.net",
-      "published_at": "2026-09-04T20:13:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49569663\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fa36f72d-b20b-40e2-85dc-d169779af68a",
-      "title": "Fermat's Last Theorem in Lean 4",
-      "url": "https://github.com/anthropics/fermats-last-theorem",
-      "domain": "github.com",
-      "published_at": "2026-09-04T18:57:32Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49568697\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "ad5f9602-8468-4dbb-a487-81dc23094dbf",
-      "title": "The Highest Point in the Netherlands",
-      "url": "https://ipv6.hanazo.no/posts/anniversary-personal/",
-      "domain": "ipv6.hanazo.no",
-      "published_at": "2026-09-02T14:58:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49537340\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ccd63121-f0b4-4a1e-99e6-1a323b156dc0",
-      "title": "Government Rails Site Hit Hours After CVE Patch",
-      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
-      "domain": "rietta.com",
-      "published_at": "2026-09-04T19:06:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49568828\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a2fbd927-a387-4b49-aa7d-9c9868fba04d",
-      "title": "Nitter has more working instances than before the takedowns",
-      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
-      "domain": "codeberg.org",
-      "published_at": "2026-09-05T00:04:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49571634\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0c328ce2-4b25-47cf-b9ec-07fdb3671854",
-      "title": "The Rust React Compiler is now native in Vite",
-      "url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
-      "domain": "blog.master.dev",
-      "published_at": "2026-09-04T17:49:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49567873\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8add10c0-df98-4c5c-9988-89380fda7e15",
-      "title": "Decompiler Explorer",
-      "url": "https://dogbolt.org",
-      "domain": "dogbolt.org",
-      "published_at": "2026-09-01T22:33:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49529161\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9ab86b60-7024-4082-9f56-897cd6093fc9",
-      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
-      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
-      "domain": "github.com",
-      "published_at": "2026-09-04T09:03:00Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49562219\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "9ac5f853-b0ce-455d-a92f-eb68e16dc875",
-      "title": "Bugs happen: The easy way to compare solo PQ to ECC+PQ",
-      "url": "https://blog.cr.yp.to/20260704-bugs.html",
-      "domain": "blog.cr.yp.to",
-      "published_at": "2026-09-01T21:27:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49528484\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dd161963-8dcc-4bb9-80f5-95b15e8bebbe",
-      "title": "deSEC – Free Secure DNS",
-      "url": "https://desec.io/",
-      "domain": "desec.io",
-      "published_at": "2026-09-04T15:38:58Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "deSEC – Free Secure DNS. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3222a7eb-106d-4096-8bc6-86353f164039",
-      "title": "Discovery of a new OpenAI agent message board",
-      "url": "https://collusion.wiki/",
-      "domain": "collusion.wiki",
-      "published_at": "2026-09-04T11:54:53Z",
-      "category": "agents",
-      "score": 0.96,
-      "tldr": "https:\u0026#x2F;\u0026#x2F;www.reuters.com\u0026#x2F;world\u0026#x2F;europe\u0026#x2F;openai-agents-hijacked-...",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "agents",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "6f81cf2c-9128-4f14-bade-9a0c03b316ac",
-      "title": "Formalizing Fermat's Last Theorem",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "domain": "anthropic.com",
-      "published_at": "2026-09-04T18:42:56Z",
-      "category": "llm",
-      "score": 0.96,
-      "tldr": "https:\u0026#x2F;\u0026#x2F;xenaproject.wordpress.com\u0026#x2F;2026\u0026#x2F;09\u0026#x2F;04\u0026#x2F;flt-anthropic-h...",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "llm",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "3139d25e-2a8c-4005-9d64-1a0b1479a951",
-      "title": "Actively exploited sandbox RCE in all Chromium versions",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
-      "domain": "nvd.nist.gov",
-      "published_at": "2026-09-04T21:52:01Z",
-      "category": "llm",
-      "score": 0.94,
-      "tldr": "Actively exploited sandbox RCE in all Chromium versions trending on Hacker News with 349+ points.",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "llm",
-        "hacker-news"
-      ]
     }
   ],
-  "last_updated": "2026-09-07T06:15:00.878051031Z",
+  "last_updated": "2026-09-07T12:49:02.292220515Z",
   "total_count": 150
 }
