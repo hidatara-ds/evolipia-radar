@@ -1,6 +1,190 @@
 {
   "items": [
     {
+      "id": "e9275d16-996c-49d2-a526-e5de815a4985",
+      "title": "bzip3",
+      "url": "https://github.com/iczelia/bzip3",
+      "domain": "github.com",
+      "published_at": "2026-09-07T13:35:13Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49598291\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "24fa3e15-e145-4220-8e4a-73b3584481f2",
+      "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
+      "url": "https://news.ycombinator.com/item?id=49600233",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-07T16:40:32Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49600233\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b1b37d85-11b4-4fd6-ba45-b6ec720814bc",
+      "title": "Simple Is Not Small",
+      "url": "https://jyn.dev/simple-is-not-the-same-as-small/",
+      "domain": "jyn.dev",
+      "published_at": "2026-09-03T23:47:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49558685\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bd3ed223-aff5-4c1a-95af-3b106520565c",
+      "title": "Decoding the NEC V20 Microcode",
+      "url": "https://martypc.blogspot.com/2026/09/decoding-nec-v20-microcode.html",
+      "domain": "martypc.blogspot.com",
+      "published_at": "2026-09-04T05:53:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49561002\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "417584fa-23fe-45d4-a53c-566583b26a88",
+      "title": "PostgreSQL 19 Interactive Tour",
+      "url": "https://victoriametrics.com/blog/postgres-19/index.html",
+      "domain": "victoriametrics.com",
+      "published_at": "2026-09-07T16:58:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49600432\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5d427497-8150-461f-a208-81e135e3b802",
+      "title": "C Is Not a Low-Level Language (2018)",
+      "url": "https://queue.acm.org/doi/10.1145/3212477.3212479",
+      "domain": "queue.acm.org",
+      "published_at": "2026-09-07T15:39:20Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49599609\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "495d507a-e8fb-457d-8bb4-c3b31770adb2",
+      "title": "De-Brainrot Vacations",
+      "url": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
+      "domain": "devz.cl",
+      "published_at": "2026-09-07T13:00:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49597907\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b0e2524b-dd6b-4f0d-a9fc-c23a971ac14a",
+      "title": "The Dataflow Model Revisited",
+      "url": "https://www.vldb.org/pvldb/volumes/19/paper/The%20Dataflow%20Model%20Revisited",
+      "domain": "vldb.org",
+      "published_at": "2026-09-06T18:10:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49589190\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a433374f-8175-458d-a8a1-1984e924239d",
+      "title": "Bing Wallpaper showing Ad for Harry Potter and Fantastic beasts box set",
+      "url": "https://www.thurrott.com/forums/microsoft/windows/thread/bing-wallpaper-showing-ad-for-harry-potter-and-fantastic-beasts-box-set",
+      "domain": "thurrott.com",
+      "published_at": "2026-09-07T15:50:37Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49599719\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "cabd897c-8e78-4722-91d2-175ed1204cf4",
+      "title": "Whistle Synth",
+      "url": "https://www.jefftk.com/p/whistle-synth-mac-app",
+      "domain": "jefftk.com",
+      "published_at": "2026-09-04T09:44:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49562440\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bdd6c7eb-7660-4d05-9353-a80bd0deb08f",
+      "title": "Splash-free urinals (2025)",
+      "url": "https://academic.oup.com/pnasnexus/article/4/4/pgaf087/8098745?login=false",
+      "domain": "academic.oup.com",
+      "published_at": "2026-09-07T12:58:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49597895\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "91f59bd9-9892-4dec-8549-fbbe8b5d7e58",
+      "title": "Bill Gates tries to install MovieMaker",
+      "url": "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker",
+      "domain": "techemails.com",
+      "published_at": "2026-09-07T15:27:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49599481\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e235d8d6-5e35-4ead-993a-fb7362ecde70",
+      "title": "Unified Arabic",
+      "url": "https://worksthatwork.com/6/unified-arabic",
+      "domain": "worksthatwork.com",
+      "published_at": "2026-09-02T19:02:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49540827\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "aa70a972-eefb-4c54-a080-02a39dab51b9",
       "title": "Live map of public transport in Belgium",
       "url": "https://openbaarvervoerbelgie.be/",
@@ -1940,192 +2124,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "3e9199fb-5d84-402c-b597-646d926dc7e4",
-      "title": ".gitignore Everything by Default",
-      "url": "https://packagemain.tech/p/gitignore-everything-by-default",
-      "domain": "packagemain.tech",
-      "published_at": "2026-09-05T13:19:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49576258\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "04ea2153-60c8-4260-8ba8-2226a4f553b2",
-      "title": "Write Software in Latin (2025) [video]",
-      "url": "https://www.youtube.com/watch?v=fGZpaqMha0o",
-      "domain": "youtube.com",
-      "published_at": "2026-09-03T02:53:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49545430\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fb4e2849-bfc7-476b-9f69-17ff45f8a528",
-      "title": "There's No Limit to How Bad Code Can Get",
-      "url": "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/",
-      "domain": "zachkehs.com",
-      "published_at": "2026-09-05T14:13:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "There's No Limit to How Bad Code Can Get. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "30d539df-e5fb-4e6e-9292-54858bc027b0",
-      "title": "Pentagon rescinds new testosterone screening policy without explanation",
-      "url": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
-      "domain": "arstechnica.com",
-      "published_at": "2026-09-05T13:11:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49576196\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "75b8ddc1-5413-4a4b-8cb7-4d19d80b8ddf",
-      "title": "Netherlands pulls gold out of the US for fears of 'geopolitical unrest'",
-      "url": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
-      "domain": "abc.net.au",
-      "published_at": "2026-09-05T10:14:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49575034\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "62d66747-a8b3-4e8f-ba39-52cecd781499",
-      "title": "Terpstra Keyboard",
-      "url": "http://terpstrakeyboard.com/",
-      "domain": "terpstrakeyboard.com",
-      "published_at": "2026-09-05T10:33:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49575150\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "aaec16fc-9242-4de3-9829-6875e1c2a5c5",
-      "title": "AI handles incidents, engineers lose touch with their systems",
-      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
-      "domain": "sylvainkalache.com",
-      "published_at": "2026-09-05T07:52:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49574167\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8e4e5a54-62ad-4c18-a024-58946248bc9c",
-      "title": "Kale: A Transformation-Safe Spreadsheet System",
-      "url": "https://arxiv.org/abs/2608.26345",
-      "domain": "arxiv.org",
-      "published_at": "2026-09-01T01:42:30Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49516962\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "feb937c1-adcb-4fee-807e-0f0400a753c5",
-      "title": "Sky Map 2000 – Star Atlas and Planetarium",
-      "url": "https://skymap2000.com/",
-      "domain": "skymap2000.com",
-      "published_at": "2026-09-03T11:20:47Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49548596\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "robotics"
-      ]
-    },
-    {
-      "id": "342eab51-285d-455f-a815-20d0047953dd",
-      "title": "Pointing at the error: compiler-style diagnostics in uutils coreutils",
-      "url": "https://uutils.org/blog/2026-08-error-diagnostics/",
-      "domain": "uutils.org",
-      "published_at": "2026-09-02T12:05:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49535024\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a10c0e19-8e41-4f2a-8c44-1b434d5a702d",
-      "title": "Git hosting that never leaves Europe",
-      "url": "https://pushin.eu",
-      "domain": "pushin.eu",
-      "published_at": "2026-09-05T06:31:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49573680\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4013abe6-fbc0-4c6c-83f3-c854916c22be",
-      "title": "GPT-6 Astra",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "domain": "openai.com",
-      "published_at": "2026-09-03T18:41:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "System Card: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;deploymentsafety.openai.com\u0026#x2F;gpt-6-astra\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;deploymentsafety.openai.com\u0026#x2F;gpt-6-astra\u003c/a\u003e\u003cp\u003eRelated ongoing threads:\u003cp\u003e...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8c5c576d-e53b-483d-a5ea-92a0971adfe8",
-      "title": "Why are European countries moving their gold out of North America?",
-      "url": "https://www.bbc.com/news/articles/cvgyn8q8gqxo",
-      "domain": "bbc.com",
-      "published_at": "2026-09-05T05:52:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49573455\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-07T12:49:02.292220515Z",
+  "last_updated": "2026-09-07T17:58:44.148332376Z",
   "total_count": 150
 }
