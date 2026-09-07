@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "id": "c68d3d35-c044-44b1-95cf-cf6d05978c0f",
+      "title": "Is mathematics about to enter the conservatory?",
+      "url": "https://mbmccoy.dev/posts/mathematical-conservatory/",
+      "domain": "mbmccoy.dev",
+      "published_at": "2026-09-06T23:02:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49591793\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "490500f6-66df-45a6-b813-80ac2e2752fa",
+      "title": "Hackers have withdrawn ~4k BTC (~$320M) from the Liquid Federation wallet",
+      "url": "https://twitter.com/Liquid_BTC/status/2096696272447218108",
+      "domain": "twitter.com",
+      "published_at": "2026-09-06T22:43:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49591672\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "409bf3a6-a751-4e26-b76f-2eabf84a99d6",
+      "title": "Adverse Selection and Markouts",
+      "url": "https://machow.ski/posts/markouts_and_adverse_selection/",
+      "domain": "machow.ski",
+      "published_at": "2026-09-01T13:57:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49522092\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "615a98ab-400b-489d-9c5b-5dc8b48906c5",
+      "title": "Every Novel Is Boring–Until It Isn't",
+      "url": "https://www.publicbooks.org/every-novel-is-boring-until-it-isnt/",
+      "domain": "publicbooks.org",
+      "published_at": "2026-09-03T19:10:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49555114\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2bd4b91a-dc8c-4db0-8cbd-40d438ed215d",
       "title": "Making a Python interpreter in 1024 bytes",
       "url": "https://austinhenley.com/blog/python1024.html",
@@ -2080,64 +2136,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "2ab309bb-bf07-4750-970f-216c0920e007",
-      "title": "The sameness problem behind those unappetizing AI-generated menus",
-      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T04:21:03Z",
-      "category": "llm",
-      "score": 0.9,
-      "tldr": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "35c48e56-999c-46c9-8c42-06785ea7aa58",
-      "title": "Crusoe reportedly raises $3B at a $30B valuation",
-      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T00:48:42Z",
-      "category": "llm",
-      "score": 0.85,
-      "tldr": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e93aba57-46d4-4c85-ab5d-6b2ff6adf3f6",
-      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-03T19:36:29Z",
-      "category": "llm",
-      "score": 0.96,
-      "tldr": "The high-profile startup's annual revenue run rate stands at over $100 million.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c7bdd82e-0a75-4942-addc-40c966bd92ad",
-      "title": "Abliteration.ai is making a business out of removing AI guardrails",
-      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-03T18:37:57Z",
-      "category": "security",
-      "score": 0.91,
-      "tldr": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
-      "why_it_matters": "High signal AI development regarding security and practical deployments.",
-      "tags": [
-        "security"
-      ]
     }
   ],
-  "last_updated": "2026-09-06T23:19:10.802077763Z",
+  "last_updated": "2026-09-07T01:08:32.891308391Z",
   "total_count": 150
 }
