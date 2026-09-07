@@ -1,6 +1,219 @@
 {
   "items": [
     {
+      "id": "44a46537-59ff-4f23-ba47-2c291fff920a",
+      "title": "Keep Our Servers Running",
+      "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+      "domain": "blog.archive.org",
+      "published_at": "2026-09-07T03:29:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49593563\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4aaef8b7-1349-4d75-8bd5-93703cf6e292",
+      "title": "I'm a seeing-eye dog for a computer",
+      "url": "https://claytonwramsey.com/blog/seeing-eye/",
+      "domain": "claytonwramsey.com",
+      "published_at": "2026-09-03T14:20:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49550276\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "fac21f21-4ace-482a-be0a-9f7d3a72e10d",
+      "title": "Ask HN: Fable hacked my piano, can I release the results?",
+      "url": "https://news.ycombinator.com/item?id=49577129",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-05T14:54:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49577129\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "beffb137-14d7-49df-9495-a71d1eb21630",
+      "title": "Ask HN: How do you manage skills files?",
+      "url": "https://news.ycombinator.com/item?id=49589914",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-06T19:27:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49589914\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a503a243-5723-4c5b-a0bc-b1da74e60b60",
+      "title": "Has anybody seen my keys? A key-hierarchy strategy for rack-level security",
+      "url": "https://rfd.shared.oxide.computer/rfd/0301",
+      "domain": "rfd.shared.oxide.computer",
+      "published_at": "2026-09-07T02:14:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49593066\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "cf63f4c4-384a-43da-8553-832b2e83039d",
+      "title": "The NX bit is not just about security",
+      "url": "https://purplesyringa.moe/blog/guest/the-nx-bit-is-not-just-about-security/",
+      "domain": "purplesyringa.moe",
+      "published_at": "2026-09-04T13:47:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49564609\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "efa97e8a-5006-41a8-95bd-3b8279fdd4ba",
+      "title": "Ask HN: Would you read a statistics textbook?",
+      "url": "https://news.ycombinator.com/item?id=49583440",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-06T04:52:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49583440\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5277ff65-a44a-472a-9dc0-7ed2099f03cb",
+      "title": "I refused to train the AI that could replace me",
+      "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
+      "domain": "restofworld.org",
+      "published_at": "2026-09-07T04:38:22Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49593959\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e8da0ee8-724e-44c5-8d5c-c4d9f8579e23",
+      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+      "url": "https://github.com/timgordontg/engrim",
+      "domain": "github.com",
+      "published_at": "2026-09-07T04:49:36Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49594008\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "7a6b5f0b-f214-40d1-a733-c805a006ae50",
+      "title": "Show HN: GET Together – A social network where you don't need POST to Post",
+      "url": "https://gettogether.dev",
+      "domain": "gettogether.dev",
+      "published_at": "2026-09-07T01:41:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49592840\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "aac09d1b-3614-4911-aff9-ef9d3ce99cca",
+      "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
+      "url": "https://github.com/Staatsgeheim/MathKernel",
+      "domain": "github.com",
+      "published_at": "2026-09-07T00:21:01Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49592366\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "b71fad57-aa8d-400a-bbc4-542ff77998f1",
+      "title": "Signing TLS handshakes inside a TPM",
+      "url": "https://bschaatsbergen.com/posts/go-tpm-tls/",
+      "domain": "bschaatsbergen.com",
+      "published_at": "2026-09-06T21:05:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49590946\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a98b9341-10a1-466e-a20b-e5ee572a5d17",
+      "title": "Study Math with Kusama",
+      "url": "https://medium.com/counterarts/study-math-with-kusama-6008df7c2abd",
+      "domain": "medium.com",
+      "published_at": "2026-09-02T16:32:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49538741\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "73e4a9df-29f9-4920-a745-5b3d07f9a5fd",
+      "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
+      "url": "https://github.com/trailofbits/coop",
+      "domain": "github.com",
+      "published_at": "2026-09-07T04:18:28Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49593842\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "8831e964-d9a2-446a-adcb-8495eae8ea06",
+      "title": "Please don't rearrange our shoes when we turn up, paramedics in Japan urge",
+      "url": "https://www.theguardian.com/world/2026/aug/28/never-tidy-paramedics-shoes-japan-custom-etiquette",
+      "domain": "theguardian.com",
+      "published_at": "2026-09-03T10:23:19Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Please don't rearrange our shoes when we turn up, paramedics in Japan urge. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c68d3d35-c044-44b1-95cf-cf6d05978c0f",
       "title": "Is mathematics about to enter the conservatory?",
       "url": "https://mbmccoy.dev/posts/mathematical-conservatory/",
@@ -1916,228 +2129,8 @@
         "llm",
         "hacker-news"
       ]
-    },
-    {
-      "id": "7b864bdb-e6c1-469b-a84e-8abb6cc2dd59",
-      "title": "Shutting down our public encrypted DNS",
-      "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
-      "domain": "mullvad.net",
-      "published_at": "2026-09-04T18:50:28Z",
-      "category": "llm",
-      "score": 0.92,
-      "tldr": "Shutting down our public encrypted DNS trending on Hacker News with 288+ points.",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "llm",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "a00488e6-c589-4b66-afd1-a2fb2dc95d27",
-      "title": "Record-High 89% in U.S. Say Government Corruption Widespread",
-      "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
-      "domain": "news.gallup.com",
-      "published_at": "2026-09-04T22:03:16Z",
-      "category": "llm",
-      "score": 0.91,
-      "tldr": "Record-High 89% in U.S. Say Government Corruption Widespread trending on Hacker News with 283+ points.",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "llm",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "6e51fd0a-912a-40b4-9fba-2b59db290ed8",
-      "title": "Show HN: Open-Source eInk Bike Computer",
-      "url": "https://opentrailpaper.com/",
-      "domain": "opentrailpaper.com",
-      "published_at": "2026-09-04T17:18:08Z",
-      "category": "research",
-      "score": 0.91,
-      "tldr": "Hey all, i just launched my Eink Bike computer project and think it is cool. Another tidbit, in the crazy things that AI has done... It has helped create a ANT (common sensor wireless protocol used...",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "research",
-        "open-source",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "62434009-d01d-443b-87b5-5ea3d8117179",
-      "title": "IBM Bob",
-      "url": "https://bob.ibm.com/",
-      "domain": "bob.ibm.com",
-      "published_at": "2026-09-04T12:50:29Z",
-      "category": "llm",
-      "score": 0.9,
-      "tldr": "IBM Bob trending on Hacker News with 242+ points.",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "llm",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "5c470861-c9db-444b-8cc0-59efbd4c88d5",
-      "title": "Can AI design circuit boards yet?",
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet",
-      "domain": "eebench.org",
-      "published_at": "2026-09-04T19:48:29Z",
-      "category": "llm",
-      "score": 0.89,
-      "tldr": "Can AI design circuit boards yet? trending on Hacker News with 200+ points.",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "llm",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "98826b26-a79d-48e4-a8a9-88c3a20c0c9e",
-      "title": "Statichost.eu – European static site hosting",
-      "url": "https://www.statichost.eu/",
-      "domain": "statichost.eu",
-      "published_at": "2026-09-04T20:34:49Z",
-      "category": "llm",
-      "score": 0.89,
-      "tldr": "Statichost.eu – European static site hosting trending on Hacker News with 196+ points.",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "llm",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "3211ae7a-2982-4201-9399-54e55d041c36",
-      "title": "GPT-6 Astra on OpenRouter",
-      "url": "https://openrouter.ai/openai/gpt-6-astra",
-      "domain": "openrouter.ai",
-      "published_at": "2026-09-04T21:39:19Z",
-      "category": "llm",
-      "score": 0.87,
-      "tldr": "GPT-6 Astra on OpenRouter trending on Hacker News with 157+ points.",
-      "why_it_matters": "Trending developer discussions and critical feedback from tech practitioners.",
-      "tags": [
-        "llm",
-        "hacker-news"
-      ]
-    },
-    {
-      "id": "da8d0f96-af8e-404b-9410-fa91f3efc63b",
-      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T23:36:14Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "The round is being raised just months after the robot data startup exited from stealth.",
-      "why_it_matters": "High signal AI development regarding robotics and practical deployments.",
-      "tags": [
-        "robotics"
-      ]
-    },
-    {
-      "id": "68ae925d-6297-4275-9b33-d601ed1a1cda",
-      "title": "OpenAI\u0026#8217;s rogue agents keep escaping, with no formal process to investigate them",
-      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T23:15:11Z",
-      "category": "agents",
-      "score": 0.86,
-      "tldr": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-      "why_it_matters": "High signal AI development regarding agents and practical deployments.",
-      "tags": [
-        "agents",
-        "security"
-      ]
-    },
-    {
-      "id": "46632d68-7327-426b-b439-36e6d5489a19",
-      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T21:12:11Z",
-      "category": "llm",
-      "score": 0.93,
-      "tldr": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4e0898b4-a13f-4f2c-ac1a-ea3679ae5e10",
-      "title": "What will Apple\u0026#8217;s John Ternus era look like?",
-      "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T17:18:00Z",
-      "category": "llm",
-      "score": 0.87,
-      "tldr": "It\u0026#8217;s\u0026#160;officially the Ternus era at Apple.\u0026#160;\u0026#160; Tim Cook stepped down\u0026#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo\u0026#160;promised...",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "73f28a80-4167-466c-8613-4a04fed44d97",
-      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab\u0026#8217;s knowledge",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T16:21:11Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "It's the latest failure of OpenAI's internal monitoring and security systems.",
-      "why_it_matters": "High signal AI development regarding agents and practical deployments.",
-      "tags": [
-        "agents",
-        "security"
-      ]
-    },
-    {
-      "id": "14b68356-c12d-48ad-be9e-1a5ef79ea3dc",
-      "title": "Apple\u0026#8217;s Ternus era begins as Nvidia bets on the whole AI stack",
-      "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T16:04:08Z",
-      "category": "llm",
-      "score": 0.93,
-      "tldr": "It\u0026#8217;s\u0026#160;officially the Ternus era at Apple.\u0026#160;\u0026#160; Tim Cook stepped down\u0026#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo\u0026#160;promised...",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0b5b9438-7e22-420c-a4dd-d14edcdb4916",
-      "title": "Google\u0026#8217;s Gemini Spark can now manage your Google Photos library",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T14:47:11Z",
-      "category": "llm",
-      "score": 0.94,
-      "tldr": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "db0ca196-497a-4bc6-8cd6-788b5afd305c",
-      "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
-      "url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-04T14:00:00Z",
-      "category": "llm",
-      "score": 0.96,
-      "tldr": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
-      "why_it_matters": "High signal AI development regarding llm and practical deployments.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-07T01:08:32.891308391Z",
+  "last_updated": "2026-09-07T06:15:00.878051031Z",
   "total_count": 150
 }
