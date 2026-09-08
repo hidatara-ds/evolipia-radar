@@ -1,6 +1,135 @@
 {
   "items": [
     {
+      "id": "b3d0d693-222f-451d-bf37-fe2dff7aeee0",
+      "title": "Kimi K3 (2.8T) at 1 token/s on a MacBook Pro, streamed from four SSDs",
+      "url": "https://github.com/argonautlabsai/deltafin",
+      "domain": "github.com",
+      "published_at": "2026-09-08T20:07:55Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49616257\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "079d821d-1464-4bb3-9ce0-f1d10f7b0109",
+      "title": "Mercury 2.5",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+      "domain": "inceptionlabs.ai",
+      "published_at": "2026-09-08T20:14:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49616354\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a5c9b6a1-8997-4c66-9e60-ff84eefc2e7a",
+      "title": "Muse: Meta's personal AI agent, features and capabilities",
+      "url": "https://ai.meta.com/muse/",
+      "domain": "ai.meta.com",
+      "published_at": "2026-09-08T19:25:00Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49615537\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "d3e47774-d2da-486d-a631-74ecd072d6bf",
+      "title": "Animation in Bevy: The Big Picture",
+      "url": "https://glocq.com/en/blog/20260827/",
+      "domain": "glocq.com",
+      "published_at": "2026-09-08T20:08:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49616272\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "56124412-a526-4fa0-881a-26708f617459",
+      "title": "OpenAI fought dirty on career-making math problem",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-08T19:47:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49615926\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "64153566-52c8-4795-bd0a-48ea6ed16576",
+      "title": "Tracing np.add, all the way down",
+      "url": "https://blog.veitheller.de/numpy.html",
+      "domain": "blog.veitheller.de",
+      "published_at": "2026-09-04T09:42:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49562430\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "34133738-3ef2-4554-9af9-7e79f2c80cbb",
+      "title": "Reverse Engineering an ASIC",
+      "url": "https://kjartanvandriel.github.io/asic/",
+      "domain": "kjartanvandriel.github.io",
+      "published_at": "2026-09-07T16:02:02Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49599825\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "185b251b-1275-40cf-9059-e4e3267e5977",
+      "title": "Trey Parker and Matt Stone Are Changing the Name of South Park to South America",
+      "url": "https://twitter.com/SouthPark/status/2097364141237539116",
+      "domain": "twitter.com",
+      "published_at": "2026-09-08T20:06:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49616239\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d6d60193-8a39-4cc9-992c-c5194ece6646",
+      "title": "Function Arguments Are Not Function Colors",
+      "url": "https://jerf.org/iri/post/2026/func_args_are_not_colors/",
+      "domain": "jerf.org",
+      "published_at": "2026-09-08T19:04:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49615139\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c317339c-148c-4fd5-a632-788bec594956",
       "title": "ChatGPT Images 2.5",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
@@ -2002,138 +2131,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "8384fb53-8724-4345-a3a1-e4f1bc7d9219",
-      "title": "Black Hole of Los Alamos Seller of surplus nuclear research materials",
-      "url": "https://www.atlasobscura.com/places/black-hole-of-los-alamos",
-      "domain": "atlasobscura.com",
-      "published_at": "2026-09-02T18:47:55Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49540637\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "robotics"
-      ]
-    },
-    {
-      "id": "7f14d205-4fdc-4368-a972-51929fef17b5",
-      "title": "Show HN: VODForge – a free local desktop UI for YouTube video/playlist downloads",
-      "url": "https://getvodforge.com/",
-      "domain": "getvodforge.com",
-      "published_at": "2026-09-06T20:07:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49590354\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f40463a4-930b-4714-8268-dcfd9a84c78b",
-      "title": "Asahi Linux on M3",
-      "url": "https://asahilinux.org/2026/09/m2-episode-1/",
-      "domain": "asahilinux.org",
-      "published_at": "2026-09-06T14:08:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49586698\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "aac945d7-4a0f-448e-8654-0b0f794bef2b",
-      "title": "Vidact – a compiler that turns React into direct DOM operations",
-      "url": "https://www.vidact.dev/",
-      "domain": "vidact.dev",
-      "published_at": "2026-09-02T20:34:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49542123\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6e90bd90-9913-4705-811e-80c188bbc4ed",
-      "title": "Human archive: They were only human",
-      "url": "https://sayyss.github.io/human-archive/",
-      "domain": "sayyss.github.io",
-      "published_at": "2026-09-06T20:17:30Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49590455\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "c3de726c-1849-4a10-91f2-9477283211c0",
-      "title": "The car industry A/B tested selling a car with and without CarPlay",
-      "url": "https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/",
-      "domain": "a.wholelottanothing.org",
-      "published_at": "2026-09-06T19:53:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49590225\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "03dc6dfb-5cdc-4545-8bd6-2e365270688c",
-      "title": "Nitter is unarchived and will continue",
-      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
-      "domain": "github.com",
-      "published_at": "2026-09-06T17:49:47Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49588988\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "0fa0b1c0-e338-4ff4-8165-a4a183fe9347",
-      "title": "Finder is so frustrating and has been since day one",
-      "url": "https://kepter.app/finder",
-      "domain": "kepter.app",
-      "published_at": "2026-09-06T19:06:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49589722\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9a9e8181-8ecd-48ce-93af-41a591749384",
-      "title": "Following legal advice, the Nitter project will continue",
-      "url": "https://github.com/zedeus/nitter",
-      "domain": "github.com",
-      "published_at": "2026-09-06T17:51:23Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49589003\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-09-08T19:04:47.692548984Z",
+  "last_updated": "2026-09-08T21:56:38.126567323Z",
   "total_count": 150
 }
