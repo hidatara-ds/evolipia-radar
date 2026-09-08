@@ -1,6 +1,205 @@
 {
   "items": [
     {
+      "id": "c317339c-148c-4fd5-a632-788bec594956",
+      "title": "ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "domain": "openai.com",
+      "published_at": "2026-09-08T18:37:51Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49614720\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "073f6cc1-3d52-45cf-bf1a-32ed04b91c6c",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "domain": "openai.com",
+      "published_at": "2026-09-08T17:13:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613262\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bd6d035d-8a9b-4d5b-bb21-4c1f69b78b92",
+      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+      "domain": "quesma.com",
+      "published_at": "2026-09-08T14:49:19Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611128\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "34c398f9-b7d1-4e42-a600-ec54c5d23f41",
+      "title": "The Helicopter with Radioactive Blades",
+      "url": "https://hackaday.com/2026/09/07/the-helicopter-with-radioactive-blades/",
+      "domain": "hackaday.com",
+      "published_at": "2026-09-07T17:44:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49600901\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "819f5298-b6ee-4550-87f1-783a795fb693",
+      "title": "Show HN: LLM Attention Visualization",
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
+      "domain": "ishamf.dev",
+      "published_at": "2026-09-08T16:59:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613068\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8de295ff-b448-41e4-820c-34ef32209755",
+      "title": "LG TVs caught spying even when offline or on standby",
+      "url": "https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus",
+      "domain": "theverge.com",
+      "published_at": "2026-09-08T16:07:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612329\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ba76a971-47cb-4a89-9981-14529ed90d67",
+      "title": "Connecting the Machines",
+      "url": "https://herdr.dev/blog/connecting-the-machines/",
+      "domain": "herdr.dev",
+      "published_at": "2026-09-08T16:43:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612818\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "73e767a5-ea0c-4760-b472-99c96dff4016",
+      "title": "Y Combinator Early Access Network",
+      "url": "https://events.ycombinator.com/yc-early-access-fall-26",
+      "domain": "events.ycombinator.com",
+      "published_at": "2026-09-08T16:31:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612635\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "49835dad-53b8-4f7b-9365-b0271e408410",
+      "title": "C*: Unifying Programming and Verification in C",
+      "url": "https://arxiv.org/abs/2504.02246",
+      "domain": "arxiv.org",
+      "published_at": "2026-09-08T15:56:56Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612191\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "046a3da8-fe4d-43a7-8587-a169f0ff78a6",
+      "title": "Implementation of GCC's Nested Functions (vs. C++ Lambdas)",
+      "url": "https://uecker.codeberg.page/2026-09-05.html",
+      "domain": "uecker.codeberg.page",
+      "published_at": "2026-09-05T12:09:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49575766\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3d61e3f2-08a5-442d-b392-690bbfda773f",
+      "title": "Replacing a Rust Enum with a 64-Bit Word Made My Interpreter 17% Faster",
+      "url": "https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word/",
+      "domain": "pointersgonewild.com",
+      "published_at": "2026-09-05T12:32:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49575914\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "76a49182-03cf-4350-8951-b760992481ba",
+      "title": "100s of flights cancelled at UK airports due to ATC issue",
+      "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
+      "domain": "bbc.com",
+      "published_at": "2026-09-08T18:26:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49614557\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e876a787-a1b8-4351-a4e6-d0bb6db9f3b1",
+      "title": "The 92-Year-Old Mathematician and the Teenage Apprentice",
+      "url": "https://www.nytimes.com/2026/09/06/science/92-year-old-mathematician-apprentice.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-09-06T22:27:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49591563\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "67c26f29-7478-41c3-b520-0e1a0c96c608",
+      "title": "FreeBSD 14.5-Release",
+      "url": "https://www.freebsd.org/releases/14.5R/announce/",
+      "domain": "freebsd.org",
+      "published_at": "2026-09-08T12:04:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "FreeBSD 14.5-Release. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "59d57af8-bba0-46ee-91a8-f7b40e9bd485",
       "title": "DaVinci Resolve 21.1",
       "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
@@ -1933,207 +2132,8 @@
         "open-source",
         "open-source"
       ]
-    },
-    {
-      "id": "ea4994a9-e318-4567-b5d3-8380affe5bd4",
-      "title": "NetBSD 9.5 released and EOL for NetBSD-9",
-      "url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
-      "domain": "blog.netbsd.org",
-      "published_at": "2026-09-06T15:44:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49587636\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5fb9c03f-6416-45c1-aa5d-7db232547368",
-      "title": "We monitor internal coding agents for misalignment",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
-      "domain": "openai.com",
-      "published_at": "2026-09-06T16:37:55Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49588214\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "a2f2e0fa-0fa3-4c18-9278-cf700c59ece4",
-      "title": "An Alien Mind",
-      "url": "https://openai.com/index/an-alien-mind/",
-      "domain": "openai.com",
-      "published_at": "2026-09-06T16:27:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49588080\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "83d8852a-d174-4793-bcb5-9d71e24db503",
-      "title": "Research carried out using NetBSD",
-      "url": "https://www.netbsd.org/gallery/research.html",
-      "domain": "netbsd.org",
-      "published_at": "2026-09-06T16:10:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49587903\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e7e8bd4a-dea0-49ef-b5bb-3c1b306c00a1",
-      "title": "Opalite Health (YC W26) Is Hiring – Founding GTM",
-      "url": "https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm",
-      "domain": "ycombinator.com",
-      "published_at": "2026-09-06T17:00:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49588466\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2d0c3437-526d-4522-a43d-15c052afa9dc",
-      "title": "Electronic skin for prosthetics to sense temperature and pressure",
-      "url": "https://news.wsu.edu/press-release/2026/08/20/researchers-develop-electronic-skin-for-prosthetics-to-sense-temperature-and-pressure/",
-      "domain": "news.wsu.edu",
-      "published_at": "2026-09-02T18:06:56Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49540090\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d02431bb-39d2-4459-be40-9187081abc20",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "domain": "openai.com",
-      "published_at": "2026-09-06T15:08:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49587217\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "726697ed-80d8-4563-ab03-e70021bdb31b",
-      "title": "Recreating Minecraft Is Not a Benchmark",
-      "url": "https://kuber.studio/blog/Reflections/Recreating-Minecraft-is-Not-a-Benchmark",
-      "domain": "kuber.studio",
-      "published_at": "2026-09-06T14:52:07Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49587040\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "0b71c0d7-8942-48a0-98c0-9360d65d9666",
-      "title": "Babylonian Lamb Stew with Beets (1750–1730 BCE)",
-      "url": "https://babylonian-collection.yale.edu/about/babylonian-cooking",
-      "domain": "babylonian-collection.yale.edu",
-      "published_at": "2026-09-03T18:40:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49554622\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "697871ff-01fc-4834-8476-ad49960b04e2",
-      "title": "QBittorrent breaks out of sandbox to commit crimes",
-      "url": "https://beige.party/@intransitivelie/117057396732763183",
-      "domain": "beige.party",
-      "published_at": "2026-09-06T13:02:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49586171\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a6fc4481-492f-4b5c-9e6f-fdb0ff7e9dbf",
-      "title": "A/I shuts down – Stay human",
-      "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
-      "domain": "keepitfree.ai",
-      "published_at": "2026-09-06T14:34:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49586898\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "de1f9434-a4df-444b-a791-3ac9b803258a",
-      "title": "I Feel about AI",
-      "url": "https://beza1e1.tuxen.de/ai_feelings.html",
-      "domain": "beza1e1.tuxen.de",
-      "published_at": "2026-09-06T15:00:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49587128\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3334f045-c74e-493a-8f65-9b79a07b4291",
-      "title": "Show HN: Kadō – open-source habit tracker, with non-binary habit score, for iOS",
-      "url": "https://github.com/scastiel/kado",
-      "domain": "github.com",
-      "published_at": "2026-09-06T14:34:46Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49586902\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "0ef8cc0c-d556-4046-a889-e1a7df324fe9",
-      "title": "Alberta (Canada) slaps punitive tax on solar panels",
-      "url": "https://albertapolitics.ca/2026/09/ucp-slaps-punitive-tax-on-solar-panels-opening-new-front-in-its-war-on-renewable-energy/",
-      "domain": "albertapolitics.ca",
-      "published_at": "2026-09-06T15:14:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49587285\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-08T15:32:29.371396354Z",
+  "last_updated": "2026-09-08T19:04:47.692548984Z",
   "total_count": 150
 }
