@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "id": "f1f0eb95-8c6a-438a-b637-bb8c4024041e",
+      "title": "Genuine Creativity Is Your New Moat (2026)",
+      "url": "https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat",
+      "domain": "inventbuild.studio",
+      "published_at": "2026-09-10T19:03:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49648732\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e2627db0-c759-40a3-87fd-91b33258dc57",
+      "title": "Music Theory for the 21st-Century Classroom",
+      "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
+      "domain": "musictheory.pugetsound.edu",
+      "published_at": "2026-09-10T17:14:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49647134\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bd5881ec-067c-418d-96e9-ffe2e89532dd",
+      "title": "Douglas Hofstadter: Analogy as the Core of Cognition [video]",
+      "url": "https://www.youtube.com/watch?v=n8m7lFQ3njk",
+      "domain": "youtube.com",
+      "published_at": "2026-09-06T14:59:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49587121\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0c0bd97d-727c-41ec-9397-60ef07571229",
+      "title": "Don't Let Anyone Take Away Your Big Box of Cables",
+      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+      "domain": "blog.jim-nielsen.com",
+      "published_at": "2026-09-10T15:27:22Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645393\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5a5ea117-e80e-475c-93ba-872483cb1251",
+      "title": "Cognition's SWE-2 achieves 92.8 on Terminal-Bench 2.1",
+      "url": "https://tokenstead.ai/models/swe-2",
+      "domain": "tokenstead.ai",
+      "published_at": "2026-09-10T16:52:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49646778\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0e6a990d-0b27-4e2d-bf2d-0e942b6f189a",
+      "title": "JEP 544: Ahead-of-Time Code Compilation",
+      "url": "https://openjdk.org/jeps/544",
+      "domain": "openjdk.org",
+      "published_at": "2026-09-10T17:30:39Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49647404\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b6faf4c1-a76c-42d2-b529-dc11aa4e2849",
+      "title": "Schemy Lisp En DOS",
+      "url": "https://sled.neocities.org/",
+      "domain": "sled.neocities.org",
+      "published_at": "2026-09-06T12:58:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49586139\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "480b8476-4866-4fc6-95b6-f7f15528a290",
+      "title": "Macbeth and His Problems",
+      "url": "https://porticoquarterly.com/essay/macbeth-and-his-problems/",
+      "domain": "porticoquarterly.com",
+      "published_at": "2026-09-07T20:34:32Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49602716\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "ce5b50ac-571c-48fc-ae6a-6b0e16a65aa8",
       "title": "Shopify moves back to Native from React Native",
       "url": "https://shopify.engineering/back-to-native",
@@ -2006,121 +2118,8 @@
         "research",
         "research"
       ]
-    },
-    {
-      "id": "046a3da8-fe4d-43a7-8587-a169f0ff78a6",
-      "title": "Implementation of GCC's Nested Functions (vs. C++ Lambdas)",
-      "url": "https://uecker.codeberg.page/2026-09-05.html",
-      "domain": "uecker.codeberg.page",
-      "published_at": "2026-09-05T12:09:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49575766\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3d61e3f2-08a5-442d-b392-690bbfda773f",
-      "title": "Replacing a Rust Enum with a 64-Bit Word Made My Interpreter 17% Faster",
-      "url": "https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word/",
-      "domain": "pointersgonewild.com",
-      "published_at": "2026-09-05T12:32:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49575914\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "76a49182-03cf-4350-8951-b760992481ba",
-      "title": "100s of flights cancelled at UK airports due to ATC issue",
-      "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
-      "domain": "bbc.com",
-      "published_at": "2026-09-08T18:26:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49614557\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e876a787-a1b8-4351-a4e6-d0bb6db9f3b1",
-      "title": "The 92-Year-Old Mathematician and the Teenage Apprentice",
-      "url": "https://www.nytimes.com/2026/09/06/science/92-year-old-mathematician-apprentice.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-09-06T22:27:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49591563\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "67c26f29-7478-41c3-b520-0e1a0c96c608",
-      "title": "FreeBSD 14.5-Release",
-      "url": "https://www.freebsd.org/releases/14.5R/announce/",
-      "domain": "freebsd.org",
-      "published_at": "2026-09-08T12:04:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "FreeBSD 14.5-Release. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "59d57af8-bba0-46ee-91a8-f7b40e9bd485",
-      "title": "DaVinci Resolve 21.1",
-      "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
-      "domain": "blackmagicdesign.com",
-      "published_at": "2026-09-08T13:36:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610181\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ef209f64-ce10-4287-9294-30570cc6b443",
-      "title": "The two Christian saints who are the Buddha",
-      "url": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
-      "domain": "signoregalilei.com",
-      "published_at": "2026-09-08T14:44:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611051\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4809fd51-9e6b-473c-9aa5-17b8a8dd8854",
-      "title": "Google DeepMind Releases AlphaGenome Atlas",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-      "domain": "blog.google",
-      "published_at": "2026-09-08T14:55:45Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611251\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "robotics"
-      ]
     }
   ],
-  "last_updated": "2026-09-10T17:22:12.423050096Z",
+  "last_updated": "2026-09-10T19:52:52.674558509Z",
   "total_count": 150
 }
