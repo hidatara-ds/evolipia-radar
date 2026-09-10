@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "id": "ba01f3e8-680b-49c1-8464-c4601d1349d9",
+      "title": "The part of Navier-Stokes no one is talking about",
+      "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
+      "domain": "johndcook.com",
+      "published_at": "2026-09-10T21:22:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49650326\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "59a163d9-1894-47aa-bda3-75bf4ea5fe96",
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "domain": "developers.openai.com",
+      "published_at": "2026-09-10T19:43:22Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49649213\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "840c0bdc-45fb-417b-92aa-97bdaa442cea",
+      "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+      "url": "https://merybenavente.me/blog/proof-of-capture",
+      "domain": "merybenavente.me",
+      "published_at": "2026-09-10T19:44:15Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49649222\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "3a35172a-d8d7-4622-b204-e1c51839db91",
+      "title": "What happens when a GPU writes memory",
+      "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-writes-memory",
+      "domain": "blog.doubleword.ai",
+      "published_at": "2026-09-08T19:46:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49615922\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "33f908bd-b026-432b-b2c1-6b0ea43dc090",
+      "title": "NTSB Issues Investigative Update on B-767 Runway Excursion Accident in Miami",
+      "url": "https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx",
+      "domain": "ntsb.gov",
+      "published_at": "2026-09-10T21:30:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49650418\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6785ad1c-ed57-40e8-8a69-f6bb995de650",
+      "title": "Show HN: Vertumnus – printable posters of farmers' market produce seasonality",
+      "url": "https://vertumnus.fyi",
+      "domain": "vertumnus.fyi",
+      "published_at": "2026-09-08T01:08:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49604581\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e327c76e-10c0-496a-81a4-8430d8ca1277",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "domain": "anthropic.com",
+      "published_at": "2026-09-10T17:23:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49647300\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "f1f0eb95-8c6a-438a-b637-bb8c4024041e",
       "title": "Genuine Creativity Is Your New Moat (2026)",
       "url": "https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat",
@@ -2018,108 +2118,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "bd6d035d-8a9b-4d5b-bb21-4c1f69b78b92",
-      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
-      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
-      "domain": "quesma.com",
-      "published_at": "2026-09-08T14:49:19Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611128\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "34c398f9-b7d1-4e42-a600-ec54c5d23f41",
-      "title": "The Helicopter with Radioactive Blades",
-      "url": "https://hackaday.com/2026/09/07/the-helicopter-with-radioactive-blades/",
-      "domain": "hackaday.com",
-      "published_at": "2026-09-07T17:44:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49600901\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "819f5298-b6ee-4550-87f1-783a795fb693",
-      "title": "Show HN: LLM Attention Visualization",
-      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
-      "domain": "ishamf.dev",
-      "published_at": "2026-09-08T16:59:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613068\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8de295ff-b448-41e4-820c-34ef32209755",
-      "title": "LG TVs caught spying even when offline or on standby",
-      "url": "https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus",
-      "domain": "theverge.com",
-      "published_at": "2026-09-08T16:07:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612329\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ba76a971-47cb-4a89-9981-14529ed90d67",
-      "title": "Connecting the Machines",
-      "url": "https://herdr.dev/blog/connecting-the-machines/",
-      "domain": "herdr.dev",
-      "published_at": "2026-09-08T16:43:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612818\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "73e767a5-ea0c-4760-b472-99c96dff4016",
-      "title": "Y Combinator Early Access Network",
-      "url": "https://events.ycombinator.com/yc-early-access-fall-26",
-      "domain": "events.ycombinator.com",
-      "published_at": "2026-09-08T16:31:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612635\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "49835dad-53b8-4f7b-9365-b0271e408410",
-      "title": "C*: Unifying Programming and Verification in C",
-      "url": "https://arxiv.org/abs/2504.02246",
-      "domain": "arxiv.org",
-      "published_at": "2026-09-08T15:56:56Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612191\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
     }
   ],
-  "last_updated": "2026-09-10T19:52:52.674558509Z",
+  "last_updated": "2026-09-10T22:01:46.585217786Z",
   "total_count": 150
 }
