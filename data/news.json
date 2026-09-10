@@ -1,6 +1,246 @@
 {
   "items": [
     {
+      "id": "ce5b50ac-571c-48fc-ae6a-6b0e16a65aa8",
+      "title": "Shopify moves back to Native from React Native",
+      "url": "https://shopify.engineering/back-to-native",
+      "domain": "shopify.engineering",
+      "published_at": "2026-09-10T14:09:31Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49643982\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1fa4a7e8-eb63-4d05-9c3f-05576145e51e",
+      "title": "Rust Is Tier-1 Language at Microsoft",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "domain": "rustfoundation.org",
+      "published_at": "2026-09-10T13:39:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49643546\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c62b2b24-366b-4e44-be51-eabcddab6960",
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "url": "https://cognition.com/blog/swe-2",
+      "domain": "cognition.com",
+      "published_at": "2026-09-10T15:29:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645443\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "028d7e53-a3c6-4fe1-ab60-5f7c7b639a20",
+      "title": "Software Drives People Insane",
+      "url": "https://graybeard.ing/software-drives-people-insane/",
+      "domain": "graybeard.ing",
+      "published_at": "2026-09-10T16:13:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49646181\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ed88a805-686f-4ecf-9216-6720255556a5",
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "domain": "mathstodon.xyz",
+      "published_at": "2026-09-10T06:49:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49639408\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "68798e1d-b73a-48f4-a9f4-514a41f9c6ba",
+      "title": "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth",
+      "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844",
+      "domain": "gizmodo.com",
+      "published_at": "2026-09-10T15:29:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645437\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "50672fbb-3a38-434f-84f1-0de5a66b13be",
+      "title": "Neki by PlanetScale",
+      "url": "https://neki.dev/",
+      "domain": "neki.dev",
+      "published_at": "2026-09-10T15:48:14Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645763\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b889a912-a04e-4f9c-a9fe-353cc7dbb29e",
+      "title": "Neki",
+      "url": "https://planetscale.com/blog/introducing-neki",
+      "domain": "planetscale.com",
+      "published_at": "2026-09-10T15:43:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645686\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "35a6f40d-6807-4f47-9aee-d90a834380a2",
+      "title": "\u003e10x More Efficient Pretraining",
+      "url": "https://magic.dev/blog/pretraining#",
+      "domain": "magic.dev",
+      "published_at": "2026-09-08T16:59:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613072\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1240b026-f7fe-4dbe-9fd3-49c3e3c75346",
+      "title": "Casablanca: How an unproduced play marched into movie history",
+      "url": "https://www.thecollector.com/casablanca-unproduced-play-movie-history/",
+      "domain": "thecollector.com",
+      "published_at": "2026-09-10T15:52:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645826\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ec1356ed-2504-4864-80fa-e9f3ff727000",
+      "title": "Forgejo \u003c=16.0.3 Critical RCE",
+      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "domain": "codeberg.org",
+      "published_at": "2026-09-10T15:57:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645907\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "55745952-3905-46e4-8287-f9ae65997f75",
+      "title": "Silicon Valley Is Transforming the Military-Industrial Complex",
+      "url": "https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex",
+      "domain": "costsofwar.watson.brown.edu",
+      "published_at": "2026-09-10T15:47:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645754\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ab546fb1-51c8-4e40-a6fa-a5fb8a8f7a79",
+      "title": "Python sets and dictionaries can have quadratic-time performance",
+      "url": "https://lemire.me/blog/2026/09/03/python-sets-and-dictionaries-can-have-quadratic-time-performance/",
+      "domain": "lemire.me",
+      "published_at": "2026-09-08T16:17:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612470\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "683415dc-21e9-4459-a99d-d7ea4d8b9829",
+      "title": "One resignation turned the embers of AI fear into a wildfire",
+      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+      "domain": "interconnects.ai",
+      "published_at": "2026-09-10T16:09:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49646123\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "400a6790-3b85-408d-9fdc-02ad792c2adc",
+      "title": "Serverless DTLS",
+      "url": "https://proxylity.com/docs/listeners/dtls.html",
+      "domain": "proxylity.com",
+      "published_at": "2026-09-10T15:50:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645804\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "14026645-c84a-4712-b7d8-7b59a5e32712",
+      "title": "Show HN: Syq – copy files between machines fast (better than rsync)",
+      "url": "https://greaber.github.io/syq/",
+      "domain": "greaber.github.io",
+      "published_at": "2026-09-10T15:01:27Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49644955\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "f60281e7-3fb4-4e1d-8c8f-d5ad6950d659",
+      "title": "Show HN: MultiMatte, a Promptable Image Background Removal Model",
+      "url": "https://usefeyn.com/blog/multimatte/",
+      "domain": "usefeyn.com",
+      "published_at": "2026-09-10T15:50:25Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645803\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
       "id": "7a046841-0665-4e2d-a395-83ed67e55d71",
       "title": "Hitachi launches CO2 heat pump water heaters with solar-friendly tariff controls",
       "url": "https://www.pv-magazine.com/2026/09/07/hitachi-launches-co2-heat-pump-water-heaters-with-solar-friendly-tariff-controls/",
@@ -1879,251 +2119,8 @@
         "robotics",
         "robotics"
       ]
-    },
-    {
-      "id": "9c5dc9ff-d8a3-4923-8b08-eba6a04f2cc4",
-      "title": "LibreOffice breaks download records after declaring it has no AI features",
-      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-      "domain": "manualdousuario.net",
-      "published_at": "2026-09-08T14:05:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610538\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "29c71c1e-bb07-40f5-ae03-a08b25ddef10",
-      "title": "Show HN: Copperhead – Hardware as Fast as Software",
-      "url": "https://copperhead.sh/",
-      "domain": "copperhead.sh",
-      "published_at": "2026-09-08T13:26:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610059\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "cfe12d73-c5a0-42f0-af60-1547ca8fd555",
-      "title": "ZX Spectrum: Experimenting with 1-Bit Sound",
-      "url": "https://bumbershootsoft.wordpress.com/2026/09/05/zx-spectrum-experimenting-with-1-bit-sound/",
-      "domain": "bumbershootsoft.wordpress.com",
-      "published_at": "2026-09-08T14:54:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611230\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4add7d82-155a-4f41-8546-2bccbc435032",
-      "title": "We Must Return to the Office to Use AI in Person",
-      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-      "domain": "mcsweeneys.net",
-      "published_at": "2026-09-08T13:41:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610229\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3a877423-9df5-4fc8-a34c-e308ac3fb5d3",
-      "title": "How Climate Resilient Are the Largest Cities?",
-      "url": "https://alphageo.ai/how-climate-resilient-are-the-worlds-largest-cities/",
-      "domain": "alphageo.ai",
-      "published_at": "2026-09-08T14:49:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611132\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1a0f7737-9ca5-48d3-8ba4-0c0ec984e6af",
-      "title": "Extracting Steering Vectors from J space",
-      "url": "https://darshanmakwana412.github.io/2026/09/extracting-steering-vectors-from-j-space/",
-      "domain": "darshanmakwana412.github.io",
-      "published_at": "2026-09-06T14:03:24Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49586667\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "bd2af336-eba7-4a44-b7af-8c11463c488b",
-      "title": "Disappointed Optimists",
-      "url": "https://cwodtke.com/disappointed-optimists/",
-      "domain": "cwodtke.com",
-      "published_at": "2026-09-08T15:13:56Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611549\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "11902e5e-06d3-4210-9ec0-9064fca0f483",
-      "title": "Paramount Caught Using 'Astroturf' Group to Drum Up Fake Support for Merger",
-      "url": "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/",
-      "domain": "techdirt.com",
-      "published_at": "2026-09-08T14:33:52Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610900\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "db14d64b-4351-429b-acb8-7af7b8f83832",
-      "title": "DHS 'Predictive Policing' Unit Is Analyzing Americans' Financial Habits",
-      "url": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/",
-      "domain": "404media.co",
-      "published_at": "2026-09-08T14:40:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610988\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b676ef2d-b715-4659-a007-4a9fbdae65b7",
-      "title": "I-have-ADHD: A skill to stop your coding agent from burying the answer",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "domain": "github.com",
-      "published_at": "2026-09-08T14:13:26Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610631\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "df2bf0c6-b666-4402-adf1-53ba9331a46e",
-      "title": "Reverse engineering the 2008 LogiCola, a logic drill program",
-      "url": "https://logicola.org/blog/the-new-logicola",
-      "domain": "logicola.org",
-      "published_at": "2026-09-08T15:00:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611329\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "43257003-4ab3-4bc5-9253-8e03ee47e5c7",
-      "title": "Ask HN: Are others seeing Google's reCAPTCHA rejecting Firefox users?",
-      "url": "https://news.ycombinator.com/item?id=49555592",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-09-03T19:38:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49555592\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "087ece71-9df7-40ef-829a-37323c0bf1f1",
-      "title": "Arrested for a Late Manuscript: Seicho Matsumoto's 'Tokyo Express'",
-      "url": "https://www.millersbookreview.com/p/arrested-for-a-late-manuscript-seicho-matsumoto-tokyo-express",
-      "domain": "millersbookreview.com",
-      "published_at": "2026-09-03T19:10:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49555131\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "de159546-6d68-4f9c-ba58-b57d6e7ace41",
-      "title": "AlphaGenome Atlas predictive map of every DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "domain": "deepmind.google",
-      "published_at": "2026-09-08T14:14:15Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610641\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "robotics"
-      ]
-    },
-    {
-      "id": "44983b8f-7e5d-4d9a-81f8-4b75c2e4cbe4",
-      "title": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
-      "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
-      "domain": "ciphercue.com",
-      "published_at": "2026-09-08T08:42:56Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49607443\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "119334be-c8d6-48e4-ae4b-8352f4c471b3",
-      "title": "Antiquated HTML Snippets and Artefacts",
-      "url": "https://vale.rocks/posts/html-relics",
-      "domain": "vale.rocks",
-      "published_at": "2026-09-08T09:43:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49607991\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a80b14d7-ab98-4ce3-9993-3ffc29d76e8a",
-      "title": "Why getting your hands dirty is good for you",
-      "url": "https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks",
-      "domain": "bbc.com",
-      "published_at": "2026-09-08T09:48:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49608023\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-10T13:42:32.134155325Z",
+  "last_updated": "2026-09-10T17:22:12.423050096Z",
   "total_count": 150
 }
