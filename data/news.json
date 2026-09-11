@@ -1,6 +1,259 @@
 {
   "items": [
     {
+      "id": "8db7a160-aa28-47d7-a499-0135c8fc04ac",
+      "title": "Feeling Sad about AI",
+      "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+      "domain": "artificialworlds.net",
+      "published_at": "2026-09-11T16:50:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49661506\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "cbb3d687-0b44-4acc-88a8-503dd17742bc",
+      "title": "Global Glacier Extinction Explorer",
+      "url": "https://glacierextinction.com",
+      "domain": "glacierextinction.com",
+      "published_at": "2026-09-11T15:58:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660576\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "24a6de5d-d823-4869-98f0-16fad17db0ef",
+      "title": "Godot and Rust based multiplexer (terminal panes and more)",
+      "url": "https://github.com/godot-pty/gpty",
+      "domain": "github.com",
+      "published_at": "2026-09-11T16:03:05Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660676\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "59fa2ef2-d092-4fc4-ac07-becf3d90f7a6",
+      "title": "I've operated petabyte-scale ClickHouse clusters for 5 years",
+      "url": "https://www.tinybird.co/blog/what-i-learned-operating-clickhouse",
+      "domain": "tinybird.co",
+      "published_at": "2026-09-07T18:05:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49601138\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4781b122-505d-4e88-a998-2f1ebcbe444f",
+      "title": "Logo Programming Language",
+      "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+      "domain": "el.media.mit.edu",
+      "published_at": "2026-09-09T07:07:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49622406\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "014de784-73d8-4acf-a1f3-e1c52706ee6d",
+      "title": "Copying login keychains between Macs fails on Secure Enclave Macs with Tahoe",
+      "url": "https://derflounder.wordpress.com/2026/09/08/manually-copying-login-keychain-files-from-one-mac-to-another-no-longer-works-on-secure-enclave-equipped-macs-running-macos-tahoe/",
+      "domain": "derflounder.wordpress.com",
+      "published_at": "2026-09-10T22:33:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49651046\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2bc99a1a-569b-4374-bf63-5e90993a80f7",
+      "title": "Zep AI (YC W24) Is Hiring a Head of Forward Deployed Engineering",
+      "url": "https://www.getzep.com/careers/",
+      "domain": "getzep.com",
+      "published_at": "2026-09-11T17:00:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49661645\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2f93cfb3-0e10-428a-821e-f377d57d72bf",
+      "title": "118M Queries per Second on Neki",
+      "url": "https://planetscale.com/blog/118-million-queries-per-second-on-neki",
+      "domain": "planetscale.com",
+      "published_at": "2026-09-11T15:56:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660555\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c9959a8d-f29e-4b70-9db5-5f7124a9be36",
+      "title": "Measuring the sloppiness of code",
+      "url": "https://earendil.com/posts/measuring-code-sloppiness/",
+      "domain": "earendil.com",
+      "published_at": "2026-09-11T13:42:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49658311\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "107a3ae9-8b9c-4737-8a33-bc3bb65b8b6b",
+      "title": "HuggingFace: Security.txt",
+      "url": "https://huggingface.co/security.txt",
+      "domain": "huggingface.co",
+      "published_at": "2026-09-11T14:38:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49659245\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f7403027-21f9-4076-9d6a-e18defb65d2e",
+      "title": "Triple H Writes Anniversary Story for Spider-Man #1000",
+      "url": "https://cultaholic.com/posts/triple-h-writes-anniversary-story-for-amazing-spider-man-1000",
+      "domain": "cultaholic.com",
+      "published_at": "2026-09-11T16:13:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660884\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "057bfec1-b7e6-49b1-822b-590d8f5459b8",
+      "title": "Re-Engineering YouTube for the Living Room: Bringing \"Chrobalt\" to RDK",
+      "url": "https://www.collabora.com/news-and-blog/news-and-events/re-engineering-youtube-for-the-living-room-bringing-%E2%80%9Cchrobalt%E2%80%9D-to-rdk.html",
+      "domain": "collabora.com",
+      "published_at": "2026-09-11T13:41:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49658302\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4d625d6e-f7e4-4779-a74c-1296a6d02858",
+      "title": "Kenyans Did College Students' Homework for Years. Then A.I. Arrived",
+      "url": "https://www.nytimes.com/2026/09/05/technology/kenya-college-essays-ai.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-09-08T17:35:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613642\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e815827a-1986-41ac-861a-b603364ee9b0",
+      "title": "Houthis 'take control' of key island in global shipping route",
+      "url": "https://www.bbc.com/news/live/cmd683p01eljt",
+      "domain": "bbc.com",
+      "published_at": "2026-09-11T13:41:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49658299\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1635dfe8-bbb1-4adf-93d5-f2b4451ef122",
+      "title": "Matt Mullenweg tells Automattic staff in Slack he's back in control after ouster",
+      "url": "https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-11T15:29:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660104\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "18916c2f-82e6-4951-baea-15736b3ee8c6",
+      "title": "Copper lined vest to help penguins with recovery",
+      "url": "https://apnews.com/article/chile-el-nino-humboldt-penguins-vulnerable-injuries-rehabilitation-6e93b8d4eaef903e4c85d16ade7d5881",
+      "domain": "apnews.com",
+      "published_at": "2026-09-08T17:28:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613507\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1aec68fd-3d9f-4bb9-b818-9a5585ce4752",
+      "title": "Show HN: Hacker News, Without AI",
+      "url": "https://www.unslop.news/",
+      "domain": "unslop.news",
+      "published_at": "2026-09-11T16:08:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660783\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e22f8fed-a1fb-4c1f-b0cd-07f2a53d4389",
+      "title": "New York thoracic surgeon: \"For many patients 9/11 is not over\"",
+      "url": "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/",
+      "domain": "statnews.com",
+      "published_at": "2026-09-11T14:14:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49658819\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "fd8a6fe1-d0a2-43dd-b496-ec0a2652393b",
       "title": "The Waymo effect: how AI is quietly making research less collaborative",
       "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
@@ -1866,262 +2119,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "d78460f3-104a-40d7-b45e-9b2a7a758a1e",
-      "title": "Investing in Mothers? The Long-Run Impact of a Universal Child Care",
-      "url": "https://www.nber.org/papers/w35514",
-      "domain": "nber.org",
-      "published_at": "2026-09-09T14:55:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49627655\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "79fa65e4-371f-4b6c-8ca9-7f9253bb1b81",
-      "title": "Understanding the Recent DDoS Attack Against Read the Docs",
-      "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/",
-      "domain": "about.readthedocs.com",
-      "published_at": "2026-09-09T15:55:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49628614\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "20ff53bf-061a-46ed-9e49-2da4ec20354e",
-      "title": "Roame (YC S23) Is Hiring Viral Content Editor",
-      "url": "https://www.ycombinator.com/companies/roame/jobs/KuVVqSh-content-systems-builder-editor",
-      "domain": "ycombinator.com",
-      "published_at": "2026-09-09T12:01:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49625110\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b99d46cf-15bf-4313-9d21-3518fe6a6dac",
-      "title": "Bespoke: A Programming Language for People Who Say Please",
-      "url": "https://blog.hofstede.it/bespoke-a-programming-language-for-people-who-say-please/",
-      "domain": "blog.hofstede.it",
-      "published_at": "2026-09-06T08:13:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49584361\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8971305b-518e-47ac-9cb4-7736d0446a9d",
-      "title": "Better AI code comment detector",
-      "url": "https://entropicthoughts.com/better-ai-comment-classifier",
-      "domain": "entropicthoughts.com",
-      "published_at": "2026-09-09T15:45:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49628454\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9ee4c260-2958-4569-93bf-fff9efa00096",
-      "title": "Rivian's Gambit for Full Autonomy",
-      "url": "https://spectrum.ieee.org/rivian-self-driving",
-      "domain": "spectrum.ieee.org",
-      "published_at": "2026-09-08T19:09:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49615245\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d96a7cff-748b-46ba-82c1-ce4104f8f75e",
-      "title": "Microsoft/TracerAI withdraws copyright takedown against Luanti",
-      "url": "https://blog.luanti.org/2026/09/08/dmca-rescinded/",
-      "domain": "blog.luanti.org",
-      "published_at": "2026-09-09T14:33:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49627306\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f7ac85f2-0a09-4a0c-a01a-588b3aeeed92",
-      "title": "Playing whack-a-mole is losing",
-      "url": "https://dadrian.io/blog/posts/whack-a-mole-is-losing/",
-      "domain": "dadrian.io",
-      "published_at": "2026-09-09T13:41:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49626429\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "81a5e6b3-6a4b-4668-9dbd-cf7b5aca662b",
-      "title": "Show HN: Geiger – See every AI agent on your machine and what it can touch",
-      "url": "https://github.com/Atomburstofficial/geiger",
-      "domain": "github.com",
-      "published_at": "2026-09-09T14:54:49Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49627646\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "c4342546-86ce-44b8-885d-9e7983ecb12f",
-      "title": "Searching for the best silicone USB cable",
-      "url": "https://www.frankchiarulli.com/blog/best-silicone-usb-cable/",
-      "domain": "frankchiarulli.com",
-      "published_at": "2026-09-04T20:06:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Searching for the best silicone USB cable. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "57a20202-7f43-4f7f-a458-71700d28fb1d",
-      "title": "Smolts: A pedagogical IDE for a teaching language",
-      "url": "https://eighty-twenty.org/2026/09/04/smolts",
-      "domain": "eighty-twenty.org",
-      "published_at": "2026-09-04T10:58:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Smolts: A pedagogical IDE for a teaching language. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fcf2af7a-f896-47cc-9186-241a561df5f6",
-      "title": "Flock Wants a Closely Surveilled World with No Exit",
-      "url": "https://www.newyorker.com/culture/infinite-scroll/flock-wants-a-closely-surveilled-world-with-no-exit",
-      "domain": "newyorker.com",
-      "published_at": "2026-09-09T10:54:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49624394\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "09ccfbc8-0856-4cd6-bf5e-557fb4e89c71",
-      "title": "Lotus Notes and the dangers of starting from scratch",
-      "url": "https://buttondown.com/blog/lotus-notes-email",
-      "domain": "buttondown.com",
-      "published_at": "2026-09-09T10:01:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49623937\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0ec58622-703f-4170-b075-d5c35ce0f162",
-      "title": "How An AI math breakthrough ignited a controversy",
-      "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
-      "domain": "science.org",
-      "published_at": "2026-09-09T10:25:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49624163\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3801628b-1065-4f4d-8443-a71b815dfc68",
-      "title": "Desert Ant Labs: local, fast models that run on device",
-      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
-      "domain": "desertant.com",
-      "published_at": "2026-09-09T11:39:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49624823\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "28efb0ff-e9a5-4d23-8df1-53d35385cb0b",
-      "title": "Coyote v. Acme (1990)",
-      "url": "https://www.newyorker.com/magazine/1990/02/26/coyote-v-acme",
-      "domain": "newyorker.com",
-      "published_at": "2026-09-06T13:43:48Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49586494\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3be33006-e9bd-4618-8814-a59b217ccd97",
-      "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
-      "url": "https://news.ycombinator.com/item?id=49624603",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-09-09T11:19:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49624603\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "12945c40-accc-4465-a3b6-828b3f14e7c3",
-      "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments/",
-      "domain": "openai.com",
-      "published_at": "2026-09-09T07:22:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49622561\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-11T13:40:32.817650655Z",
+  "last_updated": "2026-09-11T17:23:34.340898154Z",
   "total_count": 150
 }
