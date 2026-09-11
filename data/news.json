@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "id": "2d18e014-d1e8-4053-99ac-d5a0596c3ec3",
+      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+      "domain": "dayzlegame.com",
+      "published_at": "2026-09-11T18:24:55Z",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49662990\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "robotics",
+        "robotics"
+      ]
+    },
+    {
+      "id": "d0d80e0a-fd8d-4ab9-b854-5bbb9675f546",
+      "title": "A Design Space Exploration of Async/Await",
+      "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
+      "domain": "cel.cs.brown.edu",
+      "published_at": "2026-09-09T13:59:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49626718\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "99a1e5aa-d21c-4bbc-a4be-465fef4b890e",
+      "title": "CIA Releases President's Daily Briefs in Commemoration of 9/11",
+      "url": "https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/",
+      "domain": "cia.gov",
+      "published_at": "2026-09-11T18:30:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49663054\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3d2aa0be-1cc7-4972-8d0b-b9fc80be15c3",
+      "title": "Txt: A fast, keyboard-driven terminal text editor for engineers",
+      "url": "https://txt.hellman.io/",
+      "domain": "txt.hellman.io",
+      "published_at": "2026-09-11T19:46:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49664322\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e0d0d193-ad18-4ba9-99b9-2bdb6fde4f68",
+      "title": "From Front Panel to Program: Thinking Like a PDP-8",
+      "url": "https://pikuma.com/blog/pdp-8-minicomputer",
+      "domain": "pikuma.com",
+      "published_at": "2026-09-10T17:30:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49647403\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ef7ffba5-bcfb-4898-b30f-ade377fa1fb0",
+      "title": "ElevenLabs Music v2.5",
+      "url": "https://elevenmusic.io/blog/introducing-music-v2-5",
+      "domain": "elevenmusic.io",
+      "published_at": "2026-09-11T20:53:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49665210\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6bc6c622-693f-4b9e-bcbe-2ea20f92828e",
       "title": "A misalignment of AI in mathematics",
       "url": "https://mathandai.org/",
@@ -2036,94 +2121,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "73cb104d-ee5b-40ca-be82-5fcb4a9ce0c1",
-      "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
-      "url": "https://github.com/OtoDock/oto-dock",
-      "domain": "github.com",
-      "published_at": "2026-09-09T17:57:55Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49630606\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "37466f79-240f-4b1f-9bab-1c1a435bb48f",
-      "title": "Generating the P3 Tiling",
-      "url": "https://k-monk.org/blog/generating-the-p3-tiling/",
-      "domain": "k-monk.org",
-      "published_at": "2026-09-08T18:27:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49614575\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f88832d5-1cd6-40be-87bb-150940257fd6",
-      "title": "I haven't lost a customer service fight in seven months",
-      "url": "https://www.sudomoin.com/p/consumer-claims",
-      "domain": "sudomoin.com",
-      "published_at": "2026-09-09T16:18:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49628982\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bfce7eda-be6d-4c19-b0c3-3225d0257907",
-      "title": "Ancient cave art suggests first known humans in Ireland walked over from Wales",
-      "url": "https://www.bbc.com/news/articles/c5y75dl0jpko",
-      "domain": "bbc.com",
-      "published_at": "2026-09-07T17:13:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49600569\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4de81864-a47a-4f1c-9e39-27e567c291fe",
-      "title": "iPhone Duo",
-      "url": "https://www.apple.com/iphone-duo/",
-      "domain": "apple.com",
-      "published_at": "2026-09-09T18:15:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "iPhone Duo. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "39bfaf15-bd2a-4f74-9195-b55e6b6847a5",
-      "title": "Apple Watch Series 12",
-      "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
-      "domain": "apple.com",
-      "published_at": "2026-09-09T17:56:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Apple Watch Series 12. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-11T19:52:50.823723178Z",
+  "last_updated": "2026-09-11T22:04:13.848325048Z",
   "total_count": 150
 }
