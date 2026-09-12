@@ -1,6 +1,77 @@
 {
   "items": [
     {
+      "id": "6080211c-8cb6-4dac-8955-73de39c54951",
+      "title": "An open letter to Dario: if you mean it, open the weights",
+      "url": "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/",
+      "domain": "jacob.gold",
+      "published_at": "2026-09-12T19:15:32Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49676085\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "c9c8dd64-c00d-4868-a7d2-d6b8845588eb",
+      "title": "Stabilizing Rust's Never Type",
+      "url": "https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/",
+      "domain": "lwn.net",
+      "published_at": "2026-09-09T11:57:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49625056\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "59298b56-978c-41ae-89f3-3ad8ca08a73c",
+      "title": "I made a build visualizer to understand Bun's compile times",
+      "url": "https://lalitm.com/post/buildprof/",
+      "domain": "lalitm.com",
+      "published_at": "2026-09-12T14:45:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49672842\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bbff6bd5-1ef7-4703-8e52-0e64d865a770",
+      "title": "How Trail of Bits helps verify the integrity of Signal chats",
+      "url": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
+      "domain": "blog.trailofbits.com",
+      "published_at": "2026-09-12T11:27:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49671237\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e55ee30e-f689-4379-a696-00266165e91b",
+      "title": "Android NAT-T keepalive offload bypasses VPN lockdown",
+      "url": "https://supuk.ch/papers/android-natt-keepalive-vpn-bypass",
+      "domain": "supuk.ch",
+      "published_at": "2026-09-11T21:16:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49665502\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "73c8b3d5-3218-451a-92a3-08614697c05d",
       "title": "Will There Be a 7G?",
       "url": "https://arxiv.org/abs/2609.01877",
@@ -2054,79 +2125,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "55745952-3905-46e4-8287-f9ae65997f75",
-      "title": "Silicon Valley Is Transforming the Military-Industrial Complex",
-      "url": "https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex",
-      "domain": "costsofwar.watson.brown.edu",
-      "published_at": "2026-09-10T15:47:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645754\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ab546fb1-51c8-4e40-a6fa-a5fb8a8f7a79",
-      "title": "Python sets and dictionaries can have quadratic-time performance",
-      "url": "https://lemire.me/blog/2026/09/03/python-sets-and-dictionaries-can-have-quadratic-time-performance/",
-      "domain": "lemire.me",
-      "published_at": "2026-09-08T16:17:51Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612470\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "683415dc-21e9-4459-a99d-d7ea4d8b9829",
-      "title": "One resignation turned the embers of AI fear into a wildfire",
-      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
-      "domain": "interconnects.ai",
-      "published_at": "2026-09-10T16:09:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49646123\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "400a6790-3b85-408d-9fdc-02ad792c2adc",
-      "title": "Serverless DTLS",
-      "url": "https://proxylity.com/docs/listeners/dtls.html",
-      "domain": "proxylity.com",
-      "published_at": "2026-09-10T15:50:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645804\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "14026645-c84a-4712-b7d8-7b59a5e32712",
-      "title": "Show HN: Syq – copy files between machines fast (better than rsync)",
-      "url": "https://greaber.github.io/syq/",
-      "domain": "greaber.github.io",
-      "published_at": "2026-09-10T15:01:27Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49644955\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-09-12T17:56:39.198344089Z",
+  "last_updated": "2026-09-12T19:55:19.514389806Z",
   "total_count": 150
 }
