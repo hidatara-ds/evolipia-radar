@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "id": "b1d95cbe-0eb8-4b9e-9adb-45b19d41176e",
+      "title": "Getting 50 GB/S Back from the Apple Neural Engine",
+      "url": "https://eiln.github.io/posts/ane-dma.html",
+      "domain": "eiln.github.io",
+      "published_at": "2026-09-10T00:16:10Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49636479\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "635ad47f-da5b-4f57-8cc1-5a8f0ba69a6f",
+      "title": "StarCraft returns in 2030 as an open-world shooter",
+      "url": "https://www.theverge.com/games/994371/starcraft-returns-in-2030-as-an-open-world-shooter",
+      "domain": "theverge.com",
+      "published_at": "2026-09-12T22:07:19Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49677715\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b9b60e29-07c3-433a-af9d-439f2ea8932b",
+      "title": "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026",
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-12T20:28:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49676849\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3ce862ac-8b7c-4f1d-90f8-db901452c4a7",
+      "title": "Show HN: See Sounds on Your Webcam",
+      "url": "https://soundmap.darebuild.com/",
+      "domain": "soundmap.darebuild.com",
+      "published_at": "2026-09-10T14:43:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49644603\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "23c06549-1dd7-4d9d-8bbe-cde70fea5ca9",
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "url": "https://withspecific.com/benchmarks/real-swe",
@@ -2072,64 +2129,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "1fa4a7e8-eb63-4d05-9c3f-05576145e51e",
-      "title": "Rust Is Tier-1 Language at Microsoft",
-      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
-      "domain": "rustfoundation.org",
-      "published_at": "2026-09-10T13:39:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49643546\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c62b2b24-366b-4e44-be51-eabcddab6960",
-      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-      "url": "https://cognition.com/blog/swe-2",
-      "domain": "cognition.com",
-      "published_at": "2026-09-10T15:29:47Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645443\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "028d7e53-a3c6-4fe1-ab60-5f7c7b639a20",
-      "title": "Software Drives People Insane",
-      "url": "https://graybeard.ing/software-drives-people-insane/",
-      "domain": "graybeard.ing",
-      "published_at": "2026-09-10T16:13:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49646181\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ed88a805-686f-4ecf-9216-6720255556a5",
-      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
-      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-      "domain": "mathstodon.xyz",
-      "published_at": "2026-09-10T06:49:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49639408\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-12T21:46:35.95751744Z",
+  "last_updated": "2026-09-12T23:30:49.136052066Z",
   "total_count": 150
 }
