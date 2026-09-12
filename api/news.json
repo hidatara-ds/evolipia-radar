@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "id": "64f19e12-b60d-40a1-8c90-084c94777fba",
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "domain": "eiln.github.io",
+      "published_at": "2026-09-12T07:54:03Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49670032\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "af3ccc3b-7b87-4dc5-8b3c-b5fa5691eab6",
+      "title": "IKEA made a mod for Skyrim [video]",
+      "url": "https://www.youtube.com/watch?v=iZODN0QUgjI",
+      "domain": "youtube.com",
+      "published_at": "2026-09-10T07:20:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49639647\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0344046d-8dc7-457c-8c9a-c6db147c89b0",
+      "title": "Navier-Stokes Announcement",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "domain": "claymath.org",
+      "published_at": "2026-09-12T04:09:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49668706\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ce7393ae-3ea2-4667-8822-019b96f0ed3d",
+      "title": "Inverse Kinematics and Foot Locking",
+      "url": "https://theorangeduck.com/page/inverse-kinematics-foot-locking",
+      "domain": "theorangeduck.com",
+      "published_at": "2026-09-07T08:21:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49595505\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7b80fcff-4858-42ad-a6dd-835cbb78585b",
+      "title": "WeWorm: Zero-Click WeChat Worm",
+      "url": "https://calif.io/research/weworm",
+      "domain": "calif.io",
+      "published_at": "2026-09-12T05:49:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49669276\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f95a2b7d-a0e1-4ed7-a276-d2e0f5edb90f",
+      "title": "Another way to leak traffic on Android has been discovered",
+      "url": "https://mullvad.net/en/blog/another-way-to-leak-traffic-on-android-has-been-discovered",
+      "domain": "mullvad.net",
+      "published_at": "2026-09-11T21:16:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Another way to leak traffic on Android has been discovered. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "df940680-7027-4650-924d-350948234581",
       "title": "Google no longer provides direct URLs in search results",
       "url": "https://www.autom.dev/blog/google-search-goto-links",
@@ -2039,92 +2124,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "18a9c3a3-3bfb-4fcf-8f05-484c86a813b2",
-      "title": "The UN challenges five centuries of cartography",
-      "url": "https://www.not-ship.com/united-nations-map/",
-      "domain": "not-ship.com",
-      "published_at": "2026-09-09T16:33:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49629209\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d8d9e95d-1329-4c94-bb9f-8efed3865081",
-      "title": "The Kuycon P20 – 28\" 4500x3000px 3:2 monitor",
-      "url": "https://taoofmac.com/space/reviews/2026/09/06/1800",
-      "domain": "taoofmac.com",
-      "published_at": "2026-09-06T22:24:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49591536\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7b77dc37-f6fb-4716-bc99-4472001b4d32",
-      "title": "Use Vsock with Libzmq",
-      "url": "https://blog.remijouan.net/posts/libzmq-vsock-pyzmq/",
-      "domain": "blog.remijouan.net",
-      "published_at": "2026-09-07T20:24:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49602615\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1a242ae8-3eb9-41f4-a4c1-404148cc3ca7",
-      "title": "Electrostatic Cathode Ray Tube Project 1 (2014)",
-      "url": "https://labguysworld.com/Project_ESCRTs_001.htm",
-      "domain": "labguysworld.com",
-      "published_at": "2026-09-08T05:25:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49605836\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d3b3de77-5481-4fcc-a97a-3897e9eaadc5",
-      "title": "South Park creators rename show 'South America'",
-      "url": "https://www.bbc.co.uk/news/articles/cp9340rg7k8o",
-      "domain": "bbc.co.uk",
-      "published_at": "2026-09-09T21:53:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49634966\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "da33a370-bfc6-4619-8a76-a4f61709c9cc",
-      "title": "Scanned, segmented, and animated my keyboard. Now you can type on my keyboard",
-      "url": "https://chyuang.com/gaussian-splats/",
-      "domain": "chyuang.com",
-      "published_at": "2026-09-08T11:42:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49608931\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-12T04:46:45.670269192Z",
+  "last_updated": "2026-09-12T08:55:28.378955732Z",
   "total_count": 150
 }
