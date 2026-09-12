@@ -1,6 +1,148 @@
 {
   "items": [
     {
+      "id": "9ad371f9-b34a-4d04-9447-81480ef03916",
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "domain": "economist.com",
+      "published_at": "2026-09-12T15:08:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49673098\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c2895eaf-e5e4-447e-bbb4-8a5c2ba208da",
+      "title": "A Mathematical Framework for Transformer Circuits (2021)",
+      "url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "domain": "transformer-circuits.pub",
+      "published_at": "2026-09-12T13:56:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49672365\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "81835c4c-32e1-4b3d-b7b5-afbafb7b7cd8",
+      "title": "LRU is harder to beat than the KV-cache papers suggest",
+      "url": "https://github.com/gauravapiscean/agentic-kv-cache",
+      "domain": "github.com",
+      "published_at": "2026-09-10T13:39:11Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49643543\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "b09d3e87-2a60-499a-855b-ba55a19eac41",
+      "title": "Ask HN: What default model do you use and why?",
+      "url": "https://news.ycombinator.com/item?id=49672966",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-12T14:58:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49672966\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3295a36e-c22f-4281-b6aa-c7ce7d2db783",
+      "title": "Moby-Dick and the Indefinite Sublime: On facing the white page",
+      "url": "https://yalereview.org/article/tom-mccarthy-indefinite-sublime",
+      "domain": "yalereview.org",
+      "published_at": "2026-09-09T13:23:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49626140\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "70b6cc40-b048-41b9-b9b8-caadc8380f10",
+      "title": "Performance of WebAssembly Runtimes in 2026",
+      "url": "https://00f.net/2026/06/23/webassembly-runtimes-2026/",
+      "domain": "00f.net",
+      "published_at": "2026-09-09T10:00:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49623933\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4f93a94a-95ac-4d9c-9c03-4b68c9db5db9",
+      "title": "LLMs are real, AI is fake",
+      "url": "https://pluralistic.net/2026/09/12/god-in-the-box/",
+      "domain": "pluralistic.net",
+      "published_at": "2026-09-12T13:47:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49672281\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2866bd90-994e-42bb-82c6-74fbda475b85",
+      "title": "Overshoot: The World Is Hitting Point of No Return on Climate",
+      "url": "https://e360.yale.edu/features/1.5-degrees-tipping-points",
+      "domain": "e360.yale.edu",
+      "published_at": "2026-09-12T12:03:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49671460\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "78ddce54-c587-4dfe-8475-ba6c9c3ffd86",
+      "title": "Compiler Can Undo Your Security Checks",
+      "url": "https://davidbombal.com/your-compiler-can-undo-your-security-checks/",
+      "domain": "davidbombal.com",
+      "published_at": "2026-09-12T14:07:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49672474\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9c551615-ce4e-4810-9e4a-a2ca9d34c2b3",
+      "title": "We Must Pace the Frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "domain": "darioamodei.com",
+      "published_at": "2026-09-12T14:10:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49672510\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "4e156c32-84b6-4b8b-a5a1-c2f8cd63615e",
       "title": "Fuck it, make it anyway",
       "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
@@ -1982,148 +2124,8 @@
         "infra",
         "infra"
       ]
-    },
-    {
-      "id": "0d185e58-3b0e-49ea-9014-2ae990986dbb",
-      "title": "To write non-fiction, draw the trunk, then the rest of the tree",
-      "url": "https://devz.cl/posts/how-to-write/",
-      "domain": "devz.cl",
-      "published_at": "2026-09-08T14:25:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49610780\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bb5076f8-52f8-485b-bab3-2cb2573acf21",
-      "title": "Liesegang Rings",
-      "url": "https://chillphysicsenjoyer.substack.com/p/liesegang-rings",
-      "domain": "chillphysicsenjoyer.substack.com",
-      "published_at": "2026-09-09T13:20:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49626110\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ff0d3a9e-7df0-4a7a-8ec8-a95d75a914c5",
-      "title": "Show HN: Art – draw one stroke, let symmetry complete it",
-      "url": "https://mrdee.in/mandala/",
-      "domain": "mrdee.in",
-      "published_at": "2026-09-05T15:35:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49577541\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "658047c8-240f-45b8-b04d-5f3cd2171b7c",
-      "title": "AI Doomlord Jacob Coxon's Media Tour Has Begun",
-      "url": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
-      "domain": "gizmodo.com",
-      "published_at": "2026-09-10T13:21:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49643299\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4211aa0c-fea7-4a46-9366-fd7017895e8e",
-      "title": "PlayStation cancels Kojima's PHYSINT, Xbox steps in",
-      "url": "https://twitter.com/hideo_kojima_en/status/2097877506401681753",
-      "domain": "twitter.com",
-      "published_at": "2026-09-10T10:35:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "PlayStation cancels Kojima's PHYSINT, Xbox steps in. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c4fbed94-153c-467e-8bd7-eb338de17256",
-      "title": "DeepSeek v4.1 Flash",
-      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "domain": "twitter.com",
-      "published_at": "2026-09-10T06:11:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49639090\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "385c2ecf-dc58-4984-86c0-c129d1c28dc6",
-      "title": "Larger Pacific Striped Octopus",
-      "url": "https://en.wikipedia.org/wiki/Larger_Pacific_striped_octopus",
-      "domain": "en.wikipedia.org",
-      "published_at": "2026-09-09T04:32:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49621018\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "82c4d36c-28ce-4cfe-9b0c-f43a41fac308",
-      "title": "All grown-ups were once children, but only few of them remember it",
-      "url": "https://mathstodon.xyz/@tao/117244102901892965",
-      "domain": "mathstodon.xyz",
-      "published_at": "2026-09-10T04:04:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49638280\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d7ed93f8-163b-41bb-b159-1226d7e4b973",
-      "title": "Samsung Debuts zHBM Prototype, Stacking Memory Directly on AI Accelerators",
-      "url": "https://www.thelec.net/news/articleView.html?idxno=12835",
-      "domain": "thelec.net",
-      "published_at": "2026-09-07T04:27:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49593896\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "61ffaa45-4dff-4c7c-8bcd-78da3816aeb8",
-      "title": "Open Source Durable Objects for Postgres",
-      "url": "https://solidobjects.dev/blog/introducing-solidobjects",
-      "domain": "solidobjects.dev",
-      "published_at": "2026-09-08T15:59:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49612223\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-12T12:28:27.289326804Z",
+  "last_updated": "2026-09-12T15:42:35.907875029Z",
   "total_count": 150
 }
