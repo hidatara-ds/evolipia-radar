@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "id": "23c06549-1dd7-4d9d-8bbe-cde70fea5ca9",
+      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+      "url": "https://withspecific.com/benchmarks/real-swe",
+      "domain": "withspecific.com",
+      "published_at": "2026-09-12T20:25:48Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49676820\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "fcd2b7a5-d529-4b84-b3d5-ef5fedab8c2d",
+      "title": "Benchmark: CadQuery vs. OpenSCAD for agentic CAD work",
+      "url": "https://modelrift.com/blog/cadquery-vs-openscad/",
+      "domain": "modelrift.com",
+      "published_at": "2026-09-12T19:57:19Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49676577\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "1214e26e-06e9-4e38-ba05-43f0c3770b6b",
+      "title": "Apple iPod Engraver (2019)",
+      "url": "https://dunstanorchard.com/apple-ipod-engraver/",
+      "domain": "dunstanorchard.com",
+      "published_at": "2026-09-09T01:57:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49619848\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "aa60f3f6-d68f-48b8-a6c7-ac1ade8b4300",
+      "title": "The Magic Behind Cubacadabra",
+      "url": "https://andrewarrow.dev/2026/moon/2/day/19/the-magic-behind-cubacadabra/",
+      "domain": "andrewarrow.dev",
+      "published_at": "2026-09-10T18:01:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49647860\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "afc1966a-aa4f-4d83-aea5-daca0939ee57",
+      "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
+      "url": "https://hachyderm.io/@simontatham/117201594980991062",
+      "domain": "hachyderm.io",
+      "published_at": "2026-09-12T18:58:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49675902\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b07b59e5-d791-4364-8665-2d93bb1044be",
+      "title": "LG Says We're Fake News [video]",
+      "url": "https://www.youtube.com/watch?v=ToP9xfLDSME",
+      "domain": "youtube.com",
+      "published_at": "2026-09-12T19:35:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49676324\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6080211c-8cb6-4dac-8955-73de39c54951",
       "title": "An open letter to Dario: if you mean it, open the weights",
       "url": "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/",
@@ -2041,92 +2128,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "68798e1d-b73a-48f4-a9f4-514a41f9c6ba",
-      "title": "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth",
-      "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844",
-      "domain": "gizmodo.com",
-      "published_at": "2026-09-10T15:29:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645437\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "50672fbb-3a38-434f-84f1-0de5a66b13be",
-      "title": "Neki by PlanetScale",
-      "url": "https://neki.dev/",
-      "domain": "neki.dev",
-      "published_at": "2026-09-10T15:48:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645763\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b889a912-a04e-4f9c-a9fe-353cc7dbb29e",
-      "title": "Neki",
-      "url": "https://planetscale.com/blog/introducing-neki",
-      "domain": "planetscale.com",
-      "published_at": "2026-09-10T15:43:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645686\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "35a6f40d-6807-4f47-9aee-d90a834380a2",
-      "title": "\u003e10x More Efficient Pretraining",
-      "url": "https://magic.dev/blog/pretraining#",
-      "domain": "magic.dev",
-      "published_at": "2026-09-08T16:59:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613072\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1240b026-f7fe-4dbe-9fd3-49c3e3c75346",
-      "title": "Casablanca: How an unproduced play marched into movie history",
-      "url": "https://www.thecollector.com/casablanca-unproduced-play-movie-history/",
-      "domain": "thecollector.com",
-      "published_at": "2026-09-10T15:52:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645826\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ec1356ed-2504-4864-80fa-e9f3ff727000",
-      "title": "Forgejo \u003c=16.0.3 Critical RCE",
-      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
-      "domain": "codeberg.org",
-      "published_at": "2026-09-10T15:57:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645907\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-12T19:55:19.514389806Z",
+  "last_updated": "2026-09-12T21:46:35.95751744Z",
   "total_count": 150
 }
