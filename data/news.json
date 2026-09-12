@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "id": "7576982f-62a7-47bf-99f9-53030337cc8d",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "url": "https://www.rubyhack.ai/",
+      "domain": "rubyhack.ai",
+      "published_at": "2026-09-11T23:17:42Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49666735\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "bc73ad21-b7cf-4632-8967-7e225bdc8abc",
+      "title": "Project Blinkenlights",
+      "url": "https://blinkenlights.de/en/",
+      "domain": "blinkenlights.de",
+      "published_at": "2026-09-11T22:15:00Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49666146\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c093cfbd-9739-4b42-9192-22e376ff7d02",
+      "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
+      "url": "https://github.com/mirza-rizvi/ResolveHQ",
+      "domain": "github.com",
+      "published_at": "2026-09-11T21:48:00Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49665864\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "c4625c83-aba8-42b5-88d3-c0937b096837",
+      "title": "Hepburn Romanization: How to Read Japanese in the Latin Alphabet",
+      "url": "https://www.fink-translate.com/blog/hepburn-romanization.html",
+      "domain": "fink-translate.com",
+      "published_at": "2026-09-10T09:13:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49640741\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e5a4e7d6-c4ed-416e-af84-a0a498e5113f",
+      "title": "QueryBrew: System-Agnostic SQL-to-SQL Query Optimization [pdf]",
+      "url": "https://www.vldb.org/pvldb/vol19/p4494-schmidt.pdf",
+      "domain": "vldb.org",
+      "published_at": "2026-09-11T22:16:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49666155\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "916167ea-fa69-4d82-a412-f79b2134f74e",
+      "title": "How to Build an AI Software Factory: Agents That Open, Review, and Merge PRs",
+      "url": "https://www.firecrawl.dev/blog/ai-software-factory",
+      "domain": "firecrawl.dev",
+      "published_at": "2026-09-11T23:43:53Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49666960\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
       "id": "2d18e014-d1e8-4053-99ac-d5a0596c3ec3",
       "title": "I spent $220 on Google app ads and 60% of the installs were robots",
       "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
@@ -2035,94 +2122,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "1ca0d9ca-f7aa-4090-9200-22026d34a06a",
-      "title": "Apple Unveils iPhone Duo",
-      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
-      "domain": "apple.com",
-      "published_at": "2026-09-09T18:17:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49630964\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6868e381-8e3c-42c9-a724-aa228c87f388",
-      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-      "domain": "gist.github.com",
-      "published_at": "2026-09-09T17:24:28Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49630026\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "a5c0cd49-c549-40fa-8a9b-9dda31be8459",
-      "title": "Apple Introduces AirPods 5",
-      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
-      "domain": "apple.com",
-      "published_at": "2026-09-09T17:39:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49630253\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c3100ac5-085b-4be0-a8c4-bfa55e330e01",
-      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
-      "url": "https://academy.dair.ai/papers/procedural-graphs-self-evolving-execution-structures-for-llm-agents-2609.09153",
-      "domain": "academy.dair.ai",
-      "published_at": "2026-09-09T17:13:52Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49629868\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "6ed40711-d33b-4d31-91b7-cf50c4bf4eb4",
-      "title": "San Francisco institution 'heartbroken and furious' after erasure of public art",
-      "url": "https://www.sfgate.com/local/article/clarion-alley-murals-erased-22420365.php",
-      "domain": "sfgate.com",
-      "published_at": "2026-09-07T17:19:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49600627\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ba0329f1-a11b-44b0-8f30-5f34a28da2a3",
-      "title": "Why Emacs Consult async searches feel slow and how to speed them up",
-      "url": "https://www.jamescherti.com/emacs-consult-speed-async-searche-grep-ripgrep-fd-find/",
-      "domain": "jamescherti.com",
-      "published_at": "2026-09-09T17:13:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49629865\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-11T22:04:13.848325048Z",
+  "last_updated": "2026-09-12T00:24:15.420157755Z",
   "total_count": 150
 }
