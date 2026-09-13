@@ -1,6 +1,123 @@
 {
   "items": [
     {
+      "id": "f4cbde1f-4c1d-4402-8f9b-58bcff87bef6",
+      "title": "Everyone should slow down AI development except for me",
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "domain": "xeiaso.net",
+      "published_at": "2026-09-13T00:30:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49678683\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2a1792f5-47d1-4fe3-93c4-0914ab5447ec",
+      "title": "Align AI and Mathematics–To Something Else",
+      "url": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/",
+      "domain": "liorpachter.wordpress.com",
+      "published_at": "2026-09-13T00:47:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49678783\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "642fcb25-c9f1-4f55-a62a-c34090e5123a",
+      "title": "No Atlantic hurricanes by Sept. 12 breaks a 60-year record",
+      "url": "https://www.accuweather.com/en/hurricane/no-atlantic-hurricanes-by-sept-12-breaks-a-60-year-record/1932278",
+      "domain": "accuweather.com",
+      "published_at": "2026-09-12T23:44:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49678432\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e9212996-44f0-4d5a-bb19-c1ebc5ff6ca1",
+      "title": "Recurrent Looped Transformer",
+      "url": "https://yifanzhang-pro.github.io/recurrent-looped-tranformer/",
+      "domain": "yifanzhang-pro.github.io",
+      "published_at": "2026-09-13T00:05:22Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49678548\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "d79aeaea-d7c6-4ced-8418-ffbaa788f313",
+      "title": "A Godot 4 port of two 1996 Bethesda shooters",
+      "url": "https://github.com/nemo22/skynet-godot",
+      "domain": "github.com",
+      "published_at": "2026-09-13T00:18:03Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49678606\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "8ef4c1c0-30b1-4bf9-97bb-fde859ee9597",
+      "title": "Vintage Scientific Papers with LaTeX",
+      "url": "https://github.com/Foadsf/vintage-latex",
+      "domain": "github.com",
+      "published_at": "2026-09-09T16:58:27Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49629624\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "19141acd-8eca-4f84-aa8a-02a5551c656a",
+      "title": "AgentsDock: An IDE designed for agentic AI research",
+      "url": "https://agentsdock.net/",
+      "domain": "agentsdock.net",
+      "published_at": "2026-09-12T23:45:58Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49678435\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "3572e82b-ef96-4769-b2d3-f1d85196cc3c",
+      "title": "Tree Calculus",
+      "url": "https://olydis.medium.com/a-visual-introduction-to-tree-calculus-2f4a34ceffc2",
+      "domain": "olydis.medium.com",
+      "published_at": "2026-09-08T03:16:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49605329\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b1d95cbe-0eb8-4b9e-9adb-45b19d41176e",
       "title": "Getting 50 GB/S Back from the Apple Neural Engine",
       "url": "https://eiln.github.io/posts/ane-dma.html",
@@ -2017,120 +2134,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e2627db0-c759-40a3-87fd-91b33258dc57",
-      "title": "Music Theory for the 21st-Century Classroom",
-      "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
-      "domain": "musictheory.pugetsound.edu",
-      "published_at": "2026-09-10T17:14:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49647134\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bd5881ec-067c-418d-96e9-ffe2e89532dd",
-      "title": "Douglas Hofstadter: Analogy as the Core of Cognition [video]",
-      "url": "https://www.youtube.com/watch?v=n8m7lFQ3njk",
-      "domain": "youtube.com",
-      "published_at": "2026-09-06T14:59:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49587121\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0c0bd97d-727c-41ec-9397-60ef07571229",
-      "title": "Don't Let Anyone Take Away Your Big Box of Cables",
-      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
-      "domain": "blog.jim-nielsen.com",
-      "published_at": "2026-09-10T15:27:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645393\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5a5ea117-e80e-475c-93ba-872483cb1251",
-      "title": "Cognition's SWE-2 achieves 92.8 on Terminal-Bench 2.1",
-      "url": "https://tokenstead.ai/models/swe-2",
-      "domain": "tokenstead.ai",
-      "published_at": "2026-09-10T16:52:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49646778\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0e6a990d-0b27-4e2d-bf2d-0e942b6f189a",
-      "title": "JEP 544: Ahead-of-Time Code Compilation",
-      "url": "https://openjdk.org/jeps/544",
-      "domain": "openjdk.org",
-      "published_at": "2026-09-10T17:30:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49647404\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b6faf4c1-a76c-42d2-b529-dc11aa4e2849",
-      "title": "Schemy Lisp En DOS",
-      "url": "https://sled.neocities.org/",
-      "domain": "sled.neocities.org",
-      "published_at": "2026-09-06T12:58:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49586139\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "480b8476-4866-4fc6-95b6-f7f15528a290",
-      "title": "Macbeth and His Problems",
-      "url": "https://porticoquarterly.com/essay/macbeth-and-his-problems/",
-      "domain": "porticoquarterly.com",
-      "published_at": "2026-09-07T20:34:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49602716\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ce5b50ac-571c-48fc-ae6a-6b0e16a65aa8",
-      "title": "Shopify moves back to Native from React Native",
-      "url": "https://shopify.engineering/back-to-native",
-      "domain": "shopify.engineering",
-      "published_at": "2026-09-10T14:09:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49643982\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-12T23:30:49.136052066Z",
+  "last_updated": "2026-09-13T01:47:30.50789561Z",
   "total_count": 150
 }
