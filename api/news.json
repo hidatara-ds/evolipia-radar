@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "id": "a3adce97-df77-4bdd-b67e-068306ed0402",
+      "title": "I'm being cyberattacked by Tesla, Inc",
+      "url": "https://dreamstation.systems/personal/tesla.html",
+      "domain": "dreamstation.systems",
+      "published_at": "2026-09-13T18:03:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49686766\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9268e232-2a07-4772-a748-1ad926e41660",
+      "title": "Why is Google still serving dodgy ads?",
+      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "domain": "atomic14.com",
+      "published_at": "2026-09-13T17:37:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49686445\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "981e005d-9557-481d-9a6a-77b8f29548f1",
+      "title": "Data collected by cars and sold to third parties",
+      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+      "domain": "theverge.com",
+      "published_at": "2026-09-13T13:45:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49683953\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "51f20c6e-3134-4846-b7b3-12385c2e6ce5",
+      "title": "Sean Carroll explains the biggest ideas in the universe – Full Interview [video]",
+      "url": "https://www.youtube.com/watch?v=_TBNJyztai0",
+      "domain": "youtube.com",
+      "published_at": "2026-09-10T23:32:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49651567\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3e18dd59-cd0e-4134-b57f-71d5c6d0f34c",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "domain": "twitter.com",
+      "published_at": "2026-09-13T16:52:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49685991\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "88216ae2-74be-4300-aa20-41922255e0ad",
+      "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
+      "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "domain": "aprilnea.me",
+      "published_at": "2026-09-11T03:45:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49653311\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "282d86c2-0382-43b0-a32a-60619aed6e3e",
+      "title": "Romania soccer introduces black card to 'combat abusive behaviour' from parents",
+      "url": "https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/",
+      "domain": "nytimes.com",
+      "published_at": "2026-09-13T17:08:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49686134\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "dd77da23-4a44-449d-9bca-cc880c744ced",
+      "title": "Flock cameras used to arrest a child for playing on a swing",
+      "url": "https://www.youtube.com/watch?v=koclOnlde0E",
+      "domain": "youtube.com",
+      "published_at": "2026-09-13T18:47:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49687312\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "cd2fc5ec-41b1-46c9-a1d5-4cb9a2879738",
       "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
       "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
@@ -2018,122 +2130,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e22f8fed-a1fb-4c1f-b0cd-07f2a53d4389",
-      "title": "New York thoracic surgeon: \"For many patients 9/11 is not over\"",
-      "url": "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/",
-      "domain": "statnews.com",
-      "published_at": "2026-09-11T14:14:56Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49658819\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fd8a6fe1-d0a2-43dd-b496-ec0a2652393b",
-      "title": "The Waymo effect: how AI is quietly making research less collaborative",
-      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
-      "domain": "researchagenda.news",
-      "published_at": "2026-09-11T11:17:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49656496\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a23e0912-0830-4694-a6d3-31bf350ba9c0",
-      "title": "RTK reports token savings, but our cost benchmarks disagree",
-      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-      "domain": "quesma.com",
-      "published_at": "2026-09-11T11:15:13Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49656471\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "e0a6e98a-776d-4cd2-ba83-ae2866ee4681",
-      "title": "Ask HN: Can we please limit the AI news flood?",
-      "url": "https://news.ycombinator.com/item?id=49657850",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-09-11T13:11:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49657850\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7fe41d37-0ff2-4ac1-99c6-03f2000b2e4c",
-      "title": "iPod Classic 6G in QEMU",
-      "url": "https://www.reddit.com/r/emulation/s/VL4Au2HGxq",
-      "domain": "reddit.com",
-      "published_at": "2026-09-08T14:54:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49611240\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e38a4fbd-ab0b-43aa-ba51-eb2643ae92f6",
-      "title": "Claude is no longer available for minors",
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "domain": "support.claude.com",
-      "published_at": "2026-09-11T10:48:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49656225\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "24a5f099-f807-4a8a-a0d0-558001460679",
-      "title": "RISC-V Emulator and Linux System from Scratch",
-      "url": "https://github.com/WerWolv/riscv-emulator",
-      "domain": "github.com",
-      "published_at": "2026-09-07T21:57:15Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49603397\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "a2afba96-7872-4f14-aa1e-a5406d69c32b",
-      "title": "CSS Curiosities of the Past",
-      "url": "https://vale.rocks/posts/css-relics",
-      "domain": "vale.rocks",
-      "published_at": "2026-09-11T07:57:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49654962\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-13T16:30:28.387446749Z",
+  "last_updated": "2026-09-13T19:03:02.531838417Z",
   "total_count": 150
 }
