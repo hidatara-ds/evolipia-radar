@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "id": "00178dab-b6fb-43e2-8993-53a66cf76d25",
+      "title": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)",
+      "url": "https://twitter.com/TechEmails/status/2099214399840059428",
+      "domain": "twitter.com",
+      "published_at": "2026-09-13T20:08:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49688157\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b8127b65-5a27-4a25-873b-8a1abab44788",
+      "title": "Julia 1.13 Highlights",
+      "url": "https://julialang.org/blog/2026/09/julia-1.13-highlights/",
+      "domain": "julialang.org",
+      "published_at": "2026-09-10T12:27:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49642645\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7a8107a7-00ab-4541-9083-f8d0c290d85d",
+      "title": "There Is No AI (It's Just People) with Jaron Lanier",
+      "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
+      "domain": "singjupost.com",
+      "published_at": "2026-09-13T19:41:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49687869\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7610e00b-7786-4004-82d9-705a25c8325e",
+      "title": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)",
+      "url": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
+      "domain": "pages.cs.wisc.edu",
+      "published_at": "2026-09-13T20:33:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49688391\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "df139d42-dc39-49fd-a6c9-b4e4ca963cc5",
+      "title": "Global Shortage Has Led to Motor Oil Rationing at Costco",
+      "url": "https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/",
+      "domain": "guessingheadlights.com",
+      "published_at": "2026-09-13T17:57:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49686697\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "13e0818e-c520-4430-bd74-e03462194caf",
+      "title": "Bad Code Is Kudzu",
+      "url": "https://vickiboykis.com/2026/09/01/bad-code-is-kudzu/",
+      "domain": "vickiboykis.com",
+      "published_at": "2026-09-10T13:02:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49643059\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "47e5ab1d-9296-49f8-9aad-7e2a6f7d5aff",
+      "title": "Device Drivers lab exercise – COSC562",
+      "url": "https://web.eecs.utk.edu/~smarz1/courses/cosc562/drivers.html",
+      "domain": "web.eecs.utk.edu",
+      "published_at": "2026-09-13T17:41:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49686503\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1b432bed-dedb-433a-9a13-a7bd31fc95c6",
+      "title": "AI recursive self-improvement might not come so quickly after all (August 2026)",
+      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "domain": "technologyreview.com",
+      "published_at": "2026-09-13T18:49:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49687334\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a3adce97-df77-4bdd-b67e-068306ed0402",
       "title": "I'm being cyberattacked by Tesla, Inc",
       "url": "https://dreamstation.systems/personal/tesla.html",
@@ -2018,120 +2130,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "107a3ae9-8b9c-4737-8a33-bc3bb65b8b6b",
-      "title": "HuggingFace: Security.txt",
-      "url": "https://huggingface.co/security.txt",
-      "domain": "huggingface.co",
-      "published_at": "2026-09-11T14:38:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49659245\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f7403027-21f9-4076-9d6a-e18defb65d2e",
-      "title": "Triple H Writes Anniversary Story for Spider-Man #1000",
-      "url": "https://cultaholic.com/posts/triple-h-writes-anniversary-story-for-amazing-spider-man-1000",
-      "domain": "cultaholic.com",
-      "published_at": "2026-09-11T16:13:51Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660884\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "057bfec1-b7e6-49b1-822b-590d8f5459b8",
-      "title": "Re-Engineering YouTube for the Living Room: Bringing \"Chrobalt\" to RDK",
-      "url": "https://www.collabora.com/news-and-blog/news-and-events/re-engineering-youtube-for-the-living-room-bringing-%E2%80%9Cchrobalt%E2%80%9D-to-rdk.html",
-      "domain": "collabora.com",
-      "published_at": "2026-09-11T13:41:58Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49658302\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4d625d6e-f7e4-4779-a74c-1296a6d02858",
-      "title": "Kenyans Did College Students' Homework for Years. Then A.I. Arrived",
-      "url": "https://www.nytimes.com/2026/09/05/technology/kenya-college-essays-ai.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-09-08T17:35:56Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613642\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e815827a-1986-41ac-861a-b603364ee9b0",
-      "title": "Houthis 'take control' of key island in global shipping route",
-      "url": "https://www.bbc.com/news/live/cmd683p01eljt",
-      "domain": "bbc.com",
-      "published_at": "2026-09-11T13:41:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49658299\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1635dfe8-bbb1-4adf-93d5-f2b4451ef122",
-      "title": "Matt Mullenweg tells Automattic staff in Slack he's back in control after ouster",
-      "url": "https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-11T15:29:35Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660104\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "18916c2f-82e6-4951-baea-15736b3ee8c6",
-      "title": "Copper lined vest to help penguins with recovery",
-      "url": "https://apnews.com/article/chile-el-nino-humboldt-penguins-vulnerable-injuries-rehabilitation-6e93b8d4eaef903e4c85d16ade7d5881",
-      "domain": "apnews.com",
-      "published_at": "2026-09-08T17:28:48Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49613507\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1aec68fd-3d9f-4bb9-b818-9a5585ce4752",
-      "title": "Show HN: Hacker News, Without AI",
-      "url": "https://www.unslop.news/",
-      "domain": "unslop.news",
-      "published_at": "2026-09-11T16:08:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660783\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-13T19:03:02.531838417Z",
+  "last_updated": "2026-09-13T21:29:41.934147432Z",
   "total_count": 150
 }
