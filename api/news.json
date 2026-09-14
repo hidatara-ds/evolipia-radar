@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "id": "655780f4-d0fa-4d2f-b84e-06d4029f339a",
+      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "domain": "community.signalusers.org",
+      "published_at": "2026-09-13T21:47:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49689048\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "047059b5-673d-4bc4-acae-7909d0b317c8",
+      "title": "Open-Source AI and Open Models Reading List",
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "domain": "interconnects.ai",
+      "published_at": "2026-09-14T00:22:51Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49690260\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "66dbe8d8-cae6-4356-8e7d-ead4802c606a",
+      "title": "Ask HN: What are you working on? (September 2026)",
+      "url": "https://news.ycombinator.com/item?id=49686380",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-13T17:31:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49686380\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "80da9d84-8b48-4a40-a6f2-2d5e1ef8e5df",
+      "title": "Mullenweg has returned as CEO after attempted board ouster",
+      "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-13T20:19:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49688259\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "27136f5d-5da1-4a7e-8d51-301986ad75de",
+      "title": "The Coming War on General Computation (2011)",
+      "url": "https://en.wikisource.org/wiki/The_Coming_War_on_General_Computation",
+      "domain": "en.wikisource.org",
+      "published_at": "2026-09-13T23:54:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49690051\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9d4e764b-2fae-4b33-a66c-7f15c98f9e15",
+      "title": "I build a mechanical watch face: a real gear train for a watch with no gears",
+      "url": "https://myday24.com/blog/how-a-mechanical-watch-face-is-built/",
+      "domain": "myday24.com",
+      "published_at": "2026-09-10T15:35:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49645547\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "fefb9860-8641-4753-9c95-550e18dd852e",
+      "title": "Why is privacy so hard?",
+      "url": "https://cacm.acm.org/blogcacm/why-is-privacy-so-hard/",
+      "domain": "cacm.acm.org",
+      "published_at": "2026-09-13T21:13:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49688766\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e4d363a6-0765-4f95-9b9c-a3b2e1a83dff",
+      "title": "Necker, 1832: \"An optical phænomenon on viewing a figure of a geometrical solid\"",
+      "url": "https://zenodo.org/records/1430991",
+      "domain": "zenodo.org",
+      "published_at": "2026-09-12T02:01:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49667916\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1ed97f09-4468-447d-91d1-01bf41305c90",
       "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
       "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
@@ -2017,121 +2130,8 @@
         "open-source",
         "open-source"
       ]
-    },
-    {
-      "id": "9a6c2363-e98a-466d-a27b-8770368aec76",
-      "title": "Room 641A",
-      "url": "https://en.wikipedia.org/wiki/Room_641A",
-      "domain": "en.wikipedia.org",
-      "published_at": "2026-09-11T17:45:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49662367\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "90ad6f15-120b-42da-9c10-1431b2684e25",
-      "title": "How the Chorleywood Bread Process transformed British bread",
-      "url": "https://edconway.substack.com/p/the-little-holes-in-your-bread-are",
-      "domain": "edconway.substack.com",
-      "published_at": "2026-09-08T14:28:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "How the Chorleywood Bread Process transformed British bread. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8db7a160-aa28-47d7-a499-0135c8fc04ac",
-      "title": "Feeling Sad about AI",
-      "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
-      "domain": "artificialworlds.net",
-      "published_at": "2026-09-11T16:50:51Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49661506\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "cbb3d687-0b44-4acc-88a8-503dd17742bc",
-      "title": "Global Glacier Extinction Explorer",
-      "url": "https://glacierextinction.com",
-      "domain": "glacierextinction.com",
-      "published_at": "2026-09-11T15:58:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660576\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "24a6de5d-d823-4869-98f0-16fad17db0ef",
-      "title": "Godot and Rust based multiplexer (terminal panes and more)",
-      "url": "https://github.com/godot-pty/gpty",
-      "domain": "github.com",
-      "published_at": "2026-09-11T16:03:05Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660676\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "59fa2ef2-d092-4fc4-ac07-becf3d90f7a6",
-      "title": "I've operated petabyte-scale ClickHouse clusters for 5 years",
-      "url": "https://www.tinybird.co/blog/what-i-learned-operating-clickhouse",
-      "domain": "tinybird.co",
-      "published_at": "2026-09-07T18:05:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49601138\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4781b122-505d-4e88-a998-2f1ebcbe444f",
-      "title": "Logo Programming Language",
-      "url": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
-      "domain": "el.media.mit.edu",
-      "published_at": "2026-09-09T07:07:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49622406\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "014de784-73d8-4acf-a1f3-e1c52706ee6d",
-      "title": "Copying login keychains between Macs fails on Secure Enclave Macs with Tahoe",
-      "url": "https://derflounder.wordpress.com/2026/09/08/manually-copying-login-keychain-files-from-one-mac-to-another-no-longer-works-on-secure-enclave-equipped-macs-running-macos-tahoe/",
-      "domain": "derflounder.wordpress.com",
-      "published_at": "2026-09-10T22:33:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49651046\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-13T23:19:49.892154515Z",
+  "last_updated": "2026-09-14T01:16:29.313678403Z",
   "total_count": 150
 }
