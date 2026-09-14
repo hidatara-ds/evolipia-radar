@@ -1,6 +1,104 @@
 {
   "items": [
     {
+      "id": "663d4078-96f3-41cd-956a-346a63697b47",
+      "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
+      "domain": "law.justia.com",
+      "published_at": "2026-09-14T21:05:22Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49704008\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9bcc7bf3-b534-4075-91f0-01de63f419e2",
+      "title": "Dario, Please",
+      "url": "https://pop.rdi.sh/dario-please/",
+      "domain": "pop.rdi.sh",
+      "published_at": "2026-09-14T14:50:32Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49697893\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "39888cf2-4fbf-4f74-a8b1-5a126e1d00f3",
+      "title": "Optimizing a Spin-Lock",
+      "url": "https://david.alvarezrosa.com/posts/optimizing-a-spin-lock/",
+      "domain": "david.alvarezrosa.com",
+      "published_at": "2026-09-12T09:43:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49670699\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ecd2b58c-b999-4cf3-a2e6-1ded8ab6bfb0",
+      "title": "Microsoft patches Windows and Excel – breaks audio, remote access, and paste",
+      "url": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085",
+      "domain": "theregister.com",
+      "published_at": "2026-09-14T16:09:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49699297\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e0cb2285-cb6f-4260-ab6a-20ab1751d9f5",
+      "title": "Compressing a Flag to 11 Bits",
+      "url": "https://read.vantezzen.io/miniflags",
+      "domain": "read.vantezzen.io",
+      "published_at": "2026-09-12T15:57:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49673689\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "930a7559-1f98-4c40-9411-d62c5c68b1b5",
+      "title": "Show HN: Apollo Lunar Module landing simulation",
+      "url": "https://gosandeep.com/eagles-descent/",
+      "domain": "gosandeep.com",
+      "published_at": "2026-09-09T18:29:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49631365\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "57d57550-d53b-4596-8842-e5dd60379e6d",
+      "title": "Oracle’s 6am layoff emails hit staff amid new wave of cuts",
+      "url": "https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676",
+      "domain": "techtimes.co.uk",
+      "published_at": "2026-09-14T19:05:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49702239\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "570b9459-74c7-4339-83b2-f6d799d212e9",
       "title": "Pion, an agent designed to run any company autonomously",
       "url": "https://andonlabs.com/blog/why-we-built-pion",
@@ -2032,108 +2130,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "0a3ac8e6-756e-44db-aa05-64a78cf43c6d",
-      "title": "Waymo pulls over, calls cops on juvenile riders who had 'ghost gun\"",
-      "url": "https://www.latimes.com/california/story/2026-09-12/juveniles-riding-in-waymo-arrested-after-police-find-ghost-gun",
-      "domain": "latimes.com",
-      "published_at": "2026-09-12T14:16:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Waymo pulls over, calls cops on juvenile riders who had 'ghost gun\". Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9ad371f9-b34a-4d04-9447-81480ef03916",
-      "title": "Nvidia is the central bank of AI",
-      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "domain": "economist.com",
-      "published_at": "2026-09-12T15:08:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49673098\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c2895eaf-e5e4-447e-bbb4-8a5c2ba208da",
-      "title": "A Mathematical Framework for Transformer Circuits (2021)",
-      "url": "https://transformer-circuits.pub/2021/framework/index.html",
-      "domain": "transformer-circuits.pub",
-      "published_at": "2026-09-12T13:56:58Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49672365\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "81835c4c-32e1-4b3d-b7b5-afbafb7b7cd8",
-      "title": "LRU is harder to beat than the KV-cache papers suggest",
-      "url": "https://github.com/gauravapiscean/agentic-kv-cache",
-      "domain": "github.com",
-      "published_at": "2026-09-10T13:39:11Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49643543\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "b09d3e87-2a60-499a-855b-ba55a19eac41",
-      "title": "Ask HN: What default model do you use and why?",
-      "url": "https://news.ycombinator.com/item?id=49672966",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-09-12T14:58:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49672966\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3295a36e-c22f-4281-b6aa-c7ce7d2db783",
-      "title": "Moby-Dick and the Indefinite Sublime: On facing the white page",
-      "url": "https://yalereview.org/article/tom-mccarthy-indefinite-sublime",
-      "domain": "yalereview.org",
-      "published_at": "2026-09-09T13:23:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49626140\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "70b6cc40-b048-41b9-b9b8-caadc8380f10",
-      "title": "Performance of WebAssembly Runtimes in 2026",
-      "url": "https://00f.net/2026/06/23/webassembly-runtimes-2026/",
-      "domain": "00f.net",
-      "published_at": "2026-09-09T10:00:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49623933\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-14T18:47:04.751331323Z",
+  "last_updated": "2026-09-14T22:10:36.656894346Z",
   "total_count": 150
 }
