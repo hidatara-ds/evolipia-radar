@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "id": "4d98dd8c-717a-466d-90e6-08f450a8f231",
+      "title": "Learning Programming in an Age of LLMs",
+      "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+      "domain": "blog.ploeh.dk",
+      "published_at": "2026-09-16T09:12:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49723873\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c42e0050-6419-442e-b858-0da91e4cc4a0",
+      "title": "A software thing I built: GPS on a 25MHz 486-SX",
+      "url": "https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/",
+      "domain": "forum.vcfed.org",
+      "published_at": "2026-09-16T05:43:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49722521\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8eff4f8f-0862-4754-8bde-d15fd6cd0307",
+      "title": "Intelligence per Watt: Measuring Intelligence Efficiency of Local AI",
+      "url": "https://arxiv.org/abs/2511.07885",
+      "domain": "arxiv.org",
+      "published_at": "2026-09-14T09:16:39Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49694035\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "b5f484c1-545f-48ef-86a2-ed0334b65dd9",
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "domain": "mistral.ai",
+      "published_at": "2026-09-16T08:08:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49723408\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a96d5322-800b-463a-a8f6-629df4c8e068",
+      "title": "MartyPC – A Cycle-Accurate IBM PC/XT Emulator",
+      "url": "https://github.com/dbalsom/martypc",
+      "domain": "github.com",
+      "published_at": "2026-09-16T05:56:02Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49722591\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "71d0e60b-0b50-4f3d-a64b-fccd3908d1e4",
       "title": "Apple Reference Image: A New Approach for Verified Photography",
       "url": "https://security.apple.com/blog/apple-reference-image/",
@@ -2065,78 +2137,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "00178dab-b6fb-43e2-8993-53a66cf76d25",
-      "title": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)",
-      "url": "https://twitter.com/TechEmails/status/2099214399840059428",
-      "domain": "twitter.com",
-      "published_at": "2026-09-13T20:08:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49688157\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b8127b65-5a27-4a25-873b-8a1abab44788",
-      "title": "Julia 1.13 Highlights",
-      "url": "https://julialang.org/blog/2026/09/julia-1.13-highlights/",
-      "domain": "julialang.org",
-      "published_at": "2026-09-10T12:27:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49642645\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7a8107a7-00ab-4541-9083-f8d0c290d85d",
-      "title": "There Is No AI (It's Just People) with Jaron Lanier",
-      "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
-      "domain": "singjupost.com",
-      "published_at": "2026-09-13T19:41:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49687869\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7610e00b-7786-4004-82d9-705a25c8325e",
-      "title": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)",
-      "url": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
-      "domain": "pages.cs.wisc.edu",
-      "published_at": "2026-09-13T20:33:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49688391\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "df139d42-dc39-49fd-a6c9-b4e4ca963cc5",
-      "title": "Global Shortage Has Led to Motor Oil Rationing at Costco",
-      "url": "https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/",
-      "domain": "guessingheadlights.com",
-      "published_at": "2026-09-13T17:57:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49686697\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-16T05:25:28.550120725Z",
+  "last_updated": "2026-09-16T10:06:57.992172398Z",
   "total_count": 150
 }
