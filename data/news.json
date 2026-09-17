@@ -1,6 +1,135 @@
 {
   "items": [
     {
+      "id": "fc4b75a8-3c0a-46c0-9ee3-dee766d5f476",
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "domain": "openai.com",
+      "published_at": "2026-09-17T20:17:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49745940\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b65f7395-ec8a-4296-909c-6e5fa31c3ac1",
+      "title": "Wax motor",
+      "url": "https://en.wikipedia.org/wiki/Wax_motor",
+      "domain": "en.wikipedia.org",
+      "published_at": "2026-09-16T12:35:14Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49726007\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0afa31fc-3b32-4093-9178-c2f5986386eb",
+      "title": "Everybody's Lost Their Minds",
+      "url": "https://www.netmeister.org/blog/everybodys-lost-their-minds.html",
+      "domain": "netmeister.org",
+      "published_at": "2026-09-17T19:43:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49745570\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4bf4566b-2356-4169-a6e1-bfec53db67f3",
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "domain": "arxiv.org",
+      "published_at": "2026-09-17T16:55:14Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49743483\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ae3305ac-9233-4a2b-90f4-b08d2d2d25ca",
+      "title": "TSMC revealing details about next gen A14 node",
+      "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
+      "domain": "iedm26.mapyourshow.com",
+      "published_at": "2026-09-15T15:31:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49714096\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "410aecfe-8632-416b-a9ce-06b8ad9c8e84",
+      "title": "André Weil and the Hodge Conjecture",
+      "url": "https://jiahao116.github.io/Articles/",
+      "domain": "jiahao116.github.io",
+      "published_at": "2026-09-12T11:13:14Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49671157\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "5c64f1c8-919e-4bd1-8557-c4668b0d545f",
+      "title": "Don't Make Job Referrals Public",
+      "url": "https://blog.melashri.net/micro/public-job-referral/",
+      "domain": "blog.melashri.net",
+      "published_at": "2026-09-17T18:16:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49744530\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e6a35a02-80ac-4984-871a-2cc1cc5b4296",
+      "title": "Canto: A speech model built for the real world",
+      "url": "https://wisprflow.ai/canto",
+      "domain": "wisprflow.ai",
+      "published_at": "2026-09-17T18:32:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49744715\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d5daa6b8-a5ce-4040-a9f5-6d4d267b6458",
+      "title": "How do we prevent mathemathics from devolving into the Medieval Era of secrecy?",
+      "url": "https://mathoverflow.net/questions/515260/how-do-we-prevent-mathematics-from-devolving-into-the-medieval-era-of-secrecy",
+      "domain": "mathoverflow.net",
+      "published_at": "2026-09-15T17:37:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49715936\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "ebc6973f-943a-4554-85b9-f6c1cc79c29e",
       "title": "Rate limits on GitLab.com are changing",
       "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
@@ -2018,136 +2147,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "70c816aa-536a-4bd6-818a-a861e158d4fe",
-      "title": "Global bond yields hit 2008 highs, raising stakes for big borrowers",
-      "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
-      "domain": "reuters.com",
-      "published_at": "2026-09-15T14:07:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49712746\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "838bc457-7165-46a5-8830-8010048af16d",
-      "title": "Sony's First Computer – The SMC-70 from 1982 [video]",
-      "url": "https://www.youtube.com/watch?v=cT2-7KkPkBc",
-      "domain": "youtube.com",
-      "published_at": "2026-09-13T05:47:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49680428\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0006e48b-b786-465a-868d-4f5d1312dc93",
-      "title": "CSS-Tricks in Limbo",
-      "url": "https://vale.rocks/micros/20260915-0135",
-      "domain": "vale.rocks",
-      "published_at": "2026-09-15T07:27:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49708993\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "936b609f-7c5b-485b-a7bc-bace0a1b8c10",
-      "title": "Suspected sabotage causes major Netherlands rail disruption",
-      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
-      "domain": "bbc.com",
-      "published_at": "2026-09-15T10:22:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49710253\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b3ce720d-7d8f-4549-bc4f-e1b7cdfbd2ec",
-      "title": "A Man Archiving Pirate Radio Station Kool FM",
-      "url": "https://londonist.com/london/music/kool-fm-archives",
-      "domain": "londonist.com",
-      "published_at": "2026-09-14T10:01:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49694382\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6a76a184-8783-4b9b-9ef2-1215c82984c2",
-      "title": "Show HN: Ordewell – turn one goal into an ordered plan of coding-agent tasks",
-      "url": "https://github.com/ordewell/ordewell",
-      "domain": "github.com",
-      "published_at": "2026-09-15T13:31:37Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49712276\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "ceef09f4-42d7-4718-95b2-d5ca85adeba7",
-      "title": "Inverse-Square Law",
-      "url": "https://blog.coredump.cx/p/inverse-square-law",
-      "domain": "blog.coredump.cx",
-      "published_at": "2026-09-14T04:45:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49692098\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8bce274d-7ae9-4b36-9da4-436f6f5abcb6",
-      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300M",
-      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-09-15T12:01:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49711240\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d1475fa9-1e0d-4037-995e-7b710d6c80eb",
-      "title": "25 Years of Mass Surveillance Is Enough [Auth: Cindy Cohn; Bruce Schneier]",
-      "url": "https://www.lawfaremedia.org/article/25-years-of-mass-surveillance-is-enough",
-      "domain": "lawfaremedia.org",
-      "published_at": "2026-09-15T12:08:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49711309\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-17T17:48:21.943032942Z",
+  "last_updated": "2026-09-17T20:40:32.945473431Z",
   "total_count": 150
 }
