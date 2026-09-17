@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "id": "91df7b92-e58c-42de-b58c-d81885d06bdf",
+      "title": "Developing provably correct Rust code with Verus",
+      "url": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+      "domain": "amazon.science",
+      "published_at": "2026-09-14T16:57:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49700153\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9f47f737-3c83-4f7d-840c-cbe281a11140",
+      "title": "The Return of Sail Power: Cargo Ships Are Turning Back to the Wind",
+      "url": "https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/",
+      "domain": "gcaptain.com",
+      "published_at": "2026-09-17T00:28:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49734929\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9f0a3801-5b01-462c-bacf-ecf4ad79db0a",
+      "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+      "domain": "zartbot.github.io",
+      "published_at": "2026-09-17T01:39:47Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49735410\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "bcd2858e-6124-4aba-a730-3b676a8e599e",
+      "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "url": "https://harnesstax.github.io/",
+      "domain": "harnesstax.github.io",
+      "published_at": "2026-09-16T22:10:13Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49733726\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "da11f903-ecad-4fb2-86bc-85e99844eaa5",
       "title": "Nvidia announces native GPU programming in Rust",
       "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
@@ -2082,66 +2141,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e83f35f1-aad6-48db-8fa6-d0bee36c6c25",
-      "title": "Why don't machine learning research agents overfit?",
-      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-      "domain": "amazon.science",
-      "published_at": "2026-09-14T16:32:23Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49699648\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "50e4f745-8a25-480b-b781-c76b75c0765c",
-      "title": "Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme",
-      "url": "https://www.neobrutalism.dev/",
-      "domain": "neobrutalism.dev",
-      "published_at": "2026-09-14T16:02:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49699159\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5d946c84-f842-478c-b114-120b39899431",
-      "title": "Principles for Fast Tokio Applications",
-      "url": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
-      "domain": "dial9-rs.github.io",
-      "published_at": "2026-09-14T15:27:56Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49698607\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "b1174cbb-05b4-4df0-a007-587f8dc10187",
-      "title": "Steam Frame starts at $1059",
-      "url": "https://store.steampowered.com/hardware/steamframe",
-      "domain": "store.steampowered.com",
-      "published_at": "2026-09-14T17:27:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49700661\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-16T23:56:43.927997384Z",
+  "last_updated": "2026-09-17T02:41:30.174811969Z",
   "total_count": 150
 }
