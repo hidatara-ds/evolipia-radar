@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "id": "6fb011c3-f3f8-4072-8134-e820dc3fdd40",
+      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "domain": "spectrum.ieee.org",
+      "published_at": "2026-09-18T23:04:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49761432\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "53c234c7-39c0-434f-98be-f5736a9ad7c7",
+      "title": "US troop deaths during Iran war exceed Pentagon count by at least four",
+      "url": "https://www.reuters.com/world/middle-east/us-troop-deaths-iran-war-exceed-pentagon-count-by-least-four-washington-post-2026-09-18/",
+      "domain": "reuters.com",
+      "published_at": "2026-09-18T22:35:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49761178\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "363d878f-0bd6-49d1-abf1-10991b15158f",
+      "title": "Cyclomatic Complexity in C#",
+      "url": "https://blog.ndepend.com/understanding-cyclomatic-complexity/",
+      "domain": "blog.ndepend.com",
+      "published_at": "2026-09-16T19:01:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49731413\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "db36fd32-dc6f-4b45-ad64-b1b070ccdf1b",
+      "title": "Size-Specialized Memory Allocation",
+      "url": "https://go.dev/blog/size-specialized-allocations",
+      "domain": "go.dev",
+      "published_at": "2026-09-17T00:45:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49735057\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "495f4337-a3d3-4bf0-8a4e-26a137608ee6",
       "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
       "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
@@ -2083,65 +2139,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "fb1cc64d-5d8e-45a1-b0b9-d9ecb9b09120",
-      "title": "Show HN: AttaLambda: a language where types and data are made of untyped lambdas",
-      "url": "https://attalambda.com",
-      "domain": "attalambda.com",
-      "published_at": "2026-09-14T16:21:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49699477\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9faa22bb-b663-46c6-9071-fced030f0f01",
-      "title": "We've created the first vectorized Quicksort",
-      "url": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
-      "domain": "opensource.googleblog.com",
-      "published_at": "2026-09-16T18:31:35Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49731054\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "768cf466-c40a-47d1-914a-149a65a7aa2a",
-      "title": "Small Programming Tricks",
-      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
-      "domain": "will-keleher.com",
-      "published_at": "2026-09-16T15:56:47Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49729000\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4129f0ea-b0ab-49e3-91c9-d44494ff4db5",
-      "title": "Tell the speakers that you liked their talks",
-      "url": "https://ohhelloana.blog/tell-the-speakers/",
-      "domain": "ohhelloana.blog",
-      "published_at": "2026-09-15T11:28:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49710903\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-18T21:20:21.174832814Z",
+  "last_updated": "2026-09-18T23:24:06.279650657Z",
   "total_count": 150
 }
