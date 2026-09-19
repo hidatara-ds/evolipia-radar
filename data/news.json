@@ -1,6 +1,165 @@
 {
   "items": [
     {
+      "id": "f7cbcd51-20f4-4484-b0be-78b5c4a08f5f",
+      "title": "San Francisco Onion Futures Company",
+      "url": "https://onionfutures.com/",
+      "domain": "onionfutures.com",
+      "published_at": "2026-09-19T04:23:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49763296\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4153fb92-c98d-4721-8c2d-ce0e12683cda",
+      "title": "Typesafe-computer-use drives a Mac toward a goal for 1/50th of a cent per step",
+      "url": "https://github.com/awlevin/typesafe-computer-use",
+      "domain": "github.com",
+      "published_at": "2026-09-16T22:01:49Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49733647\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "b5cefa7d-b66d-43e9-a0bf-cf7dcd07c14a",
+      "title": "SDCC – Small Device C Compiler",
+      "url": "https://sdcc.sourceforge.net/",
+      "domain": "sdcc.sourceforge.net",
+      "published_at": "2026-09-19T02:32:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49762744\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "43fa862d-3579-4645-96c0-995bb6a555f5",
+      "title": "Science Is Open Software",
+      "url": "https://jepedersen.dk/blog/202505_research/",
+      "domain": "jepedersen.dk",
+      "published_at": "2026-09-19T02:21:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49762687\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "df3fe778-9fa0-4d34-95c0-99829dc21102",
+      "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "domain": "med.stanford.edu",
+      "published_at": "2026-09-19T05:48:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49763697\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "073faca6-0729-47d9-ad15-77e726c32833",
+      "title": "Why building a Rust LSP is hard",
+      "url": "https://rust-glancer.github.io/blog/why-lsp-is-hard/",
+      "domain": "rust-glancer.github.io",
+      "published_at": "2026-09-16T22:51:16Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49734131\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "df7ff91c-56b4-4ccf-a981-2864e08c05bc",
+      "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
+      "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
+      "domain": "newsroom.usra.edu",
+      "published_at": "2026-09-19T04:44:35Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49763379\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "7ba46b51-bbe3-448b-98f0-e5a792f53c66",
+      "title": "You can run Git on object storage if you re-make packfiles",
+      "url": "https://www.tigrisdata.com/blog/objgit-packfiles/",
+      "domain": "tigrisdata.com",
+      "published_at": "2026-09-16T17:16:11Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49730069\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "71e31998-ef95-4d93-af4d-2939f2f2dab9",
+      "title": "Goroutine Leak Profiles",
+      "url": "https://go.dev/blog/goroutine-leak-profiles",
+      "domain": "go.dev",
+      "published_at": "2026-09-16T13:30:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49726773\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0e2b153b-c2be-4512-bf71-9b5a2d357d9e",
+      "title": "LispBM is a concurrent Lisp for microcontrollers with message passing",
+      "url": "https://www.lispbm.com/",
+      "domain": "lispbm.com",
+      "published_at": "2026-09-16T21:49:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49733523\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a56e77c1-5ab2-4d91-b70b-ebd18a22d0d9",
+      "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+      "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+      "domain": "scmp.com",
+      "published_at": "2026-09-18T23:54:42Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "80879d80-80b0-4429-a7c1-3a6a1366d7f1",
       "title": "The Farnese letter",
       "url": "https://simonklee.dk/farnese-letter",
@@ -1978,168 +2137,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e6fb1315-8a03-4a05-b666-7995ff43b992",
-      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
-      "url": "https://arxiv.org/abs/2609.16338",
-      "domain": "arxiv.org",
-      "published_at": "2026-09-16T20:59:24Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49732931\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "9aae202e-2cde-4fdf-9c84-9eeb5d879aa8",
-      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
-      "url": "https://mimo.xiaomi.com/rl/",
-      "domain": "mimo.xiaomi.com",
-      "published_at": "2026-09-16T20:09:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49732270\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "053ec902-974e-4281-bf64-2d08becfac4f",
-      "title": "macOS 27 Golden Gate – Review",
-      "url": "https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/",
-      "domain": "arstechnica.com",
-      "published_at": "2026-09-16T19:53:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49732036\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7f909564-a84b-4b73-90ca-b239cc157003",
-      "title": "Reversing Factorio's RNG",
-      "url": "https://gegell.github.io/posts/factorio-rng/",
-      "domain": "gegell.github.io",
-      "published_at": "2026-09-12T17:02:19Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49674451\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "cd8a7125-9a8d-4979-af67-5d1a20855e78",
-      "title": "Accurate Models of AMD Matrix Cores",
-      "url": "https://arxiv.org/abs/2609.14845",
-      "domain": "arxiv.org",
-      "published_at": "2026-09-16T18:56:05Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49731360\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "30ad0956-9609-49e7-b635-d4b099725d5d",
-      "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
-      "url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
-      "domain": "wsj.com",
-      "published_at": "2026-09-15T21:41:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49719249\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "41f66656-865c-4827-9192-f9949a4b6347",
-      "title": "Performance Improvements in .NET 11",
-      "url": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
-      "domain": "devblogs.microsoft.com",
-      "published_at": "2026-09-15T12:18:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49711424\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dc0eed33-75c6-4ac6-afec-924a65129c5f",
-      "title": "How good are frontier models at physics?",
-      "url": "https://arxiv.org/abs/2609.13009",
-      "domain": "arxiv.org",
-      "published_at": "2026-09-16T19:19:08Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49731620\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "53ce3238-89d9-443e-bcbd-f42707ee4675",
-      "title": "Anatomy of a Texture",
-      "url": "https://agentlien.github.io/texture/",
-      "domain": "agentlien.github.io",
-      "published_at": "2026-09-16T14:28:28Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49727592\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "15f8fd61-0001-40b3-bb5c-bda128349fca",
-      "title": "Japan's book scene is moving from bookstores to libraries",
-      "url": "https://untranslatedjp.substack.com/p/japans-book-scene-is-quietly-moving",
-      "domain": "untranslatedjp.substack.com",
-      "published_at": "2026-09-12T22:35:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49677916\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a3400f6f-620a-42f2-9a37-377e02508bfe",
-      "title": "WalShadow: Sub-second Postgres replication to ClickHouse from physical WAL",
-      "url": "https://clickhouse.com/blog/introducing-walshadow",
-      "domain": "clickhouse.com",
-      "published_at": "2026-09-11T16:09:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49660791\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-19T01:19:18.91480206Z",
+  "last_updated": "2026-09-19T06:05:10.953417235Z",
   "total_count": 150
 }
