@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "id": "24742d01-2adc-4068-bf0e-487ce3b50d5a",
+      "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+      "url": "https://bartosz.fenski.pl/modern-fs-benchmark/",
+      "domain": "bartosz.fenski.pl",
+      "published_at": "2026-09-19T18:11:40Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49768833\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "5ea99cd1-1189-40eb-b6b2-47b874c174b8",
+      "title": "Suzanne Ciani's Buchla Cookbook",
+      "url": "https://echo.orpheusinstituut.be/article/suzannes-buchla-cookbook",
+      "domain": "echo.orpheusinstituut.be",
+      "published_at": "2026-09-17T00:39:39Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49735010\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9ccea288-bbcf-40e3-b674-dd88e345ef32",
+      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
+      "url": "https://github.com/trycua/cua",
+      "domain": "github.com",
+      "published_at": "2026-09-19T15:52:51Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49767564\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "57af5bf2-803a-494b-af46-5328e39efeee",
+      "title": "UFO Series Home Page: \"UFO\" TV Series from 1970",
+      "url": "https://ufoseries.com/",
+      "domain": "ufoseries.com",
+      "published_at": "2026-09-18T13:35:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49754194\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "998450bc-d94d-4120-9be8-29aad983cced",
       "title": "Supabase (YC S20) Is Hiring for OrioleDB",
       "url": "https://supabase.link/orioledbjob",
@@ -2075,65 +2133,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "47497459-4eb2-452d-ae89-069fc973db7f",
-      "title": "Online Z3 Guide",
-      "url": "https://microsoft.github.io/z3guide/",
-      "domain": "microsoft.github.io",
-      "published_at": "2026-09-15T14:45:08Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49713347\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "159978ca-d5f5-4a6d-b29c-fa5a1e3b609b",
-      "title": "An Archive of Colour Gradients",
-      "url": "https://phillips.shef.ac.uk/pub/cpt-city/",
-      "domain": "phillips.shef.ac.uk",
-      "published_at": "2026-09-14T10:08:35Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49694444\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ee7254cc-a9b8-459c-b167-d43d912c2443",
-      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
-      "url": "https://ryan.science/blog/keys-not-included",
-      "domain": "ryan.science",
-      "published_at": "2026-09-17T03:03:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49735930\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "feac3171-954b-48be-95fb-a814eafc8723",
-      "title": "My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it",
-      "url": "https://jakeasmith.com/blog/http-build-url/",
-      "domain": "jakeasmith.com",
-      "published_at": "2026-09-15T20:53:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49718773\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-19T17:33:37.805289146Z",
+  "last_updated": "2026-09-19T19:42:39.194544753Z",
   "total_count": 150
 }
