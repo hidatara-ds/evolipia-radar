@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "id": "41f3b175-cb06-4940-8ae1-dc54f03f4f48",
+      "title": "How Hacker News ranking works: scoring, controversy, and penalties (2013)",
+      "url": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
+      "domain": "righto.com",
+      "published_at": "2026-09-19T21:30:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49770293\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "406a903e-7ed8-4cf2-9f46-a1fd8e2b4700",
+      "title": "Mayday Mysteries",
+      "url": "http://www.maydaymystery.org/mayday/",
+      "domain": "maydaymystery.org",
+      "published_at": "2026-09-19T21:43:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49770362\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f76df023-e4ca-4fcb-b77c-1c00eeabef63",
+      "title": "You can defeat the Dream Devourer from Chrono Trigger using an int overflow",
+      "url": "https://chrono.fandom.com/wiki/Dream_Devourer",
+      "domain": "chrono.fandom.com",
+      "published_at": "2026-09-19T21:25:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49770256\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9263e97a-a554-4152-ac96-b3dcf48d8dd9",
+      "title": "The Lamentable Later Life of Lemmings",
+      "url": "https://www.filfre.net/2026/09/the-lamentable-later-life-of-lemmings/",
+      "domain": "filfre.net",
+      "published_at": "2026-09-19T15:17:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49767242\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "3c4534fb-e224-4d31-be27-15ee7f71665e",
       "title": "Measure internet censorship. Contribute to the largest open dataset",
       "url": "https://ooni.org/install",
@@ -2076,65 +2132,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "7af221f0-2680-450b-a119-772f30e118b9",
-      "title": "Vinix – A modern operating system written in V",
-      "url": "https://vinix-os.org/",
-      "domain": "vinix-os.org",
-      "published_at": "2026-09-17T15:40:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49742439\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f4e976d7-e8aa-4051-bdad-8b4681fbcfe0",
-      "title": "Artificial intelligence now beats some of the best human forecasters",
-      "url": "https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters",
-      "domain": "economist.com",
-      "published_at": "2026-09-17T15:13:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49742021\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8ebf2d14-c50d-4579-b579-6612dda80581",
-      "title": "Show HN: AutoBot – live voice control for long-running AI work",
-      "url": "https://github.com/demeyer1/Autobot",
-      "domain": "github.com",
-      "published_at": "2026-09-17T16:54:57Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49743478\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "65529e27-b825-4505-920b-51133dfc2392",
-      "title": "Ask HN: How to recover Google auth after phone stolen?",
-      "url": "https://news.ycombinator.com/item?id=49742976",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-09-17T16:17:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49742976\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-19T21:52:43.519523783Z",
+  "last_updated": "2026-09-19T23:44:03.788485228Z",
   "total_count": 150
 }
