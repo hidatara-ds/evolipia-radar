@@ -1,6 +1,121 @@
 {
   "items": [
     {
+      "id": "2396c55d-eaea-442f-ac4a-2a5e129b1439",
+      "title": "Laya the open source version of Jev",
+      "url": "https://laya.convaiinnovations.com/",
+      "domain": "laya.convaiinnovations.com",
+      "published_at": "2026-09-19T10:46:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49765348\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5e6bc160-52fb-4ac1-8042-11b1b2706c0b",
+      "title": "What Zig felt like, coming from Rust",
+      "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "domain": "besok.github.io",
+      "published_at": "2026-09-19T13:55:18Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49766637\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ee36ad13-89c3-4ebf-83f4-62f9406495a0",
+      "title": "Tin: full-text search for Postgres",
+      "url": "https://planetscale.com/blog/introducing-tin",
+      "domain": "planetscale.com",
+      "published_at": "2026-09-19T13:52:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49766611\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "79db7c77-b5c7-4de8-a23d-538d7972d50f",
+      "title": "A graphical desktop for the ZX Spectrum",
+      "url": "https://github.com/mindbox77/zxdesk",
+      "domain": "github.com",
+      "published_at": "2026-09-19T14:01:58Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49766676\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "a0f54cea-5001-4ec8-806c-3956c8038cc1",
+      "title": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
+      "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
+      "domain": "quantamagazine.org",
+      "published_at": "2026-09-18T15:47:14Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49756121\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "29a195e0-cf2c-4c3f-a3f5-3daf61b0989e",
+      "title": "From Stonemasons to Carpenters",
+      "url": "https://thelastsoftwareengineer.substack.com/p/from-stonemasons-to-carpenters",
+      "domain": "thelastsoftwareengineer.substack.com",
+      "published_at": "2026-09-17T16:55:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49743490\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9085a76e-3bcb-47b3-8ef5-58d2b70bf338",
+      "title": "Asking Authors About Their Own Papers",
+      "url": "https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0",
+      "domain": "medium.com",
+      "published_at": "2026-09-16T23:31:31Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49734467\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "4393e410-0524-4585-9c72-e8f4c185548a",
+      "title": "Ray Ozzie and the Optimism of Being Early",
+      "url": "https://reproof.app/blog/lotus-notes-history",
+      "domain": "reproof.app",
+      "published_at": "2026-09-17T09:57:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49738518\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "0d7adbd8-3cad-4841-bb06-d941b4df4d2b",
       "title": "AI-generated posters don’t have to be horrible",
       "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
@@ -2018,125 +2133,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "139158e9-c3c0-4de2-bef5-eba77f6f2253",
-      "title": "Jev Ultrafast: A browser agent with a dynamic, indexed action space",
-      "url": "https://github.com/browser-use/jev-ultrafast",
-      "domain": "github.com",
-      "published_at": "2026-09-17T03:12:05Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49735979\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "01c84849-101b-4168-b14f-1f7d8d77b789",
-      "title": "US interest rates raised for first time in three years",
-      "url": "https://www.bbc.com/news/articles/cw4gmlyvj422o",
-      "domain": "bbc.com",
-      "published_at": "2026-09-16T23:25:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49734409\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "91df7b92-e58c-42de-b58c-d81885d06bdf",
-      "title": "Developing provably correct Rust code with Verus",
-      "url": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
-      "domain": "amazon.science",
-      "published_at": "2026-09-14T16:57:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49700153\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9f47f737-3c83-4f7d-840c-cbe281a11140",
-      "title": "The Return of Sail Power: Cargo Ships Are Turning Back to the Wind",
-      "url": "https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/",
-      "domain": "gcaptain.com",
-      "published_at": "2026-09-17T00:28:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49734929\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9f0a3801-5b01-462c-bacf-ecf4ad79db0a",
-      "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
-      "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
-      "domain": "zartbot.github.io",
-      "published_at": "2026-09-17T01:39:47Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49735410\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "bcd2858e-6124-4aba-a730-3b676a8e599e",
-      "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
-      "url": "https://harnesstax.github.io/",
-      "domain": "harnesstax.github.io",
-      "published_at": "2026-09-16T22:10:13Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49733726\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "da11f903-ecad-4fb2-86bc-85e99844eaa5",
-      "title": "Nvidia announces native GPU programming in Rust",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "domain": "developer.nvidia.com",
-      "published_at": "2026-09-16T11:15:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49724881\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "77ab692f-ea17-4f50-b4e1-b70d49b35aad",
-      "title": "The engineering behind the US Strategic Petroleum Reserve",
-      "url": "https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve",
-      "domain": "johnjwang.com",
-      "published_at": "2026-09-15T22:15:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49719596\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-19T11:14:39.2371282Z",
+  "last_updated": "2026-09-19T14:32:52.034686231Z",
   "total_count": 150
 }
