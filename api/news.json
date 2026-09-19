@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "80879d80-80b0-4429-a7c1-3a6a1366d7f1",
+      "title": "The Farnese letter",
+      "url": "https://simonklee.dk/farnese-letter",
+      "domain": "simonklee.dk",
+      "published_at": "2026-09-17T17:39:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49744036\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "486aeb38-511d-4f7f-8a40-af9429a4e296",
+      "title": "Column built an issuer processor from scratch",
+      "url": "https://column.com/card-issuing/",
+      "domain": "column.com",
+      "published_at": "2026-09-16T16:42:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49729631\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6fb011c3-f3f8-4072-8134-e820dc3fdd40",
       "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
       "url": "https://spectrum.ieee.org/llms-for-chip-design",
@@ -2110,37 +2138,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "eadb43f2-5de5-44cf-ba92-8423caa14175",
-      "title": "Training Text-to-Image Models 3.6× Faster",
-      "url": "https://www.linum.ai/field-notes/jit-ddt",
-      "domain": "linum.ai",
-      "published_at": "2026-09-16T16:58:13Z",
-      "category": "vision",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49729816\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "vision",
-        "vision"
-      ]
-    },
-    {
-      "id": "1e215565-a1dd-4565-b884-d690918c22d9",
-      "title": "Show HN: Restarted – a 2026 remake of the classic 2015 startup generator",
-      "url": "https://restarted.io/",
-      "domain": "restarted.io",
-      "published_at": "2026-09-15T11:34:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49710968\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-18T23:24:06.279650657Z",
+  "last_updated": "2026-09-19T01:19:18.91480206Z",
   "total_count": 150
 }
