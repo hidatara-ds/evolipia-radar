@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "id": "93ca6d89-2dbf-44d2-8c86-975af1b36eb5",
+      "title": "Grim Fandango Puzzle Document (1996) [pdf]",
+      "url": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf",
+      "domain": "gameshelf.jmac.org",
+      "published_at": "2026-09-21T05:55:22Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49783495\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bdc46671-7977-467d-92b4-ceb48ab8affe",
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "domain": "github.com",
+      "published_at": "2026-09-21T07:11:55Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49783999\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "0b278c30-eb41-4c76-9ebc-ed0f0d6835ef",
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "domain": "github.com",
+      "published_at": "2026-09-21T04:42:37Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49783133\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "4b9f6dbb-77ca-456c-b513-d9daed14c321",
+      "title": "Winning the visa lottery",
+      "url": "https://www.aeaweb.org/research/immigration-restrictions-firms-workers",
+      "domain": "aeaweb.org",
+      "published_at": "2026-09-21T03:37:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49782775\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "19ffc9f1-1cb0-4e08-8a5f-18eff098613f",
+      "title": "MCP was always a bad idea?",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "domain": "maharship.com",
+      "published_at": "2026-09-20T19:44:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49779329\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a7342be7-dbc6-4358-875d-f1128ba555bd",
+      "title": "Why Backprop Goes Backward (2018)",
+      "url": "https://gregorygundersen.com/blog/2018/04/15/backprop/",
+      "domain": "gregorygundersen.com",
+      "published_at": "2026-09-21T00:42:14Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49781693\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "801b34ca-162a-4b1e-9db6-1f772fbc0def",
+      "title": "Deterministic Core, Non-Deterministic Shell",
+      "url": "https://outdata.net/blog/260803",
+      "domain": "outdata.net",
+      "published_at": "2026-09-21T02:02:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49782220\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2c60f761-1a81-4fe6-93fc-042dac4794ba",
+      "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "domain": "ft.com",
+      "published_at": "2026-09-21T04:28:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49783062\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "688346f9-ab97-49bd-ab4c-fc125f5421d9",
       "title": "Amiga Unix, Again",
       "url": "https://amigaux.org/",
@@ -2020,124 +2134,8 @@
         "agents",
         "agents"
       ]
-    },
-    {
-      "id": "a127cab7-a942-42bf-9e57-7b4cf96f8073",
-      "title": "Grok Voice Transcribe 2.0",
-      "url": "https://x.ai/news/grok-voice-transcribe-2",
-      "domain": "x.ai",
-      "published_at": "2026-09-18T17:53:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49757859\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c5ded416-2880-44e5-9c81-ffecf2889625",
-      "title": "GrassLobster: AI Agentic Generation of Parametric Geometry Workflows",
-      "url": "https://www.miro.vision/index.php/2026/09/17/grasslobbster/",
-      "domain": "miro.vision",
-      "published_at": "2026-09-18T15:04:54Z",
-      "category": "vision",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49755431\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "vision",
-        "vision"
-      ]
-    },
-    {
-      "id": "52fb3f7d-7384-43c6-8a1b-45d3ce97f70a",
-      "title": "Show HN: Scry, programmable internet search w/ congestion pricing",
-      "url": "https://scry.io/",
-      "domain": "scry.io",
-      "published_at": "2026-09-17T23:15:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49748041\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1c74b084-f6d9-4a5c-a13d-87c0564ddf6e",
-      "title": "AI chatbots are becoming experts at changing people's minds",
-      "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-      "domain": "science.org",
-      "published_at": "2026-09-18T13:39:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49754250\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7167b702-958f-4193-8d13-acea43cc1089",
-      "title": "An Empirical Study of Harness Design for Coding Agents",
-      "url": "https://arxiv.org/abs/2609.20804",
-      "domain": "arxiv.org",
-      "published_at": "2026-09-18T13:06:30Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49753878\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "8696b707-2e06-4ec5-939e-25a40420bf82",
-      "title": "I Vibed a Proof of Conway's Conjecture",
-      "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
-      "domain": "overreacted.io",
-      "published_at": "2026-09-18T14:36:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49755024\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2f4be02b-162d-4a09-9796-ef3a8bd01238",
-      "title": "AI Protest in Montreal",
-      "url": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
-      "domain": "montrealgazette.com",
-      "published_at": "2026-09-18T14:45:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49755162\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "38c2cbd2-62e1-48ea-87d6-c4fcf07cb2a9",
-      "title": "C++26: Trivial infinite loops are no longer undefined behaviour",
-      "url": "https://www.sandordargo.com/blog/2026/09/16/cpp26-trivial-infinite-loops",
-      "domain": "sandordargo.com",
-      "published_at": "2026-09-17T20:52:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49746406\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-21T02:05:55.948355099Z",
+  "last_updated": "2026-09-21T08:03:40.279031516Z",
   "total_count": 150
 }
