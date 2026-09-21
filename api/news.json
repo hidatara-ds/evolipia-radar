@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "id": "688346f9-ab97-49bd-ab4c-fc125f5421d9",
+      "title": "Amiga Unix, Again",
+      "url": "https://amigaux.org/",
+      "domain": "amigaux.org",
+      "published_at": "2026-09-20T23:57:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49781436\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "62ff4657-e3bd-4e7c-b528-a227614d8bec",
+      "title": "DAPO: An Open-source RL System from ByteDance Seed and Tsinghua AIR",
+      "url": "https://github.com/BytedTsinghua-SIA/DAPO",
+      "domain": "github.com",
+      "published_at": "2026-09-20T23:19:04Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49781138\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "2ef82efe-8cfd-4472-b501-f6090e31b019",
       "title": "Google's Open Agentic Orchestrator",
       "url": "https://agentexecutor.io",
@@ -2107,36 +2136,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "93d99151-afe6-486b-8a4a-c4ff3701b034",
-      "title": "Cloudflare Quick Tunnels",
-      "url": "https://try.cloudflare.com/",
-      "domain": "try.cloudflare.com",
-      "published_at": "2026-09-18T14:18:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49754785\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1f104338-e912-4d74-a922-1726362a039b",
-      "title": "Bend 2 and the Vibe-Coding Trap",
-      "url": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-      "domain": "blog.liampwll.com",
-      "published_at": "2026-09-18T12:03:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49753179\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-20T23:39:47.019721198Z",
+  "last_updated": "2026-09-21T02:05:55.948355099Z",
   "total_count": 150
 }
