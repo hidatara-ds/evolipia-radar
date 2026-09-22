@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "id": "986850fa-f9d8-4714-9b5c-a89b9085abc0",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "url": "https://foxscript.org/",
+      "domain": "foxscript.org",
+      "published_at": "2026-09-22T21:00:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49808023\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c42217a3-b09b-4060-83b1-76b09755adfb",
+      "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+      "url": "https://github.com/xCuri0/ReBarUEFI",
+      "domain": "github.com",
+      "published_at": "2026-09-21T01:07:46Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49781862\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "a0db3c06-0083-47aa-9043-0704e90ecd32",
+      "title": "Did OpenAI solve the wrong Navier-Stokes problem?",
+      "url": "https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/",
+      "domain": "scientificamerican.com",
+      "published_at": "2026-09-22T00:24:00Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49795260\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "008f87f6-c1a4-4617-ad4a-984b80e9f5ac",
+      "title": "The UV index is not the warm sensation of sunlight on bare skin",
+      "url": "https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/",
+      "domain": "blog.asciitweezers.com",
+      "published_at": "2026-09-22T21:06:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49808109\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "57a42190-1616-4cbb-bd55-215b92a9ef19",
+      "title": "The trouble with 'ntile()'",
+      "url": "https://blog.djnavarro.net/posts/2026-09-20_the-trouble-with-ntile/",
+      "domain": "blog.djnavarro.net",
+      "published_at": "2026-09-21T03:23:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49782702\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "925b80f1-13a8-4baf-b912-4f6191b7d472",
+      "title": "Show HN: Training a model to identify AI web content from structure alone",
+      "url": "https://arxiv.org/abs/2609.15369",
+      "domain": "arxiv.org",
+      "published_at": "2026-09-22T13:00:49Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49800566\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "2419e346-fac7-454b-9d32-c8d8b1d57502",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "domain": "interconnects.ai",
+      "published_at": "2026-09-22T22:03:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49808816\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "bebb2f82-7d87-4ca8-b755-9a31abf15f17",
       "title": "GPT-6 Sol and Luna",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
@@ -2033,109 +2133,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "8ef5993f-19c8-4be6-9b95-04f14930208e",
-      "title": "Custom home server built from spare parts",
-      "url": "https://asmat.ca/blog/i-went-bananas/",
-      "domain": "asmat.ca",
-      "published_at": "2026-09-20T15:43:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49776960\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "91e5554b-7308-4bcc-84a4-45ac9f3ba778",
-      "title": "US Revokes Limits on Power Plants' Climate Pollution",
-      "url": "https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution",
-      "domain": "text.hrw.org",
-      "published_at": "2026-09-20T17:19:52Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49777841\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f3114463-39f6-4f69-8ea1-e0a316c46676",
-      "title": "Go-based Robotics Framework built around NATS.io",
-      "url": "https://github.com/emergingrobotics/gorai",
-      "domain": "github.com",
-      "published_at": "2026-09-17T15:54:43Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49742642\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "d0c059b0-40c7-41bb-81ab-54604af5dd52",
-      "title": "Show HN: Three genlocked RP2350B make a console – 3k sprite pixels per line)",
-      "url": "https://www.papydeck.eu/",
-      "domain": "papydeck.eu",
-      "published_at": "2026-09-20T17:37:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49778008\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6c8a191f-1080-4de3-91de-a37d04e614f9",
-      "title": "Apple iPhone 18 Pro Camera test",
-      "url": "https://www.dxomark.com/apple-iphone-18-pro-camera-test/",
-      "domain": "dxomark.com",
-      "published_at": "2026-09-20T00:00:47Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Apple iPhone 18 Pro Camera test. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6f28cbc2-a7cd-470a-a286-7d35d23579e5",
-      "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "domain": "qwen.ai",
-      "published_at": "2026-09-20T13:09:25Z",
-      "category": "vision",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49775499\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "vision",
-        "vision"
-      ]
-    },
-    {
-      "id": "c31d78a5-31a8-44c5-9256-2fa86d89586a",
-      "title": "Pirate Face Rescues LLM Models from Deletion",
-      "url": "https://pirateface.co/",
-      "domain": "pirateface.co",
-      "published_at": "2026-09-20T15:16:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49776699\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-22T20:16:48.731044836Z",
+  "last_updated": "2026-09-22T23:03:14.899289106Z",
   "total_count": 150
 }
