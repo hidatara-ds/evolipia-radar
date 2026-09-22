@@ -1,6 +1,77 @@
 {
   "items": [
     {
+      "id": "83dfce06-b4ce-42f7-9bc4-f241d1097148",
+      "title": "Claude Status – Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "domain": "status.claude.com",
+      "published_at": "2026-09-22T01:05:19Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49795579\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "73dc1ab9-b0e3-4680-916f-cda8d5b3874d",
+      "title": "The agents, they just want to talk",
+      "url": "https://snats.xyz/pages/articles/political_ecology/the_agents_they_just_want_to_talk.html",
+      "domain": "snats.xyz",
+      "published_at": "2026-09-21T16:22:26Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49789361\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "94ca3f59-84a8-4003-a5b5-cd95c8dd7078",
+      "title": "Looking forward to Git 2.56 – and 3.0",
+      "url": "https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/",
+      "domain": "lwn.net",
+      "published_at": "2026-09-21T23:16:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49794736\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c857b649-a183-4fe0-8355-d311a151713c",
+      "title": "First Shader from Zero in Godot 4",
+      "url": "https://www.gdquest.com/library/first_shader_godot4_portal/",
+      "domain": "gdquest.com",
+      "published_at": "2026-09-21T10:57:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49785609\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "25f46dad-b3a2-43f9-8b28-35c033bf6562",
+      "title": "More Floating Point Alternatives",
+      "url": "https://wizardzines.com/comics/floating-point-alternatives/",
+      "domain": "wizardzines.com",
+      "published_at": "2026-09-20T00:55:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49771543\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c78c28c1-c203-4912-8672-1ed5244f570f",
       "title": "Xiaomi MiMo v2.6",
       "url": "https://mimo.xiaomi.com/mimo-v2-6",
@@ -2058,80 +2129,8 @@
         "open-source",
         "open-source"
       ]
-    },
-    {
-      "id": "ee36ad13-89c3-4ebf-83f4-62f9406495a0",
-      "title": "Tin: full-text search for Postgres",
-      "url": "https://planetscale.com/blog/introducing-tin",
-      "domain": "planetscale.com",
-      "published_at": "2026-09-19T13:52:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49766611\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "79db7c77-b5c7-4de8-a23d-538d7972d50f",
-      "title": "A graphical desktop for the ZX Spectrum",
-      "url": "https://github.com/mindbox77/zxdesk",
-      "domain": "github.com",
-      "published_at": "2026-09-19T14:01:58Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49766676\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "a0f54cea-5001-4ec8-806c-3956c8038cc1",
-      "title": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
-      "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
-      "domain": "quantamagazine.org",
-      "published_at": "2026-09-18T15:47:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49756121\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "29a195e0-cf2c-4c3f-a3f5-3daf61b0989e",
-      "title": "From Stonemasons to Carpenters",
-      "url": "https://thelastsoftwareengineer.substack.com/p/from-stonemasons-to-carpenters",
-      "domain": "thelastsoftwareengineer.substack.com",
-      "published_at": "2026-09-17T16:55:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49743490\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9085a76e-3bcb-47b3-8ef5-58d2b70bf338",
-      "title": "Asking Authors About Their Own Papers",
-      "url": "https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0",
-      "domain": "medium.com",
-      "published_at": "2026-09-16T23:31:31Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49734467\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
     }
   ],
-  "last_updated": "2026-09-21T23:24:15.24208821Z",
+  "last_updated": "2026-09-22T01:39:43.529494419Z",
   "total_count": 150
 }
