@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "id": "83d83307-5420-41f7-9eed-8f5720cd1b08",
+      "title": "The new CC, an AI agent built for families",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+      "domain": "blog.google",
+      "published_at": "2026-09-22T23:46:07Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49809806\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "a7a6b1c3-e256-4dd2-9d39-4b015ddabbfa",
+      "title": "What California is learning from solar panels built over irrigation canals",
+      "url": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
+      "domain": "kqed.org",
+      "published_at": "2026-09-22T03:10:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49796379\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "03129bc1-6196-4ebc-b1ec-2797d2ee49e6",
+      "title": "Side-stepping the Secretary Problem, unwittingly",
+      "url": "https://www.evalapply.org/posts/side-step-secretary-problem-hiring/index.html",
+      "domain": "evalapply.org",
+      "published_at": "2026-09-22T02:47:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49796260\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "dc1c579f-22e1-42fb-92f2-18017a270395",
+      "title": "Augustofaces: Pareidolia Fine Art",
+      "url": "https://augusto.at/augustosfaces/",
+      "domain": "augusto.at",
+      "published_at": "2026-09-22T22:52:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49809404\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "986850fa-f9d8-4714-9b5c-a89b9085abc0",
       "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
       "url": "https://foxscript.org/",
@@ -2075,66 +2132,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "0c172ae8-5a17-4955-9b4b-2d3bfe940608",
-      "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
-      "url": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
-      "domain": "gist.github.com",
-      "published_at": "2026-09-20T15:58:52Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49777106\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "0874f183-d841-4289-a899-a3baae5efd6b",
-      "title": "Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++",
-      "url": "https://github.com/adonis-singh/re4",
-      "domain": "github.com",
-      "published_at": "2026-09-20T17:38:27Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49778022\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "c22abf7c-58ad-42b8-99db-1dbe044c0585",
-      "title": "Prompts aren’t Real",
-      "url": "https://evaluation.club",
-      "domain": "evaluation.club",
-      "published_at": "2026-09-20T15:59:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49777111\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "92eda6c2-ab55-48c6-9942-d303ceed3996",
-      "title": "Trying the Software Factory Pattern",
-      "url": "https://lethain.com/software-factory-experiment/",
-      "domain": "lethain.com",
-      "published_at": "2026-09-20T17:27:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49777913\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-22T23:03:14.899289106Z",
+  "last_updated": "2026-09-23T01:34:09.029048784Z",
   "total_count": 150
 }
