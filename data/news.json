@@ -1,6 +1,192 @@
 {
   "items": [
     {
+      "id": "47665cda-e495-447e-98bd-6015b03cc654",
+      "title": "Linux support is coming to Snapdragon X2 Series",
+      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "domain": "qualcomm.com",
+      "published_at": "2026-09-23T22:38:16Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49823582\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "bff83aec-2960-43e7-a103-8da7f8750c87",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
+      "url": "https://fly.io/blog/vscode-ssh-wtf/",
+      "domain": "fly.io",
+      "published_at": "2026-09-23T21:01:48Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49822555\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "43799aa3-211c-4a7e-bc2d-218b04f3e907",
+      "title": "LensVLM: Compressing long context as images, expanding only relevant pages",
+      "url": "https://huggingface.co/apple/LensVLM-9B",
+      "domain": "huggingface.co",
+      "published_at": "2026-09-23T18:36:29Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49820496\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "c84b6bf0-8c39-4b16-b9a7-aec641016291",
+      "title": "We just shipped support for the ugliest part of HTTP: Vary – Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vary-support/",
+      "domain": "blog.cloudflare.com",
+      "published_at": "2026-09-23T22:03:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49823195\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c6bf79e6-10a2-4dd5-885d-03c495e9c7b2",
+      "title": "The mystery animal on an ancient god's head",
+      "url": "https://signoregalilei.com/2026/09/13/the-mystery-animal-on-an-ancient-gods-head/",
+      "domain": "signoregalilei.com",
+      "published_at": "2026-09-22T12:00:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49799855\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4f834528-3bd5-4d0a-ab85-f3e325102334",
+      "title": "The Curious Power of Punctuation",
+      "url": "https://www.newyorker.com/magazine/2026/09/28/on-the-mark-louis-menand-book-review",
+      "domain": "newyorker.com",
+      "published_at": "2026-09-22T19:02:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49806413\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "659ee542-7092-4a7d-a512-22567b080a6a",
+      "title": "Show HN: An atlas of system designs with interactive architecture diagrams",
+      "url": "https://atlas-sysdes.vercel.app/",
+      "domain": "atlas-sysdes.vercel.app",
+      "published_at": "2026-09-22T10:54:31Z",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49799241\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "robotics",
+        "robotics"
+      ]
+    },
+    {
+      "id": "06833eb0-e635-46e2-9231-ee5685863751",
+      "title": "Mercury 2.5 LLM hits 770 tokens per second",
+      "url": "https://artificialanalysis.ai/models/mercury-2-5",
+      "domain": "artificialanalysis.ai",
+      "published_at": "2026-09-23T22:16:19Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49823348\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e03f10f1-e699-428e-8bf5-26c792de564b",
+      "title": "Making Tailscale Faster",
+      "url": "https://tailscale.com/blog/making-tailscale-faster",
+      "domain": "tailscale.com",
+      "published_at": "2026-09-23T17:49:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49819880\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3fad4f3c-01e9-4eea-b4d4-ff3190f940a5",
+      "title": "Swap, ZRAM, Zswap and Hibernate on NixOS",
+      "url": "https://blog.matthewbrunelle.com/swap-zram-zswap-and-hibernate-on-nixos/",
+      "domain": "blog.matthewbrunelle.com",
+      "published_at": "2026-09-23T18:07:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49820136\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e72c0af3-f3fd-4373-81fa-d519f50294ec",
+      "title": "Bwbach, My Guardian Goblin",
+      "url": "https://robertmay.photography/journal/bwbach-my-guardian-goblin",
+      "domain": "robertmay.photography",
+      "published_at": "2026-09-22T12:25:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49800114\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e9d617d9-d430-4574-af83-4ab33a4adbdb",
+      "title": "A refined phylochronology of the second plague pandemic in Western Eurasia",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2534899123",
+      "domain": "pnas.org",
+      "published_at": "2026-09-21T00:06:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49781492\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4a9e073c-bd53-4993-af95-5d44af9311dd",
+      "title": "OpenAI breaches Medicare, Albanese reveals",
+      "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+      "domain": "smh.com.au",
+      "published_at": "2026-09-23T21:01:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "OpenAI breaches Medicare, Albanese reveals. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b11ddbfa-d7fb-4644-aba9-514c107ebb19",
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -1946,194 +2132,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "2c4226d0-616f-4ed6-9c31-b5fd53d65223",
-      "title": "How do Traffic Signals Work (2019)",
-      "url": "https://practical.engineering/blog/2019/5/11/how-do-traffic-signals-work",
-      "domain": "practical.engineering",
-      "published_at": "2026-09-21T16:06:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49789081\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b5676feb-ddba-446c-b61c-cb8eff4f8b6a",
-      "title": "Fable 5 – Median thinking declined in August",
-      "url": "https://twitter.com/Lon/status/2101793422487204027",
-      "domain": "twitter.com",
-      "published_at": "2026-09-21T16:13:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49789224\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "accd3fdf-1b59-465c-841b-18d0dbcd2e1d",
-      "title": "Frontier AI on Your Own Hardware",
-      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
-      "domain": "timdettmers.com",
-      "published_at": "2026-09-21T18:53:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49791647\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "52926db8-2f09-4bd6-9dc3-8766fcf0d26e",
-      "title": "Whirlpool Washer Transmission Repair (2007)",
-      "url": "https://k0lee.com/2007/01/whirlpool-washer-transmission-repair/",
-      "domain": "k0lee.com",
-      "published_at": "2026-09-20T21:24:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49780226\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a05d31c6-593c-4c1c-b794-748e6ae7bd95",
-      "title": "Help 404 Media Find Out How Your Local Police Are Surveiling You",
-      "url": "https://www.404media.co/is-your-city-using-axon-license-plate-cameras-we-need-your-help/",
-      "domain": "404media.co",
-      "published_at": "2026-09-21T18:33:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49791380\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9b88b20d-04d7-4911-bd97-fd28643cc31c",
-      "title": "Noodle Gallery- Open-source, self-hosted alternative to Google Photos and Immich",
-      "url": "https://digitalescapetools.com/tools/noodlegallery.html",
-      "domain": "digitalescapetools.com",
-      "published_at": "2026-09-21T14:22:58Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49787684\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "e0923ec9-b7f3-427a-964e-13ea8d3bfc87",
-      "title": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
-      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
-      "domain": "forbes.com",
-      "published_at": "2026-09-21T17:00:23Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "5191b56e-720e-424b-9471-184f2a8c2047",
-      "title": "What Sun Got Wrong",
-      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
-      "domain": "bcantrill.dtrace.org",
-      "published_at": "2026-09-21T14:03:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49787436\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1511bddb-f2a7-420a-9e85-dae36ad9f388",
-      "title": "Uber arbitration award over Emily Normandin-Parker's death",
-      "url": "https://consumerrights.wiki/w/Uber_arbitration_award_over_Emily_Normandin-Parker%27s_death",
-      "domain": "consumerrights.wiki",
-      "published_at": "2026-09-21T14:09:48Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49787523\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "888ff364-6825-40ad-8f30-9bdf53cb2a94",
-      "title": "Disney+: New user agreement allows ads before movies in all subscriptions",
-      "url": "https://consumerrights.wiki/w/Disney%2B_ad_policy_change",
-      "domain": "consumerrights.wiki",
-      "published_at": "2026-09-21T07:55:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49784336\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "aadab94d-3f8c-4e8b-8ce7-fb2ec02d1f09",
-      "title": "Jev-Leftpad",
-      "url": "https://github.com/f/jev-leftpad",
-      "domain": "github.com",
-      "published_at": "2026-09-21T08:39:32Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49784706\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "bcf3239c-133c-4d3d-a341-ce19b6ea4f65",
-      "title": "Meta bans ads for Virginia Woolf play in Spain",
-      "url": "https://www.theguardian.com/technology/2026/sep/21/meta-ban-virginia-woolf-a-room-of-ones-own-barcelona-teatre-raval",
-      "domain": "theguardian.com",
-      "published_at": "2026-09-21T14:30:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49787767\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2d1281e9-80a2-4845-877c-38a617fa6659",
-      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents",
-      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
-      "domain": "macstories.net",
-      "published_at": "2026-09-21T13:53:27Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49787313\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
     }
   ],
-  "last_updated": "2026-09-23T20:32:48.959995365Z",
+  "last_updated": "2026-09-23T23:16:33.74741899Z",
   "total_count": 150
 }
