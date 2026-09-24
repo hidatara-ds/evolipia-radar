@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "id": "fe02fc80-6cd5-4432-88c3-e498c50e144f",
+      "title": "Meta VR Glasses",
+      "url": "https://www.meta.com/vr-glasses/",
+      "domain": "meta.com",
+      "published_at": "2026-09-23T23:47:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49824268\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9420ea31-6ff8-491c-ab3e-4f84b35b1fe1",
+      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+      "domain": "blog.arxiv.org",
+      "published_at": "2026-09-23T22:45:49Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49823664\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "b87b8112-e866-438e-b84a-720e26260f45",
+      "title": "The \"Windows XP Box\" (2003)",
+      "url": "https://www.mini-itx.com/projects/windowsxpbox/",
+      "domain": "mini-itx.com",
+      "published_at": "2026-09-22T03:09:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49796372\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8c1baf9c-8679-4d27-9474-19f9640dadcb",
+      "title": "FLAWED's Flaws and What This Means for Industry Research",
+      "url": "https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/",
+      "domain": "suhacker.ai",
+      "published_at": "2026-09-24T01:16:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49824969\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f309b68e-0862-4466-b59a-f5a15bb0ed96",
+      "title": "We used an AI agent to fix an open-source bug. Someone asked to ban us",
+      "url": "https://github.com/saulpw/visidata/pull/3229",
+      "domain": "github.com",
+      "published_at": "2026-09-24T01:14:43Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49824957\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "c0f75d54-b5ca-413d-ae33-1a3ed7514855",
+      "title": "Show HN: An open-source manufacturing ERP/MES/QMS",
+      "url": "https://carbon.ms/self-hosted",
+      "domain": "carbon.ms",
+      "published_at": "2026-09-24T00:45:17Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49824715\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "47665cda-e495-447e-98bd-6015b03cc654",
       "title": "Linux support is coming to Snapdragon X2 Series",
       "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
@@ -2048,92 +2136,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "8d19a4d2-524d-4130-92e0-1366e7a788e9",
-      "title": "Python Workers are now generally available",
-      "url": "https://blog.cloudflare.com/python-workers-ga/",
-      "domain": "blog.cloudflare.com",
-      "published_at": "2026-09-21T13:38:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49787142\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eb066072-30bb-4282-acba-db5641bb6c7e",
-      "title": "Avoiding the babbling-idiot failure in a time-triggered communication system",
-      "url": "https://ieeexplore.ieee.org/document/689473",
-      "domain": "ieeexplore.ieee.org",
-      "published_at": "2026-09-21T18:14:56Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49791117\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2d8b1955-fddd-45b3-90f9-1bcdeb44b1a9",
-      "title": "A restored PDP-11/83 serving this page on 211BSD Unix",
-      "url": "http://pdp1173.com/",
-      "domain": "pdp1173.com",
-      "published_at": "2026-09-21T15:45:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49788773\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "45ab579b-fd7f-4d9f-9e7e-ac0fadc670b8",
-      "title": "This Digital Radio Gets Messages to the World’s Remotest Locations",
-      "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
-      "domain": "spectrum.ieee.org",
-      "published_at": "2026-09-21T16:14:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49789228\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "177d501a-b397-40d1-b435-bf52da73cd3c",
-      "title": "Wall Street Is Growing Skeptical of the Data Center Boom",
-      "url": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-09-21T19:14:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49791944\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c580ccf1-20c0-4eac-be9b-b04189dd2151",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
-      "domain": "openai.com",
-      "published_at": "2026-09-21T17:27:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49790389\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-23T23:16:33.74741899Z",
+  "last_updated": "2026-09-24T01:30:43.21956545Z",
   "total_count": 150
 }
