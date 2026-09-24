@@ -73,7 +73,7 @@
 
 ## 📊 Database Architecture & Entity Relationship Diagram (ERD)
 
-The platform connects to a serverless **Neon.tech (PostgreSQL)** database. Full schema specifications and table structures are documented in [docs/DATABASE_SCHEMA.md](file:///e:/evolipia-radar-1/docs/DATABASE_SCHEMA.md).
+The platform connects to a serverless **Neon.tech (PostgreSQL)** database. Full schema specifications and table structures are documented in [docs/DATABASE_SCHEMA.md](docs/DATABASE_SCHEMA.md).
 
 ```mermaid
 erDiagram
@@ -119,7 +119,7 @@ erDiagram
     }
 ```
 
-> 📖 **Full Database Schema**: For full column definitions, data types, and constraint relationships, see [DATABASE_SCHEMA.md](file:///e:/evolipia-radar-1/docs/DATABASE_SCHEMA.md).
+> 📖 **Full Database Schema**: For full column definitions, data types, and constraint relationships, see [DATABASE_SCHEMA.md](docs/DATABASE_SCHEMA.md).
 
 ---
 
