@@ -1,6 +1,50 @@
 {
   "items": [
     {
+      "id": "31022181-1cd8-4e3b-8df7-118bed71b70b",
+      "title": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
+      "url": "https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2",
+      "domain": "safateam.com",
+      "published_at": "2026-09-25T07:03:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49841115\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9f00c4ad-51ce-4c74-b8af-ff2fdc6ab8d0",
+      "title": "The Efficiency-Throughput Gap with GitHub Copilot",
+      "url": "https://cacm.acm.org/research/beyond-the-hype-the-efficiency-throughput-gap-with-github-copilot/",
+      "domain": "cacm.acm.org",
+      "published_at": "2026-09-25T07:02:09Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49841103\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ab7e9c94-41f8-4d94-9b86-050ffd7d8479",
+      "title": "Jev Based Code Review",
+      "url": "https://github.com/egma-ai/jev-code-reviewer",
+      "domain": "github.com",
+      "published_at": "2026-09-25T04:49:23Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49840300\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "613c7508-096f-4381-874d-b3fcad62a033",
       "title": "Writing Parquet files using Haskell",
       "url": "https://www.datahaskell.org/blog/2026/09/18/writing-parquet-files-using-haskell.html",
@@ -2096,52 +2140,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "4cbd3799-c83c-4b9f-a06e-67bba09c87bd",
-      "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
-      "url": "https://www.coveragecat.com/",
-      "domain": "coveragecat.com",
-      "published_at": "2026-09-22T17:26:36Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49804931\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "48e0e36f-e160-4672-9ea6-2af527cf3dff",
-      "title": "Obscura: The first VPN that can't log your activity",
-      "url": "https://obscura.com/#faq-technical",
-      "domain": "obscura.com",
-      "published_at": "2026-09-22T19:40:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49807003\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5c457e5a-d8fb-4c47-ad95-2768c35933d6",
-      "title": "An update on how we confirm your age group on Discord",
-      "url": "https://discord.com/blog/safer-for-teens-same-discord-for-adults",
-      "domain": "discord.com",
-      "published_at": "2026-09-22T18:10:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49805677\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-25T02:14:18.767433166Z",
+  "last_updated": "2026-09-25T07:59:58.299463697Z",
   "total_count": 150
 }
