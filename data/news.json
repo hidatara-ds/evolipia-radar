@@ -1,6 +1,175 @@
 {
   "items": [
     {
+      "id": "17fde94a-3390-4c02-8e36-673a59b94ce8",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "domain": "swarmtraces.org",
+      "published_at": "2026-09-25T21:09:27Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49849985\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "c8f04b57-cb4b-4eeb-9154-57b9230cc633",
+      "title": "What even is an OS now?",
+      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "domain": "sockpuppet.org",
+      "published_at": "2026-09-25T21:36:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49850305\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d4e61302-7bed-4def-aa38-d50b4e226d79",
+      "title": "An airport cooled by natural ventilation",
+      "url": "https://www.theguardian.com/environment/2026/sep/25/didnt-need-air-conditioning-airport-cooled-natural-ventilation-reunion",
+      "domain": "theguardian.com",
+      "published_at": "2026-09-25T10:16:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49842462\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f62f7c4e-46aa-41c8-86e8-b4ccd2b18f55",
+      "title": "Excel now supports multiple values in a single cell",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+      "domain": "techcommunity.microsoft.com",
+      "published_at": "2026-09-25T20:55:00Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49849832\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3d4d3b9f-c779-4bcb-8a2c-aab2f4098332",
+      "title": "How we learned to stop worrying and love campus surveillance",
+      "url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
+      "domain": "fnl.mit.edu",
+      "published_at": "2026-09-25T19:56:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49849141\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d342c475-ac7d-4e07-ae37-26092c72e6b6",
+      "title": "Initial DIY Cleanroom Experimentation",
+      "url": "https://www.jefftk.com/p/initial-diy-cleanroom-experimentation",
+      "domain": "jefftk.com",
+      "published_at": "2026-09-24T07:02:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49827208\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "48665524-15b8-4e87-9c83-00ad6a626b6b",
+      "title": "Remembering Johannes Doerfert",
+      "url": "https://blog.llvm.org/posts/2026-09-24-rememberingjohannesdoerfert/",
+      "domain": "blog.llvm.org",
+      "published_at": "2026-09-24T23:36:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49838247\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d1a891dc-aed9-48ff-8b19-1112f13ef996",
+      "title": "Teaching a World Model to Play Pokemon",
+      "url": "https://nostalgia.dev/posts/teaching-a-world-model-to-play-pokemon/",
+      "domain": "nostalgia.dev",
+      "published_at": "2026-09-25T21:02:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49849907\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f37ec560-2f2d-4c64-a02f-fafdc6317766",
+      "title": "Loopjacking in A2A Implementations: Hijacking Human-in-the-Loop Approvals",
+      "url": "https://adithyanak.com/loopjacking-in-a2a-implementations/",
+      "domain": "adithyanak.com",
+      "published_at": "2026-09-23T18:23:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49820349\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6f54ddc0-c33c-4c91-8062-5ebf71ce0e49",
+      "title": "Issues with Codex – Identified – Full Outage",
+      "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+      "domain": "status.openai.com",
+      "published_at": "2026-09-25T23:04:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49851169\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d225ec8c-1115-438d-97b3-0bcbfa20ad7b",
+      "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+      "url": "https://news.ycombinator.com/item?id=49848955",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-09-25T19:37:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49848955\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0a887175-2af4-4613-8b54-3261a1d47375",
+      "title": "I wrote a ray tracer in Brainfuck",
+      "url": "https://epestr.com/blog/writing-a-ray-tracer-in-brainfuck/",
+      "domain": "epestr.com",
+      "published_at": "2026-09-25T10:08:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49842409\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6bd3d25b-366f-401f-b215-85a62bf0b01a",
       "title": "Ollaya – Ollama for open-source, Jev-style decision models",
       "url": "https://ollaya.dev/",
@@ -1967,178 +2136,8 @@
         "open-source",
         "open-source"
       ]
-    },
-    {
-      "id": "d20c6155-f006-4a6c-9aae-51c434b99614",
-      "title": "UK military jamming other nations' satellites to defend itself, BBC told",
-      "url": "https://www.bbc.com/news/articles/c32l8y8kygdvo",
-      "domain": "bbc.com",
-      "published_at": "2026-09-23T17:45:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49819814\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bc6609e9-4c85-4c92-bb5b-d94e12e6f3e4",
-      "title": "Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
-      "url": "https://www.forensicdbg.com",
-      "domain": "forensicdbg.com",
-      "published_at": "2026-09-23T19:15:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49821086\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8eb7536c-d5e1-46f5-8373-d4e17ece887b",
-      "title": "Fixing the Portobello Police Station Clock",
-      "url": "https://pointinthecloud.com/2026-04-11-211700.html",
-      "domain": "pointinthecloud.com",
-      "published_at": "2026-09-23T15:18:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49817469\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0b50c7b3-1516-4bd2-8a4b-3f397800eaad",
-      "title": "28% of job postings on company career sites have been open over 90 days",
-      "url": "https://unlisted.careers/ghost-jobs/report/2026-09",
-      "domain": "unlisted.careers",
-      "published_at": "2026-09-23T16:35:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49818698\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "55d7da59-b77d-4a84-b5f8-fb3905fe6a29",
-      "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
-      "url": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol",
-      "domain": "radicle.dev",
-      "published_at": "2026-09-23T15:23:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49817524\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "56d5f688-0173-41db-bd56-3e07169b259a",
-      "title": "Gemini 3.8 text-to-speech",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-      "domain": "blog.google",
-      "published_at": "2026-09-23T15:29:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49817615\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "260fdb99-1435-4655-84bf-bc73a0abef02",
-      "title": "Stripe's Knowledge AI Platform",
-      "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
-      "domain": "stripe.dev",
-      "published_at": "2026-09-23T13:38:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49815982\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2fbc63c1-4e58-4ce9-ab61-3e50936b89af",
-      "title": "Strands Harness",
-      "url": "https://strandsagents.com/blog/introducing-strands-harness/",
-      "domain": "strandsagents.com",
-      "published_at": "2026-09-23T15:05:46Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49817289\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "50086ae0-507e-4603-955d-1c97b1c09e73",
-      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
-      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-      "domain": "blog.szypowi.cz",
-      "published_at": "2026-09-23T12:15:33Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49814947\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "d999cd87-aed7-4001-a274-d2fe3d6160d4",
-      "title": "I don't want the details",
-      "url": "https://michaelheap.com/i-dont-want-the-details/",
-      "domain": "michaelheap.com",
-      "published_at": "2026-09-23T13:04:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49815466\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3e22a893-fcae-41f9-96ae-689579271912",
-      "title": "Tokens Too Cheap to Meter",
-      "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
-      "domain": "jyn.dev",
-      "published_at": "2026-09-23T09:21:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49813482\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "470d3555-2632-4139-ae63-c1549dfc2d1b",
-      "title": "GPT-6 Astra has gained the ability to drive a car",
-      "url": "https://drivingbench.com/",
-      "domain": "drivingbench.com",
-      "published_at": "2026-09-23T15:14:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49817404\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-25T21:10:51.563345994Z",
+  "last_updated": "2026-09-25T23:59:15.196304636Z",
   "total_count": 150
 }
