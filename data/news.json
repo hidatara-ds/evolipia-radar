@@ -1,6 +1,176 @@
 {
   "items": [
     {
+      "id": "2c9c49d3-caee-4bdd-b303-3d6f255e2219",
+      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "url": "https://github.com/InfinityLoop1308/PipePipe",
+      "domain": "github.com",
+      "published_at": "2026-09-25T10:55:40Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49842764\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "a2517104-2365-4b26-9302-5d8ce75925cc",
+      "title": "Show HN: A Claude Code skill to analyze your chess games",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "domain": "github.com",
+      "published_at": "2026-09-26T15:34:53Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49857528\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "35d2fb6a-ae1c-4d3c-a028-3c746c9cd8ad",
+      "title": "The Lost Atomic Update on Loongson CPU",
+      "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
+      "domain": "jia.je",
+      "published_at": "2026-09-24T08:36:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49827900\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e10d75aa-f979-4c8a-8abf-16df13fca0b8",
+      "title": "Modern Object Pascal Introduction for Programmers – Castle Game Engine",
+      "url": "https://castle-engine.io/modern_pascal",
+      "domain": "castle-engine.io",
+      "published_at": "2026-09-24T11:33:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49829202\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "036db53a-9661-42b6-87a3-5d08142346f6",
+      "title": "Reflections on 1,000 Days of Math",
+      "url": "https://gmays.com/reflections-on-1000-days-of-math/",
+      "domain": "gmays.com",
+      "published_at": "2026-09-23T14:40:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49816907\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1c454758-cb89-4116-9796-e823ca1bf8cf",
+      "title": "Automattic has a new board after failed attempt to put CEO on leave",
+      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-09-26T15:40:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49857572\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "30587208-6778-4026-b8c8-141610a03e73",
+      "title": "Analyzing Frontier Model Progress with My Favourite Game: Prince of Persia",
+      "url": "https://blog.priyan.in/2026/09/analyzing-frontier-model-progress-with.html",
+      "domain": "blog.priyan.in",
+      "published_at": "2026-09-25T20:53:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49849820\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "92012a0f-21e7-4ffb-803e-b615e89a65f1",
+      "title": "I'm the Mom in That Viral Giants Clip. Let Me Tell You About My Husband",
+      "url": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+      "domain": "themomoftheyear.substack.com",
+      "published_at": "2026-09-26T16:12:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49857899\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "372a77c7-2074-43fa-9b12-076e060ac192",
+      "title": "Make Claude your assistant in excalidraw",
+      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "domain": "tangled.org",
+      "published_at": "2026-09-26T15:56:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49857729\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a110eb94-42da-462c-be8f-05369bb3cdcd",
+      "title": "Banks and Credit Unions to Team Up Against Apple Pay Fees",
+      "url": "https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/",
+      "domain": "macrumors.com",
+      "published_at": "2026-09-26T15:48:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49857651\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "12071000-57c9-4f73-8d04-f15a5772d9b7",
+      "title": "New Satellite Engine Could Use Earth's Atmosphere to Stay in Orbit Indefinitely",
+      "url": "https://scitechdaily.com/new-satellite-engine-could-use-earths-atmosphere-as-fuel-to-stay-in-orbit-indefinitely/",
+      "domain": "scitechdaily.com",
+      "published_at": "2026-09-26T15:10:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49857323\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3d80ef4f-0812-4f77-aa89-e5b80d1d8069",
+      "title": "Plunging test scores are a slow-moving catastrophe",
+      "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+      "domain": "economist.com",
+      "published_at": "2026-09-26T15:24:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Plunging test scores are a slow-moving catastrophe. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "75657c2a-6e65-41d9-af0d-14d3d96b694a",
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
@@ -1958,183 +2128,8 @@
         "agents",
         "agents"
       ]
-    },
-    {
-      "id": "d5b20ba5-6361-463f-b42a-92d04147e48d",
-      "title": "Automated optimization of a molecular simulation program",
-      "url": "https://shishir-iyer.medium.com/automated-optimization-of-a-molecular-simulation-program-4a28a2bc05ad",
-      "domain": "shishir-iyer.medium.com",
-      "published_at": "2026-09-22T16:38:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49804052\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fe455ceb-9231-41de-b1f7-7fae50f2b4f5",
-      "title": "Looks promising for document editing with your agent",
-      "url": "https://www.paperinstruments.com/blog/introducing-paper-office",
-      "domain": "paperinstruments.com",
-      "published_at": "2026-09-24T09:19:47Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49828177\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "26bdc24d-3ace-4e94-adbb-4fe188adbd4b",
-      "title": "Women Who Sold Books Door to Door",
-      "url": "https://daily.jstor.org/the-women-who-sold-books-door-to-door/",
-      "domain": "daily.jstor.org",
-      "published_at": "2026-09-21T20:52:52Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49793249\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8b8ef582-7ce3-42b3-a7e8-357b5f0128ef",
-      "title": "Starlink ground station in Poland hit by fire in suspected arson attack",
-      "url": "https://notesfrompoland.com/2026/09/24/starlink-ground-station-in-poland-hit-by-fire-in-suspected-arson-attack/",
-      "domain": "notesfrompoland.com",
-      "published_at": "2026-09-24T09:52:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Starlink ground station in Poland hit by fire in suspected arson attack. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a4bb210f-7cc9-4fe2-9323-e1badd6b58bf",
-      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-      "url": "https://transluce.org/agent-activity",
-      "domain": "transluce.org",
-      "published_at": "2026-09-24T05:21:10Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49826565\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "c953c513-b0db-4800-8b95-c8ac6f742d51",
-      "title": "Ideas on modernizing the open-source desktop",
-      "url": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
-      "domain": "lwn.net",
-      "published_at": "2026-09-24T02:52:09Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49825642\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "2b9ad8aa-b06d-4b4b-86b6-1c56ee274927",
-      "title": "Feds Target AI Critics as \"Foreign Agents\"",
-      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-      "domain": "kenklippenstein.com",
-      "published_at": "2026-09-24T00:41:31Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49824686\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "e8f7b0d1-cd19-4d59-934e-be849dbdeabd",
-      "title": "AI Passport Photo",
-      "url": "https://www.aipassportphoto.org/",
-      "domain": "aipassportphoto.org",
-      "published_at": "2026-09-24T06:34:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49827002\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ecbbe238-07e0-4cce-aa5a-e97e0132f481",
-      "title": "Making portable my unportable transputer C compiler",
-      "url": "https://nanochess.org/transputer_c_compiler.html",
-      "domain": "nanochess.org",
-      "published_at": "2026-09-22T01:07:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49795600\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fa7b6041-d83c-4165-8056-13ddb58b3474",
-      "title": "Contrastive Language Models",
-      "url": "https://contrastive-lm.notion.site/",
-      "domain": "contrastive-lm.notion.site",
-      "published_at": "2026-09-24T04:20:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49826221\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bd05e3e4-4c9e-4ab6-b7a5-392ecc212ed5",
-      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
-      "url": "https://github.com/nestrilabs/virtio-nvgpu",
-      "domain": "github.com",
-      "published_at": "2026-09-24T01:02:23Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49824864\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "c128f70f-74ac-41a1-839c-027e410c4205",
-      "title": "Lazydraw: Terminal ASCII editor for drawing diagrams and sketches",
-      "url": "https://github.com/mpospirit/lazydraw",
-      "domain": "github.com",
-      "published_at": "2026-09-22T12:30:57Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49800172\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-09-26T13:26:56.947808291Z",
+  "last_updated": "2026-09-26T17:19:05.107345398Z",
   "total_count": 150
 }
