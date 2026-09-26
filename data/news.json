@@ -1,6 +1,134 @@
 {
   "items": [
     {
+      "id": "bb9c5870-9237-4db0-8458-bbb7c43e46f8",
+      "title": "CAPTCHAs don't prove you're human – they prove you're American",
+      "url": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/",
+      "domain": "shkspr.mobi",
+      "published_at": "2026-09-26T08:27:19Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49854399\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "adf0595e-97f4-4d28-b57c-a4871222a6a0",
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "domain": "allanrbo.blogspot.com",
+      "published_at": "2026-09-26T04:20:58Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49853175\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "dfb46992-187b-4d96-92d8-3ea739b1c88c",
+      "title": "We're gonna need a lot more mathematicians",
+      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+      "domain": "terrytao.wordpress.com",
+      "published_at": "2026-09-26T02:46:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49852717\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "afdb1dca-f2c9-4e70-a1d8-494c61de0d0f",
+      "title": "How I changed teaching after AI managed to do all my homework assignments",
+      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "domain": "thelastsoftwareengineer.substack.com",
+      "published_at": "2026-09-24T20:51:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49836579\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8ee57812-42ca-4f2b-8724-7b8c0dc72981",
+      "title": "The Murky History of Soviet-Born Tetris",
+      "url": "https://thereader.mitpress.mit.edu/the-bizarre-murky-history-of-soviet-born-tetris/",
+      "domain": "thereader.mitpress.mit.edu",
+      "published_at": "2026-09-24T23:11:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49838040\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9c431949-72df-4193-95a7-59af890a4d39",
+      "title": "Is your Postgres migration safe or not safe?",
+      "url": "https://safenotsafe.dev/",
+      "domain": "safenotsafe.dev",
+      "published_at": "2026-09-26T07:33:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49854161\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c54924e7-c641-4e52-ac75-90a6afb0b5e4",
+      "title": "Scientists build most accurate atomic clock",
+      "url": "https://phys.org/news/2026-09-scientists-world-accurate-atomic-clock.html",
+      "domain": "phys.org",
+      "published_at": "2026-09-24T01:00:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49824846\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e0291741-e8dd-4a35-9b36-ce8bcf1124a5",
+      "title": "A new world airport and its baggage",
+      "url": "https://computer.rip/2026-09-20-denver-baggage.html",
+      "domain": "computer.rip",
+      "published_at": "2026-09-23T22:30:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49823490\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9af0fe28-e654-4df5-b8c9-a9cbbb7c491f",
+      "title": "From Thin Air to Bootable Images: The Tine Build System",
+      "url": "https://amutable.com/blog/tine-build-system",
+      "domain": "amutable.com",
+      "published_at": "2026-09-24T13:25:11Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49830265\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
       "id": "ebc8cd12-659a-4e1b-b3d1-5c6b03423d42",
       "title": "Plan mode is dead",
       "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
@@ -2008,137 +2136,8 @@
         "infra",
         "infra"
       ]
-    },
-    {
-      "id": "bff83aec-2960-43e7-a103-8da7f8750c87",
-      "title": "VSCode's SSH Agent Is Bananas (2025)",
-      "url": "https://fly.io/blog/vscode-ssh-wtf/",
-      "domain": "fly.io",
-      "published_at": "2026-09-23T21:01:48Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49822555\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "43799aa3-211c-4a7e-bc2d-218b04f3e907",
-      "title": "LensVLM: Compressing long context as images, expanding only relevant pages",
-      "url": "https://huggingface.co/apple/LensVLM-9B",
-      "domain": "huggingface.co",
-      "published_at": "2026-09-23T18:36:29Z",
-      "category": "vision",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49820496\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "vision",
-        "vision"
-      ]
-    },
-    {
-      "id": "c84b6bf0-8c39-4b16-b9a7-aec641016291",
-      "title": "We just shipped support for the ugliest part of HTTP: Vary – Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/vary-support/",
-      "domain": "blog.cloudflare.com",
-      "published_at": "2026-09-23T22:03:21Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49823195\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c6bf79e6-10a2-4dd5-885d-03c495e9c7b2",
-      "title": "The mystery animal on an ancient god's head",
-      "url": "https://signoregalilei.com/2026/09/13/the-mystery-animal-on-an-ancient-gods-head/",
-      "domain": "signoregalilei.com",
-      "published_at": "2026-09-22T12:00:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49799855\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4f834528-3bd5-4d0a-ab85-f3e325102334",
-      "title": "The Curious Power of Punctuation",
-      "url": "https://www.newyorker.com/magazine/2026/09/28/on-the-mark-louis-menand-book-review",
-      "domain": "newyorker.com",
-      "published_at": "2026-09-22T19:02:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49806413\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "659ee542-7092-4a7d-a512-22567b080a6a",
-      "title": "Show HN: An atlas of system designs with interactive architecture diagrams",
-      "url": "https://atlas-sysdes.vercel.app/",
-      "domain": "atlas-sysdes.vercel.app",
-      "published_at": "2026-09-22T10:54:31Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49799241\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "robotics"
-      ]
-    },
-    {
-      "id": "06833eb0-e635-46e2-9231-ee5685863751",
-      "title": "Mercury 2.5 LLM hits 770 tokens per second",
-      "url": "https://artificialanalysis.ai/models/mercury-2-5",
-      "domain": "artificialanalysis.ai",
-      "published_at": "2026-09-23T22:16:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49823348\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e03f10f1-e699-428e-8bf5-26c792de564b",
-      "title": "Making Tailscale Faster",
-      "url": "https://tailscale.com/blog/making-tailscale-faster",
-      "domain": "tailscale.com",
-      "published_at": "2026-09-23T17:49:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49819880\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3fad4f3c-01e9-4eea-b4d4-ff3190f940a5",
-      "title": "Swap, ZRAM, Zswap and Hibernate on NixOS",
-      "url": "https://blog.matthewbrunelle.com/swap-zram-zswap-and-hibernate-on-nixos/",
-      "domain": "blog.matthewbrunelle.com",
-      "published_at": "2026-09-23T18:07:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49820136\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-26T03:40:56.245278256Z",
+  "last_updated": "2026-09-26T08:53:15.1080651Z",
   "total_count": 150
 }
