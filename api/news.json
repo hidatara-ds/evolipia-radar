@@ -1,6 +1,134 @@
 {
   "items": [
     {
+      "id": "b8f62d39-5a4f-4a5e-8466-98af4a66bb53",
+      "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+      "url": "https://swarmcha.se/posts/openai-unctad",
+      "domain": "swarmcha.se",
+      "published_at": "2026-09-27T01:08:07Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49862299\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "17867cc1-590c-4aaf-969a-a0cade86f7f9",
+      "title": "If we do not stop to help each other, what do we become?",
+      "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
+      "domain": "blog.codinghorror.com",
+      "published_at": "2026-09-27T03:20:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49863062\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6ba3119a-a021-4f2f-a739-9f1e28e66b77",
+      "title": "What is the size of Yemen? (2024)",
+      "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "domain": "theborys.substack.com",
+      "published_at": "2026-09-27T02:40:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49862809\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "29ed3957-969f-4ccd-bffd-50161bf47746",
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "domain": "github.blog",
+      "published_at": "2026-09-26T13:10:05Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49856193\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "0c104fc1-ff28-4afa-9056-75220c78bf31",
+      "title": "Snap Wants to be a State Actor??–Kansas v. Snap",
+      "url": "https://blog.ericgoldman.org/archives/2026/09/snap-wants-to-be-a-state-actor-kansas-v-snap.htm",
+      "domain": "blog.ericgoldman.org",
+      "published_at": "2026-09-25T17:12:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49847247\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f35189b9-a0b3-4b09-be57-f320036ec865",
+      "title": "We Should Be Able to Change Our Languages",
+      "url": "http://jimmyhmiller.com/change-our-languages",
+      "domain": "jimmyhmiller.com",
+      "published_at": "2026-09-25T13:00:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49844037\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e10e403a-191e-438e-ad36-2efe65fd4b48",
+      "title": "Exploding variance of means of exponentials: least-squares to the rescue",
+      "url": "https://francisbach.com/spectral_log_density_estimation/",
+      "domain": "francisbach.com",
+      "published_at": "2026-09-25T22:48:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49850991\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "05b31060-bd83-4ff0-bf1b-73ab78408e15",
+      "title": "Biology might not be quantum, but its math is quantumlike",
+      "url": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/",
+      "domain": "quantamagazine.org",
+      "published_at": "2026-09-25T02:11:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49839438\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ea59a48b-151f-4851-9484-5d8867a648b2",
+      "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "domain": "privatemode.ai",
+      "published_at": "2026-09-26T15:49:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49857656\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "78b4ebe0-bbcb-49df-b7f7-c28ba9bee5b7",
       "title": "Does Georgism work? Five years later",
       "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
@@ -1999,139 +2127,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "1bdaea58-6ccc-49dc-b71f-9e4b05bb7808",
-      "title": "Why is the liver so weirdly regenerative?",
-      "url": "https://dynomight.substack.com/p/liver",
-      "domain": "dynomight.substack.com",
-      "published_at": "2026-09-24T16:23:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49832938\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "43460195-345a-4f56-a0ef-bfed2a02f78b",
-      "title": "Forging 1024-bit RSA signatures in nearly SNFS time [pdf]",
-      "url": "https://eprint.iacr.org/2026/2131.pdf",
-      "domain": "eprint.iacr.org",
-      "published_at": "2026-09-24T14:26:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49831098\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "600b717b-0b88-472e-be59-401be9033210",
-      "title": "Google’s Project Suncatcher to put ML infrastructure in space",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-      "domain": "blog.google",
-      "published_at": "2026-09-24T13:53:29Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49830606\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "70a276b7-27a4-458f-9d8b-b85a99ff85f5",
-      "title": "Creatine uptake enhances antitumor immunity",
-      "url": "https://www.cell.com/iscience/fulltext/S2589-0042(26)00811-4",
-      "domain": "cell.com",
-      "published_at": "2026-09-24T18:24:52Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49834825\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "823b2de3-7dc4-486e-90e1-553f41ad0cba",
-      "title": "Geothermal heat map of US hot springs",
-      "url": "https://www.soakingsprings.com/hot-springs/geothermal-map",
-      "domain": "soakingsprings.com",
-      "published_at": "2026-09-23T20:12:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49821835\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "adf51ea8-1cd5-4c27-93c7-c551adc14fd4",
-      "title": "Security auditing in the age of (good enough) AI",
-      "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
-      "domain": "blog.trailofbits.com",
-      "published_at": "2026-09-21T21:53:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49793957\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c0418525-79f6-43fa-868f-db97ab221f9f",
-      "title": "Show HN: Treepeat – Code similarity detection using Tree-sitter",
-      "url": "https://github.com/dsummersl/treepeat",
-      "domain": "github.com",
-      "published_at": "2026-09-22T16:53:25Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49804359\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "2d9e910c-dfa6-47bb-9b56-31f544d45248",
-      "title": "Show HN: AgentRun: DSL to turn agents into workflows",
-      "url": "https://github.com/Parcha-ai/agentrun",
-      "domain": "github.com",
-      "published_at": "2026-09-23T19:42:58Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49821438\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "eef7f72f-59c2-4872-b9d6-449fd392f592",
-      "title": "A Million Agents Is a Distributed System Problem",
-      "url": "https://www.instacloud.com/blogs/a-million-agents-is-a-distributed-systems-problem",
-      "domain": "instacloud.com",
-      "published_at": "2026-09-24T17:26:23Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49833958\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
     }
   ],
-  "last_updated": "2026-09-27T00:43:44.663823575Z",
+  "last_updated": "2026-09-27T05:56:26.827594509Z",
   "total_count": 150
 }
