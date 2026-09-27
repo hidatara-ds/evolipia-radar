@@ -1,6 +1,175 @@
 {
   "items": [
     {
+      "id": "78b4ebe0-bbcb-49df-b7f7-c28ba9bee5b7",
+      "title": "Does Georgism work? Five years later",
+      "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+      "domain": "astralcodexten.com",
+      "published_at": "2026-09-25T13:48:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49844657\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b99cf13c-e082-4496-a16d-9702ec6ea12d",
+      "title": "Evolving programming languages in the AI era",
+      "url": "https://dashbit.co/blog/evolving-ai-era",
+      "domain": "dashbit.co",
+      "published_at": "2026-09-25T02:34:39Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49839567\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6f45fcc1-6f8d-4383-9cae-2840b606662e",
+      "title": "An agent used DNS to reach an external chatbot",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "domain": "alignment.openai.com",
+      "published_at": "2026-09-26T04:14:11Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49853137\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "b92be271-b4eb-4d29-96a1-09a7d942355f",
+      "title": "Go Concurrency Distilled",
+      "url": "https://antonz.org/go-concurrency-distilled/",
+      "domain": "antonz.org",
+      "published_at": "2026-09-26T14:34:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49856988\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6a0be0c4-8f05-4b4b-9a8a-977689a43539",
+      "title": "How one Twitch chat message became code execution on a streamer’s PC",
+      "url": "https://blog.scrt.ch/2026/09/22/how-one-twitch-chat-message-became-code-execution-on-a-streamers-pc/",
+      "domain": "blog.scrt.ch",
+      "published_at": "2026-09-26T01:13:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49852143\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3acb548b-89b8-47b6-9b8b-bb1e1ce655e3",
+      "title": "HomeBody: A humanoid that explores, remembers, and acts on its own",
+      "url": "https://tml.stanford.edu/homebody/",
+      "domain": "tml.stanford.edu",
+      "published_at": "2026-09-26T18:42:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49859299\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "be41999e-9068-4363-adb3-2caec80f2ba6",
+      "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+      "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "domain": "righto.com",
+      "published_at": "2026-09-26T17:26:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49858676\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "77037c20-ba97-411b-b845-966888103a07",
+      "title": "The Evolution of Vending Machines",
+      "url": "https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines/",
+      "domain": "saturdayeveningpost.com",
+      "published_at": "2026-09-26T17:01:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49858424\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b8537b1a-c744-4a15-aa07-a6760032aebf",
+      "title": "Generate fonts where every LLM token is the same width",
+      "url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "domain": "ampdot.mesh.host",
+      "published_at": "2026-09-26T00:30:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49851883\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "fd37aa3f-078a-4d4c-9677-354f714173e6",
+      "title": "Reading’s Bayeux Tapestry",
+      "url": "https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
+      "domain": "diamondgeezer.blogspot.com",
+      "published_at": "2026-09-26T10:48:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49855276\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "be4e7138-ff49-4756-b19c-8b1180742e59",
+      "title": "Promising discoveries about the potential for life on one of Saturn’s icy moons",
+      "url": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+      "domain": "fu-berlin.de",
+      "published_at": "2026-09-26T03:23:31Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49852905\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b6ebdf33-0191-4806-a205-81d24638959a",
+      "title": "Dutch designer made DE9: Closer to the Edit into a playable web-based instrument",
+      "url": "https://www.creativeboom.com/work/why-merijn-straathof-turned-a-landmark-techno-album-into-a-playable-web-based-instrument/",
+      "domain": "creativeboom.com",
+      "published_at": "2026-09-24T21:30:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49836979\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "207429f7-6775-49cc-982b-725965f169c8",
       "title": "DeepSeek Elastic Compute (DSec)",
       "url": "https://arxiv.org/abs/2609.22978",
@@ -1961,179 +2130,8 @@
         "agents",
         "agents"
       ]
-    },
-    {
-      "id": "320e5335-1d75-4381-8d95-dfb5ee278a4c",
-      "title": "Search – A small, fast WebKit browser for macOS",
-      "url": "https://github.com/driceroland/Search",
-      "domain": "github.com",
-      "published_at": "2026-09-24T09:11:52Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "Search – A small, fast WebKit browser for macOS. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "9c3a128d-906d-4826-aebf-15ac43b27a4c",
-      "title": "F-Droid 2.0",
-      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "domain": "f-droid.org",
-      "published_at": "2026-09-24T15:26:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49831968\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9b1073e9-ccb1-4fba-9d6d-0bef55fc1450",
-      "title": "GitHub has not removed malicious imitation software after 3 weeks",
-      "url": "https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/",
-      "domain": "successfulsoftware.net",
-      "published_at": "2026-09-24T15:50:26Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49832406\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "0bc37181-a41d-4935-b0b2-28cbee89de62",
-      "title": "B5-BJ2 – Ice Cream Barges – Concrete Ship Constructors (2023)",
-      "url": "https://thecretefleet.com/blog/f/b5-bj2---ice-cream-barges---concrete-ship-constructors",
-      "domain": "thecretefleet.com",
-      "published_at": "2026-09-21T22:31:35Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49794336\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "81e516fe-b8d9-4547-9acd-6ccfecd9ac98",
-      "title": "WaveDigger: Dig into wireless signals to discover their physical locations",
-      "url": "https://github.com/christianrowlands/wavedigger",
-      "domain": "github.com",
-      "published_at": "2026-09-23T12:57:07Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49815370\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "1ffc8577-8603-44eb-a4ba-aa00eaa14341",
-      "title": "Experiencing writing at our recent Chinese calligraphy workshop",
-      "url": "https://viewsproject.wordpress.com/2026/09/06/chinese-calligraphy-workshop/",
-      "domain": "viewsproject.wordpress.com",
-      "published_at": "2026-09-24T15:40:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49832231\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1809be47-cef3-4b6e-9348-83ee6eb04d1e",
-      "title": "The science of Monkey Island: can grog dissolve a metal mug that fast?",
-      "url": "https://jgeekstudies.org/2026/09/23/the-science-of-monkey-island-can-grog-actually-dissolve-a-metal-mug-that-fast/",
-      "domain": "jgeekstudies.org",
-      "published_at": "2026-09-23T15:55:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49818031\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8f6ce9d4-37e6-489c-b7e3-652cab10d015",
-      "title": "Why is the human body so crap except for the liver?",
-      "url": "https://dynomight.net/liver/",
-      "domain": "dynomight.net",
-      "published_at": "2026-09-24T15:45:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49832317\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1dbf6170-81d8-495f-9ec2-0057a1179f92",
-      "title": "Federal judge orders Texas to air condition all prisons by the end of 2029",
-      "url": "https://www.texastribune.org/2026/09/22/texas-prison-air-conditioning-lawsuit-ruling/",
-      "domain": "texastribune.org",
-      "published_at": "2026-09-24T16:15:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49832844\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "60664b3d-1b3e-423e-8ade-7071f2e953ae",
-      "title": "S.F. Democratic Party stands behind Flock surveillance cameras in vote",
-      "url": "https://missionlocal.org/2026/09/san-francisco-democratic-party-flock-cameras/",
-      "domain": "missionlocal.org",
-      "published_at": "2026-09-24T17:04:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49833611\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "66cbe949-9708-48b2-8c56-e2ceee45bdef",
-      "title": "Enjoy Every Sandwich",
-      "url": "https://bradmontague.substack.com/p/enjoy-every-sandwich",
-      "domain": "bradmontague.substack.com",
-      "published_at": "2026-09-22T18:19:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49805806\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f18060c5-ba3a-40be-a2f2-347633b67d73",
-      "title": "Coulomb's law remains tricky to test at home",
-      "url": "https://chillphysicsenjoyer.substack.com/p/coulombs-law-remains-tricky-to-test",
-      "domain": "chillphysicsenjoyer.substack.com",
-      "published_at": "2026-09-22T13:00:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49800557\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-26T22:23:04.212738744Z",
+  "last_updated": "2026-09-27T00:43:44.663823575Z",
   "total_count": 150
 }
