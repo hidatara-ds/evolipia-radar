@@ -1,6 +1,135 @@
 {
   "items": [
     {
+      "id": "86eea9c5-c760-47f2-a286-3053da4718ba",
+      "title": "When did Google get so weird?",
+      "url": "https://sancho.bearblog.dev/google-weird/",
+      "domain": "sancho.bearblog.dev",
+      "published_at": "2026-09-27T20:12:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49870367\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b3c77067-5215-4086-81b7-bdcd0d1290ee",
+      "title": "Lunar Terminator Paradox",
+      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "domain": "notes.secretsauce.net",
+      "published_at": "2026-09-27T21:06:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49870837\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d46be760-30a6-4db1-b6e6-893acc5d6e59",
+      "title": "Alan Kay's answer to \"Did the ENIAC have a BIOS\"?",
+      "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+      "domain": "quora.com",
+      "published_at": "2026-09-27T19:37:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49870070\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e6b10ae3-c253-4780-8612-692081164272",
+      "title": "The state of SIMD in Rust in 2026",
+      "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+      "domain": "shnatsel.github.io",
+      "published_at": "2026-09-25T13:46:34Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49844629\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "107b5883-0e30-4cac-8aaf-8e242080e5c6",
+      "title": "Imp is a full port of DSPy to the BEAM",
+      "url": "https://github.com/deepfates/imp",
+      "domain": "github.com",
+      "published_at": "2026-09-27T19:28:23Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49869995\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "20542228-7bd9-4a88-8313-13c730210de0",
+      "title": "Don't couple your Go code to GitHub",
+      "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "domain": "iain.rocks",
+      "published_at": "2026-09-27T16:50:58Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49868404\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "2a69c28a-f830-4f65-8bbb-a658ee9a21a7",
+      "title": "There is more to code review than (automatable) detection",
+      "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
+      "domain": "adaptivecapacitylabs.com",
+      "published_at": "2026-09-26T15:06:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49857281\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "15150f32-5de7-4fd4-a092-0f3b87365cce",
+      "title": "What I did at Recurse Center",
+      "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
+      "domain": "thill.me",
+      "published_at": "2026-09-27T19:04:19Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49869773\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0c0a2d10-ab3e-4c8f-a62a-f62fee594127",
+      "title": "S3 Is the Future, S3 Is the Past",
+      "url": "https://btrblocks.com/blog/s3_is_the_future_and_the_past/",
+      "domain": "btrblocks.com",
+      "published_at": "2026-09-25T23:58:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49851693\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "58df3b1e-6cfd-4f5a-afd4-5925b4aaf8f4",
       "title": "Ember-1",
       "url": "https://fireworks.ai/blog/ember-1",
@@ -2000,135 +2129,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "5a841be4-c017-42e8-aaf3-3c69d4d6c189",
-      "title": "Gravity Seems Holographic. What Does That Mean for Reality?",
-      "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
-      "domain": "quantamagazine.org",
-      "published_at": "2026-09-25T15:31:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49845998\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "97520001-59be-47e1-a8cb-3ff9988c46c0",
-      "title": "Allow Carriers on Planes",
-      "url": "https://www.jefftk.com/p/allow-carriers-on-planes",
-      "domain": "jefftk.com",
-      "published_at": "2026-09-25T14:00:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49844786\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dedcccac-a7d5-4262-9394-759751054b28",
-      "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-      "domain": "bloomberg.com",
-      "published_at": "2026-09-25T14:07:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49844896\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bda32f7a-ad7d-4b0d-ae64-bb38c037fad8",
-      "title": "Dutch governments builds alternative for Microsoft based on NixOS",
-      "url": "https://www.dawo.community/en/",
-      "domain": "dawo.community",
-      "published_at": "2026-09-25T08:06:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49841563\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "57e56e53-6889-41d0-af07-d298da55c359",
-      "title": "Platform-Independent SIMD in Go",
-      "url": "https://go.dev/blog/simd-experiment",
-      "domain": "go.dev",
-      "published_at": "2026-09-25T11:47:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49843269\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6a957003-cb5e-4a80-98a0-07f8b9487c9c",
-      "title": "I'm Tired of Being on the Network",
-      "url": "https://matduggan.com/im-tired-of-being-on-the-network/",
-      "domain": "matduggan.com",
-      "published_at": "2026-09-25T12:13:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49843547\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e2c802b8-fa5b-484d-8f21-d70dbccf467b",
-      "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
-      "url": "https://github.com/git-bug/git-bug",
-      "domain": "github.com",
-      "published_at": "2026-09-25T11:38:31Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49843174\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "e3c7ecd6-193f-445d-8cfd-bc45f4043ee1",
-      "title": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
-      "url": "https://nyaa.sh/reviews/mac-mini-m6-emulation",
-      "domain": "nyaa.sh",
-      "published_at": "2026-09-25T07:27:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49841285\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1017153f-859f-439c-80f4-76c4422ad587",
-      "title": "Ink and Switch Interactive Homepage",
-      "url": "https://www.inkandswitch.com/",
-      "domain": "inkandswitch.com",
-      "published_at": "2026-09-25T09:50:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49842270\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-27T19:22:29.790681789Z",
+  "last_updated": "2026-09-27T22:23:20.498612074Z",
   "total_count": 150
 }
