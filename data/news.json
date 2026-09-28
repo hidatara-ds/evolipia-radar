@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "id": "28c62b8f-02e3-4865-a97d-83ad4cdde027",
+      "title": "Thinking Fast and Slow in AI: The Role of Metacognition",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "domain": "arxiv.org",
+      "published_at": "2026-09-28T03:23:53Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49873241\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "9ee0698b-d096-40ed-8c7b-ac2a15d14696",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "domain": "colo.to",
+      "published_at": "2026-09-28T02:05:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49872723\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "018e0cef-d4c7-474b-9e1f-5a586661d803",
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "url": "https://www.inkandswitch.com/essay/malleable-software/",
+      "domain": "inkandswitch.com",
+      "published_at": "2026-09-27T19:01:31Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49869755\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1f9e684c-6dbe-46f0-b93c-7e315541031e",
+      "title": "Was Silent Reading Unusual During Augustine's Time?",
+      "url": "https://www.historyofinformation.com/detail.php?entryid=4341",
+      "domain": "historyofinformation.com",
+      "published_at": "2026-09-28T01:22:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49872474\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "886eb13f-29f5-4f06-b9de-a12a799b0bb1",
+      "title": "TabPFN and TabICL vs. tuned XGBoost: the model that doesn't train won 14/14",
+      "url": "https://efraingaray.com/en/blog/tabpfn-vs-xgboost/",
+      "domain": "efraingaray.com",
+      "published_at": "2026-09-28T02:27:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49872864\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "02e70ea0-4dd0-4ab7-b027-db4007f7afda",
+      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "url": "https://github.com/dashersw/coyopedal",
+      "domain": "github.com",
+      "published_at": "2026-09-26T02:24:50Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49852600\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "83d89666-4c64-42a8-9b0c-fce3584ae10e",
+      "title": "Deterministic Concurrency [video]",
+      "url": "https://www.youtube.com/watch?v=25x0UuSCKuU",
+      "domain": "youtube.com",
+      "published_at": "2026-09-26T00:14:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49851795\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c0d8098f-6b33-46ee-8116-d7ca6a9ed251",
+      "title": "Research finds 485 chemicals in US pesticide products linked to breast cancer",
+      "url": "https://www.theguardian.com/us-news/2026/sep/26/breast-cancer-us-pesticide-products",
+      "domain": "theguardian.com",
+      "published_at": "2026-09-28T01:27:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Research finds 485 chemicals in US pesticide products linked to breast cancer. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5b85a7f1-8f62-40c1-9f90-20717ff5e257",
       "title": "Self-Hosting on the Dark Web",
       "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
@@ -2017,120 +2131,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "4c916574-fbb4-44cf-82a7-eb8d5c98ef49",
-      "title": "Show HN: Make math automatic with Mathy",
-      "url": "https://gmays.com/making-math-automatic-with-mathy/",
-      "domain": "gmays.com",
-      "published_at": "2026-09-21T14:49:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49788014\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7e08e849-4e69-41d7-b61f-5af7c29d4d5e",
-      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
-      "url": "https://mouse.dev/blog/muse-special/",
-      "domain": "mouse.dev",
-      "published_at": "2026-09-25T18:18:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49848095\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c70fe15d-d372-46bb-a7a3-d66c7910607d",
-      "title": "Rising sea destroys homes, erases beaches in California",
-      "url": "https://www.reuters.com/business/environment/rising-sea-destroys-homes-erases-beaches-california-is-worse-come-2026-09-25/",
-      "domain": "reuters.com",
-      "published_at": "2026-09-25T20:13:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49849312\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "48b8fee4-885e-4c87-812c-0810233cba95",
-      "title": "How video games inspire great UX (2019)",
-      "url": "https://jenson.org/games/",
-      "domain": "jenson.org",
-      "published_at": "2026-09-20T16:00:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49777121\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ba53100a-1ba4-4231-b485-f2d36c295827",
-      "title": "What happens when you analyze your favorite college football team like the CIA?",
-      "url": "https://www.cultivatelabs.com/posts/what-happens-when-you-analyze-college-football-like-the-cia",
-      "domain": "cultivatelabs.com",
-      "published_at": "2026-09-25T13:47:21Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49844642\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "90172cde-990f-4567-97fb-30986544881e",
-      "title": "Letterboxd Is Up for Sale, and A24, Sony and the New York Times Are Bidding",
-      "url": "https://www.worldofreel.com/blog/2026/9/24/letterboxd-is-up-for-sale-and-a24-sony-and-the-new-york-times-bidding",
-      "domain": "worldofreel.com",
-      "published_at": "2026-09-25T19:26:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49848819\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8e0da039-b10f-4922-baad-fac936ffd0c8",
-      "title": "A History of the Chiming Machines at Gloucester's Cathedral and Churches (2017) [pdf]",
-      "url": "https://www.bgas.org.uk/tbgas_bg/v135/251-268-MacKechnie-Jarvis.pdf",
-      "domain": "bgas.org.uk",
-      "published_at": "2026-09-20T16:48:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49777515\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7c16fd41-64a9-445b-9d49-0e971d514bd6",
-      "title": "Typst makes big strides",
-      "url": "https://lwn.net/Articles/1092993/",
-      "domain": "lwn.net",
-      "published_at": "2026-09-25T16:25:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49846640\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-09-28T00:57:07.903247523Z",
+  "last_updated": "2026-09-28T06:12:31.339937996Z",
   "total_count": 150
 }
