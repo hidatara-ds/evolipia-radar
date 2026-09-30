@@ -1,6 +1,105 @@
 {
   "items": [
     {
+      "id": "00ffdce9-f27f-4805-bee0-c1571aeabd3e",
+      "title": "Solving Factorio Quality",
+      "url": "https://exyr.org/2026/solving-factorio-quality/",
+      "domain": "exyr.org",
+      "published_at": "2026-09-29T02:27:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49887343\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e078f7c4-ae60-43fe-a781-67ac6d06d6d0",
+      "title": "RSS Feeds for Last.fm",
+      "url": "https://lfm.xiffy.nl/",
+      "domain": "lfm.xiffy.nl",
+      "published_at": "2026-09-30T03:00:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49903862\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "41668269-0be0-4bf8-9722-1a98e53f6892",
+      "title": "Testing WebGPU data layouts with Facet",
+      "url": "https://www.mattkeeter.com/blog/2026-08-23-wgpu-facet/",
+      "domain": "mattkeeter.com",
+      "published_at": "2026-09-28T20:28:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49883913\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0b4dca9a-68dd-480b-899a-bc5a1c030f23",
+      "title": "NASA asked several former SR-71A staffers to help secret restart",
+      "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
+      "domain": "aviationweek.com",
+      "published_at": "2026-09-29T10:10:20Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49890733\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "726126ff-d80b-4239-b566-eff6a122dec4",
+      "title": "PSSA: A non-transformer language model written from scratch in Rust",
+      "url": "https://github.com/Sparticle62ops/pssa",
+      "domain": "github.com",
+      "published_at": "2026-09-30T03:19:54Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49903993\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ab7cfff7-7b22-4a38-9977-87db264b9df3",
+      "title": "Responsible Release of AI-Generated Mathematics",
+      "url": "https://agmai.org/general-sep29/",
+      "domain": "agmai.org",
+      "published_at": "2026-09-30T02:36:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49903713\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f3ba7f33-04f5-472c-bb74-de3322123fe6",
+      "title": "NRC issues first U.S. construction permit for a BWRX-300 small modular reactor",
+      "url": "https://www.gevernova.com/news/press-releases/nrc-issues-first-us-construction-permit-bwrx-300-small-modular-reactor-tva-clinch-river",
+      "domain": "gevernova.com",
+      "published_at": "2026-09-29T23:03:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49902019\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a8924a70-1b81-41eb-a289-0bc5a34ddd6f",
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "url": "https://github.com/ninjahawk/livenerf",
@@ -2029,110 +2128,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "1ad759fd-86de-4067-aff1-d77b0afbea83",
-      "title": "Walgit: A Git server that is one binary in front of an object store",
-      "url": "https://github.com/rgodha24/walgithub",
-      "domain": "github.com",
-      "published_at": "2026-09-26T03:09:50Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49852832\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "a6cd5416-fd7e-438f-af45-6518c1777d50",
-      "title": "The Cartesian Hand: In-Hand Manipulation with All-Linear Fingers",
-      "url": "https://generalroboticslab.com/cartesian_handv1",
-      "domain": "generalroboticslab.com",
-      "published_at": "2026-09-26T05:27:39Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49853476\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "robotics"
-      ]
-    },
-    {
-      "id": "d0eb8f72-2502-4226-b8ff-861b5888838c",
-      "title": "There are no \"rogue\" AI agents",
-      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-      "domain": "eoinhiggins.substack.com",
-      "published_at": "2026-09-27T16:19:46Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49868083\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "ebaf37cc-09ab-4bf8-b204-e85c4e9de7f5",
-      "title": "Kicki: A DECsystem1060 – Interim Computer Museum",
-      "url": "https://icm.museum/blog/?p=207",
-      "domain": "icm.museum",
-      "published_at": "2026-09-25T22:11:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49850613\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "97d4f24d-b351-4185-ba80-98d23303af6a",
-      "title": "Show HN: Building a Markdown editor for Mac, iOS and web",
-      "url": "https://www.markdown.beauty/",
-      "domain": "markdown.beauty",
-      "published_at": "2026-09-27T13:44:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49866597\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "41c06731-554b-461e-915d-289c67860724",
-      "title": "Video CDs Break Windows Explorer",
-      "url": "https://clydesnotes.blogspot.com/2026/08/video-cds-break-windows-explorer.html",
-      "domain": "clydesnotes.blogspot.com",
-      "published_at": "2026-09-26T19:30:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49859759\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a8728ee7-23ae-477d-9e63-36efb847f0d0",
-      "title": "Faster prompt lookup drafting in llama.cpp",
-      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
-      "domain": "jadidbourbaki.github.io",
-      "published_at": "2026-09-26T19:57:24Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49859982\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-09-30T01:42:54.210360801Z",
+  "last_updated": "2026-09-30T07:38:11.916557644Z",
   "total_count": 150
 }
