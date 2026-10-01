@@ -1,6 +1,249 @@
 {
   "items": [
     {
+      "id": "10a782e9-817a-4a22-8294-7ad214ce4c20",
+      "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
+      "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-10-01T21:08:11Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "73ab0b21-80a4-46d0-bb53-368ad8b0011b",
+      "title": "ChatGPT can now virtually try on clothes for you",
+      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-10-01T19:21:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f477a96b-a17b-48ca-b372-cc12db1718da",
+      "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+      "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-10-01T19:18:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Google launched its first advanced chip into orbit to pave the way for space data centers. ",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d333b87e-3077-4ad4-a300-d0044927ad13",
+      "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-10-01T18:14:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c718c7f8-9027-4c52-8250-0c8b40dc4ff8",
+      "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+      "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-10-01T17:50:19Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Opus 5.5’s biggest tell is the word “dependable,” which pops up 23 times more often than in human samples.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e552cc1e-7baf-4a1b-acbd-1a07a6db2829",
+      "title": "Amazon releases its own Jev clone as decision models flood the web",
+      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-10-01T16:49:22Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Amazon Web Services' Strand Labs has released the latest Jevalike decision model, Strands Decider 2B.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ee8702d5-d5f5-4868-b04f-b7ad9d5d0075",
+      "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-10-01T16:44:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Shopify’s new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick, while watching the changes happen in real time.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "31fdeb2f-bae5-458d-8fae-bc5e834e3bb5",
+      "title": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "domain": "earendil.com",
+      "published_at": "2026-10-01T19:33:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Pi 1.0. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5c384bb8-ea98-4d1e-9e0c-15ded9c9e5ee",
+      "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "domain": "blog.cloudflare.com",
+      "published_at": "2026-10-01T16:18:57Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "Clef: Open-source decision models, and new RL fine-tuning platform. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "a54998b1-e248-4bea-87de-89b2c0ebeb16",
+      "title": "RIP, vector database",
+      "url": "https://turbopuffer.com/blog/rip-vector-database",
+      "domain": "turbopuffer.com",
+      "published_at": "2026-10-01T16:01:56Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "RIP, vector database. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "04fcf8ba-5bbe-4f8f-9a23-9d7339506b71",
+      "title": "Red Hat being phased out of existence?",
+      "url": "https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml",
+      "domain": "techrights.org",
+      "published_at": "2026-10-01T15:33:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Red Hat being phased out of existence?. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8aa697be-215c-4f5f-9e89-30d29e0b0aba",
+      "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+      "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+      "domain": "rtl-sdr.com",
+      "published_at": "2026-10-01T15:07:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c42cf3b1-0efe-42b9-a4df-fb7a676206d1",
+      "title": "RacketCon Is Saturday",
+      "url": "https://con.racket-lang.org/",
+      "domain": "con.racket-lang.org",
+      "published_at": "2026-10-01T14:58:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "RacketCon Is Saturday. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "64efd086-ffd2-46d6-a0d7-c3662eeae87a",
+      "title": "Context Language Models",
+      "url": "https://arxiv.org/abs/2609.37725",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-01T14:51:33Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "Context Language Models. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "65605420-afdf-4622-9758-5ad4883eeb57",
+      "title": "Pi Durable",
+      "url": "https://earendil.com/posts/pi-durable/",
+      "domain": "earendil.com",
+      "published_at": "2026-10-01T19:24:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Pi Durable. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "40b53172-b243-4ee3-a4ca-f17d059ecb76",
+      "title": "Bez: Generating a browser engine from specs and tests",
+      "url": "https://tangled.org/burrito.space/bez",
+      "domain": "tangled.org",
+      "published_at": "2026-10-01T18:08:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Bez: Generating a browser engine from specs and tests. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5b97730d-cef5-4479-b712-5f9e7b1df357",
+      "title": "Identity Management for Agentic AI [pdf] (2025)",
+      "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+      "domain": "openid.net",
+      "published_at": "2026-10-01T15:11:10Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "Identity Management for Agentic AI [pdf] (2025). Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
       "id": "e7c7c12e-8085-42c1-b746-6778d13a22b8",
       "title": "Brian Chesky interview: AI agents need their own operating system",
       "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
@@ -1899,249 +2142,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "36918bb5-36b3-4d4c-bdf7-8e2af34adb1f",
-      "title": "Show HN: Jevstiller – Distill Jev into a local model, with a disagreement bound",
-      "url": "https://jevstiller.pages.dev/posts/the-guarantee/",
-      "domain": "jevstiller.pages.dev",
-      "published_at": "2026-09-29T12:05:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49891769\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3abada70-468b-434e-b4ec-083202000df9",
-      "title": "Google ending ChromeOS support two years early",
-      "url": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
-      "domain": "theregister.com",
-      "published_at": "2026-09-29T14:12:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49893653\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "376df569-b614-4169-8d88-8f755ea6f389",
-      "title": "macOS Golden Gate Is a Buggy Mess",
-      "url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
-      "domain": "squareorbits.com",
-      "published_at": "2026-09-29T14:32:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "macOS Golden Gate Is a Buggy Mess. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "94e74379-5490-4978-a101-65b80797d9b6",
-      "title": "You Are No Longer Invited to Dinner",
-      "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
-      "domain": "derekthompson.org",
-      "published_at": "2026-09-29T11:14:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49891295\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "cbc7f539-0ff8-4072-8230-d3df4a1e0429",
-      "title": "Delhi Cut Electricity Loss from 50 to 5 Percent",
-      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "domain": "spectrum.ieee.org",
-      "published_at": "2026-09-29T12:43:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49892245\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "943cd52a-b53a-4afd-97e2-feb51ace407e",
-      "title": "AI companies leak data to advertisers [pdf]",
-      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "domain": "jorgegarciaherrero.com",
-      "published_at": "2026-09-29T09:03:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49890226\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fdc70286-9e4b-47b9-8313-ac92fb9572b0",
-      "title": "Jeeves. Reasoning improves Jev-like decision models",
-      "url": "https://github.com/PostHog/jeeves",
-      "domain": "github.com",
-      "published_at": "2026-09-29T11:13:54Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49891290\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "762585a0-a035-47bf-ad56-a9aac4586722",
-      "title": "500k facial scans at UK stations yield no arrests, 1 false positive",
-      "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
-      "domain": "theguardian.com",
-      "published_at": "2026-09-29T11:35:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49891480\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e7a28746-ecaa-479f-8da2-c07c3d06a1e6",
-      "title": "Using any C++ library in Godot",
-      "url": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
-      "domain": "blog.conan.io",
-      "published_at": "2026-09-29T08:40:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49890051\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "734b1aa4-5416-46de-aaae-a30141da2903",
-      "title": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
-      "url": "https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027",
-      "domain": "tomshardware.com",
-      "published_at": "2026-09-29T11:44:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49891550\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9e1b5593-1759-4f4a-b162-95a793506567",
-      "title": "Without the Hot Air",
-      "url": "https://www.withouthotair.com/",
-      "domain": "withouthotair.com",
-      "published_at": "2026-09-29T12:38:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49892175\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "99f8d28e-a1ea-4268-ae2e-7e4481b6537d",
-      "title": "Booted up in 1993, this server still runs – but not for much longer (2017)",
-      "url": "https://www.computerworld.com/article/1673071/booted-up-in-1993-this-server-still-runs-but-not-for-much-longer-2.html",
-      "domain": "computerworld.com",
-      "published_at": "2026-09-27T20:13:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49870376\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f7801279-5fdc-4599-8003-cb2ed68310bd",
-      "title": "The systems that no one will test",
-      "url": "https://blog.christianperone.com/2026/09/the-systems-that-no-one-will-test/",
-      "domain": "blog.christianperone.com",
-      "published_at": "2026-09-28T10:51:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49876052\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7aabcfe9-7311-457a-b938-9d06b378962b",
-      "title": "Show HN: Raven – The harness of harnesses, built for RSI",
-      "url": "https://github.com/EverMind-AI/Raven",
-      "domain": "github.com",
-      "published_at": "2026-09-29T09:58:24Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49890647\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "bed4459a-d31a-4a9b-9194-f8e18147b2f5",
-      "title": "Startup Nights 2026 is comming up on 5-6 Nov. in Switzerland",
-      "url": "https://www.startup-nights.ch/event/",
-      "domain": "startup-nights.ch",
-      "published_at": "2026-09-29T07:49:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49889633\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d47bbfba-fe82-4b84-90fb-dfef89f36b4f",
-      "title": "Software occlusion culling in Block Game",
-      "url": "https://enikofox.com/posts/software-rendered-occlusion-culling-in-block-game/",
-      "domain": "enikofox.com",
-      "published_at": "2026-09-27T14:07:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49866783\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "29ec69cc-6a70-44f1-81d6-6045e0c37018",
-      "title": "Four CHI '26 papers I wish I wrote",
-      "url": "https://countingfromzero.blog/2026/04/24/four-chi-26-papers-i-wish-i-wrote/",
-      "domain": "countingfromzero.blog",
-      "published_at": "2026-09-27T05:23:37Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49863594\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
     }
   ],
-  "last_updated": "2026-10-01T16:34:00.479622358Z",
+  "last_updated": "2026-10-01T21:29:12.385668337Z",
   "total_count": 150
 }
