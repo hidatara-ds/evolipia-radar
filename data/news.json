@@ -1,6 +1,157 @@
 {
   "items": [
     {
+      "id": "e34811dd-9f2a-4787-ac50-a008b54e1809",
+      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+      "url": "https://arxiv.org/abs/2610.00010",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-02T00:00:00-04:00",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "arXiv:2610.00010v1 Announce Type: new \nAbstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by tas...",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "d913dc73-07bb-48a3-836f-d99e21f57cf6",
+      "title": "When Do Causal World Models Help Modular LLM Agents",
+      "url": "https://arxiv.org/abs/2610.00012",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-02T00:00:00-04:00",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "arXiv:2610.00012v1 Announce Type: new \nAbstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change wh...",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "7eb568a4-b647-4cc0-9283-24bdaae39065",
+      "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+      "url": "https://arxiv.org/abs/2610.00015",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-02T00:00:00-04:00",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "arXiv:2610.00015v1 Announce Type: new \nAbstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are ...",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "ec2ad112-6446-410a-936a-bfd8cdbfe32b",
+      "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
+      "url": "https://arxiv.org/abs/2610.00018",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-02T00:00:00-04:00",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "arXiv:2610.00018v1 Announce Type: new \nAbstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better ...",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "fad7e707-95ee-4292-96d0-521f16b7df91",
+      "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+      "url": "https://arxiv.org/abs/2610.00025",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-02T00:00:00-04:00",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "arXiv:2610.00025v1 Announce Type: new \nAbstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-a...",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "1c89e6da-3e5a-40cc-847d-164dba85f94e",
+      "title": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
+      "url": "https://arxiv.org/abs/2610.00047",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-02T00:00:00-04:00",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "arXiv:2610.00047v1 Announce Type: new \nAbstract: Diversity collapse in parallel chain-of-thought has motivated inference-time interventions built on a natural design: when a process reward model (P...",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "a37b097e-5db2-43f3-b33b-16178dd5502b",
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "url": "https://lwn.net/Articles/1097401/",
+      "domain": "lwn.net",
+      "published_at": "2026-10-01T23:10:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Several vulnerabilities have been discovered in the Linux kernel. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "39061d9f-bb7d-4bd6-bc26-ef24ce672523",
+      "title": "DeepSeek Harness",
+      "url": "https://www.deepseek.com/en/harness/",
+      "domain": "deepseek.com",
+      "published_at": "2026-10-02T03:11:20Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "DeepSeek Harness. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "36a56835-1d27-430e-814b-675c96e7bd85",
+      "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+      "domain": "resobscura.substack.com",
+      "published_at": "2026-10-01T20:48:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Using Opus 5.5 to discover a new eyewitness record of the dodo. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8a6c8aed-3211-4157-8aed-e6460f6ed55e",
+      "title": "Frog and Toad and the Increasingly Capable Machines",
+      "url": "https://www.frogandtoad.ai/",
+      "domain": "frogandtoad.ai",
+      "published_at": "2026-10-01T22:23:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Frog and Toad and the Increasingly Capable Machines. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "580b861a-74c8-43d5-b663-33d8cc5bbd62",
       "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
       "url": "https://blog.gitbutler.com/git-3-sha-256",
@@ -1999,151 +2150,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "8f4bc62d-1b97-4d11-8f8c-7b6c08208dc8",
-      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
-      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-      "domain": "anthropic.com",
-      "published_at": "2026-09-29T17:31:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "GLM-5.3 and the spread of advanced cyber capabilities. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a642241b-2147-4084-bcbf-b1ab7f02bd7a",
-      "title": "Nicholas Polson has authored 258 academic papers in 2026 so far",
-      "url": "https://statmodeling.stat.columbia.edu/2026/08/27/258/",
-      "domain": "statmodeling.stat.columbia.edu",
-      "published_at": "2026-09-29T19:15:58Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "Nicholas Polson has authored 258 academic papers in 2026 so far. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "e6e6a8f9-a50a-4e6c-be31-9b4a3ea711b4",
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "domain": "openai.com",
-      "published_at": "2026-09-29T17:06:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49896586\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "01ecd726-1659-4c23-8fe7-8409b4b0ffa7",
-      "title": "Dots: Always-on agents",
-      "url": "https://openai.com/index/introducing-dots/",
-      "domain": "openai.com",
-      "published_at": "2026-09-29T17:07:57Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49896604\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "f40c9b53-5681-4839-bfdc-e77e3b153180",
-      "title": "Tcl/Tk 9.1 Released",
-      "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
-      "domain": "tcl-lang.org",
-      "published_at": "2026-09-29T17:13:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49896712\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "32998873-c57d-41fe-8fa1-55d502c7d8fc",
-      "title": "DraftKings Is Using AI to Behaviorally Target Chronic Gamblers",
-      "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
-      "domain": "eff.org",
-      "published_at": "2026-09-29T16:30:48Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49896050\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3c354911-3941-49db-86ad-94902ee0685a",
-      "title": "New PlayStation 5 Console Jailbreak Released",
-      "url": "https://github.com/ntfargo/Relapse-Exploit",
-      "domain": "github.com",
-      "published_at": "2026-09-29T15:44:41Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49895304\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "c5f343d6-a02b-4176-891f-17857e4942e4",
-      "title": "NAND-16: a computer built from 277,248 NAND gates",
-      "url": "https://somethingbig.ai/computer",
-      "domain": "somethingbig.ai",
-      "published_at": "2026-09-27T21:26:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49871018\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a33a5c64-c55c-426b-ab94-11ba392fcabc",
-      "title": "Virus Stole a Human Gene and Won't Let Go of It",
-      "url": "https://www.nytimes.com/2026/09/28/science/virus-molluscum-human-gene.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-09-28T20:07:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49883635\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0e390039-ecb9-48b4-8a19-64be0d87e354",
-      "title": "Walking Men",
-      "url": "https://bookofjoe2.blogspot.com/2026/09/walking-men.html",
-      "domain": "bookofjoe2.blogspot.com",
-      "published_at": "2026-09-28T14:00:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49878093\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-02T00:59:43.12479222Z",
+  "last_updated": "2026-10-02T06:45:05.499493688Z",
   "total_count": 150
 }
