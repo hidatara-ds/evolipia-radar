@@ -1,6 +1,134 @@
 {
   "items": [
     {
+      "id": "5a8ad531-ea41-430c-ad21-ce1b245e8538",
+      "title": "The Forgetful CPU (Linux on M4)",
+      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+      "domain": "yuka.dev",
+      "published_at": "2026-10-02T14:22:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49933869\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2f28cd46-025c-4edc-8dd8-5de362c290e9",
+      "title": "Things That Apparently Cause Cancer",
+      "url": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer",
+      "domain": "breakthroughjournal.org",
+      "published_at": "2026-10-03T00:23:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49940219\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "94533afd-26d8-4105-ba10-0eaa04384950",
+      "title": "Updates to Full Disk Access in macOS",
+      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "domain": "developer.apple.com",
+      "published_at": "2026-10-02T19:37:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49937631\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "218fbd23-3d01-4f30-8503-1f2e927c6a47",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "domain": "github.com",
+      "published_at": "2026-10-02T20:00:15Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49937916\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "e056a780-52b6-44a3-9e9e-382dda300078",
+      "title": "Every SaaS business will become a harness around a model",
+      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "domain": "blog.sshh.io",
+      "published_at": "2026-10-02T21:06:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49938616\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "984fd48a-190e-453e-8103-9dcc67c38975",
+      "title": "Our Project Suncatcher prototype satellite is in orbit",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+      "domain": "blog.google",
+      "published_at": "2026-10-02T11:13:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49932191\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "da635b2d-211c-4f3a-a91c-93dd2bd0cad8",
+      "title": "Blogging with Gleam, Org-Mode and Pandoc",
+      "url": "https://byzantine-systems.github.io/blogging-with-gleam-org-mode-and-pandoc/",
+      "domain": "byzantine-systems.github.io",
+      "published_at": "2026-10-02T11:34:28Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49932340\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9f7caafc-bfca-4733-a63c-6cdbd49ec032",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://allenai.org/blog/astabrief",
+      "domain": "allenai.org",
+      "published_at": "2026-10-02T21:25:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49938783\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "889f00cc-0b6a-4301-b453-8304be04a0e9",
+      "title": "The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
+      "url": "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216",
+      "domain": "onlineonly.christies.com",
+      "published_at": "2026-10-02T12:46:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49932911\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "d5fe0792-3b31-4c18-ae95-bb32bb1e312b",
       "title": "Sean Parker is rebuilding Stability AI around music",
       "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
@@ -2019,135 +2147,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "5ecbdfad-384e-49e4-a97d-e34df1e4314f",
-      "title": "A brief history of the Bloomberg terminal",
-      "url": "https://spectrum.ieee.org/bloomberg-terminal",
-      "domain": "spectrum.ieee.org",
-      "published_at": "2026-09-30T14:34:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49909583\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5c271e04-5a87-4cd5-9754-72d49d78815d",
-      "title": "I Could've Accessed 17T Microsoft Records",
-      "url": "https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records",
-      "domain": "blog.faav.net",
-      "published_at": "2026-09-28T20:32:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49883970\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3f6f4aa4-3e16-48ba-9286-abaf78d34ce7",
-      "title": "What TLA+ can and can't check",
-      "url": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
-      "domain": "buttondown.com",
-      "published_at": "2026-09-30T13:57:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49909056\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "32cfb648-ec4d-4d79-b00b-f33c86251373",
-      "title": "Moist-Electric Wallpaper for Indoor Energy Harvesting and Humidity Management",
-      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603",
-      "domain": "advanced.onlinelibrary.wiley.com",
-      "published_at": "2026-09-30T15:54:59Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49910613\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "a9f64bde-8bff-4372-88db-6fa4a38564c8",
-      "title": "Burning Man Death Rates – A Short Lesson in Statistics",
-      "url": "https://ihavenapkinthoughts.substack.com/p/burning-man-death-rates-a-short-lesson",
-      "domain": "ihavenapkinthoughts.substack.com",
-      "published_at": "2026-09-28T18:57:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49882754\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5e9ea8ad-413c-4cab-ac2e-5c65aace37c3",
-      "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
-      "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
-      "domain": "netlify.com",
-      "published_at": "2026-09-30T18:17:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49912444\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1ccea370-2c71-4c1f-bfd7-7f1db77fbd8d",
-      "title": "Bild AI (YC W25) Is Hiring a Founding Product Engineer",
-      "url": "https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer",
-      "domain": "ycombinator.com",
-      "published_at": "2026-09-30T17:00:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49911531\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b3f5845c-299a-40c5-b61f-ce0e6ebfd6ad",
-      "title": "The last time my family was replaced by technology",
-      "url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
-      "domain": "manuel.darcemont.fr",
-      "published_at": "2026-09-30T13:06:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49908394\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "49e4aeb7-277e-459c-8605-0eae1bf96d2b",
-      "title": "SDF Public Access Unix System ... est. 1987",
-      "url": "https://sdf.org/",
-      "domain": "sdf.org",
-      "published_at": "2026-09-30T14:36:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49909610\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-02T22:38:54.344705419Z",
+  "last_updated": "2026-10-03T01:30:42.733912019Z",
   "total_count": 150
 }
