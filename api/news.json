@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "id": "75230a34-16cc-458c-a96d-b6270782cc01",
+      "title": "cp: -r or -R?",
+      "url": "https://movq.de/blog/postings/2026-09-30/0/POSTING-en.html",
+      "domain": "movq.de",
+      "published_at": "2026-09-30T15:44:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49910465\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e7fefff0-d4a6-43d7-a53a-ee6b00f9e95b",
+      "title": "GitHub's new dashboard experience now the default",
+      "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+      "domain": "github.blog",
+      "published_at": "2026-10-03T09:59:01Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49942818\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "3d33ee50-a07e-42d9-8103-ca291f0b8cef",
+      "title": "Great Question (YC W21) Is Hiring Product Engineers in Canada (Remote)",
+      "url": "https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack",
+      "domain": "ycombinator.com",
+      "published_at": "2026-10-03T12:02:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49943524\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c875c025-1228-49e2-8ae7-62f4a9b119c3",
+      "title": "An Update on Orion for Linux and Windows",
+      "url": "https://blog.kagi.com/update-orion-linux-windows",
+      "domain": "blog.kagi.com",
+      "published_at": "2026-10-03T04:53:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49941447\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "684b5d9c-f495-4097-8688-7a2adc3174c4",
+      "title": "Show HN: Offrun – manage every coding agent from one workspace",
+      "url": "https://offrun.dev/",
+      "domain": "offrun.dev",
+      "published_at": "2026-10-03T08:40:17Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49942434\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "4dffe989-71c1-4804-9fed-e54669153fcf",
+      "title": "Scientists invent underwater umbrellas to protect coral reefs",
+      "url": "https://gizmodo.com/scientists-invent-underwater-umbrellas-to-protect-coral-reefs-and-it-appears-to-be-working-2000819444",
+      "domain": "gizmodo.com",
+      "published_at": "2026-10-02T09:57:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49931725\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "0863d445-7d2c-4bc7-831b-b78d9d7c23b5",
       "title": "Newgrounds.com – A community of games, music, and art",
       "url": "https://www.newgrounds.com/",
@@ -2060,93 +2146,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "b10de25e-ddc2-446a-b791-0f89192005df",
-      "title": "Halfspace experimental IDE for solid modeling with distance fields",
-      "url": "https://www.mattkeeter.com/projects/halfspace/",
-      "domain": "mattkeeter.com",
-      "published_at": "2026-09-30T19:44:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49913350\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "67a00e0f-b545-40af-9256-ec5832ea2a52",
-      "title": "Doing a Machine Learning PhD While Working in Japan",
-      "url": "https://www.tokyodev.com/articles/doing-a-machine-learning-phd-while-working-in-japan",
-      "domain": "tokyodev.com",
-      "published_at": "2026-09-30T07:33:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49905644\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "48398161-cf69-485b-808e-2e76f7ba976f",
-      "title": "Dear Software Makers",
-      "url": "https://blog.jim-nielsen.com/2026/dear-software-makers/",
-      "domain": "blog.jim-nielsen.com",
-      "published_at": "2026-09-30T19:45:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49913364\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "afefba6c-b15f-409a-ab7e-4db3ff1fe226",
-      "title": "Coltrane's Tone Circle",
-      "url": "https://jtomschroeder.com/blog/tone-circle/",
-      "domain": "jtomschroeder.com",
-      "published_at": "2026-09-30T14:59:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49909908\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7b410f50-7026-4d0d-a34b-aa7ff1c85481",
-      "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
-      "url": "https://www.chompiclub.com/opensource",
-      "domain": "chompiclub.com",
-      "published_at": "2026-09-30T17:42:13Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49912048\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "882cc611-334a-40c7-91cf-b0e95423247b",
-      "title": "Functional Ultrasound Imaging (fUSI) from scratch",
-      "url": "https://www.neuroai.science/p/functional-ultrasound-imaging-from",
-      "domain": "neuroai.science",
-      "published_at": "2026-09-30T20:06:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49913604\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-03T07:12:24.879608821Z",
+  "last_updated": "2026-10-03T12:38:54.198693317Z",
   "total_count": 150
 }
