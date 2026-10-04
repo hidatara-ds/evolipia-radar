@@ -1,6 +1,104 @@
 {
   "items": [
     {
+      "id": "4d880b70-ec7e-4e6b-8fba-70ee24aa33b9",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "domain": "simonwillison.net",
+      "published_at": "2026-10-04T00:20:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49949235\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7d7b3eac-2efb-443d-8dce-5479935fde37",
+      "title": "Bob Cringely Has Died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-10-04T00:50:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49949438\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5f16b30a-bb6f-4c58-9a33-10cb4ce8d9e2",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "domain": "theguardian.com",
+      "published_at": "2026-10-03T22:18:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49948332\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "67d882da-2dfd-409d-9f7c-c402bead653c",
+      "title": "Math's pedagogical curse – Grant Sanderson [video]",
+      "url": "https://www.youtube.com/watch?v=UOuxo6SA8Uc",
+      "domain": "youtube.com",
+      "published_at": "2026-10-03T01:11:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49940482\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "da114d12-7724-4363-991d-ae80cc268182",
+      "title": "Your body of work thinks back at you",
+      "url": "https://photoni.st/index.php/2026/09/25/your-body-of-work-thinks-back-at-you/",
+      "domain": "photoni.st",
+      "published_at": "2026-09-30T13:20:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49908570\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ef857cc4-480a-4d09-88d3-14df8309ccc0",
+      "title": "Apple's \"Clean Design\" Is Stupidity When It Comes to Hiding Fire Extinguishers",
+      "url": "https://www.gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
+      "domain": "gadgetreview.com",
+      "published_at": "2026-10-04T00:09:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49949152\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b866c9f1-0d71-47ab-b7ec-5d57f55e6afa",
+      "title": "How to hack time, with C2PA",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
+      "domain": "da.vidbuchanan.co.uk",
+      "published_at": "2026-10-03T18:52:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49946707\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "cf3da6b0-04f5-4cb5-a360-de5c60121a1e",
       "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
       "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
@@ -2036,109 +2134,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "03c94173-ed4c-4d83-a37c-c09f9e536f92",
-      "title": "StreetComplete on iOS is now in public beta",
-      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
-      "domain": "github.com",
-      "published_at": "2026-10-01T10:59:57Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "StreetComplete on iOS is now in public beta. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "b7aa47ff-2ff2-424d-bb2e-bcfee6efabd4",
-      "title": "Google breaks promise to provide 10 years of updates to Chromebooks",
-      "url": "https://www.osnews.com/story/146052/google-breaks-promise-to-provide-10-years-of-updates-to-chromebooks/",
-      "domain": "osnews.com",
-      "published_at": "2026-10-01T12:55:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Google breaks promise to provide 10 years of updates to Chromebooks. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1144d08a-846e-4c9a-b5f2-6b806d4d700d",
-      "title": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
-      "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-10-01T13:05:51Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3ba16cdc-ac9f-4bce-a776-8afa5c43b954",
-      "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
-      "url": "https://github.com/maanHimself/OpenDLSS-NR",
-      "domain": "github.com",
-      "published_at": "2026-09-30T08:43:21Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "f9a9d3e2-169c-4f61-b80e-bd78e1841734",
-      "title": "Book of Shapes – Collection of minimal, generative and customizable SVG-patterns",
-      "url": "https://bookofshapes.com/",
-      "domain": "bookofshapes.com",
-      "published_at": "2026-09-29T14:56:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Book of Shapes – Collection of minimal, generative and customizable SVG-patterns. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "52e39987-b4e0-462a-91c2-344a3c3bd6fb",
-      "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
-      "url": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
-      "domain": "techpowerup.com",
-      "published_at": "2026-10-01T12:48:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d7200d37-c5ad-410e-ada6-61de3cd1bf79",
-      "title": "How to speed up the Rust compiler in September 2026",
-      "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
-      "domain": "nnethercote.github.io",
-      "published_at": "2026-10-01T12:44:38Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "How to speed up the Rust compiler in September 2026. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-03T22:30:10.815412729Z",
+  "last_updated": "2026-10-04T01:51:29.425524938Z",
   "total_count": 150
 }
