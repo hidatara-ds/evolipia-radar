@@ -1,6 +1,150 @@
 {
   "items": [
     {
+      "id": "3fe8c956-af56-49b0-931b-a858305c777b",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "domain": "github.com",
+      "published_at": "2026-10-04T12:51:53Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49953495\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "3afcba64-4bd8-4d43-a425-c2dea3c765b6",
+      "title": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
+      "url": "https://gamehistory.org/5k-magazines/",
+      "domain": "gamehistory.org",
+      "published_at": "2026-10-04T09:07:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49952029\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9cd0276a-b39d-441c-8f69-e803b5e43ba8",
+      "title": "Glashütte Trash Clock – A 30-minute pendulum clock made from trash",
+      "url": "https://niklasroy.com/gtc/",
+      "domain": "niklasroy.com",
+      "published_at": "2026-10-02T06:33:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49930439\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1ce07f97-9017-47e6-a07c-cb7a403d8d38",
+      "title": "gpuvis: GPU Trace Visualizer",
+      "url": "https://github.com/mikesart/gpuvis",
+      "domain": "github.com",
+      "published_at": "2026-10-02T16:04:48Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49935097\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "e398c7ab-4e56-417c-a22c-94bf1729dc6e",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "domain": "github.com",
+      "published_at": "2026-10-04T09:24:52Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49952111\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "6ae4f7cc-3c41-43bb-ad2d-a1459318abad",
+      "title": "Rejection Sensitivity in Gifted and Twice-Exceptional Children",
+      "url": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+      "domain": "teachyourkids.substack.com",
+      "published_at": "2026-10-04T11:58:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49953116\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "08f667fe-28d9-4aea-a73c-8f69f9f6c77d",
+      "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "url": "https://github.com/PowderworksCode/headstart",
+      "domain": "github.com",
+      "published_at": "2026-10-04T06:26:57Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49951218\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "dcc29695-d1a4-43cc-b8b3-d429b78836a8",
+      "title": "Religious scholars met with Anthropic",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-10-04T02:34:22Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49950052\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "76d23c72-9930-4ebd-b465-5b13a8f2b215",
+      "title": "Dirty Optimization Secrets (C for Playdate)",
+      "url": "https://devforum.play.date/t/dirty-optimization-secrets-c-for-playdate/23011",
+      "domain": "devforum.play.date",
+      "published_at": "2026-10-02T17:16:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49936017\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2ce0926b-0478-4c24-ad9f-29e91ffb49a0",
+      "title": "What Meta got right with Muse",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
+      "domain": "metedata.substack.com",
+      "published_at": "2026-10-03T18:23:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "What Meta got right with Muse. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "d9056f5c-3ef9-4d7c-b9aa-00e73be820b9",
       "title": "Why don't more developers \"use the platform\"?",
       "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
@@ -1989,151 +2133,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "c718c7f8-9027-4c52-8250-0c8b40dc4ff8",
-      "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
-      "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-01T17:50:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Opus 5.5’s biggest tell is the word “dependable,” which pops up 23 times more often than in human samples.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e552cc1e-7baf-4a1b-acbd-1a07a6db2829",
-      "title": "Amazon releases its own Jev clone as decision models flood the web",
-      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-01T16:49:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Amazon Web Services' Strand Labs has released the latest Jevalike decision model, Strands Decider 2B.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ee8702d5-d5f5-4868-b04f-b7ad9d5d0075",
-      "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
-      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-01T16:44:35Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Shopify’s new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick, while watching the changes happen in real time.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "31fdeb2f-bae5-458d-8fae-bc5e834e3bb5",
-      "title": "Pi 1.0",
-      "url": "https://earendil.com/posts/pi-1-0/",
-      "domain": "earendil.com",
-      "published_at": "2026-10-01T19:33:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Pi 1.0. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5c384bb8-ea98-4d1e-9e0c-15ded9c9e5ee",
-      "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "domain": "blog.cloudflare.com",
-      "published_at": "2026-10-01T16:18:57Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "Clef: Open-source decision models, and new RL fine-tuning platform. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "a54998b1-e248-4bea-87de-89b2c0ebeb16",
-      "title": "RIP, vector database",
-      "url": "https://turbopuffer.com/blog/rip-vector-database",
-      "domain": "turbopuffer.com",
-      "published_at": "2026-10-01T16:01:56Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "RIP, vector database. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "04fcf8ba-5bbe-4f8f-9a23-9d7339506b71",
-      "title": "Red Hat being phased out of existence?",
-      "url": "https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml",
-      "domain": "techrights.org",
-      "published_at": "2026-10-01T15:33:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Red Hat being phased out of existence?. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8aa697be-215c-4f5f-9e89-30d29e0b0aba",
-      "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
-      "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
-      "domain": "rtl-sdr.com",
-      "published_at": "2026-10-01T15:07:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c42cf3b1-0efe-42b9-a4df-fb7a676206d1",
-      "title": "RacketCon Is Saturday",
-      "url": "https://con.racket-lang.org/",
-      "domain": "con.racket-lang.org",
-      "published_at": "2026-10-01T14:58:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "RacketCon Is Saturday. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "64efd086-ffd2-46d6-a0d7-c3662eeae87a",
-      "title": "Context Language Models",
-      "url": "https://arxiv.org/abs/2609.37725",
-      "domain": "arxiv.org",
-      "published_at": "2026-10-01T14:51:33Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "Context Language Models. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
     }
   ],
-  "last_updated": "2026-10-04T07:31:45.064323968Z",
+  "last_updated": "2026-10-04T13:31:58.281414227Z",
   "total_count": 150
 }
