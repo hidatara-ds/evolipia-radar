@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "id": "898e261f-4bfe-4766-8885-0ec702647859",
+      "title": "What I learnt co-leading an AI Safety bootcamp for legal and governance practit",
+      "url": "https://www.lesswrong.com/posts/KtAug62dYRgAS8sqJ/what-i-learnt-co-leading-an-ai-safety-bootcamp-for-legal-and",
+      "domain": "lesswrong.com",
+      "published_at": "2026-10-04T17:21:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49955839\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "51f39944-e938-49d1-b396-7fb23214e36b",
+      "title": "A Map of Every Lighthouse on the Planet",
+      "url": "https://mapped.earth/lighthouses/world",
+      "domain": "mapped.earth",
+      "published_at": "2026-10-02T13:45:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49933461\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "513ec169-e7e0-4e92-a83c-6400f29ccb73",
+      "title": "Car is a smartphone on wheels. Here's who's listening",
+      "url": "https://automatictransmission.khoury.northeastern.edu/",
+      "domain": "automatictransmission.khoury.northeastern.edu",
+      "published_at": "2026-10-04T15:43:14Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49954882\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1a5cc337-77a9-435b-9ada-b42f87304232",
+      "title": "The Heilbronn Problem",
+      "url": "https://math.tejstead.com/heilbronn/",
+      "domain": "math.tejstead.com",
+      "published_at": "2026-10-02T23:01:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49939637\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "951106a3-5fca-44fa-9823-a8d45d08650b",
+      "title": "Blindsight (Watts Novel)",
+      "url": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+      "domain": "en.wikipedia.org",
+      "published_at": "2026-10-04T16:25:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49955297\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7db1c4cc-e794-44cc-ad3f-61b4e0e0e214",
+      "title": "Magic Switch: Share Apple Magic keyboard/track-pad/mouse between two Macs",
+      "url": "https://joshua.hu/magic-switch-easily-switch-magic-keyboard-trackpad-mouse-between-mac-macbook-macos",
+      "domain": "joshua.hu",
+      "published_at": "2026-10-02T16:01:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49935038\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f7d1c7f4-244b-4946-aa59-61d5a45fdd5c",
+      "title": "What's the Future for Pure Math Research in the Age of AI?",
+      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+      "domain": "writings.stephenwolfram.com",
+      "published_at": "2026-10-04T07:53:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49951641\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7941c78f-5f41-4733-b329-a1f409bcf968",
+      "title": "L-systems generate weevils, pizza toppings, and matriarchal lineages",
+      "url": "https://blog.plover.com/2026/09/25/",
+      "domain": "blog.plover.com",
+      "published_at": "2026-10-02T13:00:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49933069\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "3fe8c956-af56-49b0-931b-a858305c777b",
       "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
       "url": "https://github.com/Niko1221/Strata",
@@ -2020,121 +2132,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e94854b2-1ca0-43cf-937a-59904a2cf478",
-      "title": "Automatic Transmission – a data-privacy study of connected vehicles",
-      "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
-      "domain": "automatictransmission.khoury.northeastern.edu",
-      "published_at": "2026-10-01T20:23:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Automatic Transmission – a data-privacy study of connected vehicles. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6509e314-bd58-44c8-b7e0-91e4b51e3926",
-      "title": "SvelteKit 3",
-      "url": "https://svelte.dev/blog/sveltekit-3-is-here",
-      "domain": "svelte.dev",
-      "published_at": "2026-10-01T20:14:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "SvelteKit 3. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "81149ea6-9bde-463c-a8fc-f991b2a47e9b",
-      "title": "Vote on which of Hacker News' challenges for AI have been met",
-      "url": "https://stoppels.ch/goalposts/",
-      "domain": "stoppels.ch",
-      "published_at": "2026-10-01T17:32:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Vote on which of Hacker News' challenges for AI have been met. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dc98629e-a50d-4d0d-a2e9-51f5a6a30b9a",
-      "title": "Oxygen-deprived underwater zones may not be “dead zones” but clue to early life",
-      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026AV002570",
-      "domain": "agupubs.onlinelibrary.wiley.com",
-      "published_at": "2026-10-01T19:03:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Oxygen-deprived underwater zones may not be “dead zones” but clue to early life. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "10a782e9-817a-4a22-8294-7ad214ce4c20",
-      "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
-      "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-01T21:08:11Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "73ab0b21-80a4-46d0-bb53-368ad8b0011b",
-      "title": "ChatGPT can now virtually try on clothes for you",
-      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-01T19:21:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f477a96b-a17b-48ca-b372-cc12db1718da",
-      "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
-      "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-01T19:18:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Google launched its first advanced chip into orbit to pave the way for space data centers. ",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d333b87e-3077-4ad4-a300-d0044927ad13",
-      "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-01T18:14:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-04T13:31:58.281414227Z",
+  "last_updated": "2026-10-04T17:54:41.896439157Z",
   "total_count": 150
 }
