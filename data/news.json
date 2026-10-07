@@ -1,6 +1,206 @@
 {
   "items": [
     {
+      "id": "2bdc37a9-8b36-4f85-9520-b9fd01c32ef6",
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "domain": "anthropic.com",
+      "published_at": "2026-10-07T18:01:32Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49996437\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "31bc9c78-9a0d-44d8-af4a-6eda336d184d",
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "domain": "openai.com",
+      "published_at": "2026-10-07T18:00:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49996425\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b066ae18-b26a-4a98-98e5-b21e1248210d",
+      "title": "Docker Agent",
+      "url": "https://github.com/docker/docker-agent",
+      "domain": "github.com",
+      "published_at": "2026-10-07T17:48:38Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49996259\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "61b3ed22-e5b8-43f6-835d-1d07a1d55a87",
+      "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "url": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+      "domain": "debasishg.github.io",
+      "published_at": "2026-10-07T18:43:18Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49997073\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ff2ee2e7-6814-433b-961b-305a56ece4b6",
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "url": "https://bigwords.page/",
+      "domain": "bigwords.page",
+      "published_at": "2026-10-07T15:44:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49994443\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b8345af6-334f-4f22-aff4-808a67e6ecd3",
+      "title": "Despite what Watson said, Rosalind Franklin understood structure of DNA first",
+      "url": "https://link.springer.com/article/10.1007/s10739-026-09866-7",
+      "domain": "link.springer.com",
+      "published_at": "2026-10-07T19:56:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49998006\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7ee86957-4382-400b-8dbe-628eb77c5a68",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "domain": "rswebsols.com",
+      "published_at": "2026-10-07T18:49:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49997161\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7644b88d-165e-4605-96e6-9c960621a885",
+      "title": "How machines learned precision",
+      "url": "https://glinscott.github.io/how-machines-learned-precision/",
+      "domain": "glinscott.github.io",
+      "published_at": "2026-10-06T16:14:42Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49980626\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "e202c4b8-cf6c-425e-80c5-5114d614b5b0",
+      "title": "Show HN: gtlds.fyi – All the proposed new gTLDs",
+      "url": "https://gtlds.fyi/",
+      "domain": "gtlds.fyi",
+      "published_at": "2026-10-07T19:53:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49997971\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "578bcbce-aeb9-4e62-ad6a-ddf5474170b2",
+      "title": "The Mathocalypse",
+      "url": "https://scottaaronson.blog/?p=10169",
+      "domain": "scottaaronson.blog",
+      "published_at": "2026-10-07T19:33:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49997718\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ac6867d8-13e6-405b-bd67-07ae91dec1f7",
+      "title": "Why Pendulum had to write the most cursed \"+\" operator in all of Python",
+      "url": "https://dev.arie.bovenberg.net/blog/pendulum-cursed-plus-operator/",
+      "domain": "dev.arie.bovenberg.net",
+      "published_at": "2026-10-06T10:12:31Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49976441\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "31faedb2-256b-4b15-ae4e-877e6f9a93b6",
+      "title": "Brownian Motion",
+      "url": "https://gregorygundersen.com/blog/2026/04/22/brownian-motion/",
+      "domain": "gregorygundersen.com",
+      "published_at": "2026-10-06T11:11:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49976818\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "fe3be621-e57f-4446-9a27-1cc2960643f3",
+      "title": "ICANN Reveals 2026 Round Applications for New Generic Top-Level Domains",
+      "url": "https://www.icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en",
+      "domain": "icann.org",
+      "published_at": "2026-10-07T19:01:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49997301\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6d22eac1-f391-41ac-8644-151394af897c",
+      "title": "Google Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "domain": "blog.google",
+      "published_at": "2026-10-07T12:28:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49991823\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c6eeea04-e9db-4f88-8afe-18bcb3ceeea2",
       "title": "GitHub Incident with Git Operations, Pull Requests and Actions",
       "url": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
@@ -1938,204 +2138,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "2bd2538a-8b87-4235-9013-d9b6bd0bdd6b",
-      "title": "The designer lamps in my house",
-      "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
-      "domain": "arslan.io",
-      "published_at": "2026-10-05T14:12:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49965152\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c6cbfc15-6a75-4547-b642-71d040b43df1",
-      "title": "Martian chaos terrain",
-      "url": "https://en.wikipedia.org/wiki/Martian_chaos_terrain",
-      "domain": "en.wikipedia.org",
-      "published_at": "2026-10-02T01:11:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49928862\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a48f3acb-4d95-486b-aaa2-6a6194adbf4b",
-      "title": "Hot Flashing Guide Rev. 2.0 (2004)",
-      "url": "https://archive.techarp.com/showarticle504a.html?pgno=0",
-      "domain": "archive.techarp.com",
-      "published_at": "2026-10-03T09:18:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49942617\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "73e9acf6-8a4c-4821-8793-dccdc8afd392",
-      "title": "Greenvolt begins building 600 MW/2.4 GWh BESS in Poland",
-      "url": "https://www.ess-news.com/2026/09/25/greenvolt-begins-building-600-mw-2-4-gwh-bess-in-poland/",
-      "domain": "ess-news.com",
-      "published_at": "2026-10-05T18:38:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49968708\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "de813af6-e956-482f-a3a5-fdfd7ee57357",
-      "title": "Mystery Function",
-      "url": "https://codeset.ai/function",
-      "domain": "codeset.ai",
-      "published_at": "2026-10-02T17:03:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49935872\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "652e4c1f-c900-4f21-9b05-952f69e3aacc",
-      "title": "Picard 3.0",
-      "url": "https://blog.metabrainz.org/2026/10/04/picard-3-0-released/",
-      "domain": "blog.metabrainz.org",
-      "published_at": "2026-10-05T14:03:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49965047\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "60a8324d-0a55-403f-90f3-89e947674717",
-      "title": "Germany’s RobCo hits $1B valuation",
-      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
-      "domain": "techfundingnews.com",
-      "published_at": "2026-10-05T11:13:51Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Germany’s RobCo hits $1B valuation. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2b25549e-ae2c-4b05-8184-daf2c427affa",
-      "title": "Type Safe Generic Data Structures in C",
-      "url": "https://danielchasehooper.com/posts/typechecked-generic-c-data-structures/",
-      "domain": "danielchasehooper.com",
-      "published_at": "2026-10-03T11:57:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Type Safe Generic Data Structures in C. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "10fd8f70-1352-46b6-a0c6-d8d7c0999aaf",
-      "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
-      "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
-      "domain": "huawei.com",
-      "published_at": "2026-10-05T07:46:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49961861\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "53bd64f2-6a96-4547-824b-9d58dee4cd5c",
-      "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
-      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
-      "domain": "cpr.dk",
-      "published_at": "2026-10-05T08:09:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49962012\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "779b5ef9-0dfc-4600-bacf-ca0d1a042e8d",
-      "title": "Gods in the Classroom: Religion and Education in First Millennium BCE Babylonia",
-      "url": "https://www.cambridge.org/core/journals/iraq/article/gods-in-the-classroom-religion-and-education-in-1st-millennium-bce-babylonia/EB059EE81804DCBC1848CACBD6298E0B",
-      "domain": "cambridge.org",
-      "published_at": "2026-10-01T11:31:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49920332\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3c6f8eef-9196-4892-95b1-38d38e9a9405",
-      "title": "We ported the original Doom to SQL",
-      "url": "https://cedardb.com/blog/sqldoom/",
-      "domain": "cedardb.com",
-      "published_at": "2026-10-03T22:14:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49948300\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3c58568e-c34f-4492-8902-d7906350d2d3",
-      "title": "Replacement of petroleum based products with plant-based materials (2025)",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.70108",
-      "domain": "onlinelibrary.wiley.com",
-      "published_at": "2026-10-05T05:09:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49960901\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b315da37-879f-4751-a97c-fdbfc6160413",
-      "title": "Sales of sub-€25,000 electric car models set to rise sevenfold",
-      "url": "https://www.transportenvironment.org/articles/wave-of-affordable-electric-cars-is-boosting-consumers-choice-sales-of-sub-eur25-000-models-set-to-rise-sevenfold",
-      "domain": "transportenvironment.org",
-      "published_at": "2026-10-05T07:51:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49961890\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-07T16:45:25.315216983Z",
+  "last_updated": "2026-10-07T21:40:39.631975493Z",
   "total_count": 150
 }
