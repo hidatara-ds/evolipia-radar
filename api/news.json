@@ -1,6 +1,135 @@
 {
   "items": [
     {
+      "id": "9a1f7423-4497-4079-abf3-8e0a1e51b538",
+      "title": "Margaret Hamilton has died",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "domain": "news.mit.edu",
+      "published_at": "2026-10-07T21:16:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49998895\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0f36f617-40b8-494b-b677-20a4a40772a1",
+      "title": "Rust Port of TypeScript (Tsc)",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "domain": "github.com",
+      "published_at": "2026-10-08T00:46:00Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50000676\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9b7957e8-97de-43de-b02a-977da3d71edf",
+      "title": "'Jonathan' is the oldest land animal on Earth",
+      "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
+      "domain": "404media.co",
+      "published_at": "2026-10-07T20:01:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49998066\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "27f1e7d0-43c8-42a1-b4cc-976a024bcd8b",
+      "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
+      "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
+      "domain": "science.org",
+      "published_at": "2026-10-05T19:07:07Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49969073\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "12f03ff0-f25d-4454-a8de-05755c06b223",
+      "title": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
+      "url": "https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-10-07T17:59:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49996406\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "eb3098a0-99fc-4db3-b9aa-12eb43158617",
+      "title": "A minimal kernel in Swift, running in QEMU",
+      "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
+      "domain": "carette.xyz",
+      "published_at": "2026-10-06T12:20:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49977351\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "550477f8-bb03-4b88-8f43-beed7cae9340",
+      "title": "A new write and space optimized storage engine for MySQL is here",
+      "url": "https://tidesdb.com/articles/tidesdb-now-available-for-mysql/",
+      "domain": "tidesdb.com",
+      "published_at": "2026-10-05T11:40:15Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49963568\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "8f268064-9e8b-4137-9b99-0505dc6f3213",
+      "title": "If somebody tries to hot-patch an already-hot-patched function",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261005-00/?p=112755/",
+      "domain": "devblogs.microsoft.com",
+      "published_at": "2026-10-06T13:39:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49978315\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7856c440-0f03-4ee2-a7e3-fd57846916e2",
+      "title": "Why were Victorian elites so effective?",
+      "url": "https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/",
+      "domain": "worksinprogress.co",
+      "published_at": "2026-10-07T15:09:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Why were Victorian elites so effective?. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "2bdc37a9-8b36-4f85-9520-b9fd01c32ef6",
       "title": "Claude Haiku 5.5",
       "url": "https://www.anthropic.com/claude-haiku-5-5",
@@ -2010,136 +2139,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "50a6ca94-cfaa-440c-8dfb-b40dc5431d21",
-      "title": "Show HN: Nightwatch – a Mac menu-bar app that tells you when tonight is clear",
-      "url": "https://github.com/rsutcliffe/nightwatch",
-      "domain": "github.com",
-      "published_at": "2026-10-04T09:31:01Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49952148\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "ce99d6fb-efa5-429c-ad01-95715ae4498c",
-      "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
-      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-      "domain": "github.com",
-      "published_at": "2026-10-05T11:17:18Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49963385\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "ec37223f-bdab-4995-9648-ce4904709390",
-      "title": "The technology to eradicate mosquito-borne disease exists",
-      "url": "https://worksinprogress.co/issue/mosquitoes-are-a-choice/",
-      "domain": "worksinprogress.co",
-      "published_at": "2026-10-04T18:06:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49956290\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5144b4c9-3d89-4313-a12d-b1fa4abe3971",
-      "title": "Anthropic reported diary entry to police, woman faces felony charge",
-      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "domain": "techspot.com",
-      "published_at": "2026-10-05T05:37:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49961057\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "80374f82-cc09-476d-a512-48f9f6d7620b",
-      "title": "Differences Between `Foldl` and `Foldr`",
-      "url": "https://blog.haskell.org/foldl-and-foldr/",
-      "domain": "blog.haskell.org",
-      "published_at": "2026-10-01T04:58:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49917900\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eef15f2d-ee2a-4b30-bc98-979b4d8b5daf",
-      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
-      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
-      "domain": "discuss.grapheneos.org",
-      "published_at": "2026-10-05T13:02:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49964303\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3ce205b3-c42d-443b-b01e-306654f077a2",
-      "title": "Linux containers in 500 lines of code",
-      "url": "https://blog.lizzie.io/linux-containers-in-500-loc.html",
-      "domain": "blog.lizzie.io",
-      "published_at": "2026-10-05T14:09:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49965118\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e686f18a-4af8-4354-b1b2-cbd95fde7624",
-      "title": "2026 Nobel Prize in Physiology or Medicine: Deisseroth, Hegemann, Nagel",
-      "url": "https://www.nobelprize.org/prizes/medicine/2026/summary/",
-      "domain": "nobelprize.org",
-      "published_at": "2026-10-05T09:33:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49962572\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "11af049a-e2e1-459c-b32a-2d62351337f1",
-      "title": "Beating the Compiler",
-      "url": "https://www.mattkeeter.com/blog/2024-07-12-interpreter/",
-      "domain": "mattkeeter.com",
-      "published_at": "2026-10-01T04:36:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49917784\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-07T21:40:39.631975493Z",
+  "last_updated": "2026-10-08T01:24:42.012350172Z",
   "total_count": 150
 }
