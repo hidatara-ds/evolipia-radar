@@ -1,6 +1,104 @@
 {
   "items": [
     {
+      "id": "9050a8d6-89fe-4040-afc4-479d5adf8f2b",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "url": "https://quake-srp.pages.dev/",
+      "domain": "quake-srp.pages.dev",
+      "published_at": "2026-10-09T05:22:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50016312\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a8b4a916-e096-4785-a4be-f12f7dd9ac19",
+      "title": "Reducing undefined behavior in the C language",
+      "url": "https://lwn.net/Articles/1095811/",
+      "domain": "lwn.net",
+      "published_at": "2026-10-09T02:02:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50015074\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e274cf5c-b42f-405e-968b-c21a818176cb",
+      "title": "Keyboard differences between Windows and Macs",
+      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "domain": "unsung.aresluna.org",
+      "published_at": "2026-10-09T03:08:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50015515\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "68ccff9d-717c-4f9c-a988-454c6d142203",
+      "title": "What should we tell our students?",
+      "url": "https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/",
+      "domain": "terrytao.wordpress.com",
+      "published_at": "2026-10-09T02:27:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50015236\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "51db0920-1a88-48be-afd2-b64e36a6f4ef",
+      "title": "Bevy 0.20",
+      "url": "https://bevy.org/news/bevy-0-20/",
+      "domain": "bevy.org",
+      "published_at": "2026-10-08T22:57:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50013610\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "90b9d84d-2529-42de-992a-937b1fe886c3",
+      "title": "OpenAI withdraws three mathematical results",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
+      "domain": "twitter.com",
+      "published_at": "2026-10-08T07:05:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https:\u0026#x2F;\u0026#x2F;github.com\u0026#x2F;openai\u0026#x2F;math\u0026#x2F;blob\u0026#x2F;main\u0026#x2F;history.md\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;github.com\u0026#x2F;openai\u0026#x2F;math\u0026#x2F;blob\u0026#x2F;main\u0026#x2F;history.m...",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9e4a91b2-b363-4047-87f2-1e7acfc54d3d",
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "domain": "reddit.com",
+      "published_at": "2026-10-08T07:07:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "I think I found a planet nobody knew existed. I used Claude Code to find it. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7c70ca0a-4275-49f9-b489-76b3b381a206",
       "title": "OpenAI, the Partition Principle, and Mathematics",
       "url": "https://karagila.org/2026/openai-pp/",
@@ -2042,110 +2140,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "1322d30c-9f50-40b1-9838-d484740ef0c0",
-      "title": "What's Earth's dominant species by mass?",
-      "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
-      "domain": "signoregalilei.com",
-      "published_at": "2026-10-06T12:40:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "What's Earth's dominant species by mass?. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dc9b57cd-d1c4-417e-ab5b-5e0e55fd7db2",
-      "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
-      "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
-      "domain": "mihai.dinculescu.dev",
-      "published_at": "2026-10-06T13:55:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49978563\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "53310a25-5ac3-4500-8c1e-43a063592635",
-      "title": "Benchmark in Milliseconds",
-      "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
-      "domain": "matklad.github.io",
-      "published_at": "2026-10-05T17:00:10Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49967427\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "23b27dc5-3983-4d11-a1a6-dcd4d9b63286",
-      "title": "AI is now capable of developing its own inference hardware",
-      "url": "https://github.com/FeSens/openTPU",
-      "domain": "github.com",
-      "published_at": "2026-10-06T16:23:25Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49980715\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "13627a08-7ba8-4cd2-bf64-ee68cdd6701b",
-      "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
-      "url": "https://peterszentkiralyi.eu/darkplug/",
-      "domain": "peterszentkiralyi.eu",
-      "published_at": "2026-10-06T13:58:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49978595\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7e047905-22cd-4b51-9f2c-9271edb77762",
-      "title": "Subquadratic 3SUM and Subcubic APSP",
-      "url": "https://arxiv.org/abs/2610.06783",
-      "domain": "arxiv.org",
-      "published_at": "2026-10-06T12:31:17Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49977437\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "69df2870-4b2b-4c4f-ad10-4aeaddf9a117",
-      "title": "Former German spy chief arrested for attempted treason",
-      "url": "https://www.reuters.com/business/finance/former-german-spy-chief-detained-suspicion-espionage-treason-bild-reports-2026-10-06/",
-      "domain": "reuters.com",
-      "published_at": "2026-10-06T16:51:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49981063\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-09T00:45:54.015919333Z",
+  "last_updated": "2026-10-09T06:54:10.342733683Z",
   "total_count": 150
 }
