@@ -1,6 +1,179 @@
 {
   "items": [
     {
+      "id": "53882d3a-0aa2-4d19-9c87-e190dbfd6c43",
+      "title": "Deno Is Joining Cloudflare",
+      "url": "https://deno.com/blog/cloudflare",
+      "domain": "deno.com",
+      "published_at": "2026-10-09T13:03:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50019911\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d82e5313-e50e-4f96-aee5-f9970043ae99",
+      "title": "Our $445M Series D",
+      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "domain": "oxide.computer",
+      "published_at": "2026-10-09T13:12:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50020014\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a486d110-b728-4172-9b09-7f9fc8fc795d",
+      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "domain": "github.com",
+      "published_at": "2026-10-09T11:03:48Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50018817\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9d53cdc1-24a3-46f9-9410-39b1e70077da",
+      "title": "I'm in a Meeting",
+      "url": "https://iminafleeting.com/",
+      "domain": "iminafleeting.com",
+      "published_at": "2026-10-09T09:21:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50018088\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5a89f712-6a21-4f44-a2e8-d32b886f3c11",
+      "title": "Nobel Peace Prize for 2026 to Navanethem \"NAVI\" Pillay",
+      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+      "domain": "nobelprize.org",
+      "published_at": "2026-10-09T10:12:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50018420\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7ca05bbe-4c6f-45cd-9dfa-bbadc1805b7c",
+      "title": "Once: Cache CLI Commands",
+      "url": "https://github.com/alex0ptr/once",
+      "domain": "github.com",
+      "published_at": "2026-10-09T09:43:06Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50018239\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "bbea031d-4e0c-4486-882e-a00c624a1555",
+      "title": "Meadows – a small language for stock-and-flow diagrams that run",
+      "url": "https://lorezzed.github.io/meadows/",
+      "domain": "lorezzed.github.io",
+      "published_at": "2026-10-09T12:29:40Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50019535\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "c94b4f62-a236-4bee-84ed-0ff8ba960ce3",
+      "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+      "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+      "domain": "washingtonpost.com",
+      "published_at": "2026-10-09T12:21:24Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50019455\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "099bad6c-c77c-4ade-bdd9-f182d89c5d01",
+      "title": "MXC - a sandboxed code execution system",
+      "url": "https://github.com/microsoft/mxc",
+      "domain": "github.com",
+      "published_at": "2026-10-09T05:51:29Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50016489\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "b3b4e10b-debf-4770-af38-b6e07a790c06",
+      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "domain": "techcrunch.com",
+      "published_at": "2026-10-09T10:00:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50018350\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2902a003-5179-49ac-abdf-903989de3eaf",
+      "title": "The Hetzner Cloud network stack – history and technical overview",
+      "url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+      "domain": "hetzner.com",
+      "published_at": "2026-10-09T12:20:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50019451\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b88871dc-6557-4bd7-b2b2-2a7d541521ba",
+      "title": "Study: Exercise increases cancer survival rates",
+      "url": "https://www.nejm.org/doi/10.1056/NEJMoa2502760",
+      "domain": "nejm.org",
+      "published_at": "2026-10-09T12:49:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50019741\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "9050a8d6-89fe-4040-afc4-479d5adf8f2b",
       "title": "Show HN: Quake ported to safe Rust, playable in browser",
       "url": "https://quake-srp.pages.dev/",
@@ -1972,176 +2145,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "2cf7543c-5abe-4948-9779-1666c7df9e13",
-      "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
-      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
-      "domain": "arstechnica.com",
-      "published_at": "2026-10-06T20:33:47Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49983703\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bc33d3ae-9756-458b-9f9f-79ab9d8a36b1",
-      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
-      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "domain": "zohaib.cc",
-      "published_at": "2026-10-06T18:00:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49981905\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0402601b-eb42-427d-85b8-6c62db468632",
-      "title": "OpenSSH 10.6",
-      "url": "https://www.openssh.org/releasenotes.html#10.6",
-      "domain": "openssh.org",
-      "published_at": "2026-10-06T20:41:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49983791\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "17f99d5a-dfdb-4532-8302-e5a8ebff8519",
-      "title": "The Query Transformation Pipeline",
-      "url": "https://readyset.io/blog/how-readyset-rewrites-your-sql-inside-the-query-transformation-pipeline",
-      "domain": "readyset.io",
-      "published_at": "2026-10-06T22:09:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49984834\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "02bc4c6f-6b15-40ce-919d-f12ecc5c0942",
-      "title": "Ask HN: Why is Ask HN only showing me 14 posts?",
-      "url": "https://news.ycombinator.com/item?id=49984484",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-10-06T21:37:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49984484\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "317dd153-a930-465d-bf34-a0b591b48873",
-      "title": "Vibecoding Photoshop: Time and pressure",
-      "url": "https://andreklein.net/vibecoding-photoshop-time-and-pressure/",
-      "domain": "andreklein.net",
-      "published_at": "2026-10-06T20:40:48Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49983780\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2490c3f1-409d-42cf-bf55-746fd3fd32e5",
-      "title": "LLMs may have helped my RSI",
-      "url": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
-      "domain": "vaughanhilts.me",
-      "published_at": "2026-10-06T03:01:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49973644\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b4528506-44ee-4768-9dc2-ac6a5f97c82a",
-      "title": "Erdosproblems.com Succumbs to the AI Onslaught",
-      "url": "https://www.erdosproblems.com/forum/thread/blog:9",
-      "domain": "erdosproblems.com",
-      "published_at": "2026-10-06T12:53:58Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49977689\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8929a4ec-e2c5-43a6-a904-3c46fc020e89",
-      "title": "Berthd",
-      "url": "https://berthd.app/",
-      "domain": "berthd.app",
-      "published_at": "2026-10-06T19:14:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49982735\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "65f2ca4f-42e6-41b6-9827-b1faaafc584a",
-      "title": "When random is not actually random enough",
-      "url": "https://ersc.io/blog/when-random-isnt-random-enough",
-      "domain": "ersc.io",
-      "published_at": "2026-10-06T20:12:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49983404\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3afc99c4-b3ba-474d-bda7-0264fccc92d4",
-      "title": "Toronto-Based VPN Provider Plans to Quit Canada over Lawful-Access Bill",
-      "url": "https://citizenlab.ca/toronto-based-vpn-provider-plans-to-quit-canada-over-lawful-access-bill/",
-      "domain": "citizenlab.ca",
-      "published_at": "2026-10-06T18:52:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49982471\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "abe92972-3808-43e2-9baa-aac63252fdfe",
-      "title": "System-level ad-blocking in Android",
-      "url": "https://kevinboone.me/adblock.html",
-      "domain": "kevinboone.me",
-      "published_at": "2026-10-06T20:29:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49983647\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-09T06:54:10.342733683Z",
+  "last_updated": "2026-10-09T13:56:44.202495465Z",
   "total_count": 150
 }
