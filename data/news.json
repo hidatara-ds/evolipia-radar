@@ -1,6 +1,150 @@
 {
   "items": [
     {
+      "id": "7c70ca0a-4275-49f9-b489-76b3b381a206",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "domain": "karagila.org",
+      "published_at": "2026-10-08T23:29:43Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50013902\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "e4ace28f-2b9b-4f1e-b4b8-ce9e7dbfbd34",
+      "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
+      "url": "https://svg-spark.vercel.app/",
+      "domain": "svg-spark.vercel.app",
+      "published_at": "2026-10-08T23:32:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50013931\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "db9d4a63-7726-46bf-93a3-73189a6475c7",
+      "title": "AI-ready biological data: $1.8B global commitment",
+      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "domain": "biohub.org",
+      "published_at": "2026-10-08T20:46:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50011999\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "afbe8b10-eaa1-4eff-95eb-d402ddcf36f4",
+      "title": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy (2025)",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full",
+      "domain": "frontiersin.org",
+      "published_at": "2026-10-08T20:42:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50011928\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "107de317-4e32-45df-a3c8-1904f51f9667",
+      "title": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
+      "url": "https://pocketty.app/",
+      "domain": "pocketty.app",
+      "published_at": "2026-10-08T18:11:52Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50009634\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "969d696f-f3c4-4132-acbe-b27aacb8f902",
+      "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+      "url": "https://github.com/edrisranjbar/lifeos",
+      "domain": "github.com",
+      "published_at": "2026-10-09T00:02:19Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50014150\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "78def5c6-2a70-49f3-9737-bb4e67c53f67",
+      "title": "Show HN: Jevman – AI decision models play Pac-Man",
+      "url": "https://opper.ai/jevman-benchmark/",
+      "domain": "opper.ai",
+      "published_at": "2026-10-08T16:34:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50007993\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b3a76429-ff2b-429a-9f72-82b220e0ca93",
+      "title": "Scaling and benchmarking a critical message bus using a new indexing strategy",
+      "url": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/",
+      "domain": "blog.janestreet.com",
+      "published_at": "2026-10-08T17:39:26Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50009066\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "be5d1512-9587-4dac-bf2e-f3a6bd6e6532",
+      "title": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
+      "url": "https://news.ycombinator.com/item?id=49985548",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-10-06T23:16:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49985548\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ee15f338-3264-4d11-842f-3499b382f6d6",
+      "title": "US man given prison sentence for bot-farming music streams",
+      "url": "https://thequietus.com/news/us-man-given-prison-sentence-for-bot-farming-music-streams/",
+      "domain": "thequietus.com",
+      "published_at": "2026-10-08T01:33:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https:\u0026#x2F;\u0026#x2F;www.justice.gov\u0026#x2F;usao-sdny\u0026#x2F;pr\u0026#x2F;north-carolina-man-sentenced-18-months-prison-super-intelligence-assisted-music\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;www.justice....",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "760d16a0-3d79-4cd5-930f-445c747b6d19",
       "title": "Whistle: Speech to Text in 16.9 MB",
       "url": "https://cactuscompute.com/blog/whistle",
@@ -2000,148 +2144,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "04cbb301-afd9-4173-a482-9ed70cdd0cf3",
-      "title": "The Early History of Smalltalk (1993)",
-      "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
-      "domain": "worrydream.com",
-      "published_at": "2026-10-06T15:19:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49979845\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ce10fdcd-1942-473f-92ff-4ea0c76a5b8a",
-      "title": "California Closed the Montana License Plate Loophole",
-      "url": "https://www.thedrive.com/news/heres-how-california-closed-the-montana-license-plate-loophole",
-      "domain": "thedrive.com",
-      "published_at": "2026-10-06T17:00:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49981186\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0fc29694-ccb3-406b-a39b-a49f7ec04c82",
-      "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
-      "url": "https://www.parseable.com",
-      "domain": "parseable.com",
-      "published_at": "2026-10-06T13:30:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49978171\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c795c057-e4f8-4841-8706-2e2a860b1e33",
-      "title": "I'm the AGI that's wiping out humanity",
-      "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
-      "domain": "ajmoon.com",
-      "published_at": "2026-10-06T10:59:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49976751\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a6655469-ec43-4d78-abd2-54f039938e11",
-      "title": "Mistral Large 4",
-      "url": "https://docs.mistral.ai/models/mistral-large-4-0",
-      "domain": "docs.mistral.ai",
-      "published_at": "2026-10-06T13:15:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49977979\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "34e8314e-e3db-47c3-89df-3b2f578eca6b",
-      "title": "Release of Polars 2.0",
-      "url": "https://pola.rs/posts/release-polars-2/",
-      "domain": "pola.rs",
-      "published_at": "2026-10-06T11:59:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49977177\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5d76fe6f-4444-442c-b03f-75c0a4d8ac9e",
-      "title": "Nobel Prize in Physics goes to Francis Halzen",
-      "url": "https://www.nobelprize.org/prizes/physics/2026/",
-      "domain": "nobelprize.org",
-      "published_at": "2026-10-06T09:48:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49976265\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4759b217-d73a-4ca2-99a9-62e3f4d5df7a",
-      "title": "Mistral Large 4: \"Le Chonk\"",
-      "url": "https://mistral.ai/news/mistral-large-4/",
-      "domain": "mistral.ai",
-      "published_at": "2026-10-06T13:25:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49978116\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e910d534-5dc4-44c3-b584-76fab1a7c0d2",
-      "title": "JetBrains reported a net financial loss first time in its tracked history",
-      "url": "https://www.helgilibrary.com/companies/jetbrains",
-      "domain": "helgilibrary.com",
-      "published_at": "2026-10-06T11:45:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49977072\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "cf0bd2e9-8255-4c2b-817d-131469705431",
-      "title": "Gleam doesn't compile to Erlang source anymore",
-      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
-      "domain": "gleam.run",
-      "published_at": "2026-10-06T08:08:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49975619\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-08T20:44:01.332582136Z",
+  "last_updated": "2026-10-09T00:45:54.015919333Z",
   "total_count": 150
 }
