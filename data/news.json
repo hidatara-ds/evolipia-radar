@@ -1,6 +1,162 @@
 {
   "items": [
     {
+      "id": "570ef9df-0276-4ac6-84d9-ca4c36e707cd",
+      "title": "`123456' password used in Danish CPR data breach",
+      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "domain": "cphpost.dk",
+      "published_at": "2026-10-10T09:51:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50031269\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a7521eee-3941-493f-aeb8-ea57f15f75b7",
+      "title": "Lobbying Is Corruption",
+      "url": "https://carette.xyz/posts/lobbying_and_corruption/",
+      "domain": "carette.xyz",
+      "published_at": "2026-10-10T13:05:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50032556\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a3cf40f3-476b-4ea3-9880-84ba45748d47",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "domain": "github.com",
+      "published_at": "2026-10-10T10:52:09Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50031614\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "0c03a8af-9bed-4d6c-b9e4-b85771775196",
+      "title": "Bitwarden Dual License Model",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "domain": "community.bitwarden.com",
+      "published_at": "2026-10-10T14:32:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50033407\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c737ba19-787c-4366-aea2-f75be49f4ddd",
+      "title": "C for Rust Programmers",
+      "url": "https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/",
+      "domain": "bd103.dev",
+      "published_at": "2026-10-08T13:44:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50005743\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "22a28e1b-07ba-43a5-b417-63eb5602072e",
+      "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
+      "url": "https://tonym.us/wsl2-vs-wsl3-benchmarks.html",
+      "domain": "tonym.us",
+      "published_at": "2026-10-07T21:06:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49998801\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2eb311a7-80cd-4010-af6a-119ae16f3c54",
+      "title": "Noto means \"no tofu\": fixing dotted circles in Myanmar text",
+      "url": "https://www.datocms.com/blog/handling-less-common-scripts",
+      "domain": "datocms.com",
+      "published_at": "2026-10-06T17:24:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49981508\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bd5e0612-d727-4c93-af29-0d23d44c0458",
+      "title": "Chernobyl particles reveal unexpectedly stable nuclear fuel after 40 years",
+      "url": "https://phys.org/news/2026-10-chernobyl-particles-reveal-unexpectedly-stable.html",
+      "domain": "phys.org",
+      "published_at": "2026-10-07T01:44:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49986919\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "fdad08c8-e98e-40a7-9019-ff3db0ce77a0",
+      "title": "Apple/macOS silently removed from official Unix registry",
+      "url": "https://www.opengroup.org//openbrand/register/",
+      "domain": "opengroup.org",
+      "published_at": "2026-10-10T10:57:31Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50031653\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d72a187b-f665-447a-aee6-51315af99300",
+      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "domain": "blogs.windows.com",
+      "published_at": "2026-10-09T06:52:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50016956\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4f9a126f-a996-4344-961f-1030cebad736",
+      "title": "Timestamping a Giant Record of the Web",
+      "url": "https://projecttimestamper.org/blog/common-crawl/",
+      "domain": "projecttimestamper.org",
+      "published_at": "2026-10-09T00:29:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50014397\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "97370e94-0558-42be-8298-c991082d5a9e",
       "title": "Computers Cannot Make Decisions",
       "url": "https://wiki.cateat.fish/art:computers_cannot_make_decisions",
@@ -1984,166 +2140,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "db4be470-8bab-43ee-b11f-b10ada2383ad",
-      "title": "New repository settings for configuring pull request access",
-      "url": "https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access/",
-      "domain": "github.blog",
-      "published_at": "2026-10-06T07:01:51Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49975158\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "180c67a6-0aeb-4b52-a0f9-7814d2b4b0cd",
-      "title": "ENIAC Programmers (2011)",
-      "url": "https://www.columbia.edu/cu/computinghistory/eniac.html",
-      "domain": "columbia.edu",
-      "published_at": "2026-10-05T21:50:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49971347\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9a1f7423-4497-4079-abf3-8e0a1e51b538",
-      "title": "Margaret Hamilton has died",
-      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
-      "domain": "news.mit.edu",
-      "published_at": "2026-10-07T21:16:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49998895\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0f36f617-40b8-494b-b677-20a4a40772a1",
-      "title": "Rust Port of TypeScript (Tsc)",
-      "url": "https://github.com/pingdotgg/ts-rust",
-      "domain": "github.com",
-      "published_at": "2026-10-08T00:46:00Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50000676\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "9b7957e8-97de-43de-b02a-977da3d71edf",
-      "title": "'Jonathan' is the oldest land animal on Earth",
-      "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
-      "domain": "404media.co",
-      "published_at": "2026-10-07T20:01:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49998066\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "27f1e7d0-43c8-42a1-b4cc-976a024bcd8b",
-      "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
-      "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
-      "domain": "science.org",
-      "published_at": "2026-10-05T19:07:07Z",
-      "category": "vision",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49969073\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "vision",
-        "vision"
-      ]
-    },
-    {
-      "id": "12f03ff0-f25d-4454-a8de-05755c06b223",
-      "title": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
-      "url": "https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-10-07T17:59:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49996406\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eb3098a0-99fc-4db3-b9aa-12eb43158617",
-      "title": "A minimal kernel in Swift, running in QEMU",
-      "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
-      "domain": "carette.xyz",
-      "published_at": "2026-10-06T12:20:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49977351\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "550477f8-bb03-4b88-8f43-beed7cae9340",
-      "title": "A new write and space optimized storage engine for MySQL is here",
-      "url": "https://tidesdb.com/articles/tidesdb-now-available-for-mysql/",
-      "domain": "tidesdb.com",
-      "published_at": "2026-10-05T11:40:15Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49963568\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "8f268064-9e8b-4137-9b99-0505dc6f3213",
-      "title": "If somebody tries to hot-patch an already-hot-patched function",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20261005-00/?p=112755/",
-      "domain": "devblogs.microsoft.com",
-      "published_at": "2026-10-06T13:39:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49978315\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7856c440-0f03-4ee2-a7e3-fd57846916e2",
-      "title": "Why were Victorian elites so effective?",
-      "url": "https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/",
-      "domain": "worksinprogress.co",
-      "published_at": "2026-10-07T15:09:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Why were Victorian elites so effective?. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-10T08:47:01.202601313Z",
+  "last_updated": "2026-10-10T14:53:05.527703401Z",
   "total_count": 150
 }
