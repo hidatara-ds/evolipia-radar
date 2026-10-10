@@ -1,6 +1,234 @@
 {
   "items": [
     {
+      "id": "88a4091c-f620-426c-a110-4a57bd53b047",
+      "title": "REA Reverse – Engineer Anything",
+      "url": "https://rea.tools/",
+      "domain": "rea.tools",
+      "published_at": "2026-10-10T00:37:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50028275\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "789ec321-0c9c-4488-bae3-bf20c3d23c91",
+      "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
+      "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/",
+      "domain": "linuxstans.com",
+      "published_at": "2026-10-09T23:56:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50028059\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "76c46ce9-a551-4453-903e-ad5b3ee60e85",
+      "title": "Compiling Rust to readable C with Eurydice",
+      "url": "https://lwn.net/Articles/1055211/",
+      "domain": "lwn.net",
+      "published_at": "2026-10-09T23:28:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50027853\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "58766d1d-b004-4874-8735-608526a5f8f6",
+      "title": "Can you use autoregressive diffusion to generate market data?",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "domain": "blog.janestreet.com",
+      "published_at": "2026-10-09T14:56:13Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50021410\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "ac2389cc-5935-4ba1-aeb4-ce5d480032ab",
+      "title": "Atari Falcon",
+      "url": "https://atarimuseum.nl/atari-falcon/",
+      "domain": "atarimuseum.nl",
+      "published_at": "2026-10-09T22:54:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50027590\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a52db570-f741-4bbd-9f5e-828a3509ffa0",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "domain": "nbcphiladelphia.com",
+      "published_at": "2026-10-09T22:00:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50027118\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ac0d1127-d168-4649-b527-39af72a5bf16",
+      "title": "Taxing Entrepreneurial Wealth: Evidence from Norway, 2021–2025",
+      "url": "https://www.nber.org/papers/w35854",
+      "domain": "nber.org",
+      "published_at": "2026-10-09T22:12:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50027234\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4b338ce4-4b01-4937-9864-129da1719616",
+      "title": "Show HN: Proton Drive for Linux",
+      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+      "domain": "oss.lsantos.dev",
+      "published_at": "2026-10-08T09:10:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50003545\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "141477c1-8de0-42ca-aeee-307447d07b82",
+      "title": "Smart contracts: Ship the parachute in v1",
+      "url": "https://medium.com/@giladha/ship-the-parachute-in-v1-why-upgradeability-and-disaster-recovery-are-not-v2-features-88191f35ba1c",
+      "domain": "medium.com",
+      "published_at": "2026-10-08T05:39:23Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50002114\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2f9d2272-5e07-44c0-8cc5-d64b2003fefa",
+      "title": "Has the Autonomous Trucking Revolution Arrived?",
+      "url": "https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived/",
+      "domain": "phenomenalworld.org",
+      "published_at": "2026-10-09T23:57:12Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50028062\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "9f7bfbd1-851e-41f6-a3e9-faee36a3e9bf",
+      "title": "The role of cat eye narrowing movements in cat–human communication (2020)",
+      "url": "https://www.nature.com/articles/s41598-020-73426-0",
+      "domain": "nature.com",
+      "published_at": "2026-10-06T22:10:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49984854\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8640baf2-a1e2-4cfb-ab22-644f49d4dcca",
+      "title": "The logarithms of rational numbers have irrationality exponent 2 [pdf]",
+      "url": "https://jdb19937.github.io/log-irrationality-measure/logmeasure.pdf",
+      "domain": "jdb19937.github.io",
+      "published_at": "2026-10-09T23:32:04Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50027884\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "3428e6af-48fe-4039-8fcb-96e3a9bba145",
+      "title": "Show HN: The rarest tech books and docs you've probably never read",
+      "url": "https://readrare.com/",
+      "domain": "readrare.com",
+      "published_at": "2026-10-09T17:39:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50024055\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "dc615ea3-9865-4229-b8e1-14a158c751ca",
+      "title": "Rewriting Prime Agent in Rust",
+      "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+      "domain": "primeintellect.ai",
+      "published_at": "2026-10-09T23:06:25Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50027694\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "ac31e902-7b05-4a34-b5c4-f78a39ea92ce",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability \u0026 AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "domain": "terrytao.wordpress.com",
+      "published_at": "2026-10-09T17:42:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50024090\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6513da00-f147-4dbf-a4f0-0f053e6fbbdd",
+      "title": "Scam American companies are using to manipulate ingredient lists",
+      "url": "https://twitter.com/WallStreetApes/status/2108594998656807078",
+      "domain": "twitter.com",
+      "published_at": "2026-10-09T17:35:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Scam American companies are using to manipulate ingredient lists. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "70dbda72-6fd7-4437-9a0c-97794fb5062f",
       "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
       "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
@@ -1917,237 +2145,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "ac6867d8-13e6-405b-bd67-07ae91dec1f7",
-      "title": "Why Pendulum had to write the most cursed \"+\" operator in all of Python",
-      "url": "https://dev.arie.bovenberg.net/blog/pendulum-cursed-plus-operator/",
-      "domain": "dev.arie.bovenberg.net",
-      "published_at": "2026-10-06T10:12:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49976441\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "31faedb2-256b-4b15-ae4e-877e6f9a93b6",
-      "title": "Brownian Motion",
-      "url": "https://gregorygundersen.com/blog/2026/04/22/brownian-motion/",
-      "domain": "gregorygundersen.com",
-      "published_at": "2026-10-06T11:11:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49976818\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fe3be621-e57f-4446-9a27-1cc2960643f3",
-      "title": "ICANN Reveals 2026 Round Applications for New Generic Top-Level Domains",
-      "url": "https://www.icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en",
-      "domain": "icann.org",
-      "published_at": "2026-10-07T19:01:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49997301\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6d22eac1-f391-41ac-8644-151394af897c",
-      "title": "Google Playground: Create and play custom games",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "domain": "blog.google",
-      "published_at": "2026-10-07T12:28:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49991823\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c6eeea04-e9db-4f88-8afe-18bcb3ceeea2",
-      "title": "GitHub Incident with Git Operations, Pull Requests and Actions",
-      "url": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
-      "domain": "githubstatus.com",
-      "published_at": "2026-10-07T15:17:23Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49994027\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "aff5c069-820c-4014-9a2f-0c4c90c9f304",
-      "title": "Navier–Stokes Lost in Translation",
-      "url": "https://arxiv.org/abs/2610.08144",
-      "domain": "arxiv.org",
-      "published_at": "2026-10-07T15:24:38Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49994145\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "078bc865-2c16-4c90-96d9-0dd58f562be9",
-      "title": "Shipping JPEG XL in Chrome",
-      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "domain": "developer.chrome.com",
-      "published_at": "2026-10-07T11:25:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49991227\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c3d15b11-43c2-422c-969c-942cd4f8c0b0",
-      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
-      "url": "https://github.com/szabadkai/c64-keyboard-font/",
-      "domain": "github.com",
-      "published_at": "2026-10-07T09:17:55Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49990224\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "16bc0e1d-6517-4100-a0ee-b4f431226c8e",
-      "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
-      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
-      "domain": "nobelprize.org",
-      "published_at": "2026-10-07T09:51:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49990470\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c8c04a02-afc8-4032-9e34-a46c4be748d4",
-      "title": "Animated ASCII Art for Web Pages",
-      "url": "https://ascii.rest/",
-      "domain": "ascii.rest",
-      "published_at": "2026-10-07T15:05:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49993857\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "679fc854-2f7d-4010-bba8-6a639b49cbe7",
-      "title": "Show HN: A walkable 3D art history museum built from Wikipedia",
-      "url": "https://artmuseum.artfrompixels.com/",
-      "domain": "artmuseum.artfrompixels.com",
-      "published_at": "2026-10-07T12:51:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49992057\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b7f8e4af-d395-4adf-a6ce-88f474ca6c1c",
-      "title": "AI-assisted proof of optimal packing for 11 squares",
-      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
-      "domain": "github.com",
-      "published_at": "2026-10-07T14:10:55Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49993121\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "7fd070b1-1a5d-4f64-86cf-b34bbf94992b",
-      "title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
-      "url": "https://github.com/AL-255/FM-1-RE",
-      "domain": "github.com",
-      "published_at": "2026-10-07T15:19:50Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49994065\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "8fa84d0f-2ef6-4790-9c15-ca13360482e9",
-      "title": "Visa, Mastercard, Major Banks Facing New Litigation over 'Anticompetitive' Fees",
-      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
-      "domain": "classaction.org",
-      "published_at": "2026-10-07T15:09:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49993914\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1a5c5b87-2854-4d7f-adaa-cd4517f123b0",
-      "title": "Anti-Patterns in Software Blogging",
-      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
-      "domain": "refactoringenglish.com",
-      "published_at": "2026-10-07T13:08:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49992257\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "91aca44c-5cd0-4341-b627-47d5fb44cd36",
-      "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
-      "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
-      "domain": "fiveminutesforward.com",
-      "published_at": "2026-10-07T12:04:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49991580\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-09T23:22:06.851825656Z",
+  "last_updated": "2026-10-10T02:28:32.641158404Z",
   "total_count": 150
 }
