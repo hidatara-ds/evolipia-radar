@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "id": "ad92034b-8c72-4f78-ac8d-3a5f666b6934",
+      "title": "WallHop – 12ft.io is gone, so I built a replacement",
+      "url": "https://wallhop.io/",
+      "domain": "wallhop.io",
+      "published_at": "2026-10-11T00:46:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50038634\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2c2a54a9-0d55-4a84-9e56-7412c1c85dd0",
+      "title": "Build your own decision model",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "domain": "nishtahir.com",
+      "published_at": "2026-10-10T22:50:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50037949\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "979aab96-0a89-4653-bd05-747fa65ad03e",
+      "title": "Five months treating bugs like patients and coding agents like a medical team",
+      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
+      "domain": "cockroachlabs.com",
+      "published_at": "2026-10-09T15:26:33Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50021899\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "88784caf-42a1-47bb-b6d3-52ebf24f33e7",
+      "title": "Getting old Macromedia Director Games to run on modern Hardware",
+      "url": "https://werwolv.net/posts/macromedia_copy_protection/",
+      "domain": "werwolv.net",
+      "published_at": "2026-10-09T14:18:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50020901\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8a2b7cb4-ca8b-4a15-afa2-c09f37660179",
+      "title": "Show HN: Diffle, a keyboard-centric diff viewer with LSP support",
+      "url": "https://github.com/moritzwilksch/diffle",
+      "domain": "github.com",
+      "published_at": "2026-10-08T15:23:19Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50006930\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "db947c94-8a88-4874-987f-22a361c483aa",
       "title": "A city-building game in which the city would prefer you didn't",
       "url": "https://housing.over.pizza/",
@@ -2063,80 +2135,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "61e87f0c-cabc-4d4e-8eb8-652e4da39b38",
-      "title": "DuckDB Ducklake",
-      "url": "https://github.com/duckdb/ducklake",
-      "domain": "github.com",
-      "published_at": "2026-10-07T17:40:23Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49996149\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "642c05bd-4231-4b50-9afe-efeafc32690e",
-      "title": "Trump administration is suspending Microsoft from a green card program",
-      "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
-      "domain": "apnews.com",
-      "published_at": "2026-10-08T15:15:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50006832\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9f82c2c8-0292-4a1a-9828-dd74d1d237aa",
-      "title": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
-      "url": "https://github.com/ymcrcat/rgpu",
-      "domain": "github.com",
-      "published_at": "2026-10-07T05:15:44Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49988516\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "18a45698-8a90-4b30-ba2c-b485d299f355",
-      "title": "Archaeologists Are Reconstructing the 'Invisible' Technologies of the Stone Age",
-      "url": "https://www.smithsonianmag.com/science-nature/archaeologists-are-reconstructing-the-invisible-technologies-of-the-stone-age-from-rope-to-thread-and-twine-180989534/",
-      "domain": "smithsonianmag.com",
-      "published_at": "2026-10-07T21:25:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49998992\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9d316fbf-5a5c-454e-b90d-39555745719b",
-      "title": "Vanillin provides a sweet solution for chronic wound healing",
-      "url": "https://news.flinders.edu.au/blog/2026/10/06/vanillin-provides-a-sweet-solution-for-chronic-wound-healing/",
-      "domain": "news.flinders.edu.au",
-      "published_at": "2026-10-08T11:30:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50004542\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-10T22:43:46.210039234Z",
+  "last_updated": "2026-10-11T01:23:24.066005887Z",
   "total_count": 150
 }
