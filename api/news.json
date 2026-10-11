@@ -1,6 +1,137 @@
 {
   "items": [
     {
+      "id": "c907ba7b-ce66-4636-966b-33f685188bef",
+      "title": "AI agents in a stand-up call",
+      "url": "https://atoll92.github.io/agent-standup/",
+      "domain": "atoll92.github.io",
+      "published_at": "2026-10-11T03:42:47Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50039630\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "c200d3a0-b372-4527-8e72-b3e81ef8de35",
+      "title": "How big is a Git commit?",
+      "url": "https://ratfactor.com/cards/git-commit-size",
+      "domain": "ratfactor.com",
+      "published_at": "2026-10-09T08:13:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50017548\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9ca0c451-6fc1-4840-bc31-fab90fa04295",
+      "title": "PSPi 6 – Raspberry Pi in a PSP",
+      "url": "https://github.com/othermod/PSPi-Version-6",
+      "domain": "github.com",
+      "published_at": "2026-10-11T00:45:49Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50038623\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "0a84741d-b38a-4b9f-b9bf-e9e9830a88c6",
+      "title": "Decade-old RAM is making a comeback",
+      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
+      "domain": "theverge.com",
+      "published_at": "2026-10-10T01:37:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50028647\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3bf418f5-11d9-47dc-981f-cd438113c0c4",
+      "title": "Retrofitting language models to operate over bytes",
+      "url": "https://www.nature.com/articles/s41586-026-11111-4",
+      "domain": "nature.com",
+      "published_at": "2026-10-08T02:15:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50001234\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "19aab612-5413-4d64-9a8e-814340d35bba",
+      "title": "Show HN: Happy Hangul Day! An RNN for Generating Korean Handwriting Strokes",
+      "url": "https://hangul.ink/blog/hangul-day",
+      "domain": "hangul.ink",
+      "published_at": "2026-10-09T03:58:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50015833\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "db905cec-f621-4be8-b78e-80b3167bd947",
+      "title": "GameBoy on E-Paper ESP32 at 30FPS [video]",
+      "url": "https://www.youtube.com/watch?v=XiZmM6hwwAU",
+      "domain": "youtube.com",
+      "published_at": "2026-10-11T03:21:07Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50039536\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "5ff3a640-2c23-4876-b947-b65b1c20d52c",
+      "title": "Deterministic Simulation Testing in Celld",
+      "url": "https://celld.dev/docs/engineering/deterministic-simulation-testing/",
+      "domain": "celld.dev",
+      "published_at": "2026-10-09T18:31:50Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50024805\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c5e7ad77-b4f0-4c26-ae01-17a9fa60a25d",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "domain": "momo5502.com",
+      "published_at": "2026-10-11T02:02:38Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50039092\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
       "id": "ad92034b-8c72-4f78-ac8d-3a5f666b6934",
       "title": "WallHop – 12ft.io is gone, so I built a replacement",
       "url": "https://wallhop.io/",
@@ -2009,134 +2140,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e9f6e385-bc62-4922-a371-12e207319a7c",
-      "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
-      "url": "https://openrouter.ai/stepfun/step-5-preview",
-      "domain": "openrouter.ai",
-      "published_at": "2026-10-08T16:20:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50007764\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d89fc299-bd8e-4406-bb7b-d92d943bf409",
-      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
-      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-      "domain": "dexerto.com",
-      "published_at": "2026-10-07T16:56:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49995495\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "76e66fb2-14de-49f4-a0d0-8c1afcd5bb9d",
-      "title": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
-      "url": "https://www.nature.com/articles/s41586-026-10546-z",
-      "domain": "nature.com",
-      "published_at": "2026-10-07T18:14:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49996639\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "13107d10-8aea-4a5c-a859-09976deff57c",
-      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
-      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
-      "domain": "antonfrolov.substack.com",
-      "published_at": "2026-10-07T01:41:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49986882\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "11f3cd82-75a6-4e96-b5c7-937526f4ec12",
-      "title": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
-      "url": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html",
-      "domain": "scottbezek.blogspot.com",
-      "published_at": "2026-10-08T16:37:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50008047\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f97b135d-c036-413d-a3b5-23cf4b29730f",
-      "title": "OpenAI annualised revenues $20B less than previously signalled",
-      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-10-08T16:45:58Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50008187\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "00bf40b5-f2d9-4aab-bb07-336007f2b083",
-      "title": "The dawn of the age of the exoskeleton",
-      "url": "https://theconversation.com/the-dawn-of-the-age-of-the-exoskeleton-281804",
-      "domain": "theconversation.com",
-      "published_at": "2026-10-07T15:59:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49994663\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eee4fa4e-13ef-4412-b383-920d3503bc4a",
-      "title": "ETH-68: Ethernet Audio Interface for Linux",
-      "url": "https://naturalsystems.io/eth68",
-      "domain": "naturalsystems.io",
-      "published_at": "2026-10-07T13:58:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49992994\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "40fd3ac5-ffb6-440a-a11a-1a022837956c",
-      "title": "OLED burn-in test: 30-month update",
-      "url": "https://www.techspot.com/article/3178-oled-burn-in-test/",
-      "domain": "techspot.com",
-      "published_at": "2026-10-08T10:34:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50004115\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-11T01:23:24.066005887Z",
+  "last_updated": "2026-10-11T07:24:30.487113839Z",
   "total_count": 150
 }
