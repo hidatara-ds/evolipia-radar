@@ -1,6 +1,149 @@
 {
   "items": [
     {
+      "id": "7098ee98-ae20-4289-b996-8cded91f9b22",
+      "title": "Whatever became of holography? (2011)",
+      "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
+      "domain": "americanscientist.org",
+      "published_at": "2026-10-11T23:50:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50049411\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6e3a1b87-d11a-4c6e-b3e6-fe061508933c",
+      "title": "Fingerprints are the new cookies",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "domain": "royfish.dev",
+      "published_at": "2026-10-11T22:33:39Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50048642\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "76b2d25c-ea4f-472c-8d44-2a5bec63afcd",
+      "title": "HashiCorp archives the Boundary open source repo",
+      "url": "https://github.com/hashicorp/boundary",
+      "domain": "github.com",
+      "published_at": "2026-10-12T00:02:45Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50049498\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "86e31481-64d2-4181-9269-ca43d8e2c42a",
+      "title": "Illustration Beyond Proof",
+      "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+      "domain": "terrytao.wordpress.com",
+      "published_at": "2026-10-11T23:22:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50049133\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "febc7aa2-bf5b-4861-9bf9-164dbd48bc1c",
+      "title": "Local Indexing to reduce tool calling and token usage",
+      "url": "https://tedhaley.ca/pensieve/",
+      "domain": "tedhaley.ca",
+      "published_at": "2026-10-12T00:03:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50049508\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "36b56968-fcdc-4894-b47c-598763da97a9",
+      "title": "Programmable pigments: Photochromic nanoparticle inks for rewritable tattoos",
+      "url": "https://www.cell.com/matter-light/fulltext/S3117-5848(26)00119-5",
+      "domain": "cell.com",
+      "published_at": "2026-10-11T09:19:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50041252\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9fab470e-c748-4517-afba-0cf27be271a8",
+      "title": "Google is illegaly cutting forest to build data centers",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+      "domain": "theguardian.com",
+      "published_at": "2026-10-11T22:33:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50048638\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e31d6432-22b6-4010-98f2-93e8ef70a56e",
+      "title": "Governments are mishandling the affordability crisis",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
+      "domain": "economist.com",
+      "published_at": "2026-10-11T23:40:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50049302\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0bca9985-b0fe-48d7-afba-4b3721f508c4",
+      "title": "Qt An E2EE post-quantum messenger core in Rust (10k connections on 124MB RAM",
+      "url": "https://github.com/moral666/QT",
+      "domain": "github.com",
+      "published_at": "2026-10-11T23:52:23Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50049425\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "d2d9bcb0-0406-4982-a3fb-adcb8ae0f6e5",
+      "title": "Vectorized CLZ and CTZ",
+      "url": "https://purplesyringa.moe/blog/vectorized-clz-and-ctz/",
+      "domain": "purplesyringa.moe",
+      "published_at": "2026-10-11T03:36:42Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50039608\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
       "id": "117d3129-e89a-428d-9291-a3cb223e700d",
       "title": "Cartographers of North Korea",
       "url": "https://cartographers-nk.wonyoung.so/",
@@ -1995,148 +2138,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "62134d5d-c858-4fc2-8a98-ed9bd0c5fd0f",
-      "title": "Ideas aren't getting harder to find (2022)",
-      "url": "https://www.experimental-history.com/p/ideas-arent-getting-harder-to-find",
-      "domain": "experimental-history.com",
-      "published_at": "2026-10-09T18:16:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Ideas aren't getting harder to find (2022). Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fd918b7b-529a-4b38-bc62-7da42e3a2b6e",
-      "title": "A statement on the Tor Project's relationship with Mullvad",
-      "url": "https://blog.torproject.org/on-tor-relationship-with-mullvad/",
-      "domain": "blog.torproject.org",
-      "published_at": "2026-10-09T15:49:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "A statement on the Tor Project's relationship with Mullvad. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ac92e2f3-2743-41a7-8f50-976407fb838d",
-      "title": "M7.6 Earthquake in Panama",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k/executive",
-      "domain": "earthquake.usgs.gov",
-      "published_at": "2026-10-09T18:22:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50024669\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eb1326c6-afaa-49e6-b522-dfc57f46c62b",
-      "title": "TypeSafe a Raises $870M at a $7.5B",
-      "url": "https://typesafe.ai/blog/series-ai",
-      "domain": "typesafe.ai",
-      "published_at": "2026-10-09T17:02:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50023450\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f3860f3e-64b3-4a8a-9426-c11443b71086",
-      "title": "Triple-A Minesweeper",
-      "url": "https://minesweeper.mikelacher.com/",
-      "domain": "minesweeper.mikelacher.com",
-      "published_at": "2026-10-09T15:51:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50022292\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "96cbf947-6f33-4653-a4d2-5b08c29c6cc5",
-      "title": "You Might Want to Try Being Less Creative",
-      "url": "https://blog.bawolf.com/p/you-might-want-to-try-being-less",
-      "domain": "blog.bawolf.com",
-      "published_at": "2026-10-09T18:39:47Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50024927\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5a288c8d-e29d-40e5-96f8-f7cc6e59ada9",
-      "title": "I Pointed AI at 400 Years of Archives. It Found a Forgotten Meteorites and More",
-      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
-      "domain": "jessewaites.com",
-      "published_at": "2026-10-09T11:36:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50019056\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4e0da327-1d7a-4964-93d1-58c4cf8893a4",
-      "title": "Show HN: See *almost* any carriers phone settings",
-      "url": "https://carrierexplode.com/",
-      "domain": "carrierexplode.com",
-      "published_at": "2026-10-09T18:10:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50024499\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "52f0fd06-e615-41c0-99da-d7a147483547",
-      "title": "Part of a police code for describing suspects",
-      "url": "https://www.researchgate.net/figure/Part-of-a-police-code-for-describing-suspects_fig4_228844649",
-      "domain": "researchgate.net",
-      "published_at": "2026-10-07T14:09:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49993106\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e0b9b18c-ec9f-4a32-abea-cda61901c39a",
-      "title": "Germany transforms former coal mines into Europe's largest lake landscape",
-      "url": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
-      "domain": "euronews.com",
-      "published_at": "2026-10-09T15:05:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50021540\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-11T23:00:28.981525114Z",
+  "last_updated": "2026-10-12T02:08:46.650591603Z",
   "total_count": 150
 }
