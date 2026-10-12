@@ -1,6 +1,208 @@
 {
   "items": [
     {
+      "id": "674a957e-bf64-4531-b923-e2e485b26b2d",
+      "title": "Fable Took My Job",
+      "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
+      "domain": "cendyne.dev",
+      "published_at": "2026-10-12T08:30:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50053216\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e5a039fc-e09a-453d-bdfc-6c1a3858e579",
+      "title": "Postgres isn't slow, your storage is",
+      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+      "domain": "clickhouse.com",
+      "published_at": "2026-10-12T06:36:53Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50052163\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "8eb75cfc-e441-486a-8b5d-8c48f55b3edb",
+      "title": "Type-safe HTML templating in Zig",
+      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "domain": "lalinsky.com",
+      "published_at": "2026-10-12T05:02:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50051573\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "89ea39e8-1ad8-4a7f-bec2-5060971bac98",
+      "title": "Calculus with Julia",
+      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+      "domain": "jverzani.github.io",
+      "published_at": "2026-10-10T15:59:52Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50034206\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "a8966834-576b-4de4-acb1-cc391e8fc395",
+      "title": "Running the unmodified Linux amdgpu driver on an iPad",
+      "url": "https://github.com/Geramy/LemonSeed-Studio",
+      "domain": "github.com",
+      "published_at": "2026-10-11T10:18:18Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50041573\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "f393c17d-15ac-441a-88ef-4bce570552c3",
+      "title": "Zod 4.6.6 compromised by malware?",
+      "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+      "domain": "github.com",
+      "published_at": "2026-10-12T07:47:29Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50052814\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "731d8d2a-3d82-4b8f-aa5a-e3539f8e0a53",
+      "title": "Loop Engineering: Optimizing Code Generation and Verification",
+      "url": "https://bradleygibbs.dev/posts/loop-optimization/",
+      "domain": "bradleygibbs.dev",
+      "published_at": "2026-10-11T15:01:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50044028\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c366e5d1-4456-4916-be2b-75c483f665ce",
+      "title": "No portable way to detect string-to-float conversion errors in standard C",
+      "url": "https://sebsite.pw/w/20261009-strtod.html",
+      "domain": "sebsite.pw",
+      "published_at": "2026-10-10T15:39:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50034001\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a15a25db-0cd7-425e-b76d-442993d4414c",
+      "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+      "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+      "domain": "amosbbatto.wordpress.com",
+      "published_at": "2026-10-12T04:54:00Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50051530\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b30428a9-ce76-4c2b-932a-5595a3e33b32",
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "domain": "github.com",
+      "published_at": "2026-10-12T06:46:53Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50052251\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "58f39378-7913-4dd6-9f2e-a1746f36bbd1",
+      "title": "Doory – Open-Source Canva",
+      "url": "https://github.com/shaongitbd/doory",
+      "domain": "github.com",
+      "published_at": "2026-10-12T00:48:27Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50049872\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "b17c797f-941f-4ada-aba1-8e5a44257d38",
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "domain": "cnbc.com",
+      "published_at": "2026-10-12T05:03:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50051583\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "74ec02c1-a325-441a-ba70-0f209f7c9d60",
+      "title": "Every US Electrical Outlet Explained [video]",
+      "url": "https://www.youtube.com/watch?v=n_1wzYQwnts",
+      "domain": "youtube.com",
+      "published_at": "2026-10-10T23:12:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50038088\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4564b6ff-df70-4261-bd1f-a835c53e966b",
+      "title": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
+      "url": "https://news.ycombinator.com/item?id=50039291",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-10-11T02:37:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50039291\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "7098ee98-ae20-4289-b996-8cded91f9b22",
       "title": "Whatever became of holography? (2011)",
       "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
@@ -1929,217 +2131,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "00b7bca5-4631-4ea9-8aee-e3158a7af822",
-      "title": "Google brings agentic AI to Gemini, starting with businesses",
-      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T18:18:00Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets it...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "882ad8f6-dab0-48f2-a8c3-23383b95fd98",
-      "title": "Anthropic changes usage policy to ban model abuse and election interference",
-      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T18:16:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address ...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a45e290c-98a5-4eb7-833c-7aba63dd23e1",
-      "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
-      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T18:10:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "OpenAI's flood of proofs deviated from the guidelines set by a group of mathematical researchers consulted by the frontier lab. ",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "23b8cd46-0563-4893-83ee-dcb9eb2ebb63",
-      "title": "Natura’s $99 smart ring puts AI agents on your finger",
-      "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T16:00:00Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "Natura’s $99 Interface smart ring lets you summon AI agents with the press of a finger to complete tasks, capture thoughts, and control devices — while doubling as a health tracker.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "3b432d87-9ec4-40b0-8a9f-e097a77f0fba",
-      "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
-      "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T16:00:00Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works an...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "9d154596-0e66-4d53-8488-d7d7d9aa035e",
-      "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T15:00:00Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "c0f824ce-19ca-48d4-85ee-354c686ccb84",
-      "title": "5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass",
-      "url": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T14:00:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6d501ac5-06fe-4ccc-a798-411f3dfd2bec",
-      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-      "url": "https://arxiv.org/abs/2610.10541",
-      "domain": "arxiv.org",
-      "published_at": "2026-10-09T00:00:00-04:00",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. I...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "6659e5ba-3957-47ab-a92e-6e8172450aee",
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "url": "https://arxiv.org/abs/2610.10549",
-      "domain": "arxiv.org",
-      "published_at": "2026-10-09T00:00:00-04:00",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "fbf1abd3-d1d3-4a39-8599-49f56547ef4c",
-      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-      "url": "https://arxiv.org/abs/2610.10590",
-      "domain": "arxiv.org",
-      "published_at": "2026-10-09T00:00:00-04:00",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "arXiv:2610.10590v1 Announce Type: new \nAbstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forg...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "99956cd5-f614-4202-9a24-44b1ff4a6d36",
-      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-      "url": "https://arxiv.org/abs/2610.10611",
-      "domain": "arxiv.org",
-      "published_at": "2026-10-09T00:00:00-04:00",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "arXiv:2610.10611v1 Announce Type: new \nAbstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance sc...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "f339456a-8a35-4436-98d7-96796dce59c0",
-      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
-      "url": "https://arxiv.org/abs/2610.10629",
-      "domain": "arxiv.org",
-      "published_at": "2026-10-09T00:00:00-04:00",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "arXiv:2610.10629v1 Announce Type: new \nAbstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor review...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "22f83b06-db71-4082-9f90-69d96c9e76ce",
-      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-      "domain": "gizmodo.com",
-      "published_at": "2026-10-09T21:06:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e4702fec-6f19-4b75-ab9f-6cd26d5f0ec1",
-      "title": "No Man Is an Island",
-      "url": "https://borretti.me/article/no-man-is-an-island",
-      "domain": "borretti.me",
-      "published_at": "2026-10-09T20:04:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "No Man Is an Island. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-12T02:08:46.650591603Z",
+  "last_updated": "2026-10-12T09:29:00.778881211Z",
   "total_count": 150
 }
