@@ -1,6 +1,292 @@
 {
   "items": [
     {
+      "id": "52fea76d-8324-4a08-9ed6-142c8976dc03",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "domain": "github.com",
+      "published_at": "2026-10-12T18:29:04Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060694\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "64fd42fd-4ff0-4a49-9191-11734c8a7635",
+      "title": "GLM-Legal",
+      "url": "https://z.ai/blog/glm-legal",
+      "domain": "z.ai",
+      "published_at": "2026-10-12T16:11:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50058507\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "db70058a-62cc-4f6a-a616-a7fc18f33f3f",
+      "title": "A Modern Web App in C",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "domain": "prophitt.me",
+      "published_at": "2026-10-12T16:13:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50058528\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bf3681cf-8004-4a86-837b-476c691199bf",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "domain": "arstechnica.com",
+      "published_at": "2026-10-12T17:14:01Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059523\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "adcabf94-4f02-4967-8e23-b1b7d01feec3",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-10-12T16:46:34Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059096\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "bb94c69c-6f9a-467a-96bb-23b8aa22b9f6",
+      "title": "Citroen revives the 2CV for an electric age",
+      "url": "https://www.bbc.com/news/articles/c620r33plgppo",
+      "domain": "bbc.com",
+      "published_at": "2026-10-12T12:09:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50055220\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4f38886b-1d8f-4b6b-944e-a2664c3da3e1",
+      "title": "Muse Wonder",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "domain": "research.meta.ai",
+      "published_at": "2026-10-12T16:48:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059115\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f6393b19-83e2-4705-9167-79beddeb0d86",
+      "title": "Just say no to OpenAI and Anthropic",
+      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+      "domain": "micahflee.com",
+      "published_at": "2026-10-12T18:17:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060500\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d95ee599-4b77-4d3c-9727-a9df2e50d38a",
+      "title": "Hackers activate automatic defrosting accross European supermarket fridges",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "domain": "tomshardware.com",
+      "published_at": "2026-10-12T12:16:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50055304\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ca8ad762-e5fc-4193-bbb0-dba702cd94af",
+      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "domain": "github.com",
+      "published_at": "2026-10-12T12:41:58Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50055593\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "51af3e3b-ed88-42b3-bc02-8b42af63267a",
+      "title": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
+      "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
+      "domain": "pixelatron.com",
+      "published_at": "2026-10-10T19:28:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50036287\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ae0e15ec-d6bc-4d72-9b3d-96c5b23ef483",
+      "title": "Thinking will become a hobby",
+      "url": "https://www.spinellis.gr/blog/20261008/?li261008",
+      "domain": "spinellis.gr",
+      "published_at": "2026-10-12T16:54:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059204\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "553a7fa3-28fb-4f6d-b218-048807fa5287",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "url": "https://taylor.town/kk-ai-2026",
+      "domain": "taylor.town",
+      "published_at": "2026-10-12T15:16:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50057668\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1c66e7e8-d402-4baa-b424-9a3e37708e45",
+      "title": "Secret of Orange Cats Revealed After 60-Year Search",
+      "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search",
+      "domain": "sciencealert.com",
+      "published_at": "2026-10-10T22:10:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50037711\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4aab0548-ee55-4e08-9f49-2744d08fef2a",
+      "title": "Publishers Killed the Paperback, Then Blamed Readers",
+      "url": "https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback",
+      "domain": "jacobin.com",
+      "published_at": "2026-10-12T18:27:26Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060674\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "ef22f2d5-c319-49ce-bdb0-09e00537a6f9",
+      "title": "Fridges in French supermarkets hit by cyber attack",
+      "url": "https://www.bbc.com/news/articles/crq5nzxv9q4yo",
+      "domain": "bbc.com",
+      "published_at": "2026-10-12T15:08:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50057551\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5045ccdb-1a82-497b-ab25-1637084046c5",
+      "title": "My Reddit AMA on the Law of Web Scraping",
+      "url": "https://blog.ericgoldman.org/archives/2026/10/my-reddit-ama-on-the-law-of-web-scraping.htm",
+      "domain": "blog.ericgoldman.org",
+      "published_at": "2026-10-12T18:02:32Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060296\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "68ea7f7c-aeb9-4c45-a145-ccc8e49c08d3",
+      "title": "Feds Got Warrants to Use Fake Cell Towers to Hunt Down Don Lemon's Producer",
+      "url": "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/",
+      "domain": "wired.com",
+      "published_at": "2026-10-12T17:08:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059446\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "43b4dc98-c617-4b2e-b37a-4dcbacf43b80",
+      "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
+      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+      "domain": "simonkoeck.com",
+      "published_at": "2026-10-12T07:28:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50052638\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f943ac3c-9f2d-4ee5-b00e-88ce590b0f1d",
+      "title": "Incident with Actions, Pull Requests and Issues",
+      "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
+      "domain": "githubstatus.com",
+      "published_at": "2026-10-12T12:23:51Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "Incident with Actions, Pull Requests and Issues. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "674a957e-bf64-4531-b923-e2e485b26b2d",
       "title": "Fable Took My Job",
       "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
@@ -1846,293 +2132,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "141477c1-8de0-42ca-aeee-307447d07b82",
-      "title": "Smart contracts: Ship the parachute in v1",
-      "url": "https://medium.com/@giladha/ship-the-parachute-in-v1-why-upgradeability-and-disaster-recovery-are-not-v2-features-88191f35ba1c",
-      "domain": "medium.com",
-      "published_at": "2026-10-08T05:39:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50002114\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2f9d2272-5e07-44c0-8cc5-d64b2003fefa",
-      "title": "Has the Autonomous Trucking Revolution Arrived?",
-      "url": "https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived/",
-      "domain": "phenomenalworld.org",
-      "published_at": "2026-10-09T23:57:12Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50028062\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "9f7bfbd1-851e-41f6-a3e9-faee36a3e9bf",
-      "title": "The role of cat eye narrowing movements in cat–human communication (2020)",
-      "url": "https://www.nature.com/articles/s41598-020-73426-0",
-      "domain": "nature.com",
-      "published_at": "2026-10-06T22:10:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=49984854\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8640baf2-a1e2-4cfb-ab22-644f49d4dcca",
-      "title": "The logarithms of rational numbers have irrationality exponent 2 [pdf]",
-      "url": "https://jdb19937.github.io/log-irrationality-measure/logmeasure.pdf",
-      "domain": "jdb19937.github.io",
-      "published_at": "2026-10-09T23:32:04Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50027884\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "3428e6af-48fe-4039-8fcb-96e3a9bba145",
-      "title": "Show HN: The rarest tech books and docs you've probably never read",
-      "url": "https://readrare.com/",
-      "domain": "readrare.com",
-      "published_at": "2026-10-09T17:39:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50024055\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dc615ea3-9865-4229-b8e1-14a158c751ca",
-      "title": "Rewriting Prime Agent in Rust",
-      "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
-      "domain": "primeintellect.ai",
-      "published_at": "2026-10-09T23:06:25Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50027694\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "ac31e902-7b05-4a34-b5c4-f78a39ea92ce",
-      "title": "What mathematicians should know about the Lean Theorem Prover: reliability \u0026 AI",
-      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-      "domain": "terrytao.wordpress.com",
-      "published_at": "2026-10-09T17:42:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50024090\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6513da00-f147-4dbf-a4f0-0f053e6fbbdd",
-      "title": "Scam American companies are using to manipulate ingredient lists",
-      "url": "https://twitter.com/WallStreetApes/status/2108594998656807078",
-      "domain": "twitter.com",
-      "published_at": "2026-10-09T17:35:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Scam American companies are using to manipulate ingredient lists. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "70dbda72-6fd7-4437-9a0c-97794fb5062f",
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-09T21:41:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs. ",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eede178c-5644-4cbf-a2c6-d8b4ccc7da70",
-      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-09T19:36:56Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "75cbfcd5-d9ff-42bb-940b-47e4445b6a44",
-      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-09T16:56:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Amazon says it will\u0026#160;stop using NDAs\u0026#160;when negotiating data center deals with local governments, following\u0026#160;a\u0026#160;similar move from Microsoft\u0026#160;earlier this year. Secrecy has fueled...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6f1cbbe8-09f8-4770-887f-5824bf92eb05",
-      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-09T16:53:02Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "Amazon says it will\u0026#160;stop using NDAs\u0026#160;when negotiating data center deals with local governments, following\u0026#160;a\u0026#160;similar move from Microsoft\u0026#160;earlier this year. Secrecy has fueled...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "bd5708f9-90d5-4c00-9184-ccbc60b8df41",
-      "title": "Danu Robotics’ fight to build a better recycling robot",
-      "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-09T16:45:00Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "robotics"
-      ]
-    },
-    {
-      "id": "d2a1b405-8593-455e-9bef-46452dd55012",
-      "title": "We can’t help treating AI like it’s human. But should we?",
-      "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-09T16:40:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6b85d2f3-0c27-4fc8-9998-0bccefc80a16",
-      "title": "a16z’s Olivia Moore on the state of consumer AI",
-      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-09T15:43:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "30ffe185-404f-4aa4-8707-2042090c8c37",
-      "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
-      "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-09T14:00:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "696d94c5-28af-4666-a792-baaf36b3813d",
-      "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
-      "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T21:00:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to r...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bd5894c6-3760-4421-bbb0-20ca956514ff",
-      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
-      "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T18:20:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is provin...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e4092457-73ab-4492-ac86-248ff22a879d",
-      "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
-      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T18:19:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eaf30190-4205-4600-840a-81940258e904",
-      "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
-      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
-      "domain": "techcrunch.com",
-      "published_at": "2026-10-08T18:19:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that. ",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-12T09:29:00.778881211Z",
+  "last_updated": "2026-10-12T19:12:57.490747102Z",
   "total_count": 150
 }
