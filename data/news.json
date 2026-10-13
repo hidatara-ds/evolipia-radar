@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "id": "ae128886-5a6b-4178-ac4a-64b0550bfe37",
+      "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "domain": "argmin.net",
+      "published_at": "2026-10-13T02:46:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50065932\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6668c7bf-2872-4c2d-a4d8-6a9a0edcce0d",
+      "title": "Denmark set to allow return of 'physical force' in school",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html",
+      "domain": "lemonde.fr",
+      "published_at": "2026-10-13T06:27:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50067570\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2c8916ac-68fe-4011-9e62-139675f83eb2",
+      "title": "AI models can provably hide arbitrary capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-13T02:07:08Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50065692\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "5955677c-7db8-4bf2-9c7e-6c736e895620",
+      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "domain": "github.com",
+      "published_at": "2026-10-13T00:11:04Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50064840\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "bb2bdb08-574e-4cb0-bf5d-ca2e11a711a8",
       "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
       "url": "https://doi.org/10.1111/acel.70751",
@@ -2077,65 +2135,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "d72a187b-f665-447a-aee6-51315af99300",
-      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-      "domain": "blogs.windows.com",
-      "published_at": "2026-10-09T06:52:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50016956\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4f9a126f-a996-4344-961f-1030cebad736",
-      "title": "Timestamping a Giant Record of the Web",
-      "url": "https://projecttimestamper.org/blog/common-crawl/",
-      "domain": "projecttimestamper.org",
-      "published_at": "2026-10-09T00:29:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50014397\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "97370e94-0558-42be-8298-c991082d5a9e",
-      "title": "Computers Cannot Make Decisions",
-      "url": "https://wiki.cateat.fish/art:computers_cannot_make_decisions",
-      "domain": "wiki.cateat.fish",
-      "published_at": "2026-10-10T05:47:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50029982\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c9139dfe-f255-4e47-915a-02fd2d382106",
-      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-      "domain": "beaksec.github.io",
-      "published_at": "2026-10-10T03:02:47Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50029123\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-13T01:29:25.988719943Z",
+  "last_updated": "2026-10-13T08:07:58.860408454Z",
   "total_count": 150
 }
