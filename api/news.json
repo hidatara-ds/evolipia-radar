@@ -1,6 +1,105 @@
 {
   "items": [
     {
+      "id": "5201632b-f305-4d48-9993-bbae3c55fcf1",
+      "title": "Sound – Bartosz Ciechanowski (2022)",
+      "url": "https://ciechanow.ski/sound/",
+      "domain": "ciechanow.ski",
+      "published_at": "2026-10-11T16:46:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50045147\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "dafe872e-c2f2-44f4-a304-9793e1f9fc63",
+      "title": "Is 'Attention' the Essence of Intelligence?",
+      "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+      "domain": "quantamagazine.org",
+      "published_at": "2026-10-14T03:10:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50081930\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "99862959-dcd4-4f11-ab60-cae2a56aa94a",
+      "title": "I built a tool to track what AI leaders say and how their views change on video",
+      "url": "https://blumify.io/people",
+      "domain": "blumify.io",
+      "published_at": "2026-10-14T01:09:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50081151\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ff2ba193-5fa6-4fb5-b559-7e7de4fad0a9",
+      "title": "Grace Hopper Celebration Cancelled",
+      "url": "https://anitab.org/press-release",
+      "domain": "anitab.org",
+      "published_at": "2026-10-13T22:46:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50080007\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "cbcc260b-3345-493a-88fa-5a1dc90c8cf2",
+      "title": "High-speed video reveals how honey bee stingers pump venom",
+      "url": "https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/",
+      "domain": "arstechnica.com",
+      "published_at": "2026-10-14T01:05:23Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50081133\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0978b1f7-d6ec-463f-a1cc-04a0bd9efdab",
+      "title": "Maybe a better way to track the release history of a Git repo",
+      "url": "https://blog.plover.com/prog/git/history-proposal.html",
+      "domain": "blog.plover.com",
+      "published_at": "2026-10-12T14:41:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50057119\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0c0bec77-0e0d-48f3-997d-1fb37568cb9c",
+      "title": "A Strongly Aperiodic Monotile in Three Dimensions",
+      "url": "https://arxiv.org/abs/2609.19214",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-12T15:09:22Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50057559\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
       "id": "5c9278b4-7ffe-47a4-bbc2-0547629daeea",
       "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
       "url": "https://pulseos.finance",
@@ -2035,109 +2134,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "aa4452cb-95c5-49e2-9ebe-e709e154e8bd",
-      "title": "3rd Yandex Cloud Data Center Was Hit",
-      "url": "https://status.yandex.cloud/en/incidents/2136",
-      "domain": "status.yandex.cloud",
-      "published_at": "2026-10-11T07:34:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "3rd Yandex Cloud Data Center Was Hit. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c907ba7b-ce66-4636-966b-33f685188bef",
-      "title": "AI agents in a stand-up call",
-      "url": "https://atoll92.github.io/agent-standup/",
-      "domain": "atoll92.github.io",
-      "published_at": "2026-10-11T03:42:47Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50039630\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "c200d3a0-b372-4527-8e72-b3e81ef8de35",
-      "title": "How big is a Git commit?",
-      "url": "https://ratfactor.com/cards/git-commit-size",
-      "domain": "ratfactor.com",
-      "published_at": "2026-10-09T08:13:44Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50017548\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9ca0c451-6fc1-4840-bc31-fab90fa04295",
-      "title": "PSPi 6 – Raspberry Pi in a PSP",
-      "url": "https://github.com/othermod/PSPi-Version-6",
-      "domain": "github.com",
-      "published_at": "2026-10-11T00:45:49Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50038623\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "0a84741d-b38a-4b9f-b9bf-e9e9830a88c6",
-      "title": "Decade-old RAM is making a comeback",
-      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
-      "domain": "theverge.com",
-      "published_at": "2026-10-10T01:37:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50028647\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3bf418f5-11d9-47dc-981f-cd438113c0c4",
-      "title": "Retrofitting language models to operate over bytes",
-      "url": "https://www.nature.com/articles/s41586-026-11111-4",
-      "domain": "nature.com",
-      "published_at": "2026-10-08T02:15:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50001234\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "19aab612-5413-4d64-9a8e-814340d35bba",
-      "title": "Show HN: Happy Hangul Day! An RNN for Generating Korean Handwriting Strokes",
-      "url": "https://hangul.ink/blog/hangul-day",
-      "domain": "hangul.ink",
-      "published_at": "2026-10-09T03:58:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50015833\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-14T00:24:33.824847674Z",
+  "last_updated": "2026-10-14T05:06:32.77975589Z",
   "total_count": 150
 }
