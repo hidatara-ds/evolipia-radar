@@ -1,6 +1,136 @@
 {
   "items": [
     {
+      "id": "3204e33d-6565-43f5-b53e-23b4e514440d",
+      "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+      "url": "https://typeof.net/Iosevka/",
+      "domain": "typeof.net",
+      "published_at": "2026-10-14T08:27:59Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50084240\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "162d85c7-fb83-4d72-8a78-5210424e877e",
+      "title": "What agents mean for Rust (and vice versa)",
+      "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/",
+      "domain": "smallcultfollowing.com",
+      "published_at": "2026-10-14T08:49:06Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50084416\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "894ac45f-66b0-4e5b-b79c-ccb7b09dbd44",
+      "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "url": "https://github.com/android/ndk/issues/2260",
+      "domain": "github.com",
+      "published_at": "2026-10-14T06:18:01Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50083130\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ffc5426e-377f-40cc-8c64-6649426c2962",
+      "title": "Same Job, Two Engines: InnoDB and Iceberg Internals",
+      "url": "https://marcpaul.io/logs/same-job-two-engines-innodb-and-iceberg-internals/",
+      "domain": "marcpaul.io",
+      "published_at": "2026-10-13T13:31:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50071466\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3c0766e9-b25d-45bf-b017-a6f4b8e36628",
+      "title": "Felix Rieseberg Homepage",
+      "url": "https://felixrieseberg.com/",
+      "domain": "felixrieseberg.com",
+      "published_at": "2026-10-14T04:42:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50082470\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "654d2e3f-c858-4a18-b948-b8c5625bca19",
+      "title": "Kcgi – minimal CGI and FastCGI library for C/C++",
+      "url": "https://kristaps.bsd.lv/kcgi/",
+      "domain": "kristaps.bsd.lv",
+      "published_at": "2026-10-12T21:09:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50063104\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "16197cd6-d5cd-4ffd-a117-03a5225ee4b2",
+      "title": "Arena Allocators in C",
+      "url": "https://eliasebner.com/blog/guides/arena-allocators-in-c/",
+      "domain": "eliasebner.com",
+      "published_at": "2026-10-11T18:07:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50046022\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1c0fd4e0-c4fa-4bab-b3f1-32c277af3d9f",
+      "title": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
+      "url": "https://strafe.chat/",
+      "domain": "strafe.chat",
+      "published_at": "2026-10-14T03:28:00Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50082021\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "420b30b6-89bf-4be2-89c2-722c458b8edb",
+      "title": "How to Select an Experiment",
+      "url": "https://chillphysicsenjoyer.substack.com/p/how-to-select-an-experiment",
+      "domain": "chillphysicsenjoyer.substack.com",
+      "published_at": "2026-10-12T15:20:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50057720\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5201632b-f305-4d48-9993-bbae3c55fcf1",
       "title": "Sound – Bartosz Ciechanowski (2022)",
       "url": "https://ciechanow.ski/sound/",
@@ -2006,136 +2136,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "20456cd7-df37-48df-8b59-26f7d866945b",
-      "title": "How HN: Go-dev-auth zero-dependency authentication library for Go",
-      "url": "https://github.com/go-dev-auth/go-dev-auth",
-      "domain": "github.com",
-      "published_at": "2026-10-11T13:06:36Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50042942\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "7fcdac69-5935-4598-87ce-7b0799de5949",
-      "title": "Nitter: Update Oct 10th seeking funding and legal help",
-      "url": "https://nitter.net",
-      "domain": "nitter.net",
-      "published_at": "2026-10-11T10:37:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50041682\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "19fdb0c9-6b56-452d-b580-afcdb00510d6",
-      "title": "Terence Tao: Math 2.0 [pdf]",
-      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-      "domain": "teorth.github.io",
-      "published_at": "2026-10-11T13:16:45Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50043026\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "08c65420-6350-4077-9c8b-259b40646d30",
-      "title": "What driving across Europe costs in tolls, vignettes, bridges and fuel",
-      "url": "https://copilot.travel/tolls/europe-2026",
-      "domain": "copilot.travel",
-      "published_at": "2026-10-11T11:39:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50042149\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b0b8a204-ef22-4944-aa10-f24a6cb169ef",
-      "title": "IRCv3",
-      "url": "https://ircv3.net/",
-      "domain": "ircv3.net",
-      "published_at": "2026-10-11T10:11:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50041540\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4fcc1a12-643f-42c4-accf-98bf333b9fc9",
-      "title": "Rat's Register Allocator",
-      "url": "https://hexrat.cc/pages/blog/2026_10_07",
-      "domain": "hexrat.cc",
-      "published_at": "2026-10-10T07:10:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50030470\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "93ce65c4-4004-457d-816d-877be185b9e6",
-      "title": "When Ldaxr Doesn't Work: Exclusive Accesses and Cacheability on AArch64",
-      "url": "https://joelsiks.com/posts/aarch64-exclusive-access-cacheability/",
-      "domain": "joelsiks.com",
-      "published_at": "2026-10-10T09:55:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50031289\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "faefba6a-0a09-414e-a247-8ed2d5127e24",
-      "title": "Compression and Concatenation on the Web",
-      "url": "https://theconsensus.dev/p/2026/10/04/compression-and-concatenation-on-the-web.html?focus=1",
-      "domain": "theconsensus.dev",
-      "published_at": "2026-10-10T14:21:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50033300\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "88efc467-5b74-4fc2-badd-b225d143f43e",
-      "title": "Plumbers, chains, and famous painters: The history of the pipe operator in R",
-      "url": "http://adolfoalvarez.cl/blog/2021-09-16-plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/",
-      "domain": "adolfoalvarez.cl",
-      "published_at": "2026-10-09T11:20:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50018929\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-14T05:06:32.77975589Z",
+  "last_updated": "2026-10-14T10:22:31.122918436Z",
   "total_count": 150
 }
