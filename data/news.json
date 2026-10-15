@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "fa567d97-1c36-4577-bc81-1443f8a7fd85",
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "domain": "liquid.ai",
+      "published_at": "2026-10-14T23:59:37Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50097369\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "ae2587af-c97a-4d21-9997-62a55fd0d5bd",
+      "title": "Ask HN: CAD for wood working with LLM support?",
+      "url": "https://news.ycombinator.com/item?id=50067325",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-10-13T05:54:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50067325\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a88121a3-5cf3-4f7d-ba94-67c9af1f4983",
+      "title": "Why is every rationalist blog post way too long?",
+      "url": "https://alexwennerberg.com/blog/2026-10-13-long.html",
+      "domain": "alexwennerberg.com",
+      "published_at": "2026-10-14T06:02:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Why is every rationalist blog post way too long?. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b2dd9528-641e-4aa8-a7bf-404bd063d1a5",
       "title": "Things to know when you get cancer – 2026 Edition",
       "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
@@ -2092,52 +2135,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e5a039fc-e09a-453d-bdfc-6c1a3858e579",
-      "title": "Postgres isn't slow, your storage is",
-      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
-      "domain": "clickhouse.com",
-      "published_at": "2026-10-12T06:36:53Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50052163\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "8eb75cfc-e441-486a-8b5d-8c48f55b3edb",
-      "title": "Type-safe HTML templating in Zig",
-      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
-      "domain": "lalinsky.com",
-      "published_at": "2026-10-12T05:02:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50051573\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "89ea39e8-1ad8-4a7f-bec2-5060971bac98",
-      "title": "Calculus with Julia",
-      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
-      "domain": "jverzani.github.io",
-      "published_at": "2026-10-10T15:59:52Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50034206\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-14T22:46:45.677595641Z",
+  "last_updated": "2026-10-15T01:02:20.021221642Z",
   "total_count": 150
 }
