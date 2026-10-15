@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "id": "cf8b8a86-43a2-4a6c-9725-95986e15784b",
+      "title": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "url": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
+      "domain": "blog.dfb.sh",
+      "published_at": "2026-10-13T12:30:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50070625\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bdf50101-3bbe-4d70-9535-3054b01468df",
+      "title": "Show HN: Indigene – Native plants for where you stand",
+      "url": "https://indigene.app/",
+      "domain": "indigene.app",
+      "published_at": "2026-10-12T23:25:20Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50064470\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d638b7e1-a372-45c3-b5ad-3bbfd463701c",
+      "title": "The First Social Network: In rural Argentina residents send messages w AM radio",
+      "url": "https://www.newyorker.com/magazine/2026/10/19/the-first-social-network",
+      "domain": "newyorker.com",
+      "published_at": "2026-10-13T22:17:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50079701\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "03311764-cef9-4e4f-a86b-25b60c8516db",
+      "title": "Sticky alpine flower confirms Darwin's 150-year-old carnivorous plant prediction",
+      "url": "https://phys.org/news/2026-08-sticky-alpine-darwin-year-carnivorous.html",
+      "domain": "phys.org",
+      "published_at": "2026-10-12T18:20:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060547\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "04627cb1-5929-4bf5-9b47-c80f1bac08a5",
+      "title": "Bookofjoe's Favorite Thing: Best Pill Splitter",
+      "url": "https://bookofjoe2.blogspot.com/2026/09/bookofjoes-favorite-thing-worlds-best.html",
+      "domain": "bookofjoe2.blogspot.com",
+      "published_at": "2026-10-13T14:00:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50071902\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8ffce5f4-0e06-4677-a80d-430e1a1754cd",
+      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "domain": "github.com",
+      "published_at": "2026-10-15T07:20:39Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50100387\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "a74e65fc-c908-4879-b3fd-59b3d9f18dca",
+      "title": "Show HN: Ito – Build Terminal UIs in Lua",
+      "url": "https://uji.sh/ito/",
+      "domain": "uji.sh",
+      "published_at": "2026-10-14T22:23:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50096300\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "57df5218-8d5a-4ec7-bc27-f7fe99379143",
+      "title": "David Rudnick on \"borderline impossible\" process of designing Arsenal typeface",
+      "url": "https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026",
+      "domain": "itsnicethat.com",
+      "published_at": "2026-10-12T18:44:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060923\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "3f819e65-a9ee-40ca-acf5-581de177faa3",
       "title": "An Apology",
       "url": "https://www.elevationlab.com/blogs/news/an-apology",
@@ -2021,121 +2135,8 @@
         "agents",
         "agents"
       ]
-    },
-    {
-      "id": "bb94c69c-6f9a-467a-96bb-23b8aa22b9f6",
-      "title": "Citroen revives the 2CV for an electric age",
-      "url": "https://www.bbc.com/news/articles/c620r33plgppo",
-      "domain": "bbc.com",
-      "published_at": "2026-10-12T12:09:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50055220\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4f38886b-1d8f-4b6b-944e-a2664c3da3e1",
-      "title": "Muse Wonder",
-      "url": "https://research.meta.ai/blog/muse-wonder",
-      "domain": "research.meta.ai",
-      "published_at": "2026-10-12T16:48:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059115\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f6393b19-83e2-4705-9167-79beddeb0d86",
-      "title": "Just say no to OpenAI and Anthropic",
-      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
-      "domain": "micahflee.com",
-      "published_at": "2026-10-12T18:17:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060500\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d95ee599-4b77-4d3c-9727-a9df2e50d38a",
-      "title": "Hackers activate automatic defrosting accross European supermarket fridges",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-      "domain": "tomshardware.com",
-      "published_at": "2026-10-12T12:16:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50055304\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ca8ad762-e5fc-4193-bbb0-dba702cd94af",
-      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
-      "url": "https://github.com/h0m3us3r/w1700k-sdr",
-      "domain": "github.com",
-      "published_at": "2026-10-12T12:41:58Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50055593\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "51af3e3b-ed88-42b3-bc02-8b42af63267a",
-      "title": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
-      "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
-      "domain": "pixelatron.com",
-      "published_at": "2026-10-10T19:28:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50036287\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ae0e15ec-d6bc-4d72-9b3d-96c5b23ef483",
-      "title": "Thinking will become a hobby",
-      "url": "https://www.spinellis.gr/blog/20261008/?li261008",
-      "domain": "spinellis.gr",
-      "published_at": "2026-10-12T16:54:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059204\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "553a7fa3-28fb-4f6d-b218-048807fa5287",
-      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
-      "url": "https://taylor.town/kk-ai-2026",
-      "domain": "taylor.town",
-      "published_at": "2026-10-12T15:16:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50057668\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-15T06:00:04.674501771Z",
+  "last_updated": "2026-10-15T10:58:46.870632479Z",
   "total_count": 150
 }
