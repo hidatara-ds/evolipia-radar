@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "id": "3f819e65-a9ee-40ca-acf5-581de177faa3",
+      "title": "An Apology",
+      "url": "https://www.elevationlab.com/blogs/news/an-apology",
+      "domain": "elevationlab.com",
+      "published_at": "2026-10-15T04:23:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50099121\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4cc3fe5e-9dca-4660-af09-2c9c492c4ce8",
+      "title": "Donaldson Futuro House in Idyllwild, California, USA",
+      "url": "https://www.wowhaus.co.uk/2026/10/12/donaldson-futuro-house-in-idyllwild-california-usa/",
+      "domain": "wowhaus.co.uk",
+      "published_at": "2026-10-13T19:55:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50077709\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6f3e451b-a3bc-4e7c-80c6-646ada00b9a5",
+      "title": "The Double Headed Stack Allocator",
+      "url": "https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/",
+      "domain": "blog.demofox.org",
+      "published_at": "2026-10-15T02:06:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50098274\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3b64846d-1b17-4bcf-8d8c-8549716316aa",
+      "title": "Catch a Bird – I made it for my own sanity",
+      "url": "https://catchabird.com",
+      "domain": "catchabird.com",
+      "published_at": "2026-10-12T08:51:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50053384\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b69548b0-6cdb-47ed-8f66-f103f8dcf454",
+      "title": "Your C is not standard C",
+      "url": "https://sebsite.pw/w/20261012-notstdc.html",
+      "domain": "sebsite.pw",
+      "published_at": "2026-10-13T13:36:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50071546\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "372244ba-c929-471d-b1c9-d61249c1f071",
+      "title": "It took me nine years to hack my Xbox 360",
+      "url": "https://kennedn.com/blog/posts/glitching/",
+      "domain": "kennedn.com",
+      "published_at": "2026-10-13T12:33:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50070661\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "aee51f74-1b8f-4dbd-b463-5fd2068bd532",
+      "title": "The Toftwood Male Voice Choir: A Mystery Pressed in Vinyl",
+      "url": "https://ei3lh.eu/2026/10/11/the-toftwood-male-voice-choir-a-mystery-pressed-in-vinyl/",
+      "domain": "ei3lh.eu",
+      "published_at": "2026-10-11T20:36:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50047576\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ecfc599e-6670-4ea6-8c49-ef349d178db1",
+      "title": "Show HN: Flipflop, iroh-powered persistent tunnels for filesharing",
+      "url": "https://github.com/andunieee/flipflop",
+      "domain": "github.com",
+      "published_at": "2026-10-15T04:25:28Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50099136\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "fa567d97-1c36-4577-bc81-1443f8a7fd85",
       "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
       "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
@@ -2021,122 +2134,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "1c66e7e8-d402-4baa-b424-9a3e37708e45",
-      "title": "Secret of Orange Cats Revealed After 60-Year Search",
-      "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search",
-      "domain": "sciencealert.com",
-      "published_at": "2026-10-10T22:10:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50037711\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4aab0548-ee55-4e08-9f49-2744d08fef2a",
-      "title": "Publishers Killed the Paperback, Then Blamed Readers",
-      "url": "https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback",
-      "domain": "jacobin.com",
-      "published_at": "2026-10-12T18:27:26Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060674\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "ef22f2d5-c319-49ce-bdb0-09e00537a6f9",
-      "title": "Fridges in French supermarkets hit by cyber attack",
-      "url": "https://www.bbc.com/news/articles/crq5nzxv9q4yo",
-      "domain": "bbc.com",
-      "published_at": "2026-10-12T15:08:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50057551\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5045ccdb-1a82-497b-ab25-1637084046c5",
-      "title": "My Reddit AMA on the Law of Web Scraping",
-      "url": "https://blog.ericgoldman.org/archives/2026/10/my-reddit-ama-on-the-law-of-web-scraping.htm",
-      "domain": "blog.ericgoldman.org",
-      "published_at": "2026-10-12T18:02:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50060296\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "68ea7f7c-aeb9-4c45-a145-ccc8e49c08d3",
-      "title": "Feds Got Warrants to Use Fake Cell Towers to Hunt Down Don Lemon's Producer",
-      "url": "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/",
-      "domain": "wired.com",
-      "published_at": "2026-10-12T17:08:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059446\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "43b4dc98-c617-4b2e-b37a-4dcbacf43b80",
-      "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
-      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
-      "domain": "simonkoeck.com",
-      "published_at": "2026-10-12T07:28:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50052638\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f943ac3c-9f2d-4ee5-b00e-88ce590b0f1d",
-      "title": "Incident with Actions, Pull Requests and Issues",
-      "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
-      "domain": "githubstatus.com",
-      "published_at": "2026-10-12T12:23:51Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "Incident with Actions, Pull Requests and Issues. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "674a957e-bf64-4531-b923-e2e485b26b2d",
-      "title": "Fable Took My Job",
-      "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
-      "domain": "cendyne.dev",
-      "published_at": "2026-10-12T08:30:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50053216\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-15T01:02:20.021221642Z",
+  "last_updated": "2026-10-15T06:00:04.674501771Z",
   "total_count": 150
 }
