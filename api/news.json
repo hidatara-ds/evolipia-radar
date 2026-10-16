@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "id": "3d385b07-af0e-4f26-8030-48d4ba3a3c64",
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "url": "https://github.com/Saffsanity/sill",
+      "domain": "github.com",
+      "published_at": "2026-10-16T01:43:17Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50112739\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "a539bef4-124e-478d-8e8c-ec8fb758fb9c",
+      "title": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+      "domain": "niemanlab.org",
+      "published_at": "2026-10-15T23:37:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50111852\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "65c0836e-a78f-4875-a569-aef33e4601d2",
+      "title": "RPKI now protects 70% of internet routes",
+      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+      "domain": "ipinfo.io",
+      "published_at": "2026-10-16T00:52:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50112330\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8949f5de-9d7a-46ec-b73a-70aa295bdfe5",
+      "title": "'500-hour' Order of the Sinking Star is as complex and exhausting as it sounds",
+      "url": "https://www.polygon.com/order-of-the-sinking-star-impressions/",
+      "domain": "polygon.com",
+      "published_at": "2026-10-13T14:14:20Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50072119\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1bfa9cab-532f-48dc-ac12-ee2957c08a43",
+      "title": "Non-Determinism Doesn't Matter",
+      "url": "https://sklar.rocks/non-determinism-doesnt-matter/",
+      "domain": "sklar.rocks",
+      "published_at": "2026-10-14T13:37:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50087616\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f9e5be6a-166a-46d6-8e1b-eb81c4f34a93",
+      "title": "Comparing Chromium Development at Google and Igalia",
+      "url": "https://lwn.net/Articles/1094721/",
+      "domain": "lwn.net",
+      "published_at": "2026-10-16T01:56:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50112887\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0b507c42-efb0-492f-8309-9974d117f357",
+      "title": "4 Years of Ludicon",
+      "url": "https://www.ludicon.com/castano/blog/2026/10/4-years-of-ludicon/",
+      "domain": "ludicon.com",
+      "published_at": "2026-10-13T13:22:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50071319\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "81584de7-b152-4d4e-8804-7c6797eab907",
+      "title": "Thank You, Deno",
+      "url": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
+      "domain": "vlt.io",
+      "published_at": "2026-10-16T00:52:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50112331\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "93e94072-f8ba-406b-ac3c-8451035dce89",
       "title": "Apple routed a graphite pipe through the iPhone Duo's hinge to dissipate heat",
       "url": "https://www.pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge",
@@ -2019,121 +2132,8 @@
         "robotics",
         "robotics"
       ]
-    },
-    {
-      "id": "461e27c4-e05c-4c4e-982e-b971525b97a4",
-      "title": "Show HN: XY Music Notation",
-      "url": "https://music.xy.dev/",
-      "domain": "music.xy.dev",
-      "published_at": "2026-10-13T17:43:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50075665\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "17c300f0-63fc-4edc-b5d0-2f7823139a53",
-      "title": "The Four Colour Theorem: The first time machines mogged mathematicians",
-      "url": "https://newsletter.pessimistsarchive.org/p/the-1st-time-machines-mogged-mathematicians",
-      "domain": "newsletter.pessimistsarchive.org",
-      "published_at": "2026-10-13T19:17:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50077096\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "98ec290c-4b3c-418b-a76e-63fa26ccbd71",
-      "title": "Hiking the world in search of rare cheeses",
-      "url": "https://www.bbc.com/travel/article/20261007-the-man-hiking-the-world-in-search-of-rare-cheeses",
-      "domain": "bbc.com",
-      "published_at": "2026-10-12T17:15:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50059542\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6f02c7c4-10c5-4cf9-9905-0e918f760dbc",
-      "title": "How to engineer an AI harness for game development",
-      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "domain": "kylekukshtel.com",
-      "published_at": "2026-10-13T14:14:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50072120\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d9cb97c9-ccef-47c8-bbfa-67fc396701cf",
-      "title": "Show HN: How Random Are You?",
-      "url": "https://lab.specr.net/rigged-draw/",
-      "domain": "lab.specr.net",
-      "published_at": "2026-10-13T16:57:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50074909\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "05de2df5-019a-4169-a690-f7dcd90875c9",
-      "title": "Apple HomeView",
-      "url": "https://www.apple.com/apple-homeview/",
-      "domain": "apple.com",
-      "published_at": "2026-10-13T13:02:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50071017\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4cc4c4df-306d-4677-b713-33fd77034698",
-      "title": "11 year old unsoundness bugs found in Rust borrow checker",
-      "url": "https://github.com/rust-lang/rust/issues/164250",
-      "domain": "github.com",
-      "published_at": "2026-10-13T10:27:00Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50069499\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "900df704-170a-4eb4-86bf-6ede4c6f5d68",
-      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
-      "url": "https://eg2.haku.sh/",
-      "domain": "eg2.haku.sh",
-      "published_at": "2026-10-13T11:27:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50069971\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-16T00:52:11.037591477Z",
+  "last_updated": "2026-10-16T05:14:23.541581544Z",
   "total_count": 150
 }
