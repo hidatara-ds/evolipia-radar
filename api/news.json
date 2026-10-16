@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "bd9855f3-5835-49e5-8bb8-bf3a021e4c3a",
+      "title": "PGO or not PGO this is the dilemma. Step 2",
+      "url": "https://www.percona.com/blog/pgo-or-not-pgo-this-is-the-dilemma-step-2/",
+      "domain": "percona.com",
+      "published_at": "2026-10-14T16:33:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50090453\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7dbc1c5a-56db-415d-b9b2-f27a92be927f",
+      "title": "What was a Token Ring network?",
+      "url": "https://dfarq.homeip.net/what-was-a-token-ring-network/",
+      "domain": "dfarq.homeip.net",
+      "published_at": "2026-10-16T13:43:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50118318\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "da96b4ab-e744-464a-8bb8-81eae87fbd2c",
       "title": "Claude reveals ECDSA curve origins",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
@@ -2096,38 +2124,8 @@
         "robotics",
         "robotics"
       ]
-    },
-    {
-      "id": "4edf8aaa-6f94-481f-86ef-3058dadbe2b3",
-      "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
-      "url": "https://github.com/graphicle-ai/graphicle",
-      "domain": "github.com",
-      "published_at": "2026-10-14T15:00:41Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50088713\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "4110469f-ab33-4251-8dad-f2aebf6d8768",
-      "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
-      "url": "https://clova.email/",
-      "domain": "clova.email",
-      "published_at": "2026-10-14T17:00:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50090932\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-16T21:26:14.478065227Z",
+  "last_updated": "2026-10-16T23:43:47.154753782Z",
   "total_count": 150
 }
