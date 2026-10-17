@@ -1,6 +1,77 @@
 {
   "items": [
     {
+      "id": "fb3184d9-bf68-4b4a-84fe-91c7886f7b53",
+      "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
+      "domain": "doctor-seo.net",
+      "published_at": "2026-10-17T20:07:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50134617\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "98b3dd7e-bd10-493e-b0ca-3ddc08d70e1e",
+      "title": "Microsoft and CMU Team Up to Train Early Career Software Engineers",
+      "url": "https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise",
+      "domain": "cs.cmu.edu",
+      "published_at": "2026-10-17T18:45:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50133830\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d6fbc773-24de-47f3-8ee1-68d5234f6a6e",
+      "title": "Laser Fault Injection on a Budget: RP2350 Edition",
+      "url": "https://courk.cc/rp2350-challenge-laser",
+      "domain": "courk.cc",
+      "published_at": "2026-10-15T10:24:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50101649\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "24bd0286-dfe7-44ba-9ee1-c87f3f1d8e44",
+      "title": "I Became a Citizen of Japan",
+      "url": "https://www.derekwessman.com/blog-1/natural",
+      "domain": "derekwessman.com",
+      "published_at": "2026-10-17T17:36:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50133150\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c0a4b60a-cf0e-4e6d-be1f-9f19a2557483",
+      "title": "Codex is EATING my Mac's disk space",
+      "url": "https://github.com/openai/codex/issues/25921",
+      "domain": "github.com",
+      "published_at": "2026-10-17T17:45:08Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50133231\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "b9a11830-6216-431a-8783-6846b5f8ef7b",
       "title": "Bleached corals thrive within days when touching healthy neighbour",
       "url": "https://www.nature.com/articles/d41586-026-03266-x",
@@ -2053,79 +2124,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "a89847e8-47f6-48aa-b6b7-e825a6adb396",
-      "title": "Celebrating 70 Years of Fortran",
-      "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
-      "domain": "fortran-lang.org",
-      "published_at": "2026-10-15T15:03:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50104726\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "af8557e0-080c-4107-86e5-421139aeaf35",
-      "title": "C++26 Contracts: Introduction to Preconditions and Postconditions",
-      "url": "https://www.cppstories.com/2026/cpp26_contracts/",
-      "domain": "cppstories.com",
-      "published_at": "2026-10-15T13:11:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50103164\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a85d9791-ae83-4b2e-b38d-bf871414d829",
-      "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
-      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-      "domain": "citizenlab.ca",
-      "published_at": "2026-10-15T10:43:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50101813\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "43c4a9ab-1054-43f3-8346-4a4af7935cea",
-      "title": "The Haunted Toys R Us",
-      "url": "https://www.retroist.com/p/the-haunted-toys-r-us",
-      "domain": "retroist.com",
-      "published_at": "2026-10-12T16:13:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50058531\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ecf5c336-a220-42c2-91e9-2c81b1d7d0f5",
-      "title": "GridSnap – an open-source Divvy-style window snapper for macOS",
-      "url": "https://github.com/konieczkow/gridsnap",
-      "domain": "github.com",
-      "published_at": "2026-10-15T13:19:07Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50103263\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-17T19:33:27.088349058Z",
+  "last_updated": "2026-10-17T21:49:14.706255929Z",
   "total_count": 150
 }
