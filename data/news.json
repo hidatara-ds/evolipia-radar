@@ -1,6 +1,104 @@
 {
   "items": [
     {
+      "id": "93c92a9a-a03b-4bc1-8d54-45e5ca01f21d",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "domain": "api-docs.deepseek.com",
+      "published_at": "2026-10-18T06:50:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50138531\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "35c78f0c-5ba9-4fef-a5f9-5e781df496a9",
+      "title": "Parser Combinators",
+      "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
+      "domain": "t3.at",
+      "published_at": "2026-10-18T08:19:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50139067\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "49574c1a-ee70-4ad4-88a3-10a18e2a5944",
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "domain": "anthropic.com",
+      "published_at": "2026-10-18T10:49:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50139873\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3bf035fe-2e5b-4883-8c34-3826eb02b7df",
+      "title": "Teal – A statically-typed dialect of Lua",
+      "url": "https://teal-language.org/",
+      "domain": "teal-language.org",
+      "published_at": "2026-10-16T21:07:24Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50124730\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a53e7750-30c1-4aa9-b713-0bb102154a20",
+      "title": "Legal experts warn Meta's new terms still grant broad scraping permissions",
+      "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+      "domain": "niemanlab.org",
+      "published_at": "2026-10-18T10:21:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50139692\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4d62c6e3-7e78-4e26-8096-9e837b6d68c2",
+      "title": "Regex visualized as 3D marble run",
+      "url": "https://www.regexmarblerun.com/",
+      "domain": "regexmarblerun.com",
+      "published_at": "2026-10-16T18:48:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50122671\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a1b8ec1f-e93e-4057-8b31-f54dbbe454ca",
+      "title": "Lorenz and Little: How Much Does Your Tail Cost?",
+      "url": "https://brooker.co.za/blog/2026/07/29/lorenz-and-little.html",
+      "domain": "brooker.co.za",
+      "published_at": "2026-10-15T02:39:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50098485\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1b96f95d-6350-4141-991f-ba92734f053b",
       "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
       "url": "https://sphinx-six-theta.vercel.app/",
@@ -2026,107 +2124,8 @@
         "agents",
         "agents"
       ]
-    },
-    {
-      "id": "6ea8e812-c333-4f6a-b2cc-6c572caca4b2",
-      "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
-      "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
-      "domain": "thereallo.dev",
-      "published_at": "2026-10-15T19:21:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50108872\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b9cd6dcc-619a-4721-a863-a6cfc3058f1c",
-      "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
-      "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
-      "domain": "support.withings.com",
-      "published_at": "2026-10-15T19:55:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50109375\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f03bd228-b376-457f-a6ef-6051bfaddf46",
-      "title": "Rediscovering the Romance of Travel Clocks",
-      "url": "https://www.acollectedman.com/blogs/journal/rediscovering-travel-clocks",
-      "domain": "acollectedman.com",
-      "published_at": "2026-10-12T20:35:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50062683\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "985c42a7-ab65-4193-a62b-60a3e0085c84",
-      "title": "The 8-mile hole in a Hawaii national park that no one can explain",
-      "url": "https://www.sfgate.com/national-parks/article/hawaii-volcanoes-park-great-crack-22358849.php",
-      "domain": "sfgate.com",
-      "published_at": "2026-10-14T05:08:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50082637\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "03457dc2-7f19-4fe7-ac34-bafbff83456e",
-      "title": "Muse Spark Open",
-      "url": "https://research.meta.ai/blog/muse-spark-open",
-      "domain": "research.meta.ai",
-      "published_at": "2026-10-15T17:47:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50107379\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ca109bef-a25e-4cc6-bb51-d64bdd39cedc",
-      "title": "Neural networks are clean",
-      "url": "https://already-clean.goodfire.com/",
-      "domain": "already-clean.goodfire.com",
-      "published_at": "2026-10-15T16:04:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50105647\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "98125f7c-0e69-4bb3-8c50-2f231318e362",
-      "title": "Krea 3 – An image model built for editing at scale",
-      "url": "https://www.krea.ai/krea-3",
-      "domain": "krea.ai",
-      "published_at": "2026-10-15T16:04:05Z",
-      "category": "vision",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50105648\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "vision",
-        "vision"
-      ]
     }
   ],
-  "last_updated": "2026-10-18T06:44:38.883106645Z",
+  "last_updated": "2026-10-18T11:50:54.116499252Z",
   "total_count": 150
 }
