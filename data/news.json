@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "id": "d51060e1-a828-4b4d-a9ec-5f866ed9273f",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-18T20:48:14Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50145337\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "e8fd02fd-3fe5-4ed0-b241-f7070ce088d8",
+      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "domain": "youtube.com",
+      "published_at": "2026-10-17T23:26:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50136150\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "af5977d5-e767-4433-98ea-987bf7b868c5",
+      "title": "16-bit fully functional DIY magnetic core memory",
+      "url": "https://www.youtube.com/watch?v=OJ1WYyO2jdY",
+      "domain": "youtube.com",
+      "published_at": "2026-10-15T01:51:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50098148\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3d8559c5-a15a-4615-9b44-47b12b96d831",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "domain": "blog.picheta.me",
+      "published_at": "2026-10-17T22:26:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50135762\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0db9b1eb-0c3c-41a9-9744-b4c3f1fa6d11",
+      "title": "They war-gamed dimming the Sun. It went worse than you think",
+      "url": "https://www.wired.com/story/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+      "domain": "wired.com",
+      "published_at": "2026-10-15T14:13:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50103988\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6e22c4ba-c634-4444-baf4-3f697509e0c0",
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "domain": "github.com",
+      "published_at": "2026-10-18T21:36:10Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50145715\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "5f0e24fa-0338-41a2-a01c-c7ad30c5720a",
       "title": "Free Pascal compiler now supports dynamic packages",
       "url": "https://www.getlazarus.org/dynamic/",
@@ -2040,93 +2127,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "2560fcca-bac6-494b-afcf-e903fff0df35",
-      "title": "How to make System 1 LLMs show System 2 competencies?",
-      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
-      "domain": "onlinelibrary.wiley.com",
-      "published_at": "2026-10-16T14:16:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50118662\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "61760612-c58f-4ffc-8487-23f0c2c5ab02",
-      "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
-      "url": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
-      "domain": "ritchietorres.house.gov",
-      "published_at": "2026-10-16T16:03:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50120101\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7d075618-97ae-4f9b-a939-4f4f5bf2e5a6",
-      "title": "Show HN: rStation – A shared research lab for your AI agents",
-      "url": "https://rstation.ai/",
-      "domain": "rstation.ai",
-      "published_at": "2026-10-16T14:35:43Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50118876\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "25761640-cd0e-4b94-aa30-05e5a5b11002",
-      "title": "Inside Polymarket's paid quote-retweet esports program",
-      "url": "https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation",
-      "domain": "readergrev.com",
-      "published_at": "2026-10-16T15:56:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50120010\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6ab60e6d-c9cd-4a76-96d9-180db6fe7e8f",
-      "title": "Show HN: Wonderhop – A daily game: guess what most people say, or what none do",
-      "url": "https://wonderhop.io/en/",
-      "domain": "wonderhop.io",
-      "published_at": "2026-10-13T23:10:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50080246\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2b026673-4785-4fac-9922-c5f6b76e6118",
-      "title": "How to Formalize All of Mathematics",
-      "url": "https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/",
-      "domain": "xenaproject.wordpress.com",
-      "published_at": "2026-10-16T14:01:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "How to Formalize All of Mathematics. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-18T20:55:28.525566737Z",
+  "last_updated": "2026-10-18T22:39:21.925968274Z",
   "total_count": 150
 }
