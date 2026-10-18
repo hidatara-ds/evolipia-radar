@@ -1,6 +1,147 @@
 {
   "items": [
     {
+      "id": "5f0e24fa-0338-41a2-a01c-c7ad30c5720a",
+      "title": "Free Pascal compiler now supports dynamic packages",
+      "url": "https://www.getlazarus.org/dynamic/",
+      "domain": "getlazarus.org",
+      "published_at": "2026-10-18T18:48:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50144066\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c71c07f4-68d0-41cc-b8ba-ebfc2b4036b6",
+      "title": "PalmOS Lemmings",
+      "url": "https://github.com/ardiri/palmos-lemmings",
+      "domain": "github.com",
+      "published_at": "2026-10-18T17:56:59Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50143536\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "177b30e7-81ee-4b07-a403-1d8d68f35b16",
+      "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+      "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+      "domain": "sciencealert.com",
+      "published_at": "2026-10-18T01:38:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50136979\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "43e54ebd-6435-4b2e-9c39-cb3e0b078c70",
+      "title": "Developing for Debugging (2025)",
+      "url": "https://www.davepacheco.net/blog/2025/developing-for-debugging-dns-propagation/",
+      "domain": "davepacheco.net",
+      "published_at": "2026-10-17T13:34:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50131053\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "fa7d3228-beed-4995-b1cb-1ae33267ee6b",
+      "title": "Show HN: Ranet3 – High performance policy routed IPsec mesh SD-WAN",
+      "url": "https://ranet3.com/",
+      "domain": "ranet3.com",
+      "published_at": "2026-10-18T14:31:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50141436\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ed92cfb5-f6d1-4ad8-bce9-f3937e9f8956",
+      "title": "CKKS – Addition and Multiplication",
+      "url": "https://www.jeremykun.com/2026/10/11/ckks-addition-and-multiplication/",
+      "domain": "jeremykun.com",
+      "published_at": "2026-10-16T15:43:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50119819\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a3f9223e-b685-4448-a37c-11aa8f091bd7",
+      "title": "Geographical Fun: Being Humourous Outlines of Various Countries (1868)",
+      "url": "https://publicdomainreview.org/collection/geographical-fun-being-humourous-outlines-of-various-countries-1868/",
+      "domain": "publicdomainreview.org",
+      "published_at": "2026-10-17T08:24:23Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50129060\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5e767708-626e-4937-9630-b873ca015eeb",
+      "title": "Tiny Brutalism – Thanks to HN it's on Steam",
+      "url": "https://store.steampowered.com/app/5426130/Tiny_Brutalism/",
+      "domain": "store.steampowered.com",
+      "published_at": "2026-10-18T18:59:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50144144\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1c5a8135-9b3a-4b99-8a2b-993c42a8ca9f",
+      "title": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
+      "url": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
+      "domain": "quentinkaiser.be",
+      "published_at": "2026-10-16T18:07:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50122058\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0d8f3df8-59b9-4199-ac30-b6c0045d1515",
+      "title": "Florida's HOAs and condo associations are making the housing crisis worse",
+      "url": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html",
+      "domain": "hoaspy.com",
+      "published_at": "2026-10-18T18:40:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Florida's HOAs and condo associations are making the housing crisis worse. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "a993b50f-8ddf-49b5-9476-9455552d22e3",
       "title": "Someone Behind the Software",
       "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
@@ -1984,149 +2125,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e9af7a0c-cb03-40c7-93c1-d67baa1daa67",
-      "title": "I Love Software Rendering",
-      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
-      "domain": "jamesfmackenzie.com",
-      "published_at": "2026-10-16T12:52:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50117746\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "cd77adb6-c049-4df4-ae5c-5adf1349e86b",
-      "title": "Yet another way to invoke functions without parentheses",
-      "url": "https://blog.ikaes.de/yet-another-way-to-invoke-functions-without-parentheses/",
-      "domain": "blog.ikaes.de",
-      "published_at": "2026-10-13T19:25:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50077225\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "05890904-4866-41ee-b2ad-b049a25a3961",
-      "title": "Artificial intelligence is capitalism's final destination",
-      "url": "https://www.equator.org/articles/arundhati-roy-artificial-intelligence",
-      "domain": "equator.org",
-      "published_at": "2026-10-16T12:08:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50117382\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d0292584-c6c2-40be-ad69-7c7ef5e7ac3d",
-      "title": "Gyroscopes Got So Small [video]",
-      "url": "https://www.youtube.com/watch?v=0Zc_6xB5W3Y",
-      "domain": "youtube.com",
-      "published_at": "2026-10-15T15:20:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50104965\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c50712be-d1b0-4cb8-8682-cc5f48ff6eef",
-      "title": "Is Liquid Metal Killing Our PCs? Scientific Analysis and a 2-Year Test [video]",
-      "url": "https://www.youtube.com/watch?v=eF6bMSjPepM",
-      "domain": "youtube.com",
-      "published_at": "2026-10-15T23:23:51Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50111752\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f8ed4043-49fc-4044-8aeb-9503949081bf",
-      "title": "AI-assisted PCB design for KiCad 10",
-      "url": "https://github.com/mixelpixx/Konnect",
-      "domain": "github.com",
-      "published_at": "2026-10-14T10:51:37Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50085553\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "43e67a95-baf1-4799-bbf7-e07d048ef0ab",
-      "title": "New 'Super Ice' 10 Times Stronger, Bringing It Close to the Strength of Concrete",
-      "url": "https://www.sciencealert.com/a-new-super-ice-is-10-times-stronger-bringing-it-close-to-the-strength-of-concrete",
-      "domain": "sciencealert.com",
-      "published_at": "2026-10-13T21:42:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50079280\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "886a1be2-55b9-4df3-b590-5a51f49ad7d4",
-      "title": "Bark: The Toll-Free BBS for 90s Teens",
-      "url": "https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens",
-      "domain": "blog.bityard.net",
-      "published_at": "2026-10-16T12:22:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50117504\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "39bb7e0e-f4bb-4eac-ba46-6fbc1ba08f87",
-      "title": "MS Paint Adds Freeform Rotation (2026)",
-      "url": "https://blogs.windows.com/windows-insider/2026/02/20/announcing-windows-11-insider-preview-build-28020-1619-canary-channel/",
-      "domain": "blogs.windows.com",
-      "published_at": "2026-10-14T04:55:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50082554\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b5626ebf-9455-4d24-aa9b-87b657d67e2c",
-      "title": "Men with Queer Nerves: The Jumping Frenchmen of Maine",
-      "url": "https://publicdomainreview.org/essay/the-jumping-frenchmen-of-maine",
-      "domain": "publicdomainreview.org",
-      "published_at": "2026-10-14T12:22:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50086576\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-18T18:12:40.124924006Z",
+  "last_updated": "2026-10-18T20:55:28.525566737Z",
   "total_count": 150
 }
