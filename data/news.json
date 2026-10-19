@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "id": "556833b7-e455-4ad4-ad40-cba064d71df7",
+      "title": "Linux 7.3 Released",
+      "url": "https://lwn.net/Articles/1101143/",
+      "domain": "lwn.net",
+      "published_at": "2026-10-19T07:23:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50149392\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "46453d98-7a3d-4bf5-984a-fcfd9e04e1ec",
+      "title": "How to Train Your Robot",
+      "url": "https://www.construction-physics.com/p/how-to-train-your-robot",
+      "domain": "construction-physics.com",
+      "published_at": "2026-10-15T15:13:21Z",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50104874\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "robotics",
+        "robotics"
+      ]
+    },
+    {
+      "id": "ab4b242b-07e5-47aa-8be2-10c64d202f68",
+      "title": "Rabbits were a medieval royal luxury in England until the Black Death",
+      "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
+      "domain": "phys.org",
+      "published_at": "2026-10-17T14:07:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50131315\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6b8cb176-3ab8-4187-add4-77d202447da4",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "domain": "crystl.dev",
+      "published_at": "2026-10-19T05:55:31Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50148855\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0c8a78ab-45ed-4964-9a5e-4d4673196778",
+      "title": "HOL Light Tutorial",
+      "url": "https://hol-light.github.io/tutorial/HTML/tutorial.html",
+      "domain": "hol-light.github.io",
+      "published_at": "2026-10-16T00:33:14Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50112204\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "5483e761-0178-4722-8a9b-51cc97f3cd94",
+      "title": "Lant – The Forgotten Resource",
+      "url": "https://sites.udel.edu/materialmatters/2018/04/11/lant-the-forgotten-resource/",
+      "domain": "sites.udel.edu",
+      "published_at": "2026-10-15T20:09:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50109546\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c2f5d027-0c89-4d90-99ce-a3f13e75272f",
+      "title": "How Postgres DELETE can actually scale",
+      "url": "https://www.dbos.dev/blog/scaling-deletions-in-postgres",
+      "domain": "dbos.dev",
+      "published_at": "2026-10-15T18:42:57Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50108297\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "51154d53-a1ef-4bcb-886f-d68a1a96a38b",
       "title": "DeepSeek v4.1 Flash 1017 scores 45 in Artificial Analysis",
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
@@ -2026,108 +2126,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "d623aaec-2027-4130-bf10-218b0761c814",
-      "title": "I never authorized an integration that scans my secrets",
-      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
-      "domain": "github.com",
-      "published_at": "2026-10-16T20:33:41Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50124251\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "bc689b2c-7fcd-47dd-9628-cbb1903e2d13",
-      "title": "How the Claude Code team does code review",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "domain": "claude.dev",
-      "published_at": "2026-10-16T19:04:47Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50122951\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2b0eac1e-ed99-4a5b-9e3f-2532226be281",
-      "title": "You could have invented transformers from memory",
-      "url": "https://alexwang.ai/posts/associative-memory/",
-      "domain": "alexwang.ai",
-      "published_at": "2026-10-16T19:01:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50122878\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "13b751be-3838-4be8-9e98-ed1850042564",
-      "title": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
-      "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/",
-      "domain": "hub.jhu.edu",
-      "published_at": "2026-10-14T07:21:12Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50083673\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "robotics",
-        "robotics"
-      ]
-    },
-    {
-      "id": "6482382d-da99-4138-b440-670e0edc8321",
-      "title": "Monte-Carlo Simulations",
-      "url": "https://eli.thegreenplace.net/2026/monte-carlo-simulations/",
-      "domain": "eli.thegreenplace.net",
-      "published_at": "2026-10-13T18:11:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50076089\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5e489aac-11ac-4b27-96bc-eda6ad0cc626",
-      "title": "/dev/null: social network for developers",
-      "url": "https://dev-null.sh",
-      "domain": "dev-null.sh",
-      "published_at": "2026-10-16T16:57:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50121004\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "37c5d4b8-7917-4012-bd6d-553618d76e6c",
-      "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
-      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
-      "domain": "arrl.org",
-      "published_at": "2026-10-16T18:06:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50122034\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-19T05:26:30.237627116Z",
+  "last_updated": "2026-10-19T11:00:29.418041534Z",
   "total_count": 150
 }
