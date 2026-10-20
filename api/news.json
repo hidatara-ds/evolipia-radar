@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "id": "423b97a1-c546-4416-9112-9939aa207a5c",
+      "title": "What shall I teach my son?",
+      "url": "https://stevekrouse.com/ends",
+      "domain": "stevekrouse.com",
+      "published_at": "2026-10-20T17:25:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50169707\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d3d81dc4-cc34-4912-ba5d-ab54d3399c2b",
+      "title": "On AI writing",
+      "url": "https://www.bolkunov.com/p/on-ai-writing",
+      "domain": "bolkunov.com",
+      "published_at": "2026-10-20T19:55:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50171771\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3f3906c5-dc10-4e04-8cad-033a464775a3",
+      "title": "Meta's GB{2,3}00 Cluster",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "domain": "engineering.fb.com",
+      "published_at": "2026-10-19T14:23:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50152886\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3c0927f4-0451-4756-a0d2-fc0b5f197c74",
+      "title": "Making Solar Panels with a Microwave [video]",
+      "url": "https://www.youtube.com/watch?v=zcWkApGjyGM",
+      "domain": "youtube.com",
+      "published_at": "2026-10-18T10:25:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50139728\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "655c8f0c-65f4-4801-a5a7-232a8b95dac6",
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "domain": "anthropic.com",
+      "published_at": "2026-10-20T17:48:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50170021\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5ef0679f-85a4-4efc-af56-d29cdc6aa0d7",
+      "title": "Academics have a duty to defend open knowledge systems like Wikipedia",
+      "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia/",
+      "domain": "blogs.lse.ac.uk",
+      "published_at": "2026-10-20T18:51:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50170917\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b82d5d00-afa9-47d1-a53a-b212a86d8204",
       "title": "Voxtral 3",
       "url": "https://mistral.ai/news/voxtral-3/",
@@ -2042,92 +2126,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "cb730c8f-195a-49b2-bd16-065368f5c31f",
-      "title": "macOS 15.8.2 Breaks OpenGL",
-      "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
-      "domain": "developer.apple.com",
-      "published_at": "2026-10-18T15:26:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50141909\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e93e1b37-f3f6-40ba-ab50-cb90a3b171e4",
-      "title": "Mitos editor is a fork of Helix",
-      "url": "https://mitos.computer/",
-      "domain": "mitos.computer",
-      "published_at": "2026-10-18T17:19:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50143132\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eeda68db-3ac5-44c5-978c-0cd35f74e670",
-      "title": "British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled",
-      "url": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
-      "domain": "liveandletsfly.com",
-      "published_at": "2026-10-18T17:27:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50143218\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c1e30de1-6197-40d2-a11c-4791f557c3b7",
-      "title": "The Electronic Disturbance Theater and Electronic Civil Disobedience (1998)",
-      "url": "https://www.thing.net/~rdom/ecd/EDTECD.html",
-      "domain": "thing.net",
-      "published_at": "2026-10-18T13:41:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50141024\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "26b68411-57b6-4259-8456-4c66b799a3fd",
-      "title": "I Electrified My Push Scooter with a Power Drill",
-      "url": "https://eddieabbondanz.io/post/shop/drill-powered-scooter/",
-      "domain": "eddieabbondanz.io",
-      "published_at": "2026-10-14T18:53:52Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50093020\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d799dd32-c28b-4971-9e5b-51ddf9ed7f33",
-      "title": "Beyond Tetris: The Other Games of Alexey Pajitnov [video]",
-      "url": "https://www.youtube.com/watch?v=QH_LPimUJMs",
-      "domain": "youtube.com",
-      "published_at": "2026-10-17T23:08:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50136017\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-20T19:24:23.634792667Z",
+  "last_updated": "2026-10-20T22:26:45.115614687Z",
   "total_count": 150
 }
