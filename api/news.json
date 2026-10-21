@@ -1,6 +1,107 @@
 {
   "items": [
     {
+      "id": "ab6d3405-4a08-4639-9648-d5e6af4b8ea0",
+      "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
+      "url": "https://aws.amazon.com/security/security-bulletins/2026-143-aws/",
+      "domain": "aws.amazon.com",
+      "published_at": "2026-10-21T21:12:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50187708\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e2077947-4119-444d-8806-25781c768059",
+      "title": "Railway Security Disclosure",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "domain": "blog.railway.com",
+      "published_at": "2026-10-21T21:58:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50188228\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "744e253b-18e4-4030-9ef6-fd199b466b4b",
+      "title": "No More Icons in Every Menu by Default",
+      "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+      "domain": "blog.jim-nielsen.com",
+      "published_at": "2026-10-20T04:27:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50161346\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "730d9ee6-6717-4f02-85f4-9ef84339319c",
+      "title": "Google's Rust Style Guide",
+      "url": "https://google.github.io/styleguide/rustguide.html",
+      "domain": "google.github.io",
+      "published_at": "2026-10-21T19:11:57Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50186010\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "cb31b5f8-4049-4781-83ae-4c26c8a276ad",
+      "title": "The Rise and Fall of the Plasma Screen",
+      "url": "https://www.construction-physics.com/p/the-rise-and-fall-of-the-plasma-screen",
+      "domain": "construction-physics.com",
+      "published_at": "2026-10-19T14:20:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50152847\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9b333a83-1380-482a-95eb-b7529e903a8a",
+      "title": "CleanFrame: A quieter home screen for Samsung The Frame",
+      "url": "https://github.com/nthnclrk/CleanFrame",
+      "domain": "github.com",
+      "published_at": "2026-10-21T21:08:59Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50187659\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "87cfcfea-88fa-4042-a652-445358a9d030",
+      "title": "AWS rates PHP RCE as Important so Amazon Linux 2023 patch may take 20 days",
+      "url": "https://github.com/amazonlinux/amazon-linux-2023/issues/1148",
+      "domain": "github.com",
+      "published_at": "2026-10-21T21:12:59Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "AWS rates PHP RCE as Important so Amazon Linux 2023 patch may take 20 days. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
       "id": "a1acd131-c1ce-4454-a570-cb44f077ecc1",
       "title": "Today's PHP security release, and how we're strengthening security",
       "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
@@ -2033,107 +2134,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "25823f56-b3c2-4489-9d55-e1016eb1c345",
-      "title": "Mercury 3: Diffusion at scale",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "domain": "inceptionlabs.ai",
-      "published_at": "2026-10-19T17:27:11Z",
-      "category": "vision",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50155245\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "vision",
-        "vision"
-      ]
-    },
-    {
-      "id": "7ecb727e-0021-4edd-9aaa-5e300a05f659",
-      "title": "Detecting model weight tampering in GPU memory (Rome attacks)",
-      "url": "https://stealthium.io/blog/hands-off-detecting-model-weight-tampering",
-      "domain": "stealthium.io",
-      "published_at": "2026-10-19T14:31:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50152976\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "53720a2f-2f6d-442c-9b84-bcd15028d84d",
-      "title": "Chicago O'Hare digs up 50-ton boulder under airfield, asks public for name ideas",
-      "url": "https://simpleflying.com/chicago-ohare-digs-up-50-ton-boulder-public-names/",
-      "domain": "simpleflying.com",
-      "published_at": "2026-10-19T01:56:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50147462\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3160836d-c772-44ee-aefa-ddb2110f8bef",
-      "title": "Integer to String Conversion (2014)",
-      "url": "https://tia.mat.br/posts/2014/06/23/integer_to_string_conversion.html",
-      "domain": "tia.mat.br",
-      "published_at": "2026-10-18T23:08:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50146417\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e5dd17ab-2184-4ee2-8ef7-8b6b7d899e9e",
-      "title": "The Annotated VT100 Firmware (2022)",
-      "url": "https://vt100.net/dec/vt100/rom/",
-      "domain": "vt100.net",
-      "published_at": "2026-10-19T02:40:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50147760\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "11f4af96-bdf6-4a2e-a6ef-45f0da626d6f",
-      "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
-      "url": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
-      "domain": "po-ru.com",
-      "published_at": "2026-10-19T16:37:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "I no longer care to work on any Ruby gems so I've archived all my repositories. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "730f25b7-12ef-4c9c-9c13-c7d33ccba305",
-      "title": "The obscure trust looming over Anthropic's IPO",
-      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg\u0026reflink=desktopwebshare_permalink",
-      "domain": "wsj.com",
-      "published_at": "2026-10-19T12:06:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "The obscure trust looming over Anthropic's IPO. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-21T19:25:33.709245155Z",
+  "last_updated": "2026-10-21T22:32:07.564902291Z",
   "total_count": 150
 }
