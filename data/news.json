@@ -1,6 +1,133 @@
 {
   "items": [
     {
+      "id": "5254e82b-a5c2-4a74-8ddb-dd7f3048631b",
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "domain": "scotthelme.co.uk",
+      "published_at": "2026-10-21T09:08:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50177916\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5fbb857d-a403-4df1-9d95-d9df0eda9777",
+      "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
+      "url": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+      "domain": "unric.org",
+      "published_at": "2026-10-21T09:07:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50177911\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "50a8db39-386e-4090-83eb-49b072e67969",
+      "title": "Whatever Happened to Fire Escapes",
+      "url": "https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes",
+      "domain": "practical.engineering",
+      "published_at": "2026-10-21T10:14:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50178455\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "839949b5-6dc9-4201-adbf-ad72b7aaaa2e",
+      "title": "The Decoherence Trap",
+      "url": "https://maevyn.codes/decoherence",
+      "domain": "maevyn.codes",
+      "published_at": "2026-10-19T08:35:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50149861\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "641c5fe1-78bd-46a7-a3e1-ebf4e48be0c2",
+      "title": "Bonanza of new dates rewrites the history of the Inca",
+      "url": "https://www.science.org/content/article/bonanza-new-dates-rewrites-history-inca",
+      "domain": "science.org",
+      "published_at": "2026-10-19T12:13:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50151447\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "99a7d91f-fdd2-4b65-9140-37b95aec9725",
+      "title": "C# now beats Rust on WASM size",
+      "url": "https://github.com/zion-sati/NetWasm",
+      "domain": "github.com",
+      "published_at": "2026-10-21T02:53:47Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50175510\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "462fa546-489b-4349-93d2-aa2bbd0d6afc",
+      "title": "Setting Up SSH Keys on macOS with Touch ID",
+      "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
+      "domain": "nmattia.com",
+      "published_at": "2026-10-21T03:51:25Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50175882\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "22bbd811-9fd6-4ee9-8580-bb1358bce7d1",
+      "title": "Composite objects and C++26 the std:polymorphic type",
+      "url": "https://mariusbancila.ro/blog/2026/10/18/composite-objects-and-cpp26-the-stdpolymorphic-type/",
+      "domain": "mariusbancila.ro",
+      "published_at": "2026-10-19T05:54:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50148845\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ed12094a-3fee-480a-819c-a9a83417b4d3",
+      "title": "Using Claude to reduce the attack surface of code",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "domain": "anthropic.com",
+      "published_at": "2026-10-21T03:36:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50175779\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "610dd85a-b56c-408d-88ad-34142cb01a40",
       "title": "Major PHP Vulnerability Leaked",
       "url": "https://jackalsyn.com/posts/php-up-2026.html",
@@ -2003,134 +2130,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "31c5aaf6-b8e3-4834-ab73-5510007eb343",
-      "title": "Footage of the Flock search that a judge ruled was uncosntitutional",
-      "url": "https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/",
-      "domain": "404media.co",
-      "published_at": "2026-10-19T01:55:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50147455\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1b29e094-2d19-4d91-85bd-c774e3306df3",
-      "title": "Sanity's Edge – A voice BBS from 1994",
-      "url": "https://sanitys-edge.shouden.us",
-      "domain": "sanitys-edge.shouden.us",
-      "published_at": "2026-10-19T00:30:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50146966\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d75f89c3-f781-49af-a02f-d759751ce3c0",
-      "title": "William Gibson and the trademarking of cyberspace",
-      "url": "https://colo.to/cyberspace.html",
-      "domain": "colo.to",
-      "published_at": "2026-10-18T23:37:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50146625\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "cfc19e50-a42e-4bff-a701-98397983ffe6",
-      "title": "\"Traditional, but Puzzling\"",
-      "url": "https://unsung.aresluna.org/traditional-but-puzzling/",
-      "domain": "unsung.aresluna.org",
-      "published_at": "2026-10-16T19:17:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50123123\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ffb74219-d96e-4431-a052-2e9cdfcc7e4e",
-      "title": "What the heck is /pkg?",
-      "url": "https://anderegg.ca/2026/10/18/what-the-heck-is-pkg",
-      "domain": "anderegg.ca",
-      "published_at": "2026-10-18T17:21:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50143154\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "58900c6a-9294-48d7-947a-be8097e08044",
-      "title": "Laptop Based on 6502 CPU",
-      "url": "https://www.maddox.pro/?p=448",
-      "domain": "maddox.pro",
-      "published_at": "2026-10-15T22:56:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50111537\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "eeefdb9b-3c9e-4802-969d-8321cbc0de72",
-      "title": "A new way to think about borrow checking (in reverse)",
-      "url": "https://verdagon.dev/blog/reverse-borrow-checking",
-      "domain": "verdagon.dev",
-      "published_at": "2026-10-18T12:11:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50140383\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2adc9b3a-bcbf-43fd-81f0-c8ae160a5e3e",
-      "title": "\"I'm on a war footing\": Terry Tao and the crisis in math",
-      "url": "https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html",
-      "domain": "nytimes.com",
-      "published_at": "2026-10-16T13:30:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50118165\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5725d31b-c928-4555-8685-18c33f5f9660",
-      "title": "How RC2's π table was made",
-      "url": "https://khalidhamadeh.com/writing/rc2-pi-table",
-      "domain": "khalidhamadeh.com",
-      "published_at": "2026-10-18T22:48:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50146286\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-21T05:29:05.871393981Z",
+  "last_updated": "2026-10-21T10:26:17.298987666Z",
   "total_count": 150
 }
