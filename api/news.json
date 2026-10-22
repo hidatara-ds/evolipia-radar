@@ -1,6 +1,137 @@
 {
   "items": [
     {
+      "id": "6a14af2e-30c5-4b14-a380-9fc6c0bb1fe7",
+      "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+      "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+      "domain": "web.maths.unsw.edu.au",
+      "published_at": "2026-10-22T02:30:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50190455\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a068a8b0-b9cb-4f86-87b6-f2e413c1ea3f",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "domain": "simedw.com",
+      "published_at": "2026-10-22T02:18:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50190363\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5a9896b8-2355-480f-8303-4488bd717e95",
+      "title": "Using LLM for confidence scoring is a bad idea",
+      "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "domain": "rumple.github.io",
+      "published_at": "2026-10-21T04:27:51Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50176082\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "90f6a780-4468-493f-a8f4-c7d83a3ebbb5",
+      "title": "I can't believe PowerShell is good",
+      "url": "https://www.spacebar.news/powershell-is-actually-good/",
+      "domain": "spacebar.news",
+      "published_at": "2026-10-22T03:47:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50190959\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b6e6241a-fd7b-423b-9a32-f73d80bde274",
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "domain": "github.com",
+      "published_at": "2026-10-22T05:23:11Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50191507\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "7e45d90f-caa4-4775-b2ab-6b113d1e1ee3",
+      "title": "Beyond the \u0026",
+      "url": "https://lwn.net/Articles/1096028/",
+      "domain": "lwn.net",
+      "published_at": "2026-10-20T13:59:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50166590\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5fa359c8-5ec7-4563-b8eb-bee34f12faf8",
+      "title": "What Is the Karakoram Anomaly?",
+      "url": "https://nsidc.org/learn/ask-scientist/karakoram-anomaly-it-real",
+      "domain": "nsidc.org",
+      "published_at": "2026-10-20T01:26:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50160241\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "31fa0810-356b-46f1-95f4-a05a04ea15ed",
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "url": "https://github.com/omnara-ai/omnara",
+      "domain": "github.com",
+      "published_at": "2026-10-21T16:44:53Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50183892\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9044d71c-4af1-4380-923d-1ed93abce09c",
+      "title": "LLM agents play Pokemon showdown",
+      "url": "https://olivergrabner.com/research/pokemon/",
+      "domain": "olivergrabner.com",
+      "published_at": "2026-10-22T02:13:48Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50190334\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
       "id": "4608ed94-c809-48c0-869e-2e316718cc98",
       "title": "mitmproxy adds --emudhra option",
       "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
@@ -2007,136 +2138,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "69808344-cdeb-4684-93f3-91c586b796da",
-      "title": "Agentic Monitoring",
-      "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
-      "domain": "benjamincongdon.me",
-      "published_at": "2026-10-19T14:52:04Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50153225\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "c8969d5e-04db-4693-8230-da28ae294d47",
-      "title": "“bonsoir, Elliot”: How abliterated models can get you pwned",
-      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
-      "domain": "projectdiscovery.io",
-      "published_at": "2026-10-19T23:08:52Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50159245\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dccc4f1e-c238-4f78-a94c-98525aef5281",
-      "title": "Drupal is now light-years ahead of its reputation",
-      "url": "https://dri.es/state-of-drupal-presentation-september-2026",
-      "domain": "dri.es",
-      "published_at": "2026-10-19T21:38:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50158408\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2afb90c3-f8c8-4f2d-a488-9b2d87d8bccf",
-      "title": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
-      "url": "https://josie.lol/blog/linux-rtx-spark",
-      "domain": "josie.lol",
-      "published_at": "2026-10-19T21:08:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50158100\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "efa70105-fcb7-4b83-bc2f-775f755fe646",
-      "title": "MiniMax M3.1 Flash",
-      "url": "https://www.minimax.io/blog/minimax-m31f",
-      "domain": "minimax.io",
-      "published_at": "2026-10-19T16:39:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50154540\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "98544b42-ca24-482e-a984-fff347f038cc",
-      "title": "I built a drone with only one motor [video]",
-      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
-      "domain": "youtube.com",
-      "published_at": "2026-10-19T09:05:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50150089\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c8285b96-28e4-43d8-a85a-67cf5458b580",
-      "title": "The reverts will continue until morale improves",
-      "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
-      "domain": "peter.eisentraut.org",
-      "published_at": "2026-10-19T18:42:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50156206\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0d9096d7-963c-4bde-a5d5-fec212151e1d",
-      "title": "Android apps running native on macOS",
-      "url": "https://github.com/kksimp/Mac.apk",
-      "domain": "github.com",
-      "published_at": "2026-10-19T16:45:30Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50154624\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "9e218c30-310f-4489-b955-f7380abc0199",
-      "title": "Germany's far-right AfD: half a million internal documents leaked",
-      "url": "https://hexane.cc/",
-      "domain": "hexane.cc",
-      "published_at": "2026-10-19T20:31:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50157664\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-22T01:03:25.699004048Z",
+  "last_updated": "2026-10-22T06:13:22.365621712Z",
   "total_count": 150
 }
