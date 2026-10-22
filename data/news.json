@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "id": "4608ed94-c809-48c0-869e-2e316718cc98",
+      "title": "mitmproxy adds --emudhra option",
+      "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+      "domain": "github.com",
+      "published_at": "2026-10-21T23:51:37Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50189232\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "0bc5bcff-204b-4052-8ba2-c58aaa371a01",
+      "title": "There isn't an easy exploit for this PHP vulnerability",
+      "url": "https://eliastaylor.com/noexploit/",
+      "domain": "eliastaylor.com",
+      "published_at": "2026-10-21T23:13:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50188948\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "892b2383-2f90-479f-b81c-ac941e3884d8",
+      "title": "Chain of Thought for Humans",
+      "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/",
+      "domain": "boristhebrave.com",
+      "published_at": "2026-10-19T16:06:22Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50154100\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9d9d3eea-a986-46d9-82b0-2f885699569d",
+      "title": "Code is clay now",
+      "url": "https://www.albertodenia.com/writing/code-is-clay-now",
+      "domain": "albertodenia.com",
+      "published_at": "2026-10-19T15:19:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50153531\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "49cdbb8e-3074-4861-9c41-fb1239564c98",
+      "title": "Κ = 0.003 for integer multiplication crossed",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4441",
+      "domain": "github.com",
+      "published_at": "2026-10-21T23:22:21Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50189023\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "1a7b5456-cb9b-4824-b452-98782eda2c7f",
+      "title": "When Do We Become the Person We Ought to Be?",
+      "url": "https://www.graphsaboutreligion.com/p/when-do-we-become-the-person-we-ought",
+      "domain": "graphsaboutreligion.com",
+      "published_at": "2026-10-21T23:57:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50189278\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9c2a7188-0b53-4c1d-b05a-0d44359d2e12",
+      "title": "Airbnb bans making guests do dishes and take out the trash",
+      "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update",
+      "domain": "theverge.com",
+      "published_at": "2026-10-21T23:38:32Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50189150\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "ab6d3405-4a08-4639-9648-d5e6af4b8ea0",
       "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
       "url": "https://aws.amazon.com/security/security-bulletins/2026-143-aws/",
@@ -2035,107 +2135,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "fc291e97-6d86-476a-8905-5fbdd7ebccef",
-      "title": "RuneScape Bench: MMOs for Agents [video]",
-      "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
-      "domain": "youtube.com",
-      "published_at": "2026-10-17T23:24:05Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50136126\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "80fd8c6b-ba4a-40b4-9b4c-0e2cb637fe23",
-      "title": "The fire retardant in the seafood chain",
-      "url": "https://insideclimatenews.org/news/14102026/ethoxyquin-fire-retardant-in-seafood-chain/",
-      "domain": "insideclimatenews.org",
-      "published_at": "2026-10-17T19:37:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50134359\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8e6a529b-cf9e-4739-8031-68be60800917",
-      "title": "Starcraft: Ashfall",
-      "url": "https://starcraft-shooter-2026.pages.dev/",
-      "domain": "starcraft-shooter-2026.pages.dev",
-      "published_at": "2026-10-19T01:18:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50147233\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "69cd4a64-88ed-4bd5-ac13-95d7c3ac07b7",
-      "title": "Evidence (YC S21) Is Hiring Software Engineers",
-      "url": "https://evidence.dev/jobs",
-      "domain": "evidence.dev",
-      "published_at": "2026-10-19T17:21:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50155172\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b6b5c58a-c96f-4bb7-813d-2d2f613c4d29",
-      "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
-      "url": "https://bsd.network/@brynet/117407035545900963",
-      "domain": "bsd.network",
-      "published_at": "2026-10-19T21:11:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50158138\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c49e8083-23d9-4998-8666-3a9cb397f776",
-      "title": "Credit where credit is due",
-      "url": "https://thefloatingcontinent.com/blog/credit-is-due/",
-      "domain": "thefloatingcontinent.com",
-      "published_at": "2026-10-16T17:53:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50121834\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5c92b3b5-c2f1-494c-b2ca-1436fbdc30a4",
-      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "url": "https://news.ycombinator.com/item?id=50151036",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-10-19T11:24:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50151036\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-21T22:32:07.564902291Z",
+  "last_updated": "2026-10-22T01:03:25.699004048Z",
   "total_count": 150
 }
