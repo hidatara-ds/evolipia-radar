@@ -1,6 +1,192 @@
 {
   "items": [
     {
+      "id": "f334fcec-82b4-4036-b4fe-34bc624a4314",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "domain": "edjefferson.com",
+      "published_at": "2026-10-22T23:01:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50202285\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5c41874c-cf67-4eae-ba71-6d3b01a43eaa",
+      "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+      "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+      "domain": "berget.ai",
+      "published_at": "2026-10-23T06:41:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50205229\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a40ad237-72e0-4fbe-8615-c2467328241b",
+      "title": "How does Fable 5.1 hide messages in images?",
+      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+      "domain": "lesswrong.com",
+      "published_at": "2026-10-22T21:41:13Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50201445\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "d1eaaef7-7046-4bd7-bf81-90fe2e36c3fa",
+      "title": "The HTML-in-Canvas API origin trial",
+      "url": "https://developer.chrome.com/blog/html-in-canvas-origin-trial",
+      "domain": "developer.chrome.com",
+      "published_at": "2026-10-22T19:54:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50200164\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "06d67636-8a69-4cb6-8d92-49664069046e",
+      "title": "This I Believe (1952)",
+      "url": "https://www.awakin.org/v2/read/view.php?tid=468",
+      "domain": "awakin.org",
+      "published_at": "2026-10-23T02:19:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50203759\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "95e24c7b-8d24-4e0e-a1e6-023bcb3e7395",
+      "title": "The alien space of science: Coherent but cognitively unavailable directions",
+      "url": "https://arxiv.org/abs/2603.01092",
+      "domain": "arxiv.org",
+      "published_at": "2026-10-22T13:25:01Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50195002\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "09fd03e3-8e9c-4bac-809a-d6a7a0244000",
+      "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
+      "url": "https://github.com/dsmurrell/onkey",
+      "domain": "github.com",
+      "published_at": "2026-10-22T14:04:44Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50195488\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "e2f7c5e8-01c9-4ec2-ae09-17403c8ec021",
+      "title": "A lost Schrödinger manuscript reveals a twist in quantum physics",
+      "url": "https://www.sciencealert.com/a-lost-schrdinger-manuscript-reveals-a-surprising-twist-in-quantum-physics",
+      "domain": "sciencealert.com",
+      "published_at": "2026-10-22T07:41:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50192396\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3eea8db2-4c56-40de-b6f0-d98d15ff5cdb",
+      "title": "We have traits at home",
+      "url": "https://www.axelmagn.com/blog/202610-zig-traits/",
+      "domain": "axelmagn.com",
+      "published_at": "2026-10-22T23:24:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50202482\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f0cfd0eb-98c8-4d03-91dc-7cd14a787d96",
+      "title": "Objects, attributes, maps, oh my",
+      "url": "https://bernsteinbear.com/blog/object-shapes/",
+      "domain": "bernsteinbear.com",
+      "published_at": "2026-10-22T16:34:39Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50197692\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "129641dc-457a-4f51-a1b8-f17bdbeeb0d3",
+      "title": "Show HN: Making a smart TV dumb and then smart",
+      "url": "https://github.com/anubhavmalhotra/r2d2-tv",
+      "domain": "github.com",
+      "published_at": "2026-10-23T00:10:45Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50202865\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "4125b9d5-169c-4d99-8c21-c564f793629e",
+      "title": "Rule 30: one black cell",
+      "url": "https://www.wolframcollatzmahler.com/rule30/index.html",
+      "domain": "wolframcollatzmahler.com",
+      "published_at": "2026-10-22T22:16:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50201842\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7ff1ef5b-e01b-40df-bec2-1cae8b8a25bd",
+      "title": "Why my Asus laptop kept rebooting after sleep and how to fix it",
+      "url": "https://idiallo.com/blog/asus-laptop-keeps-rebooting-after-sleep",
+      "domain": "idiallo.com",
+      "published_at": "2026-10-20T13:40:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50166272\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "8f4d4bd0-068d-44a7-85d4-5ca1f64c520b",
       "title": "Docker is weird",
       "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
@@ -1955,195 +2141,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "e1a34279-1fda-45be-b337-b193dad88cf3",
-      "title": "LabRobotBench v0.1: Benchmarking wet lab robotics",
-      "url": "https://gamowlabs.com/lab-robot-bench-v0-1",
-      "domain": "gamowlabs.com",
-      "published_at": "2026-10-20T23:55:03Z",
-      "category": "robotics",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50174317\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "robotics",
-        "robotics"
-      ]
-    },
-    {
-      "id": "423b97a1-c546-4416-9112-9939aa207a5c",
-      "title": "What shall I teach my son?",
-      "url": "https://stevekrouse.com/ends",
-      "domain": "stevekrouse.com",
-      "published_at": "2026-10-20T17:25:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50169707\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d3d81dc4-cc34-4912-ba5d-ab54d3399c2b",
-      "title": "On AI writing",
-      "url": "https://www.bolkunov.com/p/on-ai-writing",
-      "domain": "bolkunov.com",
-      "published_at": "2026-10-20T19:55:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50171771\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3f3906c5-dc10-4e04-8cad-033a464775a3",
-      "title": "Meta's GB{2,3}00 Cluster",
-      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
-      "domain": "engineering.fb.com",
-      "published_at": "2026-10-19T14:23:55Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50152886\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3c0927f4-0451-4756-a0d2-fc0b5f197c74",
-      "title": "Making Solar Panels with a Microwave [video]",
-      "url": "https://www.youtube.com/watch?v=zcWkApGjyGM",
-      "domain": "youtube.com",
-      "published_at": "2026-10-18T10:25:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50139728\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "655c8f0c-65f4-4801-a5a7-232a8b95dac6",
-      "title": "Claude designed protein binders against scorpion neurotoxins",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-      "domain": "anthropic.com",
-      "published_at": "2026-10-20T17:48:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50170021\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5ef0679f-85a4-4efc-af56-d29cdc6aa0d7",
-      "title": "Academics have a duty to defend open knowledge systems like Wikipedia",
-      "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia/",
-      "domain": "blogs.lse.ac.uk",
-      "published_at": "2026-10-20T18:51:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50170917\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b82d5d00-afa9-47d1-a53a-b212a86d8204",
-      "title": "Voxtral 3",
-      "url": "https://mistral.ai/news/voxtral-3/",
-      "domain": "mistral.ai",
-      "published_at": "2026-10-20T16:02:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50168396\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "70279c76-8976-42cb-a5cd-0891241d40c7",
-      "title": "SimCity, but with Permits",
-      "url": "https://permit.petercai.com/",
-      "domain": "permit.petercai.com",
-      "published_at": "2026-10-20T18:29:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50170593\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bf9a83d5-48cc-4d21-92eb-9f4a5f180329",
-      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "url": "https://github.com/google-pytorch/torch_tpu",
-      "domain": "github.com",
-      "published_at": "2026-10-20T16:40:24Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50169053\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "a265d622-9c40-4377-8d7a-66c3b09f3219",
-      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
-      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
-      "domain": "github.com",
-      "published_at": "2026-10-15T19:09:34Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50108717\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "7728084d-cef4-44cb-87cc-c19c0d02e088",
-      "title": "Advanced coding in low-resource programming languages",
-      "url": "https://openai.com/index/low-resource-programming-languages/",
-      "domain": "openai.com",
-      "published_at": "2026-10-20T17:43:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50169955\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1559fbef-1e9e-4e5c-bb67-3e664d1788ec",
-      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
-      "url": "https://news.ycombinator.com/item?id=50167583",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-10-20T15:09:29Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50167583\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-23T02:19:39.427011783Z",
+  "last_updated": "2026-10-23T07:45:30.935572286Z",
   "total_count": 150
 }
