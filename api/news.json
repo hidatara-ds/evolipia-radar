@@ -1,6 +1,121 @@
 {
   "items": [
     {
+      "id": "8db01dd0-41ad-421a-a406-48a778a339ec",
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "domain": "danluu.com",
+      "published_at": "2026-10-24T21:47:31Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50225695\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "07be583e-2d43-4a7d-a85f-88b33e67c1ee",
+      "title": "Small Programs and Languages",
+      "url": "https://ratfactor.com/cards/pl-small",
+      "domain": "ratfactor.com",
+      "published_at": "2026-10-24T21:44:23Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50225674\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d2f3364e-70a5-4363-8950-1c8dd0fe14c3",
+      "title": "Free Software Is a Failure",
+      "url": "http://www.paritybit.ca/blog/free-software-is-an-abject-failure/",
+      "domain": "paritybit.ca",
+      "published_at": "2026-10-24T22:55:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50226261\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "65675d7d-300b-42cd-93d5-91b32fee2d15",
+      "title": "Full Disk Encryption on Fedora with TPM2",
+      "url": "https://www.apalrd.net/posts/2026/ent_luks/",
+      "domain": "apalrd.net",
+      "published_at": "2026-10-22T12:46:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50194602\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "35f16663-c30b-48e7-b64f-fcc9f614818b",
+      "title": "The Importance of Limitations for Creativity and Learning",
+      "url": "https://ratfactor.com/cards/limitations",
+      "domain": "ratfactor.com",
+      "published_at": "2026-10-24T21:42:47Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50225663\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "713fb937-0d8c-4461-9b27-8e2ee8ed08c5",
+      "title": "I Built a Stereo Vision Board for Hardware Hackers",
+      "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
+      "domain": "rootkitlabs.com",
+      "published_at": "2026-10-20T20:45:52Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50172432\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "55c45442-1891-495d-a53b-ccd8937c2192",
+      "title": "Argus – a free, open-source agentic security operations platform – MIT",
+      "url": "https://thomasunise.com/argus",
+      "domain": "thomasunise.com",
+      "published_at": "2026-10-24T21:54:16Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50225748\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9da162c2-8bc1-4e90-a442-f52ec01548a6",
+      "title": "Making a VGA Driver in SystemVerilog",
+      "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
+      "domain": "lukaswerner.com",
+      "published_at": "2026-10-20T16:00:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50168376\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "b6dbeb07-f027-476a-bfff-972faf7ed878",
       "title": "No Signs of AI Payoff Outside the Tech Sector",
       "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
@@ -2014,122 +2129,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "71ebba94-88fd-46a8-b77c-1947727b1aa5",
-      "title": "Google cleared 300 hectares of Finnish forest",
-      "url": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
-      "domain": "techspot.com",
-      "published_at": "2026-10-22T15:32:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50196837\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5fd24f2b-1a92-41af-94c1-7acb2daa8784",
-      "title": "Dungeon Generation in the Gnomish Mines of NetHack",
-      "url": "https://www.boristhebrave.com/2026/10/18/dungeon-generation-in-the-gnomish-mines-of-nethack/",
-      "domain": "boristhebrave.com",
-      "published_at": "2026-10-19T16:06:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50154109\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3c0bba3a-3ffb-4bab-8098-a586a6c0a1fe",
-      "title": "Show HN: Uberblok – an interactive museum of ZFS internals",
-      "url": "https://uberblok.storagebits.workers.dev/",
-      "domain": "uberblok.storagebits.workers.dev",
-      "published_at": "2026-10-21T13:04:25Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50180257\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "36723df9-3073-4d6a-a237-2e1dde535104",
-      "title": "The Last Museum: Semantic search across 5.8M artworks from major museums",
-      "url": "https://lastmuseum.com/",
-      "domain": "lastmuseum.com",
-      "published_at": "2026-10-22T12:40:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50194522\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3d5db2a5-483d-4591-b34a-533debe260ae",
-      "title": "MPs moving to restrict gambling ads in Canada",
-      "url": "https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888",
-      "domain": "cbc.ca",
-      "published_at": "2026-10-22T14:26:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50195873\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "3ae5e20a-2b2b-45f3-85e6-9934fffa6e88",
-      "title": "Crystal 1.22",
-      "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
-      "domain": "crystal-lang.org",
-      "published_at": "2026-10-22T13:20:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50194938\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d4644b52-0b64-4448-8480-9d10a231a9a1",
-      "title": "Pentulive (Puppy Live) [video]",
-      "url": "https://yle.fi/t/18-332106/fi",
-      "domain": "yle.fi",
-      "published_at": "2026-10-19T16:09:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50154147\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8a7ef926-cbd9-4443-926b-370ec583999b",
-      "title": "VMMouse for NT 3.x: QEMU/VMware mouse integration driver",
-      "url": "https://github.com/rhargreaves/vmmouse-nt3",
-      "domain": "github.com",
-      "published_at": "2026-10-18T19:50:11Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50144727\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-24T21:17:17.412325862Z",
+  "last_updated": "2026-10-24T23:27:11.137414886Z",
   "total_count": 150
 }
