@@ -1,6 +1,163 @@
 {
   "items": [
     {
+      "id": "ee9b467c-92f3-4c28-8de0-73db1766b40e",
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "domain": "github.com",
+      "published_at": "2026-10-24T04:49:58Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50218430\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "b3a08cf8-1577-4c04-88d3-a2d35afbcdd4",
+      "title": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "domain": "philipotoole.com",
+      "published_at": "2026-10-24T01:16:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50217500\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5af8303d-290f-4e88-9142-d34b34951b60",
+      "title": "How close can pure functional programming get to C?",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "domain": "rtfeldman.com",
+      "published_at": "2026-10-24T03:43:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50218195\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "641f3a8c-9286-42bd-b41d-61119779c260",
+      "title": "A practical guide to AI image generation, from diffusion to agents",
+      "url": "https://danielball.com/notes/ai_image_generation.html",
+      "domain": "danielball.com",
+      "published_at": "2026-10-20T19:22:39Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50171379\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "b7a1ced7-ab9f-4b47-8734-da3dd05631b7",
+      "title": "The Best Monopoly Strategy, Tested on 300M Games [video]",
+      "url": "https://www.youtube.com/watch?v=S_2eVAaw1UM",
+      "domain": "youtube.com",
+      "published_at": "2026-10-21T03:30:11Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50175732\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "36188025-a582-4f63-9e2c-e84d2e86e770",
+      "title": "Apple Security Research Device",
+      "url": "https://security.apple.com/research-device/",
+      "domain": "security.apple.com",
+      "published_at": "2026-10-24T02:36:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50217903\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ef79c5c4-5b6c-4939-94e7-f95781ffce25",
+      "title": "The Quake Fan who built the map editor everybody uses",
+      "url": "https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses",
+      "domain": "funcarena.com",
+      "published_at": "2026-10-22T10:55:22Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50193677\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bcbdaadd-7583-437c-8f4c-037574a38d86",
+      "title": "One Man's Pan Am 747 Replica [video]",
+      "url": "https://www.youtube.com/watch?v=vAFwHGGfPz4",
+      "domain": "youtube.com",
+      "published_at": "2026-10-23T21:46:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50215828\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b08cc3c4-cd84-431b-89b1-58d92f4cf9d8",
+      "title": "How Block Blast harvests its players for ad money",
+      "url": "https://ayoships.com/breakdowns/block-blast",
+      "domain": "ayoships.com",
+      "published_at": "2026-10-24T02:43:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50217946\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "32740efe-7ba1-4f32-9b24-b7365015a8a0",
+      "title": "The past, present, and future share a show floor at Pinball Expo 2026",
+      "url": "https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/",
+      "domain": "arstechnica.com",
+      "published_at": "2026-10-21T15:19:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50182510\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ce144d5f-6b27-4c71-a13a-15face35efdb",
+      "title": "A Cocktail Party in the Street: An Interview with Alan Stillman (2010)",
+      "url": "https://www.ediblegeography.com/a-cocktail-party-in-the-street-an-interview-with-alan-stillman/",
+      "domain": "ediblegeography.com",
+      "published_at": "2026-10-21T18:49:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50185715\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1abcfced-3503-4ed6-ac12-9f425e26b438",
       "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
       "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
@@ -1974,165 +2131,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "8f6fe3ed-4e81-4e0f-b41a-cba8fd97c5fe",
-      "title": "Claude Duet",
-      "url": "https://claude.com/product/claude-duet",
-      "domain": "claude.com",
-      "published_at": "2026-10-21T19:14:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50186037\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a926812e-f86e-4542-bc1b-bbb2eb57fcd2",
-      "title": "EA is shutting down BioWare",
-      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
-      "domain": "theverge.com",
-      "published_at": "2026-10-21T17:29:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50184586\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "aead172f-f64d-4fd8-a068-fd05bd6ea6b9",
-      "title": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
-      "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
-      "domain": "apnews.com",
-      "published_at": "2026-10-21T15:20:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50182526\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "641e14aa-2aee-4f4c-9e0a-73211e6e0913",
-      "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
-      "url": "https://www.bbc.com/news/articles/cp814l80pw2o",
-      "domain": "bbc.com",
-      "published_at": "2026-10-20T06:20:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50162044\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b63f37fb-4e45-40e0-ad44-75e3808daa4a",
-      "title": "New plastic pollution discovered: 'Plasticorals' coral rubble fused with plastic",
-      "url": "https://www.oist.jp/news-center/news/2026/9/18/new-form-plastic-pollution-discovered-shores-vulnerable-coral-reefs",
-      "domain": "oist.jp",
-      "published_at": "2026-10-21T16:20:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50183512\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "423ed2d6-7ec1-449d-923e-6ac2fa646c50",
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "domain": "openai.com",
-      "published_at": "2026-10-21T12:53:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50180079\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6246059c-4983-4e38-a723-5d14e33280f7",
-      "title": "The compiler was supposed to end programming too",
-      "url": "https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/",
-      "domain": "hrih.si",
-      "published_at": "2026-10-21T18:00:51Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50185045\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6096274f-e9c0-4266-8be9-6143ed6acfbc",
-      "title": "Anthropic's Public Benefit Charter",
-      "url": "https://www.anthropic.com/public-benefit-charter",
-      "domain": "anthropic.com",
-      "published_at": "2026-10-21T18:29:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50185438\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2f113210-43cf-4cd9-9795-660aa57b5ab5",
-      "title": "Canary Tokens",
-      "url": "https://canarytokens.org/",
-      "domain": "canarytokens.org",
-      "published_at": "2026-10-21T18:45:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50185630\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d246fbfd-722a-40c8-84bc-e9af3ee602ce",
-      "title": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
-      "url": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
-      "domain": "windowslatest.com",
-      "published_at": "2026-10-20T00:14:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50159726\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f81dc200-7410-4e1d-89df-1bdb5ef86008",
-      "title": "The bridge to agent-scale Git infrastructure",
-      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-      "domain": "github.blog",
-      "published_at": "2026-10-21T16:09:28Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50183344\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "infra",
-        "infra"
-      ]
     }
   ],
-  "last_updated": "2026-10-24T02:17:29.402666916Z",
+  "last_updated": "2026-10-24T07:27:33.681860479Z",
   "total_count": 150
 }
