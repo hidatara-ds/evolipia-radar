@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "id": "c952bd78-1bcd-4fcf-8764-0da07ca5c659",
+      "title": "FreeDNS",
+      "url": "https://freedns.afraid.org/",
+      "domain": "freedns.afraid.org",
+      "published_at": "2026-10-24T15:20:01Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50222133\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8f16ae82-aa6a-4f1e-a77c-025efe5b044c",
+      "title": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications",
+      "url": "https://www.infoq.com/news/2026/10/tornadovm-7-gpu/",
+      "domain": "infoq.com",
+      "published_at": "2026-10-22T09:01:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50192975\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "233b4e7b-e451-4aff-8df6-db480d5a3c83",
+      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "domain": "github.com",
+      "published_at": "2026-10-24T09:58:27Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50219700\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "18770d67-03a7-42d6-bbd1-a3a8f1b6b177",
+      "title": "Parsing EDIFACT in Python with syntax trees",
+      "url": "https://github.com/AmadeusITGroup/Edison",
+      "domain": "github.com",
+      "published_at": "2026-10-22T14:07:48Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50195535\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ced44360-ec34-4c8d-8d81-1c0016a460ff",
+      "title": "Tiling Noise – Procedural GPU Patterns",
+      "url": "https://catlikecoding.com/godot/procedural-gpu-patterns/09-tiling-noise/",
+      "domain": "catlikecoding.com",
+      "published_at": "2026-10-21T13:04:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50180251\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "89ae55c0-232a-4209-a52d-40d249799331",
       "title": "I Don't Understand Quantum Physics (2018)",
       "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
@@ -2058,80 +2130,8 @@
         "agents",
         "agents"
       ]
-    },
-    {
-      "id": "4608ed94-c809-48c0-869e-2e316718cc98",
-      "title": "mitmproxy adds --emudhra option",
-      "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-      "domain": "github.com",
-      "published_at": "2026-10-21T23:51:37Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50189232\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "0bc5bcff-204b-4052-8ba2-c58aaa371a01",
-      "title": "There isn't an easy exploit for this PHP vulnerability",
-      "url": "https://eliastaylor.com/noexploit/",
-      "domain": "eliastaylor.com",
-      "published_at": "2026-10-21T23:13:27Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50188948\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "892b2383-2f90-479f-b81c-ac941e3884d8",
-      "title": "Chain of Thought for Humans",
-      "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/",
-      "domain": "boristhebrave.com",
-      "published_at": "2026-10-19T16:06:22Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50154100\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9d9d3eea-a986-46d9-82b0-2f885699569d",
-      "title": "Code is clay now",
-      "url": "https://www.albertodenia.com/writing/code-is-clay-now",
-      "domain": "albertodenia.com",
-      "published_at": "2026-10-19T15:19:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50153531\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "49cdbb8e-3074-4861-9c41-fb1239564c98",
-      "title": "Κ = 0.003 for integer multiplication crossed",
-      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4441",
-      "domain": "github.com",
-      "published_at": "2026-10-21T23:22:21Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50189023\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-24T12:07:55.96662599Z",
+  "last_updated": "2026-10-24T16:07:06.169649069Z",
   "total_count": 150
 }
