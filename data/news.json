@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "id": "5e16d8aa-a688-4172-8b27-7e029c0e0155",
+      "title": "Roku developer repositories moved from GitHub to GitLab",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "domain": "blog.roku.com",
+      "published_at": "2026-10-24T16:06:26Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50222622\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9c6c80aa-e87a-467f-b4d8-5197cf08812c",
+      "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+      "url": "https://de.numista.com/9866",
+      "domain": "de.numista.com",
+      "published_at": "2026-10-24T16:41:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50222927\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "06e80ddd-f253-4fd1-a5c5-3b77cb10a8c6",
+      "title": "Neural chip decodes interactions between brain regions",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "domain": "actu.epfl.ch",
+      "published_at": "2026-10-24T15:57:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50222525\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "94685a22-7f95-477c-8d6c-d769c91a0734",
+      "title": "Symbolic Learning in Python and Julia",
+      "url": "https://github.com/astroautomata/PySR",
+      "domain": "github.com",
+      "published_at": "2026-10-20T20:07:35Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50171936\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "23b51a6d-3d0d-4375-99f5-b46e722b0e51",
+      "title": "Cecilia Berdichevsky, Clementina expert (1961)",
+      "url": "https://en.wikipedia.org/wiki/Cecilia_Berdichevsky",
+      "domain": "en.wikipedia.org",
+      "published_at": "2026-10-21T12:40:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50179920\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "8df8a0dc-245c-4ac3-8ef5-859f6ef2566d",
+      "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+      "domain": "terrytao.wordpress.com",
+      "published_at": "2026-10-24T15:35:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50222283\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "c952bd78-1bcd-4fcf-8764-0da07ca5c659",
       "title": "FreeDNS",
       "url": "https://freedns.afraid.org/",
@@ -2042,96 +2128,8 @@
         "open-source",
         "open-source"
       ]
-    },
-    {
-      "id": "90f6a780-4468-493f-a8f4-c7d83a3ebbb5",
-      "title": "I can't believe PowerShell is good",
-      "url": "https://www.spacebar.news/powershell-is-actually-good/",
-      "domain": "spacebar.news",
-      "published_at": "2026-10-22T03:47:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50190959\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b6e6241a-fd7b-423b-9a32-f73d80bde274",
-      "title": "OpenAI CLI",
-      "url": "https://github.com/openai/openai-cli",
-      "domain": "github.com",
-      "published_at": "2026-10-22T05:23:11Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50191507\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "7e45d90f-caa4-4775-b2ab-6b113d1e1ee3",
-      "title": "Beyond the \u0026",
-      "url": "https://lwn.net/Articles/1096028/",
-      "domain": "lwn.net",
-      "published_at": "2026-10-20T13:59:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50166590\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5fa359c8-5ec7-4563-b8eb-bee34f12faf8",
-      "title": "What Is the Karakoram Anomaly?",
-      "url": "https://nsidc.org/learn/ask-scientist/karakoram-anomaly-it-real",
-      "domain": "nsidc.org",
-      "published_at": "2026-10-20T01:26:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50160241\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "31fa0810-356b-46f1-95f4-a05a04ea15ed",
-      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
-      "url": "https://github.com/omnara-ai/omnara",
-      "domain": "github.com",
-      "published_at": "2026-10-21T16:44:53Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50183892\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "9044d71c-4af1-4380-923d-1ed93abce09c",
-      "title": "LLM agents play Pokemon showdown",
-      "url": "https://olivergrabner.com/research/pokemon/",
-      "domain": "olivergrabner.com",
-      "published_at": "2026-10-22T02:13:48Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50190334\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
     }
   ],
-  "last_updated": "2026-10-24T16:07:06.169649069Z",
+  "last_updated": "2026-10-24T18:52:43.143631344Z",
   "total_count": 150
 }
