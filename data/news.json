@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "id": "1abcfced-3503-4ed6-ac12-9f425e26b438",
+      "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "domain": "nitter.click",
+      "published_at": "2026-10-23T23:30:17Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50216791\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ca703e7f-8e5f-42d4-a6d0-cf8a38ec2fb2",
+      "title": "Bringing uv and ty together",
+      "url": "https://astral.sh/blog/uv-ty-integration",
+      "domain": "astral.sh",
+      "published_at": "2026-10-20T21:30:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50172962\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "aa6b5970-2500-46b1-a3fd-c1e5458962cd",
+      "title": "Mark Zuckerberg Pushed Meta to Shield Him from California's Proposed Wealth Tax",
+      "url": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-10-24T01:35:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50217587\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "47b54871-6e50-4a7a-a7ce-8fd27b7b7f49",
+      "title": "C vs. C#: racing VLC's Gaussian blur",
+      "url": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/",
+      "domain": "martinfinkel.com",
+      "published_at": "2026-10-21T05:48:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50176544\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "81b32c32-6b02-467a-a3f4-6ef4fb92a938",
+      "title": "Rise of collagen-eating microbes may help explain gaps in the fossil record",
+      "url": "https://www.cam.ac.uk/research/news/rise-of-collagen-eating-microbes-may-help-explain-gaps-in-the-fossil-record",
+      "domain": "cam.ac.uk",
+      "published_at": "2026-10-20T15:41:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50168075\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "66a65695-791d-4244-86e5-ab31ecb60b17",
+      "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+      "domain": "sciencedaily.com",
+      "published_at": "2026-10-24T01:53:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50217683\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "fc586611-8913-4a56-a70e-b6fe1c71cd0b",
       "title": "CVE Tracker",
       "url": "https://cve.0xosprey.com/",
@@ -2047,94 +2131,8 @@
         "infra",
         "infra"
       ]
-    },
-    {
-      "id": "23214b4e-0dc4-4267-85d3-6c258b34507c",
-      "title": "GitLab CVSS 10.0 Integer Overflow issue",
-      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-      "domain": "docs.gitlab.com",
-      "published_at": "2026-10-21T19:01:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50185869\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ec99861e-d2ef-4226-9fa8-2f6a134ae505",
-      "title": "Corporate Linux",
-      "url": "https://lpar.ATH0.com/posts/2026/10/corporate-linux/",
-      "domain": "lpar.ATH0.com",
-      "published_at": "2026-10-21T18:27:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50185403\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "04421642-60da-4aef-918a-0295284052ea",
-      "title": "Your MCU likely escaped the eMudhra intermediate CA compromise",
-      "url": "https://danielmangum.com/posts/mcu-emudhra-intermediate-ca-compromise/",
-      "domain": "danielmangum.com",
-      "published_at": "2026-10-21T16:05:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50183280\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "96a053a9-f3dc-4b0e-a687-8f8dd8a2c2ad",
-      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
-      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-      "domain": "cnbc.com",
-      "published_at": "2026-10-21T17:45:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50184820\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0d84912d-39b0-4e58-bd93-efa2f9857632",
-      "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
-      "url": "https://alterauth.com/",
-      "domain": "alterauth.com",
-      "published_at": "2026-10-21T06:42:12Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50176908\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "57c4f8e7-6faa-4a8c-bc09-0ff66f86af2b",
-      "title": "PHP 8.2.35",
-      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-      "domain": "github.com",
-      "published_at": "2026-10-21T13:45:33Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50180873\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-23T23:37:14.257202708Z",
+  "last_updated": "2026-10-24T02:17:29.402666916Z",
   "total_count": 150
 }
