@@ -1,6 +1,107 @@
 {
   "items": [
     {
+      "id": "d88a4216-b9cd-4415-960f-28ec3153a9a2",
+      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "domain": "github.com",
+      "published_at": "2026-10-25T03:56:01Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50228167\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "92b3fa38-6869-4ea5-ba56-d675612b6559",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "domain": "cerebras.ai",
+      "published_at": "2026-10-25T01:33:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50227356\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6c31420d-1fa0-45f5-bd06-2d6383e23c5f",
+      "title": "Picasa Photo Viewer Rebuilt for Linux, Project Named Licasa",
+      "url": "https://github.com/sanxchep/licasa",
+      "domain": "github.com",
+      "published_at": "2026-10-22T10:44:52Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50193612\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "f296be79-af1d-4713-b333-d5fc1e0f37bf",
+      "title": "In Rainbows",
+      "url": "https://hitogata.neocities.org/Rainbows",
+      "domain": "hitogata.neocities.org",
+      "published_at": "2026-10-22T13:20:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50194935\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5a9df5ea-932e-4da7-9973-c92dc069086d",
+      "title": "Pragtical v3.14 Lua-based text editor adds menus, floating views, and sessions",
+      "url": "https://pragtical.dev/blog/pragtical-v3140-release",
+      "domain": "pragtical.dev",
+      "published_at": "2026-10-21T06:09:04Z",
+      "category": "infra",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50176674\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "infra",
+        "infra"
+      ]
+    },
+    {
+      "id": "f386ac5a-997a-4414-b83e-3c36da1df70b",
+      "title": "A story of a Figma bug that wasn't a bug at all (2021)",
+      "url": "https://aresluna.org/this-is-a-story-of-a-figma-bug/",
+      "domain": "aresluna.org",
+      "published_at": "2026-10-21T19:30:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50186289\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9c1d2f88-3f41-4da4-88b7-7662cc0b3a1e",
+      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report",
+      "domain": "aljazeera.com",
+      "published_at": "2026-10-25T02:18:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50227639\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "4519dd42-b448-484c-b6eb-378b76cb56b2",
       "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
       "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
@@ -2026,108 +2127,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "87391ac8-7803-49fb-9bce-0a13600028f6",
-      "title": "Show HN: Turn regular JavaScript into a neural net",
-      "url": "https://chenglou.me/handwired/",
-      "domain": "chenglou.me",
-      "published_at": "2026-10-20T21:32:23Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50172984\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9592360d-7385-4922-a671-67bb3145ef6b",
-      "title": "The phenomena that brighten dawn and dusk (2016)",
-      "url": "https://www.colorado.edu/asmagazine-archive/node/2039",
-      "domain": "colorado.edu",
-      "published_at": "2026-10-20T21:05:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50172660\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0954b683-81fa-4f7a-ab2c-4bba08eb4784",
-      "title": "Mini brain organoids ‘reading’ Braille key step towards biohybrid computing",
-      "url": "https://www.frontiersin.org/news/2026/10/16/mini-brain-organoids-reading-braille-biohybrid-computing-frontiers-artificial-intelligence",
-      "domain": "frontiersin.org",
-      "published_at": "2026-10-22T16:16:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50197450\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2c8bd762-ad5d-4d8a-9f6e-9dcf61344039",
-      "title": "A complete bypass of eMudhra’s 1FA OTP login system",
-      "url": "https://mastodon.catgirl.cloud/@49016/117475976434068995",
-      "domain": "mastodon.catgirl.cloud",
-      "published_at": "2026-10-22T19:14:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50199757\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0167a6ca-d7ff-4da2-9ea4-08c701c5c98d",
-      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
-      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
-      "domain": "biograph.com",
-      "published_at": "2026-10-22T18:02:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50198940\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f8b5145b-2d44-4979-96ca-08bf7d85d9d9",
-      "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
-      "url": "https://github.com/rbartoli/agent-usage-guard",
-      "domain": "github.com",
-      "published_at": "2026-10-22T18:02:38Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50198936\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "43746b65-2c92-4393-a829-8a0c6b9817ab",
-      "title": "Quad9 (DNS Resolver) to Exit France",
-      "url": "https://quad9.net/news/blog/au-revoir-france/",
-      "domain": "quad9.net",
-      "published_at": "2026-10-22T14:32:38Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50195959\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-25T01:22:31.596938234Z",
+  "last_updated": "2026-10-25T06:21:49.067528264Z",
   "total_count": 150
 }
