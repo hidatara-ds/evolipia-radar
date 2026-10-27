@@ -1,6 +1,188 @@
 {
   "items": [
     {
+      "id": "04006bfd-4dac-4281-9afd-1a975fee46fd",
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "domain": "tailscale.com",
+      "published_at": "2026-10-27T19:55:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50264857\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "336d75da-6f46-4d1c-9d31-df06d4ec94cf",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "domain": "brangus.io",
+      "published_at": "2026-10-27T19:55:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50264853\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1382ac74-70ad-4e79-b387-7a7438c6c2aa",
+      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+      "domain": "bret.dk",
+      "published_at": "2026-10-27T20:48:49Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50265594\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "de55a137-e7c0-4b3d-9ebe-032ddd3ec7a3",
+      "title": "SS United States to be sunk as largest artificial reef",
+      "url": "https://divemagazine.com/scuba-diving-news/ss-united-states-to-be-sunk-as-worlds-largest-artificial-reef-in-november",
+      "domain": "divemagazine.com",
+      "published_at": "2026-10-26T04:41:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50239214\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ac19e91e-6d73-4d54-a12f-ee9d665caa1f",
+      "title": "An examination of lost firefly species of the US and Canada",
+      "url": "https://journaloflostspecies.org/index.php/jls/article/view/37/33",
+      "domain": "journaloflostspecies.org",
+      "published_at": "2026-10-24T19:04:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50224079\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1b011cbe-aa5c-4b61-b49c-3c817539beda",
+      "title": "Four Months of Zig",
+      "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
+      "domain": "gracefulliberty.com",
+      "published_at": "2026-10-27T20:13:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50265128\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b78f9a79-5e6d-47b5-bb78-f8095a3a7008",
+      "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
+      "url": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+      "domain": "bettascore.ai",
+      "published_at": "2026-10-27T22:31:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50266780\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e7876a17-15d0-43a1-97fc-4925bb1f98cd",
+      "title": "Radio-tagged Monarch butterflies",
+      "url": "https://blog.cwf-fcf.org/index.php/en/tiny-tracking-tags-for-big-monarch-journeys/",
+      "domain": "blog.cwf-fcf.org",
+      "published_at": "2026-10-27T17:48:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50262982\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a9789743-e29f-4860-b484-058a09cfad70",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "domain": "anthropic.com",
+      "published_at": "2026-10-27T20:50:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50265609\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bed270d4-ced5-4c55-a58c-4bcd1d426a2a",
+      "title": "Nvidia and Micron Make Up 34% of America's Earnings Boom",
+      "url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
+      "domain": "wsj.com",
+      "published_at": "2026-10-25T21:07:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50236073\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "60176565-852f-45d6-97b6-9ceb7cfbbd40",
+      "title": "Land Value Capture in Practice: Ethiopia's Urban Land Lease System",
+      "url": "https://blog.landeconomics.org/p/land-value-capture-in-practice-reflections",
+      "domain": "blog.landeconomics.org",
+      "published_at": "2026-10-26T13:20:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50243153\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9f305fac-6fb3-4869-9e29-a25b4f91c5d6",
+      "title": "One year of Dioxus fullstack in production: the good, the painful",
+      "url": "https://oxidt.com/blog/one-year-of-dioxus-fullstack-in-production-the-good-the-painful",
+      "domain": "oxidt.com",
+      "published_at": "2026-10-27T21:19:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50265960\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7c3ed097-5c23-4185-85ba-346798e39011",
+      "title": "Hex Raises $100M",
+      "url": "https://hex.tech/blog/hex-new-era/",
+      "domain": "hex.tech",
+      "published_at": "2026-10-27T20:36:38Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50265413\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5e6b1518-fd9e-4e0b-ae46-eeed7b6d6d7e",
       "title": "Genie 4",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
@@ -1939,193 +2121,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "64f4b838-ec9f-45a8-8dfa-d346f8b8aa7e",
-      "title": "Fuck Nuance (2015)",
-      "url": "https://crookedtimber.org/2015/08/31/fuck-nuance/",
-      "domain": "crookedtimber.org",
-      "published_at": "2026-10-25T17:26:08Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50233883\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "49015e6d-04cf-47c4-91ed-3a1cfc1712c2",
-      "title": "Ask HN: What is the main bottleneck facing Agentic AI today?",
-      "url": "https://news.ycombinator.com/item?id=50234108",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-10-25T17:52:28Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50234108\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "1418825d-508a-4d42-9834-4905c14f936e",
-      "title": "Flapping Airplanes",
-      "url": "https://flappingairplanes.com/",
-      "domain": "flappingairplanes.com",
-      "published_at": "2026-10-22T03:06:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50190686\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dd5f97c7-723a-4a8c-84ed-acde2110df2d",
-      "title": "Show HN: ReVault – new secure archive format",
-      "url": "https://news.ycombinator.com/item?id=50227527",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-10-25T02:01:21Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50227527\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6f5251cb-e02b-429c-ae2a-07adb4f16c43",
-      "title": "Broccoli2Shell: Brotli decoder RCE in Node.js, Python and more",
-      "url": "https://broccoli2shell.com/",
-      "domain": "broccoli2shell.com",
-      "published_at": "2026-10-24T08:06:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https:\u0026#x2F;\u0026#x2F;www.aikido.dev\u0026#x2F;blog\u0026#x2F;python-packages-vulnerable-node2shell-brotli-cve-2026-111497\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;www.aikido.dev\u0026#x2F;blog\u0026#x2F;python-packages...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "983f9701-d467-4850-b32d-f457e7cb2717",
-      "title": "Tool book of a Nuremberg knight from 1505",
-      "url": "https://loeffelholz-codex.org/en/",
-      "domain": "loeffelholz-codex.org",
-      "published_at": "2026-10-25T12:37:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50230917\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "65595278-e2ac-4c35-8295-664d13826c8e",
-      "title": "Show HN: Farol – a risk map of a pull request for the person who approves it",
-      "url": "https://github.com/winnin/farol",
-      "domain": "github.com",
-      "published_at": "2026-10-25T13:28:06Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50231349\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "45cda8f3-3884-4b89-818f-6888bfaeca1b",
-      "title": "R/open source bans all solo projects and projects using LLMs",
-      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
-      "domain": "reddit.com",
-      "published_at": "2026-10-25T14:05:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50231722\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5616d9ba-a513-4c0f-a64d-1d62e4ca6f46",
-      "title": "US inequality is getting worse in ways you might not expect",
-      "url": "https://theconversation.com/us-inequality-is-getting-worse-in-ways-you-might-not-expect-294075",
-      "domain": "theconversation.com",
-      "published_at": "2026-10-25T13:24:37Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50231310\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1a20fc24-28a1-4feb-801c-2605842ddc88",
-      "title": "The Lego group reveals collaboration with Daft Punk",
-      "url": "https://www.lego.com/en-us/categories/adults-welcome/article/daft-punk",
-      "domain": "lego.com",
-      "published_at": "2026-10-25T12:48:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50231001\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "75ffec3a-e7ff-4acb-96b5-805025323836",
-      "title": "Did it just build.. a clock?",
-      "url": "https://theclock.online/",
-      "domain": "theclock.online",
-      "published_at": "2026-10-22T11:45:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50194029\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "59cbed7a-6101-40e1-a195-981d6efd31ac",
-      "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
-      "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
-      "domain": "panamericandispatch.org",
-      "published_at": "2026-10-25T09:00:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50229587\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5aaa365a-474a-477a-b3ef-d68e78459ad1",
-      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-      "url": "https://github.com/ihhub/fheroes2",
-      "domain": "github.com",
-      "published_at": "2026-10-25T11:09:12Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50230384\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-27T19:43:34.472023697Z",
+  "last_updated": "2026-10-27T23:17:49.088521421Z",
   "total_count": 150
 }
