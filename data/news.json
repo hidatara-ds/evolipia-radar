@@ -1,6 +1,161 @@
 {
   "items": [
     {
+      "id": "f38f608c-3902-45cf-b54b-9c893a6cbf4b",
+      "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "domain": "alpinelinux.org",
+      "published_at": "2026-10-28T23:45:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50282544\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2cebb547-2bd1-43da-bf20-a762d72b3e71",
+      "title": "StackOverflow now gets fewer than 1000 questions a month",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "domain": "data.stackexchange.com",
+      "published_at": "2026-10-28T23:35:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50282454\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f03a057a-054c-4df9-967b-ddeb36c2ab1a",
+      "title": "A Health Update",
+      "url": "https://furbo.org/2026/10/28/a-health-update/",
+      "domain": "furbo.org",
+      "published_at": "2026-10-28T21:13:21Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50280974\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f2c63d35-eac2-406a-8ad9-7768e2fa9921",
+      "title": "The case of the 9 bit AES key",
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "domain": "v12.sh",
+      "published_at": "2026-10-28T20:51:44Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50280722\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "646ad86a-dcd3-464e-9db6-62f802e80b5a",
+      "title": "Why Birds Can Fly over Mount Everest",
+      "url": "https://lede-v2.nautil.us/why-birds-can-fly-over-mount-everest-237864",
+      "domain": "lede-v2.nautil.us",
+      "published_at": "2026-10-24T13:17:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50220975\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "75a2dd9e-0e18-41c6-8d5b-4701c3c99a60",
+      "title": "Formlabs Studio 1 $699 Resin Printer",
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+      "domain": "formlabs.com",
+      "published_at": "2026-10-28T21:19:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50281044\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9160fe7d-70ba-465c-83f3-cfefde338453",
+      "title": "Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel",
+      "url": "https://nango.dev/careers",
+      "domain": "nango.dev",
+      "published_at": "2026-10-28T21:00:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50280824\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2f08b978-0de1-4f89-ac5b-70792ccc4b6a",
+      "title": "Leak website releases data on DHS employees",
+      "url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28/",
+      "domain": "reuters.com",
+      "published_at": "2026-10-28T20:46:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50280662\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3f2b8384-07be-4fcf-ae68-1792f0b971c1",
+      "title": "Image generation has come a long way since August 2022",
+      "url": "https://www.hbrooks.com/writing/image-generation-has-come-a-long-way",
+      "domain": "hbrooks.com",
+      "published_at": "2026-10-26T20:40:36Z",
+      "category": "vision",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50250609\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "vision"
+      ]
+    },
+    {
+      "id": "e6a8f84a-e3ca-4f18-a4b5-2d4799435761",
+      "title": "Scaling Hierarchical Networks",
+      "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "domain": "cartesia.ai",
+      "published_at": "2026-10-28T18:07:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50278253\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5491d673-a3e8-4e1c-b79c-19fd18209520",
+      "title": "Archive.today links going forward",
+      "url": "https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/",
+      "domain": "reddit.com",
+      "published_at": "2026-10-28T15:31:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Archive.today links going forward. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "5dcdfa11-851a-4949-b63c-bead8750c518",
       "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
       "url": "https://nullpt.rs/fingerprinting-bioweapons",
@@ -1962,165 +2117,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "c7ad59ac-3ead-497f-83c8-4d41126a571e",
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "domain": "github.com",
-      "published_at": "2026-10-26T03:29:05Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50238739\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "20fa5b76-199d-46bc-85dd-b227e0afeabf",
-      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
-      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-      "domain": "contraptions.venkateshrao.com",
-      "published_at": "2026-10-26T04:11:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50239027\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d7f08547-d7b9-4156-8001-ec2d90dfdadc",
-      "title": "Behind the scenes at the NeXT Computer office",
-      "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96\u0026sort=pub_year_isi+asc%2C+title_sort+asc\u0026view=masonry",
-      "domain": "exhibits.stanford.edu",
-      "published_at": "2026-10-26T03:31:11Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50238763\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2fdd45f8-0bf9-4d87-a270-752579555506",
-      "title": "Show HN: A Truly Modular Keyboard",
-      "url": "https://github.com/notaroomba/keybytes",
-      "domain": "github.com",
-      "published_at": "2026-10-25T03:47:56Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50228115\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "7cc4c80f-0e10-40b5-bb8f-0bfebd0581bc",
-      "title": "The Fall of Scientific American",
-      "url": "https://www.thenation.com/article/society/scientific-american-springer-nature-trump/",
-      "domain": "thenation.com",
-      "published_at": "2026-10-24T06:03:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50218693\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "167a55f2-6f3d-4fb4-ac9f-aca1191694ad",
-      "title": "IBM CEO says open weight models are now good and cheap on-prem",
-      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-      "domain": "theregister.com",
-      "published_at": "2026-10-26T01:47:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50238088\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fe2280a0-8292-42bd-b27f-668659f5392d",
-      "title": "Learning to Be Me (1990) [pdf]",
-      "url": "https://gwern.net/doc/fiction/science-fiction/1995-egan.pdf",
-      "domain": "gwern.net",
-      "published_at": "2026-10-25T17:43:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50234028\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5b4e4a4f-2c33-483e-9005-1149d2a038e5",
-      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
-      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
-      "domain": "shattered.io",
-      "published_at": "2026-10-26T03:12:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50238620\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d762f96b-f04d-4c64-bed2-cd10a787446f",
-      "title": "Who Cares Whether Academics Use AI to Write?",
-      "url": "https://www.chronicle.com/article/who-cares-whether-academics-use-ai-to-write",
-      "domain": "chronicle.com",
-      "published_at": "2026-10-23T15:29:32Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50210696\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b499a58d-9f8e-4e7c-9b70-31e211eba59d",
-      "title": "Iron Age salt-mining complex found beneath Hallstatt in Austria",
-      "url": "https://archaeologymag.com/2026/09/iron-age-salt-mining-complex-beneath-hallstatt/",
-      "domain": "archaeologymag.com",
-      "published_at": "2026-10-22T21:00:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50200957\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0ca19434-e643-4204-a367-f9ad00b122ad",
-      "title": "The Curse of Soldered RAM",
-      "url": "https://blog.hardill.me.uk/2026/10/24/the-curse-of-soldered-ram/",
-      "domain": "blog.hardill.me.uk",
-      "published_at": "2026-10-24T14:09:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50221394\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-28T20:38:50.429387408Z",
+  "last_updated": "2026-10-29T00:29:18.628063349Z",
   "total_count": 150
 }
