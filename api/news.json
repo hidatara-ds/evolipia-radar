@@ -1,6 +1,107 @@
 {
   "items": [
     {
+      "id": "00159bcb-c84c-4204-89c2-ae3dfe3f399b",
+      "title": "Pico CSS is no longer maintained",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "domain": "github.com",
+      "published_at": "2026-10-30T01:58:44Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50298964\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "e77d023d-2986-4216-84a8-1a400b31987c",
+      "title": "Study: Schoolwide phone bans show no significant impact on mental health",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855858",
+      "domain": "jamanetwork.com",
+      "published_at": "2026-10-28T10:49:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50271521\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d4825807-1e66-40ab-ad5f-c2e4b7a4725f",
+      "title": "Herdr has released native app",
+      "url": "https://github.com/herdrdev/herdr-app",
+      "domain": "github.com",
+      "published_at": "2026-10-30T00:42:41Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50298436\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "f329e7cc-65f0-43ca-b7d4-08cd4ad9f090",
+      "title": "Iterating Backwards in C",
+      "url": "https://www.davidpriver.com/Iterating-backwards-in-C.html",
+      "domain": "davidpriver.com",
+      "published_at": "2026-10-26T19:28:19Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50249598\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c02b88ae-c2c1-4a59-8083-51bc0b3c2a50",
+      "title": "Cormac McCarthy's Library",
+      "url": "https://cormacmccarthy.lib.utk.edu/",
+      "domain": "cormacmccarthy.lib.utk.edu",
+      "published_at": "2026-10-30T00:31:00Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50298318\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4ae54bc6-bdeb-4a7f-9d7b-50ed4e3fe2a0",
+      "title": "Show HN: I Turned DOOM into a Transformer",
+      "url": "https://github.com/mottopanikeiku/doomformer",
+      "domain": "github.com",
+      "published_at": "2026-10-29T23:25:46Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50297697\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9d7403cf-f5cc-4ce4-9ac8-85dcdf1257d9",
+      "title": "Historical Scientific Instruments",
+      "url": "https://nealstephenson.substack.com/p/historical-scientific-instruments",
+      "domain": "nealstephenson.substack.com",
+      "published_at": "2026-10-27T23:32:35Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50267380\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "65681fe0-0699-47b8-959a-94b9232db0d6",
       "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
       "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
@@ -2029,108 +2130,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "6aa7fb70-5c0b-4090-b2ba-96fe8fc2d7e3",
-      "title": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
-      "url": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/",
-      "domain": "cloudsleuth.io",
-      "published_at": "2026-10-27T16:25:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50261583\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9e4be787-f715-48ec-bbd0-5c7d1f191276",
-      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
-      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "domain": "gizmodo.com",
-      "published_at": "2026-10-27T16:40:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50261819\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8fb7a830-a3c8-4666-831a-c2d2668940cb",
-      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-      "domain": "stanforddaily.com",
-      "published_at": "2026-10-27T15:28:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50260814\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5a978b0f-d6ac-4db9-9956-e7ce55543016",
-      "title": "Here be monsters: What do you still need to know when agents do the work?",
-      "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
-      "domain": "blog.adrq.dev",
-      "published_at": "2026-10-27T13:23:22Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50258868\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "c7b8ac56-750c-44d5-8b18-7a9d63a258be",
-      "title": "Discord will soon let anyone find public server messages through Google",
-      "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
-      "domain": "discord.com",
-      "published_at": "2026-10-27T18:44:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50263854\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9bc8d59c-d94b-4aab-81b5-adb5740b69bb",
-      "title": "OpenLDK: Bringing the Java World into Common Lisp",
-      "url": "https://atgreen.github.io/repl-yell/posts/openldk-java-in-common-lisp/",
-      "domain": "atgreen.github.io",
-      "published_at": "2026-10-25T14:45:13Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50232101\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "056ed7d6-f5bb-4988-85e4-8502cc32784d",
-      "title": "PHP2Shell: Exploitation attempts and remediation trends",
-      "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
-      "domain": "wiz.io",
-      "published_at": "2026-10-27T13:52:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50259343\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-10-29T23:25:51.451814795Z",
+  "last_updated": "2026-10-30T02:43:47.548077088Z",
   "total_count": 150
 }
