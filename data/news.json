@@ -1,6 +1,248 @@
 {
   "items": [
     {
+      "id": "b580df29-115c-44b1-9840-39a4c6f894d5",
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "domain": "ryanmadden.net",
+      "published_at": "2026-10-31T18:50:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50318871\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "bc291e0c-4ceb-47f2-bfe2-0afcbed1a618",
+      "title": "The Duty of a Scholar",
+      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "domain": "daemonology.net",
+      "published_at": "2026-10-31T19:07:36Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50319061\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "64e3d410-ab20-47f7-b487-4491c027af51",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "domain": "atlasum.net",
+      "published_at": "2026-10-31T19:16:30Z",
+      "category": "robotics",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50319143\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "robotics",
+        "robotics"
+      ]
+    },
+    {
+      "id": "05242c86-b790-4f6e-8b72-b007c682953a",
+      "title": "It's the Memory Latency, Stupid",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "domain": "pivotlake.io",
+      "published_at": "2026-10-31T18:38:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50318720\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ae45c15f-a236-4ba8-b801-fd3633764810",
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "domain": "jepsen.io",
+      "published_at": "2026-10-31T13:39:52Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50316100\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4fc4a1c1-4698-4745-8f3f-f72f0df85b8b",
+      "title": "Hackers hijack Egypt highway billboard and Malaysian screens to show porn",
+      "url": "https://www.cairoreport.org/p/egypt-brazil-iraq-billboard-hack",
+      "domain": "cairoreport.org",
+      "published_at": "2026-10-31T17:36:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50318182\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e26d299d-8162-46c5-b25a-78c61f2c2275",
+      "title": "Redox: Ring Buffers Project Summary",
+      "url": "https://www.redox-os.org/news/nlnet-rb-summary/",
+      "domain": "redox-os.org",
+      "published_at": "2026-10-28T14:27:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50274186\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a2f25c0d-97fe-4cad-9572-97685e263dbb",
+      "title": "Much Ado About None: Sentinel Values in Python",
+      "url": "https://florianwilhelm.info/2026/10/sentinel_values/",
+      "domain": "florianwilhelm.info",
+      "published_at": "2026-10-29T22:24:56Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50297068\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e82989da-cbc4-4558-9334-868f96d10944",
+      "title": "Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference",
+      "url": "https://www.jeffgeerling.com/blog/2026/noctua-fan-swap-calnex-rb-gps-frequency-reference/",
+      "domain": "jeffgeerling.com",
+      "published_at": "2026-10-29T18:33:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50293806\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4e58be1c-22b5-4aa6-a0b8-65a67759dd7d",
+      "title": "William Nordhaus has died",
+      "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+      "domain": "news.yale.edu",
+      "published_at": "2026-10-31T17:59:41Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50318376\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f3586a99-f2f5-4180-bb04-a030fcadce34",
+      "title": "I post trained a model on Demoscenes",
+      "url": "https://datavorous.com/writing/demoscener/",
+      "domain": "datavorous.com",
+      "published_at": "2026-10-31T18:08:24Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50318442\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "83277515-b8de-4aaa-b20e-25c6462bf653",
+      "title": "Show HN: A language model that lives in a boot sector",
+      "url": "https://github.com/kerlenton/bootgpt",
+      "domain": "github.com",
+      "published_at": "2026-10-31T12:58:29Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50315782\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "418411a3-a9da-4a58-a989-a52604498480",
+      "title": "Show HN: NES Contra (1987) port (ASM –\u003e C and then C –\u003e WebAssembly)",
+      "url": "https://epoyraz.github.io/nes-contra-us/",
+      "domain": "epoyraz.github.io",
+      "published_at": "2026-10-31T19:18:48Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50319169\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "49f30f38-3faa-4062-adc7-8215d63d40ba",
+      "title": "Show HN: Ghostman – A fast, keyboard-driven TUI API client and webhook inspector",
+      "url": "https://github.com/4yk5/Ghostman",
+      "domain": "github.com",
+      "published_at": "2026-10-30T07:48:40Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50300902\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "9efdbd0b-28fe-4dc3-a5bd-c41b90f60391",
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "domain": "dl.acm.org",
+      "published_at": "2026-10-31T18:02:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50318401\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2f6b39cf-b208-4926-9e7e-7c194d357032",
+      "title": "What is a light-day? The milestone Voyager 1 is closing in on",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+      "domain": "science.nasa.gov",
+      "published_at": "2026-10-31T16:09:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "What is a light-day? The milestone Voyager 1 is closing in on. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3e924cfb-5287-4db4-8a33-bc40660d6e0b",
+      "title": "Copyright Office is restoring copyright to something you have to work to get",
+      "url": "https://pluralistic.net/2026/10/31/burn-berne/#unvictored",
+      "domain": "pluralistic.net",
+      "published_at": "2026-10-31T17:16:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Copyright Office is restoring copyright to something you have to work to get. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "81b8fb2f-6570-4b0b-a096-6121c8235f30",
       "title": "Malware uses LLMs to rank victims by how much they're worth",
       "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
@@ -1886,253 +2128,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "904b8479-9a91-4a3f-a902-4a930f118ed0",
-      "title": "NetBSD adds a new beginner-friendly text editor called atto",
-      "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
-      "domain": "mastodon.sdf.org",
-      "published_at": "2026-10-29T11:59:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50287599\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "42781098-93d0-4b2c-a2ef-1ead5dcdd574",
-      "title": "If IPv4 Were Land",
-      "url": "https://iptrust.co/blog/if-ipv4-were-land",
-      "domain": "iptrust.co",
-      "published_at": "2026-10-29T12:19:00Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50287775\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1b372615-5d50-4269-98d3-dcf4b10a0f4e",
-      "title": "The US added a record 20.2 GWh of battery storage in just 3 months",
-      "url": "https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months/",
-      "domain": "electrek.co",
-      "published_at": "2026-10-29T10:44:49Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50287001\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "1ab95204-d60c-4fab-ba68-203ddd0ccbd1",
-      "title": "Getting debug access on a Brother printer over Telnet",
-      "url": "https://inventor7777.github.io/blog/2026/10/22/debug-access-on-brother/",
-      "domain": "inventor7777.github.io",
-      "published_at": "2026-10-26T13:54:39Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50243757\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "f0d629ad-a2b7-437c-9f53-202627ca9329",
-      "title": "Zero click, silent, remote Android DoS",
-      "url": "https://smsofdeath.com/",
-      "domain": "smsofdeath.com",
-      "published_at": "2026-10-29T07:08:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50285452\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "fe99fe5b-919c-4a82-88e8-89236983131f",
-      "title": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
-      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
-      "domain": "dreamgroup.com",
-      "published_at": "2026-10-29T10:42:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50286987\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0356c19f-a4e9-455d-a45d-801c883a09e5",
-      "title": "Show HN: UK Farming Simulator",
-      "url": "https://butterbean.farm/",
-      "domain": "butterbean.farm",
-      "published_at": "2026-10-29T11:15:59Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50287255\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e758d374-9d82-4103-ba89-ecbf458f0a4c",
-      "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
-      "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
-      "domain": "blog.orange.tw",
-      "published_at": "2026-10-29T06:47:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50285319\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bedc2613-950b-4925-81a3-c2849017bd0f",
-      "title": "Hackers expose the identities of more than 40k DHS employees",
-      "url": "https://text.npr.org/nx-s1-6021497",
-      "domain": "text.npr.org",
-      "published_at": "2026-10-29T12:31:09Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50287898\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f14604bb-ebd0-42f1-9292-8795c437bf92",
-      "title": "I Used AI to Fake a Scientific Paper. Here's What Happened",
-      "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
-      "domain": "spectrum.ieee.org",
-      "published_at": "2026-10-29T10:08:04Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50286738\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "eb479c31-6248-4814-b975-e8f80fafb006",
-      "title": "MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
-      "url": "https://dmux.github.io/minilake/",
-      "domain": "dmux.github.io",
-      "published_at": "2026-10-27T14:12:59Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50259697\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "b3ff5c2d-4050-4419-adb3-f1596ebf9939",
-      "title": "Requests, Please",
-      "url": "https://morronel.github.io/requests_please/",
-      "domain": "morronel.github.io",
-      "published_at": "2026-10-26T09:23:43Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50241195\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "a921b0bb-4e22-492f-80db-be1fe5d8a0bf",
-      "title": "Southern Africa's first known stenciled rock art found hiding in plain sight",
-      "url": "https://phys.org/news/2026-10-southern-africa-stenciled-art-plain.html",
-      "domain": "phys.org",
-      "published_at": "2026-10-27T00:18:58Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50253100\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6a2616c6-b947-4f74-9741-c96a6fa87976",
-      "title": "Muhammad Aqeel: Undo for Postgres, without losing the rest of your day",
-      "url": "https://www.pgedge.com/blog/undo-for-postgres-without-losing-the-rest-of-your-day",
-      "domain": "pgedge.com",
-      "published_at": "2026-10-26T21:15:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50251085\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "949cd6f5-9d0d-4ad3-a8c8-e9153d4b35b0",
-      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "url": "https://divagr.com/blog/qwenputer",
-      "domain": "divagr.com",
-      "published_at": "2026-10-29T00:25:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50282838\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a532fac6-50aa-4dee-b5f3-c5a8e2c2da98",
-      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "domain": "gist.github.com",
-      "published_at": "2026-10-29T03:33:42Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50284255\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "4a6efdc9-3ded-42b8-a89a-e9d5cebd7f69",
-      "title": "The 'else' keyword is probably a literal translation from German (2020)",
-      "url": "https://github.com/e-n-f/if-then-else/blob/master/if-then-else.md",
-      "domain": "github.com",
-      "published_at": "2026-10-25T16:05:56Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50233059\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-10-31T16:26:34.209607217Z",
+  "last_updated": "2026-10-31T20:08:32.010937315Z",
   "total_count": 150
 }
