@@ -1,6 +1,163 @@
 {
   "items": [
     {
+      "id": "e1ff0bff-6d08-4735-b64c-542c9a8480ef",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "domain": "hackerbooks.org",
+      "published_at": "2026-11-01T15:58:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50326821\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "934dc924-2775-4df2-95ee-311d3416ab8d",
+      "title": "Mathematics has changed. Let's act like it",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "domain": "terrytao.wordpress.com",
+      "published_at": "2026-11-01T18:28:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50328251\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e0a1c4b2-5888-4b18-a63d-8071b747e858",
+      "title": "It wasn't AI that flipped Proton's charge",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "domain": "blog.raed.dev",
+      "published_at": "2026-11-01T18:53:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50328488\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "831d07da-2d03-4bef-ac3d-14de06332afe",
+      "title": "Tips for more effective fuzz testing with AFL++",
+      "url": "https://nullprogram.com/blog/2025/02/05/",
+      "domain": "nullprogram.com",
+      "published_at": "2026-10-28T09:46:12Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50271106\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f4727416-e616-45d7-a1ac-52e8aac9676e",
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "url": "https://github.com/raphlinus/nibnib",
+      "domain": "github.com",
+      "published_at": "2026-10-30T04:17:06Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50299811\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "vision",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "4be74ba6-cf43-4af7-a9f9-df6e54f04b05",
+      "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+      "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+      "domain": "semiconductor-today.com",
+      "published_at": "2026-11-01T16:23:26Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50327058\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f89b6e32-00dd-4272-aae6-7b9f11f3324c",
+      "title": "Ask HN: Which TV do you recommend for privacy?",
+      "url": "https://news.ycombinator.com/item?id=50328896",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-11-01T19:35:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50328896\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9925b2e0-4216-4823-99ec-12c35360ceed",
+      "title": "Frontier Airlines Likely Breached",
+      "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+      "domain": "reddit.com",
+      "published_at": "2026-11-01T16:46:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50327266\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "885a6a7e-c91e-40ab-bb51-431dd6e7d68a",
+      "title": "Patrick Stewart taught us what good men do with power",
+      "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+      "domain": "vox.com",
+      "published_at": "2026-11-01T17:28:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50327650\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c36fd4a5-1d36-4c66-b58b-1b6192da2430",
+      "title": "Parchment Paper History: How We Got Paper Perfect for Baking (2019)",
+      "url": "https://tedium.co/2019/11/21/nonstick-parchment-paper-history/",
+      "domain": "tedium.co",
+      "published_at": "2026-10-31T04:31:06Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50313227\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "45375fb8-df84-4be9-9760-92428d91ef93",
+      "title": "Nurses Sound Alarm as 'Uber for Nursing' Apps Push to Deregulate Healthcare",
+      "url": "https://nurse.org/news/uber-for-nursing-gig-apps-report/",
+      "domain": "nurse.org",
+      "published_at": "2026-11-01T18:53:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "Nurses Sound Alarm as 'Uber for Nursing' Apps Push to Deregulate Healthcare. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "e80eb7d6-a80f-43c6-958e-16deb8d9e713",
       "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
       "url": "https://arxiv.org/abs/2610.39302",
@@ -1966,165 +2123,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "acd794af-a980-48cd-9191-29f723d388b0",
-      "title": "Cuis: The Modern Smalltalk-80",
-      "url": "https://cuis.st/",
-      "domain": "cuis.st",
-      "published_at": "2026-10-27T06:33:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50255343\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "479c74db-4315-4ff2-bc17-88b6defb1252",
-      "title": "Astroterm: A Planetarium for Your Terminal",
-      "url": "https://github.com/da-luce/astroterm",
-      "domain": "github.com",
-      "published_at": "2026-10-28T08:29:55Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50270651\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "f3d2ec73-42ad-4ee3-a7f0-10e999478ebd",
-      "title": "I'm so bad at billiards that I ended up in the hyperbolic plane [video]",
-      "url": "https://www.youtube.com/watch?v=kL9BTbIGxLg",
-      "domain": "youtube.com",
-      "published_at": "2026-10-28T13:20:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50273104\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6980cda1-de90-4815-95cf-fc552f9965ec",
-      "title": "Gilgamesh by Simon Armitage review – an ancient epic is brilliantly translated",
-      "url": "https://www.theguardian.com/books/2026/oct/20/gilgamesh-by-simon-armitage-review-an-ancient-epic-is-brilliantly-translated-for-our-times",
-      "domain": "theguardian.com",
-      "published_at": "2026-10-27T17:54:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50263127\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a33fb77c-5243-4e2d-ac75-6b4228c08d0d",
-      "title": "Wasmer (YC S19) Is Hiring OS/Hypervisor Experts in Europe",
-      "url": "https://www.workatastartup.com/jobs/98722",
-      "domain": "workatastartup.com",
-      "published_at": "2026-10-30T07:00:35Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50300643\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "327e01ba-0845-4268-8604-e8dca6abc3fc",
-      "title": "'Elite North Korean hackers' blamed for $6.3B Binance hack",
-      "url": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
-      "domain": "theguardian.com",
-      "published_at": "2026-10-30T07:41:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50300853\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4be7fa3f-496c-482d-af31-5170f454b1f9",
-      "title": "Python on My Wrist",
-      "url": "https://tildeweb.nl/~michiel/python-on-my-wrist.html",
-      "domain": "tildeweb.nl",
-      "published_at": "2026-10-27T07:10:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50255573\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6e8936a3-c21b-4059-bfe4-691028d479d3",
-      "title": "An illustrated online book on Hewlett-Packard equipment",
-      "url": "https://blog.adafruit.com/2026/10/27/an-illustrated-online-book-on-hewlett-packard-equipment/",
-      "domain": "blog.adafruit.com",
-      "published_at": "2026-10-27T22:47:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50266956\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "00159bcb-c84c-4204-89c2-ae3dfe3f399b",
-      "title": "Pico CSS is no longer maintained",
-      "url": "https://github.com/picocss/pico/discussions/754",
-      "domain": "github.com",
-      "published_at": "2026-10-30T01:58:44Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50298964\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "e77d023d-2986-4216-84a8-1a400b31987c",
-      "title": "Study: Schoolwide phone bans show no significant impact on mental health",
-      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855858",
-      "domain": "jamanetwork.com",
-      "published_at": "2026-10-28T10:49:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50271521\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d4825807-1e66-40ab-ad5f-c2e4b7a4725f",
-      "title": "Herdr has released native app",
-      "url": "https://github.com/herdrdev/herdr-app",
-      "domain": "github.com",
-      "published_at": "2026-10-30T00:42:41Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50298436\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-11-01T16:13:17.029034229Z",
+  "last_updated": "2026-11-01T20:39:16.328801229Z",
   "total_count": 150
 }
