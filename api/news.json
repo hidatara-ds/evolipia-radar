@@ -1,6 +1,146 @@
 {
   "items": [
     {
+      "id": "d492b231-3a6c-4399-9217-26c8c8445935",
+      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "url": "https://wikihack.netlify.app",
+      "domain": "wikihack.netlify.app",
+      "published_at": "2026-11-02T05:06:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50333339\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a36be327-9280-4192-acd0-4dac96137c00",
+      "title": "Show HN: I've updated my Linux System Call website and API",
+      "url": "https://syscall.sh/",
+      "domain": "syscall.sh",
+      "published_at": "2026-11-02T09:29:16Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50334704\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e5c8b31c-58b0-4b89-a65d-4cedd2d31b2c",
+      "title": "Bones may release proteins that slow aging and extend life span",
+      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
+      "domain": "science.org",
+      "published_at": "2026-11-02T01:31:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50331957\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "38609b8e-9f95-4ba0-a06f-f86be9cec704",
+      "title": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
+      "url": "https://news.ycombinator.com/",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-11-02T06:59:40Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50333877\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5568cc46-c202-4700-a8bc-48659a369a92",
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "domain": "theguardian.com",
+      "published_at": "2026-11-02T11:50:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50335615\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "69c3fac4-0dab-4c39-8b63-b2b314e11664",
+      "title": "The future in old computer magazines (1984–2004)",
+      "url": "https://tomorrowasusual.substack.com/p/blast-from-the-past-the-future-in",
+      "domain": "tomorrowasusual.substack.com",
+      "published_at": "2026-11-02T11:09:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50335341\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "85fdde9b-86c0-448d-8962-e9fd5939dc6f",
+      "title": "From Charlemagne to the Kitchen Boy: Reading the Hamburg Rathaus",
+      "url": "https://alsterrunde.com/from-charlemagne-to-the-kitchen-boy-reading-the-hamburg-rathaus/",
+      "domain": "alsterrunde.com",
+      "published_at": "2026-11-02T06:39:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50333774\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "5802e743-ac6b-4b2f-9141-e39cc1f55bcf",
+      "title": "Private Jet plane crashes in Florida",
+      "url": "https://www.cbc.ca/news/world/florida-plane-crash-9.7404996",
+      "domain": "cbc.ca",
+      "published_at": "2026-11-02T12:26:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50335914\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c738f445-ed36-42a6-a9a9-6001e051badf",
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "domain": "labs.cloudsecurityalliance.org",
+      "published_at": "2026-11-02T07:27:28Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50334038\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a9b6c7d3-adc8-4333-a706-a7fc9b8867b1",
+      "title": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
+      "url": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
+      "domain": "bbc.com",
+      "published_at": "2026-11-02T11:48:02Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50335602\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "15f8adff-5284-40c0-93f9-210a51b4f646",
       "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
       "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
@@ -1982,149 +2122,8 @@
         "agents",
         "agents"
       ]
-    },
-    {
-      "id": "846cdaa7-274b-45fa-80c2-2a847f51c287",
-      "title": "GitHub Incident with Actions, Pages, and Webhooks",
-      "url": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
-      "domain": "githubstatus.com",
-      "published_at": "2026-10-30T17:57:35Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50307723\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "0b268c97-56b0-43ff-ac26-3a0eb494044a",
-      "title": "French digital tax may kill VideoLan non-profit",
-      "url": "https://twitter.com/videolan/status/2116229135919919278",
-      "domain": "twitter.com",
-      "published_at": "2026-10-30T19:01:14Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50308631\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "90d38118-c26d-4c51-9f98-25ce9256c528",
-      "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
-      "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
-      "domain": "npr.org",
-      "published_at": "2026-10-30T15:39:05Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b2393a2a-49b2-4772-b8e8-bdcfc784f318",
-      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-      "domain": "research.google",
-      "published_at": "2026-10-28T12:24:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https:\u0026#x2F;\u0026#x2F;arxiv.org\u0026#x2F;pdf\u0026#x2F;2606.03979\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;arxiv.org\u0026#x2F;pdf\u0026#x2F;2606.03979\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "79277b71-7625-4ba2-9d8f-82a25173d02d",
-      "title": "How do you take a picture of a black hole?",
-      "url": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
-      "domain": "quantamagazine.org",
-      "published_at": "2026-10-30T09:49:02Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "How do you take a picture of a black hole?. Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d3e62c1f-0550-46f2-9ba1-bad71925fc29",
-      "title": "Show HN: I built a multiplayer game where you're an aerial fighter cat",
-      "url": "https://catcopter.com",
-      "domain": "catcopter.com",
-      "published_at": "2026-10-30T15:29:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "Hi everyone!\u003cp\u003eI had the idea for catcopter on my mind for a long time (got the domain ~13 years ago). It\u0026#x27;s a web multiplayer game where you can fly a dangerous cat and engage in competition w...",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "85290d5f-265a-4858-9adc-ec4fb929d81b",
-      "title": "ICE wants its mask back, and hired a company to ask",
-      "url": "https://blog.flokinet.is/2026/10/29/ice-wants-its-mask-back-and-hired-a-company-to-ask/",
-      "domain": "blog.flokinet.is",
-      "published_at": "2026-10-30T15:26:58Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50305272\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "96c9a5ed-45b9-4ab0-bd2b-e331c6082ada",
-      "title": "elect.horse",
-      "url": "https://elect.horse/",
-      "domain": "elect.horse",
-      "published_at": "2026-10-30T09:14:34Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50301462\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9c052a0c-c1f3-4b8f-a2bc-c10dbd649d2e",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "domain": "phorion.io",
-      "published_at": "2026-10-30T07:09:12Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50300683\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1af1e836-4c4c-4a0e-a13f-3e3956c95714",
-      "title": "Northflank Breached",
-      "url": "https://status.northflank.com",
-      "domain": "status.northflank.com",
-      "published_at": "2026-10-30T15:10:31Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50305025\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-11-02T04:49:42.634134101Z",
+  "last_updated": "2026-11-02T12:56:01.737806918Z",
   "total_count": 150
 }
