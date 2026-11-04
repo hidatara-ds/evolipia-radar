@@ -1,6 +1,148 @@
 {
   "items": [
     {
+      "id": "32251a78-67f0-4568-93a5-c8729ee38b1b",
+      "title": "Kitty 0.50",
+      "url": "https://sw.kovidgoyal.net/kitty/changelog/#",
+      "domain": "sw.kovidgoyal.net",
+      "published_at": "2026-11-04T08:57:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50362980\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "513ff84d-516f-4e26-bbdc-f16d6e49474c",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "domain": "mindstudio.ai",
+      "published_at": "2026-11-04T08:46:29Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50362905\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3a3afdd1-bc38-4ff7-bf2d-387c6e79628f",
+      "title": "Verification Is Not Knowledge: Science needs more than answers",
+      "url": "https://blog.cosmos-institute.org/p/verification-is-not-knowledge",
+      "domain": "blog.cosmos-institute.org",
+      "published_at": "2026-11-04T09:01:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50363019\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "94a88d29-e719-47fd-ad10-61d11a8b6d98",
+      "title": "Jelly Sheet",
+      "url": "https://mrdoob.github.io/codevember-2026/01/",
+      "domain": "mrdoob.github.io",
+      "published_at": "2026-11-04T03:40:50Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50361268\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "ecfebe36-7033-4385-a900-7675706677a2",
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-11-04T10:10:27Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50363461\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "020b788c-f244-4e9a-95d3-e8c8d3292eed",
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+      "domain": "githubstatus.com",
+      "published_at": "2026-11-04T10:00:06Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50363378\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "34cd0cc8-7798-4c30-bb9c-c7865b763f84",
+      "title": "The lost malloc()",
+      "url": "https://napcakes.nekoweb.org/posts/malloc/",
+      "domain": "napcakes.nekoweb.org",
+      "published_at": "2026-11-04T07:37:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50362466\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d9952aac-f299-49ec-9d73-51104bff6a45",
+      "title": "Distinct cellular and genetic differences in colorectal cancer in young patients",
+      "url": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients",
+      "domain": "dana-farber.org",
+      "published_at": "2026-11-04T03:20:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50361154\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a2ab804b-45d5-4abb-8b7f-3446612fa0d9",
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "domain": "theguardian.com",
+      "published_at": "2026-11-04T10:23:34Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50363554\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0514d1bf-cca4-49b0-bc43-9febc2505a28",
+      "title": "Milkman – The Better Alternative to Postman",
+      "url": "https://milkman.dev/",
+      "domain": "milkman.dev",
+      "published_at": "2026-11-04T08:58:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50362993\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "6dd4a584-6434-46be-835d-08b9ef8d3399",
       "title": "C++26 Disapproved",
       "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
@@ -1990,150 +2132,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "498e9e35-020d-4caf-a7c8-72cc91d660b3",
-      "title": "Copper – A minimal low-level programming language with OOP and generics",
-      "url": "https://tibleiz.net/copper/",
-      "domain": "tibleiz.net",
-      "published_at": "2026-10-30T19:09:33Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50308754\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d1f5dec6-27e2-4960-b42d-3d6613c03b93",
-      "title": "Show HN: Point your camera at a landscape to learn about its geology",
-      "url": "https://outcrop.rocks/",
-      "domain": "outcrop.rocks",
-      "published_at": "2026-10-29T15:22:41Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50290533\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "243b2730-17af-44ec-aab9-03e8c096165d",
-      "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
-      "domain": "tomshardware.com",
-      "published_at": "2026-11-01T13:47:24Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50325662\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "a69efc87-1806-46bd-8bf9-d4553afaf994",
-      "title": "Domain hacks with unusual Unicode characters (2018)",
-      "url": "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/",
-      "domain": "xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso",
-      "published_at": "2026-11-01T10:44:20Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50324371\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4f175d51-5d3a-4fb5-b9bb-9a8f35cddf7d",
-      "title": "Enlightenment 0.28.0 Release",
-      "url": "https://www.enlightenment.org/news/2026-10-31-enlightenment-0.28.0",
-      "domain": "enlightenment.org",
-      "published_at": "2026-11-01T15:26:06Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50326530\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5b6cbd02-a9c4-4847-9a71-a7b05b3558eb",
-      "title": "Restrooms along the Norwegian Scenic Routes",
-      "url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
-      "domain": "visitnorway.com",
-      "published_at": "2026-11-01T10:47:58Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50324388\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5348a253-9845-42b0-9e86-0127dea5a678",
-      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
-      "url": "https://github.com/ivankovic/omnidiff",
-      "domain": "github.com",
-      "published_at": "2026-11-01T13:02:30Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50325253\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "34ed53ec-4301-487f-8403-8ee12aabc26d",
-      "title": "The AI cost of JavaScript frameworks",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-      "domain": "nolanlawson.com",
-      "published_at": "2026-11-01T06:06:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50323088\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0d2ad099-3133-4861-83ae-56c50f68573a",
-      "title": "Running a bootstrapped SaaS for 20 years with my brother",
-      "url": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
-      "domain": "blog.zamzar.com",
-      "published_at": "2026-10-30T13:58:42Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50303984\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a723fd44-ac82-4ed5-83bb-f56aff704a32",
-      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-      "domain": "jetstream.security",
-      "published_at": "2026-11-01T02:19:53Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50322173\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-11-04T03:40:54.13413807Z",
+  "last_updated": "2026-11-04T11:40:56.019602897Z",
   "total_count": 150
 }
