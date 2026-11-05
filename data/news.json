@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "id": "f27cbcf7-a9a2-4d97-bb61-1512b04303bf",
+      "title": "Lemmings CSS Animation",
+      "url": "https://markblah.github.io/lemmings/",
+      "domain": "markblah.github.io",
+      "published_at": "2026-11-05T04:54:10Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50375354\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "7d9e37c8-41f1-4247-9ff8-7f53ed2dafd9",
+      "title": "Starfall – Affordable, routine access to microgravity",
+      "url": "https://www.spacex.com/starfall",
+      "domain": "spacex.com",
+      "published_at": "2026-11-05T00:18:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50373308\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "7b193e54-55e6-40d5-b916-f51dfad508a3",
+      "title": "Spreading Liquid with Three.js",
+      "url": "https://mofu-dev.com/en/blog/fluid-foundation/",
+      "domain": "mofu-dev.com",
+      "published_at": "2026-11-02T18:45:54Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50341576\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "701af504-9ef1-449c-b635-399d3de0ef0e",
+      "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
+      "url": "https://www.altera.com/newsroom/agilex-2x",
+      "domain": "altera.com",
+      "published_at": "2026-11-05T05:47:14Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50375653\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "49814652-34c5-41f8-babd-0269e3ff7ffa",
+      "title": "So my ISP was hijacking my DNS",
+      "url": "https://www.karthihegde.dev/posts/dns_tampering",
+      "domain": "karthihegde.dev",
+      "published_at": "2026-11-04T12:51:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50364860\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "15516ced-b6fc-4c30-8e2e-fa0272dd6534",
+      "title": "Future Maintenance of Mbed TLS",
+      "url": "https://lists.trustedfirmware.org/archives/list/mbed-tls@lists.trustedfirmware.org/thread/YPIGCB7WN6GCHOGEGKOJXUYAP7OK527W/",
+      "domain": "lists.trustedfirmware.org",
+      "published_at": "2026-11-03T07:39:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50349165\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d5288d39-4581-4ecf-ac24-2d77ad53df60",
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+      "domain": "arstechnica.com",
+      "published_at": "2026-11-02T15:48:45Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50338474\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "e324ece5-2694-486a-bd4a-610f1ab076b2",
+      "title": "'It's just vape, nail, charity shops': Can anything save UK high street?",
+      "url": "https://www.theguardian.com/business/2026/nov/04/what-can-save-the-british-high-street-rotherham",
+      "domain": "theguardian.com",
+      "published_at": "2026-11-04T16:11:33Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "'It's just vape, nail, charity shops': Can anything save UK high street?. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "00a79833-79e2-41c0-baea-55e1028d9d41",
       "title": "Residential proxies detected on White House network",
       "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
@@ -2026,120 +2140,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "b12b0b5e-0ff6-4734-81dc-03541e893c27",
-      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-      "domain": "businessinsider.com",
-      "published_at": "2026-11-02T16:40:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50339494\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "4a484504-a829-4093-a506-4e5af4dc4371",
-      "title": "Moving our warehouse off DuckDB",
-      "url": "https://posthog.com/blog/moving-off-duckdb",
-      "domain": "posthog.com",
-      "published_at": "2026-11-02T16:02:26Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50338747\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2d3d19e5-d0a0-4bae-a02a-82b0eb35ed61",
-      "title": "The U.S. Census Bureau and \"Super Intelligence\"",
-      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
-      "domain": "simonwillison.net",
-      "published_at": "2026-11-02T13:55:45Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "The U.S. Census Bureau and \"Super Intelligence\". Discovered from TrendingAgent.",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d492b231-3a6c-4399-9217-26c8c8445935",
-      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
-      "url": "https://wikihack.netlify.app",
-      "domain": "wikihack.netlify.app",
-      "published_at": "2026-11-02T05:06:30Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50333339\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a36be327-9280-4192-acd0-4dac96137c00",
-      "title": "Show HN: I've updated my Linux System Call website and API",
-      "url": "https://syscall.sh/",
-      "domain": "syscall.sh",
-      "published_at": "2026-11-02T09:29:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50334704\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "e5c8b31c-58b0-4b89-a65d-4cedd2d31b2c",
-      "title": "Bones may release proteins that slow aging and extend life span",
-      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
-      "domain": "science.org",
-      "published_at": "2026-11-02T01:31:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50331957\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "38609b8e-9f95-4ba0-a06f-f86be9cec704",
-      "title": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
-      "url": "https://news.ycombinator.com/",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-11-02T06:59:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50333877\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5568cc46-c202-4700-a8bc-48659a369a92",
-      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
-      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
-      "domain": "theguardian.com",
-      "published_at": "2026-11-02T11:50:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50335615\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-11-05T00:06:31.387514802Z",
+  "last_updated": "2026-11-05T07:05:20.091034334Z",
   "total_count": 150
 }
