@@ -1,6 +1,162 @@
 {
   "items": [
     {
+      "id": "219e75ab-8bdd-4505-bea6-f775ea33ff6d",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+      "domain": "axios.com",
+      "published_at": "2026-11-08T22:20:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50418016\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "86a18c37-24ff-4181-bf98-d61831366f29",
+      "title": "Ask HN: What are you working on? (November 2026)",
+      "url": "https://news.ycombinator.com/item?id=50417407",
+      "domain": "news.ycombinator.com",
+      "published_at": "2026-11-08T21:20:20Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50417407\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "99ee76d2-36e3-46bc-a62d-4aa4718fe640",
+      "title": "Chimera Vocal Synth",
+      "url": "https://chimera-vocal-synth.vercel.app/",
+      "domain": "chimera-vocal-synth.vercel.app",
+      "published_at": "2026-11-08T22:36:03Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50418182\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "3211757e-3742-4146-bff5-e05d2a94df8d",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+      "domain": "ftrain.com",
+      "published_at": "2026-11-08T19:48:32Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50416456\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "69e263e1-f9cc-41d7-aa7b-eb6b4cc6ab0a",
+      "title": "Designing Rust APIs around KEM, AEAD and key derivation workflows",
+      "url": "https://github.com/lecodev-26/nexus-q",
+      "domain": "github.com",
+      "published_at": "2026-11-06T10:58:29Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50390799\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "5fa28661-695b-4961-beec-650879e51da0",
+      "title": "Edward Hopper's Iconic Painting, \"Nighthawks",
+      "url": "https://lithub.com/the-story-behind-edward-hoppers-iconic-painting-nighthawks/",
+      "domain": "lithub.com",
+      "published_at": "2026-11-04T23:23:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50372838\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "31407731-ccf5-427e-a181-aa46599d61e7",
+      "title": "The History of Djgpp",
+      "url": "https://www.delorie.com/djgpp/history.html",
+      "domain": "delorie.com",
+      "published_at": "2026-11-03T16:10:37Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50353814\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "88c9c3b7-48b0-4faf-9193-881e51d2939b",
+      "title": "Playing with the STM32MP2",
+      "url": "https://serd.es/2026/11/08/playing-with-stm32mp2.html",
+      "domain": "serd.es",
+      "published_at": "2026-11-08T19:04:07Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50416014\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "91db1f1b-8709-4ec4-8b76-a0f14dcf5596",
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "domain": "sergeykuhne.com",
+      "published_at": "2026-11-08T19:37:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50416363\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "da4e2b17-aa3c-49d2-8a07-cb5942606813",
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "domain": "nvidianews.nvidia.com",
+      "published_at": "2026-11-08T20:26:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50416801\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e7afe604-89c1-4815-8a86-0ed31fe44775",
+      "title": "Starship Flight 15 on 11/13 plans to catch both booster and ship",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "domain": "spacex.com",
+      "published_at": "2026-11-08T19:49:46Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50416471\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "1ff71b13-955e-4224-bb1f-1885646e8c92",
       "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
@@ -1980,164 +2136,8 @@
         "open-source",
         "open-source"
       ]
-    },
-    {
-      "id": "1c62a3fb-f185-4765-bb1a-9792771a95aa",
-      "title": "I struggle to believe that AI R\u0026D is ingenious",
-      "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
-      "domain": "lesswrong.com",
-      "published_at": "2026-11-06T05:19:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50388513\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f2b60d7f-a003-491e-a477-477a942e9a95",
-      "title": "Hardcoded credentials and other issues in Tata Motors App",
-      "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01\u0026VLCODE=CIVN-2026-0537",
-      "domain": "cert-in.org.in",
-      "published_at": "2026-11-06T07:28:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50389260\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bfdfa59f-c515-41df-a8f7-3ebb73356a03",
-      "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
-      "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
-      "domain": "thereader.mitpress.mit.edu",
-      "published_at": "2026-11-06T04:17:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50388122\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "9bd9554d-bc71-4e01-9154-1c1b35bd4d5d",
-      "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
-      "url": "https://worldstrike.fun/",
-      "domain": "worldstrike.fun",
-      "published_at": "2026-11-06T07:55:48Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50389420\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "00472624-d023-48b7-aa9b-12b0b55eb5b3",
-      "title": "Living Maps: Bay Area tech since 1960s",
-      "url": "https://tomorrowasusual.com/living-maps/bay-area-tech/",
-      "domain": "tomorrowasusual.com",
-      "published_at": "2026-11-06T08:08:19Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50389498\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ca034ec4-88cb-418f-bf2a-29962bd7dcf5",
-      "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
-      "url": "https://github.com/matthewmrichter/mooftcp",
-      "domain": "github.com",
-      "published_at": "2026-11-06T00:54:15Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50386789\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "ede19cc9-66e4-4e3a-b2c4-6d07dbe5a9a5",
-      "title": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "domain": "github.com",
-      "published_at": "2026-11-05T22:17:15Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50385272\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "652e9e45-436b-4463-890d-7133fe2af351",
-      "title": "Inkling 2 Small",
-      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-      "domain": "thinkingmachines.ai",
-      "published_at": "2026-11-06T00:00:24Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50386338\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "43a0b62e-515f-4b98-a269-0f3766f0b7dd",
-      "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
-      "url": "https://firenook.dev/",
-      "domain": "firenook.dev",
-      "published_at": "2026-11-05T13:07:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50378643\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "732d60d6-220f-46c6-8530-427ec94274f0",
-      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "domain": "finance.yahoo.com",
-      "published_at": "2026-11-05T23:09:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50385870\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "0a10cf3c-2822-40bc-84f2-c66054add848",
-      "title": "Brazilian Credit Guarantor Fund Data Breach Affecting PII and Payout Data",
-      "url": "https://www.fgc.org.br/comunicado",
-      "domain": "fgc.org.br",
-      "published_at": "2026-11-05T23:32:36Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50386104\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-11-08T19:49:10.574652333Z",
+  "last_updated": "2026-11-08T23:15:15.853196726Z",
   "total_count": 150
 }
