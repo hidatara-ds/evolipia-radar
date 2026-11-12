@@ -1,6 +1,236 @@
 {
   "items": [
     {
+      "id": "581222a4-6de1-496c-9720-c14525dca6a3",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "domain": "wsj.com",
+      "published_at": "2026-11-11T22:31:06Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50459703\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "06db9a3d-e117-47bc-bedf-82891aff7eb3",
+      "title": "93% of Paint Splatters Are Valid Perl Programs (2019)",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "domain": "mcmillen.dev",
+      "published_at": "2026-11-11T22:34:23Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50459745\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "ab2c4f8c-bd67-4266-b5d0-eb0ec363b004",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "domain": "cbsnews.com",
+      "published_at": "2026-11-11T21:24:35Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50458900\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "24aeb499-7d68-4bac-b021-1a45045c6125",
+      "title": "Lock Your GitHub Actions",
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "domain": "hugovk.dev",
+      "published_at": "2026-11-11T22:16:41Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50459485\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "5e3fd5ad-a171-4581-801b-7d14c3d511bb",
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "domain": "blog.google",
+      "published_at": "2026-11-11T18:32:42Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50456791\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d5d7ced4-7746-4ff1-a14d-32d5b2e158ae",
+      "title": "Emacs in the Age of Magic",
+      "url": "https://commandlinesystems.com/magic.txt",
+      "domain": "commandlinesystems.com",
+      "published_at": "2026-11-11T20:26:32Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50458208\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b22e4aa5-4f49-4d87-bac8-551ce109da67",
+      "title": "A general purpose Apple Silicon layer for x86-64 PCs",
+      "url": "https://github.com/tylertms/Stela",
+      "domain": "github.com",
+      "published_at": "2026-11-11T23:02:38Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50460154\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "48bebeaa-f78c-4b58-a47f-cda3b032e855",
+      "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "url": "https://github.com/huawei-csl/MACaQ",
+      "domain": "github.com",
+      "published_at": "2026-11-11T20:23:57Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50458166\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "1807bfc4-c37f-446e-a24b-de6012c30dfa",
+      "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+      "url": "https://termsheetplease.com/",
+      "domain": "termsheetplease.com",
+      "published_at": "2026-11-11T19:12:16Z",
+      "category": "research",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50457230\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "research",
+        "research"
+      ]
+    },
+    {
+      "id": "385fbe2d-e941-4ef9-90de-a3559a4ba31d",
+      "title": "The Utah Teapot",
+      "url": "https://graphics.cs.utah.edu/teapot/",
+      "domain": "graphics.cs.utah.edu",
+      "published_at": "2026-11-11T19:45:10Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50457618\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f6f009b8-5e8d-4d02-beee-60a76c5f36ec",
+      "title": "Making the Iron Giant Live",
+      "url": "https://animationobsessive.substack.com/p/making-the-iron-giant-live",
+      "domain": "animationobsessive.substack.com",
+      "published_at": "2026-11-09T07:26:45Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50422216\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "b8113dd5-c32f-4bf8-8b94-2a61057e24a8",
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "domain": "pietromiotti.com",
+      "published_at": "2026-11-11T12:05:22Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50452455\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "a22cc004-84f8-47b8-83fb-a45117060284",
+      "title": "A Brief History of Sierra Online (2017)",
+      "url": "https://retrofreakreviews.com/2017/01/30/sierra-retrospective/",
+      "domain": "retrofreakreviews.com",
+      "published_at": "2026-11-10T02:12:48Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50435240\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c63101cf-52db-4185-a1ac-914b5e181d5d",
+      "title": "Jensen Huang said to have had relationship with executive who reports to him",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+      "domain": "nytimes.com",
+      "published_at": "2026-11-11T22:03:58Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50459321\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "d1e8b2a1-24e5-4015-a565-d4e1604601a0",
+      "title": "Flying on Green: Why Farmers Are Turning to Drones for Cover Crop Seeding",
+      "url": "https://www.agweb.com/news/machinery/flying-green-why-farmers-are-turning-drones-cover-crop-seeding",
+      "domain": "agweb.com",
+      "published_at": "2026-11-09T22:15:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50433042\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "a59ee07c-0e2c-4112-9336-69525424f588",
+      "title": "The Apple Support Community will permanently close on November 20, 2026",
+      "url": "https://discussions.apple.com/welcome",
+      "domain": "discussions.apple.com",
+      "published_at": "2026-11-11T03:26:51Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "The Apple Support Community will permanently close on November 20, 2026. Discovered from TrendingAgent.",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "691975a5-d100-4521-a0a0-77e257eb6c4f",
       "title": "AWS Finally Built Its Own AWS Emulator",
       "url": "https://github.com/aws/aws-emulator",
@@ -1909,236 +2139,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "44ae3919-843e-43fa-bf7c-c462386ffd9c",
-      "title": "Psalm 7 release: PHP security\u0026static analysis software",
-      "url": "https://psalm.dev/articles/psalm-7",
-      "domain": "psalm.dev",
-      "published_at": "2026-11-07T17:06:18Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50406107\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "f1b24706-14b0-4657-a7d8-193e451ebcd1",
-      "title": "The French Cake Cooked on a Spit (2018) [video]",
-      "url": "https://www.youtube.com/watch?v=havcACdx0Y0",
-      "domain": "youtube.com",
-      "published_at": "2026-11-07T21:28:57Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50408235\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "1278519e-f3e7-49c7-a897-a608d2d6acc8",
-      "title": "Quasi-Logarithmic Kitchen Timer",
-      "url": "https://blog.coredump.cx/p/quasi-logarithmic-kitchen-timer",
-      "domain": "blog.coredump.cx",
-      "published_at": "2026-11-05T01:15:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50373768\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5a315634-95b9-4069-8d95-8f98e27614b9",
-      "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
-      "url": "https://news.ycombinator.com/item?id=50422628",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-11-09T08:17:49Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50422628\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "5e44e12f-023f-45d7-bc6e-6c36b7c3bb1c",
-      "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
-      "url": "https://github.com/OmniJev/Flide",
-      "domain": "github.com",
-      "published_at": "2026-11-09T04:43:12Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50421155\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "2787a53f-7de9-4da8-8b79-1becee3b685b",
-      "title": "Ur-Nammu Founder of the Sumerian Renaissance",
-      "url": "https://www.worldhistory.org/Ur-Nammu/",
-      "domain": "worldhistory.org",
-      "published_at": "2026-11-07T13:35:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50404428\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6c866745-b4d1-472d-9d51-813a6c112bc0",
-      "title": "A Critique of GPUI",
-      "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
-      "domain": "blog.zortax.de",
-      "published_at": "2026-11-09T03:51:10Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50420857\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6bd92636-ab55-4f99-8934-cc6cd28e0028",
-      "title": "Ask HN: Do you still enjoy coding in C++?",
-      "url": "https://news.ycombinator.com/item?id=50423371",
-      "domain": "news.ycombinator.com",
-      "published_at": "2026-11-09T09:50:03Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50423371\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "525fcb29-be95-4d3d-a877-092f6368fc96",
-      "title": "The Qlobe: Rotating Quine (2010)",
-      "url": "http://mamememo.blogspot.com/2010/09/qlobe.html",
-      "domain": "mamememo.blogspot.com",
-      "published_at": "2026-11-09T03:15:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50420599\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "60cf1f9a-f651-49ab-9a9a-c27868e5fb15",
-      "title": "RIP, Harvest",
-      "url": "https://aphyr.com/posts/427-rip-harvest",
-      "domain": "aphyr.com",
-      "published_at": "2026-11-09T01:58:21Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50420035\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a86dafc5-8d0d-46ad-8b96-4e652a6d19a9",
-      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-      "url": "https://ketchup3d.github.io/app/",
-      "domain": "ketchup3d.github.io",
-      "published_at": "2026-11-08T22:35:35Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50418176\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "6e576067-3e78-4720-8d6f-559cc0311acd",
-      "title": "Unlocking any car from X brand in most of the world",
-      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-      "domain": "shubs.io",
-      "published_at": "2026-11-09T00:10:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50419215\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "6c58a360-850d-4501-b29c-3670fca90d4e",
-      "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
-      "url": "https://isocpp.org/files/papers/P4454R0.pdf",
-      "domain": "isocpp.org",
-      "published_at": "2026-11-08T23:28:01Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50418818\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "dd22addd-1303-42a0-adf2-b7283917675c",
-      "title": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics",
-      "url": "https://phys.org/news/2026-11-air-holes-silicon-wafers-flat.html",
-      "domain": "phys.org",
-      "published_at": "2026-11-07T14:51:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50405043\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "bd1010ee-9a45-415a-95a0-dd686bfc1bcf",
-      "title": "Taco: The Tensor Algebra Compiler",
-      "url": "http://tensor-compiler.org/",
-      "domain": "tensor-compiler.org",
-      "published_at": "2026-11-04T01:07:46Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50360369\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8ed8b0fd-e6a4-4d3b-873a-ef379ce8dde7",
-      "title": "I'm Not Convinced the AI Bubble Exists",
-      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-      "domain": "matteoraso.github.io",
-      "published_at": "2026-11-08T23:44:36Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50418975\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-11-11T18:57:11.154645052Z",
+  "last_updated": "2026-11-12T01:13:24.362882313Z",
   "total_count": 150
 }
