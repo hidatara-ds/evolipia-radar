@@ -1,6 +1,133 @@
 {
   "items": [
     {
+      "id": "944c5d62-af64-43ab-90f4-07a0813aa20a",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "domain": "status.claude.com",
+      "published_at": "2026-11-13T10:18:13Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50481187\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "36a91059-2e88-4266-89e5-b57b51a28159",
+      "title": "IceWM",
+      "url": "https://ice-wm.org/",
+      "domain": "ice-wm.org",
+      "published_at": "2026-11-13T04:54:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50478515\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "e411aa07-33ef-48ed-b399-80f98e022825",
+      "title": "Claude Is Down",
+      "url": "https://status.claude.com/history",
+      "domain": "status.claude.com",
+      "published_at": "2026-11-13T10:20:09Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50481220\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "6b3252ff-5fe2-402c-80e3-6d3900e8cf32",
+      "title": "The Dawn of the Data Intelligence Engineer",
+      "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+      "domain": "motherduck.com",
+      "published_at": "2026-11-13T09:08:18Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50480480\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "de3f8994-ce38-41fd-b30a-20f5faa3f695",
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "domain": "brave.com",
+      "published_at": "2026-11-13T03:08:08Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50477649\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "21cc915a-d137-46b1-9aff-e86cef221b61",
+      "title": "Switcher (2004)",
+      "url": "https://folklore.org/Switcher.html",
+      "domain": "folklore.org",
+      "published_at": "2026-11-13T03:14:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50477714\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4c4668d1-4ab8-4918-b5a6-0dde70e7b64c",
+      "title": "Microsoft Outlook/365 still down after 12 hours",
+      "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+      "domain": "twitter.com",
+      "published_at": "2026-11-13T05:08:23Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50478609\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9a022521-94a4-4df8-8f7a-2091d3f50b59",
+      "title": "Global Microsoft Outage",
+      "url": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+      "domain": "cnn.com",
+      "published_at": "2026-11-13T06:18:23Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50479098\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "06ba2449-2717-4d42-b808-4837eac0401d",
+      "title": "TSMC Hacked",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
+      "domain": "sec.gov",
+      "published_at": "2026-11-13T07:39:55Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50479721\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "199cd863-2b1b-48be-ac83-bbf771ea9304",
       "title": "Africa's solar revolution is vast and speedy",
       "url": "https://www.economist.com/middle-east-and-africa/2026/11/12/africas-solar-revolution-is-vast-and-speedy",
@@ -2011,135 +2138,8 @@
         "open-source",
         "open-source"
       ]
-    },
-    {
-      "id": "eea6b085-bcf3-45e1-88ef-eaa27dde9c30",
-      "title": "Blender 5.3 released with Gaussian Splat support",
-      "url": "https://www.blender.org/download/releases/5-3/",
-      "domain": "blender.org",
-      "published_at": "2026-11-10T16:15:43Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50442426\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "c75df7e8-2454-42a3-9d47-136f6a610ad3",
-      "title": "Ableton Live 13",
-      "url": "https://www.ableton.com/en/live/",
-      "domain": "ableton.com",
-      "published_at": "2026-11-10T12:58:04Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50439695\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b5f731cb-50d2-4f8f-8b2e-48b6a72d6888",
-      "title": "Work at the Frontier: AI's effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "domain": "openai.com",
-      "published_at": "2026-11-10T18:02:54Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50443838\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "b3659bfe-319d-478f-b9e1-013e4c1548af",
-      "title": "I deleted all my SSH keys",
-      "url": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
-      "domain": "blog.infected.systems",
-      "published_at": "2026-11-05T18:17:51Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50382401\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "d05b0985-4a76-4264-987c-93d215b123b0",
-      "title": "The Hardest Tarball?",
-      "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
-      "domain": "stoppels.ch",
-      "published_at": "2026-11-10T15:00:39Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50441338\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7fead552-3175-4354-bfee-850d9cfe95e1",
-      "title": "Process Explorer for macOS",
-      "url": "https://github.com/microsoft/Procexp-Mac",
-      "domain": "github.com",
-      "published_at": "2026-11-09T22:30:41Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50433216\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "867425ef-a524-42fb-8f75-0b8373eb5a81",
-      "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
-      "url": "https://tinyvalencia.com/",
-      "domain": "tinyvalencia.com",
-      "published_at": "2026-11-10T15:12:16Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50441518\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "8088aa2e-d5fd-413e-8325-83bcafc1e11a",
-      "title": "What's new in the .NET 11 runtime",
-      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
-      "domain": "learn.microsoft.com",
-      "published_at": "2026-11-10T12:20:07Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50439284\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "da2d0ef8-de49-4ac0-bc4e-f94b6632be90",
-      "title": "NetBSD 11 desktop on a Raspberry Pi 4",
-      "url": "https://neongd.com/articles/netbsd11-rpi4.gmi",
-      "domain": "neongd.com",
-      "published_at": "2026-11-08T12:07:17Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50412554\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-11-13T03:00:23.855803396Z",
+  "last_updated": "2026-11-13T10:39:41.591741834Z",
   "total_count": 150
 }
