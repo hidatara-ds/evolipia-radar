@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "id": "222d31e9-d7b5-4961-8a31-ff2a9a9c77fa",
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+      "domain": "so.long.thanks.fish",
+      "published_at": "2026-11-10T14:16:05Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50440709\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f00b84f8-19fc-4435-96f9-270ff393ccb1",
+      "title": "Monkey Island: all 13 versions side by side",
+      "url": "https://monkeyisland.pages.dev/",
+      "domain": "monkeyisland.pages.dev",
+      "published_at": "2026-11-14T04:23:30Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50493904\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "c0afd04b-2f95-49be-acce-cf9f716dae58",
+      "title": "FAA issues national ground stop – lifted 4.5 hours later",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "domain": "nbcnews.com",
+      "published_at": "2026-11-13T21:05:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50489641\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "0159ad9d-4b13-450e-affe-3f5ac2bad3c0",
+      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+      "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "domain": "engineering.fb.com",
+      "published_at": "2026-11-11T00:48:14Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50448432\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "69a8aea5-02f0-4170-b2a5-25bb7ee6ba3d",
+      "title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
+      "url": "https://github.com/0xdeadf1sh/T1DMAI",
+      "domain": "github.com",
+      "published_at": "2026-11-10T19:07:53Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50444761\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "5be5ae0d-e5ca-4416-913e-998a95409917",
+      "title": "Service Crew Discovers Rare Yellow Burbot in Oswego Harbor",
+      "url": "https://www.fws.gov/story/2026-11/service-crew-discovers-rare-yellow-burbot-oswego-harbor",
+      "domain": "fws.gov",
+      "published_at": "2026-11-11T15:47:43Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50454791\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "635e43ef-b5d8-4091-bdbb-c14b49aa2c7f",
       "title": "Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks",
       "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
@@ -2047,95 +2132,8 @@
         "agents",
         "agents"
       ]
-    },
-    {
-      "id": "4ef18e1d-4a2a-4ea5-b0e0-60a03c1a8ee2",
-      "title": "AWS Emulator and the engineer's job when agents write the code",
-      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-      "domain": "allthingsdistributed.com",
-      "published_at": "2026-11-11T18:28:31Z",
-      "category": "agents",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50456740\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "agents",
-        "agents"
-      ]
-    },
-    {
-      "id": "42b7b43c-7483-447e-bf78-4b072ccd89b6",
-      "title": "AI, activity, and outcomes in software engineering",
-      "url": "https://cabird.com/talks/shipping-faster/",
-      "domain": "cabird.com",
-      "published_at": "2026-11-11T16:33:28Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50455332\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5b91bf97-747e-4133-af07-c3ce8e5628c5",
-      "title": "Pharo in the Browser with WebAssembly",
-      "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
-      "domain": "massimo-nocentini.github.io",
-      "published_at": "2026-11-11T14:21:27Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50453763\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
-    },
-    {
-      "id": "f0387ec7-ae01-4621-9de8-0aa7deda10dd",
-      "title": "Using voltage glitching to unleash the A100 in my mining card",
-      "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
-      "domain": "blog.kate.land",
-      "published_at": "2026-11-11T10:48:40Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50451903\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "ba5731fb-6deb-4958-a639-7bf23c165a1d",
-      "title": "A C++ Quicksort Faster Than std:sort",
-      "url": "https://tiki.li/blog/about_blqsort",
-      "domain": "tiki.li",
-      "published_at": "2026-11-10T06:28:15Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50436788\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "69413797-f22a-4c45-a405-0c876a9bd8f2",
-      "title": "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
-      "url": "https://github.com/0xdeadf1sh/AssemblyForNeovim",
-      "domain": "github.com",
-      "published_at": "2026-11-11T13:34:24Z",
-      "category": "open-source",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50453229\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "open-source",
-        "open-source"
-      ]
     }
   ],
-  "last_updated": "2026-11-14T03:52:32.372946131Z",
+  "last_updated": "2026-11-14T11:02:38.661302453Z",
   "total_count": 150
 }
