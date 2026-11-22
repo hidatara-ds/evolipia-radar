@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "id": "fe96777b-4437-47b0-9238-7963cb5fb633",
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "domain": "github.com",
+      "published_at": "2026-11-21T22:09:58Z",
+      "category": "open-source",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50594132\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "open-source",
+        "open-source"
+      ]
+    },
+    {
+      "id": "90264ac2-6108-4a00-ad19-619a18535c8e",
+      "title": "Advice for the next 100 Rust GUIs",
+      "url": "https://linebender.org/blog/next-100-guis/",
+      "domain": "linebender.org",
+      "published_at": "2026-11-21T21:17:53Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50593737\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "f2400fb8-e3fc-413f-9786-39bc92cea2f6",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
+      "domain": "pandex.io",
+      "published_at": "2026-11-21T20:47:41Z",
+      "category": "agents",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50593481\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "agents",
+        "agents"
+      ]
+    },
+    {
+      "id": "39d3d5d7-5968-4f92-a45d-afef2c40990c",
+      "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
+      "url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
+      "domain": "jna.uni-kiel.de",
+      "published_at": "2026-11-21T21:06:14Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50593637\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "816167c1-54d6-4418-bc14-41e43e5d2a99",
+      "title": "Windows has two settings that bring work back after restart, both off by default",
+      "url": "https://www.makeuseof.com/windows-can-bring-your-work-back-after-restart/",
+      "domain": "makeuseof.com",
+      "published_at": "2026-11-19T14:00:08Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50560203\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "4cb27afd-2c75-49c2-9a6a-c22045299a7c",
+      "title": "Supposed Fired Rockstar Engineer Says GTAVI Makes Psychological Profiles",
+      "url": "https://www.gadgetreview.com/man-claiming-to-be-fired-rockstar-engineer-says-gta-6-is-secretly-tracking-player-behavior-and-reporting-it-to-take-two",
+      "domain": "gadgetreview.com",
+      "published_at": "2026-11-22T01:12:15Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50595256\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "426897b4-3b56-4f98-9163-e625a89045a2",
+      "title": "Shaping the Loops, Closing the Loops",
+      "url": "https://revyl.com/blog/pattern-engineering/",
+      "domain": "revyl.com",
+      "published_at": "2026-11-18T22:29:04Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50553223\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "9f7aced7-78e6-4253-a92c-d67dbb14e903",
+      "title": "Sandwich Simulator",
+      "url": "https://stulle.app/",
+      "domain": "stulle.app",
+      "published_at": "2026-11-22T00:07:59Z",
+      "category": "llm",
+      "score": 0.88,
+      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50594911\"\u003eComments\u003c/a\u003e",
+      "why_it_matters": "High impact artificial intelligence signal and community insight.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
       "id": "9c44b6c7-116a-429f-874c-49fbd3421e73",
       "title": "Inkling-2-Mini in 5.4 GB Memory",
       "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
@@ -2015,122 +2129,8 @@
       "tags": [
         "llm"
       ]
-    },
-    {
-      "id": "b36f6e16-552c-4290-a505-e144656c85ae",
-      "title": "Multiple vulnerabilities in Regexp and String case conversion",
-      "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-      "domain": "ruby-lang.org",
-      "published_at": "2026-11-18T23:52:50Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50554038\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "01f6f564-b130-4504-b544-96e830d7d406",
-      "title": "Unreal Tournament 2004 in the Browser",
-      "url": "https://ut2004.dev/",
-      "domain": "ut2004.dev",
-      "published_at": "2026-11-19T01:29:29Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50554935\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "54d3871b-575a-47d4-889b-ddcfc6242106",
-      "title": "LLM assisted reverse engineering",
-      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-      "domain": "slowchronicle.com",
-      "published_at": "2026-11-18T22:29:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50553225\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "2216c51a-237a-4719-bc5b-c0e07cf71506",
-      "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
-      "url": "https://arxiv.org/abs/2607.29378",
-      "domain": "arxiv.org",
-      "published_at": "2026-11-19T01:27:02Z",
-      "category": "research",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50554908\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "research",
-        "research"
-      ]
-    },
-    {
-      "id": "051c5930-9732-4250-8778-ad80177cf021",
-      "title": "Dumping an AES key from a MyQ garage opener to stop rebooting when offline",
-      "url": "https://kusha.me/blog/stop_myq_homebridge_819lmb_rebooting/",
-      "domain": "kusha.me",
-      "published_at": "2026-11-16T23:47:26Z",
-      "category": "infra",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50525260\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "infra",
-        "infra"
-      ]
-    },
-    {
-      "id": "349fe672-d7e1-4b1e-823a-d34a11432029",
-      "title": "We need smart people who give a shit",
-      "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-      "domain": "violetpixel.com",
-      "published_at": "2026-11-18T23:53:49Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50554045\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "5682f3c0-4bb3-40b2-81d1-66dc57775d02",
-      "title": "Mosquitoes are Ladakh's latest tourists",
-      "url": "https://ruralindiaonline.org/article/mosquitoes-are-ladakh-s-latest-tourists",
-      "domain": "ruralindiaonline.org",
-      "published_at": "2026-11-18T06:08:25Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50542441\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "a8295f93-9d63-4ba7-9531-f95a3d077eb6",
-      "title": "Palo Alto Networks to Acquire Applied Compute for $4.5B",
-      "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
-      "domain": "investors.paloaltonetworks.com",
-      "published_at": "2026-11-18T23:49:13Z",
-      "category": "llm",
-      "score": 0.88,
-      "tldr": "\u003ca href=\"https://news.ycombinator.com/item?id=50554009\"\u003eComments\u003c/a\u003e",
-      "why_it_matters": "High impact artificial intelligence signal and community insight.",
-      "tags": [
-        "llm"
-      ]
     }
   ],
-  "last_updated": "2026-11-21T21:16:09.908801518Z",
+  "last_updated": "2026-11-22T01:27:04.378106769Z",
   "total_count": 150
 }
